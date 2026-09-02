@@ -1,0 +1,1101 @@
+{
+  "schemaVersion": "kehilot-yizkor-adjudication-comparison-v1",
+  "generatedAt": "2026-08-24T22:22:48.753Z",
+  "inputs": {
+    "left": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/evaluation/adjudication-luna-qc-enriched/adjudications.jsonl",
+    "right": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/evaluation/adjudication-terra-qc-enriched/adjudications.jsonl",
+    "cases": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/evaluation/adjudication-terra-qc-enriched/adjudication-cases.json"
+  },
+  "models": {
+    "left": {
+      "model": "gpt-5.6-luna",
+      "serviceTier": "flex",
+      "reasoningEffort": "max",
+      "bundles": 57,
+      "failedBundles": 0,
+      "decisions": 57,
+      "usage": {
+        "inputTokens": 58748,
+        "cachedInputTokens": 0,
+        "uncachedInputTokens": 58748,
+        "outputTokens": 47596,
+        "reasoningTokens": 40236,
+        "totalTokens": 106344
+      },
+      "estimatedCostUsd": 0.006666,
+      "elapsedMs": 114818
+    },
+    "right": {
+      "model": "gpt-5.6-terra",
+      "serviceTier": "flex",
+      "reasoningEffort": "high",
+      "bundles": 10,
+      "failedBundles": 0,
+      "decisions": 57,
+      "usage": {
+        "inputTokens": 41794,
+        "cachedInputTokens": 0,
+        "uncachedInputTokens": 41794,
+        "outputTokens": 14058,
+        "reasoningTokens": 8272,
+        "totalTokens": 55852
+      },
+      "estimatedCostUsd": 0.126142,
+      "elapsedMs": 37397
+    }
+  },
+  "counts": {
+    "sharedCases": 57,
+    "decisionAgreements": 44,
+    "decisionDisagreements": 13,
+    "decisionAgreementRate": 0.7719,
+    "missingOnLeft": 0,
+    "missingOnRight": 0
+  },
+  "agreementByCaseType": {
+    "OBSERVATION_REVIEW": {
+      "compared": 57,
+      "decisionAgreement": 44,
+      "decisionAgreementRate": 0.7719
+    }
+  },
+  "missingCaseIds": {
+    "left": [],
+    "right": []
+  },
+  "disagreements": [
+    {
+      "caseId": "review_05911cee1a8657f18b261ce7",
+      "case": {
+        "caseId": "review_05911cee1a8657f18b261ce7",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_2f8e6c4bf8b15d4711576eda",
+        "reviewReason": "HIGH_CONFIDENCE_CLAIM_QC_10_PERCENT",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "predicate": "PARTICIPATED_IN",
+          "subject": {
+            "id": "entity_candidate_f57c0692aa6d3ec36f4b1d87",
+            "type": "ORGANIZATION",
+            "displayNameEn": "Jewish police",
+            "originalName": "די ײדישע פאליצײ",
+            "summaryEn": "The Jewish police helped capture Jews and escort them to the train."
+          },
+          "object": {
+            "id": "entity_candidate_a23c58363fc7dc02f9e0c6d0",
+            "type": "COMMUNITY",
+            "displayNameEn": "Jews",
+            "originalName": "ײדן",
+            "summaryEn": "Jews were captured and escorted to the train."
+          },
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"activity\":\"capturing Jews, guarding the square, and escorting them to the train\"}"
+        },
+        "evidence": {
+          "passageId": "passage_2a8982ea72aef71824aed2c4",
+          "scanIndex": 388,
+          "printedPage": "384",
+          "quote": "די ײדישע פאליצײ, װאס האטא גאנצן טאג געהאלפן בײם כאפןח ײדן, בײם היטן אויפן פלאץ און שפעטער אויך בײם עםקארטיח זײ צו דער באן",
+          "context": "די ײדישע פאליצײ, װאס האטא גאנצן טאג געהאלפן בײם כאפןח ײדן, בײם היטן אויפן פלאץ און שפעטער אויך בײם עםקארטיח זײ צו דער באן׳ האבן זיך",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_05911cee1a8657f18b261ce7",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote directly states that the Jewish police helped capture Jews, guard the square, and later escort them to the train.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_05911cee1a8657f18b261ce7",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "ASSISTED_IN_CAPTURE_AND_ESCORT_OF",
+        "revisedObjectOrSummaryEn": "Jews; the police helped capture them, guard the square, and escort them to the train.",
+        "rationaleEn": "The police participated in actions against Jews, not in the Jews themselves.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_062f9c8810da4019db891f84",
+      "case": {
+        "caseId": "review_062f9c8810da4019db891f84",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_e5d525cc1c1d8422bb46c081",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "eventType": "DEPORTATION",
+          "titleEn": "Child sent to destruction transport",
+          "summaryEn": "Police order the four-year-old girl to leave the dwelling and go to a destruction transport.",
+          "dateStart": "",
+          "dateEnd": "",
+          "place": {
+            "id": "entity_candidate_9e86430166b7332942e74568",
+            "type": "PLACE",
+            "displayNameEn": "Destruction transport",
+            "originalName": "פארניכטונגם־טראנםפארט",
+            "summaryEn": "A police order sends the child and others toward a destruction transport."
+          },
+          "participants": [
+            {
+              "role": "SUBJECT",
+              "entity": {
+                "id": "entity_candidate_b309d58c00c0239c5b608427",
+                "type": "PERSON",
+                "displayNameEn": "Four-year-old girl",
+                "originalName": "פיר־יעריקע ״מאמע״",
+                "summaryEn": "A four-year-old girl playing with her doll is taken to a destruction transport."
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "passageId": "passage_7d4bbfd809e6c305dc037b6e",
+          "scanIndex": 310,
+          "printedPage": "306",
+          "quote": "הײםט פארלאזן די וװינונג און גיץ צום פארניכטונגם־טראנםפארט",
+          "context": "306\n\nםשר לוקאװ\n\nװארשע, מיץ לעצטע דירה אויף טײארדע־גאם 28. מײן פיריעריק מײדעלע שפילט זיד מיט איר ליאלקע. אן איכערגעדרײט פוםן־כענקעלע מיט די פיםלעך ארויף איז דאם כעטעלע פון איר ליאלקע־קינד. װען זי הילט ארום די ליאלקע מיטא האנטעך, רייםט זיד אריץ פאליצײ, הײםט פארלאזן די וװינונג און גיץ צום פארניכטונגם־טראנםפארט.\n\nדי פיר־יעריקע ״מאמע״ געזעגנט זיד מיט איר ליאלקע־קינד, זי גיט אירא קוש אין קעפל, כעט זי זאל זײן שטיל, נישט װײנען, נישט כענקען\n\nא שעה שפעטער געפין איך זיך אין שטוכ אײגע אליץ מיט דער ארומגעטוליעטער ליאלקע. איןא װינקל— די אלטע שיכעלעך פון מײן קינדז די אפצאםעלעד אין איץ זײט אויםגעקרימט, די שנורכענדלעד— אויפגעבונדןו אויפן טיש—א שטיקעלע נישט דערעםן ברויט מיט צײכנם פון דראבנע צײנדלעך,א טעלעי־ל געטא־טײ און נעבן טעלערל—א קלײנע טאמאטע, פאר װעלכע כ׳האב דעם זעלבן טאג באצאלט מיטא גאלדן רינגל.\n\nדער שאטן פון מיץ שטילער מאמען, װאם איז צוזאמען מיטן קינד ארויםגעריםן געװארן פון שטוב, בלאנדזשעט בײ דעם קיכל, בײ די טעפלעך, בײ דעם אין שיםל אײנ־ געװײקטן ביםל קינדער־װעש, װעלכע מ׳דארף שוין נישט װאשן,",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_062f9c8810da4019db891f84",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "Police order the household, including the four-year-old girl, to leave the dwelling and go to a destruction transport.",
+        "rationaleEn": "The passage supports the police order and deportation, but addresses the household rather than clearly identifying the girl as the sole addressee.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_062f9c8810da4019db891f84",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "Police ordered those in the dwelling to leave and go to a destruction transport; the child was taken from the home with her mother.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_1299292e4d9f6b2ceac3b9cf",
+      "case": {
+        "caseId": "review_1299292e4d9f6b2ceac3b9cf",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_115b09aaadb1193eba4cd59f",
+        "reviewReason": "HIGH_CONFIDENCE_CLAIM_QC_10_PERCENT",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "predicate": "WORKED_AT",
+          "subject": {
+            "id": "entity_candidate_270352b244ad5fb224735d14",
+            "type": "PERSON",
+            "displayNameEn": "Rabbi Ber",
+            "originalName": "ר׳ בער",
+            "summaryEn": "A pious man who studied Torah nightly and taught children."
+          },
+          "object": {
+            "id": "entity_candidate_0ad086fab60527f9c95fb2b3",
+            "type": "BUSINESS",
+            "displayNameEn": "Bakery",
+            "originalName": "בעקעריי",
+            "summaryEn": "A bakery where Rabbi Ber reportedly studied Torah with the narrator’s father."
+          },
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"context\":\"studied Torah there with the narrator's father\"}"
+        },
+        "evidence": {
+          "passageId": "passage_891b6584858ba3cfcc36cee6",
+          "scanIndex": 304,
+          "printedPage": "300",
+          "quote": "פלעגט צו אים קומען ר׳ בער אין דער בעקעריי מיט אים תורה לערנען",
+          "context": "ין פארנאכטן פלעגט ער אויפשטײן, ארויםגיין אין מארק, צוזאמעננעמען קינדערלעך, זײ ארײנפירן אין פאליש, אויסשטעלןא ראד, זיך אריינשטעלן אין מיטן, און מיט די אויפן הויכן קול קריאת שמע לײענען.— ר׳ בערל האט זיך פארטראכט, װי אײנער, װאס װיל זיך אין עפעם דערמאנען, און וױיטער גערעדט־— מיץ טאטע ע״ה האט מיר דערצײלט, אלע נאכט נאך תצות פלעגט צו אים קומען ר׳ בער אין דער בעקעריי מיט אים תורה לערנען. יעה צוױיטן טאג איבעחזזח װאם מען האט נעכטן געלערנט, און וױיטער לערנען. נאר אײן מאל איז געשען, װי ר׳ בער איז נישט געקומען. דער טאטע האט געװארט און גע־ װארט, און ר׳ בער איז אלץ נישט געקומען, ער איז אויפגעשטאנען, אװעק אין בית־מדרש זען װאס עם איז געשען. װי דער טאטע איז ארײנגעקומען אין בית־מדרש, האט ער דער־ הערטא קול. דאם קול איז געװען װיא טיפער, שטילער קרעכץ פון אן אינעוױיניקםטן יאמער, װעןא מענטש האלט אט־אט בײם אויםגײן. דער טאטע איז מיט אן אימפעט צוגעלאפן. ר׳ בערם אויגן האבן װי בלאנדזשענדיק עפעס געזוכט. ער האט אנגעכאפט דעם טאטנם האנט און װי מיט די לעצטע כוחות דינע געזאגט:— ישראל יצחק, דײן בכור, װעלכער װעט בײ דיר געבוירן װערן זאלסטו רופן בערל׳ בערל, בערל— דרײ מאל איבערגעחזרט...",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_1299292e4d9f6b2ceac3b9cf",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "STUDIED_TORAH_AT",
+        "revisedObjectOrSummaryEn": "Rabbi Ber studied Torah with the narrator’s father at the bakery.",
+        "rationaleEn": "The quote says Rabbi Ber came to the bakery to study Torah with the narrator’s father; it does not support WORKED_AT.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_1299292e4d9f6b2ceac3b9cf",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "Rabbi Ber came to the narrator's father at the bakery to study Torah; the text does not say he worked there.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_1b66d7d1336009a9f8eb96ec",
+      "case": {
+        "caseId": "review_1b66d7d1336009a9f8eb96ec",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_8140c3069e561c1e2aaedd9a",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "eventType": "MURDER",
+          "titleEn": "Murder of the Karpenkop family",
+          "summaryEn": "The Karpenkop family, stated to comprise fifteen people, was murdered by German perpetrators.",
+          "dateStart": "",
+          "dateEnd": "",
+          "place": null,
+          "participants": [
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_fcfe7b4cee3ee09efb711ec8",
+                "type": "FAMILY",
+                "displayNameEn": "Karpenkop family",
+                "originalName": "קארפענקאפ",
+                "summaryEn": "Family memorialized as consisting of fifteen people."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_e8a787ff8a0dd6bb922f4ffc",
+                "type": "PERSON",
+                "displayNameEn": "Mindl Karpenkop",
+                "originalName": "מינדל קארפענקאפ",
+                "summaryEn": "Memorialized friend killed with her family."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_4f53217ed85cf129703a37bf",
+                "type": "PERSON",
+                "displayNameEn": "Alter Walman",
+                "originalName": "אלטער װאלמאן",
+                "summaryEn": "Memorialized friend killed with his family."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_3d058cca33241a1f41063468",
+                "type": "PERSON",
+                "displayNameEn": "Berele Karpenkop",
+                "originalName": "בערעלע",
+                "summaryEn": "Named as a young boy killed with the Karpenkop family."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_37aaa92eed0492d9c0796bea",
+                "type": "PERSON",
+                "displayNameEn": "Chaya-Rachel",
+                "originalName": "חיה־רחל",
+                "summaryEn": "Named as the mother in the Karpenkop family list."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_631cb7dbd9b46e879275ef56",
+                "type": "PERSON",
+                "displayNameEn": "Hershel",
+                "originalName": "הערשל",
+                "summaryEn": "Named as a son in the Karpenkop family list."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_47cf6d31826aec584a005cc0",
+                "type": "PERSON",
+                "displayNameEn": "Roizke",
+                "originalName": "רויזקע",
+                "summaryEn": "Named as Hershel's wife."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_e57d844eb720b5cd45d37dee",
+                "type": "PERSON",
+                "displayNameEn": "Genie",
+                "originalName": "געניע",
+                "summaryEn": "Named as Hershel and Roizke's daughter."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_02997ff39134ae56895f759b",
+                "type": "PERSON",
+                "displayNameEn": "Judith",
+                "originalName": "יהודית",
+                "summaryEn": "Named as an older daughter in the Karpenkop family list."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_6dab5db6e422b317af0d1e8c",
+                "type": "PERSON",
+                "displayNameEn": "Moses Barnstein",
+                "originalName": "משה בארנשטײן",
+                "summaryEn": "Named as Judith's husband."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_3dffa5aa192adb13003535ef",
+                "type": "PERSON",
+                "displayNameEn": "Berele",
+                "originalName": "בערעלע",
+                "summaryEn": "Named as one of Judith and Moses's two sons."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_66f124e1eadb8a3da94c11bd",
+                "type": "PERSON",
+                "displayNameEn": "Avramle",
+                "originalName": "אברהמלע",
+                "summaryEn": "Named as one of Judith and Moses's two sons."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_bffc3a65725e2186953aa9ac",
+                "type": "PERSON",
+                "displayNameEn": "Mindl",
+                "originalName": "מינדל",
+                "summaryEn": "Named as the middle daughter in the Karpenkop family list."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_e2bc42327da71929f41965ea",
+                "type": "PERSON",
+                "displayNameEn": "Leah-Golde",
+                "originalName": "לאה־גאלדע",
+                "summaryEn": "Named as the youngest daughter in the Karpenkop family list."
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "passageId": "passage_cf284c4d54ba9eb008676a50",
+          "scanIndex": 634,
+          "printedPage": "630",
+          "quote": "אלע אומגעבראכט דורך די דײטשע רוצחים",
+          "context": "ארפענקאפ׳ װאם איז באשטאנען פון15 פערזאן.\n\nדי מוטער חיה־רחל\n\nדער זון הערשל מיט דער פרוי רויזקע און טאכטער געניע׳ די עלטערע טאכטער יהודית, מיט איר מאן משה בארנשטײן און זײערע צוױי זין בערעלע\n\nאון אברהמלע,\n\nדי מיטלםטע טאכטער מינדל און משפחה, װעלכע זענען שוין אויבן דערמאנט, די ײנגםטע טאכטער לאה־גאלדע מיט איר מאן און קינד.\n\nאלע אומגעבראכט דורך די דײטשע רוצחים.\n\n630",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_1b66d7d1336009a9f8eb96ec",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The OCR explicitly states that all were murdered by German murderers, and the surrounding text identifies the Karpenkop family as comprising fifteen people and lists its members.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_1b66d7d1336009a9f8eb96ec",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "MURDER",
+        "revisedObjectOrSummaryEn": "The passage states that the fifteen-person Karpenkop family was murdered by German killers.",
+        "rationaleEn": "The core family murder is supported, but Mindl Karpenkop and Alter Walman are not identified in the supplied passage as victims in this event.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_1c652b96ec8341b3ea078ab9",
+      "case": {
+        "caseId": "review_1c652b96ec8341b3ea078ab9",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_d401adcc9a3d1022f3e2c915",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "LOW",
+        "uncertaintyNoteEn": "OCR makes the second date and year unclear; the passage names two affected towns.",
+        "interpretation": {
+          "eventType": "FIRE",
+          "titleEn": "Fire in Kock and Damashevnitse",
+          "summaryEn": "A severe fire devastated property belonging to hundreds of families.",
+          "dateStart": "1930-09-04",
+          "dateEnd": "1930-09-05",
+          "place": {
+            "id": "entity_candidate_648aec4f230538f5ea7c45ca",
+            "type": "PLACE",
+            "displayNameEn": "Kock",
+            "originalName": "קאצק",
+            "summaryEn": "Town affected by a devastating fire in September."
+          },
+          "participants": []
+        },
+        "evidence": {
+          "passageId": "passage_0e702eb5daccdb8aa241f1dd",
+          "scanIndex": 250,
+          "printedPage": "246",
+          "quote": "א שרעקלעד םטיכיש אומגליק האט געטראפן דעם 4טן און צטן סעפטעמבער",
+          "context": "דער הילפס־קאמיטעט 6אר די נשרפים פון קאצק און דאמאשעװניצע,\n\nהאט ארויסגעלאזט פאלגנדיקן אויפרוף:\n\nצו די אײנוװינער פון לוקאװ!\n\nא שרעקלעד םטיכיש אומגליק האט געטראפן דעם 4טן און צטן סעפטעמבער ד. י׳\n\nדי שטאט קאצק אמ דארף דאמאשעװניצע.\n\nדאס פײער האט פולקאם פארניכטעט דאס פארמעגן פון דער גרעםטער טייל פון דער באפעלקערונג פון יענע מקומות. דאם האב און גוטס פון הונדערטער משפחות און אװעק מיטן רויד. הונדערטער מענטשן זענען געבליבן אןא דאד איבעדן קאפ׳ אן קאידונג׳ אן מיטלען צום לעבן׳ אן אמת בילד פון נויט אמ יאוש• נאד אלץ אונטעח אײנדרוק פון דער שרעקלעכער קאטאסטראפע װארטן די ראטלאזע אויף הילף.\n\nדי מיטגלידער פון קאמיטעט װעלן דורכגײן די שטאט און זאמלען נדבות פאר די אומגליקלעכע.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_1c652b96ec8341b3ea078ab9",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "LOW",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage supports a devastating fire affecting Kock and Damashevnitse and hundreds of families, but the second September date and the year are unresolved in the supplied OCR.",
+        "needsHumanReview": true
+      },
+      "right": {
+        "caseId": "review_1c652b96ec8341b3ea078ab9",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "FIRE",
+        "revisedObjectOrSummaryEn": "A severe fire devastated the property of hundreds of families in Kock and Damashevnitse.",
+        "rationaleEn": "Both towns and the devastation are stated, but the supplied OCR does not support the proposed 1930 dates.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_2c7c13f6c569884c9ec8b431",
+      "case": {
+        "caseId": "review_2c7c13f6c569884c9ec8b431",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_fe9a85d9dab257252b6f7b2e",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "eventType": "FIRE",
+          "titleEn": "Bube Malke performs the challah commandment",
+          "summaryEn": "Bube Malke threw pieces of dough onto burning coals while praying for her sick child.",
+          "dateStart": "",
+          "dateEnd": "",
+          "place": null,
+          "participants": [
+            {
+              "role": "SUBJECT",
+              "entity": {
+                "id": "entity_candidate_fecf3d4c4cb0a66cdeeeb173",
+                "type": "PERSON",
+                "displayNameEn": "Bube Malke",
+                "originalName": "באבע מלכה",
+                "summaryEn": "A grandmother who performed the challah commandment and prayed for her sick child."
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "passageId": "passage_b63fde9079ff5b9413b9b774",
+          "scanIndex": 303,
+          "printedPage": "299",
+          "quote": "האט זי געװארפן שטיקער טײג אויף די ברענענדיקע קוילן",
+          "context": "װה־ײנגל געװען, און װען עם האט געהאלטן זײער שלעכט, האט זיך באבע מלכה אװעקגעזעצט נעבן ברענענדיקן אוױון און געזאגט:— אפשר צארנםטו אויף מיץ קינד, וױיל איך כין זינדיק, רב׳־נו של עולםז דו וױיםט דאך, אז דאם טו איך נאר פאר דײנעטװעגן, דײנע קינדער זענען הונגעריק און די מצװה װארט מען זאל זי מקײם זיץ— די מצװה פון חלה, און רעדנדיק האט זי געװארפן שטיקער טײג אויף די ברענענדיקע קוילן,\n\nדי פלאמען האבן ארומגעגומען דאם געױירענע טײג. פון באקאוױון האט געזעצט א רויךך וױ פוןא מזבח. און אזוי ארום האט באבע מלכה שטיקערװ־יז דעם גאנצן קאםטן טײג אין אוױון ארײנגעװארפן.\n\nדאם קינד איז געזונט געװארן. און דעמאלט האט באבע מלכהא נדר געטאן, אז זיץ גאנץ לעבן זאל ער אפהיטן די מצװה פון חלה, אץ דער דידע האט דעם גדר מקײם געװען...\n\nאן אנגעבלאזן װאלקנדל, װאם זאגט אןא רעגן האט זיך געטראגן מיט אן אימפעט װיא שאלאטן־שמש, און װען עם איז פארבײ די זון האט דער גאנצער דרויםן װיא ציטע־ר געטאן. פלוצים האט זיך דערהערטא גערויש, װי מען װאלט קײקלען לײדיקע םעםער פון איץ עק װעלט ביזן אנדערן. ר׳ בערלם יראת־השמים־פנים האט זיך אויפגעהויבן",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_2c7c13f6c569884c9ec8b431",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The Yiddish passage explicitly says Bube Malke threw pieces of dough onto burning coals while speaking about her sick child and the challah mitzvah.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_2c7c13f6c569884c9ec8b431",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "Burning coals are part of the ritual described; the passage does not describe a fire event.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_46857025e0e4026036c886f4",
+      "case": {
+        "caseId": "review_46857025e0e4026036c886f4",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_eeb333932c73fc7c4bc88536",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "eventType": "AKTION_OR_RAID",
+          "titleEn": "Nazi invasion of Poland",
+          "summaryEn": "Hitler invaded Poland in September 1939, beginning a catastrophe for Polish Jewry.",
+          "dateStart": "1939-09",
+          "dateEnd": "",
+          "place": {
+            "id": "entity_candidate_057358862a7cfbe7749b8cf4",
+            "type": "PLACE",
+            "displayNameEn": "Poland",
+            "originalName": "פוילן",
+            "summaryEn": "Country whose political status changed repeatedly in the passage."
+          },
+          "participants": [
+            {
+              "role": "PERPETRATOR",
+              "entity": {
+                "id": "entity_candidate_2cabd51b9736c79dcb1a32e9",
+                "type": "PERSON",
+                "displayNameEn": "Hitler",
+                "originalName": "היטלער",
+                "summaryEn": "Leader named in connection with the 1939 invasion of Poland."
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "passageId": "passage_9be064f8adcdb564b5736834",
+          "scanIndex": 25,
+          "printedPage": "21",
+          "quote": "אין םעפטעמבער 1939 קומטא נייע װעלט־קאטאםטראפע. היטלער אינוואזירט פוילן",
+          "context": "ער פירשטנטום, בתוכו אויך לוקאװ. אין1815 באשטעטיקט דער װינער קאנגרעם דעם געשעענעם פאקט. לוקאװ גײט איבער צו רוםלאנד.א נײ קאפיטל עםנט זיך פאר לוקאװער יידן,א קאפיטל, װאם האט זיך פארענדיקט מיט דער ערשטער װעלט־מלחמה. װידערא מאל עםטרײכישע און דײטשע אקופאציע, װידערא מאל פוילישע זעלבשטענדיקייט— לוקאװער ײדן װערן פוילישע בירגער. אין םעפטעמבער 1939 קומטא נייע װעלט־קאטאםטראפע. היטלער אינוואזירט פוילן. מיט דעם אקט איז געחתמעט געויאת דער גורל פונעם פוילישן יידנטום— בתוכה לוקאװער ײדן— די יידישע קהילה־קדושה פון לוקאװ איז געװארן פארשניטן אויף אײביק.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_46857025e0e4026036c886f4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The Yiddish quote explicitly states that in September 1939 Hitler invaded Poland and links the event to the catastrophe of Polish Jewry.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_46857025e0e4026036c886f4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text supports an invasion of Poland, not an Aktion or raid event type.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_8d91221a6708a64142f5a95f",
+      "case": {
+        "caseId": "review_8d91221a6708a64142f5a95f",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_cd3e5c0827f6b781e5cfcceb",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "eventType": "EMPLOYMENT",
+          "titleEn": "Farm labor in a village",
+          "summaryEn": "The narrator worked with villagers, hauling manure, plowing, and sowing.",
+          "dateStart": "",
+          "dateEnd": "",
+          "place": {
+            "id": "entity_candidate_c7ece3777f2436430ba12ad2",
+            "type": "PLACE",
+            "displayNameEn": "Neighboring village",
+            "originalName": "כפר שכן",
+            "summaryEn": "Village where the narrator’s mother and brother initially hid."
+          },
+          "participants": [
+            {
+              "role": "EMPLOYEE",
+              "entity": {
+                "id": "entity_candidate_6dd9d94dd35e9d15f1ed175e",
+                "type": "PERSON",
+                "displayNameEn": "Unnamed narrator",
+                "originalName": "אני",
+                "summaryEn": "Narrator worked as a farm laborer in a quiet village after winter."
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "passageId": "passage_ef4097cedb344834e6ee82a3",
+          "scanIndex": 412,
+          "printedPage": "408",
+          "quote": "אני עובד עם כולם, מעיא את הזבל מהרפת, חורש וזורע",
+          "context": "תםז״ שאלתי הלאה. ״התעטפתי עם יעקב במעיל השחור, הםתתרתי בפינד, של המרתף והחלטתי לא לזוז מהמקום. כשהחלו לירות ולגרש מהמרתף, לא זזנו מהמקום״.\n\nואלו היו העינים, שראו שקיעת יהדות לוקוב.\n\nשוב אביב. אני כבר חרשתי את השדד״ זרעתי את זריעת האביב. בכפר שקט. האכרים חורשים וזורעים. מתכוננים כבר לזרוע תפוחי אדמה ומתכוננים לחג פסחא. אני עובד עם כולם, מעיא את הזבל מהרפת, חורש וזורע. אבל זד, רק לבני אדם. למענם אני שמח ונוצרי מאמין. אני הולך לכנםיה כל יום ראשון ולפעמים אף באמצע השבוע. בכנסיה אני עוזר לכומר בתפילות.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_8d91221a6708a64142f5a95f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "EMPLOYMENT",
+        "revisedObjectOrSummaryEn": "The narrator worked with everyone in a quiet village, removing manure from the barn, plowing, and sowing.",
+        "rationaleEn": "The employment and farm-labor actions are directly supported. The evidence says “in a quiet village,” not a neighboring village or a village identified by the supplied place summary.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_8d91221a6708a64142f5a95f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The narrator explicitly says he worked with everyone, hauling manure, plowing, and sowing in the village.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_a106a42ffc43200860a318be",
+      "case": {
+        "caseId": "review_a106a42ffc43200860a318be",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_bdc6216eb2dfce65d552837e",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "eventType": "MURDER",
+          "titleEn": "Massacre of Jewish young men",
+          "summaryEn": "Polish fighters murdered Jewish young men after proposing joint resistance against Germans.",
+          "dateStart": "",
+          "dateEnd": "",
+          "place": {
+            "id": "entity_candidate_c1ea75f31014f3d0f1c14624",
+            "type": "PLACE",
+            "displayNameEn": "Lukow",
+            "originalName": "לוקאװ",
+            "summaryEn": "Town from which a group of armed young men came."
+          },
+          "participants": [
+            {
+              "role": "SURVIVOR",
+              "entity": {
+                "id": "entity_candidate_f67abb711d5711f8f2b5b3ae",
+                "type": "PERSON",
+                "displayNameEn": "Reuven Weisbaum",
+                "originalName": "ראובן װײסבוים (באבעניקער)",
+                "summaryEn": "Named as a Lukow comrade and one of two survivors of a massacre."
+              }
+            },
+            {
+              "role": "SURVIVOR",
+              "entity": {
+                "id": "entity_candidate_67e3ce7dfe0094900f86813b",
+                "type": "PERSON",
+                "displayNameEn": "Nate Karasik",
+                "originalName": "נאטע קאראסיק",
+                "summaryEn": "Named as one of two survivors who escaped the massacre."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_3c7d25e6bc6841d2cb9f0db3",
+                "type": "PERSON",
+                "displayNameEn": "Yekhiel Hantshtek",
+                "originalName": "יחיאל האנטשטאק",
+                "summaryEn": "Named among armed young men later murdered by Poles."
+              }
+            },
+            {
+              "role": "VICTIM",
+              "entity": {
+                "id": "entity_candidate_656dd7b8f6a6dd49a5bad6d2",
+                "type": "PERSON",
+                "displayNameEn": "Erlich",
+                "originalName": "ערליך",
+                "summaryEn": "Name recalled among those murdered in the massacre."
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "passageId": "passage_16fe53f34d5b9883fbccd333",
+          "scanIndex": 325,
+          "printedPage": "321",
+          "quote": "בײ נאכט, װען די ײדישע ױנגעלײט זענען געשלאסן, האבן די פאליאקן זיי דערמארדעט",
+          "context": "ר דער משפחה רענדל.\n\nא גרופע באװאפנטע ױנגעלײט פון לוקאװ האבן זיך געטראפן מיטא גרוםע בא־ װאפנטע פאליאקן, װאס האבן זיך פארגעשטעלט אלס קעמפער קעגן די דײטשן. די פאליאקן האבן פארגעלײגט, אז די ײדן זאלן זיך פאראײניקן מיט זײ, כדי צװאמען ארויסצוטרעטן קעגן די דײטשן. די נאױוע ײדישע ײנגלעך האבן געגלײבט און אנגענו־ מען דעם פארשלאג. בײ נאכט, װען די ײדישע ױנגעלײט זענען געשלאסן, האבן די פאליאקן זיי דערמארדעט. בלויז2 פון זײ— ראובן װײסבוים און נאטע קאראסיק— איז געלונגען צו אנטלויפן. פון די דערהרגעטע געדענק איך די נעמען( יחיאל האנט־ שטאק, ערליך.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_a106a42ffc43200860a318be",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote directly states that armed Poles proposed joint resistance against the Germans, then murdered the Jewish young men while they slept; it also names the two survivors and victims.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_a106a42ffc43200860a318be",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "MURDER",
+        "revisedObjectOrSummaryEn": "Polish fighters murdered armed young Jewish men after proposing that they unite against the Germans; two men escaped.",
+        "rationaleEn": "The murder and named survivors are supported, but the passage says the victims were from Lukow, not that the murder occurred there.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_cc50eb424776308ea3e95cb4",
+      "case": {
+        "caseId": "review_cc50eb424776308ea3e95cb4",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_1b3c735ec1dbd46ea400f8d7",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "LOW",
+        "uncertaintyNoteEn": "The action does not fit an allowed event type cleanly; date range is attached to the ruler, not the construction.",
+        "interpretation": {
+          "eventType": "ORGANIZATION_FOUNDING",
+          "titleEn": "Boleslaw ordered construction in Lukow",
+          "summaryEn": "Boleslaw ordered a wooden castle and a church built in Lukow.",
+          "dateStart": "1221",
+          "dateEnd": "1274",
+          "place": {
+            "id": "entity_candidate_d30bce4dc372012af1fb043b",
+            "type": "PLACE",
+            "displayNameEn": "Lukow",
+            "originalName": "לוקאװ",
+            "summaryEn": "A town described as a significant transit point between Poland and Lithuania."
+          },
+          "participants": [
+            {
+              "role": "ORGANIZER",
+              "entity": {
+                "id": "entity_candidate_bbab46b9a126324fd5a803b9",
+                "type": "PERSON",
+                "displayNameEn": "Boleslaw",
+                "originalName": "באלעסלאװ װםטידליװי",
+                "summaryEn": "A Piast royal-family member who developed Lukow and built structures there."
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "passageId": "passage_53baf5f6f98f2e8975f50341",
+          "scanIndex": 19,
+          "printedPage": "15",
+          "quote": "באלעסלאװ האט אויך געלאזט דארט אויפשטעלןא קאשטשאל",
+          "context": "װ װםטידליװי (דער צניעותדיקער) (1274—1221),א מיטגליד פון דער קיניגלעכער פיאסט־משפחה—א הילצערנעם שלאס. ער האט אויך אריבערגעבראכט אהינצו מיטגלידער פון דעם טעמםלאר־ארדן (קזשיזשאצי— קרײצלעד), װעמענם אויפגאבע עם איז געװען צו פארטײדיקן פוילן קעגן די יאדזשװיניגן. װאם פלעגן איבערפאלן און ארײנדרינגען אין דער פוילישער טעריטאריע. באלעסלאװ האט אויך געלאזט דארט אויפשטעלןא קאשטשאל. באלעסלאוי האט מיט דעם אריבערברענגען די טעמפלארן געהאט גאךא געדאנק: צו באקערן די געצנדינערישע (פאגאנישע) באפעלקערונג צום קריסטנטום.\n\nכדי צו אנטװיקלען דעם דאדטיקן ראיאן, האט באלעסלאװ געשאנקען דעם אדלשטאנד (שליאכטא) גרויסע שטחים לאנד, װאס זײ האבן געדארפט באארבעטן. אזוי ארום איז לוקאװ געװארןא באדײטנדיקער פארקער־פונקט צװישן פוילן און ליטע. דער דאזיקער פארקער איז געװארן פיל גרעםער און חשובער נאך דעם, װי פוילן האט פארנומען גדאנסק (דאנציג). פוילן האט באקומעןא צוטדיט צום אפענעם יםא דאנק װאס זי האט אנגעהויבן שיקן אירע אגראר־פראדוקטן אין די מערב־לענדער.\n\n•) אין פויליש— לוקאװ פאדליאסקי. ײדן םלעגן זאגן; ליקעװע, ליקאװע. םארגלײך שו״ת בית חדש הישנות םיסן ם״ח לוקאוו אדער ליקבא, ליקװע1 םארגל. שױת םהר־ם םלובלץ םיםן נ״ם.\n\n15",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_cc50eb424776308ea3e95cb4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote supports Boleslaw having a castle erected in Lukow, but not a church, an organization-founding event, or the attached 1221–1274 construction range. The interpretation is schema-forced and unsupported.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_cc50eb424776308ea3e95cb4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "CONSTRUCTION",
+        "revisedObjectOrSummaryEn": "Boleslaw ordered a wooden castle and a church built in Lukow.",
+        "rationaleEn": "The passage supports construction, not organization founding; the dates describe Boleslaw's rule.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_efb5ed3718f70d9632e45666",
+      "case": {
+        "caseId": "review_efb5ed3718f70d9632e45666",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_2396100a404e09bf1a7dc050",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "eventType": "EMPLOYMENT",
+          "titleEn": "Forced labor quota",
+          "summaryEn": "The Judenrat was ordered to supply 500 Jewish laborers but produced 300.",
+          "dateStart": "",
+          "dateEnd": "",
+          "place": {
+            "id": "entity_candidate_d29603accf03bf20f853ca79",
+            "type": "COMMUNITY",
+            "displayNameEn": "Lukow",
+            "originalName": "לוקאװ",
+            "summaryEn": "Jewish community described under German persecution."
+          },
+          "participants": [
+            {
+              "role": "ORGANIZER",
+              "entity": {
+                "id": "entity_candidate_033df191da34e96da6a8e020",
+                "type": "INSTITUTION",
+                "displayNameEn": "Lukow Judenrat",
+                "originalName": "ױדענראט",
+                "summaryEn": "Council ordered to provide Jewish laborers."
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "passageId": "passage_04ead290f6efd9c815d320f2",
+          "scanIndex": 435,
+          "printedPage": "431",
+          "quote": "מען האט געפאדערט פון ױדענראט500 ײדן אויף ארבעט",
+          "context": "ם לעבן פון די ײדן אין לוקאװ איז מיט יעדן טאג געװארן אלץ שװערער. חוץ די קלעפ װאס מען האט געגעבן בײ יעדער געלעגנהײט׳ האט מען ארויםגעגעבןא בא־ פעל׳ אז יעדער ײד פון13 יאר אן דארף טראגןא באנד מיטא מגן־דוד. שפעטער האט מען דאס פארביטן אויף געלע לאטעם. דאם לעבן פון די ײדן איז געװען הפקר. מען פלעגט דערשיסן ײדן אין מיטן גאס. אז מען האט געפאדערט פון ױדענראט500 ײדן אויף ארבעט און עם איז געלונגען צו שאפן בלויז 300׳ האבן די דײטשן געכאפט מענטשן׳ געשלאגן און געשאםן. זײ זענען אװעק צו משה אהרון װײנטרויב׳ אז ער זאל אײםקויםן די200 פערזאן׳ און װען ער איז דאם נישט געװען בכוח צו טאן׳ האט מען אים אװעקגע־ שיקט איןא טויטלאגער.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_efb5ed3718f70d9632e45666",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The Yiddish passage states that the Judenrat was required to provide 500 Jews for work and managed to supply only 300.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_efb5ed3718f70d9632e45666",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "EMPLOYMENT",
+        "revisedObjectOrSummaryEn": "The Judenrat was ordered to provide 500 Jews for work but managed to provide only 300.",
+        "rationaleEn": "The quota is supported, but the Judenrat was ordered to supply workers rather than acting as organizer.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_f2d14c465f740df924b30a46",
+      "case": {
+        "caseId": "review_f2d14c465f740df924b30a46",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_771686dfdb185838533fd70b",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "eventType": "DEATH",
+          "titleEn": "Death of Rabbi Isaac",
+          "summaryEn": "The magid Rabbi Isaac died in 1823.",
+          "dateStart": "1823",
+          "dateEnd": "1823",
+          "place": null,
+          "participants": [
+            {
+              "role": "SUBJECT",
+              "entity": {
+                "id": "entity_candidate_2c1bfb7db99c6043b6a161d8",
+                "type": "PERSON",
+                "displayNameEn": "Rabbi Isaac",
+                "originalName": "ר׳ יצחק",
+                "summaryEn": "A magid whose name is preserved in the city records."
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "passageId": "passage_8d3d72debd8accd3426186c9",
+          "scanIndex": 56,
+          "printedPage": "52",
+          "quote": "המגיד ר׳ יצחק״ נםטר בשנת תרם״ג (1823)",
+          "context": "52\n\nססרלוקאװ\n\nהיה גם דיץ העיר. לצערנו נשמר רק שם של אחד המגידים. היה זה המגיד ר׳ יצחק״ נםטר בשנת תרם״ג (1823).\n\nחסידים בלוקוב\n\nלוקוב היתה עיר חסידית. טבעי שקדמו להם מנגדים. יש לקבל שהרבנים, למדנים ומנהיגים אחרים של הקהילה כמו בקהילות אחרות, התנגדו ל״כת״ החסידית. מן הסתם התנגדו אף לםתיחת ״שטיבלך״. כפי הנראה ויתרו המתנגדים מהר על המערכה ללא קרב. בלוקוב אםשר היה לחפש מתנגד לרפואה. חוץ מקבוצה קטנה של עמך קבלו כולם את נוסח התפילה החסידי.\n\nבלוקוב היו חסידים שונים. הױ חסידים של הקוצקר, הגרר, הביאלר, הרחינר, האלכסנדר ודיאחרים. לחסידים הױ שטיבלך וחױ באוירה משלהם.\n\nלוקוב זכתה ל־2 חצרות רבנים. ב־1906, כשמת ר׳ ישראל פילור (נכדו של ר׳ מנדלד, הקוצקאי), קבלו חלק מחסידױ את בנו בכורו רב הרשלר, כרבי ורב הרשלה זה התישב בלוקוב. עד 1920, שנת פטירתו, נהל ר׳ הרשלה ז״ל את חצר החסידות בלוקוב. חסידים הױ באים לשאולו בעניני יהדות, ולבקש ישועה. לאחר פטירתו הפך רב ברוך משה ממלא מקומו בלוקוב במקום אביו. רב ברוך משה היה רב בעײרה הקטנה גרבאװ. זמן קצר אחר כך עבר לװלודאװה. הבן השני רב ױסף אהרן קײם חסידות בװרשה. חצר חסידות זו חדלה להתקײם עם החורבן.\n\nהחצר החסידית השניה קוימה ע״י הרב המכובי. חסידיו היו עמך, ראו בו צדיק.\n",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_f2d14c465f740df924b30a46",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The Hebrew passage explicitly states that the magid Rabbi Isaac died in the cited year, with the Gregorian year 1823 supplied in parentheses.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_f2d14c465f740df924b30a46",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "dateStart/dateEnd",
+        "revisedObjectOrSummaryEn": "1883",
+        "rationaleEn": "The Hebrew year תרמ״ג corresponds to 1883, not 1823.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_f815cb6652110db191c7e6f0",
+      "case": {
+        "caseId": "review_f815cb6652110db191c7e6f0",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_54c17e404db17a9b1d7a1a6c",
+        "reviewReason": "ALL_EVENTS_QC",
+        "confidence": "LOW",
+        "uncertaintyNoteEn": "OCR spacing and place name are unclear.",
+        "interpretation": {
+          "eventType": "AKTION_OR_RAID",
+          "titleEn": "Capture of Jews in Krzwiud",
+          "summaryEn": "German forces captured 150 Jews in Krzwiud during the preceding week.",
+          "dateStart": "",
+          "dateEnd": "",
+          "place": {
+            "id": "entity_candidate_25f0268145921f04622b7552",
+            "type": "PLACE",
+            "displayNameEn": "Krzwiud",
+            "originalName": "קזשױוד",
+            "summaryEn": "German forces captured 150 Jews there during the preceding week."
+          },
+          "participants": []
+        },
+        "evidence": {
+          "passageId": "passage_728f58b877d8b4592f4e41ee",
+          "scanIndex": 363,
+          "printedPage": "359",
+          "quote": "וף פארגאנגענע װאך האבן די דײטשן געכאפט אין קזשױוד150 ײדן",
+          "context": "פערטל קילאמעטער אין דער בדייט. אויף זיי זענען געװען אנגעצילט די מאשין־ביקסן. אויב איינער סמ די ײת טוט זיך נארא ריר, הײבן אן די ביקםן צו קנאלן״•\n\nאויף אײן גאם בין איך נישט װילנדיק ארויף אויפן טויטן קערפער פוןא ײנגל.\n\nאיצט הער איך דאס רוישן פון אויטאמאבילן הינטעח פענצטערז דאם קומען מםתמא די ארבעטער צוריק פון דער ארבעט. םוף פארגאנגענע װאך האבן די דײטשן געכאפט אין קזשױוד150 ײדן. מען האט זײ אויסגעשטעלט איןא רײ, געצוװנגעי זײ זיך אויסצוטאן נאקעט און די מלבושים אװעקלײגן איןא זײט דאן האט מען זיי באפוילן צו לײגן זיך מיט די פנימער אראפ און ביז אײנעם האט מען זיי אויסגעהרגעט. די מתים זענען געבליבן ליגן עטלעכע טעג.\n\nאין אטשעפאלין האט געװוינט אן אײנציקע ײדישע משפחה. מען האט די משפחה ארויסגעפירט אין װאלד אמ ביז צום לעצטן דערד,רגעט.",
+          "validation": "UNIQUE_OCR_FUZZY_ALIGNMENT_REVIEW_REQUIRED"
+        }
+      },
+      "left": {
+        "caseId": "review_f815cb6652110db191c7e6f0",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote explicitly states that at the end of the preceding week the Germans captured 150 Jews in קזשױוד; the surrounding text confirms the event context.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_f815cb6652110db191c7e6f0",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "LOW",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text reports German capture and murder of 150 Jews, but the place name remains uncertain in fuzzy OCR.",
+        "needsHumanReview": true
+      }
+    }
+  ],
+  "selection": {
+    "status": "EVIDENCE_REVIEW_REQUIRED",
+    "note": "Model agreement is not ground truth. Resolve disagreements against the quoted source evidence before promotion."
+  }
+}

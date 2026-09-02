@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "kehilot-yizkor-processing-run-v1",
+  "pipelineVersion": "yizkor-pipeline-v1",
+  "promptVersion": "yizkor-extraction-prompt-v3",
+  "validatorVersion": "yizkor-provenance-validator-v2",
+  "ontologyVersion": "1.0.0",
+  "extractionSchemaId": "https://kehilot.example/schemas/yizkor-extraction.v1.json",
+  "startedAt": "2026-08-23T19:40:29.536Z",
+  "completedAt": "2026-08-23T19:41:22.399Z",
+  "elapsedMs": 52862,
+  "status": "COMPLETED_WITH_ERRORS",
+  "model": "gpt-5.6-luna",
+  "scope": "SELECTED_PASSAGES",
+  "counts": {
+    "passages": 1392,
+    "bundles": 696,
+    "cachedBundles": 690,
+    "acceptedObservations": 10423,
+    "quarantinedObservations": 378,
+    "failedBundles": 1
+  },
+  "usage": {
+    "inputTokens": 10978,
+    "cachedInputTokens": 10963,
+    "uncachedInputTokens": 15,
+    "outputTokens": 15355,
+    "reasoningTokens": 0,
+    "totalTokens": 26333
+  },
+  "pricingAssumptions": {
+    "inputPerMillion": 0.2,
+    "cachedInputPerMillion": 0.02,
+    "outputPerMillion": 1.2,
+    "source": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+    "observedAt": "2026-08-23"
+  },
+  "estimatedCostUsd": 0.018648,
+  "evaluation": null
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "kehilot-yizkor-selected-release-v1",
+  "selectedVersion": "lukow-yizkor-v2",
+  "selectedAt": "2026-08-25T01:47:51.232Z",
+  "community": "lukow",
+  "bookId": "book_nybc301551",
+  "publicGraphPath": "data/processed/lukow-yizkor-v2/adjudication/resolved-graph.json",
+  "sourcePassagesPath": "data/processed/lukow-yizkor-v1/source/passages.jsonl",
+  "graphSha256": "9b1ec5d3472ca99088e9086e9a8d6d5380aac0aff3797c5609298cbb926b5edd",
+  "sourceSha256": "bc28f1a81b1f14bb05a5ff62925ed1d2b83768f221a77162af7e2834acdfa157",
+  "checks": {
+    "allStagesCompleted": true,
+    "structuralValidationPassed": true,
+    "provenanceValidationPassed": true,
+    "resolutionComplete": true
+  },
+  "provenance": {
+    "observations": 10551,
+    "missingEvidence": 0,
+    "invalidRawRanges": 0
+  },
+  "counts": {
+    "passages": 1392,
+    "mentions": 7583,
+    "claims": 2028,
+    "events": 940,
+    "quarantinedAtExtraction": 897,
+    "adjudicationReviewQueue": 241,
+    "publicSourceLinkedObservations": 8885
+  },
+  "models": {
+    "inventory": {
+      "model": "gpt-5.6-luna",
+      "serviceTier": "flex",
+      "reasoningEffort": "none",
+      "promptVersion": "yizkor-routing-prompt-v3"
+    },
+    "extraction": {
+      "model": "gpt-5.6-luna",
+      "serviceTier": "flex",
+      "reasoningEffort": "none",
+      "promptVersion": "yizkor-extraction-prompt-v5",
+      "validatorVersion": "yizkor-provenance-validator-v4"
+    },
+    "luna": {
+      "model": "gpt-5.6-luna",
+      "serviceTier": "flex",
+      "reasoningEffort": "max",
+      "promptVersion": "yizkor-adjudication-prompt-v1"
+    },
+    "terra": {
+      "model": "gpt-5.6-terra",
+      "serviceTier": "flex",
+      "reasoningEffort": "high",
+      "promptVersion": "yizkor-adjudication-prompt-v1"
+    }
+  },
+  "costsUsd": {
+    "inventory": 0.104759,
+    "extraction": 0.891823,
+    "luna": 4.789991,
+    "terra": 5.74613,
+    "total": 11.532703
+  },
+  "publicationPolicy": {
+    "humanReviewComplete": false,
+    "excludedStatuses": [
+      "REJECTED",
+      "NEEDS_HUMAN_REVIEW",
+      "REJECT",
+      "HUMAN_REVIEW"
+    ],
+    "note": "Selected for the public evidence portal after structural, provenance, and two-stage machine review. It is not represented as human-verified scholarship."
+  }
+}

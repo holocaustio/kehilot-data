@@ -1,0 +1,3774 @@
+{
+  "schemaVersion": "kehilot-yizkor-processing-run-v1",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "promptVersion": "yizkor-extraction-prompt-v5",
+  "validatorVersion": "yizkor-provenance-validator-v4",
+  "ontologyVersion": "1.1.0",
+  "extractionSchemaId": "https://kehilot.example/schemas/yizkor-extraction.v1.json",
+  "startedAt": "2026-08-24T21:54:17.796Z",
+  "completedAt": "2026-08-24T21:56:01.370Z",
+  "elapsedMs": 103572,
+  "status": "COMPLETED",
+  "model": "gpt-5.6-luna",
+  "requestedServiceTier": "flex",
+  "reasoningEffort": "none",
+  "extractionStage": "ROUTED_EXTRACTION",
+  "scope": "EVALUATION_FIXTURE",
+  "counts": {
+    "passages": 135,
+    "bundles": 68,
+    "cachedBundles": 62,
+    "acceptedObservations": 1063,
+    "quarantinedObservations": 54,
+    "failedBundles": 0,
+    "structuralErrors": 0
+  },
+  "usage": {
+    "inputTokens": 9975,
+    "cachedInputTokens": 6396,
+    "uncachedInputTokens": 3579,
+    "outputTokens": 16588,
+    "reasoningTokens": 0,
+    "totalTokens": 26563
+  },
+  "pricingAssumptions": {
+    "inputPerMillion": 0.1,
+    "cachedInputPerMillion": 0.01,
+    "outputPerMillion": 0.6,
+    "serviceTier": "flex",
+    "source": "https://developers.openai.com/api/docs/pricing?latest-pricing=flex",
+    "observedAt": "2026-08-24"
+  },
+  "estimatedCostUsd": 0.010375,
+  "evaluation": {
+    "fixtureId": "lukow-yizkor-v2-stratified-140",
+    "annotationStatus": "STRATIFIED_COMPARISON_SET_NOT_GOLD",
+    "expectedMentions": 0,
+    "actualMentions": 743,
+    "truePositives": 0,
+    "additionalCandidatesRequiringAnnotation": [
+      {
+        "passageId": "passage_8e2b6347e5c277b39d6bedfc",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_890d8f8a44d8043dc375af09",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_890d8f8a44d8043dc375af09",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Organization of Lukow Emigrants in Israel"
+      },
+      {
+        "passageId": "passage_890d8f8a44d8043dc375af09",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Lukow Landsmanschaft in the United States"
+      },
+      {
+        "passageId": "passage_890d8f8a44d8043dc375af09",
+        "entityType": "PLACE",
+        "displayNameEn": "Tel Aviv"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Samuel Huberman"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Isaiah Cohen"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Moses Bargshtein"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Leibman"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Mordecai Skurka"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Shimon Saraga"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Joseph Zubrawicz"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Mattel Feldman"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Jacob Brown"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Gadalia Beltzman"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Jack Brown"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Leib Batschan"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Lion Greitzer"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Tzvi Plug"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "Hirsch Rozenstein"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PERSON",
+        "displayNameEn": "H. Heler"
+      },
+      {
+        "passageId": "passage_53baf5f6f98f2e8975f50341",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_53baf5f6f98f2e8975f50341",
+        "entityType": "PERSON",
+        "displayNameEn": "Boleslaw"
+      },
+      {
+        "passageId": "passage_53baf5f6f98f2e8975f50341",
+        "entityType": "PLACE",
+        "displayNameEn": "Krzyżacy (Kreuzfeld)"
+      },
+      {
+        "passageId": "passage_53baf5f6f98f2e8975f50341",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Templar Order"
+      },
+      {
+        "passageId": "passage_53baf5f6f98f2e8975f50341",
+        "entityType": "PLACE",
+        "displayNameEn": "Poland"
+      },
+      {
+        "passageId": "passage_53baf5f6f98f2e8975f50341",
+        "entityType": "PLACE",
+        "displayNameEn": "Lithuania"
+      },
+      {
+        "passageId": "passage_53baf5f6f98f2e8975f50341",
+        "entityType": "PLACE",
+        "displayNameEn": "Gdansk (Danzig)"
+      },
+      {
+        "passageId": "passage_53baf5f6f98f2e8975f50341",
+        "entityType": "PLACE",
+        "displayNameEn": "Open sea"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "PLACE",
+        "displayNameEn": "Tel Aviv"
+      },
+      {
+        "passageId": "passage_26eed3705781ca5574b67029",
+        "entityType": "BUSINESS",
+        "displayNameEn": "Orli"
+      },
+      {
+        "passageId": "passage_b9fb909928abba34dee67a40",
+        "entityType": "PERSON",
+        "displayNameEn": "King Jan Kazimierz"
+      },
+      {
+        "passageId": "passage_b9fb909928abba34dee67a40",
+        "entityType": "PERSON",
+        "displayNameEn": "King Casimir the Great"
+      },
+      {
+        "passageId": "passage_b9fb909928abba34dee67a40",
+        "entityType": "PLACE",
+        "displayNameEn": "Łuków"
+      },
+      {
+        "passageId": "passage_b9fb909928abba34dee67a40",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jews of Łuków"
+      },
+      {
+        "passageId": "passage_9be064f8adcdb564b5736834",
+        "entityType": "PLACE",
+        "displayNameEn": "Poland"
+      },
+      {
+        "passageId": "passage_9be064f8adcdb564b5736834",
+        "entityType": "PLACE",
+        "displayNameEn": "Duchy of Warsaw"
+      },
+      {
+        "passageId": "passage_9be064f8adcdb564b5736834",
+        "entityType": "PLACE",
+        "displayNameEn": "Russia"
+      },
+      {
+        "passageId": "passage_9be064f8adcdb564b5736834",
+        "entityType": "PERSON",
+        "displayNameEn": "Napoleon"
+      },
+      {
+        "passageId": "passage_9be064f8adcdb564b5736834",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Congress of Vienna"
+      },
+      {
+        "passageId": "passage_9be064f8adcdb564b5736834",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jewish community of Łuków"
+      },
+      {
+        "passageId": "passage_9be064f8adcdb564b5736834",
+        "entityType": "PERSON",
+        "displayNameEn": "Hitler"
+      },
+      {
+        "passageId": "passage_8c30add12e9591b8fff175ea",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_c059867a7266b6a2718c6b76",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_c059867a7266b6a2718c6b76",
+        "entityType": "PERSON",
+        "displayNameEn": "Sigismund Augustus I"
+      },
+      {
+        "passageId": "passage_c059867a7266b6a2718c6b76",
+        "entityType": "PERSON",
+        "displayNameEn": "John Casimir"
+      },
+      {
+        "passageId": "passage_c059867a7266b6a2718c6b76",
+        "entityType": "EVENT",
+        "displayNameEn": "Cossack revolt against Poland"
+      },
+      {
+        "passageId": "passage_c059867a7266b6a2718c6b76",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Lukow synagogue"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Isaac"
+      },
+      {
+        "passageId": "passage_f9c55103f6ee4d147f4f9910",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jewish community of Lukow"
+      },
+      {
+        "passageId": "passage_f9c55103f6ee4d147f4f9910",
+        "entityType": "PERSON",
+        "displayNameEn": "Casimir the Great"
+      },
+      {
+        "passageId": "passage_f9c55103f6ee4d147f4f9910",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_f9c55103f6ee4d147f4f9910",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Jewish court"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Israel Pilor"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Hershler"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Baruch Moses"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PLACE",
+        "displayNameEn": "Garbaw"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PLACE",
+        "displayNameEn": "Wlodawa"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Joseph Aaron"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Makhubi"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "PERSON",
+        "displayNameEn": "Grandson of Rabbi Makhubi"
+      },
+      {
+        "passageId": "passage_8d3d72debd8accd3426186c9",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Hasidic courts of Lukow"
+      },
+      {
+        "passageId": "passage_e4b9a30ffc29e069d2a3471c",
+        "entityType": "PERSON",
+        "displayNameEn": "Strazhitsinski"
+      },
+      {
+        "passageId": "passage_e4b9a30ffc29e069d2a3471c",
+        "entityType": "PERSON",
+        "displayNameEn": "Pototski"
+      },
+      {
+        "passageId": "passage_e4b9a30ffc29e069d2a3471c",
+        "entityType": "PERSON",
+        "displayNameEn": "Bronovski"
+      },
+      {
+        "passageId": "passage_e4b9a30ffc29e069d2a3471c",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Supreme National Council"
+      },
+      {
+        "passageId": "passage_e4b9a30ffc29e069d2a3471c",
+        "entityType": "PERSON",
+        "displayNameEn": "Tomashovski"
+      },
+      {
+        "passageId": "passage_e4b9a30ffc29e069d2a3471c",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_e4b9a30ffc29e069d2a3471c",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_c7d6ce2ebcdffefdc56bd5f6",
+        "entityType": "PERSON",
+        "displayNameEn": "Napoleon"
+      },
+      {
+        "passageId": "passage_e4b9a30ffc29e069d2a3471c",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Synagogues"
+      },
+      {
+        "passageId": "passage_e4b9a30ffc29e069d2a3471c",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Study houses"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "PERSON",
+        "displayNameEn": "Leah Feldman"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim Shlomo Feldman"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "PERSON",
+        "displayNameEn": "Motl Feldman"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "PERSON",
+        "displayNameEn": "Hershl Zilberstein"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "PLACE",
+        "displayNameEn": "New York"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Culture Association"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Jewish Library"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Kindergarten"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "First-Class Folk School"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "PERSON",
+        "displayNameEn": "Miss Shidlovski"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "PERSON",
+        "displayNameEn": "Kahn"
+      },
+      {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_2b59ca07234d1c7a0a5c33eb",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Workers’ Youth"
+      },
+      {
+        "passageId": "passage_2b59ca07234d1c7a0a5c33eb",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Culture Association"
+      },
+      {
+        "passageId": "passage_2b59ca07234d1c7a0a5c33eb",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Bund"
+      },
+      {
+        "passageId": "passage_2b59ca07234d1c7a0a5c33eb",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Leftists"
+      },
+      {
+        "passageId": "passage_2b59ca07234d1c7a0a5c33eb",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Jewish People’s Library"
+      },
+      {
+        "passageId": "passage_2b59ca07234d1c7a0a5c33eb",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jewish Community"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Flichtenreich"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PERSON",
+        "displayNameEn": "Hersh Leyzer Lande"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PERSON",
+        "displayNameEn": "Meir Leyb Gelernter"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Agudath"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Aharon Weintraub"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Magistrate"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PERSON",
+        "displayNameEn": "Shmuel Arie"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PERSON",
+        "displayNameEn": "Motem Mandelbaum"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PERSON",
+        "displayNameEn": "Yakov Lichtenstitz"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PERSON",
+        "displayNameEn": "Shlomo Zakalik"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PLACE",
+        "displayNameEn": "Siedlce Prison"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Tsisho Jewish Public School"
+      },
+      {
+        "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Central School Organization in Warsaw"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PERSON",
+        "displayNameEn": "Professor Bark"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PLACE",
+        "displayNameEn": "Bialystok"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PUBLICATION",
+        "displayNameEn": "Lukower Wort"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PERSON",
+        "displayNameEn": "Itzhak Zuckerman"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim Meir Heyblum"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PERSON",
+        "displayNameEn": "Shimon Sheinberg"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Eliyahu Gewertser"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PERSON",
+        "displayNameEn": "Benzion Skurke"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PERSON",
+        "displayNameEn": "Matl Feldman"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "PERSON",
+        "displayNameEn": "Shlomo Rubinstein"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_4d2f0396baa5c87e9771a3ee",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Lukow religious schools"
+      },
+      {
+        "passageId": "passage_04d6d720237e09332f880a21",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Lichtenstein"
+      },
+      {
+        "passageId": "passage_04d6d720237e09332f880a21",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Bornstein"
+      },
+      {
+        "passageId": "passage_04d6d720237e09332f880a21",
+        "entityType": "PERSON",
+        "displayNameEn": "Eliezer Waksman"
+      },
+      {
+        "passageId": "passage_04d6d720237e09332f880a21",
+        "entityType": "PERSON",
+        "displayNameEn": "Nachum Mendel Piksh"
+      },
+      {
+        "passageId": "passage_04d6d720237e09332f880a21",
+        "entityType": "PLACE",
+        "displayNameEn": "Israel"
+      },
+      {
+        "passageId": "passage_04d6d720237e09332f880a21",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "The study house"
+      },
+      {
+        "passageId": "passage_04d6d720237e09332f880a21",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_04d6d720237e09332f880a21",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Pasla"
+      },
+      {
+        "passageId": "passage_04d6d720237e09332f880a21",
+        "entityType": "FAMILY",
+        "displayNameEn": "Luft family"
+      },
+      {
+        "passageId": "passage_a8f3dd88d32040b72b656321",
+        "entityType": "PERSON",
+        "displayNameEn": "Motel Seldman"
+      },
+      {
+        "passageId": "passage_a8f3dd88d32040b72b656321",
+        "entityType": "PLACE",
+        "displayNameEn": "America"
+      },
+      {
+        "passageId": "passage_a8f3dd88d32040b72b656321",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "People of the town"
+      },
+      {
+        "passageId": "passage_22c3a52abd1924cf373f2361",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed narrator"
+      },
+      {
+        "passageId": "passage_22c3a52abd1924cf373f2361",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Young Agudath Israel"
+      },
+      {
+        "passageId": "passage_22c3a52abd1924cf373f2361",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed brother"
+      },
+      {
+        "passageId": "passage_22c3a52abd1924cf373f2361",
+        "entityType": "PLACE",
+        "displayNameEn": "Browarna Street"
+      },
+      {
+        "passageId": "passage_ef00ba8b8a137a7f9b068fe9",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Mizrahi students"
+      },
+      {
+        "passageId": "passage_ef00ba8b8a137a7f9b068fe9",
+        "entityType": "PLACE",
+        "displayNameEn": "Zapovednik Forest"
+      },
+      {
+        "passageId": "passage_ef00ba8b8a137a7f9b068fe9",
+        "entityType": "PERSON",
+        "displayNameEn": "Moses Aaron Lisibiker"
+      },
+      {
+        "passageId": "passage_ef00ba8b8a137a7f9b068fe9",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Ben-Zion"
+      },
+      {
+        "passageId": "passage_ef00ba8b8a137a7f9b068fe9",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Velvel"
+      },
+      {
+        "passageId": "passage_ef00ba8b8a137a7f9b068fe9",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Aaron Elazar"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Joint"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Bund"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Great House of Study"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Agudah"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "People's Party"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Mizrahi"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Artisans"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Zalman Fligele Goldberg"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Mosheke Flichtenreich"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Meir Leib Gelernter"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Aharon Weintraub"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Yonah Nay"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Zuckerman"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim Meir Heyblum"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Berl Slushni"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Gershon Fliks"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Anshel Manshpeizer"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim Mates Mandelbaum"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Motl Branzweil"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Huberman"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Ben-Zion Skorke"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Y. Landsberg"
+      },
+      {
+        "passageId": "passage_9c89de7daccaa35ff99277b0",
+        "entityType": "PERSON",
+        "displayNameEn": "Shlomo Rubinstein"
+      },
+      {
+        "passageId": "passage_cd21f1ec31fc8b042e5191a0",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed Polish political prisoner"
+      },
+      {
+        "passageId": "passage_e20f5824524d8ef2a3720a94",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow workers"
+      },
+      {
+        "passageId": "passage_e20f5824524d8ef2a3720a94",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Workers organization"
+      },
+      {
+        "passageId": "passage_cd21f1ec31fc8b042e5191a0",
+        "entityType": "PLACE",
+        "displayNameEn": "Siberia"
+      },
+      {
+        "passageId": "passage_e20f5824524d8ef2a3720a94",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "PERSON",
+        "displayNameEn": "Moses Gatesdiner"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "PERSON",
+        "displayNameEn": "Isaac Eizik"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "PERSON",
+        "displayNameEn": "Dvoshe"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "PLACE",
+        "displayNameEn": "Poland"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Workers’ Library"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Farain"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "PLACE",
+        "displayNameEn": "Polish church"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Powiato national authority"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jews of Lukow"
+      },
+      {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "entityType": "EVENT",
+        "displayNameEn": "1905 revolutionary demonstration in Lukow"
+      },
+      {
+        "passageId": "passage_0422c84802add3ee5463e1f5",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_0422c84802add3ee5463e1f5",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Lukow Jewish Gemilut Hesed Fund"
+      },
+      {
+        "passageId": "passage_0422c84802add3ee5463e1f5",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_0422c84802add3ee5463e1f5",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jews"
+      },
+      {
+        "passageId": "passage_0422c84802add3ee5463e1f5",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow landsmen in America"
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "entityType": "PERSON",
+        "displayNameEn": "Yaakov Lichtenstein (Ratman)"
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "entityType": "PERSON",
+        "displayNameEn": "Shimon Sheinberg"
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "entityType": "PERSON",
+        "displayNameEn": "Avraham Chaim Neiman"
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "entityType": "PERSON",
+        "displayNameEn": "Ben-Zion Skorka"
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "entityType": "PERSON",
+        "displayNameEn": "Yerachmiel Landsberg"
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "entityType": "PERSON",
+        "displayNameEn": "Shia Frizer"
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "entityType": "PERSON",
+        "displayNameEn": "Moyshe Eli Gewertzman"
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "entityType": "PERSON",
+        "displayNameEn": "Avraham Segal"
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "entityType": "PERSON",
+        "displayNameEn": "Unclear person name"
+      },
+      {
+        "passageId": "passage_27ef913ea580023295aa0ae7",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Hashomer Hatzair"
+      },
+      {
+        "passageId": "passage_27ef913ea580023295aa0ae7",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Mizrahi"
+      },
+      {
+        "passageId": "passage_27ef913ea580023295aa0ae7",
+        "entityType": "PERSON",
+        "displayNameEn": "D. H. Felcman"
+      },
+      {
+        "passageId": "passage_27ef913ea580023295aa0ae7",
+        "entityType": "PERSON",
+        "displayNameEn": "Miller"
+      },
+      {
+        "passageId": "passage_27ef913ea580023295aa0ae7",
+        "entityType": "PLACE",
+        "displayNameEn": "Łuków"
+      },
+      {
+        "passageId": "passage_27ef913ea580023295aa0ae7",
+        "entityType": "PLACE",
+        "displayNameEn": "Kleinman's house"
+      },
+      {
+        "passageId": "passage_27ef913ea580023295aa0ae7",
+        "entityType": "PLACE",
+        "displayNameEn": "Mezeritch"
+      },
+      {
+        "passageId": "passage_01d65b512a093729edfd2a2f",
+        "entityType": "PERSON",
+        "displayNameEn": "Barneshtits"
+      },
+      {
+        "passageId": "passage_01d65b512a093729edfd2a2f",
+        "entityType": "PERSON",
+        "displayNameEn": "Shmuel Lichter"
+      },
+      {
+        "passageId": "passage_01d65b512a093729edfd2a2f",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Trumpeldor Group"
+      },
+      {
+        "passageId": "passage_01d65b512a093729edfd2a2f",
+        "entityType": "PERSON",
+        "displayNameEn": "Rozentsweig"
+      },
+      {
+        "passageId": "passage_01d65b512a093729edfd2a2f",
+        "entityType": "PERSON",
+        "displayNameEn": "Benderman"
+      },
+      {
+        "passageId": "passage_01d65b512a093729edfd2a2f",
+        "entityType": "PLACE",
+        "displayNameEn": "Zapovieniker Forest"
+      },
+      {
+        "passageId": "passage_01d65b512a093729edfd2a2f",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Hashomer Hatzair"
+      },
+      {
+        "passageId": "passage_92668cc24f2ad89e1c32613c",
+        "entityType": "PERSON",
+        "displayNameEn": "Yisrael Rozentsweig"
+      },
+      {
+        "passageId": "passage_92668cc24f2ad89e1c32613c",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_92668cc24f2ad89e1c32613c",
+        "entityType": "PERSON",
+        "displayNameEn": "Yehuda Gathelf"
+      },
+      {
+        "passageId": "passage_402472256f08e469c1ea6c83",
+        "entityType": "PERSON",
+        "displayNameEn": "Shlomo Chainie"
+      },
+      {
+        "passageId": "passage_402472256f08e469c1ea6c83",
+        "entityType": "PLACE",
+        "displayNameEn": "Mezritcher Street"
+      },
+      {
+        "passageId": "passage_2fcb00710faace849b255e6a",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_2fcb00710faace849b255e6a",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jews"
+      },
+      {
+        "passageId": "passage_2fcb00710faace849b255e6a",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Jewish Sports Club"
+      },
+      {
+        "passageId": "passage_2fcb00710faace849b255e6a",
+        "entityType": "PLACE",
+        "displayNameEn": "Siedlce"
+      },
+      {
+        "passageId": "passage_2fcb00710faace849b255e6a",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_402472256f08e469c1ea6c83",
+        "entityType": "PLACE",
+        "displayNameEn": "Attic room"
+      },
+      {
+        "passageId": "passage_442504d5c142c66782c11ff8",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_442504d5c142c66782c11ff8",
+        "entityType": "PERSON",
+        "displayNameEn": "Zakalik Am Yisrael Goldgewicht"
+      },
+      {
+        "passageId": "passage_442504d5c142c66782c11ff8",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_442504d5c142c66782c11ff8",
+        "entityType": "PLACE",
+        "displayNameEn": "Market square"
+      },
+      {
+        "passageId": "passage_de8011cdab48829b66d689d0",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_de8011cdab48829b66d689d0",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed narrator"
+      },
+      {
+        "passageId": "passage_0ae190c3ded1a523baec3b68",
+        "entityType": "PERSON",
+        "displayNameEn": "Watchman Pasternak"
+      },
+      {
+        "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim"
+      },
+      {
+        "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+        "entityType": "PERSON",
+        "displayNameEn": "Mordechai"
+      },
+      {
+        "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+        "entityType": "PERSON",
+        "displayNameEn": "Elijah"
+      },
+      {
+        "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+        "entityType": "PERSON",
+        "displayNameEn": "Abraham the glazier"
+      },
+      {
+        "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+        "entityType": "PERSON",
+        "displayNameEn": "Ritl"
+      },
+      {
+        "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+        "entityType": "PERSON",
+        "displayNameEn": "Aryeh the butcher"
+      },
+      {
+        "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+        "entityType": "PERSON",
+        "displayNameEn": "The Miechów Rebbe"
+      },
+      {
+        "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+        "entityType": "PLACE",
+        "displayNameEn": "Luków streets"
+      },
+      {
+        "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+        "entityType": "PLACE",
+        "displayNameEn": "A room at Kapl Gantshazh's"
+      },
+      {
+        "passageId": "passage_a106a31c51e03230e58e234c",
+        "entityType": "PERSON",
+        "displayNameEn": "Berl"
+      },
+      {
+        "passageId": "passage_a106a31c51e03230e58e234c",
+        "entityType": "PERSON",
+        "displayNameEn": "Yehuda"
+      },
+      {
+        "passageId": "passage_a106a31c51e03230e58e234c",
+        "entityType": "PERSON",
+        "displayNameEn": "Yosef"
+      },
+      {
+        "passageId": "passage_a106a31c51e03230e58e234c",
+        "entityType": "PERSON",
+        "displayNameEn": "Levi"
+      },
+      {
+        "passageId": "passage_a106a31c51e03230e58e234c",
+        "entityType": "PERSON",
+        "displayNameEn": "Benjamin"
+      },
+      {
+        "passageId": "passage_a106a31c51e03230e58e234c",
+        "entityType": "FAMILY",
+        "displayNameEn": "Gastman family"
+      },
+      {
+        "passageId": "passage_a106a31c51e03230e58e234c",
+        "entityType": "BUSINESS",
+        "displayNameEn": "Gastman factory"
+      },
+      {
+        "passageId": "passage_65ce26098150db8cbe97d5dc",
+        "entityType": "PERSON",
+        "displayNameEn": "Tuvia Feker"
+      },
+      {
+        "passageId": "passage_65ce26098150db8cbe97d5dc",
+        "entityType": "PLACE",
+        "displayNameEn": "Mezritcher Street"
+      },
+      {
+        "passageId": "passage_65ce26098150db8cbe97d5dc",
+        "entityType": "PLACE",
+        "displayNameEn": "Yatke Street"
+      },
+      {
+        "passageId": "passage_12bf98a869cf41aef3228aa4",
+        "entityType": "PERSON",
+        "displayNameEn": "Khaskel"
+      },
+      {
+        "passageId": "passage_324dc3c91c867ff564ccaf12",
+        "entityType": "PERSON",
+        "displayNameEn": "Migdal"
+      },
+      {
+        "passageId": "passage_324dc3c91c867ff564ccaf12",
+        "entityType": "PERSON",
+        "displayNameEn": "Migdal's son"
+      },
+      {
+        "passageId": "passage_324dc3c91c867ff564ccaf12",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Haifa Technicum"
+      },
+      {
+        "passageId": "passage_324dc3c91c867ff564ccaf12",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Study Hall"
+      },
+      {
+        "passageId": "passage_324dc3c91c867ff564ccaf12",
+        "entityType": "FAMILY",
+        "displayNameEn": "Rosenstak brothers"
+      },
+      {
+        "passageId": "passage_12bf98a869cf41aef3228aa4",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_324dc3c91c867ff564ccaf12",
+        "entityType": "PLACE",
+        "displayNameEn": "Haifa"
+      },
+      {
+        "passageId": "passage_12bf98a869cf41aef3228aa4",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "German forces"
+      },
+      {
+        "passageId": "passage_f1e1f8214b84b2dcd24228bf",
+        "entityType": "PERSON",
+        "displayNameEn": "Alter"
+      },
+      {
+        "passageId": "passage_f1e1f8214b84b2dcd24228bf",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Hashomer Hatzair"
+      },
+      {
+        "passageId": "passage_f1e1f8214b84b2dcd24228bf",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Betar"
+      },
+      {
+        "passageId": "passage_f1e1f8214b84b2dcd24228bf",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Efraim Mezritcher"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Gershon Plug"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Aharon Lisibiker"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Meir Moshe Yitzhaks"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Yona Noy"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Leibl Wiener"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Shlomo Mendel"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Mordechai Mechel"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Berl Yisrael Yitzhaks"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Hersh Mendel"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe the Water Carrier"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Old Study House"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Great Synagogue"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Huk Study House"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Chaya Sarah’s Study House"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Gerer Shtibl"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Aleksander Shtibl"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Parczewer Shtibl"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Mezritcher Shtibl"
+      },
+      {
+        "passageId": "passage_038dafa4e660190d2008f7d6",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Mizrahi"
+      },
+      {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "entityType": "PERSON",
+        "displayNameEn": "Yitzhak Zeev Librach"
+      },
+      {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Old synagogue"
+      },
+      {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "entityType": "PLACE",
+        "displayNameEn": "Old cemetery"
+      },
+      {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "entityType": "PLACE",
+        "displayNameEn": "Dr. Hunczynski Street"
+      },
+      {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Sharga Feibush of Turczyn"
+      },
+      {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "entityType": "PLACE",
+        "displayNameEn": "Turczyn"
+      },
+      {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Yitzhak of Worka"
+      },
+      {
+        "passageId": "passage_2d88fc0fbe64ed623c3d9b51",
+        "entityType": "PERSON",
+        "displayNameEn": "Zalman"
+      },
+      {
+        "passageId": "passage_2d88fc0fbe64ed623c3d9b51",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Zalman"
+      },
+      {
+        "passageId": "passage_2d88fc0fbe64ed623c3d9b51",
+        "entityType": "PLACE",
+        "displayNameEn": "Barn"
+      },
+      {
+        "passageId": "passage_2d88fc0fbe64ed623c3d9b51",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Yeshiva"
+      },
+      {
+        "passageId": "passage_dfc14847f521d32c1e1e0d18",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_dfc14847f521d32c1e1e0d18",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Halutz Committee in Lukow"
+      },
+      {
+        "passageId": "passage_3d43cfc783e3e9c6c42d0343",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_3d43cfc783e3e9c6c42d0343",
+        "entityType": "PUBLICATION",
+        "displayNameEn": "The Lukower Word"
+      },
+      {
+        "passageId": "passage_9ff00021c4193a59b16d662f",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_9ff00021c4193a59b16d662f",
+        "entityType": "PUBLICATION",
+        "displayNameEn": "Yiddish-Polish newspaper in Warsaw"
+      },
+      {
+        "passageId": "passage_9ff00021c4193a59b16d662f",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_9ff00021c4193a59b16d662f",
+        "entityType": "PUBLICATION",
+        "displayNameEn": "Jewish children’s journals"
+      },
+      {
+        "passageId": "passage_9ff00021c4193a59b16d662f",
+        "entityType": "PUBLICATION",
+        "displayNameEn": "Yiddish press"
+      },
+      {
+        "passageId": "passage_d2fe4ca770b9221e80f36a71",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_d2fe4ca770b9221e80f36a71",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "yeshiva"
+      },
+      {
+        "passageId": "passage_d2fe4ca770b9221e80f36a71",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Talmud Torah"
+      },
+      {
+        "passageId": "passage_d2fe4ca770b9221e80f36a71",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Beit Yaakov school"
+      },
+      {
+        "passageId": "passage_d2fe4ca770b9221e80f36a71",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Association of local righteous women"
+      },
+      {
+        "passageId": "passage_d2fe4ca770b9221e80f36a71",
+        "entityType": "DOCUMENT",
+        "displayNameEn": "Golden Book"
+      },
+      {
+        "passageId": "passage_d2fe4ca770b9221e80f36a71",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Shomrei Shabbatnikes"
+      },
+      {
+        "passageId": "passage_0c28615c66317a580412856c",
+        "entityType": "PLACE",
+        "displayNameEn": "Kock"
+      },
+      {
+        "passageId": "passage_0c28615c66317a580412856c",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Jewish and Polish aid committees"
+      },
+      {
+        "passageId": "passage_0c28615c66317a580412856c",
+        "entityType": "PUBLICATION",
+        "displayNameEn": "The Lukow Word"
+      },
+      {
+        "passageId": "passage_0c28615c66317a580412856c",
+        "entityType": "PERSON",
+        "displayNameEn": "Zimbler"
+      },
+      {
+        "passageId": "passage_0e702eb5daccdb8aa241f1dd",
+        "entityType": "PLACE",
+        "displayNameEn": "Kock"
+      },
+      {
+        "passageId": "passage_0e702eb5daccdb8aa241f1dd",
+        "entityType": "PLACE",
+        "displayNameEn": "Damashevnitse"
+      },
+      {
+        "passageId": "passage_0e702eb5daccdb8aa241f1dd",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_0e702eb5daccdb8aa241f1dd",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Relief Committee for the Fire Victims of Kock and Damashevnitse"
+      },
+      {
+        "passageId": "passage_61ae891c36a0819fb0976a6e",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_61ae891c36a0819fb0976a6e",
+        "entityType": "PERSON",
+        "displayNameEn": "H. D. Namberg"
+      },
+      {
+        "passageId": "passage_61ae891c36a0819fb0976a6e",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Jewish Public Library"
+      },
+      {
+        "passageId": "passage_61ae891c36a0819fb0976a6e",
+        "entityType": "PERSON",
+        "displayNameEn": "Mr. Lichtenstim"
+      },
+      {
+        "passageId": "passage_61ae891c36a0819fb0976a6e",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Jewish Literary Association in Warsaw"
+      },
+      {
+        "passageId": "passage_61ae891c36a0819fb0976a6e",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_61ae891c36a0819fb0976a6e",
+        "entityType": "PUBLICATION",
+        "displayNameEn": "The Lukow Word"
+      },
+      {
+        "passageId": "passage_61ae891c36a0819fb0976a6e",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Agniwa Society"
+      },
+      {
+        "passageId": "passage_3fbef02bf59363e0fb06ffd2",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_34f65740f4564f6ba1858606",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_150847f5e573a0cdb30b807d",
+        "entityType": "PERSON",
+        "displayNameEn": "Aharon Drazhkazh"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Berl"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "FAMILY",
+        "displayNameEn": "Rabbi Berl's household"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim-Panta the Shoemaker"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "PERSON",
+        "displayNameEn": "Antek Tzuba"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "PLACE",
+        "displayNameEn": "Wla"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "PLACE",
+        "displayNameEn": "19 Butchers Street"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Guest House"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Great Synagogue"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Study halls"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Hasidic shtiblekh"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Bathhouse and mikveh"
+      },
+      {
+        "passageId": "passage_02e69dd940b287e48d989de6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Chaya-Shrim's study hall"
+      },
+      {
+        "passageId": "passage_b63fde9079ff5b9413b9b774",
+        "entityType": "PERSON",
+        "displayNameEn": "Bube Malke"
+      },
+      {
+        "passageId": "passage_b63fde9079ff5b9413b9b774",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Berl"
+      },
+      {
+        "passageId": "passage_891b6584858ba3cfcc36cee6",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Ber"
+      },
+      {
+        "passageId": "passage_891b6584858ba3cfcc36cee6",
+        "entityType": "PERSON",
+        "displayNameEn": "Rabbi Berl"
+      },
+      {
+        "passageId": "passage_891b6584858ba3cfcc36cee6",
+        "entityType": "PERSON",
+        "displayNameEn": "Israel Yitzhak"
+      },
+      {
+        "passageId": "passage_891b6584858ba3cfcc36cee6",
+        "entityType": "PLACE",
+        "displayNameEn": "Market"
+      },
+      {
+        "passageId": "passage_891b6584858ba3cfcc36cee6",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "House of Study"
+      },
+      {
+        "passageId": "passage_891b6584858ba3cfcc36cee6",
+        "entityType": "BUSINESS",
+        "displayNameEn": "Bakery"
+      },
+      {
+        "passageId": "passage_7d4bbfd809e6c305dc037b6e",
+        "entityType": "PERSON",
+        "displayNameEn": "Four-year-old girl"
+      },
+      {
+        "passageId": "passage_7d4bbfd809e6c305dc037b6e",
+        "entityType": "PERSON",
+        "displayNameEn": "Narrator"
+      },
+      {
+        "passageId": "passage_7d4bbfd809e6c305dc037b6e",
+        "entityType": "PERSON",
+        "displayNameEn": "The quiet mother"
+      },
+      {
+        "passageId": "passage_7d4bbfd809e6c305dc037b6e",
+        "entityType": "PLACE",
+        "displayNameEn": "28 Tayarde Street, Warsaw"
+      },
+      {
+        "passageId": "passage_7d4bbfd809e6c305dc037b6e",
+        "entityType": "PLACE",
+        "displayNameEn": "Destruction transport"
+      },
+      {
+        "passageId": "passage_8b23cba2512e747a434b02a7",
+        "entityType": "PLACE",
+        "displayNameEn": "Place of resistance"
+      },
+      {
+        "passageId": "passage_b0ffa7d0d983a320587c3f4a",
+        "entityType": "PERSON",
+        "displayNameEn": "German soldier"
+      },
+      {
+        "passageId": "passage_b0ffa7d0d983a320587c3f4a",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PERSON",
+        "displayNameEn": "Gadl Greitzer"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PERSON",
+        "displayNameEn": "Itshe Karamik"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PERSON",
+        "displayNameEn": "Halberg Tikulsky's uncle"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PERSON",
+        "displayNameEn": "Gadl"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PERSON",
+        "displayNameEn": "David Friedman"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PERSON",
+        "displayNameEn": "Mendel Ledgerman"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PLACE",
+        "displayNameEn": "Adamiets railway line"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PLACE",
+        "displayNameEn": "Pig Market"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PLACE",
+        "displayNameEn": "Mezritch"
+      },
+      {
+        "passageId": "passage_48017c4ec33569b55e4e5ecb",
+        "entityType": "PLACE",
+        "displayNameEn": "Treblinka"
+      },
+      {
+        "passageId": "passage_16fe53f34d5b9883fbccd333",
+        "entityType": "PERSON",
+        "displayNameEn": "Henech Norman"
+      },
+      {
+        "passageId": "passage_16fe53f34d5b9883fbccd333",
+        "entityType": "PERSON",
+        "displayNameEn": "Yosef Liter Vishnie"
+      },
+      {
+        "passageId": "passage_16fe53f34d5b9883fbccd333",
+        "entityType": "PERSON",
+        "displayNameEn": "Reuven Weisbaum"
+      },
+      {
+        "passageId": "passage_16fe53f34d5b9883fbccd333",
+        "entityType": "PERSON",
+        "displayNameEn": "Yekhiel Hantshtek"
+      },
+      {
+        "passageId": "passage_16fe53f34d5b9883fbccd333",
+        "entityType": "PERSON",
+        "displayNameEn": "Leibl Barnshteyn"
+      },
+      {
+        "passageId": "passage_16fe53f34d5b9883fbccd333",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_16fe53f34d5b9883fbccd333",
+        "entityType": "PERSON",
+        "displayNameEn": "Nate Karasik"
+      },
+      {
+        "passageId": "passage_16fe53f34d5b9883fbccd333",
+        "entityType": "FAMILY",
+        "displayNameEn": "Rendl family"
+      },
+      {
+        "passageId": "passage_16fe53f34d5b9883fbccd333",
+        "entityType": "PERSON",
+        "displayNameEn": "Erlich"
+      },
+      {
+        "passageId": "passage_25f68fd59ddba6858b0cd104",
+        "entityType": "PERSON",
+        "displayNameEn": "G. Gornshteyn"
+      },
+      {
+        "passageId": "passage_d4faa17defd1837e37ea5334",
+        "entityType": "PERSON",
+        "displayNameEn": "Vvitchik"
+      },
+      {
+        "passageId": "passage_d4faa17defd1837e37ea5334",
+        "entityType": "PERSON",
+        "displayNameEn": "Katz"
+      },
+      {
+        "passageId": "passage_d4faa17defd1837e37ea5334",
+        "entityType": "PERSON",
+        "displayNameEn": "Finkelshteyn"
+      },
+      {
+        "passageId": "passage_d4faa17defd1837e37ea5334",
+        "entityType": "PERSON",
+        "displayNameEn": "Baren"
+      },
+      {
+        "passageId": "passage_d4faa17defd1837e37ea5334",
+        "entityType": "PLACE",
+        "displayNameEn": "Biala"
+      },
+      {
+        "passageId": "passage_d4faa17defd1837e37ea5334",
+        "entityType": "PLACE",
+        "displayNameEn": "Mezhritsh"
+      },
+      {
+        "passageId": "passage_0db2e77295fd52132b37dfcf",
+        "entityType": "PLACE",
+        "displayNameEn": "Repatriation camp for Christians"
+      },
+      {
+        "passageId": "passage_279104c1b9930ad6e2ce1901",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_279104c1b9930ad6e2ce1901",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Gestapo"
+      },
+      {
+        "passageId": "passage_279104c1b9930ad6e2ce1901",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Judenrat"
+      },
+      {
+        "passageId": "passage_279104c1b9930ad6e2ce1901",
+        "entityType": "PERSON",
+        "displayNameEn": "Fishel"
+      },
+      {
+        "passageId": "passage_279104c1b9930ad6e2ce1901",
+        "entityType": "PLACE",
+        "displayNameEn": "Ratyn"
+      },
+      {
+        "passageId": "passage_279104c1b9930ad6e2ce1901",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "German authorities"
+      },
+      {
+        "passageId": "passage_7f6175ea2314d5118380781e",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_3e2ad46a86f5fcca165c30be",
+        "entityType": "FAMILY",
+        "displayNameEn": "Entire families"
+      },
+      {
+        "passageId": "passage_3e2ad46a86f5fcca165c30be",
+        "entityType": "PLACE",
+        "displayNameEn": "Treblinka"
+      },
+      {
+        "passageId": "passage_728f58b877d8b4592f4e41ee",
+        "entityType": "PLACE",
+        "displayNameEn": "Krzwiud"
+      },
+      {
+        "passageId": "passage_728f58b877d8b4592f4e41ee",
+        "entityType": "PLACE",
+        "displayNameEn": "Atchepalin"
+      },
+      {
+        "passageId": "passage_728f58b877d8b4592f4e41ee",
+        "entityType": "FAMILY",
+        "displayNameEn": "The only Jewish family in Atchepalin"
+      },
+      {
+        "passageId": "passage_c3fdf2a447d4a6cc02d50d71",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed mother"
+      },
+      {
+        "passageId": "passage_c3fdf2a447d4a6cc02d50d71",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed daughter"
+      },
+      {
+        "passageId": "passage_c3fdf2a447d4a6cc02d50d71",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Unnamed Ukrainian"
+      },
+      {
+        "passageId": "passage_5edd01a67b7376fecfcb9960",
+        "entityType": "PLACE",
+        "displayNameEn": "Magistrate court"
+      },
+      {
+        "passageId": "passage_5edd01a67b7376fecfcb9960",
+        "entityType": "PLACE",
+        "displayNameEn": "Jewish cemetery"
+      },
+      {
+        "passageId": "passage_5edd01a67b7376fecfcb9960",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed Jewish man"
+      },
+      {
+        "passageId": "passage_5edd01a67b7376fecfcb9960",
+        "entityType": "PLACE",
+        "displayNameEn": "Kosciuszko Avenue"
+      },
+      {
+        "passageId": "passage_5edd01a67b7376fecfcb9960",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_8b07a82aecc3762f0beb8a8e",
+        "entityType": "PLACE",
+        "displayNameEn": "Łuków"
+      },
+      {
+        "passageId": "passage_8b07a82aecc3762f0beb8a8e",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed narrator"
+      },
+      {
+        "passageId": "passage_8b07a82aecc3762f0beb8a8e",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed wife of the narrator"
+      },
+      {
+        "passageId": "passage_8b07a82aecc3762f0beb8a8e",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jewish deportees or forced-march column"
+      },
+      {
+        "passageId": "passage_cd8aa9662aeaf205944d74e6",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw"
+      },
+      {
+        "passageId": "passage_cd8aa9662aeaf205944d74e6",
+        "entityType": "PLACE",
+        "displayNameEn": "Aleksandrów"
+      },
+      {
+        "passageId": "passage_cd8aa9662aeaf205944d74e6",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw Ghetto"
+      },
+      {
+        "passageId": "passage_cd8aa9662aeaf205944d74e6",
+        "entityType": "PLACE",
+        "displayNameEn": "Warsaw cemetery"
+      },
+      {
+        "passageId": "passage_cd8aa9662aeaf205944d74e6",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed mother of the narrator"
+      },
+      {
+        "passageId": "passage_cd8aa9662aeaf205944d74e6",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed sister of the narrator"
+      },
+      {
+        "passageId": "passage_cd8aa9662aeaf205944d74e6",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed brother of the narrator"
+      },
+      {
+        "passageId": "passage_cd8aa9662aeaf205944d74e6",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed father of the narrator"
+      },
+      {
+        "passageId": "passage_08cb641e3e9d14739fc51176",
+        "entityType": "PERSON",
+        "displayNameEn": "Narrator"
+      },
+      {
+        "passageId": "passage_08cb641e3e9d14739fc51176",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed woman"
+      },
+      {
+        "passageId": "passage_08cb641e3e9d14739fc51176",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed girl"
+      },
+      {
+        "passageId": "passage_08cb641e3e9d14739fc51176",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jews"
+      },
+      {
+        "passageId": "passage_2a8982ea72aef71824aed2c4",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Jewish police"
+      },
+      {
+        "passageId": "passage_2a8982ea72aef71824aed2c4",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jews"
+      },
+      {
+        "passageId": "passage_2a8982ea72aef71824aed2c4",
+        "entityType": "PLACE",
+        "displayNameEn": "Train"
+      },
+      {
+        "passageId": "passage_5c1b4c12004c13cc692b2255",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Łuków"
+      },
+      {
+        "passageId": "passage_5c1b4c12004c13cc692b2255",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Germans"
+      },
+      {
+        "passageId": "passage_5c1b4c12004c13cc692b2255",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Ukrainians"
+      },
+      {
+        "passageId": "passage_5c1b4c12004c13cc692b2255",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Poles"
+      },
+      {
+        "passageId": "passage_ef881cc8ee35e1a14b473e77",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Galąbki"
+      },
+      {
+        "passageId": "passage_ef881cc8ee35e1a14b473e77",
+        "entityType": "PLACE",
+        "displayNameEn": "Bunker"
+      },
+      {
+        "passageId": "passage_2ea271c9ba6d060f1c52d759",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed narrator"
+      },
+      {
+        "passageId": "passage_2ea271c9ba6d060f1c52d759",
+        "entityType": "PLACE",
+        "displayNameEn": "Forest"
+      },
+      {
+        "passageId": "passage_2ea271c9ba6d060f1c52d759",
+        "entityType": "PLACE",
+        "displayNameEn": "Pond"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "PERSON",
+        "displayNameEn": "Narrator’s mother"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "PERSON",
+        "displayNameEn": "Jacob"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "PERSON",
+        "displayNameEn": "Saul"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jewry of Lukow"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow Ghetto"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "PLACE",
+        "displayNameEn": "Neighboring village"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "PERSON",
+        "displayNameEn": "Female householder"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed narrator"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Church"
+      },
+      {
+        "passageId": "passage_ef4097cedb344834e6ee82a3",
+        "entityType": "PERSON",
+        "displayNameEn": "Priest"
+      },
+      {
+        "passageId": "passage_4df6756f04dfd3c91aa457f9",
+        "entityType": "PERSON",
+        "displayNameEn": "Gestapovitz"
+      },
+      {
+        "passageId": "passage_3127098754af4aa70bd9359b",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jews of the Lublin region"
+      },
+      {
+        "passageId": "passage_3127098754af4aa70bd9359b",
+        "entityType": "PLACE",
+        "displayNameEn": "Old village"
+      },
+      {
+        "passageId": "passage_4df6756f04dfd3c91aa457f9",
+        "entityType": "PLACE",
+        "displayNameEn": "Łuków ghetto"
+      },
+      {
+        "passageId": "passage_4df6756f04dfd3c91aa457f9",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Magistrate"
+      },
+      {
+        "passageId": "passage_4df6756f04dfd3c91aa457f9",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Judenrat"
+      },
+      {
+        "passageId": "passage_4df6756f04dfd3c91aa457f9",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Jewish police"
+      },
+      {
+        "passageId": "passage_4df6756f04dfd3c91aa457f9",
+        "entityType": "PERSON",
+        "displayNameEn": "Aharon Eichenberg"
+      },
+      {
+        "passageId": "passage_9b157747df715149f30c0271",
+        "entityType": "PLACE",
+        "displayNameEn": "Majdanek"
+      },
+      {
+        "passageId": "passage_9b157747df715149f30c0271",
+        "entityType": "PLACE",
+        "displayNameEn": "Dęblin"
+      },
+      {
+        "passageId": "passage_9b157747df715149f30c0271",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Łuków"
+      },
+      {
+        "passageId": "passage_9b157747df715149f30c0271",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "SS personnel"
+      },
+      {
+        "passageId": "passage_9b157747df715149f30c0271",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Gendarmerie"
+      },
+      {
+        "passageId": "passage_29ff5169e9f14de554f5401f",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "SS personnel"
+      },
+      {
+        "passageId": "passage_29ff5169e9f14de554f5401f",
+        "entityType": "PLACE",
+        "displayNameEn": "Majdanek"
+      },
+      {
+        "passageId": "passage_64fe22880789417c6c97ed4f",
+        "entityType": "PERSON",
+        "displayNameEn": "Hersh Leizer Lender"
+      },
+      {
+        "passageId": "passage_64fe22880789417c6c97ed4f",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_64fe22880789417c6c97ed4f",
+        "entityType": "PLACE",
+        "displayNameEn": "Biala"
+      },
+      {
+        "passageId": "passage_64fe22880789417c6c97ed4f",
+        "entityType": "PLACE",
+        "displayNameEn": "Damenin camp"
+      },
+      {
+        "passageId": "passage_64fe22880789417c6c97ed4f",
+        "entityType": "PLACE",
+        "displayNameEn": "Galambek"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "PERSON",
+        "displayNameEn": "Shlomo Frengler"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow railway station"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Polish military"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "PLACE",
+        "displayNameEn": "Border regions"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "German aviation"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "PERSON",
+        "displayNameEn": "Dentist Klimecka"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "FAMILY",
+        "displayNameEn": "Nisenker family"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "PERSON",
+        "displayNameEn": "Yitzhak Lerner"
+      },
+      {
+        "passageId": "passage_4839b8a3d33dca4b7549902f",
+        "entityType": "PLACE",
+        "displayNameEn": "Wolka Domaszewski village"
+      },
+      {
+        "passageId": "passage_04ead290f6efd9c815d320f2",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_04ead290f6efd9c815d320f2",
+        "entityType": "PLACE",
+        "displayNameEn": "Lublin"
+      },
+      {
+        "passageId": "passage_04ead290f6efd9c815d320f2",
+        "entityType": "FAMILY",
+        "displayNameEn": "Svolker rabbi's son-in-law's family"
+      },
+      {
+        "passageId": "passage_04ead290f6efd9c815d320f2",
+        "entityType": "PLACE",
+        "displayNameEn": "Serock"
+      },
+      {
+        "passageId": "passage_04ead290f6efd9c815d320f2",
+        "entityType": "PERSON",
+        "displayNameEn": "David Hirsch Szydlowski"
+      },
+      {
+        "passageId": "passage_04ead290f6efd9c815d320f2",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jews of Lukow"
+      },
+      {
+        "passageId": "passage_04ead290f6efd9c815d320f2",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Lukow Judenrat"
+      },
+      {
+        "passageId": "passage_04ead290f6efd9c815d320f2",
+        "entityType": "PERSON",
+        "displayNameEn": "Moses Aaron Weintraub"
+      },
+      {
+        "passageId": "passage_04ead290f6efd9c815d320f2",
+        "entityType": "PLACE",
+        "displayNameEn": "Unspecified death camp"
+      },
+      {
+        "passageId": "passage_6465f56810815611a4355695",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_6465f56810815611a4355695",
+        "entityType": "PLACE",
+        "displayNameEn": "Russia"
+      },
+      {
+        "passageId": "passage_6465f56810815611a4355695",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Lukow Judenrat"
+      },
+      {
+        "passageId": "passage_6465f56810815611a4355695",
+        "entityType": "PERSON",
+        "displayNameEn": "Mashke Weberman"
+      },
+      {
+        "passageId": "passage_6465f56810815611a4355695",
+        "entityType": "PERSON",
+        "displayNameEn": "Mashke Chaim-Shmuel"
+      },
+      {
+        "passageId": "passage_6465f56810815611a4355695",
+        "entityType": "PLACE",
+        "displayNameEn": "Radzyń"
+      },
+      {
+        "passageId": "passage_6465f56810815611a4355695",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Gestapo"
+      },
+      {
+        "passageId": "passage_744eac5b4c10c6fc9bc8df8d",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_744eac5b4c10c6fc9bc8df8d",
+        "entityType": "PLACE",
+        "displayNameEn": "Cieglnia"
+      },
+      {
+        "passageId": "passage_744eac5b4c10c6fc9bc8df8d",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim Frost"
+      },
+      {
+        "passageId": "passage_744eac5b4c10c6fc9bc8df8d",
+        "entityType": "PLACE",
+        "displayNameEn": "Lodz"
+      },
+      {
+        "passageId": "passage_744eac5b4c10c6fc9bc8df8d",
+        "entityType": "PLACE",
+        "displayNameEn": "Katowice"
+      },
+      {
+        "passageId": "passage_744eac5b4c10c6fc9bc8df8d",
+        "entityType": "PLACE",
+        "displayNameEn": "Munich"
+      },
+      {
+        "passageId": "passage_744eac5b4c10c6fc9bc8df8d",
+        "entityType": "PLACE",
+        "displayNameEn": "Treblinka"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "PLACE",
+        "displayNameEn": "Mezritch"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow station"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "PERSON",
+        "displayNameEn": "Nach Plaman"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "PERSON",
+        "displayNameEn": "Mendel Lust"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "PERSON",
+        "displayNameEn": "Shimon Ribak"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Lukow synagogue"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Beth midrash"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Jewish police"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Polish police"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Burial society"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Firefighters"
+      },
+      {
+        "passageId": "passage_0428e217746b653f50342c01",
+        "entityType": "PERSON",
+        "displayNameEn": "Chief Burger"
+      },
+      {
+        "passageId": "passage_c7f11afa49a774c00854fd45",
+        "entityType": "PLACE",
+        "displayNameEn": "Łuków ghetto"
+      },
+      {
+        "passageId": "passage_c7f11afa49a774c00854fd45",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Magistrate court"
+      },
+      {
+        "passageId": "passage_c7f11afa49a774c00854fd45",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed narrator"
+      },
+      {
+        "passageId": "passage_c7f11afa49a774c00854fd45",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed younger brother"
+      },
+      {
+        "passageId": "passage_c7f11afa49a774c00854fd45",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed child companion"
+      },
+      {
+        "passageId": "passage_c7f11afa49a774c00854fd45",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed second escaped child"
+      },
+      {
+        "passageId": "passage_67ebe14aabac2ffec6b878cb",
+        "entityType": "PLACE",
+        "displayNameEn": "Forest"
+      },
+      {
+        "passageId": "passage_67ebe14aabac2ffec6b878cb",
+        "entityType": "PLACE",
+        "displayNameEn": "Another forest"
+      },
+      {
+        "passageId": "passage_171e07c1352bbadebff21690",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Łuków group in Brussels"
+      },
+      {
+        "passageId": "passage_171e07c1352bbadebff21690",
+        "entityType": "PLACE",
+        "displayNameEn": "Brussels"
+      },
+      {
+        "passageId": "passage_171e07c1352bbadebff21690",
+        "entityType": "PERSON",
+        "displayNameEn": "Israel Goldgewicht"
+      },
+      {
+        "passageId": "passage_e2920039edef1280233d5474",
+        "entityType": "PERSON",
+        "displayNameEn": "Aryeh Shmitnka"
+      },
+      {
+        "passageId": "passage_e2920039edef1280233d5474",
+        "entityType": "PERSON",
+        "displayNameEn": "Bronkowitz"
+      },
+      {
+        "passageId": "passage_e2920039edef1280233d5474",
+        "entityType": "FAMILY",
+        "displayNameEn": "Prost family"
+      },
+      {
+        "passageId": "passage_e2920039edef1280233d5474",
+        "entityType": "PLACE",
+        "displayNameEn": "Dzemke settlements"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "FAMILY",
+        "displayNameEn": "Rosenblum family"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "PERSON",
+        "displayNameEn": "Yosef Shmitnka"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "PERSON",
+        "displayNameEn": "Yosef Vishniya"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "PERSON",
+        "displayNameEn": "Yaakov Dagerman"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "PERSON",
+        "displayNameEn": "Yidel Wland"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "PERSON",
+        "displayNameEn": "Motel Tabakman"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "PERSON",
+        "displayNameEn": "Yitzhak Rosenblum"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "PERSON",
+        "displayNameEn": "Levush Baron"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "PERSON",
+        "displayNameEn": "Hershka Emna"
+      },
+      {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "entityType": "PERSON",
+        "displayNameEn": "Mordechai Biderman"
+      },
+      {
+        "passageId": "passage_09234b8d8db0b8cb8c429eab",
+        "entityType": "PERSON",
+        "displayNameEn": "Yudel Wland"
+      },
+      {
+        "passageId": "passage_09234b8d8db0b8cb8c429eab",
+        "entityType": "PERSON",
+        "displayNameEn": "Hershl"
+      },
+      {
+        "passageId": "passage_09234b8d8db0b8cb8c429eab",
+        "entityType": "FAMILY",
+        "displayNameEn": "The narrator’s family"
+      },
+      {
+        "passageId": "passage_09234b8d8db0b8cb8c429eab",
+        "entityType": "PLACE",
+        "displayNameEn": "the forest"
+      },
+      {
+        "passageId": "passage_09234b8d8db0b8cb8c429eab",
+        "entityType": "PLACE",
+        "displayNameEn": "the farmer’s house"
+      },
+      {
+        "passageId": "passage_c5e1771f24d5f503db6e6798",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Polish perpetrators"
+      },
+      {
+        "passageId": "passage_c5e1771f24d5f503db6e6798",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Hitler’s forces"
+      },
+      {
+        "passageId": "passage_09234b8d8db0b8cb8c429eab",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "DAK"
+      },
+      {
+        "passageId": "passage_580fd2e03796bdc8ca0ac5ab",
+        "entityType": "PERSON",
+        "displayNameEn": "Stolarevitch"
+      },
+      {
+        "passageId": "passage_580fd2e03796bdc8ca0ac5ab",
+        "entityType": "PLACE",
+        "displayNameEn": "Minsk"
+      },
+      {
+        "passageId": "passage_580fd2e03796bdc8ca0ac5ab",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Minsk Jewish Hospital"
+      },
+      {
+        "passageId": "passage_539835f4de044fd80d4d6794",
+        "entityType": "PERSON",
+        "displayNameEn": "Abraham Batchkevitcher"
+      },
+      {
+        "passageId": "passage_539835f4de044fd80d4d6794",
+        "entityType": "PLACE",
+        "displayNameEn": "Forest"
+      },
+      {
+        "passageId": "passage_539835f4de044fd80d4d6794",
+        "entityType": "PLACE",
+        "displayNameEn": "Designated Point"
+      },
+      {
+        "passageId": "passage_539835f4de044fd80d4d6794",
+        "entityType": "PERSON",
+        "displayNameEn": "Polish Farmer"
+      },
+      {
+        "passageId": "passage_539835f4de044fd80d4d6794",
+        "entityType": "PERSON",
+        "displayNameEn": "Narrator"
+      },
+      {
+        "passageId": "passage_f5b3d4e4be1d86a1c1c07d8e",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_f5b3d4e4be1d86a1c1c07d8e",
+        "entityType": "PLACE",
+        "displayNameEn": "Camp"
+      },
+      {
+        "passageId": "passage_e78be97408ff590480ef615b",
+        "entityType": "PERSON",
+        "displayNameEn": "Mrs. Nazarovich"
+      },
+      {
+        "passageId": "passage_e78be97408ff590480ef615b",
+        "entityType": "PERSON",
+        "displayNameEn": "Reuven Weisman"
+      },
+      {
+        "passageId": "passage_e78be97408ff590480ef615b",
+        "entityType": "PERSON",
+        "displayNameEn": "The child"
+      },
+      {
+        "passageId": "passage_a3aa6c3d5e5aff2aead775af",
+        "entityType": "PERSON",
+        "displayNameEn": "Mordechai Gerech"
+      },
+      {
+        "passageId": "passage_a3aa6c3d5e5aff2aead775af",
+        "entityType": "PERSON",
+        "displayNameEn": "Mordechai"
+      },
+      {
+        "passageId": "passage_a3aa6c3d5e5aff2aead775af",
+        "entityType": "PLACE",
+        "displayNameEn": "Treblinka"
+      },
+      {
+        "passageId": "passage_a3aa6c3d5e5aff2aead775af",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_a3aa6c3d5e5aff2aead775af",
+        "entityType": "PLACE",
+        "displayNameEn": "Maltsinov road"
+      },
+      {
+        "passageId": "passage_d5f478826c2070aa2144ffd6",
+        "entityType": "PLACE",
+        "displayNameEn": "So-called Firefighter Alley"
+      },
+      {
+        "passageId": "passage_d5f478826c2070aa2144ffd6",
+        "entityType": "PLACE",
+        "displayNameEn": "8 Sprzechna"
+      },
+      {
+        "passageId": "passage_d5f478826c2070aa2144ffd6",
+        "entityType": "PLACE",
+        "displayNameEn": "Targowa Street"
+      },
+      {
+        "passageId": "passage_d5f478826c2070aa2144ffd6",
+        "entityType": "PLACE",
+        "displayNameEn": "Grochowska Street"
+      },
+      {
+        "passageId": "passage_d5f478826c2070aa2144ffd6",
+        "entityType": "PLACE",
+        "displayNameEn": "Firefighter Tower"
+      },
+      {
+        "passageId": "passage_9bde0d6a63008272f20b2c39",
+        "entityType": "PERSON",
+        "displayNameEn": "Reuven Weissbois"
+      },
+      {
+        "passageId": "passage_9bde0d6a63008272f20b2c39",
+        "entityType": "FAMILY",
+        "displayNameEn": "Baberniker family"
+      },
+      {
+        "passageId": "passage_9bde0d6a63008272f20b2c39",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Łuków ghetto"
+      },
+      {
+        "passageId": "passage_9bde0d6a63008272f20b2c39",
+        "entityType": "PLACE",
+        "displayNameEn": "Woods around Łuków"
+      },
+      {
+        "passageId": "passage_5e35623eb30979892bf7905f",
+        "entityType": "PERSON",
+        "displayNameEn": "Lavke Sparberg"
+      },
+      {
+        "passageId": "passage_5e35623eb30979892bf7905f",
+        "entityType": "PERSON",
+        "displayNameEn": "Mindl Sparberg"
+      },
+      {
+        "passageId": "passage_5e35623eb30979892bf7905f",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Minsk ghetto"
+      },
+      {
+        "passageId": "passage_5e35623eb30979892bf7905f",
+        "entityType": "PLACE",
+        "displayNameEn": "Factory"
+      },
+      {
+        "passageId": "passage_1257076e42deadbff57dd7d2",
+        "entityType": "PLACE",
+        "displayNameEn": "Bug River"
+      },
+      {
+        "passageId": "passage_1257076e42deadbff57dd7d2",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Red Army"
+      },
+      {
+        "passageId": "passage_1257076e42deadbff57dd7d2",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jewish population"
+      },
+      {
+        "passageId": "passage_122a4abe566796afb2aee7c9",
+        "entityType": "PLACE",
+        "displayNameEn": "Carmel"
+      },
+      {
+        "passageId": "passage_122a4abe566796afb2aee7c9",
+        "entityType": "PLACE",
+        "displayNameEn": "Galilee"
+      },
+      {
+        "passageId": "passage_122a4abe566796afb2aee7c9",
+        "entityType": "PLACE",
+        "displayNameEn": "Jezreel Valley"
+      },
+      {
+        "passageId": "passage_122a4abe566796afb2aee7c9",
+        "entityType": "WORK",
+        "displayNameEn": "Shir HaEmek"
+      },
+      {
+        "passageId": "passage_122a4abe566796afb2aee7c9",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Friends of the Jews"
+      },
+      {
+        "passageId": "passage_122a4abe566796afb2aee7c9",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "French women prisoners"
+      },
+      {
+        "passageId": "passage_1d66eab704bee1d07b0d8911",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Jewish community"
+      },
+      {
+        "passageId": "passage_1d66eab704bee1d07b0d8911",
+        "entityType": "PLACE",
+        "displayNameEn": "Kalie-Gas"
+      },
+      {
+        "passageId": "passage_1650de57893dacc2177d78b4",
+        "entityType": "PLACE",
+        "displayNameEn": "Malcinov"
+      },
+      {
+        "passageId": "passage_1650de57893dacc2177d78b4",
+        "entityType": "FAMILY",
+        "displayNameEn": "Burkutein family"
+      },
+      {
+        "passageId": "passage_1650de57893dacc2177d78b4",
+        "entityType": "FAMILY",
+        "displayNameEn": "Zubrawich family"
+      },
+      {
+        "passageId": "passage_1650de57893dacc2177d78b4",
+        "entityType": "PLACE",
+        "displayNameEn": "Malcinov field"
+      },
+      {
+        "passageId": "passage_1650de57893dacc2177d78b4",
+        "entityType": "PLACE",
+        "displayNameEn": "Radzyn"
+      },
+      {
+        "passageId": "passage_1650de57893dacc2177d78b4",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_1650de57893dacc2177d78b4",
+        "entityType": "PLACE",
+        "displayNameEn": "Mezritcher Street"
+      },
+      {
+        "passageId": "passage_78032b4a0f44c2e7c5f15286",
+        "entityType": "PERSON",
+        "displayNameEn": "Noah"
+      },
+      {
+        "passageId": "passage_db799ed520ef57a50895b22c",
+        "entityType": "PLACE",
+        "displayNameEn": "Pardes Hanna"
+      },
+      {
+        "passageId": "passage_db799ed520ef57a50895b22c",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_3abb5c0f5108720b52d7e934",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Tsukerman"
+      },
+      {
+        "passageId": "passage_25225ae5022d28ae65628081",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Great Synagogue in Tel Aviv"
+      },
+      {
+        "passageId": "passage_25225ae5022d28ae65628081",
+        "entityType": "PLACE",
+        "displayNameEn": "Basement of the Holocaust"
+      },
+      {
+        "passageId": "passage_25225ae5022d28ae65628081",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow martyrs"
+      },
+      {
+        "passageId": "passage_1435b3dc3c34ee51dc3e3da5",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Lukow Society"
+      },
+      {
+        "passageId": "passage_1435b3dc3c34ee51dc3e3da5",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Federation of Polish Jews in America"
+      },
+      {
+        "passageId": "passage_1435b3dc3c34ee51dc3e3da5",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Lukow Branch 153, Independent Order of Workmen"
+      },
+      {
+        "passageId": "passage_1435b3dc3c34ee51dc3e3da5",
+        "entityType": "PLACE",
+        "displayNameEn": "New York"
+      },
+      {
+        "passageId": "passage_1435b3dc3c34ee51dc3e3da5",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow Landsmen"
+      },
+      {
+        "passageId": "passage_1435b3dc3c34ee51dc3e3da5",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_1435b3dc3c34ee51dc3e3da5",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Lukow Branch 153 A.A.A."
+      },
+      {
+        "passageId": "passage_042401d1008b2821b72fd507",
+        "entityType": "PERSON",
+        "displayNameEn": "Leibel Rozenboym"
+      },
+      {
+        "passageId": "passage_042401d1008b2821b72fd507",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim Lederfarb"
+      },
+      {
+        "passageId": "passage_042401d1008b2821b72fd507",
+        "entityType": "PERSON",
+        "displayNameEn": "Eli Yangstitz"
+      },
+      {
+        "passageId": "passage_042401d1008b2821b72fd507",
+        "entityType": "PERSON",
+        "displayNameEn": "Yankel Brown"
+      },
+      {
+        "passageId": "passage_042401d1008b2821b72fd507",
+        "entityType": "PERSON",
+        "displayNameEn": "Abi Brown"
+      },
+      {
+        "passageId": "passage_042401d1008b2821b72fd507",
+        "entityType": "FAMILY",
+        "displayNameEn": "Lukow family"
+      },
+      {
+        "passageId": "passage_042401d1008b2821b72fd507",
+        "entityType": "PERSON",
+        "displayNameEn": "Morris Levit"
+      },
+      {
+        "passageId": "passage_042401d1008b2821b72fd507",
+        "entityType": "PLACE",
+        "displayNameEn": "America"
+      },
+      {
+        "passageId": "passage_042401d1008b2821b72fd507",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Lukow Association"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Lukow Association"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Yudel Flug"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Yudel Waland"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Simcha Hershberg"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Nisan Hershberg"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim Grinboim"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Leibel Batshan"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Mendel Orlinsky"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Sidney Hershberg"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Mottel Feldman"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Ros Feltzman"
+      },
+      {
+        "passageId": "passage_f322ef8913c3f571b48a7ceb",
+        "entityType": "PERSON",
+        "displayNameEn": "Gdalye Feltzman"
+      },
+      {
+        "passageId": "passage_2f9cf10cb9781dd8ba813160",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Lukow community in New York"
+      },
+      {
+        "passageId": "passage_2f9cf10cb9781dd8ba813160",
+        "entityType": "PLACE",
+        "displayNameEn": "New York"
+      },
+      {
+        "passageId": "passage_e33f7bbc96fd689bc4045247",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "General Committee of Lukow in the United States"
+      },
+      {
+        "passageId": "passage_e33f7bbc96fd689bc4045247",
+        "entityType": "PERSON",
+        "displayNameEn": "Motel Feldman"
+      },
+      {
+        "passageId": "passage_e33f7bbc96fd689bc4045247",
+        "entityType": "PLACE",
+        "displayNameEn": "New York"
+      },
+      {
+        "passageId": "passage_de30a7f45def4d63a454352e",
+        "entityType": "PERSON",
+        "displayNameEn": "Abrasha Goldgewicht"
+      },
+      {
+        "passageId": "passage_de30a7f45def4d63a454352e",
+        "entityType": "COMMUNITY",
+        "displayNameEn": "Jewish community"
+      },
+      {
+        "passageId": "passage_de30a7f45def4d63a454352e",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Belgian Resistance"
+      },
+      {
+        "passageId": "passage_de30a7f45def4d63a454352e",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Partisan Army"
+      },
+      {
+        "passageId": "passage_de30a7f45def4d63a454352e",
+        "entityType": "PLACE",
+        "displayNameEn": "Brussels"
+      },
+      {
+        "passageId": "passage_de30a7f45def4d63a454352e",
+        "entityType": "PLACE",
+        "displayNameEn": "Malines"
+      },
+      {
+        "passageId": "passage_de30a7f45def4d63a454352e",
+        "entityType": "PLACE",
+        "displayNameEn": "Liège"
+      },
+      {
+        "passageId": "passage_de30a7f45def4d63a454352e",
+        "entityType": "PLACE",
+        "displayNameEn": "Wallonia"
+      },
+      {
+        "passageId": "passage_de30a7f45def4d63a454352e",
+        "entityType": "PLACE",
+        "displayNameEn": "Mons"
+      },
+      {
+        "passageId": "passage_759595050c43297cf9c131a0",
+        "entityType": "PERSON",
+        "displayNameEn": "Sarah Burstein-Zubrawitch"
+      },
+      {
+        "passageId": "passage_759595050c43297cf9c131a0",
+        "entityType": "FAMILY",
+        "displayNameEn": "Burstein family"
+      },
+      {
+        "passageId": "passage_759595050c43297cf9c131a0",
+        "entityType": "PLACE",
+        "displayNameEn": "Syktyvkar"
+      },
+      {
+        "passageId": "passage_759595050c43297cf9c131a0",
+        "entityType": "PERSON",
+        "displayNameEn": "Yudel Burstein"
+      },
+      {
+        "passageId": "passage_759595050c43297cf9c131a0",
+        "entityType": "PERSON",
+        "displayNameEn": "Motel Feldman"
+      },
+      {
+        "passageId": "passage_759595050c43297cf9c131a0",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Theater"
+      },
+      {
+        "passageId": "passage_a8e364ad4f64f00bf32c346f",
+        "entityType": "PERSON",
+        "displayNameEn": "Moses Shlakhtavitch"
+      },
+      {
+        "passageId": "passage_a8e364ad4f64f00bf32c346f",
+        "entityType": "PLACE",
+        "displayNameEn": "Łuków"
+      },
+      {
+        "passageId": "passage_a8e364ad4f64f00bf32c346f",
+        "entityType": "PERSON",
+        "displayNameEn": "Moses Shlakhtavitch's father"
+      },
+      {
+        "passageId": "passage_a8e364ad4f64f00bf32c346f",
+        "entityType": "BUSINESS",
+        "displayNameEn": "Factory producing materials for packing glass objects"
+      },
+      {
+        "passageId": "passage_a8e364ad4f64f00bf32c346f",
+        "entityType": "PERSON",
+        "displayNameEn": "Fese-Ite the Gabaite"
+      },
+      {
+        "passageId": "passage_a8e364ad4f64f00bf32c346f",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Left Workers-Zionist Party"
+      },
+      {
+        "passageId": "passage_a8e364ad4f64f00bf32c346f",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Professional movement"
+      },
+      {
+        "passageId": "passage_a8e364ad4f64f00bf32c346f",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Communist movement"
+      },
+      {
+        "passageId": "passage_a8e364ad4f64f00bf32c346f",
+        "entityType": "BUSINESS",
+        "displayNameEn": "Shoe workshop"
+      },
+      {
+        "passageId": "passage_d9662d60d65c4e0454ca6e93",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Shlakhtavitch"
+      },
+      {
+        "passageId": "passage_d9662d60d65c4e0454ca6e93",
+        "entityType": "PERSON",
+        "displayNameEn": "Shmuel Hokherman"
+      },
+      {
+        "passageId": "passage_d9662d60d65c4e0454ca6e93",
+        "entityType": "PLACE",
+        "displayNameEn": "Poland"
+      },
+      {
+        "passageId": "passage_41d36ec96ab8bb712de000e7",
+        "entityType": "PERSON",
+        "displayNameEn": "Siekazh the teacher"
+      },
+      {
+        "passageId": "passage_41d36ec96ab8bb712de000e7",
+        "entityType": "PERSON",
+        "displayNameEn": "Mshu Seseles"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim Shlomo Feldman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Ester-Sheindl Feldman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Latche Feldman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Ruth Feldman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Freishke Kleinman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Motl Kleinman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Naftali Kleinman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Leahche Kleinman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Nachum Kleinman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Feldman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaya-Hinde"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Shimshele"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Leah Feldman-Edelman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PERSON",
+        "displayNameEn": "Motl Feldman"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PLACE",
+        "displayNameEn": "New York"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PLACE",
+        "displayNameEn": "Auschwitz"
+      },
+      {
+        "passageId": "passage_92cdca899e254ff80d302a40",
+        "entityType": "PLACE",
+        "displayNameEn": "Majdanek"
+      },
+      {
+        "passageId": "passage_02bcb2848d4dedb2dbc5eb56",
+        "entityType": "PUBLICATION",
+        "displayNameEn": "The First Publication of the Lukow Survivors"
+      },
+      {
+        "passageId": "passage_02bcb2848d4dedb2dbc5eb56",
+        "entityType": "PLACE",
+        "displayNameEn": "Lodz"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Shmuel Moshe Falehendler"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Sarahle"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Leybish Falehendler"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PLACE",
+        "displayNameEn": "Brussels"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PLACE",
+        "displayNameEn": "Belgium"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Isaiah Prost"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Rachel-Leah"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Velvel and Ephraim"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaim Meiravitch"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Shalom"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Alter Prost"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PERSON",
+        "displayNameEn": "Esther Prost"
+      },
+      {
+        "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+        "entityType": "PLACE",
+        "displayNameEn": "Ramat Gan"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Mindl Karpenkop"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Alter Walman"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Berele Karpenkop"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "FAMILY",
+        "displayNameEn": "Karpenkop family"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Chaya-Rachel"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Hershel"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Roizke"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Genie"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Judith"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Moses Barnstein"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Berele"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Avramle"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Mindl"
+      },
+      {
+        "passageId": "passage_cf284c4d54ba9eb008676a50",
+        "entityType": "PERSON",
+        "displayNameEn": "Leah-Golde"
+      },
+      {
+        "passageId": "passage_eef8b60c7b066564b25c0e0a",
+        "entityType": "PERSON",
+        "displayNameEn": "Haim Valberg"
+      },
+      {
+        "passageId": "passage_eef8b60c7b066564b25c0e0a",
+        "entityType": "PERSON",
+        "displayNameEn": "Feige Valberg"
+      },
+      {
+        "passageId": "passage_eef8b60c7b066564b25c0e0a",
+        "entityType": "PERSON",
+        "displayNameEn": "Freide"
+      },
+      {
+        "passageId": "passage_eef8b60c7b066564b25c0e0a",
+        "entityType": "PERSON",
+        "displayNameEn": "Reuven"
+      },
+      {
+        "passageId": "passage_eef8b60c7b066564b25c0e0a",
+        "entityType": "PERSON",
+        "displayNameEn": "Nate"
+      },
+      {
+        "passageId": "passage_eef8b60c7b066564b25c0e0a",
+        "entityType": "PERSON",
+        "displayNameEn": "David"
+      },
+      {
+        "passageId": "passage_eef8b60c7b066564b25c0e0a",
+        "entityType": "PLACE",
+        "displayNameEn": "Tel Aviv"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "David Lerner"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "David Karik"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "Esther"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "Sarah"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "Mindl"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "Yisrael"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "Shimon"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "Unnamed brother"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "Jacob"
+      },
+      {
+        "passageId": "passage_195b9959e2048cd27732c188",
+        "entityType": "PERSON",
+        "displayNameEn": "Nachama"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "M. Chanин"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "M. Edelboim"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Shlomo Rubinstein"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Shimon Siroka"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Yahiel Rozenblum"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Eliezer Lichtenshtein"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Menachem Zakalik"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Avraham Sakal"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Yaakov Braun"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Haya Huberman"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Peltzman"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Moshe Natemdiner"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "M. Barnstein"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Nakh Latovitch"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Alter Vishnia"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Yosef Hirsh Rozenstein"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Isaiah Cohen"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PERSON",
+        "displayNameEn": "Leybish Felhendler"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "PLACE",
+        "displayNameEn": "Lukow"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Bund movement"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Hashomer Hatzair"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "ORGANIZATION",
+        "displayNameEn": "Freiheit"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Lukow yeshiva"
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "entityType": "INSTITUTION",
+        "displayNameEn": "Medem school"
+      }
+    ],
+    "falseNegatives": [],
+    "targetRecall": 0,
+    "precision": null,
+    "f1": null,
+    "precisionNote": "The initial fixture is not exhaustive; additional candidates are not counted as false positives.",
+    "provenanceExactRate": 0.9434724091520862,
+    "provenanceResolvedRate": 1
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "kehilot-yizkor-graph-comparison-v1",
+  "generatedAt": "2026-08-24T21:56:09.979Z",
+  "fixture": {
+    "id": "lukow-yizkor-v2-stratified-140",
+    "annotationStatus": "STRATIFIED_COMPARISON_SET_NOT_GOLD",
+    "passages": 140
+  },
+  "inputs": {
+    "baseline": {
+      "path": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v1/full-extraction/candidate-graph.json",
+      "sha256": "caeb486f6c7ca40d9b016fda85552843b284d902e600cb65b9c6f9041348ca1b"
+    },
+    "candidate": {
+      "path": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/evaluation/extraction/candidate-graph.json",
+      "sha256": "0883082250ee106c33ab6b2596299c25daeebe0a13ec01b2155b2bd1c38d9e5b"
+    },
+    "source": {
+      "path": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v1/source/passages.jsonl",
+      "sha256": "bc28f1a81b1f14bb05a5ff62925ed1d2b83768f221a77162af7e2834acdfa157"
+    },
+    "inventory": {
+      "path": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/evaluation/inventory/inventory.jsonl",
+      "sha256": "bd41b785bcf172dc6b808c28e1e05ec7ba2bf6702849956d82fe72435ff3b970"
+    }
+  },
+  "baseline": {
+    "counts": {
+      "mentions": 721,
+      "claims": 245,
+      "events": 98,
+      "accepted": 1064,
+      "quarantined": 39,
+      "passagesWithObservations": 121
+    },
+    "structure": {
+      "duplicateEntityCandidateIds": 7,
+      "danglingClaimReferences": 0,
+      "danglingEventReferences": 1,
+      "errorCount": 8
+    },
+    "provenance": {
+      "observations": 1064,
+      "missingEvidence": 0,
+      "invalidEvidenceRanges": 0,
+      "exactNormalizedEvidence": 0,
+      "exactNormalizedRate": 0
+    }
+  },
+  "candidate": {
+    "counts": {
+      "mentions": 743,
+      "claims": 219,
+      "events": 101,
+      "accepted": 1063,
+      "quarantined": 54,
+      "passagesWithObservations": 128
+    },
+    "structure": {
+      "duplicateEntityCandidateIds": 0,
+      "danglingClaimReferences": 0,
+      "danglingEventReferences": 0,
+      "errorCount": 0
+    },
+    "provenance": {
+      "observations": 1063,
+      "missingEvidence": 0,
+      "invalidEvidenceRanges": 0,
+      "exactNormalizedEvidence": 1002,
+      "exactNormalizedRate": 0.9426
+    }
+  },
+  "routing": {
+    "counts": {
+      "SKIP": 5,
+      "MENTIONS_ONLY": 16,
+      "FULL": 119
+    },
+    "skippedWithBaselineObservations": [],
+    "mentionsOnlyWithBaselineClaimsOrEvents": [
+      {
+        "passageId": "passage_890d8f8a44d8043dc375af09",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 7,
+          "claims": 5,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_18ef6ed1b8c285f647b52389",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 8,
+          "claims": 8,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_dfc14847f521d32c1e1e0d18",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 2,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_25225ae5022d28ae65628081",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_e33f7bbc96fd689bc4045247",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_02bcb2848d4dedb2dbc5eb56",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 2,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 25,
+          "claims": 2,
+          "events": 0
+        }
+      }
+    ],
+    "missingInventoryPassageIds": []
+  },
+  "comparison": {
+    "mentions": {
+      "baselineUnique": 719,
+      "candidateUnique": 742,
+      "shared": 436,
+      "removed": 283,
+      "added": 306,
+      "jaccard": 0.4254
+    },
+    "claims": {
+      "baselineUnique": 237,
+      "candidateUnique": 200,
+      "shared": 11,
+      "removed": 226,
+      "added": 189,
+      "jaccard": 0.0258
+    },
+    "events": {
+      "baselineUnique": 98,
+      "candidateUnique": 101,
+      "shared": 5,
+      "removed": 93,
+      "added": 96,
+      "jaccard": 0.0258
+    }
+  },
+  "qualityGate": {
+    "mandatoryCandidateChecksPass": true,
+    "selectionStatus": "SEMANTIC_REVIEW_REQUIRED",
+    "note": "This fixture is not exhaustive human gold. Counts and overlap cannot establish semantic precision."
+  }
+}

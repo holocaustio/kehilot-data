@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "kehilot-yizkor-inventory-run-v1",
+  "pipelineVersion": "yizkor-inventory-v2",
+  "promptVersion": "yizkor-routing-prompt-v3",
+  "model": "gpt-5.6-luna",
+  "requestedServiceTier": "flex",
+  "reasoningEffort": "none",
+  "startedAt": "2026-08-24T21:53:47.153Z",
+  "completedAt": "2026-08-24T21:54:04.970Z",
+  "elapsedMs": 17815,
+  "status": "COMPLETED",
+  "scope": "EVALUATION_FIXTURE",
+  "fixtureId": "lukow-yizkor-v2-stratified-140",
+  "counts": {
+    "passages": 140,
+    "bundles": 18,
+    "SKIP": 5,
+    "MENTIONS_ONLY": 16,
+    "FULL": 119
+  },
+  "usage": {
+    "inputTokens": 58392,
+    "cachedInputTokens": 0,
+    "uncachedInputTokens": 58392,
+    "outputTokens": 7100,
+    "reasoningTokens": 0,
+    "totalTokens": 65492
+  },
+  "pricingAssumptions": {
+    "inputPerMillion": 0.1,
+    "cachedInputPerMillion": 0.01,
+    "outputPerMillion": 0.6,
+    "serviceTier": "flex",
+    "observedAt": "2026-08-24",
+    "source": "https://developers.openai.com/api/docs/pricing?latest-pricing=flex"
+  },
+  "estimatedCostUsd": 0.010099
+}

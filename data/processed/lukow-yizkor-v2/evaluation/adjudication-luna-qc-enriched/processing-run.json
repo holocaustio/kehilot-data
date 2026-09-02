@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "kehilot-yizkor-adjudication-run-v1",
+  "pipelineVersion": "yizkor-adjudication-v2",
+  "promptVersion": "yizkor-adjudication-prompt-v1",
+  "startedAt": "2026-08-24T22:20:42.200Z",
+  "completedAt": "2026-08-24T22:22:37.020Z",
+  "elapsedMs": 114818,
+  "status": "COMPLETED",
+  "scope": "PARTIAL_PILOT",
+  "model": "gpt-5.6-luna",
+  "serviceTier": "flex",
+  "reasoningEffort": "max",
+  "escalationQcRate": 0,
+  "escalateDecisions": [],
+  "counts": {
+    "totalCases": 366,
+    "entityResolutionCases": 46,
+    "entityCandidatesCovered": 149,
+    "observationReviewCases": 320,
+    "automaticDecisions": 10,
+    "priorDecisions": 0,
+    "modelCases": 356,
+    "escalationEligibleCases": 0,
+    "selectedCases": 57,
+    "bundles": 57,
+    "decisions": 67,
+    "resolvedEntities": 730,
+    "reviewQueue": 300
+  },
+  "usage": {
+    "inputTokens": 10635,
+    "cachedInputTokens": 0,
+    "uncachedInputTokens": 10635,
+    "outputTokens": 9337,
+    "reasoningTokens": 7962,
+    "totalTokens": 19972
+  },
+  "pricingAssumptions": {
+    "inputPerMillion": 0.1,
+    "cachedInputPerMillion": 0.01,
+    "outputPerMillion": 0.6,
+    "serviceTier": "flex",
+    "observedAt": "2026-08-24",
+    "source": "https://developers.openai.com/api/docs/pricing?latest-pricing=flex"
+  },
+  "estimatedCostUsd": 0.006666
+}

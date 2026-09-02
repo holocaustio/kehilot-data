@@ -1,0 +1,349 @@
+{
+  "schemaVersion": "kehilot-yizkor-graph-comparison-v1",
+  "generatedAt": "2026-08-25T00:38:12.129Z",
+  "fixture": {
+    "id": "full-corpus",
+    "annotationStatus": "STRUCTURAL_AND_OVERLAP_COMPARISON_NOT_GOLD",
+    "passages": 1392
+  },
+  "inputs": {
+    "baseline": {
+      "path": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v1/full-extraction/candidate-graph.json",
+      "sha256": "caeb486f6c7ca40d9b016fda85552843b284d902e600cb65b9c6f9041348ca1b"
+    },
+    "candidate": {
+      "path": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/extraction/candidate-graph.json",
+      "sha256": "8712a52fc46b242319442f299a98def87108394975768580df961dd977245d47"
+    },
+    "source": {
+      "path": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v1/source/passages.jsonl",
+      "sha256": "bc28f1a81b1f14bb05a5ff62925ed1d2b83768f221a77162af7e2834acdfa157"
+    },
+    "inventory": {
+      "path": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/inventory/inventory.jsonl",
+      "sha256": "c8491fa04fbed42fb8fccb289e050783312b3670eec13b1310fd0963ffa2edf2"
+    }
+  },
+  "baseline": {
+    "counts": {
+      "mentions": 7102,
+      "claims": 2428,
+      "events": 949,
+      "accepted": 10479,
+      "quarantined": 371,
+      "passagesWithObservations": 1281
+    },
+    "structure": {
+      "duplicateEntityCandidateIds": 7,
+      "danglingClaimReferences": 13,
+      "danglingEventReferences": 15,
+      "errorCount": 35
+    },
+    "provenance": {
+      "observations": 10479,
+      "missingEvidence": 0,
+      "invalidEvidenceRanges": 0,
+      "exactNormalizedEvidence": 0,
+      "exactNormalizedRate": 0
+    }
+  },
+  "candidate": {
+    "counts": {
+      "mentions": 7583,
+      "claims": 2028,
+      "events": 940,
+      "accepted": 10551,
+      "quarantined": 847,
+      "passagesWithObservations": 1314
+    },
+    "structure": {
+      "duplicateEntityCandidateIds": 0,
+      "danglingClaimReferences": 0,
+      "danglingEventReferences": 0,
+      "errorCount": 0
+    },
+    "provenance": {
+      "observations": 10551,
+      "missingEvidence": 0,
+      "invalidEvidenceRanges": 0,
+      "exactNormalizedEvidence": 10092,
+      "exactNormalizedRate": 0.9565
+    }
+  },
+  "routing": {
+    "counts": {
+      "MENTIONS_ONLY": 85,
+      "FULL": 1296,
+      "SKIP": 11
+    },
+    "skippedWithBaselineObservations": [],
+    "mentionsOnlyWithBaselineClaimsOrEvents": [
+      {
+        "passageId": "passage_890d8f8a44d8043dc375af09",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 7,
+          "claims": 5,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_4cb158e28e6804e2301e898d",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_775c8a5975ebe26ad7c0d465",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 6,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_ccfe81d081f6d1b57b6d31cc",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 8,
+          "claims": 2,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_abc2e7e191bdb99b056ed9c8",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 22,
+          "claims": 5,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_06f3a35f7e9106a72ceedf6c",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 4,
+          "claims": 3,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_a490f9ef463eb1800265a0e6",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 4,
+          "claims": 2,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_9f5fccd7e49fa87e9b2d58e3",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 6,
+          "claims": 6,
+          "events": 1
+        }
+      },
+      {
+        "passageId": "passage_75e6a0394cc96d04bc59386e",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 6,
+          "claims": 2,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_dfc14847f521d32c1e1e0d18",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 2,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_820ea3ca8ae811eed49a2953",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 1,
+          "events": 1
+        }
+      },
+      {
+        "passageId": "passage_250eab69dd9a193249008016",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 5,
+          "claims": 4,
+          "events": 1
+        }
+      },
+      {
+        "passageId": "passage_dbd866e0df7d3977a70ea2cf",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 14,
+          "claims": 13,
+          "events": 1
+        }
+      },
+      {
+        "passageId": "passage_cdf23afed5027186d8eff576",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 1,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_a9a0e6167306a7c90e117237",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 21,
+          "claims": 10,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_7adad506683c519c22b87a08",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_08e32261d075e0701a05d833",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 2,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_25225ae5022d28ae65628081",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_4ddbec625829a474b2c22373",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 2,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_e33f7bbc96fd689bc4045247",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_bf2ec2468f803722acc5e79a",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 3,
+          "claims": 2,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_3ba1d5ba7cb46acddc69d812",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 8,
+          "claims": 4,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_02bcb2848d4dedb2dbc5eb56",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 2,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_398c493667a8677697a1b11e",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 2,
+          "claims": 1,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_611f3d734261400b7194621e",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 25,
+          "claims": 2,
+          "events": 0
+        }
+      },
+      {
+        "passageId": "passage_2917f471e13194b36fa77886",
+        "route": "MENTIONS_ONLY",
+        "baselineCounts": {
+          "mentions": 27,
+          "claims": 4,
+          "events": 0
+        }
+      }
+    ],
+    "missingInventoryPassageIds": []
+  },
+  "comparison": {
+    "mentions": {
+      "baselineUnique": 7085,
+      "candidateUnique": 7570,
+      "shared": 4144,
+      "removed": 2941,
+      "added": 3426,
+      "jaccard": 0.3943
+    },
+    "claims": {
+      "baselineUnique": 2358,
+      "candidateUnique": 1969,
+      "shared": 85,
+      "removed": 2273,
+      "added": 1884,
+      "jaccard": 0.02
+    },
+    "events": {
+      "baselineUnique": 949,
+      "candidateUnique": 940,
+      "shared": 35,
+      "removed": 914,
+      "added": 905,
+      "jaccard": 0.0189
+    }
+  },
+  "qualityGate": {
+    "mandatoryCandidateChecksPass": true,
+    "selectionStatus": "SEMANTIC_REVIEW_REQUIRED",
+    "note": "This fixture is not exhaustive human gold. Counts and overlap cannot establish semantic precision."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "kehilot-yizkor-source-v2",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "ingestedAt": "2026-08-24T20:14:04.788Z",
+  "community": {
+    "id": "community_lukow",
+    "displayName": "Lukow",
+    "canonicalName": "Łuków",
+    "country": "Poland"
+  },
+  "book": {
+    "id": "book_nybc301551",
+    "communityId": "community_lukow",
+    "internetArchiveId": "nybc301551",
+    "title": "Sefer Luḳov : geheyliḳṭ der ḥorev-geṿorener ḳehile",
+    "alternateTitle": null,
+    "authors": [
+      "Heller, Binem,1908-",
+      "Heller, Binem,1908-1998"
+    ],
+    "publication": "Tel-Aviv : Irgun yotsʾe Luḳoṿ be-Yiśrẚel",
+    "language": "he-yi",
+    "pageProgression": "rl",
+    "sourceUrl": "https://archive.org/details/nybc301551",
+    "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+    "rightsStatus": "REVIEW_REQUIRED",
+    "attribution": "internet-archive",
+    "checksums": {
+      "metadata": "4b2300521f59d15cc346c32be2ade4cfe23cec20eeaea9cca505fe3bcab676fd",
+      "djvuXml": "bc451ded7183d8889f913fa5f462547ed315873c7e88426e10c0770e7cdb9faf",
+      "scandataXml": "52bf99fb045b7ceea718b767ffa751e6640b64cd76072b0882925dd815a02e48",
+      "pdf": "cd617df300c007ac919927669f9e07eb06f99e8fcccd5f9b0bab6ca6fccd3290"
+    }
+  },
+  "chapters": [],
+  "counts": {
+    "pages": 662,
+    "pagesWithText": 645,
+    "passages": 1392,
+    "words": 198202,
+    "normalizationEdits": 191631,
+    "joinedFragments": 179360,
+    "softLineBreaks": 12271
+  },
+  "normalizationPolicy": {
+    "version": "ocr-layout-normalizer-v1",
+    "canonicalField": "text",
+    "derivedField": "normalizedText",
+    "reversible": true,
+    "changesCharacters": false,
+    "rules": [
+      "concatenate-djvu-word-runs",
+      "replace-soft-line-breaks"
+    ]
+  },
+  "passagePolicy": {
+    "pageBound": true,
+    "targetEstimatedTokens": 1100,
+    "maxEstimatedTokens": 1500,
+    "tokenEstimate": "hebrew_letters*1.15 + latin_letters/4 + digits/3 + punctuation/2"
+  }
+}

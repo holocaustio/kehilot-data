@@ -1,0 +1,3418 @@
+{
+  "schemaVersion": "kehilot-yizkor-adjudication-comparison-v1",
+  "generatedAt": "2026-08-24T22:13:13.259Z",
+  "inputs": {
+    "left": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/evaluation/adjudication-luna/adjudications.jsonl",
+    "right": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/evaluation/adjudication-terra/adjudications.jsonl",
+    "cases": "/Users/aloncarmel/Documents/Development/kehilot/kehilot/data/processed/lukow-yizkor-v2/evaluation/adjudication-terra/adjudication-cases.json"
+  },
+  "models": {
+    "left": {
+      "model": "gpt-5.6-luna",
+      "serviceTier": "flex",
+      "reasoningEffort": "max",
+      "bundles": 162,
+      "failedBundles": 0,
+      "decisions": 162,
+      "usage": {
+        "inputTokens": 173621,
+        "cachedInputTokens": 0,
+        "uncachedInputTokens": 173621,
+        "outputTokens": 227588,
+        "reasoningTokens": 205426,
+        "totalTokens": 401209
+      },
+      "estimatedCostUsd": 0.153915,
+      "elapsedMs": 1001724
+    },
+    "right": {
+      "model": "gpt-5.6-terra",
+      "serviceTier": "flex",
+      "reasoningEffort": "high",
+      "bundles": 27,
+      "failedBundles": 0,
+      "decisions": 162,
+      "usage": {
+        "inputTokens": 124751,
+        "cachedInputTokens": 38524,
+        "uncachedInputTokens": 86227,
+        "outputTokens": 35324,
+        "reasoningTokens": 19048,
+        "totalTokens": 160075
+      },
+      "estimatedCostUsd": 0.302023,
+      "elapsedMs": 99521
+    }
+  },
+  "counts": {
+    "sharedCases": 162,
+    "decisionAgreements": 102,
+    "decisionDisagreements": 60,
+    "decisionAgreementRate": 0.6296,
+    "missingOnLeft": 0,
+    "missingOnRight": 0
+  },
+  "agreementByCaseType": {
+    "ENTITY_RESOLUTION": {
+      "compared": 36,
+      "decisionAgreement": 29,
+      "decisionAgreementRate": 0.8056
+    },
+    "OBSERVATION_REVIEW": {
+      "compared": 126,
+      "decisionAgreement": 73,
+      "decisionAgreementRate": 0.5794
+    }
+  },
+  "missingCaseIds": {
+    "left": [],
+    "right": []
+  },
+  "disagreements": [
+    {
+      "caseId": "resolution_2a03d8915b81883028978110",
+      "case": {
+        "caseId": "resolution_2a03d8915b81883028978110",
+        "caseType": "ENTITY_RESOLUTION",
+        "priorityScore": 31,
+        "entityType": "PLACE",
+        "normalizedIdentityKey": "מעזריטש",
+        "memberCount": 4,
+        "entityCandidateIds": [
+          "entity_candidate_b9d20b059cd496871309ce4d",
+          "entity_candidate_ec1e4e37e26e58e12fe4aebb",
+          "entity_candidate_3696141742d468a2082086a6",
+          "entity_candidate_a04195c764047d1a270ecb70"
+        ],
+        "mentionIds": [
+          "mention_a6b6b70d2511dfb5bca40f3c",
+          "mention_491c7c3232b0b23654d5476b",
+          "mention_09fcb437d8b704f70272aa3f",
+          "mention_121d2d5bcbfddf5646e5a429"
+        ],
+        "observedNames": [
+          "Mezeritch",
+          "מעזריטש",
+          "Mezritch",
+          "Mezhritsh"
+        ],
+        "scanRange": [
+          146,
+          443
+        ],
+        "evidenceSamples": [
+          {
+            "mentionId": "mention_a6b6b70d2511dfb5bca40f3c",
+            "displayNameEn": "Mezeritch",
+            "originalName": "מעזריטש",
+            "subtype": "town",
+            "summaryEn": "The origin of a guest invited during Hashomer Hatzair's formation.",
+            "confidence": "MEDIUM",
+            "evidence": {
+              "passageId": "passage_27ef913ea580023295aa0ae7",
+              "scanIndex": 146,
+              "printedPage": "142",
+              "quote": "חבר פון מעזריטש",
+              "context": "רחי״. ער האט גענומען שרײען׳ אז מיטן ״טײטל״ װעלן זײ ארויםטרײבן דעם שונא פון לאנד. װען מיר האבן געפרעגט׳ װאם ער מײנט דערמיט׳ האט ער אויפגעקלערט׳ אז מיט תורה ועבודה װעט מען אײננעמען ארץ־ישראל. אבער מיר האבן געטענהט אײנם: מיר װילן זײן ״השומר הצעיר״.\n\nצו יענער צײט זענען מיר שוין געװען איןא גרעםערער צאל. מיר האבן אײנגעלאדןא חבר פון מעזריטש׳ און אויף דער גאם׳ דאם הײםט אויפן פעלד׳ האבן מיר געשאפן די ױגנט־ארגאניזאציע ״השומר הצעיר״ אין לוקאװ. אויב איך האב נישט קיין טעות׳ איז דאם געװען אין יאר 1924.\n\nדי ארגאניזאציע האט אנגעהויבן װאקםן פון טאג צו טאג. מיר האבן אפגעדונגען 2 צימערלעך בײ ״מזרחי״. ביז װאם-װען׳ נאך אײדער דער ״השומר הצעיר״ האט אפיציעל עקזיםטירט׳ האבן מיר׳ ד. ה. פעלצמאנם׳ מילער און איך׳ אנגעהויבן טראגן קורצע הויזן. און דאם האט געמאכטא ״רושם״. מיר האבן זיך דערפילט שטארק און מיר זענען שוין מער נישט אראפ פון טראטואר װען מיר האבן זיך באגעגענט מיט פוילישע ײנגלעך (בדרך־כלל פלעגן ײדן אראפגיץ פון טראטואר און אדורכלאזן די שקצים).",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_491c7c3232b0b23654d5476b",
+            "displayNameEn": "Mezritch",
+            "originalName": "מעזריטש",
+            "subtype": "city",
+            "summaryEn": "A train from Mezritch was expected to take prisoners toward Treblinka.",
+            "confidence": "MEDIUM",
+            "evidence": {
+              "passageId": "passage_48017c4ec33569b55e4e5ecb",
+              "scanIndex": 322,
+              "printedPage": "318",
+              "quote": "צוג פון מעזריטש",
+              "context": " און מיר האבן זיך אפגערעדט צו שפרינגען פון צוג. אויפן מארק האב איך געזען װי עם האט זיך געםמט איטשע קאראםיק. מען האט מיר דערצײלט׳ אז אויך האלבערג, טיקולםקים אײדעם׳ האט אפגע־ םמט זײן משפחה און זיך גופא.\n\nפונעם חזיר־מארק האט מען אונדז אפגעפירט צו דער באן און אונדז ארײנגעטריבן אין באראקן. דארט האבן מיר געדארפט װארטן אויפן צוג פון מעזריטש׳ װאם האט אונדז װידער געזאלט פיח קיץ טרעבלינקע. איך און מיץ ברודער גאדל האבן נישט געהאט קיץ געדולד צו װארטן אויפן צוג און מיר זענען אנטלאפן פון די באראקן. מיט אוגדז איז אויך אגטלאפן דוד פרידמאן (מענדל לעגדגערם זון).",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_09fcb437d8b704f70272aa3f",
+            "displayNameEn": "Mezhritsh",
+            "originalName": "מעזריטש",
+            "subtype": "town",
+            "summaryEn": "A destination for prisoners' medical examinations.",
+            "confidence": "LOW",
+            "evidence": {
+              "passageId": "passage_d4faa17defd1837e37ea5334",
+              "scanIndex": 336,
+              "printedPage": "332",
+              "quote": "שיקן קיץ מעזריטש אויף מעדיציגישע אונטעחוכונגען",
+              "context": " האט געהאט לאנגע האר און מען האט געשמועסט, אז ער איזא שרײבער. פינקלשטיץ פלעגט אונדז טרײסטן און הײמלעד מאכן מיט װערטלעד אץ װיצן.\n\nפארן ארבעטם־לאגער איז באשטימט געװארןא נײער קאמענדאנט מיטן נאמען בארען. דער גײער קאמענדאנט האט זיד דערשראקן פאר דער טיפום־עפידעמיע אץ ער האט זיד באמיט ביי דער מאכט אין ביאלע׳ אז מען זאל אונדז שיקן קיץ מעזריטש אויף מעדיציגישע אונטעחוכונגען. נאכן באטראכטן אונדז האט מען צו דער ארבעט צודיקגעשיקט בלויז20 פערזאו• איד בין געװען צװישן זײ.\n\nדער גאנצער פערםאנאל, װאם האט ביז איצט געהיטן עטלעכע הונדערט פערזאן,\n\nאיז איצט געװען באשעפטיקט בלויז מיט אוגחערע צװײ צענדליק, און דאם האט פארערגערט אונחער לאגע•",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_121d2d5bcbfddf5646e5a429",
+            "displayNameEn": "Mezritch",
+            "originalName": "מעזריטש",
+            "subtype": "town",
+            "summaryEn": "A transport departed from Mezritch for Treblinka.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_0428e217746b653f50342c01",
+              "scanIndex": 443,
+              "printedPage": "439",
+              "quote": "פון מעזריטש קיץ טרעבלינקע",
+              "context": "די געקומענע האט מען אויפגענומען זײער העפלעך און מ׳האט זײ געהײםן זיך מעלדן צו מארגנם. אבער װען זײ זענען געקומען צום צוױיטן מאל— עטלעכע הונדערט פערזאן— האט מען טעלעפאנירט צו דער זשאנדארמעריע, װעלכע האט זײ אלעמען אפגעפירט צו דער באן. גראד איז יענעם טאג אװעקא ״טראנםפארט״ פון מעזריטש קיץ טרעבלינקע. דער צוג האט זיך געשטעלט בײ אונדז אויף דער סטאציע און מיט־ גענומען אויך די לוקאװער.\n\nדער שעף בירגער האט אײנגעארדנטא ״פלאצװוקע״ מיט קאשארן אויפן שולהויף פאר די, װאם האבן זיך פארנומען מיטן אויסראמען די ײדישע שטובן און געשעפטן. דערבײ זענען געװען באשעפטיקט בײא100 פערזאן. אויך די ײדישע פאליצײ אץא טײל פון די חברה־קדישא־לײט זענען געקומען אהין אין די מיטאג־שעהען און אויך שלאפן. צװישן זײ זענען געװען מײן שװער, ר׳ נח פלאמאן, מענדל לוםט אץ זײער באגלײטער שמעון ריבאק אלס פאליציאנט. זײ האבן אװעקגעפירט עסן פאר די איבעריקע מענטשן, װאם זענען געבליבן אויפן בית־עולם און אויך געשלאפן דארט. מיך האט דער שעף באשטימט אלם לײטער פון דער קיד•\n\nדי ײדישע איבערגעלאזטע פארמעגנם זענען געװארן מאגאזינירט אין שול און אין בית־מדרש אץ זײ זענען געהיטן געװארן דורך ײדישע און פוילישע פאליצײ און אויד דורך די פײערלעשער.\n\nפאר מײנע אויגן שט",
+              "validation": "UNIQUE_OCR_FUZZY_ALIGNMENT_REVIEW_REQUIRED"
+            }
+          }
+        ],
+        "automaticDecision": null
+      },
+      "left": {
+        "caseId": "resolution_2a03d8915b81883028978110",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "SAME_ENTITY",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "Mezritch",
+        "canonicalSummaryEn": "The place named מעזריטש, referenced as the origin or destination of people and wartime transports.",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "All four samples contain the identical original name מעזריטש and describe compatible references to the same place; the English spellings are transliteration variants.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "resolution_2a03d8915b81883028978110",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The identical name is compatible, but the excerpts do not uniquely establish that all references are to one Mezeritch.",
+        "needsHumanReview": true
+      }
+    },
+    {
+      "caseId": "resolution_55af1f322cd7dcbb29653acc",
+      "case": {
+        "caseId": "resolution_55af1f322cd7dcbb29653acc",
+        "caseType": "ENTITY_RESOLUTION",
+        "priorityScore": 27,
+        "entityType": "PLACE",
+        "normalizedIdentityKey": "װאלד",
+        "memberCount": 3,
+        "entityCandidateIds": [
+          "entity_candidate_9138bc29629c1203e8e43a53",
+          "entity_candidate_a93a3b7b35cf950ad60d2ced",
+          "entity_candidate_cbdb40ce77588d9430b42348"
+        ],
+        "mentionIds": [
+          "mention_f3c91d86fa246c5877e67f30",
+          "mention_5d81da04cbb2b60f6f3659a0",
+          "mention_ec4e26c61794a2fc1778deb8"
+        ],
+        "observedNames": [
+          "Forest",
+          "װאלד"
+        ],
+        "scanRange": [
+          397,
+          501
+        ],
+        "evidenceSamples": [
+          {
+            "mentionId": "mention_f3c91d86fa246c5877e67f30",
+            "displayNameEn": "Forest",
+            "originalName": "װאלד",
+            "subtype": "forest",
+            "summaryEn": "Forest where the narrator hid and fled during a German attack.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_2ea271c9ba6d060f1c52d759",
+              "scanIndex": 397,
+              "printedPage": "393",
+              "quote": "דעם דריטן נאװעמבער האבן מיר זיד געגרײט צו פארלאזן דעם װאלד",
+              "context": "םפר לוקןןוו\n\n393\n\nװייל דאס עםנװארג׳ װאס מיר באקומען נישט שטענדיק ביי די פויערים׳ גענוגט נישט. די קעלט מאטערט און די מורא פאר די דײטשן׳ װי אויך פאר די פארטיזאנער־ פאליאקן׳ לאזט אונדז נישט חען.\n\nאויף דער וױנטערצײט האבן מיר באשלאםן זיך צו באהאלטן בײ די פויערים אין די דערפער. יעדער זוכטא באהעלטעניש. דעם דריטן נאװעמבער האבן מיר זיד געגרײט צו פארלאזן דעם װאלד. אבער מיטא מאל׳ אומגעריכט האבן אונדז די דײטשן ארומגערינגלט פון אלע זײטן און גענומען באשיםן אונדזער בונקער. עס האט זיך אנגעהויבןא שדעקלעכע פאניק. יעדער איינער פץ אונדז האט געפרװוט אנטלויפן פון ברענענדיקן בונקער אין װאלד ארײן׳ כדי צו ראטעװען דאם לעבן. ארום מיר האב איך געהערט קרעכצן׳ געװײנען און געשרייען. איך האב אויף גארנישט געקוקט׳ נאר אויף אלע פיר זיך געריטשט װאס טיפער אין װאלד ארײן. איך בין געװען אײנע אליץ. נאענט פון מיר האבן איך געהערט שױיען אויף דײטש׳ אבעד איך האב זיך געריטשט װאם װײטער. די שיסערײ האט נישט אויפגעהערט.\n\nבײם סוף פון װאלד איז געװעןא סטאװ. איך בין ארײן אין װאסער׳ כאטש עם איז געװען שטארק קאלט. איך בין געװען זיכער׳ אז איך װער דערטרינקען און װעל שוין קיץ לעבעדיקע נישט ארוים.",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_5d81da04cbb2b60f6f3659a0",
+            "displayNameEn": "Forest",
+            "originalName": "װאלד",
+            "subtype": "forest",
+            "summaryEn": "An unnamed forest where Jews sought refuge.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_67ebe14aabac2ffec6b878cb",
+              "scanIndex": 450,
+              "printedPage": "446",
+              "quote": "אין װאלד",
+              "context": "די אבלאװעם אין װאלד האבן זיך וױדער פארשטאדקט. די מענטשן האבן באשלאסן אריבערצוגיץ אין אן אנדער ארט. קײנער האט מיך נישט געװאלט מיטנעמען. איך בין זײ נאכגעלאפן. װען זײ זענען אריץ אין אן אנדער װאלד׳ האבן זײ געמאכטא פײער. צופעליק זענען אדורכגעפאח דײטשן, זײ זענען צוגעלאפן צום פײער און געעפנטא שיסעריי• כמעט אלע ײדן זענען אומגעקומען•",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_ec4e26c61794a2fc1778deb8",
+            "displayNameEn": "Forest",
+            "originalName": "װאלד",
+            "subtype": "forest",
+            "summaryEn": "Forest through which the group fled and traveled five kilometers.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_539835f4de044fd80d4d6794",
+              "scanIndex": 501,
+              "printedPage": "497",
+              "quote": "מיר זענען געלאפן5 קילאמעטער אין װאלד",
+              "context": "אויף אונדז געװארט אונדזער װעגװיתער. דער עשאלאן איז שרעקלעך צעמזיקט געװארן. עם האבן אנגעהויבן ברענען די װאגאנעם און די געשױיען פון די געניזוקטע היטלעריםטן איז געװען דיער גריים. ערשט אין20 מינוט ארום האט זיך געעפנטא שיםערײ פון אלע זײטן.\n\nאלע בונקערם האבן געגעבן פײער צו אונדז אין װאלד אריץ. מיר זענען שוין אבער געװען װײט. מיר זענען געלאפן5 קילאמעטער אין װאלד ביז מיר זענען אנגע• קומען אין אונדזער באשטימטן פונקט• דער פויער׳ בײ װעמען מיר האבן זיד אויפ־ געהאלטן (א פאליאק), האט זיך מיט אונדז שטארק דערפרײט. ער האט אונדז הארציק באגריםט און געשטעלט פאר אונדזא שפאר ביםל בראנפן. מיר האבן זיך געזעצט צום טיש מיט אזא פרײד, װאם אלע מײנע חברים װעלן דאם אין לעבן נישט פארגעםן (2 פון דער גרופע לעבן נישט) און דעי אלטער אויםשפירער אונדזערער, אברהם באטשקעװיצער, זאגט צו מיר: ״נו, חבר פאליטרוק, איצט זאגט עפעםא פאר װערטער עם זאל ארײנגעבן מוט אויף װײטער״.",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          }
+        ],
+        "automaticDecision": null
+      },
+      "left": {
+        "caseId": "resolution_55af1f322cd7dcbb29653acc",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "KEEP_SEPARATE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The excerpts describe generic forests in different episodes, and the middle passage explicitly refers to entering “another forest.” The evidence does not support merging these mentions into one historical place.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "resolution_55af1f322cd7dcbb29653acc",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "All mentions are generic unnamed forests in different narrative contexts, with no evidence identifying them as one place.",
+        "needsHumanReview": true
+      }
+    },
+    {
+      "caseId": "resolution_71717f2cf1eb02ee211a60c5",
+      "case": {
+        "caseId": "resolution_71717f2cf1eb02ee211a60c5",
+        "caseType": "ENTITY_RESOLUTION",
+        "priorityScore": 48,
+        "entityType": "PERSON",
+        "normalizedIdentityKey": "מינדל",
+        "memberCount": 2,
+        "entityCandidateIds": [
+          "entity_candidate_bffc3a65725e2186953aa9ac",
+          "entity_candidate_afc2de26df81132373c7ed2e"
+        ],
+        "mentionIds": [
+          "mention_959bc383cea07e799e087e72",
+          "mention_42300e5c06c8b66fa1958e76"
+        ],
+        "observedNames": [
+          "Mindl",
+          "מינדל"
+        ],
+        "scanRange": [
+          634,
+          652
+        ],
+        "evidenceSamples": [
+          {
+            "mentionId": "mention_959bc383cea07e799e087e72",
+            "displayNameEn": "Mindl",
+            "originalName": "מינדל",
+            "subtype": "",
+            "summaryEn": "Named as the middle daughter in the Karpenkop family list.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_cf284c4d54ba9eb008676a50",
+              "scanIndex": 634,
+              "printedPage": "630",
+              "quote": "די מיטלםטע טאכטער מינדל און משפחה",
+              "context": " בערעלע אומגעבראכט געװארן דורך די\n\nהיטלערישע רוצחים.\n\nזאל דאם אײנציקע בילד זײערם זײן װיא מצבה פאר דער גאנצער משפחה\n\nקארפענקאפ׳ װאם איז באשטאנען פון15 פערזאן.\n\nדי מוטער חיה־רחל\n\nדער זון הערשל מיט דער פרוי רויזקע און טאכטער געניע׳ די עלטערע טאכטער יהודית, מיט איר מאן משה בארנשטײן און זײערע צוױי זין בערעלע\n\nאון אברהמלע,\n\nדי מיטלםטע טאכטער מינדל און משפחה, װעלכע זענען שוין אויבן דערמאנט, די ײנגםטע טאכטער לאה־גאלדע מיט איר מאן און קינד.\n\nאלע אומגעבראכט דורך די דײטשע רוצחים.\n\n630",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_42300e5c06c8b66fa1958e76",
+            "displayNameEn": "Mindl",
+            "originalName": "מינדל",
+            "subtype": "",
+            "summaryEn": "Named among the author’s sisters.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_195b9959e2048cd27732c188",
+              "scanIndex": 652,
+              "printedPage": "648",
+              "quote": "מינדל",
+              "context": "ןי?!::.:\n\nמים םיפן םרויער דערמאנען מיר אונדזער אומפארגעסלעכן\n\nברודערעליע מים זיין פרוי און קינדער, דעם ברודעריעקב מיט זײן פרוי און קינד די שװעםטער נחמה.\n\nמיט צער און וױיטיק װעל איך געדענקען מיינע טײערע עלטערן מײן פאטער דוד לערנער (דוד קאריק)\n\nמיץ מוטער אםתר מײנע שװעםטער שרה, מינדל,\n\nמײנע ברידער ישראל, שמעון,\n\nדי גאנצע משפחה פון מיץ פאטער, די גאנצע משפחה פון מײן מוטער\n\nזאל זײער אנדענק פארבלײבן געהײליקט.",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          }
+        ],
+        "automaticDecision": null
+      },
+      "left": {
+        "caseId": "resolution_71717f2cf1eb02ee211a60c5",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "KEEP_SEPARATE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The first Mindl is the middle daughter of Chaya-Rachel in the Karpenkop family, while the second is the author’s sister in the family of David Lerner/Karik and Esther. These distinct family contexts support separate people despite the identical name.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "resolution_71717f2cf1eb02ee211a60c5",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "LOW",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The shared given name alone does not link the Karpenkop daughter to the author's sister.",
+        "needsHumanReview": true
+      }
+    },
+    {
+      "caseId": "resolution_79edbc218a2a42ba31f959ba",
+      "case": {
+        "caseId": "resolution_79edbc218a2a42ba31f959ba",
+        "caseType": "ENTITY_RESOLUTION",
+        "priorityScore": 48,
+        "entityType": "PERSON",
+        "normalizedIdentityKey": "ישעיהוכהן",
+        "memberCount": 2,
+        "entityCandidateIds": [
+          "entity_candidate_1965f2708ecdf645dd512ada",
+          "entity_candidate_5c30c0987d762404b1de75bf"
+        ],
+        "mentionIds": [
+          "mention_c4e5eacbbbac9383c182e8f4",
+          "mention_cc15d29c875772caa668376b"
+        ],
+        "observedNames": [
+          "Isaiah Cohen",
+          "ישעיהוכהן",
+          "ישעיהו כהן"
+        ],
+        "scanRange": [
+          8,
+          657
+        ],
+        "evidenceSamples": [
+          {
+            "mentionId": "mention_c4e5eacbbbac9383c182e8f4",
+            "displayNameEn": "Isaiah Cohen",
+            "originalName": "ישעיהוכהן",
+            "subtype": "",
+            "summaryEn": "Named under Israel in a contributor list.",
+            "confidence": "MEDIUM",
+            "evidence": {
+              "passageId": "passage_26eed3705781ca5574b67029",
+              "scanIndex": 8,
+              "printedPage": null,
+              "quote": "ישעיהוכהן",
+              "context": "ספר לוקאוו\n\nרעד>זקצ*ע*קאמ*טעט;\n\nישראל:\n\nשמואכ הובערמאן, ישעיהוכהן, מגחס בארגשטיין, :^ס־לייבמאן1 מרדבי סקורקע, שמעון סאראקא, יוטף זובראוויטש\n\nפאראייניקטע שטאטן:\n\nמאטל פעלדמאן, יעקב בראון,ן דזשא (גדליה) בעלצמאן ן, דזשעק בראון, לייב באטשאן, ליאן גרייצער, צבי פלוג, הערש ראזענשטיין\n\nרעדאקטאר: כ.העלער\n\n©\n\nכל הזכויות שמורות\n\nדסוס ״אורלי״^ תל״אביב, סל.32062",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_cc15d29c875772caa668376b",
+            "displayNameEn": "Isaiah Cohen",
+            "originalName": "ישעיהו כהן",
+            "subtype": "contributor",
+            "summaryEn": "Contributor listed for a section on Lukow in 1920.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_611f3d734261400b7194621e",
+              "scanIndex": 657,
+              "printedPage": null,
+              "quote": "1920 אין לוקאװ- ישעיהו כהן168",
+              "context": "ען פוןא לוקאװער- משה נאטעםדינער125\n\nהשומר הצעיר אין לוקאװ— מ. בארנשטיין149\n\nהשומר הצעיר בלוקוב— מ. בורנשטין152\n\nדי ױגנטיארגאניזאציע ״פרײהײט״— נח לאטאוויטש155\n\nדי מעדעם״שול אין לוקאװ— אלטער װישניא159\n\nדי ײדישע פוטבאל־מאנשאפט אין לוקאװ— יוסןז הערש ראזענשטיין..160\n\nזכרונות\n\nא שפאציר איבערן מארק— יחיאל ראזענבלום.. ...164\n\n1920 אין לוקאװ- ישעיהו כהן168\n\nפײנע ױנגע יארן- לײביש פעלהענדלער177",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          }
+        ],
+        "automaticDecision": null
+      },
+      "left": {
+        "caseId": "resolution_79edbc218a2a42ba31f959ba",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "SAME_ENTITY",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "Isaiah Cohen",
+        "canonicalSummaryEn": "Contributor and author of “1920 in Lukow” in the Lukow memorial book.",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The names are the same Hebrew name, with only spacing variation, and both references occur in the same Lukow memorial book without conflicting details.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "resolution_79edbc218a2a42ba31f959ba",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "LOW",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The name forms are compatible, but the contributor-list mention and the attributed article provide no direct linkage.",
+        "needsHumanReview": true
+      }
+    },
+    {
+      "caseId": "resolution_84350bddbb04d0ffbc615ac9",
+      "case": {
+        "caseId": "resolution_84350bddbb04d0ffbc615ac9",
+        "caseType": "ENTITY_RESOLUTION",
+        "priorityScore": 48,
+        "entityType": "PERSON",
+        "normalizedIdentityKey": "יעקב",
+        "memberCount": 2,
+        "entityCandidateIds": [
+          "entity_candidate_77a596e84c7445a589edce1a",
+          "entity_candidate_80d5e42a6107c40626f0d43d"
+        ],
+        "mentionIds": [
+          "mention_38bb6683f20565376cca934d",
+          "mention_9e88b83d99094ae02c9b5820"
+        ],
+        "observedNames": [
+          "Jacob",
+          "יעקב"
+        ],
+        "scanRange": [
+          412,
+          652
+        ],
+        "evidenceSamples": [
+          {
+            "mentionId": "mention_38bb6683f20565376cca934d",
+            "displayNameEn": "Jacob",
+            "originalName": "יעקב",
+            "subtype": "younger brother",
+            "summaryEn": "Younger brother who hid with his mother during the ghetto liquidation.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_ef4097cedb344834e6ee82a3",
+              "scanIndex": 412,
+              "printedPage": "408",
+              "quote": "התעטפתי עם יעקב במעיל השחור",
+              "context": "ו בכפר שכן, אך אחרי זמן קצר היו מוכרחים לעזוב את המקום, כי הנוצרים לא יכלו או לא רצו ױתר להחזיקם. פעם אמרה לי בעלת הבית לד.וריד משהוא מן הגג. וכשעליתי ראיתי איך כריתי זזה ממקומה ולידה אמי ואחי הצעיר. הם חײם ונצלו מגיטו לוקוב. ״ואיה שאולז״ שאלתי. ״הוא לא רצה להכנם ולהםתתר במרתף״ ענתה עמי. ״ואיך אתם נצלתםז״ שאלתי הלאה. ״התעטפתי עם יעקב במעיל השחור, הםתתרתי בפינד, של המרתף והחלטתי לא לזוז מהמקום. כשהחלו לירות ולגרש מהמרתף, לא זזנו מהמקום״.\n\nואלו היו העינים, שראו שקיעת יהדות לוקוב.\n\nשוב אביב. אני כבר חרשתי את השדד״ זרעתי את זריעת האביב. בכפר שקט. האכרים חורשים וזורעים. מתכוננים כבר לזרוע תפוחי אדמה ומתכוננים לחג פסחא. אני עובד עם כולם, מעיא את הזבל מהרפת, חורש וזורע. אבל זד, רק לבני אדם. למענם אני שמח ונוצרי מאמין. אני הולך לכנםיה כל יום ראשון ולפעמים אף באמצע השבוע. בכנסיה אני עוזר לכומר בתפילות.",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_9e88b83d99094ae02c9b5820",
+            "displayNameEn": "Jacob",
+            "originalName": "יעקב",
+            "subtype": "",
+            "summaryEn": "Named as a brother with his wife and child.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_195b9959e2048cd27732c188",
+              "scanIndex": 652,
+              "printedPage": "648",
+              "quote": "דעם ברודעריעקב",
+              "context": "ןי?!::.:\n\nמים םיפן םרויער דערמאנען מיר אונדזער אומפארגעסלעכן\n\nברודערעליע מים זיין פרוי און קינדער, דעם ברודעריעקב מיט זײן פרוי און קינד די שװעםטער נחמה.\n\nמיט צער און וױיטיק װעל איך געדענקען מיינע טײערע עלטערן מײן פאטער דוד לערנער (דוד קאריק)\n\nמיץ מוטער אםתר מײנע שװעםטער שרה, מינדל,\n\nמײנע ברידער ישראל, שמעון,\n\nדי גאנצע משפחה פון מיץ פאטער, די גאנצע משפחה פון מײן מוטער\n\nזאל זײער אנדענק פארבלײבן געהײליקט.",
+              "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT"
+            }
+          }
+        ],
+        "automaticDecision": null
+      },
+      "left": {
+        "caseId": "resolution_84350bddbb04d0ffbc615ac9",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "SAME_ENTITY",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "Jacob",
+        "canonicalSummaryEn": "The narrator's younger brother Jacob, later named with his wife and child.",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "Both samples identify Jacob as the narrator's brother; the hiding episode and later mention with a wife and child are compatible, with no supported distinction.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "resolution_84350bddbb04d0ffbc615ac9",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "LOW",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "Both mentions give only the common first name Jacob in separate family contexts, without identifying linkage or a direct contradiction.",
+        "needsHumanReview": true
+      }
+    },
+    {
+      "caseId": "resolution_adcc01db56aaf2a255302d11",
+      "case": {
+        "caseId": "resolution_adcc01db56aaf2a255302d11",
+        "caseType": "ENTITY_RESOLUTION",
+        "priorityScore": 56,
+        "entityType": "PERSON",
+        "normalizedIdentityKey": "מאטלפעלדמאן",
+        "memberCount": 4,
+        "entityCandidateIds": [
+          "entity_candidate_e5f1d331d9fa43a34f4a4dd5",
+          "entity_candidate_7dfc7d0a2c8dadc3d946a05e",
+          "entity_candidate_cde05e3714eddcd7c667b1a8",
+          "entity_candidate_148edfbe2f0d6b2f8d0fa145"
+        ],
+        "mentionIds": [
+          "mention_5f8220dcd1f147b30cf1fcec",
+          "mention_2e9dc625cd42238147705f6b",
+          "mention_67ec7aed63161b6d6ad21e2a",
+          "mention_1844088d816ea88c09f9db5f"
+        ],
+        "observedNames": [
+          "Mattel Feldman",
+          "מאטל פעלדמאן",
+          "Motl Feldman",
+          "Mottel Feldman",
+          "Motel Feldman"
+        ],
+        "scanRange": [
+          8,
+          607
+        ],
+        "evidenceSamples": [
+          {
+            "mentionId": "mention_5f8220dcd1f147b30cf1fcec",
+            "displayNameEn": "Mattel Feldman",
+            "originalName": "מאטל פעלדמאן",
+            "subtype": "",
+            "summaryEn": "Named under United States in a contributor list.",
+            "confidence": "MEDIUM",
+            "evidence": {
+              "passageId": "passage_26eed3705781ca5574b67029",
+              "scanIndex": 8,
+              "printedPage": null,
+              "quote": "מאטל פעלדמאן",
+              "context": "ספר לוקאוו\n\nרעד>זקצ*ע*קאמ*טעט;\n\nישראל:\n\nשמואכ הובערמאן, ישעיהוכהן, מגחס בארגשטיין, :^ס־לייבמאן1 מרדבי סקורקע, שמעון סאראקא, יוטף זובראוויטש\n\nפאראייניקטע שטאטן:\n\nמאטל פעלדמאן, יעקב בראון,ן דזשא (גדליה) בעלצמאן ן, דזשעק בראון, לייב באטשאן, ליאן גרייצער, צבי פלוג, הערש ראזענשטיין\n\nרעדאקטאר: כ.העלער\n\n©\n\nכל הזכויות שמורות\n\nדסוס ״אורלי״^ תל״אביב, סל.32062",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_2e9dc625cd42238147705f6b",
+            "displayNameEn": "Motl Feldman",
+            "originalName": "מאטל פעלדמאן",
+            "subtype": "",
+            "summaryEn": "Leah Feldman’s relative living in New York.",
+            "confidence": "MEDIUM",
+            "evidence": {
+              "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+              "scanIndex": 64,
+              "printedPage": "60",
+              "quote": "אונדזער ליבן מאטל פעלדמאן פון נױ־יארק",
+              "context": "םײ מענער, םײ פרויען, האבן זיך נישט אפגעזאגט פון דער ארבעט בײם ראטעװען די ײדישע הײמלאזע. די דאזיקע איבערגעגעבנקײט האט געגעבן צװײ קרבנות. אײנע פון זײ איז געװען לאה פעלדמאן, די געראטענע 18־יאריקע טאכטער פון חײם שלמה פעלדמאן (די שװעםטער פון אונדזער ליבן מאטל פעלדמאן פון נױ־יארק). זי איז געװען זײער באליבט בײ דער שטאטישער ױגנט און געשפילט אין 1טן דראמקרײז. דער צװײטער קרבן איז געװען הערשל זילבערשטײן,א םופר פון פאך,22 יאר אלט. בײדע זענען זײ געשטארבן פון טיפום, מיט װעלכן זײ האבן זיך אנגעשטעקט בײ זײער פרײװיליקער ארבעט.\n\nביםלעכװײז האט די לאגע אין שטאט זיך םטאביליזירט. מען האט זיך צוגעװוינט צו די דײטשע אקופאנטן. די געזעלשאפטלעכע טעטיקײט האט אנגעהויבן צוריק אויפלעבן. עם האט זיך געעפנטא ײדישע ביבליאטעק בײם ״קולטור־פאראײן״. בײם /׳קולטור־ פאראײן״ איז אויך געגרינדעט געװאחא קינדער־גארטן און אן 1טע קלאם פאלקםשול. דער קינדער־גארטן איז געװארן געפירט דורך פרײלין שידלאװםקי, און די שול— דורך דעם לערער קאן, װעלכן מען האט געבראכט פון װארשע. קאן איז געװען זײער אן אינטעליגענטער ױנגערמאן און ער האט זיך באלד דערװארבןא םך פרײנד. ער איז אויך געװען באליבט בײ די שילער. די שול האט אבער לאנג נישט עקזיםטירט צוליבן מאנגל",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_67ec7aed63161b6d6ad21e2a",
+            "displayNameEn": "Mottel Feldman",
+            "originalName": "מאטל פעלדמאן",
+            "subtype": "",
+            "summaryEn": "Led the newer members’ association work.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_f322ef8913c3f571b48a7ceb",
+              "scanIndex": 586,
+              "printedPage": "582",
+              "quote": "בראש מיט מאטל פעלדמאן",
+              "context": "םסר לוקאוו\n\nצװישן די נייע מיטגלידער פון לוקאווער פאראיץ געדענק איך די נעמען פון: יודל פלוג. ױדל װאלאנד, שמחה הערשבערג, ניםן הערשבערג, חײם גרינבוים, לייבל באטשאן. מענדל ארלינסקי, סידנעי הערשבערג. אלע פיינע איבערגעגעבענע מענטשן, און זײ, בראש מיט מאטל פעלדמאן, טוען איצט די װיכטיקסטע ארבעט פון פאראײן.\n\nמען דארף פארשטיץ, אזא םך פון די אלטע מיטגלידער זענען שוין, לײדער, נישטא,\n\nאון די, װאם זענען געבליבן, ביז 120, זענען שוין נישט ױיער אקטיװ צוליב זײער עלטער. איז טאקע נאר צו פארדאנקען די ײנגערע, שפעטער געקומענע לוקאװער, װאס די ארבעט פון לוקאװער פאראיץ װערט וױיטער פארגעזעצט מיט דערפאלג.\n\nאויך איך האב צוליב מיץ שװאכן געזונט־צושטאנד זיך געמוזט צוריקציען פון פארזיצער־אמט, אבער אין די ראמען פון מיפע מעגלעכקײטן באמי איך זיך צו זיץ טעטיק. אויך מיץ ליבע פרוי, ראז פעלצמאן איז אקטיװ אין פאראײן. זינט דעם יאר1955 איז זי די פראטאקאל־שרײבערין פון דער לוקאװער סאםײעטי.\n\n*\n\nנישט לײכט איז אינדז געװען צו באםרײזנן פרײנד גדליה פעלצמאן פון זײן אסט אלס םארזי־",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_1844088d816ea88c09f9db5f",
+            "displayNameEn": "Motel Feldman",
+            "originalName": "מאטל פעלדמאן",
+            "subtype": "",
+            "summaryEn": "A theater worker who helped the narrator begin working there.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_759595050c43297cf9c131a0",
+              "scanIndex": 607,
+              "printedPage": "603",
+              "quote": "מאטל פעלדמאן",
+              "context": "נאך דער שװערער רײזע. דערנאך װעל איך גײן מיט דיר״.\n\nאין יענע טעג איז נישט לײכט געװען זיך צו טײלן מיטן ביםן אפילו מיטא נאענטן מענטשן. איך האב געוװםט, אז זי באעװלט זיך און איר משפחה. אבער מײנע פראטעסטן האבן נישט געהאלפן. געבליבן איז װי שרה האט באשטימט. און זינט דעמאלט האט זיך אנגעהויבן אונדזער פרײנדשאפט.\n\nױדל בורשטײן און מאטל פעלדמאן האבן געארבעט אין טעאטער אוןא דאנק זײ האב איך אויך דארט אנגעהויבן ארבעטן. שפעטער האבן מיר זיך ארײנגעקליבן אין זעלבן הויז וװ זײ האבן געװוינט און איך האב געהאט די מעגלעכקײט צו זען װיםל גוטם זי האט געטאן פאר מענטשן, זי האט אלעמען געהאלפן, טראץ איר שװער לעבן און שווערער ארבעט.",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          }
+        ],
+        "automaticDecision": null
+      },
+      "left": {
+        "caseId": "resolution_adcc01db56aaf2a255302d11",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "SAME_ENTITY",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "Mattel Feldman",
+        "canonicalSummaryEn": "Mattel Feldman, a New York-based Luków association member and theater worker.",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "All mentions use the identical original Yiddish name and describe compatible New York, association, and theater contexts; no evidence distinguishes separate people.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "resolution_adcc01db56aaf2a255302d11",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "LOW",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The identical name appears in New York communal work and in a theater setting, without evidence proving these are one person.",
+        "needsHumanReview": true
+      }
+    },
+    {
+      "caseId": "resolution_bbd6f4e5b1a62ac130377f83",
+      "case": {
+        "caseId": "resolution_bbd6f4e5b1a62ac130377f83",
+        "caseType": "ENTITY_RESOLUTION",
+        "priorityScore": 27,
+        "entityType": "PLACE",
+        "normalizedIdentityKey": "לוקאוו",
+        "memberCount": 3,
+        "entityCandidateIds": [
+          "entity_candidate_f943ad018798160edfa7ef61",
+          "entity_candidate_1db0273356a3a0602b5884f9",
+          "entity_candidate_19e58476df0ed357b56f7127"
+        ],
+        "mentionIds": [
+          "mention_480b0c7c47978c5742f549ac",
+          "mention_8261c74a31469eee3a4638c5",
+          "mention_7afae3965f6c364dfb598124"
+        ],
+        "observedNames": [
+          "Lukow",
+          "לוקאוו"
+        ],
+        "scanRange": [
+          199,
+          283
+        ],
+        "evidenceSamples": [
+          {
+            "mentionId": "mention_480b0c7c47978c5742f549ac",
+            "displayNameEn": "Lukow",
+            "originalName": "לוקאוו",
+            "subtype": "town",
+            "summaryEn": "The town entered by German forces in 1914.",
+            "confidence": "MEDIUM",
+            "evidence": {
+              "passageId": "passage_12bf98a869cf41aef3228aa4",
+              "scanIndex": 199,
+              "printedPage": "195",
+              "quote": "דײטשן זענען געקומעו קימ לוקאװ",
+              "context": "יך קומען אין מארק מיט זיץ גרויםן גרעגער אמ אזוי לאנג גרעגעח, ביז עם האט זיך צונויפגעקליבן אן עולם. דאן האט ער געמאלדן, אז דאנערשטיק קומט פארא ליציטאציע. ער האט דערבײ אויםגערעכנט װאם מ׳װעט אלץ קענען קויפן:א שנײדערישע מאשין,א שאפע, קופערנע פאנען וכדומה.\n\n*\n\nפון די אלטע צײטן איז מיר געבליבן אין זכרון דאס יאר 1914, װען די דײטשן זענען געקומעו קימ לוקאװ און אנגעהויבן איעפיח ״ארדענונג״. קודם־כל דאם שטײן גאנצע נעכט אין דער רײ נאך דעמ ברויט פון קאשטאן־מעל. אין אנד,ײב האט מען דאס ברויט נישט געקענט נעמען אין מויל אריץ, אבער שפעטער האט מען זיך צוגעװײנט צו דעם און צו די אנדערע ״ערזאצן״. דאן האבן זײ אנגעהויבן טרײבן אין באד ארײן און דורכפירן די בארימטע ״פארװוקעם״, װאס האבן געמאכטא תל סון ביםל בעבעכעס.",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_8261c74a31469eee3a4638c5",
+            "displayNameEn": "Lukow",
+            "originalName": "לוקאוו",
+            "subtype": "town",
+            "summaryEn": "The town from which Alter said he would shoot if able.",
+            "confidence": "HIGH",
+            "evidence": {
+              "passageId": "passage_f1e1f8214b84b2dcd24228bf",
+              "scanIndex": 207,
+              "printedPage": "203",
+              "quote": "װאלט ער געשאםן פון לוקאוו",
+              "context": " אז ער האט געהאטא טעות: אנשטאט דעם קראנקן צאן, האט ער ארויםגעשלעפטא געזונטן...\n\nר׳ אלטער איז געװעןא הײםער ציוניםט. ער האט נישט אנגעד.ערט צו קײן שום צױניםטישער גמפירונג, אבער ער האט געהאלטן פון זשאבאטינםקין. װען ער פלעגט הערן, אז ערגעץ אין ארץ־ישראל האט מען געהרגעטא ײד, האט ער זיך אויפגעקאכט און געשריגן, אז װען ער קען, װאלט ער געשאםן פון לוקאוו. ער האט מיך געװאלט איבערצייגן, אז איך זאל אוועק פון ״השומר הצעיר״, וועט ער זען, אז איך זאל ווערןא\n\n״קאפיטאן״ אין ״ביתר״.",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          },
+          {
+            "mentionId": "mention_7afae3965f6c364dfb598124",
+            "displayNameEn": "Lukow",
+            "originalName": "לוקאוו",
+            "subtype": "community",
+            "summaryEn": "The passage header identifies the Sefer Lukow publication.",
+            "confidence": "MEDIUM",
+            "evidence": {
+              "passageId": "passage_34f65740f4564f6ba1858606",
+              "scanIndex": 283,
+              "printedPage": "279",
+              "quote": "םפר לוקאוו",
+              "context": "םפר לוקאוו\n\n279\n\nװי דער טאװל איבערא כוך, די פינצטערניש פאלט צו, איז םער דער גרויער הימל נישטא, נישטא דאס פענצטער, די צװײג, נישטא דאם בלעטל אין דער לופט, נאר בלוט, כלוט, בלוט, כלוט.\n\nדאם פרויען־הענטל איז שטײןן און פרירט, װי שטאל. װי שטאןז אין רײםן כריפעט די הויט, דאם לײב.\n\n״אײנם, צװײ— צײל! דרײ, פיר— צײל!״ נישט פארגעםן דעם גרויען הימל אײנם, צװײ, דרײ די צװײג דאם בלעטל.\n\nקלאפט דאם הארץ טיק־טאק, טיק־טאק און צעװישן קלאפ און קלאפ\n\nא הײמיש פנים הײבט זיך ארוים— דער טויט.",
+              "validation": "EXACT_NORMALIZED_OCR"
+            }
+          }
+        ],
+        "automaticDecision": null
+      },
+      "left": {
+        "caseId": "resolution_bbd6f4e5b1a62ac130377f83",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "LOW",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The first two samples clearly refer to a town, while the third is only a “Sefer Lukow” heading labeled as a community/publication reference. The evidence does not establish whether all three denote one place entity.",
+        "needsHumanReview": true
+      },
+      "right": {
+        "caseId": "resolution_bbd6f4e5b1a62ac130377f83",
+        "caseType": "ENTITY_RESOLUTION",
+        "decision": "SAME_ENTITY",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "Lukow",
+        "canonicalSummaryEn": "Town of Lukow, also identified by the memorial-book header.",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "All samples use the same Yiddish name and are compatible references to the town.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_00c920d8c2c9bc73268241bb",
+      "case": {
+        "caseId": "review_00c920d8c2c9bc73268241bb",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_404e10cd2e00823138d09a69",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The text explicitly describes going to the transport but does not identify the individual subject with complete grammatical clarity.",
+        "interpretation": {
+          "predicate": "DEPORTED_TO",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_7d4bbfd809e6c305dc037b6e",
+          "scanIndex": 310,
+          "printedPage": "306",
+          "quote": "גיץ צום פארניכטונגם־טראנםפארט",
+          "context": "306\n\nםשר לוקאװ\n\nװארשע, מיץ לעצטע דירה אויף טײארדע־גאם 28. מײן פיריעריק מײדעלע שפילט זיד מיט איר ליאלקע. אן איכערגעדרײט פוםן־כענקעלע מיט די פיםלעך ארויף איז דאם כעטעלע פון איר ליאלקע־קינד. װען זי הילט ארום די ליאלקע מיטא האנטעך, רייםט זיד אריץ פאליצײ, הײםט פארלאזן די וװינונג און גיץ צום פארניכטונגם־טראנםפארט.\n\nדי פיר־יעריקע ״מאמע״ געזעגנט זיד מיט איר ליאלקע־קינד, זי גיט אירא קוש אין קעפל, כעט זי זאל זײן שטיל, נישט װײנען, נישט כענקען\n\nא שעה שפעטער געפין איך זיך אין שטוכ אײגע אליץ מיט דער ארומגעטוליעטער ליאלקע. איןא װינקל— די אלטע שיכעלעך פון מײן קינדז די אפצאםעלעד אין איץ זײט אויםגעקרימט, די שנורכענדלעד— אויפגעבונדןו אויפן טיש—א שטיקעלע נישט דערעםן ברויט מיט צײכנם פון דראבנע צײנדלעך,א טעלעי־ל געטא־טײ און נעבן טעלערל—א קלײנע טאמאטע, פאר װעלכע כ׳האב דעם זעלבן טאג באצאלט מיטא גאלדן רינגל.\n\nדער שאטן פון מיץ שטילער מאמען, װאם איז צוזאמען מיטן קינד ארויםגעריםן געװארן פון שטוב, בלאנדזשעט בײ דעם קיכל, בײ די טעפלעך, בײ דעם אין שיםל אײנ־ געװײקטן ביםל קינדער־װעש, װעלכע מ׳דארף שוין נישט װאשן,",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_00c920d8c2c9bc73268241bb",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote clearly mentions going to an extermination transport, but the grammatical subject is unclear and no specific object or individual is identified for DEPORTED_TO.",
+        "needsHumanReview": true
+      },
+      "right": {
+        "caseId": "review_00c920d8c2c9bc73268241bb",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text says those ordered from the apartment went to an extermination transport; it does not identify a destination or a definite individual subject.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_00e10bc8108d8d5a4c29418c",
+      "case": {
+        "caseId": "review_00e10bc8108d8d5a4c29418c",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_22fdcf4ade5ff2e52c9bf60d",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The OCR is partly corrupted.",
+        "interpretation": {
+          "predicate": "LIVED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
+          "scanIndex": 190,
+          "printedPage": "186",
+          "quote": "האט ער געוץינט איןא צימער בײ קאפל גאנטשאזש",
+          "context": "ף אים, אז מיט דער װירע מעםט ער די לוקאװער גאסן. זיץ פרוי ריתל איז געװען זייערא שײנע. זי פלעגט קנעטן דעם קיט ביי אונדז אין געסל אץ צוזינגען זיך דאם לידז ״גײ איך מיר ארוים אויפן גאניקל דאם שטעטעלע צו באקוקף...\n\nדער צװײטער שכן, אריה קצב, איז געװען מער ״לײט״. ער איז געװעןא חםיד בײם מיעכאװער רבין. מיט דץ פאמיליע פץ5 פערזאן האט ער געוץינט איןא צימער בײ קאפל גאנטשאזש.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_00e10bc8108d8d5a4c29418c",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "LIVED_AT",
+        "revisedObjectOrSummaryEn": "a room at Kapel Gantshazh",
+        "rationaleEn": "The surrounding normalized OCR states that he lived with his family in one room at Kapel Gantshazh; the extracted object is missing.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_00e10bc8108d8d5a4c29418c",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage explicitly states that he lived in a room at Kapl Gantshazh's place.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_0268b6d50abf4cc8cd6729c9",
+      "case": {
+        "caseId": "review_0268b6d50abf4cc8cd6729c9",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_5846fe3a8566548f021e34ff",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "Membership is inferred from being identified as head of the group.",
+        "interpretation": {
+          "predicate": "MEMBER_OF",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_01d65b512a093729edfd2a2f",
+          "scanIndex": 148,
+          "printedPage": "144",
+          "quote": "איז געײאח אונדזער ״ראש קבוצה״",
+          "context": "144\n\nסםר לוקאװ\n\nבארנשטיץ׳ דער זעלבער׳ וואם האטא מאל געלערנט אין ישיבה, איז געײאח אונדזער ״ראש קבוצה״. ער האט געטראגן נישט בלויזא פאםעק, נאד אויךא ״פזשעפאםעק״, אץ דאם זעלבע שמואל ליכטער— ביידע זענען זיי געווען ״קשישים׳. מיר זענען געװען ״צופים׳. מיר האבן נישט געהאט קײן פארדרום, װאם מיר געפינען זיך צוױשן די יונגע. פארקערט, מיר האבן גערן געװאלט זיץ צװישן די יונגע מיידלעך. אונדזער קבוצה האט באקומען דעם נאמען ״קבוצת טרומפלדור״.\n\nדער לערער ראזענצװײג האט אונדז געשאפןא פאטראן,א ״נשיא כבוד׳•— דער ה׳ בענדערמאן פון דער אפטײק. אז מ׳האט געדארפט פועלן עפעם אין דער םטאראםטװע װעגןא בלימל־טאג אדער אן אונטערנעמונג, האט ער עם דערלײדיקט.\n\nאיד דערמאן זיךא ״ל״ג־בעומר״ װען מיר זענען אװעק אין זאפאװיעניקער װאלד.\n\nה׳ בענדערמאן האט געדונגעןא וױים פערד און געריטן פארוים פאר דער מחנה. צו דעם צװעק האט ער זיך באצײטנם באשטעלטא פאר רײטהויזן. שפעטער האבן לצים דערצײלט, אז ער איז עטלעכע טעג געלעגן אין בעט, וױיל ער האט זיך אפגעריבן די הויט. נישט בלויז דער װאלד, גאר די גאנצע שטאט איז דעמאלט פול געװען מיט ״השומר הצעיר״.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_0268b6d50abf4cc8cd6729c9",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "LEADER_OF",
+        "revisedObjectOrSummaryEn": "the narrators’ group, later named the Trumpeldor Group",
+        "rationaleEn": "The quote identifies him as the group’s ראש קבוצה (head/leader), not directly as a member; the group is later named the Trumpeldor Group.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_0268b6d50abf4cc8cd6729c9",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "He is explicitly described as the group's head, and the group is named Kvutsat Trumpeldor.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_0978db685ded96456fcb05c5",
+      "case": {
+        "caseId": "review_0978db685ded96456fcb05c5",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_278fc13ef264d4d075ba5841",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The passage says the branch worked jointly in the campaign; the relation to Lukow is thematic.",
+        "interpretation": {
+          "predicate": "PARTICIPATED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_1435b3dc3c34ee51dc3e3da5",
+          "scanIndex": 574,
+          "printedPage": "570",
+          "quote": "אין דער הילפס־קאמפײן פאר דער הײמשטאט לוקאװ",
+          "context": "ע 25 יאר פון איר עקזיםטענץ איז די םאםײעטי געװען די אײנציקע ארגאניזאציע, װאם האט געװירקט אינעם לעבן פון די לוקאװער לאנדםלײט, אין יאר1931 האט זיך אבער אין נױ־יארק אויך געגרינדעטא לוקאװער ברענטש153 אינדעפ. ארבעטער־ארדן, די םאםײעטי האט דאן פארלוירן נימ מיטגלידער. דער ברענטש עקזיםטירט הײנט א. נ. ,״לוקאװער ברענטש153 א.א.א.״ אין דער הילפס־קאמפײן פאר דער הײמשטאט לוקאװ, װאם גײט איצט אן, ארבעטן מיר צוזאמען מיט די לוקאװער לאנדםלײט םמ ברענטש 153 א.א.א.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_0978db685ded96456fcb05c5",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "PARTICIPATED_IN",
+        "revisedObjectOrSummaryEn": "the aid campaign for the hometown Lukow",
+        "rationaleEn": "The context explicitly states that they work together in the current aid campaign for the hometown Lukow; the participation relation is supported, but the object is missing.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_0978db685ded96456fcb05c5",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage explicitly says they worked together in the aid campaign for Lukow.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_09feb1a30f91fbd07b5173b6",
+      "case": {
+        "caseId": "review_09feb1a30f91fbd07b5173b6",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_71253c5fc9649b2e015cdca5",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The passage does not name the city explicitly in this excerpt.",
+        "interpretation": {
+          "predicate": "LIVED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"context\":\"most remained in the city while others fled with the Red Army\"}"
+        },
+        "evidence": {
+          "passageId": "passage_1257076e42deadbff57dd7d2",
+          "scanIndex": 526,
+          "printedPage": "522",
+          "quote": "דער גרעםטער טײל םון דער ײדישער באפעלקערונג רירט זיד נישט פון ארט",
+          "context": "ױדער זעט מען אויף די ײדישע פנימער אויםגעגאםןא מרה־שחורה און צער. װעןא טײל ײדן װילן זיד נישט צולאזן דעם געדאנק, אז דאס זאל זײן אמת, קומט אבער דער טאג׳ װאם װערט, צום גרויםן אומגליק,א פאקט. די רויטע ארמײ ציט זיד צוריק ביז איבערן בוג. אין שטאט הערשטא פאניק. פיל לויפן אװעק מיט דער רויטער ארמײ אין די צוגעגרײטע װאגאנען. אבער דער גרעםטער טײל םון דער ײדישער באפעלקערונג רירט זיד נישט פון ארט. דער טאג איז געװען א רעגנדיקער׳א טריבער• גלײד װי די הימלען װאלטן שוין געװײנט אויפן קומענדיקן ײדישן הורבן.\n\nדי׳ װאס פארלאזן זײער הײם׳ פאקן זיד אין די װאגאנען. מ׳הײבט זיך אן געזעגענען יעדער מיט זײנע גאענטע׳ מיט עלטערן׳ ברידער׳ שװעםטער׳ טײל אייד מיט פרוי אװ קינדער. עם שפילן זיד דערבײ אן רירנדיקע םצענעם.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_09feb1a30f91fbd07b5173b6",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "REMAINED_IN_PLACE",
+        "revisedObjectOrSummaryEn": "Most of the Jewish population remained in place while many others fled with the Red Army.",
+        "rationaleEn": "The quote supports remaining in place and fleeing with the Red Army, but not a LIVED_AT relation or a named city.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_09feb1a30f91fbd07b5173b6",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The context states that most of the Jewish population remained in the city while others fled with the Red Army.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_0b25aa365125aa98f67b5b24",
+      "case": {
+        "caseId": "review_0b25aa365125aa98f67b5b24",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_418e5d6d7f257cc5dcd95be8",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The military action is described colloquially; no more specific allowed event type fits.",
+        "interpretation": {
+          "eventType": "MILITARY_SERVICE",
+          "titleEn": "German entry into Lukow",
+          "summaryEn": "German forces entered Lukow and began imposing order in 1914.",
+          "dateStart": "1914",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_12bf98a869cf41aef3228aa4",
+          "scanIndex": 199,
+          "printedPage": "195",
+          "quote": "דאס יאר 1914, װען די דײטשן זענען געקומעו קימ לוקאװ",
+          "context": "לעגנהײטן. ער פלעגט אויך קומען אין מארק מיט זיץ גרויםן גרעגער אמ אזוי לאנג גרעגעח, ביז עם האט זיך צונויפגעקליבן אן עולם. דאן האט ער געמאלדן, אז דאנערשטיק קומט פארא ליציטאציע. ער האט דערבײ אויםגערעכנט װאם מ׳װעט אלץ קענען קויפן:א שנײדערישע מאשין,א שאפע, קופערנע פאנען וכדומה.\n\n*\n\nפון די אלטע צײטן איז מיר געבליבן אין זכרון דאס יאר 1914, װען די דײטשן זענען געקומעו קימ לוקאװ און אנגעהויבן איעפיח ״ארדענונג״. קודם־כל דאם שטײן גאנצע נעכט אין דער רײ נאך דעמ ברויט פון קאשטאן־מעל. אין אנד,ײב האט מען דאס ברויט נישט געקענט נעמען אין מויל אריץ, אבער שפעטער האט מען זיך צוגעװײנט צו דעם און צו די אנדערע ״ערזאצן״. דאן האבן זײ אנגעהויבן טרײבן אין באד ארײן און דורכפירן די בארימטע ״פארװוקעם״, װאס האבן געמאכטא תל סון ביםל בעבעכעס.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_0b25aa365125aa98f67b5b24",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote supports that Germans came to Lukow in 1914 and began introducing “order,” but it does not describe military service; that classification is schema-forced.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_0b25aa365125aa98f67b5b24",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage states that Germans came to Lukow in 1914 and began imposing “order.”",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_0d5e4040dec45dd58d9f3eb4",
+      "case": {
+        "caseId": "review_0d5e4040dec45dd58d9f3eb4",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_788b7ce4025ded9b25cc3cca",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The OCR phrase identifying the second person is unclear; Jacob is identified later.",
+        "interpretation": {
+          "predicate": "LIVED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_ef4097cedb344834e6ee82a3",
+          "scanIndex": 412,
+          "printedPage": "408",
+          "quote": "אמי ואזזי השני הסתתרו בכפר שכן",
+          "context": "״אני רק רוצה לקנות לעצמי זוג נעלים לחורף״, הוא אמר. ״אולי אעבור את החורף בגיטו ז״ זה קרע את לבי כשנפרדנו. אחי חזר לגיטו.\n\nאמי ואזזי השני הסתתרו בכפר שכן, אך אחרי זמן קצר היו מוכרחים לעזוב את המקום, כי הנוצרים לא יכלו או לא רצו ױתר להחזיקם. פעם אמרה לי בעלת הבית לד.וריד משהוא מן הגג. וכשעליתי ראיתי איך כריתי זזה ממקומה ולידה אמי ואחי הצעיר. הם חײם ונצלו מגיטו לוקוב. ״ואיה שאולז״ שאלתי. ״הוא לא רצה להכנם ולהםתתר במרתף״ ענתה עמי. ״ואיך אתם נצלתםז״ שאלתי הלאה. ״התעטפתי עם יעקב במעיל השחור, הםתתרתי בפינד, של המרתף והחלטתי לא לזוז מהמקום. כשהחלו לירות ולגרש מהמרתף, לא זזנו מהמקום״.\n\nואלו היו העינים, שראו שקיעת יהדות לוקוב.\n\nשוב אביב. אני כבר חרשתי את השדד״ זרעתי את זריעת האביב. בכפר שקט. האכרים חורשים וזורעים. מתכוננים כבר לזרוע תפוחי אדמה ומתכוננים לחג פסחא. אני עובד עם כולם, מעיא את הזבל מהרפת, חורש וזורע. אבל זד, רק לבני אדם. למענם אני שמח ונוצרי מאמין. אני הולך לכנםיה כל יום ראשון ולפעמים אף באמצע השבוע. בכנסיה אני עוזר לכומר בתפילות.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_0d5e4040dec45dd58d9f3eb4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "HID_IN",
+        "revisedObjectOrSummaryEn": "a neighboring village",
+        "rationaleEn": "The Hebrew states that the speaker’s mother and an unclear second brother hid in a neighboring village; it does not establish residence, and the object should not be empty.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_0d5e4040dec45dd58d9f3eb4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text says the mother and a brother hid in a neighboring village, but the claim has no identified subject or location object.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_0e60cba7e4ea5ce427a92a2f",
+      "case": {
+        "caseId": "review_0e60cba7e4ea5ce427a92a2f",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_8ed099e5aa83502d8ff9562e",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The exact victims associated with this phrase are not fully specified.",
+        "interpretation": {
+          "eventType": "MURDER",
+          "titleEn": "Murder of the Falehendler and Prost families",
+          "summaryEn": "The passage commemorates unnamed family members as murdered.",
+          "dateStart": "",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_1c3c2cdbae4c1ba92707e79a",
+          "scanIndex": 630,
+          "printedPage": "626",
+          "quote": "אומגעבראכטער משפחה",
+          "context": "מיטא צעבראכן הארץ באװיינען מיר דעם אומקום פון אונדזערע םייערע.\n\nמיין פאטער שמואל משה פעלהענדלער,\n\nמיין מוטער שרהלע.\n\nלײביש פעלהענדלער, בריסל/ בעדגיע\n\nאײביקער אנדענק אונדזער אומגעבראכטער משפחה!\n\nדער פאטער ישעיה פראםט,\n\nדי מוטער רחל־לאהי,\n\nדי ברידער וועלוול איז אפרים,\n\nאון אויך דער פעטער חיים מאיראװיטש מיט די קינדער, און דער פעטער שלום מיט די קינדער.\n\nאלתר און אסתר פראסט, רמת־גן\n\n626",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_0e60cba7e4ea5ce427a92a2f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "The passage commemorates named Falehendler and Prost relatives, along with the unnamed children of two uncles, as members of the murdered family.",
+        "rationaleEn": "The Yiddish explicitly refers to an “umgebrachter” (murdered) family, but it names several relatives; therefore “unnamed family members” is inaccurate.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_0e60cba7e4ea5ce427a92a2f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The memorial explicitly refers to “our murdered family” while commemorating the listed relatives.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_195652dd5a8f7818157fc0fd",
+      "case": {
+        "caseId": "review_195652dd5a8f7818157fc0fd",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_02fc58ca6757498246e70095",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The OCR obscures the place name and some wording.",
+        "interpretation": {
+          "eventType": "AKTION_OR_RAID",
+          "titleEn": "German encirclement and deportation",
+          "summaryEn": "German forces encircled the area and deported Jewish workers to the pig market.",
+          "dateStart": "",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_48017c4ec33569b55e4e5ecb",
+          "scanIndex": 322,
+          "printedPage": "318",
+          "quote": "אונח ארומגערינגלט געםטאפא און אלע ײדן",
+          "context": "איז נישט דערלויבט געװען צו גײן אין שטאט׳ מיר האבן געוװינט אין באראקן אויף דער ליניע•\n\nאין דער זעלבער צײט האבן געלעבט און געארבעט עטלעכע הונדעדט ײח אינעם טארטאק בײ דער באן. נאך עטלעכע הונדערט ײדן האבן געארבעט אין דער דײטשער פירמע רעקמאן׳ װאם האט זיך געפונען איז דער זעלבער געגנט.\n\nנאך3 חדשים פארהעלטנישמעםיקער רויקײט האט אונח ארומגערינגלט געםטאפא און אלע ײדן׳ װאם האבן געארבעט אין דער געגנט׳ אפגעפירט אויפן חזיר־מארק. דארט האב איך געטראםן מימ ברודער גאדל גרײצער און מיר האבן זיך אפגערעדט צו שפרינגען פון צוג. אויפן מארק האב איך געזען װי עם האט זיך געםמט איטשע קאראםיק. מען האט מיר דערצײלט׳ אז אויך האלבערג, טיקולםקים אײדעם׳ האט אפגע־ םמט זײן משפחה און זיך גופא.\n\nפונעם חזיר־מארק האט מען אונדז אפגעפירט צו דער באן און אונדז ארײנגעטריבן אין באראקן. דארט האבן מיר געדארפט װארטן אויפן צוג פון מעזריטש׳ װאם האט אונדז װידער געזאלט פיח קיץ טרעבלינקע. איך און מיץ ברודער גאדל האבן נישט געהאט קיץ געדולד צו װארטן אויפן צוג און מיר זענען אנטלאפן פון די באראקן. מיט אוגדז איז אויך אגטלאפן דוד פרידמאן (מענדל לעגדגערם זון).",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_195652dd5a8f7818157fc0fd",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "The Gestapo surrounded them, and all Jews who worked in the area were taken to the pig market.",
+        "rationaleEn": "The context explicitly names the Gestapo and says that Jewish workers in the area were taken to the pig market; the broader wording “German forces encircled the area” is less precise.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_195652dd5a8f7818157fc0fd",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The Gestapo surrounded the Jews working in the area and took them to the pig market.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_1e5c8f228f09eab90171881f",
+      "case": {
+        "caseId": "review_1e5c8f228f09eab90171881f",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_88a0bc60e3c8a0cd81903638",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The antecedent group is described as Jewish police and burial-society members.",
+        "interpretation": {
+          "predicate": "MEMBER_OF",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_0428e217746b653f50342c01",
+          "scanIndex": 443,
+          "printedPage": "439",
+          "quote": "צװישן זײ זענען געװען מײן שװער, ר׳ נח פלאמאן",
+          "context": " מיט־ גענומען אויך די לוקאװער.\n\nדער שעף בירגער האט אײנגעארדנטא ״פלאצװוקע״ מיט קאשארן אויפן שולהויף פאר די, װאם האבן זיך פארנומען מיטן אויסראמען די ײדישע שטובן און געשעפטן. דערבײ זענען געװען באשעפטיקט בײא100 פערזאן. אויך די ײדישע פאליצײ אץא טײל פון די חברה־קדישא־לײט זענען געקומען אהין אין די מיטאג־שעהען און אויך שלאפן. צװישן זײ זענען געװען מײן שװער, ר׳ נח פלאמאן, מענדל לוםט אץ זײער באגלײטער שמעון ריבאק אלס פאליציאנט. זײ האבן אװעקגעפירט עסן פאר די איבעריקע מענטשן, װאם זענען געבליבן אויפן בית־עולם און אויך געשלאפן דארט. מיך האט דער שעף באשטימט אלם לײטער פון דער קיד•\n\nדי ײדישע איבערגעלאזטע פארמעגנם זענען געװארן מאגאזינירט אין שול און אין בית־מדרש אץ זײ זענען געהיטן געװארן דורך ײדישע און פוילישע פאליצײ און אויד דורך די פײערלעשער.\n\nפאר מײנע אויגן שטייט נאד דאם בילד פון יענעם פרייטיק־פארנאכט, װען מ׳האט",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_1e5c8f228f09eab90171881f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "MEMBER_OF",
+        "revisedObjectOrSummaryEn": "the Jewish police and some Chevra Kadisha members",
+        "rationaleEn": "The passage says the named people were “among them,” referring to the Jewish police and some Chevra Kadisha members; the extracted object is missing.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_1e5c8f228f09eab90171881f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The membership object is empty, and the passage does not assign all named individuals to one definite group.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_207d8fa142b5042b4d534589",
+      "case": {
+        "caseId": "review_207d8fa142b5042b4d534589",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_88134e7f38c0d980d1de104f",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The OCR and grammatical phrasing are somewhat unclear.",
+        "interpretation": {
+          "predicate": "CHILD_OF",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_48017c4ec33569b55e4e5ecb",
+          "scanIndex": 322,
+          "printedPage": "318",
+          "quote": "דוד פרידמאן (מענדל לעגדגערם זון)",
+          "context": "פא.\n\nפונעם חזיר־מארק האט מען אונדז אפגעפירט צו דער באן און אונדז ארײנגעטריבן אין באראקן. דארט האבן מיר געדארפט װארטן אויפן צוג פון מעזריטש׳ װאם האט אונדז װידער געזאלט פיח קיץ טרעבלינקע. איך און מיץ ברודער גאדל האבן נישט געהאט קיץ געדולד צו װארטן אויפן צוג און מיר זענען אנטלאפן פון די באראקן. מיט אוגדז איז אויך אגטלאפן דוד פרידמאן (מענדל לעגדגערם זון).",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_207d8fa142b5042b4d534589",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "Mendel Legdger",
+        "rationaleEn": "The parenthetical identifies David Friedman as Mendel Legdger’s son. The CHILD_OF predicate is supported, but the object is missing.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_207d8fa142b5042b4d534589",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The parenthetical explicitly identifies David Friedman as Mendel Ledgerm's son.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_241aac558d643ff54c1a6d14",
+      "case": {
+        "caseId": "review_241aac558d643ff54c1a6d14",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_cdfb708be4d0b320dce20ae3",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "The local reference means there, referring to Lukow.",
+        "interpretation": {
+          "predicate": "LOCATED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{}"
+        },
+        "evidence": {
+          "passageId": "passage_53baf5f6f98f2e8975f50341",
+          "scanIndex": 19,
+          "printedPage": "15",
+          "quote": "באלעסלאװ האט אויך געלאזט דארט אויפשטעלןא קאשטשאל",
+          "context": "װ װםטידליװי (דער צניעותדיקער) (1274—1221),א מיטגליד פון דער קיניגלעכער פיאסט־משפחה—א הילצערנעם שלאס. ער האט אויך אריבערגעבראכט אהינצו מיטגלידער פון דעם טעמםלאר־ארדן (קזשיזשאצי— קרײצלעד), װעמענם אויפגאבע עם איז געװען צו פארטײדיקן פוילן קעגן די יאדזשװיניגן. װאם פלעגן איבערפאלן און ארײנדרינגען אין דער פוילישער טעריטאריע. באלעסלאװ האט אויך געלאזט דארט אויפשטעלןא קאשטשאל. באלעסלאוי האט מיט דעם אריבערברענגען די טעמפלארן געהאט גאךא געדאנק: צו באקערן די געצנדינערישע (פאגאנישע) באפעלקערונג צום קריסטנטום.\n\nכדי צו אנטװיקלען דעם דאדטיקן ראיאן, האט באלעסלאװ געשאנקען דעם אדלשטאנד (שליאכטא) גרויסע שטחים לאנד, װאס זײ האבן געדארפט באארבעטן. אזוי ארום איז לוקאװ געװארןא באדײטנדיקער פארקער־פונקט צװישן פוילן און ליטע. דער דאזיקער פארקער איז געװארן פיל גרעםער און חשובער נאך דעם, װי פוילן האט פארנומען גדאנסק (דאנציג). פוילן האט באקומעןא צוטדיט צום אפענעם יםא דאנק װאס זי האט אנגעהויבן שיקן אירע אגראר־פראדוקטן אין די מערב־לענדער.\n\n•) אין פויליש— לוקאװ פאדליאסקי. ײדן םלעגן זאגן; ליקעװע, ליקאװע. םארגלײך שו״ת בית חדש הישנות םיסן ם״ח לוקאוו אדער ליקבא, ליקװע1 םארגל. שױת םהר־ם םלובלץ םיםן נ״ם.\n\n15",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_241aac558d643ff54c1a6d14",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "LOCATED_IN",
+        "revisedObjectOrSummaryEn": "Lukow",
+        "rationaleEn": "The quote says a castle was allowed to be erected “there,” and the surrounding text identifies the place as Lukow. Supply Lukow as the missing object.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_241aac558d643ff54c1a6d14",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The proposed LOCATED_IN claim has no stated subject or location object; “there” cannot support it as extracted.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_242d16a98e397df09e777366",
+      "case": {
+        "caseId": "review_242d16a98e397df09e777366",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_a0d022dc9ae87d3efe81b661",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The OCR does not specify the task.",
+        "interpretation": {
+          "predicate": "WORKED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"role\":\"specified work\"}"
+        },
+        "evidence": {
+          "passageId": "passage_a106a31c51e03230e58e234c",
+          "scanIndex": 193,
+          "printedPage": "189",
+          "quote": "ױםף׳ לוי אץ בנימין האבן געהאט זײער באשטימטע ארבעט",
+          "context": "נאכן טויט פון אלטן גאםטמאן איז די פאבריק געװארן אנגעפירט םון די קיגדער.\n\nדי האבן זיך פונאנדערגעטײלט מיט די פונקציעם. דער עלטםטער זון, בערל, איז תמיד געװען אין װעג און געשאפן באשטעלונגען פאר דער פאבריק. יהודה האט זיד םארנומען מיט דער אדמיניםטראציע פון דער פאבריק• אויד די אנדערע זין— ױםף׳ לוי אץ בנימין האבן געהאט זײער באשטימטע ארבעט. גאםטמאנם קינדער זענען שוין חוקא געװען געלערנט. אבער צום באדויערן האבן זײ אלץ פארתכלעװעט. דאם ריזיקע םאר־ מעגן, װאס דער גישט־גראמאטנער פאטער האט געשאפן, איז אומגעבראכט געװארן דורד\n\nדי געלערנטע קינדער•\n\nדי פאבריק האט באנקראטירט.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_242d16a98e397df09e777366",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "WORKED_AT",
+        "revisedObjectOrSummaryEn": "the factory; specific duties were not stated",
+        "rationaleEn": "The passage says Yosef, Levi, and Benjamin had assigned work while the children operated the factory. The factory is supported by context, but their individual tasks are unspecified.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_242d16a98e397df09e777366",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "In the factory context, the passage states that Yosef, Leyvi, and Binyamin each had assigned work.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_296634511d1de295e3465f5f",
+      "case": {
+        "caseId": "review_296634511d1de295e3465f5f",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_f981b8f338ec59293fdb6249",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The wording identifies him as a community member who studied there, but OCR punctuation is unclear.",
+        "interpretation": {
+          "predicate": "STUDIED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_04d6d720237e09332f880a21",
+          "scanIndex": 81,
+          "printedPage": "77",
+          "quote": "למד באותו בית מדרש חבר עירנו׳ הסופר נחתומי (מנדל פיקש)",
+          "context": "שם התפללו הרבה יהודים עשירים מן העיר׳ והם החזיקו את בית המדרש. יהודים אלו הױ: ר׳ משה ליכטנשטיך ר׳ משה בורנשטין, טרקלטויב, ר׳ אליעזר וקסמן ובעלי בתים עשירים אחרים• שם ישבו גם בחורים מבוגרים ולמדו לעצמם אגב, למד באותו בית מדרש חבר עירנו׳ הסופר נחתומי (מנדל פיקש), הױם במדינת ישראל.\n\n*\n\nהרוחות הקרות שהחלו לנשב מגרמניה ההיטלראית׳ הגיעו לפולין. החלה הפוליטיקה האנטישמית בצורת ה״אובשם״, כלומר׳ מצור כלכלי על היהודים והאיסור על שחיטה יהודית. יחד עם שאר היהודים קײמו יהודי לוקוב אסיכת מחאה שבה השתתפו יהודים מכל הזרמים. החנוױת נסגרו והעבודה בבתי המלאכה ובתי החרושת הופסקה. היהודים בעיר קײמו התנגדות לפעולת המצור של החוליגנים הפולנײם. קצבים ופועלים יהודײם נהגו לגרש את שומרי המצור שעמדו ליד חגוױת יהודױת כדי לא להכניס קונים סולגײם. ביום חמישי אחד, בױם שוק גדול נעמדו ליד חנויות היהודים קבוצות גדולות של חוליגנים. הנוער העובד היהודי נאסף במספרה של משה פסלה. משה פסלה יצא לראות איך הענינים/ ולסימנו יצאו נערי העבודה החזקים׳ האחים לופט׳ ונתנו לחוליגנים מכות כאלה שהם ױתר לא הראו עצמם.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_296634511d1de295e3465f5f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "STUDIED_AT",
+        "revisedObjectOrSummaryEn": "that beit midrash",
+        "rationaleEn": "The Hebrew directly states that Mendel Piksh studied in that beit midrash; the object should be recorded rather than left blank.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_296634511d1de295e3465f5f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The Hebrew explicitly says that the writer Nachthumi studied in that same study house.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_2bf604463b83ed572b85a36a",
+      "case": {
+        "caseId": "review_2bf604463b83ed572b85a36a",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_e7382ed6816a14833b317838",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The text may name alternative destinations rather than assign one definite place.",
+        "interpretation": {
+          "predicate": "MURDERED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"dateText\":\"1942–1943\",\"alternativePlace\":\"Majdanek\"}"
+        },
+        "evidence": {
+          "passageId": "passage_92cdca899e254ff80d302a40",
+          "scanIndex": 624,
+          "printedPage": "620",
+          "quote": "אוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו",
+          "context": "טײערע לאטשע פעלדמאן, םון דער הײם וואקםמאן,\n\nאון מיץ טײער טעכטערל רותעלע פעלדמאן—\n\nאוםגעבראכטע דורו די היטלער־םערדער אױ1943 אין לוקאװ, בעת דער לעצטער אקציע1\n\nמײן שװעםטער פרײשקע קלײנמאן, מיױ שװאגער מאטל קלײנמאן\n\nמיט די קינדער נפתלי, לאהטשע, נחוםי!\n\nמײן ברודער משה פעלדמאן און שװעגערין חיה־הינדע\n\nמיט זײער זונעלע שימשעלע,\n\nאוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו\n\nמיץ שװעםטער\n\nלאה פעלדמאן־עדלמאן\n\nגעשטארבן בעת דער םיםום־עפידעםיע, װען זי האט פרײװיליק געארבעט בײ די בריסקער הײםלאזע אין דער ערשטער װעלט־םלחםה.\n\nמאטל סעלדמאן, נױ־יארק\n\n620",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_2bf604463b83ed572b85a36a",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "DIED_AT",
+        "revisedObjectOrSummaryEn": "Auschwitz or Majdanek, during 1942–1943; the exact destination is not uniquely specified.",
+        "rationaleEn": "The Yiddish says they perished, not specifically that they were murdered, and lists Auschwitz and Majdanek without establishing one definite site.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_2bf604463b83ed572b85a36a",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text says they perished in 1942–1943 in Auschwitz or Majdanek; it does not assign a definite murder location.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_2ccb3c5a7a1baef10ebd1597",
+      "case": {
+        "caseId": "review_2ccb3c5a7a1baef10ebd1597",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_a82371c4606d2ac6511dd019",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "predicate": "PARTICIPATED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_de30a7f45def4d63a454352e",
+          "scanIndex": 599,
+          "printedPage": "595",
+          "quote": "פאר דער װידערשטאנד־באװעגונג",
+          "context": "ר זאל זיד צושטעלן.\n\nדי האבן אים גאראנטירט, אז די װעלן אים אפלאזן. מיטא טאג םריער האט מען טאקע צוריק אהײמגעשיקט עטלעכע קראנקע. ער איז אבער געװארן דעפארטירט קײן מאלין• קײן װײטערדיקע ידיעות װעגן אים זענען נישטא.\n\n*\n\nנאד עטלעכע װערטער װעגן זײן זון.\n\nאבראשע גאלדגעװיכט איז געװען דער הויפט־פאראנטװארטלעכער בײם אויסשולן קאדרען פאר דער װידערשטאנד־באװעגונג אויף דער ײדישער גאס. ער האט אויד געהערט צום גענעראל־שטאב פון דער בעלגישער רעזיסטאנס. אין דער פארטיזאנער־ ארמײ איז ער געװען פארטרעטער פון קאמענדאנט פון בריסל אין אנהײב 1943. שפעטער װערט ער איבערגעשיקט קײן ליעזש׳ וװ ער װערט קאמענדאנט איבערן גאנצן קויא־ געביט פון װאלאניע. איןא צײט ארום איז ער אין מאנס םאראנטװארטלעד פאר דער באװאפענונג.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_2ccb3c5a7a1baef10ebd1597",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "the resistance movement on the Jewish street and the Belgian resistance general staff",
+        "rationaleEn": "The quote directly states that Abrashe Goldgewicht trained cadres for the resistance movement and belonged to the Belgian resistance general staff; the original object is missing.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_2ccb3c5a7a1baef10ebd1597",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage explicitly describes Abrashe Goldgevikht's leadership and service in resistance organizations.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_38abedafe6d98d8e5afb6fb8",
+      "case": {
+        "caseId": "review_38abedafe6d98d8e5afb6fb8",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_44a1ab4b214bb0dc14d76cf6",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "Winter 1941 is retained as text; exact month is unknown.",
+        "interpretation": {
+          "eventType": "MURDER",
+          "titleEn": "Daytime shooting in Lukow",
+          "summaryEn": "Gestapo personnel from Radzyń killed Mashke Weberman and several homeless people.",
+          "dateStart": "1941-12-01",
+          "dateEnd": "1941-12-31"
+        },
+        "evidence": {
+          "passageId": "passage_6465f56810815611a4355695",
+          "scanIndex": 437,
+          "printedPage": "433",
+          "quote": "אין װינטער 1941, װען פון רוםלאנד האבן אנגעהויבן אנקומען די געפרוירענע דײטשן, זענען פון ראדזין געקומען די געשטאפא־לײט אין מיטן העלן טאג און געעפנט א שיםערײ, זײ האבן דערהרגעט מאשקע װעבערמאן",
+          "context": "ני 1941, נאכן אנפאל פון די דייטשן אויף רוםלאנד, האט זיך אנגעהויבןא נייע תקופה אק די רדיפות קעגן די ייזץ. יעדער געשטאפאװיעץ, װאם איז נאר אדורכגעפארן לוקאװ, האט געפונען פאר נייטיק אפצושטאטןא וױזיט אין ױדענראט, כדי צו קריגן עפעםא ״מתנה״. יעדער אײנער פון זײ האט געװוסט, אז ער קען אלץ טאן מיט די ײדן— הרגענען׳ רויבן, שלאגן.\n\nאין װינטער 1941, װען פון רוםלאנד האבן אנגעהויבן אנקומען די געפרוירענע דײטשן, זענען פון ראדזין געקומען די געשטאפא־לײט אין מיטן העלן טאג און געעפנט א שיםערײ, זײ האבן דערהרגעט מאשקע װעבערמאן (מאשקע חײם־שמואלם) און עטלעכע הײמלאזע, און דאן האבן זײ ארויםגעגעבןא פארארדענונג, אז װער עם האט נאר עפעם פון פוטערװארג, זאל עס תיכף ברענגען אין ױדענראט. דער ױדענראט האט געארבעט בײ טאג און בײ נאכט בײם םארטירן דאס פוטערװארג. װער עם האט נאר געהאטא קעלנערל,א מאנקעטל׳ האט עם געבראכט צו טראגן, וױיל פאר באהאלםן דאס האט געדראט טויטשטראף.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_38abedafe6d98d8e5afb6fb8",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote explicitly states that Gestapo personnel from Radzyń opened fire in broad daylight and killed Mashke Weberman and several homeless people in winter 1941.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_38abedafe6d98d8e5afb6fb8",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "MURDER",
+        "revisedObjectOrSummaryEn": "In winter 1941, Gestapo personnel from Radzyń shot and killed Mashke Weberman and several homeless people in Lukow.",
+        "rationaleEn": "The killing is explicit, but the source gives only winter 1941, not December 1941.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_3f806b552d072d9a3416de81",
+      "case": {
+        "caseId": "review_3f806b552d072d9a3416de81",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_51ec4391406c40828c3655fa",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "predicate": "MEMBER_OF",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"role\":\"cantor or prayer leader\"}"
+        },
+        "evidence": {
+          "passageId": "passage_038dafa4e660190d2008f7d6",
+          "scanIndex": 217,
+          "printedPage": "213",
+          "quote": "לײבל וװינער פון גערער שטיבל",
+          "context": "לד נאכן ערשטן דאװענען אין ראש חודש אלול האט דער שוםר צו װיסן געטאן,\n\nאז עס דערנענטערן זיך די ימים נוראים. קודם כל האבן זיך גענומען גרײטן די חזנים און בעל־תפילהס: אפרים מעזריטשער פון אלטן בית מדרש, גרשון פלוג םון דער גרוי• סער שול, משה אהרן ליס׳יביקער פון חוק־בית־מדרש, מאיר משה יצחקס פון חיה שרהס בית־מדרש, יונה נוי און לײבל וװינער פון גערער שטיבל, שלמה מענדל פון אלעק־ סאנדער שטיבל, מרדכי מעכל פון פארצעװער שטיבל, בערל ישראל יצחקס פון מעז־ ריטשער שטיבל און הערש מענדל פװ ״מזרחי״.\n\nאין די דאזיקע טעג האבן אויך די באלמעלאכעס אין די װארשטאטן אנגעהויבן אונטעחינגען ימים נוראימדיקע חזנישע שטיקלעך. דאס ערשטע ארט האבן פארנו־ מען די שניירערס און שוסטערס, װאס האבן געארבעט ביז שפעט בײ נאכט.\n\nאין דעם חודש אלול האט אויך משה װאסערטרעגער געטאן װאס ער קען. מיטן טאג צוגלײך האט מען געהערט זאגן די תפילות מיטא בעטנדיק און פארזינדיקט קול, װי ער װאלט ח״ו אפגענארט מענטשן און געבראכט האלבע עמערס װאסער. אין דעם חודש איז ער געװארןא רודף שלום בײ די גאסן־הענדלער װאס פלעגן זיך קריגן. אפילו די קריסטן האבן געװוסט, אז אויב משה דאװנט אזוי פרום, איזא סימן, אז עס װעט שוין באלד זײן דער ײדישער ״נאװי ראק״ און ״סאנדני דזשען״.",
+          "validation": "UNIQUE_OCR_FUZZY_ALIGNMENT_REVIEW_REQUIRED"
+        }
+      },
+      "left": {
+        "caseId": "review_3f806b552d072d9a3416de81",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "MEMBER_OF",
+        "revisedObjectOrSummaryEn": "Gerer shtibl",
+        "rationaleEn": "The passage lists Leybl Viner among the cantors and prayer leaders and identifies him as being from the Gerer shtibl; the object is missing from the current interpretation.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_3f806b552d072d9a3416de81",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "Leybl Viner is listed among cantors or prayer leaders of the Gerer shtibl.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_43b3d77a43045f9c6c2376e4",
+      "case": {
+        "caseId": "review_43b3d77a43045f9c6c2376e4",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_3e716403fa8caea625f00540",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The OCR may omit or distort the street wording.",
+        "interpretation": {
+          "predicate": "LOCATED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_402472256f08e469c1ea6c83",
+          "scanIndex": 169,
+          "printedPage": "165",
+          "quote": "אויף עק מעזריטשער",
+          "context": "פאראן אלף־בית־םימנים, כדי צו פארלײכטערן דאם געפינען די ענינים און פערזאנען. צו מארגנם, װען דער םעקרעטאר איז געקומען, האט ער דערזען, אז די אלע םימנים זענען אפגעריםן. װען מ׳האט זיך דערוװםט, אז דאם איז געװען אנשלם ארבעט׳ האט ער דאם דערקלערט דערמיט, אז ער האט ליב רײנע ארבעט, עם זאלן נישט נאכהענגען קיץ צויטן,\n\nװײטערא ביםל, אויף עק מעזריטשער, איז געװען ר׳ שלומם טשאיניע,א קלײנער רעםטאראן פאר יידישע בעל־מלאכות אויף צו כאפןא קײ. קעגנאיבער דער טשאיניע, איןא בוידעם־שטיבל אויפן צוױיטן שטאק, האט געוװינט דער שלײפער— זײערא הויכער און דארער. ער פלעגט שלייפן מעםערם און שערן, און ער האט אויף צופארדינט מיט שערעריי. ער האט געוװינט אײנער אליין. מען האט זיך געװיצלט, אז ער שםילט אין שאך מיט דער קאץ.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_43b3d77a43045f9c6c2376e4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "LOCATED_IN",
+        "revisedObjectOrSummaryEn": "the corner of Mezritsher",
+        "rationaleEn": "The quote directly places the restaurant at the corner of Mezritsher, but the extracted object is empty and the exact street wording remains somewhat uncertain.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_43b3d77a43045f9c6c2376e4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote gives only a street-corner reference and the extracted location object is empty.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_4ca49e2b81c2edc117f972bd",
+      "case": {
+        "caseId": "review_4ca49e2b81c2edc117f972bd",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_c1b679d25b80915510e50b23",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "Parenthetical wording and OCR make the naming relationship somewhat uncertain.",
+        "interpretation": {
+          "predicate": "SAME_AS",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_6465f56810815611a4355695",
+          "scanIndex": 437,
+          "printedPage": "433",
+          "quote": "(מאשקע חײם־שמואלם)",
+          "context": " וױזיט אין ױדענראט, כדי צו קריגן עפעםא ״מתנה״. יעדער אײנער פון זײ האט געװוסט, אז ער קען אלץ טאן מיט די ײדן— הרגענען׳ רויבן, שלאגן.\n\nאין װינטער 1941, װען פון רוםלאנד האבן אנגעהויבן אנקומען די געפרוירענע דײטשן, זענען פון ראדזין געקומען די געשטאפא־לײט אין מיטן העלן טאג און געעפנט א שיםערײ, זײ האבן דערהרגעט מאשקע װעבערמאן (מאשקע חײם־שמואלם) און עטלעכע הײמלאזע, און דאן האבן זײ ארויםגעגעבןא פארארדענונג, אז װער עם האט נאר עפעם פון פוטערװארג, זאל עס תיכף ברענגען אין ױדענראט. דער ױדענראט האט געארבעט בײ טאג און בײ נאכט בײם םארטירן דאס פוטערװארג. װער עם האט נאר געהאטא קעלנערל,א מאנקעטל׳ האט עם געבראכט צו טראגן, וױיל פאר באהאלםן דאס האט געדראט טויטשטראף.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_4ca49e2b81c2edc117f972bd",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "SAME_AS",
+        "revisedObjectOrSummaryEn": "Maske Chaim-Shmuel, the parenthetical name associated with Maske Weberman; exact OCR spelling uncertain",
+        "rationaleEn": "The parenthetical immediately follows Maske Weberman and supports an identification, but the extracted object is empty and the OCR spelling is uncertain.",
+        "needsHumanReview": true
+      },
+      "right": {
+        "caseId": "review_4ca49e2b81c2edc117f972bd",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "Although the parenthetical may clarify the victim's name, the SAME_AS claim has no object and cannot represent the relationship.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_4f08a4c87c1eeb2c8911def8",
+      "case": {
+        "caseId": "review_4f08a4c87c1eeb2c8911def8",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_bc27cac710c92042c5de7fa4",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The OCR may combine the place name and institution wording.",
+        "interpretation": {
+          "predicate": "LOCATED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{}"
+        },
+        "evidence": {
+          "passageId": "passage_324dc3c91c867ff564ccaf12",
+          "scanIndex": 206,
+          "printedPage": "202",
+          "quote": "אין חיפהר טעכניקום",
+          "context": ". ער איז געװעןא מענטש מיטא גאלח הארץ. װען עם םלעגט קומעןא ציוניםטישער שליח אדער רעפערעגט, פלעגט ער אײגשטיץ בײ אים. ער איז געװען נישט קיץ פדומער, אבער װען ער האט געהאט יארצײט, איז ער געזעםן\n\nאין בית־מדרש און געלערנטא פרק משנױת.\n\nמיגדאל איז װײט גישט געווען קײן גביר, אבער ער האט זיך אנגעשטרענגט און געשיקט זיין זון לערנען אין חיפהר טעכניקום. ער איז דאןא געוויםע צייט געװען ביי מיר אין שטוב. צום באדויערן איז ער געװען פיזישא שװאכער, דער קלימאט האט אים נישט געדינט. ער האט געבענקמ אהיים, וװ מ׳האט אים זייער געבאלעװעט. ער איז אהיימגעפאח פאר דער מלחמה. דער גורל האט געװאלט, אז עם זאל נישט בלייבן קײן זכר פון די מיגדאלם.\n\nדי3 פריזיערס, די ברידער ראזענשטאק",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_4f08a4c87c1eeb2c8911def8",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "SENT_TO_STUDY_AT",
+        "revisedObjectOrSummaryEn": "Haifa Technicum",
+        "rationaleEn": "The passage says he sent his son to study at the Haifa Technicum; it does not support a LOCATED_IN claim, and the current object is empty.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_4f08a4c87c1eeb2c8911def8",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote says Migdal's son was sent to study at the Haifa Technikum; it does not support an empty LOCATED_IN claim.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_4f83141fc5076cff87df7728",
+      "case": {
+        "caseId": "review_4f83141fc5076cff87df7728",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_68897ab19fa22a75bfaa03e4",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The target name and OCR wording are unclear.",
+        "interpretation": {
+          "eventType": "AKTION_OR_RAID",
+          "titleEn": "Armed action at the forest guard’s house",
+          "summaryEn": "Several named comrades entered a house and shot a forest guard and his son.",
+          "dateStart": "",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_16fe53f34d5b9883fbccd333",
+          "scanIndex": 325,
+          "printedPage": "321",
+          "quote": "הענעך נארמאן, ױסף ליתער װישניע, ראובן װײסבוים (באבעניקער), יחיאל האנטשטאק, לײבל בארנשטײן ארײן צום ״גא־ יאװע״ אין שטוב און דערשאסן דעמ װאלד־שומר מיט זײן זון",
+          "context": "אין דער זעלבער װאך זענען אונדזערע חברים הענעך נארמאן, ױסף ליתער װישניע, ראובן װײסבוים (באבעניקער), יחיאל האנטשטאק, לײבל בארנשטײן ארײן צום ״גא־ יאװע״ אין שטוב און דערשאסן דעמ װאלד־שומר מיט זײן זון. זײ האבן צונויפגערופן די שכנים אץ זײ געמאלח, אז דאס איזא נקמה־אקט פארן מארד איבער דער משפחה רענדל.\n\nא גרופע באװאפנטע ױנגעלײט פון לוקאװ האבן זיך געטראפן מיטא גרוםע בא־ װאפנטע פאליאקן, װאס האבן זיך פארגעשטעלט אלס קעמפער קעגן די דײטשן. די פאליאקן האבן פארגעלײגט, אז די ײדן זאלן זיך פאראײניקן מיט זײ, כדי צװאמען ארויסצוטרעטן קעגן די דײטשן. די נאױוע ײדישע ײנגלעך האבן געגלײבט און אנגענו־ מען דעם פארשלאג. בײ נאכט, װען די ײדישע ױנגעלײט זענען געשלאסן, האבן די פאליאקן זיי דערמארדעט. בלויז2 פון זײ— ראובן װײסבוים און נאטע קאראסיק— איז געלונגען צו אנטלויפן. פון די דערהרגעטע געדענק איך די נעמען( יחיאל האנט־ שטאק, ערליך.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_4f83141fc5076cff87df7728",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote directly states that the named comrades entered a house and shot the forest guard and his son. The interpretation is supported despite some unclear names and OCR wording.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_4f83141fc5076cff87df7728",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "AKTION_OR_RAID",
+        "revisedObjectOrSummaryEn": "Several named comrades entered a house and shot a forest guard and his son.",
+        "rationaleEn": "The shooting is explicit, but the quoted house is associated with an unclear name, not explicitly identified as the forest guard's house.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_529471f95107f65bb3d071c2",
+      "case": {
+        "caseId": "review_529471f95107f65bb3d071c2",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_0c4a216de9380acf46614b73",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The text names Auschwitz and Majdanek together without assigning individuals to a specific place.",
+        "interpretation": {
+          "eventType": "MURDER",
+          "titleEn": "Deaths of relatives in Auschwitz or Majdanek",
+          "summaryEn": "Relatives died in Auschwitz or Majdanek during 1942–1943.",
+          "dateStart": "1942",
+          "dateEnd": "1943"
+        },
+        "evidence": {
+          "passageId": "passage_92cdca899e254ff80d302a40",
+          "scanIndex": 624,
+          "printedPage": "620",
+          "quote": "אוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו",
+          "context": "טײערע לאטשע פעלדמאן, םון דער הײם וואקםמאן,\n\nאון מיץ טײער טעכטערל רותעלע פעלדמאן—\n\nאוםגעבראכטע דורו די היטלער־םערדער אױ1943 אין לוקאװ, בעת דער לעצטער אקציע1\n\nמײן שװעםטער פרײשקע קלײנמאן, מיױ שװאגער מאטל קלײנמאן\n\nמיט די קינדער נפתלי, לאהטשע, נחוםי!\n\nמײן ברודער משה פעלדמאן און שװעגערין חיה־הינדע\n\nמיט זײער זונעלע שימשעלע,\n\nאוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו\n\nמיץ שװעםטער\n\nלאה פעלדמאן־עדלמאן\n\nגעשטארבן בעת דער םיםום־עפידעםיע, װען זי האט פרײװיליק געארבעט בײ די בריסקער הײםלאזע אין דער ערשטער װעלט־םלחםה.\n\nמאטל סעלדמאן, נױ־יארק\n\n620",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_529471f95107f65bb3d071c2",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "DEATH",
+        "revisedObjectOrSummaryEn": "Relatives perished in Auschwitz or Majdanek during 1942–1943.",
+        "rationaleEn": "The quote supports death or perishing in 1942–1943 at Auschwitz and Majdanek, but does not explicitly state murder.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_529471f95107f65bb3d071c2",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage states that the listed relatives perished in 1942–1943 in Auschwitz and Majdanek.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_5987cdf0d4c4fd8c4f1da69a",
+      "case": {
+        "caseId": "review_5987cdf0d4c4fd8c4f1da69a",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_ccdc424041e02009cfa951f2",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "This indicates work on behalf of the association, not necessarily membership.",
+        "interpretation": {
+          "predicate": "WORKED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{}"
+        },
+        "evidence": {
+          "passageId": "passage_042401d1008b2821b72fd507",
+          "scanIndex": 580,
+          "printedPage": "576",
+          "quote": "פאר אונדז ארויםבאקומען די לעגאליזאציע",
+          "context": "ט אין הילף טאקע דא׳ אין די פאראײניקטע שטאטן. די פארדינםטן פון די ארבעטער זענען דעמאלט געװען זײער קלײנע. אין קאמיטעט זענען דאן געװען יאנקל בראון, זײן ברודער אבי בראון. געװען בײ אונדזא זון פוןא לוקאװער פאמיליע, װאם האט זיך דערצויגן אװ שטודירט אין אמעריקע׳ געװארן אן אדװאקאט. זײן נאמען איז געװען מארים לעװיט ע״ה• אח ער האט פאר אונדז ארויםבאקומען די לעגאליזאציע פונעם פאראײן, אדער װי מען רופט דאם אין ענגלישו טשארטער־קאנםטיטוציע.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_5987cdf0d4c4fd8c4f1da69a",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "PROVIDED_LEGAL_ASSISTANCE_TO",
+        "revisedObjectOrSummaryEn": "The association; obtained its legal authorization or charter.",
+        "rationaleEn": "The quote directly says that Morris Levitt obtained the association’s legalization/charter, not that he worked there.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_5987cdf0d4c4fd8c4f1da69a",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "He obtained the association's legalization; this does not establish employment.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_5f0874791efe76a53c81ed4d",
+      "case": {
+        "caseId": "review_5f0874791efe76a53c81ed4d",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_daf00cf1b8a7ca0218060737",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The passage gives Tel Aviv as the publication location, but does not explicitly assign it to either named organization.",
+        "interpretation": {
+          "predicate": "PUBLISHED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_890d8f8a44d8043dc375af09",
+          "scanIndex": 7,
+          "printedPage": null,
+          "quote": "תל״אביב",
+          "context": "קזפר לוקאוו\n\n7\n\nגעהײליקט דער חרוב־געווארענער קהילה\n\nארויסגעגעבן\n\nפון ארגון יוצאי לוקאוו בישראל און פון דער לוקאווער לאנדסמאנשאפט אין די פאראייניקטע שטאטן\n\nתל״אביב, תשכ״ח— •196",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_5f0874791efe76a53c81ed4d",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "PUBLISHED_IN",
+        "revisedObjectOrSummaryEn": "Tel Aviv",
+        "rationaleEn": "The colophon explicitly gives Tel Aviv as the publication location; the object should not be empty.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_5f0874791efe76a53c81ed4d",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "Tel Aviv is printed as the publication location, but it is not assigned to either named organization.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_6533195d5cfc58ab57a75955",
+      "case": {
+        "caseId": "review_6533195d5cfc58ab57a75955",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_03e4a0b13ec95d97bface3ae",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The passage states they were going in the train, not necessarily that they lived there.",
+        "interpretation": {
+          "predicate": "LIVED_AT",
+          "objectLiteralEn": "The train",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_c3fdf2a447d4a6cc02d50d71",
+          "scanIndex": 364,
+          "printedPage": "360",
+          "quote": "אין דעם צוג גײעןא מאמע מיטא טאכטער",
+          "context": "אין דעם צוג גײעןא מאמע מיטא טאכטער. זײ פיחא שװאך קינד אין עלטער פון 5—6 יאר, זײ בלײבן הינטערשטעליק׳ װײל דעם קינד איז שװער צו גײן. אן אוקראינער שיםט אױפן קינד. דאס קינד פאלט.ח מאמע מיט דער טאכטער אנטלויפן",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_6533195d5cfc58ab57a75955",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "TRAVELED_IN",
+        "revisedObjectOrSummaryEn": "A train",
+        "rationaleEn": "The quote says a mother and daughter were going in a train; it does not state that they lived there.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_6533195d5cfc58ab57a75955",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage says they were traveling in the train, not living there.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_6d19577156dda2634c41fe6c",
+      "case": {
+        "caseId": "review_6d19577156dda2634c41fe6c",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_a691953ba3ece58b0046d327",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "The passage does not explicitly state the escape date.",
+        "interpretation": {
+          "eventType": "LIBERATION",
+          "titleEn": "Escape from Lukow Ghetto",
+          "summaryEn": "The narrator’s mother and brother survived and escaped the Lukow Ghetto.",
+          "dateStart": "",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_ef4097cedb344834e6ee82a3",
+          "scanIndex": 412,
+          "printedPage": "408",
+          "quote": "הם חײם ונצלו מגיטו לוקוב",
+          "context": "מי זוג נעלים לחורף״, הוא אמר. ״אולי אעבור את החורף בגיטו ז״ זה קרע את לבי כשנפרדנו. אחי חזר לגיטו.\n\nאמי ואזזי השני הסתתרו בכפר שכן, אך אחרי זמן קצר היו מוכרחים לעזוב את המקום, כי הנוצרים לא יכלו או לא רצו ױתר להחזיקם. פעם אמרה לי בעלת הבית לד.וריד משהוא מן הגג. וכשעליתי ראיתי איך כריתי זזה ממקומה ולידה אמי ואחי הצעיר. הם חײם ונצלו מגיטו לוקוב. ״ואיה שאולז״ שאלתי. ״הוא לא רצה להכנם ולהםתתר במרתף״ ענתה עמי. ״ואיך אתם נצלתםז״ שאלתי הלאה. ״התעטפתי עם יעקב במעיל השחור, הםתתרתי בפינד, של המרתף והחלטתי לא לזוז מהמקום. כשהחלו לירות ולגרש מהמרתף, לא זזנו מהמקום״.\n\nואלו היו העינים, שראו שקיעת יהדות לוקוב.\n\nשוב אביב. אני כבר חרשתי את השדד״ זרעתי את זריעת האביב. בכפר שקט. האכרים חורשים וזורעים. מתכוננים כבר לזרוע תפוחי אדמה ומתכוננים לחג פסחא. אני עובד עם כולם, מעיא את הזבל מהרפת, חורש וזורע. אבל זד, רק לבני אדם. למענם אני שמח ונוצרי מאמין. אני הולך לכנםיה כל יום ראשון ולפעמים אף באמצע השבוע. בכנסיה אני עוזר לכומר בתפילות.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_6d19577156dda2634c41fe6c",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote states that the mother and brother were alive and had survived the Lukow Ghetto; the surrounding passage describes their hiding and survival. The undated interpretation is supported.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_6d19577156dda2634c41fe6c",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "ESCAPE",
+        "revisedObjectOrSummaryEn": "The narrator's mother and younger brother survived and escaped the Lukow Ghetto.",
+        "rationaleEn": "The passage supports survival and escape from the ghetto, not liberation.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_6ea9900c969e58113e7b4d75",
+      "case": {
+        "caseId": "review_6ea9900c969e58113e7b4d75",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_da4601162d29d3f864f2424d",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "The sentence describes the war outbreak and subsequent bombing, not necessarily bombing on that exact date.",
+        "interpretation": {
+          "eventType": "AKTION_OR_RAID",
+          "titleEn": "Bombing of Lukow station",
+          "summaryEn": "German aviation bombed displaced people at Lukow station on September 1, 1939.",
+          "dateStart": "1939-09-01",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_4839b8a3d33dca4b7549902f",
+          "scanIndex": 433,
+          "printedPage": "429",
+          "quote": "דעם 1טן םעפטעמבער 1939",
+          "context": "שלמה פרענגלער\n\nדער אומקום פון ײדישן לוקאװ\n\nדעם 1טן םעפטעמבער 1939, באלד װי די מלחמה איז אויםגעבראכן׳ האט דאם פוילישע מיליטער גענומען אנטלויפן און די פאניק איז געװארן גרוים. אין לוקאװ אויפן װאקזאל האבן זיך געפונעןא םך הײמלאזע׳ ארויםגעיאגטע דורך די דייטשן םון די גרענעץ־געביטן. די דײטשע אװיאציע האט די אומברחמנותדיק באמבארדירט און א םך פון זײ אומגעבראכט. דעם 6טן םעפטעמבער איז פארגעקומעןא צוױיטע גרויםע באמבארדירונג׳ אין װעלכער עם איז געטראפן געװארן דער קעלער םון דער דענטיםטין קלימעצקא. דארט זענען געװען באהאלטן בערך70 פעחאן׳ צװישן זײ— די פאמיליע ניםענקער׳ יצחק לערנער מיט דער פרוי.\n\nדי באפעלקערונג איז זיך צעלאפן אין די ארומיקע דערפער. איך בין מיט מײן פאמיליע אנטלאפן אין דארף וװלקע דאמאשעװםקי. אין די דערפער האבן מיר זיך געפונען ביז בערך דעם 15טן םעפטעמבער׳ ד. ה. ביז נאך ױם־כיפור. װען ם׳איז שטילער געװארן האט מען אנגעהויבן זיך אומקערן אין שטאט אריץ,",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_6ea9900c969e58113e7b4d75",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage supports a German bombing of displaced people at Lukow station, but does not unambiguously establish that the bombing occurred on September 1 rather than later in the narrative.",
+        "needsHumanReview": true
+      },
+      "right": {
+        "caseId": "review_6ea9900c969e58113e7b4d75",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage dates the outbreak of war to September 1, 1939 and describes the German bombing at Lukow station in the same account.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_7830c954803a6c899e2e2340",
+      "case": {
+        "caseId": "review_7830c954803a6c899e2e2340",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_45ab2b711be6422dcb53afd5",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The passage states participation by Jewish comrades, not necessarily the entire community.",
+        "interpretation": {
+          "predicate": "PARTICIPATED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_4a456551e7aecea3e9e0049b",
+          "scanIndex": 129,
+          "printedPage": "125",
+          "quote": "מיט דער באטײליקונג םץ א ריי יידישע חברים",
+          "context": "טישע און קולטור־לעבן בײ די ײדן אין לוקאװ האטא פנים אנגעהויבן זיך פארמירן אין סוף 19טן יארהונדערט.א באװײז קאן מען זען דערין, װאס די ביכער אין דער ביבליאטעק, װאס איז אפיציעל געגרינדעט געװארן אין יאר 1916, זענען געװען געל פון אלטקײט. עם איזא פאקט, אז אין יאר1905 איז אין לוקאװ פארגעקומעןא גרויםע רעװאלוציאנערע דעמאנסטראציע מיט דער באטײליקונג םץ א ריי יידישע חברים. דער מארש איז אװעק צום פוילישן קאשטשאל און צו דער פאװיאטאװער נאטשאלםטװע מיט רעװאלוציאנערע לידער. די פאליציי האט זײ צעטריבן און אדורכגעפירט ארעםטן, אבער מען האט געפילט, אז ערגעץ בחדרי חדרי- קומט פארא קאנספיראטױוע ארבעט.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_7830c954803a6c899e2e2340",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "a great revolutionary demonstration in Lukow in 1905",
+        "rationaleEn": "The context directly states that a number of Jewish comrades participated in this demonstration; the event object is missing, and the evidence does not support generalizing this to the entire Jewish community.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_7830c954803a6c899e2e2340",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text explicitly says that a number of Jewish comrades participated in the 1905 revolutionary demonstration.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_7e48bf5d4ebfdae4463f8d30",
+      "case": {
+        "caseId": "review_7e48bf5d4ebfdae4463f8d30",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_e5f11473b4e4eec4ac4ccdee",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The text appears to state that he was living in Israel.",
+        "interpretation": {
+          "predicate": "LIVED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_04d6d720237e09332f880a21",
+          "scanIndex": 81,
+          "printedPage": "77",
+          "quote": "הױם במדינת ישראל",
+          "context": "שם התפללו הרבה יהודים עשירים מן העיר׳ והם החזיקו את בית המדרש. יהודים אלו הױ: ר׳ משה ליכטנשטיך ר׳ משה בורנשטין, טרקלטויב, ר׳ אליעזר וקסמן ובעלי בתים עשירים אחרים• שם ישבו גם בחורים מבוגרים ולמדו לעצמם אגב, למד באותו בית מדרש חבר עירנו׳ הסופר נחתומי (מנדל פיקש), הױם במדינת ישראל.\n\n*\n\nהרוחות הקרות שהחלו לנשב מגרמניה ההיטלראית׳ הגיעו לפולין. החלה הפוליטיקה האנטישמית בצורת ה״אובשם״, כלומר׳ מצור כלכלי על היהודים והאיסור על שחיטה יהודית. יחד עם שאר היהודים קײמו יהודי לוקוב אסיכת מחאה שבה השתתפו יהודים מכל הזרמים. החנוױת נסגרו והעבודה בבתי המלאכה ובתי החרושת הופסקה. היהודים בעיר קײמו התנגדות לפעולת המצור של החוליגנים הפולנײם. קצבים ופועלים יהודײם נהגו לגרש את שומרי המצור שעמדו ליד חגוױת יהודױת כדי לא להכניס קונים סולגײם. ביום חמישי אחד, בױם שוק גדול נעמדו ליד חנויות היהודים קבוצות גדולות של חוליגנים. הנוער העובד היהודי נאסף במספרה של משה פסלה. משה פסלה יצא לראות איך הענינים/ ולסימנו יצאו נערי העבודה החזקים׳ האחים לופט׳ ונתנו לחוליגנים מכות כאלה שהם ױתר לא הראו עצמם.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_7e48bf5d4ebfdae4463f8d30",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "LOCATED_IN",
+        "revisedObjectOrSummaryEn": "Israel (today/currently)",
+        "rationaleEn": "The quote places Mendel Piksh in the State of Israel today, but does not necessarily establish residence; the extracted object is also missing.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_7e48bf5d4ebfdae4463f8d30",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage identifies the writer Nahatumi (Mendel Piks) as being in the State of Israel at the time of writing.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_828b8af32ffd0fa97174ada5",
+      "case": {
+        "caseId": "review_828b8af32ffd0fa97174ada5",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_d5d7c8fe8c39425d3969680e",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "The schema predicate does not represent a founding date; this claim is therefore only a candidate temporal association.",
+        "interpretation": {
+          "predicate": "FOUNDED_BY",
+          "objectLiteralEn": "1916",
+          "qualifiersJson": "{\"year\":\"1916\"}"
+        },
+        "evidence": {
+          "passageId": "passage_4a456551e7aecea3e9e0049b",
+          "scanIndex": 129,
+          "printedPage": "125",
+          "quote": "װאס איז אפיציעל געגרינדעט געװארן אין יאר 1916",
+          "context": " דער פאליצײאישער טעראר האט אפגעשװאכט די ארבעט פון פאראיץ.\n\nמשה גאטעסדינער\n\nדערמאנונגען פוןא לוקאװער\n\nגעװידמעט מײגע עלטערן,\n\nדי קדושים יצחק״אײזיק און דװאשע\n\nדאם פאליטישע און קולטור־לעבן בײ די ײדן אין לוקאװ האטא פנים אנגעהויבן זיך פארמירן אין סוף 19טן יארהונדערט.א באװײז קאן מען זען דערין, װאס די ביכער אין דער ביבליאטעק, װאס איז אפיציעל געגרינדעט געװארן אין יאר 1916, זענען געװען געל פון אלטקײט. עם איזא פאקט, אז אין יאר1905 איז אין לוקאװ פארגעקומעןא גרויםע רעװאלוציאנערע דעמאנסטראציע מיט דער באטײליקונג םץ א ריי יידישע חברים. דער מארש איז אװעק צום פוילישן קאשטשאל און צו דער פאװיאטאװער נאטשאלםטװע מיט רעװאלוציאנערע לידער. די פאליציי האט זײ צעטריבן און אדורכגעפירט ארעםטן, אבער מען האט געפילט, אז ערגעץ בחדרי חדרי- קומט פארא קאנספיראטױוע ארבעט.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_828b8af32ffd0fa97174ada5",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "FOUNDED_IN",
+        "revisedObjectOrSummaryEn": "1916",
+        "rationaleEn": "The quote explicitly states that the library was officially founded in 1916. Replace the schema-mismatched FOUNDED_BY predicate with a founding-date relation.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_828b8af32ffd0fa97174ada5",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text says a library was officially founded in 1916; FOUNDED_BY cannot represent a founding year.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_842015a15567e8c763537058",
+      "case": {
+        "caseId": "review_842015a15567e8c763537058",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_a47e3548d1364cb85c2631d8",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The text may name alternative destinations rather than assign one definite place.",
+        "interpretation": {
+          "predicate": "MURDERED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"dateText\":\"1942–1943\",\"alternativePlace\":\"Majdanek\"}"
+        },
+        "evidence": {
+          "passageId": "passage_92cdca899e254ff80d302a40",
+          "scanIndex": 624,
+          "printedPage": "620",
+          "quote": "אוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו",
+          "context": "טײערע לאטשע פעלדמאן, םון דער הײם וואקםמאן,\n\nאון מיץ טײער טעכטערל רותעלע פעלדמאן—\n\nאוםגעבראכטע דורו די היטלער־םערדער אױ1943 אין לוקאװ, בעת דער לעצטער אקציע1\n\nמײן שװעםטער פרײשקע קלײנמאן, מיױ שװאגער מאטל קלײנמאן\n\nמיט די קינדער נפתלי, לאהטשע, נחוםי!\n\nמײן ברודער משה פעלדמאן און שװעגערין חיה־הינדע\n\nמיט זײער זונעלע שימשעלע,\n\nאוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו\n\nמיץ שװעםטער\n\nלאה פעלדמאן־עדלמאן\n\nגעשטארבן בעת דער םיםום־עפידעםיע, װען זי האט פרײװיליק געארבעט בײ די בריסקער הײםלאזע אין דער ערשטער װעלט־םלחםה.\n\nמאטל סעלדמאן, נױ־יארק\n\n620",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_842015a15567e8c763537058",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote says the people perished in 1942–1943 and names Auschwitz and Majdanek, but does not clearly establish murder or whether one or both places is intended.",
+        "needsHumanReview": true
+      },
+      "right": {
+        "caseId": "review_842015a15567e8c763537058",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "DIED_AT",
+        "revisedObjectOrSummaryEn": "Auschwitz or Majdanek, 1942–1943.",
+        "rationaleEn": "The text says they perished in 1942–1943 in Auschwitz or Majdanek, but does not explicitly state murder or resolve one location.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_9ae232b7aefd5f2bb09e5b80",
+      "case": {
+        "caseId": "review_9ae232b7aefd5f2bb09e5b80",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_b8f55ceb312ab2e16f7da0ae",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "predicate": "MEMBER_OF",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"role\":\"cantor or prayer leader\"}"
+        },
+        "evidence": {
+          "passageId": "passage_038dafa4e660190d2008f7d6",
+          "scanIndex": 217,
+          "printedPage": "213",
+          "quote": "בערל ישראל יצחקס פון מעז־ ריטשער שטיבל",
+          "context": "ים נוראים. קודם כל האבן זיך גענומען גרײטן די חזנים און בעל־תפילהס: אפרים מעזריטשער פון אלטן בית מדרש, גרשון פלוג םון דער גרוי• סער שול, משה אהרן ליס׳יביקער פון חוק־בית־מדרש, מאיר משה יצחקס פון חיה שרהס בית־מדרש, יונה נוי און לײבל וװינער פון גערער שטיבל, שלמה מענדל פון אלעק־ סאנדער שטיבל, מרדכי מעכל פון פארצעװער שטיבל, בערל ישראל יצחקס פון מעז־ ריטשער שטיבל און הערש מענדל פװ ״מזרחי״.\n\nאין די דאזיקע טעג האבן אויך די באלמעלאכעס אין די װארשטאטן אנגעהויבן אונטעחינגען ימים נוראימדיקע חזנישע שטיקלעך. דאס ערשטע ארט האבן פארנו־ מען די שניירערס און שוסטערס, װאס האבן געארבעט ביז שפעט בײ נאכט.\n\nאין דעם חודש אלול האט אויך משה װאסערטרעגער געטאן װאס ער קען. מיטן טאג צוגלײך האט מען געהערט זאגן די תפילות מיטא בעטנדיק און פארזינדיקט קול, װי ער װאלט ח״ו אפגענארט מענטשן און געבראכט האלבע עמערס װאסער. אין דעם חודש איז ער געװארןא רודף שלום בײ די גאסן־הענדלער װאס פלעגן זיך קריגן. אפילו די קריסטן האבן געװוסט, אז אויב משה דאװנט אזוי פרום, איזא סימן, אז עס װעט שוין באלד זײן דער ײדישער ״נאװי ראק״ און ״סאנדני דזשען״.",
+          "validation": "UNIQUE_OCR_FUZZY_ALIGNMENT_REVIEW_REQUIRED"
+        }
+      },
+      "left": {
+        "caseId": "review_9ae232b7aefd5f2bb09e5b80",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "MEMBER_OF",
+        "revisedObjectOrSummaryEn": "Mezritcher shtibl",
+        "rationaleEn": "The passage lists Berl Israel Yitzhoks among the cantors and prayer leaders and identifies him as being from the Mezritcher shtibl; the missing object should be supplied.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_9ae232b7aefd5f2bb09e5b80",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage identifies Berl Yisrael Yitskhaks with the Mezritcher shtibl among cantors and prayer leaders.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_9c47f53582d45df2ab9eb1a9",
+      "case": {
+        "caseId": "review_9c47f53582d45df2ab9eb1a9",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_1cb700cd69b19a40724c4c71",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "The place is inferred from the following gathering reference.",
+        "interpretation": {
+          "eventType": "LIBERATION",
+          "titleEn": "Liberation of the survivors",
+          "summaryEn": "The Romanians liberated the narrator and others on 23 July 1944.",
+          "dateStart": "1944-07-23",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_744eac5b4c10c6fc9bc8df8d",
+          "scanIndex": 440,
+          "printedPage": "436",
+          "quote": "דעם 23םטן ױלי1944 האבן די רוםן אונדז באפרײט",
+          "context": "דעם 23םטן ױלי1944 האבן די רוםן אונדז באפרײט. די סאװיעטישע ארמײ איז אװעק וױיטער און די שטאט לוקאװ איז דערוױיל געװען אןא מאכט. די געראטעװעטע ײדן םון לוקאװ און פון דער םביבה זענען געקומען צו אונדז אין ציגעלניע און מיר האבן זיד געהאלטן צוזאמען׳ װי איץ משפחה. אין לוקאװ גופא איז געװעןא מורא צו װוינען׳ וױיל די אקאװצעס םלעגן באפאלן די ײדן און זײ שיםן. חײם פראםט איז2 װאכן נאד דער באפרײונג אװעק אין זיץ פאטערם הויז׳ אין לאזע. דער פאליאק׳ ו^ז האט דארט געװוינט׳ האט אים דערשאםן. עס זענען געװען נאד ײדישע קרבנות נאד דער באםריװנג.\n\nאיד בין אװעק קײן קאטאװיץ׳ פון קאטאװיץ קיץ מינכען און אין יאר1949 בין איד אנגעקומען קיץ אמעריקע.\n\nנ. ה.\n\nפון דער ערשטער ״אקציע״ ביז,׳ױדענרײף\n\nעם דערנענטערט זיד חודש אלול מיט זיינע פארכטיקע טעג פון ערב ראש השנה 1942. מיר הערן װעגן די צוגן׳ װאם פירן ײדן קיץ טרעבלינקע. דאם דערצײלן אונדז די געשפרונגענע פון די װאגאנעס. מיר פילן׳ אז די שװארצע כמארע דערנענטערט זיד צו אונדזער שטאט לוקאװ. די אברים ײעח װי אפגעשטארבן׳ פאראליזירט.\n\nאון אט איז דער טאג פון ערב ראש השנה. יעדער איץער גרײט זיד אויסצובעטן א גוט יאר.א םד מענטשן גײען צו אונדזערע צדיקים— צום מיעכאוחןר רבין ז׳ל׳",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_9c47f53582d45df2ab9eb1a9",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote explicitly states that on 23 July 1944 the Romanians liberated the narrator and others.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_9c47f53582d45df2ab9eb1a9",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "LIBERATION",
+        "revisedObjectOrSummaryEn": "The Russians liberated the narrator and others on 23 July 1944.",
+        "rationaleEn": "The quote explicitly says the Russians, not the Romanians, liberated them.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_9fe8e5122ac19e466f446446",
+      "case": {
+        "caseId": "review_9fe8e5122ac19e466f446446",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_2a92b2b9a03deaf960679bd8",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The synagogue name is affected by OCR.",
+        "interpretation": {
+          "predicate": "MEMBER_OF",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"role\":\"cantor or prayer leader\"}"
+        },
+        "evidence": {
+          "passageId": "passage_038dafa4e660190d2008f7d6",
+          "scanIndex": 217,
+          "printedPage": "213",
+          "quote": "גרשון פלוג םון דער גרוי• סער שול",
+          "context": "נ. ב.\n\nאין די פארכטיקע טעג\n\nבאלד נאכן ערשטן דאװענען אין ראש חודש אלול האט דער שוםר צו װיסן געטאן,\n\nאז עס דערנענטערן זיך די ימים נוראים. קודם כל האבן זיך גענומען גרײטן די חזנים און בעל־תפילהס: אפרים מעזריטשער פון אלטן בית מדרש, גרשון פלוג םון דער גרוי• סער שול, משה אהרן ליס׳יביקער פון חוק־בית־מדרש, מאיר משה יצחקס פון חיה שרהס בית־מדרש, יונה נוי און לײבל וװינער פון גערער שטיבל, שלמה מענדל פון אלעק־ סאנדער שטיבל, מרדכי מעכל פון פארצעװער שטיבל, בערל ישראל יצחקס פון מעז־ ריטשער שטיבל און הערש מענדל פװ ״מזרחי״.\n\nאין די דאזיקע טעג האבן אויך די באלמעלאכעס אין די װארשטאטן אנגעהויבן אונטעחינגען ימים נוראימדיקע חזנישע שטיקלעך. דאס ערשטע ארט האבן פארנו־ מען די שניירערס און שוסטערס, װאס האבן געארבעט ביז שפעט בײ נאכט.\n\nאין דעם חודש אלול האט אויך משה װאסערטרעגער געטאן װאס ער קען. מיטן טאג צוגלײך האט מען געהערט זאגן די תפילות מיטא בעטנדיק און פארזינדיקט קול, װי ער װאלט ח״ו אפגענארט מענטשן און געבראכט האלבע עמערס װאסער. אין דעם חודש איז ער געװארןא רודף שלום בײ די גאסן־הענדלער װאס פלעגן זיך קריגן. אפילו די קריסטן האבן געװוסט, אז אויב משה דאװנט אזוי פרום, איזא סימן, אז עס װעט שוין באלד זײן דער ײדישער ״",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_9fe8e5122ac19e466f446446",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "MEMBER_OF",
+        "revisedObjectOrSummaryEn": "Great Synagogue; role: cantor or prayer leader",
+        "rationaleEn": "The surrounding text explicitly lists Gershon Plug among the cantors and prayer leaders and identifies him as being from the Great Synagogue. The missing object should be supplied, with medium confidence because of OCR damage.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_9fe8e5122ac19e466f446446",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage lists Gershon Plug from the large synagogue among cantors and prayer leaders.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_a8293b9d34e5e6351d84e05f",
+      "case": {
+        "caseId": "review_a8293b9d34e5e6351d84e05f",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_10816a5488796a4242b230c6",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "The text describes travel, not necessarily migration.",
+        "interpretation": {
+          "eventType": "MIGRATION",
+          "titleEn": "Yisrael Rozentsweig traveled to Warsaw",
+          "summaryEn": "Yisrael Rozentsweig traveled to Warsaw to contact Hashomer Hatzair leadership.",
+          "dateStart": "",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_92668cc24f2ad89e1c32613c",
+          "scanIndex": 153,
+          "printedPage": "149",
+          "quote": "ער איז אװעקגעפארן קיץ װארשע, זיך געװענדט צום פירער פון השומר־הצעיר",
+          "context": "גערעדט און געטאןו ישראל ראזענצוױיג איז גלײך צוגעטראטן צו דער ארבעט, ער איז אװעקגעפארן קיץ װארשע, זיך געװענדט צום פירער פון השומר־הצעיר אין ווארקוע, יהודה גאטהעלף, און ער האט געברענגט פעק מיט ליטעראטור אץ אנװײזונגען ווי אזוי\n\n149",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_a8293b9d34e5e6351d84e05f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "TRAVEL",
+        "revisedObjectOrSummaryEn": "Yisrael Rozentsweig traveled to Warsaw and approached the Hashomer Hatzair leader.",
+        "rationaleEn": "The quote directly describes going to Warsaw and approaching a leader, but does not support classifying the event as migration.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_a8293b9d34e5e6351d84e05f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage describes a trip to Warsaw for organizational contact, not migration.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_a83e1bcca7d2075bb90c49cf",
+      "case": {
+        "caseId": "review_a83e1bcca7d2075bb90c49cf",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_2e47885c17b843d10dcd7050",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The OCR wording for the epidemic is unclear.",
+        "interpretation": {
+          "eventType": "DEATH",
+          "titleEn": "Death of Leah Feldman-Edelman during a typhus epidemic",
+          "summaryEn": "Leah Feldman-Edelman died during a typhus epidemic after voluntary wartime relief work.",
+          "dateStart": "",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_92cdca899e254ff80d302a40",
+          "scanIndex": 624,
+          "printedPage": "620",
+          "quote": "געשטארבן בעת דער םיםום־עפידעםיע",
+          "context": "כטע דורו די היטלער־םערדער אױ1943 אין לוקאװ, בעת דער לעצטער אקציע1\n\nמײן שװעםטער פרײשקע קלײנמאן, מיױ שװאגער מאטל קלײנמאן\n\nמיט די קינדער נפתלי, לאהטשע, נחוםי!\n\nמײן ברודער משה פעלדמאן און שװעגערין חיה־הינדע\n\nמיט זײער זונעלע שימשעלע,\n\nאוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו\n\nמיץ שװעםטער\n\nלאה פעלדמאן־עדלמאן\n\nגעשטארבן בעת דער םיםום־עפידעםיע, װען זי האט פרײװיליק געארבעט בײ די בריסקער הײםלאזע אין דער ערשטער װעלט־םלחםה.\n\nמאטל סעלדמאן, נױ־יארק\n\n620",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_a83e1bcca7d2075bb90c49cf",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage supports Leah Feldman-Edelman's death and voluntary work among the Brisk homeless during World War I, but the OCR-garbled disease term does not securely verify “typhus”; it also says “while,” not “after.”",
+        "needsHumanReview": true
+      },
+      "right": {
+        "caseId": "review_a83e1bcca7d2075bb90c49cf",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The memorial states that Leah Feldman-Edelman died during a typhus epidemic while voluntarily working for the Brisker homeless during the First World War.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_addfa4c8df490cc066ee9e16",
+      "case": {
+        "caseId": "review_addfa4c8df490cc066ee9e16",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_6b14e9e09ff085cfe5b4b0d3",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The text may name alternative destinations rather than assign one definite place.",
+        "interpretation": {
+          "predicate": "MURDERED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"dateText\":\"1942–1943\",\"alternativePlace\":\"Majdanek\"}"
+        },
+        "evidence": {
+          "passageId": "passage_92cdca899e254ff80d302a40",
+          "scanIndex": 624,
+          "printedPage": "620",
+          "quote": "אוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו",
+          "context": "טײערע לאטשע פעלדמאן, םון דער הײם וואקםמאן,\n\nאון מיץ טײער טעכטערל רותעלע פעלדמאן—\n\nאוםגעבראכטע דורו די היטלער־םערדער אױ1943 אין לוקאװ, בעת דער לעצטער אקציע1\n\nמײן שװעםטער פרײשקע קלײנמאן, מיױ שװאגער מאטל קלײנמאן\n\nמיט די קינדער נפתלי, לאהטשע, נחוםי!\n\nמײן ברודער משה פעלדמאן און שװעגערין חיה־הינדע\n\nמיט זײער זונעלע שימשעלע,\n\nאוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו\n\nמיץ שװעםטער\n\nלאה פעלדמאן־עדלמאן\n\nגעשטארבן בעת דער םיםום־עפידעםיע, װען זי האט פרײװיליק געארבעט בײ די בריסקער הײםלאזע אין דער ערשטער װעלט־םלחםה.\n\nמאטל סעלדמאן, נױ־יארק\n\n620",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_addfa4c8df490cc066ee9e16",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "PERISHED_AT",
+        "revisedObjectOrSummaryEn": "Auschwitz or Majdanek, during 1942–1943",
+        "rationaleEn": "The quote says they perished in 1942–1943 in Auschwitz/Majdanek, but does not explicitly state murdered or establish one definite destination.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_addfa4c8df490cc066ee9e16",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text says the listed people perished in 1942–1943 in Auschwitz or Majdanek; it does not directly support a MURDERED_AT claim with a definite primary location.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_bd88db6fd62de69ed8b502cd",
+      "case": {
+        "caseId": "review_bd88db6fd62de69ed8b502cd",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_29704cec0b6f9b5568bddc4b",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "BUSINESS_OPENING is only the closest available enum for an institutional opening.",
+        "interpretation": {
+          "eventType": "BUSINESS_OPENING",
+          "titleEn": "Opening of the Jewish People’s Library",
+          "summaryEn": "The Culture Association opened the Jewish People’s Library in another premises.",
+          "dateStart": "",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_2b59ca07234d1c7a0a5c33eb",
+          "scanIndex": 67,
+          "printedPage": "63",
+          "quote": "געעפנט די אינסטיטוציע א. ג. ״יידישע פאלקס־ביבליאטעק״",
+          "context": "ד״ און די לינקעפ צ. האבן געמאכט באמיאונגען איבערצונעמען די אינסטיטוציע. אויף דעם באדן איז פארגעקומעןא שארפער צוזאמענשטויס צווישן זײ און דער פארוואלטונג פון קולטור־פאראיין. די פאליצײ האט אינטערווענירט׳ צעטריבן די אנוועזנדיקע און געשלאסן דעם לאקאל. אין עטלעכע וואכן ארום האט דער קולטור־פאראיין געדונגען אן אנדער לאקאל און געעפנט די אינסטיטוציע א. ג. ״יידישע פאלקס־ביבליאטעק״׳ װאס האט עקזיסטירט ביז דער\n\nהיטלערישער שחיטה.\n\nביסלעכוױיז האט דאס לעבן זיך סטאביליזירט׳ און צוזאמען דערמיט— אויך דאס יידישע לעבן. עס איז פארגעקומען אן אויפלעבונג אין דער אינדוסטרי און אין\n\nהאנדל און אויך אין קולטור־געזעלשאפטלעכן לעבן.\n\nעס זענען פארגעקומען די ערשטע שטאטראט־װאלן. פון די24 מאנדאטן צום שטאטראט האבן די ײדן באקומע 10. די גרעסטע צאל שטימען׳ מיט5 מאנדאטן׳ האט באקומען דער ״בונד״.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_bd88db6fd62de69ed8b502cd",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote explicitly states that the Culture Association rented another premises and opened the Jewish People’s Library.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_bd88db6fd62de69ed8b502cd",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "INSTITUTION_OPENING",
+        "revisedObjectOrSummaryEn": "The Culture Association rented another premises and opened the Jewish People's Library.",
+        "rationaleEn": "The text supports opening a library institution, not a business opening.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_be13b992ea9c0e757cd60fbd",
+      "case": {
+        "caseId": "review_be13b992ea9c0e757cd60fbd",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_94cfde694a439243b4bbc866",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The visit is explicit, but participation in the revolt is not; this claim links the person to the surrounding event context only.",
+        "interpretation": {
+          "predicate": "PARTICIPATED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"context\":\"visited Lukow after the attack\"}"
+        },
+        "evidence": {
+          "passageId": "passage_c059867a7266b6a2718c6b76",
+          "scanIndex": 45,
+          "printedPage": "41",
+          "quote": "כן בקר בלוקוב המלך יאן קאזימיר ב־1652",
+          "context": "לוקוב הופכת מקום מעבר ושהיה של מלכי פולין במםעותיהם לליטא. זיגמונט אוגוםט הראשון (1548—1506) היה לן בעיר במסעותױ לליטא (ליטא היתה באותה תקופה מאוחדת עם פולין). כן בקר בלוקוב המלך יאן קאזימיר ב־1652 (תכ״ב) אחרי שהקוזקים תקפו את פולין ובתוכה לוקובי (הכונה למרד בוגדן חמלניצקי ימ״ש בשנים ת״ח ות״ט) וגרמו לאבדן אנשים ורכוש ועזר לה רבות.\n\nכמובן שהםובלים העיקרײם במרד הנ״ל הױ היהודים. רבים מהם ברחו והנשארים נרצחו, רכושם נבוז- בתיהם ובית הכנסת נשרפו. הכרוניקות הםולניות מצײנות כי בביקורו חידעו יאן קזימיר את זכויות היהודים שקבלו אותם מן המלך (או המלכים) שקדם לו. לוקוב בהױתה עיר כתר היתה נתונה לםמכותו הבלעדית של המלך ולכן יכול היה רק הוא לתת את הזכוױת, בנגוד לערי הפריצים שבהן היה הפריץ בעל הדעה.\n\nכתב הזכוױת (או כפי שנקרא: ה״פרױילגיה״) האוריגינלי נשרף בבית הכנםת בזמן המרד. ידיעה תמימה זו פותחת לנו חלון לעבר ההיםטורי. מתוך כך שהמלך חידעז\n\n• בסולנית לוקוב פודליאסקי. היהודים הױ אומרים ליקעװע, ליקאװע. ראה שו־ת בית חדש הישנות, סימן ם״ח, לוקאװ או ליקבא. ראה שו־ת םהר״ם םלובלין- סימן נ־ט.\n\n41",
+          "validation": "UNIQUE_OCR_FUZZY_ALIGNMENT_REVIEW_REQUIRED"
+        }
+      },
+      "left": {
+        "caseId": "review_be13b992ea9c0e757cd60fbd",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage states that King Jan Kazimierz visited Lukow after the Cossack attack, but it does not state that he participated in the revolt. The participation claim is unsupported.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_be13b992ea9c0e757cd60fbd",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "VISITED",
+        "revisedObjectOrSummaryEn": "Lukow, in 1652",
+        "rationaleEn": "The text says King Jan Kazimierz visited Lukow after the attack; it does not say he participated in the revolt.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_be7e749b4d9e45953901d29e",
+      "case": {
+        "caseId": "review_be7e749b4d9e45953901d29e",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_d6049b86ced723522c514281",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "The four individuals are unnamed.",
+        "interpretation": {
+          "eventType": "MIGRATION",
+          "titleEn": "Journey to Galąbki for food",
+          "summaryEn": "A group of four traveled to Galąbki to obtain food.",
+          "dateStart": "",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_ef881cc8ee35e1a14b473e77",
+          "scanIndex": 393,
+          "printedPage": "389",
+          "quote": "א גרופע פון4 פערזאן גענומען זיך גדײטן אין װעג אריץ׳ אין דארף גאלאמבקי׳ כדי צו ברענגען פון דארט עםן",
+          "context": "װי נאר ס׳איז צוגעפאלן דער אוונט האטא גרופע פון4 פערזאן גענומען זיך גדײטן אין װעג אריץ׳ אין דארף גאלאמבקי׳ כדי צו ברענגען פון דארט עםן. צום ערשכן מאל זענען די אװעק באװאפנט. זײ זענען אװעק צוא פויערטע׳ װאם האט מיט א צײט צוריק זײ גארנישט געװאלט געבן און געשריגן׳ אז זי װעט מעלה װעגן זײ דעם װאיט. אבער איצט׳ דערזעענדיק די ביקס׳ האט זי אלץ געגעבן׳ אבי זיי זאלן װאם גיכער אװעק פון שטוב.\n\nאזוי ארום האבן מיר זיך אײנגעשאפט ברויט׳ וװרשט׳ פוטער און אנדערע גוטע זאכן. נישט בלויז האבן מיר נישט געליטן קײן הונגער׳ נאר מיד האבן שוין אפילו אװעקגעלײגט עםנװארג אויף זאפאם. אין דער זעלבער צײט האבן מיר אנגעהויבן טראכטן װעגן איבערטראגן זיך אויף אן אנדער ארט׳ װײל דא קען װערן געםערלעך.\n\nדעם 23םטן מאי׳ אין דער פרי׳ האט זיך זײער נאענט פון אונדז דעדהערטא שטארקע שיסעריי. מיר זענען גראד געהאט ארויס פון בונקער. מיר האבן באלד זיך געװארפן אויף דער ערד אץ אנגעהױבן פויזן׳ וװ װער עם האט געקענט. מען האט אן אויפהער געהערטא שיסעױי אץ דאם בילן פון הינט צוזאמען מיט געשױייען. איך בין אריץ איןא געדיכטעניש׳ פון װאנען איך בין שפעטער קוים מיטן לעבן ארוים.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_be7e749b4d9e45953901d29e",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "FOOD_PROCUREMENT",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote supports a one-time trip by four people to Galąbki to obtain food, not migration. The title and summary are otherwise supported.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_be7e749b4d9e45953901d29e",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage states that four people set out for Galąbki to bring back food.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_c6f904421e38e38bf3a91d9f",
+      "case": {
+        "caseId": "review_c6f904421e38e38bf3a91d9f",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_97baa897c8af19339cc2a381",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The text may name alternative destinations rather than assign one definite place.",
+        "interpretation": {
+          "predicate": "MURDERED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"dateText\":\"1942–1943\",\"alternativePlace\":\"Majdanek\"}"
+        },
+        "evidence": {
+          "passageId": "passage_92cdca899e254ff80d302a40",
+          "scanIndex": 624,
+          "printedPage": "620",
+          "quote": "אוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו",
+          "context": "טײערע לאטשע פעלדמאן, םון דער הײם וואקםמאן,\n\nאון מיץ טײער טעכטערל רותעלע פעלדמאן—\n\nאוםגעבראכטע דורו די היטלער־םערדער אױ1943 אין לוקאװ, בעת דער לעצטער אקציע1\n\nמײן שװעםטער פרײשקע קלײנמאן, מיױ שװאגער מאטל קלײנמאן\n\nמיט די קינדער נפתלי, לאהטשע, נחוםי!\n\nמײן ברודער משה פעלדמאן און שװעגערין חיה־הינדע\n\nמיט זײער זונעלע שימשעלע,\n\nאוםגעקוםען אין די יארן 1942—1943 אין אוישװיץ, םאידאנעקו\n\nמיץ שװעםטער\n\nלאה פעלדמאן־עדלמאן\n\nגעשטארבן בעת דער םיםום־עפידעםיע, װען זי האט פרײװיליק געארבעט בײ די בריסקער הײםלאזע אין דער ערשטער װעלט־םלחםה.\n\nמאטל סעלדמאן, נױ־יארק\n\n620",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_c6f904421e38e38bf3a91d9f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote clearly says the people perished in 1942–1943 and names Auschwitz and Majdanek, but it does not establish MURDERED_AT or resolve whether the places are alternatives or assignments.",
+        "needsHumanReview": true
+      },
+      "right": {
+        "caseId": "review_c6f904421e38e38bf3a91d9f",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "DIED_AT",
+        "revisedObjectOrSummaryEn": "Auschwitz or Majdanek, 1942–1943",
+        "rationaleEn": "The text says they perished in 1942–1943 and gives Auschwitz and Majdanek as alternative locations; it does not explicitly say murdered.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_c889883e8df3b13821aa1919",
+      "case": {
+        "caseId": "review_c889883e8df3b13821aa1919",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_0ebfc10af90317afeacb8a96",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The passage gives Tel Aviv as the publication location, but does not explicitly assign it to either named organization.",
+        "interpretation": {
+          "predicate": "PUBLISHED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_890d8f8a44d8043dc375af09",
+          "scanIndex": 7,
+          "printedPage": null,
+          "quote": "תל״אביב",
+          "context": "קזפר לוקאוו\n\n7\n\nגעהײליקט דער חרוב־געווארענער קהילה\n\nארויסגעגעבן\n\nפון ארגון יוצאי לוקאוו בישראל און פון דער לוקאווער לאנדסמאנשאפט אין די פאראייניקטע שטאטן\n\nתל״אביב, תשכ״ח— •196",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_c889883e8df3b13821aa1919",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "PUBLISHED_IN",
+        "revisedObjectOrSummaryEn": "Tel Aviv",
+        "rationaleEn": "The imprint explicitly states תל אביב (Tel Aviv); the object should not be left empty.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_c889883e8df3b13821aa1919",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "Tel Aviv is the book's publication imprint location, not an explicitly stated publication location for either named organization.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_ca0141f57681394bc06caaa4",
+      "case": {
+        "caseId": "review_ca0141f57681394bc06caaa4",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_068c6c97505f66387143da4b",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "predicate": "LOCATED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"role\":\"commander over Walloon region\"}"
+        },
+        "evidence": {
+          "passageId": "passage_de30a7f45def4d63a454352e",
+          "scanIndex": 599,
+          "printedPage": "595",
+          "quote": "וװ ער װערט קאמענדאנט איבערן גאנצן קויא־ געביט פון װאלאניע",
+          "context": " זון.\n\nאבראשע גאלדגעװיכט איז געװען דער הויפט־פאראנטװארטלעכער בײם אויסשולן קאדרען פאר דער װידערשטאנד־באװעגונג אויף דער ײדישער גאס. ער האט אויד געהערט צום גענעראל־שטאב פון דער בעלגישער רעזיסטאנס. אין דער פארטיזאנער־ ארמײ איז ער געװען פארטרעטער פון קאמענדאנט פון בריסל אין אנהײב 1943. שפעטער װערט ער איבערגעשיקט קײן ליעזש׳ וװ ער װערט קאמענדאנט איבערן גאנצן קויא־ געביט פון װאלאניע. איןא צײט ארום איז ער אין מאנס םאראנטװארטלעד פאר דער באװאפענונג.",
+          "validation": "UNIQUE_OCR_FUZZY_ALIGNMENT_REVIEW_REQUIRED"
+        }
+      },
+      "left": {
+        "caseId": "review_ca0141f57681394bc06caaa4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "LOCATED_IN",
+        "revisedObjectOrSummaryEn": "Liège; he became commander over the entire Walloon region.",
+        "rationaleEn": "The passage states that he was transferred to Liège and there became commander over the Walloon region; the supplied interpretation lacks the location object.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_ca0141f57681394bc06caaa4",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage describes his command over a Walloon region, not a LOCATED_IN relationship.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_d4a5b15f116b5713ff304128",
+      "case": {
+        "caseId": "review_d4a5b15f116b5713ff304128",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_81172a841e026bac3f91ebd1",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The passage identifies him as a son of a Lukow family, but the OCR is unclear.",
+        "interpretation": {
+          "predicate": "MEMBER_OF_FAMILY",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{}"
+        },
+        "evidence": {
+          "passageId": "passage_042401d1008b2821b72fd507",
+          "scanIndex": 580,
+          "printedPage": "576",
+          "quote": "זון פוןא לוקאװער פאמיליע",
+          "context": "אזענבוים ע״ה— פארזיצער! חיים לעדערפארב ע״ה— םינאנםן1 עלי יאנגשטיץ ע״ה— פראטאקאל־שרײבער.\n\nאונדזערע לוקאװער מענטשן האבן דעמאלט זיך גענויטיקט אין הילף טאקע דא׳ אין די פאראײניקטע שטאטן. די פארדינםטן פון די ארבעטער זענען דעמאלט געװען זײער קלײנע. אין קאמיטעט זענען דאן געװען יאנקל בראון, זײן ברודער אבי בראון. געװען בײ אונדזא זון פוןא לוקאװער פאמיליע, װאם האט זיך דערצויגן אװ שטודירט אין אמעריקע׳ געװארן אן אדװאקאט. זײן נאמען איז געװען מארים לעװיט ע״ה• אח ער האט פאר אונדז ארויםבאקומען די לעגאליזאציע פונעם פאראײן, אדער װי מען רופט דאם אין ענגלישו טשארטער־קאנםטיטוציע.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_d4a5b15f116b5713ff304128",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "MEMBER_OF_FAMILY",
+        "revisedObjectOrSummaryEn": "Lukow family",
+        "rationaleEn": "The quote and surrounding OCR state that he was a son of a Lukower family; the predicate is supported, but the object is missing.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_d4a5b15f116b5713ff304128",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage directly calls Morris Lewitt a son of a Lukow family.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_d5133ef4128e265a3e70d4fe",
+      "case": {
+        "caseId": "review_d5133ef4128e265a3e70d4fe",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_65adce13bd1d97af8256a46a",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The passage identifies workers as Lukow workers, but does not explicitly state a formal location relationship.",
+        "interpretation": {
+          "predicate": "LOCATED_IN",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{}"
+        },
+        "evidence": {
+          "passageId": "passage_e20f5824524d8ef2a3720a94",
+          "scanIndex": 127,
+          "printedPage": "123",
+          "quote": "די לוקאװער שנײדערם און שוםטערם",
+          "context": " יאלקען מיט בנימעלע בראש׳ האבן אנגעהויבן ארגאניזירן *י' ארבעטער. צונויפגעקומען איז מען זיך אין פריוואטע שטובן׳ כדי די מײםטערם זאלן נישט געוואר ווערן. מען האט אנגעהויבן רעדן וועגן ארויםגיץ אין שטרייק פאר בעסערע באדינגונגען. עס דויערט נישט לאנג׳ און עם ברעכן טאקע אוים די ערשטע שטרייקן אין\n\nגעװיסע װארשטאטן.\n\nאין1920 שאפן די לוקאװער שנײדערם און שוםטערם דעם ערשטן לעגאלן פראםםאר־\n\nאיץ און אין משך פוןא קורצער צײט געפינען זיך שוין אלע םאבריקן און װארשטאטן אונטער דער קאנטראל פונעם פראפפאראיץ. דער פראפפאראיץ שםעלט ארויס פאדע־ רועען צו די בעלי־בתים פאר אן א־שעהדיקן ארבעטםםאג׳ םארא העכערונג םון די לוינען. עם ברעכן אוים שטרײקן אין גאגצע פאכן׳ און צום ערשםן מאל אין לוקאװ דערשלאגן זיך די ארבעטער צו אן 8־שעהדיקן ארבעטםטאג.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_d5133ef4128e265a3e70d4fe",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage mentions Lukower tailors and shoemakers, but it does not assert a LOCATED_IN relation or provide an object.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_d5133ef4128e265a3e70d4fe",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage calls them Lukow tailors and shoemakers and describes their activity in Lukow.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_d7eb65029cf468f0c3a701f2",
+      "case": {
+        "caseId": "review_d7eb65029cf468f0c3a701f2",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_4e35557919b2d2ca6d9f1a03",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The residence is attributed to the narrator or household context rather than definitively to the child.",
+        "interpretation": {
+          "predicate": "LIVED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_7d4bbfd809e6c305dc037b6e",
+          "scanIndex": 310,
+          "printedPage": "306",
+          "quote": "מיץ לעצטע דירה אויף טײארדע־גאם 28",
+          "context": "306\n\nםשר לוקאװ\n\nװארשע, מיץ לעצטע דירה אויף טײארדע־גאם 28. מײן פיריעריק מײדעלע שפילט זיד מיט איר ליאלקע. אן איכערגעדרײט פוםן־כענקעלע מיט די פיםלעך ארויף איז דאם כעטעלע פון איר ליאלקע־קינד. װען זי הילט ארום די ליאלקע מיטא האנטעך, רייםט זיד אריץ פאליצײ, הײםט פארלאזן די וװינונג און גיץ צום פארניכטונגם־טראנםפארט.\n\nדי פיר־יעריקע ״מאמע״ געזעגנט זיד מיט איר ליאלקע־קינד, זי גיט אירא קוש אין קעפל, כעט זי זאל זײן שטיל, נישט װײנען, נישט כענקען\n\nא שעה שפעטער געפין איך זיך אין שטוכ אײגע אליץ מיט דער ארומגעטוליעטער ליאלקע. איןא װינקל— די אלטע שיכעלעך פון מײן קינדז די אפצאםעלעד אין איץ זײט אויםגעקרימט, די שנורכענדלעד— אויפגעבונדןו אויפן טיש—א שטיקעלע נישט דערעםן ברויט מיט צײכנם פון דראבנע צײנדלעך,א טעלעי־ל געטא־טײ און נעבן טעלערל—א קלײנע טאמאטע, פאר װעלכע כ׳האב דעם זעלבן טאג באצאלט מיטא גאלדן רינגל.\n\nדער שאטן פון מיץ שטילער מאמען, װאם איז צוזאמען מיטן קינד ארויםגעריםן געװארן פון שטוב, בלאנדזשעט בײ דעם קיכל, בײ די טעפלעך, בײ דעם אין שיםל אײנ־ געװײקטן ביםל קינדער־װעש, װעלכע מ׳דארף שוין נישט װאשן,",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_d7eb65029cf468f0c3a701f2",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "LIVED_AT",
+        "revisedObjectOrSummaryEn": "28 Twarda Street, Warsaw",
+        "rationaleEn": "The quote directly states “my last residence at Twarda Street 28” in Warsaw; the missing object should be filled, while attribution remains to the narrator or household rather than the child.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_d7eb65029cf468f0c3a701f2",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The address is explicitly the narrator's last residence, not definitively the child's.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_db4f56cba38ec2d5ec6bce5d",
+      "case": {
+        "caseId": "review_db4f56cba38ec2d5ec6bce5d",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_7339be1f83a621f4f7a14ed5",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "predicate": "WORKED_AT",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"role\":\"councilor\"}"
+        },
+        "evidence": {
+          "passageId": "passage_8358a3eb7e88c4cabf1559b3",
+          "scanIndex": 68,
+          "printedPage": "64",
+          "quote": "איז אויםגעװיילט געװארן אלם לאװניק אין מאגיםטראט",
+          "context": "משה פליכטענרײך, הערש לײזער לאנדע, מאיר לײב געלערנטער. די זעלבע ״אגודד.״־ ראטמענער זענען אויך געװען מיטגלידער אין דער ײדישער קהילד,. משה אהרון װײנטרויב איז אויםגעװיילט געװארן אלם לאװניק אין מאגיםטראט. זיץ ארט אלם ראטמאן האט פארנומען שמואל אריע. דער פארשטייעד פון די האנטװערקער אין שטאטראט איז געװען מאטעם מאנדעלבוים, פון די רעכטע פ.צ.— יעקב ליכטנשטיץ, פון די ״לינקע״— שלמה זאקאליק. דער לעצטער איז נישט לאנג געװען ראטמאן. די פאליציי האט אים ארעםטירט, און נאכן אפזיצןא יאר אין שעדלעצער טורמע איז ער קראנק געװארן אויף טובעדקולאז. מען האט אים באפרײט, אבער ער האט געמוזט איבערפארן קיץ װארשע, וװ ער איז געשטארבן איןא קורצער צײט ארום.\n\nאין יאר1928 האט זיך געעפנטא יידישע פאלקםשול פון ״צישא״ פון4 קלאםן מיט4 לערערם. געהאלפן אויםהאלטן די שול האבן די לאנדםלייט פון אמעריקע און די צענטראלע שול־ארגאניזאציע אין ווארשע. די פוילישע שול־מאכט האט געגעבן א דערלויבעניש צו עפענען די שול. די קלאם־צימערן זענען געווען גרויםע, ציכטיקע און באקװעמע. מען האט אנגענומען קינדער פון6 יאר אן און העכער.",
+          "validation": "UNIQUE_OCR_FUZZY_ALIGNMENT_REVIEW_REQUIRED"
+        }
+      },
+      "left": {
+        "caseId": "review_db4f56cba38ec2d5ec6bce5d",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "ELECTED_AS",
+        "revisedObjectOrSummaryEn": "Moshe Aaron Weintraub was elected as a lavnik in the magistrate.",
+        "rationaleEn": "The quote explicitly states that he was elected as a lavnik in the magistrate, not that he worked at an unspecified place as a councilor.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_db4f56cba38ec2d5ec6bce5d",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text states that Moshe Aharon Weintraub was elected as a councilor/lay official in the magistrate.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_dbc011821bb08cac7cb174d3",
+      "case": {
+        "caseId": "review_dbc011821bb08cac7cb174d3",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_bc19912c7ac68f817c1e6f49",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The narrator’s identity and exact family relation are not otherwise specified.",
+        "interpretation": {
+          "predicate": "SIBLING_OF",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_09234b8d8db0b8cb8c429eab",
+          "scanIndex": 484,
+          "printedPage": "480",
+          "quote": "ולאחי הרשל, שנשאר בבונקר המשפחה",
+          "context": " לתוך היער ואנו רדפנו אותם בהתלר.בות, ולא חשבנו על חוםר הטעם בתקיםה ביער בלילד״ ובכמות כזאת של כדורים. לבםוף חזרנו כדי לר,גן על הבית האכר, שר,שודדים לא יציתו אותו.\n\nחברי ד,א.ק, השאירו בשדר, הקרב4 הרוגים. אצלנו גפצע ברגל רק ױדל װלנד. השמחה אצלנו היתד, מאד גדולד״ ובמױחד— אצלי, כי מההרוגים הורדנו4 רובים ושנים מהם נתנו לי ולאחי הרשל, שנשאר בבונקר המשפחה.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_dbc011821bb08cac7cb174d3",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "SIBLING_OF",
+        "revisedObjectOrSummaryEn": "Hershl",
+        "rationaleEn": "The Hebrew phrase directly states “my brother Hershl”; the relation is supported, but the extracted object is missing.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_dbc011821bb08cac7cb174d3",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The text explicitly calls Hershel \"my brother.\"",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_ddfbb69a616ef9247fede49b",
+      "case": {
+        "caseId": "review_ddfbb69a616ef9247fede49b",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "EVENT",
+        "observationId": "event_candidate_8119bb969309da1cdb8946f3",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "No allowed event type directly represents financial aid; event classification is therefore omitted.",
+        "interpretation": {
+          "eventType": "MIGRATION",
+          "titleEn": "Emergency aid sent from America",
+          "summaryEn": "Five hundred dollars were sent to aid town residents through Motel Seldman's address.",
+          "dateStart": "",
+          "dateEnd": ""
+        },
+        "evidence": {
+          "passageId": "passage_a8f3dd88d32040b72b656321",
+          "scanIndex": 81,
+          "printedPage": "77",
+          "quote": "נשלחו מיד500 דולרים",
+          "context": "הסוחרים הקטנים ובעלי המלאכה שחױ מנסיעות בשװקים ועײרות בסביבה סבלו קשה מן המצור הכלכלי ומהאגטישמיות. מצבם נעשה קריטי. מספר מנהיגים— עסקני החברה בעיר— קראו לאסיפה/ כדי לטפל בענין וליצור קוםת גמילות חסדים. כתוצאה מסגיה לאנשי העיר באמריקה נשלחו מיד500 דולרים לפי כתובתו של מוטל סלדמן (יותר מפורט נזכר הדבר בחלק אחר של הספר).",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_ddfbb69a616ef9247fede49b",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "An appeal to people in America resulted in $500 being sent immediately to Motel Seldman's address for a charitable relief fund.",
+        "rationaleEn": "The passage supports emergency financial aid, not migration. Remove the unsupported MIGRATION classification while retaining the aid details.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_ddfbb69a616ef9247fede49b",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage supports emergency financial aid, not a migration event.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_ec08cc1750fa229e36a5af61",
+      "case": {
+        "caseId": "review_ec08cc1750fa229e36a5af61",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_711aef1cb0ecec98b78127f6",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "OCR is unclear in the affiliation wording.",
+        "interpretation": {
+          "predicate": "AFFILIATED_WITH",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_1435b3dc3c34ee51dc3e3da5",
+          "scanIndex": 574,
+          "printedPage": "570",
+          "quote": "איז אנגעשלאםן איןא דאקטוירים־דיםטריקט בײ דער פעדעראציע פון די פוילישע ײדן אין אמעריקע",
+          "context": "די לוקאװער םאםײעטי איז אנגעשלאםן איןא דאקטוירים־דיםטריקט בײ דער פעדעראציע פון די פוילישע ײדן אין אמעריקע. יעדער מיטגליד אמ זימ פאמיליע איז בארעכטיקט צו באקומען מעדיצינישע הילף פארא קלײנעם אפצאל. פאר די גאנצע 25 יאר פון איר עקזיםטענץ איז די םאםײעטי געװען די אײנציקע ארגאניזאציע, װאם האט געװירקט אינעם לעבן פון די לוקאװער לאנדםלײט, אין יאר1931 האט זיך אבער אין נױ־יארק אויך געגרינדעטא לוקאװער ברענטש153 אינדעפ. ארבעטער־ארדן, די םאםײעטי האט דאן פארלוירן נימ מיטגלידער. דער ברענטש עקזיםטירט הײנט א. נ. ,״לוקאװער ברענטש153 א.א.א.״ אין דער הילפס־קאמפײן פאר דער הײמשטאט לוקאװ, װאם גײט איצט אן, ארבעטן מיר צוזאמען מיט די לוקאװער לאנדםלײט םמ ברענטש 153 א.א.א.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_ec08cc1750fa229e36a5af61",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "AFFILIATED_WITH",
+        "revisedObjectOrSummaryEn": "a doctors' district at the Federation of Polish Jews in America",
+        "rationaleEn": "The quote directly states that the Lukower Society was affiliated with a doctors' district at the Federation of Polish Jews in America; the empty object makes the interpretation incomplete.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_ec08cc1750fa229e36a5af61",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "It explicitly says the Lukow Society was connected to a doctors' district of the Federation of Polish Jews in America.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_eedea43fc9a8a57b3fe0054c",
+      "case": {
+        "caseId": "review_eedea43fc9a8a57b3fe0054c",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 30,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_7fd685c2086a1cd785abfb41",
+        "confidence": "MEDIUM",
+        "uncertaintyNoteEn": "The pronoun refers to the mother and another family member; Jacob is inferred from nearby text.",
+        "interpretation": {
+          "predicate": "SURVIVED",
+          "objectLiteralEn": "",
+          "qualifiersJson": ""
+        },
+        "evidence": {
+          "passageId": "passage_ef4097cedb344834e6ee82a3",
+          "scanIndex": 412,
+          "printedPage": "408",
+          "quote": "הם חײם ונצלו מגיטו לוקוב",
+          "context": "מי זוג נעלים לחורף״, הוא אמר. ״אולי אעבור את החורף בגיטו ז״ זה קרע את לבי כשנפרדנו. אחי חזר לגיטו.\n\nאמי ואזזי השני הסתתרו בכפר שכן, אך אחרי זמן קצר היו מוכרחים לעזוב את המקום, כי הנוצרים לא יכלו או לא רצו ױתר להחזיקם. פעם אמרה לי בעלת הבית לד.וריד משהוא מן הגג. וכשעליתי ראיתי איך כריתי זזה ממקומה ולידה אמי ואחי הצעיר. הם חײם ונצלו מגיטו לוקוב. ״ואיה שאולז״ שאלתי. ״הוא לא רצה להכנם ולהםתתר במרתף״ ענתה עמי. ״ואיך אתם נצלתםז״ שאלתי הלאה. ״התעטפתי עם יעקב במעיל השחור, הםתתרתי בפינד, של המרתף והחלטתי לא לזוז מהמקום. כשהחלו לירות ולגרש מהמרתף, לא זזנו מהמקום״.\n\nואלו היו העינים, שראו שקיעת יהדות לוקוב.\n\nשוב אביב. אני כבר חרשתי את השדד״ זרעתי את זריעת האביב. בכפר שקט. האכרים חורשים וזורעים. מתכוננים כבר לזרוע תפוחי אדמה ומתכוננים לחג פסחא. אני עובד עם כולם, מעיא את הזבל מהרפת, חורש וזורע. אבל זד, רק לבני אדם. למענם אני שמח ונוצרי מאמין. אני הולך לכנםיה כל יום ראשון ולפעמים אף באמצע השבוע. בכנסיה אני עוזר לכומר בתפילות.",
+          "validation": "EXACT_NORMALIZED_OCR"
+        }
+      },
+      "left": {
+        "caseId": "review_eedea43fc9a8a57b3fe0054c",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "HUMAN_REVIEW",
+        "confidence": "LOW",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The quote supports that the mother and another family member survived or escaped the Łuków ghetto, but identifying Jacob as the claimed subject is inferred rather than explicit.",
+        "needsHumanReview": true
+      },
+      "right": {
+        "caseId": "review_eedea43fc9a8a57b3fe0054c",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "ACCEPT",
+        "confidence": "MEDIUM",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The mother and younger brother are said to be alive and to have escaped the Lukow ghetto; the following account identifies Jacob as hiding with the mother.",
+        "needsHumanReview": false
+      }
+    },
+    {
+      "caseId": "review_fae9af176e21460313814b17",
+      "case": {
+        "caseId": "review_fae9af176e21460313814b17",
+        "caseType": "OBSERVATION_REVIEW",
+        "priorityScore": 15,
+        "observationKind": "CLAIM",
+        "observationId": "claim_candidate_c4ea5e8d3e38b4cb577247d2",
+        "confidence": "HIGH",
+        "uncertaintyNoteEn": "",
+        "interpretation": {
+          "predicate": "AFFILIATED_WITH",
+          "objectLiteralEn": "",
+          "qualifiersJson": "{\"role\":\"intended captain\"}"
+        },
+        "evidence": {
+          "passageId": "passage_f1e1f8214b84b2dcd24228bf",
+          "scanIndex": 207,
+          "printedPage": "203",
+          "quote": "זאל ווערןא\n\n״קאפיטאן״ אין ״ביתר",
+          "context": ". ער האט נישט אנגעד.ערט צו קײן שום צױניםטישער גמפירונג, אבער ער האט געהאלטן פון זשאבאטינםקין. װען ער פלעגט הערן, אז ערגעץ אין ארץ־ישראל האט מען געהרגעטא ײד, האט ער זיך אויפגעקאכט און געשריגן, אז װען ער קען, װאלט ער געשאםן פון לוקאוו. ער האט מיך געװאלט איבערצייגן, אז איך זאל אוועק פון ״השומר הצעיר״, וועט ער זען, אז איך זאל ווערןא\n\n״קאפיטאן״ אין ״ביתר״.",
+          "validation": "UNIQUE_OCR_FUZZY_ALIGNMENT_REVIEW_REQUIRED"
+        }
+      },
+      "left": {
+        "caseId": "review_fae9af176e21460313814b17",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REVISE",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "Betar",
+        "rationaleEn": "The quote explicitly states that he should become a “captain” in Betar; the extracted object is missing.",
+        "needsHumanReview": false
+      },
+      "right": {
+        "caseId": "review_fae9af176e21460313814b17",
+        "caseType": "OBSERVATION_REVIEW",
+        "decision": "REJECT",
+        "confidence": "HIGH",
+        "canonicalDisplayNameEn": "",
+        "canonicalSummaryEn": "",
+        "revisedPredicateOrType": "",
+        "revisedObjectOrSummaryEn": "",
+        "rationaleEn": "The passage describes a conditional intention that the narrator become a Betar captain, not an actual affiliation.",
+        "needsHumanReview": false
+      }
+    }
+  ],
+  "selection": {
+    "status": "EVIDENCE_REVIEW_REQUIRED",
+    "note": "Model agreement is not ground truth. Resolve disagreements against the quoted source evidence before promotion."
+  }
+}

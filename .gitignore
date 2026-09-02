@@ -1,0 +1,12 @@
+# Raw source scans and large presentation binaries stay with the extraction operator,
+# never in this repo (GitHub rejects files >100MB; the app never reads them).
+*.pdf
+*.pptx
+*.ppt
+
+# Resumable model caches and one-off experiment artifacts are not canonical data.
+data/processed/**/cache/
+data/processed/**/*-cache/
+data/processed/**/*-smoke/
+data/processed/**/qa/
+.DS_Store
