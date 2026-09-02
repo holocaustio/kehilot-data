@@ -22,11 +22,14 @@ Everything lives under `data/`, mirroring the path layout the application expect
 
 ## How the app consumes it
 
-The app resolves data through `lib/data-store.ts`:
+The app resolves data through `lib/data-store.ts`, fetching **one file at a time, on demand —
+like a git file viewer** — and caching it in memory. It never bulk-clones the corpus, so hundreds
+of books cost nothing until a page actually asks for a specific file.
 
-- Locally, the app's own `./data` directory is the checkout, so development needs no setup.
-- In production, set `KEHILOT_DATA_DIR` to a clone of this repo. Refresh it with `git pull`
-  (via `refreshDataMirror()` on boot or a deploy/webhook) to pull data live.
+- **Production (remote):** set `KEHILOT_DATA_REMOTE=1`. Each requested path is fetched from GitHub
+  raw and memoized for `KEHILOT_DATA_REVALIDATE` seconds (default 300). The first view of a book
+  pulls its slice; later views are served from memory. Editorial edits appear within that window.
+- **Development (local):** the app's own `./data` directory is read directly — offline, no setup.
 
 ## Reviewing editorial changes
 
