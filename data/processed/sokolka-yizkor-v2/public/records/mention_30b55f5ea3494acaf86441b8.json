@@ -1,0 +1,103 @@
+{
+  "id": "mention_30b55f5ea3494acaf86441b8",
+  "type": "Person",
+  "title": "Rabbi Shuster",
+  "summary": "The chief rabbi attended the seder organized for Jewish soldiers.",
+  "originalName": "הרב הראשיר׳שוסטר",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 70,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "rabbi",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ae443ad40dc1f275f2c5deb7",
+      "pageId": "page_nybc314005_0070",
+      "scanIndex": 70,
+      "leafNumber": 69,
+      "printedPage": null,
+      "passageCharStart": 1175,
+      "passageCharEnd": 1197,
+      "normalizedPassageCharStart": 858,
+      "normalizedPassageCharEnd": 874,
+      "pageCharStart": 1175,
+      "pageCharEnd": 1197,
+      "quote": "הר ב\nהראש י ר ׳ שוסט ר",
+      "normalizedQuote": "הרב הראשיר׳שוסטר",
+      "modelQuote": "הרב הראשיר׳שוסטר",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n69/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "c4622b949fcf6c7c2c8ee22b87aa2d5a3fe7f162a5e2e55aeb24fe22a25f2d2f",
+      "normalizedPassageChecksum": "923b99be64ed92cc782981d525fd8553f243d8dc6e85915baa14202898427f47",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_15b30468d745e4097fb6568e",
+      "type": "Liberation",
+      "title": "Passover seder for Jewish soldiers",
+      "summary": "Sokolka Jews organized a seder for Jewish soldiers in the Polish army.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text describes a seder, but no allowed event type directly represents it.",
+      "evidence": {
+        "passageId": "passage_ae443ad40dc1f275f2c5deb7",
+        "pageId": "page_nybc314005_0070",
+        "scanIndex": 70,
+        "leafNumber": 69,
+        "printedPage": null,
+        "passageCharStart": 1065,
+        "passageCharEnd": 1141,
+        "normalizedPassageCharStart": 776,
+        "normalizedPassageCharEnd": 833,
+        "pageCharStart": 1065,
+        "pageCharEnd": 1141,
+        "quote": "אנש י\nסוקולק ה דאג ו ג ם לחיילי ם היהודי ם בצב א הפולני , וערכ ו\nלה ם \"סדר \"",
+        "normalizedQuote": "אנשי סוקולקהדאגוגםלחייליםהיהודיםבצבאהפולני,וערכו להם\"סדר\"",
+        "modelQuote": "אנשי סוקולקהדאגוגםלחייליםהיהודיםבצבאהפולני,וערכולהם\"סדר\"",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n69/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "c4622b949fcf6c7c2c8ee22b87aa2d5a3fe7f162a5e2e55aeb24fe22a25f2d2f",
+        "normalizedPassageChecksum": "923b99be64ed92cc782981d525fd8553f243d8dc6e85915baa14202898427f47",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_15b30468d745e4097fb6568e",
+      "type": "Event",
+      "title": "Passover seder for Jewish soldiers",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_9430ca9a6031a17c276d8b88",
+      "type": "Person",
+      "title": "Samuel-Yasha",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5dec88e98abf4de47301c00c",
+      "type": "Community",
+      "title": "Sokolka Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f31f34ff34b18c2294f53897",
+      "type": "Institution",
+      "title": "Community Committee",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

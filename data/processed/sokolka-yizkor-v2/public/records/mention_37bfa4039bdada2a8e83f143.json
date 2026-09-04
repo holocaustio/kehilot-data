@@ -1,0 +1,104 @@
+{
+  "id": "mention_37bfa4039bdada2a8e83f143",
+  "type": "Business",
+  "title": "Felt Factory",
+  "summary": "Factory where Jewish workers were confined before deportation.",
+  "originalName": "פילץ־פאבריק",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 277,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "factory",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7a5ee05be5002002b1ccaae3",
+      "pageId": "page_nybc314005_0277",
+      "scanIndex": 277,
+      "leafNumber": 276,
+      "printedPage": null,
+      "passageCharStart": 59,
+      "passageCharEnd": 75,
+      "normalizedPassageCharStart": 44,
+      "normalizedPassageCharEnd": 57,
+      "pageCharStart": 3469,
+      "pageCharEnd": 3485,
+      "quote": "ד י פילץ־פאברי ק",
+      "normalizedQuote": "דיפילץ־פאבריק",
+      "modelQuote": "דיפילץ־פאבריק",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n276/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "9ab36584fdcdf1cda68c7ae4968b29804c24384b5d3fb3fb95476f4051ad92c2",
+      "normalizedPassageChecksum": "6967ee8ee920eb4fb1d44c318663d99523933292102a89edc3e537dd79e0c253",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8003c6cde825b8bbec5b37b0",
+      "type": "Deportation",
+      "title": "Factory prisoners deported to Auschwitz",
+      "summary": "On January 23, 1943, factory prisoners were loaded into wagons and deported to Auschwitz.",
+      "dateStart": "1943-01-23",
+      "dateEnd": "1943-01-23",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7a5ee05be5002002b1ccaae3",
+        "pageId": "page_nybc314005_0277",
+        "scanIndex": 277,
+        "leafNumber": 276,
+        "printedPage": null,
+        "passageCharStart": 478,
+        "passageCharEnd": 574,
+        "normalizedPassageCharStart": 361,
+        "normalizedPassageCharEnd": 437,
+        "pageCharStart": 3888,
+        "pageCharEnd": 3984,
+        "quote": "דע ם 23 ־ט ן\nיאנוא ר 1943 איינגעלאדעווע ט אלעמע ן אי ן וואגאנע ן\nאו ן אוועקגעפיר ט קיי ן אושוויץ",
+        "normalizedQuote": "דעם23־טן יאנואר1943איינגעלאדעוועטאלעמעןאיןוואגאנען אוןאוועקגעפירטקייןאושוויץ",
+        "modelQuote": "דעם23־טן יאנואר1943איינגעלאדעוועטאלעמעןאיןוואגאנען אוןאוועקגעפירטקייןאושוויץ",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n276/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "9ab36584fdcdf1cda68c7ae4968b29804c24384b5d3fb3fb95476f4051ad92c2",
+        "normalizedPassageChecksum": "6967ee8ee920eb4fb1d44c318663d99523933292102a89edc3e537dd79e0c253",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_8003c6cde825b8bbec5b37b0",
+      "type": "Event",
+      "title": "Factory prisoners deported to Auschwitz",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_d5b571f0f5cdb8a8b6862f3f",
+      "type": "Place",
+      "title": "Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fd6d37624f20acfc67a74a2c",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eb2ab76211166fd696a8427f",
+      "type": "Person",
+      "title": "Mildiner",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

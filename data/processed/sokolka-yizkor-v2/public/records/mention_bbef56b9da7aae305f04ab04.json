@@ -1,0 +1,111 @@
+{
+  "id": "mention_bbef56b9da7aae305f04ab04",
+  "type": "Community",
+  "title": "Jews of Grodno",
+  "summary": "Jewish community affected by threatened expulsion in February 1915.",
+  "originalName": "יהודיגרודנה",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 46,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish community",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bb46da8a4ee1e47cbb6c621c",
+      "pageId": "page_nybc314005_0046",
+      "scanIndex": 46,
+      "leafNumber": 45,
+      "printedPage": null,
+      "passageCharStart": 446,
+      "passageCharEnd": 464,
+      "normalizedPassageCharStart": 320,
+      "normalizedPassageCharEnd": 333,
+      "pageCharStart": 3480,
+      "pageCharEnd": 3498,
+      "quote": "ע ל יהוד י גרודנ ה",
+      "normalizedQuote": "עליהודיגרודנה",
+      "modelQuote": "עליהודיגרודנה",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n45/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "670c45158ff2eadd129ecf42a50ea4573681be8362984f4c5168bde64c3e9e9f",
+      "normalizedPassageChecksum": "3a9c486df80f2bab46aa88cbe459a546700d488a00c2d74fea1795b40cebde67",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_6c99f1c410f1544abae664fb",
+      "type": "Threatened Deportation",
+      "title": "Threatened expulsion of Grodno Jews",
+      "summary": "In February 1915, decrees threatening the expulsion of Grodno Jews from the city loomed over them.",
+      "dateStart": "1915-02",
+      "dateEnd": "1915-02",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR wording is unclear, and the passage describes a threat rather than a confirmed deportation.",
+      "evidence": {
+        "passageId": "passage_bb46da8a4ee1e47cbb6c621c",
+        "pageId": "page_nybc314005_0046",
+        "scanIndex": 46,
+        "leafNumber": 45,
+        "printedPage": null,
+        "passageCharStart": 426,
+        "passageCharEnd": 485,
+        "normalizedPassageCharStart": 305,
+        "normalizedPassageCharEnd": 350,
+        "pageCharStart": 3460,
+        "pageCharEnd": 3519,
+        "quote": "בפברוא ר 1915 רחפ ה ע ל יהוד י גרודנ ה גזירו ת גירד ט\nמהעיר",
+        "normalizedQuote": "בפברואר1915רחפהעליהודיגרודנהגזירותגירדט מהעיר",
+        "modelQuote": "בפברואר1915רחפהעליהודיגרודנהגזירותגירדטמהעיר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n45/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "670c45158ff2eadd129ecf42a50ea4573681be8362984f4c5168bde64c3e9e9f",
+        "normalizedPassageChecksum": "3a9c486df80f2bab46aa88cbe459a546700d488a00c2d74fea1795b40cebde67",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_6c99f1c410f1544abae664fb",
+      "type": "Event",
+      "title": "Threatened expulsion of Grodno Jews",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_141b74547fe05cbba5a5829c",
+      "type": "Publication",
+      "title": "Ha-Tsefira",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d07769cb8a416b04cfaba33d",
+      "type": "Place",
+      "title": "Grodno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_11319940a5034c85d86ebd01",
+      "type": "Institution",
+      "title": "Great Synagogue of Grodno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7a4afaf17f745dbeefe02a74",
+      "type": "Event",
+      "title": "Grodno expulsion decree",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

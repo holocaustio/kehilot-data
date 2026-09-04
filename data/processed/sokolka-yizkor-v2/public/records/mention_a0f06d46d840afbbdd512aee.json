@@ -1,0 +1,96 @@
+{
+  "id": "mention_a0f06d46d840afbbdd512aee",
+  "type": "Person",
+  "title": "Groom",
+  "summary": "Groom participating in a wedding ceremony.",
+  "originalName": "החתן",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 70,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "groom",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ae48b5cc33b348a0793dcf7b",
+      "pageId": "page_nybc314005_0070",
+      "scanIndex": 70,
+      "leafNumber": 69,
+      "printedPage": null,
+      "passageCharStart": 61,
+      "passageCharEnd": 86,
+      "normalizedPassageCharStart": 44,
+      "normalizedPassageCharEnd": 61,
+      "pageCharStart": 2650,
+      "pageCharEnd": 2675,
+      "quote": "מבר ך א ת החת ן וא ת הכלה",
+      "normalizedQuote": "מברךאתהחתןואתהכלה",
+      "modelQuote": "מברךאתהחתןואתהכלה",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n69/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "32d4ed41686edc0b8ded2447f8ae5e621d027a1da500be2975fab9d30947c714",
+      "normalizedPassageChecksum": "42fb8b68c06db0bd84f13692b84728257c5dcd66ee995565f52976b26c8263ba",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_bfe4340ccc74493f23a6e6db",
+      "type": "Marriage",
+      "title": "Wedding ceremony",
+      "summary": "Bride and groom marry under the wedding canopy, followed by music and celebration.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ae48b5cc33b348a0793dcf7b",
+        "pageId": "page_nybc314005_0070",
+        "scanIndex": 70,
+        "leafNumber": 69,
+        "printedPage": null,
+        "passageCharStart": 113,
+        "passageCharEnd": 163,
+        "normalizedPassageCharStart": 80,
+        "normalizedPassageCharEnd": 116,
+        "pageCharStart": 2702,
+        "pageCharEnd": 2752,
+        "quote": "הכל ה\nמסתובב ת סבי ב החת ן שב ע פעמי ם תח ת החופ ה",
+        "normalizedQuote": "הכלה מסתובבתסביבהחתןשבעפעמיםתחתהחופה",
+        "modelQuote": "הכלה מסתובבתסביבהחתןשבעפעמיםתחתהחופה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n69/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "32d4ed41686edc0b8ded2447f8ae5e621d027a1da500be2975fab9d30947c714",
+        "normalizedPassageChecksum": "42fb8b68c06db0bd84f13692b84728257c5dcd66ee995565f52976b26c8263ba",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_bfe4340ccc74493f23a6e6db",
+      "type": "Event",
+      "title": "Wedding ceremony",
+      "relation": "Participated In",
+      "role": "Spouse"
+    },
+    {
+      "id": "mention_116f44804856eea46476dbc1",
+      "type": "Person",
+      "title": "Bride",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_de045d84b385f5720a5789dd",
+      "type": "Place",
+      "title": "Bride's House",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

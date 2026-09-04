@@ -1,0 +1,1433 @@
+{
+  "schemaVersion": "kehilot-yizkor-reading-paths-v1",
+  "pipelineVersion": "kehilot-yizkor-reading-paths-v1",
+  "promptVersion": "kehilot-yizkor-reading-paths-prompt-v1",
+  "generatedAt": "2026-09-04T20:14:10.716Z",
+  "community": {
+    "id": "community_sokolka",
+    "displayName": "Sokolka",
+    "canonicalName": "Sokolka",
+    "country": "Poland"
+  },
+  "book": {
+    "id": "book_nybc314005",
+    "title": "Sefer Soḳolḳah = Dos bukh fun Soḳolḳe (ʻa.y. Irgun Yotsʼe Soḳolḳah be-Yiśraʼel)"
+  },
+  "source": {
+    "selectedVersion": "sokolka-yizkor-v2",
+    "graphPath": "data/processed/sokolka-yizkor-v2/adjudication/resolved-graph.json",
+    "graphSha256": "c49c85005fa9b4a6fc2f2c0dc7b458b40e892480e8de7fa37566dcfca2d68e67",
+    "candidateCount": 360
+  },
+  "model": {
+    "name": "gpt-5.6-luna",
+    "serviceTier": "flex",
+    "reasoningEffort": "medium"
+  },
+  "overview": {
+    "title": "Reading Jewish Sokółka through Sefer Sokolkah",
+    "summary": "Sefer Sokolkah presents Sokółka as a substantial Jewish community whose life was shaped by religious learning, schools, trades, families, political movements, and cultural activity [mention_01767cdae3927d939c1e01f5]. The memorial book follows that life through war, German occupation, ghettoization, deportation, murder, and the efforts of survivors and emigrants to preserve its memory [event_candidate_6048c3dc2707e61108e4f17b; event_candidate_8eb68a5070b14963def4791c; event_candidate_2b0f919e22ce93b2b48d607e]. Exploring these paths will help readers understand both the institutions that sustained Jewish life and the people whose testimony records persecution, resistance, survival, and loss. It also shows how Sokółka continued as a place of family memory through memorial gatherings, monuments, aid societies, and the memorial book itself [mention_8bbfaeb35dd71b13691fa69b; mention_3ad2bb8a5b719856a; mention_f0db7ef909b85dc05a6505d9]."
+  },
+  "paths": [
+    {
+      "id": "path-community-life",
+      "theme": "COMMUNITY_LIFE",
+      "title": "What kind of Jewish community was Sokółka?",
+      "description": "This path reconstructs Sokółka as a lived community: a town with religious institutions, schools, businesses, civic organizations, and closely connected families. By the end, readers will see the community as more than a demographic category or a place later defined by destruction [mention_068bb5fef3f539ffa57fe8ab; mention_a8dbacf6953013beab0949a2].",
+      "question": "How did Jewish residents build everyday communal life?",
+      "steps": [
+        {
+          "title": "A substantial and connected town",
+          "summary": "The memorial-book account portrays Sokółka as a town of about 20,000 inhabitants, including about 10,000 Jews, with institutions, societies, artists, and businesses. This scale helps explain why the community had a dense social world rather than a single communal center [mention_01767cdae3927d939c1e01f5; mention_068bb5fef3f539ffa57fe8ab].",
+          "recordIds": [
+            "mention_01767cdae3927d939c1e01f5",
+            "mention_068bb5fef3f539ffa57fe8ab"
+          ],
+          "records": [
+            {
+              "recordId": "mention_01767cdae3927d939c1e01f5",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Sokolka",
+              "summary": "A town with approximately 20,000 inhabitants, including approximately 10,000 Jews.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 275,
+              "printedPage": null,
+              "passageId": "passage_96a6d9c4a60d5108e031a490",
+              "quote": "געפינטזידדאסשטעטילסאקאלקע"
+            },
+            {
+              "recordId": "mention_068bb5fef3f539ffa57fe8ab",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Sokolka",
+              "summary": "A town described as having institutions, societies, artists, and businesses.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 246,
+              "printedPage": null,
+              "passageId": "passage_1d5b5fb0c5153021440e3cb8",
+              "quote": "סאקאלקעאיזאשטאט"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Religious learning and authority",
+          "summary": "Jewish education included several Talmud Torah settings, including an institution serving children from Sokółka and its surroundings. Rabbis and teachers such as Tzvi Hirsch Director and Chaim Meir Shmul connected learning, religious leadership, and communal continuity [mention_cc0f12b563459ff92f1a4af2; mention_aa05f15ce5e663820e60f6ea; mention_a1c1a1a87e9c82e965c42ee0].",
+          "recordIds": [
+            "mention_cc0f12b563459ff92f1a4af2",
+            "mention_aa05f15ce5e663820e60f6ea",
+            "mention_a1c1a1a87e9c82e965c42ee0"
+          ],
+          "records": [
+            {
+              "recordId": "mention_cc0f12b563459ff92f1a4af2",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Talmud Torah",
+              "summary": "Educational institution serving children from the city and surrounding area.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 126,
+              "printedPage": null,
+              "passageId": "passage_b0079508a984e5703ace894c",
+              "quote": "היה\"תלמוד־ תורה\"המוסדהחנוכיבשבילרובילדיהעירוהסביבה"
+            },
+            {
+              "recordId": "mention_aa05f15ce5e663820e60f6ea",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Tzvi Hirsch Director",
+              "summary": "Rabbi of Sokolka from 1883 to 1900.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 44,
+              "printedPage": null,
+              "passageId": "passage_498e4e3e85ce6cb7b6f9750e",
+              "quote": "הרבר׳צביהירשדירקטור"
+            },
+            {
+              "recordId": "mention_a1c1a1a87e9c82e965c42ee0",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Chaim Meir Shmul",
+              "summary": "Religious teacher appointed in Sokolka in 1902; died in Bialystok in 1918.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 157,
+              "printedPage": null,
+              "passageId": "passage_4e29b24eec345d58587c825a",
+              "quote": "ר׳חייםמאירשמול"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Work, commerce, and mutual support",
+          "summary": "Jewish livelihoods included tanning, leatherwork, milling, wholesale trade, and food businesses; seventeen tanneries alone had employed hundreds of Jewish workers. The book also records a local relief office and a cooperative loan-and-savings fund, showing how economic life was tied to communal assistance [mention_3573785c0e0a32770c520910; event_candidate_206e264dbaa20581a80f337f; event_candidate_a189fa9373d27d80a97a6945].",
+          "recordIds": [
+            "mention_3573785c0e0a32770c520910",
+            "event_candidate_206e264dbaa20581a80f337f",
+            "event_candidate_a189fa9373d27d80a97a6945"
+          ],
+          "records": [
+            {
+              "recordId": "mention_3573785c0e0a32770c520910",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Seventeen tanneries",
+              "summary": "Seventeen tanneries once employed hundreds of Jewish workers.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 56,
+              "printedPage": null,
+              "passageId": "passage_ede51930f9f8d5637e39aa0b",
+              "quote": "זהלאכברנתקיימושםי״זבתי־בורסקי,שהעסיקו הרבהמאותפועליםיהודים"
+            },
+            {
+              "recordId": "event_candidate_206e264dbaa20581a80f337f",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Establishment of the Local Relief Office",
+              "summary": "The Local Relief Office was established in Sokolka in 1888.",
+              "dateStart": "1888",
+              "dateEnd": "1888",
+              "scanIndex": 53,
+              "printedPage": null,
+              "passageId": "passage_671bbf957f5c53cfe218bfd9",
+              "quote": "המפעלהקרויבימינו\"לשכתסעדמקומית\"הוקם בסוקולקד.בשנת1888"
+            },
+            {
+              "recordId": "event_candidate_a189fa9373d27d80a97a6945",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of Sokolka cooperative fund",
+              "summary": "A cooperative loan and savings fund was established in Sokolka around the early twentieth century.",
+              "dateStart": "1900",
+              "dateEnd": "1920",
+              "scanIndex": 253,
+              "printedPage": null,
+              "passageId": "passage_3aa5c290fe1a205cfc4d9079",
+              "quote": "איןאנפאנג פון20טןיאהרהונדערטהאטמעןשויןאיןסאקאלקע געשאפןאקאאפעראטיוועליי־אוןשפאר־קאסע"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Families and shared memory",
+          "summary": "The memorial book follows named families, including the Kantors, Shteins, and Goldackers, linking personal histories to Sokółka’s wider story. Such family entries preserve relationships, occupations, migration, and the consequences of destruction at an individual scale [mention_62058d5b8cf98031c5809bc5; mention_36b27203f2901b0138f26ac5; mention_d98bd65aecb21a4b87641864].",
+          "recordIds": [
+            "mention_62058d5b8cf98031c5809bc5",
+            "mention_36b27203f2901b0138f26ac5",
+            "mention_d98bd65aecb21a4b87641864"
+          ],
+          "records": [
+            {
+              "recordId": "mention_62058d5b8cf98031c5809bc5",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Kantor family",
+              "summary": "Family heading introducing material about Abraham Kantor and Penina Kantor.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 154,
+              "printedPage": null,
+              "passageId": "passage_3cea7855b6b09e48a8b25477",
+              "quote": "משפחתקנטור"
+            },
+            {
+              "recordId": "mention_36b27203f2901b0138f26ac5",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Shtein family",
+              "summary": "Family associated with Sokolka’s leather-bronze industry.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 249,
+              "printedPage": null,
+              "passageId": "passage_bbc006ad37f56ddcec8b88f5",
+              "quote": "פוןדור־דורותאיזדילעדער־בראנזשע־אינדוסטרי געוועןאיןדיהענטפוןדערמשפחהשטיין"
+            },
+            {
+              "recordId": "mention_d98bd65aecb21a4b87641864",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Goldacker family",
+              "summary": "Three Goldacker brothers mentioned among surviving Sokolkers.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 279,
+              "printedPage": null,
+              "passageId": "passage_0ea212ac4e299dba78e02c57",
+              "quote": "דרייברידערגאלדאקעס"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path-education-politics",
+      "theme": "EDUCATION_CULTURE",
+      "title": "How did education, culture, and politics shape Jewish identity?",
+      "description": "This path traces competing and overlapping forms of Jewish belonging: traditional study, modern Hebrew education, Zionism, Bundism, youth movements, and performance. It shows how Sokółka’s young people and educators debated the future while remaining rooted in communal institutions [mention_24f5bb3b243810080f05ac4f; mention_4d171184e5d2acf69888398c].",
+      "question": "What futures did Sokółka’s Jews imagine before the Holocaust?",
+      "steps": [
+        {
+          "title": "Traditional and modern schooling",
+          "summary": "Alongside the Talmud Torah, Sokółka developed Hebrew education: a reformed heder was attempted in 1903, and a Zionist group founded a Hebrew school in 1904–1905. These efforts show education becoming a meeting point between religious tradition and modern Jewish national culture [event_candidate_7cb346c07f8d74954ea73529; event_candidate_bf1278434abd3fb7957a1722].",
+          "recordIds": [
+            "event_candidate_7cb346c07f8d74954ea73529",
+            "event_candidate_bf1278434abd3fb7957a1722"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_7cb346c07f8d74954ea73529",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Opening of a reformed heder",
+              "summary": "In 1903 in Sokolka, a Hebrew teacher opened a reformed heder, but it did not continue for lack of students; the teacher's name is unclear.",
+              "dateStart": "1903",
+              "dateEnd": "",
+              "scanIndex": 174,
+              "printedPage": null,
+              "passageId": "passage_5e4bfa670342f679c99f464d",
+              "quote": "בשנת1903באלסוקולקהמורהלעברית,ושמוצירקל ופתח\"חדרמתוקן\""
+            },
+            {
+              "recordId": "event_candidate_bf1278434abd3fb7957a1722",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of the Hebrew school",
+              "summary": "A Zionist group founded a Hebrew school in Sokolka during 1904–1905.",
+              "dateStart": "1904",
+              "dateEnd": "1905",
+              "scanIndex": 174,
+              "printedPage": null,
+              "passageId": "passage_5e4bfa670342f679c99f464d",
+              "quote": "בשנת5־1904נוסדבית-הספרלעברית"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Political and Zionist debate",
+          "summary": "The book records Sokółka Jews participating in elections to four Dumas and later organizing around Zionist and Bundist ideas. Youth were drawn both toward Zionism and toward the Bund, revealing political disagreement within an active Jewish public sphere [event_candidate_3275ea09abea2510b7589c88; mention_24f5bb3b243810080f05ac4f; mention_db346d5e4d103cff043e3bd7].",
+          "recordIds": [
+            "event_candidate_3275ea09abea2510b7589c88",
+            "mention_24f5bb3b243810080f05ac4f",
+            "mention_db346d5e4d103cff043e3bd7"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_3275ea09abea2510b7589c88",
+              "kind": "event",
+              "type": "MILITARY_SERVICE",
+              "title": "Elections to four Dumas",
+              "summary": "Sokolka Jews participated in elections to four Dumas, with named representatives elected.",
+              "dateStart": "1905",
+              "dateEnd": "",
+              "scanIndex": 38,
+              "printedPage": null,
+              "passageId": "passage_4b5fb9a279974fe6adcaf332",
+              "quote": "יהודיסוקולקההשתתפובבחירותלארבעה״דומות"
+            },
+            {
+              "recordId": "mention_24f5bb3b243810080f05ac4f",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Young Zionists",
+              "summary": "Movement named in a political debate.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 122,
+              "printedPage": null,
+              "passageId": "passage_83dd1bf3b6b7c13669d84ff6",
+              "quote": "\"צעיריציון\"ו״בונד\"במערכה"
+            },
+            {
+              "recordId": "mention_db346d5e4d103cff043e3bd7",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Bund",
+              "summary": "A political movement attracting some Sokolka youth during World War I.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 141,
+              "printedPage": null,
+              "passageId": "passage_1cf171be1447fd6b6e04dbc3",
+              "quote": "חלקמןהנוערנטה שמאלהלעברה״בונד\""
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Youth movements and migration",
+          "summary": "After the First World War, the Land of Israel Office organized youth groups for immigration, and Hechalutz arose in Sokółka in 1919–1920. Many pioneers later left the town for the Land of Israel during the 1920s, turning political ideals into migration and collective work [event_candidate_e064a973a3e38a23ac1ac0ee; event_candidate_88a0eae934775b9f468ac00d; event_candidate_b8f5de7d17775e516342ea93].",
+          "recordIds": [
+            "event_candidate_e064a973a3e38a23ac1ac0ee",
+            "event_candidate_88a0eae934775b9f468ac00d",
+            "event_candidate_b8f5de7d17775e516342ea93"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_e064a973a3e38a23ac1ac0ee",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Organization of youth groups in Sokolka",
+              "summary": "The Land of Israel Office began organizing youth groups for immigration after the war.",
+              "dateStart": "1918",
+              "dateEnd": "",
+              "scanIndex": 105,
+              "printedPage": null,
+              "passageId": "passage_529730ee97376c10f4c9d5b7",
+              "quote": "ובגמרהמלחמהב־1918,במשטרהחדש שלהפולנים,התחילהמשרד־הארץ־ישראליבסוקולקה לארגןקבוצותנוערלעליהלא״י"
+            },
+            {
+              "recordId": "event_candidate_88a0eae934775b9f468ac00d",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Hechalutz movement established in Sokolka",
+              "summary": "Hechalutz arose in Sokolka during 1919–1920.",
+              "dateStart": "1919",
+              "dateEnd": "1920",
+              "scanIndex": 142,
+              "printedPage": null,
+              "passageId": "passage_d0d078022f08af0fcd2a0097",
+              "quote": "בשנות1920־1919קמהתנועת \"החלוץ\""
+            },
+            {
+              "recordId": "event_candidate_b8f5de7d17775e516342ea93",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Pioneers left the Diaspora",
+              "summary": "Many pioneers from the town left the Diaspora for the Land of Israel in the 1920s.",
+              "dateStart": "1920",
+              "dateEnd": "1929",
+              "scanIndex": 89,
+              "printedPage": null,
+              "passageId": "passage_8a6a85250dc22b09777abe0c",
+              "quote": "חלוציםרבים בעיירתנופרצוחומתהגולהועלוארצהכברבשנות העשרים"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Culture as communal expression",
+          "summary": "Schoolchildren performed plays including Hannah and Her Seven Sons and The Sale of Joseph, while Sokółka’s Culture dramatic troupe presented The Verdict. These performances show children and adults using Hebrew and Yiddish culture to teach, entertain, and express collective concerns [mention_3f75ea85bbd3cec7830a147b; mention_8997609ce61cec4b0644ef6d; mention_eb905676dd3d4a2075bfb82a].",
+          "recordIds": [
+            "mention_3f75ea85bbd3cec7830a147b",
+            "mention_8997609ce61cec4b0644ef6d",
+            "mention_eb905676dd3d4a2075bfb82a"
+          ],
+          "records": [
+            {
+              "recordId": "mention_3f75ea85bbd3cec7830a147b",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Hannah and Her Seven Sons",
+              "summary": "Play performed by schoolchildren in Sokolka.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 79,
+              "printedPage": null,
+              "passageId": "passage_3ebc84ac95917c247afd3a58",
+              "quote": "\"חנהושבעת בניה\""
+            },
+            {
+              "recordId": "mention_8997609ce61cec4b0644ef6d",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "The Sale of Joseph",
+              "summary": "Play performed by schoolchildren in Sokolka.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 79,
+              "printedPage": null,
+              "passageId": "passage_3ebc84ac95917c247afd3a58",
+              "quote": "\"מכירתיוסף\""
+            },
+            {
+              "recordId": "mention_eb905676dd3d4a2075bfb82a",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "The Verdict",
+              "summary": "Play presented by Sokolka's Culture dramatic troupe.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 83,
+              "printedPage": null,
+              "passageId": "passage_4e382410e5b3ad924ee1ba35",
+              "quote": "בהצגת\"דעראורטייל\""
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path-occupation-ghetto",
+      "theme": "OCCUPATION_GHETTO",
+      "title": "How did occupation transform everyday life?",
+      "description": "This path follows the transition from invasion to forced administration, ghettoization, labor, and confinement. It helps readers understand how persecution dismantled ordinary institutions while exploiting Jewish labor and placing communal survival under coercive control [event_candidate_6048c3dc2707e61108e4f17b; event_candidate_555f9869c03a33791ce836d2].",
+      "question": "How did German rule change Sokółka before the deportations?",
+      "steps": [
+        {
+          "title": "Invasion and the first violence",
+          "summary": "German forces entered Sokółka at the beginning of September 1939. A later account describes German forces expelling Jews and desecrating Torah scrolls at the new study house, showing that occupation attacked both people and religious symbols [event_candidate_6048c3dc2707e61108e4f17b; event_candidate_3819d4c23cf669522e5fd77e].",
+          "recordIds": [
+            "event_candidate_6048c3dc2707e61108e4f17b",
+            "event_candidate_3819d4c23cf669522e5fd77e"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_6048c3dc2707e61108e4f17b",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "German entry into Sokolka",
+              "summary": "German forces entered Sokolka at the beginning of September 1939.",
+              "dateStart": "1939-09",
+              "dateEnd": "",
+              "scanIndex": 185,
+              "printedPage": null,
+              "passageId": "passage_a527ae8b8eebbf1a2c22834f",
+              "quote": "בראשיתספ- טמבר1939-נכנסוהגרמניםלעיר"
+            },
+            {
+              "recordId": "event_candidate_3819d4c23cf669522e5fd77e",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Desecration of the new study house",
+              "summary": "German forces expelled Jews and desecrated Torah scrolls at the new study house.",
+              "dateStart": "1941-06-24",
+              "dateEnd": "",
+              "scanIndex": 186,
+              "printedPage": null,
+              "passageId": "passage_0cbb4fd9f9524e10ad2e5c76",
+              "quote": "למחרת,ביוםא׳הת- חילולחללאתספריהתורה"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Forced administration and the ghetto",
+          "summary": "In 1941, a Judenrat was chosen under Attorney Friedberg, while authorities ordered a ghetto across three designated areas. These arrangements imposed German control through both spatial confinement and a council compelled to deal with the occupying authorities [event_candidate_a051169214d5df51af5314fb; event_candidate_555f9869c03a33791ce836d2].",
+          "recordIds": [
+            "event_candidate_a051169214d5df51af5314fb",
+            "event_candidate_555f9869c03a33791ce836d2"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_a051169214d5df51af5314fb",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Establishment of the Sokolka Judenrat",
+              "summary": "In 1941, a Judenrat was chosen, with Attorney Friedberg as its head.",
+              "dateStart": "1941",
+              "dateEnd": "",
+              "scanIndex": 185,
+              "printedPage": null,
+              "passageId": "passage_133cbb85b1879477bf747202",
+              "quote": "עד שבחרוב־1941ב״יודענראט\"ובראשועו״דפרידברג"
+            },
+            {
+              "recordId": "event_candidate_555f9869c03a33791ce836d2",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Ghetto establishment",
+              "summary": "Authorities ordered creation of a ghetto in 1941 across three designated streets.",
+              "dateStart": "1941",
+              "dateEnd": "1941",
+              "scanIndex": 276,
+              "printedPage": null,
+              "passageId": "passage_ce09e931c0cfb148569ce3de",
+              "quote": "וועןס׳האבןזידדערנענטערטדייום־טובים1941 איזפארארדנטגעווארןצושאפןאגעטא"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Labor under persecution",
+          "summary": "Jewish workers were confined in factories and forced into production, including leather work and military-related orders. The accounts of the fur factory, shoe workshop, felt factory, and Chaim Berlshtein’s leather workshop show how labor became part of the machinery of persecution [mention_757da75582a9712342b055bb; mention_37bfa4039bdada2a8e83f143; mention_9625c70500437f4c2be0d738].",
+          "recordIds": [
+            "mention_757da75582a9712342b055bb",
+            "mention_37bfa4039bdada2a8e83f143",
+            "mention_9625c70500437f4c2be0d738"
+          ],
+          "records": [
+            {
+              "recordId": "mention_757da75582a9712342b055bb",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Fur Factory and Shoe Workshop",
+              "summary": "Factory and workshop employed about 200 men and made military orders.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 277,
+              "printedPage": null,
+              "passageId": "passage_ff7dff2aff93295bc8d4e502",
+              "quote": "אפילץ־פאבריקמיטא שוסטערייא"
+            },
+            {
+              "recordId": "mention_37bfa4039bdada2a8e83f143",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Felt Factory",
+              "summary": "Factory where Jewish workers were confined before deportation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 277,
+              "printedPage": null,
+              "passageId": "passage_7a5ee05be5002002b1ccaae3",
+              "quote": "דיפילץ־פאבריק"
+            },
+            {
+              "recordId": "mention_9625c70500437f4c2be0d738",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Chaim Berlshtein’s leather workshop",
+              "summary": "Leather workshop inside the ghetto, associated with Chaim Berlshtein.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 188,
+              "printedPage": null,
+              "passageId": "passage_f18b056c5861458a35ae4754",
+              "quote": "ביח״ר-לברסקאות שלחייםברלשטיין"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Transfer to camps",
+          "summary": "After the ghetto period, most prisoners were transferred to Kolbassin. The forced movement away from Sokółka marked a further loss of place, family connection, and control over one’s fate [event_candidate_65a3405b6c0b374d12cd31f2].",
+          "recordIds": [
+            "event_candidate_65a3405b6c0b374d12cd31f2"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_65a3405b6c0b374d12cd31f2",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Transfer to Kolbassin",
+              "summary": "Most prisoners were transferred to Kolbassin after the ghetto existed until 1942.",
+              "dateStart": "1942",
+              "dateEnd": "1942",
+              "scanIndex": 190,
+              "printedPage": null,
+              "passageId": "passage_5d4cc7cecb177435c2fbc6e8",
+              "quote": "אחר־כך העבירואתרובםלקולבסין"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path-destruction-resistance",
+      "theme": "DEPORTATION_MURDER",
+      "title": "What happened to Sokółka’s Jews, and where do we see resistance?",
+      "description": "This path follows the destruction of the community while preserving the evidence of escape, aid, underground activity, and individual survival. It makes clear that deportation and murder were processes, not a single event, and that people continued to act within extreme danger [event_candidate_50eaf8c5c86be387ae903e0b; event_candidate_06730164adf98f1d8880b5ac].",
+      "question": "How did destruction unfold, and how did people respond?",
+      "steps": [
+        {
+          "title": "Liquidation and deportation",
+          "summary": "In mid-October 1942, residents were assembled and selected; in early December, the Jews of Sokółka were gathered for transport toward Treblinka. The testimony places these actions within the organized destruction of the community rather than treating them as an isolated disappearance [event_candidate_8eb68a5070b14963def4791c; event_candidate_50eaf8c5c86be387ae903e0b].",
+          "recordIds": [
+            "event_candidate_8eb68a5070b14963def4791c",
+            "event_candidate_50eaf8c5c86be387ae903e0b"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_8eb68a5070b14963def4791c",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Ghetto liquidation and deportation",
+              "summary": "Residents were assembled, selected, and deported in mid-October 1942.",
+              "dateStart": "1942-10-01",
+              "dateEnd": "1942-10-31",
+              "scanIndex": 277,
+              "printedPage": null,
+              "passageId": "passage_062167f59720bca4a97dff3c",
+              "quote": "איןאגעוויסן טאג(געוועןאיזדאסאיןמיטןאקטאבער1942)"
+            },
+            {
+              "recordId": "event_candidate_50eaf8c5c86be387ae903e0b",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Deportation of Sokolka Jews to Treblinka",
+              "summary": "Sokolka Jews were assembled and deported toward Treblinka in early December 1942.",
+              "dateStart": "1942-12",
+              "dateEnd": "1942-12",
+              "scanIndex": 277,
+              "printedPage": null,
+              "passageId": "passage_27c444e40a6ff116548ed93c",
+              "quote": "אין אנפאנגדעצעמבער1942צוזאמענגענומעןאלעיידן פוןסאקאלקעאוןפארמירטאטראנספארטקייןטרעב־ לינקע"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Murder and the final transports",
+          "summary": "The deportees were reportedly murdered in early January 1943. Remaining ghetto prisoners were then taken under guard to the railway and transported to Auschwitz, where most were sent to gas chambers; a group of thirty-three young women was initially separated [event_candidate_06730164adf98f1d8880b5ac; event_candidate_7d17a9f55afbede0eeea5068; event_candidate_2b0f919e22ce93b2b48d607e].",
+          "recordIds": [
+            "event_candidate_06730164adf98f1d8880b5ac",
+            "event_candidate_7d17a9f55afbede0eeea5068",
+            "event_candidate_2b0f919e22ce93b2b48d607e"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_06730164adf98f1d8880b5ac",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Destruction of the deportees",
+              "summary": "The deportees were reportedly murdered in early January 1943.",
+              "dateStart": "1943-01-01",
+              "dateEnd": "1943-01-10",
+              "scanIndex": 189,
+              "printedPage": null,
+              "passageId": "passage_37cb74a76942201ed6583fcc",
+              "quote": "לפי המשוער,הםהושמדובתחילתינואר1943"
+            },
+            {
+              "recordId": "event_candidate_7d17a9f55afbede0eeea5068",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Deportation of remaining ghetto Jews to Auschwitz",
+              "summary": "Remaining Jews were taken under guard to the railway and transported to Auschwitz.",
+              "dateStart": "1943-01-18",
+              "dateEnd": "",
+              "scanIndex": 189,
+              "printedPage": null,
+              "passageId": "passage_f93963f02b4a08854f5a3122",
+              "quote": "ב־18 בינוארניתנההפקודה:\"יודענריין\",תחתמשמרשל חייליםהובלוהשרידיםאלתחנתהרכבת"
+            },
+            {
+              "recordId": "event_candidate_2b0f919e22ce93b2b48d607e",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Selection upon arrival at Auschwitz",
+              "summary": "Most deportees were sent to gas chambers; 33 young women were initially separated.",
+              "dateStart": "1943-01-18",
+              "dateEnd": "",
+              "scanIndex": 189,
+              "printedPage": null,
+              "passageId": "passage_f93963f02b4a08854f5a3122",
+              "quote": "בהגיעםלאושביץנערךמיון"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Escape, aid, and hiding",
+          "summary": "About twenty-five people were taken from the ghetto to Białystok through the efforts of a doctor, while refugees from Sokółka and Krinek later jumped from a train. Another testimony recalls a rural family hiding a Jewish child and being executed after the child was discovered [event_candidate_dc8fe216c9f205bcecfc13bb; event_candidate_4b18bc7a026dfd4361ed0083; mention_a9d9598726e09f5d695c9d78].",
+          "recordIds": [
+            "event_candidate_dc8fe216c9f205bcecfc13bb",
+            "event_candidate_4b18bc7a026dfd4361ed0083",
+            "mention_a9d9598726e09f5d695c9d78"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_dc8fe216c9f205bcecfc13bb",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Transport of ghetto survivors to Bialystok",
+              "summary": "About 25 people were transported by bus from the ghetto to Bialystok.",
+              "dateStart": "1943-01-18",
+              "dateEnd": "",
+              "scanIndex": 189,
+              "printedPage": null,
+              "passageId": "passage_f93963f02b4a08854f5a3122",
+              "quote": "הוצאובהשתדלותרופאאחדשל בית־החוליםכ־25איש,בתוכםהגב׳קפלןובתה,והם הוסעובאוטובוסלביאליסטוק"
+            },
+            {
+              "recordId": "event_candidate_4b18bc7a026dfd4361ed0083",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Refugees jump from a train",
+              "summary": "Refugees from Sokolka and Krinek jumped from a train; some were wounded.",
+              "dateStart": "1943-01-26",
+              "dateEnd": "1943-01-26",
+              "scanIndex": 285,
+              "printedPage": null,
+              "passageId": "passage_0f1fa44e72834fc20692f03b",
+              "quote": "עטלעכעפליטיםפוןסאקאלקע אוןקרינעק,וועלכעזיינעןגעשפרונגעןפוןצוג"
+            },
+            {
+              "recordId": "mention_a9d9598726e09f5d695c9d78",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Unnamed rural family",
+              "summary": "A rural family hid a Jewish child and was reportedly executed after discovery.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 194,
+              "printedPage": null,
+              "passageId": "passage_7a896489dc14cb8c88db1785",
+              "quote": "על משפחהכפריתשהחביאהילדיהודי׳נתגלההדברוכלם הוצאולהורג"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Underground resistance and survival",
+          "summary": "Yitzhak Galdshteyn, born in Sokółka in 1916, is remembered as a member of HaNoar HaTzioni and an underground activist; the book reports that he died in the Warsaw bunker explosion. Abraham Kantarovsky’s account, by contrast, preserves a survivor’s escape from Auschwitz, showing different wartime paths within the same community’s story [mention_d2534079b95c4085f1c8629e; mention_729bb202fd7800321293ea7b; mention_7f6265cd088b67e93b9a5824].",
+          "recordIds": [
+            "mention_d2534079b95c4085f1c8629e",
+            "mention_729bb202fd7800321293ea7b",
+            "mention_7f6265cd088b67e93b9a5824"
+          ],
+          "records": [
+            {
+              "recordId": "mention_d2534079b95c4085f1c8629e",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Yitzhak Galdshteyn",
+              "summary": "Sokolka-born member of HaNoar HaTzioni and underground activist.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 286,
+              "printedPage": null,
+              "passageId": "passage_a809d7cf4d4a2fb95a453062",
+              "quote": "יצחקגאלדשטייןאיזגעבוירןאין1916איןסאקאלקע"
+            },
+            {
+              "recordId": "mention_729bb202fd7800321293ea7b",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Yitzhak Galdshteyn",
+              "summary": "Person reported killed during the Warsaw bunker explosion.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 286,
+              "printedPage": null,
+              "passageId": "passage_e695abea101f90c5977ec703",
+              "quote": "יצחקגאלדשטייןאיזאומגעקומען"
+            },
+            {
+              "recordId": "mention_7f6265cd088b67e93b9a5824",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Abraham (Alexander) Kantarovsky",
+              "summary": "A Sokolka resident who described wartime experiences and escape from Auschwitz.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 281,
+              "printedPage": null,
+              "passageId": "passage_e97c85f876f125dc98821d3c",
+              "quote": "אברהם(אלכסנדר)קאנטאראווסקי"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path-survival-memory",
+      "theme": "SURVIVAL_AFTERLIFE",
+      "title": "How did Sokółka survive in memory after the Holocaust?",
+      "description": "This path follows survivors and emigrants as they carried Sokółka into new places and created forms of remembrance. Readers will understand memory as an active communal responsibility: naming the dead, supporting survivors, building monuments, and preserving testimony [mention_fdad3a14288e7c463b43e206; mention_68f1a3cd1df00c16c7051555].",
+      "question": "What remained of Sokółka, and who carried its memory forward?",
+      "steps": [
+        {
+          "title": "A shattered family world",
+          "summary": "One testimony states that the narrator and Benjamin were the two surviving brothers of their entire family. Another describes the Shtein family as surviving the destruction through only a few descendants, making demographic loss visible through family experience [mention_fdad3a14288e7c463b43e206; mention_5809ef72a7666fb7f2c0cb6a].",
+          "recordIds": [
+            "mention_fdad3a14288e7c463b43e206",
+            "mention_5809ef72a7666fb7f2c0cb6a"
+          ],
+          "records": [
+            {
+              "recordId": "mention_fdad3a14288e7c463b43e206",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Narrator's family",
+              "summary": "The narrator and Benjamin were the two surviving brothers of their family.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 278,
+              "printedPage": null,
+              "passageId": "passage_b06ed4f8709b7c0d6ba724b5",
+              "quote": "מירזענען די2ברידערפארבליבענעפוןדערגאנצערמשפחה"
+            },
+            {
+              "recordId": "mention_5809ef72a7666fb7f2c0cb6a",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Shtein family",
+              "summary": "Family described as surviving the destruction with only a few descendants.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 249,
+              "printedPage": null,
+              "passageId": "passage_680a9e415ed9a4df2f7f98b8",
+              "quote": "דאסאיזגעוועןדער שטאםפוןדערפארצווייגטערמשפחהשטיין"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Return to an emptied hometown",
+          "summary": "After the war, a return journey recorded on 7 July 1946 found no Jews. The absence encountered by returning Sokolkers conveys the destruction of communal life more directly than numbers alone [event_candidate_1dd28496b56090f2d1262d07].",
+          "recordIds": [
+            "event_candidate_1dd28496b56090f2d1262d07"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_1dd28496b56090f2d1262d07",
+              "kind": "event",
+              "type": "TRAVEL",
+              "title": "Return journey to Sokolka",
+              "summary": "The narrator traveled together on July 7, 1946, and unfortunately found no Jews; Sokolka is not stated in the supplied quote.",
+              "dateStart": "1946-07-07",
+              "dateEnd": "",
+              "scanIndex": 279,
+              "printedPage": null,
+              "passageId": "passage_0ea212ac4e299dba78e02c57",
+              "quote": "מירפארןצוזאמעןדעם7יולי1946 מירטרעפןצוםבאדויערןקיינעםנישטפוןיידן"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Landsleit rebuilding community",
+          "summary": "The Sokolker Aid Society organized support among landsmen, including projects in Israel and a United Jewish Appeal campaign, and planned an annual banquet in 1957. These activities show survivors and emigrants maintaining social responsibility across distance [mention_68f1a3cd1df00c16c7051555; mention_f0db7ef909b85dc05a6505d9; event_candidate_778241aa6ca5ff583860cbf3].",
+          "recordIds": [
+            "mention_68f1a3cd1df00c16c7051555",
+            "mention_f0db7ef909b85dc05a6505d9",
+            "event_candidate_778241aa6ca5ff583860cbf3"
+          ],
+          "records": [
+            {
+              "recordId": "mention_68f1a3cd1df00c16c7051555",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Sokolker Aid Society",
+              "summary": "A New York landsmanschaft organization supporting projects in Israel.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 290,
+              "printedPage": null,
+              "passageId": "passage_563865fed5fd2d31f55ad6dc",
+              "quote": "דיסאקאלקעראידסאסייעטי"
+            },
+            {
+              "recordId": "mention_f0db7ef909b85dc05a6505d9",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Sokółka Aid Society",
+              "summary": "An organization campaigning among landsmen and members for Israel and the 1956 United Jewish Appeal campaign.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 289,
+              "printedPage": null,
+              "passageId": "passage_9cd89db20fec7f0c66b41833",
+              "quote": "דיסאקאלקעראיד סאסייעטי"
+            },
+            {
+              "recordId": "event_candidate_778241aa6ca5ff583860cbf3",
+              "kind": "event",
+              "type": "BUSINESS_OPENING",
+              "title": "Sokolker Aid Society annual banquet",
+              "summary": "The society planned its annual banquet for February 2, 1957.",
+              "dateStart": "1957-02-02",
+              "dateEnd": "",
+              "scanIndex": 290,
+              "printedPage": null,
+              "passageId": "passage_563865fed5fd2d31f55ad6dc",
+              "quote": "דעם2־טןפעברואר, 1957"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Monument and memorial book",
+          "summary": "Sokółka landsleit established a memorial in Jerusalem for the town’s martyrs and planned a yizkor book to preserve the community’s history for future generations. Sefer Sokolkah therefore functions not only as a record of loss but also as an act of rebuilding communal presence through testimony [mention_3ad2bb8a5b71997372eb403; mention_7d062f5dc91d3defaf63ed0c; mention_ba368c4c63667c11189f7772].",
+          "recordIds": [
+            "mention_3ad2bb8a5b719856a5b719856a",
+            "mention_7d062f5dc91d3defaf63ed0c",
+            "mention_ba368c4c63667c11189f7772"
+          ],
+          "records": [
+            {
+              "recordId": "mention_7d062f5dc91d3defaf63ed0c",
+              "kind": "mention",
+              "type": "OBJECT",
+              "title": "Memorial to the Martyrs",
+              "summary": "Memorial established in Jerusalem for the martyrs.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 88,
+              "printedPage": null,
+              "passageId": "passage_15747968ad70b8a5b719856a",
+              "quote": "בתוככיירושליםהקמנו גלעדלזכרהקדושים"
+            },
+            {
+              "recordId": "mention_ba368c4c63667c11189f7772",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Sokółka memorial book",
+              "summary": "A planned memorial book intended to preserve the history of Sokółka for future generations.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 289,
+              "printedPage": null,
+              "passageId": "passage_a95b9b5ddc33513a8cc2488d",
+              "quote": "ארויסצוגעבן אסאקאלקעריזכור־בוך"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "periodStart": "Late nineteenth century",
+      "periodEnd": "1900",
+      "dateLabel": "1883–1900",
+      "title": "Rabbinic leadership and religious learning",
+      "summary": "Tzvi Hirsch Director served as Sokółka’s rabbi, while the memorial book also preserves his authorship of religious works. His tenure reflects the importance of rabbinic authority and learning in community life [event_candidate_0914de2ef8a1fd3004900710; mention_aa05f15ce5e663820e60f6ea].",
+      "recordIds": [
+        "event_candidate_0914de2ef8a1fd3004900710",
+        "mention_aa05f15ce5e663820e60f6ea"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_0914de2ef8a1fd3004900710",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Tzvi Hirsch Director serves as rabbi in Sokolka",
+          "summary": "Tzvi Hirsch Director served as Sokolka's rabbi from 1883 to 1900.",
+          "dateStart": "1883",
+          "dateEnd": "1900",
+          "scanIndex": 44,
+          "printedPage": null,
+          "passageId": "passage_498e4e3e85ce6cb7b6f9750e",
+          "quote": "רבבסוקולקהבשנותתרמ״ג—תר״ס(1883—1900)"
+        },
+        {
+          "recordId": "mention_aa05f15ce5e663820e60f6ea",
+          "kind": "mention",
+          "type": "PERSON",
+          "title": "Tzvi Hirsch Director",
+          "summary": "Rabbi of Sokolka from 1883 to 1900.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 44,
+          "printedPage": null,
+          "passageId": "passage_498e4e3e85ce6cb7b6f9750e",
+          "quote": "הרבר׳צביהירשדירקטור"
+        }
+      ],
+      "position": 1
+    },
+    {
+      "periodStart": "1902",
+      "periodEnd": "1905",
+      "dateLabel": "1902–1905",
+      "title": "Religious and Hebrew education expand",
+      "summary": "Chaim Meir Shmul was appointed religious teacher in 1902; a reformed heder was attempted in 1903, and a Hebrew school was founded in 1904–1905 [event_candidate_b7b7f1edffddce70dd37d5b4; event_candidate_7cb346c07f8d74954ea73529; event_candidate_bf1278434abd3fb7957a1722].",
+      "recordIds": [
+        "event_candidate_b7b7f1edffddce70dd37d5b4",
+        "event_candidate_7cb346c07f8d74954ea73529",
+        "event_candidate_bf1278434abd3fb7957a1722"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_b7b7f1edffddce70dd37d5b4",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Appointment in Sokolka",
+          "summary": "Chaim Meir Shmul was appointed religious teacher in Sokolka in 1902.",
+          "dateStart": "1902",
+          "dateEnd": "1902",
+          "scanIndex": 157,
+          "printedPage": null,
+          "passageId": "passage_4e29b24eec345d58587c825a",
+          "quote": "נתמנהכמורה־הוראהבסוקולקהבשנת1902"
+        },
+        {
+          "recordId": "event_candidate_7cb346c07f8d74954ea73529",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Opening of a reformed heder",
+          "summary": "In 1903 in Sokolka, a Hebrew teacher opened a reformed heder, but it did not continue for lack of students; the teacher's name is unclear.",
+          "dateStart": "1903",
+          "dateEnd": "",
+          "scanIndex": 174,
+          "printedPage": null,
+          "passageId": "passage_5e4bfa670342f679c99f464d",
+          "quote": "בשנת1903באלסוקולקהמורהלעברית,ושמוצירקל ופתח\"חדרמתוקן\""
+        },
+        {
+          "recordId": "event_candidate_bf1278434abd3fb7957a1722",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Founding of the Hebrew school",
+          "summary": "A Zionist group founded a Hebrew school in Sokolka during 1904–1905.",
+          "dateStart": "1904",
+          "dateEnd": "1905",
+          "scanIndex": 174,
+          "printedPage": null,
+          "passageId": "passage_5e4bfa670342f679c99f464d",
+          "quote": "בשנת5־1904נוסדבית-הספרלעברית"
+        }
+      ],
+      "position": 2
+    },
+    {
+      "periodStart": "1905",
+      "periodEnd": "1910",
+      "dateLabel": "1905–1910",
+      "title": "Political participation and Zionist activity",
+      "summary": "Sokółka Jews participated in elections to four Dumas, and the town raised money for the Jewish National Fund in 1910. These records place local Jewish life within wider political and Zionist networks [event_candidate_3275ea09abea2510b7589c88; event_candidate_cb1e0a04edfd1d6c71d1ba6e].",
+      "recordIds": [
+        "event_candidate_3275ea09abea2510b7589c88",
+        "event_candidate_cb1e0a04edfd1d6c71d1ba6e"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_3275ea09abea2510b7589c88",
+          "kind": "event",
+          "type": "MILITARY_SERVICE",
+          "title": "Elections to four Dumas",
+          "summary": "Sokolka Jews participated in elections to four Dumas, with named representatives elected.",
+          "dateStart": "1905",
+          "dateEnd": "",
+          "scanIndex": 38,
+          "printedPage": null,
+          "passageId": "passage_4b5fb9a279974fe6adcaf332",
+          "quote": "יהודיסוקולקההשתתפובבחירותלארבעה״דומות"
+        },
+        {
+          "recordId": "event_candidate_cb1e0a04edfd1d6c71d1ba6e",
+          "kind": "event",
+          "type": "BUSINESS_OPENING",
+          "title": "1910 collection for the Jewish National Fund",
+          "summary": "Money was collected in Sokolka for the Jewish National Fund in 1910.",
+          "dateStart": "1910",
+          "dateEnd": "1910",
+          "scanIndex": 38,
+          "printedPage": null,
+          "passageId": "passage_4b5fb9a279974fe6adcaf332",
+          "quote": "בשנתתר״ענאסףבסוקולקהכסףרבלמעןהקק״ל"
+        }
+      ],
+      "position": 3
+    },
+    {
+      "periodStart": "1914",
+      "periodEnd": "1919",
+      "dateLabel": "First World War and its aftermath",
+      "title": "War, displacement, and new movements",
+      "summary": "The First World War disrupted plans for immigration, while the Russian retreat, the German advance, and later political changes reshaped Sokółka. After the war, youth groups organized for immigration to the Land of Israel [event_candidate_e60e0e5c3186d9cb99e5df73; event_candidate_382f0035eb563115516490f2; event_candidate_e064a973a3e38a23ac1ac0ee].",
+      "recordIds": [
+        "event_candidate_e60e0e5c3186d9cb99e5df73",
+        "event_candidate_382f0035eb563115516490f2",
+        "event_candidate_e064a973a3e38a23ac1ac0ee"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_e60e0e5c3186d9cb99e5df73",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "First World War began",
+          "summary": "The First World War began in 1914, ending plans to travel to the Land of Israel.",
+          "dateStart": "1914",
+          "dateEnd": "1914",
+          "scanIndex": 242,
+          "printedPage": null,
+          "passageId": "passage_48c0f9375d66ddacaa50106b",
+          "quote": "איזאבעראויסגעבראכן דיערשטעוועלט־מלחמהאין1914"
+        },
+        {
+          "recordId": "event_candidate_382f0035eb563115516490f2",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Russian army retreat from Sokolka",
+          "summary": "The Russian army retreated from Sokolka toward Grodno during the German advance.",
+          "dateStart": "1915",
+          "dateEnd": "",
+          "scanIndex": 75,
+          "printedPage": null,
+          "passageId": "passage_098faeb9139d8cc715cc9392",
+          "quote": "הצבאהרוסינסוג"
+        },
+        {
+          "recordId": "event_candidate_e064a973a3e38a23ac1ac0ee",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Organization of youth groups in Sokolka",
+          "summary": "The Land of Israel Office began organizing youth groups for immigration after the war.",
+          "dateStart": "1918",
+          "dateEnd": "",
+          "scanIndex": 105,
+          "printedPage": null,
+          "passageId": "passage_529730ee97376c10f4c9d5b7",
+          "quote": "ובגמרהמלחמהב־1918,במשטרהחדש שלהפולנים,התחילהמשרד־הארץ־ישראליבסוקולקה לארגןקבוצותנוערלעליהלא״י"
+        }
+      ],
+      "position": 4
+    },
+    {
+      "periodStart": "1919",
+      "periodEnd": "1927",
+      "dateLabel": "1919–1927",
+      "title": "Youth movements and economic strain",
+      "summary": "Hechalutz arose in 1919–1920, while the 1926 economic crisis left Jewish workers, artisans, and merchants unemployed and impoverished. Hashomer Hatzair continued organizing youth activity, including a summer camp in 1927 [event_candidate_88a0eae934775b9f468ac00d; event_candidate_2aed68b35675493b74296530; event_candidate_358a8fce70bdbf545b170be1].",
+      "recordIds": [
+        "event_candidate_88a0eae934775b9f468ac00d",
+        "event_candidate_2aed68b35675493b74296530",
+        "event_candidate_358a8fce70bdbf545b170be1"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_88a0eae934775b9f468ac00d",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Hechalutz movement established in Sokolka",
+          "summary": "Hechalutz arose in Sokolka during 1919–1920.",
+          "dateStart": "1919",
+          "dateEnd": "1920",
+          "scanIndex": 142,
+          "printedPage": null,
+          "passageId": "passage_d0d078022f08af0fcd2a0097",
+          "quote": "בשנות1920־1919קמהתנועת \"החלוץ\""
+        },
+        {
+          "recordId": "event_candidate_2aed68b35675493b74296530",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Sokolka economic crisis",
+          "summary": "A severe economic crisis left Jewish workers, artisans, and merchants unemployed and impoverished.",
+          "dateStart": "1926",
+          "dateEnd": "1926",
+          "scanIndex": 56,
+          "printedPage": null,
+          "passageId": "passage_ede51930f9f8d5637e39aa0b",
+          "quote": "המשברהכלכליבסוקולקהבשנתרפ״ו(1926)"
+        },
+        {
+          "recordId": "event_candidate_358a8fce70bdbf545b170be1",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Hashomer Hatzair summer camp",
+          "summary": "Hashomer Hatzair held a summer camp in Nova Michalna in 1927.",
+          "dateStart": "1927",
+          "dateEnd": "1927",
+          "scanIndex": 90,
+          "printedPage": null,
+          "passageId": "passage_64d3063b63e8a5b05f90e9ca",
+          "quote": "מושבתקיץשלה״שומרהצעיר״בסוקולקד.בכפרנובהמיצ׳לנה(ע״יסוקולקה)בשנת1927"
+        }
+      ],
+      "position": 5
+    },
+    {
+      "periodStart": "1939",
+      "periodEnd": "1941",
+      "dateLabel": "September 1939–1941",
+      "title": "German occupation and ghettoization",
+      "summary": "German forces entered Sokółka in September 1939. In 1941, authorities ordered a ghetto and a Judenrat was chosen, marking the transition from occupation to systematic confinement [event_candidate_6048c3dc2707e61108e4f17b; event_candidate_555f9869c03a33791ce836d2; event_candidate_a051169214d5df51af5314fb].",
+      "recordIds": [
+        "event_candidate_6048c3dc2707e61108e4f17b",
+        "event_candidate_555f9869c03a33791ce836d2",
+        "event_candidate_a051169214d5df51af5314fb"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_6048c3dc2707e61108e4f17b",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "German entry into Sokolka",
+          "summary": "German forces entered Sokolka at the beginning of September 1939.",
+          "dateStart": "1939-09",
+          "dateEnd": "",
+          "scanIndex": 185,
+          "printedPage": null,
+          "passageId": "passage_a527ae8b8eebbf1a2c22834f",
+          "quote": "בראשיתספ- טמבר1939-נכנסוהגרמניםלעיר"
+        },
+        {
+          "recordId": "event_candidate_555f9869c03a33791ce836d2",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Ghetto establishment",
+          "summary": "Authorities ordered creation of a ghetto in 1941 across three designated streets.",
+          "dateStart": "1941",
+          "dateEnd": "1941",
+          "scanIndex": 276,
+          "printedPage": null,
+          "passageId": "passage_ce09e931c0cfb148569ce3de",
+          "quote": "וועןס׳האבןזידדערנענטערטדייום־טובים1941 איזפארארדנטגעווארןצושאפןאגעטא"
+        },
+        {
+          "recordId": "event_candidate_a051169214d5df51af5314fb",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Establishment of the Sokolka Judenrat",
+          "summary": "In 1941, a Judenrat was chosen, with Attorney Friedberg as its head.",
+          "dateStart": "1941",
+          "dateEnd": "",
+          "scanIndex": 185,
+          "printedPage": null,
+          "passageId": "passage_133cbb85b1879477bf747202",
+          "quote": "עד שבחרוב־1941ב״יודענראט\"ובראשועו״דפרידברג"
+        }
+      ],
+      "position": 6
+    },
+    {
+      "periodStart": "1942",
+      "periodEnd": "1943",
+      "dateLabel": "October 1942–January 1943",
+      "title": "Deportation and destruction",
+      "summary": "Ghetto residents were assembled and selected, deported toward Treblinka, and later sent to Auschwitz; the deportees were reportedly murdered by early January 1943. Factory prisoners were deported to Auschwitz on 23 January 1943 [event_candidate_8eb68a5070b14963def4791c; event_candidate_50eaf8c5c86be387ae903e0b; event_candidate_06730164adf98f1d8880b5ac; event_candidate_8003c6cde825b8bbec5b37b0].",
+      "recordIds": [
+        "event_candidate_8eb68a5070b14963def4791c",
+        "event_candidate_50eaf8c5c86be387ae903e0b",
+        "event_candidate_06730164adf98f1d8880b5ac",
+        "event_candidate_8003c6cde825b8bbec5b37b0"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_8eb68a5070b14963def4791c",
+          "kind": "event",
+          "type": "DEPORTATION",
+          "title": "Ghetto liquidation and deportation",
+          "summary": "Residents were assembled, selected, and deported in mid-October 1942.",
+          "dateStart": "1942-10-01",
+          "dateEnd": "1942-10-31",
+          "scanIndex": 277,
+          "printedPage": null,
+          "passageId": "passage_062167f59720bca4a97dff3c",
+          "quote": "איןאגעוויסן טאג(געוועןאיזדאסאיןמיטןאקטאבער1942)"
+        },
+        {
+          "recordId": "event_candidate_50eaf8c5c86be387ae903e0b",
+          "kind": "event",
+          "type": "DEPORTATION",
+          "title": "Deportation of Sokolka Jews to Treblinka",
+          "summary": "Sokolka Jews were assembled and deported toward Treblinka in early December 1942.",
+          "dateStart": "1942-12",
+          "dateEnd": "1942-12",
+          "scanIndex": 277,
+          "printedPage": null,
+          "passageId": "passage_27c444e40a6ff116548ed93c",
+          "quote": "אין אנפאנגדעצעמבער1942צוזאמענגענומעןאלעיידן פוןסאקאלקעאוןפארמירטאטראנספארטקייןטרעב־ לינקע"
+        },
+        {
+          "recordId": "event_candidate_06730164adf98f1d8880b5ac",
+          "kind": "event",
+          "type": "MURDER",
+          "title": "Destruction of the deportees",
+          "summary": "The deportees were reportedly murdered in early January 1943.",
+          "dateStart": "1943-01-01",
+          "dateEnd": "1943-01-10",
+          "scanIndex": 189,
+          "printedPage": null,
+          "passageId": "passage_37cb74a76942201ed6583fcc",
+          "quote": "לפי המשוער,הםהושמדובתחילתינואר1943"
+        },
+        {
+          "recordId": "event_candidate_8003c6cde825b8bbec5b37b0",
+          "kind": "event",
+          "type": "DEPORTATION",
+          "title": "Factory prisoners deported to Auschwitz",
+          "summary": "On January 23, 1943, factory prisoners were loaded into wagons and deported to Auschwitz.",
+          "dateStart": "1943-01-23",
+          "dateEnd": "1943-01-23",
+          "scanIndex": 277,
+          "printedPage": null,
+          "passageId": "passage_7a5ee05be5002002b1ccaae3",
+          "quote": "דעם23־טן יאנואר1943איינגעלאדעוועטאלעמעןאיןוואגאנען אוןאוועקגעפירטקייןאושוויץ"
+        }
+      ],
+      "position": 7
+    },
+    {
+      "periodStart": "1944",
+      "periodEnd": "1946",
+      "dateLabel": "1944–1946",
+      "title": "Liberation and return",
+      "summary": "Radio reports announced the liberation of Sokółka in 1944, and Soviet forces captured the town after the German retreat in 1945. A return journey in July 1946 recorded finding no Jews [event_candidate_b32c8c2263ecb24354159d2a; event_candidate_9ed49af28ab9022cea47d928; event_candidate_1dd28496b56090f2d1262d07].",
+      "recordIds": [
+        "event_candidate_b32c8c2263ecb24354159d2a",
+        "event_candidate_9ed49af28ab9022cea47d928",
+        "event_candidate_1dd28496b56090f2d1262d07"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_b32c8c2263ecb24354159d2a",
+          "kind": "event",
+          "type": "LIBERATION",
+          "title": "Liberation of Sokolka announced",
+          "summary": "The radio announcer listed Sokolka among towns liberated by the Red Army.",
+          "dateStart": "1944",
+          "dateEnd": "",
+          "scanIndex": 190,
+          "printedPage": null,
+          "passageId": "passage_d25bed9e31b7207e78c31dad",
+          "quote": "והנההיוםמונההקרייןאחד־אחדעירותוכפרים וביניהםסוקולקה"
+        },
+        {
+          "recordId": "event_candidate_9ed49af28ab9022cea47d928",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Esther Holtzman leaves Russia",
+          "summary": "Esther Holtzman left Russia with her only son on May 1, 1946.",
+          "dateStart": "1946-05-01",
+          "dateEnd": "",
+          "scanIndex": 279,
+          "printedPage": null,
+          "passageId": "passage_1904b3be47160c9481eab699",
+          "quote": "1946,1־טןמאי,פארלאזאיךמיטמייןזוהןז״ל, מייןאיינציקןטרייסטיצחקעלע,רוסלאנד"
+        },
+        {
+          "recordId": "event_candidate_1dd28496b56090f2d1262d07",
+          "kind": "event",
+          "type": "TRAVEL",
+          "title": "Return journey to Sokolka",
+          "summary": "The narrator traveled together on July 7, 1946, and unfortunately found no Jews; Sokolka is not stated in the supplied quote.",
+          "dateStart": "1946-07-07",
+          "dateEnd": "",
+          "scanIndex": 279,
+          "printedPage": null,
+          "passageId": "passage_0ea212ac4e299dba78e02c57",
+          "quote": "מירפארןצוזאמעןדעם7יולי1946 מירטרעפןצוםבאדויערןקיינעםנישטפוןיידן"
+        }
+      ],
+      "position": 8
+    },
+    {
+      "periodStart": "Postwar decades",
+      "periodEnd": "1957",
+      "dateLabel": "After the war–1957",
+      "title": "Landsleit organize remembrance and support",
+      "summary": "The Sokolker Aid Society supported projects in Israel and charitable campaigns, while landsleit created a memorial and planned a yizkor book for future generations [mention_68f1a3cd1df00c16c7051555; mention_f0db7ef909b85dc05a6505d9; mention_ba368c4c63667c11189f7772; event_candidate_778241aa6ca5ff583860cbf3].",
+      "recordIds": [
+        "mention_68f1a3cd1df00c16c7051555",
+        "mention_f0db7ef909b85dc05a6505d9",
+        "mention_ba368c4c63667c11189f7772",
+        "event_candidate_778241aa6ca5ff583860cbf3"
+      ],
+      "records": [
+        {
+          "recordId": "mention_68f1a3cd1df00c16c7051555",
+          "kind": "mention",
+          "type": "ORGANIZATION",
+          "title": "Sokolker Aid Society",
+          "summary": "A New York landsmanschaft organization supporting projects in Israel.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 290,
+          "printedPage": null,
+          "passageId": "passage_563865fed5fd2d31f55ad6dc",
+          "quote": "דיסאקאלקעראידסאסייעטי"
+        },
+        {
+          "recordId": "mention_f0db7ef909b85dc05a6505d9",
+          "kind": "mention",
+          "type": "ORGANIZATION",
+          "title": "Sokółka Aid Society",
+          "summary": "An organization campaigning among landsmen and members for Israel and the 1956 United Jewish Appeal campaign.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 289,
+          "printedPage": null,
+          "passageId": "passage_9cd89db20fec7f0c66b41833",
+          "quote": "דיסאקאלקעראיד סאסייעטי"
+        },
+        {
+          "recordId": "mention_ba368c4c63667c11189f7772",
+          "kind": "mention",
+          "type": "WORK",
+          "title": "Sokółka memorial book",
+          "summary": "A planned memorial book intended to preserve the history of Sokółka for future generations.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 289,
+          "printedPage": null,
+          "passageId": "passage_a95b9b5ddc33513a8cc2488d",
+          "quote": "ארויסצוגעבן אסאקאלקעריזכור־בוך"
+        },
+        {
+          "recordId": "event_candidate_778241aa6ca5ff583860cbf3",
+          "kind": "event",
+          "type": "BUSINESS_OPENING",
+          "title": "Sokolker Aid Society annual banquet",
+          "summary": "The society planned its annual banquet for February 2, 1957.",
+          "dateStart": "1957-02-02",
+          "dateEnd": "",
+          "scanIndex": 290,
+          "printedPage": null,
+          "passageId": "passage_563865fed5fd2d31f55ad6dc",
+          "quote": "דעם2־טןפעברואר, 1957"
+        }
+      ],
+      "position": 9
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "mention_d78b372885e95b2ea1bbce47",
+  "type": "Place",
+  "title": "Bridge over the railway",
+  "summary": "Bridge destroyed by retreating Russian forces near Sokolka.",
+  "originalName": "הגשר שמעל פסי הרכבת",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 75,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "bridge",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_098faeb9139d8cc715cc9392",
+      "pageId": "page_nybc314005_0075",
+      "scanIndex": 75,
+      "leafNumber": 74,
+      "printedPage": null,
+      "passageCharStart": 939,
+      "passageCharEnd": 981,
+      "normalizedPassageCharStart": 682,
+      "normalizedPassageCharEnd": 712,
+      "pageCharStart": 3151,
+      "pageCharEnd": 3193,
+      "quote": "הרוסי ם פוצצ ו\nא ת הגש ר שמע ל פס י הרכב ת",
+      "normalizedQuote": "הרוסיםפוצצו אתהגשרשמעלפסיהרכבת",
+      "modelQuote": "הרוסים פוצצו את הגשר שמעל פסי הרכבת",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n74/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "cd50f9d388b9a05dbde1babc59bfa1181c8348b7ff03f0c5b063005189d6bd83",
+      "normalizedPassageChecksum": "bfd812c42592543cd72ef37f781418a78c41bfbdcc73cf0c267a3272bb2ac6a1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_fc5a225b7811096200842f15",
+      "type": "Fire",
+      "title": "Destruction of the railway bridge",
+      "summary": "Retreating Russians destroyed a bridge over the railway near Sokolka.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event is an explosion or demolition; FIRE is the closest allowed event type.",
+      "evidence": {
+        "passageId": "passage_098faeb9139d8cc715cc9392",
+        "pageId": "page_nybc314005_0075",
+        "scanIndex": 75,
+        "leafNumber": 74,
+        "printedPage": null,
+        "passageCharStart": 939,
+        "passageCharEnd": 981,
+        "normalizedPassageCharStart": 682,
+        "normalizedPassageCharEnd": 712,
+        "pageCharStart": 3151,
+        "pageCharEnd": 3193,
+        "quote": "הרוסי ם פוצצ ו\nא ת הגש ר שמע ל פס י הרכב ת",
+        "normalizedQuote": "הרוסיםפוצצו אתהגשרשמעלפסיהרכבת",
+        "modelQuote": "הרוסים פוצצו את הגשר שמעל פסי הרכבת",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n74/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "cd50f9d388b9a05dbde1babc59bfa1181c8348b7ff03f0c5b063005189d6bd83",
+        "normalizedPassageChecksum": "bfd812c42592543cd72ef37f781418a78c41bfbdcc73cf0c267a3272bb2ac6a1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_fc5a225b7811096200842f15",
+      "type": "Event",
+      "title": "Destruction of the railway bridge",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6fa798ef2f3df3a6cff8455d",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d07769cb8a416b04cfaba33d",
+      "type": "Place",
+      "title": "Grodno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_14028de69b8923be97340a0b",
+      "type": "Place",
+      "title": "Augustow",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2ddc914b7349b64564b8e363",
+      "type": "Organization",
+      "title": "Russian army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_045cfec2d6e81a9665d9b578",
+      "type": "Organization",
+      "title": "Russian Cossacks",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

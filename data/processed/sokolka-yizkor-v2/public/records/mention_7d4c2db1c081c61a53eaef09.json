@@ -1,0 +1,102 @@
+{
+  "id": "mention_7d4c2db1c081c61a53eaef09",
+  "type": "Place",
+  "title": "Ramatayim cemetery",
+  "summary": "Cemetery where the narrator's mother was buried.",
+  "originalName": "בית־ הקברותברמתיים",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 148,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cemetery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1e688e77e4f35d84daa81945",
+      "pageId": "page_nybc314005_0148",
+      "scanIndex": 148,
+      "leafNumber": 147,
+      "printedPage": null,
+      "passageCharStart": 1240,
+      "passageCharEnd": 1263,
+      "normalizedPassageCharStart": 884,
+      "normalizedPassageCharEnd": 903,
+      "pageCharStart": 1240,
+      "pageCharEnd": 1263,
+      "quote": "בבית ־\nהקברו ת ברמתיי ם",
+      "normalizedQuote": "בבית־ הקברותברמתיים",
+      "modelQuote": "בבית־ הקברותברמתיים",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n147/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "44559c66c1e7f2813215071a2c32fba6310d8f44014e8d2d06c291ab18c50d1f",
+      "normalizedPassageChecksum": "e166c02de0adb5b524301e4678ca310061a7835a61f5d82ce6c3b71a3e791a25",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_4e3b77d5b109c6aed99644a0",
+      "type": "Burial",
+      "title": "Death of narrator's mother",
+      "summary": "The narrator's mother was buried in the Ramatayim cemetery on 29 Adar 5708.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage describes burial or death indirectly; the mother's name is not given.",
+      "evidence": {
+        "passageId": "passage_1e688e77e4f35d84daa81945",
+        "pageId": "page_nybc314005_0148",
+        "scanIndex": 148,
+        "leafNumber": 147,
+        "printedPage": null,
+        "passageCharStart": 1216,
+        "passageCharEnd": 1279,
+        "normalizedPassageCharStart": 868,
+        "normalizedPassageCharEnd": 914,
+        "pageCharStart": 1216,
+        "pageCharEnd": 1279,
+        "quote": "אמ א מצאד , א ת מנוחת ה בבית ־\nהקברו ת ברמתיי ם בכ״ ט אד ר תש״ח",
+        "normalizedQuote": "אמאמצאד,אתמנוחתהבבית־ הקברותברמתייםבכ״טאדרתש״ח",
+        "modelQuote": "אמאמצאד,אתמנוחתהבבית־ הקברותברמתייםבכ״טאדרתש״ח",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n147/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "44559c66c1e7f2813215071a2c32fba6310d8f44014e8d2d06c291ab18c50d1f",
+        "normalizedPassageChecksum": "e166c02de0adb5b524301e4678ca310061a7835a61f5d82ce6c3b71a3e791a25",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_4e3b77d5b109c6aed99644a0",
+      "type": "Event",
+      "title": "Death of narrator's mother",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1ff2506a7913c526c1ae0128",
+      "type": "Place",
+      "title": "Kfar Malal",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b5aabf22006ed5b00761734b",
+      "type": "Place",
+      "title": "Tel Aviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_caf9f639f210eccf46899465",
+      "type": "Person",
+      "title": "Hayim Leib Reizkind",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

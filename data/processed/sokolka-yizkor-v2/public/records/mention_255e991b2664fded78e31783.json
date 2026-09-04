@@ -1,0 +1,186 @@
+{
+  "id": "mention_255e991b2664fded78e31783",
+  "type": "Place",
+  "title": "Ghetto Cemetery",
+  "summary": "Cemetery containing unidentified graves.",
+  "originalName": "געטא־בית־הקברות",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 280,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cemetery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b8d2529de10ebee74cdfa28a",
+      "pageId": "page_nybc314005_0280",
+      "scanIndex": 280,
+      "leafNumber": 279,
+      "printedPage": null,
+      "passageCharStart": 250,
+      "passageCharEnd": 283,
+      "normalizedPassageCharStart": 179,
+      "normalizedPassageCharEnd": 205,
+      "pageCharStart": 250,
+      "pageCharEnd": 283,
+      "quote": "דאר ט אי ז דע ר געטא־בית ־\nהקברות",
+      "normalizedQuote": "דארטאיזדערגעטא־בית־ הקברות",
+      "modelQuote": "דארטאיזדערגעטא־בית־הקברות",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n279/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "0debc8586b9b0d88233e5a63e58ae1214fb29fb5a8237d5158eb688bdceb2384",
+      "normalizedPassageChecksum": "0bf2fa9beb01b2260031843b247459170c70b4d93f5f8aeaabec1b57dc74ed9e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_6923daa56110cfcdf270160e",
+      "type": "Murder",
+      "title": "Shooting of Mayshel Stutzinsky",
+      "summary": "Mayshel Stutzinsky was shot.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_b8d2529de10ebee74cdfa28a",
+        "pageId": "page_nybc314005_0280",
+        "scanIndex": 280,
+        "leafNumber": 279,
+        "printedPage": null,
+        "passageCharStart": 1013,
+        "passageCharEnd": 1056,
+        "normalizedPassageCharStart": 728,
+        "normalizedPassageCharEnd": 759,
+        "pageCharStart": 1013,
+        "pageCharEnd": 1056,
+        "quote": "ד א הא ט מע ן דערשאס ן מייש ל סטו ־\nצינסק י",
+        "normalizedQuote": "דאהאטמעןדערשאסןמיישלסטו־ צינסקי",
+        "modelQuote": "דאהאטמעןדערשאסןמיישלסטו־ צינסקי",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n279/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "0debc8586b9b0d88233e5a63e58ae1214fb29fb5a8237d5158eb688bdceb2384",
+        "normalizedPassageChecksum": "0bf2fa9beb01b2260031843b247459170c70b4d93f5f8aeaabec1b57dc74ed9e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_9473bd78144f46ac6eb2a255",
+      "type": "Murder",
+      "title": "Shooting of fifteen householders",
+      "summary": "Fifteen householders and the rabbi were reportedly shot together.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_b8d2529de10ebee74cdfa28a",
+        "pageId": "page_nybc314005_0280",
+        "scanIndex": 280,
+        "leafNumber": 279,
+        "printedPage": null,
+        "passageCharStart": 1102,
+        "passageCharEnd": 1167,
+        "normalizedPassageCharStart": 788,
+        "normalizedPassageCharEnd": 834,
+        "pageCharStart": 1102,
+        "pageCharEnd": 1167,
+        "quote": "ד א —\nזאג ט ע ר — הא ט מע ן דערשאס ן 15 בעלי־בתי ם מיט ן\nר ב בראש",
+        "normalizedQuote": "דא— זאגטער—האטמעןדערשאסן15בעלי־בתיםמיטן רבבראש",
+        "modelQuote": "דא— זאגטער—האטמעןדערשאסן15בעלי־בתיםמיטן רבבראש",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n279/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "0debc8586b9b0d88233e5a63e58ae1214fb29fb5a8237d5158eb688bdceb2384",
+        "normalizedPassageChecksum": "0bf2fa9beb01b2260031843b247459170c70b4d93f5f8aeaabec1b57dc74ed9e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_6923daa56110cfcdf270160e",
+      "type": "Event",
+      "title": "Shooting of Mayshel Stutzinsky",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "event_candidate_9473bd78144f46ac6eb2a255",
+      "type": "Event",
+      "title": "Shooting of fifteen householders",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_41f6e83d711e22256eddb334",
+      "type": "Person",
+      "title": "Esther Holtzman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d5355a030815a2b4989ef495",
+      "type": "Person",
+      "title": "Yitzhak Zalzon",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_59ac783379f382b98148e05c",
+      "type": "Place",
+      "title": "Old and New Bet Midrash",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9b77baedea64eadb9b4e0106",
+      "type": "Place",
+      "title": "Market",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bfcf96ab8828da4d7d667a2a",
+      "type": "Institution",
+      "title": "Court",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1352eccd04c4e1b308db0b98",
+      "type": "Place",
+      "title": "Old Cemetery on Ulitzke",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a27f91b73b4852383e8edfb3",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_25d6183c964699997a4556ba",
+      "type": "Person",
+      "title": "Yitzhak Ekshtein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_24c7b903d2d050d07ef660ef",
+      "type": "Person",
+      "title": "Mayshel Stutzinsky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6d4f806d2c985d6e8a9ec472",
+      "type": "Place",
+      "title": "Kurile Forest",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7654b2ae9d1d395bf26c362b",
+      "type": "Community",
+      "title": "Fifteen Householders",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

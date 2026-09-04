@@ -1,0 +1,110 @@
+{
+  "id": "mention_6f4f79f6a225a823856ca634",
+  "type": "Community",
+  "title": "the Germans",
+  "summary": "German guards who forced Jews into the street and abused them.",
+  "originalName": "הגרמנים",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 188,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "German perpetrators",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_80d36b2e3f759c3cd2be89e9",
+      "pageId": "page_nybc314005_0188",
+      "scanIndex": 188,
+      "leafNumber": 187,
+      "printedPage": null,
+      "passageCharStart": 186,
+      "passageCharEnd": 194,
+      "normalizedPassageCharStart": 137,
+      "normalizedPassageCharEnd": 144,
+      "pageCharStart": 186,
+      "pageCharEnd": 194,
+      "quote": "הגרמני ם",
+      "normalizedQuote": "הגרמנים",
+      "modelQuote": "הגרמנים",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n187/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "354c76504ecc127edb46e983c28f627bc672eb447772fafe0f0809f45134c8e3",
+      "normalizedPassageChecksum": "c830b83f0403c9f022245f3e215193b8edcb57a83f30931f494d191dcbfacd65",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b3ef8ef2131a8d2bf5d816bc",
+      "type": "Forced Removal To Warsaw Street",
+      "title": "Forced removal of Jews to Warsaw",
+      "summary": "German guards brought the Jews under guard to Warsaw Street, not necessarily to Warsaw city.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR wording is unclear about whether Warsaw was the destination or a street name.",
+      "evidence": {
+        "passageId": "passage_80d36b2e3f759c3cd2be89e9",
+        "pageId": "page_nybc314005_0188",
+        "scanIndex": 188,
+        "leafNumber": 187,
+        "printedPage": null,
+        "passageCharStart": 79,
+        "passageCharEnd": 127,
+        "normalizedPassageCharStart": 58,
+        "normalizedPassageCharEnd": 95,
+        "pageCharStart": 79,
+        "pageCharEnd": 127,
+        "quote": "תח ת\nמשמר־חיילי ם חז ק הובא ו כול ם לרחו ב וארשה",
+        "normalizedQuote": "תחת משמר־חייליםחזקהובאוכולםלרחובוארשה",
+        "modelQuote": "תחת משמר־חיילים חזקה ובאו כולם לרחוב וארשה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n187/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "354c76504ecc127edb46e983c28f627bc672eb447772fafe0f0809f45134c8e3",
+        "normalizedPassageChecksum": "c830b83f0403c9f022245f3e215193b8edcb57a83f30931f494d191dcbfacd65",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b3ef8ef2131a8d2bf5d816bc",
+      "type": "Event",
+      "title": "Forced removal of Jews to Warsaw",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "event_candidate_5e198ee9ee16b3f62bb19c8c",
+      "type": "Event",
+      "title": "Removal of Jews from the ghetto",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_ade84618b71f75d7499f0488",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9538b07baef929b9066abe1a",
+      "type": "Place",
+      "title": "the pig market",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_690b6b1c86cbc1190be0a335",
+      "type": "Community",
+      "title": "Christian neighbors",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,102 @@
+{
+  "id": "mention_86eb05cb10ed29989829c8de",
+  "type": "Place",
+  "title": "Synagogue Quarter",
+  "summary": "A Sokolka neighborhood containing synagogues, schools, study houses, and shtiblekh.",
+  "originalName": "שכונת בתי־הכנסת",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 193,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "neighborhood",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4da8407834bb02e1899bbf73",
+      "pageId": "page_nybc314005_0193",
+      "scanIndex": 193,
+      "leafNumber": 192,
+      "printedPage": null,
+      "passageCharStart": 44,
+      "passageCharEnd": 61,
+      "normalizedPassageCharStart": 32,
+      "normalizedPassageCharEnd": 48,
+      "pageCharStart": 3697,
+      "pageCharEnd": 3714,
+      "quote": "לשכונ ת\nבתי־הכנסת",
+      "normalizedQuote": "לשכונת בתי־הכנסת",
+      "modelQuote": "לשכונת בתי־הכנסת",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n192/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "6f14ae135c82fa2b8a040f19b2196c37778e46948be103488a3c3c3a35b1ebe5",
+      "normalizedPassageChecksum": "e40d6ce3d6e913429e58edc99bc8f61f0914b83d88da586171889acf0b7e1bf0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_20587a4fad16e3f855461a09",
+      "type": "Fire",
+      "title": "Burning of the Great Synagogue",
+      "summary": "The site called “Pdol” is described as burned.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR name is unclear.",
+      "evidence": {
+        "passageId": "passage_4da8407834bb02e1899bbf73",
+        "pageId": "page_nybc314005_0193",
+        "scanIndex": 193,
+        "leafNumber": 192,
+        "printedPage": null,
+        "passageCharStart": 154,
+        "passageCharEnd": 167,
+        "normalizedPassageCharStart": 117,
+        "normalizedPassageCharEnd": 128,
+        "pageCharStart": 3807,
+        "pageCharEnd": 3820,
+        "quote": "ה״פדול \" שרוף",
+        "normalizedQuote": "ה״פדול\"שרוף",
+        "modelQuote": "ה״פדול\"שרוף",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n192/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "6f14ae135c82fa2b8a040f19b2196c37778e46948be103488a3c3c3a35b1ebe5",
+        "normalizedPassageChecksum": "e40d6ce3d6e913429e58edc99bc8f61f0914b83d88da586171889acf0b7e1bf0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_20587a4fad16e3f855461a09",
+      "type": "Event",
+      "title": "Burning of the Great Synagogue",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_8a1f50adc5a9901c0f79e9da",
+      "type": "Institution",
+      "title": "The Great Synagogue",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fa1543616d40953d1c226ffd",
+      "type": "Institution",
+      "title": "Tarbut",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_15cc2496971dc058b1e7ec23",
+      "type": "Institution",
+      "title": "Talmud Torah",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

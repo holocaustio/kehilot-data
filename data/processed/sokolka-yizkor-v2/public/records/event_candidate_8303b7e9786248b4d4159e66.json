@@ -1,0 +1,59 @@
+{
+  "id": "event_candidate_8303b7e9786248b4d4159e66",
+  "type": "Event",
+  "title": "Murder of innocent victims",
+  "summary": "Nazis murdered millions of innocent victims, according to the text.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 300,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The victims are described collectively; no individual identities are given.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_040c8585ea38b8509428d95f",
+      "pageId": "page_nybc314005_0300",
+      "scanIndex": 300,
+      "leafNumber": 299,
+      "printedPage": null,
+      "passageCharStart": 415,
+      "passageCharEnd": 444,
+      "normalizedPassageCharStart": 311,
+      "normalizedPassageCharEnd": 333,
+      "pageCharStart": 415,
+      "pageCharEnd": 444,
+      "quote": "האב ן גרויזא ם או ן מערדערי ש",
+      "normalizedQuote": "האבןגרויזאםאוןמערדעריש",
+      "modelQuote": "האבןגרויזאםאוןמערדעריש",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n299/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "665231a884061daa1999b30d8c24cff3112adaa826b09909618a918dbf2882b4",
+      "normalizedPassageChecksum": "b05bd4216c8508462601802bf2d1ee2bc9ad28c08fa0ce58d1ebebe4cf618148",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_07fbd5430aa4723692ec0087",
+      "type": "Organization",
+      "title": "Nazis",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_c86b43a007cef690ffc42a03",
+      "type": "Place",
+      "title": "Gas Chambers",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

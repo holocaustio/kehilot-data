@@ -1,0 +1,91 @@
+{
+  "id": "mention_913e3c1e73bac7b9456c3de5",
+  "type": "Organization",
+  "title": "Town Firefighters Band",
+  "summary": "A town firefighters band led a youth procession on Lag BaOmer.",
+  "originalName": "התזמורת מכבי־האששלהעיירד",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 173,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "firefighters band",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1435c4da47108f1816605d6a",
+      "pageId": "page_nybc314005_0173",
+      "scanIndex": 173,
+      "leafNumber": 172,
+      "printedPage": null,
+      "passageCharStart": 1126,
+      "passageCharEnd": 1160,
+      "normalizedPassageCharStart": 805,
+      "normalizedPassageCharEnd": 832,
+      "pageCharStart": 3909,
+      "pageCharEnd": 3943,
+      "quote": "צעד ה תזמור ת\nמכבי־הא ש ש ל העיירד",
+      "normalizedQuote": "צעדהתזמורת מכבי־האששלהעיירד",
+      "modelQuote": "צעדהתזמורת מכבי־האששלהעיירד",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n172/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "d51cef7852274dcc2b6c971c8bd492dea26cf98ab278cbe94a1931e57145c998",
+      "normalizedPassageChecksum": "a153185647b02ba64913d23494c5be849af8792ae969c0d666961fb013caa573",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_4e6c8c6f89353dbe7674c1ff",
+      "type": "Migration",
+      "title": "Lag BaOmer outing",
+      "summary": "Youth traveled outside town for an all-day Lag BaOmer outing.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text describes an outing, but the schema has no outing event type.",
+      "evidence": {
+        "passageId": "passage_1435c4da47108f1816605d6a",
+        "pageId": "page_nybc314005_0173",
+        "scanIndex": 173,
+        "leafNumber": 172,
+        "printedPage": null,
+        "passageCharStart": 1060,
+        "passageCharEnd": 1106,
+        "normalizedPassageCharStart": 756,
+        "normalizedPassageCharEnd": 791,
+        "pageCharStart": 3843,
+        "pageCharEnd": 3889,
+        "quote": "בל״ ג בעומ ר נער ך כ ל\nהנוע ר לטיו ל מחוץ־לעיר",
+        "normalizedQuote": "בל״גבעומרנערךכל הנוערלטיולמחוץ־לעיר",
+        "modelQuote": "בל״גבעומרנערךכל הנוערלטיולמחוץ־לעיר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n172/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "d51cef7852274dcc2b6c971c8bd492dea26cf98ab278cbe94a1931e57145c998",
+        "normalizedPassageChecksum": "a153185647b02ba64913d23494c5be849af8792ae969c0d666961fb013caa573",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_4e6c8c6f89353dbe7674c1ff",
+      "type": "Event",
+      "title": "Lag BaOmer outing",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_d3189020619d7d836a796c87",
+      "type": "Event",
+      "title": "Lag BaOmer outing",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

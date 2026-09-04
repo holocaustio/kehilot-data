@@ -1,0 +1,134 @@
+{
+  "id": "mention_b6b8f8f4d2436afbaf9dd4be",
+  "type": "Organization",
+  "title": "Nazi oppressor",
+  "summary": "The Nazi oppressor is blamed for killing the memorialized people.",
+  "originalName": "הצורר הנאצי",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 199,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "perpetrator group",
+  "uncertaintyNote": "The text refers to a Nazi oppressor, not a specifically named organization.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_82e02dcd857cea3bdd2159e8",
+      "pageId": "page_nybc314005_0199",
+      "scanIndex": 199,
+      "leafNumber": 198,
+      "printedPage": null,
+      "passageCharStart": 978,
+      "passageCharEnd": 1008,
+      "normalizedPassageCharStart": 710,
+      "normalizedPassageCharEnd": 732,
+      "pageCharStart": 2357,
+      "pageCharEnd": 2387,
+      "quote": "שמד ה ביד י הצור ר\nהנאצ י ימ ח",
+      "normalizedQuote": "שמדהבידיהצורר הנאציימח",
+      "modelQuote": "שמדהבידיהצורר הנאציימח",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n198/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "333ca91dbe716f2722001a9818b6a1ec2b20d51fa0fdd325c853349f85499bba",
+      "normalizedPassageChecksum": "7a2aabeef2ec04b902b76b8ded99d013a7b9fe2f461cf5d6f292e6b7472c7c72",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d9acd87c48b77961fe7ac83e",
+      "type": "Murder",
+      "title": "Killing of the Pozniak family members",
+      "summary": "The memorialized people were killed by the Nazi oppressor.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage describes destruction by the Nazi oppressor but does not provide a date or precise event scope.",
+      "evidence": {
+        "passageId": "passage_82e02dcd857cea3bdd2159e8",
+        "pageId": "page_nybc314005_0199",
+        "scanIndex": 199,
+        "leafNumber": 198,
+        "printedPage": null,
+        "passageCharStart": 978,
+        "passageCharEnd": 1008,
+        "normalizedPassageCharStart": 710,
+        "normalizedPassageCharEnd": 732,
+        "pageCharStart": 2357,
+        "pageCharEnd": 2387,
+        "quote": "שמד ה ביד י הצור ר\nהנאצ י ימ ח",
+        "normalizedQuote": "שמדהבידיהצורר הנאציימח",
+        "modelQuote": "שמדהבידיהצורר הנאציימח",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n198/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "333ca91dbe716f2722001a9818b6a1ec2b20d51fa0fdd325c853349f85499bba",
+        "normalizedPassageChecksum": "7a2aabeef2ec04b902b76b8ded99d013a7b9fe2f461cf5d6f292e6b7472c7c72",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d9acd87c48b77961fe7ac83e",
+      "type": "Event",
+      "title": "Killing of the Pozniak family members",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_e0728f4f16bc5e0936e114ca",
+      "type": "Person",
+      "title": "Judith Pozniak-Freund",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_299af6558dcd8bac7afa1795",
+      "type": "Family",
+      "title": "Pozniak family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_82aa18b6cb463831b0d0826e",
+      "type": "Person",
+      "title": "Dina Pozniak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8c9bba37a2aa6c0d7dc0967f",
+      "type": "Person",
+      "title": "Shosha Pozniak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_12923a453a5ccb6421b13f45",
+      "type": "Person",
+      "title": "Shaul Pozniak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cf394d5a9cadb5a0b4d74607",
+      "type": "Person",
+      "title": "Yosef Pozniak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_520689957cee046ce001bc5d",
+      "type": "Person",
+      "title": "Tati Pozniak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_167e5ef1e5d7f06f39204f50",
+      "type": "Person",
+      "title": "Chaim Pozniak",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "kehilot-yizkor-source-v2",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "ingestedAt": "2026-09-04T19:27:46.955Z",
+  "community": {
+    "id": "community_sokolka",
+    "displayName": "Sokolka",
+    "canonicalName": "Sokolka",
+    "country": "Poland"
+  },
+  "book": {
+    "id": "book_nybc314005",
+    "communityId": "community_sokolka",
+    "internetArchiveId": "nybc314005",
+    "title": "Sefer Soḳolḳah = Dos bukh fun Soḳolḳe (ʻa.y. Irgun Yotsʼe Soḳolḳah be-Yiśraʼel)",
+    "alternateTitle": null,
+    "authors": [
+      "Mishḳinsḳi, Ester.editor"
+    ],
+    "publication": "1968",
+    "language": "he",
+    "pageProgression": "rl",
+    "sourceUrl": "https://archive.org/details/nybc314005",
+    "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+    "rightsStatus": "REVIEW_REQUIRED",
+    "attribution": "internet-archive",
+    "checksums": {
+      "metadata": "0feb1c2daa30f8132b9b8896651fab7389ab2fd68330622f1324ee19b6365831",
+      "djvuXml": "f9ce3cb0142fd116fb26e29bc84c61818118a7bfb74c9eebe06e979e5c6ced5e",
+      "scandataXml": "44b44121819b1bfe74ea3f91f8860e794f40f2d2eedc6deb27a585c13cd56ad4",
+      "pdf": "c6348ac15dc2b9713bba298e5fbe91742b973c11cde43978906c7da403104d07"
+    }
+  },
+  "chapters": [],
+  "counts": {
+    "pages": 406,
+    "pagesWithText": 358,
+    "passages": 822,
+    "words": 232634,
+    "normalizationEdits": 224395,
+    "joinedFragments": 213163,
+    "softLineBreaks": 11232
+  },
+  "normalizationPolicy": {
+    "version": "ocr-layout-normalizer-v1",
+    "canonicalField": "text",
+    "derivedField": "normalizedText",
+    "reversible": true,
+    "changesCharacters": false,
+    "rules": [
+      "concatenate-djvu-word-runs",
+      "replace-soft-line-breaks"
+    ]
+  },
+  "passagePolicy": {
+    "pageBound": true,
+    "targetEstimatedTokens": 1100,
+    "maxEstimatedTokens": 1500,
+    "tokenEstimate": "hebrew_letters*1.15 + latin_letters/4 + digits/3 + punctuation/2"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "mention_41950b811eb9b28db0a49c42",
+  "type": "Institution",
+  "title": "Tax Office Building",
+  "summary": "Building identified as the Nazi headquarters during the invasion.",
+  "originalName": "בניןמשרד־הגביה",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 183,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "government_office_building",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_81c9eee9477b6fc7f523cf87",
+      "pageId": "page_nybc314005_0183",
+      "scanIndex": 183,
+      "leafNumber": 182,
+      "printedPage": null,
+      "passageCharStart": 1271,
+      "passageCharEnd": 1289,
+      "normalizedPassageCharStart": 896,
+      "normalizedPassageCharEnd": 911,
+      "pageCharStart": 2593,
+      "pageCharEnd": 2611,
+      "quote": "בבני ן משרד־הגבי ה",
+      "normalizedQuote": "בבניןמשרד־הגביה",
+      "modelQuote": "בבניןמשרד־הגביה",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n182/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "0ded648e2acbba55c667423e83749658d9ca3d0c289b37ec52f2b7a24823ca8d",
+      "normalizedPassageChecksum": "8d0941134c25a7ff1d562d9e3cde7abc108de1f76dbdbdd639cf2f6253f5c3fb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_d8e828e4460aacf34efacbf3",
+      "predicate": "Present At",
+      "subjectTitle": "Obersturmführer",
+      "objectTitle": "Tax Office Building",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage does not explicitly state that the officer worked in the building.",
+      "qualifiers": {
+        "role": "Nazi headquarters officer"
+      },
+      "evidence": {
+        "passageId": "passage_81c9eee9477b6fc7f523cf87",
+        "pageId": "page_nybc314005_0183",
+        "scanIndex": 183,
+        "leafNumber": 182,
+        "printedPage": null,
+        "passageCharStart": 1237,
+        "passageCharEnd": 1312,
+        "normalizedPassageCharStart": 871,
+        "normalizedPassageCharEnd": 930,
+        "pageCharStart": 2559,
+        "pageCharEnd": 2634,
+        "quote": "הלכת י למט ה המפקד ה ש ל הנאצים ,\nבבני ן משרד־הגבי ה פנית י לאוברשטורמפיר ר",
+        "normalizedQuote": "הלכתילמטההמפקדהשלהנאצים, בבניןמשרד־הגביהפניתילאוברשטורמפירר",
+        "modelQuote": "הלכתילמטההמפקדהשלהנאצים, בבניןמשרד־הגביהפניתילאוברשטורמפירר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n182/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "0ded648e2acbba55c667423e83749658d9ca3d0c289b37ec52f2b7a24823ca8d",
+        "normalizedPassageChecksum": "8d0941134c25a7ff1d562d9e3cde7abc108de1f76dbdbdd639cf2f6253f5c3fb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_27d873f03021757e13b9823d",
+      "type": "Person",
+      "title": "Obersturmführer",
+      "relation": "Present At"
+    },
+    {
+      "id": "mention_9b17636e8160bb68468d5a43",
+      "type": "Person",
+      "title": "David Arkine",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_27d873f03021757e13b9823d",
+      "type": "Person",
+      "title": "Obersturmführer",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,96 @@
+{
+  "id": "mention_4e64acd725c355f6d6f08329",
+  "type": "Place",
+  "title": "Lososna camp",
+  "summary": "A camp where deportees from Sokolka and surrounding areas were held for about six weeks.",
+  "originalName": "לוסוסנה",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 188,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp",
+  "uncertaintyNote": "The OCR rendering of the place name is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c92a1687eb0a111b836bd5f1",
+      "pageId": "page_nybc314005_0188",
+      "scanIndex": 188,
+      "leafNumber": 187,
+      "printedPage": null,
+      "passageCharStart": 370,
+      "passageCharEnd": 404,
+      "normalizedPassageCharStart": 270,
+      "normalizedPassageCharEnd": 296,
+      "pageCharStart": 4114,
+      "pageCharEnd": 4148,
+      "quote": "במחנ ה\nבלוסוסנ ה הי ו כ- 6 שבועו ת",
+      "normalizedQuote": "במחנה בלוסוסנההיוכ-6שבועות",
+      "modelQuote": "במחנה בלוסוסנההיוכ-6שבועות",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n187/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "a4e85df18921bb2139fbd16bd81c32116f6aaeefb5017bcc0a4ca4be33ab3d9f",
+      "normalizedPassageChecksum": "3d3e1efc74b29b85944c08a7a040123ca35066d351e1d759e8a3187e40509180",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_620791061c652a200522dd66",
+      "type": "Deportation",
+      "title": "Deportation to Lososna camp",
+      "summary": "Deportees were transported to Lososna camp and held there for approximately six weeks.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c92a1687eb0a111b836bd5f1",
+        "pageId": "page_nybc314005_0188",
+        "scanIndex": 188,
+        "leafNumber": 187,
+        "printedPage": null,
+        "passageCharStart": 370,
+        "passageCharEnd": 404,
+        "normalizedPassageCharStart": 270,
+        "normalizedPassageCharEnd": 296,
+        "pageCharStart": 4114,
+        "pageCharEnd": 4148,
+        "quote": "במחנ ה\nבלוסוסנ ה הי ו כ- 6 שבועו ת",
+        "normalizedQuote": "במחנה בלוסוסנההיוכ-6שבועות",
+        "modelQuote": "במחנה בלוסוסנההיוכ-6שבועות",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n187/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "a4e85df18921bb2139fbd16bd81c32116f6aaeefb5017bcc0a4ca4be33ab3d9f",
+        "normalizedPassageChecksum": "3d3e1efc74b29b85944c08a7a040123ca35066d351e1d759e8a3187e40509180",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_620791061c652a200522dd66",
+      "type": "Event",
+      "title": "Deportation to Lososna camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6fa798ef2f3df3a6cff8455d",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a4500fcdaea77bdab8e65532",
+      "type": "Community",
+      "title": "Sokolka remnant",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

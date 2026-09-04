@@ -1,0 +1,146 @@
+{
+  "id": "mention_5208d3ad2a957d0ae510cd53",
+  "type": "Person",
+  "title": "Blumenthal",
+  "summary": "A Jewish grocery shopkeeper falsely denounced as a communist.",
+  "originalName": "בלומנטל",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 84,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "shopkeeper",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1d719473c4ebbd6b39807392",
+      "pageId": "page_nybc314005_0084",
+      "scanIndex": 84,
+      "leafNumber": 83,
+      "printedPage": null,
+      "passageCharStart": 914,
+      "passageCharEnd": 945,
+      "normalizedPassageCharStart": 668,
+      "normalizedPassageCharEnd": 692,
+      "pageCharStart": 4017,
+      "pageCharEnd": 4048,
+      "quote": "בלומנט ל\nשמו , בע ל חנו ת מכולת",
+      "normalizedQuote": "בלומנטל שמו,בעלחנותמכולת",
+      "modelQuote": "בלומנטל שמו, בעל חנות מכולת",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n83/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "bc05468864fefd9305da7bbd254b12fb94c44558581f8350ce3f6fcafdefd3ac",
+      "normalizedPassageChecksum": "5874034cd5124a51fb2dc6558d7f7522033a7775bcecea5e848265df5fd12636",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_96e41e7882acd7c2b0f0f8c2",
+      "predicate": "Murdered Near",
+      "subjectTitle": "Blumenthal",
+      "objectTitle": "Railway station",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1d719473c4ebbd6b39807392",
+        "pageId": "page_nybc314005_0084",
+        "scanIndex": 84,
+        "leafNumber": 83,
+        "printedPage": null,
+        "passageCharStart": 1149,
+        "passageCharEnd": 1180,
+        "normalizedPassageCharStart": 842,
+        "normalizedPassageCharEnd": 865,
+        "pageCharStart": 4252,
+        "pageCharEnd": 4283,
+        "quote": "לי ד תחנ ת הרכבת , נורד , במקום",
+        "normalizedQuote": "לידתחנתהרכבת,נורד,במקום",
+        "modelQuote": "לידתחנתהרכבת,נורד,במקום",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n83/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "bc05468864fefd9305da7bbd254b12fb94c44558581f8350ce3f6fcafdefd3ac",
+        "normalizedPassageChecksum": "5874034cd5124a51fb2dc6558d7f7522033a7775bcecea5e848265df5fd12636",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_1c30d36655ff295eb9ebabcf",
+      "type": "Murder",
+      "title": "Blumenthal is shot near the railway station",
+      "summary": "Polish military gendarmes shot Blumenthal after a false denunciation.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1d719473c4ebbd6b39807392",
+        "pageId": "page_nybc314005_0084",
+        "scanIndex": 84,
+        "leafNumber": 83,
+        "printedPage": null,
+        "passageCharStart": 1168,
+        "passageCharEnd": 1201,
+        "normalizedPassageCharStart": 855,
+        "normalizedPassageCharEnd": 879,
+        "pageCharStart": 4271,
+        "pageCharEnd": 4304,
+        "quote": "נורד , במקום , ע ל ל א\nעוו ל בכפו",
+        "normalizedQuote": "נורד,במקום,עללא עוולבכפו",
+        "modelQuote": "נורד,במקום,עללא עוולבכפו",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n83/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "bc05468864fefd9305da7bbd254b12fb94c44558581f8350ce3f6fcafdefd3ac",
+        "normalizedPassageChecksum": "5874034cd5124a51fb2dc6558d7f7522033a7775bcecea5e848265df5fd12636",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6dcaf2ba1b3ebdbe537e60ce",
+      "type": "Place",
+      "title": "Railway station",
+      "relation": "Murdered Near"
+    },
+    {
+      "id": "event_candidate_1c30d36655ff295eb9ebabcf",
+      "type": "Event",
+      "title": "Blumenthal is shot near the railway station",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_f104463bba2379e5d6560963",
+      "type": "Place",
+      "title": "Krynki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2b0ab7f4e47868e753075db0",
+      "type": "Person",
+      "title": "Buburiki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6257bb5faf6880e1a120b6fb",
+      "type": "Institution",
+      "title": "Sokolka Community Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6dcaf2ba1b3ebdbe537e60ce",
+      "type": "Place",
+      "title": "Railway station",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

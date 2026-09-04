@@ -1,0 +1,123 @@
+{
+  "id": "mention_fea11e68f033e3b420ffb43d",
+  "type": "Person",
+  "title": "Rabbi Shuster",
+  "summary": "A rabbi taken from his home and murdered after torture in Bialystok prison.",
+  "originalName": "הרב שוסטר",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 188,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "rabbi",
+  "uncertaintyNote": "OCR rendering is compressed and may affect the exact name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_daf9ba961f517932cf741cdd",
+      "pageId": "page_nybc314005_0188",
+      "scanIndex": 188,
+      "leafNumber": 187,
+      "printedPage": null,
+      "passageCharStart": 514,
+      "passageCharEnd": 525,
+      "normalizedPassageCharStart": 365,
+      "normalizedPassageCharEnd": 373,
+      "pageCharStart": 1561,
+      "pageCharEnd": 1572,
+      "quote": "הר ב שוסט ר",
+      "normalizedQuote": "הרבשוסטר",
+      "modelQuote": "הרב שוסטר",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc314005/page/n187/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "94d566baffccd6460b3d1ae4428303d4ab6db18735bb92f9443367b2ee6cebb0",
+      "normalizedPassageChecksum": "2c02f5993896a03ec605095511ec3cfb661aa5e9f74daf55ca9d345829b07125",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_e1265fa626127b5ecb37e651",
+      "predicate": "Murdered At",
+      "subjectTitle": "Rabbi Shuster",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_daf9ba961f517932cf741cdd",
+        "pageId": "page_nybc314005_0188",
+        "scanIndex": 188,
+        "leafNumber": 187,
+        "printedPage": null,
+        "passageCharStart": 589,
+        "passageCharEnd": 628,
+        "normalizedPassageCharStart": 422,
+        "normalizedPassageCharEnd": 451,
+        "pageCharStart": 1636,
+        "pageCharEnd": 1675,
+        "quote": "ש ם נרצ ח לאח ר התעללו ת ועינויי ם קשים",
+        "normalizedQuote": "שםנרצחלאחרהתעללותועינוייםקשים",
+        "modelQuote": "שם נרצח לאחר התעללות ועינויים קשים",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n187/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "94d566baffccd6460b3d1ae4428303d4ab6db18735bb92f9443367b2ee6cebb0",
+        "normalizedPassageChecksum": "2c02f5993896a03ec605095511ec3cfb661aa5e9f74daf55ca9d345829b07125",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_d9a6d7d8d8f78d6c84fe3df4",
+      "type": "Murder",
+      "title": "Murder of Rabbi Shuster",
+      "summary": "Rabbi Shuster was murdered after severe abuse and torture in Bialystok.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_daf9ba961f517932cf741cdd",
+        "pageId": "page_nybc314005_0188",
+        "scanIndex": 188,
+        "leafNumber": 187,
+        "printedPage": null,
+        "passageCharStart": 589,
+        "passageCharEnd": 628,
+        "normalizedPassageCharStart": 422,
+        "normalizedPassageCharEnd": 451,
+        "pageCharStart": 1636,
+        "pageCharEnd": 1675,
+        "quote": "ש ם נרצ ח לאח ר התעללו ת ועינויי ם קשים",
+        "normalizedQuote": "שםנרצחלאחרהתעללותועינוייםקשים",
+        "modelQuote": "שם נרצח לאחר התעללות ועינויים קשים",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc314005/page/n187/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "94d566baffccd6460b3d1ae4428303d4ab6db18735bb92f9443367b2ee6cebb0",
+        "normalizedPassageChecksum": "2c02f5993896a03ec605095511ec3cfb661aa5e9f74daf55ca9d345829b07125",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d9a6d7d8d8f78d6c84fe3df4",
+      "type": "Event",
+      "title": "Murder of Rabbi Shuster",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_31ee2c04e3fd6ecaf43c5f69",
+      "type": "Place",
+      "title": "Sokolka Ghetto",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}
