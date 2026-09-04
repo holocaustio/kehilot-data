@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_fbbae76c028e8743cdff2dd1",
+  "type": "Event",
+  "title": "Shooting at the fleeing narrator",
+  "summary": "The narrator was ordered to run.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 333,
+  "printedPage": "317",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Order To Run",
+  "uncertaintyNote": "The passage says the narrator was ordered to run and then shot at, but the OCR segmentation is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9cf1cd633d5778cacc8b38c3",
+      "pageId": "page_nybc313697_0333",
+      "scanIndex": 333,
+      "leafNumber": 332,
+      "printedPage": "317",
+      "passageCharStart": 968,
+      "passageCharEnd": 998,
+      "normalizedPassageCharStart": 815,
+      "normalizedPassageCharEnd": 841,
+      "pageCharStart": 4916,
+      "pageCharEnd": 4946,
+      "quote": "און\nזי האָבן מיך געהייסן לויפן",
+      "normalizedQuote": "און זיהאָבןמיךגעהייסןלויפן",
+      "modelQuote": "אוןזיהאָבןמיךגעהייסןלויפן",
+      "bbox": {
+        "left": 2574,
+        "top": 3989,
+        "right": 4586,
+        "bottom": 4160
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n332/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "4c3f21cee589014cc437b3e4429de6424833ae8766c31c14d40493af9f2f6cda",
+      "normalizedPassageChecksum": "e693540e6b2d2a5f35651a26343c8d2dbc3b4f8655e3774878d1450ad600f4b9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b467f41253b0ed024530eafc",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_1d8eee7fe3658c267a8709ed",
+      "type": "Organization",
+      "title": "Nazi murderers",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

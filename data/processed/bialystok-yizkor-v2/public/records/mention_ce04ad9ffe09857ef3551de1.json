@@ -1,0 +1,126 @@
+{
+  "id": "mention_ce04ad9ffe09857ef3551de1",
+  "type": "Person",
+  "title": "Adolf Hitler",
+  "summary": "Hitler threatened Jews and launched the invasion of Poland.",
+  "originalName": "Hitler",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 568,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "political leader",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_37dbbdbe3ee3f628cac11066",
+      "pageId": "page_nybc313697_0568",
+      "scanIndex": 568,
+      "leafNumber": 567,
+      "printedPage": null,
+      "passageCharStart": 147,
+      "passageCharEnd": 206,
+      "normalizedPassageCharStart": 126,
+      "normalizedPassageCharEnd": 179,
+      "pageCharStart": 147,
+      "pageCharEnd": 206,
+      "quote": "Hitler was\nconstantly threatening the Jews with destruction",
+      "normalizedQuote": "Hitlerwas constantlythreateningtheJewswithdestruction",
+      "modelQuote": "Hitlerwas constantlythreateningtheJewswithdestruction",
+      "bbox": {
+        "left": 315,
+        "top": 350,
+        "right": 2353,
+        "bottom": 530
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n567/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "686e321fa3611fc4cbf88cb626826da2583515f92078b39406faba82c643fc0f",
+      "normalizedPassageChecksum": "6d3598535611e69bcb43fb8048ed5b986042541f989ad67fc5a28e8eeaafb10a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_75a39ba52763bbf9bbee0656",
+      "type": "Military Service",
+      "title": "German invasion of Poland",
+      "summary": "Nazi airplanes began bombing Polish cities during the German invasion.",
+      "dateStart": "1939-09-01",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The controlled event types do not include invasion; military service is only an approximate classification.",
+      "evidence": {
+        "passageId": "passage_37dbbdbe3ee3f628cac11066",
+        "pageId": "page_nybc313697_0568",
+        "scanIndex": 568,
+        "leafNumber": 567,
+        "printedPage": null,
+        "passageCharStart": 280,
+        "passageCharEnd": 318,
+        "normalizedPassageCharStart": 241,
+        "normalizedPassageCharEnd": 276,
+        "pageCharStart": 280,
+        "pageCharEnd": 318,
+        "quote": "Hitler’s unexpected invasion\nof Poland",
+        "normalizedQuote": "Hitler’sunexpectedinvasion ofPoland",
+        "modelQuote": "Hitler’sunexpectedinvasion ofPoland",
+        "bbox": {
+          "left": 317,
+          "top": 655,
+          "right": 2355,
+          "bottom": 829
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n567/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "686e321fa3611fc4cbf88cb626826da2583515f92078b39406faba82c643fc0f",
+        "normalizedPassageChecksum": "6d3598535611e69bcb43fb8048ed5b986042541f989ad67fc5a28e8eeaafb10a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_75a39ba52763bbf9bbee0656",
+      "type": "Event",
+      "title": "German invasion of Poland",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_70192fc10286afb74a6cbee8",
+      "type": "Community",
+      "title": "Bialystok Jewish Community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b61bccbdb8b32b2ba732c865",
+      "type": "Organization",
+      "title": "Nazi Army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_21c40a45fe267dd9b65689ac",
+      "type": "Organization",
+      "title": "Wehrmacht",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8b8bdeb53e0cccc1dc2eb140",
+      "type": "Organization",
+      "title": "Soviet Army",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

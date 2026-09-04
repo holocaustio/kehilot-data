@@ -1,0 +1,115 @@
+{
+  "id": "mention_bafe4c6ea676fd214d83a19a",
+  "type": "Organization",
+  "title": "Partisan units",
+  "summary": "Partisan units entered Bialystok alongside Red Army units.",
+  "originalName": "פּאַרטיזאַנער-אָפּטײלן",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 199,
+  "printedPage": "183",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "partisan units",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1337fa9092f7ca574a882199",
+      "pageId": "page_nybc313697_0199",
+      "scanIndex": 199,
+      "leafNumber": 198,
+      "printedPage": "183",
+      "passageCharStart": 404,
+      "passageCharEnd": 439,
+      "normalizedPassageCharStart": 345,
+      "normalizedPassageCharEnd": 378,
+      "pageCharStart": 404,
+      "pageCharEnd": 439,
+      "quote": "צוזאַמען מיט פּאַרטיזאַנער-אָפּטײלן",
+      "normalizedQuote": "צוזאַמעןמיטפּאַרטיזאַנער-אָפּטײלן",
+      "modelQuote": "צוזאַמעןמיטפּאַרטיזאַנער-אָפּטײלן",
+      "bbox": {
+        "left": 699,
+        "top": 1298,
+        "right": 1865,
+        "bottom": 1378
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n198/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b84720e42ee0f182d34d3ec54125abb6125ef5caada8fff030ab0571bde7ea38",
+      "normalizedPassageChecksum": "42e08dcfe09cd6a6b8de8c2990346d46b05354df6bd1bc563db0f81349c6a7fa",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_588b8ea712311b6faa84480c",
+      "type": "Liberation",
+      "title": "Liberation of Bialystok",
+      "summary": "Red Army and partisan units entered Bialystok on July 27, 1944.",
+      "dateStart": "1944-07-27",
+      "dateEnd": "1944-07-27",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event is explicit, but OCR corruption affects the wording.",
+      "evidence": {
+        "passageId": "passage_1337fa9092f7ca574a882199",
+        "pageId": "page_nybc313697_0199",
+        "scanIndex": 199,
+        "leafNumber": 198,
+        "printedPage": "183",
+        "passageCharStart": 318,
+        "passageCharEnd": 439,
+        "normalizedPassageCharStart": 272,
+        "normalizedPassageCharEnd": 378,
+        "pageCharStart": 318,
+        "pageCharEnd": 439,
+        "quote": "דעם 27טן יולי, 1944,\nזענען PP PUN‏ ביאַליסטאַק די ערשטע אָפּטײלן פון דער\nרויטער PAIN‏ צוזאַמען מיט פּאַרטיזאַנער-אָפּטײלן",
+        "normalizedQuote": "דעם27טןיולי,1944, זענעןPPPUN‏ביאַליסטאַקדיערשטעאָפּטײלןפוןדער רויטערPAIN‏צוזאַמעןמיטפּאַרטיזאַנער-אָפּטײלן",
+        "modelQuote": "דעם27טןיולי,1944, זענעןPPPUN‏ביאַליסטאַקדיערשטעאָפּטײלןפוןדער רויטערPAIN‏צוזאַמעןמיטפּאַרטיזאַנער-אָפּטײלן",
+        "bbox": {
+          "left": 457,
+          "top": 1101,
+          "right": 2383,
+          "bottom": 1378
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n198/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "b84720e42ee0f182d34d3ec54125abb6125ef5caada8fff030ab0571bde7ea38",
+        "normalizedPassageChecksum": "42e08dcfe09cd6a6b8de8c2990346d46b05354df6bd1bc563db0f81349c6a7fa",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_588b8ea712311b6faa84480c",
+      "type": "Event",
+      "title": "Liberation of Bialystok",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_ef85a54ab944f7cf19d3b102",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3d429cf2c4930ddcaf1fe125",
+      "type": "Organization",
+      "title": "Red Army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4829f107817d97ba6ed4006a",
+      "type": "Organization",
+      "title": "Nazis",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

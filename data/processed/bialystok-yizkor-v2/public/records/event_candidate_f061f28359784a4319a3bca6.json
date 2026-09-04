@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_f061f28359784a4319a3bca6",
+  "type": "Event",
+  "title": "Burning of Jews in the synagogue",
+  "summary": "Nazis herded 2,000 Jews into a synagogue and burned them alive.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 530,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "dateStart": "1941-06-27",
+  "dateEnd": "1941-06-27",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dc07dd24699617ae1c59cff0",
+      "pageId": "page_nybc313697_0530",
+      "scanIndex": 530,
+      "leafNumber": 529,
+      "printedPage": null,
+      "passageCharStart": 138,
+      "passageCharEnd": 210,
+      "normalizedPassageCharStart": 117,
+      "normalizedPassageCharEnd": 179,
+      "pageCharStart": 138,
+      "pageCharEnd": 210,
+      "quote": "herded 2,000 Jews into\nthe large Synagegue, where they were burned alive",
+      "normalizedQuote": "herded2,000Jewsinto thelargeSynagegue,wheretheywereburnedalive",
+      "modelQuote": "herded2,000Jewsinto thelargeSynagegue,wheretheywereburnedalive",
+      "bbox": {
+        "left": 1119,
+        "top": 815,
+        "right": 4017,
+        "bottom": 978
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n529/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "68ffdbdbc432fe173d7a148bf1597109960ba35d2b874fe93222e213b01eadcf",
+      "normalizedPassageChecksum": "ba326471543d0fd6fcbc6c652f54ae350d51a1c30fee258385cd5ce9f0d513a7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_959f826a698785d125e48c5e",
+      "type": "Institution",
+      "title": "large synagogue",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70192fc10286afb74a6cbee8",
+      "type": "Community",
+      "title": "Bialystok Jewish Community",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

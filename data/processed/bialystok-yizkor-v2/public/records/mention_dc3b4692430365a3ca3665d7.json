@@ -1,0 +1,113 @@
+{
+  "id": "mention_dc3b4692430365a3ca3665d7",
+  "type": "Place",
+  "title": "Greater Bialystoker Center building",
+  "summary": "Building purchased for the organization on Broadway in New York.",
+  "originalName": "די געביידעפון דעם ,ביאַליסטאָקערצענטער\"",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 353,
+  "printedPage": "337",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "building",
+  "uncertaintyNote": "OCR corruption affects the exact wording.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_892387e1d7b26a9714e285f5",
+      "pageId": "page_nybc313697_0353",
+      "scanIndex": 353,
+      "leafNumber": 352,
+      "printedPage": "337",
+      "passageCharStart": 312,
+      "passageCharEnd": 397,
+      "normalizedPassageCharStart": 278,
+      "normalizedPassageCharEnd": 351,
+      "pageCharStart": 312,
+      "pageCharEnd": 397,
+      "quote": "דער אייגענער\nגעביידע, PN OND‏ געקויפט געװאָרן VON 228 PN‏ בראָד-\nוװועי, PN‏ ניו יאָרק",
+      "normalizedQuote": "דעראייגענער געביידע,PNOND‏געקויפטגעװאָרןVON228PN‏בראָד- וװועי,PN‏ניויאָרק",
+      "modelQuote": "דעראייגענער געביידע,PNOND‏געקויפטגעװאָרןVON228PN‏בראָד- וװועי,PN‏ניויאָרק",
+      "bbox": {
+        "left": 360,
+        "top": 982,
+        "right": 2362,
+        "bottom": 1262
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n352/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f07599c5c187633fa8c918fba86f90fcd87a55c9ae9d83497a9133f70557d697",
+      "normalizedPassageChecksum": "5b22e314662668846783176f209ac3a1da305054405d12587ef3374475926c7e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_c110879e94b958bd6f285889",
+      "predicate": "Located In",
+      "subjectTitle": "Greater Bialystoker Center building",
+      "objectTitle": "Broadway, New York",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The sentence states that the building was purchased at this location.",
+      "evidence": {
+        "passageId": "passage_892387e1d7b26a9714e285f5",
+        "pageId": "page_nybc313697_0353",
+        "scanIndex": 353,
+        "leafNumber": 352,
+        "printedPage": "337",
+        "passageCharStart": 342,
+        "passageCharEnd": 397,
+        "normalizedPassageCharStart": 304,
+        "normalizedPassageCharEnd": 351,
+        "pageCharStart": 342,
+        "pageCharEnd": 397,
+        "quote": "געקויפט געװאָרן VON 228 PN‏ בראָד-\nוװועי, PN‏ ניו יאָרק",
+        "normalizedQuote": "געקויפטגעװאָרןVON228PN‏בראָד- וװועי,PN‏ניויאָרק",
+        "modelQuote": "געקויפטגעװאָרןVON228PN‏בראָד- וװועי,PN‏ניויאָרק",
+        "bbox": {
+          "left": 360,
+          "top": 1068,
+          "right": 2362,
+          "bottom": 1262
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n352/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "f07599c5c187633fa8c918fba86f90fcd87a55c9ae9d83497a9133f70557d697",
+        "normalizedPassageChecksum": "5b22e314662668846783176f209ac3a1da305054405d12587ef3374475926c7e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_9825943c20001e85f29d3e22",
+      "type": "Place",
+      "title": "Broadway, New York",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_9825943c20001e85f29d3e22",
+      "type": "Place",
+      "title": "Broadway, New York",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6098c75db472f6653f5939f0",
+      "type": "Organization",
+      "title": "Greater Bialystoker Center",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cbf636e7ffd3d99c46128d6d",
+      "type": "Institution",
+      "title": "Home for Older People",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,118 @@
+{
+  "id": "mention_efa4223195a9734ae78c4e7d",
+  "type": "Person",
+  "title": "Tadek",
+  "summary": "Leader of the self-defense group, identified by a pseudonym.",
+  "originalName": "טאַדעק",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 222,
+  "printedPage": "206",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "resistance_group_leader",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cacc255409cd28292d73a964",
+      "pageId": "page_nybc313697_0222",
+      "scanIndex": 222,
+      "leafNumber": 221,
+      "printedPage": "206",
+      "passageCharStart": 445,
+      "passageCharEnd": 517,
+      "normalizedPassageCharStart": 389,
+      "normalizedPassageCharEnd": 454,
+      "pageCharStart": 2610,
+      "pageCharEnd": 2682,
+      "quote": "געפאַלן טויט דער אָנפירער פון דער\nזעלבסטשוץ-גרופּע, טאַדעק (פּסעװדאָנים)",
+      "normalizedQuote": "געפאַלןטויטדעראָנפירערפוןדער זעלבסטשוץ-גרופּע,טאַדעק(פּסעװדאָנים)",
+      "modelQuote": "געפאַלן טויטדער אָנפירערפוןדער זעלבסטשוץ-גרופּע,טאַדעק(פּסעװדאָנים)",
+      "bbox": {
+        "left": 453,
+        "top": 5433,
+        "right": 2407,
+        "bottom": 5619
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n221/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b7a691fe15d24d8f74e8c21dffbbc7ba2979c508aa4e7e752b123e3184685a74",
+      "normalizedPassageChecksum": "ddcc3e93ae1e3d219d28ae307fe2b6dc449ab0ca6aa9a7f391382502e495894b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_a1b78d59d80ad3ef3372c0f4",
+      "predicate": "Leads",
+      "subjectTitle": "Tadek",
+      "objectTitle": "Self-defense group",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cacc255409cd28292d73a964",
+        "pageId": "page_nybc313697_0222",
+        "scanIndex": 222,
+        "leafNumber": 221,
+        "printedPage": "206",
+        "passageCharStart": 462,
+        "passageCharEnd": 517,
+        "normalizedPassageCharStart": 403,
+        "normalizedPassageCharEnd": 454,
+        "pageCharStart": 2627,
+        "pageCharEnd": 2682,
+        "quote": "אָנפירער פון דער\nזעלבסטשוץ-גרופּע, טאַדעק (פּסעװדאָנים)",
+        "normalizedQuote": "אָנפירערפוןדער זעלבסטשוץ-גרופּע,טאַדעק(פּסעװדאָנים)",
+        "modelQuote": "אָנפירערפוןדער זעלבסטשוץ-גרופּע,טאַדעק(פּסעװדאָנים)",
+        "bbox": {
+          "left": 453,
+          "top": 5439,
+          "right": 2407,
+          "bottom": 5619
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n221/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "b7a691fe15d24d8f74e8c21dffbbc7ba2979c508aa4e7e752b123e3184685a74",
+        "normalizedPassageChecksum": "ddcc3e93ae1e3d219d28ae307fe2b6dc449ab0ca6aa9a7f391382502e495894b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_43888f14ca42fca249305f42",
+      "type": "Organization",
+      "title": "Self-defense group",
+      "relation": "Leads"
+    },
+    {
+      "id": "event_candidate_ab2cbd1c4997edbb714dadd2",
+      "type": "Event",
+      "title": "Self-defense fighting",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_35004dd82f07ac323d1988f7",
+      "type": "Place",
+      "title": "Yuravtser Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_43888f14ca42fca249305f42",
+      "type": "Organization",
+      "title": "Self-defense group",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5106796140d36dee84a4877f",
+      "type": "Document",
+      "title": "Bialystok Memorial Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

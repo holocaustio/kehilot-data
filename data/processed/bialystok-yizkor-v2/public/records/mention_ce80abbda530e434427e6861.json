@@ -1,0 +1,111 @@
+{
+  "id": "mention_ce80abbda530e434427e6861",
+  "type": "Place",
+  "title": "Ghetto park",
+  "summary": "A park surrounded by thousands of Russian and Ukrainian Nazi collaborators.",
+  "originalName": "געטאָפּאַרק",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 223,
+  "printedPage": "207",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "ghetto park",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_96d215da717d726c97aa443a",
+      "pageId": "page_nybc313697_0223",
+      "scanIndex": 223,
+      "leafNumber": 222,
+      "printedPage": "207",
+      "passageCharStart": 227,
+      "passageCharEnd": 242,
+      "normalizedPassageCharStart": 201,
+      "normalizedPassageCharEnd": 215,
+      "pageCharStart": 3673,
+      "pageCharEnd": 3688,
+      "quote": "דעם געטאָפּאַרק",
+      "normalizedQuote": "דעםגעטאָפּאַרק",
+      "modelQuote": "דעםגעטאָפּאַרק",
+      "bbox": {
+        "left": 3377,
+        "top": 2140,
+        "right": 4032,
+        "bottom": 2209
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n222/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b1e41bab4dfae6594a7cbd14905df86e3533c75caac86389ea0f127dc80cfb44",
+      "normalizedPassageChecksum": "2bb25482f14ee36c1adf4515a4cff125d77f49c9b627e3e6f87b858d1a22ed64",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8f645b9be84c83ee3f328cda",
+      "type": "Aktion Or Raid",
+      "title": "Nazi preparations for mass killing",
+      "summary": "Nazi forces surrounded the ghetto park and prepared to transport Jewish victims to killing sites.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_96d215da717d726c97aa443a",
+        "pageId": "page_nybc313697_0223",
+        "scanIndex": 223,
+        "leafNumber": 222,
+        "printedPage": "207",
+        "passageCharStart": 75,
+        "passageCharEnd": 140,
+        "normalizedPassageCharStart": 64,
+        "normalizedPassageCharEnd": 123,
+        "pageCharStart": 3521,
+        "pageCharEnd": 3586,
+        "quote": "געמאַכט אירע לעצטע צוגרייטונגען\nצו די מענטשן-פרעסערישע פאַרברעכנס",
+        "normalizedQuote": "געמאַכטאירעלעצטעצוגרייטונגען צודימענטשן-פרעסערישעפאַרברעכנס",
+        "modelQuote": "געמאַכטאירעלעצטעצוגרייטונגען צודימענטשן-פרעסערישעפאַרברעכנס",
+        "bbox": {
+          "left": 2583,
+          "top": 1823,
+          "right": 4549,
+          "bottom": 2007
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n222/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "b1e41bab4dfae6594a7cbd14905df86e3533c75caac86389ea0f127dc80cfb44",
+        "normalizedPassageChecksum": "2bb25482f14ee36c1adf4515a4cff125d77f49c9b627e3e6f87b858d1a22ed64",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_8f645b9be84c83ee3f328cda",
+      "type": "Event",
+      "title": "Nazi preparations for mass killing",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1a346efe856f42d17a70aaf6",
+      "type": "Place",
+      "title": "Jewish Council courtyard",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_627c0e6aaffbb6a9db141db6",
+      "type": "Place",
+      "title": "Ghetto factories",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_70192fc10286afb74a6cbee8",
+      "type": "Community",
+      "title": "Bialystok Jewish Community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

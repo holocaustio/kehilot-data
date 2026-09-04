@@ -1,0 +1,131 @@
+{
+  "id": "mention_8360b918dbc8853e5484d0b0",
+  "type": "Person",
+  "title": "Israel Blumenthal",
+  "summary": "A person named in connection with hiding and recovering the archive.",
+  "originalName": "ישראלבלומענטאַל",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 198,
+  "printedPage": "182",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "OCR is corrupted; the wording around the name is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0d30e69c08a2096b02599d7c",
+      "pageId": "page_nybc313697_0198",
+      "scanIndex": 198,
+      "leafNumber": 197,
+      "printedPage": "182",
+      "passageCharStart": 473,
+      "passageCharEnd": 512,
+      "normalizedPassageCharStart": 407,
+      "normalizedPassageCharEnd": 441,
+      "pageCharStart": 1623,
+      "pageCharEnd": 1662,
+      "quote": "נאָמען‎ om קאַנטער פון ישראל בלומענטאַל",
+      "normalizedQuote": "נאָמען‎omקאַנטערפוןישראלבלומענטאַל",
+      "modelQuote": "נאָמען‎omקאַנטערפוןישראלבלומענטאַל",
+      "bbox": {
+        "left": 2822,
+        "top": 1221,
+        "right": 4534,
+        "bottom": 1308
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n197/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "bd888936027a3f17b1a744fd842b9c60a7fd61f88503254aaf8dd998a2b673b9",
+      "normalizedPassageChecksum": "8f7f3519c0943acd3a213563850c8d3c62ed7209fb7d22e75fe4a9e43e0bc3c4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_04633e5cb5717d37e6ee993a",
+      "type": "Migration",
+      "title": "Return to Bialystok and archive excavation",
+      "summary": "After the war, he returned to Bialystok and excavated the archive.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The date appears near the passage but may refer to mobilization rather than the return.",
+      "evidence": {
+        "passageId": "passage_0d30e69c08a2096b02599d7c",
+        "pageId": "page_nybc313697_0198",
+        "scanIndex": 198,
+        "leafNumber": 197,
+        "printedPage": "182",
+        "passageCharStart": 206,
+        "passageCharEnd": 298,
+        "normalizedPassageCharStart": 177,
+        "normalizedPassageCharEnd": 259,
+        "pageCharStart": 1356,
+        "pageCharEnd": 1448,
+        "quote": "דער פאַרענדיקטער\nמלחמה האָט ער זיך צוריקגעקערט קיין ביאַליסטאָק און\nאויסגעגראָבן דעם אַרכיוו",
+        "normalizedQuote": "דערפאַרענדיקטער מלחמההאָטערזיךצוריקגעקערטקייןביאַליסטאָקאון אויסגעגראָבןדעםאַרכיוו",
+        "modelQuote": "דערפאַרענדיקטערמלחמההאָטערזיךצוריקגעקערטקייןביאַליסטאָקאוןאויסגעגראָבןדעםאַרכיוו",
+        "bbox": {
+          "left": 2577,
+          "top": 630,
+          "right": 4535,
+          "bottom": 905
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n197/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "bd888936027a3f17b1a744fd842b9c60a7fd61f88503254aaf8dd998a2b673b9",
+        "normalizedPassageChecksum": "8f7f3519c0943acd3a213563850c8d3c62ed7209fb7d22e75fe4a9e43e0bc3c4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_04633e5cb5717d37e6ee993a",
+      "type": "Event",
+      "title": "Return to Bialystok and archive excavation",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_8eece09515ee9366f760aa79",
+      "type": "Person",
+      "title": "Brani Vinitska",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_29c65f8be382b607a2abc038",
+      "type": "Place",
+      "title": "Piasta Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b2a3a115b81ed47514ab8548",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b7db17476d9c4d12174b19c2",
+      "type": "Place",
+      "title": "Death Chamber Number 81",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b4afa78ce5365889ccf1359",
+      "type": "Event",
+      "title": "Archive recovery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9bc2f9ea5b42563a326d458a",
+      "type": "Work",
+      "title": "Tragic Testament of the Last Jews",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,111 @@
+{
+  "id": "mention_668dfb3e2ad9aacb53e894bd",
+  "type": "Place",
+  "title": "camp square",
+  "summary": "A square where Bialystok Jews were driven and inspected.",
+  "originalName": "אַפּעל-פּלאַץ",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 229,
+  "printedPage": "213",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp square",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_885dfd4e39620ce93cf4e452",
+      "pageId": "page_nybc313697_0229",
+      "scanIndex": 229,
+      "leafNumber": 228,
+      "printedPage": "213",
+      "passageCharStart": 149,
+      "passageCharEnd": 168,
+      "normalizedPassageCharStart": 128,
+      "normalizedPassageCharEnd": 147,
+      "pageCharStart": 2861,
+      "pageCharEnd": 2880,
+      "quote": "אויפץ\nאַפּעל-פּלאַץ",
+      "normalizedQuote": "אויפץ אַפּעל-פּלאַץ",
+      "modelQuote": "אויפץ אַפּעל-פּלאַץ",
+      "bbox": {
+        "left": 2571,
+        "top": 533,
+        "right": 4539,
+        "bottom": 706
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n228/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "d8be140330910c730b9d5a1142b39075df9f49541386362f831f822749c802fb",
+      "normalizedPassageChecksum": "5fc0c417b41bb0723280575bc9da140904d39488065179b01f2e5ac40189c6f7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3c56e271a0bb0403e0a601c2",
+      "type": "Murder",
+      "title": "Murder of Bialystok Jews",
+      "summary": "The camp commander conducted a slaughter of Bialystok Jews and shot many.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_885dfd4e39620ce93cf4e452",
+        "pageId": "page_nybc313697_0229",
+        "scanIndex": 229,
+        "leafNumber": 228,
+        "printedPage": "213",
+        "passageCharStart": 233,
+        "passageCharEnd": 289,
+        "normalizedPassageCharStart": 203,
+        "normalizedPassageCharEnd": 252,
+        "pageCharStart": 2945,
+        "pageCharEnd": 3001,
+        "quote": "האָט אָנגעפירט מיט דער שחיטה\nאיבער די ביאַליסטאָקער אידן",
+        "normalizedQuote": "האָטאָנגעפירטמיטדערשחיטה איבערדיביאַליסטאָקעראידן",
+        "modelQuote": "האָטאָנגעפירטמיטדערשחיטה איבערדיביאַליסטאָקעראידן",
+        "bbox": {
+          "left": 2572,
+          "top": 733,
+          "right": 4539,
+          "bottom": 907
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n228/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "d8be140330910c730b9d5a1142b39075df9f49541386362f831f822749c802fb",
+        "normalizedPassageChecksum": "5fc0c417b41bb0723280575bc9da140904d39488065179b01f2e5ac40189c6f7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3c56e271a0bb0403e0a601c2",
+      "type": "Event",
+      "title": "Murder of Bialystok Jews",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70192fc10286afb74a6cbee8",
+      "type": "Community",
+      "title": "Bialystok Jewish Community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_010ee8ce099b48e48bb9cc13",
+      "type": "Place",
+      "title": "Lublin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_37fc3c71f615f28b0e206d50",
+      "type": "Person",
+      "title": "Tuman",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

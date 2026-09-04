@@ -1,0 +1,106 @@
+{
+  "id": "mention_7ded43811a796c405998b284",
+  "type": "Person",
+  "title": "Mordechai",
+  "summary": "One of three adult children murdered from the Lapidus family.",
+  "originalName": "מרדכי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 45,
+  "printedPage": "29",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "murder victim",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_942d5c6636e24292ace25e99",
+      "pageId": "page_nybc313697_0045",
+      "scanIndex": 45,
+      "leafNumber": 44,
+      "printedPage": "29",
+      "passageCharStart": 1074,
+      "passageCharEnd": 1095,
+      "normalizedPassageCharStart": 919,
+      "normalizedPassageCharEnd": 937,
+      "pageCharStart": 5552,
+      "pageCharEnd": 5573,
+      "quote": "אהרן, מרדכי און בלומע",
+      "normalizedQuote": "אהרן,מרדכיאוןבלומע",
+      "modelQuote": "אהרן, מרדכיאון בלומע",
+      "bbox": {
+        "left": 3204,
+        "top": 5417,
+        "right": 4006,
+        "bottom": 5497
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n44/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "73d1d9b887426fdce07a51cbec1c31b216cd12d73fca176e3246343b265ed382",
+      "normalizedPassageChecksum": "3861cdfadb7c54d36e04fefbf2081b39f14c8ab9059d109e0f0a1de18a510361",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_36c914bfc96838996ee34875",
+      "type": "Murder",
+      "title": "Murder of Lapidus family children",
+      "summary": "Three adult children of the Lapidus family were murdered.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_942d5c6636e24292ace25e99",
+        "pageId": "page_nybc313697_0045",
+        "scanIndex": 45,
+        "leafNumber": 44,
+        "printedPage": "29",
+        "passageCharStart": 1015,
+        "passageCharEnd": 1050,
+        "normalizedPassageCharStart": 868,
+        "normalizedPassageCharEnd": 900,
+        "pageCharStart": 5493,
+        "pageCharEnd": 5528,
+        "quote": "דערמאַָרדעט דריי דערװאַקסענע קינדער",
+        "normalizedQuote": "דערמאַָרדעטדריידערװאַקסענעקינדער",
+        "modelQuote": "דערמאַָרדעט דריידערװאַקסענעקינדער",
+        "bbox": {
+          "left": 2809,
+          "top": 5331,
+          "right": 4238,
+          "bottom": 5400
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n44/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "73d1d9b887426fdce07a51cbec1c31b216cd12d73fca176e3246343b265ed382",
+        "normalizedPassageChecksum": "3861cdfadb7c54d36e04fefbf2081b39f14c8ab9059d109e0f0a1de18a510361",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_36c914bfc96838996ee34875",
+      "type": "Event",
+      "title": "Murder of Lapidus family children",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_01e3d57ae8926f1550293e23",
+      "type": "Person",
+      "title": "Blume",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3d369bcc526f9297e3bf306a",
+      "type": "Family",
+      "title": "Lapidus family",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,119 @@
+{
+  "id": "mention_2c307110091827f01f4ca6a0",
+  "type": "Institution",
+  "title": "Intellectuals’ Kitchen",
+  "summary": "A second ghetto kitchen described as inadequate.",
+  "originalName": "אינטעליגענטן-קיך",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 151,
+  "printedPage": "135",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "kitchen",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_161725ec1937e98e67cbe523",
+      "pageId": "page_nybc313697_0151",
+      "scanIndex": 151,
+      "leafNumber": 150,
+      "printedPage": "135",
+      "passageCharStart": 439,
+      "passageCharEnd": 455,
+      "normalizedPassageCharStart": 373,
+      "normalizedPassageCharEnd": 389,
+      "pageCharStart": 4302,
+      "pageCharEnd": 4318,
+      "quote": "אינטעליגענטן-קיך",
+      "normalizedQuote": "אינטעליגענטן-קיך",
+      "modelQuote": "אינטעליגענטן-קיך",
+      "bbox": {
+        "left": 3596,
+        "top": 3883,
+        "right": 4209,
+        "bottom": 3963
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n150/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "3f2148b6cca5683d0d6c0e11fc6eca6bf0c589ca5f1badf997119116d583deab",
+      "normalizedPassageChecksum": "508b746ee7f22d8c7b1986ee140a71cf4c22b0e88fb395001edc1b3326f93ebc",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_744d776db665e5dfa3a5b6ad",
+      "type": "Opening",
+      "title": "Opening of two ghetto kitchens",
+      "summary": "The Jewish Council opened two kitchens in the ghetto.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text describes opening kitchens, but the event taxonomy has no kitchen-opening type.",
+      "evidence": {
+        "passageId": "passage_161725ec1937e98e67cbe523",
+        "pageId": "page_nybc313697_0151",
+        "scanIndex": 151,
+        "leafNumber": 150,
+        "printedPage": "135",
+        "passageCharStart": 213,
+        "passageCharEnd": 259,
+        "normalizedPassageCharStart": 180,
+        "normalizedPassageCharEnd": 219,
+        "pageCharStart": 4076,
+        "pageCharEnd": 4122,
+        "quote": "האָט דער אידן-ראַט געעפנט צוויי קיכן אין געטאָ",
+        "normalizedQuote": "האָטדעראידן-ראַטגעעפנטצווייקיכןאיןגעטאָ",
+        "modelQuote": "האָטדעראידן-ראַטגעעפנטצווייקיכןאיןגעטאָ",
+        "bbox": {
+          "left": 2565,
+          "top": 3494,
+          "right": 4164,
+          "bottom": 3567
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n150/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "3f2148b6cca5683d0d6c0e11fc6eca6bf0c589ca5f1badf997119116d583deab",
+        "normalizedPassageChecksum": "508b746ee7f22d8c7b1986ee140a71cf4c22b0e88fb395001edc1b3326f93ebc",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_744d776db665e5dfa3a5b6ad",
+      "type": "Event",
+      "title": "Opening of two ghetto kitchens",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_5b8064e9df611a20e80a7f45",
+      "type": "Place",
+      "title": "Bialystok Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_06a1fc0da91ce8734f2d89a4",
+      "type": "Organization",
+      "title": "Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_042aad948b61767f65b352e1",
+      "type": "Institution",
+      "title": "Folk Kitchen",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5e119c612cbecc432d4ad413",
+      "type": "Institution",
+      "title": "Handicraft School",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

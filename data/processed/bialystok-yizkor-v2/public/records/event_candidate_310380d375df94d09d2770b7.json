@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_310380d375df94d09d2770b7",
+  "type": "Event",
+  "title": "Destruction of Bialystok community members",
+  "summary": "Bialystok community members were killed.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 378,
+  "printedPage": "362",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The passage attributes the killing to Hitler’s destruction but gives no specific date or location beyond Poland.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_576838e429474729823b89b5",
+      "pageId": "page_nybc313697_0378",
+      "scanIndex": 378,
+      "leafNumber": 377,
+      "printedPage": "362",
+      "passageCharStart": 98,
+      "passageCharEnd": 152,
+      "normalizedPassageCharStart": 82,
+      "normalizedPassageCharEnd": 131,
+      "pageCharStart": 4178,
+      "pageCharEnd": 4232,
+      "quote": "האָט\nאויך אומגעבראַכט די ביאַליסטאַקער חברים מיטגלידער",
+      "normalizedQuote": "האָט אויךאומגעבראַכטדיביאַליסטאַקערחבריםמיטגלידער",
+      "modelQuote": "האָט אויךאומגעבראַכטדיביאַליסטאַקערחבריםמיטגלידער",
+      "bbox": {
+        "left": 2566,
+        "top": 3686,
+        "right": 4508,
+        "bottom": 3855
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n377/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "e108ed2c6d45100a9ced2068f53653d2c777de930bb7804dc5f555ecbb1e1ab2",
+      "normalizedPassageChecksum": "9eed14a9f429ca2c2b9f275746d323d8fb1ceae4f861821bc682c1380956d872",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_bb964c2d27cd764c1e1e44cb",
+      "type": "Place",
+      "title": "Poland",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_88ac7151dcd2d6e9ac6ebd9f",
+      "type": "Community",
+      "title": "Bialystok community members",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

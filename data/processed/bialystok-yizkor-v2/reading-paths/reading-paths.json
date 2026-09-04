@@ -1,0 +1,970 @@
+{
+  "schemaVersion": "kehilot-yizkor-reading-paths-v1",
+  "pipelineVersion": "kehilot-yizkor-reading-paths-v1",
+  "promptVersion": "kehilot-yizkor-reading-paths-prompt-v1",
+  "generatedAt": "2026-09-04T15:55:29.640Z",
+  "community": {
+    "id": "community_bialystok",
+    "displayName": "Bialystok",
+    "canonicalName": "Bialystok",
+    "country": "Poland"
+  },
+  "book": {
+    "id": "book_nybc313697",
+    "title": "Byalisṭoḳer yizker bukh"
+  },
+  "source": {
+    "selectedVersion": "bialystok-yizkor-v2",
+    "graphPath": "data/processed/bialystok-yizkor-v2/adjudication/resolved-graph.json",
+    "graphSha256": "b480fbe7978900008fbb0d51d2b38f5ccbb1a82a6f6cd4e5d8695184f821946e",
+    "candidateCount": 360
+  },
+  "model": {
+    "name": "gpt-5.6-luna",
+    "serviceTier": "flex",
+    "reasoningEffort": "medium"
+  },
+  "overview": {
+    "title": "Sefer Lukow: evidence check",
+    "summary": "The supplied records do not document Jewish Łuków; they overwhelmingly identify Bialystok, its Jewish community, wartime ghetto, resistance, survivors, and memorial institutions. They include accounts of prewar religious, educational, political, economic, and cultural life in Bialystok, followed by Nazi persecution, destruction, survival, and postwar remembrance. A responsible guide to Łuków cannot be constructed from these records without risking the misattribution of Bialystok history to another community. The material below therefore offers a source-checking path rather than presenting unsupported history as Łuków history."
+  },
+  "paths": [
+    {
+      "id": "verify-community-identity",
+      "theme": "MEMORY",
+      "title": "Is this evidence about Łuków or Bialystok?",
+      "description": "This path teaches readers how to recognize the community actually represented by the supplied memorial-book evidence. By the end, readers will understand why these records cannot presently support a historical guide to Jewish Łuków.",
+      "question": "What community does the supplied evidence document?",
+      "steps": [
+        {
+          "title": "The records name Bialystok",
+          "summary": "The supplied evidence repeatedly identifies Bialystok and the Bialystok Jewish community, including its religious, cultural, political, and economic life. These references establish the documented community as Bialystok rather than Łuków.",
+          "recordIds": [
+            "mention_2051c0b0cc3927473157ee9c",
+            "mention_6d0297180bac3395beff8011",
+            "mention_621c86af6eb89adc43043d3b"
+          ],
+          "records": [
+            {
+              "recordId": "mention_2051c0b0cc3927473157ee9c",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Bialystok",
+              "summary": "Jewish community described through its cultural, political, and economic life.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 597,
+              "printedPage": null,
+              "passageId": "passage_c17fbc80de207ce0f5f808b2",
+              "quote": "Bialystok"
+            },
+            {
+              "recordId": "mention_6d0297180bac3395beff8011",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Bialystok Jewish community",
+              "summary": "Jewish community whose cultural and religious life is described.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 566,
+              "printedPage": null,
+              "passageId": "passage_465c812307f0be2dbf42d736",
+              "quote": "JewishreligiouslifeinBialystok"
+            },
+            {
+              "recordId": "mention_621c86af6eb89adc43043d3b",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Bialystok Jewish community",
+              "summary": "Bialystok Jews supported broad charitable and welfare activity.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 21,
+              "printedPage": "5",
+              "passageId": "passage_f5da07232d006e25ca2f142f",
+              "quote": "ביאַליסטאָקעראידן"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "The wartime accounts concern the Bialystok ghetto",
+          "summary": "The wartime records describe the creation, enclosure, resistance, liquidation, and destruction of the Bialystok ghetto. They include the February 1943 action and the August 1943 liquidation, but do not identify these events as Łuków events.",
+          "recordIds": [
+            "mention_4fc17daa21d9cb79785538ae",
+            "mention_e3ee4f49ad0b91d205486e77",
+            "mention_453dfc5c31766d6cc3295203",
+            "mention_c6ab1f2774907d237120c368"
+          ],
+          "records": [
+            {
+              "recordId": "mention_4fc17daa21d9cb79785538ae",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Bialystok ghetto",
+              "summary": "The Bialystok ghetto was completed on August 1, 1941, after Nazi occupation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 555,
+              "printedPage": null,
+              "passageId": "passage_a7a950c9fc8c9bf91d920d66",
+              "quote": "theghettofortheJewswas completed"
+            },
+            {
+              "recordId": "mention_e3ee4f49ad0b91d205486e77",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Bialystok ghetto",
+              "summary": "The ghetto was blockaded and enclosed by a fence with three gates.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 554,
+              "printedPage": null,
+              "passageId": "passage_64d4ddf7380f127c3c416e43",
+              "quote": "Theghettowastobecompletelyblockaded"
+            },
+            {
+              "recordId": "mention_453dfc5c31766d6cc3295203",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "February 1943 Action",
+              "summary": "Ghetto roundup and killings beginning during the night of February 4–5, 1943.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 536,
+              "printedPage": null,
+              "passageId": "passage_938aebe552e6201bc664ac2b",
+              "quote": "THE“ACTION”OFFEBRUARY1943"
+            },
+            {
+              "recordId": "mention_c6ab1f2774907d237120c368",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Bialystok ghetto",
+              "summary": "Ghetto where liquidation began on August 16, 1943.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 517,
+              "printedPage": null,
+              "passageId": "passage_0b053aa5c5ac34337ca66cba",
+              "quote": "TheliquidationoftheBialystokghettobeganon August16,1943"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "The memorial work is also Bialystok-centered",
+          "summary": "Postwar records describe Bialystoker survivors, the Bialystoker Stimme, Bialystok memorial books, and commemorative gatherings. This shows that the supplied evidence preserves Bialystok memory and should not be presented as evidence about Łuków without additional records.",
+          "recordIds": [
+            "mention_fb65fa31ec88878e8b9fb794",
+            "mention_2ae846727c7bb9e973e669d1",
+            "mention_adc27f66830816d8ed4dfd6c",
+            "mention_adcd78db9960e47d0cb7ad5b"
+          ],
+          "records": [
+            {
+              "recordId": "mention_fb65fa31ec88878e8b9fb794",
+              "kind": "mention",
+              "type": "PUBLICATION",
+              "title": "Bialystoker Stimme",
+              "summary": "Magazine whose issues connected Bialystok survivors and friends.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 479,
+              "printedPage": null,
+              "passageId": "passage_ddcf214591548da4e3ad097a",
+              "quote": "the BialystokerStimme"
+            },
+            {
+              "recordId": "mention_2ae846727c7bb9e973e669d1",
+              "kind": "mention",
+              "type": "PUBLICATION",
+              "title": "Bialystoker Stimme",
+              "summary": "Publication containing Datner’s account of the massacre.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 558,
+              "printedPage": null,
+              "passageId": "passage_bae24ce52ae62cc814c40c58",
+              "quote": "the November-December1946issueoftheBialystoker Stimme"
+            },
+            {
+              "recordId": "mention_adc27f66830816d8ed4dfd6c",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Culture Congress in New York",
+              "summary": "Congress attended by a group of Bialystoker delegates in 1948.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 418,
+              "printedPage": null,
+              "passageId": "passage_7976493451d48306eece0756",
+              "quote": "AGroupofBialystokerDelegatestotheCultureCongressinNewYorkin1948"
+            },
+            {
+              "recordId": "mention_adcd78db9960e47d0cb7ad5b",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Max Ratner",
+              "summary": "A Cleveland Bialystoker landsman and activist who drove the book project.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 624,
+              "printedPage": null,
+              "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+              "quote": "MaxRatnerof Cleveland,ourdistinguishedBialystoker landsmanandleadingactivistintheAmerican Jewishcommunity"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "What is needed to build a Łuków guide",
+          "summary": "A Łuków reading guide would require records that explicitly identify Łuków people, institutions, places, events, or passages from Sefer Lukow. The supplied records do not provide that evidence, so no claims about Łuków’s prewar life, destruction, survival, or memory can be responsibly made from them.",
+          "recordIds": [
+            "mention_0987dfccae6e7465f11b95d7",
+            "mention_604cc40ba9f60bcc725d27d3"
+          ],
+          "records": [
+            {
+              "recordId": "mention_0987dfccae6e7465f11b95d7",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Bialystok Yizkor Book",
+              "summary": "A memorial book listing contributors and associated with Bialystok remembrance.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 356,
+              "printedPage": "340",
+              "passageId": "passage_47833b216459409df58fad55",
+              "quote": "דערבּיאַליסטאָקעריזכּור-בּוך"
+            },
+            {
+              "recordId": "mention_604cc40ba9f60bcc725d27d3",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Bialystok Memorial Book",
+              "summary": "The passage identifies the Bialystok memorial book.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 49,
+              "printedPage": "33",
+              "passageId": "passage_1d44b164034b7c71fff50cc1",
+              "quote": "דערבּיאַליסטאָקעריזכּור-בּוך"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "bialystok-context-only",
+      "theme": "COMMUNITY_LIFE",
+      "title": "What history is actually represented here?",
+      "description": "This optional path identifies the broad historical arc contained in the records, while keeping it clearly attributed to Bialystok. It may help readers distinguish usable source material from evidence still needed for Łuków.",
+      "question": "What can these records teach us—without confusing Bialystok with Łuków?",
+      "steps": [
+        {
+          "title": "A varied Jewish community before the war",
+          "summary": "The records portray Bialystok as a center of Torah learning, religious life, industry, labor organizing, political movements, education, and cultural production. They also preserve evidence of family businesses, schools, hospitals, newspapers, and migration.",
+          "recordIds": [
+            "mention_050763c0f5b559883f493e37",
+            "mention_1f7d44f4b72c855fa13e9d29",
+            "event_candidate_912e830db0a4d3c03f4575c5",
+            "event_candidate_56ce852cb5823e9348807079"
+          ],
+          "records": [
+            {
+              "recordId": "mention_050763c0f5b559883f493e37",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Bialystok",
+              "summary": "Community portrayed as a major center of Torah learning and religious education.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 591,
+              "printedPage": null,
+              "passageId": "passage_4e4351ec0e5935a57204a0b7",
+              "quote": "Bialystokwaswellknownasoneofthecentersof Torahlearning."
+            },
+            {
+              "recordId": "mention_1f7d44f4b72c855fa13e9d29",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Textile manufacturing",
+              "summary": "Textile manufacturing developed gradually in Bialystok.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 90,
+              "printedPage": "74",
+              "passageId": "passage_a14e59ed23f51fb233c25c10",
+              "quote": "דיטוך-פאַבריקאַציע"
+            },
+            {
+              "recordId": "event_candidate_912e830db0a4d3c03f4575c5",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of the Bund",
+              "summary": "The Bund was founded in 1897.",
+              "dateStart": "1897",
+              "dateEnd": "",
+              "scanIndex": 92,
+              "printedPage": "76",
+              "passageId": "passage_1952dc367c4cf9b0eb777e2e",
+              "quote": "בונד\",וועלכערהאָטזיך געגרינדעטONTTN,1897PR"
+            },
+            {
+              "recordId": "event_candidate_56ce852cb5823e9348807079",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Jewish Hospital founded",
+              "summary": "The Jewish Hospital was founded in 1840.",
+              "dateStart": "1840",
+              "dateEnd": "",
+              "scanIndex": 577,
+              "printedPage": null,
+              "passageId": "passage_bb2cfc631f13216bd302ae9c",
+              "quote": "ThenursesanddoctorsoftheJewishHospital,foundedin 1840."
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Occupation, ghettoization, and murder",
+          "summary": "The records describe German occupation, the imposition of a Jewish Council, forced labor and ghetto administration, deportations, shootings, and mass murder. These accounts are memorial-book testimony about Bialystok and must not be transferred to Łuków by assumption.",
+          "recordIds": [
+            "mention_06a1fc0da91ce8734f2d89a4",
+            "mention_7128e89c6835e7474d176087",
+            "mention_716aeaefe8b18ed5d32d7a6a",
+            "mention_4b8c652d43da818fa73da6ba"
+          ],
+          "records": [
+            {
+              "recordId": "mention_06a1fc0da91ce8734f2d89a4",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Jewish Council",
+              "summary": "Council established under the German occupation authorities.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 142,
+              "printedPage": "126",
+              "passageId": "passage_d68466212048ae51a04b8cbe",
+              "quote": "זאָלן שאַפןאַאידן-ראַט"
+            },
+            {
+              "recordId": "mention_7128e89c6835e7474d176087",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Jewish Council",
+              "summary": "The Jewish Council organized and regulated labor in the ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 185,
+              "printedPage": "169",
+              "passageId": "passage_959e4d6d7899e3395fda602c",
+              "quote": "אידן-ראַט"
+            },
+            {
+              "recordId": "mention_716aeaefe8b18ed5d32d7a6a",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Mass murder operations",
+              "summary": "The passage describes German and Lithuanian fascist mass murders of Jewish people.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 195,
+              "printedPage": "179",
+              "passageId": "passage_8775f17632f6426f85320e05",
+              "quote": "דורכגעפירטזייערע מאַסן-מאָרדןאיבערדעראידישערבאַפעלקערונג"
+            },
+            {
+              "recordId": "mention_4b8c652d43da818fa73da6ba",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Deportation to Treblinka",
+              "summary": "A train carrying women and children departed toward Treblinka after a roundup.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 232,
+              "printedPage": "216",
+              "passageId": "passage_06ed46ec2e96574bfcab8d03",
+              "quote": "דאָסאיזדערוועגקייןטרעבלינקע"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Resistance, survival, and remembrance",
+          "summary": "The evidence records armed resistance in the Bialystok ghetto, survival accounts, postwar survivor organization, commemorative plaques, memorial stones, and publications. Together, these sources show how a destroyed community was remembered by survivors and descendants.",
+          "recordIds": [
+            "mention_1fd80c1d5dca96a6b3f4afba",
+            "mention_60d9d4023737327ee6e194d3",
+            "mention_ce1f20b6fef2903f653cd839",
+            "mention_b32136bcd4d9da5e4960905d"
+          ],
+          "records": [
+            {
+              "recordId": "mention_1fd80c1d5dca96a6b3f4afba",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Bialystok Uprising",
+              "summary": "An uprising aimed to seize factories, breach German encirclement, and evacuate youth.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 250,
+              "printedPage": "234",
+              "passageId": "passage_25b422e7daeb731fe367462e",
+              "quote": "דערעיקר-צילפונ'םאױיפּשטאַנדאיזגעווען"
+            },
+            {
+              "recordId": "mention_60d9d4023737327ee6e194d3",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Shooting of 272 insurgents",
+              "summary": "German and Ukrainian guards shot 272 insurgents after an attempted escape.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 252,
+              "printedPage": "236",
+              "passageId": "passage_d75d567afeec46d8592b1214",
+              "quote": "דיצווייאוןזיבעציקאויפשטענדלער זיינעןגעלעגן"
+            },
+            {
+              "recordId": "mention_ce1f20b6fef2903f653cd839",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Unveiling of a memorial plaque for Bialystok's dead",
+              "summary": "A ceremonial unveiling took place in the library hall in honor of Bialystok's dead.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 264,
+              "printedPage": "248",
+              "passageId": "passage_c3f993e933345becdb0b7414",
+              "quote": "פאָרגעקומעןדי פייערלעכעאנטהילונגPP‏דעםאָנדענקונגס-טאָװללכבוד דעםאָנדענקפוןדיקדושיםפוןביאַליסטאָק"
+            },
+            {
+              "recordId": "mention_b32136bcd4d9da5e4960905d",
+              "kind": "mention",
+              "type": "OBJECT",
+              "title": "Memorial stones",
+              "summary": "Eight hundred large and small memorial stones were erected at Treblinka.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 310,
+              "printedPage": "294",
+              "passageId": "passage_995088e7600d98aa6436b146",
+              "quote": "800 גרויסעWN‏קלענערעמצבות-שטיינער"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "A source, not a substitute for Łuków evidence",
+          "summary": "A yizkor book preserves testimony, names, images, and commemorative interpretations, but its evidentiary scope depends on the community it documents. Here, the cited memorial-book references are Bialystok-centered, so they cannot by themselves establish the history of Łuków.",
+          "recordIds": [
+            "mention_964bf8905a6dee8ca265c5c9",
+            "mention_8779a466aa967eb0386464fd5"
+          ],
+          "records": [
+            {
+              "recordId": "mention_964bf8905a6dee8ca265c5c9",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "The Bialystoker Yizkor Book",
+              "summary": "Named title of the memorial book.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 412,
+              "printedPage": "396",
+              "passageId": "passage_63632e6d020486e0b0241903",
+              "quote": "דערבּיאַליסטאָקעריזכּור-בּוך"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 1
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 2
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 3
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 4
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 5
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 6
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 7
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 8
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 9
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 10
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 11
+    },
+    {
+      "periodStart": "",
+      "periodEnd": "",
+      "dateLabel": "No Łuków chronology supported by the supplied records",
+      "title": "Additional Łuków evidence required",
+      "summary": "The supplied dated records concern Bialystok rather than Łuków. A chronological guide to Jewish Łuków should be generated only after records explicitly tied to Łuków are supplied.",
+      "recordIds": [
+        "mention_71e516980f1e58c075224727",
+        "mention_781b2f3beb131f5b89e62388"
+      ],
+      "records": [
+        {
+          "recordId": "mention_71e516980f1e58c075224727",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Bialystok",
+          "summary": "Jewish community commemorated through its ghetto, victims, culture, and resistance.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 509,
+          "printedPage": null,
+          "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+          "quote": "therearenomore JewstobefoundinBialystok"
+        },
+        {
+          "recordId": "mention_781b2f3beb131f5b89e62388",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Bialystok",
+          "summary": "The Jewish community of Bialystok was destroyed during the Holocaust.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 624,
+          "printedPage": null,
+          "passageId": "passage_7d15f8ab512d2d2209c2ce30",
+          "quote": "greatJewish commiunity"
+        }
+      ],
+      "position": 12
+    }
+  ]
+}

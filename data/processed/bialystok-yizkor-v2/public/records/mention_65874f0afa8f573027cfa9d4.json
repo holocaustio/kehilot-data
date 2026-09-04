@@ -1,0 +1,109 @@
+{
+  "id": "mention_65874f0afa8f573027cfa9d4",
+  "type": "Place",
+  "title": "Staroseltsy",
+  "summary": "Town three kilometers from Bialystok where forced labor occurred.",
+  "originalName": "סטאַראָסעלץ",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 189,
+  "printedPage": "173",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "uncertaintyNote": "OCR is noisy around the place name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4f220cbe67724e2f5f2b28f2",
+      "pageId": "page_nybc313697_0189",
+      "scanIndex": 189,
+      "leafNumber": 188,
+      "printedPage": "173",
+      "passageCharStart": 363,
+      "passageCharEnd": 413,
+      "normalizedPassageCharStart": 309,
+      "normalizedPassageCharEnd": 354,
+      "pageCharStart": 2891,
+      "pageCharEnd": 2941,
+      "quote": "סטאַראָסעלץ N)‏\nשטעטל 3 קילאָמעטער פון ביאַליסטאָק",
+      "normalizedQuote": "סטאַראָסעלץN)‏ שטעטל3קילאָמעטערפוןביאַליסטאָק",
+      "modelQuote": "סטאַראָסעלץN)‏ שטעטל3קילאָמעטערפוןביאַליסטאָק",
+      "bbox": {
+        "left": 2573,
+        "top": 1437,
+        "right": 4499,
+        "bottom": 1619
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n188/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f328d6e89168c189dfe73e27ec1821a0868dd99594097b139dbf01a27e3c58e1",
+      "normalizedPassageChecksum": "bde52a60c8430f89f65558d2b5d7c2838f9575e237e7b315a94536576aba8af6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_4721a01492199650a2d20324",
+      "predicate": "Near",
+      "subjectTitle": "Staroseltsy",
+      "objectTitle": "Bialystok",
+      "confidence": "MEDIUM",
+      "qualifiers": {
+        "distance": "3 kilometers"
+      },
+      "evidence": {
+        "passageId": "passage_4f220cbe67724e2f5f2b28f2",
+        "pageId": "page_nybc313697_0189",
+        "scanIndex": 189,
+        "leafNumber": 188,
+        "printedPage": "173",
+        "passageCharStart": 363,
+        "passageCharEnd": 413,
+        "normalizedPassageCharStart": 309,
+        "normalizedPassageCharEnd": 354,
+        "pageCharStart": 2891,
+        "pageCharEnd": 2941,
+        "quote": "סטאַראָסעלץ N)‏\nשטעטל 3 קילאָמעטער פון ביאַליסטאָק",
+        "normalizedQuote": "סטאַראָסעלץN)‏ שטעטל3קילאָמעטערפוןביאַליסטאָק",
+        "modelQuote": "סטאַראָסעלץN)‏ שטעטל3קילאָמעטערפוןביאַליסטאָק",
+        "bbox": {
+          "left": 2573,
+          "top": 1437,
+          "right": 4499,
+          "bottom": 1619
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n188/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "f328d6e89168c189dfe73e27ec1821a0868dd99594097b139dbf01a27e3c58e1",
+        "normalizedPassageChecksum": "bde52a60c8430f89f65558d2b5d7c2838f9575e237e7b315a94536576aba8af6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_e8c8a132c4105e14b3975746",
+      "type": "Place",
+      "title": "Baranovich Road",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

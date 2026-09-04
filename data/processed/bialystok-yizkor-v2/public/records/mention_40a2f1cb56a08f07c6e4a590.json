@@ -1,0 +1,106 @@
+{
+  "id": "mention_40a2f1cb56a08f07c6e4a590",
+  "type": "Organization",
+  "title": "the Germans",
+  "summary": "The Germans forced Jews aged fourteen to sixty into slavery.",
+  "originalName": "דייטשן",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 169,
+  "printedPage": "153",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "occupying authorities",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_89df424c15b7b3a2890f6a51",
+      "pageId": "page_nybc313697_0169",
+      "scanIndex": 169,
+      "leafNumber": 168,
+      "printedPage": "153",
+      "passageCharStart": 187,
+      "passageCharEnd": 200,
+      "normalizedPassageCharStart": 158,
+      "normalizedPassageCharEnd": 169,
+      "pageCharStart": 1472,
+      "pageCharEnd": 1485,
+      "quote": "ביי די דייטשן",
+      "normalizedQuote": "ביידידייטשן",
+      "modelQuote": "ביידידייטשן",
+      "bbox": {
+        "left": 967,
+        "top": 3238,
+        "right": 1426,
+        "bottom": 3303
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n168/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "6d7c0b07c0e94cf0c8ed30e886f8e68b25a3787eaef8901a5a205fc138fc402d",
+      "normalizedPassageChecksum": "abe9a90fcf61eea6e46b037df5f0c9bc69412c1fa268f6fa53b093cd7ea3be66",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c4da46846c06af3678dfbdb1",
+      "type": "Employment",
+      "title": "Forced labor in the ghetto",
+      "summary": "Jews aged fourteen to sixty were enslaved by the Germans and employed in textile work.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_89df424c15b7b3a2890f6a51",
+        "pageId": "page_nybc313697_0169",
+        "scanIndex": 169,
+        "leafNumber": 168,
+        "printedPage": "153",
+        "passageCharStart": 130,
+        "passageCharEnd": 200,
+        "normalizedPassageCharStart": 111,
+        "normalizedPassageCharEnd": 169,
+        "pageCharStart": 1415,
+        "pageCharEnd": 1485,
+        "quote": "אידן אין עלטער פון 14 ביז 60\nיאָר זיינען געװאָרן שקלאַפן ביי די דייטשן",
+        "normalizedQuote": "אידןאיןעלטערפון14ביז60 יאָרזיינעןגעװאָרןשקלאַפןביידידייטשן",
+        "modelQuote": "אידןאיןעלטערפון14ביז60 יאָרזיינעןגעװאָרןשקלאַפןביידידייטשן",
+        "bbox": {
+          "left": 445,
+          "top": 3124,
+          "right": 2377,
+          "bottom": 3307
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n168/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "6d7c0b07c0e94cf0c8ed30e886f8e68b25a3787eaef8901a5a205fc138fc402d",
+        "normalizedPassageChecksum": "abe9a90fcf61eea6e46b037df5f0c9bc69412c1fa268f6fa53b093cd7ea3be66",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c4da46846c06af3678dfbdb1",
+      "type": "Event",
+      "title": "Forced labor in the ghetto",
+      "relation": "Participated In",
+      "role": "Employer"
+    },
+    {
+      "id": "mention_29a4d3fcdd4f1687128426f0",
+      "type": "Place",
+      "title": "the ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a7f7499e68b148011e35ad24",
+      "type": "Business",
+      "title": "textile industry",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

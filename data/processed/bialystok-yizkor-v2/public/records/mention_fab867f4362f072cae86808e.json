@@ -1,0 +1,111 @@
+{
+  "id": "mention_fab867f4362f072cae86808e",
+  "type": "Publication",
+  "title": "Berliner Tageblatt",
+  "summary": "Liberal German newspaper where Yosef Melnik worked.",
+  "originalName": "בערלינערטאַגע-בלאַט",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 56,
+  "printedPage": "40",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "newspaper",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2c45c71b30dc681b7cc2c88c",
+      "pageId": "page_nybc313697_0056",
+      "scanIndex": 56,
+      "leafNumber": 55,
+      "printedPage": "40",
+      "passageCharStart": 257,
+      "passageCharEnd": 277,
+      "normalizedPassageCharStart": 218,
+      "normalizedPassageCharEnd": 237,
+      "pageCharStart": 1815,
+      "pageCharEnd": 1835,
+      "quote": "בערלינער טאַגע-בלאַט",
+      "normalizedQuote": "בערלינערטאַגע-בלאַט",
+      "modelQuote": "בערלינערטאַגע-בלאַט",
+      "bbox": {
+        "left": 1509,
+        "top": 3916,
+        "right": 2286,
+        "bottom": 4001
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n55/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "e370a29d8ffa0dc68062b8311fd785d93194e6c6e82cab7f7496dc73b4770dfa",
+      "normalizedPassageChecksum": "f6258ecda58743056ec94c139ed33f8a6a74af42009a31e429eec6ef747bc69c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_b00ef2358f35fa433d88ddeb",
+      "predicate": "Worked At",
+      "subjectTitle": "Yosef Melnik",
+      "objectTitle": "Berliner Tageblatt",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2c45c71b30dc681b7cc2c88c",
+        "pageId": "page_nybc313697_0056",
+        "scanIndex": 56,
+        "leafNumber": 55,
+        "printedPage": "40",
+        "passageCharStart": 241,
+        "passageCharEnd": 277,
+        "normalizedPassageCharStart": 203,
+        "normalizedPassageCharEnd": 237,
+        "pageCharStart": 1799,
+        "pageCharEnd": 1835,
+        "quote": "מיטגעאַרבעט\nאין בערלינער טאַגע-בלאַט",
+        "normalizedQuote": "מיטגעאַרבעט איןבערלינערטאַגע-בלאַט",
+        "modelQuote": "מיטגעאַרבעט איןבערלינערטאַגע-בלאַט",
+        "bbox": {
+          "left": 463,
+          "top": 3827,
+          "right": 2423,
+          "bottom": 4001
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n55/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "e370a29d8ffa0dc68062b8311fd785d93194e6c6e82cab7f7496dc73b4770dfa",
+        "normalizedPassageChecksum": "f6258ecda58743056ec94c139ed33f8a6a74af42009a31e429eec6ef747bc69c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_215f498e484e9a80a38cb35e",
+      "type": "Person",
+      "title": "Yosef Melnik",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_215f498e484e9a80a38cb35e",
+      "type": "Person",
+      "title": "Yosef Melnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2c4dbe2087c86ea00e05e357",
+      "type": "Place",
+      "title": "Berlin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ef85a54ab944f7cf19d3b102",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

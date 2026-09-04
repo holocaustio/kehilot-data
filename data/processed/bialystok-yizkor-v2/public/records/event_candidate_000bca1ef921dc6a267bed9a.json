@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_000bca1ef921dc6a267bed9a",
+  "type": "Event",
+  "title": "Deportation of Awrom Bonczewski and Victor",
+  "summary": "Awrom Bonczewski and his son Victor were deported to Auschwitz during the Holocaust.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 420,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_43a02010230f62ead93aada1",
+      "pageId": "page_nybc313697_0420",
+      "scanIndex": 420,
+      "leafNumber": 419,
+      "printedPage": null,
+      "passageCharStart": 332,
+      "passageCharEnd": 419,
+      "normalizedPassageCharStart": 289,
+      "normalizedPassageCharEnd": 364,
+      "pageCharStart": 332,
+      "pageCharEnd": 419,
+      "quote": "During the Nazi Holocaust, Dr. Bonczewski and\nhis son Victor were deported to Auschwitz",
+      "normalizedQuote": "DuringtheNaziHolocaust,Dr.Bonczewskiand hissonVictorweredeportedtoAuschwitz",
+      "modelQuote": "DuringtheNaziHolocaust,Dr.Bonczewskiand hissonVictorweredeportedtoAuschwitz",
+      "bbox": {
+        "left": 412,
+        "top": 1172,
+        "right": 2360,
+        "bottom": 1347
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n419/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "baa3c54789a692d3954ec038b82ec97bcbdff068209aed3560df8dee3e07be6b",
+      "normalizedPassageChecksum": "064f5a0adcd48cbc468afbe79a85370820279e1a7422f337526848170c21c50c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_3dd97b325114b756d51e0906",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_de40aa18f2513128e524c825",
+      "type": "Person",
+      "title": "Awrom Bonczewski",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_2ff6922d5d2326cc462b0087",
+      "type": "Person",
+      "title": "Victor Bonczewski",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

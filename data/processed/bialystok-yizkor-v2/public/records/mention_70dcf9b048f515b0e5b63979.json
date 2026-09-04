@@ -1,0 +1,113 @@
+{
+  "id": "mention_70dcf9b048f515b0e5b63979",
+  "type": "Place",
+  "title": "Novolipiegos",
+  "summary": "A place near which Kotik's library operated.",
+  "originalName": "נאָװאָליפּיעגאָס",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 36,
+  "printedPage": "20",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "uncertaintyNote": "OCR spacing is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_05e5401ca1dbf1f5e5dfc4f8",
+      "pageId": "page_nybc313697_0036",
+      "scanIndex": 36,
+      "leafNumber": 35,
+      "printedPage": "20",
+      "passageCharStart": 0,
+      "passageCharEnd": 32,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 28,
+      "pageCharStart": 0,
+      "pageCharEnd": 32,
+      "quote": "נישט ווייט פון נאָװאָליפּיע גאָס",
+      "normalizedQuote": "נישטווייטפוןנאָװאָליפּיעגאָס",
+      "modelQuote": "נישטווייטפוןנאָװאָליפּיעגאָס",
+      "bbox": {
+        "left": 1137,
+        "top": 343,
+        "right": 2208,
+        "bottom": 422
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n35/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f8e536d7202be6de91b092aa7611060744bdfa0bca2f6ca46674cb4d98343239",
+      "normalizedPassageChecksum": "f6f6c50e9357a90298eb1879056317c632f26571a7906d42aa40983dbb181955",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_055051be60ecf36e2407c15a",
+      "predicate": "Near",
+      "subjectTitle": "Kotik's library",
+      "objectTitle": "Novolipiegos",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The wording indicates proximity, not a precise location.",
+      "evidence": {
+        "passageId": "passage_05e5401ca1dbf1f5e5dfc4f8",
+        "pageId": "page_nybc313697_0036",
+        "scanIndex": 36,
+        "leafNumber": 35,
+        "printedPage": "20",
+        "passageCharStart": 0,
+        "passageCharEnd": 55,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 48,
+        "pageCharStart": 0,
+        "pageCharEnd": 55,
+        "quote": "נישט ווייט פון נאָװאָליפּיע גאָס, האָט פאַרמאָגט רוסישע",
+        "normalizedQuote": "נישטווייטפוןנאָװאָליפּיעגאָס,האָטפאַרמאָגטרוסישע",
+        "modelQuote": "נישטווייטפוןנאָװאָליפּיעגאָס,האָטפאַרמאָגטרוסישע",
+        "bbox": {
+          "left": 309,
+          "top": 343,
+          "right": 2208,
+          "bottom": 424
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n35/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "f8e536d7202be6de91b092aa7611060744bdfa0bca2f6ca46674cb4d98343239",
+        "normalizedPassageChecksum": "f6f6c50e9357a90298eb1879056317c632f26571a7906d42aa40983dbb181955",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_c5ec3d3868c55e0a15318f6f",
+      "type": "Institution",
+      "title": "Kotik's library",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_35996fa39f33dd153a065a2c",
+      "type": "Person",
+      "title": "Kotik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c5ec3d3868c55e0a15318f6f",
+      "type": "Institution",
+      "title": "Kotik's library",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_819d20ae6aef4e115096d99b",
+      "type": "Institution",
+      "title": "The two libraries",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

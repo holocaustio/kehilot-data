@@ -1,0 +1,114 @@
+{
+  "id": "mention_d47d5e7d9bf3661808c4f768",
+  "type": "Person",
+  "title": "Kaplan",
+  "summary": "Kaplan visited America and wrote for American newspapers and journals.",
+  "originalName": "קאַפּלאַן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 113,
+  "printedPage": "97",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "journalist",
+  "uncertaintyNote": "Only the surname is given.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_95c2622aa6ab0de60c449d1f",
+      "pageId": "page_nybc313697_0113",
+      "scanIndex": 113,
+      "leafNumber": 112,
+      "printedPage": "97",
+      "passageCharStart": 31,
+      "passageCharEnd": 57,
+      "normalizedPassageCharStart": 26,
+      "normalizedPassageCharEnd": 51,
+      "pageCharStart": 3018,
+      "pageCharEnd": 3044,
+      "quote": "קאַפּלאַן באַזוכט\nאַמעריקע",
+      "normalizedQuote": "קאַפּלאַןבאַזוכט אַמעריקע",
+      "modelQuote": "קאַפּלאַן באַזוכט אַמעריקע",
+      "bbox": {
+        "left": 2556,
+        "top": 1164,
+        "right": 4498,
+        "bottom": 1343
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n112/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "a06e48126cc62fb0fcaac94e8fac90589a672047c56477ae3b346096d7cf74f9",
+      "normalizedPassageChecksum": "ccdc41cf68ce6df88224205c8f774a6d57262a804b043c024903f9f70c877343",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a0a1e08a1d9fa78360d4e2ef",
+      "type": "Visit",
+      "title": "Kaplan's visit to America",
+      "summary": "Kaplan visited America and spent three months there.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The date phrase is OCR-damaged and the visit may not represent migration.",
+      "evidence": {
+        "passageId": "passage_95c2622aa6ab0de60c449d1f",
+        "pageId": "page_nybc313697_0113",
+        "scanIndex": 113,
+        "leafNumber": 112,
+        "printedPage": "97",
+        "passageCharStart": 31,
+        "passageCharEnd": 93,
+        "normalizedPassageCharStart": 26,
+        "normalizedPassageCharEnd": 81,
+        "pageCharStart": 3018,
+        "pageCharEnd": 3080,
+        "quote": "קאַפּלאַן באַזוכט\nאַמעריקע, וואו ער ONT‏ פאַרבראַכט דריי חדשים",
+        "normalizedQuote": "קאַפּלאַןבאַזוכט אַמעריקע,וואוערONT‏פאַרבראַכטדרייחדשים",
+        "modelQuote": "קאַפּלאַן באַזוכט אַמעריקע,וואוערONT‏פאַרבראַכטדרייחדשים",
+        "bbox": {
+          "left": 2556,
+          "top": 1164,
+          "right": 4498,
+          "bottom": 1344
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n112/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "a06e48126cc62fb0fcaac94e8fac90589a672047c56477ae3b346096d7cf74f9",
+        "normalizedPassageChecksum": "ccdc41cf68ce6df88224205c8f774a6d57262a804b043c024903f9f70c877343",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a0a1e08a1d9fa78360d4e2ef",
+      "type": "Event",
+      "title": "Kaplan's visit to America",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_3eb6029648b50783c219dadb",
+      "type": "Person",
+      "title": "A. Kahan",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1d08aaa4195ec115afb3c362",
+      "type": "Place",
+      "title": "America",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0cf77f5d70f906e3a35d9d50",
+      "type": "Publication",
+      "title": "Forverts",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

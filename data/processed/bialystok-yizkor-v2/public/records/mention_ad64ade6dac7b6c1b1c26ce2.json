@@ -1,0 +1,113 @@
+{
+  "id": "mention_ad64ade6dac7b6c1b1c26ce2",
+  "type": "Person",
+  "title": "Rivka",
+  "summary": "Rivka, Kaplan’s wife, did everything possible during the factory’s departure.",
+  "originalName": "רבקה",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 214,
+  "printedPage": "198",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "The relationship to Kaplan is stated in noisy OCR.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2f01e645960b8748f732128c",
+      "pageId": "page_nybc313697_0214",
+      "scanIndex": 214,
+      "leafNumber": 213,
+      "printedPage": "198",
+      "passageCharStart": 243,
+      "passageCharEnd": 262,
+      "normalizedPassageCharStart": 206,
+      "normalizedPassageCharEnd": 222,
+      "pageCharStart": 1388,
+      "pageCharEnd": 1407,
+      "quote": "און זיין פרוי, רבקה",
+      "normalizedQuote": "אוןזייןפרוי,רבקה",
+      "modelQuote": "אוןזייןפרוי,רבקה",
+      "bbox": {
+        "left": 418,
+        "top": 3019,
+        "right": 1099,
+        "bottom": 3087
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n213/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "cab92ac8800560c10362b9fc397e257a90a51b328df8f629ac41160f62354e47",
+      "normalizedPassageChecksum": "84509a82bcec5e59243465bf97205e11a62d588d9cc80084d2290443317967a2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_252b237159bdd21ae5bce8a8",
+      "type": "Aktion Or Raid",
+      "title": "Massacre day and factory departure",
+      "summary": "Kaplan, his wife, and daughter are described leaving the factory after the massacre.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event type and date are inferred from a fragmentary passage.",
+      "evidence": {
+        "passageId": "passage_2f01e645960b8748f732128c",
+        "pageId": "page_nybc313697_0214",
+        "scanIndex": 214,
+        "leafNumber": 213,
+        "printedPage": "198",
+        "passageCharStart": 417,
+        "passageCharEnd": 457,
+        "normalizedPassageCharStart": 353,
+        "normalizedPassageCharEnd": 388,
+        "pageCharStart": 1562,
+        "pageCharEnd": 1602,
+        "quote": "ביים פאַרלאָזן די\nפאַבריק נאָך דער שחיטה",
+        "normalizedQuote": "בייםפאַרלאָזןדי פאַבריקנאָךדערשחיטה",
+        "modelQuote": "בייםפאַרלאָזןדי פאַבריקנאָךדערשחיטה",
+        "bbox": {
+          "left": 419,
+          "top": 3305,
+          "right": 2382,
+          "bottom": 3488
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n213/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "cab92ac8800560c10362b9fc397e257a90a51b328df8f629ac41160f62354e47",
+        "normalizedPassageChecksum": "84509a82bcec5e59243465bf97205e11a62d588d9cc80084d2290443317967a2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_252b237159bdd21ae5bce8a8",
+      "type": "Event",
+      "title": "Massacre day and factory departure",
+      "relation": "Participated In",
+      "role": "Spouse"
+    },
+    {
+      "id": "mention_8c123f8a23106f189ffbdbaf",
+      "type": "Person",
+      "title": "Peshach Kaplan",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fb8624947bf8972e69001983",
+      "type": "Person",
+      "title": "Fridl",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_abb1e330c5903f687394a792",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

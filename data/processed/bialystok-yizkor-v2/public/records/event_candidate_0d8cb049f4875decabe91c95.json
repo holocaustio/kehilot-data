@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_0d8cb049f4875decabe91c95",
+  "type": "Event",
+  "title": "Prison Storming",
+  "summary": "Revolutionary youth stormed the prison to free political prisoners; deaths and injuries followed.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 118,
+  "printedPage": "102",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Arrest",
+  "uncertaintyNote": "The event type is only an approximate fit because no prison-storming enum exists.",
+  "dateStart": "1918-10",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_34c4c0cf78b43c71e874ded6",
+      "pageId": "page_nybc313697_0118",
+      "scanIndex": 118,
+      "leafNumber": 117,
+      "printedPage": "102",
+      "passageCharStart": 55,
+      "passageCharEnd": 110,
+      "normalizedPassageCharStart": 48,
+      "normalizedPassageCharEnd": 98,
+      "pageCharStart": 2288,
+      "pageCharEnd": 2343,
+      "quote": "רעװאָלוציאַנערע יוגנט דעמאַנסטרירט\nאון שטורעמט די טורמע",
+      "normalizedQuote": "רעװאָלוציאַנערעיוגנטדעמאַנסטרירט אוןשטורעמטדיטורמע",
+      "modelQuote": "רעװאָלוציאַנערעיוגנטדעמאַנסטרירט אוןשטורעמטדיטורמע",
+      "bbox": {
+        "left": 2566,
+        "top": 520,
+        "right": 4268,
+        "bottom": 710
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n117/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "c00e06bb02219f28a53961631be9a5b561434f636a6ddd99cfa1eb95e764b050",
+      "normalizedPassageChecksum": "db1e2129c1ea4e3bee8b4edd1c632c94e18bafab0c94cf76b0194f1f12ae5621",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b79f7cb8ae0954c3ff613076",
+      "type": "Place",
+      "title": "Prison",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ab6ba59e236984a39cc1d647",
+      "type": "Organization",
+      "title": "Revolutionary Youth",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

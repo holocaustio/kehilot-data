@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_9a3d7d1928229b8b5c714a76",
+  "type": "Event",
+  "title": "Evacuation from Bialystok",
+  "summary": "An evacuation involving approximately 5,000 people is mentioned, but its origin, destination, and organizer are unclear.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 172,
+  "printedPage": "156",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The OCR is noisy and the exact origin and destination of the evacuation are unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3d2f7e006d23e8469cd15c85",
+      "pageId": "page_nybc313697_0172",
+      "scanIndex": 172,
+      "leafNumber": 171,
+      "printedPage": "156",
+      "passageCharStart": 1093,
+      "passageCharEnd": 1135,
+      "normalizedPassageCharStart": 937,
+      "normalizedPassageCharEnd": 973,
+      "pageCharStart": 1483,
+      "pageCharEnd": 1525,
+      "quote": "צו דער עװואַקואַציע JAY IN‏ 5,000 פּערזאָן",
+      "normalizedQuote": "צודערעװואַקואַציעJAYIN‏5,000פּערזאָן",
+      "modelQuote": "צודערעװואַקואַציע JAYIN‏5,000פּערזאָן",
+      "bbox": {
+        "left": 375,
+        "top": 3660,
+        "right": 1856,
+        "bottom": 3730
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n171/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "424b661db9b39b1d781b0c11626bff98793bd13ddb0d5e1696d3e84dd401992a",
+      "normalizedPassageChecksum": "5f6365dfc603986c3f5c67978505e25c889e0173aa038159ff61bc52038f00e4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6ccabd4a687d11a0fc71db21",
+      "type": "Institution",
+      "title": "Bialystok Jewish Council",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

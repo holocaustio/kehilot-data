@@ -1,0 +1,107 @@
+{
+  "id": "mention_9aa1bf2127b5b2ae6c4f294c",
+  "type": "Person",
+  "title": "Yakov Goldberg",
+  "summary": "Ghetto provisioning leader reportedly shot during the deportation events.",
+  "originalName": "יעקבגאָלדבערג",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 225,
+  "printedPage": "209",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "OCR spacing and wording are irregular.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_71930c68d0a802a94bdb309d",
+      "pageId": "page_nybc313697_0225",
+      "scanIndex": 225,
+      "leafNumber": 224,
+      "printedPage": "209",
+      "passageCharStart": 373,
+      "passageCharEnd": 414,
+      "normalizedPassageCharStart": 321,
+      "normalizedPassageCharEnd": 359,
+      "pageCharStart": 373,
+      "pageCharEnd": 414,
+      "quote": "יעקב גאָלדבערג, דער אַפּראָװיזאַציע-לײטער",
+      "normalizedQuote": "יעקבגאָלדבערג,דעראַפּראָװיזאַציע-לײטער",
+      "modelQuote": "יעקבגאָלדבערג,דעראַפּראָװיזאַציע-לײטער",
+      "bbox": {
+        "left": 579,
+        "top": 1006,
+        "right": 2150,
+        "bottom": 1089
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n224/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "9cd910175c8b359d2166e9f6c8f40a0f38f5ca40d8698a28e2b3a0476637787c",
+      "normalizedPassageChecksum": "c23270fea9b2f744f65b670cbd9216b24c993ebdab8ce11047cc3a1f2a21a4bf",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_fd0d20bbcca37da074b79524",
+      "type": "Murder",
+      "title": "Reported shooting of Yakov Goldberg",
+      "summary": "Yakov Goldberg was shot by the Gestapo.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR corruption makes the exact wording and circumstances unclear.",
+      "evidence": {
+        "passageId": "passage_71930c68d0a802a94bdb309d",
+        "pageId": "page_nybc313697_0225",
+        "scanIndex": 225,
+        "leafNumber": 224,
+        "printedPage": "209",
+        "passageCharStart": 317,
+        "passageCharEnd": 387,
+        "normalizedPassageCharStart": 274,
+        "normalizedPassageCharEnd": 334,
+        "pageCharStart": 317,
+        "pageCharEnd": 387,
+        "quote": "דורך דער געשטאַפּאַ דערשאָסן‎ PN דעם טאָג‎ PR\nTID װאָרן יעקב גאָלדבערג",
+        "normalizedQuote": "דורךדערגעשטאַפּאַדערשאָסן‎PNדעםטאָג‎PR TIDװאָרןיעקבגאָלדבערג",
+        "modelQuote": "דורךדערגעשטאַפּאַדערשאָסן‎PNדעםטאָג‎PR TIDװאָרןיעקבגאָלדבערג",
+        "bbox": {
+          "left": 419,
+          "top": 904,
+          "right": 2382,
+          "bottom": 1089
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n224/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "9cd910175c8b359d2166e9f6c8f40a0f38f5ca40d8698a28e2b3a0476637787c",
+        "normalizedPassageChecksum": "c23270fea9b2f744f65b670cbd9216b24c993ebdab8ce11047cc3a1f2a21a4bf",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_fd0d20bbcca37da074b79524",
+      "type": "Event",
+      "title": "Reported shooting of Yakov Goldberg",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_e216815f3896f52fe753b655",
+      "type": "Institution",
+      "title": "Cartonage Factory",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_601ad4af285bbd3d4c41932e",
+      "type": "Place",
+      "title": "Stutthof Concentration Camp",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

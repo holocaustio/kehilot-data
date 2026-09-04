@@ -1,0 +1,118 @@
+{
+  "id": "mention_2469d8f9d40027430445c155",
+  "type": "Place",
+  "title": "Poniatow",
+  "summary": "Bialystok Jews arrived in Poniatow and worked in local factories.",
+  "originalName": "פּאַניאַטאָוו",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 234,
+  "printedPage": "218",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp or settlement",
+  "uncertaintyNote": "The OCR does not establish whether Poniatow was a camp, town, or another site.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_303067e87eab590f2f649c2b",
+      "pageId": "page_nybc313697_0234",
+      "scanIndex": 234,
+      "leafNumber": 233,
+      "printedPage": "218",
+      "passageCharStart": 150,
+      "passageCharEnd": 186,
+      "normalizedPassageCharStart": 128,
+      "normalizedPassageCharEnd": 162,
+      "pageCharStart": 1339,
+      "pageCharEnd": 1375,
+      "quote": "זיינען\nאָנגעקומען קיין פּאַניאַטאָוו",
+      "normalizedQuote": "זיינען אָנגעקומעןקייןפּאַניאַטאָוו",
+      "modelQuote": "זיינען אָנגעקומעןקייןפּאַניאַטאָוו",
+      "bbox": {
+        "left": 380,
+        "top": 2942,
+        "right": 2350,
+        "bottom": 3114
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n233/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "88cd88e0e83261f07589d89fe72020ac09d0a732d333d463171c56db1e5c2fe8",
+      "normalizedPassageChecksum": "2222ef251f7dd9fe399f44c728315f3e2a4688c3d88194c05c2fc2d243945488",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_70cf6301d03726f1b9367803",
+      "type": "Migration",
+      "title": "Arrival of Bialystok Jews in Poniatow",
+      "summary": "Bialystok Jews arrived in Poniatow and received work in local factories.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_303067e87eab590f2f649c2b",
+        "pageId": "page_nybc313697_0234",
+        "scanIndex": 234,
+        "leafNumber": 233,
+        "printedPage": "218",
+        "passageCharStart": 150,
+        "passageCharEnd": 238,
+        "normalizedPassageCharStart": 128,
+        "normalizedPassageCharEnd": 207,
+        "pageCharStart": 1339,
+        "pageCharEnd": 1427,
+        "quote": "זיינען\nאָנגעקומען קיין פּאַניאַטאָוו, האָבן MT‏ באַקומען אַרבעט PR‏\nדי דאָרטיקע פאַבריקן",
+        "normalizedQuote": "זיינען אָנגעקומעןקייןפּאַניאַטאָוו,האָבןMT‏באַקומעןאַרבעטPR‏ דידאָרטיקעפאַבריקן",
+        "modelQuote": "זיינען אָנגעקומעןקייןפּאַניאַטאָוו,האָבןMT‏באַקומעןאַרבעטPR‏ דידאָרטיקעפאַבריקן",
+        "bbox": {
+          "left": 380,
+          "top": 2942,
+          "right": 2350,
+          "bottom": 3214
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n233/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "88cd88e0e83261f07589d89fe72020ac09d0a732d333d463171c56db1e5c2fe8",
+        "normalizedPassageChecksum": "2222ef251f7dd9fe399f44c728315f3e2a4688c3d88194c05c2fc2d243945488",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_70cf6301d03726f1b9367803",
+      "type": "Event",
+      "title": "Arrival of Bialystok Jews in Poniatow",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_957a10081eded01696b87f17",
+      "type": "Publication",
+      "title": "The Bialystok Yizkor Book",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d206077e17a728611dac1174",
+      "type": "Organization",
+      "title": "Youth Bund",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c66ccf88f2c8ca98c37cfe83",
+      "type": "Community",
+      "title": "Jews in Poniatow",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

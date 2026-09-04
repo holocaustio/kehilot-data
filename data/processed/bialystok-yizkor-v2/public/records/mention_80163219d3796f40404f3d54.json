@@ -1,0 +1,95 @@
+{
+  "id": "mention_80163219d3796f40404f3d54",
+  "type": "Place",
+  "title": "Ramat Yishi",
+  "summary": "A village developed through a fund established from Israel’s donation.",
+  "originalName": "רמתישי",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 378,
+  "printedPage": "362",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "village",
+  "uncertaintyNote": "OCR spelling is joined and partially corrupted.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a7fa163613edd5f8f44c1785",
+      "pageId": "page_nybc313697_0378",
+      "scanIndex": 378,
+      "leafNumber": 377,
+      "printedPage": "362",
+      "passageCharStart": 612,
+      "passageCharEnd": 651,
+      "normalizedPassageCharStart": 523,
+      "normalizedPassageCharEnd": 557,
+      "pageCharStart": 3267,
+      "pageCharEnd": 3306,
+      "quote": "דאָרף ONT‏ באַקומען דעם נאָמען\n;רמת ישי",
+      "normalizedQuote": "דאָרףONT‏באַקומעןדעםנאָמען ;רמתישי",
+      "modelQuote": "דאָרףONT‏באַקומעןדעםנאָמען ;רמתישי",
+      "bbox": {
+        "left": 2559,
+        "top": 1992,
+        "right": 4506,
+        "bottom": 2153
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n377/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "db13798a408ee3ba71352d78fc686069081d788cd9675c483e1b7a26e9b2dfc3",
+      "normalizedPassageChecksum": "cd8a2089947d79ede523950ccd200b3aac001e6005615b054ff9db994661030b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e638cad4d5861369c518ecc9",
+      "type": "Donation",
+      "title": "Donation and development of the Jewish settlement",
+      "summary": "Israel donated his entire fortune to develop the Jewish settlement.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The allowed event types do not precisely represent settlement development or charitable donation.",
+      "evidence": {
+        "passageId": "passage_a7fa163613edd5f8f44c1785",
+        "pageId": "page_nybc313697_0378",
+        "scanIndex": 378,
+        "leafNumber": 377,
+        "printedPage": "362",
+        "passageCharStart": 493,
+        "passageCharEnd": 606,
+        "normalizedPassageCharStart": 422,
+        "normalizedPassageCharEnd": 519,
+        "pageCharStart": 3148,
+        "pageCharEnd": 3261,
+        "quote": "האָט געשענקט PT‏ גאַנצן פאַרמעגן פון 10\nטויזנט פונט )40 טויזנט דאָלאַר) אויף IW‏ אַנטויקלען דעם\nPONT‏ אידישן ישוב",
+        "normalizedQuote": "האָטגעשענקטPT‏גאַנצןפאַרמעגןפון10 טויזנטפונט)40טויזנטדאָלאַר)אויףIW‏אַנטויקלעןדעם PONT‏אידישןישוב",
+        "modelQuote": "האָטגעשענקטPT‏גאַנצןפאַרמעגןפון10 טויזנטפונט)40טויזנטדאָלאַר)אויףIW‏אַנטויקלעןדעם PONT‏אידישןישוב",
+        "bbox": {
+          "left": 2561,
+          "top": 1791,
+          "right": 4504,
+          "bottom": 2062
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n377/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "db13798a408ee3ba71352d78fc686069081d788cd9675c483e1b7a26e9b2dfc3",
+        "normalizedPassageChecksum": "cd8a2089947d79ede523950ccd200b3aac001e6005615b054ff9db994661030b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e638cad4d5861369c518ecc9",
+      "type": "Event",
+      "title": "Donation and development of the Jewish settlement",
+      "relation": "Occurred At"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_ae1effb46793d1923253ff3c",
+  "type": "Event",
+  "title": "Death of Pejsach Kaplan",
+  "summary": "Pejsach Kaplan died after becoming ill during the February 1943 ghetto liquidation.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 545,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "uncertaintyNote": "The passage dates the liquidation’s beginning to February 5, 1943, but does not give Kaplan’s exact death date.",
+  "dateStart": "1943-02-05",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fe48b5bcdb806d56449532a0",
+      "pageId": "page_nybc313697_0545",
+      "scanIndex": 545,
+      "leafNumber": 544,
+      "printedPage": null,
+      "passageCharStart": 3426,
+      "passageCharEnd": 3458,
+      "normalizedPassageCharStart": 2914,
+      "normalizedPassageCharEnd": 2943,
+      "pageCharStart": 3426,
+      "pageCharEnd": 3458,
+      "quote": "He died cursing Hitler’s\nGermany",
+      "normalizedQuote": "HediedcursingHitler’s Germany",
+      "modelQuote": "HediedcursingHitler’s Germany",
+      "bbox": {
+        "left": 2562,
+        "top": 1628,
+        "right": 4485,
+        "bottom": 1803
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n544/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "060fb56f0cc8e5a00cc4679f678db0b15f756351c196be445aff1e7a317e6dea",
+      "normalizedPassageChecksum": "febdb9e7753514125e01ad5425495b131ad9c43ad3ea2b0764262479c6cc8d7d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5b8064e9df611a20e80a7f45",
+      "type": "Place",
+      "title": "Bialystok ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a0e2cab158003fdcd0371dc2",
+      "type": "Person",
+      "title": "Pejsach Kaplan",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,114 @@
+{
+  "id": "mention_c7b281d716f80f654e0e2163",
+  "type": "Institution",
+  "title": "Stoker Center Home for Elderly People",
+  "summary": "Home for elderly people occupied by Ribalovski since 1973.",
+  "originalName": "סטאָקערצענטער,היים שפּיטאָלעלטערעמענטשן",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 360,
+  "printedPage": "344",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "home for elderly people",
+  "uncertaintyNote": "The OCR may combine the center name and institution description.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f5ea06eec91045e3898e2417",
+      "pageId": "page_nybc313697_0360",
+      "scanIndex": 360,
+      "leafNumber": 359,
+      "printedPage": "344",
+      "passageCharStart": 1091,
+      "passageCharEnd": 1169,
+      "normalizedPassageCharStart": 940,
+      "normalizedPassageCharEnd": 1006,
+      "pageCharStart": 1844,
+      "pageCharEnd": 1922,
+      "quote": "היים TIN‏ שפּיטאָל AND‏ עלטערע מענטשן,\nװאָס ער פאַרנעמט TD‏ זינט דעם יאָר 1973",
+      "normalizedQuote": "הייםTIN‏שפּיטאָלAND‏עלטערעמענטשן, װאָסערפאַרנעמטTD‏זינטדעםיאָר1973",
+      "modelQuote": "הייםTIN‏שפּיטאָלAND‏עלטערעמענטשן, װאָסערפאַרנעמטTD‏זינטדעםיאָר1973",
+      "bbox": {
+        "left": 433,
+        "top": 4198,
+        "right": 2376,
+        "bottom": 4380
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n359/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "1e8f42c9f71180ab31ade5d1b22810deed1802eb39de5ebccd8e0256f48b7840",
+      "normalizedPassageChecksum": "a87b8d7ea1dc1b31f507664c31438367ed91e1605c2e2d92295f41b07f28ceb1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_4d870670cecc53b58e4b0fac",
+      "type": "Employment",
+      "title": "Isak Ribalovski occupies a position at elderly people’s home",
+      "summary": "Ribalovski held a position at the elderly people’s home beginning in 1973.",
+      "dateStart": "1973",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR wording is ambiguous about the exact institution and role.",
+      "evidence": {
+        "passageId": "passage_f5ea06eec91045e3898e2417",
+        "pageId": "page_nybc313697_0360",
+        "scanIndex": 360,
+        "leafNumber": 359,
+        "printedPage": "344",
+        "passageCharStart": 1091,
+        "passageCharEnd": 1169,
+        "normalizedPassageCharStart": 940,
+        "normalizedPassageCharEnd": 1006,
+        "pageCharStart": 1844,
+        "pageCharEnd": 1922,
+        "quote": "היים TIN‏ שפּיטאָל AND‏ עלטערע מענטשן,\nװאָס ער פאַרנעמט TD‏ זינט דעם יאָר 1973",
+        "normalizedQuote": "הייםTIN‏שפּיטאָלAND‏עלטערעמענטשן, װאָסערפאַרנעמטTD‏זינטדעםיאָר1973",
+        "modelQuote": "הייםTIN‏שפּיטאָלAND‏עלטערעמענטשן, װאָסערפאַרנעמטTD‏זינטדעםיאָר1973",
+        "bbox": {
+          "left": 433,
+          "top": 4198,
+          "right": 2376,
+          "bottom": 4380
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n359/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "1e8f42c9f71180ab31ade5d1b22810deed1802eb39de5ebccd8e0256f48b7840",
+        "normalizedPassageChecksum": "a87b8d7ea1dc1b31f507664c31438367ed91e1605c2e2d92295f41b07f28ceb1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_4d870670cecc53b58e4b0fac",
+      "type": "Event",
+      "title": "Isak Ribalovski occupies a position at elderly people’s home",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_95e2f5bbecf38ef150450be6",
+      "type": "Person",
+      "title": "Isak Ribalovski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e669a4e81098d2ab0025a6bf",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a0dc3c2fdd76c202dfd3377f",
+      "type": "Event",
+      "title": "World War II",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

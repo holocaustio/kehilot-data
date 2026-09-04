@@ -1,0 +1,124 @@
+{
+  "id": "mention_d320507b2347adc93e1bd90a",
+  "type": "Place",
+  "title": "Fabriczna 39",
+  "summary": "The first vocational education center was located at this address.",
+  "originalName": "פאַבריצנע39",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 176,
+  "printedPage": "160",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "address",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f6cbbf6a2cb95f685103e025",
+      "pageId": "page_nybc313697_0176",
+      "scanIndex": 176,
+      "leafNumber": 175,
+      "printedPage": "160",
+      "passageCharStart": 102,
+      "passageCharEnd": 114,
+      "normalizedPassageCharStart": 88,
+      "normalizedPassageCharEnd": 99,
+      "pageCharStart": 3100,
+      "pageCharEnd": 3112,
+      "quote": "פאַבריצנע 39",
+      "normalizedQuote": "פאַבריצנע39",
+      "modelQuote": "פאַבריצנע39",
+      "bbox": {
+        "left": 3921,
+        "top": 663,
+        "right": 4389,
+        "bottom": 732
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n175/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "6103cde45c3e8bb24205a2431002d62d94bbd6ebc769c6c16e1c52a0c2875d29",
+      "normalizedPassageChecksum": "ae17033f354afa6fe53e6f6c7265d876f342141cb786a8b885e8aa2cb7621b21",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d03c05bb6176a9732da70558",
+      "type": "Employment",
+      "title": "Initial location of vocational education center",
+      "summary": "The vocational education center was initially located at the First Ghetto Peoples School, Fabriczna 39.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include relocation or institutional location; this is represented as employment only as a weak fit.",
+      "evidence": {
+        "passageId": "passage_f6cbbf6a2cb95f685103e025",
+        "pageId": "page_nybc313697_0176",
+        "scanIndex": 176,
+        "leafNumber": 175,
+        "printedPage": "160",
+        "passageCharStart": 0,
+        "passageCharEnd": 114,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 99,
+        "pageCharStart": 2998,
+        "pageCharEnd": 3112,
+        "quote": "דער צענטער פון דער פאַך אויסבילדונג-שולע, האָט\nזיך געפונען צוערשט אין דער ערשטע געטאָ פאָלקס-שולע\nPU‏ פאַבריצנע 39",
+        "normalizedQuote": "דערצענטערפוןדערפאַךאויסבילדונג-שולע,האָט זיךגעפונעןצוערשטאיןדערערשטעגעטאָפאָלקס-שולע PU‏פאַבריצנע39",
+        "modelQuote": "דערצענטערפוןדערפאַךאויסבילדונג-שולע,האָט זיךגעפונעןצוערשטאיןדערערשטעגעטאָפאָלקס-שולע PU‏פאַבריצנע39",
+        "bbox": {
+          "left": 2568,
+          "top": 436,
+          "right": 4571,
+          "bottom": 734
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n175/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "6103cde45c3e8bb24205a2431002d62d94bbd6ebc769c6c16e1c52a0c2875d29",
+        "normalizedPassageChecksum": "ae17033f354afa6fe53e6f6c7265d876f342141cb786a8b885e8aa2cb7621b21",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d03c05bb6176a9732da70558",
+      "type": "Event",
+      "title": "Initial location of vocational education center",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_e9a494f236bfb850a15fba80",
+      "type": "Community",
+      "title": "Bialystok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6ccabd4a687d11a0fc71db21",
+      "type": "Institution",
+      "title": "Bialystok Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bfebb6164ba1b8a1f53ade84",
+      "type": "Place",
+      "title": "First Ghetto Peoples School",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3dbbbb7fd693c9edd81691c2",
+      "type": "Place",
+      "title": "Kupiecka 49",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_04d16e45e8d32e35cdb7e038",
+      "type": "Institution",
+      "title": "Former Social Gymnasium",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

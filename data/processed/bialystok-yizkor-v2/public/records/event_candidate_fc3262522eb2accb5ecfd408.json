@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_fc3262522eb2accb5ecfd408",
+  "type": "Event",
+  "title": "Planned removal of twelve thousand Jews from Bialystok",
+  "summary": "The Nazis selected the first twelve thousand Jews.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 167,
+  "printedPage": "151",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Selection Of Jews",
+  "uncertaintyNote": "The passage describes a planned selection and departure; the exact destination and historical event are unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6c7e2f454a926aba6e857461",
+      "pageId": "page_nybc313697_0167",
+      "scanIndex": 167,
+      "leafNumber": 166,
+      "printedPage": "151",
+      "passageCharStart": 834,
+      "passageCharEnd": 883,
+      "normalizedPassageCharStart": 714,
+      "normalizedPassageCharEnd": 755,
+      "pageCharStart": 943,
+      "pageCharEnd": 992,
+      "quote": "די נאַציס‎ VAN קלויבן די ערשטע צוועלף טויזנט אידן",
+      "normalizedQuote": "דינאַציס‎VANקלויבןדיערשטעצוועלףטויזנטאידן",
+      "modelQuote": "דינאַציס‎VANקלויבןדיערשטעצוועלףטויזנטאידן",
+      "bbox": {
+        "left": 447,
+        "top": 2416,
+        "right": 2378,
+        "bottom": 2498
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n166/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "368b22a7a5e99e13dbfc9f6070b91652eec391d8918581372a41105a04c09f6c",
+      "normalizedPassageChecksum": "f629d8125d4bb5dfd6d213572923d23844b36e41327ebc5d6bd3922880dd271d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5b8064e9df611a20e80a7f45",
+      "type": "Place",
+      "title": "Bialystok ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5c5bb7ab408c0f3e54ba9818",
+      "type": "Community",
+      "title": "Twelve thousand Jews",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_6ccabd4a687d11a0fc71db21",
+      "type": "Institution",
+      "title": "Bialystok Jewish Council",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_4829f107817d97ba6ed4006a",
+      "type": "Organization",
+      "title": "Nazis",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

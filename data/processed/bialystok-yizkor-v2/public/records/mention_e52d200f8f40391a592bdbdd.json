@@ -1,0 +1,214 @@
+{
+  "id": "mention_e52d200f8f40391a592bdbdd",
+  "type": "Person",
+  "title": "Icele",
+  "summary": "A barber from Lodz and one of eight escapees.",
+  "originalName": "Icele",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 520,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3f10738180aa5a07963dbf1c",
+      "pageId": "page_nybc313697_0520",
+      "scanIndex": 520,
+      "leafNumber": 519,
+      "printedPage": null,
+      "passageCharStart": 852,
+      "passageCharEnd": 877,
+      "normalizedPassageCharStart": 725,
+      "normalizedPassageCharEnd": 746,
+      "pageCharStart": 852,
+      "pageCharEnd": 877,
+      "quote": "Icele, a barber from Lodz",
+      "normalizedQuote": "Icele,abarberfromLodz",
+      "modelQuote": "Icele,abarberfromLodz",
+      "bbox": {
+        "left": 504,
+        "top": 3683,
+        "right": 1430,
+        "bottom": 3751
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n519/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "5559df917a852c34d69ed3f0a0d6fb2bfa232724359bd46003562d8c032dd5e2",
+      "normalizedPassageChecksum": "e926343431202899b5950947df79cb8d7537460869ff9cc9135930a9e81f4113",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_0fb05948b42f20c2af89e1bb",
+      "predicate": "From",
+      "subjectTitle": "Icele",
+      "objectTitle": "Lodz",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says he was from Lodz, not explicitly that he lived there.",
+      "qualifiers": {
+        "relation": "from"
+      },
+      "evidence": {
+        "passageId": "passage_3f10738180aa5a07963dbf1c",
+        "pageId": "page_nybc313697_0520",
+        "scanIndex": 520,
+        "leafNumber": 519,
+        "printedPage": null,
+        "passageCharStart": 859,
+        "passageCharEnd": 877,
+        "normalizedPassageCharStart": 731,
+        "normalizedPassageCharEnd": 746,
+        "pageCharStart": 859,
+        "pageCharEnd": 877,
+        "quote": "a barber from Lodz",
+        "normalizedQuote": "abarberfromLodz",
+        "modelQuote": "abarberfromLodz",
+        "bbox": {
+          "left": 735,
+          "top": 3685,
+          "right": 1430,
+          "bottom": 3742
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n519/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "5559df917a852c34d69ed3f0a0d6fb2bfa232724359bd46003562d8c032dd5e2",
+        "normalizedPassageChecksum": "e926343431202899b5950947df79cb8d7537460869ff9cc9135930a9e81f4113",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_2edd13991c610c630e700e61",
+      "type": "Migration",
+      "title": "Escape from the ghetto",
+      "summary": "Eight men escaped their workplace in the ghetto on November 1, 1943.",
+      "dateStart": "1943-11-01",
+      "dateEnd": "1943-11-01",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_3f10738180aa5a07963dbf1c",
+        "pageId": "page_nybc313697_0520",
+        "scanIndex": 520,
+        "leafNumber": 519,
+        "printedPage": null,
+        "passageCharStart": 479,
+        "passageCharEnd": 549,
+        "normalizedPassageCharStart": 407,
+        "normalizedPassageCharEnd": 465,
+        "pageCharStart": 479,
+        "pageCharEnd": 549,
+        "quote": "On\nNovember 1, 1943, we sneaked out of our place of work\nin the ghetto",
+        "normalizedQuote": "On November1,1943,wesneakedoutofourplaceofwork intheghetto",
+        "modelQuote": "OnNovember1,1943,wesneakedoutofourplaceofworkintheghetto",
+        "bbox": {
+          "left": 503,
+          "top": 2919,
+          "right": 2416,
+          "bottom": 3177
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n519/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "5559df917a852c34d69ed3f0a0d6fb2bfa232724359bd46003562d8c032dd5e2",
+        "normalizedPassageChecksum": "e926343431202899b5950947df79cb8d7537460869ff9cc9135930a9e81f4113",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_e96a4906e40b6045a70a7966",
+      "type": "Place",
+      "title": "Lodz",
+      "relation": "From"
+    },
+    {
+      "id": "event_candidate_2edd13991c610c630e700e61",
+      "type": "Event",
+      "title": "Escape from the ghetto",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_c15d9aa2d3aeada52294a5ae",
+      "type": "Person",
+      "title": "Szymon Amiel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1639270b6c8d9ffcd6114a04",
+      "type": "Person",
+      "title": "Berel Szacman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_341901b1e1ab3f87e294c7d3",
+      "type": "Person",
+      "title": "Mojsze Grotkowicz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b6b5933a460ad1f22fdaf88f",
+      "type": "Person",
+      "title": "Trocki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ccf6a01f8628b097afd110cc",
+      "type": "Person",
+      "title": "Meir Bez",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ebe936c680dd1c73102e51c2",
+      "type": "Person",
+      "title": "Henach Lupe",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a2a0fb363f372cda9d7c37fb",
+      "type": "Person",
+      "title": "Drzakanski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_edbbaadf40f449d2abc16b91",
+      "type": "Place",
+      "title": "Ghetto cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bc89d1cd3763c17cd8a41adb",
+      "type": "Place",
+      "title": "Nowolipja Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_08526b061dd6380cc32d1997",
+      "type": "Place",
+      "title": "Horodok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e96a4906e40b6045a70a7966",
+      "type": "Place",
+      "title": "Lodz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

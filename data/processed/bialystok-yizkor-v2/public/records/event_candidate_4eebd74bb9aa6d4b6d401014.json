@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_4eebd74bb9aa6d4b6d401014",
+  "type": "Event",
+  "title": "Funeral of Pejsach Kaplan",
+  "summary": "The Judenrat arranged a large funeral, attended by thousands who escorted Kaplan’s body to the cemetery.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 545,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fe48b5bcdb806d56449532a0",
+      "pageId": "page_nybc313697_0545",
+      "scanIndex": 545,
+      "leafNumber": 544,
+      "printedPage": null,
+      "passageCharStart": 3461,
+      "passageCharEnd": 3523,
+      "normalizedPassageCharStart": 2946,
+      "normalizedPassageCharEnd": 3000,
+      "pageCharStart": 3461,
+      "pageCharEnd": 3523,
+      "quote": "The Judenrat arranged a large and dignified funeral\nfor Kaplan",
+      "normalizedQuote": "TheJudenratarrangedalargeanddignifiedfuneral forKaplan",
+      "modelQuote": "TheJudenratarrangedalargeanddignifiedfuneralforKaplan",
+      "bbox": {
+        "left": 2562,
+        "top": 1828,
+        "right": 4485,
+        "bottom": 1997
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n544/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "060fb56f0cc8e5a00cc4679f678db0b15f756351c196be445aff1e7a317e6dea",
+      "normalizedPassageChecksum": "febdb9e7753514125e01ad5425495b131ad9c43ad3ea2b0764262479c6cc8d7d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_31a19c6721e37c7b871a06b1",
+      "type": "Place",
+      "title": "Cemetery",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a0e2cab158003fdcd0371dc2",
+      "type": "Person",
+      "title": "Pejsach Kaplan",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_7a72428f84d0e81bef2a0442",
+      "type": "Organization",
+      "title": "Judenrat",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

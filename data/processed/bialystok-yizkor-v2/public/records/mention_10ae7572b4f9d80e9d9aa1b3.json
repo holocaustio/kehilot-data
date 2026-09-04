@@ -1,0 +1,113 @@
+{
+  "id": "mention_10ae7572b4f9d80e9d9aa1b3",
+  "type": "Institution",
+  "title": "Ghetto factories",
+  "summary": "Workers sought refuge in the ghetto factories during the Aktion.",
+  "originalName": "דיגעטאָ-פאַבריקן",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 213,
+  "printedPage": "197",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "factory network",
+  "uncertaintyNote": "The OCR presents this as a plural descriptive term rather than a specific named institution.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8f619d48a81547af7ae2db0e",
+      "pageId": "page_nybc313697_0213",
+      "scanIndex": 213,
+      "leafNumber": 212,
+      "printedPage": "197",
+      "passageCharStart": 287,
+      "passageCharEnd": 304,
+      "normalizedPassageCharStart": 248,
+      "normalizedPassageCharEnd": 264,
+      "pageCharStart": 3526,
+      "pageCharEnd": 3543,
+      "quote": "די געטאָ-פאַבריקן",
+      "normalizedQuote": "דיגעטאָ-פאַבריקן",
+      "modelQuote": "דיגעטאָ-פאַבריקן",
+      "bbox": {
+        "left": 2568,
+        "top": 4100,
+        "right": 3149,
+        "bottom": 4167
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n212/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b9f08c15072650509499fa3945347881a5aeb6f60184ea865656a2b9922df59b",
+      "normalizedPassageChecksum": "e07499b965e89f9ab59dfc599e24e7309619d0a3a4d1eb574dfb41f8de8f59f8",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3653a7f9b486e967c0ba43c4",
+      "type": "Aktion Or Raid",
+      "title": "Ghetto Aktion",
+      "summary": "An Aktion was being carried out.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The specific date, perpetrators, and Aktion identity are not given.",
+      "evidence": {
+        "passageId": "passage_8f619d48a81547af7ae2db0e",
+        "pageId": "page_nybc313697_0213",
+        "scanIndex": 213,
+        "leafNumber": 212,
+        "printedPage": "197",
+        "passageCharStart": 589,
+        "passageCharEnd": 618,
+        "normalizedPassageCharStart": 506,
+        "normalizedPassageCharEnd": 531,
+        "pageCharStart": 3828,
+        "pageCharEnd": 3857,
+        "quote": "ווען די ,אַקציע\" ווערט געפירט",
+        "normalizedQuote": "וועןדי,אַקציע\"ווערטגעפירט",
+        "modelQuote": "וועןדי,אַקציע\"ווערטגעפירט",
+        "bbox": {
+          "left": 2737,
+          "top": 4686,
+          "right": 3787,
+          "bottom": 4755
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n212/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "b9f08c15072650509499fa3945347881a5aeb6f60184ea865656a2b9922df59b",
+        "normalizedPassageChecksum": "e07499b965e89f9ab59dfc599e24e7309619d0a3a4d1eb574dfb41f8de8f59f8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3653a7f9b486e967c0ba43c4",
+      "type": "Event",
+      "title": "Ghetto Aktion",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_3dd97b325114b756d51e0906",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4a8096ef12fc47812ac97699",
+      "type": "Event",
+      "title": "Ghetto Aktion",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_06a1fc0da91ce8734f2d89a4",
+      "type": "Organization",
+      "title": "Jewish Council",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

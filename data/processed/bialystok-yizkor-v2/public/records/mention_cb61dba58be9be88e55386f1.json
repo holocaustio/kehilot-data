@@ -1,0 +1,101 @@
+{
+  "id": "mention_cb61dba58be9be88e55386f1",
+  "type": "Community",
+  "title": "Yashinovka",
+  "summary": "The passage refers to the liquidation of the last Jewish settlements in Yashinovka.",
+  "originalName": "יאַשינאָווקע",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 186,
+  "printedPage": "170",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish community",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fdab53348bff8db4e28c1d6a",
+      "pageId": "page_nybc313697_0186",
+      "scanIndex": 186,
+      "leafNumber": 185,
+      "printedPage": "170",
+      "passageCharStart": 872,
+      "passageCharEnd": 911,
+      "normalizedPassageCharStart": 754,
+      "normalizedPassageCharEnd": 789,
+      "pageCharStart": 4988,
+      "pageCharEnd": 5027,
+      "quote": "די\nלעצטע אידישע ישובים PR‏ יאַשינאָווקע",
+      "normalizedQuote": "די לעצטעאידישעישוביםPR‏יאַשינאָווקע",
+      "modelQuote": "די לעצטעאידישעישוביםPR‏יאַשינאָווקע",
+      "bbox": {
+        "left": 2587,
+        "top": 4379,
+        "right": 4588,
+        "bottom": 4552
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n185/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "6c7831af74b5d3d9ac59781e2b54d2cb12a69c00ffe5ebce986bf81a06bcf958",
+      "normalizedPassageChecksum": "9bbc92957be3009c2c9951e5b49c3a14c37a8f37d4051f2d06938c651ffe751d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e7a710d82cc053f9f1d02e03",
+      "type": "Liquidation",
+      "title": "Liquidation of Jewish settlements in Yashinovka",
+      "summary": "The last Jewish settlements in Yashinovka were liquidated.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "“Liquidation” is explicit, but the passage does not specify the exact mechanism.",
+      "evidence": {
+        "passageId": "passage_fdab53348bff8db4e28c1d6a",
+        "pageId": "page_nybc313697_0186",
+        "scanIndex": 186,
+        "leafNumber": 185,
+        "printedPage": "170",
+        "passageCharStart": 855,
+        "passageCharEnd": 911,
+        "normalizedPassageCharStart": 739,
+        "normalizedPassageCharEnd": 789,
+        "pageCharStart": 4971,
+        "pageCharEnd": 5027,
+        "quote": "ליקװוידאַציע פון די\nלעצטע אידישע ישובים PR‏ יאַשינאָווקע",
+        "normalizedQuote": "ליקװוידאַציעפוןדי לעצטעאידישעישוביםPR‏יאַשינאָווקע",
+        "modelQuote": "ליקװוידאַציעפוןדי לעצטעאידישעישוביםPR‏יאַשינאָווקע",
+        "bbox": {
+          "left": 2587,
+          "top": 4365,
+          "right": 4588,
+          "bottom": 4552
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n185/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "6c7831af74b5d3d9ac59781e2b54d2cb12a69c00ffe5ebce986bf81a06bcf958",
+        "normalizedPassageChecksum": "9bbc92957be3009c2c9951e5b49c3a14c37a8f37d4051f2d06938c651ffe751d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e7a710d82cc053f9f1d02e03",
+      "type": "Event",
+      "title": "Liquidation of Jewish settlements in Yashinovka",
+      "relation": "Occurred At",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_6ccabd4a687d11a0fc71db21",
+      "type": "Institution",
+      "title": "Bialystok Jewish Council",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,126 @@
+{
+  "id": "mention_08db2b533cb652f630458afd",
+  "type": "Person",
+  "title": "The narrator’s father",
+  "summary": "The narrator’s father, reported as dying aged 47.",
+  "originalName": "מייןפאָטער",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 39,
+  "printedPage": "23",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "father of narrator",
+  "uncertaintyNote": "The person is unnamed in the passage.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e2c0930871463325ce94ad4e",
+      "pageId": "page_nybc313697_0039",
+      "scanIndex": 39,
+      "leafNumber": 38,
+      "printedPage": "23",
+      "passageCharStart": 120,
+      "passageCharEnd": 155,
+      "normalizedPassageCharStart": 100,
+      "normalizedPassageCharEnd": 129,
+      "pageCharStart": 1337,
+      "pageCharEnd": 1372,
+      "quote": "מיין פאָטער PN‏ אַלט געווען 47 יאָר",
+      "normalizedQuote": "מייןפאָטערPN‏אַלטגעווען47יאָר",
+      "modelQuote": "מייןפאָטערPN‏אַלטגעווען47יאָר",
+      "bbox": {
+        "left": 536,
+        "top": 2845,
+        "right": 1713,
+        "bottom": 2928
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n38/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "80e05ef43c10a0120e4cd032c3acb7d96e7fb8d0260fc808c29e867794112ddf",
+      "normalizedPassageChecksum": "a11c615d358b6af00004207cf680790048ecf7430bafc69fde86766c8e5b0e2c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_7f4774e90e1b7df1fa1c2c88",
+      "type": "Death",
+      "title": "Death of the narrator’s father",
+      "summary": "The narrator’s father died on 27 Tevet 5639.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR includes noise around the death statement.",
+      "evidence": {
+        "passageId": "passage_e2c0930871463325ce94ad4e",
+        "pageId": "page_nybc313697_0039",
+        "scanIndex": 39,
+        "leafNumber": 38,
+        "printedPage": "23",
+        "passageCharStart": 0,
+        "passageCharEnd": 48,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 40,
+        "pageCharStart": 1217,
+        "pageCharEnd": 1265,
+        "quote": "מיין פאָטער ע\"ה PR‏ געשטאָרבן דעם 27טן טבת תרל\"ט",
+        "normalizedQuote": "מייןפאָטערע\"הPR‏געשטאָרבןדעם27טןטבתתרל\"ט",
+        "modelQuote": "מייןפאָטערע\"הPR‏געשטאָרבןדעם27טןטבתתרל\"ט",
+        "bbox": {
+          "left": 407,
+          "top": 2645,
+          "right": 2199,
+          "bottom": 2728
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n38/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "80e05ef43c10a0120e4cd032c3acb7d96e7fb8d0260fc808c29e867794112ddf",
+        "normalizedPassageChecksum": "a11c615d358b6af00004207cf680790048ecf7430bafc69fde86766c8e5b0e2c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_7f4774e90e1b7df1fa1c2c88",
+      "type": "Event",
+      "title": "Death of the narrator’s father",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_ff1de4638a5d65dce6949cbd",
+      "type": "Person",
+      "title": "Rabbi Lippele",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_019a62b73fe90387901dcbd3",
+      "type": "Person",
+      "title": "Dr. Zilberberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_24ebabec7de065fdf997aa75",
+      "type": "Person",
+      "title": "Haim Hertz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9975e731ae12c96ca2e6db90",
+      "type": "Object",
+      "title": "Carriage",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

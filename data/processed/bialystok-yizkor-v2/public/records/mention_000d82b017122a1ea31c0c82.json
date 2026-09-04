@@ -1,0 +1,136 @@
+{
+  "id": "mention_000d82b017122a1ea31c0c82",
+  "type": "Community",
+  "title": "Small ghetto",
+  "summary": "A small ghetto where people lived and hid during the killings.",
+  "originalName": "קליינערגעטאָ",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 231,
+  "printedPage": "215",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "ghetto",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_459b55c019ad6580422c1d2c",
+      "pageId": "page_nybc313697_0231",
+      "scanIndex": 231,
+      "leafNumber": 230,
+      "printedPage": "215",
+      "passageCharStart": 225,
+      "passageCharEnd": 255,
+      "normalizedPassageCharStart": 194,
+      "normalizedPassageCharEnd": 220,
+      "pageCharStart": 1861,
+      "pageCharEnd": 1891,
+      "quote": "אין דער קליינער געטאָ וואוינען",
+      "normalizedQuote": "איןדערקליינערגעטאָוואוינען",
+      "modelQuote": "איןדערקליינערגעטאָוואוינען",
+      "bbox": {
+        "left": 805,
+        "top": 4087,
+        "right": 1924,
+        "bottom": 4169
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n230/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "999f17f8362403393fd09cc24be5dc1dc52ffe7f24cfc94cba359e488a071eb1",
+      "normalizedPassageChecksum": "c0933a82a8357d18bf2ca4539e10635249c5721c15f03545ec7a06810ff8421a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_75c2bb8ef294dae2ecd1d75a",
+      "type": "Aktion Or Raid",
+      "title": "Sixth massacre night",
+      "summary": "A “sixth massacre night” is mentioned.",
+      "confidence": "MEDIUM",
+      "evidence": {
+        "passageId": "passage_459b55c019ad6580422c1d2c",
+        "pageId": "page_nybc313697_0231",
+        "scanIndex": 231,
+        "leafNumber": 230,
+        "printedPage": "215",
+        "passageCharStart": 691,
+        "passageCharEnd": 717,
+        "normalizedPassageCharStart": 590,
+        "normalizedPassageCharEnd": 613,
+        "pageCharStart": 2327,
+        "pageCharEnd": 2353,
+        "quote": "אין דער זעקסטער שחיטהנאַכט",
+        "normalizedQuote": "איןדערזעקסטערשחיטהנאַכט",
+        "modelQuote": "איןדערזעקסטערשחיטהנאַכט",
+        "bbox": {
+          "left": 608,
+          "top": 5019,
+          "right": 1726,
+          "bottom": 5092
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n230/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "999f17f8362403393fd09cc24be5dc1dc52ffe7f24cfc94cba359e488a071eb1",
+        "normalizedPassageChecksum": "c0933a82a8357d18bf2ca4539e10635249c5721c15f03545ec7a06810ff8421a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_e7e84019bd48bf2efb1c7b7b",
+      "type": "Massacre",
+      "title": "Fifth February massacre",
+      "summary": "Reference to the 'fifth February massacre'; no further details or participants are supported by the quote.",
+      "confidence": "MEDIUM",
+      "evidence": {
+        "passageId": "passage_459b55c019ad6580422c1d2c",
+        "pageId": "page_nybc313697_0231",
+        "scanIndex": 231,
+        "leafNumber": 230,
+        "printedPage": "215",
+        "passageCharStart": 921,
+        "passageCharEnd": 954,
+        "normalizedPassageCharStart": 793,
+        "normalizedPassageCharEnd": 822,
+        "pageCharStart": 2557,
+        "pageCharEnd": 2590,
+        "quote": "וי אין דער פינפטער פעברואַר-שחיטה",
+        "normalizedQuote": "ויאיןדערפינפטערפעברואַר-שחיטה",
+        "modelQuote": "ויאיןדערפינפטערפעברואַר-שחיטה",
+        "bbox": {
+          "left": 923,
+          "top": 5543,
+          "right": 2225,
+          "bottom": 5619
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n230/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "999f17f8362403393fd09cc24be5dc1dc52ffe7f24cfc94cba359e488a071eb1",
+        "normalizedPassageChecksum": "c0933a82a8357d18bf2ca4539e10635249c5721c15f03545ec7a06810ff8421a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_75c2bb8ef294dae2ecd1d75a",
+      "type": "Event",
+      "title": "Sixth massacre night",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "event_candidate_e7e84019bd48bf2efb1c7b7b",
+      "type": "Event",
+      "title": "Fifth February massacre",
+      "relation": "Participated In",
+      "role": "Victim"
+    }
+  ],
+  "publicationEligible": false
+}

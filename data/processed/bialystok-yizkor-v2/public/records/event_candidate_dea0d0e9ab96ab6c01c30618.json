@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_dea0d0e9ab96ab6c01c30618",
+  "type": "Event",
+  "title": "Deportation from Bialystok to Pruzane",
+  "summary": "Approximately 5,000 to 6,000 Bialystok Jews were deported to Pruzane.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 544,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_060fc9e0b118f5e9422d7da3",
+      "pageId": "page_nybc313697_0544",
+      "scanIndex": 544,
+      "leafNumber": 543,
+      "printedPage": null,
+      "passageCharStart": 1222,
+      "passageCharEnd": 1269,
+      "normalizedPassageCharStart": 1043,
+      "normalizedPassageCharEnd": 1085,
+      "pageCharStart": 1222,
+      "pageCharEnd": 1269,
+      "quote": "5,000 deportees\nwould never reach Pruzane alive",
+      "normalizedQuote": "5,000deportees wouldneverreachPruzanealive",
+      "modelQuote": "5,000deporteeswouldneverreachPruzanealive",
+      "bbox": {
+        "left": 355,
+        "top": 3010,
+        "right": 2391,
+        "bottom": 3174
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n543/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "180a533b7f08f7c475d69c05a5d19140899f1e1f2320f71d68c5453d11669b68",
+      "normalizedPassageChecksum": "037521df8c855737d2a153bd5ad36d7a06c4f7a6b9c7a79b1f68cd6d38f416c4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_7b751ce7baa4e3900695a5a7",
+      "type": "Place",
+      "title": "Pruzane",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5b8064e9df611a20e80a7f45",
+      "type": "Place",
+      "title": "Bialystok ghetto",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_7b751ce7baa4e3900695a5a7",
+      "type": "Place",
+      "title": "Pruzane",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_8a11c4a879b94dfbdac2e7d6",
+  "type": "Event",
+  "title": "Death of a Hitlerist",
+  "summary": "A Hitlerist died of a heart attack after entering a Jewish restaurant.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 169,
+  "printedPage": "153",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2e9f157a94455c8352d550d5",
+      "pageId": "page_nybc313697_0169",
+      "scanIndex": 169,
+      "leafNumber": 168,
+      "printedPage": "153",
+      "passageCharStart": 907,
+      "passageCharEnd": 948,
+      "normalizedPassageCharStart": 773,
+      "normalizedPassageCharEnd": 807,
+      "pageCharStart": 5577,
+      "pageCharEnd": 5618,
+      "quote": "אָבער ער איז געשטאָרבן פון אַ האַרץ שלאַג",
+      "normalizedQuote": "אָבערעראיזגעשטאָרבןפוןאַהאַרץשלאַג",
+      "modelQuote": "אָבערעראיזגעשטאָרבןפוןאַהאַרץשלאַג",
+      "bbox": {
+        "left": 2885,
+        "top": 5802,
+        "right": 4315,
+        "bottom": 5892
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n168/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "8dbbd6a21358717fe3bd3c8f9468adaff6da393e653ace3b306099bb78c8c4ed",
+      "normalizedPassageChecksum": "a2b3332cfeea21cd676e4eff5558cacb84c97ad3a73cf277196ca0ce8d5d475b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_49bcbf6bda420464a0454bee",
+      "type": "Place",
+      "title": "Jewish restaurant",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_77e369b7121a8b71cdd7de5f",
+      "type": "Person",
+      "title": "Hitlerist",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

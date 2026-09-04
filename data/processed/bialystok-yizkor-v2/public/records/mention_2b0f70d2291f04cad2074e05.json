@@ -1,0 +1,118 @@
+{
+  "id": "mention_2b0f70d2291f04cad2074e05",
+  "type": "Place",
+  "title": "28 Sienkiewicza Street",
+  "summary": "Address of the Industrial Union.",
+  "originalName": "סענקעוויטשאַ28",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 100,
+  "printedPage": "84",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "address",
+  "uncertaintyNote": "The OCR omits spacing and transliteration is normalized.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2d374de900021df6330e669c",
+      "pageId": "page_nybc313697_0100",
+      "scanIndex": 100,
+      "leafNumber": 99,
+      "printedPage": "84",
+      "passageCharStart": 352,
+      "passageCharEnd": 367,
+      "normalizedPassageCharStart": 313,
+      "normalizedPassageCharEnd": 327,
+      "pageCharStart": 352,
+      "pageCharEnd": 367,
+      "quote": "סענקעוויטשאַ 28",
+      "normalizedQuote": "סענקעוויטשאַ28",
+      "modelQuote": "סענקעוויטשאַ28",
+      "bbox": {
+        "left": 1359,
+        "top": 1069,
+        "right": 1963,
+        "bottom": 1139
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n99/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "98cde7a7459a50f264da483187e135a93fbf4d424bf7c206a049b96ca9ff2312",
+      "normalizedPassageChecksum": "52f0c9e1b1a22a4123a6644d67de18bb514699daaa05e7470583fdd09859b196",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_82d7e95d6df92226908995b5",
+      "predicate": "Located In",
+      "subjectTitle": "Industrial Union",
+      "objectTitle": "28 Sienkiewicza Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2d374de900021df6330e669c",
+        "pageId": "page_nybc313697_0100",
+        "scanIndex": 100,
+        "leafNumber": 99,
+        "printedPage": "84",
+        "passageCharStart": 326,
+        "passageCharEnd": 367,
+        "normalizedPassageCharStart": 288,
+        "normalizedPassageCharEnd": 327,
+        "pageCharStart": 326,
+        "pageCharEnd": 367,
+        "quote": "אינדוסטריעלער\nפאַרבאַנד\", סענקעוויטשאַ 28",
+        "normalizedQuote": "אינדוסטריעלער פאַרבאַנד\",סענקעוויטשאַ28",
+        "modelQuote": "אינדוסטריעלער פאַרבאַנד\",סענקעוויטשאַ28",
+        "bbox": {
+          "left": 346,
+          "top": 962,
+          "right": 2373,
+          "bottom": 1139
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n99/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "98cde7a7459a50f264da483187e135a93fbf4d424bf7c206a049b96ca9ff2312",
+        "normalizedPassageChecksum": "52f0c9e1b1a22a4123a6644d67de18bb514699daaa05e7470583fdd09859b196",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_37c9b6683ccb5fb640db027f",
+      "type": "Organization",
+      "title": "Industrial Union",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_37c9b6683ccb5fb640db027f",
+      "type": "Organization",
+      "title": "Industrial Union",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cbe45d8842a041b8995ad5aa",
+      "type": "Organization",
+      "title": "Polish Industrial Union",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5514d20bb65d0c335bdfdf41",
+      "type": "Organization",
+      "title": "Textile Association in Lodz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0217228cf8d9c9662d685187",
+      "type": "Organization",
+      "title": "Textile Masters Union",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

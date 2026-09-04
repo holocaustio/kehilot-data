@@ -1,0 +1,125 @@
+{
+  "id": "mention_3c00c3addee3bfff6bd20cf8",
+  "type": "Institution",
+  "title": "Trade and Industry Bank",
+  "summary": "A bank located at 12 Kościuszko Street and founded in 1910.",
+  "originalName": "האַנדלאוןאינדוסטריעבאַנק",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 102,
+  "printedPage": "86",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "bank",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5f8f03f4b569d72cb23a7a4d",
+      "pageId": "page_nybc313697_0102",
+      "scanIndex": 102,
+      "leafNumber": 101,
+      "printedPage": "86",
+      "passageCharStart": 1005,
+      "passageCharEnd": 1102,
+      "normalizedPassageCharStart": 866,
+      "normalizedPassageCharEnd": 950,
+      "pageCharStart": 1973,
+      "pageCharEnd": 2070,
+      "quote": "האַנדל און אינדוסטריע באַנק, PN ON‏ געווען PIN‏\nקאָשטשיושקאָ 12, PNR‏ געגרינדעט געװאָרן PNR‏ 1910",
+      "normalizedQuote": "האַנדלאוןאינדוסטריעבאַנק,PNON‏געוועןPIN‏ קאָשטשיושקאָ12,PNR‏געגרינדעטגעװאָרןPNR‏1910",
+      "modelQuote": "האַנדלאוןאינדוסטריעבאַנק,PNON‏געוועןPIN‏ קאָשטשיושקאָ12,PNR‏געגרינדעטגעװאָרןPNR‏1910",
+      "bbox": {
+        "left": 2551,
+        "top": 2194,
+        "right": 4573,
+        "bottom": 2392
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n101/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "9044d19d87f49a511f9a5961d0cda8cd919aee94d459253ef7f1e1678c014df0",
+      "normalizedPassageChecksum": "14930e0e780af5a7a05981827e670f72112af706e9a344af3c38e9ddee41891c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_028263bdbc0c672a83f0b49e",
+      "type": "Organization Founding",
+      "title": "Trade and Industry Bank founded",
+      "summary": "The Trade and Industry Bank was founded in 1910.",
+      "dateStart": "1910",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5f8f03f4b569d72cb23a7a4d",
+        "pageId": "page_nybc313697_0102",
+        "scanIndex": 102,
+        "leafNumber": 101,
+        "printedPage": "86",
+        "passageCharStart": 1075,
+        "passageCharEnd": 1102,
+        "normalizedPassageCharStart": 926,
+        "normalizedPassageCharEnd": 950,
+        "pageCharStart": 2043,
+        "pageCharEnd": 2070,
+        "quote": "געגרינדעט געװאָרן PNR‏ 1910",
+        "normalizedQuote": "געגרינדעטגעװאָרןPNR‏1910",
+        "modelQuote": "געגרינדעטגעװאָרןPNR‏1910",
+        "bbox": {
+          "left": 2681,
+          "top": 2316,
+          "right": 3754,
+          "bottom": 2387
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n101/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "9044d19d87f49a511f9a5961d0cda8cd919aee94d459253ef7f1e1678c014df0",
+        "normalizedPassageChecksum": "14930e0e780af5a7a05981827e670f72112af706e9a344af3c38e9ddee41891c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_028263bdbc0c672a83f0b49e",
+      "type": "Event",
+      "title": "Trade and Industry Bank founded",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_b2b5e078f9842ce633d9bdcd",
+      "type": "Institution",
+      "title": "Jewish Credit Society",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_238c11ac87bda0628a26401e",
+      "type": "Institution",
+      "title": "Municipal Credit Society",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8fd686110de46c87f713c014",
+      "type": "Publication",
+      "title": "Our Mirror",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4f52146e9f34f4c39aa91dd6",
+      "type": "Publication",
+      "title": "Bialystok Express",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ccede92c05395ba70e4cc047",
+      "type": "Publication",
+      "title": "Our Newspaper",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,107 @@
+{
+  "id": "mention_6d925e91c03683421f71eb91",
+  "type": "Place",
+  "title": "Biurovzer Street",
+  "summary": "Street where the former Jewish labor office was located.",
+  "originalName": "ביוראָווצערגאַס",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 235,
+  "printedPage": "219",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "OCR spacing and surrounding wording are unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e879620539e535b242dd55db",
+      "pageId": "page_nybc313697_0235",
+      "scanIndex": 235,
+      "leafNumber": 234,
+      "printedPage": "219",
+      "passageCharStart": 101,
+      "passageCharEnd": 128,
+      "normalizedPassageCharStart": 89,
+      "normalizedPassageCharEnd": 114,
+      "pageCharStart": 3661,
+      "pageCharEnd": 3688,
+      "quote": "ביים\nאָנהױב יוראָווצער גאַס",
+      "normalizedQuote": "ביים אָנהױביוראָווצערגאַס",
+      "modelQuote": "ביים אָנהױביוראָווצערגאַס",
+      "bbox": {
+        "left": 2753,
+        "top": 4698,
+        "right": 4717,
+        "bottom": 4881
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n234/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "e20a73d0ee68fc8bbceaa5fc71ea3148732832429d8e54ecdf732f899508c0f8",
+      "normalizedPassageChecksum": "b096797ccc5985638f138158e16d8a0ef49d49de57696c726e37622396d72130",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_a7fd608ff499564eed2e78cc",
+      "predicate": "Located In",
+      "subjectTitle": "Former Jewish Labor Office",
+      "objectTitle": "Biurovzer Street",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR appears to state that the office was near or at the beginning of Biurovzer Street.",
+      "evidence": {
+        "passageId": "passage_e879620539e535b242dd55db",
+        "pageId": "page_nybc313697_0235",
+        "scanIndex": 235,
+        "leafNumber": 234,
+        "printedPage": "219",
+        "passageCharStart": 63,
+        "passageCharEnd": 128,
+        "normalizedPassageCharStart": 55,
+        "normalizedPassageCharEnd": 114,
+        "pageCharStart": 3623,
+        "pageCharEnd": 3688,
+        "quote": "געוועזענעם אידישן אַרבעטס-אַמט, באַלד ביים\nאָנהױב יוראָווצער גאַס",
+        "normalizedQuote": "געוועזענעםאידישןאַרבעטס-אַמט,באַלדביים אָנהױביוראָווצערגאַס",
+        "modelQuote": "געוועזענעםאידישןאַרבעטס-אַמט,באַלדביים אָנהױביוראָווצערגאַס",
+        "bbox": {
+          "left": 2753,
+          "top": 4684,
+          "right": 4717,
+          "bottom": 4881
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n234/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "e20a73d0ee68fc8bbceaa5fc71ea3148732832429d8e54ecdf732f899508c0f8",
+        "normalizedPassageChecksum": "b096797ccc5985638f138158e16d8a0ef49d49de57696c726e37622396d72130",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_cd1841bc9e3e3a684dcb69d7",
+      "type": "Institution",
+      "title": "Former Jewish Labor Office",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_cd1841bc9e3e3a684dcb69d7",
+      "type": "Institution",
+      "title": "Former Jewish Labor Office",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f99c336798654a4162ff2d5a",
+      "type": "Work",
+      "title": "Bialystok Yizkor Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

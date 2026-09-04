@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_e18344f42b58082c7e40c8fa",
+  "type": "Event",
+  "title": "Great Synagogue fire",
+  "summary": "The Great Synagogue was burned on June 27, 1941, after the German arrival in Bialystok.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 168,
+  "printedPage": "152",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Fire",
+  "uncertaintyNote": "The text attributes the operation to Nazis and mentions Hitlerist soldiers; Hitler himself is not stated as personally present.",
+  "dateStart": "1941-06-27",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fa3173d10fd7676f37c67555",
+      "pageId": "page_nybc313697_0168",
+      "scanIndex": 168,
+      "leafNumber": 167,
+      "printedPage": "152",
+      "passageCharStart": 36,
+      "passageCharEnd": 54,
+      "normalizedPassageCharStart": 31,
+      "normalizedPassageCharEnd": 47,
+      "pageCharStart": 2401,
+      "pageCharEnd": 2419,
+      "quote": "דעם 27טן\nיוני 1941",
+      "normalizedQuote": "דעם27טן יוני1941",
+      "modelQuote": "דעם27טן יוני1941",
+      "bbox": {
+        "left": 371,
+        "top": 4080,
+        "right": 2380,
+        "bottom": 4241
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n167/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "a0b32a442b59233631e3ee851af181f3d41eb82e3c6c52b4d9cd54ffa43aee60",
+      "normalizedPassageChecksum": "57ea035fff4db9cc3e37ec5ed3bac370fa782ab6a6252c04ae89340836fde5b1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_05d40d161a43ff1d5f7c5ede",
+      "type": "Institution",
+      "title": "Great Synagogue of Bialystok",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_34ca6dbadc169cea2b0a1070",
+      "type": "Person",
+      "title": "Hitler",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

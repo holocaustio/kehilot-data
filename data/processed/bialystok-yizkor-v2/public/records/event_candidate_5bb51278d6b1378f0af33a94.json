@@ -1,0 +1,72 @@
+{
+  "id": "event_candidate_5bb51278d6b1378f0af33a94",
+  "type": "Event",
+  "title": "Bialystoker Tageblatt appears",
+  "summary": "Bialystoker Tageblatt began appearing in 1913 as Bialystok’s first daily newspaper, edited by A. S. Herszberg.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 574,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Publication Founding",
+  "uncertaintyNote": "The controlled event types do not include publication founding; EMPLOYMENT captures the explicitly stated editor role.",
+  "dateStart": "1913",
+  "dateEnd": "1913",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f486480e519e336eb601c498",
+      "pageId": "page_nybc313697_0574",
+      "scanIndex": 574,
+      "leafNumber": 573,
+      "printedPage": null,
+      "passageCharStart": 910,
+      "passageCharEnd": 999,
+      "normalizedPassageCharStart": 784,
+      "normalizedPassageCharEnd": 862,
+      "pageCharStart": 910,
+      "pageCharEnd": 999,
+      "quote": "1913 - The first daily newspaper Bialystoker Tageblatt\nappears, edited by A.S. Herszberg.",
+      "normalizedQuote": "1913-ThefirstdailynewspaperBialystokerTageblatt appears,editedbyA.S.Herszberg.",
+      "modelQuote": "1913-ThefirstdailynewspaperBialystokerTageblatt appears,editedbyA.S.Herszberg.",
+      "bbox": {
+        "left": 318,
+        "top": 2371,
+        "right": 2369,
+        "bottom": 2556
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n573/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "c04ec54e738c0da616c8222ddb1d27fd3f9967f55d03eabb76897570cb84118f",
+      "normalizedPassageChecksum": "0da9cbe0565782a07ee3494cd778287911b4c5b9e12d78eb2c79eb91e7a72577",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4c68d39e40c01b0988e3d66d",
+      "type": "Publication",
+      "title": "Bialystoker Tageblatt",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_cb5dc1a4931671879969d7a5",
+      "type": "Person",
+      "title": "A. S. Herszberg",
+      "relation": "Participant",
+      "role": "Employee"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

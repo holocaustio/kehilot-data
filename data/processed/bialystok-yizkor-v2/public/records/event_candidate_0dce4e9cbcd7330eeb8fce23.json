@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_0dce4e9cbcd7330eeb8fce23",
+  "type": "Event",
+  "title": "Deportation to Auschwitz",
+  "summary": "The narrator’s husband was deported to Auschwitz and separated from his mother and sister.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 341,
+  "printedPage": "325",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The sister’s event role is not represented by the available role vocabulary; participant role is omitted.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bffa58344004b805a444281d",
+      "pageId": "page_nybc313697_0341",
+      "scanIndex": 341,
+      "leafNumber": 340,
+      "printedPage": "325",
+      "passageCharStart": 448,
+      "passageCharEnd": 505,
+      "normalizedPassageCharStart": 380,
+      "normalizedPassageCharEnd": 430,
+      "pageCharStart": 448,
+      "pageCharEnd": 505,
+      "quote": "ער אַרוסגעפירט געװאָרן בעת דער ערשטער SPR,‏\nקיין אוישוויץ",
+      "normalizedQuote": "עראַרוסגעפירטגעװאָרןבעתדערערשטערSPR,‏ קייןאוישוויץ",
+      "modelQuote": "עראַרוסגעפירטגעװאָרןבעתדערערשטערSPR,‏ קייןאוישוויץ",
+      "bbox": {
+        "left": 377,
+        "top": 1183,
+        "right": 2383,
+        "bottom": 1359
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n340/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b96250c4edcd7ca21eb4e7971dcae09a553250893f96b4867b5e0b8ba9118799",
+      "normalizedPassageChecksum": "3287128982e2f318a78ed47aff64bf3bfaff789e79b2a5a32be4b3eb337b2074",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_3dd97b325114b756d51e0906",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_81680bb23b69fdb1e22ad070",
+      "type": "Person",
+      "title": "The narrator’s husband",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_ed0da4869e3fc23d142028eb",
+      "type": "Person",
+      "title": "The husband’s mother",
+      "relation": "Participant",
+      "role": "Parent"
+    },
+    {
+      "id": "mention_d7d70f0d8f7a4d6d100ffa83",
+      "type": "Person",
+      "title": "The husband’s sister",
+      "relation": "Participant",
+      "role": "Spouse"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

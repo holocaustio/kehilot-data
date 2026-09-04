@@ -1,0 +1,118 @@
+{
+  "id": "mention_527f0b2b78d44938f3a408f7",
+  "type": "Institution",
+  "title": "Station Lafi",
+  "summary": "Place in Warsaw described as an inquisition court targeting Jews.",
+  "originalName": "סטאַנציעלאַפי",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 89,
+  "printedPage": "73",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "tribunal",
+  "uncertaintyNote": "The OCR and punctuation make the institution name uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1b639131a12c0fde2c83369a",
+      "pageId": "page_nybc313697_0089",
+      "scanIndex": 89,
+      "leafNumber": 88,
+      "printedPage": "73",
+      "passageCharStart": 405,
+      "passageCharEnd": 428,
+      "normalizedPassageCharStart": 346,
+      "normalizedPassageCharEnd": 367,
+      "pageCharStart": 4431,
+      "pageCharEnd": 4454,
+      "quote": "די “IND‏\nסטאַנציע לאַפי",
+      "normalizedQuote": "די“IND‏ סטאַנציעלאַפי",
+      "modelQuote": "די“IND‏ סטאַנציעלאַפי",
+      "bbox": {
+        "left": 2559,
+        "top": 4421,
+        "right": 4500,
+        "bottom": 4597
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n88/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "ef25325c6f8aaa9d66b26209ba6c0dc44ff9486c7344eab9b2a924cea89ca19c",
+      "normalizedPassageChecksum": "3b5c5789b0a14b9998b77dec0ce816bd50568f8bc7b9407806abf7abdb5d9f3e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_9bdcebc98486d9cc964575ac",
+      "type": "Aktion Or Raid",
+      "title": "Persecution of Jews at Station Lafi",
+      "summary": "Jews were dragged to Station Lafi, beaten, shaved, and robbed.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1b639131a12c0fde2c83369a",
+        "pageId": "page_nybc313697_0089",
+        "scanIndex": 89,
+        "leafNumber": 88,
+        "printedPage": "73",
+        "passageCharStart": 513,
+        "passageCharEnd": 657,
+        "normalizedPassageCharStart": 440,
+        "normalizedPassageCharEnd": 564,
+        "pageCharStart": 4539,
+        "pageCharEnd": 4683,
+        "quote": "אַרױס:\nגעשלעפּט אידן TR IND TID‏ דאָרטן OY PUY‏ כלומרשט,\nאָבער מ'האָט זיי געשלאָגן מכות רצח, געשמיסן, געשוירן די\nבערד, צעראַבירט געלט און סחורות",
+        "normalizedQuote": "אַרױס: געשלעפּטאידןTRINDTID‏דאָרטןOYPUY‏כלומרשט, אָבערמ'האָטזייגעשלאָגןמכותרצח,געשמיסן,געשוירןדי בערד,צעראַבירטגעלטאוןסחורות",
+        "modelQuote": "אַרױס: געשלעפּטאידןTRINDTID‏דאָרטןOYPUY‏כלומרשט, אָבערמ'האָטזייגעשלאָגןמכותרצח,געשמיסן,געשוירןדי בערד,צעראַבירטגעלטאוןסחורות",
+        "bbox": {
+          "left": 2555,
+          "top": 4619,
+          "right": 4502,
+          "bottom": 4996
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n88/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "ef25325c6f8aaa9d66b26209ba6c0dc44ff9486c7344eab9b2a924cea89ca19c",
+        "normalizedPassageChecksum": "3b5c5789b0a14b9998b77dec0ce816bd50568f8bc7b9407806abf7abdb5d9f3e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_9bdcebc98486d9cc964575ac",
+      "type": "Event",
+      "title": "Persecution of Jews at Station Lafi",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_e669a4e81098d2ab0025a6bf",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7a9aaeabde87bcba78c9ccf7",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_129905307bfdb15745d1e7a8",
+      "type": "Place",
+      "title": "Russia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f99c336798654a4162ff2d5a",
+      "type": "Work",
+      "title": "Bialystok Yizkor Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

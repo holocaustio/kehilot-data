@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_a74a57c3ba65fd167cfb7938",
+  "type": "Event",
+  "title": "Murder of the Einstein family",
+  "summary": "Einstein, his wife, and two children were murdered.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 45,
+  "printedPage": "29",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_db3f47abf7a7c60227bd6cad",
+      "pageId": "page_nybc313697_0045",
+      "scanIndex": 45,
+      "leafNumber": 44,
+      "printedPage": "29",
+      "passageCharStart": 460,
+      "passageCharEnd": 497,
+      "normalizedPassageCharStart": 393,
+      "normalizedPassageCharEnd": 425,
+      "pageCharStart": 3998,
+      "pageCharEnd": 4035,
+      "quote": "די הריגה פון דער פאַמיליע איינ-\nשטיין",
+      "normalizedQuote": "דיהריגהפוןדערפאַמיליעאיינ- שטיין",
+      "modelQuote": "די הריגה פון דער פאַמיליע איינ- שטיין",
+      "bbox": {
+        "left": 2581,
+        "top": 2415,
+        "right": 4538,
+        "bottom": 2594
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n44/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "14c071be4c877a23cee40d4e69e34a8a497c32298dd5870b02599cda3009e1f4",
+      "normalizedPassageChecksum": "3e9ece859ed244e736587a8343c9b08952971aa7bc61314aa2274f03b7a93f43",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5633a182f16f79202dd9d501",
+      "type": "Place",
+      "title": "Prison courtyard",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6686049ab953a208462d4371",
+      "type": "Family",
+      "title": "Einstein family",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

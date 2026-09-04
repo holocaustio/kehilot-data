@@ -1,0 +1,112 @@
+{
+  "id": "mention_bc06c7bb7a03a397bdf40583",
+  "type": "Place",
+  "title": "Wald-Lager",
+  "summary": "Labor camp where the transported prisoners arrived.",
+  "originalName": "װאַלד-לאַגער",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 324,
+  "printedPage": "308",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "labor camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2f0b683493b898c3c526761e",
+      "pageId": "page_nybc313697_0324",
+      "scanIndex": 324,
+      "leafNumber": 323,
+      "printedPage": "308",
+      "passageCharStart": 1116,
+      "passageCharEnd": 1128,
+      "normalizedPassageCharStart": 952,
+      "normalizedPassageCharEnd": 964,
+      "pageCharStart": 1116,
+      "pageCharEnd": 1128,
+      "quote": "װאַלד-לאַגער",
+      "normalizedQuote": "װאַלד-לאַגער",
+      "modelQuote": "װאַלד-לאַגער",
+      "bbox": {
+        "left": 1028,
+        "top": 2781,
+        "right": 1545,
+        "bottom": 2862
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n323/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "0ee271d8674c803a9d35cfa996cc4e62da9c65c2a126bfabc309f79bdb9c1b01",
+      "normalizedPassageChecksum": "ce465a9cd8c623b7e024eb085d2e8ca8153896c25e4848661640fcd1bc27a3e4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_043f3f15bbd468fdfdfd6bc4",
+      "type": "Arrival",
+      "title": "Arrival at Wald-Lager",
+      "summary": "A group was driven into a site whose entrance bore the inscription “Wald-Lager.”",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage uses first-person plural narration; attribution to Hirsh Feigin is supported by the named heading but not fully explicit in the OCR.",
+      "evidence": {
+        "passageId": "passage_2f0b683493b898c3c526761e",
+        "pageId": "page_nybc313697_0324",
+        "scanIndex": 324,
+        "leafNumber": 323,
+        "printedPage": "308",
+        "passageCharStart": 999,
+        "passageCharEnd": 1129,
+        "normalizedPassageCharStart": 851,
+        "normalizedPassageCharEnd": 965,
+        "pageCharStart": 999,
+        "pageCharEnd": 1129,
+        "quote": "צום סוף, צומאָרגנס, האָט מען TIN‏ אַלעמען\nאַרײנגעטריבן PNR‏ אַ גרויסן OD TINY‏ אַרינגאַנג איז\nגעווען IX‏ אויפשריפט: ,װאַלד-לאַגער\"",
+        "normalizedQuote": "צוםסוף,צומאָרגנס,האָטמעןTIN‏אַלעמען אַרײנגעטריבןPNR‏אַגרויסןODTINY‏אַרינגאַנגאיז געוועןIX‏אויפשריפט:,װאַלד-לאַגער\"",
+        "modelQuote": "צוםסוף,צומאָרגנס,האָטמעןTIN‏אַלעמען אַרײנגעטריבןPNR‏אַגרויסןODTINY‏אַרינגאַנגאיז געוועןIX‏אויפשריפט:,װאַלד-לאַגער\"",
+        "bbox": {
+          "left": 412,
+          "top": 2585,
+          "right": 2353,
+          "bottom": 2862
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n323/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "0ee271d8674c803a9d35cfa996cc4e62da9c65c2a126bfabc309f79bdb9c1b01",
+        "normalizedPassageChecksum": "ce465a9cd8c623b7e024eb085d2e8ca8153896c25e4848661640fcd1bc27a3e4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_043f3f15bbd468fdfdfd6bc4",
+      "type": "Event",
+      "title": "Arrival at Wald-Lager",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_e83ec49d0f6e88cd67240322",
+      "type": "Person",
+      "title": "Hirsh Feigin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_343ebf98f7d40b84f90c7de3",
+      "type": "Place",
+      "title": "Chervoniak Prison",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0c22b05480f9c607f379b2d4",
+      "type": "Place",
+      "title": "Sing Sing",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

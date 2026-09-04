@@ -1,0 +1,109 @@
+{
+  "id": "mention_e8c8a132c4105e14b3975746",
+  "type": "Place",
+  "title": "Baranovich Road",
+  "summary": "Roadside work site one kilometer beyond the city.",
+  "originalName": "באַראַנאָװיטשער שאָסעי",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 189,
+  "printedPage": "173",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "road",
+  "uncertaintyNote": "OCR is noisy.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4f220cbe67724e2f5f2b28f2",
+      "pageId": "page_nybc313697_0189",
+      "scanIndex": 189,
+      "leafNumber": 188,
+      "printedPage": "173",
+      "passageCharStart": 511,
+      "passageCharEnd": 571,
+      "normalizedPassageCharStart": 439,
+      "normalizedPassageCharEnd": 493,
+      "pageCharStart": 3039,
+      "pageCharEnd": 3099,
+      "quote": "אויפן באַראַנאָװיטשער\nשאָסעי, אַ קילאַמעטער הינטער דער שטאָט",
+      "normalizedQuote": "אויפןבאַראַנאָװיטשער שאָסעי,אַקילאַמעטערהינטערדערשטאָט",
+      "modelQuote": "אויפןבאַראַנאָװיטשער שאָסעי,אַקילאַמעטערהינטערדערשטאָט",
+      "bbox": {
+        "left": 2574,
+        "top": 1748,
+        "right": 4500,
+        "bottom": 1917
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n188/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f328d6e89168c189dfe73e27ec1821a0868dd99594097b139dbf01a27e3c58e1",
+      "normalizedPassageChecksum": "bde52a60c8430f89f65558d2b5d7c2838f9575e237e7b315a94536576aba8af6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_4d404d326cfaa8c2ec4cd389",
+      "predicate": "Near",
+      "subjectTitle": "Baranovich Road",
+      "objectTitle": "Bialystok",
+      "confidence": "MEDIUM",
+      "qualifiers": {
+        "distance": "1 kilometer"
+      },
+      "evidence": {
+        "passageId": "passage_4f220cbe67724e2f5f2b28f2",
+        "pageId": "page_nybc313697_0189",
+        "scanIndex": 189,
+        "leafNumber": 188,
+        "printedPage": "173",
+        "passageCharStart": 511,
+        "passageCharEnd": 571,
+        "normalizedPassageCharStart": 439,
+        "normalizedPassageCharEnd": 493,
+        "pageCharStart": 3039,
+        "pageCharEnd": 3099,
+        "quote": "אויפן באַראַנאָװיטשער\nשאָסעי, אַ קילאַמעטער הינטער דער שטאָט",
+        "normalizedQuote": "אויפןבאַראַנאָװיטשער שאָסעי,אַקילאַמעטערהינטערדערשטאָט",
+        "modelQuote": "אויפןבאַראַנאָװיטשער שאָסעי,אַקילאַמעטערהינטערדערשטאָט",
+        "bbox": {
+          "left": 2574,
+          "top": 1748,
+          "right": 4500,
+          "bottom": 1917
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n188/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "f328d6e89168c189dfe73e27ec1821a0868dd99594097b139dbf01a27e3c58e1",
+        "normalizedPassageChecksum": "bde52a60c8430f89f65558d2b5d7c2838f9575e237e7b315a94536576aba8af6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_65874f0afa8f573027cfa9d4",
+      "type": "Place",
+      "title": "Staroseltsy",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

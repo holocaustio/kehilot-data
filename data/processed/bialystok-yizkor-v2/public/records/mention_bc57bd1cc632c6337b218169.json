@@ -1,0 +1,118 @@
+{
+  "id": "mention_bc57bd1cc632c6337b218169",
+  "type": "Place",
+  "title": "6 Marshal Piłsudski Street",
+  "summary": "Address of the Merchants Union bureau in Bialystok.",
+  "originalName": "מאַרשאַל פּילסודסקיעגאָ6",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 100,
+  "printedPage": "84",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "address",
+  "uncertaintyNote": "The street name and spacing are affected by OCR.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0c89fb80da18f88379ce283b",
+      "pageId": "page_nybc313697_0100",
+      "scanIndex": 100,
+      "leafNumber": 99,
+      "printedPage": "84",
+      "passageCharStart": 1180,
+      "passageCharEnd": 1205,
+      "normalizedPassageCharStart": 1041,
+      "normalizedPassageCharEnd": 1065,
+      "pageCharStart": 2292,
+      "pageCharEnd": 2317,
+      "quote": "מאַרשאַל\nפּילסודסקיעגאָ 6",
+      "normalizedQuote": "מאַרשאַל פּילסודסקיעגאָ6",
+      "modelQuote": "מאַרשאַל פּילסודסקיעגאָ6",
+      "bbox": {
+        "left": 364,
+        "top": 5539,
+        "right": 2396,
+        "bottom": 5723
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n99/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "32a30d8a5004ee4279b913e291876bd22e99d39ea753a0b83eb074b8610b97eb",
+      "normalizedPassageChecksum": "f85553f28bbba41cbcd429e553f18588dbf969298cf80b0ff278862b2a52863d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_c11eff2bda15b984b85c4915",
+      "predicate": "Located In",
+      "subjectTitle": "Merchants Union",
+      "objectTitle": "6 Marshal Piłsudski Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_0c89fb80da18f88379ce283b",
+        "pageId": "page_nybc313697_0100",
+        "scanIndex": 100,
+        "leafNumber": 99,
+        "printedPage": "84",
+        "passageCharStart": 1158,
+        "passageCharEnd": 1205,
+        "normalizedPassageCharStart": 1023,
+        "normalizedPassageCharEnd": 1065,
+        "pageCharStart": 2270,
+        "pageCharEnd": 2317,
+        "quote": "די ביוראָ געווען אויף מאַרשאַל\nפּילסודסקיעגאָ 6",
+        "normalizedQuote": "דיביוראָגעוועןאויףמאַרשאַל פּילסודסקיעגאָ6",
+        "modelQuote": "דיביוראָגעוועןאויףמאַרשאַל פּילסודסקיעגאָ6",
+        "bbox": {
+          "left": 364,
+          "top": 5539,
+          "right": 2396,
+          "bottom": 5723
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n99/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "32a30d8a5004ee4279b913e291876bd22e99d39ea753a0b83eb074b8610b97eb",
+        "normalizedPassageChecksum": "f85553f28bbba41cbcd429e553f18588dbf969298cf80b0ff278862b2a52863d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_9f6385161ddbb7c8b0be5e3e",
+      "type": "Organization",
+      "title": "Merchants Union",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_0217228cf8d9c9662d685187",
+      "type": "Organization",
+      "title": "Textile Masters Union",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_654115b7a7ac1cdaf182d905",
+      "type": "Publication",
+      "title": "Textile Masters Journal",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9f6385161ddbb7c8b0be5e3e",
+      "type": "Organization",
+      "title": "Merchants Union",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7a9aaeabde87bcba78c9ccf7",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

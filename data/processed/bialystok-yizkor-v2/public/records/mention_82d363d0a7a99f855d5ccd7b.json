@@ -1,0 +1,114 @@
+{
+  "id": "mention_82d363d0a7a99f855d5ccd7b",
+  "type": "Place",
+  "title": "Petrasze Field",
+  "summary": "Place from which Bialystok Jews were deported in August 1943.",
+  "originalName": "פּעטראַשערפעלד",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 228,
+  "printedPage": "212",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "field",
+  "uncertaintyNote": "OCR segmentation makes the exact place-name boundaries uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ead54ee8ea4abc7eadd99d20",
+      "pageId": "page_nybc313697_0228",
+      "scanIndex": 228,
+      "leafNumber": 227,
+      "printedPage": "212",
+      "passageCharStart": 657,
+      "passageCharEnd": 676,
+      "normalizedPassageCharStart": 562,
+      "normalizedPassageCharEnd": 579,
+      "pageCharStart": 4259,
+      "pageCharEnd": 4278,
+      "quote": "פון פּעטראַשער פעלד",
+      "normalizedQuote": "פוןפּעטראַשערפעלד",
+      "modelQuote": "פוןפּעטראַשערפעלד",
+      "bbox": {
+        "left": 3269,
+        "top": 3124,
+        "right": 4029,
+        "bottom": 3207
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n227/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "0ba0b0752e466d607c03d53dcfb2e7eb55dd713692ef20192e189ae51ac5f014",
+      "normalizedPassageChecksum": "19a5deb8cff6801def9ead8747542f58fe64287dbeb9f27f7fb9331a3545cf3e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_dec5f7877173c5465e72be6a",
+      "type": "Deportation",
+      "title": "Deportation of Bialystok Jews",
+      "summary": "On August 18, 1943, the deportation of Bialystok Jews was nearly completed.",
+      "dateStart": "1943-08-18",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR corruption makes the exact wording and event boundaries uncertain.",
+      "evidence": {
+        "passageId": "passage_ead54ee8ea4abc7eadd99d20",
+        "pageId": "page_nybc313697_0228",
+        "scanIndex": 228,
+        "leafNumber": 227,
+        "printedPage": "212",
+        "passageCharStart": 545,
+        "passageCharEnd": 624,
+        "normalizedPassageCharStart": 467,
+        "normalizedPassageCharEnd": 535,
+        "pageCharStart": 4147,
+        "pageCharEnd": 4226,
+        "quote": "דעם 18טן אויגוסט, 1943, האָט‎ NNN\nאַרויספירן די ביאַלי-‎ ONT כמעט וי פאַרענדיקט",
+        "normalizedQuote": "דעם18טןאויגוסט,1943,האָט‎NNN אַרויספירןדיביאַלי-‎ONTכמעטויפאַרענדיקט",
+        "modelQuote": "דעם18טןאויגוסט,1943,האָט‎NNN אַרויספירןדיביאַלי-‎ONTכמעטויפאַרענדיקט",
+        "bbox": {
+          "left": 2570,
+          "top": 2935,
+          "right": 4378,
+          "bottom": 3108
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n227/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "0ba0b0752e466d607c03d53dcfb2e7eb55dd713692ef20192e189ae51ac5f014",
+        "normalizedPassageChecksum": "19a5deb8cff6801def9ead8747542f58fe64287dbeb9f27f7fb9331a3545cf3e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_dec5f7877173c5465e72be6a",
+      "type": "Event",
+      "title": "Deportation of Bialystok Jews",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_0689a66b37d65cca75bd0e81",
+      "type": "Place",
+      "title": "Kupietzka Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6ccabd4a687d11a0fc71db21",
+      "type": "Institution",
+      "title": "Bialystok Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_69d146bfb6cfdc9fbd2b7e72",
+      "type": "Place",
+      "title": "Majdanek",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,109 @@
+{
+  "id": "mention_a36ecb5de3d914ccc29ed31b",
+  "type": "Place",
+  "title": "29 Kupieczka Street",
+  "summary": "Address where Malmed lived with his wife and two children.",
+  "originalName": "קופּיעצקע29",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 217,
+  "printedPage": "201",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "address",
+  "uncertaintyNote": "The OCR clearly gives a street name and number, but transliteration is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_32d8ffa61c4f15fec78a0434",
+      "pageId": "page_nybc313697_0217",
+      "scanIndex": 217,
+      "leafNumber": 216,
+      "printedPage": "201",
+      "passageCharStart": 384,
+      "passageCharEnd": 396,
+      "normalizedPassageCharStart": 331,
+      "normalizedPassageCharEnd": 342,
+      "pageCharStart": 3767,
+      "pageCharEnd": 3779,
+      "quote": "קופּיעצקע 29",
+      "normalizedQuote": "קופּיעצקע29",
+      "modelQuote": "קופּיעצקע29",
+      "bbox": {
+        "left": 3587,
+        "top": 3612,
+        "right": 4041,
+        "bottom": 3678
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n216/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "96222f2311cfa93483f0344ae6592c591499392cb04a8e83b88628179f274bd9",
+      "normalizedPassageChecksum": "197e0e962ffb075f5a920be9dec8e6467abee81a718c952d30cb1b0a6b25d9ec",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_f9172626d566ccf799a735e0",
+      "predicate": "Lived At",
+      "subjectTitle": "Itzhak Malmed",
+      "objectTitle": "29 Kupieczka Street",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "household": "wife and two children"
+      },
+      "evidence": {
+        "passageId": "passage_32d8ffa61c4f15fec78a0434",
+        "pageId": "page_nybc313697_0217",
+        "scanIndex": 217,
+        "leafNumber": 216,
+        "printedPage": "201",
+        "passageCharStart": 339,
+        "passageCharEnd": 396,
+        "normalizedPassageCharStart": 293,
+        "normalizedPassageCharEnd": 342,
+        "pageCharStart": 3722,
+        "pageCharEnd": 3779,
+        "quote": "געוואוינט מיט PT‏ פרוי און צוויי\nקינדער אויף קופּיעצקע 29",
+        "normalizedQuote": "געוואוינטמיטPT‏פרויאוןצוויי קינדעראויףקופּיעצקע29",
+        "modelQuote": "געוואוינטמיטPT‏פרויאוןצוויי קינדעראויףקופּיעצקע29",
+        "bbox": {
+          "left": 2571,
+          "top": 3512,
+          "right": 4495,
+          "bottom": 3678
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n216/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "96222f2311cfa93483f0344ae6592c591499392cb04a8e83b88628179f274bd9",
+        "normalizedPassageChecksum": "197e0e962ffb075f5a920be9dec8e6467abee81a718c952d30cb1b0a6b25d9ec",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_c315eea86e77233d938a7484",
+      "type": "Person",
+      "title": "Itzhak Malmed",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_c315eea86e77233d938a7484",
+      "type": "Person",
+      "title": "Itzhak Malmed",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

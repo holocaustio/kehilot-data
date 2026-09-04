@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_5aaaeeb71489ea405fa53042",
+  "type": "Event",
+  "title": "Purchase of building at 19 Robe Street",
+  "summary": "A large building with many rooms and halls was purchased in 1946.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 387,
+  "printedPage": "371",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "The text does not explicitly identify the purchaser.",
+  "dateStart": "1946",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a3e8409a8d1c1c08786a182b",
+      "pageId": "page_nybc313697_0387",
+      "scanIndex": 387,
+      "leafNumber": 386,
+      "printedPage": "371",
+      "passageCharStart": 892,
+      "passageCharEnd": 945,
+      "normalizedPassageCharStart": 776,
+      "normalizedPassageCharEnd": 821,
+      "pageCharStart": 4146,
+      "pageCharEnd": 4199,
+      "quote": "יאָר 1946, אויף 19\nראָב סטריט, סט. קילדא, אין מעלבורן",
+      "normalizedQuote": "יאָר1946,אויף19 ראָבסטריט,סט.קילדא,איןמעלבורן",
+      "modelQuote": "יאָר1946,אויף19 ראָבסטריט,סט.קילדא,איןמעלבורן",
+      "bbox": {
+        "left": 2549,
+        "top": 4103,
+        "right": 4541,
+        "bottom": 4287
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n386/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "ef9da1bcb780254839d1e2b36a03efdfe675e87388cee609a10ad3af9d39f19e",
+      "normalizedPassageChecksum": "acab534abcb0a880f93fd35db8c1ebc4579b7e9b6c92922daf7899f3acd94179",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5451a94a1568145d7bcb955a",
+      "type": "Place",
+      "title": "19 Robe Street, St Kilda, Melbourne",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ad30578882274f12c2f568d0",
+      "type": "Community",
+      "title": "Bialystok landsleit",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

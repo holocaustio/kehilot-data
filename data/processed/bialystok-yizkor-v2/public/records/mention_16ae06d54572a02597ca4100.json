@@ -1,0 +1,106 @@
+{
+  "id": "mention_16ae06d54572a02597ca4100",
+  "type": "Person",
+  "title": "Shimkha",
+  "summary": "A man who visited relatives in America and held various occupations.",
+  "originalName": "שמחה",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 349,
+  "printedPage": "333",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "OCR segmentation obscures parts of the name and surrounding text.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_845315809c65d4874f61e4f0",
+      "pageId": "page_nybc313697_0349",
+      "scanIndex": 349,
+      "leafNumber": 348,
+      "printedPage": "333",
+      "passageCharStart": 358,
+      "passageCharEnd": 362,
+      "normalizedPassageCharStart": 301,
+      "normalizedPassageCharEnd": 305,
+      "pageCharStart": 4469,
+      "pageCharEnd": 4473,
+      "quote": "שמחה",
+      "normalizedQuote": "שמחה",
+      "modelQuote": "שמחה",
+      "bbox": {
+        "left": 3182,
+        "top": 3357,
+        "right": 3385,
+        "bottom": 3415
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n348/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "db2e1192e814e5f8a59208801e738ec0b1e5b8763acb685a22463f3d85bfdb3c",
+      "normalizedPassageChecksum": "91d538438cc9bf073eb770e915a43ba678dbe8c02e35f913d816b90c260316bb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_01b5ccb0915b985e59bb8051",
+      "predicate": "Was In",
+      "subjectTitle": "Shimkha",
+      "objectTitle": "America",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text states Shimkha was in America, but duration and residence status are unclear.",
+      "evidence": {
+        "passageId": "passage_845315809c65d4874f61e4f0",
+        "pageId": "page_nybc313697_0349",
+        "scanIndex": 349,
+        "leafNumber": 348,
+        "printedPage": "333",
+        "passageCharStart": 358,
+        "passageCharEnd": 386,
+        "normalizedPassageCharStart": 301,
+        "normalizedPassageCharEnd": 326,
+        "pageCharStart": 4469,
+        "pageCharEnd": 4497,
+        "quote": "שמחה PR‏ געווען אין\nאַמעריקע",
+        "normalizedQuote": "שמחהPR‏געוועןאין אַמעריקע",
+        "modelQuote": "שמחהPR‏געוועןאין אַמעריקע",
+        "bbox": {
+          "left": 2575,
+          "top": 3353,
+          "right": 4586,
+          "bottom": 3537
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n348/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "db2e1192e814e5f8a59208801e738ec0b1e5b8763acb685a22463f3d85bfdb3c",
+        "normalizedPassageChecksum": "91d538438cc9bf073eb770e915a43ba678dbe8c02e35f913d816b90c260316bb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_1d08aaa4195ec115afb3c362",
+      "type": "Place",
+      "title": "America",
+      "relation": "Was In"
+    },
+    {
+      "id": "mention_1c5d9329cf6a8747e354f817",
+      "type": "Person",
+      "title": "Shimkha's daughter",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1d08aaa4195ec115afb3c362",
+      "type": "Place",
+      "title": "America",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

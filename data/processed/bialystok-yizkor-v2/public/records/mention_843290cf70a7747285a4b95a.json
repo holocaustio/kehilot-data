@@ -1,0 +1,107 @@
+{
+  "id": "mention_843290cf70a7747285a4b95a",
+  "type": "Organization",
+  "title": "Jewish partisan resistance",
+  "summary": "Jewish partisans fought Nazi forces and suffered deaths and injuries.",
+  "originalName": "דיאידן-ראַט",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 223,
+  "printedPage": "207",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "resistance group",
+  "uncertaintyNote": "OCR corruption obscures the exact wording and organizational designation.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_53ded3ca6073c2a73d1c7448",
+      "pageId": "page_nybc313697_0223",
+      "scanIndex": 223,
+      "leafNumber": 222,
+      "printedPage": "207",
+      "passageCharStart": 369,
+      "passageCharEnd": 395,
+      "normalizedPassageCharStart": 322,
+      "normalizedPassageCharEnd": 346,
+      "pageCharStart": 369,
+      "pageCharEnd": 395,
+      "quote": "דער העראָאישער װױדערשטאַנד",
+      "normalizedQuote": "דערהעראָאישערװױדערשטאַנד",
+      "modelQuote": "דערהעראָאישערװױדערשטאַנד",
+      "bbox": {
+        "left": 1103,
+        "top": 1133,
+        "right": 2231,
+        "bottom": 1202
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n222/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "4ea5e75e9887ac1acd7246ba864e8f36e7e5f7947e77018407db13d7c1731422",
+      "normalizedPassageChecksum": "c8bf585f42f71fca039c39a7fbcc7837e3473e0ff0333893e2dd7647346b3ad0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_ebe1676990a08ff525609437",
+      "predicate": "Member Of",
+      "subjectTitle": "Abrasha Galter",
+      "objectTitle": "Jewish partisan resistance",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_53ded3ca6073c2a73d1c7448",
+        "pageId": "page_nybc313697_0223",
+        "scanIndex": 223,
+        "leafNumber": 222,
+        "printedPage": "207",
+        "passageCharStart": 144,
+        "passageCharEnd": 177,
+        "normalizedPassageCharStart": 124,
+        "normalizedPassageCharEnd": 154,
+        "pageCharStart": 144,
+        "pageCharEnd": 177,
+        "quote": "פאַראייניקן מיט די פּאַרטי\nזאַנער",
+        "normalizedQuote": "פאַראייניקןמיטדיפּאַרטי זאַנער",
+        "modelQuote": "פאַראייניקןמיטדיפּאַרטיזאַנער",
+        "bbox": {
+          "left": 421,
+          "top": 629,
+          "right": 2386,
+          "bottom": 798
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n222/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "4ea5e75e9887ac1acd7246ba864e8f36e7e5f7947e77018407db13d7c1731422",
+        "normalizedPassageChecksum": "c8bf585f42f71fca039c39a7fbcc7837e3473e0ff0333893e2dd7647346b3ad0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_0e6e026ba4c8fae1ecbecdef",
+      "type": "Person",
+      "title": "Abrasha Galter",
+      "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_b51864aff258080b283279ac",
+      "type": "Event",
+      "title": "Attack on a Jewish partisan detachment",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_0e6e026ba4c8fae1ecbecdef",
+      "type": "Person",
+      "title": "Abrasha Galter",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

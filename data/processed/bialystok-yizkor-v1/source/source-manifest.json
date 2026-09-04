@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "kehilot-yizkor-source-v2",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "ingestedAt": "2026-09-04T14:00:23.427Z",
+  "community": {
+    "id": "community_bialystok",
+    "displayName": "Bialystok",
+    "canonicalName": "Bialystok",
+    "country": "Poland"
+  },
+  "book": {
+    "id": "book_nybc313697",
+    "communityId": "community_bialystok",
+    "internetArchiveId": "nybc313697",
+    "title": "Byalisṭoḳer yizker bukh",
+    "alternateTitle": null,
+    "authors": [],
+    "publication": "New York : The New York Public Library ; Amherst, MA. : National Yiddish Book Center",
+    "language": "yi",
+    "pageProgression": "rl",
+    "sourceUrl": "https://archive.org/details/nybc313697",
+    "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+    "rightsStatus": "REVIEW_REQUIRED",
+    "attribution": "internet-archive",
+    "checksums": {
+      "metadata": "f748d459b0712511ef3b2687146d82ec4b8330a284dbb9c710f05c7a7972b562",
+      "djvuXml": "c929d30c29d21f03472f561e256add0607e0731944836059fa4a66eb466ff126",
+      "scandataXml": "ea18e827c1f9cb56a16b8b6ad145af0820762bbffe08907d1bfa5007fd928610",
+      "pdf": "e6e6451610c632f95dd432794453ebb4b30990a3aa6cdb2e6e0c74e34364edc8"
+    }
+  },
+  "chapters": [],
+  "counts": {
+    "pages": 630,
+    "pagesWithText": 553,
+    "passages": 1994,
+    "words": 394517,
+    "normalizationEdits": 384494,
+    "joinedFragments": 341612,
+    "softLineBreaks": 42882
+  },
+  "normalizationPolicy": {
+    "version": "ocr-layout-normalizer-v1",
+    "canonicalField": "text",
+    "derivedField": "normalizedText",
+    "reversible": true,
+    "changesCharacters": false,
+    "rules": [
+      "concatenate-djvu-word-runs",
+      "replace-soft-line-breaks"
+    ]
+  },
+  "passagePolicy": {
+    "pageBound": true,
+    "targetEstimatedTokens": 1100,
+    "maxEstimatedTokens": 1500,
+    "tokenEstimate": "hebrew_letters*1.15 + latin_letters/4 + digits/3 + punctuation/2"
+  }
+}

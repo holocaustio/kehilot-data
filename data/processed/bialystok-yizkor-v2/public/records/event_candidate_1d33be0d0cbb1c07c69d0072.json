@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_1d33be0d0cbb1c07c69d0072",
+  "type": "Event",
+  "title": "Imprisonment in Bialystok",
+  "summary": "The narrator spent 72 hours in a dark prison cellar in Bialystok.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 239,
+  "printedPage": "223",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Imprisonment",
+  "uncertaintyNote": "The passage does not explicitly identify the imprisoned person by name; the narrator is the apparent subject.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_04bb81f5f2486fbaf5757e70",
+      "pageId": "page_nybc313697_0239",
+      "scanIndex": 239,
+      "leafNumber": 238,
+      "printedPage": "223",
+      "passageCharStart": 1196,
+      "passageCharEnd": 1255,
+      "normalizedPassageCharStart": 1008,
+      "normalizedPassageCharEnd": 1061,
+      "pageCharStart": 1621,
+      "pageCharEnd": 1680,
+      "quote": "פאַרבראַכט PR‏ פינצטערן קאַרצער\n(תפיסה-קעלער) גאַנצע 72 שעה",
+      "normalizedQuote": "פאַרבראַכטPR‏פינצטערןקאַרצער (תפיסה-קעלער)גאַנצע72שעה",
+      "modelQuote": "פאַרבראַכטPR‏פינצטערןקאַרצער (תפיסה-קעלער)גאַנצע72שעה",
+      "bbox": {
+        "left": 434,
+        "top": 3526,
+        "right": 2391,
+        "bottom": 3694
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n238/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b564c53ea81ad6ad37b66de2d7d7f714e9483f00e17c39a5b22341ec398f81dd",
+      "normalizedPassageChecksum": "fd460df3861534f86105e86a7020019af64ee63c4f26603e62bd8b1dc1695dc2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9b3b6653347f10f8b8df558b",
+      "type": "Place",
+      "title": "Bialystok Prison",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9b3b6653347f10f8b8df558b",
+      "type": "Place",
+      "title": "Bialystok Prison",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

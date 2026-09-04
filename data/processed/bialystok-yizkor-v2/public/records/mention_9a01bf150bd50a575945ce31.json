@@ -1,0 +1,116 @@
+{
+  "id": "mention_9a01bf150bd50a575945ce31",
+  "type": "Place",
+  "title": "27 Warsaw Street",
+  "summary": "An address where special workshops were generally opened.",
+  "originalName": "װאַרשעװער נומער27",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 238,
+  "printedPage": "222",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "address",
+  "uncertaintyNote": "The OCR is unclear whether this denotes Warsaw Street or a Warsaw-numbered address.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5d5af10ff31e72e7f93383d7",
+      "pageId": "page_nybc313697_0238",
+      "scanIndex": 238,
+      "leafNumber": 237,
+      "printedPage": "222",
+      "passageCharStart": 833,
+      "passageCharEnd": 867,
+      "normalizedPassageCharStart": 720,
+      "normalizedPassageCharEnd": 749,
+      "pageCharStart": 3721,
+      "pageCharEnd": 3755,
+      "quote": "געעפנט אויף װאַרשעװער ON‏ נומער 27",
+      "normalizedQuote": "געעפנטאויףװאַרשעװערON‏נומער27",
+      "modelQuote": "געעפנטאויףװאַרשעװערON‏נומער27",
+      "bbox": {
+        "left": 2567,
+        "top": 1823,
+        "right": 4007,
+        "bottom": 1893
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n237/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "e61c643f07fb0e5104218559a2f176d3987f0191b931700d21a547adc15b6704",
+      "normalizedPassageChecksum": "a24b2a6d823a177be2ffb0e310607f8ebed97f33382f3d4c7f9091f2afa0f5c1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_8e2afde25a948c4d81244dcf",
+      "predicate": "Occupation",
+      "subjectTitle": "Berl Shatsman",
+      "objectTitle": "27 Warsaw Street",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The address is mentioned in the broader description of workshops, but the individual linkage is not explicit.",
+      "qualifiers": {
+        "occupation": "shoemaker"
+      },
+      "evidence": {
+        "passageId": "passage_5d5af10ff31e72e7f93383d7",
+        "pageId": "page_nybc313697_0238",
+        "scanIndex": 238,
+        "leafNumber": 237,
+        "printedPage": "222",
+        "passageCharStart": 1252,
+        "passageCharEnd": 1292,
+        "normalizedPassageCharStart": 1071,
+        "normalizedPassageCharEnd": 1106,
+        "pageCharStart": 4140,
+        "pageCharEnd": 4180,
+        "quote": "דער יונגער שוסטער אַרבעטער בערל שאַצמאַן",
+        "normalizedQuote": "דעריונגערשוסטעראַרבעטערבערלשאַצמאַן",
+        "modelQuote": "דעריונגערשוסטעראַרבעטערבערלשאַצמאַן",
+        "bbox": {
+          "left": 2623,
+          "top": 2615,
+          "right": 4245,
+          "bottom": 2698
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n237/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "e61c643f07fb0e5104218559a2f176d3987f0191b931700d21a547adc15b6704",
+        "normalizedPassageChecksum": "a24b2a6d823a177be2ffb0e310607f8ebed97f33382f3d4c7f9091f2afa0f5c1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_c7792d76aa26e4ca6aa4f796",
+      "type": "Person",
+      "title": "Berl Shatsman",
+      "relation": "Occupation"
+    },
+    {
+      "id": "mention_0c65db678f62b0dd2bb05314",
+      "type": "Person",
+      "title": "Bachkovski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c7792d76aa26e4ca6aa4f796",
+      "type": "Person",
+      "title": "Berl Shatsman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3e422b7302512710d9664b14",
+      "type": "Place",
+      "title": "Druskin's gymnasium",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

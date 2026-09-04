@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_7009434d24a7879f67af60ce",
+  "type": "Event",
+  "title": "Founding of Bialystok as a village",
+  "summary": "Bialystok was founded as a village by Count Gedimin in 1320.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 616,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Organization Founding",
+  "uncertaintyNote": "The allowed event vocabulary lacks a place-founding event type; organization founding is only an approximate classification.",
+  "dateStart": "1320",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b5f0a75b15a796b59477c126",
+      "pageId": "page_nybc313697_0616",
+      "scanIndex": 616,
+      "leafNumber": 615,
+      "printedPage": null,
+      "passageCharStart": 2121,
+      "passageCharEnd": 2196,
+      "normalizedPassageCharStart": 1819,
+      "normalizedPassageCharEnd": 1883,
+      "pageCharStart": 2121,
+      "pageCharEnd": 2196,
+      "quote": "In 1320, Bialystok was\nfounded as a village by the Lithuanian Count Gedimin",
+      "normalizedQuote": "In1320,Bialystokwas foundedasavillagebytheLithuanianCountGedimin",
+      "modelQuote": "In1320,Bialystokwas founded as a village by the Lithuanian Count Gedimin",
+      "bbox": {
+        "left": 342,
+        "top": 4982,
+        "right": 2397,
+        "bottom": 5167
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n615/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "67003170e86613f725240082002d84a5c4ed639bf67723d959c9fa14fb5eedab",
+      "normalizedPassageChecksum": "7a1d136bdd617e89ae757e38413109d7f39074ecdcff3972b52e07bad90733e6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_06fff86e6380fbbd073397f8",
+      "type": "Person",
+      "title": "Lithuanian Count Gedimin",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

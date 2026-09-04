@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_7c3533a819ab832ec2855ced",
+  "type": "Event",
+  "title": "Burial of pogrom victims",
+  "summary": "Victims of the pogrom were buried in a large brotherly grave.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 47,
+  "printedPage": "31",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The text states burial of victims but does not explicitly describe the killings as an event here.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8b0659fc4fdeb1fa7790746a",
+      "pageId": "page_nybc313697_0047",
+      "scanIndex": 47,
+      "leafNumber": 46,
+      "printedPage": "31",
+      "passageCharStart": 303,
+      "passageCharEnd": 384,
+      "normalizedPassageCharStart": 265,
+      "normalizedPassageCharEnd": 336,
+      "pageCharStart": 303,
+      "pageCharEnd": 384,
+      "quote": "אַלע קרבנות PD‏ דעם פּאָגראָם זיינען באַערדיקט\nגעװואָרן POR PR‏ גרויסן ברודער-קבר",
+      "normalizedQuote": "אַלעקרבנותPD‏דעםפּאָגראָםזיינעןבאַערדיקט געװואָרןPORPR‏גרויסןברודער-קבר",
+      "modelQuote": "אַלעקרבנותPD‏דעםפּאָגראָםזיינעןבאַערדיקט געװואָרןPORPR‏גרויסןברודער-קבר",
+      "bbox": {
+        "left": 2580,
+        "top": 479,
+        "right": 4534,
+        "bottom": 664
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n46/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "0099deb04fd34f4dea9b3c792fd0baeedec570f54e94e039ba54f579ecce280f",
+      "normalizedPassageChecksum": "33e518367d962c2cdd6582b27987a68d85a460a320b64f90f5a682cdff774a68",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c0e031626a78f713bfe5b9e9",
+      "type": "Place",
+      "title": "Brotherly Grave of Pogrom Victims",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c0e031626a78f713bfe5b9e9",
+      "type": "Place",
+      "title": "Brotherly Grave of Pogrom Victims",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,112 @@
+{
+  "id": "mention_25f4f86f0fef2c8032770b97",
+  "type": "Organization",
+  "title": "Jewish firefighters",
+  "summary": "Jewish firefighters forced to search buildings for hidden Jews.",
+  "originalName": "דיאידישעפייערלעשערז",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 212,
+  "printedPage": "196",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "firefighters",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_08eab8dd53f49526762131ce",
+      "pageId": "page_nybc313697_0212",
+      "scanIndex": 212,
+      "leafNumber": 211,
+      "printedPage": "196",
+      "passageCharStart": 487,
+      "passageCharEnd": 509,
+      "normalizedPassageCharStart": 421,
+      "normalizedPassageCharEnd": 440,
+      "pageCharStart": 487,
+      "pageCharEnd": 509,
+      "quote": "די אידישע פייערלעשער ז",
+      "normalizedQuote": "דיאידישעפייערלעשערז",
+      "modelQuote": "דיאידישעפייערלעשערז",
+      "bbox": {
+        "left": 1207,
+        "top": 1312,
+        "right": 2231,
+        "bottom": 1393
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n211/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "cbc2765235aa33a9da82774da4cb98140bf85c28bc4e36b459839546f2af5c9f",
+      "normalizedPassageChecksum": "f15608e231e14ffbafe18ac209a64473590cb2d90f78f75859ac3da278f9ac2b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_ae79973fd6e6ed8fec7850ef",
+      "type": "Aktion Or Raid",
+      "title": "Search and killing operation",
+      "summary": "A Nazi operation searched hiding places and deported approximately three thousand Jews.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_08eab8dd53f49526762131ce",
+        "pageId": "page_nybc313697_0212",
+        "scanIndex": 212,
+        "leafNumber": 211,
+        "printedPage": "196",
+        "passageCharStart": 745,
+        "passageCharEnd": 783,
+        "normalizedPassageCharStart": 643,
+        "normalizedPassageCharEnd": 675,
+        "pageCharStart": 745,
+        "pageCharEnd": 783,
+        "quote": "די שחיטה האָט געדויערט דעם גאַנצן טאָג",
+        "normalizedQuote": "דישחיטההאָטגעדויערטדעםגאַנצןטאָג",
+        "modelQuote": "דישחיטההאָטגעדויערטדעםגאַנצןטאָג",
+        "bbox": {
+          "left": 744,
+          "top": 1825,
+          "right": 2233,
+          "bottom": 1895
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n211/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "cbc2765235aa33a9da82774da4cb98140bf85c28bc4e36b459839546f2af5c9f",
+        "normalizedPassageChecksum": "f15608e231e14ffbafe18ac209a64473590cb2d90f78f75859ac3da278f9ac2b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_ae79973fd6e6ed8fec7850ef",
+      "type": "Event",
+      "title": "Search and killing operation",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_abb1e330c5903f687394a792",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_beab7e6cf54569144a759912",
+      "type": "Institution",
+      "title": "Jewish Council building",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3d7eec9ea5f5ef59fded7128",
+      "type": "Community",
+      "title": "Hidden Jews",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

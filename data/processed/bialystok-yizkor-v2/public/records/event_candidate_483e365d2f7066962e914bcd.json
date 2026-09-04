@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_483e365d2f7066962e914bcd",
+  "type": "Event",
+  "title": "Mass shooting of Jewish men outside Bialystok",
+  "summary": "Approximately 5,000 Jewish men were taken outside the city and shot.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 265,
+  "printedPage": "249",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2f34ac72f97f410c790725e8",
+      "pageId": "page_nybc313697_0265",
+      "scanIndex": 265,
+      "leafNumber": 264,
+      "printedPage": "249",
+      "passageCharStart": 916,
+      "passageCharEnd": 971,
+      "normalizedPassageCharStart": 785,
+      "normalizedPassageCharEnd": 833,
+      "pageCharStart": 4040,
+      "pageCharEnd": 4095,
+      "quote": "5 טויזנט אַוועקגעפירט\nהינטער דער שטאָט און זיי דערשאָסן",
+      "normalizedQuote": "5טויזנטאַוועקגעפירט הינטערדערשטאָטאוןזיידערשאָסן",
+      "modelQuote": "5טויזנטאַוועקגעפירט הינטערדערשטאָטאוןזיידערשאָסן",
+      "bbox": {
+        "left": 2787,
+        "top": 5779,
+        "right": 4756,
+        "bottom": 5949
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n264/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "4ef9e9e61308c0a8ad5f1c5eec0ab28a6980e944766c16559d5f909b8c15f26a",
+      "normalizedPassageChecksum": "21755a9d1993aa4501f075b53ded1e53baa21a7c15baa349e251f8f26fc90d1a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_408ad1f5a68e5050f841188b",
+      "type": "Place",
+      "title": "Outside the city",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ccafa757c85722336229965b",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

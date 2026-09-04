@@ -1,0 +1,109 @@
+{
+  "id": "mention_0152f655766c2df6503b7918",
+  "type": "Place",
+  "title": "Gummiener Street",
+  "summary": "A street renamed for Itzhak Malmed, with a small commemorative plaque.",
+  "originalName": "גומיענערגאַס",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 312,
+  "printedPage": "296",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "The OCR concatenates the street name with surrounding words.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c2c4e99837904fe9e688f96d",
+      "pageId": "page_nybc313697_0312",
+      "scanIndex": 312,
+      "leafNumber": 311,
+      "printedPage": "296",
+      "passageCharStart": 0,
+      "passageCharEnd": 26,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 23,
+      "pageCharStart": 2320,
+      "pageCharEnd": 2346,
+      "quote": "די אַמאָליקע גומיענער גאַס",
+      "normalizedQuote": "דיאַמאָליקעגומיענערגאַס",
+      "modelQuote": "דיאַמאָליקעגומיענערגאַס",
+      "bbox": {
+        "left": 1280,
+        "top": 4822,
+        "right": 2206,
+        "bottom": 4904
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n311/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "2df6a84b36e5abd78be6e1a86229a35be46ba8d120b7791cb105c17031a8376c",
+      "normalizedPassageChecksum": "b1e028f26ecc1b8535bc48b480d62063ba8e9c58c838ffdb2d2d60350eb91f4f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_d507d303b92cb5cfa43ceb54",
+      "predicate": "Formerly Named",
+      "subjectTitle": "Gummiener Street",
+      "objectTitle": "Itzhak Malmed",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "renamed_for": "Itzhak Malmed"
+      },
+      "evidence": {
+        "passageId": "passage_c2c4e99837904fe9e688f96d",
+        "pageId": "page_nybc313697_0312",
+        "scanIndex": 312,
+        "leafNumber": 311,
+        "printedPage": "296",
+        "passageCharStart": 244,
+        "passageCharEnd": 293,
+        "normalizedPassageCharStart": 214,
+        "normalizedPassageCharEnd": 255,
+        "pageCharStart": 2564,
+        "pageCharEnd": 2613,
+        "quote": "טראָגט איצט דעם נאָמען פון דעם גרויסן אידישן העלד",
+        "normalizedQuote": "טראָגטאיצטדעםנאָמעןפוןדעםגרויסןאידישןהעלד",
+        "modelQuote": "טראָגטאיצטדעםנאָמעןפוןדעםגרויסןאידישןהעלד",
+        "bbox": {
+          "left": 433,
+          "top": 5324,
+          "right": 2367,
+          "bottom": 5404
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n311/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "2df6a84b36e5abd78be6e1a86229a35be46ba8d120b7791cb105c17031a8376c",
+        "normalizedPassageChecksum": "b1e028f26ecc1b8535bc48b480d62063ba8e9c58c838ffdb2d2d60350eb91f4f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_c315eea86e77233d938a7484",
+      "type": "Person",
+      "title": "Itzhak Malmed",
+      "relation": "Formerly Named"
+    },
+    {
+      "id": "mention_c315eea86e77233d938a7484",
+      "type": "Person",
+      "title": "Itzhak Malmed",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9792c6d381d15bb280ede827",
+      "type": "Community",
+      "title": "Bialystok Memorial Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

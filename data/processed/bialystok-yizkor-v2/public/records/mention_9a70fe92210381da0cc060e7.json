@@ -1,0 +1,95 @@
+{
+  "id": "mention_9a70fe92210381da0cc060e7",
+  "type": "Place",
+  "title": "the ghetto cemetery",
+  "summary": "Cemetery to which victims were transported on the third massacre day.",
+  "originalName": "געטאָ-בית-עולם",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 227,
+  "printedPage": "211",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cemetery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_024044be5e08b0c88c00dfc5",
+      "pageId": "page_nybc313697_0227",
+      "scanIndex": 227,
+      "leafNumber": 226,
+      "printedPage": "211",
+      "passageCharStart": 180,
+      "passageCharEnd": 194,
+      "normalizedPassageCharStart": 157,
+      "normalizedPassageCharEnd": 171,
+      "pageCharStart": 4990,
+      "pageCharEnd": 5004,
+      "quote": "געטאָ-בית-עולם",
+      "normalizedQuote": "געטאָ-בית-עולם",
+      "modelQuote": "געטאָ-בית-עולם",
+      "bbox": {
+        "left": 3176,
+        "top": 5723,
+        "right": 3719,
+        "bottom": 5808
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n226/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "6a820f71314448107a23360e1d876e48e114cf47d15742b442389636fb576d9d",
+      "normalizedPassageChecksum": "7c3e818d9c58a4ecd3882e53559706348b408f1c4065b18444f49a0b2fc3e9c9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_6563a0d7e79a98027239756e",
+      "type": "Transport",
+      "title": "Transport of victims to the ghetto cemetery",
+      "summary": "People were required to collect and transport the dead to the ghetto cemetery.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR is heavily corrupted; victims and men are mentioned, but individual participants are not identifiable.",
+      "evidence": {
+        "passageId": "passage_024044be5e08b0c88c00dfc5",
+        "pageId": "page_nybc313697_0227",
+        "scanIndex": 227,
+        "leafNumber": 226,
+        "printedPage": "211",
+        "passageCharStart": 114,
+        "passageCharEnd": 194,
+        "normalizedPassageCharStart": 100,
+        "normalizedPassageCharEnd": 171,
+        "pageCharStart": 4924,
+        "pageCharEnd": 5004,
+        "quote": "געמוזט פאַרנעמען מיטץ צונויפזאַמלען “BN TIN‏\nפירן די קדושים אויפץ געטאָ-בית-עולם",
+        "normalizedQuote": "געמוזטפאַרנעמעןמיטץצונויפזאַמלען“BNTIN‏ פירןדיקדושיםאויפץגעטאָ-בית-עולם",
+        "modelQuote": "געמוזטפאַרנעמעןמיטץצונויפזאַמלען“BNTIN‏ פירןדיקדושיםאויפץגעטאָ-בית-עולם",
+        "bbox": {
+          "left": 2564,
+          "top": 5621,
+          "right": 4523,
+          "bottom": 5812
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n226/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "6a820f71314448107a23360e1d876e48e114cf47d15742b442389636fb576d9d",
+        "normalizedPassageChecksum": "7c3e818d9c58a4ecd3882e53559706348b408f1c4065b18444f49a0b2fc3e9c9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_6563a0d7e79a98027239756e",
+      "type": "Event",
+      "title": "Transport of victims to the ghetto cemetery",
+      "relation": "Occurred At",
+      "role": "Witness"
+    }
+  ],
+  "publicationEligible": false
+}

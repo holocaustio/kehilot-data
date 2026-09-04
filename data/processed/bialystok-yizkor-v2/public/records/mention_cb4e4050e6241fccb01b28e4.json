@@ -1,0 +1,111 @@
+{
+  "id": "mention_cb4e4050e6241fccb01b28e4",
+  "type": "Place",
+  "title": "Branitski Street",
+  "summary": "A Bialystok street associated with the Y. Khmurner School.",
+  "originalName": "בראניצקאַגאַס",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 58,
+  "printedPage": "42",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f7f9bdf9e1379701d00a65ff",
+      "pageId": "page_nybc313697_0058",
+      "scanIndex": 58,
+      "leafNumber": 57,
+      "printedPage": "42",
+      "passageCharStart": 1201,
+      "passageCharEnd": 1215,
+      "normalizedPassageCharStart": 1041,
+      "normalizedPassageCharEnd": 1054,
+      "pageCharStart": 2754,
+      "pageCharEnd": 2768,
+      "quote": "בראניצקאַ גאַס",
+      "normalizedQuote": "בראניצקאַגאַס",
+      "modelQuote": "בראניצקאַגאַס",
+      "bbox": {
+        "left": 1479,
+        "top": 5815,
+        "right": 1984,
+        "bottom": 5882
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n57/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "34a2eba5ee1c96eb6265c5fc1c66c08c090fec55aea249f6702376a362e2ed0c",
+      "normalizedPassageChecksum": "74464d92580a825b192deaa28feb9376e23b10dffa3aa000ad7fdb670eb4000d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_67b9c331e8c716bb99771324",
+      "predicate": "Located In",
+      "subjectTitle": "Y. Khmurner School",
+      "objectTitle": "Branitski Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_f7f9bdf9e1379701d00a65ff",
+        "pageId": "page_nybc313697_0058",
+        "scanIndex": 58,
+        "leafNumber": 57,
+        "printedPage": "42",
+        "passageCharStart": 1176,
+        "passageCharEnd": 1244,
+        "normalizedPassageCharStart": 1020,
+        "normalizedPassageCharEnd": 1079,
+        "pageCharStart": 2729,
+        "pageCharEnd": 2797,
+        "quote": "שול פון יוגנט.\nPAN PANS‏ בראניצקאַ גאַס, ONT‏ געהייסן י. כמורנער-שול",
+        "normalizedQuote": "שולפוןיוגנט. PANPANS‏בראניצקאַגאַס,ONT‏געהייסןי.כמורנער-שול",
+        "modelQuote": "שולפוןיוגנט. PANPANS‏בראניצקאַגאַס,ONT‏ געהייסןי.כמורנער-שול",
+        "bbox": {
+          "left": 437,
+          "top": 5702,
+          "right": 2399,
+          "bottom": 5883
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n57/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "34a2eba5ee1c96eb6265c5fc1c66c08c090fec55aea249f6702376a362e2ed0c",
+        "normalizedPassageChecksum": "74464d92580a825b192deaa28feb9376e23b10dffa3aa000ad7fdb670eb4000d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_2dcc1e6d59192a434129fabf",
+      "type": "Institution",
+      "title": "Y. Khmurner School",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_f9140ef7b4575aa89d0830fb",
+      "type": "Organization",
+      "title": "Bialystok Bund",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d36f712aac7356681fc9d0cd",
+      "type": "Institution",
+      "title": "Four Bund schools",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2dcc1e6d59192a434129fabf",
+      "type": "Institution",
+      "title": "Y. Khmurner School",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

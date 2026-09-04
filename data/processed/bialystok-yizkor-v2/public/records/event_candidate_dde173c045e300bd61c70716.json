@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_dde173c045e300bd61c70716",
+  "type": "Event",
+  "title": "First deportation from Bialystok",
+  "summary": "Approximately one thousand people were ordered to leave the ghetto.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 167,
+  "printedPage": "151",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Forced Departure",
+  "uncertaintyNote": "OCR corruption affects the wording, but the passage clearly describes an order for approximately one thousand people to leave the ghetto.",
+  "dateStart": "1941",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fa0ce82637f9f5c720ef3837",
+      "pageId": "page_nybc313697_0167",
+      "scanIndex": 167,
+      "leafNumber": 166,
+      "printedPage": "151",
+      "passageCharStart": 756,
+      "passageCharEnd": 807,
+      "normalizedPassageCharStart": 651,
+      "normalizedPassageCharEnd": 695,
+      "pageCharStart": 5373,
+      "pageCharEnd": 5424,
+      "quote": "אַרום APY‏ טויזנט TPN‏ ועלן מוזן\nפאַרלאָזן די געטאָ",
+      "normalizedQuote": "אַרוםAPY‏טויזנטTPN‏ועלןמוזן פאַרלאָזןדיגעטאָ",
+      "modelQuote": "אַרוםAPY‏טויזנטTPN‏ועלןמוזן פאַרלאָזןדיגעטאָ",
+      "bbox": {
+        "left": 2584,
+        "top": 5477,
+        "right": 4516,
+        "bottom": 5656
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n166/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "d0941ab9941f129b422688f7ae378e8ba290f11819949663b1050c01af65203c",
+      "normalizedPassageChecksum": "c9e4c7b828622ceddd3c529f35b9abe2ed4dd391c48f3aece4725efaee20b8be",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5b8064e9df611a20e80a7f45",
+      "type": "Place",
+      "title": "Bialystok Ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_06a1fc0da91ce8734f2d89a4",
+      "type": "Organization",
+      "title": "Jewish Council",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_5b8064e9df611a20e80a7f45",
+      "type": "Place",
+      "title": "Bialystok Ghetto",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

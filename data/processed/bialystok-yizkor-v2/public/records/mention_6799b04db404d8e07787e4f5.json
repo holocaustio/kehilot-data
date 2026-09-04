@@ -1,0 +1,119 @@
+{
+  "id": "mention_6799b04db404d8e07787e4f5",
+  "type": "Place",
+  "title": "Broom Street",
+  "summary": "A street where Philip Tashman was a butcher in the 1890s.",
+  "originalName": "ברום סטריט",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 349,
+  "printedPage": "333",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "The street name is transliterated in OCR.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8eb74f923864b0dce934decf",
+      "pageId": "page_nybc313697_0349",
+      "scanIndex": 349,
+      "leafNumber": 348,
+      "printedPage": "333",
+      "passageCharStart": 246,
+      "passageCharEnd": 268,
+      "normalizedPassageCharStart": 209,
+      "normalizedPassageCharEnd": 229,
+      "pageCharStart": 5212,
+      "pageCharEnd": 5234,
+      "quote": "בוטשער FPN‏ ברום\nסטריט",
+      "normalizedQuote": "בוטשערFPN‏ברום סטריט",
+      "modelQuote": "בוטשערFPN‏ברום סטריט",
+      "bbox": {
+        "left": 2574,
+        "top": 4793,
+        "right": 4578,
+        "bottom": 4973
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n348/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "5a80260dd5d49bdc2876c7fb0ebac73d7378e2fbb9fead542ed0b784f0bd92c2",
+      "normalizedPassageChecksum": "d782db2b1c06615470d2817dcb02fe61622254be7610ae7fb8b6a62162430a95",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_fcb5481278858a7baf3a6f2e",
+      "predicate": "Worked At",
+      "subjectTitle": "Philip Tashman",
+      "objectTitle": "Broom Street",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says he was a butcher on Broom Street; the exact establishment is not named.",
+      "evidence": {
+        "passageId": "passage_8eb74f923864b0dce934decf",
+        "pageId": "page_nybc313697_0349",
+        "scanIndex": 349,
+        "leafNumber": 348,
+        "printedPage": "333",
+        "passageCharStart": 232,
+        "passageCharEnd": 268,
+        "normalizedPassageCharStart": 198,
+        "normalizedPassageCharEnd": 229,
+        "pageCharStart": 5198,
+        "pageCharEnd": 5234,
+        "quote": "געווען אַ AI‏ בוטשער FPN‏ ברום\nסטריט",
+        "normalizedQuote": "געוועןאַAI‏בוטשערFPN‏ברום סטריט",
+        "modelQuote": "געוועןאַAI‏בוטשערFPN‏ברום סטריט",
+        "bbox": {
+          "left": 2574,
+          "top": 4793,
+          "right": 4578,
+          "bottom": 4973
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n348/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "5a80260dd5d49bdc2876c7fb0ebac73d7378e2fbb9fead542ed0b784f0bd92c2",
+        "normalizedPassageChecksum": "d782db2b1c06615470d2817dcb02fe61622254be7610ae7fb8b6a62162430a95",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_8b1c81d5f0e5b911e9a47648",
+      "type": "Person",
+      "title": "Philip Tashman",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_8b1c81d5f0e5b911e9a47648",
+      "type": "Person",
+      "title": "Philip Tashman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_54f1f4039fdde5d86e8e596a",
+      "type": "Place",
+      "title": "Yonkers",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_845b755cb749336ef03096c1",
+      "type": "Person",
+      "title": "Shimkha",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9792c6d381d15bb280ede827",
+      "type": "Community",
+      "title": "Bialystok Memorial Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

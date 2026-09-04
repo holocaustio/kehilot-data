@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_1fd883f328a0f1d0a0423d2d",
+  "type": "Event",
+  "title": "Order to remove 12,000 Jews",
+  "summary": "The Gestapo ordered the Judenrat to arrange removal of 12,000 Jews in 1941.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 553,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "dateStart": "1941",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_08d7b613b3bc921e7d6f8051",
+      "pageId": "page_nybc313697_0553",
+      "scanIndex": 553,
+      "leafNumber": 552,
+      "printedPage": null,
+      "passageCharStart": 259,
+      "passageCharEnd": 344,
+      "normalizedPassageCharStart": 224,
+      "normalizedPassageCharEnd": 295,
+      "pageCharStart": 5195,
+      "pageCharEnd": 5280,
+      "quote": "the Judenrat received an order from the Gestapo\nthat 12,000 Jews were to be moved out",
+      "normalizedQuote": "theJudenratreceivedanorderfromtheGestapo that12,000Jewsweretobemovedout",
+      "modelQuote": "theJudenratreceivedanorderfromtheGestapo that12,000Jewsweretobemovedout",
+      "bbox": {
+        "left": 2561,
+        "top": 5081,
+        "right": 4494,
+        "bottom": 5248
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n552/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "7dfc567fcf3fc7a2276eabfd679e656baa14475eef4e3a12956c09e4ca4dce20",
+      "normalizedPassageChecksum": "51a03ccdfa3c4cdad9cafadff3cc1bbaafdb540807e218686e8d984b0e4aef79",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_70192fc10286afb74a6cbee8",
+      "type": "Community",
+      "title": "Bialystok Jewish Community",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70192fc10286afb74a6cbee8",
+      "type": "Community",
+      "title": "Bialystok Jewish Community",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_7a72428f84d0e81bef2a0442",
+      "type": "Organization",
+      "title": "Judenrat",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_9dcddd4df294c77b17411687",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,123 @@
+{
+  "id": "mention_5e710c30360db9f0c7b93004",
+  "type": "Place",
+  "title": "Old Jewish Cemetery in Bialystok",
+  "summary": "The cemetery containing the pogrom victims’ mass grave and monument.",
+  "originalName": "oldJewish cemeteryinBialystok",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 601,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cemetery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a931e2f01002a4408a975b63",
+      "pageId": "page_nybc313697_0601",
+      "scanIndex": 601,
+      "leafNumber": 600,
+      "printedPage": null,
+      "passageCharStart": 90,
+      "passageCharEnd": 126,
+      "normalizedPassageCharStart": 74,
+      "normalizedPassageCharEnd": 106,
+      "pageCharStart": 90,
+      "pageCharEnd": 126,
+      "quote": "the old Jewish\ncemetery in Bialystok",
+      "normalizedQuote": "theoldJewish cemeteryinBialystok",
+      "modelQuote": "theoldJewish cemeteryinBialystok",
+      "bbox": {
+        "left": 367,
+        "top": 370,
+        "right": 2350,
+        "bottom": 547
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n600/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "247a1aef37cc3775d181da430ccc8595cb999ddc1893f95cc3b91f5638236e9f",
+      "normalizedPassageChecksum": "9f85ca0849828590528e674e14082d7e0bbd46fffcaf76528a86c21d63cd92fb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_0389b28dbf3d95fcf43d33d6",
+      "predicate": "Located In",
+      "subjectTitle": "Pillar of Sorrow monument",
+      "objectTitle": "Old Jewish Cemetery in Bialystok",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a931e2f01002a4408a975b63",
+        "pageId": "page_nybc313697_0601",
+        "scanIndex": 601,
+        "leafNumber": 600,
+        "printedPage": null,
+        "passageCharStart": 128,
+        "passageCharEnd": 174,
+        "normalizedPassageCharStart": 107,
+        "normalizedPassageCharEnd": 146,
+        "pageCharStart": 128,
+        "pageCharEnd": 174,
+        "quote": "Above this grave a tall monu-\nment was erected",
+        "normalizedQuote": "Abovethisgraveatallmonu- mentwaserected",
+        "modelQuote": "Abovethisgraveatallmonu- mentwaserected",
+        "bbox": {
+          "left": 369,
+          "top": 470,
+          "right": 2351,
+          "bottom": 641
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n600/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "247a1aef37cc3775d181da430ccc8595cb999ddc1893f95cc3b91f5638236e9f",
+        "normalizedPassageChecksum": "9f85ca0849828590528e674e14082d7e0bbd46fffcaf76528a86c21d63cd92fb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_526f1c38cecc32020aef3c31",
+      "type": "Object",
+      "title": "Pillar of Sorrow monument",
+      "relation": "Located In"
+    },
+    {
+      "id": "event_candidate_f0794cc7df88c71b20495b59",
+      "type": "Event",
+      "title": "1906 Bialystok pogrom",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_3a635c1b09a078e1b51dd958",
+      "type": "Person",
+      "title": "Zalman Sznejur",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a051fa98bcb655ca817c6ee2",
+      "type": "Person",
+      "title": "L. Fajans",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_526f1c38cecc32020aef3c31",
+      "type": "Object",
+      "title": "Pillar of Sorrow monument",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5fb16cb1879687a071be0146",
+      "type": "Publication",
+      "title": "The Bialystoker Memorial Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,124 @@
+{
+  "id": "mention_741c9d24a1766de1d4648e25",
+  "type": "Publication",
+  "title": "Yiddish newspaper",
+  "summary": "A Yiddish newspaper published a column about Bialystok immigrants in Argentina.",
+  "originalName": "אידישערציטונג",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 395,
+  "printedPage": "379",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "newspaper",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f9aba886affb6157dbccbeb6",
+      "pageId": "page_nybc313697_0395",
+      "scanIndex": 395,
+      "leafNumber": 394,
+      "printedPage": "379",
+      "passageCharStart": 738,
+      "passageCharEnd": 752,
+      "normalizedPassageCharStart": 637,
+      "normalizedPassageCharEnd": 650,
+      "pageCharStart": 1811,
+      "pageCharEnd": 1825,
+      "quote": "אידישער ציטונג",
+      "normalizedQuote": "אידישערציטונג",
+      "modelQuote": "אידישערציטונג",
+      "bbox": {
+        "left": 3596,
+        "top": 1201,
+        "right": 4311,
+        "bottom": 1272
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n394/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "37543d9c5687cdfa633d16bcd0f5c5cc7505c7a3f9a94207f35306b7eb7503a7",
+      "normalizedPassageChecksum": "4168718d2261529c62314ed3ce73f7be59c7dee38d489f74bac695ef56ea222b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_724c7b83a6011ed7292822f0",
+      "predicate": "Located In",
+      "subjectTitle": "Yiddish newspaper",
+      "objectTitle": "Buenos Aires",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR punctuation and wording are corrupted.",
+      "evidence": {
+        "passageId": "passage_f9aba886affb6157dbccbeb6",
+        "pageId": "page_nybc313697_0395",
+        "scanIndex": 395,
+        "leafNumber": 394,
+        "printedPage": "379",
+        "passageCharStart": 738,
+        "passageCharEnd": 780,
+        "normalizedPassageCharStart": 637,
+        "normalizedPassageCharEnd": 675,
+        "pageCharStart": 1811,
+        "pageCharEnd": 1853,
+        "quote": "אידישער ציטונג\",‎ WT TN\n\"N2 בונעאָס-איירעס",
+        "normalizedQuote": "אידישערציטונג\",‎WTTN \"N2בונעאָס-איירעס",
+        "modelQuote": "אידישערציטונג\",‎ WTTN \"N2בונעאָס-איירעס",
+        "bbox": {
+          "left": 2762,
+          "top": 1201,
+          "right": 4758,
+          "bottom": 1373
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n394/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "37543d9c5687cdfa633d16bcd0f5c5cc7505c7a3f9a94207f35306b7eb7503a7",
+        "normalizedPassageChecksum": "4168718d2261529c62314ed3ce73f7be59c7dee38d489f74bac695ef56ea222b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_6071ca604ac0030520e7da4f",
+      "type": "Place",
+      "title": "Buenos Aires",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_6071ca604ac0030520e7da4f",
+      "type": "Place",
+      "title": "Buenos Aires",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f0e04ff611a08f0fdee26a45",
+      "type": "Person",
+      "title": "Shmuel Rozhansky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e2f94bb65cbee020c39fb850",
+      "type": "Person",
+      "title": "D. Sherman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3564d7b06c4570d562307618",
+      "type": "Community",
+      "title": "Bialystok community in Argentina",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c41867907e59961ed7ab400c",
+      "type": "Place",
+      "title": "Argentina",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,131 @@
+{
+  "id": "mention_34ca6dbadc169cea2b0a1070",
+  "type": "Person",
+  "title": "Hitler",
+  "summary": "Hitler is mentioned in an account of the Bialystok synagogue fire.",
+  "originalName": "היטלער",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 168,
+  "printedPage": "152",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fa3173d10fd7676f37c67555",
+      "pageId": "page_nybc313697_0168",
+      "scanIndex": 168,
+      "leafNumber": 167,
+      "printedPage": "152",
+      "passageCharStart": 394,
+      "passageCharEnd": 416,
+      "normalizedPassageCharStart": 336,
+      "normalizedPassageCharEnd": 357,
+      "pageCharStart": 2759,
+      "pageCharEnd": 2781,
+      "quote": "היטלעריסטישע סאָלדאַטן",
+      "normalizedQuote": "היטלעריסטישעסאָלדאַטן",
+      "modelQuote": "היטלעריסטישעסאָלדאַטן",
+      "bbox": {
+        "left": 1015,
+        "top": 4778,
+        "right": 1918,
+        "bottom": 4865
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n167/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "a0b32a442b59233631e3ee851af181f3d41eb82e3c6c52b4d9cd54ffa43aee60",
+      "normalizedPassageChecksum": "57ea035fff4db9cc3e37ec5ed3bac370fa782ab6a6252c04ae89340836fde5b1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e18344f42b58082c7e40c8fa",
+      "type": "Fire",
+      "title": "Great Synagogue fire",
+      "summary": "The Great Synagogue was burned on June 27, 1941, after the German arrival in Bialystok.",
+      "dateStart": "1941-06-27",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text attributes the operation to Nazis and mentions Hitlerist soldiers; Hitler himself is not stated as personally present.",
+      "evidence": {
+        "passageId": "passage_fa3173d10fd7676f37c67555",
+        "pageId": "page_nybc313697_0168",
+        "scanIndex": 168,
+        "leafNumber": 167,
+        "printedPage": "152",
+        "passageCharStart": 36,
+        "passageCharEnd": 54,
+        "normalizedPassageCharStart": 31,
+        "normalizedPassageCharEnd": 47,
+        "pageCharStart": 2401,
+        "pageCharEnd": 2419,
+        "quote": "דעם 27טן\nיוני 1941",
+        "normalizedQuote": "דעם27טן יוני1941",
+        "modelQuote": "דעם27טן יוני1941",
+        "bbox": {
+          "left": 371,
+          "top": 4080,
+          "right": 2380,
+          "bottom": 4241
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n167/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "a0b32a442b59233631e3ee851af181f3d41eb82e3c6c52b4d9cd54ffa43aee60",
+        "normalizedPassageChecksum": "57ea035fff4db9cc3e37ec5ed3bac370fa782ab6a6252c04ae89340836fde5b1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e18344f42b58082c7e40c8fa",
+      "type": "Event",
+      "title": "Great Synagogue fire",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_05d40d161a43ff1d5f7c5ede",
+      "type": "Institution",
+      "title": "Great Synagogue of Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_adf2d4f53c3e6948cc118e23",
+      "type": "Place",
+      "title": "Synagogue courtyard",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_088b40eabd7300fd6c769dfb",
+      "type": "Place",
+      "title": "Surrounding small streets",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_93955c095afadae94ea95e53",
+      "type": "Institution",
+      "title": "Great Beth Midrash",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5106796140d36dee84a4877f",
+      "type": "Document",
+      "title": "Bialystok Memorial Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

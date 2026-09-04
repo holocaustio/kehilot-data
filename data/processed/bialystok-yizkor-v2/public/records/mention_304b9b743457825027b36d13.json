@@ -1,0 +1,111 @@
+{
+  "id": "mention_304b9b743457825027b36d13",
+  "type": "Place",
+  "title": "Gate",
+  "summary": "A gate was used as an exit point where guards searched people.",
+  "originalName": "טויער",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 333,
+  "printedPage": "317",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "gate",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e026f8a4727e9d1eef2f3e4a",
+      "pageId": "page_nybc313697_0333",
+      "scanIndex": 333,
+      "leafNumber": 332,
+      "printedPage": "317",
+      "passageCharStart": 32,
+      "passageCharEnd": 57,
+      "normalizedPassageCharStart": 28,
+      "normalizedPassageCharEnd": 50,
+      "pageCharStart": 2998,
+      "pageCharEnd": 3023,
+      "quote": "ביים אַרױסגאַנג TD‏ טויער",
+      "normalizedQuote": "בייםאַרױסגאַנגTD‏טויער",
+      "modelQuote": "בייםאַרױסגאַנגTD‏טויער",
+      "bbox": {
+        "left": 2654,
+        "top": 279,
+        "right": 3566,
+        "bottom": 350
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n332/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f5eba82dbaa11a7150626cdccea8676ee8e94990d0963410776a25af8f531ffe",
+      "normalizedPassageChecksum": "6c7539f003c3acb75044de8bcf62f6876d756fa0ffc80f69f3700318e9399731",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e84a78aa1eb058db3cfd0797",
+      "type": "Aktion Or Raid",
+      "title": "Search and stripping at the gate",
+      "summary": "Guards searched Jews at the gate and stripped a woman.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e026f8a4727e9d1eef2f3e4a",
+        "pageId": "page_nybc313697_0333",
+        "scanIndex": 333,
+        "leafNumber": 332,
+        "printedPage": "317",
+        "passageCharStart": 577,
+        "passageCharEnd": 616,
+        "normalizedPassageCharStart": 491,
+        "normalizedPassageCharEnd": 526,
+        "pageCharStart": 3543,
+        "pageCharEnd": 3582,
+        "quote": "די רוצח\"שע PNT‏\nוועכטער אונטערזוכט יעדן",
+        "normalizedQuote": "דירוצח\"שעPNT‏ וועכטעראונטערזוכטיעדן",
+        "modelQuote": "די רוצח\"שעPNT‏ וועכטעראונטערזוכטיעדן",
+        "bbox": {
+          "left": 2559,
+          "top": 1307,
+          "right": 4565,
+          "bottom": 1477
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n332/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "f5eba82dbaa11a7150626cdccea8676ee8e94990d0963410776a25af8f531ffe",
+        "normalizedPassageChecksum": "6c7539f003c3acb75044de8bcf62f6876d756fa0ffc80f69f3700318e9399731",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e84a78aa1eb058db3cfd0797",
+      "type": "Event",
+      "title": "Search and stripping at the gate",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_34f851b4c17484d1fcc7c828",
+      "type": "Person",
+      "title": "Unnamed Jewish woman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0fa752e4d6f127599641750e",
+      "type": "Person",
+      "title": "Garfinkel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0d4497fe9b2bc729b2c65226",
+      "type": "Community",
+      "title": "Young Jewish men",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,113 @@
+{
+  "id": "mention_e4dc16cbee5c79cff28ca5d7",
+  "type": "Institution",
+  "title": "Mikveh",
+  "summary": "A new mikveh was built in a community member's dwelling.",
+  "originalName": "מקווה",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 131,
+  "printedPage": "115",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "ritual bath",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3c977492f69708482496d418",
+      "pageId": "page_nybc313697_0131",
+      "scanIndex": 131,
+      "leafNumber": 130,
+      "printedPage": "115",
+      "passageCharStart": 555,
+      "passageCharEnd": 582,
+      "normalizedPassageCharStart": 468,
+      "normalizedPassageCharEnd": 492,
+      "pageCharStart": 5161,
+      "pageCharEnd": 5188,
+      "quote": "אויסגעבויט אַ נויטיקע מקווה",
+      "normalizedQuote": "אויסגעבויטאַנויטיקעמקווה",
+      "modelQuote": "אויסגעבויטאַנויטיקעמקווה",
+      "bbox": {
+        "left": 2774,
+        "top": 5025,
+        "right": 3808,
+        "bottom": 5092
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n130/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "d92797dd923937fc64120ba31609fc63b795214060d0b80da0980fbfcd5f499f",
+      "normalizedPassageChecksum": "fe20bc4c33ab9dfa67c57d34d45c209b38c29f658f5a91cef27cea04f8d73f5e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_41a664ac88c456d31e48c64a",
+      "type": "Construction",
+      "title": "Construction of a new mikveh",
+      "summary": "Construction of a new mikveh by religious Jews in a dwelling.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The allowed event types do not include facility construction; BUSINESS_OPENING is only an approximate classification.",
+      "evidence": {
+        "passageId": "passage_3c977492f69708482496d418",
+        "pageId": "page_nybc313697_0131",
+        "scanIndex": 131,
+        "leafNumber": 130,
+        "printedPage": "115",
+        "passageCharStart": 555,
+        "passageCharEnd": 582,
+        "normalizedPassageCharStart": 468,
+        "normalizedPassageCharEnd": 492,
+        "pageCharStart": 5161,
+        "pageCharEnd": 5188,
+        "quote": "אויסגעבויט אַ נויטיקע מקווה",
+        "normalizedQuote": "אויסגעבויטאַנויטיקעמקווה",
+        "modelQuote": "אויסגעבויטאַנויטיקעמקווה",
+        "bbox": {
+          "left": 2774,
+          "top": 5025,
+          "right": 3808,
+          "bottom": 5092
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n130/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "d92797dd923937fc64120ba31609fc63b795214060d0b80da0980fbfcd5f499f",
+        "normalizedPassageChecksum": "fe20bc4c33ab9dfa67c57d34d45c209b38c29f658f5a91cef27cea04f8d73f5e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_41a664ac88c456d31e48c64a",
+      "type": "Event",
+      "title": "Construction of a new mikveh",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_633ac609979236e81a92b386",
+      "type": "Community",
+      "title": "Religious Jews of Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5106796140d36dee84a4877f",
+      "type": "Document",
+      "title": "Bialystok Memorial Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

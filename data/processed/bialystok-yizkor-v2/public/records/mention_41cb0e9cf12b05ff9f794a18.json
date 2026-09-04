@@ -1,0 +1,131 @@
+{
+  "id": "mention_41cb0e9cf12b05ff9f794a18",
+  "type": "Place",
+  "title": "Rumania",
+  "summary": "Destination of Jewish migration from Bialystok.",
+  "originalName": "Rumania",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 582,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "country",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5d6197cc8cca1f1bbb00a0bc",
+      "pageId": "page_nybc313697_0582",
+      "scanIndex": 582,
+      "leafNumber": 581,
+      "printedPage": null,
+      "passageCharStart": 2740,
+      "passageCharEnd": 2796,
+      "normalizedPassageCharStart": 2364,
+      "normalizedPassageCharEnd": 2413,
+      "pageCharStart": 2740,
+      "pageCharEnd": 2796,
+      "quote": "They went\nto Rumania, Yugoslavia, and even to Australia.",
+      "normalizedQuote": "Theywent toRumania,Yugoslavia,andeventoAustralia.",
+      "modelQuote": "TheywenttoRumania,Yugoslavia,andeventoAustralia.",
+      "bbox": {
+        "left": 2560,
+        "top": 773,
+        "right": 4601,
+        "bottom": 949
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n581/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b0cba30079f48a3f23680c01cb150de102f1667ed39128594838bddcf5c0932b",
+      "normalizedPassageChecksum": "29efb142d65123c0b0b97a10555673a6fc05a1ed8214368b34dda41985f15096",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_928f4534d43f137b3c32ea48",
+      "type": "Migration",
+      "title": "Jewish migration from Bialystok",
+      "summary": "Jewish merchants, factory owners, and workers migrated abroad during industrial depression.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage names destinations but does not identify individual migrants.",
+      "evidence": {
+        "passageId": "passage_5d6197cc8cca1f1bbb00a0bc",
+        "pageId": "page_nybc313697_0582",
+        "scanIndex": 582,
+        "leafNumber": 581,
+        "printedPage": null,
+        "passageCharStart": 2653,
+        "passageCharEnd": 2739,
+        "normalizedPassageCharStart": 2289,
+        "normalizedPassageCharEnd": 2364,
+        "pageCharStart": 2653,
+        "pageCharEnd": 2739,
+        "quote": "A mass migration of Jewish merchants, factory\nowners and workers from Bialystok began.",
+        "normalizedQuote": "AmassmigrationofJewishmerchants,factory ownersandworkersfromBialystokbegan.",
+        "modelQuote": "AmassmigrationofJewishmerchants,factory ownersandworkersfromBialystokbegan.",
+        "bbox": {
+          "left": 2558,
+          "top": 668,
+          "right": 4601,
+          "bottom": 849
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n581/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "b0cba30079f48a3f23680c01cb150de102f1667ed39128594838bddcf5c0932b",
+        "normalizedPassageChecksum": "29efb142d65123c0b0b97a10555673a6fc05a1ed8214368b34dda41985f15096",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_928f4534d43f137b3c32ea48",
+      "type": "Event",
+      "title": "Jewish migration from Bialystok",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_45a516c1d80a14ff8b9babd5",
+      "type": "Person",
+      "title": "Y. H. Kancypolski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f256514cb5600d707af3b951",
+      "type": "Place",
+      "title": "Yugoslavia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4ace01b56c1e17536348a2e8",
+      "type": "Place",
+      "title": "Australia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ab94bd5a6876bb53f1a2c954",
+      "type": "Place",
+      "title": "Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cb8add208325d038d167bfef",
+      "type": "Place",
+      "title": "The Americas",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

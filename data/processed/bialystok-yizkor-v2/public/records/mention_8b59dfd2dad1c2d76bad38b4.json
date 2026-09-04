@@ -1,0 +1,136 @@
+{
+  "id": "mention_8b59dfd2dad1c2d76bad38b4",
+  "type": "Person",
+  "title": "Dr. Segal",
+  "summary": "A pediatrician killed during the destruction of the Jewish hospital.",
+  "originalName": "Dr.Segal",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 528,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "pediatrician",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9792afed456c821d46c40672",
+      "pageId": "page_nybc313697_0528",
+      "scanIndex": 528,
+      "leafNumber": 527,
+      "printedPage": null,
+      "passageCharStart": 949,
+      "passageCharEnd": 1011,
+      "normalizedPassageCharStart": 806,
+      "normalizedPassageCharEnd": 861,
+      "pageCharStart": 949,
+      "pageCharEnd": 1011,
+      "quote": "Among those killed was the well-known\npediatrician, Dr. Segal.",
+      "normalizedQuote": "Amongthosekilledwasthewell-known pediatrician,Dr.Segal.",
+      "modelQuote": "Amongthosekilledwasthewell-knownpediatrician,Dr.Segal.",
+      "bbox": {
+        "left": 344,
+        "top": 2616,
+        "right": 2381,
+        "bottom": 2794
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n527/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "8ce60ff32b943f7f9919ccdf0bdd29eee3e1e5f320bcb093a4fb0f7d3a60f88f",
+      "normalizedPassageChecksum": "0522daa6f1eee210a4b102fbc0cd73d9bed727dec398952d1fa13e7db4d6ae28",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_5f017679ec1352624de5f13b",
+      "type": "Death",
+      "title": "Killing of Dr. Segal",
+      "summary": "Dr. Segal was among those killed in the Jewish hospital.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9792afed456c821d46c40672",
+        "pageId": "page_nybc313697_0528",
+        "scanIndex": 528,
+        "leafNumber": 527,
+        "printedPage": null,
+        "passageCharStart": 949,
+        "passageCharEnd": 1011,
+        "normalizedPassageCharStart": 806,
+        "normalizedPassageCharEnd": 861,
+        "pageCharStart": 949,
+        "pageCharEnd": 1011,
+        "quote": "Among those killed was the well-known\npediatrician, Dr. Segal.",
+        "normalizedQuote": "Amongthosekilledwasthewell-known pediatrician,Dr.Segal.",
+        "modelQuote": "Amongthosekilledwasthewell-known pediatrician,Dr.Segal.",
+        "bbox": {
+          "left": 344,
+          "top": 2616,
+          "right": 2381,
+          "bottom": 2794
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n527/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "8ce60ff32b943f7f9919ccdf0bdd29eee3e1e5f320bcb093a4fb0f7d3a60f88f",
+        "normalizedPassageChecksum": "0522daa6f1eee210a4b102fbc0cd73d9bed727dec398952d1fa13e7db4d6ae28",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_5f017679ec1352624de5f13b",
+      "type": "Event",
+      "title": "Killing of Dr. Segal",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_eeeb4b668854b927898ba131",
+      "type": "Person",
+      "title": "Chawe Chalef",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b0c8e4aa319633e04aefe44b",
+      "type": "Person",
+      "title": "Abrasza Galter",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4d60d387589e99940c76203f",
+      "type": "Person",
+      "title": "Welwel Wolkowiski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5c451f3ff9f312cfa0b35bb2",
+      "type": "Place",
+      "title": "13 Czepla Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_82ea3b73a4c9948952203ed6",
+      "type": "Person",
+      "title": "Szmuel Rajzner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ae9bcd00d742435d566987a",
+      "type": "Person",
+      "title": "Nochum Kozakhid",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7d50338b07c153052b422141",
+      "type": "Place",
+      "title": "12 Czepla Street",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

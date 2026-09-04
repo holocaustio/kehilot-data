@@ -1,0 +1,118 @@
+{
+  "id": "mention_8b439c71791d4cedeaea10d9",
+  "type": "Place",
+  "title": "Szenkiewicz Street 15",
+  "summary": "Address identified as the location of the Gestapo.",
+  "originalName": "שענקעוויטשע גאַס נומער15",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 193,
+  "printedPage": "177",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street address",
+  "uncertaintyNote": "Street spelling is affected by OCR.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_50913a05e3bfaac7eb8bd0c2",
+      "pageId": "page_nybc313697_0193",
+      "scanIndex": 193,
+      "leafNumber": 192,
+      "printedPage": "177",
+      "passageCharStart": 409,
+      "passageCharEnd": 450,
+      "normalizedPassageCharStart": 352,
+      "normalizedPassageCharEnd": 389,
+      "pageCharStart": 2203,
+      "pageCharEnd": 2244,
+      "quote": "געשטאַפּאַ אויף שענקעוויטשע\nגאַס נומער 15",
+      "normalizedQuote": "געשטאַפּאַאויףשענקעוויטשע גאַסנומער15",
+      "modelQuote": "געשטאַפּאַאויףשענקעוויטשע גאַסנומער15",
+      "bbox": {
+        "left": 467,
+        "top": 4722,
+        "right": 2391,
+        "bottom": 4886
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n192/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "8c166b1351057117825944fcd1ecd804ebd0855a02a6159ef4a33da68c4c7d75",
+      "normalizedPassageChecksum": "7c284a3026792f79db97a15737f2b9c7024918698c8c0c6a3564c7af86306de1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_aeda9008f1e10f9c91e6aee5",
+      "predicate": "Located In",
+      "subjectTitle": "Gestapo",
+      "objectTitle": "Szenkiewicz Street 15",
+      "confidence": "MEDIUM",
+      "evidence": {
+        "passageId": "passage_50913a05e3bfaac7eb8bd0c2",
+        "pageId": "page_nybc313697_0193",
+        "scanIndex": 193,
+        "leafNumber": 192,
+        "printedPage": "177",
+        "passageCharStart": 393,
+        "passageCharEnd": 450,
+        "normalizedPassageCharStart": 340,
+        "normalizedPassageCharEnd": 389,
+        "pageCharStart": 2187,
+        "pageCharEnd": 2244,
+        "quote": "די הענט פון דער געשטאַפּאַ אויף שענקעוויטשע\nגאַס נומער 15",
+        "normalizedQuote": "דיהענטפוןדערגעשטאַפּאַאויףשענקעוויטשע גאַסנומער15",
+        "modelQuote": "דיהענטפוןדערגעשטאַפּאַאויףשענקעוויטשע גאַסנומער15",
+        "bbox": {
+          "left": 467,
+          "top": 4722,
+          "right": 2391,
+          "bottom": 4886
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n192/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "8c166b1351057117825944fcd1ecd804ebd0855a02a6159ef4a33da68c4c7d75",
+        "normalizedPassageChecksum": "7c284a3026792f79db97a15737f2b9c7024918698c8c0c6a3564c7af86306de1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_9dcddd4df294c77b17411687",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_f6b9f02c6f08ef1c9e533971",
+      "type": "Person",
+      "title": "Prakopovich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_64d74682977834ff5446091b",
+      "type": "Place",
+      "title": "Warszawska Street 50",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9dcddd4df294c77b17411687",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7323280af94fd3c699fced00",
+      "type": "Organization",
+      "title": "Criminal Police",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

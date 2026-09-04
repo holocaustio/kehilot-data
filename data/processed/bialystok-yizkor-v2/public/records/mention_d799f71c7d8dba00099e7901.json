@@ -1,0 +1,141 @@
+{
+  "id": "mention_d799f71c7d8dba00099e7901",
+  "type": "Place",
+  "title": "Bialystok Ghetto",
+  "summary": "Ghetto where the uprising and fighting occurred.",
+  "originalName": "געטאָ",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 246,
+  "printedPage": "230",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "ghetto",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_83d92e51986fa771de8879ad",
+      "pageId": "page_nybc313697_0246",
+      "scanIndex": 246,
+      "leafNumber": 245,
+      "printedPage": "230",
+      "passageCharStart": 43,
+      "passageCharEnd": 48,
+      "normalizedPassageCharStart": 37,
+      "normalizedPassageCharEnd": 42,
+      "pageCharStart": 43,
+      "pageCharEnd": 48,
+      "quote": "געטאָ",
+      "normalizedQuote": "געטאָ",
+      "modelQuote": "געטאָ",
+      "bbox": {
+        "left": 426,
+        "top": 582,
+        "right": 1066,
+        "bottom": 830
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n245/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "bdb5f92ed287ecf666d2de17398d7ba41ca8818850484f0baa6cb2a699fe83e4",
+      "normalizedPassageChecksum": "1e538d7972675a13b32d0d2b8b064f312aabf5f07a0a441c083649050e5dd070",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_13fd1499d0331081016fd2b1",
+      "pageId": "page_nybc313697_0174",
+      "scanIndex": 174,
+      "leafNumber": 173,
+      "printedPage": "158",
+      "passageCharStart": 1018,
+      "passageCharEnd": 1038,
+      "normalizedPassageCharStart": 869,
+      "normalizedPassageCharEnd": 887,
+      "pageCharStart": 1018,
+      "pageCharEnd": 1038,
+      "quote": "אויפשטאַנד אין געטאָ",
+      "normalizedQuote": "אויפשטאַנדאיןגעטאָ",
+      "modelQuote": "אויפשטאַנדאיןגעטאָ",
+      "bbox": {
+        "left": 1081,
+        "top": 3789,
+        "right": 1696,
+        "bottom": 3852
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n173/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "1ab4b1e706d602ea70841037e15345055943c7cbcd6e5bb5af1f5c0e4121ff16",
+      "normalizedPassageChecksum": "3dfb50695fd4d9baf6f405ea79778de8d125c266200b78c69362a20b2600b6c0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b82e4434de4f1502be719764",
+      "type": "Aktion Or Raid",
+      "title": "Ghetto uprising",
+      "summary": "Jewish resistance fighters fought German forces in and around the ghetto.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The controlled event type does not specifically represent an uprising; it is used only as the closest permitted category.",
+      "evidence": {
+        "passageId": "passage_83d92e51986fa771de8879ad",
+        "pageId": "page_nybc313697_0246",
+        "scanIndex": 246,
+        "leafNumber": 245,
+        "printedPage": "230",
+        "passageCharStart": 16,
+        "passageCharEnd": 48,
+        "normalizedPassageCharStart": 15,
+        "normalizedPassageCharEnd": 42,
+        "pageCharStart": 16,
+        "pageCharEnd": 48,
+        "quote": "אויפשטאַנד פון די TDN‏ אין געטאָ",
+        "normalizedQuote": "אויפשטאַנדפוןדיTDN‏איןגעטאָ",
+        "modelQuote": "אויפשטאַנדפוןדיTDN‏איןגעטאָ",
+        "bbox": {
+          "left": 426,
+          "top": 582,
+          "right": 4535,
+          "bottom": 846
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n245/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "bdb5f92ed287ecf666d2de17398d7ba41ca8818850484f0baa6cb2a699fe83e4",
+        "normalizedPassageChecksum": "1e538d7972675a13b32d0d2b8b064f312aabf5f07a0a441c083649050e5dd070",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b82e4434de4f1502be719764",
+      "type": "Event",
+      "title": "Ghetto uprising",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_097b192567d939afaf9417d1",
+      "type": "Person",
+      "title": "Pesach Burshteyn",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "event_candidate_cc416659755346327f101741",
+      "type": "Event",
+      "title": "Uprising in the ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

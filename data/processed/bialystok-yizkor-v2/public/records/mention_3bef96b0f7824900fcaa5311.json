@@ -1,0 +1,112 @@
+{
+  "id": "mention_3bef96b0f7824900fcaa5311",
+  "type": "Publication",
+  "title": "Bialystok Newspaper",
+  "summary": "A local Nazi-period newspaper published a notice about deportations and shootings.",
+  "originalName": "ביאַליסטאַקערצייטונג",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 216,
+  "printedPage": "200",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "newspaper",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_25575ba9ee0fec26b3fbaf34",
+      "pageId": "page_nybc313697_0216",
+      "scanIndex": 216,
+      "leafNumber": 215,
+      "printedPage": "200",
+      "passageCharStart": 399,
+      "passageCharEnd": 453,
+      "normalizedPassageCharStart": 342,
+      "normalizedPassageCharEnd": 391,
+      "pageCharStart": 2134,
+      "pageCharEnd": 2188,
+      "quote": "אין דער\nאָרטיקער נאַצי-צייטונג , ביאַליסטאַקער צייטונג",
+      "normalizedQuote": "איןדער אָרטיקערנאַצי-צייטונג,ביאַליסטאַקערצייטונג",
+      "modelQuote": "איןדער אָרטיקערנאַצי-צייטונג,ביאַליסטאַקערצייטונג",
+      "bbox": {
+        "left": 428,
+        "top": 4742,
+        "right": 2396,
+        "bottom": 4915
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n215/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "4bca17a346be27c41ec9db64ebbc54ec6f43d09cff6f004164f3d185552312d7",
+      "normalizedPassageChecksum": "0119d96db4a23816f14dc0327b4bb5ae98d26b840e547c9e749faaa09fd2a4bf",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2d1d576945d8e0824e6b2159",
+      "predicate": "Published In",
+      "subjectTitle": "Bialystok Newspaper",
+      "objectTitle": "Bialystok",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The newspaper is described as local, but the city association is not stated with complete clarity.",
+      "evidence": {
+        "passageId": "passage_25575ba9ee0fec26b3fbaf34",
+        "pageId": "page_nybc313697_0216",
+        "scanIndex": 216,
+        "leafNumber": 215,
+        "printedPage": "200",
+        "passageCharStart": 399,
+        "passageCharEnd": 453,
+        "normalizedPassageCharStart": 342,
+        "normalizedPassageCharEnd": 391,
+        "pageCharStart": 2134,
+        "pageCharEnd": 2188,
+        "quote": "אין דער\nאָרטיקער נאַצי-צייטונג , ביאַליסטאַקער צייטונג",
+        "normalizedQuote": "איןדער אָרטיקערנאַצי-צייטונג,ביאַליסטאַקערצייטונג",
+        "modelQuote": "איןדער אָרטיקערנאַצי-צייטונג,ביאַליסטאַקערצייטונג",
+        "bbox": {
+          "left": 428,
+          "top": 4742,
+          "right": 2396,
+          "bottom": 4915
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n215/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "4bca17a346be27c41ec9db64ebbc54ec6f43d09cff6f004164f3d185552312d7",
+        "normalizedPassageChecksum": "0119d96db4a23816f14dc0327b4bb5ae98d26b840e547c9e749faaa09fd2a4bf",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Published In"
+    },
+    {
+      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_edbbaadf40f449d2abc16b91",
+      "type": "Place",
+      "title": "Ghetto Cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f99c336798654a4162ff2d5a",
+      "type": "Work",
+      "title": "Bialystok Yizkor Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

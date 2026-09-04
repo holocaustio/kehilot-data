@@ -1,0 +1,121 @@
+{
+  "id": "mention_3c21f41d21045d4968f3d503",
+  "type": "Person",
+  "title": "Fritz Gustav Fridl",
+  "summary": "A perpetrator described as leading an assault into the Bialystok ghetto.",
+  "originalName": "פריץגוסטאוופרידל",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 243,
+  "printedPage": "227",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Nazi perpetrator",
+  "uncertaintyNote": "OCR spacing and letter recognition are irregular.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_74a3f606d38574c91c725c32",
+      "pageId": "page_nybc313697_0243",
+      "scanIndex": 243,
+      "leafNumber": 242,
+      "printedPage": "227",
+      "passageCharStart": 0,
+      "passageCharEnd": 18,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 16,
+      "pageCharStart": 0,
+      "pageCharEnd": 18,
+      "quote": "פריץ גוסטאוו פרידל",
+      "normalizedQuote": "פריץגוסטאוופרידל",
+      "modelQuote": "פריץגוסטאוופרידל",
+      "bbox": {
+        "left": 901,
+        "top": 355,
+        "right": 2191,
+        "bottom": 528
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n242/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "c33a90c74db4c0ca29ffaab356cf81e0017cf7b48c5a39ccaf833b381c278b14",
+      "normalizedPassageChecksum": "a0029bec43460d755f128efd504b481fd2065c48c38b15103e3db761db35702a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b05c3f8624c976790c2aea08",
+      "type": "Aktion Or Raid",
+      "title": "Assault on the Bialystok ghetto",
+      "summary": "Vehicles and perpetrators began entering the ghetto on 16 August 1943.",
+      "dateStart": "1943-08-16",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage describes the event, but OCR corruption obscures some wording.",
+      "evidence": {
+        "passageId": "passage_74a3f606d38574c91c725c32",
+        "pageId": "page_nybc313697_0243",
+        "scanIndex": 243,
+        "leafNumber": 242,
+        "printedPage": "227",
+        "passageCharStart": 439,
+        "passageCharEnd": 525,
+        "normalizedPassageCharStart": 375,
+        "normalizedPassageCharEnd": 449,
+        "pageCharStart": 439,
+        "pageCharEnd": 525,
+        "quote": "דעם 16טן אױיגוסט 1943, PND‏ די אױטאָס\nמיט די באַנדיטן הויבן אָן אַרײנצופאָרן PR‏\nגעטאָ",
+        "normalizedQuote": "דעם16טןאױיגוסט1943,PND‏דיאױטאָס מיטדיבאַנדיטןהויבןאָןאַרײנצופאָרןPR‏ געטאָ",
+        "modelQuote": "דעם16טןאױיגוסט1943,PND‏ דיאױטאָס מיטדיבאַנדיטןהויבןאָןאַרײנצופאָרןPR‏ געטאָ",
+        "bbox": {
+          "left": 624,
+          "top": 1684,
+          "right": 2190,
+          "bottom": 1958
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n242/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "c33a90c74db4c0ca29ffaab356cf81e0017cf7b48c5a39ccaf833b381c278b14",
+        "normalizedPassageChecksum": "a0029bec43460d755f128efd504b481fd2065c48c38b15103e3db761db35702a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b05c3f8624c976790c2aea08",
+      "type": "Event",
+      "title": "Assault on the Bialystok ghetto",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_eefb3f856716aa70e8f856d1",
+      "type": "Community",
+      "title": "Bialystok ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_784f8c65fdb5198318b558dc",
+      "type": "Institution",
+      "title": "Jewish police",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6ccabd4a687d11a0fc71db21",
+      "type": "Institution",
+      "title": "Bialystok Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_807bbd752ee5e256ba37aaf1",
+      "type": "Organization",
+      "title": "German Army",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

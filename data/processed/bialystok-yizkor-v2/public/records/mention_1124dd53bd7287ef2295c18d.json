@@ -1,0 +1,101 @@
+{
+  "id": "mention_1124dd53bd7287ef2295c18d",
+  "type": "Place",
+  "title": "Bialystok ruins",
+  "summary": "Ruins of Bialystok visited by Israel Beker in winter 1945.",
+  "originalName": "ruinsofBialystok",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 473,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city ruins",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6628f10f9b9496128d173ed8",
+      "pageId": "page_nybc313697_0473",
+      "scanIndex": 473,
+      "leafNumber": 472,
+      "printedPage": null,
+      "passageCharStart": 151,
+      "passageCharEnd": 173,
+      "normalizedPassageCharStart": 126,
+      "normalizedPassageCharEnd": 146,
+      "pageCharStart": 5183,
+      "pageCharEnd": 5205,
+      "quote": "the\nruins of Bialystok",
+      "normalizedQuote": "the ruinsofBialystok",
+      "modelQuote": "theruinsofBialystok",
+      "bbox": {
+        "left": 2559,
+        "top": 4734,
+        "right": 4461,
+        "bottom": 4892
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n472/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "cfe1c6d44171f6a200f7716e2b4bd4ce0a48f82ba15f23f51606828199e2deb4",
+      "normalizedPassageChecksum": "c2ccf8cc43565707782361173778f8b6c80fc0a8b39da0acf26cc82cb9d0f146",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c9375cf34be61131fcfbab50",
+      "type": "Migration",
+      "title": "Return to Bialystok",
+      "summary": "The narrator returned to Bialystok in winter 1945 and found the city in ruins.",
+      "dateStart": "1945",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6628f10f9b9496128d173ed8",
+        "pageId": "page_nybc313697_0473",
+        "scanIndex": 473,
+        "leafNumber": 472,
+        "printedPage": null,
+        "passageCharStart": 0,
+        "passageCharEnd": 38,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 31,
+        "pageCharStart": 5032,
+        "pageCharEnd": 5070,
+        "quote": "I returned there in the winter of 1945",
+        "normalizedQuote": "Ireturnedthereinthewinterof1945",
+        "modelQuote": "Ireturnedthereinthewinterof1945",
+        "bbox": {
+          "left": 2717,
+          "top": 4527,
+          "right": 4078,
+          "bottom": 4595
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n472/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "cfe1c6d44171f6a200f7716e2b4bd4ce0a48f82ba15f23f51606828199e2deb4",
+        "normalizedPassageChecksum": "c2ccf8cc43565707782361173778f8b6c80fc0a8b39da0acf26cc82cb9d0f146",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c9375cf34be61131fcfbab50",
+      "type": "Event",
+      "title": "Return to Bialystok",
+      "relation": "Occurred At",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_9d86ba440e7dfdef93fa1de5",
+      "type": "Place",
+      "title": "Beker family house",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

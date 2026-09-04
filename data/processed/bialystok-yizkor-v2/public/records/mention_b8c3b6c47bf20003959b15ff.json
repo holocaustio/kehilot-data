@@ -1,0 +1,112 @@
+{
+  "id": "mention_b8c3b6c47bf20003959b15ff",
+  "type": "Place",
+  "title": "Extermination camp outside the city",
+  "summary": "An extermination camp outside the city where 5,000 Bialystok Jews were killed.",
+  "originalName": "פאַרניכטונגס-לאַגער אויסער דער שטאָט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 166,
+  "printedPage": "150",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "extermination_camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5d1badc24224712a62cdd115",
+      "pageId": "page_nybc313697_0166",
+      "scanIndex": 166,
+      "leafNumber": 165,
+      "printedPage": "150",
+      "passageCharStart": 796,
+      "passageCharEnd": 839,
+      "normalizedPassageCharStart": 692,
+      "normalizedPassageCharEnd": 730,
+      "pageCharStart": 796,
+      "pageCharEnd": 839,
+      "quote": "אין אַ פאַרניכטונגס-לאַגער אויסער דער שטאָט",
+      "normalizedQuote": "איןאַפאַרניכטונגס-לאַגעראויסערדערשטאָט",
+      "modelQuote": "אין אַ פאַרניכטונגס-לאַגער אויסער דער שטאָט",
+      "bbox": {
+        "left": 2258,
+        "top": 2248,
+        "right": 3757,
+        "bottom": 2327
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n165/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "c765c4372f58dee597d9c1ee8dee103e319b7bf9c63b9567371568625e722a48",
+      "normalizedPassageChecksum": "b8205a62dec2d3939989eccac559d2a4854a43ea0868b356b80f62b5b0e4b144",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b4aa5bd6ebd288852f40d1fd",
+      "type": "Murder",
+      "title": "Killing of 5,000 Bialystok Jews",
+      "summary": "German perpetrators deported 5,000 Bialystok Jews to an extermination camp and killed them.",
+      "dateStart": "1941-07-12",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5d1badc24224712a62cdd115",
+        "pageId": "page_nybc313697_0166",
+        "scanIndex": 166,
+        "leafNumber": 165,
+        "printedPage": "150",
+        "passageCharStart": 760,
+        "passageCharEnd": 865,
+        "normalizedPassageCharStart": 659,
+        "normalizedPassageCharEnd": 752,
+        "pageCharStart": 760,
+        "pageCharEnd": 865,
+        "quote": "פאַרשלעפּט 5000 ביאַליסטאָקער אידען\nאין אַ פאַרניכטונגס-לאַגער אויסער דער שטאָט, און WT‏ דאָרט אומגעבראכט",
+        "normalizedQuote": "פאַרשלעפּט5000ביאַליסטאָקעראידען איןאַפאַרניכטונגס-לאַגעראויסערדערשטאָט,אוןWT‏דאָרטאומגעבראכט",
+        "modelQuote": "פאַרשלעפּט5000ביאַליסטאָקעראידען איןאַפאַרניכטונגס-לאַגער אויסערדערשטאָט,אוןWT‏דאָרטאומגעבראכט",
+        "bbox": {
+          "left": 939,
+          "top": 2160,
+          "right": 3757,
+          "bottom": 2327
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n165/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "c765c4372f58dee597d9c1ee8dee103e319b7bf9c63b9567371568625e722a48",
+        "normalizedPassageChecksum": "b8205a62dec2d3939989eccac559d2a4854a43ea0868b356b80f62b5b0e4b144",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b4aa5bd6ebd288852f40d1fd",
+      "type": "Event",
+      "title": "Killing of 5,000 Bialystok Jews",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_05d40d161a43ff1d5f7c5ede",
+      "type": "Institution",
+      "title": "Great Synagogue of Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2819b9a9fea11303b7dfd49c",
+      "type": "Place",
+      "title": "Petrashe",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5b8064e9df611a20e80a7f45",
+      "type": "Place",
+      "title": "Bialystok Ghetto",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

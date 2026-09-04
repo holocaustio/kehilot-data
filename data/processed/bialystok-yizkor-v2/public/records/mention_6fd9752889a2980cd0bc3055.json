@@ -1,0 +1,117 @@
+{
+  "id": "mention_6fd9752889a2980cd0bc3055",
+  "type": "Institution",
+  "title": "Ghetto hospital",
+  "summary": "A child is described as born in the ghetto hospital.",
+  "originalName": "געטאָ-שפּיטאָל",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 316,
+  "printedPage": "300",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "hospital",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_18f7e037735ade4b17570604",
+      "pageId": "page_nybc313697_0316",
+      "scanIndex": 316,
+      "leafNumber": 315,
+      "printedPage": "300",
+      "passageCharStart": 429,
+      "passageCharEnd": 443,
+      "normalizedPassageCharStart": 377,
+      "normalizedPassageCharEnd": 391,
+      "pageCharStart": 1734,
+      "pageCharEnd": 1748,
+      "quote": "געטאָ-שפּיטאָל",
+      "normalizedQuote": "געטאָ-שפּיטאָל",
+      "modelQuote": "געטאָ-שפּיטאָל",
+      "bbox": {
+        "left": 3862,
+        "top": 1847,
+        "right": 4325,
+        "bottom": 1928
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n315/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "314bef8b095643e47ff3a44819806e5a56d4b6ebf843a4d17cc44e70a4b42812",
+      "normalizedPassageChecksum": "de727182bfbc80c1c7ab3d85f9e514c22718a354322d87f18cff5e6d47448060",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_9fac021542837694bab07b97",
+      "type": "Birth",
+      "title": "Birth in the ghetto hospital",
+      "summary": "A child was born in the ghetto hospital.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_18f7e037735ade4b17570604",
+        "pageId": "page_nybc313697_0316",
+        "scanIndex": 316,
+        "leafNumber": 315,
+        "printedPage": "300",
+        "passageCharStart": 429,
+        "passageCharEnd": 459,
+        "normalizedPassageCharStart": 377,
+        "normalizedPassageCharEnd": 404,
+        "pageCharStart": 1734,
+        "pageCharEnd": 1764,
+        "quote": "געטאָ-שפּיטאָל אַ קינד געבאָרן",
+        "normalizedQuote": "געטאָ-שפּיטאָלאַקינדגעבאָרן",
+        "modelQuote": "געטאָ-שפּיטאָלאַקינדגעבאָרן",
+        "bbox": {
+          "left": 3289,
+          "top": 1847,
+          "right": 4325,
+          "bottom": 1928
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n315/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "314bef8b095643e47ff3a44819806e5a56d4b6ebf843a4d17cc44e70a4b42812",
+        "normalizedPassageChecksum": "de727182bfbc80c1c7ab3d85f9e514c22718a354322d87f18cff5e6d47448060",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_9fac021542837694bab07b97",
+      "type": "Event",
+      "title": "Birth in the ghetto hospital",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70192fc10286afb74a6cbee8",
+      "type": "Community",
+      "title": "Bialystok Jewish Community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b6d8b81aa294709b7b8bc401",
+      "type": "Place",
+      "title": "ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_358467a7ae306a7347ab8532",
+      "type": "Place",
+      "title": "assembly point",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b532808e759d13cc8ebca4a4",
+      "type": "Place",
+      "title": "bunker",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

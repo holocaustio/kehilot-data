@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_a0a1e08a1d9fa78360d4e2ef",
+  "type": "Event",
+  "title": "Kaplan's visit to America",
+  "summary": "Kaplan visited America and spent three months there.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 113,
+  "printedPage": "97",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Visit",
+  "uncertaintyNote": "The date phrase is OCR-damaged and the visit may not represent migration.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_95c2622aa6ab0de60c449d1f",
+      "pageId": "page_nybc313697_0113",
+      "scanIndex": 113,
+      "leafNumber": 112,
+      "printedPage": "97",
+      "passageCharStart": 31,
+      "passageCharEnd": 93,
+      "normalizedPassageCharStart": 26,
+      "normalizedPassageCharEnd": 81,
+      "pageCharStart": 3018,
+      "pageCharEnd": 3080,
+      "quote": "קאַפּלאַן באַזוכט\nאַמעריקע, וואו ער ONT‏ פאַרבראַכט דריי חדשים",
+      "normalizedQuote": "קאַפּלאַןבאַזוכט אַמעריקע,וואוערONT‏פאַרבראַכטדרייחדשים",
+      "modelQuote": "קאַפּלאַן באַזוכט אַמעריקע,וואוערONT‏פאַרבראַכטדרייחדשים",
+      "bbox": {
+        "left": 2556,
+        "top": 1164,
+        "right": 4498,
+        "bottom": 1344
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n112/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "a06e48126cc62fb0fcaac94e8fac90589a672047c56477ae3b346096d7cf74f9",
+      "normalizedPassageChecksum": "ccdc41cf68ce6df88224205c8f774a6d57262a804b043c024903f9f70c877343",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1d08aaa4195ec115afb3c362",
+      "type": "Place",
+      "title": "America",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d47d5e7d9bf3661808c4f768",
+      "type": "Person",
+      "title": "Kaplan",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

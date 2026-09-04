@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_2781eaced0d78cc95254a7f0",
+  "type": "Event",
+  "title": "Nazi entry into Bialystok",
+  "summary": "Nazi perpetrators entered Bialystok and began attacks on Jewish residents.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 140,
+  "printedPage": "124",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "dateStart": "1941-06-27",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_992a65c1a1e6d252a073358b",
+      "pageId": "page_nybc313697_0140",
+      "scanIndex": 140,
+      "leafNumber": 139,
+      "printedPage": "124",
+      "passageCharStart": 13,
+      "passageCharEnd": 86,
+      "normalizedPassageCharStart": 11,
+      "normalizedPassageCharEnd": 74,
+      "pageCharStart": 1692,
+      "pageCharEnd": 1765,
+      "quote": "דעם 27טן יוני 1941, Vom‏ אַרײנקומען\nפון די נאַצישע רוצחים PP‏ ביאַליסטאָק",
+      "normalizedQuote": "דעם27טןיוני1941,Vom‏אַרײנקומען פוןדינאַצישערוצחיםPP‏ביאַליסטאָק",
+      "modelQuote": "דעם27טןיוני1941,Vom‏אַרײנקומען פוןדינאַצישערוצחיםPP‏ביאַליסטאָק",
+      "bbox": {
+        "left": 400,
+        "top": 3756,
+        "right": 2401,
+        "bottom": 3928
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n139/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "efd38139eddcf8c36df1addbb010390bd5a00d0347359d86d7127f98d4d8cf85",
+      "normalizedPassageChecksum": "8061be9ebd1ae96a70552e377e71dd2e50bfdec70c149898283ff290d7b5f5e0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_70192fc10286afb74a6cbee8",
+      "type": "Community",
+      "title": "Bialystok Jewish Community",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1d8eee7fe3658c267a8709ed",
+      "type": "Organization",
+      "title": "Nazi murderers",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_70192fc10286afb74a6cbee8",
+      "type": "Community",
+      "title": "Bialystok Jewish Community",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

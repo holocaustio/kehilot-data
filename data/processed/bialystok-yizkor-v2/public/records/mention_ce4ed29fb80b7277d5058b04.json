@@ -1,0 +1,126 @@
+{
+  "id": "mention_ce4ed29fb80b7277d5058b04",
+  "type": "Person",
+  "title": "Bishke",
+  "summary": "Bishke, described as a well-known newspaper editor, was shot with his wife.",
+  "originalName": "בישקע",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 164,
+  "printedPage": "148",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "newspaper editor",
+  "uncertaintyNote": "The wife's name is not given, and OCR obscures some wording.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2353f1dd39719956d4b9ddf5",
+      "pageId": "page_nybc313697_0164",
+      "scanIndex": 164,
+      "leafNumber": 163,
+      "printedPage": "148",
+      "passageCharStart": 867,
+      "passageCharEnd": 934,
+      "normalizedPassageCharStart": 746,
+      "normalizedPassageCharEnd": 805,
+      "pageCharStart": 867,
+      "pageCharEnd": 934,
+      "quote": "דער באַקאַנטער גאַזעטשיק,\nבישקע, PN‏ דערשאָסן געװאָרן מיט PT‏ ווייב",
+      "normalizedQuote": "דערבאַקאַנטערגאַזעטשיק, בישקע,PN‏דערשאָסןגעװאָרןמיטPT‏ווייב",
+      "modelQuote": "דערבאַקאַנטערגאַזעטשיק, בישקע,PN‏דערשאָסןגעװאָרןמיטPT‏ווייב",
+      "bbox": {
+        "left": 360,
+        "top": 1887,
+        "right": 2366,
+        "bottom": 2060
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n163/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "80cc66910c54830f52949060f91b86b1fd7b3deb566fb26865e1d27675246d6b",
+      "normalizedPassageChecksum": "8f39ac080937a3c84e2e838ebb42a01db19bce23314e353b220dc9e6f8d9dfc6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_815a0edf6e197c541672bb8a",
+      "type": "Shooting",
+      "title": "Shooting of Bishke and his wife",
+      "summary": "Bishke was shot with his wife; the wife's identity is unspecified.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The wife's identity is not specified.",
+      "evidence": {
+        "passageId": "passage_2353f1dd39719956d4b9ddf5",
+        "pageId": "page_nybc313697_0164",
+        "scanIndex": 164,
+        "leafNumber": 163,
+        "printedPage": "148",
+        "passageCharStart": 893,
+        "passageCharEnd": 934,
+        "normalizedPassageCharStart": 770,
+        "normalizedPassageCharEnd": 805,
+        "pageCharStart": 893,
+        "pageCharEnd": 934,
+        "quote": "בישקע, PN‏ דערשאָסן געװאָרן מיט PT‏ ווייב",
+        "normalizedQuote": "בישקע,PN‏דערשאָסןגעװאָרןמיטPT‏ווייב",
+        "modelQuote": "בישקע,PN‏דערשאָסןגעװאָרןמיטPT‏ווייב",
+        "bbox": {
+          "left": 808,
+          "top": 1990,
+          "right": 2366,
+          "bottom": 2060
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n163/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "80cc66910c54830f52949060f91b86b1fd7b3deb566fb26865e1d27675246d6b",
+        "normalizedPassageChecksum": "8f39ac080937a3c84e2e838ebb42a01db19bce23314e353b220dc9e6f8d9dfc6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_815a0edf6e197c541672bb8a",
+      "type": "Event",
+      "title": "Shooting of Bishke and his wife",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_b613124d84995fa61b868684",
+      "type": "Person",
+      "title": "H. Goldberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5bd2401db0035b6224e26cb1",
+      "type": "Person",
+      "title": "Rafael Gutman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c3b45853d17bd3beec19ab19",
+      "type": "Person",
+      "title": "Gutman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_31a19c6721e37c7b871a06b1",
+      "type": "Place",
+      "title": "Cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9bb27c8ada84a01f1764f80c",
+      "type": "Institution",
+      "title": "Control Commission",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

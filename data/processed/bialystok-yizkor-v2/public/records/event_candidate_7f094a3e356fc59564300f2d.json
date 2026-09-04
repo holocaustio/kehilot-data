@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_7f094a3e356fc59564300f2d",
+  "type": "Event",
+  "title": "Construction of barracks",
+  "summary": "Construction of several dozen barracks carried out by the construction department.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 162,
+  "printedPage": "146",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Construction",
+  "uncertaintyNote": "The passage clearly describes construction activity, but the event schema lacks a general construction type.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_45bdd1e1642e7fb5ecef2bdc",
+      "pageId": "page_nybc313697_0162",
+      "scanIndex": 162,
+      "leafNumber": 161,
+      "printedPage": "146",
+      "passageCharStart": 1206,
+      "passageCharEnd": 1234,
+      "normalizedPassageCharStart": 1047,
+      "normalizedPassageCharEnd": 1072,
+      "pageCharStart": 4747,
+      "pageCharEnd": 4775,
+      "quote": "פירט דורך אונזער בוי-אָפּטײל",
+      "normalizedQuote": "פירטדורךאונזערבוי-אָפּטײל",
+      "modelQuote": "פירטדורךאונזערבוי-אָפּטײל",
+      "bbox": {
+        "left": 3200,
+        "top": 4760,
+        "right": 4254,
+        "bottom": 4845
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n161/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "494b8c10e388f58519bfb3c6e797c5d0a74c5cac8cf017165383be2e0cc271f3",
+      "normalizedPassageChecksum": "d9fbc33c83ec0fefb743dd5ae66fe2de145bd67653a25ad5c8538bf10f8ae699",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9b4fa3dc3358d84906814ee9",
+      "type": "Place",
+      "title": "Barracks",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_46a46c4bfca7200a77167d8f",
+      "type": "Organization",
+      "title": "Construction department",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_7d2b679f8eb2748d477718e5",
+  "type": "Event",
+  "title": "Deportations to Siberia",
+  "summary": "Several thousand Bialystok residents were arrested and sent to Siberia.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 129,
+  "printedPage": "113",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The OCR is corrupted around the arrest and deportation wording.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_62a11e84b64fbe81c5094fac",
+      "pageId": "page_nybc313697_0129",
+      "scanIndex": 129,
+      "leafNumber": 128,
+      "printedPage": "113",
+      "passageCharStart": 399,
+      "passageCharEnd": 468,
+      "normalizedPassageCharStart": 344,
+      "normalizedPassageCharEnd": 406,
+      "pageCharStart": 2559,
+      "pageCharEnd": 2628,
+      "quote": "אַרעסטירט TX‏ אַרױסגעשיקט\nPP TINA‏ סיביר, עטלעכע טויזנט ביאַליסטאָקער",
+      "normalizedQuote": "אַרעסטירטTX‏אַרױסגעשיקט PPTINA‏סיביר,עטלעכעטויזנטביאַליסטאָקער",
+      "modelQuote": "אַרעסטירטTX‏אַרױסגעשיקט PPTINA‏סיביר,עטלעכעטויזנטביאַליסטאָקער",
+      "bbox": {
+        "left": 467,
+        "top": 5519,
+        "right": 2400,
+        "bottom": 5684
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n128/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "577fef16df602862b85dfaceb795887cc2f223a2a2d21b3485ebc2e87877c1a1",
+      "normalizedPassageChecksum": "19349f9dcd65dbf613b3724465f86a0114bba7689ecfece17b6c2b3024b17117",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_bff738456b97aa9090d99455",
+      "type": "Place",
+      "title": "Siberia",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a807c0b85c44175aa5824107",
+      "type": "Community",
+      "title": "Bialystok residents",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}
