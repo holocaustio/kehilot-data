@@ -1,0 +1,192 @@
+{
+  "id": "mention_c8452aef67c904a15c865703",
+  "type": "Person",
+  "title": "Lukaszinski",
+  "summary": "The starost of Lutsk who attacked Lviv residents with his men.",
+  "originalName": "לשצינסקי",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 58,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Starost of Lutsk",
+  "uncertaintyNote": "OCR may omit or distort the person’s full name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_00759ca47cb8387acabd9295",
+      "pageId": "page_nybc313875_0058",
+      "scanIndex": 58,
+      "leafNumber": 57,
+      "printedPage": null,
+      "passageCharStart": 523,
+      "passageCharEnd": 549,
+      "normalizedPassageCharStart": 391,
+      "normalizedPassageCharEnd": 413,
+      "pageCharStart": 523,
+      "pageCharEnd": 549,
+      "quote": "הסטרוסט ה מלוצק , לשצינסקי",
+      "normalizedQuote": "הסטרוסטהמלוצק,לשצינסקי",
+      "modelQuote": "הסטרוסטהמלוצק,לשצינסקי",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n57/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "fb06bcbe76f9c80169ef806896630a8cb4981adf726263f8bd611d68e0b502ae",
+      "normalizedPassageChecksum": "7d31b4e9594e96c18306b9e7cd9866dae117f1bdc079d6c2579afcda6e8bc07f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_03e8ea2be5a7f24ebc890db9",
+      "predicate": "Participated In",
+      "subjectTitle": "Lukaszinski",
+      "objectTitle": "1664 Lviv disturbances",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_00759ca47cb8387acabd9295",
+        "pageId": "page_nybc313875_0058",
+        "scanIndex": 58,
+        "leafNumber": 57,
+        "printedPage": null,
+        "passageCharStart": 587,
+        "passageCharEnd": 609,
+        "normalizedPassageCharStart": 440,
+        "normalizedPassageCharEnd": 457,
+        "pageCharStart": 587,
+        "pageCharEnd": 609,
+        "quote": "התנפ ל ע ל אזרח י\nהעיר",
+        "normalizedQuote": "התנפלעלאזרחי העיר",
+        "modelQuote": "התנפלעלאזרחי העיר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n57/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "fb06bcbe76f9c80169ef806896630a8cb4981adf726263f8bd611d68e0b502ae",
+        "normalizedPassageChecksum": "7d31b4e9594e96c18306b9e7cd9866dae117f1bdc079d6c2579afcda6e8bc07f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_30fda864153e293bc405fc1b",
+      "type": "Aktion Or Raid",
+      "title": "1664 Lviv disturbances",
+      "summary": "Attacks, killings, and looting occurred during disturbances in Lviv.",
+      "dateStart": "1664-06-12",
+      "dateEnd": "1664-06-12",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage says June 22 was ten days after the riots; the exact riot date is inferred and not explicit.",
+      "evidence": {
+        "passageId": "passage_00759ca47cb8387acabd9295",
+        "pageId": "page_nybc313875_0058",
+        "scanIndex": 58,
+        "leafNumber": 57,
+        "printedPage": null,
+        "passageCharStart": 136,
+        "passageCharEnd": 178,
+        "normalizedPassageCharStart": 103,
+        "normalizedPassageCharEnd": 134,
+        "pageCharStart": 136,
+        "pageCharEnd": 178,
+        "quote": "וב־ 22 ביונ י 1664 , 10 ימי ם אחר י הפרעות",
+        "normalizedQuote": "וב־22ביוני1664,10ימיםאחריהפרעות",
+        "modelQuote": "וב־22ביוני1664,10ימיםאחריהפרעות",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n57/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "fb06bcbe76f9c80169ef806896630a8cb4981adf726263f8bd611d68e0b502ae",
+        "normalizedPassageChecksum": "7d31b4e9594e96c18306b9e7cd9866dae117f1bdc079d6c2579afcda6e8bc07f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5835595b97eb6e46a128300f",
+      "type": "Event",
+      "title": "1664 Lviv disturbances",
+      "relation": "Participated In"
+    },
+    {
+      "id": "event_candidate_30fda864153e293bc405fc1b",
+      "type": "Event",
+      "title": "1664 Lviv disturbances",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_4aea7e28d688490f426dbba7",
+      "type": "Community",
+      "title": "Lviv Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_48b4be68ca897896c98cff74",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_65d1f63f10f1e5ca7855ef18",
+      "type": "Person",
+      "title": "John Casimir",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a17a2325d832ca90bd90a125",
+      "type": "Place",
+      "title": "Lutsk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_51b2edc4b1c622046baf0ee1",
+      "type": "Person",
+      "title": "Stanislaw Binowski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d9ff8fee9d352cfb55811c61",
+      "type": "Place",
+      "title": "Lublin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_50579297f14f06319c4664dd",
+      "type": "Institution",
+      "title": "Lviv municipality",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_518cba49209a509cdbcf977d",
+      "type": "Place",
+      "title": "Vilna",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5835595b97eb6e46a128300f",
+      "type": "Event",
+      "title": "1664 Lviv disturbances",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1af4001527a44ef7b505c757",
+      "type": "Place",
+      "title": "Lviv city gates",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6117658bea476b928863a303",
+      "type": "Institution",
+      "title": "Council of Six",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

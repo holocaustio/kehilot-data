@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "kehilot-yizkor-source-v2",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "ingestedAt": "2026-09-06T18:41:17.643Z",
+  "community": {
+    "id": "community_lviv",
+    "displayName": "lviv",
+    "canonicalName": "lviv",
+    "country": "Unknown"
+  },
+  "book": {
+    "id": "book_nybc313875",
+    "communityId": "community_lviv",
+    "internetArchiveId": "nybc313875",
+    "title": "Levov",
+    "alternateTitle": null,
+    "authors": [],
+    "publication": null,
+    "language": "he",
+    "pageProgression": "rl",
+    "sourceUrl": "https://archive.org/details/nybc313875",
+    "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+    "rightsStatus": "REVIEW_REQUIRED",
+    "attribution": "internet-archive",
+    "checksums": {
+      "metadata": "318253809251b585641ef4b053afe3ae4e07095fc3dac81a8051f5215fcec5df",
+      "djvuXml": "1df71bafc653b17c1a924dbc4b6f0a316049a283371cbf4c2cca30358fb8863e",
+      "scandataXml": "a4e93bca044d42a48005ca6cee9ad471731acd3890bdaf794c181d8a1e0f5380",
+      "pdf": "ac83f54129436758b45293769a2e7a8b418d963cafbd661ab54d8c63eb9217d8"
+    }
+  },
+  "chapters": [],
+  "counts": {
+    "pages": 388,
+    "pagesWithText": 379,
+    "passages": 1233,
+    "words": 388291,
+    "normalizationEdits": 379679,
+    "joinedFragments": 358555,
+    "softLineBreaks": 21124
+  },
+  "normalizationPolicy": {
+    "version": "ocr-layout-normalizer-v1",
+    "canonicalField": "text",
+    "derivedField": "normalizedText",
+    "reversible": true,
+    "changesCharacters": false,
+    "rules": [
+      "concatenate-djvu-word-runs",
+      "replace-soft-line-breaks"
+    ]
+  },
+  "passagePolicy": {
+    "pageBound": true,
+    "targetEstimatedTokens": 1100,
+    "maxEstimatedTokens": 1500,
+    "tokenEstimate": "hebrew_letters*1.15 + latin_letters/4 + digits/3 + punctuation/2"
+  }
+}

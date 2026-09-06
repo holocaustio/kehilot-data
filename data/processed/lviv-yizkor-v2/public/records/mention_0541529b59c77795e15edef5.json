@@ -1,0 +1,103 @@
+{
+  "id": "mention_0541529b59c77795e15edef5",
+  "type": "Place",
+  "title": "Dominican Monastery",
+  "summary": "Site near which a 1636 funeral procession encountered Christians.",
+  "originalName": "מרגשהדומיניקנים",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 287,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "monastery",
+  "uncertaintyNote": "OCR reading of the place name is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2c86da001e2cc1f59af32da3",
+      "pageId": "page_nybc313875_0287",
+      "scanIndex": 287,
+      "leafNumber": 286,
+      "printedPage": null,
+      "passageCharStart": 525,
+      "passageCharEnd": 550,
+      "normalizedPassageCharStart": 389,
+      "normalizedPassageCharEnd": 409,
+      "pageCharStart": 1749,
+      "pageCharEnd": 1774,
+      "quote": "על־י ד מרג ש הדומיניקני ם",
+      "normalizedQuote": "על־ידמרגשהדומיניקנים",
+      "modelQuote": "על־ידמרגשהדומיניקנים",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n286/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "d5d4a54b865e671b5fcd02993cca382fa0c285c615656ce8a3ecc6453fd99393",
+      "normalizedPassageChecksum": "a8891f6cc07b99e198d54f9973420a3e4c99c7e631235884cf49791cea6d2059",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a8796af4b8c59d451a832076",
+      "type": "Aktion Or Raid",
+      "title": "Clash at a Jewish funeral procession",
+      "summary": "A Christian procession encountered a Jewish funeral, leading to violence and injuries in 1636.",
+      "dateStart": "1636-05-26",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2c86da001e2cc1f59af32da3",
+        "pageId": "page_nybc313875_0287",
+        "scanIndex": 287,
+        "leafNumber": 286,
+        "printedPage": null,
+        "passageCharStart": 507,
+        "passageCharEnd": 567,
+        "normalizedPassageCharStart": 376,
+        "normalizedPassageCharEnd": 421,
+        "pageCharStart": 1731,
+        "pageCharEnd": 1791,
+        "quote": "המקר ה השנ י\nקר ה על־י ד מרג ש הדומיניקני ם ב־ 26 במא י 1636",
+        "normalizedQuote": "המקרההשני קרהעל־ידמרגשהדומיניקניםב־26במאי1636",
+        "modelQuote": "המקרההשני קרהעל־ידמרגשהדומיניקניםב־26במאי1636",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n286/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d5d4a54b865e671b5fcd02993cca382fa0c285c615656ce8a3ecc6453fd99393",
+        "normalizedPassageChecksum": "a8891f6cc07b99e198d54f9973420a3e4c99c7e631235884cf49791cea6d2059",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a8796af4b8c59d451a832076",
+      "type": "Event",
+      "title": "Clash at a Jewish funeral procession",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_726ad6d2682c2f7b6a328255",
+      "type": "Person",
+      "title": "Yaakov Bachor",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cf95862f450ae66925afc776",
+      "type": "Institution",
+      "title": "Metropolitan Religious School",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6cc6e009e8fb20cbe3f8f91a",
+      "type": "Organization",
+      "title": "Dominicans",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

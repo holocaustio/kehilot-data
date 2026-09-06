@@ -1,0 +1,102 @@
+{
+  "id": "mention_71e772a46b45277cd574f286",
+  "type": "Place",
+  "title": "Rawa Ruska",
+  "summary": "Town identified as near the reported extermination camp.",
+  "originalName": "ראווארוסקה",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 323,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f0cfa0d7017a06dd498f5e4d",
+      "pageId": "page_nybc313875_0323",
+      "scanIndex": 323,
+      "leafNumber": 322,
+      "printedPage": null,
+      "passageCharStart": 756,
+      "passageCharEnd": 775,
+      "normalizedPassageCharStart": 564,
+      "normalizedPassageCharEnd": 579,
+      "pageCharStart": 2088,
+      "pageCharEnd": 2107,
+      "quote": "סמו ך לראוו א רוסקה",
+      "normalizedQuote": "סמוךלראווארוסקה",
+      "modelQuote": "סמוךלראווארוסקה",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n322/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "f3408c93dbeb4c66f21cecfe02f077f13a3c0afbfd6e75defc68edd898890718",
+      "normalizedPassageChecksum": "387e1c169c2379ea335b84e6aa57b0726144bd1670372a5163c31b91f786b188",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_45268a5f80777ef97f9c790a",
+      "predicate": "Near",
+      "subjectTitle": "Lodz extermination camp",
+      "objectTitle": "Rawa Ruska",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The camp name is corrupted by OCR.",
+      "evidence": {
+        "passageId": "passage_f0cfa0d7017a06dd498f5e4d",
+        "pageId": "page_nybc313875_0323",
+        "scanIndex": 323,
+        "leafNumber": 322,
+        "printedPage": null,
+        "passageCharStart": 723,
+        "passageCharEnd": 775,
+        "normalizedPassageCharStart": 538,
+        "normalizedPassageCharEnd": 579,
+        "pageCharStart": 2055,
+        "pageCharEnd": 2107,
+        "quote": "מחנה־ההשמד ה בלד ץ\n( 8£1,2£0 ) , סמו ך לראוו א רוסקה",
+        "normalizedQuote": "מחנה־ההשמדהבלדץ (8£1,2£0),סמוךלראווארוסקה",
+        "modelQuote": "מחנה־ההשמדהבלדץ (8£1,2£0),סמוךלראווארוסקה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n322/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "f3408c93dbeb4c66f21cecfe02f077f13a3c0afbfd6e75defc68edd898890718",
+        "normalizedPassageChecksum": "387e1c169c2379ea335b84e6aa57b0726144bd1670372a5163c31b91f786b188",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_2a8ef609102388ab9dec9565",
+      "type": "Place",
+      "title": "Lodz extermination camp",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_2a8ef609102388ab9dec9565",
+      "type": "Place",
+      "title": "Lodz extermination camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cdd254902fc5f2624072f53b",
+      "type": "Community",
+      "title": "Jewry of Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_48b4be68ca897896c98cff74",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

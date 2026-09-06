@@ -1,0 +1,97 @@
+{
+  "id": "mention_3639d758004f0205961dd3c3",
+  "type": "Person",
+  "title": "Yosef Hayot",
+  "summary": "A cantor killed while praying during the 1664 conflict in Lviv.",
+  "originalName": "יוסף חיות",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 247,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cantor",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b12ef36532b150c05659e87b",
+      "pageId": "page_nybc313875_0247",
+      "scanIndex": 247,
+      "leafNumber": 246,
+      "printedPage": null,
+      "passageCharStart": 330,
+      "passageCharEnd": 372,
+      "normalizedPassageCharStart": 241,
+      "normalizedPassageCharEnd": 271,
+      "pageCharStart": 330,
+      "pageCharEnd": 372,
+      "quote": "הש״ ץ יוס ף חיו ת נהר ג בשע ה שעמ ד בתפילה",
+      "normalizedQuote": "הש״ץיוסףחיותנהרגבשעהשעמדבתפילה",
+      "modelQuote": "הש״ץיוסףחיותנהרגבשעהשעמדבתפילה",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n246/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "8523c8c8ebf31dcfa43c51dc178cb7e18a6e9d7a361400561246b1276884f470",
+      "normalizedPassageChecksum": "64888ab287da19798750d4e9c5caf80c18c772ba7a90f74d606f9a7dc5741e4c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a5d682f42b793505f526b953",
+      "type": "Death",
+      "title": "Death of Yosef Hayot during the 1664 conflict",
+      "summary": "Yosef Hayot was killed while serving as cantor during the 1664 Jewish-Ruthenian confrontation in Lviv.",
+      "dateStart": "1664",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_b12ef36532b150c05659e87b",
+        "pageId": "page_nybc313875_0247",
+        "scanIndex": 247,
+        "leafNumber": 246,
+        "printedPage": null,
+        "passageCharStart": 257,
+        "passageCharEnd": 372,
+        "normalizedPassageCharStart": 185,
+        "normalizedPassageCharEnd": 271,
+        "pageCharStart": 257,
+        "pageCharEnd": 372,
+        "quote": "בהתנגשו ת שהית ה בשנ ת\n1664 בי ן היהודי ם והרותני ם בלבוב , מסופר , שג ם\nהש״ ץ יוס ף חיו ת נהר ג בשע ה שעמ ד בתפילה",
+        "normalizedQuote": "בהתנגשותשהיתהבשנת 1664ביןהיהודיםוהרותניםבלבוב,מסופר,שגם הש״ץיוסףחיותנהרגבשעהשעמדבתפילה",
+        "modelQuote": "בהתנגשותשהיתהבשנת 1664ביןהיהודיםוהרותניםבלבוב,מסופר,שגם הש״ץיוסף חיותנהרגבשעהשעמדבתפילה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n246/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "8523c8c8ebf31dcfa43c51dc178cb7e18a6e9d7a361400561246b1276884f470",
+        "normalizedPassageChecksum": "64888ab287da19798750d4e9c5caf80c18c772ba7a90f74d606f9a7dc5741e4c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a5d682f42b793505f526b953",
+      "type": "Event",
+      "title": "Death of Yosef Hayot during the 1664 conflict",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_48b4be68ca897896c98cff74",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8679462d06eef26916bcc79e",
+      "type": "Community",
+      "title": "Jewish communities in Lviv and its surroundings",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

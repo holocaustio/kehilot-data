@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "kehilot-yizkor-selected-release-v1",
+  "selectedVersion": "lviv-yizkor-v2",
+  "selectedAt": "2026-09-06T22:19:14.327Z",
+  "community": "lviv",
+  "bookId": "book_nybc313875",
+  "publicGraphPath": "data/processed/lviv-yizkor-v2/adjudication/resolved-graph.json",
+  "sourcePassagesPath": "data/processed/lviv-yizkor-v1/source/passages.jsonl",
+  "graphSha256": "4a7d7e7ba0f1606c7920896838f7d69ac20102d9fea2186393dc1db644cbd917",
+  "sourceSha256": "cc5dd0cabcc9b0688c115d9a9870d0e210464bf519cf4fe97e07815280e8d1a4",
+  "checks": {
+    "allStagesCompleted": true,
+    "structuralValidationPassed": true,
+    "provenanceValidationPassed": true,
+    "resolutionComplete": true
+  },
+  "allowedIncompleteStages": [],
+  "provenance": {
+    "observations": 13175,
+    "missingEvidence": 0,
+    "invalidRawRanges": 0
+  },
+  "counts": {
+    "passages": 1233,
+    "mentions": 9632,
+    "claims": 2490,
+    "events": 1053,
+    "quarantinedAtExtraction": 1136,
+    "adjudicationReviewQueue": 140,
+    "publicSourceLinkedObservations": 11581
+  },
+  "models": {
+    "inventory": {
+      "model": "gpt-5.6-luna",
+      "serviceTier": "flex",
+      "reasoningEffort": "none",
+      "promptVersion": "yizkor-routing-prompt-v3"
+    },
+    "extraction": {
+      "model": "gpt-5.6-luna",
+      "serviceTier": "flex",
+      "reasoningEffort": "none",
+      "promptVersion": "yizkor-extraction-prompt-v5",
+      "validatorVersion": "yizkor-provenance-validator-v4"
+    },
+    "luna": {
+      "model": "gpt-5.6-luna",
+      "serviceTier": "flex",
+      "reasoningEffort": "low",
+      "promptVersion": "yizkor-adjudication-prompt-v1"
+    },
+    "terra": {
+      "model": "gpt-5.6-terra",
+      "serviceTier": "flex",
+      "reasoningEffort": "high",
+      "promptVersion": "yizkor-adjudication-prompt-v1"
+    }
+  },
+  "costsUsd": {
+    "inventory": 0.10455,
+    "extraction": 1.109533,
+    "luna": 0.406162,
+    "terra": 0.45602,
+    "total": 2.076265
+  },
+  "publicationPolicy": {
+    "humanReviewComplete": false,
+    "excludedStatuses": [
+      "REJECTED",
+      "NEEDS_HUMAN_REVIEW",
+      "REJECT",
+      "HUMAN_REVIEW"
+    ],
+    "note": "Selected for the public evidence portal after structural, provenance, and two-stage machine review. It is not represented as human-verified scholarship."
+  }
+}

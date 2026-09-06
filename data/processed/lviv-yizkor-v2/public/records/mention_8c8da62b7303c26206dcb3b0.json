@@ -1,0 +1,105 @@
+{
+  "id": "mention_8c8da62b7303c26206dcb3b0",
+  "type": "Person",
+  "title": "Albert Usytsky",
+  "summary": "An officer who killed Aharon Kamkhan in 1600.",
+  "originalName": "אלברטאוסיצקי",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 51,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military officer",
+  "uncertaintyNote": "OCR spacing and transliteration are uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8cdf6b8fc9d7cc4599a03cce",
+      "pageId": "page_nybc313875_0051",
+      "scanIndex": 51,
+      "leafNumber": 50,
+      "printedPage": null,
+      "passageCharStart": 252,
+      "passageCharEnd": 298,
+      "normalizedPassageCharStart": 180,
+      "normalizedPassageCharEnd": 215,
+      "pageCharStart": 4254,
+      "pageCharEnd": 4300,
+      "quote": "התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד",
+      "normalizedQuote": "התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד",
+      "modelQuote": "התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "1fe642eeb9dfa3c88d378889250c3e5bc334e70c0663c0899a6509545ddf8b6a",
+      "normalizedPassageChecksum": "0205bf45bd91f6d283161e9bbff9830639605a931484460bcbbd4be65d51eeca",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c4ce16e9ef04202c2ba5719e",
+      "type": "Murder",
+      "title": "Killing of Aharon Kamkhan",
+      "summary": "Officer Albert Usytsky killed Aharon Kamkhan during a soldier-related attack in 1600.",
+      "dateStart": "1600",
+      "dateEnd": "1600",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_8cdf6b8fc9d7cc4599a03cce",
+        "pageId": "page_nybc313875_0051",
+        "scanIndex": 51,
+        "leafNumber": 50,
+        "printedPage": null,
+        "passageCharStart": 239,
+        "passageCharEnd": 311,
+        "normalizedPassageCharStart": 171,
+        "normalizedPassageCharEnd": 224,
+        "pageCharStart": 4241,
+        "pageCharEnd": 4313,
+        "quote": "בשנ ת 1600 , התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד , אהר ן קמחן",
+        "normalizedQuote": "בשנת1600,התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד,אהרןקמחן",
+        "modelQuote": "בשנת1600,התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד,אהרןקמחן",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "1fe642eeb9dfa3c88d378889250c3e5bc334e70c0663c0899a6509545ddf8b6a",
+        "normalizedPassageChecksum": "0205bf45bd91f6d283161e9bbff9830639605a931484460bcbbd4be65d51eeca",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c4ce16e9ef04202c2ba5719e",
+      "type": "Event",
+      "title": "Killing of Aharon Kamkhan",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_7ec1c60827f6188cd9d2f8d2",
+      "type": "Person",
+      "title": "Aharon Kamkhan",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_17f754f3f20824510698c4b3",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_48b4be68ca897896c98cff74",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

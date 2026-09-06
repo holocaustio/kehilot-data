@@ -1,0 +1,112 @@
+{
+  "id": "mention_4e5dcdb1c6a1d4cecfce19e1",
+  "type": "Person",
+  "title": "German merchant Altmaier",
+  "summary": "A German merchant who lent money to Lviv authorities in June 1653.",
+  "originalName": "הסוחרהגרמניאלטמאיר",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 54,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "merchant",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cfc4a26a98037f0998b29641",
+      "pageId": "page_nybc313875_0054",
+      "scanIndex": 54,
+      "leafNumber": 53,
+      "printedPage": null,
+      "passageCharStart": 612,
+      "passageCharEnd": 635,
+      "normalizedPassageCharStart": 446,
+      "normalizedPassageCharEnd": 464,
+      "pageCharStart": 4414,
+      "pageCharEnd": 4437,
+      "quote": "הסוח ר הגרמנ י אלטמאי ר",
+      "normalizedQuote": "הסוחרהגרמניאלטמאיר",
+      "modelQuote": "הסוחרהגרמניאלטמאיר",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n53/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "3391490272377881784ab96dca8ac50826dd380337b4539f33c6dcbd055cf092",
+      "normalizedPassageChecksum": "b656c8276b06bcbf73a6e581fa1537a57bf64e7fc36236c5c1b81a8131f93177",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_5a7cc53d3362f30cade4a85b",
+      "predicate": "Lived At",
+      "subjectTitle": "German merchant Altmaier",
+      "objectTitle": "Lviv municipality",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The schema lacks a lending predicate; LIVED_AT is not semantically exact.",
+      "qualifiers": {
+        "dateText": "20 June 1653",
+        "relation": "lent money to"
+      },
+      "evidence": {
+        "passageId": "passage_cfc4a26a98037f0998b29641",
+        "pageId": "page_nybc313875_0054",
+        "scanIndex": 54,
+        "leafNumber": 53,
+        "printedPage": null,
+        "passageCharStart": 605,
+        "passageCharEnd": 647,
+        "normalizedPassageCharStart": 441,
+        "normalizedPassageCharEnd": 473,
+        "pageCharStart": 4407,
+        "pageCharEnd": 4449,
+        "quote": "הלוו ה הסוח ר הגרמנ י אלטמאי ר לעירי ה כסף",
+        "normalizedQuote": "הלווההסוחרהגרמניאלטמאירלעיריהכסף",
+        "modelQuote": "הלווההסוחרהגרמניאלטמאירלעיריהכסף",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n53/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "3391490272377881784ab96dca8ac50826dd380337b4539f33c6dcbd055cf092",
+        "normalizedPassageChecksum": "b656c8276b06bcbf73a6e581fa1537a57bf64e7fc36236c5c1b81a8131f93177",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_50579297f14f06319c4664dd",
+      "type": "Institution",
+      "title": "Lviv municipality",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_48b4be68ca897896c98cff74",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2446631b722e8d2fb81fb821",
+      "type": "Institution",
+      "title": "Lviv City Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_50579297f14f06319c4664dd",
+      "type": "Institution",
+      "title": "Lviv municipality",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b16570b1ece9b5d6ae1db68c",
+      "type": "Event",
+      "title": "War between Poland and the Cossacks",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

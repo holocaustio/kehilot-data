@@ -1,0 +1,178 @@
+{
+  "id": "mention_35dd625380b27e85e2c49150",
+  "type": "Person",
+  "title": "Imber's wife",
+  "summary": "Imber's unnamed wife, who accompanied him when he left Lviv.",
+  "originalName": "אשתו",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 377,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "wife",
+  "uncertaintyNote": "Her personal identity is not provided.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c46b6430aa6520560e9c75d9",
+      "pageId": "page_nybc313875_0377",
+      "scanIndex": 377,
+      "leafNumber": 376,
+      "printedPage": null,
+      "passageCharStart": 880,
+      "passageCharEnd": 910,
+      "normalizedPassageCharStart": 653,
+      "normalizedPassageCharEnd": 676,
+      "pageCharStart": 2816,
+      "pageCharEnd": 2846,
+      "quote": "יח ד\nע ם אשת ו עב ר ליז׳רז׳אני",
+      "normalizedQuote": "יחד עםאשתועברליז׳רז׳אני",
+      "modelQuote": "יחד עםאשתועברליז׳רז׳אני",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n376/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "234e27724830855113d2924742c9a522ffa0f81bfdf21ca890b1783bce5929bd",
+      "normalizedPassageChecksum": "04f9c4bf9a46742483084c546cee72add7705ec0a66569df528301d69bb23fd2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_fc064e87c667e58da0d68386",
+      "predicate": "Spouse Of",
+      "subjectTitle": "Shmuel Yaakov Imber",
+      "objectTitle": "Imber's wife",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c46b6430aa6520560e9c75d9",
+        "pageId": "page_nybc313875_0377",
+        "scanIndex": 377,
+        "leafNumber": 376,
+        "printedPage": null,
+        "passageCharStart": 880,
+        "passageCharEnd": 894,
+        "normalizedPassageCharStart": 653,
+        "normalizedPassageCharEnd": 663,
+        "pageCharStart": 2816,
+        "pageCharEnd": 2830,
+        "quote": "יח ד\nע ם אשת ו",
+        "normalizedQuote": "יחד עםאשתו",
+        "modelQuote": "יחד עםאשתו",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n376/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "234e27724830855113d2924742c9a522ffa0f81bfdf21ca890b1783bce5929bd",
+        "normalizedPassageChecksum": "04f9c4bf9a46742483084c546cee72add7705ec0a66569df528301d69bb23fd2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_df756538f65ba36d8e14abe1",
+      "type": "Migration",
+      "title": "Imber leaves Lviv",
+      "summary": "Imber left Lviv with his wife after the German entry in July 1941.",
+      "dateStart": "1941-07",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c46b6430aa6520560e9c75d9",
+        "pageId": "page_nybc313875_0377",
+        "scanIndex": 377,
+        "leafNumber": 376,
+        "printedPage": null,
+        "passageCharStart": 778,
+        "passageCharEnd": 830,
+        "normalizedPassageCharStart": 578,
+        "normalizedPassageCharEnd": 616,
+        "pageCharStart": 2714,
+        "pageCharEnd": 2766,
+        "quote": "ביול י 1941 , ע ם כניס ת הגרמני ם ללבוב , עז ב אימבר",
+        "normalizedQuote": "ביולי1941,עםכניסתהגרמניםללבוב,עזבאימבר",
+        "modelQuote": "ביולי1941,עםכניסתהגרמניםללבוב,עזבאימבר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n376/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "234e27724830855113d2924742c9a522ffa0f81bfdf21ca890b1783bce5929bd",
+        "normalizedPassageChecksum": "04f9c4bf9a46742483084c546cee72add7705ec0a66569df528301d69bb23fd2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_69ca276b427df43b0a2f26b1",
+      "type": "Person",
+      "title": "Shmuel Yaakov Imber",
+      "relation": "Spouse Of"
+    },
+    {
+      "id": "event_candidate_df756538f65ba36d8e14abe1",
+      "type": "Event",
+      "title": "Imber leaves Lviv",
+      "relation": "Participated In",
+      "role": "Spouse"
+    },
+    {
+      "id": "mention_69ca276b427df43b0a2f26b1",
+      "type": "Person",
+      "title": "Shmuel Yaakov Imber",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4aea7e28d688490f426dbba7",
+      "type": "Community",
+      "title": "Lviv Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_48b4be68ca897896c98cff74",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5afdf1405dcc00d24591734d",
+      "type": "Place",
+      "title": "America",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1f4e7b0bb9ae877763a59c3d",
+      "type": "Person",
+      "title": "Pavlo Tychyna",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_543cb9063eab5d8ffab61b92",
+      "type": "Place",
+      "title": "Zerezhany",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2b3c5d678a34d7f00d5471b3",
+      "type": "Place",
+      "title": "Belzec",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9f844a854ba6e3c1f26f7bcc",
+      "type": "Institution",
+      "title": "Zolochiv Jewish Hospital",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9b6be525923b3950080d906e",
+      "type": "Person",
+      "title": "Dr. Harchanika",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,111 @@
+{
+  "id": "mention_2c3d6e2da0273faddf6c18a1",
+  "type": "Institution",
+  "title": "Internal court",
+  "summary": "Court that organized internal guild disputes under a patron.",
+  "originalName": "בית־דיןפנימי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 75,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "court",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_452ed7a0aa54fe0b2a11ee5d",
+      "pageId": "page_nybc313875_0075",
+      "scanIndex": 75,
+      "leafNumber": 74,
+      "printedPage": null,
+      "passageCharStart": 384,
+      "passageCharEnd": 426,
+      "normalizedPassageCharStart": 288,
+      "normalizedPassageCharEnd": 319,
+      "pageCharStart": 384,
+      "pageCharEnd": 426,
+      "quote": "ע״ י בית ־\n\nדי ן פנימ י שבראש ו עמ ד פטרון",
+      "normalizedQuote": "ע״יבית־\n\nדיןפנימישבראשועמדפטרון",
+      "modelQuote": "ע״יבית־דיןפנימישבראשועמדפטרון",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n74/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "72cc412a94eccee5c49ab5a1de3f6b551c72eca2ca875ac1cff88682e42e8be3",
+      "normalizedPassageChecksum": "6b894c00648a9875e2476cf3797458138b7b780ef28aff026c478c2ca9c1240a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_e59aa42777d833bd6e4a9708",
+      "predicate": "Led By",
+      "subjectTitle": "Internal court",
+      "objectTitle": "Moshe Landers",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage names the role but not the individual patron.",
+      "qualifiers": {
+        "role": "patron"
+      },
+      "evidence": {
+        "passageId": "passage_452ed7a0aa54fe0b2a11ee5d",
+        "pageId": "page_nybc313875_0075",
+        "scanIndex": 75,
+        "leafNumber": 74,
+        "printedPage": null,
+        "passageCharStart": 408,
+        "passageCharEnd": 426,
+        "normalizedPassageCharStart": 305,
+        "normalizedPassageCharEnd": 319,
+        "pageCharStart": 408,
+        "pageCharEnd": 426,
+        "quote": "שבראש ו עמ ד פטרון",
+        "normalizedQuote": "שבראשועמדפטרון",
+        "modelQuote": "שבראשועמדפטרון",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n74/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "72cc412a94eccee5c49ab5a1de3f6b551c72eca2ca875ac1cff88682e42e8be3",
+        "normalizedPassageChecksum": "6b894c00648a9875e2476cf3797458138b7b780ef28aff026c478c2ca9c1240a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_NORMALIZED_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_69d947fe7cad4164e8e6c152",
+      "type": "Person",
+      "title": "Moshe Landers",
+      "relation": "Led By"
+    },
+    {
+      "id": "mention_69d947fe7cad4164e8e6c152",
+      "type": "Person",
+      "title": "Moshe Landers",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_48b4be68ca897896c98cff74",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_00f77d8390841387b931728b",
+      "type": "Organization",
+      "title": "Furriers' guild",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_57a3a65d5be2b996ce6267e6",
+      "type": "Institution",
+      "title": "Podwojewoda's court",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

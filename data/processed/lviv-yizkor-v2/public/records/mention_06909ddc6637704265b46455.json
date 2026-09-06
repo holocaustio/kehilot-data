@@ -1,0 +1,138 @@
+{
+  "id": "mention_06909ddc6637704265b46455",
+  "type": "Event",
+  "title": "Black market",
+  "summary": "Black market trading involving Christian and Jewish prisoners is described.",
+  "originalName": "השוק השחור",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 358,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "black market activity",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_eed14995cd558bbe43c97e4d",
+      "pageId": "page_nybc313875_0358",
+      "scanIndex": 358,
+      "leafNumber": 357,
+      "printedPage": null,
+      "passageCharStart": 298,
+      "passageCharEnd": 315,
+      "normalizedPassageCharStart": 224,
+      "normalizedPassageCharEnd": 238,
+      "pageCharStart": 3686,
+      "pageCharEnd": 3703,
+      "quote": "עסק י השו ק\nהשחור",
+      "normalizedQuote": "עסקיהשוק השחור",
+      "modelQuote": "עסקי השוק השחור",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n357/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "d2a7b3b8dc74c297ccd6f870de2c6d05abec13e31c9210b13d7b6538aa4217ef",
+      "normalizedPassageChecksum": "1ccfbb1b260dc49390774c838ac7ea571ac527f2aea148216347da4fcc36736c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_749be8b5e83eedc8505b0800",
+      "predicate": "Participated In",
+      "subjectTitle": "Christian prisoners",
+      "objectTitle": "Black market",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_eed14995cd558bbe43c97e4d",
+        "pageId": "page_nybc313875_0358",
+        "scanIndex": 358,
+        "leafNumber": 357,
+        "printedPage": null,
+        "passageCharStart": 263,
+        "passageCharEnd": 315,
+        "normalizedPassageCharStart": 197,
+        "normalizedPassageCharEnd": 238,
+        "pageCharStart": 3651,
+        "pageCharEnd": 3703,
+        "quote": "האסירי ם הנוצרי ם —הי ו למתווכי ם בעסק י השו ק\nהשחור",
+        "normalizedQuote": "האסיריםהנוצרים—היולמתווכיםבעסקיהשוק השחור",
+        "modelQuote": "האסירים הנוצרים—היו למתווכים בעסקי השוק השחור",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n357/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d2a7b3b8dc74c297ccd6f870de2c6d05abec13e31c9210b13d7b6538aa4217ef",
+        "normalizedPassageChecksum": "1ccfbb1b260dc49390774c838ac7ea571ac527f2aea148216347da4fcc36736c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_b8d8c0ffb2969c36f79baecb",
+      "predicate": "Participated In",
+      "subjectTitle": "Jewish prisoners",
+      "objectTitle": "Black market",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_eed14995cd558bbe43c97e4d",
+        "pageId": "page_nybc313875_0358",
+        "scanIndex": 358,
+        "leafNumber": 357,
+        "printedPage": null,
+        "passageCharStart": 318,
+        "passageCharEnd": 356,
+        "normalizedPassageCharStart": 239,
+        "normalizedPassageCharEnd": 264,
+        "pageCharStart": 3706,
+        "pageCharEnd": 3744,
+        "quote": "א ך ג ם יהודי ם רבי ם עסק ו במסח ר ז ה",
+        "normalizedQuote": "אךגםיהודיםרביםעסקובמסחרזה",
+        "modelQuote": "אך גם יהודים רבים עסקו במסחר זה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n357/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d2a7b3b8dc74c297ccd6f870de2c6d05abec13e31c9210b13d7b6538aa4217ef",
+        "normalizedPassageChecksum": "1ccfbb1b260dc49390774c838ac7ea571ac527f2aea148216347da4fcc36736c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_22f43afcc5b9e00415ed3faa",
+      "type": "Community",
+      "title": "Christian prisoners",
+      "relation": "Participated In"
+    },
+    {
+      "id": "mention_70be9878b358e5869e3d3413",
+      "type": "Community",
+      "title": "Jewish prisoners",
+      "relation": "Participated In"
+    },
+    {
+      "id": "mention_22f43afcc5b9e00415ed3faa",
+      "type": "Community",
+      "title": "Christian prisoners",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_70be9878b358e5869e3d3413",
+      "type": "Community",
+      "title": "Jewish prisoners",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f3ac37118f12c30a003fbd0",
+      "type": "Place",
+      "title": "Eastern railway",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,73 @@
+{
+  "id": "event_candidate_750dc0f0da1dba966d1cbe85",
+  "type": "Event",
+  "title": "Public burning of opponents' books in Yaroslav",
+  "summary": "Supporters of Jonathan Eibeschütz gathered after the official session and burned opponents' books publicly.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 70,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "uncertaintyNote": "The enum lacks a book-burning event type; AKTION_OR_RAID is only a broad approximation.",
+  "dateStart": "1753",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0ae37e414c4fe99b0264abd6",
+      "pageId": "page_nybc313875_0070",
+      "scanIndex": 70,
+      "leafNumber": 69,
+      "printedPage": null,
+      "passageCharStart": 830,
+      "passageCharEnd": 893,
+      "normalizedPassageCharStart": 605,
+      "normalizedPassageCharEnd": 651,
+      "pageCharStart": 2047,
+      "pageCharEnd": 2110,
+      "quote": "וב ו ביו ם\nנשרפ ו ספר י מתנגדי ו בפומב י בככ ר השו ק ש ל ירוסלב",
+      "normalizedQuote": "ובוביום נשרפוספרימתנגדיובפומביבככרהשוקשלירוסלב",
+      "modelQuote": "ובוביום נשרפוספרימתנגדיובפומביבככרהשוקשלירוסלב",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n69/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "5c237efb658037bc284cad83a377bad963c0d8bc29b48842bcc03b004c23b826",
+      "normalizedPassageChecksum": "44ade9bb3b33f406bcf6bdb541d64b762a22f8c8db9261ddbcd6613fad22c1c6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_32124c68194b87b3aa044040",
+      "type": "Place",
+      "title": "Yaroslav market square",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_157830687e5656ce8557b70e",
+      "type": "Person",
+      "title": "Jonathan Eibeschütz",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_76a993f1e94ea2adc95ef58c",
+      "type": "Organization",
+      "title": "Council of Four Lands",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_1ac56010ccdc4e35d31bf6a8",
+      "type": "Place",
+      "title": "Yaroslav",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

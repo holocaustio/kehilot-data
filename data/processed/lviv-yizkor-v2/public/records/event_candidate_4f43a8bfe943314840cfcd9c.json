@@ -1,0 +1,65 @@
+{
+  "id": "event_candidate_4f43a8bfe943314840cfcd9c",
+  "type": "Event",
+  "title": "Deportation of Lviv Jews",
+  "summary": "More than 15,000 people were transferred to an unknown destination and later reported sent to an extermination camp.",
+  "confidence": "HIGH",
+  "validation": "EXACT_NORMALIZED_OCR",
+  "scanIndex": 323,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The passage does not identify the deportees individually.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f0cfa0d7017a06dd498f5e4d",
+      "pageId": "page_nybc313875_0323",
+      "scanIndex": 323,
+      "leafNumber": 322,
+      "printedPage": null,
+      "passageCharStart": 583,
+      "passageCharEnd": 628,
+      "normalizedPassageCharStart": 435,
+      "normalizedPassageCharEnd": 471,
+      "pageCharStart": 1915,
+      "pageCharEnd": 1960,
+      "quote": "למעל ה\nמ־ 15000 נפ ש הועבר ו למקו ם בלתי־ידוע",
+      "normalizedQuote": "למעלה מ־15000נפשהועברולמקוםבלתי־ידוע",
+      "modelQuote": "למעלה מ־15000נפשהועברולמקוםבלתי־ידוע",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n322/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "f3408c93dbeb4c66f21cecfe02f077f13a3c0afbfd6e75defc68edd898890718",
+      "normalizedPassageChecksum": "387e1c169c2379ea335b84e6aa57b0726144bd1670372a5163c31b91f786b188",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_NORMALIZED_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_48b4be68ca897896c98cff74",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_cdd254902fc5f2624072f53b",
+      "type": "Community",
+      "title": "Jewry of Lviv",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_2a8ef609102388ab9dec9565",
+      "type": "Place",
+      "title": "Lodz extermination camp",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}
