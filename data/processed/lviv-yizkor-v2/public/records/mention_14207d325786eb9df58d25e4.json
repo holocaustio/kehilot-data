@@ -5,7 +5,7 @@
   "summary": "French emperor whose proclamation promised to restore a Jewish state in Palestine.",
   "originalName": "נפוליאון",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 101,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 66,
       "passageCharEnd": 98,
-      "normalizedPassageCharStart": 48,
-      "normalizedPassageCharEnd": 73,
+      "normalizedPassageCharStart": 66,
+      "normalizedPassageCharEnd": 98,
       "pageCharStart": 66,
       "pageCharEnd": 98,
       "quote": "תכנית . ארץ־ישרא ל ש ל נפוליאו ן",
-      "normalizedQuote": "תכנית.ארץ־ישראלשלנפוליאון",
+      "normalizedQuote": "תכנית . ארץ־ישרא ל ש ל נפוליאו ן",
       "modelQuote": "תכנית.ארץ־ישראלשלנפוליאון",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n100/mode/1up",
@@ -33,23 +33,56 @@
       "passageChecksum": "bdd1e4d43fa82314a5a1c9d99e69b7c8987dc68132740cc7fdcd7c3025cf09a3",
       "normalizedPassageChecksum": "3ff47fbd7717e67a7e6f187a12fb1d09754ec5dcc6e9dd49fbb5258e59ee51a5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_a16a7f65bfc81e35a40e60e0",
+      "predicate": "Participated In",
+      "subjectTitle": "Jewish community of Lviv",
+      "objectTitle": "Napoleon",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text states Jewish residents supported Napoleon, not participation in an event.",
+      "evidence": {
+        "passageId": "passage_a70d22c3a182124853b6f5df",
+        "pageId": "page_nybc313875_0101",
+        "scanIndex": 101,
+        "leafNumber": 100,
+        "printedPage": null,
+        "passageCharStart": 436,
+        "passageCharEnd": 470,
+        "normalizedPassageCharStart": 436,
+        "normalizedPassageCharEnd": 470,
+        "pageCharStart": 1473,
+        "pageCharEnd": 1507,
+        "quote": "יהוד י לבו ב הי ו בוטי ם לבפוליאון",
+        "normalizedQuote": "יהוד י לבו ב הי ו בוטי ם לבפוליאון",
+        "modelQuote": "יהודילבובהיובוטיםלבפוליאון",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n100/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "dd275a84615e860ab1f01a2dc1c0d584ffbfd269ef4cb71592e2ed391a7ebc3f",
+        "normalizedPassageChecksum": "8cde9015acc860240da8b8f93a2ad88d83f63fce88eba1a432577e8d0f1b6bdc",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Participated In"
     },
     {
-      "id": "mention_2fa82db46fb1f228b5695c9e",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
-      "title": "Galicia",
+      "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -59,21 +92,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d9ff8fee9d352cfb55811c61",
-      "type": "Place",
-      "title": "Lublin",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_073a2d76c8f60e49212986bc",
+      "id": "mention_65083f8266f369ecc9961580",
       "type": "Place",
       "title": "Zamosc",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_dde61ce9a1c325e5b464255c",
-      "type": "Place",
-      "title": "Sandomierz",
       "relation": "Appears in same passage"
     },
     {

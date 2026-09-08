@@ -5,7 +5,7 @@
   "summary": "Baian rebbe who arrived in Lviv as a war refugee in 1917.",
   "originalName": "האדמו״ר ר׳אברהםיעקבב״ריצחקמבאיאן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 239,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 346,
       "passageCharEnd": 389,
-      "normalizedPassageCharStart": 256,
-      "normalizedPassageCharEnd": 288,
+      "normalizedPassageCharStart": 346,
+      "normalizedPassageCharEnd": 389,
       "pageCharStart": 1575,
       "pageCharEnd": 1618,
       "quote": "האדמו״ ר\nר ׳ אברה ם יעק ב ב״ ר יצח ק מבאיאן",
-      "normalizedQuote": "האדמו״ר ר׳אברהםיעקבב״ריצחקמבאיאן",
+      "normalizedQuote": "האדמו״ ר\nר ׳ אברה ם יעק ב ב״ ר יצח ק מבאיאן",
       "modelQuote": "האדמו״ר ר׳אברהםיעקבב״ריצחקמבאיאן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n238/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "e09c4ae73c6a9898994fcfcd981926d51bead51fe656286a4f6f1950fb86b953",
       "normalizedPassageChecksum": "dfe3f74f97abfd2cbe8d3533b4a05d4aaab36f3b7e4d01a602ab5765409ff666",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_02a9a67e66f9ac256f8cda05",
+      "id": "claim_candidate_9cc793d4670adf9e492ad30e",
       "predicate": "Lived At",
       "subjectTitle": "Rabbi Avraham Jacob ben Rabbi Yitzhak of Baian",
       "objectTitle": "29 Legionov Street",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 392,
         "passageCharEnd": 418,
-        "normalizedPassageCharStart": 289,
-        "normalizedPassageCharEnd": 310,
+        "normalizedPassageCharStart": 392,
+        "normalizedPassageCharEnd": 418,
         "pageCharStart": 1621,
         "pageCharEnd": 1647,
         "quote": "והתיש ב ברחו ב\nלגיונו ב 29",
-        "normalizedQuote": "והתישבברחוב לגיונוב29",
+        "normalizedQuote": "והתיש ב ברחו ב\nלגיונו ב 29",
         "modelQuote": "והתישבברחוב לגיונוב29",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n238/mode/1up",
@@ -68,12 +68,46 @@
         "passageChecksum": "e09c4ae73c6a9898994fcfcd981926d51bead51fe656286a4f6f1950fb86b953",
         "normalizedPassageChecksum": "dfe3f74f97abfd2cbe8d3533b4a05d4aaab36f3b7e4d01a602ab5765409ff666",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_0bd814b3e8b73f7427fe8031",
+      "type": "Migration",
+      "title": "Baian rebbe visits Palestine",
+      "summary": "The Baian rebbe visited Palestine in 1932 and received a public welcome.",
+      "dateStart": "1932",
+      "dateEnd": "1932",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6a8a92df82c25520c861c398",
+        "pageId": "page_nybc313875_0239",
+        "scanIndex": 239,
+        "leafNumber": 238,
+        "printedPage": null,
+        "passageCharStart": 720,
+        "passageCharEnd": 759,
+        "normalizedPassageCharStart": 720,
+        "normalizedPassageCharEnd": 759,
+        "pageCharStart": 3199,
+        "pageCharEnd": 3238,
+        "quote": "בשנ ת 1932 ביק ר\nהאדמו״ ר מבאיא ן באר ץ",
+        "normalizedQuote": "בשנ ת 1932 ביק ר\nהאדמו״ ר מבאיא ן באר ץ",
+        "modelQuote": "בשנת1932ביקר האדמו״רמבאיאןבארץ",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n238/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9ecc3af357eebda14333ac490cba0a8d5fd15dcddcd12248f55217a155b5a20d",
+        "normalizedPassageChecksum": "ef01b44c92437d8cc4fea78aae0c3c640aed6340d1a81edbe14d8c6982ee4fa3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_7844706030737b6d53018bd2",
@@ -82,9 +116,16 @@
       "relation": "Lived At"
     },
     {
-      "id": "event_candidate_9f39d678c8251b939ca97b05",
+      "id": "event_candidate_02e5a00f55d8b1370fb0a645",
       "type": "Event",
       "title": "Baian rebbe arrives in Lviv",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "event_candidate_0bd814b3e8b73f7427fe8031",
+      "type": "Event",
+      "title": "Baian rebbe visits Palestine",
       "relation": "Participated In",
       "role": "Subject"
     },
@@ -113,7 +154,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -149,15 +190,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_de3c3eb9950f49802ba459c9",
-      "type": "Person",
-      "title": "Itsi-Meir",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_2905de10ab98686ace7348aa",
       "type": "Person",
       "title": "Avraham-Yosef Mintzer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f43ab9f7898269bb8da0da07",
+      "type": "Community",
+      "title": "Baian Hasidim",
       "relation": "Appears in same passage"
     }
   ],

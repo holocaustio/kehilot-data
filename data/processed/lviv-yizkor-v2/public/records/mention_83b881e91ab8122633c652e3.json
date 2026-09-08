@@ -5,7 +5,7 @@
   "summary": "Fortress reached by the envoys in Tammuz 1666.",
   "originalName": "מבצרגאליפולי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 60,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1096,
       "passageCharEnd": 1118,
-      "normalizedPassageCharStart": 794,
-      "normalizedPassageCharEnd": 813,
+      "normalizedPassageCharStart": 1096,
+      "normalizedPassageCharEnd": 1118,
       "pageCharStart": 3329,
       "pageCharEnd": 3351,
       "quote": "הגיע ו\nלמבצ ר גאליפולי",
-      "normalizedQuote": "הגיעו למבצרגאליפולי",
+      "normalizedQuote": "הגיע ו\nלמבצ ר גאליפולי",
       "modelQuote": "הגיעו למבצרגאליפולי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -33,17 +33,17 @@
       "passageChecksum": "7ada94f8f243c513cab0d58a7c2f8925a68abe06cc6c30691c9e06bf9acd5bad",
       "normalizedPassageChecksum": "a62ecf55f7a1354e85b85933bfd9014e59afb3a461c7a40e0e6efe3e8e383c54",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_3e94f3c41877a93765eecb85",
+      "id": "event_candidate_48350b882724f0830b015306",
       "type": "Migration",
       "title": "Envoys arrive at Gallipoli",
-      "summary": "The envoys reached Gallipoli fortress in Tammuz 1665.",
+      "summary": "The envoys reached Gallipoli fortress in Tammuz 1666.",
       "dateStart": "1666",
       "confidence": "MEDIUM",
       "uncertaintyNote": "The Hebrew date is not converted because the year rendering is unclear.",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 1077,
         "passageCharEnd": 1118,
-        "normalizedPassageCharStart": 781,
-        "normalizedPassageCharEnd": 813,
+        "normalizedPassageCharStart": 1077,
+        "normalizedPassageCharEnd": 1118,
         "pageCharStart": 3310,
         "pageCharEnd": 3351,
         "quote": "בחוד ש תמו ז תכ״ ו הגיע ו\nלמבצ ר גאליפולי",
-        "normalizedQuote": "בחודשתמוזתכ״והגיעו למבצרגאליפולי",
+        "normalizedQuote": "בחוד ש תמו ז תכ״ ו הגיע ו\nלמבצ ר גאליפולי",
         "modelQuote": "בחודשתמוזתכ״והגיעו למבצרגאליפולי",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -68,14 +68,14 @@
         "passageChecksum": "7ada94f8f243c513cab0d58a7c2f8925a68abe06cc6c30691c9e06bf9acd5bad",
         "normalizedPassageChecksum": "a62ecf55f7a1354e85b85933bfd9014e59afb3a461c7a40e0e6efe3e8e383c54",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_3e94f3c41877a93765eecb85",
+      "id": "event_candidate_48350b882724f0830b015306",
       "type": "Event",
       "title": "Envoys arrive at Gallipoli",
       "relation": "Occurred At"
@@ -99,12 +99,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_02f723f1a22975a97e0e1cb5",
-      "type": "Place",
-      "title": "Krakow",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_fa9390958a387b26890be2da",
       "type": "Work",
       "title": "Megaleh Amukot",
@@ -123,7 +117,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -150,6 +144,12 @@
       "id": "mention_61a5fe73e4cbc702488d7fca",
       "type": "Person",
       "title": "Aryeh-Leib ben Tzvi-Hirsch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f4c1a7600e8bfa5a8f4a3cee",
+      "type": "Place",
+      "title": "Komarno",
       "relation": "Appears in same passage"
     }
   ],

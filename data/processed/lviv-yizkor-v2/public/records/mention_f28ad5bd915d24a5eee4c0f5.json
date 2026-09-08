@@ -5,7 +5,7 @@
   "summary": "Galician Jewish administrative body established by regulation.",
   "originalName": "הנהלת־ היהודים",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 87,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 514,
       "passageCharEnd": 561,
-      "normalizedPassageCharStart": 386,
-      "normalizedPassageCharEnd": 424,
+      "normalizedPassageCharStart": 514,
+      "normalizedPassageCharEnd": 561,
       "pageCharStart": 514,
       "pageCharEnd": 561,
       "quote": "לעד ת היהודי ם בגליצי ה נקבע ה •הנהלת ־\nהיהודים",
-      "normalizedQuote": "לעדתהיהודיםבגליציהנקבעה•הנהלת־ היהודים",
+      "normalizedQuote": "לעד ת היהודי ם בגליצי ה נקבע ה •הנהלת ־\nהיהודים",
       "modelQuote": "לעדתהיהודיםבגליציהנקבעה•הנהלת־ היהודים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n86/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "2431cc1833ca7ce1e9f1ef39829a3ef7580c7a724bbe98dbc201905400c86889",
       "normalizedPassageChecksum": "8b4f537a0c7a5d2df34096d5654e185357449c87f2b61db8e595667c38c12a82",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 258,
       "passageCharEnd": 314,
-      "normalizedPassageCharStart": 191,
-      "normalizedPassageCharEnd": 236,
+      "normalizedPassageCharStart": 258,
+      "normalizedPassageCharEnd": 314,
       "pageCharStart": 3024,
       "pageCharEnd": 3080,
       "quote": "הפכ ה האדמיניסטרצי ה הזא ת לשלטו ן עצמ י\nטריטוריאל י שלם",
-      "normalizedQuote": "הפכההאדמיניסטרציההזאתלשלטוןעצמי טריטוריאלישלם",
+      "normalizedQuote": "הפכ ה האדמיניסטרצי ה הזא ת לשלטו ן עצמ י\nטריטוריאל י שלם",
       "modelQuote": "הפכההאדמיניסטרציההזאתלשלטוןעצמי טריטוריאלישלם",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n307/mode/1up",
@@ -57,13 +57,51 @@
       "passageChecksum": "d526002a475c033011c4ddbe8abfa6a1e76a6086ca26a7c821f83bacfc18b5b4",
       "normalizedPassageChecksum": "5cd8b8e286b0b3748059537b9b7e174840023e29bb5a27ead067f6ad84821a6d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_563d822f65421d78f7387ca2",
+      "predicate": "Located In",
+      "subjectTitle": "Jewish Administration",
+      "objectTitle": "Galicia",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_faed6d3a2049c709628edaf5",
+        "pageId": "page_nybc313875_0087",
+        "scanIndex": 87,
+        "leafNumber": 86,
+        "printedPage": null,
+        "passageCharStart": 514,
+        "passageCharEnd": 561,
+        "normalizedPassageCharStart": 514,
+        "normalizedPassageCharEnd": 561,
+        "pageCharStart": 514,
+        "pageCharEnd": 561,
+        "quote": "לעד ת היהודי ם בגליצי ה נקבע ה •הנהלת ־\nהיהודים",
+        "normalizedQuote": "לעד ת היהודי ם בגליצי ה נקבע ה •הנהלת ־\nהיהודים",
+        "modelQuote": "לעדתהיהודיםבגליציהנקבעה•הנהלת־ היהודים",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n86/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "2431cc1833ca7ce1e9f1ef39829a3ef7580c7a724bbe98dbc201905400c86889",
+        "normalizedPassageChecksum": "8b4f537a0c7a5d2df34096d5654e185357449c87f2b61db8e595667c38c12a82",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_14d65ca16fc8565199af0187",
+      "type": "Place",
+      "title": "Galicia",
+      "relation": "Located In"
+    },
     {
       "id": "mention_440ed87ba0d2c75a93675b9e",
       "type": "Person",
@@ -71,7 +109,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c6e0f8aa251f7cf40b2f5ed7",
+      "id": "mention_3b5f0999bb035e0cb8c8724b",
       "type": "Person",
       "title": "Maria Theresa",
       "relation": "Appears in same passage"
@@ -89,7 +127,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ff078c16fe314afc974e8200",
+      "id": "mention_ff93701c70e4d37c6fc363b1",
       "type": "Place",
       "title": "Brody",
       "relation": "Appears in same passage"
@@ -101,7 +139,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d4bbf3f2df3e8bb5efab3cc3",
+      "id": "mention_4c48cab29fa3eac580cd5912",
       "type": "Community",
       "title": "Jewish community",
       "relation": "Appears in same passage"

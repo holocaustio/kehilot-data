@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 742,
       "passageCharEnd": 756,
-      "normalizedPassageCharStart": 539,
-      "normalizedPassageCharEnd": 551,
+      "normalizedPassageCharStart": 742,
+      "normalizedPassageCharEnd": 756,
       "pageCharStart": 742,
       "pageCharEnd": 756,
       "quote": "והר ץ ברנשטיין",
-      "normalizedQuote": "והרץברנשטיין",
+      "normalizedQuote": "והר ץ ברנשטיין",
       "modelQuote": "והרץ ברנשטיין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n133/mode/1up",
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 121,
       "passageCharEnd": 135,
-      "normalizedPassageCharStart": 87,
-      "normalizedPassageCharEnd": 98,
+      "normalizedPassageCharStart": 121,
+      "normalizedPassageCharEnd": 135,
       "pageCharStart": 2727,
       "pageCharEnd": 2741,
       "quote": "הר ץ ברנשטיי ן",
-      "normalizedQuote": "הרץברנשטיין",
+      "normalizedQuote": "הר ץ ברנשטיי ן",
       "modelQuote": "הרץברנשטיין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n126/mode/1up",
@@ -57,7 +57,7 @@
       "passageChecksum": "caa2487ce3d60769d2543d00c5285e18b009a3db97921ccd5bb436d351e7cfe6",
       "normalizedPassageChecksum": "21ff40e92445a532a722e60b56b8d1d86410186273d8dc6f4eb45a1898247c64",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -68,12 +68,12 @@
       "printedPage": null,
       "passageCharStart": 917,
       "passageCharEnd": 948,
-      "normalizedPassageCharStart": 676,
-      "normalizedPassageCharEnd": 701,
+      "normalizedPassageCharStart": 917,
+      "normalizedPassageCharEnd": 948,
       "pageCharStart": 3348,
       "pageCharEnd": 3379,
       "quote": "מנהיג י האדוקי ם\nהר ץ ברנשטיי ן",
-      "normalizedQuote": "מנהיגיהאדוקים הרץברנשטיין",
+      "normalizedQuote": "מנהיג י האדוקי ם\nהר ץ ברנשטיי ן",
       "modelQuote": "מנהיגיהאדוקים הרץברנשטיין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n129/mode/1up",
@@ -81,13 +81,52 @@
       "passageChecksum": "17e21f9a652ac3ad993352dcfbfb346ed743b85e3ff59b774713aaeaa0b223c1",
       "normalizedPassageChecksum": "8f659f917986d34c7aa0e94feb9dfaff7954c0b8e8109c8bf3b753e067eb4450",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_abc90d4d1146f6c563e54643",
+      "type": "Arrest",
+      "title": "Arrests after the poisoning",
+      "summary": "Several suspects were arrested during and after the funeral.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_0fdfc72513b65a0abdd72a0c",
+        "pageId": "page_nybc313875_0134",
+        "scanIndex": 134,
+        "leafNumber": 133,
+        "printedPage": null,
+        "passageCharStart": 235,
+        "passageCharEnd": 311,
+        "normalizedPassageCharStart": 235,
+        "normalizedPassageCharEnd": 311,
+        "pageCharStart": 1457,
+        "pageCharEnd": 1533,
+        "quote": "בזמ ן ההלוי ה ואחרי ה נאסר ו ע״ י המשטר ה עו ד\nכמ ה חשודי ם בהרעל ת הר ' כהן",
+        "normalizedQuote": "בזמ ן ההלוי ה ואחרי ה נאסר ו ע״ י המשטר ה עו ד\nכמ ה חשודי ם בהרעל ת הר ' כהן",
+        "modelQuote": "בזמןההלויהואחריהנאסרוע״יהמשטרהעוד כמהחשודיםבהרעלתהר'כהן",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n133/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "f8dcfd78acaf509f1871b81d8022cbadb0f24e5250ae611a6aa9d83cfd362e2b",
+        "normalizedPassageChecksum": "59ea8a907bf6c83c46279fb1750bb0981084cf3021fee427e38e3ebe3b3c9738",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_abc90d4d1146f6c563e54643",
+      "type": "Event",
+      "title": "Arrests after the poisoning",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
     {
       "id": "mention_6c901460080cbe2d371afa38",
       "type": "Person",
@@ -191,7 +230,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -218,12 +257,6 @@
       "id": "mention_012e3e58a1d820221ee13197",
       "type": "Publication",
       "title": "Central Organ",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_88ae0af60983559d43031f79",
-      "type": "Place",
-      "title": "Vienna",
       "relation": "Appears in same passage"
     }
   ],

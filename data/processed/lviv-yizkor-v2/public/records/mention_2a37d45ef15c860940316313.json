@@ -5,7 +5,7 @@
   "summary": "A woman described as the mother of a person in the account.",
   "originalName": "צירלאטיל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 111,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 653,
       "passageCharEnd": 669,
-      "normalizedPassageCharStart": 474,
-      "normalizedPassageCharEnd": 486,
+      "normalizedPassageCharStart": 653,
+      "normalizedPassageCharEnd": 669,
       "pageCharStart": 653,
       "pageCharEnd": 669,
       "quote": "אמו , ציר ל אטיל",
-      "normalizedQuote": "אמו,צירלאטיל",
+      "normalizedQuote": "אמו , ציר ל אטיל",
       "modelQuote": "אמו,צירלאטיל",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n110/mode/1up",
@@ -32,13 +32,19 @@
       "passageChecksum": "1a58ddf041f54daa7b273ae85d757ae561ee610d12c321fd98abefa00bfa89ca",
       "normalizedPassageChecksum": "6bbcf8684d351c893c75f0be2388390d97d2c2ebe749c13f99bd5a94dfb26abf",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
   "connections": [
+    {
+      "id": "mention_ee6e0fbc9e95aba7f0dbba11",
+      "type": "Person",
+      "title": "Eliyahu Bardakh",
+      "relation": "Sibling Of"
+    },
     {
       "id": "mention_960f720f73b18e1032696f4c",
       "type": "Person",

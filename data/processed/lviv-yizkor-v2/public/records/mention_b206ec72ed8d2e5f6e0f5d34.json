@@ -5,7 +5,7 @@
   "summary": "A liturgical work performed by Zaidel in Lviv.",
   "originalName": "אמת ואמונה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 249,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 972,
       "passageCharEnd": 1005,
-      "normalizedPassageCharStart": 720,
-      "normalizedPassageCharEnd": 745,
+      "normalizedPassageCharStart": 972,
+      "normalizedPassageCharEnd": 1005,
       "pageCharStart": 4138,
       "pageCharEnd": 4171,
       "quote": "אלי ו להתענ ג ע ל ה״אמ ת\nואמונה \"",
-      "normalizedQuote": "אליולהתענגעלה״אמת ואמונה\"",
+      "normalizedQuote": "אלי ו להתענ ג ע ל ה״אמ ת\nואמונה \"",
       "modelQuote": "אליולהתענגעלה״אמת ואמונה\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n248/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "e4446c17c47c21488227089736981de25b119fec8d7acca2be21942103b7afb8",
       "normalizedPassageChecksum": "4485d58aa55a0dac4ba92d2861b1c8180dd7d6eefc1aa947e3c2302f5fa5b838",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_2573816133f72de8d9d86048",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Zaidel Rovner",
+      "objectTitle": "Truth and Faith",
+      "confidence": "MEDIUM",
+      "qualifiers": {
+        "context": "performed in Lviv"
+      },
+      "evidence": {
+        "passageId": "passage_2c956dc059d45f47d7d74652",
+        "pageId": "page_nybc313875_0249",
+        "scanIndex": 249,
+        "leafNumber": 248,
+        "printedPage": null,
+        "passageCharStart": 972,
+        "passageCharEnd": 1005,
+        "normalizedPassageCharStart": 972,
+        "normalizedPassageCharEnd": 1005,
+        "pageCharStart": 4138,
+        "pageCharEnd": 4171,
+        "quote": "אלי ו להתענ ג ע ל ה״אמ ת\nואמונה \"",
+        "normalizedQuote": "אלי ו להתענ ג ע ל ה״אמ ת\nואמונה \"",
+        "modelQuote": "אליולהתענגעלה״אמת ואמונה\"",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n248/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "e4446c17c47c21488227089736981de25b119fec8d7acca2be21942103b7afb8",
+        "normalizedPassageChecksum": "4485d58aa55a0dac4ba92d2861b1c8180dd7d6eefc1aa947e3c2302f5fa5b838",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_8b44d0d0f720c42d4c502689",
+      "type": "Person",
+      "title": "Zaidel Rovner",
+      "relation": "Mentioned In"
+    },
     {
       "id": "mention_501c8e45da9d78ba3ed5964d",
       "type": "Person",
@@ -47,7 +88,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_213ad355b77f4eb5f36c90d0",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

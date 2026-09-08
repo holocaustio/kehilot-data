@@ -5,7 +5,7 @@
   "summary": "Editor of the Khavila newspaper and forced laborer at a German war-equipment factory.",
   "originalName": "בראםאברהם",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 378,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 892,
       "passageCharEnd": 907,
-      "normalizedPassageCharStart": 661,
-      "normalizedPassageCharEnd": 672,
+      "normalizedPassageCharStart": 892,
+      "normalizedPassageCharEnd": 907,
       "pageCharStart": 892,
       "pageCharEnd": 907,
       "quote": "5 . ברא ם אברהם",
-      "normalizedQuote": "5.בראםאברהם",
+      "normalizedQuote": "5 . ברא ם אברהם",
       "modelQuote": "5.בראםאברהם",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n377/mode/1up",
@@ -32,13 +32,13 @@
       "passageChecksum": "fe92d16e578e71e1f5fb141e35936ab5be0ed941b4698055edb730f610e35d59",
       "normalizedPassageChecksum": "c33bb40ec193ea5121f91427d966d9be2601f069471fe134dc6f0cf5f474a3d8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_277d6211f49e764032df0607",
+      "id": "claim_candidate_1518251ec6d1dc56c5802e98",
       "predicate": "Murdered At",
       "subjectTitle": "Abraham Braam",
       "objectTitle": "Lviv Ghetto",
@@ -54,12 +54,12 @@
         "printedPage": null,
         "passageCharStart": 996,
         "passageCharEnd": 1016,
-        "normalizedPassageCharStart": 739,
-        "normalizedPassageCharEnd": 754,
+        "normalizedPassageCharStart": 996,
+        "normalizedPassageCharEnd": 1016,
         "pageCharStart": 996,
         "pageCharEnd": 1016,
         "quote": "נרצ ח בחיסו ל הגיט ו",
-        "normalizedQuote": "נרצחבחיסולהגיטו",
+        "normalizedQuote": "נרצ ח בחיסו ל הגיט ו",
         "modelQuote": "נרצחבחיסולהגיטו",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n377/mode/1up",
@@ -67,14 +67,14 @@
         "passageChecksum": "fe92d16e578e71e1f5fb141e35936ab5be0ed941b4698055edb730f610e35d59",
         "normalizedPassageChecksum": "c33bb40ec193ea5121f91427d966d9be2601f069471fe134dc6f0cf5f474a3d8",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [
     {
-      "id": "event_candidate_211dd62aab6f3dee5dcfba5c",
+      "id": "event_candidate_0b3581c809030575e73ad83c",
       "type": "Murder",
       "title": "Abraham Braam murdered during ghetto liquidation",
       "summary": "Abraham Braam was murdered during the Lviv ghetto liquidation in June 1943.",
@@ -89,12 +89,12 @@
         "printedPage": null,
         "passageCharStart": 996,
         "passageCharEnd": 1077,
-        "normalizedPassageCharStart": 739,
-        "normalizedPassageCharEnd": 802,
+        "normalizedPassageCharStart": 996,
+        "normalizedPassageCharEnd": 1077,
         "pageCharStart": 996,
         "pageCharEnd": 1077,
         "quote": "נרצ ח בחיסו ל הגיט ו (שבתקופת ו האחרונ ה\nנקר א ״יולאג ״ — יודן־לאגר ) ביונ י 1943",
-        "normalizedQuote": "נרצחבחיסולהגיטו(שבתקופתוהאחרונה נקרא״יולאג״—יודן־לאגר)ביוני1943",
+        "normalizedQuote": "נרצ ח בחיסו ל הגיט ו (שבתקופת ו האחרונ ה\nנקר א ״יולאג ״ — יודן־לאגר ) ביונ י 1943",
         "modelQuote": "נרצחבחיסולהגיטו(שבתקופתוהאחרונה נקרא״יולאג״—יודן־לאגר)ביוני1943",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n377/mode/1up",
@@ -102,18 +102,12 @@
         "passageChecksum": "fe92d16e578e71e1f5fb141e35936ab5be0ed941b4698055edb730f610e35d59",
         "normalizedPassageChecksum": "c33bb40ec193ea5121f91427d966d9be2601f069471fe134dc6f0cf5f474a3d8",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Worked At"
-    },
     {
       "id": "mention_b9a9ab69007818186f2012d3",
       "type": "Place",
@@ -121,7 +115,7 @@
       "relation": "Murdered At"
     },
     {
-      "id": "event_candidate_211dd62aab6f3dee5dcfba5c",
+      "id": "event_candidate_0b3581c809030575e73ad83c",
       "type": "Event",
       "title": "Abraham Braam murdered during ghetto liquidation",
       "relation": "Participated In",
@@ -131,12 +125,6 @@
       "id": "mention_8b5c1820873d3d9d7e2b378a",
       "type": "Person",
       "title": "Jacob Bodkier",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {

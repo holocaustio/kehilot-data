@@ -5,7 +5,7 @@
   "summary": "A renowned cantor and conductor who served in Lviv.",
   "originalName": "ר׳זיידל",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 250,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 696,
       "passageCharEnd": 752,
-      "normalizedPassageCharStart": 518,
-      "normalizedPassageCharEnd": 555,
+      "normalizedPassageCharStart": 696,
+      "normalizedPassageCharEnd": 752,
       "pageCharStart": 696,
       "pageCharEnd": 752,
       "quote": "ר ק מנצ ח מחונ ן כר ׳ זייד ל יכו ל הי ה להבי א א ת כול ם",
-      "normalizedQuote": "רקמנצחמחונןכר׳זיידליכולהיהלהביאאתכולם",
+      "normalizedQuote": "ר ק מנצ ח מחונ ן כר ׳ זייד ל יכו ל הי ה להבי א א ת כול ם",
       "modelQuote": "רקמנצחמחונןכר׳זיידליכולהיהלהביאאתכולם",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n249/mode/1up",
@@ -34,13 +34,13 @@
       "passageChecksum": "dae9a5e79b16357a8439473a6f23fab92660d709d65aeb5cf4b08e34c1e1973b",
       "normalizedPassageChecksum": "0118f4f6f4bf18258c07e1222e5dd2cc71f28203dc4ca67b19898462785bda60",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_9d63f90711288873af86284f",
+      "id": "claim_candidate_d05f2e7d4133a66c5573541b",
       "predicate": "Worked At",
       "subjectTitle": "Rabbi Zaidel",
       "objectTitle": "Lviv",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 778,
         "passageCharEnd": 799,
-        "normalizedPassageCharStart": 573,
-        "normalizedPassageCharEnd": 589,
+        "normalizedPassageCharStart": 778,
+        "normalizedPassageCharEnd": 799,
         "pageCharStart": 778,
         "pageCharEnd": 799,
         "quote": "תקופ ת כהונת ו בלבו ב",
-        "normalizedQuote": "תקופתכהונתובלבוב",
+        "normalizedQuote": "תקופ ת כהונת ו בלבו ב",
         "modelQuote": "תקופתכהונתובלבוב",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n249/mode/1up",
@@ -69,18 +69,57 @@
         "passageChecksum": "dae9a5e79b16357a8439473a6f23fab92660d709d65aeb5cf4b08e34c1e1973b",
         "normalizedPassageChecksum": "0118f4f6f4bf18258c07e1222e5dd2cc71f28203dc4ca67b19898462785bda60",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_e4961ed6f98f75d212980507",
+      "type": "Employment",
+      "title": "Rabbi Zaidel’s service in Lviv",
+      "summary": "Rabbi Zaidel served as a cantor in Lviv for seven years.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_964bb6d7a3c0f7fac06680b5",
+        "pageId": "page_nybc313875_0250",
+        "scanIndex": 250,
+        "leafNumber": 249,
+        "printedPage": null,
+        "passageCharStart": 367,
+        "passageCharEnd": 389,
+        "normalizedPassageCharStart": 367,
+        "normalizedPassageCharEnd": 389,
+        "pageCharStart": 1446,
+        "pageCharEnd": 1468,
+        "quote": "שב ע שני ם כיה ן בלבוב",
+        "normalizedQuote": "שב ע שני ם כיה ן בלבוב",
+        "modelQuote": "שבעשניםכיהןבלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n249/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "6a9d590615ce9233c71df813b58b7f25cbac2e40c4e860735258b0d95d82d7b0",
+        "normalizedPassageChecksum": "f37b89fbbb97eb22a0e405dfec0aafa60bd33216a600159a2cd8269eb037ce54",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Worked At"
+    },
+    {
+      "id": "event_candidate_e4961ed6f98f75d212980507",
+      "type": "Event",
+      "title": "Rabbi Zaidel’s service in Lviv",
+      "relation": "Participated In",
+      "role": "Employee"
     },
     {
       "id": "mention_9ce61c1cf5e6364ef704a739",
@@ -89,7 +128,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

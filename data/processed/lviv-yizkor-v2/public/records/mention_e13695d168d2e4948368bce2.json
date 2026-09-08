@@ -5,7 +5,7 @@
   "summary": "Emperor Wilhelm II of Germany.",
   "originalName": "וילהלם11",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 172,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -22,11 +22,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 19,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 15,
+      "normalizedPassageCharEnd": 19,
       "pageCharStart": 2730,
       "pageCharEnd": 2749,
       "quote": "הקיסרי ם וילהל ם 11",
-      "normalizedQuote": "הקיסריםוילהלם11",
+      "normalizedQuote": "הקיסרי ם וילהל ם 11",
       "modelQuote": "הקיסריםוילהלם11",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n171/mode/1up",
@@ -34,19 +34,13 @@
       "passageChecksum": "d4f17f934ac9263bd2d99e77e136a26396faa5aee9ac544524b860a760db43b0",
       "normalizedPassageChecksum": "21fe75fd7b7f836d921919d3d1747d31906f81c15667355ab9858040cdc138d9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_5a566ad7a26bc152b30d9414",
-      "type": "Person",
-      "title": "Franz Joseph I",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_20d0499baaa62bb4d235db10",
       "type": "Person",
@@ -84,7 +78,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2fa82db46fb1f228b5695c9e",
+      "id": "mention_14d65ca16fc8565199af0187",
       "type": "Place",
       "title": "Galicia",
       "relation": "Appears in same passage"
@@ -111,6 +105,12 @@
       "id": "mention_e758da209442b4ae7d9ef415",
       "type": "Organization",
       "title": "Zionists in Galicia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b8ef65a89cf322f964074d9a",
+      "type": "Organization",
+      "title": "Relief Committee",
       "relation": "Appears in same passage"
     }
   ],

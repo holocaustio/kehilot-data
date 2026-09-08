@@ -5,7 +5,7 @@
   "summary": "Opened a printing press in Lviv in 1839.",
   "originalName": "ר׳יהודהליבבלבן מברוד",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 273,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 703,
       "passageCharEnd": 769,
-      "normalizedPassageCharStart": 510,
-      "normalizedPassageCharEnd": 556,
+      "normalizedPassageCharStart": 703,
+      "normalizedPassageCharEnd": 769,
       "pageCharStart": 3325,
       "pageCharEnd": 3391,
       "quote": "הדפו ס ש ל התורנ י ר ׳ יהוד ה לי ב בלב ן\nמברוד י נפת ח בשנ ת תק״ ץ",
-      "normalizedQuote": "הדפוסשלהתורניר׳יהודהליבבלבן מברודינפתחבשנתתק״ץ",
+      "normalizedQuote": "הדפו ס ש ל התורנ י ר ׳ יהוד ה לי ב בלב ן\nמברוד י נפת ח בשנ ת תק״ ץ",
       "modelQuote": "הדפוסשלהתורניר׳יהודהליבבלבן מברודינפתחבשנתתק״ץ",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n272/mode/1up",
@@ -34,14 +34,14 @@
       "passageChecksum": "051575ad70037a5335dede0a4feecbadb0c2e75c8a0d4027129e7dd808729294",
       "normalizedPassageChecksum": "1e32da6413382434bfce94ff36cda1136e2bd755bfbc67fe182d62c67defd1d7",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_91bf98517f170efe9ea75509",
+      "id": "event_candidate_f4a366028a8dcffc7e7576fd",
       "type": "Business Opening",
       "title": "Blan printing press opened",
       "summary": "Yehuda Liebel Blan opened a printing press in 1839.",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 752,
         "passageCharEnd": 778,
-        "normalizedPassageCharStart": 544,
-        "normalizedPassageCharEnd": 562,
+        "normalizedPassageCharStart": 752,
+        "normalizedPassageCharEnd": 778,
         "pageCharStart": 3374,
         "pageCharEnd": 3400,
         "quote": "נפת ח בשנ ת תק״ ץ ( 1839 )",
-        "normalizedQuote": "נפתחבשנתתק״ץ(1839)",
+        "normalizedQuote": "נפת ח בשנ ת תק״ ץ ( 1839 )",
         "modelQuote": "נפתחבשנתתק״ץ(1839)",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n272/mode/1up",
@@ -69,14 +69,14 @@
         "passageChecksum": "051575ad70037a5335dede0a4feecbadb0c2e75c8a0d4027129e7dd808729294",
         "normalizedPassageChecksum": "1e32da6413382434bfce94ff36cda1136e2bd755bfbc67fe182d62c67defd1d7",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_91bf98517f170efe9ea75509",
+      "id": "event_candidate_f4a366028a8dcffc7e7576fd",
       "type": "Event",
       "title": "Blan printing press opened",
       "relation": "Participated In",
@@ -116,12 +116,6 @@
       "id": "mention_b268c994d6589347fe96abb2",
       "type": "Person",
       "title": "Liebush Blan",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
       "relation": "Appears in same passage"
     }
   ],

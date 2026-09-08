@@ -5,7 +5,7 @@
   "summary": "Milc is described as the location of a major deportation in March 1942.",
   "originalName": "מילץ",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 321,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 656,
       "passageCharEnd": 666,
-      "normalizedPassageCharStart": 496,
-      "normalizedPassageCharEnd": 505,
+      "normalizedPassageCharStart": 656,
+      "normalizedPassageCharEnd": 666,
       "pageCharStart": 1359,
       "pageCharEnd": 1369,
       "quote": "בעי ר\nמילץ",
-      "normalizedQuote": "בעיר מילץ",
+      "normalizedQuote": "בעי ר\nמילץ",
       "modelQuote": "בעיר מילץ",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n320/mode/1up",
@@ -34,14 +34,14 @@
       "passageChecksum": "a79090ba3354ffeb407333805bcb6743d7f7e80864db4a7bcafd46452e7c6169",
       "normalizedPassageChecksum": "12575e93f0ecbd38140d3b7d6ffb6bad937d8e98957b15b60912b69a9acae3c1",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_dbb78decff2e546350180ea0",
+      "id": "event_candidate_b0211346d0395048a165ed6f",
       "type": "Deportation",
       "title": "First major deportation in Western Galicia",
       "summary": "A major deportation was carried out in Milc in March 1942.",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 598,
         "passageCharEnd": 666,
-        "normalizedPassageCharStart": 452,
-        "normalizedPassageCharEnd": 505,
+        "normalizedPassageCharStart": 598,
+        "normalizedPassageCharEnd": 666,
         "pageCharStart": 1301,
         "pageCharEnd": 1369,
         "quote": "במר ס 1942\nבוצ ע הגירו ש הגדו ל הראשו ן בגליצי ה המערבי ת בעי ר\nמילץ",
-        "normalizedQuote": "במרס1942 בוצעהגירושהגדולהראשוןבגליציההמערביתבעיר מילץ",
+        "normalizedQuote": "במר ס 1942\nבוצ ע הגירו ש הגדו ל הראשו ן בגליצי ה המערבי ת בעי ר\nמילץ",
         "modelQuote": "במרס1942 בוצעהגירושהגדולהראשוןבגליציההמערביתבעיר מילץ",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n320/mode/1up",
@@ -69,28 +69,22 @@
         "passageChecksum": "a79090ba3354ffeb407333805bcb6743d7f7e80864db4a7bcafd46452e7c6169",
         "normalizedPassageChecksum": "12575e93f0ecbd38140d3b7d6ffb6bad937d8e98957b15b60912b69a9acae3c1",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_dbb78decff2e546350180ea0",
+      "id": "event_candidate_b0211346d0395048a165ed6f",
       "type": "Event",
       "title": "First major deportation in Western Galicia",
       "relation": "Occurred At"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_ab8f18d6a1ad23d9a48d1653",
       "type": "Community",
       "title": "Jewish community of Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e3d1df84d4f203128952be27",
-      "type": "Place",
-      "title": "Berlin",
       "relation": "Appears in same passage"
     },
     {
@@ -106,7 +100,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

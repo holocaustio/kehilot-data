@@ -5,7 +5,7 @@
   "summary": "Rabbi and yeshiva head memorialized as a martyr in Lviv.",
   "originalName": "מוה׳אליעזרבןמוה׳אשר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 289,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 111,
       "passageCharEnd": 139,
-      "normalizedPassageCharStart": 77,
-      "normalizedPassageCharEnd": 96,
+      "normalizedPassageCharStart": 111,
+      "normalizedPassageCharEnd": 139,
       "pageCharStart": 1249,
       "pageCharEnd": 1277,
       "quote": "מוה ׳ אליעז ר ב ן מוה ׳ אש ר",
-      "normalizedQuote": "מוה׳אליעזרבןמוה׳אשר",
+      "normalizedQuote": "מוה ׳ אליעז ר ב ן מוה ׳ אש ר",
       "modelQuote": "מוה׳אליעזרבןמוה׳אשר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n288/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "0328d5a57a06f8dc26802924bbeef77920f86fd195fa2faab6302124d8c64de4",
       "normalizedPassageChecksum": "96d980d0a7a93dfcf8ad8ac34405ce80f1a6cef735a981d4db45795bd990656a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_79947b09a888a5cbb12f69c1",
+      "id": "claim_candidate_a3c95fc253b3e30f77a72c51",
       "predicate": "Worked At",
       "subjectTitle": "Eliezer son of Asher",
       "objectTitle": "Yeshiva",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 91,
         "passageCharEnd": 110,
-        "normalizedPassageCharStart": 62,
-        "normalizedPassageCharEnd": 77,
+        "normalizedPassageCharStart": 91,
+        "normalizedPassageCharEnd": 110,
         "pageCharStart": 1229,
         "pageCharEnd": 1248,
         "quote": "רי ש מתיבת א\nהגאו ן",
-        "normalizedQuote": "רישמתיבתא הגאון",
+        "normalizedQuote": "רי ש מתיבת א\nהגאו ן",
         "modelQuote": "רישמתיבתא הגאון",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n288/mode/1up",
@@ -65,13 +65,52 @@
         "passageChecksum": "0328d5a57a06f8dc26802924bbeef77920f86fd195fa2faab6302124d8c64de4",
         "normalizedPassageChecksum": "96d980d0a7a93dfcf8ad8ac34405ce80f1a6cef735a981d4db45795bd990656a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_79195d204e86a87b8cd9551d",
+      "type": "Murder",
+      "title": "Martyrdom of Eliezer son of Asher",
+      "summary": "Eliezer son of Asher was killed by persecutors in Lviv on 8 Iyar.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_07cda9456c42c05e74f1f5df",
+        "pageId": "page_nybc313875_0289",
+        "scanIndex": 289,
+        "leafNumber": 288,
+        "printedPage": null,
+        "passageCharStart": 145,
+        "passageCharEnd": 213,
+        "normalizedPassageCharStart": 145,
+        "normalizedPassageCharEnd": 213,
+        "pageCharStart": 1283,
+        "pageCharEnd": 1351,
+        "quote": "נהר ג ע״ י הפוחזי ם ביו ם השב ת קוד ש ח ׳ איי ר תכ״ ד\nפ ה ק״ ק לבו ב",
+        "normalizedQuote": "נהר ג ע״ י הפוחזי ם ביו ם השב ת קוד ש ח ׳ איי ר תכ״ ד\nפ ה ק״ ק לבו ב",
+        "modelQuote": "נהרגע״יהפוחזיםביוםהשבתקודשח׳איירתכ״ד פהק״קלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n288/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "0328d5a57a06f8dc26802924bbeef77920f86fd195fa2faab6302124d8c64de4",
+        "normalizedPassageChecksum": "96d980d0a7a93dfcf8ad8ac34405ce80f1a6cef735a981d4db45795bd990656a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_79195d204e86a87b8cd9551d",
+      "type": "Event",
+      "title": "Martyrdom of Eliezer son of Asher",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
     {
       "id": "mention_cec33d514eadd85bd231ee51",
       "type": "Person",

@@ -5,7 +5,7 @@
   "summary": "Jewish congregation located within the city.",
   "originalName": "קהלהאחת בתוך־העיר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 256,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1099,
       "passageCharEnd": 1119,
-      "normalizedPassageCharStart": 843,
-      "normalizedPassageCharEnd": 860,
+      "normalizedPassageCharStart": 1099,
+      "normalizedPassageCharEnd": 1119,
       "pageCharStart": 1099,
       "pageCharEnd": 1119,
       "quote": "קהל ה אח ת\nבתוך־העיר",
-      "normalizedQuote": "קהלהאחת בתוך־העיר",
+      "normalizedQuote": "קהל ה אח ת\nבתוך־העיר",
       "modelQuote": "קהלהאחת בתוך־העיר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n255/mode/1up",
@@ -33,18 +33,50 @@
       "passageChecksum": "d92efee51334f98ef2136f754ea54a8ebe7ef88dded8c8bf496cc77674d4888a",
       "normalizedPassageChecksum": "514996a1d3b7eca209dac913fe77db96cdb74b83f922dd0eba668217e7cc22f3",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c9a7c74e82148303520185f3",
+      "predicate": "Located In",
+      "subjectTitle": "Inner-City Jewish Congregation",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_364bec12ce5d7e1629ddf449",
+        "pageId": "page_nybc313875_0256",
+        "scanIndex": 256,
+        "leafNumber": 255,
+        "printedPage": null,
+        "passageCharStart": 1099,
+        "passageCharEnd": 1119,
+        "normalizedPassageCharStart": 1099,
+        "normalizedPassageCharEnd": 1119,
+        "pageCharStart": 1099,
+        "pageCharEnd": 1119,
+        "quote": "קהל ה אח ת\nבתוך־העיר",
+        "normalizedQuote": "קהל ה אח ת\nבתוך־העיר",
+        "modelQuote": "קהלהאחת בתוך־העיר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n255/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d92efee51334f98ef2136f754ea54a8ebe7ef88dded8c8bf496cc77674d4888a",
+        "normalizedPassageChecksum": "514996a1d3b7eca209dac913fe77db96cdb74b83f922dd0eba668217e7cc22f3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_7c0bb1fbbb6ce44c5eb21d6b",
-      "type": "Place",
-      "title": "Zolkiew Street",
-      "relation": "Appears in same passage"
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Located In"
     },
     {
       "id": "mention_b51942d3fd0e5d6eb858c862",

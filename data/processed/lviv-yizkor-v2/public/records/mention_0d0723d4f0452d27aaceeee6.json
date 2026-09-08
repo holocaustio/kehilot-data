@@ -5,7 +5,7 @@
   "summary": "Christian musicians performed in churches.",
   "originalName": "בכנסיות",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 44,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 256,
       "passageCharEnd": 264,
-      "normalizedPassageCharStart": 192,
-      "normalizedPassageCharEnd": 199,
+      "normalizedPassageCharStart": 256,
+      "normalizedPassageCharEnd": 264,
       "pageCharStart": 256,
       "pageCharEnd": 264,
       "quote": "בכנסיו ת",
-      "normalizedQuote": "בכנסיות",
+      "normalizedQuote": "בכנסיו ת",
       "modelQuote": "בכנסיות",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n43/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "60dd0e7cdce70f8b2afdcdfe09ed98e475a035cd54fff8b8630edd7eaf28752c",
       "normalizedPassageChecksum": "94932e0e6faa9fab7901e175ada621207538e595deba4343ed6fb620ad159225",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -41,7 +41,7 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -56,12 +56,6 @@
       "id": "mention_00123c7cd2790b344080840c",
       "type": "Organization",
       "title": "Christian Musicians' Association",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_cc14edcb29851e3a7b1793a3",
-      "type": "Institution",
-      "title": "Municipality",
       "relation": "Appears in same passage"
     }
   ],

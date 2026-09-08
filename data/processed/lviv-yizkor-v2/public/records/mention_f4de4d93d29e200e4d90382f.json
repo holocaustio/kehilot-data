@@ -5,7 +5,7 @@
   "summary": "Railway bridge where guards selected Jews during relocation.",
   "originalName": "גשרהמוות",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 316,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1690,
       "passageCharEnd": 1702,
-      "normalizedPassageCharStart": 1259,
-      "normalizedPassageCharEnd": 1269,
+      "normalizedPassageCharStart": 1690,
+      "normalizedPassageCharEnd": 1702,
       "pageCharStart": 1761,
       "pageCharEnd": 1773,
       "quote": "\"גש ר המוות\"",
-      "normalizedQuote": "\"גשרהמוות\"",
+      "normalizedQuote": "\"גש ר המוות\"",
       "modelQuote": "\"גשרהמוות\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n315/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "ba128d5701ee15a0f3f803f95c388bb57d2627565d1178b3b55371c432de625c",
       "normalizedPassageChecksum": "9f2183dc9e5331722392a2a8370ea02fe2f4e6482e21a7e800335880e454a0db",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 562,
       "passageCharEnd": 582,
-      "normalizedPassageCharStart": 424,
-      "normalizedPassageCharEnd": 439,
+      "normalizedPassageCharStart": 562,
+      "normalizedPassageCharEnd": 582,
       "pageCharStart": 2446,
       "pageCharEnd": 2466,
       "quote": "באקצי ת \"גש ר המות \"",
-      "normalizedQuote": "באקצית\"גשרהמות\"",
+      "normalizedQuote": "באקצי ת \"גש ר המות \"",
       "modelQuote": "באקצית\"גשרהמות\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n315/mode/1up",
@@ -57,14 +57,47 @@
       "passageChecksum": "9159a8c2f65cbdb2b6919b990bd440b8c8e0182579038aafcfa20e69ffcba7e5",
       "normalizedPassageChecksum": "292fc58051c71448272e5f983df102636e664cc748e8a151c1f3a60a60037114",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_9aed2d46b4ff125e1390615b",
+      "predicate": "Located In",
+      "subjectTitle": "Bridge of Death",
+      "objectTitle": "Lviv",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The surrounding sentence discusses Lviv, but the bridge's location is not stated in the same clause.",
+      "evidence": {
+        "passageId": "passage_e392e7ca6ff553e30ecad5ba",
+        "pageId": "page_nybc313875_0316",
+        "scanIndex": 316,
+        "leafNumber": 315,
+        "printedPage": null,
+        "passageCharStart": 562,
+        "passageCharEnd": 607,
+        "normalizedPassageCharStart": 562,
+        "normalizedPassageCharEnd": 607,
+        "pageCharStart": 2446,
+        "pageCharEnd": 2491,
+        "quote": "באקצי ת \"גש ר המות \" חי י\nאלפ י נפשו ת מישראל",
+        "normalizedQuote": "באקצי ת \"גש ר המות \" חי י\nאלפ י נפשו ת מישראל",
+        "modelQuote": "באקצית\"גשרהמות\"חיי אלפינפשותמישראל",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n315/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9159a8c2f65cbdb2b6919b990bd440b8c8e0182579038aafcfa20e69ffcba7e5",
+        "normalizedPassageChecksum": "292fc58051c71448272e5f983df102636e664cc748e8a151c1f3a60a60037114",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [
     {
-      "id": "event_candidate_843063cbd41007826b6ec091",
+      "id": "event_candidate_b475bae9af0098e83f7d9c06",
       "type": "Aktion Or Raid",
       "title": "Bridge of Death mass action",
       "summary": "An action at the Bridge of Death killed thousands, including many women.",
@@ -77,12 +110,12 @@
         "printedPage": null,
         "passageCharStart": 562,
         "passageCharEnd": 628,
-        "normalizedPassageCharStart": 424,
-        "normalizedPassageCharEnd": 473,
+        "normalizedPassageCharStart": 562,
+        "normalizedPassageCharEnd": 628,
         "pageCharStart": 2446,
         "pageCharEnd": 2512,
         "quote": "באקצי ת \"גש ר המות \" חי י\nאלפ י נפשו ת מישראל , ביניה ם נשי ם רבות",
-        "normalizedQuote": "באקצית\"גשרהמות\"חיי אלפינפשותמישראל,ביניהםנשיםרבות",
+        "normalizedQuote": "באקצי ת \"גש ר המות \" חי י\nאלפ י נפשו ת מישראל , ביניה ם נשי ם רבות",
         "modelQuote": "באקצית\"גשרהמות\"חיי אלפינפשותמישראל,ביניהםנשיםרבות",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n315/mode/1up",
@@ -90,14 +123,14 @@
         "passageChecksum": "9159a8c2f65cbdb2b6919b990bd440b8c8e0182579038aafcfa20e69ffcba7e5",
         "normalizedPassageChecksum": "292fc58051c71448272e5f983df102636e664cc748e8a151c1f3a60a60037114",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -118,12 +151,6 @@
       "id": "mention_07176b69550761959ee891e9",
       "type": "Place",
       "title": "Kleparovska Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e384b41da1eff363cf608819",
-      "type": "Place",
-      "title": "Feltevna Street",
       "relation": "Appears in same passage"
     },
     {
@@ -151,7 +178,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "event_candidate_843063cbd41007826b6ec091",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Located In"
+    },
+    {
+      "id": "event_candidate_b475bae9af0098e83f7d9c06",
       "type": "Event",
       "title": "Bridge of Death mass action",
       "relation": "Occurred At"

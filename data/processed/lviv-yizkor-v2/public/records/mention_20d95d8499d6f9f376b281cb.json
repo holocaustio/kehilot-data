@@ -5,7 +5,7 @@
   "summary": "Deputy chair of the Heikhal administration before World War I.",
   "originalName": "יונהארליך",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 223,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 344,
       "passageCharEnd": 363,
-      "normalizedPassageCharStart": 252,
-      "normalizedPassageCharEnd": 266,
+      "normalizedPassageCharStart": 344,
+      "normalizedPassageCharEnd": 363,
       "pageCharStart": 1494,
       "pageCharEnd": 1513,
       "quote": "סגנ ו — יונ ה ארליך",
-      "normalizedQuote": "סגנו—יונהארליך",
+      "normalizedQuote": "סגנ ו — יונ ה ארליך",
       "modelQuote": "סגנו—יונהארליך",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n222/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "0874565fe2e319f368a7a9aecfea0aa79f578438012cda8c93854ba59b3df83a",
       "normalizedPassageChecksum": "1039d0a4f2beb99c5549d9dee74d8d20643b557175183fa14c01467aa7137a46",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_8be081aa44516df1968ff59a",
+      "id": "claim_candidate_a18386273e62dfb51e8e3f15",
       "predicate": "Member Of",
       "subjectTitle": "Yona Ehrlich",
       "objectTitle": "Heikhal",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 344,
         "passageCharEnd": 363,
-        "normalizedPassageCharStart": 252,
-        "normalizedPassageCharEnd": 266,
+        "normalizedPassageCharStart": 344,
+        "normalizedPassageCharEnd": 363,
         "pageCharStart": 1494,
         "pageCharEnd": 1513,
         "quote": "סגנ ו — יונ ה ארליך",
-        "normalizedQuote": "סגנו—יונהארליך",
+        "normalizedQuote": "סגנ ו — יונ ה ארליך",
         "modelQuote": "סגנו—יונהארליך",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n222/mode/1up",
@@ -68,7 +68,42 @@
         "passageChecksum": "0874565fe2e319f368a7a9aecfea0aa79f578438012cda8c93854ba59b3df83a",
         "normalizedPassageChecksum": "1039d0a4f2beb99c5549d9dee74d8d20643b557175183fa14c01467aa7137a46",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_ae76d98ebe237bfca62ccfe7",
+      "predicate": "Lived At",
+      "subjectTitle": "Yona Ehrlich",
+      "objectTitle": "Vienna",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage states that several administrators settled in Vienna, but the list-to-person mapping is somewhat compressed.",
+      "qualifiers": {
+        "context": "during the war"
+      },
+      "evidence": {
+        "passageId": "passage_b7959a78f86c669454e605a9",
+        "pageId": "page_nybc313875_0223",
+        "scanIndex": 223,
+        "leafNumber": 222,
+        "printedPage": null,
+        "passageCharStart": 1017,
+        "passageCharEnd": 1029,
+        "normalizedPassageCharStart": 1017,
+        "normalizedPassageCharEnd": 1029,
+        "pageCharStart": 3290,
+        "pageCharEnd": 3302,
+        "quote": "יונ ה אהרליך",
+        "normalizedQuote": "יונ ה אהרליך",
+        "modelQuote": "יונהאהרליך",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n222/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "f56ba8473bc30f92bfeffe125a9cc589b4bcf80f4c0f93980ec9d60fa7f469fd",
+        "normalizedPassageChecksum": "548014b291a009bdff8fc9d55bb583735b5414a6f67b55d56d3c18ff0b31fd45",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -76,10 +111,16 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_b06b9150b3bb4b2fb6f07781",
+      "id": "mention_f70bead11af82fa9e6a85163",
       "type": "Institution",
-      "title": "Heikhal",
+      "title": "Heichal Synagogue",
       "relation": "Member Of"
+    },
+    {
+      "id": "mention_88ae0af60983559d43031f79",
+      "type": "Place",
+      "title": "Vienna",
+      "relation": "Lived At"
     },
     {
       "id": "mention_aabba00f0ef688285088eb36",
@@ -94,9 +135,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b06b9150b3bb4b2fb6f07781",
+      "id": "mention_f70bead11af82fa9e6a85163",
       "type": "Institution",
-      "title": "Heikhal",
+      "title": "Heichal Synagogue",
       "relation": "Appears in same passage"
     },
     {

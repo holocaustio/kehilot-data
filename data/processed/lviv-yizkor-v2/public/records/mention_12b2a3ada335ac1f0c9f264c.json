@@ -5,7 +5,7 @@
   "summary": "A learned and virtuous man whose prayer moved those around him.",
   "originalName": "ר׳ליפא־מאנלי קונסט",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 236,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 237,
       "passageCharEnd": 289,
-      "normalizedPassageCharStart": 179,
-      "normalizedPassageCharEnd": 218,
+      "normalizedPassageCharStart": 237,
+      "normalizedPassageCharEnd": 289,
       "pageCharStart": 4092,
       "pageCharEnd": 4144,
       "quote": "ר ׳ ליפא־מאנל י\nקונסט , יהוד י בע ל מדו ת ות״ ח גדול",
-      "normalizedQuote": "ר׳ליפא־מאנלי קונסט,יהודיבעלמדותות״חגדול",
+      "normalizedQuote": "ר ׳ ליפא־מאנל י\nקונסט , יהוד י בע ל מדו ת ות״ ח גדול",
       "modelQuote": "ר׳ליפא־מאנלי קונסט,יהודיבעלמדותות״חגדול",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n235/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "191d49d8cab26113132b24f5bc373e3af7144c06100aadd743a6af976b9e983f",
       "normalizedPassageChecksum": "5280727b20d0a9d75293a7dd5cba84e877815d523d063f40fd6b03584d326c41",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_fe0920ab20e460c7faf110d4",
+      "predicate": "Participated In",
+      "subjectTitle": "Rabbi Lipa-Manli Konst",
+      "objectTitle": "Zhidachov Memorial Synagogue",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_750cef475873179aafd42d93",
+        "pageId": "page_nybc313875_0236",
+        "scanIndex": 236,
+        "leafNumber": 235,
+        "printedPage": null,
+        "passageCharStart": 226,
+        "passageCharEnd": 299,
+        "normalizedPassageCharStart": 226,
+        "normalizedPassageCharEnd": 299,
+        "pageCharStart": 4081,
+        "pageCharEnd": 4154,
+        "quote": "כאש ר עמ ד ר ׳ ליפא־מאנל י\nקונסט , יהוד י בע ל מדו ת ות״ ח גדול , והתפל ל",
+        "normalizedQuote": "כאש ר עמ ד ר ׳ ליפא־מאנל י\nקונסט , יהוד י בע ל מדו ת ות״ ח גדול , והתפל ל",
+        "modelQuote": "כאשרעמדר׳ליפא־מאנלי קונסט,יהודיבעלמדותות״חגדול,והתפלל",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n235/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "191d49d8cab26113132b24f5bc373e3af7144c06100aadd743a6af976b9e983f",
+        "normalizedPassageChecksum": "5280727b20d0a9d75293a7dd5cba84e877815d523d063f40fd6b03584d326c41",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_d46942f082661385fc4d1d63",
+      "type": "Institution",
+      "title": "Zhidachov Memorial Synagogue",
+      "relation": "Participated In"
+    },
     {
       "id": "mention_655fb07ae5c9422ea5736f36",
       "type": "Person",

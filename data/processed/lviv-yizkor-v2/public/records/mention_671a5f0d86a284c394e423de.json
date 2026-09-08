@@ -5,7 +5,7 @@
   "summary": "Teacher at the Krakow district school.",
   "originalName": "מאיראפשטין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 96,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 306,
       "passageCharEnd": 392,
-      "normalizedPassageCharStart": 220,
-      "normalizedPassageCharEnd": 286,
+      "normalizedPassageCharStart": 306,
+      "normalizedPassageCharEnd": 392,
       "pageCharStart": 2509,
       "pageCharEnd": 2595,
       "quote": "מאי ר אפשטי ן\n( 200 פלורין ) לו י פופ ר ( 200 פלורין ) שביה ם בבית ־\nהספ ר ברובע־קרקוב",
-      "normalizedQuote": "מאיראפשטין (200פלורין)לויפופר(200פלורין)שביהםבבית־ הספרברובע־קרקוב",
+      "normalizedQuote": "מאי ר אפשטי ן\n( 200 פלורין ) לו י פופ ר ( 200 פלורין ) שביה ם בבית ־\nהספ ר ברובע־קרקוב",
       "modelQuote": "מאיראפשטין (200פלורין)לויפופר(200פלורין)שביהםבבית־ הספרברובע־קרקוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n95/mode/1up",
@@ -32,13 +32,55 @@
       "passageChecksum": "17dfd124a220fbf0f163c23728a10fca4dd17fc144335725f78057ca0d356c59",
       "normalizedPassageChecksum": "6b7c2f605782455d2fa670886627c99bcb1a0884b3337a8cfce401dd9ee48b5e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_57bcfc1a80475e86337a8161",
+      "predicate": "Worked At",
+      "subjectTitle": "Meir Epstein",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "teacher",
+        "district": "Krakow"
+      },
+      "evidence": {
+        "passageId": "passage_93a0e419ad72c949ed4d1d23",
+        "pageId": "page_nybc313875_0096",
+        "scanIndex": 96,
+        "leafNumber": 95,
+        "printedPage": null,
+        "passageCharStart": 306,
+        "passageCharEnd": 334,
+        "normalizedPassageCharStart": 306,
+        "normalizedPassageCharEnd": 334,
+        "pageCharStart": 2509,
+        "pageCharEnd": 2537,
+        "quote": "מאי ר אפשטי ן\n( 200 פלורין )",
+        "normalizedQuote": "מאי ר אפשטי ן\n( 200 פלורין )",
+        "modelQuote": "מאיראפשטין (200פלורין)",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n95/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "17dfd124a220fbf0f163c23728a10fca4dd17fc144335725f78057ca0d356c59",
+        "normalizedPassageChecksum": "6b7c2f605782455d2fa670886627c99bcb1a0884b3337a8cfce401dd9ee48b5e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Worked At"
+    },
     {
       "id": "mention_880be3966f9e553b038dbb87",
       "type": "Person",
@@ -70,7 +112,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_59e75fc0a7d2a9e22667976b",
+      "id": "mention_f7589cbfdeb75c96908ce4af",
       "type": "Person",
       "title": "Homberg",
       "relation": "Appears in same passage"

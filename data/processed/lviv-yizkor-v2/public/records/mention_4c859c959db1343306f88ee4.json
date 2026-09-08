@@ -5,7 +5,7 @@
   "summary": "Person identified as Yosef Teomim's father-in-law.",
   "originalName": "ר׳אליקוםמקומרנא",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 208,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 206,
       "passageCharEnd": 240,
-      "normalizedPassageCharStart": 150,
-      "normalizedPassageCharEnd": 174,
+      "normalizedPassageCharStart": 206,
+      "normalizedPassageCharEnd": 240,
       "pageCharStart": 3075,
       "pageCharEnd": 3109,
       "quote": "התחת ן ע ם ב ת ר ׳ אליקו ם מקומרנא",
-      "normalizedQuote": "התחתןעםבתר׳אליקוםמקומרנא",
+      "normalizedQuote": "התחת ן ע ם ב ת ר ׳ אליקו ם מקומרנא",
       "modelQuote": "התחתןעםבתר׳אליקוםמקומרנא",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n207/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "b77218095fe0e581766ca5ac88f78fa71a1bcd4c459c52cbf9636b0bfab3bb18",
       "normalizedPassageChecksum": "7440e05434a2f0c1076a2d01f675c55ec33bbdbe8b67cc545de9c011523554a1",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c874bb89ec9b447359efb9e5",
+      "predicate": "Spouse Of",
+      "subjectTitle": "Yosef ben Meir Teomim",
+      "objectTitle": "Elikum of Komarno",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "relationship": "father-in-law"
+      },
+      "evidence": {
+        "passageId": "passage_055cc388863771924caaaebe",
+        "pageId": "page_nybc313875_0208",
+        "scanIndex": 208,
+        "leafNumber": 207,
+        "printedPage": null,
+        "passageCharStart": 206,
+        "passageCharEnd": 240,
+        "normalizedPassageCharStart": 206,
+        "normalizedPassageCharEnd": 240,
+        "pageCharStart": 3075,
+        "pageCharEnd": 3109,
+        "quote": "התחת ן ע ם ב ת ר ׳ אליקו ם מקומרנא",
+        "normalizedQuote": "התחת ן ע ם ב ת ר ׳ אליקו ם מקומרנא",
+        "modelQuote": "התחתןעםבתר׳אליקוםמקומרנא",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n207/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "b77218095fe0e581766ca5ac88f78fa71a1bcd4c459c52cbf9636b0bfab3bb18",
+        "normalizedPassageChecksum": "7440e05434a2f0c1076a2d01f675c55ec33bbdbe8b67cc545de9c011523554a1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_69a2dbdf1fb29ac326debb33",
+      "type": "Person",
+      "title": "Yosef ben Meir Teomim",
+      "relation": "Spouse Of"
+    },
     {
       "id": "mention_69a2dbdf1fb29ac326debb33",
       "type": "Person",
@@ -53,7 +94,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -101,7 +142,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ff078c16fe314afc974e8200",
+      "id": "mention_ff93701c70e4d37c6fc363b1",
       "type": "Place",
       "title": "Brody",
       "relation": "Appears in same passage"

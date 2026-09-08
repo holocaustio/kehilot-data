@@ -5,7 +5,7 @@
   "summary": "Reform synagogue initiated by Jacob Rapoport and others.",
   "originalName": "בית־הכנסת לנאורים(טמפל)",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 118,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 759,
       "passageCharEnd": 816,
-      "normalizedPassageCharStart": 557,
-      "normalizedPassageCharEnd": 600,
+      "normalizedPassageCharStart": 759,
+      "normalizedPassageCharEnd": 816,
       "pageCharStart": 3548,
       "pageCharEnd": 3605,
       "quote": "הו א ג ם הי ה מיוזמ י ומיסד י בית־הכנס ת\nלנאורי ם (טמפל )",
-      "normalizedQuote": "הואגםהיהמיוזמיומיסדיבית־הכנסת לנאורים(טמפל)",
+      "normalizedQuote": "הו א ג ם הי ה מיוזמ י ומיסד י בית־הכנס ת\nלנאורי ם (טמפל )",
       "modelQuote": "הואגםהיהמיוזמיומיסדיבית־הכנסת לנאורים(טמפל)",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n117/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "cb06a75ec70bbcecaa224984065d822d63e7fb5ac76e033745271313ac65bfc3",
       "normalizedPassageChecksum": "bc13f10e421d3d1bdc63d2e2d731acf4f28b569f53689d36e6d9139bcdad3e16",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_e904381376fd5e05fc648c52",
+      "predicate": "Founded By",
+      "subjectTitle": "Dr. Jacob Rapoport",
+      "objectTitle": "Synagogue for the Enlightened",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_80d59405ac47af821c3e8b47",
+        "pageId": "page_nybc313875_0118",
+        "scanIndex": 118,
+        "leafNumber": 117,
+        "printedPage": null,
+        "passageCharStart": 759,
+        "passageCharEnd": 816,
+        "normalizedPassageCharStart": 759,
+        "normalizedPassageCharEnd": 816,
+        "pageCharStart": 3548,
+        "pageCharEnd": 3605,
+        "quote": "הו א ג ם הי ה מיוזמ י ומיסד י בית־הכנס ת\nלנאורי ם (טמפל )",
+        "normalizedQuote": "הו א ג ם הי ה מיוזמ י ומיסד י בית־הכנס ת\nלנאורי ם (טמפל )",
+        "modelQuote": "הואגםהיהמיוזמיומיסדיבית־הכנסת לנאורים(טמפל)",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n117/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "cb06a75ec70bbcecaa224984065d822d63e7fb5ac76e033745271313ac65bfc3",
+        "normalizedPassageChecksum": "bc13f10e421d3d1bdc63d2e2d731acf4f28b569f53689d36e6d9139bcdad3e16",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_780bbdddd02d3e937a8316d9",
+      "type": "Person",
+      "title": "Dr. Jacob Rapoport",
+      "relation": "Founded By"
+    },
     {
       "id": "mention_c3bd30eddd978cbcfd4d1c31",
       "type": "Person",
@@ -83,9 +121,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {

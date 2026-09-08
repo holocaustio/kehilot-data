@@ -5,7 +5,7 @@
   "summary": "A committee appointed to investigate Jewish complaints.",
   "originalName": "ועדת־חקירה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 58,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 39,
       "passageCharEnd": 79,
-      "normalizedPassageCharStart": 29,
-      "normalizedPassageCharEnd": 61,
+      "normalizedPassageCharStart": 39,
+      "normalizedPassageCharEnd": 79,
       "pageCharStart": 1070,
       "pageCharEnd": 1110,
       "quote": "מינ ה המל ך\nב~ 30 ביונ י 1664 ועדת־חקירה",
-      "normalizedQuote": "מינההמלך ב~30ביוני1664ועדת־חקירה",
+      "normalizedQuote": "מינ ה המל ך\nב~ 30 ביונ י 1664 ועדת־חקירה",
       "modelQuote": "מינההמלך ב~30ביוני1664ועדת־חקירה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n57/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "2583c577d7ecc2427e9ce5209473778ee76f12554bb5f1cdec4343b7ab35553b",
       "normalizedPassageChecksum": "73523e2c12329ef8f0fe882d1005d32a688bcdb6aa126aaea5f2a8955983deea",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_4e4115345698667ed98dee4c",
+      "id": "claim_candidate_c13cfc7db0a5733e665c2390",
       "predicate": "Participated In",
       "subjectTitle": "Investigative committee",
       "objectTitle": "Investigation into the Lviv riots",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 476,
         "passageCharEnd": 536,
-        "normalizedPassageCharStart": 354,
-        "normalizedPassageCharEnd": 401,
+        "normalizedPassageCharStart": 476,
+        "normalizedPassageCharEnd": 536,
         "pageCharStart": 1507,
         "pageCharEnd": 1567,
         "quote": "הועד ה ל א הושפע ה ע״ י טענו ת העירי ה\nוהמשיכ ה בגבית־עדויות",
-        "normalizedQuote": "הועדהלאהושפעהע״יטענותהעיריה והמשיכהבגבית־עדויות",
+        "normalizedQuote": "הועד ה ל א הושפע ה ע״ י טענו ת העירי ה\nוהמשיכ ה בגבית־עדויות",
         "modelQuote": "הועדהלאהושפעהע״יטענותהעיריה והמשיכהבגבית־עדויות",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n57/mode/1up",
@@ -65,18 +65,60 @@
         "passageChecksum": "2583c577d7ecc2427e9ce5209473778ee76f12554bb5f1cdec4343b7ab35553b",
         "normalizedPassageChecksum": "73523e2c12329ef8f0fe882d1005d32a688bcdb6aa126aaea5f2a8955983deea",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_989d299c1e3bd1a56b38ea9b",
+      "type": "Arrest",
+      "title": "Royal investigation into the Lviv riots",
+      "summary": "A royal committee investigated municipal responsibility and gathered testimony.",
+      "dateStart": "1664-06-30",
+      "dateEnd": "1664-06-30",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event is an investigation, but no allowed investigation event type exists; event omitted.",
+      "evidence": {
+        "passageId": "passage_13999371051d654a3a046144",
+        "pageId": "page_nybc313875_0058",
+        "scanIndex": 58,
+        "leafNumber": 57,
+        "printedPage": null,
+        "passageCharStart": 39,
+        "passageCharEnd": 79,
+        "normalizedPassageCharStart": 39,
+        "normalizedPassageCharEnd": 79,
+        "pageCharStart": 1070,
+        "pageCharEnd": 1110,
+        "quote": "מינ ה המל ך\nב~ 30 ביונ י 1664 ועדת־חקירה",
+        "normalizedQuote": "מינ ה המל ך\nב~ 30 ביונ י 1664 ועדת־חקירה",
+        "modelQuote": "מינההמלך ב~30ביוני1664ועדת־חקירה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n57/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "2583c577d7ecc2427e9ce5209473778ee76f12554bb5f1cdec4343b7ab35553b",
+        "normalizedPassageChecksum": "73523e2c12329ef8f0fe882d1005d32a688bcdb6aa126aaea5f2a8955983deea",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_50fb09a77a824c29fa266415",
       "type": "Event",
       "title": "Investigation into the Lviv riots",
       "relation": "Participated In"
+    },
+    {
+      "id": "event_candidate_989d299c1e3bd1a56b38ea9b",
+      "type": "Event",
+      "title": "Royal investigation into the Lviv riots",
+      "relation": "Participated In",
+      "role": "Participant"
     },
     {
       "id": "mention_0879c73caa45623f3b32a5fb",
@@ -99,7 +141,7 @@
     {
       "id": "mention_2446631b722e8d2fb81fb821",
       "type": "Institution",
-      "title": "Lviv city council",
+      "title": "Lviv City Council",
       "relation": "Appears in same passage"
     },
     {

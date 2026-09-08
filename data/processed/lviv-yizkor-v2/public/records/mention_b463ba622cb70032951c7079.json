@@ -5,7 +5,7 @@
   "summary": "Jewish administrator appointed district manager of Lviv by the national government.",
   "originalName": "אדוארדווייסמן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 150,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 307,
       "passageCharEnd": 334,
-      "normalizedPassageCharStart": 227,
-      "normalizedPassageCharEnd": 248,
+      "normalizedPassageCharStart": 307,
+      "normalizedPassageCharEnd": 334,
       "pageCharStart": 3360,
       "pageCharEnd": 3387,
       "quote": "א ת היהוד י אדואר ד ווייסמן",
-      "normalizedQuote": "אתהיהודיאדוארדווייסמן",
+      "normalizedQuote": "א ת היהוד י אדואר ד ווייסמן",
       "modelQuote": "אתהיהודיאדוארדווייסמן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n149/mode/1up",
@@ -32,7 +32,7 @@
       "passageChecksum": "0b01745e636eea204bce80e6615af7f184e80c691e715799a22a6ca3c2aa6965",
       "normalizedPassageChecksum": "db88badda5e6a7342b8ff5f51a43cc1eec64387917f73a5e2635f766dbe2e317",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -40,13 +40,19 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"

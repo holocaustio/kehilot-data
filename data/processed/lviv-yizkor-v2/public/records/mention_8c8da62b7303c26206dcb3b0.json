@@ -5,7 +5,7 @@
   "summary": "An officer who killed Aharon Kamkhan in 1600.",
   "originalName": "אלברטאוסיצקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 51,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 252,
       "passageCharEnd": 298,
-      "normalizedPassageCharStart": 180,
-      "normalizedPassageCharEnd": 215,
+      "normalizedPassageCharStart": 252,
+      "normalizedPassageCharEnd": 298,
       "pageCharStart": 4254,
       "pageCharEnd": 4300,
       "quote": "התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד",
-      "normalizedQuote": "התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד",
+      "normalizedQuote": "התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד",
       "modelQuote": "התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
@@ -34,14 +34,50 @@
       "passageChecksum": "1fe642eeb9dfa3c88d378889250c3e5bc334e70c0663c0899a6509545ddf8b6a",
       "normalizedPassageChecksum": "0205bf45bd91f6d283161e9bbff9830639605a931484460bcbbd4be65d51eeca",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_53a2383198ef647340eb3538",
+      "predicate": "Murdered At",
+      "subjectTitle": "Albert Usytsky",
+      "objectTitle": "Jewish quarter of Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "year": "1600",
+        "victim": "Aharon Kamkhan"
+      },
+      "evidence": {
+        "passageId": "passage_8cdf6b8fc9d7cc4599a03cce",
+        "pageId": "page_nybc313875_0051",
+        "scanIndex": 51,
+        "leafNumber": 50,
+        "printedPage": null,
+        "passageCharStart": 252,
+        "passageCharEnd": 311,
+        "normalizedPassageCharStart": 252,
+        "normalizedPassageCharEnd": 311,
+        "pageCharStart": 4254,
+        "pageCharEnd": 4313,
+        "quote": "התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד , אהר ן קמחן",
+        "normalizedQuote": "התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד , אהר ן קמחן",
+        "modelQuote": "התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד,אהרןקמחן",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "1fe642eeb9dfa3c88d378889250c3e5bc334e70c0663c0899a6509545ddf8b6a",
+        "normalizedPassageChecksum": "0205bf45bd91f6d283161e9bbff9830639605a931484460bcbbd4be65d51eeca",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [
     {
-      "id": "event_candidate_c4ce16e9ef04202c2ba5719e",
+      "id": "event_candidate_9cf6045db6a0bfb3c557cbef",
       "type": "Murder",
       "title": "Killing of Aharon Kamkhan",
       "summary": "Officer Albert Usytsky killed Aharon Kamkhan during a soldier-related attack in 1600.",
@@ -56,12 +92,12 @@
         "printedPage": null,
         "passageCharStart": 239,
         "passageCharEnd": 311,
-        "normalizedPassageCharStart": 171,
-        "normalizedPassageCharEnd": 224,
+        "normalizedPassageCharStart": 239,
+        "normalizedPassageCharEnd": 311,
         "pageCharStart": 4241,
         "pageCharEnd": 4313,
         "quote": "בשנ ת 1600 , התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד , אהר ן קמחן",
-        "normalizedQuote": "בשנת1600,התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד,אהרןקמחן",
+        "normalizedQuote": "בשנ ת 1600 , התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד , אהר ן קמחן",
         "modelQuote": "בשנת1600,התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד,אהרןקמחן",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
@@ -69,14 +105,20 @@
         "passageChecksum": "1fe642eeb9dfa3c88d378889250c3e5bc334e70c0663c0899a6509545ddf8b6a",
         "normalizedPassageChecksum": "0205bf45bd91f6d283161e9bbff9830639605a931484460bcbbd4be65d51eeca",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_c4ce16e9ef04202c2ba5719e",
+      "id": "mention_dc15eb46f045fc4b5458b692",
+      "type": "Place",
+      "title": "Jewish quarter of Lviv",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "event_candidate_9cf6045db6a0bfb3c557cbef",
       "type": "Event",
       "title": "Killing of Aharon Kamkhan",
       "relation": "Participated In",
@@ -89,13 +131,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

@@ -5,7 +5,7 @@
   "summary": "Leader who negotiated conditions involving Lviv.",
   "originalName": "חמלניצקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 54,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 51,
       "passageCharEnd": 92,
-      "normalizedPassageCharStart": 38,
-      "normalizedPassageCharEnd": 70,
+      "normalizedPassageCharStart": 51,
+      "normalizedPassageCharEnd": 92,
       "pageCharStart": 1764,
       "pageCharEnd": 1805,
       "quote": "אול ם חמלניצק י המשי ך בנסיינותי ו למנו ע",
-      "normalizedQuote": "אולםחמלניצקיהמשיךבנסיינותיולמנוע",
+      "normalizedQuote": "אול ם חמלניצק י המשי ך בנסיינותי ו למנו ע",
       "modelQuote": "אולםחמלניצקיהמשיךבנסיינותיולמנוע",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n53/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "ae740f9e57ef1b3bf0dfef9974e5c638c466a8fab352102ab665645e4a7b78da",
       "normalizedPassageChecksum": "1d79806ffd1c7fa2e2bbc55392995c8f134948c7072de0cf876f7bfab5841920",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_20577033e6d9a231629dc6ea",
+      "predicate": "Migrated To",
+      "subjectTitle": "Khmelnytsky",
+      "objectTitle": "Zhovkva",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "action": "withdrew"
+      },
+      "evidence": {
+        "passageId": "passage_7bece18cf980ad0d689fb2da",
+        "pageId": "page_nybc313875_0054",
+        "scanIndex": 54,
+        "leafNumber": 53,
+        "printedPage": null,
+        "passageCharStart": 35,
+        "passageCharEnd": 54,
+        "normalizedPassageCharStart": 35,
+        "normalizedPassageCharEnd": 54,
+        "pageCharStart": 2534,
+        "pageCharEnd": 2553,
+        "quote": "ונסו ג לעב ר\nזולקיב",
+        "normalizedQuote": "ונסו ג לעב ר\nזולקיב",
+        "modelQuote": "ונסוגלעבר זולקיב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n53/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "68af59c3b591a9cd2f60f250521633e004e226430588abf3f8bf706b87a37b3f",
+        "normalizedPassageChecksum": "51ddd46b170cfe9ede5beda22671a71d25b25680da293e60d601de1c9507f66f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_1de6b66f1ad62968658a4a13",
+      "type": "Place",
+      "title": "Zhovkva",
+      "relation": "Migrated To"
+    },
     {
       "id": "mention_19dc5c04dc97afb6542b9b1c",
       "type": "Person",
@@ -71,7 +112,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

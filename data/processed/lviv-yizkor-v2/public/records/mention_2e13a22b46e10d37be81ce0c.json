@@ -5,7 +5,7 @@
   "summary": "Chancellor who received Joseph Perl’s request in 1829.",
   "originalName": "הקאנצלרהנסיךמטרניך",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 116,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 569,
       "passageCharEnd": 592,
-      "normalizedPassageCharStart": 417,
-      "normalizedPassageCharEnd": 435,
+      "normalizedPassageCharStart": 569,
+      "normalizedPassageCharEnd": 592,
       "pageCharStart": 569,
       "pageCharEnd": 592,
       "quote": "הקאנצל ר הנסי ך מטרני ך",
-      "normalizedQuote": "הקאנצלרהנסיךמטרניך",
+      "normalizedQuote": "הקאנצל ר הנסי ך מטרני ך",
       "modelQuote": "הקאנצלרהנסיךמטרניך",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n115/mode/1up",
@@ -33,13 +33,53 @@
       "passageChecksum": "b42d661010f10eb210ea9f9468d71e2e60999319fcf48de8a984514fcf8f9019",
       "normalizedPassageChecksum": "c8d4ab9064f62ffa7319be8cbd0f80336dafaf1b3eff062de93e6a49ea013711",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_1648c0b2692f9cf3514d464e",
+      "type": "Employment",
+      "title": "Joseph Perl’s audience with Prince Metternich",
+      "summary": "Joseph Perl met Prince Metternich in Vienna on 1 June 1829 regarding approval.",
+      "dateStart": "1829-06-01",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_69703f996b25336aadc57fe2",
+        "pageId": "page_nybc313875_0116",
+        "scanIndex": 116,
+        "leafNumber": 115,
+        "printedPage": null,
+        "passageCharStart": 532,
+        "passageCharEnd": 592,
+        "normalizedPassageCharStart": 532,
+        "normalizedPassageCharEnd": 592,
+        "pageCharStart": 532,
+        "pageCharEnd": 592,
+        "quote": "פר ל\nנתקבל , ב־ 1 ביונ י 1829 , ע״ י הקאנצל ר הנסי ך מטרני ך",
+        "normalizedQuote": "פר ל\nנתקבל , ב־ 1 ביונ י 1829 , ע״ י הקאנצל ר הנסי ך מטרני ך",
+        "modelQuote": "פרל נתקבל,ב־1ביוני1829,ע״י הקאנצלרהנסיךמטרניך",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n115/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "b42d661010f10eb210ea9f9468d71e2e60999319fcf48de8a984514fcf8f9019",
+        "normalizedPassageChecksum": "c8d4ab9064f62ffa7319be8cbd0f80336dafaf1b3eff062de93e6a49ea013711",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_1648c0b2692f9cf3514d464e",
+      "type": "Event",
+      "title": "Joseph Perl’s audience with Prince Metternich",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_364566caea463174cf6368cc",
       "type": "Person",
@@ -50,12 +90,6 @@
       "id": "mention_62f7611f7c416bc512cc1dd2",
       "type": "Person",
       "title": "Mordecai-Berish Margoliot",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8fb5a7d903a5d24e9c8a9858",
-      "type": "Person",
-      "title": "Prince Lubomirski",
       "relation": "Appears in same passage"
     },
     {
@@ -89,7 +123,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_213ad355b77f4eb5f36c90d0",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

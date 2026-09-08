@@ -5,7 +5,7 @@
   "summary": "Shomer Israel weekly published first in German Hebrew letters.",
   "originalName": "דעראיזראעליט",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 157,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 265,
       "passageCharEnd": 298,
-      "normalizedPassageCharStart": 204,
-      "normalizedPassageCharEnd": 231,
+      "normalizedPassageCharStart": 265,
+      "normalizedPassageCharEnd": 298,
       "pageCharStart": 2413,
       "pageCharEnd": 2446,
       "quote": "שבועו ן האגודה , \"דע ר איזראעליט\"",
-      "normalizedQuote": "שבועוןהאגודה,\"דעראיזראעליט\"",
+      "normalizedQuote": "שבועו ן האגודה , \"דע ר איזראעליט\"",
       "modelQuote": "שבועוןהאגודה,\"דעראיזראעליט\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n156/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "e16595f3d6f36954724eb43aadd95e4d721bed58ced5f8af4f5969149af09ffb",
       "normalizedPassageChecksum": "c0f99863ce5a5f005a7fcd1d506d6313ef822701d51e36b258311b84e51dd162",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_7356dbb9e5ce40dbd4c88c56",
+      "id": "claim_candidate_a3585a9bd26b6ca68f77fc20",
       "predicate": "Worked At",
       "subjectTitle": "Jacob Klein",
       "objectTitle": "Der Israelit",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 375,
         "passageCharEnd": 406,
-        "normalizedPassageCharStart": 288,
-        "normalizedPassageCharEnd": 311,
+        "normalizedPassageCharStart": 375,
+        "normalizedPassageCharEnd": 406,
         "pageCharStart": 2523,
         "pageCharEnd": 2554,
         "quote": "הופי ע בעריכת ו ש ל יעק ב קליין",
-        "normalizedQuote": "הופיעבעריכתושליעקבקליין",
+        "normalizedQuote": "הופי ע בעריכת ו ש ל יעק ב קליין",
         "modelQuote": "הופיעבעריכתושליעקבקליין",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n156/mode/1up",
@@ -68,7 +68,41 @@
         "passageChecksum": "e16595f3d6f36954724eb43aadd95e4d721bed58ced5f8af4f5969149af09ffb",
         "normalizedPassageChecksum": "c0f99863ce5a5f005a7fcd1d506d6313ef822701d51e36b258311b84e51dd162",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_99fcae134a5821d0de7331f8",
+      "predicate": "Published In",
+      "subjectTitle": "Shomer Israel",
+      "objectTitle": "Der Israelit",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "publicationType": "weekly newspaper"
+      },
+      "evidence": {
+        "passageId": "passage_f11652ade9366aae79d82a97",
+        "pageId": "page_nybc313875_0157",
+        "scanIndex": 157,
+        "leafNumber": 156,
+        "printedPage": null,
+        "passageCharStart": 265,
+        "passageCharEnd": 298,
+        "normalizedPassageCharStart": 265,
+        "normalizedPassageCharEnd": 298,
+        "pageCharStart": 2413,
+        "pageCharEnd": 2446,
+        "quote": "שבועו ן האגודה , \"דע ר איזראעליט\"",
+        "normalizedQuote": "שבועו ן האגודה , \"דע ר איזראעליט\"",
+        "modelQuote": "שבועוןהאגודה,\"דעראיזראעליט\"",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n156/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "e16595f3d6f36954724eb43aadd95e4d721bed58ced5f8af4f5969149af09ffb",
+        "normalizedPassageChecksum": "c0f99863ce5a5f005a7fcd1d506d6313ef822701d51e36b258311b84e51dd162",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -80,6 +114,12 @@
       "type": "Person",
       "title": "Jacob Klein",
       "relation": "Worked At"
+    },
+    {
+      "id": "mention_2d03155b0c10906905d8e3ef",
+      "type": "Organization",
+      "title": "Shomer Israel Association",
+      "relation": "Published In"
     },
     {
       "id": "mention_48a37a1bfbf835496db2fe5b",
@@ -94,7 +134,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f4382e56dfa7da720219132b",
+      "id": "mention_f710e8a45039f84dfb6eeaf4",
       "type": "Person",
       "title": "Dr. Henrik Gottlieb",
       "relation": "Appears in same passage"

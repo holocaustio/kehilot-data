@@ -2,7 +2,7 @@
   "schemaVersion": "kehilot-yizkor-reading-paths-v1",
   "pipelineVersion": "kehilot-yizkor-reading-paths-v1",
   "promptVersion": "kehilot-yizkor-reading-paths-prompt-v1",
-  "generatedAt": "2026-09-06T22:20:36.604Z",
+  "generatedAt": "2026-09-08T18:24:55.044Z",
   "community": {
     "id": "community_lviv",
     "displayName": "lviv",
@@ -16,7 +16,7 @@
   "source": {
     "selectedVersion": "lviv-yizkor-v2",
     "graphPath": "data/processed/lviv-yizkor-v2/adjudication/resolved-graph.json",
-    "graphSha256": "4a7d7e7ba0f1606c7920896838f7d69ac20102d9fea2186393dc1db644cbd917",
+    "graphSha256": "bf0e39aea1d5afca66431745415d2a6487c1d43de9150608da9888fd3f8ac0d5",
     "candidateCount": 360
   },
   "model": {
@@ -26,40 +26,27 @@
   },
   "overview": {
     "title": "Reading Jewish Lwów through its memorial book",
-    "summary": "Jewish Lwów was a long-established community shaped by trade, family networks, religious institutions, schools, political debate, and cultural production. The memorial book traces this world from medieval privileges and communal building through changing empires, civic restrictions, and modern Jewish organization. It then records the German occupation, ghettoization, deportations, murder, escape, resistance, and survival. Exploring these paths helps readers see both the richness of the community that was destroyed and the many ways its people preserved knowledge, dignity, and memory."
+    "summary": "Jewish Lwów was a long-established community shaped by trade, family networks, religious institutions, schools, publishing, and civic negotiations. The memorial book traces an arc from medieval settlement and communal rebuilding through intellectual, political, and cultural change, before turning to German occupation, ghettoization, deportation, murder, survival, and underground life. Its accounts show both institutions and individuals: rabbis, merchants, teachers, journalists, families, communal officials, and people forced to make impossible choices under persecution. By following the paths below, readers can learn how Lwów’s Jewish society was built, how it was destroyed, and how survivors and memorialists preserved its traces."
   },
   "paths": [
     {
-      "id": "path_foundations",
+      "id": "path_origins_rebuilding",
       "theme": "COMMUNITY_LIFE",
-      "title": "How did Jewish Lwów become a community?",
-      "description": "This path follows the creation of Jewish space, communal authority, families, and institutions from the medieval period onward. By the end, readers will understand that Lwów’s Jewish life was built through both official privileges and sustained communal effort.",
-      "question": "How did Jewish residents establish and maintain a home in Lwów?",
+      "title": "How did Jewish Lwów take root and rebuild?",
+      "description": "This path follows the community from medieval privileges and commerce through fires, legal disputes, and reconstruction. By the end, readers will understand that Lwów’s Jewish life was repeatedly rebuilt through property, trade, communal leadership, and collective institutions.",
+      "question": "How did a Jewish community establish itself and endure repeated crises?",
       "steps": [
         {
-          "title": "Privileges and a Jewish quarter",
-          "summary": "The memorial book records a Jewish street founded in 1387 and a privilege approved for Lwów’s Jews that year. These accounts show how Jewish residence and communal life developed through recognized legal arrangements, even while later records also describe restrictions and disputes.",
+          "title": "Privileges and settlement",
+          "summary": "The records describe Jewish settlement in Lwów, a privilege approved in 1387, and later rights concerning residence, property, and commerce. These arrangements gave the community a legal and economic framework, while also showing that its security depended on negotiation with royal and municipal authorities. (event_candidate_f45fc2651269db856a0d4e72; mention_0fa3c1257ee1d1d66ffca881; event_candidate_a75d064533066d46a383711a)",
           "recordIds": [
-            "event_candidate_3d4357fbeb26e112939c22d0",
-            "event_candidate_f5756d4add5052c0f8ea2588",
-            "mention_255bf596d7f0d992e06241c1"
+            "event_candidate_f45fc2651269db856a0d4e72",
+            "mention_0fa3c1257ee1d1d66ffca881",
+            "event_candidate_a75d064533066d46a383711a"
           ],
           "records": [
             {
-              "recordId": "event_candidate_3d4357fbeb26e112939c22d0",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Founding of Jewish Street",
-              "summary": "Jewish Street was founded in 1387.",
-              "dateStart": "1387",
-              "dateEnd": "",
-              "scanIndex": 256,
-              "printedPage": null,
-              "passageId": "passage_a1f55efbf3baa254bf930bdf",
-              "quote": "הרחובהיהודי,שנוסדבשנת1387"
-            },
-            {
-              "recordId": "event_candidate_f5756d4add5052c0f8ea2588",
+              "recordId": "event_candidate_f45fc2651269db856a0d4e72",
               "kind": "event",
               "type": "ORGANIZATION_FOUNDING",
               "title": "Privilege granted to Lviv Jews",
@@ -69,35 +56,48 @@
               "scanIndex": 174,
               "printedPage": null,
               "passageId": "passage_11079da10a6a5bd08f5617db",
-              "quote": "הפריבילגיהשאושרהע״ייאגיללו ליהודילבובב־30בספטמבר1387"
+              "quote": "הפריבילגי ה שאושר ה ע״ י יאגילל ו ליהוד י לבו ב ב־ 30 בספטמב ר 1387"
             },
             {
-              "recordId": "mention_255bf596d7f0d992e06241c1",
+              "recordId": "mention_0fa3c1257ee1d1d66ffca881",
               "kind": "mention",
-              "type": "PLACE",
-              "title": "Lviv",
-              "summary": "City where the Jewish community lived under Magdeburg law.",
+              "type": "DOCUMENT",
+              "title": "Lviv Jewish Privilege",
+              "summary": "Privilege allowing Jews to hold real estate permanently.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 32,
+              "scanIndex": 21,
               "printedPage": null,
-              "passageId": "passage_80dfa8fdfcd6047c28714944",
-              "quote": "היהודיםמתגוררים בלבובלפיהחוקהמגדבורגי"
+              "passageId": "passage_725e05057ac7cf1cfcc224bb",
+              "quote": "פריבילגיו ן יהוד י לבוב"
+            },
+            {
+              "recordId": "event_candidate_a75d064533066d46a383711a",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Royal confirmation of Jewish property rights",
+              "summary": "King Sigismund Augustus confirmed Jews' right to buy and sell houses.",
+              "dateStart": "1568-10-01",
+              "dateEnd": "",
+              "scanIndex": 45,
+              "printedPage": null,
+              "passageId": "passage_17c7723a870fa115a7cfbcff",
+              "quote": "הזכו ת לקנו ת ולמכו ר בתים"
             }
           ],
           "position": 1
         },
         {
-          "title": "Trade connected the community to wider regions",
-          "summary": "Lwów Jews participated in long-distance commerce: three Jewish partners supplied the city with pepper in 1383, and later merchants traded eastern goods and with Turkey. These accounts place the community within regional economic networks rather than presenting it as socially or economically isolated.",
+          "title": "Trade and civic life",
+          "summary": "Lwów Jews participated in regional and international commerce, including a large pepper shipment to the city in 1383 and trade with Turkey in 1531. The community also negotiated commercial rights with suburban Jews, demonstrating how economic activity connected Jewish residents to the wider city. (event_candidate_24f981bb27253ede6074c49f; event_candidate_eca4ba629d844c8dab14ed20; event_candidate_8d27363c42b10a82981e4f27)",
           "recordIds": [
-            "event_candidate_86233aedfcabbe8f2fa500a9",
-            "event_candidate_1a55ddea6a7431107510bb0a",
-            "event_candidate_69104eb78b031392b39290e0"
+            "event_candidate_24f981bb27253ede6074c49f",
+            "event_candidate_eca4ba629d844c8dab14ed20",
+            "event_candidate_8d27363c42b10a82981e4f27"
           ],
           "records": [
             {
-              "recordId": "event_candidate_86233aedfcabbe8f2fa500a9",
+              "recordId": "event_candidate_24f981bb27253ede6074c49f",
               "kind": "event",
               "type": "BUSINESS_OPENING",
               "title": "Lviv merchants’ pepper shipment",
@@ -107,23 +107,10 @@
               "scanIndex": 14,
               "printedPage": null,
               "passageId": "passage_07d95506305d113ba3b0cc8e",
-              "quote": "שותפותשל 3יהודיםמלבוב:שלמה,שיביה(צ׳בעיא=צבי?) ויעקב6)מספקתלעיריתלבוב,בשנת1383,מטען פלפלגדול"
+              "quote": "שותפו ת ש ל 3 יהודי ם מלבוב : שלמה , שיבי ה (צ׳בעיא=צבי? ) ויעקב 6 ) מספק ת לעירי ת לבוב , בשנ ת 1383 , מטע ן פלפ ל גדו ל"
             },
             {
-              "recordId": "event_candidate_1a55ddea6a7431107510bb0a",
-              "kind": "event",
-              "type": "EMPLOYMENT",
-              "title": "Samuel Tshalbisha trades in Lviv",
-              "summary": "Samuel traded in eastern goods while residing in Lviv from 1621 to 1635.",
-              "dateStart": "1621",
-              "dateEnd": "1635",
-              "scanIndex": 43,
-              "printedPage": null,
-              "passageId": "passage_55d0a0b31858c5119a0d58b4",
-              "quote": "שמואלטשלבישהתגוררבלבובבשנים1621—1635 וסחרבסחורותמןהמזרח"
-            },
-            {
-              "recordId": "event_candidate_69104eb78b031392b39290e0",
+              "recordId": "event_candidate_eca4ba629d844c8dab14ed20",
               "kind": "event",
               "type": "EMPLOYMENT",
               "title": "Nathan and Moses trade with Turkey",
@@ -133,34 +120,98 @@
               "scanIndex": 22,
               "printedPage": null,
               "passageId": "passage_aa048e0a002e5949f5cc4543",
-              "quote": "בשנת1531ניהלוהיהודיםנתןומשהמסחררב־ היקףעםתורכיהדרךסוצ׳אבה"
+              "quote": "בשנ ת 1531 ניהל ו היהודי ם נת ן ומש ה מסח ר רב ־ היק ף ע ם תורכי ה דר ך סוצ׳אב ה"
+            },
+            {
+              "recordId": "event_candidate_8d27363c42b10a82981e4f27",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Trade agreement with suburban Jews",
+              "summary": "Lviv signed an agreement granting suburban Jews equal commercial rights for an annual payment.",
+              "dateStart": "1528",
+              "dateEnd": "",
+              "scanIndex": 20,
+              "printedPage": null,
+              "passageId": "passage_fd442cc80d10c29935d07448",
+              "quote": "הי א חתמ ה ע ל הסכ ם ע ם היהודי ם בפרברים"
             }
           ],
           "position": 2
         },
         {
-          "title": "Families and communal leadership",
-          "summary": "The book describes the Nahman family as influential in Lwów in the late sixteenth and early seventeenth centuries, while the family of Isaac ben Nahman is associated with leading the community and establishing institutions. Later entries also identify prominent families such as the Nakhmanovich, Lovenhartz, Parnes, and Bik families, showing how communal history was carried through family networks.",
+          "title": "Fire, loss, and reconstruction",
+          "summary": "Fires repeatedly damaged Jewish homes and institutions: the Jewish quarter suffered a devastating fire in 1571, the Jewish street was destroyed in 1616, and a fire near the synagogue destroyed about 1,200 houses in 1623. Rebuilding the synagogue and community structures was therefore not incidental but a central part of communal continuity. (event_candidate_cc0fa35c031a5d2fe6cee9d8; event_candidate_e148c0432d625368a27b2978; event_candidate_18c6b11548a8422935e22bda; event_candidate_2e5a31e3c70b1c440fea5111)",
           "recordIds": [
-            "mention_20cbfcb7a118144676c5c962",
-            "mention_bace0ed2f62d3ebc45a04ccb",
-            "mention_3d0c0d2bdb70add0797faa98",
-            "mention_5811a35d80f8b770a676a19d"
+            "event_candidate_cc0fa35c031a5d2fe6cee9d8",
+            "event_candidate_e148c0432d625368a27b2978",
+            "event_candidate_18c6b11548a8422935e22bda",
+            "event_candidate_2e5a31e3c70b1c440fea5111"
           ],
           "records": [
             {
-              "recordId": "mention_20cbfcb7a118144676c5c962",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Nahman family",
-              "summary": "Family that controlled Lviv's community during the late sixteenth and early seventeenth centuries.",
-              "dateStart": "",
+              "recordId": "event_candidate_cc0fa35c031a5d2fe6cee9d8",
+              "kind": "event",
+              "type": "FIRE",
+              "title": "1571 fire in the Jewish quarter",
+              "summary": "A devastating fire destroyed nearly all houses in Lviv’s Jewish quarter.",
+              "dateStart": "1571",
               "dateEnd": "",
-              "scanIndex": 288,
+              "scanIndex": 22,
               "printedPage": null,
-              "passageId": "passage_b7593147556c5a9224ff7a32",
-              "quote": "משפחתהנחמניםשלטהבקהלתלבובבמחצית השניהשלהמאההט״זובתחילתהמאההי״ז."
+              "passageId": "passage_fad4617a577292951f79756a",
+              "quote": "בשנ ת 1571 פרצ ה ברוב ע היהוד י בתו ך העי ר דליק ה נורא ה"
             },
+            {
+              "recordId": "event_candidate_e148c0432d625368a27b2978",
+              "kind": "event",
+              "type": "FIRE",
+              "title": "Fire in the Jewish street",
+              "summary": "A major fire lasted two days and destroyed all houses in the Jewish street.",
+              "dateStart": "1616-05-26",
+              "dateEnd": "1616-05-28",
+              "scanIndex": 36,
+              "printedPage": null,
+              "passageId": "passage_d75090ffac942cc771fdd400",
+              "quote": "ב־ 26 במא י 1616 פרצ ה דליק ה חזק ה שנמשכ ה יומי ם והרס ה א ת כ ל הבתי ם ברחו ב היהודי"
+            },
+            {
+              "recordId": "event_candidate_18c6b11548a8422935e22bda",
+              "kind": "event",
+              "type": "FIRE",
+              "title": "Great fire of 1623",
+              "summary": "A fire destroyed 1,200 houses, including all Jewish homes.",
+              "dateStart": "1623",
+              "dateEnd": "1623",
+              "scanIndex": 261,
+              "printedPage": null,
+              "passageId": "passage_008c5e9736f9a29d72131299",
+              "quote": "השריפ ה הגדול ה שפרצ ה בשב ת 1623 בבית־הכנס ת וב ה נשרפ ו 1200 בתים"
+            },
+            {
+              "recordId": "event_candidate_2e5a31e3c70b1c440fea5111",
+              "kind": "event",
+              "type": "FIRE",
+              "title": "Great Synagogue rebuilt",
+              "summary": "The Great Synagogue was rebuilt in 1632.",
+              "dateStart": "1632",
+              "dateEnd": "1632",
+              "scanIndex": 53,
+              "printedPage": null,
+              "passageId": "passage_1b2b3428c9c2c5d385aab7ff",
+              "quote": "בי ת הכנס ת הגדול , שנבנ ה מהד ש בשנ ת 1632"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Families and communal leadership",
+          "summary": "Families such as the Nahmans led Lwów’s community and established public institutions, while later figures served as treasurers, merchants, and communal officials. These records reveal a society sustained through inherited responsibility, business, and organized leadership rather than by religious life alone. (mention_bace0ed2f62d3ebc45a04ccb; mention_664461a5ffe72435f75876ca; event_candidate_664461a5ffe72435f75876ca)",
+          "recordIds": [
+            "mention_bace0ed2f62d3ebc45a04ccb",
+            "event_candidate_664461a5ffe72435f75876ca",
+            "event_candidate_8e56986b0d6e7681e2536180"
+          ],
+          "records": [
             {
               "recordId": "mention_bace0ed2f62d3ebc45a04ccb",
               "kind": "mention",
@@ -172,98 +223,33 @@
               "scanIndex": 30,
               "printedPage": null,
               "passageId": "passage_07acb4353214b2b077f8350a",
-              "quote": "משפחתר׳יצחקבןנחמן"
+              "quote": "משפח ת ר ׳ יצח ק ב ן נחמ ן"
             },
             {
-              "recordId": "mention_3d0c0d2bdb70add0797faa98",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Nakhmanovich family",
-              "summary": "Prominent Jewish family active in the community and its institutions.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 48,
-              "printedPage": null,
-              "passageId": "passage_41175e0a299668ea1591ccb3",
-              "quote": "משפחתנחמנוביץ"
-            },
-            {
-              "recordId": "mention_5811a35d80f8b770a676a19d",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Lovenhartz family",
-              "summary": "Prominent family that moved to Lviv in the mid-nineteenth century.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 265,
-              "printedPage": null,
-              "passageId": "passage_64969f41dfb3a37ea38bbb63",
-              "quote": "נמניתמשפחתלוונהרץ"
-            }
-          ],
-          "position": 3
-        },
-        {
-          "title": "Rebuilding after fire and violence",
-          "summary": "Fires repeatedly destroyed Jewish homes and quarters, including the 1571 fire and the major fires of 1616 and 1623. The community rebuilt synagogues and houses after these disasters, demonstrating both the vulnerability of Jewish life and its capacity for reconstruction.",
-          "recordIds": [
-            "event_candidate_7779f127c2966e7777aa4096",
-            "event_candidate_1f967b73003c6977eaa33ff9",
-            "event_candidate_f76def97d23277bc15802463",
-            "event_candidate_8f1e56b287bfa75904735323"
-          ],
-          "records": [
-            {
-              "recordId": "event_candidate_7779f127c2966e7777aa4096",
+              "recordId": "event_candidate_664461a5ffe72435f75876ca",
               "kind": "event",
-              "type": "FIRE",
-              "title": "1571 fire in the Jewish quarter",
-              "summary": "A devastating fire destroyed nearly all houses in Lviv’s Jewish quarter.",
-              "dateStart": "1571",
-              "dateEnd": "",
-              "scanIndex": 22,
+              "type": "EMPLOYMENT",
+              "title": "Jacob Gombricht served as community treasurer",
+              "summary": "Jacob Gombricht served as community treasurer from 1620 to 1634.",
+              "dateStart": "1620",
+              "dateEnd": "1634",
+              "scanIndex": 50,
               "printedPage": null,
-              "passageId": "passage_fad4617a577292951f79756a",
-              "quote": "בשנת1571פרצהברובעהיהודיבתוךהעיר דליקהנוראה"
+              "passageId": "passage_3ad43c40782744f135fdb7f5",
+              "quote": "ובשני ם 1620 — 1634 הי ח פרנס־הקהלה"
             },
             {
-              "recordId": "event_candidate_1f967b73003c6977eaa33ff9",
+              "recordId": "event_candidate_8e56986b0d6e7681e2536180",
               "kind": "event",
-              "type": "FIRE",
-              "title": "Fire in the Jewish street",
-              "summary": "A major fire lasted two days and destroyed all houses in the Jewish street.",
-              "dateStart": "1616-05-26",
-              "dateEnd": "1616-05-28",
-              "scanIndex": 36,
+              "type": "TRADE_ACTIVITY",
+              "title": "Samuel Tshalbisha trades in Lviv",
+              "summary": "Samuel Tshalbisha resided in Lviv and traded in goods from the East from 1621 to 1635.",
+              "dateStart": "1621",
+              "dateEnd": "1635",
+              "scanIndex": 43,
               "printedPage": null,
-              "passageId": "passage_d75090ffac942cc771fdd400",
-              "quote": "ב־26במאי1616פרצהדליקה חזקהשנמשכהיומיםוהרסהאתכלהבתיםברחוב היהודי"
-            },
-            {
-              "recordId": "event_candidate_f76def97d23277bc15802463",
-              "kind": "event",
-              "type": "FIRE",
-              "title": "Great fire of 1623",
-              "summary": "A fire destroyed 1,200 houses, including all Jewish homes.",
-              "dateStart": "1623",
-              "dateEnd": "1623",
-              "scanIndex": 261,
-              "printedPage": null,
-              "passageId": "passage_008c5e9736f9a29d72131299",
-              "quote": "השריפה הגדולהשפרצהבשבת1623בבית־הכנסתובהנשרפו 1200בתים"
-            },
-            {
-              "recordId": "event_candidate_8f1e56b287bfa75904735323",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Synagogue rebuilding",
-              "summary": "The old synagogue was rebuilt after the 1571 fire.",
-              "dateStart": "1571",
-              "dateEnd": "",
-              "scanIndex": 48,
-              "printedPage": null,
-              "passageId": "passage_44ec08f7d8a6dd9c11e031ef",
-              "quote": "נבנהמחדשאךהיהצר"
+              "passageId": "passage_55d0a0b31858c5119a0d58b4",
+              "quote": "שמוא ל טשלב י שהתגור ר בלבו ב בשני ם 1621 — 1635 וסח ר בסחורו ת מ ן המזרח"
             }
           ],
           "position": 4
@@ -271,23 +257,24 @@
       ]
     },
     {
-      "id": "path_sacred_learning",
+      "id": "path_institutions_identity",
       "theme": "RELIGION",
-      "title": "What sustained religious and intellectual life in Lwów?",
-      "description": "This path explores synagogues, rabbis, courts, schools, cantors, and religious debate. It shows how worship and learning were organized through buildings, books, teachers, and institutions that served different parts of the community.",
-      "question": "How did Jews in Lwów worship, learn, and debate religious change?",
+      "title": "What institutions and ideas shaped Jewish life?",
+      "description": "This path explores synagogues, yeshivot, schools, worship, publishing, and competing political visions. It shows how Lwów’s Jews debated tradition, education, civic equality, assimilation, and Jewish national life while maintaining rich communal institutions.",
+      "question": "How did religion, education, culture, and politics shape the community?",
       "steps": [
         {
-          "title": "Synagogue and rabbinical authority",
-          "summary": "A major synagogue was established in 1582, and by 1604 it also served as a rabbinical court and a place for preserving community registers. The building therefore functioned not only as a house of prayer but also as a center of law and communal administration.",
+          "title": "Synagogues as communal centers",
+          "summary": "Lwów’s synagogue buildings were rebuilt and expanded after fires, and one synagogue also served as the seat of the rabbinical court and a genizah for communal records. The temple founded through an 1840 meeting and the many religious institutions described in the book show that worship was closely tied to communal administration and memory. (event_candidate_a4426c4cfc76f2fca5f34d27; event_candidate_d89b507cda74553caa13a1e1; event_candidate_ec5bf636a949316aec5a9f04; mention_f9a0b275bcab0dfe0aefac35)",
           "recordIds": [
-            "event_candidate_069a2800fc98b125bd9bb568",
-            "event_candidate_0d951950dd86c8cd880511d2",
-            "event_candidate_e5d1fccea644d53ad57c5736"
+            "event_candidate_a4426c4cfc76f2fca5f34d27",
+            "event_candidate_d89b507cda74553caa13a1e1",
+            "event_candidate_ec5bf636a949316aec5a9f04",
+            "mention_f9a0b275bcab0dfe0aefac35"
           ],
           "records": [
             {
-              "recordId": "event_candidate_069a2800fc98b125bd9bb568",
+              "recordId": "event_candidate_a4426c4cfc76f2fca5f34d27",
               "kind": "event",
               "type": "ORGANIZATION_FOUNDING",
               "title": "Founding of the synagogue",
@@ -297,73 +284,47 @@
               "scanIndex": 258,
               "printedPage": null,
               "passageId": "passage_bf26c24bb00c2777bb5ce5ab",
-              "quote": "בית־ הכנסתהוקםבשנת1582ע״יר׳יצחקבןנחמן"
+              "quote": "בית ־ הכנס ת הוק ם בשנ ת 1582 ע״ י ר ׳ יצח ק ב ן נחמן"
             },
             {
-              "recordId": "event_candidate_0d951950dd86c8cd880511d2",
+              "recordId": "event_candidate_d89b507cda74553caa13a1e1",
               "kind": "event",
               "type": "INSTITUTIONAL_USE",
               "title": "Synagogue used as court",
-              "summary": "From 1604, the synagogue also served as a seat of the rabbinical court and as a genizah for community registers.",
+              "summary": "Beginning in 1604, the synagogue also served as the seat of the rabbinical court and as a genizah for community records.",
               "dateStart": "1604",
               "dateEnd": "",
               "scanIndex": 48,
               "printedPage": null,
               "passageId": "passage_44ec08f7d8a6dd9c11e031ef",
-              "quote": "החלמשנת1604שימש בית־הכנסתגםכמושבבית־הדין"
+              "quote": "הח ל משנ ת 1604 שימ ש בית־הכנס ת ג ם כמוש ב בית־הדי ן"
             },
             {
-              "recordId": "event_candidate_e5d1fccea644d53ad57c5736",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Opening of the new synagogue",
-              "summary": "The new synagogue was ceremonially opened in spring 1609.",
-              "dateStart": "1609",
-              "dateEnd": "1609",
-              "scanIndex": 35,
+              "recordId": "mention_f9a0b275bcab0dfe0aefac35",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Lviv",
+              "summary": "City containing the described synagogues and religious institutions.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 241,
               "printedPage": null,
-              "passageId": "passage_37b2379a0548e785cd1a390c",
-              "quote": "באביב1609נפתחחגיגיתבית־הכנסתהחדש"
+              "passageId": "passage_79e2bb15234119818abeb1c3",
+              "quote": "יהוד י לבוב"
             }
           ],
           "position": 1
         },
         {
-          "title": "Schools and organized learning",
-          "summary": "School records from 1782 and 1795 count teachers, assistants, and pupils in Lwów’s Jewish schools. In the nineteenth century, schools were established in 1844 and 1845, reflecting sustained efforts to provide both religious and broader education.",
+          "title": "Learning and religious authority",
+          "summary": "School censuses recorded dozens of teachers and large numbers of pupils, while schools established in 1844 and 1845 provided organized education. Rabbis also led yeshivot and courts, linking study, communal authority, and religious continuity across generations. (event_candidate_4592173d1bd9715d1761e3aa; event_candidate_a9d662855306fa5d77548ab8; mention_72c8c82fcb9e4b45283947a9; event_candidate_1613)",
           "recordIds": [
-            "mention_4592173d1bd9715d1761e3aa",
-            "mention_a9d662855306fa5d77548ab8",
+            "event_candidate_4592173d1bd9715d1761e3aa",
+            "event_candidate_a9d662855306fa5d77548ab8",
             "mention_72c8c82fcb9e4b45283947a9",
-            "mention_1c256a42df3e375328baf12e"
+            "event_candidate_b57cfc079655c0cdb0d4764e"
           ],
           "records": [
-            {
-              "recordId": "mention_4592173d1bd9715d1761e3aa",
-              "kind": "mention",
-              "type": "EVENT",
-              "title": "1782 Lviv school census",
-              "summary": "A census recorded teachers, assistants, and pupils in Lviv schools.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 183,
-              "printedPage": null,
-              "passageId": "passage_51a59597be6afc692f1893ad",
-              "quote": "במפקדהחדרםבלבוב,1782,נמנו60מלמדים"
-            },
-            {
-              "recordId": "mention_a9d662855306fa5d77548ab8",
-              "kind": "mention",
-              "type": "EVENT",
-              "title": "1795 Lviv school record",
-              "summary": "Records 85 teachers, 183 assistants, and 1,574 pupils in Lviv schools.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 183,
-              "printedPage": null,
-              "passageId": "passage_51a59597be6afc692f1893ad",
-              "quote": "בשנת1795היועסוקיםבחדריםבלבוב85מלמדים"
-            },
             {
               "recordId": "mention_72c8c82fcb9e4b45283947a9",
               "kind": "mention",
@@ -375,97 +336,32 @@
               "scanIndex": 120,
               "printedPage": null,
               "passageId": "passage_9d79f18b696497d9ac2cd993",
-              "quote": "בית־הספרנפתחבנובמבר1844"
+              "quote": "בית־הספ ר נפת ח בנובמב ר 1844"
             },
             {
-              "recordId": "mention_1c256a42df3e375328baf12e",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Lviv community school",
-              "summary": "School established in 1845 under Abraham Cohen.",
-              "dateStart": "",
+              "recordId": "event_candidate_b57cfc079655c0cdb0d4764e",
+              "kind": "event",
+              "type": "EMPLOYMENT",
+              "title": "Rabbi Moshe son of Yosef heads a yeshiva",
+              "summary": "Rabbi Moshe son of Yosef headed a yeshiva in the great community.",
+              "dateStart": "1613",
               "dateEnd": "",
-              "scanIndex": 140,
+              "scanIndex": 199,
               "printedPage": null,
-              "passageId": "passage_1a67c45273f592fce325ddc1",
-              "quote": "בית־ הספר,שהוקםבשנת1845"
+              "passageId": "passage_381277f4722d456304ecaf88",
+              "quote": "שע״ ג ( 1613 ) , ר ׳ מש ה ב״ ר יוס ף רי ש מתיבת א בקהלתנ ו הגדולה"
             }
           ],
           "position": 2
         },
         {
-          "title": "Religious variety and internal debate",
-          "summary": "The book describes most Lwów Jews as observant and records the presence of Hasidic life, Orthodox institutions, and debates over rabbinic appointments and religious reform. These accounts present the community as religiously active but internally diverse, rather than uniform.",
-          "recordIds": [
-            "mention_671b75347b65a0d4b1079c59",
-            "mention_1bd9028b55fd0931c90a8aff",
-            "mention_20228253da6d1377363fdb20",
-            "mention_7aa89df2034ebd301706bd62"
-          ],
-          "records": [
-            {
-              "recordId": "mention_671b75347b65a0d4b1079c59",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Lviv Jewish community",
-              "summary": "The Jewish community of Lviv, described in relation to religious life and Hasidism.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 246,
-              "printedPage": null,
-              "passageId": "passage_b650fd08d7ebcbdbb431c366",
-              "quote": "רוביהודילבובהיויראי־שמיםושומרי־מצוה"
-            },
-            {
-              "recordId": "mention_1bd9028b55fd0931c90a8aff",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Lviv",
-              "summary": "City whose community opposed the rabbinic appointment.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 83,
-              "printedPage": null,
-              "passageId": "passage_b6168d5963a684c24dc5986c",
-              "quote": "קהלותלבוב"
-            },
-            {
-              "recordId": "mention_20228253da6d1377363fdb20",
-              "kind": "mention",
-              "type": "WORK",
-              "title": "Kinat Ha-Emet",
-              "summary": "A book attacking Hasidism and advocating religious reforms.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 243,
-              "printedPage": null,
-              "passageId": "passage_98848f8e05a53706e3de4496",
-              "quote": "בספרו״קנאתהאמת״(וינה,1828)"
-            },
-            {
-              "recordId": "mention_7aa89df2034ebd301706bd62",
-              "kind": "mention",
-              "type": "PUBLICATION",
-              "title": "Mahazikei Hadat",
-              "summary": "A periodical of the ultra-Orthodox movement that began appearing in this period.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 215,
-              "printedPage": null,
-              "passageId": "passage_6e210e3f5656d43b946c50cd",
-              "quote": "בטאוןהחרדים\"מחזיקיהדת\""
-            }
-          ],
-          "position": 3
-        },
-        {
-          "title": "Music, books, and memory within religious life",
-          "summary": "Cantors such as Baruch Schorr served Lwów synagogues and shaped prayer through melodies that deeply moved listeners. Religious works, cemetery inscriptions, and biographical collections preserved the community’s scholarly and spiritual inheritance.",
+          "title": "Music, books, and language",
+          "summary": "Cantor Baruch Schorr is remembered as a Lwów-born composer whose melodies moved listeners, while local and regional publications printed poetry, songs, translations, criticism, and political writing. Printing houses, bookstores, and periodicals made Lwów a place where Jewish religious and modern cultural expression circulated together. (mention_422fc346f2f1aa5409a3a36f; mention_33ca232485b67f98fb641db5; mention_4163d81fa5e8030cf97e220b; mention_e3dba73058d87fa6d335ceac)",
           "recordIds": [
             "mention_422fc346f2f1aa5409a3a36f",
-            "mention_68cf2188603b1dcdee168d2d",
-            "mention_dc05090e3f7b6ce3ddfe8971",
-            "mention_9287fd6fd057d1c3ad9b1646"
+            "mention_33ca232485b67f98fb641db5",
+            "mention_4163d81fa5e8030cf97e220b",
+            "mention_e3dba73058d87fa6d335ceac"
           ],
           "records": [
             {
@@ -479,69 +375,21 @@
               "scanIndex": 247,
               "printedPage": null,
               "passageId": "passage_0924e81df116e1e19027cd83",
-              "quote": "א.ברוךשור(1823—1904)"
+              "quote": "א . ברו ך שו ר ( 1823 — 1904 )"
             },
             {
-              "recordId": "mention_68cf2188603b1dcdee168d2d",
+              "recordId": "mention_33ca232485b67f98fb641db5",
               "kind": "mention",
-              "type": "PERSON",
-              "title": "Baruch Shor",
-              "summary": "A cantor who served at the municipal synagogue in Lviv.",
+              "type": "PUBLICATION",
+              "title": "Kokhvei Yitzhak",
+              "summary": "Periodical that published Jacob Zvi Sperling’s poems and David Rapoport’s translations.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 250,
+              "scanIndex": 193,
               "printedPage": null,
-              "passageId": "passage_964bb6d7a3c0f7fac06680b5",
-              "quote": "ברוךשורבביהכנ״סהעירוני"
+              "passageId": "passage_1ee99143aeb6cdb3c2f9f89b",
+              "quote": "ב״כוכבי־יצחק \" \"השחר \" \"אוצ ר הספרות\""
             },
-            {
-              "recordId": "mention_dc05090e3f7b6ce3ddfe8971",
-              "kind": "mention",
-              "type": "WORK",
-              "title": "Matzevat Kodesh",
-              "summary": "A memorial booklet of cemetery inscriptions published in 1860.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 278,
-              "printedPage": null,
-              "passageId": "passage_7031b9c89645554fe460d8c1",
-              "quote": "בשנת1860נדפסההחוברתהראשונה\"מצבת קודש"
-            },
-            {
-              "recordId": "mention_9287fd6fd057d1c3ad9b1646",
-              "kind": "mention",
-              "type": "WORK",
-              "title": "Anshei Shem",
-              "summary": "A lexicographic work presenting biographies of 564 Lviv scholars and communal leaders.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 279,
-              "printedPage": null,
-              "passageId": "passage_5e727845232da64dfdd6f39a",
-              "quote": "בספרו\"אנשישם\""
-            }
-          ],
-          "position": 4
-        }
-      ]
-    },
-    {
-      "id": "path_work_rights",
-      "theme": "POLITICS",
-      "title": "How did Jews work, organize, and claim civic rights?",
-      "description": "This path connects occupations and commerce with political action. Readers will see how Jewish residents defended livelihoods, formed organizations, participated in public life, and challenged unequal laws.",
-      "question": "How did economic life and political activism shape Jewish Lwów?",
-      "steps": [
-        {
-          "title": "Trades, printing, and industry",
-          "summary": "The records identify Jewish book trading, printing houses, bookstores, taverns, factories, and later Jewish participation in industry and banking. Together they show a community with varied occupations and economic institutions, not a single occupational profile.",
-          "recordIds": [
-            "mention_4163d81fa5e8030cf97e220b",
-            "mention_7b346a7b4eb57635d35602a1",
-            "mention_6a81d5dd83f352000c0fba19",
-            "mention_420c3cb7283ac3bca4e855a1d2b2b84d1f5f5d5c9d5e9fa5754333f4f31a19"
-          ],
-          "records": [
             {
               "recordId": "mention_4163d81fa5e8030cf97e220b",
               "kind": "mention",
@@ -553,108 +401,7 @@
               "scanIndex": 272,
               "printedPage": null,
               "passageId": "passage_3df2eed058ad9c07658e9a0d",
-              "quote": "היהלובית־מסחר־ספריםבלבוב"
-            },
-            {
-              "recordId": "mention_7b346a7b4eb57635d35602a1",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Jaeger Printing House",
-              "summary": "Printing house on Sixtuska Street in Lviv owned by Ignacy Jaeger.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 379,
-              "printedPage": null,
-              "passageId": "passage_1e8c42c8bf3d0a936c4abe43",
-              "quote": "בעלבית־דפוסברחוב סיקסטוסקהבלבוב"
-            },
-            {
-              "recordId": "mention_6a81d5dd83f352000c0fba19",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Mendil Bodko bookstore",
-              "summary": "Lviv bookstore searched for writings by Polish émigrés in Paris.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 121,
-              "printedPage": null,
-              "passageId": "passage_c87cf2928b3820a42f79a241",
-              "quote": "בחנויות־הספרים שלמנדילבודקו"
-            }
-          ],
-          "position": 1
-        },
-        {
-          "title": "Livelihoods required communal advocacy",
-          "summary": "In 1786, community leaders petitioned to preserve Jewish taverns that supported Jewish livelihoods. The episode shows communal leadership responding directly when government regulation threatened established economic practices.",
-          "recordIds": [
-            "mention_dd90a9b1ae6381eb3b764d9f"
-          ],
-          "records": [
-            {
-              "recordId": "mention_dd90a9b1ae6381eb3b764d9f",
-              "kind": "mention",
-              "type": "DOCUMENT",
-              "title": "1786 petition by Lviv community leaders",
-              "summary": "Community leaders petitioned to preserve Jewish taverns that supported Jewish livelihoods.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 90,
-              "printedPage": null,
-              "passageId": "passage_0dd41991cc7304429a48daa7",
-              "quote": "באוקטובר1786הגישופרנסי־הקהלהבלבוב כתב־בקשה"
-            }
-          ],
-          "position": 2
-        },
-        {
-          "title": "Assimilation, Zionism, and competing visions",
-          "summary": "The Brothers Society was founded in Lwów in 1880 to advocate Polish assimilation, while other records identify Zionist political representation and a Zionist newspaper. These sources show that Jewish political life included competing ideas about identity, citizenship, and collective future.",
-          "recordIds": [
-            "mention_2472fe1b7f295058819ad18d",
-            "mention_7f6be2dd1c404eaf337175f4",
-            "mention_ad8bb23cf44749e481479299",
-            "mention_e3dba73058d87fa6d335ceac"
-          ],
-          "records": [
-            {
-              "recordId": "mention_2472fe1b7f295058819ad18d",
-              "kind": "mention",
-              "type": "ORGANIZATION",
-              "title": "Brothers Society",
-              "summary": "An assimilationist society founded in Lviv in 1880 by Dr. Goldman and Dr. Philip Zucker.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 162,
-              "printedPage": null,
-              "passageId": "passage_3aa582553128a1455f117b80",
-              "quote": "ד״רגולדמןוד״רפיליפצוקרייסדו בשנת1880את\"אגודתאחים\""
-            },
-            {
-              "recordId": "mention_7f6be2dd1c404eaf337175f4",
-              "kind": "mention",
-              "type": "ORGANIZATION",
-              "title": "Brothers Association",
-              "summary": "Association founded on 16 March 1890 to advocate Polish assimilation.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 163,
-              "printedPage": null,
-              "passageId": "passage_7f6457fa8239b09480cae72e",
-              "quote": "ב־16במרס1890כנסה\"אגודת אחים\""
-            },
-            {
-              "recordId": "mention_ad8bb23cf44749e481479299",
-              "kind": "mention",
-              "type": "PERSON",
-              "title": "Ezekiel Levin",
-              "summary": "Rabbi of Lviv and Zionist political representative.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 225,
-              "printedPage": null,
-              "passageId": "passage_de1a6e4a324455ecccc0d993",
-              "quote": "אזנתמנהד״ריחזקאללוין"
+              "quote": "הי ה ל ו בית־מסחר־ספרי ם בלבו ב"
             },
             {
               "recordId": "mention_e3dba73058d87fa6d335ceac",
@@ -667,33 +414,59 @@
               "scanIndex": 378,
               "printedPage": null,
               "passageId": "passage_e94100132bf170a0fb6b3051",
-              "quote": "העתון \"חווילה\""
+              "quote": "העתו ן \"חווילה\""
             }
           ],
           "position": 3
         },
         {
-          "title": "Petitions and representation",
-          "summary": "Jewish representatives introduced proposals for equal rights, opposed limits on Jewish participation in the Lwów city council, and petitioned against housing restrictions and special taxes. The memorial-book accounts portray civic rights as something Jewish residents actively argued for through delegations, memoranda, and petitions.",
+          "title": "Political choices and civic rights",
+          "summary": "Organizations such as Shomer Israel pursued equal rights and representation, opposed school polonization, and organized electoral activity, while the Brothers Society advocated Polish assimilation. Petitions and memoranda challenged restrictions on Jewish participation in the city council, showing that communal politics involved competing visions of belonging. (mention_506a80d51a568f13fb75df51; mention_3c576005d4a686b4afd67812; mention_7f6be2dd1c404eaf337175f4; mention_d1e6265c7b019b33f0771cb2)",
           "recordIds": [
-            "mention_afcd03ee6708b34479aee3c7",
-            "mention_d1e6265c7b019b33f0771cb2",
-            "mention_b413b8bd3e7320104ab115b6",
-            "mention_a6311a0ca1b84cfcdaa987da"
+            "mention_506a80d51a568f13fb75df51",
+            "mention_3c576005d4a686b4afd67812",
+            "mention_7f6be2dd1c404eaf337175f4",
+            "mention_d1e6265c7b019b33f0771cb2"
           ],
           "records": [
             {
-              "recordId": "mention_afcd03ee6708b34479aee3c7",
+              "recordId": "mention_506a80d51a568f13fb75df51",
               "kind": "mention",
-              "type": "EVENT",
-              "title": "Proposal for full equal rights for Galician Jews",
-              "summary": "Jewish representatives introduced a proposal granting full equal rights to Galician Jews.",
+              "type": "ORGANIZATION",
+              "title": "Shomer Israel",
+              "summary": "Jewish association founded to pursue equal rights and political representation.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 148,
+              "scanIndex": 157,
               "printedPage": null,
-              "passageId": "passage_5f7f146e60054ada98946d99",
-              "quote": "הכניסו ד״רסמלזון,מרקדובסומאירקאלירהצעהעלמתן שווי־זכויותמלאליהודי־גליציה"
+              "passageId": "passage_b4f3719422a6b042b3d8427e",
+              "quote": "האגוד ה \"שומ ר ישראל\""
+            },
+            {
+              "recordId": "mention_3c576005d4a686b4afd67812",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Shomer Israel",
+              "summary": "Jewish organization opposing school polonization and supporting centralism.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 158,
+              "printedPage": null,
+              "passageId": "passage_2273d1aed8b7afabfc5b5f39",
+              "quote": "\"שומ ר ישראל \" דרש ו להקי ם בבית־הספ ר הריאל י בלבו ב כתו ת מקבילו ת בשפ ה הגרמנית"
+            },
+            {
+              "recordId": "mention_7f6be2dd1c404eaf337175f4",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Brothers Association",
+              "summary": "Association founded on 16 March 1890 to advocate Polish assimilation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 163,
+              "printedPage": null,
+              "passageId": "passage_7f6457fa8239b09480cae72e",
+              "quote": "ב־ 16 במר ס 1890 כנס ה \"אגוד ת אחים\""
             },
             {
               "recordId": "mention_d1e6265c7b019b33f0771cb2",
@@ -706,33 +479,7 @@
               "scanIndex": 152,
               "printedPage": null,
               "passageId": "passage_6a1cfad002198377b2c81c4b",
-              "quote": "נציגי־היהודיםבגליציהמחובתזכירםנגדהסעיף 34שלתקנון־העירלבוב"
-            },
-            {
-              "recordId": "mention_b413b8bd3e7320104ab115b6",
-              "kind": "mention",
-              "type": "DOCUMENT",
-              "title": "First petition to the government",
-              "summary": "Petition requesting removal of housing restrictions and special taxes on Jews.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 122,
-              "printedPage": null,
-              "passageId": "passage_4d68e7071f9f897b3be20075",
-              "quote": "הפטיציההראשונה"
-            },
-            {
-              "recordId": "mention_a6311a0ca1b84cfcdaa987da",
-              "kind": "mention",
-              "type": "DOCUMENT",
-              "title": "Lviv Jewish Community Protocol of Sejm Debates",
-              "summary": "German and Polish publication commemorating the struggle in the Sejm.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 153,
-              "printedPage": null,
-              "passageId": "passage_eb0e9c9a789f50ec538d449d",
-              "quote": "הפרוטוקולשלהדיוניםעלהבעיההיהודיתבסיים"
+              "quote": "נציגי־היהודי ם בגליצי ה מח ו בתזכיר ם נג ד הסעי ף 34 ש ל תקנון־העי ר לבוב"
             }
           ],
           "position": 4
@@ -742,18 +489,17 @@
     {
       "id": "path_occupation_destruction",
       "theme": "DEPORTATION_MURDER",
-      "title": "How did occupation turn community life into persecution and destruction?",
-      "description": "This path follows the mechanisms of German rule in Lwów: identification, forced administration, ghettoization, deportation, and killing. By the end, readers will understand how persecution was imposed through both direct German action and coerced structures within the ghetto.",
-      "question": "How was Jewish life dismantled under German occupation?",
+      "title": "How did occupation destroy Jewish Lwów?",
+      "description": "This path moves from imposed identification and administrative control to ghetto confinement, deportations, executions, and mass violence. By the end, readers will understand how persecution operated through laws, forced labor, communal offices, transports, and organized murder.",
+      "question": "How was an established community transformed into a persecuted and murdered population?",
       "steps": [
         {
-          "title": "Identification and imposed control",
-          "summary": "From July 1940, Jews were required to wear a white armband and blue Star of David. German authorities also established a Jewish Council to carry out German orders, while council offices handled housing, labor, supplies, and other forced administrative tasks.",
+          "title": "Occupation and imposed identity",
+          "summary": "Under German occupation, Jewish residents were required to wear a white armband and blue Star of David from July 1940. German authorities also used a Jewish Council to carry out orders, turning existing communal administration into an instrument of coercion. (mention_470b936d177548e3fa8a1353; mention_ec15334492db1d54d0ffd1a8; mention_a71a29b61eeec0bf3f141982)",
           "recordIds": [
             "mention_470b936d177548e3fa8a1353",
             "mention_ec15334492db1d54d0ffd1a8",
-            "mention_a71a29b61eeec0bf3f141982",
-            "mention_6d4099f01d496526b9dfa396"
+            "mention_a71a29b61eeec0bf3f141982"
           ],
           "records": [
             {
@@ -767,7 +513,7 @@
               "scanIndex": 312,
               "printedPage": null,
               "passageId": "passage_a4cfa65c9cf9a709bbbd1ea2",
-              "quote": "סרטלבןומגן־דודכחול"
+              "quote": "סר ט לב ן ומגן־דו ד כחו ל"
             },
             {
               "recordId": "mention_ec15334492db1d54d0ffd1a8",
@@ -780,7 +526,7 @@
               "scanIndex": 312,
               "printedPage": null,
               "passageId": "passage_a4cfa65c9cf9a709bbbd1ea2",
-              "quote": "מגן־דודכחול"
+              "quote": "מגן־דו ד כחו ל"
             },
             {
               "recordId": "mention_a71a29b61eeec0bf3f141982",
@@ -793,47 +539,21 @@
               "scanIndex": 308,
               "printedPage": null,
               "passageId": "passage_0259d0b8ac4ebc341582a7c9",
-              "quote": "מדיניותםשלהגרמניםהיתהלארגןמועצה יהודיתבכלמקוםמושביהודים"
-            },
-            {
-              "recordId": "mention_6d4099f01d496526b9dfa396",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Jewish Council",
-              "summary": "The Jewish Council administered supply, tax, and labor departments under German occupation.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 310,
-              "printedPage": null,
-              "passageId": "passage_a1a3d4d89cdea4490af50622",
-              "quote": "השתמשוהגרמניםבמועצה היהודית"
+              "quote": "מדיניות ם ש ל הגרמני ם הית ה לארג ן מועצ ה יהודי ת בכ ל מקו ם מוש ב יהודים"
             }
           ],
           "position": 1
         },
         {
-          "title": "The ghetto and coerced administration",
-          "summary": "The Jewish Council negotiated with German authorities, administered housing, and financed or oversaw construction of the ghetto fence. These records make clear that communal offices operated under coercion and were used to extract labor and resources for the German authorities.",
+          "title": "Ghetto administration and forced labor",
+          "summary": "The Jewish Council managed housing, supplies, taxes, and labor under German pressure, including the construction of the ghetto fence and the provision of replacement workers. These measures show how persecution entered daily life through forced movement, resource extraction, and compelled administration. (mention_944bb72956ef0c63507fc87c; mention_b5a1cd2c52cb93e0d3b28881; mention_6d4099f01d496526b9dfa396; mention_8c5fda0ea52bf4be97792cfc)",
           "recordIds": [
-            "mention_3715329f3aaa23a5fc12a507",
             "mention_944bb72956ef0c63507fc87c",
             "mention_b5a1cd2c52cb93e0d3b28881",
-            "mention_830d75916e79795c62c4a526"
+            "mention_6d4099f01d496526b9dfa396",
+            "mention_8c5fda0ea52bf4be97792cfc"
           ],
           "records": [
-            {
-              "recordId": "mention_3715329f3aaa23a5fc12a507",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Jewish Council",
-              "summary": "The Jewish Council negotiated with German authorities regarding the ghetto.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 316,
-              "printedPage": null,
-              "passageId": "passage_1a0477928a55eb4ec5f3d276",
-              "quote": "המועצההיהודיתהוכרחה"
-            },
             {
               "recordId": "mention_944bb72956ef0c63507fc87c",
               "kind": "mention",
@@ -845,7 +565,7 @@
               "scanIndex": 335,
               "printedPage": null,
               "passageId": "passage_3005dcdbde0c8d729686f970",
-              "quote": "המנגנוןשלהמועצה היהודית"
+              "quote": "המנגנו ן ש ל המועצ ה היהודית"
             },
             {
               "recordId": "mention_b5a1cd2c52cb93e0d3b28881",
@@ -858,60 +578,46 @@
               "scanIndex": 336,
               "printedPage": null,
               "passageId": "passage_21d571c057c97c3bbdb940cd",
-              "quote": "עלחשבוןהמועצה"
+              "quote": "ע ל חשבו ן המועצ ה"
             },
             {
-              "recordId": "mention_830d75916e79795c62c4a526",
+              "recordId": "mention_6d4099f01d496526b9dfa396",
               "kind": "mention",
-              "type": "ORGANIZATION",
+              "type": "INSTITUTION",
               "title": "Jewish Council",
-              "summary": "Jewish administrative body used by the Germans to extract resources and labor.",
+              "summary": "The Jewish Council administered supply, tax, and labor departments under German occupation.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 310,
               "printedPage": null,
-              "passageId": "passage_0f731a9677dd970ed53f8c7f",
-              "quote": "גםפעולותהמועצההיהודיתהתפתחו"
+              "passageId": "passage_a1a3d4d89cdea4490af50622",
+              "quote": "השתמש ו הגרמני ם במועצ ה היהודי ת"
+            },
+            {
+              "recordId": "mention_8c5fda0ea52bf4be97792cfc",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Jewish Council",
+              "summary": "Council whose labor office supplied replacement workers.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 315,
+              "printedPage": null,
+              "passageId": "passage_e281d54dfc3daa9b0cfad2a6",
+              "quote": "ע״ י המועצ ה היהודי ת"
             }
           ],
           "position": 2
         },
         {
-          "title": "Deportation operations",
-          "summary": "German authorities directed deportation operations and pressured Jewish officials and police to organize groups for them. The Great Aktion of August 1942 was a large German and Ukrainian operation that killed and deported Lwów residents, while later winter operations targeted Jewish men, women, and children.",
+          "title": "Aktionen and deportations",
+          "summary": "The memorial book records a large German and Ukrainian operation in August 1942 that killed and deported Lwów residents, followed by deportations in winter 1942–1943 targeting men, women, and children. Some deportees escaped from transports, but the transports formed part of a systematic campaign against the ghetto’s population. (mention_81c1870374d1ed1adb95afff; mention_bf29d77e89ab488d118515d2; mention_b99bfd9c7773d5330195c7b0)",
           "recordIds": [
-            "mention_276f13ba59390d56f44a4e57",
-            "mention_5960bf6f81be4f5d17ec6946",
             "mention_81c1870374d1ed1adb95afff",
-            "mention_bf29d77e89ab488d118515d2"
+            "mention_bf29d77e89ab488d118515d2",
+            "mention_b99bfd9c7773d5330195c7b0"
           ],
           "records": [
-            {
-              "recordId": "mention_276f13ba59390d56f44a4e57",
-              "kind": "mention",
-              "type": "EVENT",
-              "title": "Deportation operation in Lviv",
-              "summary": "German authorities directed a deportation operation involving Jewish officials and police.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 323,
-              "printedPage": null,
-              "passageId": "passage_89255cd4bef03741a7d1450c",
-              "quote": "הגירוש"
-            },
-            {
-              "recordId": "mention_5960bf6f81be4f5d17ec6946",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Jewish Council",
-              "summary": "Jewish communal body pressured to organize deportation operations.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 321,
-              "printedPage": null,
-              "passageId": "passage_42947e08843415eb3026ec3e",
-              "quote": "דרשו לארגןקבוצותשלפקידיהקהילהוהמשטרההיהודית"
-            },
             {
               "recordId": "mention_81c1870374d1ed1adb95afff",
               "kind": "mention",
@@ -923,7 +629,7 @@
               "scanIndex": 329,
               "printedPage": null,
               "passageId": "passage_d3952331a1dbfdb401e42482",
-              "quote": "התחילההאקציה"
+              "quote": "התחיל ה האקציה"
             },
             {
               "recordId": "mention_bf29d77e89ab488d118515d2",
@@ -936,19 +642,30 @@
               "scanIndex": 338,
               "printedPage": null,
               "passageId": "passage_87fab5cba8436f65c48bfea0",
-              "quote": "באקציותשבוצעובגיטובחורף1942—1943"
+              "quote": "באקציו ת שבוצע ו בגיט ו בחור ף 1942 — 1943"
+            },
+            {
+              "recordId": "mention_b99bfd9c7773d5330195c7b0",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Escapes from deportation transports",
+              "summary": "Some deportees escaped through train openings or holes cut in transport-car floors.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 338,
+              "printedPage": null,
+              "passageId": "passage_87fab5cba8436f65c48bfea0",
+              "quote": "הי ו מקרי ם רבי ם ש ל בריחה"
             }
           ],
           "position": 3
         },
         {
-          "title": "Murder and liquidation",
-          "summary": "The testimony records weekly transports from the prison to an execution site after the prison filled, as well as German searches, executions, and deportations. By the end of January 1943, Jewish Council institutions were abolished, marking another stage in the destruction of communal structures.",
+          "title": "Prison executions and destruction",
+          "summary": "After the prison filled, prisoners were transported weekly to an execution site, while German authorities prohibited Jewish schools and public prayer and murdered Shmuel Patznovsky in August 1942. The evidence presents destruction not only as deportation but also as the dismantling of religious, educational, and communal life. (mention_5ac3f59eff73f5749ae3cc9f; mention_d6b2966c84e9edb6ad0076a2)",
           "recordIds": [
             "mention_5ac3f59eff73f5749ae3cc9f",
-            "mention_2243e4e71b9a1543cfb28828",
-            "mention_2cd50b1672f7854bed215ec5",
-            "mention_c88cbe55f8f4a82a600b4acd"
+            "mention_d6b2966c84e9edb6ad0076a2"
           ],
           "records": [
             {
@@ -962,46 +679,20 @@
               "scanIndex": 339,
               "printedPage": null,
               "passageId": "passage_8a515e2af6e7d0b64013dbf4",
-              "quote": "פינוי\"בבית־ הכלאאחתלשבוע"
+              "quote": "פינוי \" בבית ־ הכל א אח ת לשבוע"
             },
             {
-              "recordId": "mention_2243e4e71b9a1543cfb28828",
+              "recordId": "mention_d6b2966c84e9edb6ad0076a2",
               "kind": "mention",
               "type": "ORGANIZATION",
-              "title": "German forces",
-              "summary": "German authorities conducting censuses, searches, deportations, and executions.",
+              "title": "German authorities",
+              "summary": "They prohibited Jewish schools and public prayer and murdered Shmuel Patznovsky.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 338,
+              "scanIndex": 309,
               "printedPage": null,
-              "passageId": "passage_0a7f554d3f055a283a2c1637",
-              "quote": "הגרמנים"
-            },
-            {
-              "recordId": "mention_2cd50b1672f7854bed215ec5",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Jewish Council",
-              "summary": "Council institutions were abolished at the end of January 1943.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 342,
-              "printedPage": null,
-              "passageId": "passage_416ff66335f4a7058464fcb1",
-              "quote": "בסוףינואר1943חוסלומוסדותהמועצההיהודית"
-            },
-            {
-              "recordId": "mention_c88cbe55f8f4a82a600b4acd",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Lviv Jewish Council",
-              "summary": "Jewish council abolished during the ghetto’s reorganization.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 340,
-              "printedPage": null,
-              "passageId": "passage_ffc426c4e855a4db3e3d77f8",
-              "quote": "חוסלהכלילהמועצההיהודית"
+              "passageId": "passage_c11ba1425d82b6973c114447",
+              "quote": "נרצ ח ביד י הגרמני ם באוגוס ט 1942"
             }
           ],
           "position": 4
@@ -1009,17 +700,18 @@
       ]
     },
     {
-      "id": "path_resistance_survival",
+      "id": "path_survival_resistance",
       "theme": "HIDING_ESCAPE_RESISTANCE",
-      "title": "How did people resist, escape, and preserve human life?",
-      "description": "This path centers the choices and acts of mutual aid that continued under persecution. It shows that survival included escape from transports, clandestine education and culture, self-help, documentation, and organized resistance.",
-      "question": "What forms of agency remained possible during ghettoization and deportation?",
+      "title": "How did people preserve life and dignity under persecution?",
+      "description": "This path focuses on escape, self-help, underground information, cultural gatherings, and the difficult work of communal survival. It shows that resistance and survival took many forms, from leaving transports to maintaining education, literature, food aid, and news.",
+      "question": "What did resistance and survival look like in occupied Lwów?",
       "steps": [
         {
-          "title": "Escape from deportation transports",
-          "summary": "The memorial-book account records many cases in which deportees escaped through openings in train cars or holes cut in transport-car floors. These escapes reveal efforts to resist deportation even under severe German security measures.",
+          "title": "Escape and concealment",
+          "summary": "The book records repeated escapes from deportation transports through openings in trains or holes cut in transport-car floors. It also notes that thousands of Jewish survivors remained in Lwów, legally or illegally, after the ghetto’s liquidation. (mention_b99bfd9c7773d5330195c7b0; mention_9b915defcb68b033a59804ed)",
           "recordIds": [
-            "mention_b99bfd9c7773d5330195c7b0"
+            "mention_b99bfd9c7773d5330195c7b0",
+            "mention_9b915defcb68b033a59804ed"
           ],
           "records": [
             {
@@ -1033,18 +725,30 @@
               "scanIndex": 338,
               "printedPage": null,
               "passageId": "passage_87fab5cba8436f65c48bfea0",
-              "quote": "היומקריםרבים שלבריחה"
+              "quote": "הי ו מקרי ם רבי ם ש ל בריחה"
+            },
+            {
+              "recordId": "mention_9b915defcb68b033a59804ed",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Lviv Jewish survivors",
+              "summary": "Jewish survivors who remained legally or illegally in Lviv after the ghetto’s liquidation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 351,
+              "printedPage": null,
+              "passageId": "passage_cc33e0f4779d964cc629df74",
+              "quote": "בלבו ב התגורר ו עו ד באופ ן בלתי־חוק י כמ ה אלפ י יהודי ם"
             }
           ],
           "position": 1
         },
         {
-          "title": "Mutual aid and practical survival",
-          "summary": "A self-help organization formed during 1942, while Jewish Council bodies arranged food shipments for prisoners and transferred critically ill people to a community hospital. These actions show people trying to sustain one another amid systems designed to deprive them of food, health care, and safety.",
+          "title": "Self-help and food relief",
+          "summary": "During 1942, a self-help organization was formed, and the Jewish Council arranged food shipments for prisoners. These efforts could not end persecution, but they demonstrate attempts to sustain people through organized care under conditions created by the occupiers. (mention_2db3ad546eeff89b06b6214d; mention_17309319a6e8e1a51230b9c5)",
           "recordIds": [
             "mention_2db3ad546eeff89b06b6214d",
-            "mention_17309319a6eeb2eacc8d7a06",
-            "mention_07c578d4a289f02cb8da119b"
+            "mention_17309319a6e8e1a51230b9c5"
           ],
           "records": [
             {
@@ -1058,43 +762,53 @@
               "scanIndex": 362,
               "printedPage": null,
               "passageId": "passage_70d9598f43845b9860d8f026",
-              "quote": "במשךשנת 1942נתארגנהעזרהעצמית"
-            },
-            {
-              "recordId": "mention_17309319a6eeb2eacc8d7a06",
-              "kind": "mention",
-              "type": "ORGANIZATION",
-              "title": "Jewish council",
-              "summary": "A Jewish council that arranged food shipments for prisoners.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 358,
-              "printedPage": null,
-              "passageId": "passage_28e54f91b197e6573b8a54df",
-              "quote": "המועצההיהודית"
-            },
-            {
-              "recordId": "mention_07c578d4a289f02cb8da119b",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Jewish Council",
-              "summary": "An institution that helped transfer critically ill patients to the community hospital.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 359,
-              "printedPage": null,
-              "passageId": "passage_2c855893a0dc087db0afc772",
-              "quote": "המועצההיהודית"
+              "quote": "במש ך שנ ת 1942 נתארגנ ה עזר ה עצמי ת"
             }
           ],
           "position": 2
         },
         {
-          "title": "Culture under clandestine conditions",
-          "summary": "During 1942–1943, people organized clandestine literary evenings, and an illegal underground newspaper carried political, military, and local news. Such activity preserved communication and cultural life even while public Jewish institutions were being dismantled.",
+          "title": "Underground news and testimony",
+          "summary": "An illegal newspaper of the Lwów Jewish underground carried political, military, and local news, while a 1944 Warsaw underground booklet later preserved accounts connected with the destruction. Such publications helped people communicate and ensured that events were recorded despite censorship and terror. (mention_a49f881516c79823dc6a43b7; mention_6f11e5208fc7936bc5bec0c8)",
+          "recordIds": [
+            "mention_a49f881516c79823dc6a43b7",
+            "mention_6f11e5208fc7936bc5bec0c8"
+          ],
+          "records": [
+            {
+              "recordId": "mention_a49f881516c79823dc6a43b7",
+              "kind": "mention",
+              "type": "PUBLICATION",
+              "title": "Illegal newspaper of the Lviv Jewish underground",
+              "summary": "Typewritten publication carrying political, military, and local news.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 349,
+              "printedPage": null,
+              "passageId": "passage_d5a5c16982e1b56095a4f946",
+              "quote": "עתו ן בלתי ־ חוקי"
+            },
+            {
+              "recordId": "mention_6f11e5208fc7936bc5bec0c8",
+              "kind": "mention",
+              "type": "PUBLICATION",
+              "title": "From the Depths",
+              "summary": "A 1944 booklet published by the Jewish underground in Warsaw.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 362,
+              "printedPage": null,
+              "passageId": "passage_761118f11b9368988685a6d2",
+              "quote": "בשנ ת 1944 , ע״ י המחתר ת היהודי ת בוארש ה בחובר ת \"ממעמקים \""
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Cultural life under terror",
+          "summary": "A series of clandestine literary evenings was organized during 1942–1943, initiated by an employee of the Jewish Council. Continuing literary activity in hiding or confinement affirmed intellectual and communal life when the occupiers were trying to destroy both. (mention_27baeefba014716dfc8b5c7c; mention_1112bbd732e5e542f388d8ce)",
           "recordIds": [
             "mention_27baeefba014716dfc8b5c7c",
-            "mention_a49f881516c79823abeb0ee",
             "mention_1112bbd732e5e542f388d8ce"
           ],
           "records": [
@@ -1109,7 +823,7 @@
               "scanIndex": 362,
               "printedPage": null,
               "passageId": "passage_70d9598f43845b9860d8f026",
-              "quote": "שורהשל\"נשפיםספרו- תייםנתארגנהבמשךהשנים1942—1943"
+              "quote": "שור ה ש ל \"נשפי ם ספרו - תיי ם נתארגנ ה במש ך השני ם 1942 — 1943"
             },
             {
               "recordId": "mention_1112bbd732e5e542f388d8ce",
@@ -1122,44 +836,7 @@
               "scanIndex": 343,
               "printedPage": null,
               "passageId": "passage_a31c47af8f037a44c63a8a1e",
-              "quote": "המועצההיהודית"
-            }
-          ],
-          "position": 3
-        },
-        {
-          "title": "Secret preparation for resistance",
-          "summary": "The book records young Jewish Council staff organizing secret military instruction in late 1942. It also records escapes, black-market exchange among prisoners, and aid activity, showing a range of resistance and survival practices rather than a single form of response.",
-          "recordIds": [
-            "mention_2b049b1b32a653ad8b116997",
-            "mention_06909ddc6637704265b46455"
-          ],
-          "records": [
-            {
-              "recordId": "mention_2b049b1b32a653ad8b116997",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Jewish Council",
-              "summary": "Council whose young staff organized secret military instruction in late 1942.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 348,
-              "printedPage": null,
-              "passageId": "passage_cd56479e216cf9162bdf8278",
-              "quote": "קבוצתפקידיםצעיריםשל המועצההיהודית"
-            },
-            {
-              "recordId": "mention_06909ddc6637704265b46455",
-              "kind": "mention",
-              "type": "EVENT",
-              "title": "Black market",
-              "summary": "Black market trading involving Christian and Jewish prisoners is described.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 358,
-              "printedPage": null,
-              "passageId": "passage_eed14995cd558bbe43c97e4d",
-              "quote": "עסקיהשוק השחור"
+              "quote": "המועצ ה היהודית"
             }
           ],
           "position": 4
@@ -1167,15 +844,15 @@
       ]
     },
     {
-      "id": "path_memory",
+      "id": "path_memory_genealogy",
       "theme": "MEMORY",
-      "title": "How was Lwów’s Jewish past preserved after destruction?",
-      "description": "This path examines the memorial book as a vessel of remembrance, alongside earlier Jewish efforts to record scholars, inscriptions, buildings, and communal experience. Readers will understand memory not as an afterthought, but as a continuing form of communal responsibility.",
-      "question": "What traces allow us to remember the people and institutions of Jewish Lwów?",
+      "title": "How does the memorial book preserve a destroyed world?",
+      "description": "This path treats the volume itself as a work of remembrance: it preserves names, families, scholarship, buildings, testimonies, and postwar traces. By the end, readers will see how memory reconstructs a community not only through accounts of death, but also through the lives and institutions that preceded it.",
+      "question": "What can a memorial book restore to historical memory?",
       "steps": [
         {
-          "title": "Recording names, graves, and scholars",
-          "summary": "A 1860 memorial booklet collected cemetery inscriptions, while Shlomo Buber’s Anshei Shem presented biographies of 564 Lwów scholars and communal leaders. These works preserved individual names and intellectual lives through written documentation.",
+          "title": "Names, graves, and scholars",
+          "summary": "The memorial tradition includes a 1860 booklet documenting cemetery inscriptions and a later lexicographic work presenting biographies of 564 Lwów scholars and communal leaders. These works preserve individual names and achievements, resisting the reduction of the community to an anonymous victim population. (mention_dc05090e3f7b6ce3ddfe8971; mention_9287fd6fd057d1c3ad9b1646)",
           "recordIds": [
             "mention_dc05090e3f7b6ce3ddfe8971",
             "mention_9287fd6fd057d1c3ad9b1646"
@@ -1192,7 +869,7 @@
               "scanIndex": 278,
               "printedPage": null,
               "passageId": "passage_7031b9c89645554fe460d8c1",
-              "quote": "בשנת1860נדפסההחוברתהראשונה\"מצבת קודש"
+              "quote": "בשנ ת 1860 נדפס ה החובר ת הראשונ ה \"מצב ת קודש"
             },
             {
               "recordId": "mention_9287fd6fd057d1c3ad9b1646",
@@ -1205,125 +882,95 @@
               "scanIndex": 279,
               "printedPage": null,
               "passageId": "passage_5e727845232da64dfdd6f39a",
-              "quote": "בספרו\"אנשישם\""
+              "quote": "בספר ו \"אנש י שם \""
             }
           ],
           "position": 1
         },
         {
-          "title": "Buildings and objects as communal traces",
-          "summary": "The records preserve details of synagogues, family houses, a bronze menorah, and the gravestone of Rabbi Abraham Cohen. Such material traces connect religious practice and family history to the physical spaces of Lwów.",
+          "title": "Families and places",
+          "summary": "The book records families who led the community, built houses, traded, taught, and served in communal institutions, including the Nahman, Kolischer, Berger, and Lovenhartz families. It also preserves the relationship between residential spaces, synagogues, schools, printing houses, and businesses, helping readers imagine Jewish Lwów as a lived urban world. (mention_bace0ed2f62d3ebc45a04ccb; mention_df562be88e376e505bb56a35; mention_0fcc98bb07ad3086a19b178f; mention_5811a35d80f8b770a676a19d; mention_7b346a7b4eb57635d35602a1)",
           "recordIds": [
-            "mention_383f89733ec34da7fa7e1d7a",
-            "mention_79b29781031d7bc64924522a",
-            "mention_7a00812f946b5490006948ba",
-            "event_candidate_0d951950dd86c8cd880511d2"
+            "mention_bace0ed2f62d3ebc45a04ccb",
+            "mention_df562be88e376e505bb56a35",
+            "mention_0fcc98bb07ad3086a19b178f",
+            "mention_5811a35d80f8b770a676a19d8f770a676a19d"
           ],
           "records": [
             {
-              "recordId": "mention_383f89733ec34da7fa7e1d7a",
-              "kind": "mention",
-              "type": "OBJECT",
-              "title": "Bronze menorah",
-              "summary": "A large handcrafted bronze menorah donated to the Turei Zahav Synagogue.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 294,
-              "printedPage": null,
-              "passageId": "passage_839d58a61030702588606979",
-              "quote": "מנורהגדולהויפהמברונזה"
-            },
-            {
-              "recordId": "mention_79b29781031d7bc64924522a",
-              "kind": "mention",
-              "type": "OBJECT",
-              "title": "Gravestone of Rabbi Abraham Cohen",
-              "summary": "A gravestone of Rabbi Abraham Cohen is shown or referenced.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 134,
-              "printedPage": null,
-              "passageId": "passage_6a6d9c027f569c965b8e4eec",
-              "quote": "מצבתקברושלהרבאברהםכהן"
-            },
-            {
-              "recordId": "mention_7a00812f946b5490006948ba",
+              "recordId": "mention_bace0ed2f62d3ebc45a04ccb",
               "kind": "mention",
               "type": "FAMILY",
-              "title": "Nakhmanovich family",
-              "summary": "Family whose residential house provided access from the street to the synagogue courtyard.",
+              "title": "Family of Isaac ben Nahman",
+              "summary": "Family that led the community and established public institutions.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 240,
+              "scanIndex": 30,
               "printedPage": null,
-              "passageId": "passage_3721f34dbb5c78bcd5d6f4b5",
-              "quote": "בית־המגוריםשלמשפחת נחמנוביץ"
+              "passageId": "passage_07acb4353214b2b077f8350a",
+              "quote": "משפח ת ר ׳ יצח ק ב ן נחמ ן"
             },
             {
-              "recordId": "event_candidate_0d951950dd86c8cd880511d2",
-              "kind": "event",
-              "type": "INSTITUTIONAL_USE",
-              "title": "Synagogue used as court",
-              "summary": "From 1604, the synagogue also served as a seat of the rabbinical court and as a genizah for community registers.",
-              "dateStart": "1604",
+              "recordId": "mention_df562be88e376e505bb56a35",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Kolischer family",
+              "summary": "Family that moved from Kalish to Lviv and became prominent merchants.",
+              "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 48,
+              "scanIndex": 265,
               "printedPage": null,
-              "passageId": "passage_44ec08f7d8a6dd9c11e031ef",
-              "quote": "החלמשנת1604שימש בית־הכנסתגםכמושבבית־הדין"
+              "passageId": "passage_6c710528ee7f84336b994558",
+              "quote": "הית ה ג ם משפח ת קולישר"
+            },
+            {
+              "recordId": "mention_0fcc98bb07ad3086a19b178f",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Berger family",
+              "summary": "The Berger family built large residential houses in the Jewish quarter.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 261,
+              "printedPage": null,
+              "passageId": "passage_008c5e9736f9a29d72131299",
+              "quote": "פ ה בנ ו משפחו ת ברגר , בירנבאום , מיטלמן"
             }
           ],
           "position": 2
         },
         {
-          "title": "Testimony after destruction",
-          "summary": "The memorial book cites accounts of ghetto life, deportation, escape, underground activity, and postwar Jewish survivors in Lwów. These are source accounts of people and events, and they preserve experiences that would otherwise be reduced to the administrative record of persecution.",
+          "title": "Survivors after liquidation",
+          "summary": "The account states that several thousand Jews remained in Lwów after the ghetto’s liquidation, some legally and others illegally. This evidence keeps survival visible alongside murder and opens a path for descendants and researchers seeking the people who continued living after the destruction of the ghetto. (mention_9b915defcb68b033a59804ed)",
           "recordIds": [
-            "mention_094c036a56e225c12ca0bf73",
-            "mention_44c449e33b24e4af49d58ada",
-            "mention_b42b23e8f08e3adffa4acf20",
-            "mention_4ebedc173a07efa6c8fa86f7"
+            "mention_9b915defcb68b033a59804ed"
           ],
           "records": [
             {
-              "recordId": "mention_094c036a56e225c12ca0bf73",
+              "recordId": "mention_9b915defcb68b033a59804ed",
               "kind": "mention",
               "type": "COMMUNITY",
-              "title": "Lviv Jewish community",
-              "summary": "Jewish community described in accounts of resistance and ghetto life.",
+              "title": "Lviv Jewish survivors",
+              "summary": "Jewish survivors who remained legally or illegally in Lviv after the ghetto’s liquidation.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 349,
+              "scanIndex": 351,
               "printedPage": null,
-              "passageId": "passage_d5a5c16982e1b56095a4f946",
-              "quote": "יהודילבוב"
-            },
-            {
-              "recordId": "mention_44c449e33b24e4af49d58ada",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Lviv",
-              "summary": "City containing the Jewish community and ghetto described in the passage.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 380,
-              "printedPage": null,
-              "passageId": "passage_3683256b378ed1ba199e45f3",
-              "quote": "בקהילת־לבוב"
-            },
-            {
-              "recordId": "mention_b42b23e8f08e3adffa4acf20",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Lviv",
-              "summary": "City where Katzmann returned and where Jewish survivors lived after the ghetto’s liquidation.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 350,
-              "printedPage": null,
-              "passageId": "passage_18416780e04348463bee8cfd",
-              "quote": "חזרללבוב"
-            },
+              "passageId": "passage_cc33e0f4779d964cc629df74",
+              "quote": "בלבו ב התגורר ו עו ד באופ ן בלתי־חוק י כמ ה אלפ י יהודי ם"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "A memorial book as testimony",
+          "summary": "The volume cites underground publications, trial documents, local histories, and accounts of the occupation while also preserving descriptions of prewar religious, cultural, political, and economic life. Read carefully, these are memorial-book source accounts: they offer vital testimony and remembrance, while their claims should remain tied to the specific records and voices through which they reach us. (mention_4ebedc173a07efa6c8fa86f7; mention_6f11e5208fc7936bc5bec0c8; mention_399816780f49ef2aca039637)",
+          "recordIds": [
+            "mention_4ebedc173a07efa6c8fa86f7",
+            "mention_6f11e5208fc7936bc5bec0c8",
+            "mention_399816780f49ef2aca039637"
+          ],
+          "records": [
             {
               "recordId": "mention_4ebedc173a07efa6c8fa86f7",
               "kind": "mention",
@@ -1335,30 +982,33 @@
               "scanIndex": 373,
               "printedPage": null,
               "passageId": "passage_3facae997e5bfea4fef5d7bd",
-              "quote": "מתוךאוסףהתעודותשלמשפט\"פושעי־המלחמה\""
-            }
-          ],
-          "position": 3
-        },
-        {
-          "title": "Memory continued through publication",
-          "summary": "After liberation, publication of the Jewish daily Tagblatt resumed according to the book’s account. This small but significant trace suggests that Jewish cultural and public expression continued to matter even after the destruction of the wartime community.",
-          "recordIds": [
-            "mention_c1d72bdf9c035e9c8bac3c6b"
-          ],
-          "records": [
+              "quote": "מתו ך אוס ף התעודו ת ש ל משפ ט \"פושעי־המלחמה\""
+            },
             {
-              "recordId": "mention_c1d72bdf9c035e9c8bac3c6b",
+              "recordId": "mention_6f11e5208fc7936bc5bec0c8",
               "kind": "mention",
               "type": "PUBLICATION",
-              "title": "Tagblatt",
-              "summary": "Daily newspaper whose publication resumed after liberation.",
+              "title": "From the Depths",
+              "summary": "A 1944 booklet published by the Jewish underground in Warsaw.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 172,
+              "scanIndex": 362,
               "printedPage": null,
-              "passageId": "passage_5c9ef54882a266a6bebe87e5",
-              "quote": "העו׳״וןהיומי\"טאגבלאט\""
+              "passageId": "passage_761118f11b9368988685a6d2",
+              "quote": "בשנ ת 1944 , ע״ י המחתר ת היהודי ת בוארש ה בחובר ת \"ממעמקים \""
+            },
+            {
+              "recordId": "mention_399816780f49ef2aca039637",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "History of the Jews in Lviv",
+              "summary": "A work issued by Dr. Kar for schools.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 222,
+              "printedPage": null,
+              "passageId": "passage_cd594bc87ca73a00ae03840b",
+              "quote": "תולדו ת היהודי ם בלבוב"
             }
           ],
           "position": 4
@@ -1368,33 +1018,18 @@
   ],
   "timeline": [
     {
-      "periodStart": "1340",
+      "periodStart": "1383",
       "periodEnd": "1387",
-      "dateLabel": "Fourteenth century",
-      "title": "Jewish settlement and legal recognition",
-      "summary": "The records describe Lwów’s rebuilding after a fire, Jewish commercial activity by 1383, the founding of Jewish Street in 1387, and a privilege approved for Lwów Jews that year.",
+      "dateLabel": "1383–1387",
+      "title": "Trade, settlement, and privilege",
+      "summary": "Three Lwów Jewish partners supplied the city council with pepper in 1383, and a royal privilege for Lwów Jews was approved in 1387. Together, these records show early commercial activity alongside formal recognition of Jewish settlement. (event_candidate_24f981bb27253ede6074c49f; event_candidate_f45fc2651269db856a0d4e72)",
       "recordIds": [
-        "event_candidate_11f6e06d95db5e6ee6307cdd",
-        "event_candidate_86233aedfcabbe8f2fa500a9",
-        "event_candidate_3d4357fbeb26e112939c22d0",
-        "event_candidate_f5756d4add5052c0f8ea2588"
+        "event_candidate_24f981bb27253ede6074c49f",
+        "event_candidate_f45fc2651269db856a0d4e72"
       ],
       "records": [
         {
-          "recordId": "event_candidate_11f6e06d95db5e6ee6307cdd",
-          "kind": "event",
-          "type": "FIRE",
-          "title": "Lviv rebuilt after a fire",
-          "summary": "Lviv was rebuilt after a fire in 1350.",
-          "dateStart": "1350",
-          "dateEnd": "1350",
-          "scanIndex": 14,
-          "printedPage": null,
-          "passageId": "passage_f0d330e0f681d0057fdca606",
-          "quote": "אחריהשריפהבשנת1350נבנתההעירמחדש"
-        },
-        {
-          "recordId": "event_candidate_86233aedfcabbe8f2fa500a9",
+          "recordId": "event_candidate_24f981bb27253ede6074c49f",
           "kind": "event",
           "type": "BUSINESS_OPENING",
           "title": "Lviv merchants’ pepper shipment",
@@ -1404,23 +1039,10 @@
           "scanIndex": 14,
           "printedPage": null,
           "passageId": "passage_07d95506305d113ba3b0cc8e",
-          "quote": "שותפותשל 3יהודיםמלבוב:שלמה,שיביה(צ׳בעיא=צבי?) ויעקב6)מספקתלעיריתלבוב,בשנת1383,מטען פלפלגדול"
+          "quote": "שותפו ת ש ל 3 יהודי ם מלבוב : שלמה , שיבי ה (צ׳בעיא=צבי? ) ויעקב 6 ) מספק ת לעירי ת לבוב , בשנ ת 1383 , מטע ן פלפ ל גדו ל"
         },
         {
-          "recordId": "event_candidate_3d4357fbeb26e112939c22d0",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Founding of Jewish Street",
-          "summary": "Jewish Street was founded in 1387.",
-          "dateStart": "1387",
-          "dateEnd": "",
-          "scanIndex": 256,
-          "printedPage": null,
-          "passageId": "passage_a1f55efbf3baa254bf930bdf",
-          "quote": "הרחובהיהודי,שנוסדבשנת1387"
-        },
-        {
-          "recordId": "event_candidate_f5756d4add5052c0f8ea2588",
+          "recordId": "event_candidate_f45fc2651269db856a0d4e72",
           "kind": "event",
           "type": "ORGANIZATION_FOUNDING",
           "title": "Privilege granted to Lviv Jews",
@@ -1430,26 +1052,24 @@
           "scanIndex": 174,
           "printedPage": null,
           "passageId": "passage_11079da10a6a5bd08f5617db",
-          "quote": "הפריבילגיהשאושרהע״ייאגיללו ליהודילבובב־30בספטמבר1387"
+          "quote": "הפריבילגי ה שאושר ה ע״ י יאגילל ו ליהוד י לבו ב ב־ 30 בספטמב ר 1387"
         }
       ],
       "position": 1
     },
     {
       "periodStart": "1571",
-      "periodEnd": "1609",
-      "dateLabel": "1571–1609",
-      "title": "Synagogues, scholarship, and rebuilding",
-      "summary": "Fires destroyed the Jewish quarter, but the community rebuilt its synagogue. A major synagogue was established in 1582, served as a rabbinical court from 1604, and was ceremonially reopened in 1609.",
+      "periodEnd": "1582",
+      "dateLabel": "1571–1582",
+      "title": "Fire and synagogue rebuilding",
+      "summary": "A devastating fire destroyed nearly all houses in Lwów’s Jewish quarter in 1571. A synagogue was rebuilt and a new Gothic synagogue building was established in 1582, illustrating institutional reconstruction after destruction. (event_candidate_cc0fa35c031a5d2fe6cee9d8; event_candidate_aa08d6aace39dd7f374105ff)",
       "recordIds": [
-        "event_candidate_7779f127c2966e7777aa4096",
-        "event_candidate_069a2800fc98b125bd9bb568",
-        "event_candidate_0d951950dd86c8cd880511d2",
-        "event_candidate_e5d1fccea644d53ad57c5736"
+        "event_candidate_cc0fa35c031a5d2fe6cee9d8",
+        "event_candidate_aa08d6aace39dd7f374105ff"
       ],
       "records": [
         {
-          "recordId": "event_candidate_7779f127c2966e7777aa4096",
+          "recordId": "event_candidate_cc0fa35c031a5d2fe6cee9d8",
           "kind": "event",
           "type": "FIRE",
           "title": "1571 fire in the Jewish quarter",
@@ -1459,65 +1079,91 @@
           "scanIndex": 22,
           "printedPage": null,
           "passageId": "passage_fad4617a577292951f79756a",
-          "quote": "בשנת1571פרצהברובעהיהודיבתוךהעיר דליקהנוראה"
+          "quote": "בשנ ת 1571 פרצ ה ברוב ע היהוד י בתו ך העי ר דליק ה נורא ה"
         },
         {
-          "recordId": "event_candidate_069a2800fc98b125bd9bb568",
+          "recordId": "event_candidate_aa08d6aace39dd7f374105ff",
           "kind": "event",
           "type": "ORGANIZATION_FOUNDING",
-          "title": "Founding of the synagogue",
-          "summary": "The synagogue was established in 1582 by Isaac ben Nahman.",
+          "title": "Gothic synagogue construction",
+          "summary": "A Gothic synagogue building was erected in 1582.",
           "dateStart": "1582",
-          "dateEnd": "1582",
-          "scanIndex": 258,
-          "printedPage": null,
-          "passageId": "passage_bf26c24bb00c2777bb5ce5ab",
-          "quote": "בית־ הכנסתהוקםבשנת1582ע״יר׳יצחקבןנחמן"
-        },
-        {
-          "recordId": "event_candidate_0d951950dd86c8cd880511d2",
-          "kind": "event",
-          "type": "INSTITUTIONAL_USE",
-          "title": "Synagogue used as court",
-          "summary": "From 1604, the synagogue also served as a seat of the rabbinical court and as a genizah for community registers.",
-          "dateStart": "1604",
           "dateEnd": "",
           "scanIndex": 48,
           "printedPage": null,
           "passageId": "passage_44ec08f7d8a6dd9c11e031ef",
-          "quote": "החלמשנת1604שימש בית־הכנסתגםכמושבבית־הדין"
-        },
-        {
-          "recordId": "event_candidate_e5d1fccea644d53ad57c5736",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Opening of the new synagogue",
-          "summary": "The new synagogue was ceremonially opened in spring 1609.",
-          "dateStart": "1609",
-          "dateEnd": "1609",
-          "scanIndex": 35,
-          "printedPage": null,
-          "passageId": "passage_37b2379a0548e785cd1a390c",
-          "quote": "באביב1609נפתחחגיגיתבית־הכנסתהחדש"
+          "quote": "בשנ ת 1582 הוק ם הבני ן שהי ה בנו י בסגנו ן גוטי"
         }
       ],
       "position": 2
     },
     {
-      "periodStart": "1616",
-      "periodEnd": "1648",
-      "dateLabel": "Seventeenth-century crisis and renewal",
-      "title": "Repeated fires, violence, and communal defense",
-      "summary": "The Jewish street and surrounding houses suffered major fires, while attacks and legal conflicts affected Jewish residents. In 1648, as Khmelnytsky’s forces advanced, Jewish residents organized guards to protect areas adjoining the Jewish quarter.",
+      "periodStart": "1590",
+      "periodEnd": "1604",
+      "dateLabel": "1590–1604",
+      "title": "Study, courts, and communal institutions",
+      "summary": "A yeshiva was founded in 1590, and from 1604 a synagogue also served as the seat of the rabbinical court and a genizah for communal records. Religious study and institutional administration were closely connected in Lwów’s communal life. (event_candidate_93ffd7e7b296d55dde3686f5; event_candidate_d89b507cda74553caa13a1e1)",
       "recordIds": [
-        "event_candidate_1f967b73003c6977eaa4096",
-        "event_candidate_f76def97d23277bc15802463",
-        "event_candidate_290ff799e5a576b8d226f9ab",
-        "event_candidate_2eeeb58e25f0a5097111e5002"
+        "event_candidate_93ffd7e7b296d55dde3686f5",
+        "event_candidate_d89b507cda74553caa13a1e1"
       ],
       "records": [
         {
-          "recordId": "event_candidate_f76def97d23277bc15802463",
+          "recordId": "event_candidate_93ffd7e7b296d55dde3686f5",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Yeshiva foundation",
+          "summary": "Israel ben Joseph Eidels founded a yeshiva in a purchased house.",
+          "dateStart": "1590",
+          "dateEnd": "1590",
+          "scanIndex": 259,
+          "printedPage": null,
+          "passageId": "passage_ebffd151caa48e222badc1ef",
+          "quote": "בשב ת 1590 נקנ ה הבי ת ע״ י ישרא ל ב ן יוס ף איידל ס שייס ד ב ו ישיבה"
+        },
+        {
+          "recordId": "event_candidate_d89b507cda74553caa13a1e1",
+          "kind": "event",
+          "type": "INSTITUTIONAL_USE",
+          "title": "Synagogue used as court",
+          "summary": "Beginning in 1604, the synagogue also served as the seat of the rabbinical court and as a genizah for community records.",
+          "dateStart": "1604",
+          "dateEnd": "",
+          "scanIndex": 48,
+          "printedPage": null,
+          "passageId": "passage_44ec08f7d8a6dd9c11e031ef",
+          "quote": "הח ל משנ ת 1604 שימ ש בית־הכנס ת ג ם כמוש ב בית־הדי ן"
+        }
+      ],
+      "position": 3
+    },
+    {
+      "periodStart": "1616",
+      "periodEnd": "1632",
+      "dateLabel": "1616–1632",
+      "title": "Repeated fires and rebuilding",
+      "summary": "The Jewish street was destroyed by fire in 1616, and a 1623 fire destroyed about 1,200 houses, including Jewish homes. The Great Synagogue was rebuilt in 1632, continuing the pattern of communal reconstruction. (event_candidate_e148c0432d625368a27b2978; event_candidate_18c6b11548a8422935e22bda; event_candidate_2e5a31e3c70b1c440fea5111)",
+      "recordIds": [
+        "event_candidate_e148c0432d625368a27b2978",
+        "event_candidate_18c6b11548a8422935e22bda",
+        "event_candidate_2e5a31e3c70b1c440fea5111"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_e148c0432d625368a27b2978",
+          "kind": "event",
+          "type": "FIRE",
+          "title": "Fire in the Jewish street",
+          "summary": "A major fire lasted two days and destroyed all houses in the Jewish street.",
+          "dateStart": "1616-05-26",
+          "dateEnd": "1616-05-28",
+          "scanIndex": 36,
+          "printedPage": null,
+          "passageId": "passage_d75090ffac942cc771fdd400",
+          "quote": "ב־ 26 במא י 1616 פרצ ה דליק ה חזק ה שנמשכ ה יומי ם והרס ה א ת כ ל הבתי ם ברחו ב היהודי"
+        },
+        {
+          "recordId": "event_candidate_18c6b11548a8422935e22bda",
           "kind": "event",
           "type": "FIRE",
           "title": "Great fire of 1623",
@@ -1527,89 +1173,37 @@
           "scanIndex": 261,
           "printedPage": null,
           "passageId": "passage_008c5e9736f9a29d72131299",
-          "quote": "השריפה הגדולהשפרצהבשבת1623בבית־הכנסתובהנשרפו 1200בתים"
+          "quote": "השריפ ה הגדול ה שפרצ ה בשב ת 1623 בבית־הכנס ת וב ה נשרפ ו 1200 בתים"
         },
         {
-          "recordId": "event_candidate_290ff799e5a576b8d226f9ab",
+          "recordId": "event_candidate_2e5a31e3c70b1c440fea5111",
           "kind": "event",
-          "type": "AKTION_OR_RAID",
-          "title": "Attack and robbery of Jewish homes",
-          "summary": "Monks and students attacked Jewish homes during Elijah's wedding on 24 July 1640.",
-          "dateStart": "1640-07-24",
-          "dateEnd": "1640-07-24",
-          "scanIndex": 47,
+          "type": "FIRE",
+          "title": "Great Synagogue rebuilt",
+          "summary": "The Great Synagogue was rebuilt in 1632.",
+          "dateStart": "1632",
+          "dateEnd": "1632",
+          "scanIndex": 53,
           "printedPage": null,
-          "passageId": "passage_d4033820efcebfbe5094e47c",
-          "quote": "ב־24ביולי1640,כשכולםנוכחובחתונהאצלהיהודי אליהו,הםשדדואתבתיהם"
-        }
-      ],
-      "position": 3
-    },
-    {
-      "periodStart": "1782",
-      "periodEnd": "1795",
-      "dateLabel": "1782–1795",
-      "title": "Schools documented",
-      "summary": "School censuses counted teachers, assistants, and pupils in Lwów, providing evidence of an organized Jewish educational life.",
-      "recordIds": [
-        "mention_4592173d1bd9715d1761e3aa",
-        "mention_a9d662855306fa5d77548ab8"
-      ],
-      "records": [
-        {
-          "recordId": "mention_4592173d1bd9715d1761e3aa",
-          "kind": "mention",
-          "type": "EVENT",
-          "title": "1782 Lviv school census",
-          "summary": "A census recorded teachers, assistants, and pupils in Lviv schools.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 183,
-          "printedPage": null,
-          "passageId": "passage_51a59597be6afc692f1893ad",
-          "quote": "במפקדהחדרםבלבוב,1782,נמנו60מלמדים"
-        },
-        {
-          "recordId": "mention_a9d662855306fa5d77548ab8",
-          "kind": "mention",
-          "type": "EVENT",
-          "title": "1795 Lviv school record",
-          "summary": "Records 85 teachers, 183 assistants, and 1,574 pupils in Lviv schools.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 183,
-          "printedPage": null,
-          "passageId": "passage_51a59597be6afc692f1893ad",
-          "quote": "בשנת1795היועסוקיםבחדריםבלבוב85מלמדים"
+          "passageId": "passage_1b2b3428c9c2c5d385aab7ff",
+          "quote": "בי ת הכנס ת הגדול , שנבנ ה מהד ש בשנ ת 1632"
         }
       ],
       "position": 4
     },
     {
-      "periodStart": "1840",
+      "periodStart": "1782",
       "periodEnd": "1845",
-      "dateLabel": "1840–1845",
-      "title": "Modern communal institutions expand",
-      "summary": "A meeting resolved to establish the Lwów temple, and schools opened in 1844 and 1845. These developments reflect investment in both religious and educational institutions.",
+      "dateLabel": "1782–1845",
+      "title": "Schools and organized education",
+      "summary": "School records counted teachers, assistants, and pupils in 1782 and 1795, while new Lwów schools opened in 1844 and 1845. These records document education as a substantial and organized part of Jewish communal life. (event_candidate_4592173d1bd9715d1761e3aa; event_candidate_a9d662855306fa5d77548ab8; mention_72c8c82fcb9e4b45283947a9; mention_1c256a42df3e375328baf12e)",
       "recordIds": [
-        "mention_ec5bf636a949316aec5a9f04",
+        "event_candidate_4592173d1bd9715d1761e3aa",
+        "event_candidate_a9d662855306fa5d77548ab8",
         "mention_72c8c82fcb9e4b45283947a9",
         "mention_1c256a42df3e375328baf12e"
       ],
       "records": [
-        {
-          "recordId": "mention_ec5bf636a949316aec5a9f04",
-          "kind": "mention",
-          "type": "EVENT",
-          "title": "1840 temple-founding meeting",
-          "summary": "Meeting resolved to establish a temple in Lviv.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 117,
-          "printedPage": null,
-          "passageId": "passage_b9c2c30bcac2c37f5483f224",
-          "quote": "בה הוחלטלהקים\"היכל\""
-        },
         {
           "recordId": "mention_72c8c82fcb9e4b45283947a9",
           "kind": "mention",
@@ -1621,7 +1215,7 @@
           "scanIndex": 120,
           "printedPage": null,
           "passageId": "passage_9d79f18b696497d9ac2cd993",
-          "quote": "בית־הספרנפתחבנובמבר1844"
+          "quote": "בית־הספ ר נפת ח בנובמב ר 1844"
         },
         {
           "recordId": "mention_1c256a42df3e375328baf12e",
@@ -1634,111 +1228,71 @@
           "scanIndex": 140,
           "printedPage": null,
           "passageId": "passage_1a67c45273f592fce325ddc1",
-          "quote": "בית־ הספר,שהוקםבשנת1845"
+          "quote": "בית ־ הספר , שהוק ם בשנ ת 1845"
         }
       ],
       "position": 5
     },
     {
-      "periodStart": "1880",
-      "periodEnd": "1903",
-      "dateLabel": "1880–1903",
-      "title": "Organized political and communal life",
-      "summary": "The Brothers Society was founded in 1880 to advocate Polish assimilation; later records identify political organizations, equal-rights proposals, and the election of Emil Bik as community president in 1898 and 1903.",
+      "periodStart": "1870",
+      "periodEnd": "1890",
+      "dateLabel": "1870–1890",
+      "title": "Political organization and competing identities",
+      "summary": "Lwów Jewish organizations pursued equal rights, electoral representation, and educational policies, while the Brothers Association advocated Polish assimilation and was formally organized in 1890. The period reveals political debate within the community rather than a single collective position. (mention_506a80d51a568f13fb75df51; mention_cfdff9994a217681312849e9; mention_7f6be2dd1c404eaf337175f4)",
       "recordIds": [
-        "mention_2472fe1b7f295058819ad18d",
-        "mention_afcd03ee6708b34479aee3c7",
-        "mention_243d6b773de1c28fd804bac2",
-        "mention_cf31a249a55276168ab3783b"
+        "mention_506a80d51a568f13fb75df51",
+        "mention_cfdff9994a217681312849e9",
+        "mention_7f6be2dd1c404eaf337175f4"
       ],
       "records": [
         {
-          "recordId": "mention_2472fe1b7f295058819ad18d",
+          "recordId": "mention_506a80d51a568f13fb75df51",
           "kind": "mention",
           "type": "ORGANIZATION",
-          "title": "Brothers Society",
-          "summary": "An assimilationist society founded in Lviv in 1880 by Dr. Goldman and Dr. Philip Zucker.",
+          "title": "Shomer Israel",
+          "summary": "Jewish association founded to pursue equal rights and political representation.",
           "dateStart": "",
           "dateEnd": "",
-          "scanIndex": 162,
+          "scanIndex": 157,
           "printedPage": null,
-          "passageId": "passage_3aa582553128a1455f117b80",
-          "quote": "ד״רגולדמןוד״רפיליפצוקרייסדו בשנת1880את\"אגודתאחים\""
+          "passageId": "passage_b4f3719422a6b042b3d8427e",
+          "quote": "האגוד ה \"שומ ר ישראל\""
         },
         {
-          "recordId": "mention_afcd03ee6708b34479aee3c7",
+          "recordId": "mention_cfdff9994a217681312849e9",
           "kind": "mention",
-          "type": "EVENT",
-          "title": "Proposal for full equal rights for Galician Jews",
-          "summary": "Jewish representatives introduced a proposal granting full equal rights to Galician Jews.",
+          "type": "ORGANIZATION",
+          "title": "Shomer Israel",
+          "summary": "Jewish organization that organized an independent electoral list in 1874.",
           "dateStart": "",
           "dateEnd": "",
-          "scanIndex": 148,
+          "scanIndex": 158,
           "printedPage": null,
-          "passageId": "passage_5f7f146e60054ada98946d99",
-          "quote": "הכניסו ד״רסמלזון,מרקדובסומאירקאלירהצעהעלמתן שווי־זכויותמלאליהודי־גליציה"
+          "passageId": "passage_e60035d7f18eb6162ec1ad91",
+          "quote": "\"שומ ר ישראל \" הקי ם ועד־בחירו ת"
         },
         {
-          "recordId": "mention_243d6b773de1c28fd804bac2",
+          "recordId": "mention_7f6be2dd1c404eaf337175f4",
           "kind": "mention",
-          "type": "PERSON",
-          "title": "Dr. Amil Bik",
-          "summary": "Elected president of the community administration in 1898.",
+          "type": "ORGANIZATION",
+          "title": "Brothers Association",
+          "summary": "Association founded on 16 March 1890 to advocate Polish assimilation.",
           "dateStart": "",
           "dateEnd": "",
-          "scanIndex": 166,
+          "scanIndex": 163,
           "printedPage": null,
-          "passageId": "passage_4c03d02cdc5fc66d3554be01",
-          "quote": "להנהלתהקהלה נבחרו:ד״ראמילביק"
-        },
-        {
-          "recordId": "mention_cf31a249a55276168ab3783b",
-          "kind": "mention",
-          "type": "PERSON",
-          "title": "Dr. Emil Bik",
-          "summary": "Elected president of the Jewish community in 1903.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 168,
-          "printedPage": null,
-          "passageId": "passage_6a62235d0e0227126c983a4b",
-          "quote": "שמואלהורוויץנבחרד״ראמילביקלנשיא הקהלהבשנת1903"
+          "passageId": "passage_7f6457fa8239b09480cae72e",
+          "quote": "ב־ 16 במר ס 1890 כנס ה \"אגוד ת אחים\""
         }
       ],
       "position": 6
     },
     {
-      "periodStart": "1915",
-      "periodEnd": "1915",
-      "dateLabel": "1915",
-      "title": "Vocational education for girls",
-      "summary": "Sewing, linen-sewing, and hat-making courses opened on 19 April 1915, adding practical vocational training to the community’s educational institutions.",
-      "recordIds": [
-        "mention_83218347d30389b00f79858c"
-      ],
-      "records": [
-        {
-          "recordId": "mention_83218347d30389b00f79858c",
-          "kind": "mention",
-          "type": "EVENT",
-          "title": "Girls’ workshop courses",
-          "summary": "Initial sewing, linen-sewing, and hat-making courses opened.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 172,
-          "printedPage": null,
-          "passageId": "passage_56315db63668b86e847fb9eb",
-          "quote": "ב־19 באפריל1915נפתחוהקורסיםהראשונים"
-        }
-      ],
-      "position": 7
-    },
-    {
-      "periodStart": "1940",
-      "periodEnd": "1941",
-      "dateLabel": "1940–1941: German occupation",
-      "title": "Identification and forced administration",
-      "summary": "Jews were required to wear identifying symbols, while German authorities used a Jewish Council to administer housing, labor, supplies, and other orders among Lwów Jews.",
+      "periodStart": "July 1940",
+      "periodEnd": "1942",
+      "dateLabel": "July 1940–1942",
+      "title": "Occupation, identification, and coercion",
+      "summary": "Jewish residents were required to wear a white armband and blue Star of David from July 1940. German authorities established a Jewish Council to implement orders, and communal offices were used to administer housing, supplies, taxes, and labor. (mention_470b936d177548e3fa8a1353; mention_ec15334492db1d54d0ffd1a8; mention_a71a29b61eeec0bf3f141982; mention_6d4099f01d496526b9dfa396)",
       "recordIds": [
         "mention_470b936d177548e3fa8a1353",
         "mention_ec15334492db1d54d0ffd1a8",
@@ -1757,7 +1311,7 @@
           "scanIndex": 312,
           "printedPage": null,
           "passageId": "passage_a4cfa65c9cf9a709bbbd1ea2",
-          "quote": "סרטלבןומגן־דודכחול"
+          "quote": "סר ט לב ן ומגן־דו ד כחו ל"
         },
         {
           "recordId": "mention_ec15334492db1d54d0ffd1a8",
@@ -1770,7 +1324,7 @@
           "scanIndex": 312,
           "printedPage": null,
           "passageId": "passage_a4cfa65c9cf9a709bbbd1ea2",
-          "quote": "מגן־דודכחול"
+          "quote": "מגן־דו ד כחו ל"
         },
         {
           "recordId": "mention_a71a29b61eeec0bf3f141982",
@@ -1783,7 +1337,7 @@
           "scanIndex": 308,
           "printedPage": null,
           "passageId": "passage_0259d0b8ac4ebc341582a7c9",
-          "quote": "מדיניותםשלהגרמניםהיתהלארגןמועצה יהודיתבכלמקוםמושביהודים"
+          "quote": "מדיניות ם ש ל הגרמני ם הית ה לארג ן מועצ ה יהודי ת בכ ל מקו ם מוש ב יהודים"
         },
         {
           "recordId": "mention_6d4099f01d496526b9dfa396",
@@ -1796,20 +1350,20 @@
           "scanIndex": 310,
           "printedPage": null,
           "passageId": "passage_a1a3d4d89cdea4490af50622",
-          "quote": "השתמשוהגרמניםבמועצה היהודית"
+          "quote": "השתמש ו הגרמני ם במועצ ה היהודי ת"
         }
       ],
-      "position": 8
+      "position": 7
     },
     {
-      "periodStart": "1942",
-      "periodEnd": "1942",
+      "periodStart": "August 1942",
+      "periodEnd": "August 1942",
       "dateLabel": "August 1942",
       "title": "The Great Aktion",
-      "summary": "A large German and Ukrainian operation in Lwów killed and deported residents. The same period also saw the organization of self-help efforts and other forms of clandestine activity.",
+      "summary": "The memorial book describes a large German and Ukrainian operation in Lwów that killed and deported residents. It also records that German authorities prohibited Jewish schools and public prayer and murdered Shmuel Patznovsky during this period. (mention_81c1870374d1ed1adb95afff; mention_d6b2966c84e9edb6ad0076a2)",
       "recordIds": [
         "mention_81c1870374d1ed1adb95afff",
-        "mention_2db3ad546eeff89b06b6214d"
+        "mention_d6b2966c84e9edb6ad0076a2"
       ],
       "records": [
         {
@@ -1823,35 +1377,35 @@
           "scanIndex": 329,
           "printedPage": null,
           "passageId": "passage_d3952331a1dbfdb401e42482",
-          "quote": "התחילההאקציה"
+          "quote": "התחיל ה האקציה"
         },
         {
-          "recordId": "mention_2db3ad546eeff89b06b6214d",
+          "recordId": "mention_d6b2966c84e9edb6ad0076a2",
           "kind": "mention",
-          "type": "EVENT",
-          "title": "Self-help organization formed",
-          "summary": "A self-help organization was organized during 1942.",
+          "type": "ORGANIZATION",
+          "title": "German authorities",
+          "summary": "They prohibited Jewish schools and public prayer and murdered Shmuel Patznovsky.",
           "dateStart": "",
           "dateEnd": "",
-          "scanIndex": 362,
+          "scanIndex": 309,
           "printedPage": null,
-          "passageId": "passage_70d9598f43845b9860d8f026",
-          "quote": "במשךשנת 1942נתארגנהעזרהעצמית"
+          "passageId": "passage_c11ba1425d82b6973c114447",
+          "quote": "נרצ ח ביד י הגרמני ם באוגוס ט 1942"
         }
       ],
-      "position": 9
+      "position": 8
     },
     {
       "periodStart": "1942",
       "periodEnd": "1943",
-      "dateLabel": "Winter 1942–1943",
-      "title": "Deportations, escapes, and clandestine life",
-      "summary": "German deportation transports targeted Jewish men, women, and children; some people escaped through openings in the trains. During these years, clandestine literary evenings and secret military instruction also took place.",
+      "dateLabel": "1942–1943",
+      "title": "Deportations and clandestine life",
+      "summary": "Winter deportations targeted Jewish men, women, and children, while some people escaped from transports. During the same years, self-help efforts and clandestine literary evenings sought to preserve life and cultural connection. (mention_bf29d77e89ab488d118515d2; mention_b99bfd9c7773d5330195c7b0; mention_2db3ad546eeff89b06b6214d; mention_27baeefba014716dfc8b5c7c)",
       "recordIds": [
         "mention_bf29d77e89ab488d118515d2",
         "mention_b99bfd9c7773d5330195c7b0",
-        "mention_27baeefba014716dfc8b5c7c",
-        "mention_2b049b1b32a653ad8b116997"
+        "mention_2db3ad546eeff89b06b6214d",
+        "mention_27baeefba014716dfc8b5c7c"
       ],
       "records": [
         {
@@ -1865,7 +1419,7 @@
           "scanIndex": 338,
           "printedPage": null,
           "passageId": "passage_87fab5cba8436f65c48bfea0",
-          "quote": "באקציותשבוצעובגיטובחורף1942—1943"
+          "quote": "באקציו ת שבוצע ו בגיט ו בחור ף 1942 — 1943"
         },
         {
           "recordId": "mention_b99bfd9c7773d5330195c7b0",
@@ -1878,7 +1432,20 @@
           "scanIndex": 338,
           "printedPage": null,
           "passageId": "passage_87fab5cba8436f65c48bfea0",
-          "quote": "היומקריםרבים שלבריחה"
+          "quote": "הי ו מקרי ם רבי ם ש ל בריחה"
+        },
+        {
+          "recordId": "mention_2db3ad546eeff89b06b6214d",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "Self-help organization formed",
+          "summary": "A self-help organization was organized during 1942.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 362,
+          "printedPage": null,
+          "passageId": "passage_70d9598f43845b9860d8f026",
+          "quote": "במש ך שנ ת 1942 נתארגנ ה עזר ה עצמי ת"
         },
         {
           "recordId": "mention_27baeefba014716dfc8b5c7c",
@@ -1891,75 +1458,36 @@
           "scanIndex": 362,
           "printedPage": null,
           "passageId": "passage_70d9598f43845b9860d8f026",
-          "quote": "שורהשל\"נשפיםספרו- תייםנתארגנהבמשךהשנים1942—1943"
-        },
+          "quote": "שור ה ש ל \"נשפי ם ספרו - תיי ם נתארגנ ה במש ך השני ם 1942 — 1943"
+        }
+      ],
+      "position": 9
+    },
+    {
+      "periodStart": "After ghetto liquidation",
+      "periodEnd": "After ghetto liquidation",
+      "dateLabel": "After the ghetto’s liquidation",
+      "title": "Survivors remained in Lwów",
+      "summary": "The book records that several thousand Jews remained in Lwów, some legally and others illegally, after the ghetto’s liquidation. This post-liquidation presence is an important part of the community’s history of survival. (mention_9b915defcb68b033a59804ed)",
+      "recordIds": [
+        "mention_9b915defcb68b033a59804ed"
+      ],
+      "records": [
         {
-          "recordId": "mention_2b049b1b32a653ad8b116997",
+          "recordId": "mention_9b915defcb68b033a59804ed",
           "kind": "mention",
-          "type": "INSTITUTION",
-          "title": "Jewish Council",
-          "summary": "Council whose young staff organized secret military instruction in late 1942.",
+          "type": "COMMUNITY",
+          "title": "Lviv Jewish survivors",
+          "summary": "Jewish survivors who remained legally or illegally in Lviv after the ghetto’s liquidation.",
           "dateStart": "",
           "dateEnd": "",
-          "scanIndex": 348,
+          "scanIndex": 351,
           "printedPage": null,
-          "passageId": "passage_cd56479e216cf9162bdf8278",
-          "quote": "קבוצתפקידיםצעיריםשל המועצההיהודית"
+          "passageId": "passage_cc33e0f4779d964cc629df74",
+          "quote": "בלבו ב התגורר ו עו ד באופ ן בלתי־חוק י כמ ה אלפ י יהודי ם"
         }
       ],
       "position": 10
-    },
-    {
-      "periodStart": "1943",
-      "periodEnd": "1943",
-      "dateLabel": "End of January 1943",
-      "title": "Communal institutions abolished",
-      "summary": "The records state that Jewish Council institutions were abolished at the end of January 1943, further dismantling the structures through which Jewish life had been administered under coercion.",
-      "recordIds": [
-        "mention_2cd50b1672f7854bed215ec5"
-      ],
-      "records": [
-        {
-          "recordId": "mention_2cd50b1672f7854bed215ec5",
-          "kind": "mention",
-          "type": "INSTITUTION",
-          "title": "Jewish Council",
-          "summary": "Council institutions were abolished at the end of January 1943.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 342,
-          "printedPage": null,
-          "passageId": "passage_416ff66335f4a7058464fcb1",
-          "quote": "בסוףינואר1943חוסלומוסדותהמועצההיהודית"
-        }
-      ],
-      "position": 11
-    },
-    {
-      "periodStart": "1945",
-      "periodEnd": "1945",
-      "dateLabel": "After liberation",
-      "title": "Publication resumes",
-      "summary": "The Jewish daily Tagblatt resumed publication after liberation, according to the memorial-book record.",
-      "recordIds": [
-        "mention_c1d72bdf9c035e9c8bac3c6b"
-      ],
-      "records": [
-        {
-          "recordId": "mention_c1d72bdf9c035e9c8bac3c6b",
-          "kind": "mention",
-          "type": "PUBLICATION",
-          "title": "Tagblatt",
-          "summary": "Daily newspaper whose publication resumed after liberation.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 172,
-          "printedPage": null,
-          "passageId": "passage_5c9ef54882a266a6bebe87e5",
-          "quote": "העו׳״וןהיומי\"טאגבלאט\""
-        }
-      ],
-      "position": 12
     }
   ]
 }

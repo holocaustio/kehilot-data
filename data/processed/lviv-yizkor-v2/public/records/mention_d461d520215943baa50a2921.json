@@ -5,7 +5,7 @@
   "summary": "The school was reorganized and given general studies.",
   "originalName": "תלמוד״התורה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 119,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 622,
       "passageCharEnd": 652,
-      "normalizedPassageCharStart": 465,
-      "normalizedPassageCharEnd": 490,
+      "normalizedPassageCharStart": 622,
+      "normalizedPassageCharEnd": 652,
       "pageCharStart": 1821,
       "pageCharEnd": 1851,
       "quote": "ריאורגניזצי ה ש ל תלמוד״התור ה",
-      "normalizedQuote": "ריאורגניזציהשלתלמוד״התורה",
+      "normalizedQuote": "ריאורגניזצי ה ש ל תלמוד״התור ה",
       "modelQuote": "ריאורגניזציהשלתלמוד״התורה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n118/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "72a43645609ecff96528a79b813a653c2461accb714296376a138ca42aa523b7",
       "normalizedPassageChecksum": "ac97b6e0e38f1681b6c2a59fb07c8838f1f287c7448d706975537c7ee8296c10",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 1130,
       "passageCharEnd": 1153,
-      "normalizedPassageCharStart": 823,
-      "normalizedPassageCharEnd": 841,
+      "normalizedPassageCharStart": 1130,
+      "normalizedPassageCharEnd": 1153,
       "pageCharStart": 2007,
       "pageCharEnd": 2030,
       "quote": "לקיומ ו ש ל תלמוד־תור ה",
-      "normalizedQuote": "לקיומושלתלמוד־תורה",
+      "normalizedQuote": "לקיומ ו ש ל תלמוד־תור ה",
       "modelQuote": "לקיומושלתלמוד־תורה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n140/mode/1up",
@@ -57,7 +57,7 @@
       "passageChecksum": "239aec094e21d14ae5b30be1fb1f0d8c02490de81610ed98d7a48caece809291",
       "normalizedPassageChecksum": "1a58a5af07169725583bb33e9f7d3739ea34dd5232026d31a3efc58ddb763127",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -68,12 +68,12 @@
       "printedPage": null,
       "passageCharStart": 492,
       "passageCharEnd": 504,
-      "normalizedPassageCharStart": 374,
-      "normalizedPassageCharEnd": 385,
+      "normalizedPassageCharStart": 492,
+      "normalizedPassageCharEnd": 504,
       "pageCharStart": 492,
       "pageCharEnd": 504,
       "quote": "לתלמו ד\nתורה",
-      "normalizedQuote": "לתלמוד תורה",
+      "normalizedQuote": "לתלמו ד\nתורה",
       "modelQuote": "לתלמוד תורה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n158/mode/1up",
@@ -81,7 +81,7 @@
       "passageChecksum": "329c9fd13cb4af0539801f44c82db351b5d0cf57fa3f0c6bb8503606e3e13a1d",
       "normalizedPassageChecksum": "4e54a5f34bd5b76b990ffe428e6c3e6127ad33b95ec1d74bb3a2df5be2fa9fe6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -128,12 +128,6 @@
       "id": "mention_7d32823d9e12de2a26ed39fc",
       "type": "Person",
       "title": "Dr. Gabriel Rieser",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0fc5857222e287c72b79e236",
-      "type": "Place",
-      "title": "Hamburg",
       "relation": "Appears in same passage"
     },
     {
@@ -185,6 +179,18 @@
       "relation": "Appears in same passage"
     },
     {
+      "id": "mention_30fb0f4155ead4741b4a1024",
+      "type": "Place",
+      "title": "New cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e5d9d84a0ec3cb29f7aa749c",
+      "type": "Institution",
+      "title": "Synagogue on the new cemetery land",
+      "relation": "Appears in same passage"
+    },
+    {
       "id": "mention_440ed87ba0d2c75a93675b9e",
       "type": "Person",
       "title": "Dr. N. M. Gelber",
@@ -206,12 +212,6 @@
       "id": "mention_a875330a38deebc8e28920b7",
       "type": "Person",
       "title": "Jacob-Tzvi Shperling",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -254,6 +254,12 @@
       "id": "mention_0c3ee37db594fd6fa5f505f4",
       "type": "Institution",
       "title": "First soup kitchen",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a9bc014f0dadcb3c94a88aaa",
+      "type": "Institution",
+      "title": "Jewish schools",
       "relation": "Appears in same passage"
     }
   ],

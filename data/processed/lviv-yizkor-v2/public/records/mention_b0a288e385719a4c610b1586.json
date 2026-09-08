@@ -5,7 +5,7 @@
   "summary": "Rabbi serving two communities from 1680; born in Lviv.",
   "originalName": "ר׳משהפנחסבןישראל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 60,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 47,
       "passageCharEnd": 90,
-      "normalizedPassageCharStart": 33,
-      "normalizedPassageCharEnd": 62,
+      "normalizedPassageCharStart": 47,
+      "normalizedPassageCharEnd": 90,
       "pageCharStart": 1270,
       "pageCharEnd": 1313,
       "quote": "ר ׳ מש ה פנח ס ב ן ישראל , שהי ה ילי ד לביב",
-      "normalizedQuote": "ר׳משהפנחסבןישראל,שהיהילידלביב",
+      "normalizedQuote": "ר ׳ מש ה פנח ס ב ן ישראל , שהי ה ילי ד לביב",
       "modelQuote": "ר׳משהפנחסבןישראל,שהיהילידלביב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "71e6aeeb21deafafb1fc20961504b2d38c723b0fb5277b8fd7c93fc943a86ef3",
       "normalizedPassageChecksum": "0f875622340ed5b1b7391457e9e6bc5012de6cc3e4d0d5ba2cee023d6428bda1",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_e62e99bd78b60027045b9157",
+      "id": "claim_candidate_4852bad6389ad3b17cc07b4a",
       "predicate": "Born In",
       "subjectTitle": "Moses Pinhas ben Israel",
       "objectTitle": "Lviv",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 74,
         "passageCharEnd": 90,
-        "normalizedPassageCharStart": 50,
-        "normalizedPassageCharEnd": 62,
+        "normalizedPassageCharStart": 74,
+        "normalizedPassageCharEnd": 90,
         "pageCharStart": 1297,
         "pageCharEnd": 1313,
         "quote": "שהי ה ילי ד לביב",
-        "normalizedQuote": "שהיהילידלביב",
+        "normalizedQuote": "שהי ה ילי ד לביב",
         "modelQuote": "שהיהילידלביב",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -65,14 +65,14 @@
         "passageChecksum": "71e6aeeb21deafafb1fc20961504b2d38c723b0fb5277b8fd7c93fc943a86ef3",
         "normalizedPassageChecksum": "0f875622340ed5b1b7391457e9e6bc5012de6cc3e4d0d5ba2cee023d6428bda1",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [
     {
-      "id": "event_candidate_c7720a3200f07be8b4c3b427",
+      "id": "event_candidate_08141ac97420ed5b72f62951",
       "type": "Employment",
       "title": "Moses Pinhas ben Israel serves two communities",
       "summary": "Moses Pinhas ben Israel served two communities from 1680.",
@@ -87,11 +87,11 @@
         "passageCharStart": 0,
         "passageCharEnd": 31,
         "normalizedPassageCharStart": 0,
-        "normalizedPassageCharEnd": 23,
+        "normalizedPassageCharEnd": 31,
         "pageCharStart": 1223,
         "pageCharEnd": 1254,
         "quote": "משנ ת 1680 מכה ן בשת י הקהילו ת",
-        "normalizedQuote": "משנת1680מכהןבשתיהקהילות",
+        "normalizedQuote": "משנ ת 1680 מכה ן בשת י הקהילו ת",
         "modelQuote": "משנת1680מכהןבשתיהקהילות",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -99,27 +99,27 @@
         "passageChecksum": "71e6aeeb21deafafb1fc20961504b2d38c723b0fb5277b8fd7c93fc943a86ef3",
         "normalizedPassageChecksum": "0f875622340ed5b1b7391457e9e6bc5012de6cc3e4d0d5ba2cee023d6428bda1",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Born In"
     },
     {
-      "id": "event_candidate_c7720a3200f07be8b4c3b427",
+      "id": "event_candidate_08141ac97420ed5b72f62951",
       "type": "Event",
       "title": "Moses Pinhas ben Israel serves two communities",
       "relation": "Participated In",
       "role": "Employee"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

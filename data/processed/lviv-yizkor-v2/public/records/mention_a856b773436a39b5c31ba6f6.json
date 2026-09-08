@@ -5,7 +5,7 @@
   "summary": "Printing house established and operated in Lviv.",
   "originalName": "בית־דפוס",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 271,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 464,
       "passageCharEnd": 491,
-      "normalizedPassageCharStart": 318,
-      "normalizedPassageCharEnd": 338,
+      "normalizedPassageCharStart": 464,
+      "normalizedPassageCharEnd": 491,
       "pageCharStart": 2881,
       "pageCharEnd": 2908,
       "quote": "כונ ן א ת בית־דפוס ו בלבו ב",
-      "normalizedQuote": "כונןאתבית־דפוסובלבוב",
+      "normalizedQuote": "כונ ן א ת בית־דפוס ו בלבו ב",
       "modelQuote": "כונןאתבית־דפוסובלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n270/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "4695a6673ec083f4e3f5c50677e4b1d75d7d4ac3341ceccb3a0659568d41126b",
       "normalizedPassageChecksum": "ec12460425084418422e5b69a401c9b37e83645edf89a917d63bd8925932ba9a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_b7e0be346dd627bb47ee82ef",
+      "predicate": "Worked At",
+      "subjectTitle": "Judah Leib Reis",
+      "objectTitle": "Lviv Hebrew Printing Press",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7c7dac393bf1e666c26eee7a",
+        "pageId": "page_nybc313875_0272",
+        "scanIndex": 272,
+        "leafNumber": 271,
+        "printedPage": null,
+        "passageCharStart": 439,
+        "passageCharEnd": 478,
+        "normalizedPassageCharStart": 439,
+        "normalizedPassageCharEnd": 478,
+        "pageCharStart": 439,
+        "pageCharEnd": 478,
+        "quote": "בתו ר מגי ה עב ד בדפו ס ז ה שני ם רבו ת",
+        "normalizedQuote": "בתו ר מגי ה עב ד בדפו ס ז ה שני ם רבו ת",
+        "modelQuote": "בתורמגיהעבדבדפוסזהשניםרבות",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n271/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d541481c81e2b2fcfbde82316f83f27e9fa136f0297aaee26e8d8446a9f3b2db",
+        "normalizedPassageChecksum": "44d673417b33a94a449bacc567b6bb97932f65011ef2ca9c8b9ac7fe9444f8ec",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_a4803b8a13afc741f6b3714a",
+      "type": "Person",
+      "title": "Judah Leib Reis",
+      "relation": "Worked At"
+    },
     {
       "id": "mention_ee479507f22adeb0b3001a00",
       "type": "Person",
@@ -59,7 +97,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -80,12 +118,6 @@
       "id": "mention_2bb97bc9b2148b75186d166b",
       "type": "Person",
       "title": "Vakshtain",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3696da5bd26c33b80ae39303",
-      "type": "Work",
-      "title": "The Secretary",
       "relation": "Appears in same passage"
     },
     {

@@ -5,7 +5,7 @@
   "summary": "Jewish merchants from Turkey came to Lviv and increased foreign Jewish trade.",
   "originalName": "סוחריםיהודיםמתורכיה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 20,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 415,
       "passageCharEnd": 438,
-      "normalizedPassageCharStart": 303,
-      "normalizedPassageCharEnd": 322,
+      "normalizedPassageCharStart": 415,
+      "normalizedPassageCharEnd": 438,
       "pageCharStart": 2809,
       "pageCharEnd": 2832,
       "quote": "סוחרי ם יהודי ם מתורכיה",
-      "normalizedQuote": "סוחריםיהודיםמתורכיה",
+      "normalizedQuote": "סוחרי ם יהודי ם מתורכיה",
       "modelQuote": "סוחריםיהודיםמתורכיה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n19/mode/1up",
@@ -33,13 +33,90 @@
       "passageChecksum": "90216baf6e87225f8a78fa9dca1a129e4f511caac46d537b42500459c9e70e81",
       "normalizedPassageChecksum": "e1f9dd879c11268abf11b77120218fe7ffe4052968eb78809fd32e8d2f4bb17f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_4776309390d9e0ec9a117644",
+      "predicate": "Migrated To",
+      "subjectTitle": "Jewish merchants from Turkey",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2f862acddfee5f039cc3a243",
+        "pageId": "page_nybc313875_0020",
+        "scanIndex": 20,
+        "leafNumber": 19,
+        "printedPage": null,
+        "passageCharStart": 399,
+        "passageCharEnd": 438,
+        "normalizedPassageCharStart": 399,
+        "normalizedPassageCharEnd": 438,
+        "pageCharStart": 2793,
+        "pageCharEnd": 2832,
+        "quote": "בא ו\nלבוב ה ג ם סוחרי ם יהודי ם מתורכיה",
+        "normalizedQuote": "בא ו\nלבוב ה ג ם סוחרי ם יהודי ם מתורכיה",
+        "modelQuote": "באו לבובהגםסוחריםיהודיםמתורכיה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n19/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "90216baf6e87225f8a78fa9dca1a129e4f511caac46d537b42500459c9e70e81",
+        "normalizedPassageChecksum": "e1f9dd879c11268abf11b77120218fe7ffe4052968eb78809fd32e8d2f4bb17f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_ff06bee0d685e23d3b72bb07",
+      "type": "Migration",
+      "title": "Arrival of Jewish merchants from Turkey",
+      "summary": "Jewish merchants from Turkey arrived in Lviv.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2f862acddfee5f039cc3a243",
+        "pageId": "page_nybc313875_0020",
+        "scanIndex": 20,
+        "leafNumber": 19,
+        "printedPage": null,
+        "passageCharStart": 399,
+        "passageCharEnd": 438,
+        "normalizedPassageCharStart": 399,
+        "normalizedPassageCharEnd": 438,
+        "pageCharStart": 2793,
+        "pageCharEnd": 2832,
+        "quote": "בא ו\nלבוב ה ג ם סוחרי ם יהודי ם מתורכיה",
+        "normalizedQuote": "בא ו\nלבוב ה ג ם סוחרי ם יהודי ם מתורכיה",
+        "modelQuote": "באו לבובהגםסוחריםיהודיםמתורכיה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n19/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "90216baf6e87225f8a78fa9dca1a129e4f511caac46d537b42500459c9e70e81",
+        "normalizedPassageChecksum": "e1f9dd879c11268abf11b77120218fe7ffe4052968eb78809fd32e8d2f4bb17f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Migrated To"
+    },
+    {
+      "id": "event_candidate_ff06bee0d685e23d3b72bb07",
+      "type": "Event",
+      "title": "Arrival of Jewish merchants from Turkey",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_6bd57ff8192d48b14bfbe992",
       "type": "Community",

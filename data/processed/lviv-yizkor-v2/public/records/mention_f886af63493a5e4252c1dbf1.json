@@ -5,7 +5,7 @@
   "summary": "The Jewish quarter where a municipal proclamation was announced.",
   "originalName": "רובעיהודי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 39,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1289,
       "passageCharEnd": 1303,
-      "normalizedPassageCharStart": 946,
-      "normalizedPassageCharEnd": 958,
+      "normalizedPassageCharStart": 1289,
+      "normalizedPassageCharEnd": 1303,
       "pageCharStart": 3447,
       "pageCharEnd": 3461,
       "quote": "וברוב ע היהודי",
-      "normalizedQuote": "וברובעהיהודי",
+      "normalizedQuote": "וברוב ע היהודי",
       "modelQuote": "וברובעהיהודי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n38/mode/1up",
@@ -33,71 +33,12 @@
       "passageChecksum": "583b3999ac99a4676a17cc92a211848dea882f1cd2a4b60bdba836dd5dc068e7",
       "normalizedPassageChecksum": "e6a3b018c99163e952d3260f79f9f7972c9ba946f2bcd3ce04baa4a52d72910a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
-      "alignmentScore": 1
-    },
-    {
-      "passageId": "passage_50040d80223fa075f2a268f7",
-      "pageId": "page_nybc313875_0056",
-      "scanIndex": 56,
-      "leafNumber": 55,
-      "printedPage": null,
-      "passageCharStart": 114,
-      "passageCharEnd": 125,
-      "normalizedPassageCharStart": 88,
-      "normalizedPassageCharEnd": 96,
-      "pageCharStart": 3517,
-      "pageCharEnd": 3528,
-      "quote": "שע ר הרוב ע",
-      "normalizedQuote": "שערהרובע",
-      "modelQuote": "שערהרובע",
-      "bbox": null,
-      "scanUrl": "https://archive.org/details/nybc313875/page/n55/mode/1up",
-      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-      "passageChecksum": "529c9246c3e6a3920243be127651c60399ff6e6f27d4f31f8bbc988e2f2573a0",
-      "normalizedPassageChecksum": "39413edc644f557fbf6bf77f424cc09d626016f0371519f1ec04a886b6534884",
-      "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [
-    {
-      "id": "event_candidate_50e22e9667d69cd603926744",
-      "type": "Civil Disturbance",
-      "title": "Disturbances in Lviv and suburbs",
-      "summary": "During disturbances in Lviv's suburbs, students threatened the Jewish quarter, while the city council and Potocki arranged defensive measures. June 8, 1664 is the date of Potocki's notice, not a demonstrated event range.",
-      "dateStart": "1664-06-08",
-      "dateEnd": "1664-06-12",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The event date range combines the dated June 8 command notice with the June 12 reference in the next passage.",
-      "evidence": {
-        "passageId": "passage_50040d80223fa075f2a268f7",
-        "pageId": "page_nybc313875_0056",
-        "scanIndex": 56,
-        "leafNumber": 55,
-        "printedPage": null,
-        "passageCharStart": 583,
-        "passageCharEnd": 610,
-        "normalizedPassageCharStart": 430,
-        "normalizedPassageCharEnd": 451,
-        "pageCharStart": 3986,
-        "pageCharEnd": 4013,
-        "quote": "בתחיל ת הפרעו ת בפרב ר העיר",
-        "normalizedQuote": "בתחילתהפרעותבפרברהעיר",
-        "modelQuote": "בתחילתהפרעותבפרברהעיר",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n55/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "529c9246c3e6a3920243be127651c60399ff6e6f27d4f31f8bbc988e2f2573a0",
-        "normalizedPassageChecksum": "39413edc644f557fbf6bf77f424cc09d626016f0371519f1ec04a886b6534884",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "events": [],
   "connections": [
     {
       "id": "mention_62086dfd4be753b2f9752cd9",
@@ -106,7 +47,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_ab8f18d6a1ad23d9a48d1653",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
@@ -130,7 +71,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9ad029528bad19720434cdf8",
+      "id": "mention_189ea009680395d864c98df3",
       "type": "Community",
       "title": "Armenians",
       "relation": "Appears in same passage"
@@ -157,49 +98,6 @@
       "id": "mention_061b5b2f2d6022d0483d9ba2",
       "type": "Place",
       "title": "Poland",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "event_candidate_50e22e9667d69cd603926744",
-      "type": "Event",
-      "title": "Disturbances in Lviv and suburbs",
-      "relation": "Participated In",
-      "role": "Victim"
-    },
-    {
-      "id": "mention_e917a3fb8e10cc45c36cff64",
-      "type": "Person",
-      "title": "Stanislaw Potocki",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7579d56ca69db512bf742822",
-      "type": "Person",
-      "title": "Ferdinand Wolf",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_41e47ca0fdfccb919272f57f",
-      "type": "Person",
-      "title": "Trnawski",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_2446631b722e8d2fb81fb821",
-      "type": "Institution",
-      "title": "Lviv City Council",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_74b9b47697bd93f757f6c75c",
-      "type": "Institution",
-      "title": "Jesuit Monastery",
       "relation": "Appears in same passage"
     }
   ],

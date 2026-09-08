@@ -5,7 +5,7 @@
   "summary": "The builder of the great study house in 1913.",
   "originalName": "הוגואולריך",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 231,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1338,
       "passageCharEnd": 1350,
-      "normalizedPassageCharStart": 971,
-      "normalizedPassageCharEnd": 981,
+      "normalizedPassageCharStart": 1338,
+      "normalizedPassageCharEnd": 1350,
       "pageCharStart": 3960,
       "pageCharEnd": 3972,
       "quote": "הוג ו אולריך",
-      "normalizedQuote": "הוגואולריך",
+      "normalizedQuote": "הוג ו אולריך",
       "modelQuote": "הוגואולריך",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n230/mode/1up",
@@ -33,14 +33,14 @@
       "passageChecksum": "d06abeacdb94c80a57747b57023bcac52458a99ca63f5b83db9fa77960b296c2",
       "normalizedPassageChecksum": "631ef315ac52e47f5865ba96cb871fbe7519093119e818b234aa31fca4478c30",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_79c00e9089297e2675c994f5",
+      "id": "event_candidate_28915df6e1096f06f3c4ee12",
       "type": "Business Opening",
       "title": "Great Study House Built",
       "summary": "The great study house in Znyshynia was built in 1913 by Hugo Ulrich.",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 1322,
         "passageCharEnd": 1350,
-        "normalizedPassageCharStart": 960,
-        "normalizedPassageCharEnd": 981,
+        "normalizedPassageCharStart": 1322,
+        "normalizedPassageCharEnd": 1350,
         "pageCharStart": 3944,
         "pageCharEnd": 3972,
         "quote": "בשנ ת 1913 ע״ י הוג ו אולריך",
-        "normalizedQuote": "בשנת1913ע״יהוגואולריך",
+        "normalizedQuote": "בשנ ת 1913 ע״ י הוג ו אולריך",
         "modelQuote": "בשנת1913ע״יהוגואולריך",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n230/mode/1up",
@@ -68,24 +68,18 @@
         "passageChecksum": "d06abeacdb94c80a57747b57023bcac52458a99ca63f5b83db9fa77960b296c2",
         "normalizedPassageChecksum": "631ef315ac52e47f5865ba96cb871fbe7519093119e818b234aa31fca4478c30",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_79c00e9089297e2675c994f5",
+      "id": "event_candidate_28915df6e1096f06f3c4ee12",
       "type": "Event",
       "title": "Great Study House Built",
       "relation": "Participated In",
       "role": "Organizer"
-    },
-    {
-      "id": "mention_3b7b49471832ed0d0df45892",
-      "type": "Community",
-      "title": "Znyshynia",
-      "relation": "Appears in same passage"
     },
     {
       "id": "mention_763a361752ff981c9156a60a",
@@ -148,9 +142,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_558feccfde4626ed14bb7c23",
-      "type": "Place",
-      "title": "Bnei Brak",
+      "id": "mention_d24fefb0e8ba51fad8a607b2",
+      "type": "Person",
+      "title": "Mattathias Weintraub",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5382ea166322be7c12883a9b",
+      "type": "Institution",
+      "title": "Great Study House in Znyshynia",
       "relation": "Appears in same passage"
     }
   ],

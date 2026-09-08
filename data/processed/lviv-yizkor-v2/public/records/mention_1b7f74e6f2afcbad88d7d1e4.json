@@ -5,7 +5,7 @@
   "summary": "Rabbi Yitzhak Rapoport owned or occupied a house at the beginning of the street.",
   "originalName": "ר׳יצחקרפפורט",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 261,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 825,
       "passageCharEnd": 872,
-      "normalizedPassageCharStart": 618,
-      "normalizedPassageCharEnd": 651,
+      "normalizedPassageCharStart": 825,
+      "normalizedPassageCharEnd": 872,
       "pageCharStart": 825,
       "pageCharEnd": 872,
       "quote": "בתחיל ת הרחו ב נמצ א בית ו ש ל ר ׳ יצח ק רפפורט",
-      "normalizedQuote": "בתחילתהרחובנמצאביתושלר׳יצחקרפפורט",
+      "normalizedQuote": "בתחיל ת הרחו ב נמצ א בית ו ש ל ר ׳ יצח ק רפפורט",
       "modelQuote": "בתחילתהרחובנמצאביתושלר׳יצחקרפפורט",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n260/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "60bbed39aba4e7fafb45c224a8835b4f6dd6913c647418324b7f44fe3a89c7f9",
       "normalizedPassageChecksum": "6be9f84022f085928482fea16087f69bb903fc37165b2b74cd07227f7dbd976b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -41,9 +41,9 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_ce34a00b7a58790f6301f154",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Jewish settlement",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -65,12 +65,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9604134b286aef477832f070",
-      "type": "Place",
-      "title": "Podzama",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_e4e984d87007de6267dcd916",
       "type": "Place",
       "title": "Kazimierzowska Street",
@@ -89,18 +83,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_68f64744023e514bb1bcd758",
-      "type": "Family",
-      "title": "Birnbaum family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e3ae802238bf438ec099218b",
-      "type": "Family",
-      "title": "Mittelman family",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_0c34a95b1ec813b31799e128",
       "type": "Person",
       "title": "David Rapoport",
@@ -110,6 +92,12 @@
       "id": "mention_273c881d186641670f276970",
       "type": "Person",
       "title": "Dr. Moritz Rapoport",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_412abcc92fc6e65efe877234",
+      "type": "Institution",
+      "title": "Lebn Gitaleikh House",
       "relation": "Appears in same passage"
     }
   ],

@@ -5,7 +5,7 @@
   "summary": "The association's meeting place, described as a Jewish casino.",
   "originalName": "ברחובסיקסטובסקא 2147",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 147,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 108,
       "passageCharEnd": 132,
-      "normalizedPassageCharStart": 82,
-      "normalizedPassageCharEnd": 102,
+      "normalizedPassageCharStart": 108,
+      "normalizedPassageCharEnd": 132,
       "pageCharStart": 1567,
       "pageCharEnd": 1591,
       "quote": "ברחו ב סיקסטובסק א\n21 47",
-      "normalizedQuote": "ברחובסיקסטובסקא 2147",
+      "normalizedQuote": "ברחו ב סיקסטובסק א\n21 47",
       "modelQuote": "ברחובסיקסטובסקא 2147",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n146/mode/1up",
@@ -34,7 +34,7 @@
       "passageChecksum": "6c877f52e6485ceb75a8057cbaadb7cba5c81176ceef6080914f5aff00fd55ae",
       "normalizedPassageChecksum": "590f248be077a1d7115db101edc83547a725635a10fc2c8044e1c8bca6738509",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -42,21 +42,9 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_1dd0400f5e1ed5c3a5ddb63d",
-      "type": "Organization",
-      "title": "Association",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_9d2027dd18db7f78f7f7ed8a",
       "type": "Person",
       "title": "Dr. Ian Frid",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_f4382e56dfa7da720219132b",
-      "type": "Person",
-      "title": "Dr. Henrik Gotlib",
       "relation": "Appears in same passage"
     },
     {
@@ -111,6 +99,12 @@
       "id": "mention_5b7a30a0d8d7f1b23d168eee",
       "type": "Publication",
       "title": "Brochure on the Community Tax Question",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     }
   ],

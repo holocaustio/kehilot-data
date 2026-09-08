@@ -5,7 +5,7 @@
   "summary": "A Catholic archbishop involved in the unrest and actions at the city gates.",
   "originalName": "יאן טרנובסקי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 57,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 474,
       "passageCharEnd": 508,
-      "normalizedPassageCharStart": 349,
-      "normalizedPassageCharEnd": 378,
+      "normalizedPassageCharStart": 474,
+      "normalizedPassageCharEnd": 508,
       "pageCharStart": 1037,
       "pageCharEnd": 1071,
       "quote": "לארכיהגמו ן הקתולי , יא ן\nטרנובסקי",
-      "normalizedQuote": "לארכיהגמוןהקתולי,יאן טרנובסקי",
+      "normalizedQuote": "לארכיהגמו ן הקתולי , יא ן\nטרנובסקי",
       "modelQuote": "לארכיהגמוןהקתולי,יאן טרנובסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n56/mode/1up",
@@ -33,18 +33,51 @@
       "passageChecksum": "f128d5f2f2849032ab59f5fe463412140b5cec61f3f0dfd3b0a90b8f23bbb9eb",
       "normalizedPassageChecksum": "7aab7bf675d8364b2b9937bc4c3735e5f9e090784749498f5716f6f2959049c3",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_03952b263d599a0dfd1e8616",
+      "type": "Aktion Or Raid",
+      "title": "Attack on Lviv’s Jewish quarter",
+      "summary": "Students and a mob attacked and devastated the Jewish quarter; 129 Jews were killed.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5bec0d74228a6f1f40efcc2d",
+        "pageId": "page_nybc313875_0057",
+        "scanIndex": 57,
+        "leafNumber": 56,
+        "printedPage": null,
+        "passageCharStart": 1331,
+        "passageCharEnd": 1360,
+        "normalizedPassageCharStart": 1331,
+        "normalizedPassageCharEnd": 1360,
+        "pageCharStart": 1894,
+        "pageCharEnd": 1923,
+        "quote": "באות ו יו ם\nנהרג ו 129 יהודים",
+        "normalizedQuote": "באות ו יו ם\nנהרג ו 129 יהודים",
+        "modelQuote": "באותויום נהרגו129יהודים",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n56/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "f128d5f2f2849032ab59f5fe463412140b5cec61f3f0dfd3b0a90b8f23bbb9eb",
+        "normalizedPassageChecksum": "7aab7bf675d8364b2b9937bc4c3735e5f9e090784749498f5716f6f2959049c3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
-      "relation": "Appears in same passage"
+      "id": "event_candidate_03952b263d599a0dfd1e8616",
+      "type": "Event",
+      "title": "Attack on Lviv’s Jewish quarter",
+      "relation": "Participated In",
+      "role": "Participant"
     },
     {
       "id": "mention_5c6750bb0802214e56edf881",

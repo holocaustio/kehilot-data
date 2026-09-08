@@ -5,7 +5,7 @@
   "summary": "Komarno rebbe visited by Hasidim and righteous women seeking blessings.",
   "originalName": "ר׳יעקבמשהספרין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 238,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1003,
       "passageCharEnd": 1030,
-      "normalizedPassageCharStart": 745,
-      "normalizedPassageCharEnd": 763,
+      "normalizedPassageCharStart": 1003,
+      "normalizedPassageCharEnd": 1030,
       "pageCharStart": 4312,
       "pageCharEnd": 4339,
       "quote": "הרב י ר ׳ יעק ב מש ה ספרי ן",
-      "normalizedQuote": "הרביר׳יעקבמשהספרין",
+      "normalizedQuote": "הרב י ר ׳ יעק ב מש ה ספרי ן",
       "modelQuote": "הרביר׳יעקבמשהספרין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n237/mode/1up",
@@ -33,13 +33,53 @@
       "passageChecksum": "6c1440f7aab25cfa00315ad514a51e0774bf6a92ed13f63f9a7ffe3d9c5ae74f",
       "normalizedPassageChecksum": "82505f3dc12a83cd609e0abae52a5687c79dcec1d49e6c9e693ddabda1677f56",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_fd51e5e5c61cbeb708d44e9b",
+      "type": "Migration",
+      "title": "Komarno rebbe visited Lviv",
+      "summary": "The Komarno rebbe came to Lviv in 1914 and the prayer house moved afterward.",
+      "dateStart": "1914",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_3cdf64a85765e11036cac365",
+        "pageId": "page_nybc313875_0239",
+        "scanIndex": 239,
+        "leafNumber": 238,
+        "printedPage": null,
+        "passageCharStart": 123,
+        "passageCharEnd": 159,
+        "normalizedPassageCharStart": 123,
+        "normalizedPassageCharEnd": 159,
+        "pageCharStart": 123,
+        "pageCharEnd": 159,
+        "quote": "בשב ת\n1914 ב א הרב י מקומרנ א ללבו ב",
+        "normalizedQuote": "בשב ת\n1914 ב א הרב י מקומרנ א ללבו ב",
+        "modelQuote": "בשבת 1914באהרבימקומרנאללבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n238/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9d666d515055372349b208235f5be4208147a23105086d96450e47ea1c9c49c9",
+        "normalizedPassageChecksum": "5c1f67119fa8c0eeef5623b91dea32a14c5e7dee72c1914f0156a6c43cdb3d13",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_fd51e5e5c61cbeb708d44e9b",
+      "type": "Event",
+      "title": "Komarno rebbe visited Lviv",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
     {
       "id": "mention_895b27aeb7f28942f9ad1c5b",
       "type": "Community",
@@ -71,7 +111,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

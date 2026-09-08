@@ -5,7 +5,7 @@
   "summary": "Director of the large community library in Lviv.",
   "originalName": "כהןיהודה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 379,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1294,
       "passageCharEnd": 1309,
-      "normalizedPassageCharStart": 968,
-      "normalizedPassageCharEnd": 979,
+      "normalizedPassageCharStart": 1294,
+      "normalizedPassageCharEnd": 1309,
       "pageCharStart": 3507,
       "pageCharEnd": 3522,
       "quote": "26 . כה ן יהודה",
-      "normalizedQuote": "26.כהןיהודה",
+      "normalizedQuote": "26 . כה ן יהודה",
       "modelQuote": "26.כהןיהודה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n378/mode/1up",
@@ -33,13 +33,55 @@
       "passageChecksum": "82785561e1dff5e7cef5459a9d510ab3c36359248fb7ff784d11717edd9dca9b",
       "normalizedPassageChecksum": "2449c1fdd8db1fbe732bdaba1587c7bf44cf77f17121b179fb032accd16fd6b0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_7fe81a9546ecf80642894d93",
+      "type": "Death",
+      "title": "Death of Yehuda Cohen",
+      "summary": "Yehuda Cohen reportedly died of typhus in early 1942.",
+      "dateStart": "1942-01",
+      "dateEnd": "1942-03",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The death is explicitly attributed to rumor, and no place is given.",
+      "evidence": {
+        "passageId": "passage_3acb6ba64670ff615b72fbae",
+        "pageId": "page_nybc313875_0379",
+        "scanIndex": 379,
+        "leafNumber": 378,
+        "printedPage": null,
+        "passageCharStart": 102,
+        "passageCharEnd": 149,
+        "normalizedPassageCharStart": 102,
+        "normalizedPassageCharEnd": 149,
+        "pageCharStart": 3659,
+        "pageCharEnd": 3706,
+        "quote": "מת , לפ י השמועה , במחל ת הטיפוס , בראשי ת 1942",
+        "normalizedQuote": "מת , לפ י השמועה , במחל ת הטיפוס , בראשי ת 1942",
+        "modelQuote": "מת,לפיהשמועה,במחלתהטיפוס,בראשית1942",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n378/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "97f1215fba9c02beec881d1343c5f46da348ffad2117fdb602fd6d7dcb953f81",
+        "normalizedPassageChecksum": "e5cd4184451023cc714deabfe35ce065fdd55facad8d8e73ef02848a562f6470",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_7fe81a9546ecf80642894d93",
+      "type": "Event",
+      "title": "Death of Yehuda Cohen",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
     {
       "id": "mention_ffaac6375840e5314d36b328",
       "type": "Person",
@@ -77,7 +119,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

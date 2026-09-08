@@ -5,7 +5,7 @@
   "summary": "Work on Sanhedrin attributed in the passage to Aaron.",
   "originalName": "מנחתאהרן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 195,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1291,
       "passageCharEnd": 1331,
-      "normalizedPassageCharStart": 939,
-      "normalizedPassageCharEnd": 967,
+      "normalizedPassageCharStart": 1291,
+      "normalizedPassageCharEnd": 1331,
       "pageCharStart": 3016,
       "pageCharEnd": 3056,
       "quote": "ר ׳ אהר ן בע ל \"מנח ת אהרן \" ע ל סנהדרין",
-      "normalizedQuote": "ר׳אהרןבעל\"מנחתאהרן\"עלסנהדרין",
+      "normalizedQuote": "ר ׳ אהר ן בע ל \"מנח ת אהרן \" ע ל סנהדרין",
       "modelQuote": "ר׳אהרןבעל\"מנחתאהרן\"עלסנהדרין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n194/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "3059a4def14468cfad0d8e8044423d291944fb7b4c015ce08f1617b998b29918",
       "normalizedPassageChecksum": "e74e9f833c24d3dfdf9cadf9f2337ead2eec20fdb7fe92287941071c41f4b518",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 1266,
       "passageCharEnd": 1295,
-      "normalizedPassageCharStart": 923,
-      "normalizedPassageCharEnd": 946,
+      "normalizedPassageCharStart": 1266,
+      "normalizedPassageCharEnd": 1295,
       "pageCharStart": 1499,
       "pageCharEnd": 1528,
       "quote": "והשאי ר קונטר ס\n\"מנח ת אהרן \"",
-      "normalizedQuote": "והשאירקונטרס \"מנחתאהרן\"",
+      "normalizedQuote": "והשאי ר קונטר ס\n\"מנח ת אהרן \"",
       "modelQuote": "והשאירקונטרס \"מנחתאהרן\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n195/mode/1up",
@@ -57,15 +57,48 @@
       "passageChecksum": "96539f83c2048942acc6dda7e97be7032775d0e8d484b4685b0d167d54783308",
       "normalizedPassageChecksum": "6e9004563d8984b4ab3ed2373606230384ef7f9c51242d3ea42c9f9d133b26d9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_7b242f924818640486121022",
+      "predicate": "Left Manuscript",
+      "subjectTitle": "Minhat Aaron",
+      "objectTitle": "Aaron Shmelkes",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says Aaron left the manuscript but does not explicitly use the word authored.",
+      "evidence": {
+        "passageId": "passage_69cd7c268c91c09c351e3d88",
+        "pageId": "page_nybc313875_0196",
+        "scanIndex": 196,
+        "leafNumber": 195,
+        "printedPage": null,
+        "passageCharStart": 1266,
+        "passageCharEnd": 1295,
+        "normalizedPassageCharStart": 1266,
+        "normalizedPassageCharEnd": 1295,
+        "pageCharStart": 1499,
+        "pageCharEnd": 1528,
+        "quote": "והשאי ר קונטר ס\n\"מנח ת אהרן \"",
+        "normalizedQuote": "והשאי ר קונטר ס\n\"מנח ת אהרן \"",
+        "modelQuote": "והשאירקונטרס \"מנחתאהרן\"",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n195/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "96539f83c2048942acc6dda7e97be7032775d0e8d484b4685b0d167d54783308",
+        "normalizedPassageChecksum": "6e9004563d8984b4ab3ed2373606230384ef7f9c51242d3ea42c9f9d133b26d9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_0fc466b7f2f2d23b9373ceb8",
+      "id": "mention_6df4297a09bb1a468ff7e503",
       "type": "Person",
       "title": "Jacob-Meshullam Orenstein",
       "relation": "Appears in same passage"
@@ -95,25 +128,25 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1a7bd179b9d137b6a604cb4d",
+      "id": "mention_43b924e620609c84b86b8526",
       "type": "Family",
       "title": "Hayot family",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ff078c16fe314afc974e8200",
+      "id": "mention_ff93701c70e4d37c6fc363b1",
       "type": "Place",
       "title": "Brody",
       "relation": "Appears in same passage"
@@ -123,6 +156,12 @@
       "type": "Publication",
       "title": "Die Neue Zeit",
       "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_956af61157683bb2717a7bfe",
+      "type": "Person",
+      "title": "Aaron Shmelkes",
+      "relation": "Left Manuscript"
     },
     {
       "id": "mention_2963306e63ce3e7e1a2030d9",
@@ -176,6 +215,12 @@
       "id": "mention_a590b873f75c1f0ebae8bd28",
       "type": "Person",
       "title": "Rabbi Nathan Levin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {

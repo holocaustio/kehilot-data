@@ -5,7 +5,7 @@
   "summary": "Cantor who left Lviv and was accepted as cantor in Odesa.",
   "originalName": "אברם",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 221,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 185,
       "passageCharEnd": 195,
-      "normalizedPassageCharStart": 130,
-      "normalizedPassageCharEnd": 139,
+      "normalizedPassageCharStart": 185,
+      "normalizedPassageCharEnd": 195,
       "pageCharStart": 185,
       "pageCharEnd": 195,
       "quote": "החז ן\nאברם",
-      "normalizedQuote": "החזן אברם",
+      "normalizedQuote": "החז ן\nאברם",
       "modelQuote": "החזן אברם",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n220/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "a1780691a39d42e68e995d0db1a0888f4fdf51d962e4e85380a26fd27f08933d",
       "normalizedPassageChecksum": "20f4811b631603312c44939f3508369a654883064674b5acc27c9c36714640da",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_cddc5922a4df48b9b8a926c0",
+      "predicate": "Migrated To",
+      "subjectTitle": "Abram",
+      "objectTitle": "Odesa",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_748415223292fe778f200d44",
+        "pageId": "page_nybc313875_0221",
+        "scanIndex": 221,
+        "leafNumber": 220,
+        "printedPage": null,
+        "passageCharStart": 199,
+        "passageCharEnd": 219,
+        "normalizedPassageCharStart": 199,
+        "normalizedPassageCharEnd": 219,
+        "pageCharStart": 199,
+        "pageCharEnd": 219,
+        "quote": "נתקב ל כחז ן באודיסה",
+        "normalizedQuote": "נתקב ל כחז ן באודיסה",
+        "modelQuote": "נתקבלכחזןבאודיסה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n220/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a1780691a39d42e68e995d0db1a0888f4fdf51d962e4e85380a26fd27f08933d",
+        "normalizedPassageChecksum": "20f4811b631603312c44939f3508369a654883064674b5acc27c9c36714640da",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_0fe6befca63ff16012038671",
+      "type": "Place",
+      "title": "Odesa",
+      "relation": "Migrated To"
+    },
     {
       "id": "mention_a3baebd5428845c67950eea2",
       "type": "Person",
@@ -53,7 +91,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_30361a499bda3fb108886342",
+      "id": "mention_60cdc77ce6abc95f0f098139",
       "type": "Place",
       "title": "Königsberg",
       "relation": "Appears in same passage"

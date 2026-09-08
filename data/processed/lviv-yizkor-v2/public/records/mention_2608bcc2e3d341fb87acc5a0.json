@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1316,
       "passageCharEnd": 1368,
-      "normalizedPassageCharStart": 980,
-      "normalizedPassageCharEnd": 1018,
+      "normalizedPassageCharStart": 1316,
+      "normalizedPassageCharEnd": 1368,
       "pageCharStart": 2731,
       "pageCharEnd": 2783,
       "quote": "חותמ ו ש ל יצח ק ב ן\nאברה ם הכה ן מלבוב .\nמשנ ת 1654",
-      "normalizedQuote": "חותמושליצחקבן אברהםהכהןמלבוב. משנת1654",
+      "normalizedQuote": "חותמ ו ש ל יצח ק ב ן\nאברה ם הכה ן מלבוב .\nמשנ ת 1654",
       "modelQuote": "חותמושליצחקבן אברהםהכהןמלבוב.משנת1654",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n68/mode/1up",
@@ -37,9 +37,47 @@
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c86ea338821e0fc88dd5d4d6",
+      "predicate": "Located In",
+      "subjectTitle": "Isaac ben Abraham ha-Kohen of Lviv",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7ca207ce7bf42831ed0fcd39",
+        "pageId": "page_nybc313875_0069",
+        "scanIndex": 69,
+        "leafNumber": 68,
+        "printedPage": null,
+        "passageCharStart": 1337,
+        "passageCharEnd": 1355,
+        "normalizedPassageCharStart": 1337,
+        "normalizedPassageCharEnd": 1355,
+        "pageCharStart": 2752,
+        "pageCharEnd": 2770,
+        "quote": "אברה ם הכה ן מלבוב",
+        "normalizedQuote": "אברה ם הכה ן מלבוב",
+        "modelQuote": "אברהםהכהןמלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n68/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "6bc81a21247e8b75221ed8839d9080e10e839e93f4b563129b688142b61a62b8",
+        "normalizedPassageChecksum": "5d855a3cc17f14048d00226baa8870b6f4885f87c3ceb23c835b272d43f398ad",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Located In"
+    },
     {
       "id": "mention_4aa5d75be863a0b21a8c941a",
       "type": "Person",

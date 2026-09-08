@@ -5,7 +5,7 @@
   "summary": "A twenty-year-old adherent left with Frank for Salonika.",
   "originalName": "צעירבןעשרים׳",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 72,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 273,
       "passageCharEnd": 290,
-      "normalizedPassageCharStart": 198,
-      "normalizedPassageCharEnd": 210,
+      "normalizedPassageCharStart": 273,
+      "normalizedPassageCharEnd": 290,
       "pageCharStart": 2556,
       "pageCharEnd": 2573,
       "quote": "צעי ר ב ן עשרים ׳",
-      "normalizedQuote": "צעירבןעשרים׳",
+      "normalizedQuote": "צעי ר ב ן עשרים ׳",
       "modelQuote": "צעירבןעשרים׳",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n71/mode/1up",
@@ -32,16 +32,16 @@
       "passageChecksum": "a31a9e46fda8190f1eeab83744efcb72eda0c30bbeb91bfd86e2affab2fb7f79",
       "normalizedPassageChecksum": "88cca2497e73deb308c09d35353e125ad1809bc7071ead325157311f31d11254",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_92bd9b6fa0de14c4f344f134",
+      "id": "claim_candidate_8169e168a28df7f16c28be7d",
       "predicate": "Migrated To",
       "subjectTitle": "Unnamed twenty-year-old adherent",
-      "objectTitle": "Salonika",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "qualifiers": {
         "with": "person_frank"
@@ -54,12 +54,12 @@
         "printedPage": null,
         "passageCharStart": 350,
         "passageCharEnd": 382,
-        "normalizedPassageCharStart": 253,
-        "normalizedPassageCharEnd": 278,
+        "normalizedPassageCharStart": 350,
+        "normalizedPassageCharEnd": 382,
         "pageCharStart": 2633,
         "pageCharEnd": 2665,
         "quote": "ויצ א\nאח״ כ ע ם פראנ ק לסאלוניקי",
-        "normalizedQuote": "ויצא אח״כעםפראנקלסאלוניקי",
+        "normalizedQuote": "ויצ א\nאח״ כ ע ם פראנ ק לסאלוניקי",
         "modelQuote": "ויצא אח״כעםפראנקלסאלוניקי",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n71/mode/1up",
@@ -67,14 +67,14 @@
         "passageChecksum": "a31a9e46fda8190f1eeab83744efcb72eda0c30bbeb91bfd86e2affab2fb7f79",
         "normalizedPassageChecksum": "88cca2497e73deb308c09d35353e125ad1809bc7071ead325157311f31d11254",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [
     {
-      "id": "event_candidate_bb86d2935ee060fc8324be42",
+      "id": "event_candidate_ff10441040cf65966f0f27cc",
       "type": "Migration",
       "title": "Young adherent's departure for Salonika",
       "summary": "A young adherent left with Frank for Salonika after taking money from his parents.",
@@ -87,12 +87,12 @@
         "printedPage": null,
         "passageCharStart": 350,
         "passageCharEnd": 382,
-        "normalizedPassageCharStart": 253,
-        "normalizedPassageCharEnd": 278,
+        "normalizedPassageCharStart": 350,
+        "normalizedPassageCharEnd": 382,
         "pageCharStart": 2633,
         "pageCharEnd": 2665,
         "quote": "ויצ א\nאח״ כ ע ם פראנ ק לסאלוניקי",
-        "normalizedQuote": "ויצא אח״כעםפראנקלסאלוניקי",
+        "normalizedQuote": "ויצ א\nאח״ כ ע ם פראנ ק לסאלוניקי",
         "modelQuote": "ויצא אח״כעםפראנקלסאלוניקי",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n71/mode/1up",
@@ -100,20 +100,14 @@
         "passageChecksum": "a31a9e46fda8190f1eeab83744efcb72eda0c30bbeb91bfd86e2affab2fb7f79",
         "normalizedPassageChecksum": "88cca2497e73deb308c09d35353e125ad1809bc7071ead325157311f31d11254",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_b9aa3ca8cf52040a10c07087",
-      "type": "Place",
-      "title": "Salonika",
-      "relation": "Migrated To"
-    },
-    {
-      "id": "event_candidate_bb86d2935ee060fc8324be42",
+      "id": "event_candidate_ff10441040cf65966f0f27cc",
       "type": "Event",
       "title": "Young adherent's departure for Salonika",
       "relation": "Participated In",
@@ -138,18 +132,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b9aa3ca8cf52040a10c07087",
-      "type": "Place",
-      "title": "Salonika",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_0c5faa9a879c36e19059d742",
       "type": "Place",
       "title": "Lychakiv Gate",
@@ -165,12 +147,6 @@
       "id": "mention_881eea6c81b9311f65a7d8aa",
       "type": "Place",
       "title": "Lviv Jewish Cemetery",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_64e838d021a93fd9760b82a4",
-      "type": "Place",
-      "title": "Davidov",
       "relation": "Appears in same passage"
     }
   ],

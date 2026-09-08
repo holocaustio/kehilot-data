@@ -5,7 +5,7 @@
   "summary": "Printer who moved a printing press from Amsterdam to Zhovkva in 1690.",
   "originalName": "אוריבןאהרןפייבישהלוי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 63,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 651,
       "passageCharEnd": 687,
-      "normalizedPassageCharStart": 465,
-      "normalizedPassageCharEnd": 491,
+      "normalizedPassageCharStart": 651,
+      "normalizedPassageCharEnd": 687,
       "pageCharStart": 2992,
       "pageCharEnd": 3028,
       "quote": "המדפי ס אור י ב ן אהר ן פייבי ש הלוי",
-      "normalizedQuote": "המדפיסאוריבןאהרןפייבישהלוי",
+      "normalizedQuote": "המדפי ס אור י ב ן אהר ן פייבי ש הלוי",
       "modelQuote": "המדפיסאוריבןאהרןפייבישהלוי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n62/mode/1up",
@@ -33,15 +33,55 @@
       "passageChecksum": "95b04ef0e6bc978d48b3c16dba4c1aef96b3653e2027923589a845c09afec8f1",
       "normalizedPassageChecksum": "11b8b40e16799c5d529eb9331479ac53c8100b43ffd4ac13d7a62f06cdf2d26e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_9b263d404fa544de19c2d064",
+      "type": "Migration",
+      "title": "Printing press moved from Amsterdam to Zhovkva",
+      "summary": "Uri ben Aaron Feibush Halevi moved a printing press from Amsterdam to Zhovkva in 1690.",
+      "dateStart": "1690",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_bf3d71ac037ef3c7faacae9b",
+        "pageId": "page_nybc313875_0063",
+        "scanIndex": 63,
+        "leafNumber": 62,
+        "printedPage": null,
+        "passageCharStart": 690,
+        "passageCharEnd": 736,
+        "normalizedPassageCharStart": 690,
+        "normalizedPassageCharEnd": 736,
+        "pageCharStart": 3031,
+        "pageCharEnd": 3077,
+        "quote": "שהעבי ר בשנ ת 1690 בית־דפו ס מאמסטרד ם לזולקוב",
+        "normalizedQuote": "שהעבי ר בשנ ת 1690 בית־דפו ס מאמסטרד ם לזולקוב",
+        "modelQuote": "שהעבירבשנת1690בית־דפוסמאמסטרדםלזולקוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n62/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "95b04ef0e6bc978d48b3c16dba4c1aef96b3653e2027923589a845c09afec8f1",
+        "normalizedPassageChecksum": "11b8b40e16799c5d529eb9331479ac53c8100b43ffd4ac13d7a62f06cdf2d26e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_fd0f2b08392690e9c0ef9fdc",
+      "id": "event_candidate_9b263d404fa544de19c2d064",
+      "type": "Event",
+      "title": "Printing press moved from Amsterdam to Zhovkva",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_1c00c5431353b2689d07abba",
       "type": "Place",
       "title": "Jewish Street, Lviv",
       "relation": "Appears in same passage"

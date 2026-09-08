@@ -5,7 +5,7 @@
   "summary": "The ghetto’s only square, crowded with homeless Jewish people.",
   "originalName": "רחבתקליפרוב",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 335,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 554,
       "passageCharEnd": 626,
-      "normalizedPassageCharStart": 405,
-      "normalizedPassageCharEnd": 459,
+      "normalizedPassageCharStart": 554,
+      "normalizedPassageCharEnd": 626,
       "pageCharStart": 1658,
       "pageCharEnd": 1730,
       "quote": "רחב ת קליפרו ב\nהית ה מלא ה \"מת י מדבר \" אלה ׳ החוני ם מ י באהלי ם\nוסוכות",
-      "normalizedQuote": "רחבתקליפרוב היתהמלאה\"מתימדבר\"אלה׳החוניםמיבאהלים וסוכות",
+      "normalizedQuote": "רחב ת קליפרו ב\nהית ה מלא ה \"מת י מדבר \" אלה ׳ החוני ם מ י באהלי ם\nוסוכות",
       "modelQuote": "רחבתקליפרוב היתהמלאה\"מתימדבר\"אלה׳החוניםמיבאהלים וסוכות",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n334/mode/1up",
@@ -34,13 +34,13 @@
       "passageChecksum": "02ddfcf8f917bdc43c71d494b90029456b95d4da1efa9d819e9009c955e66b76",
       "normalizedPassageChecksum": "5803e2095978e91de5aaed74338562d340c7fc23bf4ee25d2cd966c4a6fedb44",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_320eac007442e62ddc592952",
+      "id": "claim_candidate_7c86ade71bb914ae0c2c49ab",
       "predicate": "Located In",
       "subjectTitle": "Kliperov Square",
       "objectTitle": "Ghetto",
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 530,
         "passageCharEnd": 551,
-        "normalizedPassageCharStart": 387,
-        "normalizedPassageCharEnd": 404,
+        "normalizedPassageCharStart": 530,
+        "normalizedPassageCharEnd": 551,
         "pageCharStart": 1634,
         "pageCharEnd": 1655,
         "quote": "הרחב ה היחיד ה שבגיטו",
-        "normalizedQuote": "הרחבההיחידהשבגיטו",
+        "normalizedQuote": "הרחב ה היחיד ה שבגיטו",
         "modelQuote": "הרחבההיחידהשבגיטו",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n334/mode/1up",
@@ -66,7 +66,7 @@
         "passageChecksum": "02ddfcf8f917bdc43c71d494b90029456b95d4da1efa9d819e9009c955e66b76",
         "normalizedPassageChecksum": "5803e2095978e91de5aaed74338562d340c7fc23bf4ee25d2cd966c4a6fedb44",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -74,21 +74,15 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_4598073be2c6b65a39573658",
+      "id": "mention_44f23c0f923d479ae632f535",
       "type": "Place",
       "title": "Ghetto",
       "relation": "Located In"
     },
     {
-      "id": "mention_4598073be2c6b65a39573658",
+      "id": "mention_44f23c0f923d479ae632f535",
       "type": "Place",
       "title": "Ghetto",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d4bbf3f2df3e8bb5efab3cc3",
-      "type": "Community",
-      "title": "Jewish community",
       "relation": "Appears in same passage"
     }
   ],

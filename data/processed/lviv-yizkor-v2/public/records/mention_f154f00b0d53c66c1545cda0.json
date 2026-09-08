@@ -5,7 +5,7 @@
   "summary": "Headed the orphanage and was active in supporting communal institutions.",
   "originalName": "לאורה לוש",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 141,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 43,
       "passageCharEnd": 54,
-      "normalizedPassageCharStart": 31,
-      "normalizedPassageCharEnd": 40,
+      "normalizedPassageCharStart": 43,
+      "normalizedPassageCharEnd": 54,
       "pageCharStart": 920,
       "pageCharEnd": 931,
       "quote": "לאור ה\nלו ש",
-      "normalizedQuote": "לאורה לוש",
+      "normalizedQuote": "לאור ה\nלו ש",
       "modelQuote": "לאורה לוש",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n140/mode/1up",
@@ -32,16 +32,16 @@
       "passageChecksum": "239aec094e21d14ae5b30be1fb1f0d8c02490de81610ed98d7a48caece809291",
       "normalizedPassageChecksum": "1a58a5af07169725583bb33e9f7d3739ea34dd5232026d31a3efc58ddb763127",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_b5db1d3a63c20dc33438cdf1",
+      "id": "claim_candidate_c49b4e2d2b5c78a8982177c1",
       "predicate": "Led By",
       "subjectTitle": "Lora Lush",
-      "objectTitle": "Orphanage",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_ccc8b78d3efc8332c906c649",
@@ -51,12 +51,12 @@
         "printedPage": null,
         "passageCharStart": 121,
         "passageCharEnd": 145,
-        "normalizedPassageCharStart": 89,
-        "normalizedPassageCharEnd": 109,
+        "normalizedPassageCharStart": 121,
+        "normalizedPassageCharEnd": 145,
         "pageCharStart": 998,
         "pageCharEnd": 1022,
         "quote": "שעמד ה ברא ש בית־היתומים",
-        "normalizedQuote": "שעמדהבראשבית־היתומים",
+        "normalizedQuote": "שעמד ה ברא ש בית־היתומים",
         "modelQuote": "שעמדהבראשבית־היתומים",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n140/mode/1up",
@@ -64,12 +64,12 @@
         "passageChecksum": "239aec094e21d14ae5b30be1fb1f0d8c02490de81610ed98d7a48caece809291",
         "normalizedPassageChecksum": "1a58a5af07169725583bb33e9f7d3739ea34dd5232026d31a3efc58ddb763127",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "claim_candidate_43baaa7437f69b8db822a733",
+      "id": "claim_candidate_686f9ee3f6f3fc5c2496bbec",
       "predicate": "Mentioned In",
       "subjectTitle": "Dr. Gabriel Rieser",
       "objectTitle": "Lora Lush",
@@ -85,12 +85,12 @@
         "printedPage": null,
         "passageCharStart": 56,
         "passageCharEnd": 104,
-        "normalizedPassageCharStart": 41,
-        "normalizedPassageCharEnd": 76,
+        "normalizedPassageCharStart": 56,
+        "normalizedPassageCharEnd": 104,
         "pageCharStart": 933,
         "pageCharEnd": 981,
         "quote": "בת־דוד ו ש ל המדינא י היהוד י ד״ ר גבריא ל ריס ר",
-        "normalizedQuote": "בת־דודושלהמדינאיהיהודיד״רגבריאלריסר",
+        "normalizedQuote": "בת־דוד ו ש ל המדינא י היהוד י ד״ ר גבריא ל ריס ר",
         "modelQuote": "בת־דודושלהמדינאיהיהודיד״רגבריאלריסר",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n140/mode/1up",
@@ -98,19 +98,13 @@
         "passageChecksum": "239aec094e21d14ae5b30be1fb1f0d8c02490de81610ed98d7a48caece809291",
         "normalizedPassageChecksum": "1a58a5af07169725583bb33e9f7d3739ea34dd5232026d31a3efc58ddb763127",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
-    {
-      "id": "mention_270698422cb5ff3ad31afd24",
-      "type": "Institution",
-      "title": "Orphanage",
-      "relation": "Led By"
-    },
     {
       "id": "mention_7d32823d9e12de2a26ed39fc",
       "type": "Person",
@@ -124,21 +118,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0fc5857222e287c72b79e236",
-      "type": "Place",
-      "title": "Hamburg",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_eac1394c358968494ef169c9",
       "type": "Person",
       "title": "Hirsch Zipper",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_270698422cb5ff3ad31afd24",
-      "type": "Institution",
-      "title": "Orphanage",
       "relation": "Appears in same passage"
     },
     {
@@ -187,6 +169,18 @@
       "id": "mention_d461d520215943baa50a2921",
       "type": "Institution",
       "title": "Talmud Torah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_30fb0f4155ead4741b4a1024",
+      "type": "Place",
+      "title": "New cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e5d9d84a0ec3cb29f7aa749c",
+      "type": "Institution",
+      "title": "Synagogue on the new cemetery land",
       "relation": "Appears in same passage"
     }
   ],

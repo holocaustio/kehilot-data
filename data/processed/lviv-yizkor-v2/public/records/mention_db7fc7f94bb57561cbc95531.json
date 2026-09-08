@@ -5,7 +5,7 @@
   "summary": "Identified as the last rabbi of the community; died in 1697.",
   "originalName": "ר׳יהודה־יודלבןמשהמלובלין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 60,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1158,
       "passageCharEnd": 1190,
-      "normalizedPassageCharStart": 819,
-      "normalizedPassageCharEnd": 843,
+      "normalizedPassageCharStart": 1158,
+      "normalizedPassageCharEnd": 1190,
       "pageCharStart": 1158,
       "pageCharEnd": 1190,
       "quote": "ר ׳ יהודה־יוד ל ב ן מש ה מלובלין",
-      "normalizedQuote": "ר׳יהודה־יודלבןמשהמלובלין",
+      "normalizedQuote": "ר ׳ יהודה־יוד ל ב ן מש ה מלובלין",
       "modelQuote": "ר׳יהודה־יודלבןמשהמלובלין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -33,14 +33,49 @@
       "passageChecksum": "0a62a21dd142e6f02ffa139cc8388646d415552dc670aaab642ea24f5e35eddb",
       "normalizedPassageChecksum": "d62723e4de7c935f592eb0d79d36669816564ef145c784dd0759ad195976d586",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_124b2f504c7171640ef2bcd7",
+      "predicate": "Died In",
+      "subjectTitle": "Judah-Yudel son of Moses of Lublin",
+      "objectTitle": "Lviv Jewish community",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "dateText": "בשנתתנ״ז(1697)"
+      },
+      "evidence": {
+        "passageId": "passage_1ec97a24f09f34cf9887b133",
+        "pageId": "page_nybc313875_0060",
+        "scanIndex": 60,
+        "leafNumber": 59,
+        "printedPage": null,
+        "passageCharStart": 1193,
+        "passageCharEnd": 1219,
+        "normalizedPassageCharStart": 1193,
+        "normalizedPassageCharEnd": 1219,
+        "pageCharStart": 1193,
+        "pageCharEnd": 1219,
+        "quote": "נפט ר בשנ ת תנ״ ז ( 1697 )",
+        "normalizedQuote": "נפט ר בשנ ת תנ״ ז ( 1697 )",
+        "modelQuote": "נפטרבשנתתנ״ז(1697)",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "0a62a21dd142e6f02ffa139cc8388646d415552dc670aaab642ea24f5e35eddb",
+        "normalizedPassageChecksum": "d62723e4de7c935f592eb0d79d36669816564ef145c784dd0759ad195976d586",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [
     {
-      "id": "event_candidate_44e6ee27ea760778fe767795",
+      "id": "event_candidate_2f5c412d88fd31a0394bff9b",
       "type": "Death",
       "title": "Death of Judah-Yudel son of Moses",
       "summary": "Judah-Yudel son of Moses died in 1697.",
@@ -55,12 +90,12 @@
         "printedPage": null,
         "passageCharStart": 1193,
         "passageCharEnd": 1219,
-        "normalizedPassageCharStart": 845,
-        "normalizedPassageCharEnd": 863,
+        "normalizedPassageCharStart": 1193,
+        "normalizedPassageCharEnd": 1219,
         "pageCharStart": 1193,
         "pageCharEnd": 1219,
         "quote": "נפט ר בשנ ת תנ״ ז ( 1697 )",
-        "normalizedQuote": "נפטרבשנתתנ״ז(1697)",
+        "normalizedQuote": "נפט ר בשנ ת תנ״ ז ( 1697 )",
         "modelQuote": "נפטרבשנתתנ״ז(1697)",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -68,14 +103,20 @@
         "passageChecksum": "0a62a21dd142e6f02ffa139cc8388646d415552dc670aaab642ea24f5e35eddb",
         "normalizedPassageChecksum": "d62723e4de7c935f592eb0d79d36669816564ef145c784dd0759ad195976d586",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_44e6ee27ea760778fe767795",
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Died In"
+    },
+    {
+      "id": "event_candidate_2f5c412d88fd31a0394bff9b",
       "type": "Event",
       "title": "Death of Judah-Yudel son of Moses",
       "relation": "Participated In",

@@ -5,7 +5,7 @@
   "summary": "Its Lviv branch was managed by Yehoshua Mizim.",
   "originalName": "בנק־האשראיהאוסטרילמסחרותעשיה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 138,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1013,
       "passageCharEnd": 1047,
-      "normalizedPassageCharStart": 754,
-      "normalizedPassageCharEnd": 782,
+      "normalizedPassageCharStart": 1013,
+      "normalizedPassageCharEnd": 1047,
       "pageCharStart": 1013,
       "pageCharEnd": 1047,
       "quote": "בנק־האשרא י האוסטר י למסח ר ותעשיה",
-      "normalizedQuote": "בנק־האשראיהאוסטרילמסחרותעשיה",
+      "normalizedQuote": "בנק־האשרא י האוסטר י למסח ר ותעשיה",
       "modelQuote": "בנק־האשראיהאוסטרילמסחרותעשיה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n137/mode/1up",
@@ -33,69 +33,13 @@
       "passageChecksum": "08dc85ac5d9721b2b2a4e2541bc0cfed0a1fac63fa5def7877ff47323986f37c",
       "normalizedPassageChecksum": "c43251d077e3ee050c1da178cf792f22e34b6848b4a08df0f82fb7ecdf3466f2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_a55f35ab00d6f411baeb3651",
-      "predicate": "Led By",
-      "subjectTitle": "Yehoshua Mizim",
-      "objectTitle": "Austrian Credit Bank for Commerce and Industry",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_1d317918db341be83edd7681",
-        "pageId": "page_nybc313875_0138",
-        "scanIndex": 138,
-        "leafNumber": 137,
-        "printedPage": null,
-        "passageCharStart": 977,
-        "passageCharEnd": 1047,
-        "normalizedPassageCharStart": 729,
-        "normalizedPassageCharEnd": 782,
-        "pageCharStart": 977,
-        "pageCharEnd": 1047,
-        "quote": "ויהוש ע מיז ם הי ה מנה ל\nהסני ף ש ל בנק־האשרא י האוסטר י למסח ר ותעשיה",
-        "normalizedQuote": "ויהושעמיזםהיהמנהל הסניףשלבנק־האשראיהאוסטרילמסחרותעשיה",
-        "modelQuote": "ויהושעמיזםהיהמנהל הסניףשלבנק־האשראיהאוסטרילמסחרותעשיה",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n137/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "08dc85ac5d9721b2b2a4e2541bc0cfed0a1fac63fa5def7877ff47323986f37c",
-        "normalizedPassageChecksum": "c43251d077e3ee050c1da178cf792f22e34b6848b4a08df0f82fb7ecdf3466f2",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_efb3525e69fd9a9ad11d7439",
-      "type": "Person",
-      "title": "Yehoshua Mizim",
-      "relation": "Led By"
-    },
-    {
-      "id": "mention_4aea7e28d688490f426dbba7",
-      "type": "Community",
-      "title": "Lviv Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_f8a05097a86bb6b7c7066cb1",
-      "type": "Person",
-      "title": "Meir Yeruhamiel Mizim",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_f36a3424dd3078687039414b",
       "type": "Person",
@@ -139,15 +83,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c28b28eaee71f505d942b238",
-      "type": "Person",
-      "title": "A. Nirenstein",
+      "id": "mention_56272c4b781b88cfbc90a24b",
+      "type": "Institution",
+      "title": "Austrian National Bank",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_efb3525e69fd9a9ad11d7439",
-      "type": "Person",
-      "title": "Yehoshua Mizim",
+      "id": "mention_88ae0af60983559d43031f79",
+      "type": "Place",
+      "title": "Vienna",
       "relation": "Appears in same passage"
     }
   ],

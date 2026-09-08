@@ -5,7 +5,7 @@
   "summary": "The king ruled that Jews could not join craft guilds on religious grounds.",
   "originalName": "המלךזיגמונטווו",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 40,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 378,
       "passageCharEnd": 397,
-      "normalizedPassageCharStart": 278,
-      "normalizedPassageCharEnd": 292,
+      "normalizedPassageCharStart": 378,
+      "normalizedPassageCharEnd": 397,
       "pageCharStart": 1674,
       "pageCharEnd": 1693,
       "quote": "המל ך זיגמונ ט וו ו",
-      "normalizedQuote": "המלךזיגמונטווו",
+      "normalizedQuote": "המל ך זיגמונ ט וו ו",
       "modelQuote": "המלךזיגמונטווו",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n39/mode/1up",
@@ -34,15 +34,50 @@
       "passageChecksum": "1a8ddf121fc524414dc01bce1b824ff2677e09dfb2a6f98e57d3f857f5b2d84f",
       "normalizedPassageChecksum": "22b4bc885b4847fa36e7aaa3148425f340488cd282c66c92114a0ca26373145a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_66dfb21cca29d0e6bd5c7674",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Sigismund III Vasa",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "context": "ruled that Jews could not join craft guilds"
+      },
+      "evidence": {
+        "passageId": "passage_c389a75d4892ad03c43acf8f",
+        "pageId": "page_nybc313875_0040",
+        "scanIndex": 40,
+        "leafNumber": 39,
+        "printedPage": null,
+        "passageCharStart": 353,
+        "passageCharEnd": 467,
+        "normalizedPassageCharStart": 353,
+        "normalizedPassageCharEnd": 467,
+        "pageCharStart": 1649,
+        "pageCharEnd": 1763,
+        "quote": "ב־ 20 ביול י 1629 הכרי ע המל ך זיגמונ ט וו ו\nשמטעמי ם דתיי ם אי ן היהודי ם יכולי ם להיו ת חבר י\nאגודו ת בעלי־מלאכה",
+        "normalizedQuote": "ב־ 20 ביול י 1629 הכרי ע המל ך זיגמונ ט וו ו\nשמטעמי ם דתיי ם אי ן היהודי ם יכולי ם להיו ת חבר י\nאגודו ת בעלי־מלאכה",
+        "modelQuote": "ב־20ביולי1629הכריעהמלךזיגמונטווו שמטעמיםדתייםאיןהיהודיםיכוליםלהיותחברי אגודותבעלי־מלאכה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n39/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "1a8ddf121fc524414dc01bce1b824ff2677e09dfb2a6f98e57d3f857f5b2d84f",
+        "normalizedPassageChecksum": "22b4bc885b4847fa36e7aaa3148425f340488cd282c66c92114a0ca26373145a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_00f77d8390841387b931728b",
+      "id": "mention_9b540113b113c74bf10079cb",
       "type": "Organization",
       "title": "Furriers' Guild",
       "relation": "Appears in same passage"

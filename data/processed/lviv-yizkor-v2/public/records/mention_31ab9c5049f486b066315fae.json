@@ -5,7 +5,7 @@
   "summary": "Rabbi, head of court, and leader of the Council of Four Lands; died in Lviv.",
   "originalName": "ר׳אברהם פישלבר׳צבי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 60,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 188,
       "passageCharEnd": 213,
-      "normalizedPassageCharStart": 140,
-      "normalizedPassageCharEnd": 158,
+      "normalizedPassageCharStart": 188,
+      "normalizedPassageCharEnd": 213,
       "pageCharStart": 188,
       "pageCharEnd": 213,
       "quote": "ר ׳ אברה ם\nפיש ל בר ׳ צבי",
-      "normalizedQuote": "ר׳אברהם פישלבר׳צבי",
+      "normalizedQuote": "ר ׳ אברה ם\nפיש ל בר ׳ צבי",
       "modelQuote": "ר׳אברהם פישלבר׳צבי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "0a62a21dd142e6f02ffa139cc8388646d415552dc670aaab642ea24f5e35eddb",
       "normalizedPassageChecksum": "d62723e4de7c935f592eb0d79d36669816564ef145c784dd0759ad195976d586",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_cb67c0fd9839f6b3e444d365",
+      "predicate": "Led By",
+      "subjectTitle": "Abraham Fishel son of Zvi",
+      "objectTitle": "Council of Four Lands",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1ec97a24f09f34cf9887b133",
+        "pageId": "page_nybc313875_0060",
+        "scanIndex": 60,
+        "leafNumber": 59,
+        "printedPage": null,
+        "passageCharStart": 216,
+        "passageCharEnd": 245,
+        "normalizedPassageCharStart": 216,
+        "normalizedPassageCharEnd": 245,
+        "pageCharStart": 216,
+        "pageCharEnd": 245,
+        "quote": "שהי ה אב״ ד ומנהי ג וע ד ד״ א",
+        "normalizedQuote": "שהי ה אב״ ד ומנהי ג וע ד ד״ א",
+        "modelQuote": "שהיהאב״דומנהיגועדד״א",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "0a62a21dd142e6f02ffa139cc8388646d415552dc670aaab642ea24f5e35eddb",
+        "normalizedPassageChecksum": "d62723e4de7c935f592eb0d79d36669816564ef145c784dd0759ad195976d586",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_76a993f1e94ea2adc95ef58c",
+      "type": "Organization",
+      "title": "Council of Four Lands",
+      "relation": "Led By"
+    },
     {
       "id": "mention_a161df591922074616a337fe",
       "type": "Person",

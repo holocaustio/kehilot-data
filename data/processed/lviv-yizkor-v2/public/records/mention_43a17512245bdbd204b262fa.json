@@ -5,7 +5,7 @@
   "summary": "A person identified as born in Lviv and associated with a Hebrew book.",
   "originalName": "פנחסאליהויילנה",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 184,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 537,
       "passageCharEnd": 594,
-      "normalizedPassageCharStart": 402,
-      "normalizedPassageCharEnd": 444,
+      "normalizedPassageCharStart": 537,
+      "normalizedPassageCharEnd": 594,
       "pageCharStart": 2320,
       "pageCharEnd": 2377,
       "quote": "ה ר ׳ פנח ס אליה ו יילנ ה\nבעמ״ ח ״ספר־הברית ״ ילי ד לבו ב",
-      "normalizedQuote": "הר׳פנחסאליהויילנה בעמ״ח״ספר־הברית״ילידלבוב",
+      "normalizedQuote": "ה ר ׳ פנח ס אליה ו יילנ ה\nבעמ״ ח ״ספר־הברית ״ ילי ד לבו ב",
       "modelQuote": "הר׳פנחסאליהויילנה בעמ״ח״ספר־הברית״ילידלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n183/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "0bff58e96749adb0fa097af771527493cc2df0a552f2b6cac845e82a5cf431e9",
       "normalizedPassageChecksum": "d07fd2203ae8bc1ed2f5be8b3708b01c9ea31339ed5e9e077fe409ca475bfa18",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_c68271b5325f122a875c9b9b",
+      "id": "claim_candidate_ab412cb4d349b920b31f9c7e",
       "predicate": "Born In",
       "subjectTitle": "Pinchas Elijah Weil",
       "objectTitle": "Lviv",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 921,
         "passageCharEnd": 944,
-        "normalizedPassageCharStart": 680,
-        "normalizedPassageCharEnd": 699,
+        "normalizedPassageCharStart": 921,
+        "normalizedPassageCharEnd": 944,
         "pageCharStart": 2704,
         "pageCharEnd": 2727,
         "quote": "פנחס־אליה ו נול ד בלבוב",
-        "normalizedQuote": "פנחס־אליהונולדבלבוב",
+        "normalizedQuote": "פנחס־אליה ו נול ד בלבוב",
         "modelQuote": "פנחס־אליהונולדבלבוב",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n183/mode/1up",
@@ -65,14 +65,14 @@
         "passageChecksum": "0bff58e96749adb0fa097af771527493cc2df0a552f2b6cac845e82a5cf431e9",
         "normalizedPassageChecksum": "d07fd2203ae8bc1ed2f5be8b3708b01c9ea31339ed5e9e077fe409ca475bfa18",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [
     {
-      "id": "event_candidate_f7481981c72daf1002ab7b72",
+      "id": "event_candidate_85c6d43e7263b5da89aec317",
       "type": "Birth",
       "title": "Birth of Pinchas Elijah Weil",
       "summary": "Pinchas Elijah Weil was born in Lviv.",
@@ -85,12 +85,12 @@
         "printedPage": null,
         "passageCharStart": 921,
         "passageCharEnd": 944,
-        "normalizedPassageCharStart": 680,
-        "normalizedPassageCharEnd": 699,
+        "normalizedPassageCharStart": 921,
+        "normalizedPassageCharEnd": 944,
         "pageCharStart": 2704,
         "pageCharEnd": 2727,
         "quote": "פנחס־אליה ו נול ד בלבוב",
-        "normalizedQuote": "פנחס־אליהונולדבלבוב",
+        "normalizedQuote": "פנחס־אליה ו נול ד בלבוב",
         "modelQuote": "פנחס־אליהונולדבלבוב",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n183/mode/1up",
@@ -98,20 +98,20 @@
         "passageChecksum": "0bff58e96749adb0fa097af771527493cc2df0a552f2b6cac845e82a5cf431e9",
         "normalizedPassageChecksum": "d07fd2203ae8bc1ed2f5be8b3708b01c9ea31339ed5e9e077fe409ca475bfa18",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Born In"
     },
     {
-      "id": "event_candidate_f7481981c72daf1002ab7b72",
+      "id": "event_candidate_85c6d43e7263b5da89aec317",
       "type": "Event",
       "title": "Birth of Pinchas Elijah Weil",
       "relation": "Participated In",
@@ -124,7 +124,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

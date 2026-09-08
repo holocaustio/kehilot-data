@@ -5,7 +5,7 @@
   "summary": "Rabbi identified as author of a religious work.",
   "originalName": "הרבר׳דודהלוי מלבוב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 69,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 274,
       "passageCharEnd": 305,
-      "normalizedPassageCharStart": 201,
-      "normalizedPassageCharEnd": 222,
+      "normalizedPassageCharStart": 274,
+      "normalizedPassageCharEnd": 305,
       "pageCharStart": 3108,
       "pageCharEnd": 3139,
       "quote": "מא ת הר ב ר ׳ דו ד הלו י\nמלבו ב",
-      "normalizedQuote": "מאתהרבר׳דודהלוי מלבוב",
+      "normalizedQuote": "מא ת הר ב ר ׳ דו ד הלו י\nמלבו ב",
       "modelQuote": "מאתהרבר׳דודהלוי מלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n68/mode/1up",
@@ -33,11 +33,44 @@
       "passageChecksum": "a52859209cff5a8dc906212eb038361dd58e0e114f1410049242101621c28e55",
       "normalizedPassageChecksum": "4a4314b476e77b55c5b2a984dc0d38373260e203dd7ac5bb352e5d47ab2a18ab",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_92661283496b12047be62766",
+      "predicate": "Associated With",
+      "subjectTitle": "Rabbi David Halevi of Lviv",
+      "objectTitle": "Lviv",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The phrase identifies him as being of Lviv, not necessarily residence.",
+      "evidence": {
+        "passageId": "passage_e332dad98c766ef452e6b521",
+        "pageId": "page_nybc313875_0069",
+        "scanIndex": 69,
+        "leafNumber": 68,
+        "printedPage": null,
+        "passageCharStart": 279,
+        "passageCharEnd": 305,
+        "normalizedPassageCharStart": 279,
+        "normalizedPassageCharEnd": 305,
+        "pageCharStart": 3113,
+        "pageCharEnd": 3139,
+        "quote": "הר ב ר ׳ דו ד הלו י\nמלבו ב",
+        "normalizedQuote": "הר ב ר ׳ דו ד הלו י\nמלבו ב",
+        "modelQuote": "הרבר׳דודהלוי מלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n68/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a52859209cff5a8dc906212eb038361dd58e0e114f1410049242101621c28e55",
+        "normalizedPassageChecksum": "4a4314b476e77b55c5b2a984dc0d38373260e203dd7ac5bb352e5d47ab2a18ab",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -47,19 +80,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_1b1b14ff48bb8beb4692d73e",
       "type": "Person",
       "title": "Yosef Shlomo son of Yeruham the Levite",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c08bb8deb6c292054cb87fcc",
+      "id": "mention_feb14564eae3e04dbb3762ae",
       "type": "Community",
       "title": "Jews of Lviv",
       "relation": "Appears in same passage"

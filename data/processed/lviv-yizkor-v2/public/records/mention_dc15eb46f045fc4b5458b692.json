@@ -5,7 +5,7 @@
   "summary": "The Jewish quarter stood near the city wall and suffered destruction.",
   "originalName": "ברובעהיהודי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 18,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1190,
       "passageCharEnd": 1210,
-      "normalizedPassageCharStart": 867,
-      "normalizedPassageCharEnd": 883,
+      "normalizedPassageCharStart": 1190,
+      "normalizedPassageCharEnd": 1210,
       "pageCharStart": 3914,
       "pageCharEnd": 3934,
       "quote": "הבתי ם ברוב ע היהודי",
-      "normalizedQuote": "הבתיםברובעהיהודי",
+      "normalizedQuote": "הבתי ם ברוב ע היהודי",
       "modelQuote": "הבתיםברובעהיהודי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n17/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "fb3c7fd9b40666f5eb2eaaa6b87de282f28a91d385c06db137456a5c34b190a2",
       "normalizedPassageChecksum": "6a247af5a8c7f8fdc5dca3c20c4324d0f1c422f39d185de7237e4a92ffd5a004",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 711,
       "passageCharEnd": 725,
-      "normalizedPassageCharStart": 537,
-      "normalizedPassageCharEnd": 550,
+      "normalizedPassageCharStart": 711,
+      "normalizedPassageCharEnd": 725,
       "pageCharStart": 3411,
       "pageCharEnd": 3425,
       "quote": "ל רובע־היהודים",
-      "normalizedQuote": "לרובע־היהודים",
+      "normalizedQuote": "ל רובע־היהודים",
       "modelQuote": "לרובע־היהודים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
@@ -57,21 +57,57 @@
       "passageChecksum": "88197bd6ecd8e96c5b023ce196eebd5ab415cf30713ae63e17601b6a1dc2b584",
       "normalizedPassageChecksum": "fb3e597214d8e88c1325f86ca36234130098d7b5a1321184b6629071f93a15bf",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_53a2383198ef647340eb3538",
+      "predicate": "Murdered At",
+      "subjectTitle": "Albert Usytsky",
+      "objectTitle": "Jewish quarter of Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "year": "1600",
+        "victim": "Aharon Kamkhan"
+      },
+      "evidence": {
+        "passageId": "passage_8cdf6b8fc9d7cc4599a03cce",
+        "pageId": "page_nybc313875_0051",
+        "scanIndex": 51,
+        "leafNumber": 50,
+        "printedPage": null,
+        "passageCharStart": 252,
+        "passageCharEnd": 311,
+        "normalizedPassageCharStart": 252,
+        "normalizedPassageCharEnd": 311,
+        "pageCharStart": 4254,
+        "pageCharEnd": 4313,
+        "quote": "התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד , אהר ן קמחן",
+        "normalizedQuote": "התפר ץ\nהקצי ן אלבר ט אוסיצק י והר ג יהוד י אחד , אהר ן קמחן",
+        "modelQuote": "התפרץ הקציןאלברטאוסיצקיוהרגיהודיאחד,אהרןקמחן",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "1fe642eeb9dfa3c88d378889250c3e5bc334e70c0663c0899a6509545ddf8b6a",
+        "normalizedPassageChecksum": "0205bf45bd91f6d283161e9bbff9830639605a931484460bcbbd4be65d51eeca",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_c08bb8deb6c292054cb87fcc",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Jews of Lviv",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -113,7 +149,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_8c8da62b7303c26206dcb3b0",
+      "type": "Person",
+      "title": "Albert Usytsky",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "mention_ab8f18d6a1ad23d9a48d1653",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
@@ -134,6 +176,12 @@
       "id": "mention_b779a90c040a3346462c5ade",
       "type": "Organization",
       "title": "Schools in Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_213ad355b77f4eb5f36c90d0",
+      "type": "Place",
+      "title": "Lviv",
       "relation": "Appears in same passage"
     }
   ],

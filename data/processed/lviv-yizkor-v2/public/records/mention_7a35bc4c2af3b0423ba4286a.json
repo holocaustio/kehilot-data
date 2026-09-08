@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 917,
       "passageCharEnd": 958,
-      "normalizedPassageCharStart": 662,
-      "normalizedPassageCharEnd": 695,
+      "normalizedPassageCharStart": 917,
+      "normalizedPassageCharEnd": 958,
       "pageCharStart": 2199,
       "pageCharEnd": 2240,
       "quote": "חבי ב קרומהולץ־כנע ן שפע ל בריכו ז\nהחומ ר",
-      "normalizedQuote": "חביבקרומהולץ־כנעןשפעלבריכוז החומר",
+      "normalizedQuote": "חבי ב קרומהולץ־כנע ן שפע ל בריכו ז\nהחומ ר",
       "modelQuote": "חביב קרומהולץ־כנען שפעל בריכוז החומר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n8/mode/1up",
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 649,
       "passageCharEnd": 668,
-      "normalizedPassageCharStart": 443,
-      "normalizedPassageCharEnd": 460,
+      "normalizedPassageCharStart": 649,
+      "normalizedPassageCharEnd": 668,
       "pageCharStart": 2943,
       "pageCharEnd": 2962,
       "quote": "חבי ב קרומהולץ־כנען",
-      "normalizedQuote": "חביבקרומהולץ־כנען",
+      "normalizedQuote": "חבי ב קרומהולץ־כנען",
       "modelQuote": "חביבקרומהולץ־כנען",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n8/mode/1up",
@@ -57,11 +57,46 @@
       "passageChecksum": "f8b52bd2bfddf048490f13131c8875a7c2067cea0ae65e804877b4766666cc3d",
       "normalizedPassageChecksum": "acbdc80b892aa4e8aad3660d11a422104343244e04577af1fee1c49ab84f6a23",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_a0ed40ff341d30979853eaf6",
+      "predicate": "Participated In",
+      "subjectTitle": "Haviv Kromholz-Canaan",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "coordinator of collected material"
+      },
+      "evidence": {
+        "passageId": "passage_e7a737035acbdfa5b7901ddd",
+        "pageId": "page_nybc313875_0009",
+        "scanIndex": 9,
+        "leafNumber": 8,
+        "printedPage": null,
+        "passageCharStart": 917,
+        "passageCharEnd": 958,
+        "normalizedPassageCharStart": 917,
+        "normalizedPassageCharEnd": 958,
+        "pageCharStart": 2199,
+        "pageCharEnd": 2240,
+        "quote": "חבי ב קרומהולץ־כנע ן שפע ל בריכו ז\nהחומ ר",
+        "normalizedQuote": "חבי ב קרומהולץ־כנע ן שפע ל בריכו ז\nהחומ ר",
+        "modelQuote": "חביב קרומהולץ־כנען שפעל בריכוז החומר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n8/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "931349d6540cc2aee475fc6f853faa5c71afd600ee8782c0de2014bbe3d62ecb",
+        "normalizedPassageChecksum": "75897f617312168ee5bc7925eec7b22be3aecf69a56c5ed11fcac6cde404cdcb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -115,7 +150,7 @@
     {
       "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -161,12 +196,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5dceaf804a54fc88f4e99593",
-      "type": "Place",
-      "title": "New York",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_656be29154f30cc187679230",
       "type": "Person",
       "title": "A. M. Tenenblat",
@@ -176,6 +205,12 @@
       "id": "mention_e2e45dd30786f5f2f99f9ae6",
       "type": "Person",
       "title": "Shalom Yedidya",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff9189fbaba1c41f4833a28a",
+      "type": "Person",
+      "title": "Y. Yaavetz",
       "relation": "Appears in same passage"
     }
   ],

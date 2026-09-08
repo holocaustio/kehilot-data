@@ -5,7 +5,7 @@
   "summary": "City in Austria identified as Dr. Robert Ulrich’s origin.",
   "originalName": "גראץ,אוסטריה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 313,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 838,
       "passageCharEnd": 853,
-      "normalizedPassageCharStart": 633,
-      "normalizedPassageCharEnd": 646,
+      "normalizedPassageCharStart": 838,
+      "normalizedPassageCharEnd": 853,
       "pageCharStart": 838,
       "pageCharEnd": 853,
       "quote": "מגראץ , אוסטריה",
-      "normalizedQuote": "מגראץ,אוסטריה",
+      "normalizedQuote": "מגראץ , אוסטריה",
       "modelQuote": "מגראץ,אוסטריה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n312/mode/1up",
@@ -33,14 +33,14 @@
       "passageChecksum": "6514fa8b13b0f2f9f88e09b0ad8bbe1874979bf555368ed35ad9c1e98901f590",
       "normalizedPassageChecksum": "d2977e2a6faa43950ae60933875762e5a2301b947235ce60f5fe4ec991a9f8e8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_df112429071dc38a035ab162",
-      "predicate": "From",
+      "id": "claim_candidate_91ce27148e7783b2f55d066a",
+      "predicate": "Originated In",
       "subjectTitle": "Dr. Robert Ulrich",
       "objectTitle": "Graz",
       "confidence": "MEDIUM",
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 818,
         "passageCharEnd": 853,
-        "normalizedPassageCharStart": 618,
-        "normalizedPassageCharEnd": 646,
+        "normalizedPassageCharStart": 818,
+        "normalizedPassageCharEnd": 853,
         "pageCharStart": 818,
         "pageCharEnd": 853,
         "quote": "ד״ ר רובר ט\nאולרי ך מגראץ , אוסטריה",
-        "normalizedQuote": "ד״ררוברט אולריךמגראץ,אוסטריה",
+        "normalizedQuote": "ד״ ר רובר ט\nאולרי ך מגראץ , אוסטריה",
         "modelQuote": "ד״ררוברט אולריךמגראץ,אוסטריה",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n312/mode/1up",
@@ -66,7 +66,7 @@
         "passageChecksum": "6514fa8b13b0f2f9f88e09b0ad8bbe1874979bf555368ed35ad9c1e98901f590",
         "normalizedPassageChecksum": "d2977e2a6faa43950ae60933875762e5a2301b947235ce60f5fe4ec991a9f8e8",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -77,7 +77,7 @@
       "id": "mention_40c7ddd326c124b38da8d7c3",
       "type": "Person",
       "title": "Dr. Robert Ulrich",
-      "relation": "From"
+      "relation": "Originated In"
     },
     {
       "id": "mention_8fa11cae0bf61f542ebde191",
@@ -119,12 +119,6 @@
       "id": "mention_aabd041f87131508d76a885e",
       "type": "Person",
       "title": "Dr. Haller",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_2fa82db46fb1f228b5695c9e",
-      "type": "Place",
-      "title": "Galicia",
       "relation": "Appears in same passage"
     },
     {

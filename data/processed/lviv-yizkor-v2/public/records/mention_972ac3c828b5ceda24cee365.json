@@ -5,7 +5,7 @@
   "summary": "Jewish wholesale merchant involved in a 1744 legal case.",
   "originalName": "שלם",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 73,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 473,
       "passageCharEnd": 490,
-      "normalizedPassageCharStart": 356,
-      "normalizedPassageCharEnd": 368,
+      "normalizedPassageCharStart": 473,
+      "normalizedPassageCharEnd": 490,
       "pageCharStart": 2922,
       "pageCharEnd": 2939,
       "quote": "דו ד השל ם ויצח ק",
-      "normalizedQuote": "דודהשלםויצחק",
+      "normalizedQuote": "דו ד השל ם ויצח ק",
       "modelQuote": "דודהשלםויצחק",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n72/mode/1up",
@@ -33,57 +33,15 @@
       "passageChecksum": "baf10245051a84bc0d116181292b2ccb7a3b44a320d0ba19d3419587a1c0709e",
       "normalizedPassageChecksum": "23722c9f0b4d0cb3b9600783323e35fdde68409c73c922ec305246cfe6101c5b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [
-    {
-      "id": "event_candidate_64333472c5d3eaae0ecb81dc",
-      "type": "Legal Proceeding",
-      "title": "Legal case involving Jewish wholesalers",
-      "summary": "In 1744, the city obtained a court decision against Jewish wholesalers Duda, Shalem, and Yitzhak concerning their textile stock and trade in Lviv.",
-      "dateStart": "1744",
-      "dateEnd": "1744",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The text describes litigation, but no allowed event type directly represents a legal case.",
-      "evidence": {
-        "passageId": "passage_6a50190691f74c92224dfc21",
-        "pageId": "page_nybc313875_0073",
-        "scanIndex": 73,
-        "leafNumber": 72,
-        "printedPage": null,
-        "passageCharStart": 411,
-        "passageCharEnd": 490,
-        "normalizedPassageCharStart": 307,
-        "normalizedPassageCharEnd": 368,
-        "pageCharStart": 2860,
-        "pageCharEnd": 2939,
-        "quote": "ובשנ ת 1744\nהשיג ה העיריה , במשפט ה נג ד הסיטונא־־ ם היהודי ם\nדו ד השל ם ויצח ק",
-        "normalizedQuote": "ובשנת1744 השיגההעיריה,במשפטהנגדהסיטונא־־םהיהודים דודהשלםויצחק",
-        "modelQuote": "ובשנת1744 השיגההעיריה,במשפטהנגדהסיטונא־־םהיהודים דודהשלםויצחק",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n72/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "baf10245051a84bc0d116181292b2ccb7a3b44a320d0ba19d3419587a1c0709e",
-        "normalizedPassageChecksum": "23722c9f0b4d0cb3b9600783323e35fdde68409c73c922ec305246cfe6101c5b",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "events": [],
   "connections": [
     {
-      "id": "event_candidate_64333472c5d3eaae0ecb81dc",
-      "type": "Event",
-      "title": "Legal case involving Jewish wholesalers",
-      "relation": "Participated In",
-      "role": "Participant"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -101,15 +59,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ff078c16fe314afc974e8200",
+      "id": "mention_ff93701c70e4d37c6fc363b1",
       "type": "Place",
       "title": "Brody",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -119,7 +77,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7bea81e41dc62b87440a4ca2",
+      "id": "mention_fa7ac32c6ac3696604ce9c15",
       "type": "Place",
       "title": "Ukraine",
       "relation": "Appears in same passage"

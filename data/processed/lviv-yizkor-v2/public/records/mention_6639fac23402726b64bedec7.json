@@ -5,7 +5,7 @@
   "summary": "Lawyer who helped prepare and translate the petition into German.",
   "originalName": "ד״רזיאמיאלקובסקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 128,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 296,
       "passageCharEnd": 338,
-      "normalizedPassageCharStart": 224,
-      "normalizedPassageCharEnd": 256,
+      "normalizedPassageCharStart": 296,
+      "normalizedPassageCharEnd": 338,
       "pageCharStart": 296,
       "pageCharEnd": 338,
       "quote": "נעש ה ע״ י עורכ י הדי ן ד״ ר זיאמיאלקובסקי",
-      "normalizedQuote": "נעשהע״יעורכיהדיןד״רזיאמיאלקובסקי",
+      "normalizedQuote": "נעש ה ע״ י עורכ י הדי ן ד״ ר זיאמיאלקובסקי",
       "modelQuote": "נעשהע״יעורכיהדיןד״רזיאמיאלקובסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n127/mode/1up",
@@ -34,37 +34,55 @@
       "passageChecksum": "5c01d7f125cbe39db9158c781f5c4a3944ba4988d9bd02211d3017023eb29ffa",
       "normalizedPassageChecksum": "c5e34a6b4cab072ff0a94fa360c877b12deaef4f8661c0c22263f671e3b31365",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
-      "alignmentScore": 1
-    },
-    {
-      "passageId": "passage_b6087f59b166c55ebec0afde",
-      "pageId": "page_nybc313875_0133",
-      "scanIndex": 133,
-      "leafNumber": 132,
-      "printedPage": null,
-      "passageCharStart": 521,
-      "passageCharEnd": 539,
-      "normalizedPassageCharStart": 394,
-      "normalizedPassageCharEnd": 410,
-      "pageCharStart": 1791,
-      "pageCharEnd": 1809,
-      "quote": "ד״ ר זיאמיאלקובסקי",
-      "normalizedQuote": "ד״רזיאמיאלקובסקי",
-      "modelQuote": "ד״רזיאמיאלקובסקי",
-      "bbox": null,
-      "scanUrl": "https://archive.org/details/nybc313875/page/n132/mode/1up",
-      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-      "passageChecksum": "bb2ce10978058f61cae35d0908b4b8f67a1cbe0c67035d289b77df61f4038b28",
-      "normalizedPassageChecksum": "88c97f5dcd57cd232713566b724fd24b829dc82ebc63f0a4128fcf50525fec40",
-      "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_48d68138dba3e6f249c86b35",
+      "predicate": "Worked At",
+      "subjectTitle": "Abraham Cohen",
+      "objectTitle": "Dr. Zemialkowski",
+      "confidence": "HIGH",
+      "uncertaintyNote": "This is joint work, not employment; no more specific controlled predicate is available.",
+      "qualifiers": {
+        "context": "prepared and translated the petition into German"
+      },
+      "evidence": {
+        "passageId": "passage_6013efb8656eda0faa70801d",
+        "pageId": "page_nybc313875_0128",
+        "scanIndex": 128,
+        "leafNumber": 127,
+        "printedPage": null,
+        "passageCharStart": 257,
+        "passageCharEnd": 382,
+        "normalizedPassageCharStart": 257,
+        "normalizedPassageCharEnd": 382,
+        "pageCharStart": 257,
+        "pageCharEnd": 382,
+        "quote": "העיבו ד והתרגו ם ש ל הסטיצי ה\nלגרמני ת נעש ה ע״ י עורכ י הדי ן ד״ ר זיאמיאלקובסקי ,\nד״ ר אלכסנד ר סינקובסק י והר ב אברה ם כהן",
+        "normalizedQuote": "העיבו ד והתרגו ם ש ל הסטיצי ה\nלגרמני ת נעש ה ע״ י עורכ י הדי ן ד״ ר זיאמיאלקובסקי ,\nד״ ר אלכסנד ר סינקובסק י והר ב אברה ם כהן",
+        "modelQuote": "העיבודוהתרגוםשלהסטיציה לגרמניתנעשהע״יעורכיהדיןד״רזיאמיאלקובסקי, ד״ראלכסנדרסינקובסקיוהרבאברהםכהן",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n127/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "5c01d7f125cbe39db9158c781f5c4a3944ba4988d9bd02211d3017023eb29ffa",
+        "normalizedPassageChecksum": "c5e34a6b4cab072ff0a94fa360c877b12deaef4f8661c0c22263f671e3b31365",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_b93c1de0cd71d0271adebe01",
+      "type": "Person",
+      "title": "Abraham Cohen",
+      "relation": "Worked At"
+    },
     {
       "id": "mention_ac5033544a3781655b4133d9",
       "type": "Person",
@@ -96,27 +114,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8dafe52177c2811dc62face1",
-      "type": "Person",
-      "title": "Dr. Smolka",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_92b0fd1a75040548b447143a",
-      "type": "Community",
-      "title": "Jews of Galicia",
       "relation": "Appears in same passage"
     }
   ],

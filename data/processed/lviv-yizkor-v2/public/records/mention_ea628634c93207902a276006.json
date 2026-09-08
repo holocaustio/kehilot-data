@@ -5,7 +5,7 @@
   "summary": "Judge and community official for more than twenty years.",
   "originalName": "ר׳אריהיהודהליב",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 181,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 676,
       "passageCharEnd": 697,
-      "normalizedPassageCharStart": 463,
-      "normalizedPassageCharEnd": 477,
+      "normalizedPassageCharStart": 676,
+      "normalizedPassageCharEnd": 697,
       "pageCharStart": 2935,
       "pageCharEnd": 2956,
       "quote": "ר ׳ ארי ה יהוד ה לי ב",
-      "normalizedQuote": "ר׳אריהיהודהליב",
+      "normalizedQuote": "ר ׳ ארי ה יהוד ה לי ב",
       "modelQuote": "ר׳אריהיהודהליב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n180/mode/1up",
@@ -33,13 +33,94 @@
       "passageChecksum": "314521264a81b12ca75638286df885eeeb3bfe7867b6ada943b7abe2383b6f6e",
       "normalizedPassageChecksum": "4db9663d54236a0f10c174cbac67f7d557f2dd539b7e170f79bdc975280f0d0d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_d0f7166a530e06f4dd719f73",
+      "predicate": "Member Of",
+      "subjectTitle": "Aryeh Yehudah",
+      "objectTitle": "Lviv Jewish community",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "judge and community official"
+      },
+      "evidence": {
+        "passageId": "passage_296a4807b09eafc422363f88",
+        "pageId": "page_nybc313875_0181",
+        "scanIndex": 181,
+        "leafNumber": 180,
+        "printedPage": null,
+        "passageCharStart": 739,
+        "passageCharEnd": 760,
+        "normalizedPassageCharStart": 739,
+        "normalizedPassageCharEnd": 760,
+        "pageCharStart": 2998,
+        "pageCharEnd": 3019,
+        "quote": "הי ה דיי ן בבית־הדי ן",
+        "normalizedQuote": "הי ה דיי ן בבית־הדי ן",
+        "modelQuote": "היהדייןבבית־הדין",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n180/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "314521264a81b12ca75638286df885eeeb3bfe7867b6ada943b7abe2383b6f6e",
+        "normalizedPassageChecksum": "4db9663d54236a0f10c174cbac67f7d557f2dd539b7e170f79bdc975280f0d0d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_3e11003cef0647044eafe796",
+      "type": "Employment",
+      "title": "Appointment to additional community post",
+      "summary": "Aryeh Yehudah was appointed to assess community members’ incomes in 1763.",
+      "dateStart": "1763",
+      "confidence": "MEDIUM",
+      "evidence": {
+        "passageId": "passage_296a4807b09eafc422363f88",
+        "pageId": "page_nybc313875_0181",
+        "scanIndex": 181,
+        "leafNumber": 180,
+        "printedPage": null,
+        "passageCharStart": 831,
+        "passageCharEnd": 891,
+        "normalizedPassageCharStart": 831,
+        "normalizedPassageCharEnd": 891,
+        "pageCharStart": 3090,
+        "pageCharEnd": 3150,
+        "quote": "בשנ ת 1763 נתמנ ה ע״ י השופ ט אורלובסק י\nלשמא י נוס ף לקהל ה",
+        "normalizedQuote": "בשנ ת 1763 נתמנ ה ע״ י השופ ט אורלובסק י\nלשמא י נוס ף לקהל ה",
+        "modelQuote": "בשנת1763נתמנהע״יהשופטאורלובסקילשמאינוסףלקהלה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n180/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "314521264a81b12ca75638286df885eeeb3bfe7867b6ada943b7abe2383b6f6e",
+        "normalizedPassageChecksum": "4db9663d54236a0f10c174cbac67f7d557f2dd539b7e170f79bdc975280f0d0d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_3e11003cef0647044eafe796",
+      "type": "Event",
+      "title": "Appointment to additional community post",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
     {
       "id": "mention_26b21980aaacba3d6501dd09",
       "type": "Person",
@@ -92,12 +173,6 @@
       "id": "mention_5e32d4723ee827ef13161a9d",
       "type": "Person",
       "title": "Judge Orlovsky",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3ca5cb1e76bdcf46a2081c5a",
-      "type": "Place",
-      "title": "Inside the city",
       "relation": "Appears in same passage"
     },
     {

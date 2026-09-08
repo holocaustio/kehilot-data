@@ -5,7 +5,7 @@
   "summary": "The municipal bathhouse was included among properties discussed for transfer.",
   "originalName": "המרחץהעירוני",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 34,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 487,
       "passageCharEnd": 501,
-      "normalizedPassageCharStart": 360,
-      "normalizedPassageCharEnd": 372,
+      "normalizedPassageCharStart": 487,
+      "normalizedPassageCharEnd": 501,
       "pageCharStart": 2594,
       "pageCharEnd": 2608,
       "quote": "המרח ץ העירוני",
-      "normalizedQuote": "המרחץהעירוני",
+      "normalizedQuote": "המרח ץ העירוני",
       "modelQuote": "המרחץהעירוני",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n33/mode/1up",
@@ -33,13 +33,52 @@
       "passageChecksum": "316462d4e28d580885ae4f955006bf0f622e3a380dbbfd7d27faecc7536b1906",
       "normalizedPassageChecksum": "84977bc7f873331187773dafae467b1cd851b37785f5022d479a3f40c9094ee9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_8fa25632850b876ecaf04494",
+      "predicate": "Located In",
+      "subjectTitle": "Municipal Bathhouse",
+      "objectTitle": "Jews of Lviv",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text explicitly associates the bathhouse with the Jewish area, not necessarily the community as an institution.",
+      "evidence": {
+        "passageId": "passage_a057485fbacfd034422ff5e1",
+        "pageId": "page_nybc313875_0034",
+        "scanIndex": 34,
+        "leafNumber": 33,
+        "printedPage": null,
+        "passageCharStart": 441,
+        "passageCharEnd": 501,
+        "normalizedPassageCharStart": 441,
+        "normalizedPassageCharEnd": 501,
+        "pageCharStart": 2548,
+        "pageCharEnd": 2608,
+        "quote": "והמגרשי ם בשט ח היהוד י : בית ־\nהכנס ת היש ן והמרח ץ העירוני",
+        "normalizedQuote": "והמגרשי ם בשט ח היהוד י : בית ־\nהכנס ת היש ן והמרח ץ העירוני",
+        "modelQuote": "והמגרשיםבשטחהיהודי:בית־הכנסתהישןוהמרחץהעירוני",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n33/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "316462d4e28d580885ae4f955006bf0f622e3a380dbbfd7d27faecc7536b1906",
+        "normalizedPassageChecksum": "84977bc7f873331187773dafae467b1cd851b37785f5022d479a3f40c9094ee9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_feb14564eae3e04dbb3762ae",
+      "type": "Community",
+      "title": "Jews of Lviv",
+      "relation": "Located In"
+    },
     {
       "id": "mention_dde61ce9a1c325e5b464255c",
       "type": "Place",
@@ -65,7 +104,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c08bb8deb6c292054cb87fcc",
+      "id": "mention_feb14564eae3e04dbb3762ae",
       "type": "Community",
       "title": "Jews of Lviv",
       "relation": "Appears in same passage"

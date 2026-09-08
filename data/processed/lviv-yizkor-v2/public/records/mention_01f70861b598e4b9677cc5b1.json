@@ -5,7 +5,7 @@
   "summary": "Head of the Schupo represented on the screening committee.",
   "originalName": "ד״ר אולרייך",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 321,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 227,
       "passageCharEnd": 255,
-      "normalizedPassageCharStart": 179,
-      "normalizedPassageCharEnd": 201,
+      "normalizedPassageCharStart": 227,
+      "normalizedPassageCharEnd": 255,
       "pageCharStart": 2826,
       "pageCharEnd": 2854,
       "quote": "רא ש ה״שופו ״ — ד״ ר\nאולרייך",
-      "normalizedQuote": "ראשה״שופו״—ד״ר אולרייך",
+      "normalizedQuote": "רא ש ה״שופו ״ — ד״ ר\nאולרייך",
       "modelQuote": "ראשה״שופו״—ד״ר אולרייך",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n320/mode/1up",
@@ -34,13 +34,52 @@
       "passageChecksum": "6aea45de44806dd9b2ff2bd04f895c6ac94a7bf7e2e995a4fcd805d4348b46ca",
       "normalizedPassageChecksum": "d18c193a668e6e105dfc9b38a80652c415aec5257ea4ab3e4bfff12db997a688",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_6857738736d802446a5c813b",
+      "predicate": "Member Of",
+      "subjectTitle": "Dr. Ullreich",
+      "objectTitle": "Jewish Council",
+      "confidence": "HIGH",
+      "uncertaintyNote": "This claim refers to committee participation, not Jewish Council membership.",
+      "evidence": {
+        "passageId": "passage_11577f51bc05349c79102ad2",
+        "pageId": "page_nybc313875_0321",
+        "scanIndex": 321,
+        "leafNumber": 320,
+        "printedPage": null,
+        "passageCharStart": 199,
+        "passageCharEnd": 256,
+        "normalizedPassageCharStart": 199,
+        "normalizedPassageCharEnd": 256,
+        "pageCharStart": 2798,
+        "pageCharEnd": 2855,
+        "quote": "בהשתתפו ת באי־כו ה הבולש ת (רא ש ה״שופו ״ — ד״ ר\nאולרייך)",
+        "normalizedQuote": "בהשתתפו ת באי־כו ה הבולש ת (רא ש ה״שופו ״ — ד״ ר\nאולרייך)",
+        "modelQuote": "בהשתתפותבאי־כוההבולשת(ראשה״שופו״—ד״ר אולרייך)",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n320/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "6aea45de44806dd9b2ff2bd04f895c6ac94a7bf7e2e995a4fcd805d4348b46ca",
+        "normalizedPassageChecksum": "d18c193a668e6e105dfc9b38a80652c415aec5257ea4ab3e4bfff12db997a688",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_76a9da7596d1ce025695ea2b",
+      "type": "Institution",
+      "title": "Jewish Council",
+      "relation": "Member Of"
+    },
     {
       "id": "mention_a7a7592c1725a1ba71145e25",
       "type": "Institution",
@@ -51,12 +90,6 @@
       "id": "mention_78c9a9d60de4559cc2422abc",
       "type": "Place",
       "title": "Zamarstynovska Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_1cc8eaff85099aadbab30de6",
-      "type": "Person",
-      "title": "Seidenfreud",
       "relation": "Appears in same passage"
     },
     {

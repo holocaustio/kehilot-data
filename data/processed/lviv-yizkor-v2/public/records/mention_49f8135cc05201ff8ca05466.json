@@ -5,7 +5,7 @@
   "summary": "Polish legions that Bark Yoselevitz later joined in the French army.",
   "originalName": "לגיונותהפולניםשלדומברובסקי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 94,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 616,
       "passageCharEnd": 657,
-      "normalizedPassageCharStart": 449,
-      "normalizedPassageCharEnd": 481,
+      "normalizedPassageCharStart": 616,
+      "normalizedPassageCharEnd": 657,
       "pageCharStart": 3831,
       "pageCharEnd": 3872,
       "quote": "הצטר ף ללגיונו ת הפולני ם ש ל דומברובסק י",
-      "normalizedQuote": "הצטרףללגיונותהפולניםשלדומברובסקי",
+      "normalizedQuote": "הצטר ף ללגיונו ת הפולני ם ש ל דומברובסק י",
       "modelQuote": "הצטרףללגיונותהפולניםשלדומברובסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n93/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "1d911895f0fc07b1bbb3bc25159f9d9f4f579c63c9205957f4c79075481049fd",
       "normalizedPassageChecksum": "e18027c4e94228c5ebcba3d4b48a72ac4163c3385ea0aa69788b131bf76902fc",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c575ca887ab2855b0cb2dc76",
+      "predicate": "Member Of",
+      "subjectTitle": "Bark Yoselevitz",
+      "objectTitle": "Dąbrowski’s Polish Legions",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_44d2b95fb3dd874f7cbea4a2",
+        "pageId": "page_nybc313875_0094",
+        "scanIndex": 94,
+        "leafNumber": 93,
+        "printedPage": null,
+        "passageCharStart": 616,
+        "passageCharEnd": 657,
+        "normalizedPassageCharStart": 616,
+        "normalizedPassageCharEnd": 657,
+        "pageCharStart": 3831,
+        "pageCharEnd": 3872,
+        "quote": "הצטר ף ללגיונו ת הפולני ם ש ל דומברובסק י",
+        "normalizedQuote": "הצטר ף ללגיונו ת הפולני ם ש ל דומברובסק י",
+        "modelQuote": "הצטרףללגיונותהפולניםשלדומברובסקי",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n93/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "1d911895f0fc07b1bbb3bc25159f9d9f4f579c63c9205957f4c79075481049fd",
+        "normalizedPassageChecksum": "e18027c4e94228c5ebcba3d4b48a72ac4163c3385ea0aa69788b131bf76902fc",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_55cfdd9d3141b52a9894f662",
+      "type": "Person",
+      "title": "Bark Yoselevitz",
+      "relation": "Member Of"
+    },
     {
       "id": "mention_aab8324f9945b6353168b937",
       "type": "Person",
@@ -47,7 +85,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

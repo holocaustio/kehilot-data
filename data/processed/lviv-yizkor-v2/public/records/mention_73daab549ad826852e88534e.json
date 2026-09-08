@@ -5,7 +5,7 @@
   "summary": "A kloyz trustee and owner of a known honey-wine factory.",
   "originalName": "ר׳מיכללעוו",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 231,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 919,
       "passageCharEnd": 933,
-      "normalizedPassageCharStart": 662,
-      "normalizedPassageCharEnd": 672,
+      "normalizedPassageCharStart": 919,
+      "normalizedPassageCharEnd": 933,
       "pageCharStart": 3541,
       "pageCharEnd": 3555,
       "quote": "ר ׳ מיכ ל לעוו",
-      "normalizedQuote": "ר׳מיכללעוו",
+      "normalizedQuote": "ר ׳ מיכ ל לעוו",
       "modelQuote": "ר׳מיכללעוו",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n230/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "d06abeacdb94c80a57747b57023bcac52458a99ca63f5b83db9fa77960b296c2",
       "normalizedPassageChecksum": "631ef315ac52e47f5865ba96cb871fbe7519093119e818b234aa31fca4478c30",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_6d7468fee9532052e8c0ea43",
+      "id": "claim_candidate_14cd5d4ff9077e37017c36da",
       "predicate": "Owned",
       "subjectTitle": "Michael Lew",
       "objectTitle": "Honey-Wine Factory",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 936,
         "passageCharEnd": 969,
-        "normalizedPassageCharStart": 673,
-        "normalizedPassageCharEnd": 699,
+        "normalizedPassageCharStart": 936,
+        "normalizedPassageCharEnd": 969,
         "pageCharStart": 3558,
         "pageCharEnd": 3591,
         "quote": "בע ל\nביח״ ר למי־דב ש (מעד ) הידוע",
-        "normalizedQuote": "בעל ביח״רלמי־דבש(מעד)הידוע",
+        "normalizedQuote": "בע ל\nביח״ ר למי־דב ש (מעד ) הידוע",
         "modelQuote": "בעל ביח״רלמי־דבש(מעד)הידוע",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n230/mode/1up",
@@ -65,7 +65,7 @@
         "passageChecksum": "d06abeacdb94c80a57747b57023bcac52458a99ca63f5b83db9fa77960b296c2",
         "normalizedPassageChecksum": "631ef315ac52e47f5865ba96cb871fbe7519093119e818b234aa31fca4478c30",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -77,12 +77,6 @@
       "type": "Business",
       "title": "Honey-Wine Factory",
       "relation": "Owned"
-    },
-    {
-      "id": "mention_3b7b49471832ed0d0df45892",
-      "type": "Community",
-      "title": "Znyshynia",
-      "relation": "Appears in same passage"
     },
     {
       "id": "mention_763a361752ff981c9156a60a",
@@ -139,15 +133,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_558feccfde4626ed14bb7c23",
-      "type": "Place",
-      "title": "Bnei Brak",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_d24fefb0e8ba51fad8a607b2",
       "type": "Person",
       "title": "Mattathias Weintraub",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5382ea166322be7c12883a9b",
+      "type": "Institution",
+      "title": "Great Study House in Znyshynia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6c1961e61456361ed5e306da",
+      "type": "Person",
+      "title": "Hugo Ulrich",
       "relation": "Appears in same passage"
     }
   ],

@@ -5,7 +5,7 @@
   "summary": "A person from Lviv.",
   "originalName": "איגנציקארגר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 187,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 469,
       "passageCharEnd": 490,
-      "normalizedPassageCharStart": 347,
-      "normalizedPassageCharEnd": 365,
+      "normalizedPassageCharStart": 469,
+      "normalizedPassageCharEnd": 490,
       "pageCharStart": 4077,
       "pageCharEnd": 4098,
       "quote": "איגנצ י קארגר ,\nמלבוב",
-      "normalizedQuote": "איגנציקארגר, מלבוב",
+      "normalizedQuote": "איגנצ י קארגר ,\nמלבוב",
       "modelQuote": "איגנציקארגר, מלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n186/mode/1up",
@@ -32,51 +32,18 @@
       "passageChecksum": "5b9305b6be02c3ed1909a639856534a0825820089204f2d502f355359376044a",
       "normalizedPassageChecksum": "4aec25ffa1b3cf0d8912138d5800c48bef682ba107e79c9ff06c42d43ea31f97",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_7c5987d273db76c7705ad946",
-      "predicate": "Originated In",
-      "subjectTitle": "Ignatz Karger",
-      "objectTitle": "Lviv",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The phrase indicates association with Lviv, not necessarily residence.",
-      "evidence": {
-        "passageId": "passage_397ad3a1fdc8eeccab1f4145",
-        "pageId": "page_nybc313875_0187",
-        "scanIndex": 187,
-        "leafNumber": 186,
-        "printedPage": null,
-        "passageCharStart": 412,
-        "passageCharEnd": 418,
-        "normalizedPassageCharStart": 306,
-        "normalizedPassageCharEnd": 311,
-        "pageCharStart": 4020,
-        "pageCharEnd": 4026,
-        "quote": "מלבו ב",
-        "normalizedQuote": "מלבוב",
-        "modelQuote": "מלבוב",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n186/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "5b9305b6be02c3ed1909a639856534a0825820089204f2d502f355359376044a",
-        "normalizedPassageChecksum": "4aec25ffa1b3cf0d8912138d5800c48bef682ba107e79c9ff06c42d43ea31f97",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
-      "relation": "Originated In"
+      "relation": "From"
     },
     {
       "id": "mention_538c91bddc88f54a0f37a96f",
@@ -109,7 +76,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ff078c16fe314afc974e8200",
+      "id": "mention_ff93701c70e4d37c6fc363b1",
       "type": "Place",
       "title": "Brody",
       "relation": "Appears in same passage"

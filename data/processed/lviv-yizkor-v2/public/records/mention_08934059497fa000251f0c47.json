@@ -5,7 +5,7 @@
   "summary": "Scholar who co-founded the Institute of Jewish Studies with Balaban.",
   "originalName": "מרדכיברוידא",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 281,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 986,
       "passageCharEnd": 1004,
-      "normalizedPassageCharStart": 733,
-      "normalizedPassageCharEnd": 748,
+      "normalizedPassageCharStart": 986,
+      "normalizedPassageCharEnd": 1004,
       "pageCharStart": 986,
       "pageCharEnd": 1004,
       "quote": "ד״ ר\nמרדכ י ברוידא",
-      "normalizedQuote": "ד״ר מרדכיברוידא",
+      "normalizedQuote": "ד״ ר\nמרדכ י ברוידא",
       "modelQuote": "ד״ר מרדכיברוידא",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n280/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "73220ba567a820260b11b7703b00924311fc7f5c591b703a89a8a4e36060319f",
       "normalizedPassageChecksum": "ec566d94ad1e045a23549fc683ff300b3a9e1c4fdad933e858bbbd5ff5bbcdf2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_ca2ef8d0ba8d63d48d5a6784",
+      "type": "Organization Founding",
+      "title": "Institute of Jewish Studies founded",
+      "summary": "Balaban, Moses Schorr, and Mordecai Brauda founded the institute in 1928.",
+      "dateStart": "1928",
+      "dateEnd": "1928",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7fb032196b2fd3220c5b7bf8",
+        "pageId": "page_nybc313875_0281",
+        "scanIndex": 281,
+        "leafNumber": 280,
+        "printedPage": null,
+        "passageCharStart": 1007,
+        "passageCharEnd": 1048,
+        "normalizedPassageCharStart": 1007,
+        "normalizedPassageCharEnd": 1048,
+        "pageCharStart": 1007,
+        "pageCharEnd": 1048,
+        "quote": "הקי ם בשנ ת 1928 א ת המכו ן לחכמת ־\nישראל",
+        "normalizedQuote": "הקי ם בשנ ת 1928 א ת המכו ן לחכמת ־\nישראל",
+        "modelQuote": "הקיםבשנת1928אתהמכוןלחכמת־ ישראל",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n280/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "73220ba567a820260b11b7703b00924311fc7f5c591b703a89a8a4e36060319f",
+        "normalizedPassageChecksum": "ec566d94ad1e045a23549fc683ff300b3a9e1c4fdad933e858bbbd5ff5bbcdf2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_ca2ef8d0ba8d63d48d5a6784",
+      "type": "Event",
+      "title": "Institute of Jewish Studies founded",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
     {
       "id": "mention_dd9b83d21fc1322ab0572054",
       "type": "Person",
@@ -47,27 +88,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2fa82db46fb1f228b5695c9e",
+      "id": "mention_14d65ca16fc8565199af0187",
       "type": "Place",
       "title": "Galicia",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e3d1df84d4f203128952be27",
-      "type": "Place",
-      "title": "Berlin",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b8c02acc25238650e4259b70",
-      "type": "Place",
-      "title": "Breslau",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_88ae0af60983559d43031f79",
-      "type": "Place",
-      "title": "Vienna",
       "relation": "Appears in same passage"
     },
     {
@@ -80,12 +103,6 @@
       "id": "mention_ac52e9a327d1dfee3fdd10aa",
       "type": "Place",
       "title": "Częstochowa",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a6aa6e9d023950ad2f7d220e",
-      "type": "Place",
-      "title": "Warsaw",
       "relation": "Appears in same passage"
     },
     {
@@ -110,6 +127,12 @@
       "id": "mention_39d3782ad0224ca7d93bb814",
       "type": "Person",
       "title": "Moses Schorr",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7dae0cbd260c3065945616f0",
+      "type": "Institution",
+      "title": "Institute of Jewish Studies",
       "relation": "Appears in same passage"
     }
   ],

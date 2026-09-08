@@ -5,7 +5,7 @@
   "summary": "Dr. M. Korczuk is identified as a medical supervisor of the hospital.",
   "originalName": "ד״רמ.קורצרוק׳",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 360,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 96,
       "passageCharEnd": 120,
-      "normalizedPassageCharStart": 74,
-      "normalizedPassageCharEnd": 91,
+      "normalizedPassageCharStart": 96,
+      "normalizedPassageCharEnd": 120,
       "pageCharStart": 96,
       "pageCharEnd": 120,
       "quote": "ביד י ד״ ר מ . קורצרוק ׳",
-      "normalizedQuote": "בידיד״רמ.קורצרוק׳",
+      "normalizedQuote": "ביד י ד״ ר מ . קורצרוק ׳",
       "modelQuote": "בידיד״רמ.קורצרוק׳",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n359/mode/1up",
@@ -34,13 +34,13 @@
       "passageChecksum": "d59aab2763942546a9a28e88b147554ef52971359dfc542bb4d3cc7b5e2c4969",
       "normalizedPassageChecksum": "e7ae5e00dbd29585dca57e038c4f3ea2e93ac5f6697c25682f02ab140dcbc9a2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_2960a9cef1b4f240365abbb3",
+      "id": "claim_candidate_e5eed5852c4f4825708296da",
       "predicate": "Worked At",
       "subjectTitle": "Dr. M. Korczuk",
       "objectTitle": "The hospital",
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 55,
         "passageCharEnd": 120,
-        "normalizedPassageCharStart": 44,
-        "normalizedPassageCharEnd": 91,
+        "normalizedPassageCharStart": 55,
+        "normalizedPassageCharEnd": 120,
         "pageCharStart": 55,
         "pageCharEnd": 120,
         "quote": "ההשגח ה הרפואי ת ע ל בית ־\nהחולי ם הית ה ביד י ד״ ר מ . קורצרוק ׳",
-        "normalizedQuote": "ההשגחההרפואיתעלבית־ החוליםהיתהבידיד״רמ.קורצרוק׳",
+        "normalizedQuote": "ההשגח ה הרפואי ת ע ל בית ־\nהחולי ם הית ה ביד י ד״ ר מ . קורצרוק ׳",
         "modelQuote": "ההשגחההרפואיתעלבית־ החוליםהיתהבידיד״רמ.קורצרוק׳",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n359/mode/1up",
@@ -66,18 +66,58 @@
         "passageChecksum": "d59aab2763942546a9a28e88b147554ef52971359dfc542bb4d3cc7b5e2c4969",
         "normalizedPassageChecksum": "e7ae5e00dbd29585dca57e038c4f3ea2e93ac5f6697c25682f02ab140dcbc9a2",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_82a0cab6ae29e956571d4f0d",
+      "type": "Employment",
+      "title": "Medical supervision of the hospital",
+      "summary": "Dr. M. Korczuk and later Dr. Z. Rapaport supervised the hospital medically.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The enum lacks a medical-supervisor role; participants are represented as employers only provisionally.",
+      "evidence": {
+        "passageId": "passage_63c9168176645a0dc113b65a",
+        "pageId": "page_nybc313875_0360",
+        "scanIndex": 360,
+        "leafNumber": 359,
+        "printedPage": null,
+        "passageCharStart": 55,
+        "passageCharEnd": 155,
+        "normalizedPassageCharStart": 55,
+        "normalizedPassageCharEnd": 155,
+        "pageCharStart": 55,
+        "pageCharEnd": 155,
+        "quote": "ההשגח ה הרפואי ת ע ל בית ־\nהחולי ם הית ה ביד י ד״ ר מ . קורצרוק ׳ ואחר־כ ך\n— ביד י ד״ ר ז . ראפאפורט",
+        "normalizedQuote": "ההשגח ה הרפואי ת ע ל בית ־\nהחולי ם הית ה ביד י ד״ ר מ . קורצרוק ׳ ואחר־כ ך\n— ביד י ד״ ר ז . ראפאפורט",
+        "modelQuote": "ההשגחההרפואיתעלבית־ החוליםהיתהבידיד״רמ.קורצרוק׳ואחר־כך —בידיד״רז.ראפאפורט",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n359/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d59aab2763942546a9a28e88b147554ef52971359dfc542bb4d3cc7b5e2c4969",
+        "normalizedPassageChecksum": "e7ae5e00dbd29585dca57e038c4f3ea2e93ac5f6697c25682f02ab140dcbc9a2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_62669b7a5980e72e44880611",
       "type": "Institution",
       "title": "The hospital",
       "relation": "Worked At"
+    },
+    {
+      "id": "event_candidate_82a0cab6ae29e956571d4f0d",
+      "type": "Event",
+      "title": "Medical supervision of the hospital",
+      "relation": "Participated In",
+      "role": "Employer"
     },
     {
       "id": "mention_cde6907c5da4991f947863dd",

@@ -5,7 +5,7 @@
   "summary": "Book that Hertz Homberg was authorized to print in Lviv.",
   "originalName": "נעימהקדושה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 271,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 916,
       "passageCharEnd": 937,
-      "normalizedPassageCharStart": 647,
-      "normalizedPassageCharEnd": 663,
+      "normalizedPassageCharStart": 916,
+      "normalizedPassageCharEnd": 937,
       "pageCharStart": 2078,
       "pageCharEnd": 2099,
       "quote": "הספ ר \"נעימ ה קדושה \"",
-      "normalizedQuote": "הספר\"נעימהקדושה\"",
+      "normalizedQuote": "הספ ר \"נעימ ה קדושה \"",
       "modelQuote": "הספר\"נעימהקדושה\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n270/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "1615a1ac26210c2c4666506fa759ca5f950683cab3ee551464577e432a75fdd4",
       "normalizedPassageChecksum": "b2df8d5040d6cf39bd008fca27567afa745edbc47757e8964935bcbae954a24c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_7025b44d548d44cb0d6d6b1e",
+      "predicate": "Published In",
+      "subjectTitle": "Neimah Kedushah",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "year": "1789"
+      },
+      "evidence": {
+        "passageId": "passage_78fc0ff5b5df87816a2a999c",
+        "pageId": "page_nybc313875_0271",
+        "scanIndex": 271,
+        "leafNumber": 270,
+        "printedPage": null,
+        "passageCharStart": 916,
+        "passageCharEnd": 951,
+        "normalizedPassageCharStart": 916,
+        "normalizedPassageCharEnd": 951,
+        "pageCharStart": 2078,
+        "pageCharEnd": 2113,
+        "quote": "הספ ר \"נעימ ה קדושה \"\n(לבו ב תקמ״ט)",
+        "normalizedQuote": "הספ ר \"נעימ ה קדושה \"\n(לבו ב תקמ״ט)",
+        "modelQuote": "הספר\"נעימהקדושה\" (לבובתקמ״ט)",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n270/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "1615a1ac26210c2c4666506fa759ca5f950683cab3ee551464577e432a75fdd4",
+        "normalizedPassageChecksum": "b2df8d5040d6cf39bd008fca27567afa745edbc47757e8964935bcbae954a24c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Published In"
+    },
     {
       "id": "mention_00d721f1a7caecdc42f322af",
       "type": "Place",

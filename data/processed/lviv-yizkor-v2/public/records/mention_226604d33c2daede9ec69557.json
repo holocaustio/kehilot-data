@@ -5,7 +5,7 @@
   "summary": "A Jewish professor who lectured in classical and Indo-European linguistics at Lviv University.",
   "originalName": "פרופ׳ד״רגרשוןבלאט",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 269,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 863,
       "passageCharEnd": 903,
-      "normalizedPassageCharStart": 632,
-      "normalizedPassageCharEnd": 660,
+      "normalizedPassageCharStart": 863,
+      "normalizedPassageCharEnd": 903,
       "pageCharStart": 2181,
       "pageCharEnd": 2221,
       "quote": "פרופ ׳ ד״ ר גרשו ן בלא ט ( 1858 — 1916 )",
-      "normalizedQuote": "פרופ׳ד״רגרשוןבלאט(1858—1916)",
+      "normalizedQuote": "פרופ ׳ ד״ ר גרשו ן בלא ט ( 1858 — 1916 )",
       "modelQuote": "פרופ׳ד״רגרשוןבלאט(1858—1916)",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n268/mode/1up",
@@ -33,13 +33,52 @@
       "passageChecksum": "c540899395636751f20be9965f41d5608f448a415ea2cbb68d89e95eb9ea9775",
       "normalizedPassageChecksum": "75578f8f80082c6e6da8353420c060a02e3a9abf8383e90c7e7dce71825ca6f8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_dfab4ee022e62d8f6c291457",
+      "predicate": "Originated In",
+      "subjectTitle": "Gershon Blat",
+      "objectTitle": "Yaroslav",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text states his origin, not explicitly his birth.",
+      "evidence": {
+        "passageId": "passage_c8323365acb264d1e96d2820",
+        "pageId": "page_nybc313875_0269",
+        "scanIndex": 269,
+        "leafNumber": 268,
+        "printedPage": null,
+        "passageCharStart": 0,
+        "passageCharEnd": 15,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 15,
+        "pageCharStart": 2438,
+        "pageCharEnd": 2453,
+        "quote": "מוצא ו מיארוסלב",
+        "normalizedQuote": "מוצא ו מיארוסלב",
+        "modelQuote": "מוצאומיארוסלב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n268/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "cc17964e9512058cc0c12a5be1730bef7d2831c6c9c4dd2fc96302fa1a961e5f",
+        "normalizedPassageChecksum": "ecd2fbf84ec86f2832a530def4a970d81667ffa305dfb8ee7483e8014d7da919",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_1ac56010ccdc4e35d31bf6a8",
+      "type": "Place",
+      "title": "Yaroslav",
+      "relation": "Originated In"
+    },
     {
       "id": "mention_26820f2a250d7a396fa120db",
       "type": "Person",
@@ -65,7 +104,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

@@ -5,7 +5,7 @@
   "summary": "Creditor owed money by the community.",
   "originalName": "אדםקארש",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 66,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 887,
       "passageCharEnd": 903,
-      "normalizedPassageCharStart": 664,
-      "normalizedPassageCharEnd": 676,
+      "normalizedPassageCharStart": 887,
+      "normalizedPassageCharEnd": 903,
       "pageCharStart": 887,
       "pageCharEnd": 903,
       "quote": "לאצי ל אד ם קארש",
-      "normalizedQuote": "לאצילאדםקארש",
+      "normalizedQuote": "לאצי ל אד ם קארש",
       "modelQuote": "לאצילאדםקארש",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n65/mode/1up",
@@ -33,13 +33,55 @@
       "passageChecksum": "0aa79cf35d025da8a9206e07f095cebfa4b97bab4d7066151517cb3b04dd55d5",
       "normalizedPassageChecksum": "6109365d0c4c73decd40c63300e40cfeb16debff5888202b265371da30326aac",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_373489c9ae27d3c00611fb64",
+      "predicate": "Owned",
+      "subjectTitle": "The two Jewish communities",
+      "objectTitle": "Nobleman Adam Karsch",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The controlled predicate set lacks a debt predicate.",
+      "qualifiers": {
+        "debtAmount": "12600 złoty"
+      },
+      "evidence": {
+        "passageId": "passage_707a7bf9b743428fae35c5d9",
+        "pageId": "page_nybc313875_0066",
+        "scanIndex": 66,
+        "leafNumber": 65,
+        "printedPage": null,
+        "passageCharStart": 875,
+        "passageCharEnd": 903,
+        "normalizedPassageCharStart": 875,
+        "normalizedPassageCharEnd": 903,
+        "pageCharStart": 875,
+        "pageCharEnd": 903,
+        "quote": "12.600 זה ׳ לאצי ל אד ם קארש",
+        "normalizedQuote": "12.600 זה ׳ לאצי ל אד ם קארש",
+        "modelQuote": "12.600זה׳לאצילאדםקארש",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n65/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "0aa79cf35d025da8a9206e07f095cebfa4b97bab4d7066151517cb3b04dd55d5",
+        "normalizedPassageChecksum": "6109365d0c4c73decd40c63300e40cfeb16debff5888202b265371da30326aac",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_55cc232a6f15154f5806b851",
+      "type": "Community",
+      "title": "The two Jewish communities",
+      "relation": "Owned"
+    },
     {
       "id": "mention_6cc6e009e8fb20cbe3f8f91a",
       "type": "Organization",

@@ -5,7 +5,7 @@
   "summary": "A wholesale trader from Constantinople who brought goods to Lviv.",
   "originalName": "אברהם",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 15,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 268,
       "passageCharEnd": 300,
-      "normalizedPassageCharStart": 200,
-      "normalizedPassageCharEnd": 223,
+      "normalizedPassageCharStart": 268,
+      "normalizedPassageCharEnd": 300,
       "pageCharStart": 1649,
       "pageCharEnd": 1681,
       "quote": "אברהם , הכני ס לבוב ה במש ך שנ ה",
-      "normalizedQuote": "אברהם,הכניסלבובהבמשךשנה",
+      "normalizedQuote": "אברהם , הכני ס לבוב ה במש ך שנ ה",
       "modelQuote": "אברהם,הכניסלבובהבמשךשנה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n14/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "f2bffb64a42a18a09a5f54fc33360be717e68b31b15e86cf63400ec4fc442cf0",
       "normalizedPassageChecksum": "f4d11e23545f137b31c5ae4f458340b401b1a54749f9195e7feb5bf8530e09b1",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_724cfea013a16cb3a3ffc7e7",
+      "id": "claim_candidate_26c897ca1a57a88ed9bcb86f",
       "predicate": "Lived At",
       "subjectTitle": "Abraham",
-      "objectTitle": "Lviv",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "uncertaintyNote": "The text supports bringing goods to Lviv, not residence; predicate is therefore an imperfect candidate.",
       "qualifiers": {
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 268,
         "passageCharEnd": 300,
-        "normalizedPassageCharStart": 200,
-        "normalizedPassageCharEnd": 223,
+        "normalizedPassageCharStart": 268,
+        "normalizedPassageCharEnd": 300,
         "pageCharStart": 1649,
         "pageCharEnd": 1681,
         "quote": "אברהם , הכני ס לבוב ה במש ך שנ ה",
-        "normalizedQuote": "אברהם,הכניסלבובהבמשךשנה",
+        "normalizedQuote": "אברהם , הכני ס לבוב ה במש ך שנ ה",
         "modelQuote": "אברהם,הכניסלבובהבמשךשנה",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n14/mode/1up",
@@ -69,31 +69,13 @@
         "passageChecksum": "f2bffb64a42a18a09a5f54fc33360be717e68b31b15e86cf63400ec4fc442cf0",
         "normalizedPassageChecksum": "f4d11e23545f137b31c5ae4f458340b401b1a54749f9195e7feb5bf8530e09b1",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Lived At"
-    },
-    {
-      "id": "mention_e3e8448f0ae71f3dd200ffff",
-      "type": "Person",
-      "title": "Yosef",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_a4227f2fe508ad433cc7c052",
       "type": "Person",
@@ -125,7 +107,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_ab8f18d6a1ad23d9a48d1653",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
@@ -140,12 +122,6 @@
       "id": "mention_becb93694deeb51dfb8021d1",
       "type": "Place",
       "title": "Drohobych",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0727a83453506581b23bd1af",
-      "type": "Place",
-      "title": "Ruthenia",
       "relation": "Appears in same passage"
     }
   ],

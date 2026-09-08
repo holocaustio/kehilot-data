@@ -5,7 +5,7 @@
   "summary": "A leader of the Lviv Jewish community.",
   "originalName": "ר'ליביש וואהל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 237,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 342,
       "passageCharEnd": 372,
-      "normalizedPassageCharStart": 262,
-      "normalizedPassageCharEnd": 285,
+      "normalizedPassageCharStart": 342,
+      "normalizedPassageCharEnd": 372,
       "pageCharStart": 2768,
       "pageCharEnd": 2798,
       "quote": "ר ' ליבי ש\nוואה ל מראש י הקהלה",
-      "normalizedQuote": "ר'ליביש וואהלמראשיהקהלה",
+      "normalizedQuote": "ר ' ליבי ש\nוואה ל מראש י הקהלה",
       "modelQuote": "ר'ליביש וואהלמראשיהקהלה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n236/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "8a367c421f2366cd88d80d766f2c24b75c9596b07354977fbcd758ca56d864a6",
       "normalizedPassageChecksum": "a01400b57cbf23980c0e4681c67f156ac65ed01980ea6752d6cc8a3eaad144b1",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_2a3b26c98839645bfde3b5d3",
+      "predicate": "Led By",
+      "subjectTitle": "Libish Wahl",
+      "objectTitle": "Sixtuska Synagogue",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e96f4617a25931fdfae97001",
+        "pageId": "page_nybc313875_0237",
+        "scanIndex": 237,
+        "leafNumber": 236,
+        "printedPage": null,
+        "passageCharStart": 342,
+        "passageCharEnd": 372,
+        "normalizedPassageCharStart": 342,
+        "normalizedPassageCharEnd": 372,
+        "pageCharStart": 2768,
+        "pageCharEnd": 2798,
+        "quote": "ר ' ליבי ש\nוואה ל מראש י הקהלה",
+        "normalizedQuote": "ר ' ליבי ש\nוואה ל מראש י הקהלה",
+        "modelQuote": "ר'ליביש וואהלמראשיהקהלה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n236/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "8a367c421f2366cd88d80d766f2c24b75c9596b07354977fbcd758ca56d864a6",
+        "normalizedPassageChecksum": "a01400b57cbf23980c0e4681c67f156ac65ed01980ea6752d6cc8a3eaad144b1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_8b82437b44a0be38dc6742d6",
+      "type": "Institution",
+      "title": "Sixtuska Synagogue",
+      "relation": "Led By"
+    },
     {
       "id": "mention_8b82437b44a0be38dc6742d6",
       "type": "Institution",

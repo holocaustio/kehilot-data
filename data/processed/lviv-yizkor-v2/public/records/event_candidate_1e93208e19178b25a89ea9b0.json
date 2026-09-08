@@ -1,0 +1,67 @@
+{
+  "id": "event_candidate_1e93208e19178b25a89ea9b0",
+  "type": "Event",
+  "title": "Execution of Dr. Frans",
+  "summary": "Dr. Frans was executed in the prison courtyard by Germans.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 308,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The date range and OCR line break are explicit, but the execution wording appears later.",
+  "dateStart": "1941-10",
+  "dateEnd": "1941-11",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b5886fea67a1aa12145420ca",
+      "pageId": "page_nybc313875_0308",
+      "scanIndex": 308,
+      "leafNumber": 307,
+      "printedPage": null,
+      "passageCharStart": 67,
+      "passageCharEnd": 124,
+      "normalizedPassageCharStart": 67,
+      "normalizedPassageCharEnd": 124,
+      "pageCharStart": 1975,
+      "pageCharEnd": 2032,
+      "quote": "באוקטוב ר א ו נובמב ר 1941 נאס ר ד״ ר\n\nפרנ ס ע״ י הגרמנים",
+      "normalizedQuote": "באוקטוב ר א ו נובמב ר 1941 נאס ר ד״ ר\n\nפרנ ס ע״ י הגרמנים",
+      "modelQuote": "באוקטובראונובמבר1941נאסרד״ר\n\nפרנסע״יהגרמנים",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n307/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "e672399352f3dfc78c2892f8cd3ad56eeef7c704bac427143ab149bc7e77a728",
+      "normalizedPassageChecksum": "ef514e2377fae37e136b37a1db1aadb29988319b97084169c0bb8a5076324661",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a73af88a729631c5535a6d3e",
+      "type": "Place",
+      "title": "Lontsko Street Prison",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_80b3247d5896a183b0b04b69",
+      "type": "Person",
+      "title": "Dr. Frans",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_a73af88a729631c5535a6d3e",
+      "type": "Place",
+      "title": "Lontsko Street Prison",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

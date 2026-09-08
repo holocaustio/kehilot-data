@@ -5,7 +5,7 @@
   "summary": "Suburbs around Lviv where Jews lived under noble protection.",
   "originalName": "בפרבריהעיר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 68,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 483,
       "passageCharEnd": 521,
-      "normalizedPassageCharStart": 348,
-      "normalizedPassageCharEnd": 379,
+      "normalizedPassageCharStart": 483,
+      "normalizedPassageCharEnd": 521,
       "pageCharStart": 1913,
       "pageCharEnd": 1951,
       "quote": "והתגורר ו בפרבר י העי ר בחסו ת\nהאצילים",
-      "normalizedQuote": "והתגוררובפרבריהעירבחסות האצילים",
+      "normalizedQuote": "והתגורר ו בפרבר י העי ר בחסו ת\nהאצילים",
       "modelQuote": "והתגוררובפרבריהעירבחסות האצילים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n67/mode/1up",
@@ -33,13 +33,44 @@
       "passageChecksum": "bf996dc5bc3a4f2ad96407eb4461ba4d3c553980317cb6564639469ee134cde4",
       "normalizedPassageChecksum": "b8eb09398c569760438d0cd37d0aac9e615bd16e62e656e9e274cdb208f360df",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_fd3451869ff7f6ef08fb47d1",
+      "id": "claim_candidate_997b5560b9571e901f3f941c",
+      "predicate": "Near",
+      "subjectTitle": "Jewish community of Lviv",
+      "objectTitle": "Lviv suburbs",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_549a772edffa73747d5f362d",
+        "pageId": "page_nybc313875_0068",
+        "scanIndex": 68,
+        "leafNumber": 67,
+        "printedPage": null,
+        "passageCharStart": 462,
+        "passageCharEnd": 506,
+        "normalizedPassageCharStart": 462,
+        "normalizedPassageCharEnd": 506,
+        "pageCharStart": 1892,
+        "pageCharEnd": 1936,
+        "quote": "שבא ו מסביבו ת לבו ב והתגורר ו בפרבר י העי ר",
+        "normalizedQuote": "שבא ו מסביבו ת לבו ב והתגורר ו בפרבר י העי ר",
+        "modelQuote": "שבאומסביבותלבובוהתגוררובפרבריהעיר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n67/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "bf996dc5bc3a4f2ad96407eb4461ba4d3c553980317cb6564639469ee134cde4",
+        "normalizedPassageChecksum": "b8eb09398c569760438d0cd37d0aac9e615bd16e62e656e9e274cdb208f360df",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_e62b74dd1015009154ec7e69",
       "predicate": "Affiliated With",
       "subjectTitle": "Princess Jablonowska",
       "objectTitle": "Lviv suburbs",
@@ -52,12 +83,12 @@
         "printedPage": null,
         "passageCharStart": 775,
         "passageCharEnd": 802,
-        "normalizedPassageCharStart": 566,
-        "normalizedPassageCharEnd": 589,
+        "normalizedPassageCharStart": 775,
+        "normalizedPassageCharEnd": 802,
         "pageCharStart": 2205,
         "pageCharEnd": 2232,
         "quote": "בחסו ת הנסיכ ה\nיאבלונובסק ה",
-        "normalizedQuote": "בחסותהנסיכה יאבלונובסקה",
+        "normalizedQuote": "בחסו ת הנסיכ ה\nיאבלונובסק ה",
         "modelQuote": "בחסותהנסיכה יאבלונובסקה",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n67/mode/1up",
@@ -65,7 +96,7 @@
         "passageChecksum": "bf996dc5bc3a4f2ad96407eb4461ba4d3c553980317cb6564639469ee134cde4",
         "normalizedPassageChecksum": "b8eb09398c569760438d0cd37d0aac9e615bd16e62e656e9e274cdb208f360df",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -73,13 +104,19 @@
   "events": [],
   "connections": [
     {
+      "id": "mention_ab8f18d6a1ad23d9a48d1653",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Near"
+    },
+    {
       "id": "mention_aae1d76bfa4c76b1fb8a690d",
       "type": "Person",
       "title": "Princess Jablonowska",
       "relation": "Affiliated With"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

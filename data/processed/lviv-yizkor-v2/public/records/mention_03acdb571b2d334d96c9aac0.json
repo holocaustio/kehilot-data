@@ -5,7 +5,7 @@
   "summary": "Participant identified as a son of Benjamin Zvi Hirsch Natkis.",
   "originalName": "ד״רנאטקים",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 216,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 670,
       "passageCharEnd": 681,
-      "normalizedPassageCharStart": 492,
-      "normalizedPassageCharEnd": 501,
+      "normalizedPassageCharStart": 670,
+      "normalizedPassageCharEnd": 681,
       "pageCharStart": 1735,
       "pageCharEnd": 1746,
       "quote": "ד״ ר נאטקים",
-      "normalizedQuote": "ד״רנאטקים",
+      "normalizedQuote": "ד״ ר נאטקים",
       "modelQuote": "ד״רנאטקים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n215/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "9cb9b50f14e25108a6c36047d85153625044d8f6b7fccc8e32c883b599674c55",
       "normalizedPassageChecksum": "f2ba25afb80a18cc3eb7a04dba32d245153943cb266820379b50a3ae3b73555e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_3fea89d3a702238c180c6a58",
+      "id": "claim_candidate_3bdccb78c7532360b768ea86",
       "predicate": "Child Of",
       "subjectTitle": "Dr. Natkis",
       "objectTitle": "Benjamin Zvi Hirsch Natkis",
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 684,
         "passageCharEnd": 723,
-        "normalizedPassageCharStart": 502,
-        "normalizedPassageCharEnd": 529,
+        "normalizedPassageCharStart": 684,
+        "normalizedPassageCharEnd": 723,
         "pageCharStart": 1749,
         "pageCharEnd": 1788,
         "quote": "בנ ו ש ל ר ׳ בנימי ן צב י היר ש\nנאטקי ס",
-        "normalizedQuote": "בנושלר׳בנימיןצביהירש נאטקיס",
+        "normalizedQuote": "בנ ו ש ל ר ׳ בנימי ן צב י היר ש\nנאטקי ס",
         "modelQuote": "בנושלר׳בנימיןצביהירש נאטקיס",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n215/mode/1up",
@@ -66,59 +66,18 @@
         "passageChecksum": "9cb9b50f14e25108a6c36047d85153625044d8f6b7fccc8e32c883b599674c55",
         "normalizedPassageChecksum": "f2ba25afb80a18cc3eb7a04dba32d245153943cb266820379b50a3ae3b73555e",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [
-    {
-      "id": "event_candidate_98ca55ce1386ce17ba239034",
-      "type": "Organization Founding",
-      "title": "Meeting on a progressive prayer house",
-      "summary": "A meeting was held in Lviv on 4 October 1840 about establishing a progressive prayer house.",
-      "dateStart": "1840-10-04",
-      "confidence": "HIGH",
-      "uncertaintyNote": "The meeting discussed and advanced the project; founding itself is not explicitly stated.",
-      "evidence": {
-        "passageId": "passage_a7f24ed87d443fa965e0a210",
-        "pageId": "page_nybc313875_0216",
-        "scanIndex": 216,
-        "leafNumber": 215,
-        "printedPage": null,
-        "passageCharStart": 527,
-        "passageCharEnd": 563,
-        "normalizedPassageCharStart": 385,
-        "normalizedPassageCharEnd": 414,
-        "pageCharStart": 1592,
-        "pageCharEnd": 1628,
-        "quote": "ב־ 4 באוקטוב ר 1840 התקיימ ה\nהישיב ה",
-        "normalizedQuote": "ב־4באוקטובר1840התקיימה הישיבה",
-        "modelQuote": "ב־4באוקטובר1840התקיימה הישיבה",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n215/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "9cb9b50f14e25108a6c36047d85153625044d8f6b7fccc8e32c883b599674c55",
-        "normalizedPassageChecksum": "f2ba25afb80a18cc3eb7a04dba32d245153943cb266820379b50a3ae3b73555e",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "events": [],
   "connections": [
     {
       "id": "mention_0f339ad12f11ba2ed9b30dac",
       "type": "Person",
       "title": "Benjamin Zvi Hirsch Natkis",
       "relation": "Child Of"
-    },
-    {
-      "id": "event_candidate_98ca55ce1386ce17ba239034",
-      "type": "Event",
-      "title": "Meeting on a progressive prayer house",
-      "relation": "Participated In",
-      "role": "Participant"
     },
     {
       "id": "mention_97ae6b6f86aa4521f88ee049",
@@ -130,18 +89,6 @@
       "id": "mention_a54d2ccb0e075ed1d9067372",
       "type": "Place",
       "title": "Tarnopol",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_44cc40432b8a2d7ab0088d83",
-      "type": "Person",
-      "title": "Dr. Emanuel Blumenfeld",
       "relation": "Appears in same passage"
     },
     {

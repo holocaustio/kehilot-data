@@ -5,7 +5,7 @@
   "summary": "Mass grave where thousands of Lviv Jews were taken and buried.",
   "originalName": "גבעתהחולות",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 380,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 841,
       "passageCharEnd": 860,
-      "normalizedPassageCharStart": 632,
-      "normalizedPassageCharEnd": 646,
+      "normalizedPassageCharStart": 841,
+      "normalizedPassageCharEnd": 860,
       "pageCharStart": 1619,
       "pageCharEnd": 1638,
       "quote": "א ל ״גבע ת החולות ״",
-      "normalizedQuote": "אל״גבעתהחולות״",
+      "normalizedQuote": "א ל ״גבע ת החולות ״",
       "modelQuote": "אל״גבעתהחולות״",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n379/mode/1up",
@@ -33,11 +33,43 @@
       "passageChecksum": "2aae37c31f50d87f9da95722aeec94425d864441fa76f387575482da62fc3b68",
       "normalizedPassageChecksum": "2c8ced7a535c1fc8dfddd1d62692440770f5d53d3890fddbb92d237435ca4ae0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_911802e270ba2f6cafb0e34a",
+      "predicate": "Located In",
+      "subjectTitle": "Sand Hill",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_3683256b378ed1ba199e45f3",
+        "pageId": "page_nybc313875_0380",
+        "scanIndex": 380,
+        "leafNumber": 379,
+        "printedPage": null,
+        "passageCharStart": 874,
+        "passageCharEnd": 897,
+        "normalizedPassageCharStart": 874,
+        "normalizedPassageCharEnd": 897,
+        "pageCharStart": 1652,
+        "pageCharEnd": 1675,
+        "quote": "ש ל\nאלפי ם מיהוד י לבוב",
+        "normalizedQuote": "ש ל\nאלפי ם מיהוד י לבוב",
+        "modelQuote": "של אלפיםמיהודילבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n379/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "2aae37c31f50d87f9da95722aeec94425d864441fa76f387575482da62fc3b68",
+        "normalizedPassageChecksum": "2c8ced7a535c1fc8dfddd1d62692440770f5d53d3890fddbb92d237435ca4ae0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -62,18 +94,6 @@
       "id": "mention_6e11e73a0a72ac99543a7295",
       "type": "Person",
       "title": "Dr. Adolf Rotfeld",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4aea7e28d688490f426dbba7",
-      "type": "Community",
-      "title": "Lviv Jewish community",
       "relation": "Appears in same passage"
     },
     {

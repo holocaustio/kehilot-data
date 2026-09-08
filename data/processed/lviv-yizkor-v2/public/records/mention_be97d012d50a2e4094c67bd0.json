@@ -5,7 +5,7 @@
   "summary": "Owner of a seal dated 1629.",
   "originalName": "שלמהבןירוחם מלבוב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 69,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1155,
       "passageCharEnd": 1195,
-      "normalizedPassageCharStart": 856,
-      "normalizedPassageCharEnd": 886,
+      "normalizedPassageCharStart": 1155,
+      "normalizedPassageCharEnd": 1195,
       "pageCharStart": 2570,
       "pageCharEnd": 2610,
       "quote": "כף ־\nשלמ ה ב ן ירוח ם\nמלבוב . משנ ת 1629",
-      "normalizedQuote": "כף־ שלמהבןירוחם מלבוב.משנת1629",
+      "normalizedQuote": "כף ־\nשלמ ה ב ן ירוח ם\nמלבוב . משנ ת 1629",
       "modelQuote": "כף־ שלמהבןירוחם מלבוב.משנת1629",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n68/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "6bc81a21247e8b75221ed8839d9080e10e839e93f4b563129b688142b61a62b8",
       "normalizedPassageChecksum": "5d855a3cc17f14048d00226baa8870b6f4885f87c3ceb23c835b272d43f398ad",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_589a7bff360da544305223aa",
+      "predicate": "Located In",
+      "subjectTitle": "Solomon ben Jeroham of Lviv",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7ca207ce7bf42831ed0fcd39",
+        "pageId": "page_nybc313875_0069",
+        "scanIndex": 69,
+        "leafNumber": 68,
+        "printedPage": null,
+        "passageCharStart": 1160,
+        "passageCharEnd": 1182,
+        "normalizedPassageCharStart": 1160,
+        "normalizedPassageCharEnd": 1182,
+        "pageCharStart": 2575,
+        "pageCharEnd": 2597,
+        "quote": "שלמ ה ב ן ירוח ם\nמלבוב",
+        "normalizedQuote": "שלמ ה ב ן ירוח ם\nמלבוב",
+        "modelQuote": "שלמהבןירוחם מלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n68/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "6bc81a21247e8b75221ed8839d9080e10e839e93f4b563129b688142b61a62b8",
+        "normalizedPassageChecksum": "5d855a3cc17f14048d00226baa8870b6f4885f87c3ceb23c835b272d43f398ad",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Located In"
+    },
     {
       "id": "mention_4aa5d75be863a0b21a8c941a",
       "type": "Person",

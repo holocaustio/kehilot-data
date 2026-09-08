@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 530,
       "passageCharEnd": 566,
-      "normalizedPassageCharStart": 381,
-      "normalizedPassageCharEnd": 408,
+      "normalizedPassageCharStart": 530,
+      "normalizedPassageCharEnd": 566,
       "pageCharStart": 1979,
       "pageCharEnd": 2015,
       "quote": "מוכר ־\nהספרי ם ר ׳ היר ש שלא ג מלבוב",
-      "normalizedQuote": "מוכר־ הספריםר׳הירששלאגמלבוב",
+      "normalizedQuote": "מוכר ־\nהספרי ם ר ׳ היר ש שלא ג מלבוב",
       "modelQuote": "מוכר־הספריםר׳הירששלאגמלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n273/mode/1up",
@@ -37,9 +37,47 @@
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_fbb86b59baa52de8ace143ea",
+      "predicate": "Published In",
+      "subjectTitle": "Hirsch Schlag",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a7fdfac0a95a5a0f7b57a9a8",
+        "pageId": "page_nybc313875_0274",
+        "scanIndex": 274,
+        "leafNumber": 273,
+        "printedPage": null,
+        "passageCharStart": 545,
+        "passageCharEnd": 566,
+        "normalizedPassageCharStart": 545,
+        "normalizedPassageCharEnd": 566,
+        "pageCharStart": 1994,
+        "pageCharEnd": 2015,
+        "quote": "ר ׳ היר ש שלא ג מלבוב",
+        "normalizedQuote": "ר ׳ היר ש שלא ג מלבוב",
+        "modelQuote": "ר׳הירששלאגמלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n273/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "8bfc3edbb162c6c59a5bcaec9ad942fd4048b311d1e007afe63e0296f41d9ddb",
+        "normalizedPassageChecksum": "e95fb8c5b31949250e05605c0a4c012ef8ae4118ac0e882a9f9a728eaee20670",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Published In"
+    },
     {
       "id": "mention_ebd5bba8a68535ab74fbcfc0",
       "type": "Person",
@@ -74,12 +112,6 @@
       "id": "mention_068949318585d7973c0cca70",
       "type": "Publication",
       "title": "Ha-Et",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_aefce88acf6c0ba3ba49b30e",
-      "type": "Publication",
-      "title": "Kol Ha-Et",
       "relation": "Appears in same passage"
     },
     {

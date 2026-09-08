@@ -5,7 +5,7 @@
   "summary": "Baruch Shor’s son and successor as cantor.",
   "originalName": "מרדכי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 249,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 57,
       "passageCharEnd": 94,
-      "normalizedPassageCharStart": 38,
-      "normalizedPassageCharEnd": 68,
+      "normalizedPassageCharStart": 57,
+      "normalizedPassageCharEnd": 94,
       "pageCharStart": 1332,
       "pageCharEnd": 1369,
       "quote": "בנ ו מרדכ י (בכינוי־החיב ה : \"מוטיל\")",
-      "normalizedQuote": "בנומרדכי(בכינוי־החיבה:\"מוטיל\")",
+      "normalizedQuote": "בנ ו מרדכ י (בכינוי־החיב ה : \"מוטיל\")",
       "modelQuote": "בנומרדכי(בכינוי־החיבה:\"מוטיל\")",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n248/mode/1up",
@@ -33,18 +33,50 @@
       "passageChecksum": "4e1e53c9469673e30e143d97c40656a132f267e5567924b8634bbe2e0eb17116",
       "normalizedPassageChecksum": "76a84fb9b09278919441c1fbc0ccd8f243de9372166f68ba84fc57a2a48dfb40",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c145d6293030c5c32f999d81",
+      "predicate": "Child Of",
+      "subjectTitle": "Mordechai Shor",
+      "objectTitle": "Baruch Shor",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a4ea524b470e528623b06bae",
+        "pageId": "page_nybc313875_0249",
+        "scanIndex": 249,
+        "leafNumber": 248,
+        "printedPage": null,
+        "passageCharStart": 0,
+        "passageCharEnd": 68,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 68,
+        "pageCharStart": 1275,
+        "pageCharEnd": 1343,
+        "quote": "אחר י מות ו ש ל ברו ך שו ר ב א לכה ן במקומ ו בתו ר\nחזן , בנ ו מרדכ י",
+        "normalizedQuote": "אחר י מות ו ש ל ברו ך שו ר ב א לכה ן במקומ ו בתו ר\nחזן , בנ ו מרדכ י",
+        "modelQuote": "אחרימותושלברוךשורבאלכהןבמקומובתור חזן,בנומרדכי",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n248/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "4e1e53c9469673e30e143d97c40656a132f267e5567924b8634bbe2e0eb17116",
+        "normalizedPassageChecksum": "76a84fb9b09278919441c1fbc0ccd8f243de9372166f68ba84fc57a2a48dfb40",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_7adf404d518f763cf94adccd",
-      "type": "Institution",
-      "title": "City synagogue",
-      "relation": "Worked At"
+      "id": "mention_422fc346f2f1aa5409a3a36f",
+      "type": "Person",
+      "title": "Baruch Shor",
+      "relation": "Child Of"
     },
     {
       "id": "mention_bbb33512574a1274d878636d",

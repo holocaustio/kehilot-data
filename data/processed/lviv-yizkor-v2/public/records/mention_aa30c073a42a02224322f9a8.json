@@ -5,7 +5,7 @@
   "summary": "Family whose members included Leo, Yanko, Avata-Braindl, Herman, Friedrich, and Laura.",
   "originalName": "משפחתקולישר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 265,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,11 +21,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 34,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 26,
+      "normalizedPassageCharEnd": 34,
       "pageCharStart": 2790,
       "pageCharEnd": 2824,
       "quote": "מבנ י משפח ת קוליש ר הטפוסיי ם היו",
-      "normalizedQuote": "מבנימשפחתקולישרהטפוסייםהיו",
+      "normalizedQuote": "מבנ י משפח ת קוליש ר הטפוסיי ם היו",
       "modelQuote": "מבנימשפחתקולישרהטפוסייםהיו",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n264/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "05ea40eacae46cb3fc1c511c696467ad8c6f1b6a70dd216b2cfc16075b947391",
       "normalizedPassageChecksum": "318275eca6379a0224759add551f3fa9737db690143e49cdf16511814df9f8c4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 18,
       "passageCharEnd": 41,
-      "normalizedPassageCharStart": 14,
-      "normalizedPassageCharEnd": 31,
+      "normalizedPassageCharStart": 18,
+      "normalizedPassageCharEnd": 41,
       "pageCharStart": 1231,
       "pageCharEnd": 1254,
       "quote": "הית ה ג ם משפח ת קולישר",
-      "normalizedQuote": "היתהגםמשפחתקולישר",
+      "normalizedQuote": "הית ה ג ם משפח ת קולישר",
       "modelQuote": "היתהגםמשפחתקולישר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n264/mode/1up",
@@ -57,15 +57,84 @@
       "passageChecksum": "6e44111110c71197c561ab6f37a63bd225698aff95356753ac74552f5cbd8812",
       "normalizedPassageChecksum": "fd8f7e25e3eaf63072f49791827e43d7d764d79014ba57cecb3996aba6fb3e2b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_96a34ef5beaad2c580b54707",
+      "type": "Migration",
+      "title": "Kolischer family migration to Lviv",
+      "summary": "The Kolischer family moved from Kalish to Lviv at the end of the eighteenth century.",
+      "dateStart": "1790",
+      "dateEnd": "1799",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The decade is normalized from the stated century.",
+      "evidence": {
+        "passageId": "passage_6c710528ee7f84336b994558",
+        "pageId": "page_nybc313875_0265",
+        "scanIndex": 265,
+        "leafNumber": 264,
+        "printedPage": null,
+        "passageCharStart": 65,
+        "passageCharEnd": 95,
+        "normalizedPassageCharStart": 65,
+        "normalizedPassageCharEnd": 95,
+        "pageCharStart": 1278,
+        "pageCharEnd": 1308,
+        "quote": "בסו ף המא ה הי״ ח עבר ו ללבו ב",
+        "normalizedQuote": "בסו ף המא ה הי״ ח עבר ו ללבו ב",
+        "modelQuote": "בסוףהמאההי״חעברוללבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n264/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "6e44111110c71197c561ab6f37a63bd225698aff95356753ac74552f5cbd8812",
+        "normalizedPassageChecksum": "fd8f7e25e3eaf63072f49791827e43d7d764d79014ba57cecb3996aba6fb3e2b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_5a23ab68afcdf2f13ba304f0",
+      "type": "Name Adoption",
+      "title": "Kolischer family name adoption",
+      "summary": "In 1785, the family adopted the Kalish surname, later changed to Kolischer, after moving to Lviv.",
+      "dateStart": "1785",
+      "dateEnd": "1785",
+      "confidence": "HIGH",
+      "uncertaintyNote": "Name adoption is not a controlled event type; represented as migration context.",
+      "evidence": {
+        "passageId": "passage_6c710528ee7f84336b994558",
+        "pageId": "page_nybc313875_0265",
+        "scanIndex": 265,
+        "leafNumber": 264,
+        "printedPage": null,
+        "passageCharStart": 96,
+        "passageCharEnd": 136,
+        "normalizedPassageCharStart": 96,
+        "normalizedPassageCharEnd": 136,
+        "pageCharStart": 1309,
+        "pageCharEnd": 1349,
+        "quote": "וקבל ו\nבשנ ת 1785 א ת שם־המשפח ה קאליש ר",
+        "normalizedQuote": "וקבל ו\nבשנ ת 1785 א ת שם־המשפח ה קאליש ר",
+        "modelQuote": "וקבלו בשנת1785אתשם־המשפחהקאלישר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n264/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "6e44111110c71197c561ab6f37a63bd225698aff95356753ac74552f5cbd8812",
+        "normalizedPassageChecksum": "fd8f7e25e3eaf63072f49791827e43d7d764d79014ba57cecb3996aba6fb3e2b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_ac58cc334bc3daaa66b6f9ef",
+      "id": "mention_0f36b29bcdbcbd99e7d0501b",
       "type": "Person",
       "title": "Leo Kolischer",
       "relation": "Appears in same passage"
@@ -137,6 +206,20 @@
       "relation": "Appears in same passage"
     },
     {
+      "id": "event_candidate_96a34ef5beaad2c580b54707",
+      "type": "Event",
+      "title": "Kolischer family migration to Lviv",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "event_candidate_5a23ab68afcdf2f13ba304f0",
+      "type": "Event",
+      "title": "Kolischer family name adoption",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
       "id": "mention_ae37f7520cb4dd9853c11616",
       "type": "Place",
       "title": "Kalish",
@@ -173,15 +256,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_06b9447bad2b7e54525a39fa",
+      "id": "mention_8a793f96e6bfdcf796950edc",
       "type": "Institution",
-      "title": "Temple",
+      "title": "The Temple",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_71b37844dd294ad668cb06c1",
+      "id": "mention_2d03155b0c10906905d8e3ef",
       "type": "Organization",
-      "title": "Shomer Yisrael",
+      "title": "Shomer Israel Association",
       "relation": "Appears in same passage"
     }
   ],

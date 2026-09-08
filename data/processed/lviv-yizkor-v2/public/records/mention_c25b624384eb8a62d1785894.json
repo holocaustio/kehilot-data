@@ -5,7 +5,7 @@
   "summary": "School where Balaban began teaching in Galicia.",
   "originalName": "ב־ת־ הספרהעממיהראשוןמיסודושלהברוןהירש",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 280,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 885,
       "passageCharEnd": 943,
-      "normalizedPassageCharStart": 643,
-      "normalizedPassageCharEnd": 685,
+      "normalizedPassageCharStart": 885,
+      "normalizedPassageCharEnd": 943,
       "pageCharStart": 2158,
       "pageCharEnd": 2216,
       "quote": "כמור ה ב-ת ־\nהספ ר העממ י הראשו ן מיסוד ו ש ל הברו ן היר ש",
-      "normalizedQuote": "כמורהב-ת־ הספרהעממיהראשוןמיסודושלהברוןהירש",
+      "normalizedQuote": "כמור ה ב-ת ־\nהספ ר העממ י הראשו ן מיסוד ו ש ל הברו ן היר ש",
       "modelQuote": "כמורהב-ת־ הספרהעממיהראשוןמיסודושלהברוןהירש",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n279/mode/1up",
@@ -33,21 +33,59 @@
       "passageChecksum": "b3a21dcd66222218ff5748881e5b9b850588fcfa535639bed7874850dbdd38e3",
       "normalizedPassageChecksum": "0b56e043e0bf618c6e6d40cb678de7b8d3340c84c483319d97f0c3f7bd031567",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_3af6ca6745ff91cef29f2795",
+      "predicate": "Taught At",
+      "subjectTitle": "Meir Shmuel Balaban",
+      "objectTitle": "Baron Hirsch Elementary School",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_69143e761523c7086bc28cfe",
+        "pageId": "page_nybc313875_0280",
+        "scanIndex": 280,
+        "leafNumber": 279,
+        "printedPage": null,
+        "passageCharStart": 877,
+        "passageCharEnd": 943,
+        "normalizedPassageCharStart": 877,
+        "normalizedPassageCharEnd": 943,
+        "pageCharStart": 2150,
+        "pageCharEnd": 2216,
+        "quote": "תחילת ו כמור ה ב-ת ־\nהספ ר העממ י הראשו ן מיסוד ו ש ל הברו ן היר ש",
+        "normalizedQuote": "תחילת ו כמור ה ב-ת ־\nהספ ר העממ י הראשו ן מיסוד ו ש ל הברו ן היר ש",
+        "modelQuote": "תחילתוכמורהב-ת־ הספרהעממיהראשוןמיסודושלהברוןהירש",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n279/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "b3a21dcd66222218ff5748881e5b9b850588fcfa535639bed7874850dbdd38e3",
+        "normalizedPassageChecksum": "0b56e043e0bf618c6e6d40cb678de7b8d3340c84c483319d97f0c3f7bd031567",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_2fa82db46fb1f228b5695c9e",
+      "id": "mention_52e1757d8bbd707cfdbf785f",
+      "type": "Person",
+      "title": "Meir Shmuel Balaban",
+      "relation": "Taught At"
+    },
+    {
+      "id": "mention_14d65ca16fc8565199af0187",
       "type": "Place",
       "title": "Galicia",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -56,6 +94,18 @@
       "id": "mention_4a4916d4bf2191621e731a40",
       "type": "Place",
       "title": "Horodok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5d2a785ec97d94648cdb08ba",
+      "type": "Institution",
+      "title": "University in Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6c89974a02f6f5541579849c",
+      "type": "Institution",
+      "title": "Tadeusz Czacki Elementary School",
       "relation": "Appears in same passage"
     },
     {

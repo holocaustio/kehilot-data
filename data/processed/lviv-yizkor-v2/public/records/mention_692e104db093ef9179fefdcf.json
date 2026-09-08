@@ -5,7 +5,7 @@
   "summary": "Postwar committee opposing the black market and aiding hungry Lviv Jews.",
   "originalName": "\"ועדהחרם\"",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 239,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 60,
       "passageCharEnd": 89,
-      "normalizedPassageCharStart": 45,
-      "normalizedPassageCharEnd": 66,
+      "normalizedPassageCharStart": 60,
+      "normalizedPassageCharEnd": 89,
       "pageCharStart": 2539,
       "pageCharEnd": 2568,
       "quote": "\"וע ד החרם \" נג ד השו ק השחור",
-      "normalizedQuote": "\"ועדהחרם\"נגדהשוקהשחור",
+      "normalizedQuote": "\"וע ד החרם \" נג ד השו ק השחור",
       "modelQuote": "\"ועדהחרם\"נגדהשוקהשחור",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n238/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "9ecc3af357eebda14333ac490cba0a8d5fd15dcddcd12248f55217a155b5a20d",
       "normalizedPassageChecksum": "ef01b44c92437d8cc4fea78aae0c3c640aed6340d1a81edbe14d8c6982ee4fa3",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_0974d0bd5d89cb80758a0a8c",
+      "id": "claim_candidate_aec0bb1ff232163bda7e67be",
       "predicate": "Led By",
       "subjectTitle": "Hanoch Ashkenazi",
       "objectTitle": "Lviv Boycott Committee",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 15,
         "passageCharEnd": 72,
-        "normalizedPassageCharStart": 11,
-        "normalizedPassageCharEnd": 54,
+        "normalizedPassageCharStart": 15,
+        "normalizedPassageCharEnd": 72,
         "pageCharStart": 2494,
         "pageCharEnd": 2551,
         "quote": "שביזמת ו נוס ד אחר י המלחמ ה ופרעות ־\nלבוב \" \"וע ד החרם \"",
-        "normalizedQuote": "שביזמתונוסדאחריהמלחמהופרעות־ לבוב\"\"ועדהחרם\"",
+        "normalizedQuote": "שביזמת ו נוס ד אחר י המלחמ ה ופרעות ־\nלבוב \" \"וע ד החרם \"",
         "modelQuote": "שביזמתונוסדאחריהמלחמהופרעות־ לבוב\"\"ועדהחרם\"",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n238/mode/1up",
@@ -65,18 +65,57 @@
         "passageChecksum": "9ecc3af357eebda14333ac490cba0a8d5fd15dcddcd12248f55217a155b5a20d",
         "normalizedPassageChecksum": "ef01b44c92437d8cc4fea78aae0c3c640aed6340d1a81edbe14d8c6982ee4fa3",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_870cd53d3721eb863b146b9e",
+      "type": "Organization Founding",
+      "title": "Lviv Boycott Committee founded",
+      "summary": "Hanoch Ashkenazi initiated the postwar Lviv Boycott Committee against the black market.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6a8a92df82c25520c861c398",
+        "pageId": "page_nybc313875_0239",
+        "scanIndex": 239,
+        "leafNumber": 238,
+        "printedPage": null,
+        "passageCharStart": 15,
+        "passageCharEnd": 72,
+        "normalizedPassageCharStart": 15,
+        "normalizedPassageCharEnd": 72,
+        "pageCharStart": 2494,
+        "pageCharEnd": 2551,
+        "quote": "שביזמת ו נוס ד אחר י המלחמ ה ופרעות ־\nלבוב \" \"וע ד החרם \"",
+        "normalizedQuote": "שביזמת ו נוס ד אחר י המלחמ ה ופרעות ־\nלבוב \" \"וע ד החרם \"",
+        "modelQuote": "שביזמתונוסדאחריהמלחמהופרעות־ לבוב\"\"ועדהחרם\"",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n238/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9ecc3af357eebda14333ac490cba0a8d5fd15dcddcd12248f55217a155b5a20d",
+        "normalizedPassageChecksum": "ef01b44c92437d8cc4fea78aae0c3c640aed6340d1a81edbe14d8c6982ee4fa3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_0e924b001f668abf5cbd903b",
       "type": "Person",
       "title": "Hanoch Ashkenazi",
       "relation": "Led By"
+    },
+    {
+      "id": "event_candidate_870cd53d3721eb863b146b9e",
+      "type": "Event",
+      "title": "Lviv Boycott Committee founded",
+      "relation": "Participated In",
+      "role": "Subject"
     },
     {
       "id": "mention_0e924b001f668abf5cbd903b",
@@ -145,9 +184,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_80556bc084217eba393beb48",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
-      "title": "Tel Aviv",
+      "title": "Lviv",
       "relation": "Appears in same passage"
     }
   ],

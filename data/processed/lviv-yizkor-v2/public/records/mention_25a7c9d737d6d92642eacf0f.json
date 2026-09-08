@@ -5,7 +5,7 @@
   "summary": "Arms-industry designation appearing on worker badges.",
   "originalName": "ריסטונגסאינדוס־ טריע״",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 338,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 169,
       "passageCharEnd": 204,
-      "normalizedPassageCharStart": 127,
-      "normalizedPassageCharEnd": 158,
+      "normalizedPassageCharStart": 169,
+      "normalizedPassageCharEnd": 204,
       "pageCharStart": 230,
       "pageCharEnd": 265,
       "quote": "ריסטונגסאינדוס ־\nטריע ״ = תעשית־נשק",
-      "normalizedQuote": "ריסטונגסאינדוס־ טריע״=תעשית־נשק",
+      "normalizedQuote": "ריסטונגסאינדוס ־\nטריע ״ = תעשית־נשק",
       "modelQuote": "ריסטונגסאינדוס־ טריע״=תעשית־נשק",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n337/mode/1up",
@@ -34,7 +34,7 @@
       "passageChecksum": "a585fa070bf71af0be0fdfe83da33979a0f339fe71190455079ab41d2834e901",
       "normalizedPassageChecksum": "aaf3045843dc9e0d13c19f3ac8387f74c488c5d5208bb66f569b2d14ea184cdf",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -84,12 +84,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0ef1210d6ccbbfc82be865a2",
-      "type": "Place",
-      "title": "The ghetto",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_2b3c5d678a34d7f00d5471b3",
       "type": "Place",
       "title": "Belzec",
@@ -111,6 +105,12 @@
       "id": "mention_353375fb3f45e25a1cedbdb1",
       "type": "Place",
       "title": "Ghetto prison",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_76a9da7596d1ce025695ea2b",
+      "type": "Institution",
+      "title": "Jewish Council",
       "relation": "Appears in same passage"
     }
   ],

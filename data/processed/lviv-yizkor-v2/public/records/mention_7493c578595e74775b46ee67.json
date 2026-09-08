@@ -5,7 +5,7 @@
   "summary": "Among the first Jews permitted to live in non-Jewish districts.",
   "originalName": "הרמןמיזם",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 145,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 956,
       "passageCharEnd": 967,
-      "normalizedPassageCharStart": 710,
-      "normalizedPassageCharEnd": 718,
+      "normalizedPassageCharStart": 956,
+      "normalizedPassageCharEnd": 967,
       "pageCharStart": 956,
       "pageCharEnd": 967,
       "quote": "הרמ ן מיז ם",
-      "normalizedQuote": "הרמןמיזם",
+      "normalizedQuote": "הרמ ן מיז ם",
       "modelQuote": "הרמןמיזם",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n144/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "9d12045b153ef727f9f847569625045948eecbd7f5ada9378df488998a3ff180",
       "normalizedPassageChecksum": "6a402240986c92f3e19c641787739dffff5c2d37b03f20e1ce10f69558611302",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_8f659164d6cee486426d1028",
+      "predicate": "Lived At",
+      "subjectTitle": "Herman Mizim",
+      "objectTitle": "Lviv Jewish quarter",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "context": "among the first permitted to live in non-Jewish districts"
+      },
+      "evidence": {
+        "passageId": "passage_2a2cfa45eac342cb6fdb7925",
+        "pageId": "page_nybc313875_0145",
+        "scanIndex": 145,
+        "leafNumber": 144,
+        "printedPage": null,
+        "passageCharStart": 956,
+        "passageCharEnd": 975,
+        "normalizedPassageCharStart": 956,
+        "normalizedPassageCharEnd": 975,
+        "pageCharStart": 956,
+        "pageCharEnd": 975,
+        "quote": "הרמ ן מיז ם ויהוש ע",
+        "normalizedQuote": "הרמ ן מיז ם ויהוש ע",
+        "modelQuote": "הרמןמיזםויהושע",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n144/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9d12045b153ef727f9f847569625045948eecbd7f5ada9378df488998a3ff180",
+        "normalizedPassageChecksum": "6a402240986c92f3e19c641787739dffff5c2d37b03f20e1ce10f69558611302",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_b4e9e58a7fa95892939cbdd6",
+      "type": "Community",
+      "title": "Lviv Jewish quarter",
+      "relation": "Lived At"
+    },
     {
       "id": "mention_923a0323ef445f5d663ed3f5",
       "type": "Person",
@@ -47,7 +88,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

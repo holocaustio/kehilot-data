@@ -5,7 +5,7 @@
   "summary": "Eleven Jews from Vynnyky were killed during the 1914 pogrom.",
   "originalName": "יהודים מוויניק",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 233,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 680,
       "passageCharEnd": 709,
-      "normalizedPassageCharStart": 509,
-      "normalizedPassageCharEnd": 532,
+      "normalizedPassageCharStart": 680,
+      "normalizedPassageCharEnd": 709,
       "pageCharStart": 680,
       "pageCharEnd": 709,
       "quote": "והרג ו ב ו 11 יהודי ם\nמוויניק",
-      "normalizedQuote": "והרגובו11יהודים מוויניק",
+      "normalizedQuote": "והרג ו ב ו 11 יהודי ם\nמוויניק",
       "modelQuote": "והרגובו11יהודים מוויניק",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n232/mode/1up",
@@ -32,14 +32,14 @@
       "passageChecksum": "9c9c11c40fd493be1f6c44ae4a12deefe8ff1511bba4a56403a02bc2d473bf37",
       "normalizedPassageChecksum": "c3fcf67cca62e214b838a93146aa2a3afb43d1b27f6b3a49f4dafbb4deca688d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_8dc4b51f28d2bc26238822e8",
+      "id": "event_candidate_b5f3698ba95470fc58375108",
       "type": "Aktion Or Raid",
       "title": "1914 pogrom in Lviv",
       "summary": "Rioters killed eleven Jews from Vynnyky and damaged the synagogue and guesthouse.",
@@ -54,12 +54,12 @@
         "printedPage": null,
         "passageCharStart": 600,
         "passageCharEnd": 654,
-        "normalizedPassageCharStart": 449,
-        "normalizedPassageCharEnd": 491,
+        "normalizedPassageCharStart": 600,
+        "normalizedPassageCharEnd": 654,
         "pageCharStart": 600,
         "pageCharEnd": 654,
         "quote": "בשנ ת 1914 ע ם כניס ת הרוסיי ם והפוגרו ם הראשו ן\nבלבוב",
-        "normalizedQuote": "בשנת1914עםכניסתהרוסייםוהפוגרוםהראשון בלבוב",
+        "normalizedQuote": "בשנ ת 1914 ע ם כניס ת הרוסיי ם והפוגרו ם הראשו ן\nבלבוב",
         "modelQuote": "בשנת1914עםכניסתהרוסייםוהפוגרוםהראשון בלבוב",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n232/mode/1up",
@@ -67,29 +67,23 @@
         "passageChecksum": "9c9c11c40fd493be1f6c44ae4a12deefe8ff1511bba4a56403a02bc2d473bf37",
         "normalizedPassageChecksum": "c3fcf67cca62e214b838a93146aa2a3afb43d1b27f6b3a49f4dafbb4deca688d",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_8dc4b51f28d2bc26238822e8",
+      "id": "event_candidate_b5f3698ba95470fc58375108",
       "type": "Event",
       "title": "1914 pogrom in Lviv",
       "relation": "Participated In",
       "role": "Victim"
     },
     {
-      "id": "mention_fb582031cc0968072d747fdf",
+      "id": "mention_c4de8c02df20d78f1910f35d",
       "type": "Person",
       "title": "Benjamin Vinits",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e7023a19fdff4647281735a2",
-      "type": "Family",
-      "title": "Benjamin Vinits's family",
       "relation": "Appears in same passage"
     },
     {
@@ -105,7 +99,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

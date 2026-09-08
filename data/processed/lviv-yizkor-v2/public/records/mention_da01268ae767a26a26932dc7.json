@@ -5,7 +5,7 @@
   "summary": "Rabbi involved in selecting the Lviv delegation to Vienna.",
   "originalName": "הרבר׳הירשרוזאניש",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 91,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 1080,
       "passageCharEnd": 1103,
-      "normalizedPassageCharStart": 801,
-      "normalizedPassageCharEnd": 817,
+      "normalizedPassageCharStart": 1080,
+      "normalizedPassageCharEnd": 1103,
       "pageCharStart": 1080,
       "pageCharEnd": 1103,
       "quote": "הר ב ר ׳ היר ש רוזאני ש",
-      "normalizedQuote": "הרבר׳הירשרוזאניש",
+      "normalizedQuote": "הר ב ר ׳ היר ש רוזאני ש",
       "modelQuote": "הרבר׳הירשרוזאניש",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n90/mode/1up",
@@ -34,13 +34,52 @@
       "passageChecksum": "63d5587a675b00b7a96ce7df1a457141b3ab05f66dd300ea05d750041d904203",
       "normalizedPassageChecksum": "24bbc0d12aecf73d51baf21978f2f8d2e243dcbd8b0c8b40a0661e6e3a6dcb68",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_19da446fe47a0feeda28c580",
+      "type": "Migration",
+      "title": "Lviv delegation travels to Vienna",
+      "summary": "A Lviv delegation traveled to Vienna to submit requests concerning Jewish status.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_8bae0b68e6082650d66f4a4e",
+        "pageId": "page_nybc313875_0091",
+        "scanIndex": 91,
+        "leafNumber": 90,
+        "printedPage": null,
+        "passageCharStart": 1154,
+        "passageCharEnd": 1188,
+        "normalizedPassageCharStart": 1154,
+        "normalizedPassageCharEnd": 1188,
+        "pageCharStart": 1154,
+        "pageCharEnd": 1188,
+        "quote": "וה ם נסע ו לוינ ה ע ל חשבו ן הקהלה",
+        "normalizedQuote": "וה ם נסע ו לוינ ה ע ל חשבו ן הקהלה",
+        "modelQuote": "והםנסעולוינהעלחשבוןהקהלה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n90/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "63d5587a675b00b7a96ce7df1a457141b3ab05f66dd300ea05d750041d904203",
+        "normalizedPassageChecksum": "24bbc0d12aecf73d51baf21978f2f8d2e243dcbd8b0c8b40a0661e6e3a6dcb68",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_19da446fe47a0feeda28c580",
+      "type": "Event",
+      "title": "Lviv delegation travels to Vienna",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_f4196da166f4ad0276778c7c",
       "type": "Community",
@@ -63,12 +102,6 @@
       "id": "mention_88ae0af60983559d43031f79",
       "type": "Place",
       "title": "Vienna",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_00d721f1a7caecdc42f322af",
-      "type": "Place",
-      "title": "Austria",
       "relation": "Appears in same passage"
     },
     {

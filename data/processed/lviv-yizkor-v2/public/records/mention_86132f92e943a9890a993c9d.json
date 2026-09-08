@@ -5,7 +5,7 @@
   "summary": "A son of Rabbi David Halevi who met Shabbetai Tzvi.",
   "originalName": "ר׳ישעיחהלוי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 60,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 434,
       "passageCharEnd": 455,
-      "normalizedPassageCharStart": 306,
-      "normalizedPassageCharEnd": 321,
+      "normalizedPassageCharStart": 434,
+      "normalizedPassageCharEnd": 455,
       "pageCharStart": 4037,
       "pageCharEnd": 4058,
       "quote": "ישעי ח הלו י ואמ ר לו",
-      "normalizedQuote": "ישעיחהלויואמרלו",
+      "normalizedQuote": "ישעי ח הלו י ואמ ר לו",
       "modelQuote": "ישעיחהלויואמרלו",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -32,13 +32,13 @@
       "passageChecksum": "537750ef4dc571fe8d1beb147e3a22645c72e2362782d196328b552b9129eed4",
       "normalizedPassageChecksum": "05962d9ec48c7bc8ac387d8a23b93235620dec9ae771c02ba5e65fa4910066b4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_a0da33e1c5e86a6c803fa956",
+      "id": "claim_candidate_8388999d270f33b4da2b9044",
       "predicate": "Child Of",
       "subjectTitle": "Rabbi Isaiah Halevi",
       "objectTitle": "Rabbi David Halevi",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 592,
         "passageCharEnd": 636,
-        "normalizedPassageCharStart": 414,
-        "normalizedPassageCharEnd": 445,
+        "normalizedPassageCharStart": 592,
+        "normalizedPassageCharEnd": 636,
         "pageCharStart": 4195,
         "pageCharEnd": 4239,
         "quote": "הו א התעני ן\nבשלו ם הא ב הזק ן ר ׳ דו ד הלוי",
-        "normalizedQuote": "הואהתענין בשלוםהאבהזקןר׳דודהלוי",
+        "normalizedQuote": "הו א התעני ן\nבשלו ם הא ב הזק ן ר ׳ דו ד הלוי",
         "modelQuote": "הואהתענין בשלוםהאבהזקןר׳דודהלוי",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -65,18 +65,58 @@
         "passageChecksum": "537750ef4dc571fe8d1beb147e3a22645c72e2362782d196328b552b9129eed4",
         "normalizedPassageChecksum": "05962d9ec48c7bc8ac387d8a23b93235620dec9ae771c02ba5e65fa4910066b4",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_dadcdb561cf92d9a4eddc51e",
+      "type": "Marriage",
+      "title": "Meeting with Shabbetai Tzvi",
+      "summary": "Rabbi Isaiah Halevi and Rabbi Aryeh Levi met Shabbetai Tzvi.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text describes a meeting, but no allowed meeting event type exists; this candidate is not event-compatible.",
+      "evidence": {
+        "passageId": "passage_5ef158295768d356d58e1a07",
+        "pageId": "page_nybc313875_0060",
+        "scanIndex": 60,
+        "leafNumber": 59,
+        "printedPage": null,
+        "passageCharStart": 388,
+        "passageCharEnd": 413,
+        "normalizedPassageCharStart": 388,
+        "normalizedPassageCharEnd": 413,
+        "pageCharStart": 3991,
+        "pageCharEnd": 4016,
+        "quote": "הו א קר ב א תאורחי ו אליו",
+        "normalizedQuote": "הו א קר ב א תאורחי ו אליו",
+        "modelQuote": "הואקרבאתאורחיואליו",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "537750ef4dc571fe8d1beb147e3a22645c72e2362782d196328b552b9129eed4",
+        "normalizedPassageChecksum": "05962d9ec48c7bc8ac387d8a23b93235620dec9ae771c02ba5e65fa4910066b4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_522c1a4a84e66f6f34de43ee",
       "type": "Person",
       "title": "Rabbi David Halevi",
       "relation": "Child Of"
+    },
+    {
+      "id": "event_candidate_dadcdb561cf92d9a4eddc51e",
+      "type": "Event",
+      "title": "Meeting with Shabbetai Tzvi",
+      "relation": "Participated In",
+      "role": "Participant"
     },
     {
       "id": "mention_522c1a4a84e66f6f34de43ee",

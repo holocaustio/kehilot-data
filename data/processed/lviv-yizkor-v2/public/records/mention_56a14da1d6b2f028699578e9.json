@@ -5,7 +5,7 @@
   "summary": "Rabbi who later served as head of the rabbinical court in Lviv.",
   "originalName": "ר׳משהחייםב״ראליעזר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 206,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 715,
       "passageCharEnd": 798,
-      "normalizedPassageCharStart": 513,
-      "normalizedPassageCharEnd": 576,
+      "normalizedPassageCharStart": 715,
+      "normalizedPassageCharEnd": 798,
       "pageCharStart": 4140,
       "pageCharEnd": 4223,
       "quote": "ר ׳ מש ה חיי ם ב״ ר אליעזר ,\nמקוד ם אב״ ד בקומרנ א וזלוטשוב , ואחרי־כ ן אב״ ד\nבלבוב",
-      "normalizedQuote": "ר׳משהחייםב״ראליעזר, מקודםאב״דבקומרנאוזלוטשוב,ואחרי־כןאב״ד בלבוב",
+      "normalizedQuote": "ר ׳ מש ה חיי ם ב״ ר אליעזר ,\nמקוד ם אב״ ד בקומרנ א וזלוטשוב , ואחרי־כ ן אב״ ד\nבלבוב",
       "modelQuote": "ר׳משהחייםב״ראליעזר, מקודםאב״דבקומרנאוזלוטשוב,ואחרי־כןאב״ד בלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n205/mode/1up",
@@ -33,13 +33,55 @@
       "passageChecksum": "02127adc67836edd3eb11b6cf3e0e5cf8e247b633feac1c4734aa153262e058c",
       "normalizedPassageChecksum": "96fbc916bf251074eeac0a4243c68092b34499cc6c48aa4745ea178b5488ebd2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_4e03d8e00eeaef655d75a9a1",
+      "predicate": "Worked At",
+      "subjectTitle": "Moses Hayyim son of Eliezer",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "head of the rabbinical court",
+        "later_service": true
+      },
+      "evidence": {
+        "passageId": "passage_481a22a5f70bbfb9c6231a87",
+        "pageId": "page_nybc313875_0206",
+        "scanIndex": 206,
+        "leafNumber": 205,
+        "printedPage": null,
+        "passageCharStart": 777,
+        "passageCharEnd": 798,
+        "normalizedPassageCharStart": 777,
+        "normalizedPassageCharEnd": 798,
+        "pageCharStart": 4202,
+        "pageCharEnd": 4223,
+        "quote": "ואחרי־כ ן אב״ ד\nבלבוב",
+        "normalizedQuote": "ואחרי־כ ן אב״ ד\nבלבוב",
+        "modelQuote": "ואחרי־כןאב״ד בלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n205/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "02127adc67836edd3eb11b6cf3e0e5cf8e247b633feac1c4734aa153262e058c",
+        "normalizedPassageChecksum": "96fbc916bf251074eeac0a4243c68092b34499cc6c48aa4745ea178b5488ebd2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Worked At"
+    },
     {
       "id": "mention_e6ba5720a2e3a1f53e63b203",
       "type": "Person",
@@ -53,7 +95,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ecc47dd0a7fa6234af8491de",
+      "id": "mention_c7197ef475fe6845339b2300",
       "type": "Place",
       "title": "Kolomyia",
       "relation": "Appears in same passage"

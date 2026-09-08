@@ -5,7 +5,7 @@
   "summary": "Rabbi Shmarl Katz was killed in the 1703 explosion.",
   "originalName": "המגידר׳שמרלכץ",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 64,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 407,
       "passageCharEnd": 427,
-      "normalizedPassageCharStart": 303,
-      "normalizedPassageCharEnd": 316,
+      "normalizedPassageCharStart": 407,
+      "normalizedPassageCharEnd": 427,
       "pageCharStart": 1730,
       "pageCharEnd": 1750,
       "quote": "המגי ד ר ׳ שמר ל כ ץ",
-      "normalizedQuote": "המגידר׳שמרלכץ",
+      "normalizedQuote": "המגי ד ר ׳ שמר ל כ ץ",
       "modelQuote": "המגידר׳שמרלכץ",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n63/mode/1up",
@@ -34,51 +34,14 @@
       "passageChecksum": "8f6e3c3134424e643a329ed0b37a61be18520aef2759cd17e8ccf22651393ecf",
       "normalizedPassageChecksum": "55a6e6abf930d11353859cea560fdde929a1bc9ef79573c96441a87644e85d00",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_8ba53e49a7c16c31af772240",
-      "predicate": "Died In Explosion",
-      "subjectTitle": "Rabbi Shmarl Katz",
-      "objectTitle": "Jewish quarter",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The passage says he was among the 36 Jews killed, but does not explicitly state the precise location for each victim.",
-      "qualifiers": {
-        "cause": "gunpowder warehouse explosion",
-        "date": "1703-11-23"
-      },
-      "evidence": {
-        "passageId": "passage_37e84aac0f1dc0d92a6ab5ab",
-        "pageId": "page_nybc313875_0064",
-        "scanIndex": 64,
-        "leafNumber": 63,
-        "printedPage": null,
-        "passageCharStart": 398,
-        "passageCharEnd": 427,
-        "normalizedPassageCharStart": 296,
-        "normalizedPassageCharEnd": 316,
-        "pageCharStart": 1721,
-        "pageCharEnd": 1750,
-        "quote": "וביניה ם המגי ד ר ׳ שמר ל כ ץ",
-        "normalizedQuote": "וביניהםהמגידר׳שמרלכץ",
-        "modelQuote": "וביניהםהמגידר׳שמרלכץ",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n63/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "8f6e3c3134424e643a329ed0b37a61be18520aef2759cd17e8ccf22651393ecf",
-        "normalizedPassageChecksum": "55a6e6abf930d11353859cea560fdde929a1bc9ef79573c96441a87644e85d00",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [
     {
-      "id": "event_candidate_90309b03e23dee6cf3ad71ca",
+      "id": "event_candidate_74f70b8603195500ea144bc5",
       "type": "Fire",
       "title": "Gunpowder warehouse explosion",
       "summary": "A gunpowder warehouse exploded in Lviv’s Jewish quarter, killing 36 Jews.",
@@ -92,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 242,
         "passageCharEnd": 317,
-        "normalizedPassageCharStart": 180,
-        "normalizedPassageCharEnd": 236,
+        "normalizedPassageCharStart": 242,
+        "normalizedPassageCharEnd": 317,
         "pageCharStart": 1565,
         "pageCharEnd": 1640,
         "quote": "ב־ 23 בנובמב ר 1703 (ג ׳ כסל ו תס״ג ) אירע ה\nהתפוצצו ת ש ל מחס ן אבק־שריפ ה",
-        "normalizedQuote": "ב־23בנובמבר1703(ג׳כסלותס״ג)אירעה התפוצצותשלמחסןאבק־שריפה",
+        "normalizedQuote": "ב־ 23 בנובמב ר 1703 (ג ׳ כסל ו תס״ג ) אירע ה\nהתפוצצו ת ש ל מחס ן אבק־שריפ ה",
         "modelQuote": "ב־23בנובמבר1703(ג׳כסלותס״ג)אירעה התפוצצותשלמחסןאבק־שריפה",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n63/mode/1up",
@@ -105,27 +68,21 @@
         "passageChecksum": "8f6e3c3134424e643a329ed0b37a61be18520aef2759cd17e8ccf22651393ecf",
         "normalizedPassageChecksum": "55a6e6abf930d11353859cea560fdde929a1bc9ef79573c96441a87644e85d00",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_e1824db98395cb7bb7061744",
-      "type": "Place",
-      "title": "Jewish quarter",
-      "relation": "Died In Explosion"
-    },
-    {
-      "id": "event_candidate_90309b03e23dee6cf3ad71ca",
+      "id": "event_candidate_74f70b8603195500ea144bc5",
       "type": "Event",
       "title": "Gunpowder warehouse explosion",
       "relation": "Participated In",
       "role": "Victim"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -149,7 +106,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"

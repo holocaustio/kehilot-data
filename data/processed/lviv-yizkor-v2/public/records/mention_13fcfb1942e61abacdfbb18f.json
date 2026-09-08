@@ -5,7 +5,7 @@
   "summary": "Office where complaints were submitted in 1762 and 1763.",
   "originalName": "משרדהפודוויבודה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 78,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 256,
       "passageCharEnd": 275,
-      "normalizedPassageCharStart": 195,
-      "normalizedPassageCharEnd": 211,
+      "normalizedPassageCharStart": 256,
+      "normalizedPassageCharEnd": 275,
       "pageCharStart": 256,
       "pageCharEnd": 275,
       "quote": "במשר ד הפודוויבוד ה",
-      "normalizedQuote": "במשרדהפודוויבודה",
+      "normalizedQuote": "במשר ד הפודוויבוד ה",
       "modelQuote": "במשרדהפודוויבודה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n77/mode/1up",
@@ -33,17 +33,17 @@
       "passageChecksum": "850410ea756cbb46049c0b19a0cbdab704c7b3dd7459f1a0345704e3e42ca66f",
       "normalizedPassageChecksum": "b0b4991bec14ec148b568025cb35e501da87c2c16425447f77ec9bf7f35f09ed",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_fa0eb1225a9fd514f5f194aa",
-      "type": "Arrest",
+      "id": "event_candidate_4b352c5d52c808bae89b152c",
+      "type": "Complaint",
       "title": "Complaint against disturbance instigators",
-      "summary": "Mankis and Wroclawski submitted a complaint to the podvoivode's office.",
+      "summary": "Moshe Mankis and Mordechai Wroclawski submitted a complaint against the instigators of the disturbances at the podvoivode's office on 28 May 1762.",
       "dateStart": "1762-05-28",
       "confidence": "HIGH",
       "uncertaintyNote": "The event is a complaint, which is only approximately represented by the available event types.",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 277,
         "passageCharEnd": 311,
-        "normalizedPassageCharStart": 212,
-        "normalizedPassageCharEnd": 239,
+        "normalizedPassageCharStart": 277,
+        "normalizedPassageCharEnd": 311,
         "pageCharStart": 277,
         "pageCharEnd": 311,
         "quote": "הגיש ו תלינ ה\nנג ד מעורר י המהומות",
-        "normalizedQuote": "הגישותלינה נגדמעורריהמהומות",
+        "normalizedQuote": "הגיש ו תלינ ה\nנג ד מעורר י המהומות",
         "modelQuote": "הגישותלינה נגדמעורריהמהומות",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n77/mode/1up",
@@ -68,12 +68,12 @@
         "passageChecksum": "850410ea756cbb46049c0b19a0cbdab704c7b3dd7459f1a0345704e3e42ca66f",
         "normalizedPassageChecksum": "b0b4991bec14ec148b568025cb35e501da87c2c16425447f77ec9bf7f35f09ed",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "event_candidate_96229c4ee0420a56d662de1f",
+      "id": "event_candidate_b9d884e4d7bf5e281e84c76f",
       "type": "Arrest",
       "title": "Protest to the podvoivode",
       "summary": "Sobolishin's supporters submitted a sharp protest on 20 April 1763.",
@@ -88,12 +88,12 @@
         "printedPage": null,
         "passageCharStart": 1059,
         "passageCharEnd": 1110,
-        "normalizedPassageCharStart": 784,
-        "normalizedPassageCharEnd": 823,
+        "normalizedPassageCharStart": 1059,
+        "normalizedPassageCharEnd": 1110,
         "pageCharStart": 1059,
         "pageCharEnd": 1110,
         "quote": "הגיש ו ב־ 20 באפרי ל 1763 מחא ה חריפ ה לפודוויבוד ה",
-        "normalizedQuote": "הגישוב־20באפריל1763מחאהחריפהלפודוויבודה",
+        "normalizedQuote": "הגיש ו ב־ 20 באפרי ל 1763 מחא ה חריפ ה לפודוויבוד ה",
         "modelQuote": "הגישוב־20באפריל1763מחאהחריפהלפודוויבודה",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n77/mode/1up",
@@ -101,29 +101,23 @@
         "passageChecksum": "850410ea756cbb46049c0b19a0cbdab704c7b3dd7459f1a0345704e3e42ca66f",
         "normalizedPassageChecksum": "b0b4991bec14ec148b568025cb35e501da87c2c16425447f77ec9bf7f35f09ed",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_fa0eb1225a9fd514f5f194aa",
+      "id": "event_candidate_4b352c5d52c808bae89b152c",
       "type": "Event",
       "title": "Complaint against disturbance instigators",
       "relation": "Occurred At"
     },
     {
-      "id": "event_candidate_96229c4ee0420a56d662de1f",
+      "id": "event_candidate_b9d884e4d7bf5e281e84c76f",
       "type": "Event",
       "title": "Protest to the podvoivode",
       "relation": "Occurred At"
-    },
-    {
-      "id": "mention_4c9b56ac02a3f67ec9b78b38",
-      "type": "Person",
-      "title": "Moshe Mankis",
-      "relation": "Appears in same passage"
     },
     {
       "id": "mention_26af06c732d170b160080e82",
@@ -132,21 +126,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c5896c7c43acadc5d46921fd",
+      "id": "mention_48b2bc4fa997b12f7744f057",
       "type": "Person",
       "title": "David Sobolishin",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_c110d8200b57126f68da8fcc",
-      "type": "Family",
-      "title": "Mizes family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_656f6caf9d650de49bd5decd",
-      "type": "Family",
-      "title": "Levkovitz family",
       "relation": "Appears in same passage"
     }
   ],

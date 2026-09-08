@@ -5,7 +5,7 @@
   "summary": "Street bordering the affluent Jewish area.",
   "originalName": "סוביסקי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 256,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 674,
       "passageCharEnd": 687,
-      "normalizedPassageCharStart": 500,
-      "normalizedPassageCharEnd": 512,
+      "normalizedPassageCharStart": 674,
+      "normalizedPassageCharEnd": 687,
       "pageCharStart": 674,
       "pageCharEnd": 687,
       "quote": "רחו ב\nסוביסקי",
-      "normalizedQuote": "רחוב סוביסקי",
+      "normalizedQuote": "רחו ב\nסוביסקי",
       "modelQuote": "רחוב סוביסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n255/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "d92efee51334f98ef2136f754ea54a8ebe7ef88dded8c8bf496cc77674d4888a",
       "normalizedPassageChecksum": "514996a1d3b7eca209dac913fe77db96cdb74b83f922dd0eba668217e7cc22f3",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 917,
       "passageCharEnd": 942,
-      "normalizedPassageCharStart": 678,
-      "normalizedPassageCharEnd": 700,
+      "normalizedPassageCharStart": 917,
+      "normalizedPassageCharEnd": 942,
       "pageCharStart": 3561,
       "pageCharEnd": 3586,
       "quote": "בתי־הכנס ת ברחו ב\nסוביסקי",
-      "normalizedQuote": "בתי־הכנסתברחוב סוביסקי",
+      "normalizedQuote": "בתי־הכנס ת ברחו ב\nסוביסקי",
       "modelQuote": "בתי־הכנסתברחוב סוביסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n305/mode/1up",
@@ -57,19 +57,13 @@
       "passageChecksum": "2f8988655f58498f9f4d24fd483b1bd7ad0de3c6cd854e74345c467b5ac58d2e",
       "normalizedPassageChecksum": "e87794a51c217ddf103f3f13fa499548b5f2efdcfebb77cca7fcb5e9cc5b7793",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_7c0bb1fbbb6ce44c5eb21d6b",
-      "type": "Place",
-      "title": "Zolkiew Street",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_b51942d3fd0e5d6eb858c862",
       "type": "Place",
@@ -125,9 +119,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c08bb8deb6c292054cb87fcc",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Jews of Lviv",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -143,7 +137,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_06b9447bad2b7e54525a39fa",
+      "id": "mention_d882645e38e909b3c0ce6990",
       "type": "Institution",
       "title": "Temple",
       "relation": "Appears in same passage"

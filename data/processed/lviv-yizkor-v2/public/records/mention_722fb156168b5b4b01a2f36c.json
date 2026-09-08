@@ -5,7 +5,7 @@
   "summary": "Rabbi of Krakow associated with Megaleh Amukot.",
   "originalName": "ר׳נתןשפירא",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 60,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 384,
       "passageCharEnd": 422,
-      "normalizedPassageCharStart": 282,
-      "normalizedPassageCharEnd": 309,
+      "normalizedPassageCharStart": 384,
+      "normalizedPassageCharEnd": 422,
       "pageCharStart": 2617,
       "pageCharEnd": 2655,
       "quote": "מגי ד מישרים \" בקרקא , ר ׳ נת ן שפיר א",
-      "normalizedQuote": "מגידמישרים\"בקרקא,ר׳נתןשפירא",
+      "normalizedQuote": "מגי ד מישרים \" בקרקא , ר ׳ נת ן שפיר א",
       "modelQuote": "מגידמישרים\"בקרקא,ר׳נתןשפירא",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "7ada94f8f243c513cab0d58a7c2f8925a68abe06cc6c30691c9e06bf9acd5bad",
       "normalizedPassageChecksum": "a62ecf55f7a1354e85b85933bfd9014e59afb3a461c7a40e0e6efe3e8e383c54",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_ac87dee715a36d3ec5752ee0",
+      "id": "claim_candidate_d4c1e4dc28947908a99949b4",
       "predicate": "Associated With",
       "subjectTitle": "Nathan Shapira",
-      "objectTitle": "Krakow",
+      "objectTitle": "Nathan Shapira was associated with Krakow as its maggid mesharim (preacher).",
       "confidence": "MEDIUM",
       "uncertaintyNote": "The text associates him with Krakow but does not explicitly state residence.",
       "evidence": {
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 384,
         "passageCharEnd": 422,
-        "normalizedPassageCharStart": 282,
-        "normalizedPassageCharEnd": 309,
+        "normalizedPassageCharStart": 384,
+        "normalizedPassageCharEnd": 422,
         "pageCharStart": 2617,
         "pageCharEnd": 2655,
         "quote": "מגי ד מישרים \" בקרקא , ר ׳ נת ן שפיר א",
-        "normalizedQuote": "מגידמישרים\"בקרקא,ר׳נתןשפירא",
+        "normalizedQuote": "מגי ד מישרים \" בקרקא , ר ׳ נת ן שפיר א",
         "modelQuote": "מגידמישרים\"בקרקא,ר׳נתןשפירא",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -66,19 +66,13 @@
         "passageChecksum": "7ada94f8f243c513cab0d58a7c2f8925a68abe06cc6c30691c9e06bf9acd5bad",
         "normalizedPassageChecksum": "a62ecf55f7a1354e85b85933bfd9014e59afb3a461c7a40e0e6efe3e8e383c54",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
-    {
-      "id": "mention_02f723f1a22975a97e0e1cb5",
-      "type": "Place",
-      "title": "Krakow",
-      "relation": "Associated With"
-    },
     {
       "id": "mention_abd43d449a522d86815952de",
       "type": "Person",
@@ -89,12 +83,6 @@
       "id": "mention_5d4c3a6a2e71ca6d502f3869",
       "type": "Work",
       "title": "Zera Berakh",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_02f723f1a22975a97e0e1cb5",
-      "type": "Place",
-      "title": "Krakow",
       "relation": "Appears in same passage"
     },
     {
@@ -116,7 +104,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -149,6 +137,12 @@
       "id": "mention_f4c1a7600e8bfa5a8f4a3cee",
       "type": "Place",
       "title": "Komarno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eb8f58d8ab3b7a127c7c51ff",
+      "type": "Place",
+      "title": "Constantinople",
       "relation": "Appears in same passage"
     }
   ],

@@ -5,7 +5,7 @@
   "summary": "Participant in the court that sentenced Philipovitz and the Reyts brothers.",
   "originalName": "סטניסלביאבלונסקי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 69,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 703,
       "passageCharEnd": 731,
-      "normalizedPassageCharStart": 504,
-      "normalizedPassageCharEnd": 529,
+      "normalizedPassageCharStart": 703,
+      "normalizedPassageCharEnd": 731,
       "pageCharStart": 703,
       "pageCharEnd": 731,
       "quote": "בהשתתפו ת\nסטניסל ב יאבלונסקי",
-      "normalizedQuote": "בהשתתפות סטניסלביאבלונסקי",
+      "normalizedQuote": "בהשתתפו ת\nסטניסל ב יאבלונסקי",
       "modelQuote": "בהשתתפות סטניסלביאבלונסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n68/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "5f661852bf09625ff9fb0f4990cbf331f4947eb154a4586b7519585aba7a45ab",
       "normalizedPassageChecksum": "6a7446167a086d18d636e88fa8d22bd91a42f2502aa826bc8703eeb7ef899aa8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_3681951f21f1d5518c62f524",
+      "type": "Murder",
+      "title": "Execution of Hayyim and Joshua Reyts",
+      "summary": "Hayyim and Joshua Reyts were burned after a court sentence in Lviv.",
+      "dateStart": "1728-05",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text describes a judicial execution by burning; the controlled event type MURDER is the closest available category.",
+      "evidence": {
+        "passageId": "passage_4114a033fa0b418e5bd3f27f",
+        "pageId": "page_nybc313875_0069",
+        "scanIndex": 69,
+        "leafNumber": 68,
+        "printedPage": null,
+        "passageCharStart": 1323,
+        "passageCharEnd": 1360,
+        "normalizedPassageCharStart": 1323,
+        "normalizedPassageCharEnd": 1360,
+        "pageCharStart": 1323,
+        "pageCharEnd": 1360,
+        "quote": "במא י 1728 ) 22 ) נשרפ ו הו א ויהוש ע",
+        "normalizedQuote": "במא י 1728 ) 22 ) נשרפ ו הו א ויהוש ע",
+        "modelQuote": "במאי1728)22)נשרפוהואויהושע",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n68/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "5f661852bf09625ff9fb0f4990cbf331f4947eb154a4586b7519585aba7a45ab",
+        "normalizedPassageChecksum": "6a7446167a086d18d636e88fa8d22bd91a42f2502aa826bc8703eeb7ef899aa8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_3681951f21f1d5518c62f524",
+      "type": "Event",
+      "title": "Execution of Hayyim and Joshua Reyts",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_440ed87ba0d2c75a93675b9e",
       "type": "Person",
@@ -77,7 +118,25 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_fd2733121b0dfc0de2bb2f5f",
+      "type": "Person",
+      "title": "Stefan Humicki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e917a3fb8e10cc45c36cff64",
+      "type": "Person",
+      "title": "Stanislaw Potocki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_abe4e4dea200ac176b883606",
+      "type": "Person",
+      "title": "Jesuit priest Zholtovsky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

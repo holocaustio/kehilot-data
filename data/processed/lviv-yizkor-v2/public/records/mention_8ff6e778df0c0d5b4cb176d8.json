@@ -5,7 +5,7 @@
   "summary": "Only synagogue left intact after the Nazis departed.",
   "originalName": "ביודהכנסת",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 364,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 770,
       "passageCharEnd": 856,
-      "normalizedPassageCharStart": 579,
-      "normalizedPassageCharEnd": 643,
+      "normalizedPassageCharStart": 770,
+      "normalizedPassageCharEnd": 856,
       "pageCharStart": 3509,
       "pageCharEnd": 3595,
       "quote": "הוע ד החד ש קיב ל\nמשלטונו ת העי ר א ת בית־הכנס ת היחיד י שנשא ר של ם\nאחר י צא ת הנאצים",
-      "normalizedQuote": "הועדהחדשקיבל משלטונותהעיראתבית־הכנסתהיחידישנשארשלם אחריצאתהנאצים",
+      "normalizedQuote": "הוע ד החד ש קיב ל\nמשלטונו ת העי ר א ת בית־הכנס ת היחיד י שנשא ר של ם\nאחר י צא ת הנאצים",
       "modelQuote": "הועדהחדשקיבל משלטונותהעיראתבית־הכנסתהיחידישנשארשלם אחריצאתהנאצים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n363/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "d2ea2eff3a34537a78981cecfe46c23765d9ec09487043fcea5abfd77d678f48",
       "normalizedPassageChecksum": "5b82829ac4bccbc8f43f07f841d4ed8b5f1d5e5629d1ce7c72e3fa22e710f81d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_14e99e021945cd606ce3e031",
+      "predicate": "Located In",
+      "subjectTitle": "Surviving Lviv synagogue",
+      "objectTitle": "Lviv Jewish community",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1ab5b20e31b90b1c6cea66bf",
+        "pageId": "page_nybc313875_0364",
+        "scanIndex": 364,
+        "leafNumber": 363,
+        "printedPage": null,
+        "passageCharStart": 770,
+        "passageCharEnd": 824,
+        "normalizedPassageCharStart": 770,
+        "normalizedPassageCharEnd": 824,
+        "pageCharStart": 3509,
+        "pageCharEnd": 3563,
+        "quote": "הוע ד החד ש קיב ל\nמשלטונו ת העי ר א ת בית־הכנס ת היחיד",
+        "normalizedQuote": "הוע ד החד ש קיב ל\nמשלטונו ת העי ר א ת בית־הכנס ת היחיד",
+        "modelQuote": "הועדהחדשקיבל משלטונותהעיראתבית־הכנסתהיחיד",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n363/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d2ea2eff3a34537a78981cecfe46c23765d9ec09487043fcea5abfd77d678f48",
+        "normalizedPassageChecksum": "5b82829ac4bccbc8f43f07f841d4ed8b5f1d5e5629d1ce7c72e3fa22e710f81d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Located In"
+    },
     {
       "id": "mention_78f5fcd2dd2a01c4c5ed90d9",
       "type": "Organization",

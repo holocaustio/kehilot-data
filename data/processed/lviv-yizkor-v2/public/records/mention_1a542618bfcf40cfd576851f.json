@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 617,
       "passageCharEnd": 691,
-      "normalizedPassageCharStart": 465,
-      "normalizedPassageCharEnd": 522,
+      "normalizedPassageCharStart": 617,
+      "normalizedPassageCharEnd": 691,
       "pageCharStart": 617,
       "pageCharEnd": 691,
       "quote": "האצילי ם תמכ ו ביהודי ם והחכיר ו לה ם\nא ת בתיה ם ומגרשיהם , ביחו ד בפרברים",
-      "normalizedQuote": "האציליםתמכוביהודיםוהחכירולהם אתבתיהםומגרשיהם,ביחודבפרברים",
+      "normalizedQuote": "האצילי ם תמכ ו ביהודי ם והחכיר ו לה ם\nא ת בתיה ם ומגרשיהם , ביחו ד בפרברים",
       "modelQuote": "האציליםתמכוביהודיםוהחכירולהםאתבתיהםומגרשיהם,ביחודבפרברים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n64/mode/1up",
@@ -37,11 +37,50 @@
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_5d61c22fcf66a201d606f83f",
+      "predicate": "Lived At",
+      "subjectTitle": "Jewish residents",
+      "objectTitle": "Suburbs",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage says nobles leased homes and plots to Jews, especially in the suburbs; residence is implied but not explicit.",
+      "evidence": {
+        "passageId": "passage_bd4636fb73ec16faf27928f0",
+        "pageId": "page_nybc313875_0065",
+        "scanIndex": 65,
+        "leafNumber": 64,
+        "printedPage": null,
+        "passageCharStart": 642,
+        "passageCharEnd": 691,
+        "normalizedPassageCharStart": 642,
+        "normalizedPassageCharEnd": 691,
+        "pageCharStart": 642,
+        "pageCharEnd": 691,
+        "quote": "החכיר ו לה ם\nא ת בתיה ם ומגרשיהם , ביחו ד בפרברים",
+        "normalizedQuote": "החכיר ו לה ם\nא ת בתיה ם ומגרשיהם , ביחו ד בפרברים",
+        "modelQuote": "החכירולהם אתבתיהםומגרשיהם,ביחודבפרברים",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n64/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "df8e3664c4e6bb681d59c209affbb3fa8a6addb829b6777cee964c74e6fb4da2",
+        "normalizedPassageChecksum": "59043cfa0bb5984446c5e23ef515823fbd15c4dc417c22f3aed22fec6c3daaf0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_c28f86d23df8565a1e5bccba",
+      "id": "mention_aab80f12aca29ac4f4e73a34",
+      "type": "Community",
+      "title": "Jewish residents",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_9b71e41686bcf22378e612ac",
       "type": "Community",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -49,7 +88,7 @@
     {
       "id": "mention_1c00c5431353b2689d07abba",
       "type": "Place",
-      "title": "Jewish Street",
+      "title": "Jewish Street, Lviv",
       "relation": "Appears in same passage"
     },
     {

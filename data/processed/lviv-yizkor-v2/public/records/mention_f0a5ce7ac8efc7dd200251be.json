@@ -5,7 +5,7 @@
   "summary": "Yiddish publication edited by Nathan Samoeli and Jacob-Tzvi Shperling.",
   "originalName": "יודישעפרעסע",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 159,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 30,
       "passageCharEnd": 94,
-      "normalizedPassageCharStart": 23,
-      "normalizedPassageCharEnd": 72,
+      "normalizedPassageCharStart": 30,
+      "normalizedPassageCharEnd": 94,
       "pageCharStart": 30,
       "pageCharEnd": 94,
       "quote": "\"יודיש ע פרעסע׳ / בעריכת ם ש ל נת ן סמואל י ויעקב ־\nצב י שפרלינג",
-      "normalizedQuote": "\"יודישעפרעסע׳/בעריכתםשלנתןסמואליויעקב־ צבישפרלינג",
+      "normalizedQuote": "\"יודיש ע פרעסע׳ / בעריכת ם ש ל נת ן סמואל י ויעקב ־\nצב י שפרלינג",
       "modelQuote": "\"יודישעפרעסע׳/בעריכתםשלנתןסמואליויעקב־ צבישפרלינג",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n158/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "329c9fd13cb4af0539801f44c82db351b5d0cf57fa3f0c6bb8503606e3e13a1d",
       "normalizedPassageChecksum": "4e54a5f34bd5b76b990ffe428e6c3e6127ad33b95ec1d74bb3a2df5be2fa9fe6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_1bccfa63131b3762e211f8a5",
+      "id": "claim_candidate_6137750779089ec4c30cff8a",
       "predicate": "Authored By",
       "subjectTitle": "Yidishe Presse",
       "objectTitle": "Nathan Samoeli",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 48,
         "passageCharEnd": 73,
-        "normalizedPassageCharStart": 37,
-        "normalizedPassageCharEnd": 55,
+        "normalizedPassageCharStart": 48,
+        "normalizedPassageCharEnd": 73,
         "pageCharStart": 48,
         "pageCharEnd": 73,
         "quote": "בעריכת ם ש ל נת ן סמואל י",
-        "normalizedQuote": "בעריכתםשלנתןסמואלי",
+        "normalizedQuote": "בעריכת ם ש ל נת ן סמואל י",
         "modelQuote": "בעריכתםשלנתןסמואלי",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n158/mode/1up",
@@ -68,13 +68,13 @@
         "passageChecksum": "329c9fd13cb4af0539801f44c82db351b5d0cf57fa3f0c6bb8503606e3e13a1d",
         "normalizedPassageChecksum": "4e54a5f34bd5b76b990ffe428e6c3e6127ad33b95ec1d74bb3a2df5be2fa9fe6",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "claim_candidate_f9a63bb301eb3247247581b9",
-      "predicate": "Authored By",
+      "id": "claim_candidate_8827bb195239ab1e45faf00b",
+      "predicate": "Edited By",
       "subjectTitle": "Yidishe Presse",
       "objectTitle": "Jacob-Tzvi Shperling",
       "confidence": "HIGH",
@@ -89,12 +89,12 @@
         "printedPage": null,
         "passageCharStart": 74,
         "passageCharEnd": 94,
-        "normalizedPassageCharStart": 55,
-        "normalizedPassageCharEnd": 72,
+        "normalizedPassageCharStart": 74,
+        "normalizedPassageCharEnd": 94,
         "pageCharStart": 74,
         "pageCharEnd": 94,
         "quote": "ויעקב ־\nצב י שפרלינג",
-        "normalizedQuote": "ויעקב־ צבישפרלינג",
+        "normalizedQuote": "ויעקב ־\nצב י שפרלינג",
         "modelQuote": "ויעקב־ צבישפרלינג",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n158/mode/1up",
@@ -102,7 +102,7 @@
         "passageChecksum": "329c9fd13cb4af0539801f44c82db351b5d0cf57fa3f0c6bb8503606e3e13a1d",
         "normalizedPassageChecksum": "4e54a5f34bd5b76b990ffe428e6c3e6127ad33b95ec1d74bb3a2df5be2fa9fe6",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -119,7 +119,7 @@
       "id": "mention_a875330a38deebc8e28920b7",
       "type": "Person",
       "title": "Jacob-Tzvi Shperling",
-      "relation": "Authored By"
+      "relation": "Edited By"
     },
     {
       "id": "mention_440ed87ba0d2c75a93675b9e",
@@ -137,12 +137,6 @@
       "id": "mention_a875330a38deebc8e28920b7",
       "type": "Person",
       "title": "Jacob-Tzvi Shperling",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -191,6 +185,12 @@
       "id": "mention_0c3ee37db594fd6fa5f505f4",
       "type": "Institution",
       "title": "First soup kitchen",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a9bc014f0dadcb3c94a88aaa",
+      "type": "Institution",
+      "title": "Jewish schools",
       "relation": "Appears in same passage"
     }
   ],

@@ -5,7 +5,7 @@
   "summary": "Named as a manager of the Jewish Police department.",
   "originalName": "שפירא",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 310,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 390,
       "passageCharEnd": 396,
-      "normalizedPassageCharStart": 297,
-      "normalizedPassageCharEnd": 302,
+      "normalizedPassageCharStart": 390,
+      "normalizedPassageCharEnd": 396,
       "pageCharStart": 390,
       "pageCharEnd": 396,
       "quote": "שפיר א",
-      "normalizedQuote": "שפירא",
+      "normalizedQuote": "שפיר א",
       "modelQuote": "שפירא",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n309/mode/1up",
@@ -33,23 +33,52 @@
       "passageChecksum": "d6e741e0bc95a6f9b601c69adcfda1e9c7eba48785375ee6f0cbefd6365dd6b9",
       "normalizedPassageChecksum": "305570053148c17f2e34b8ec3f8bad5a3d6cd6fd99cf790c986f357a355bd0c4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_8adfc2a320d79e8acba07596",
+      "predicate": "Worked At",
+      "subjectTitle": "Shapira",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "department manager"
+      },
+      "evidence": {
+        "passageId": "passage_54fba5a5ea08579933acf31d",
+        "pageId": "page_nybc313875_0310",
+        "scanIndex": 310,
+        "leafNumber": 309,
+        "printedPage": null,
+        "passageCharStart": 390,
+        "passageCharEnd": 396,
+        "normalizedPassageCharStart": 390,
+        "normalizedPassageCharEnd": 396,
+        "pageCharStart": 390,
+        "pageCharEnd": 396,
+        "quote": "שפיר א",
+        "normalizedQuote": "שפיר א",
+        "modelQuote": "שפירא",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n309/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d6e741e0bc95a6f9b601c69adcfda1e9c7eba48785375ee6f0cbefd6365dd6b9",
+        "normalizedPassageChecksum": "305570053148c17f2e34b8ec3f8bad5a3d6cd6fd99cf790c986f357a355bd0c4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
       "id": "mention_cde6907c5da4991f947863dd",
       "type": "Person",
       "title": "Dr. P. Friedman",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a71a29b61eeec0bf3f141982",
-      "type": "Organization",
-      "title": "Jewish Council",
       "relation": "Appears in same passage"
     },
     {
@@ -83,21 +112,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4783ea0b92028892fdd951ee",
-      "type": "Person",
-      "title": "Guliner",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_ec15dbeb44f19329e49509bc",
       "type": "Person",
       "title": "Sagnok",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d178dc7315e422b8d89ce0c8",
-      "type": "Person",
-      "title": "Holtz",
       "relation": "Appears in same passage"
     }
   ],

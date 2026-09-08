@@ -5,7 +5,7 @@
   "summary": "Polish liberal supporting Jewish opposition in the municipal council.",
   "originalName": "פלוריאןזיאמליאקובסקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 148,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1114,
       "passageCharEnd": 1136,
-      "normalizedPassageCharStart": 831,
-      "normalizedPassageCharEnd": 851,
+      "normalizedPassageCharStart": 1114,
+      "normalizedPassageCharEnd": 1136,
       "pageCharStart": 3680,
       "pageCharEnd": 3702,
       "quote": "פלוריא ן זיאמליאקובסקי",
-      "normalizedQuote": "פלוריאןזיאמליאקובסקי",
+      "normalizedQuote": "פלוריא ן זיאמליאקובסקי",
       "modelQuote": "פלוריאןזיאמליאקובסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n147/mode/1up",
@@ -33,21 +33,59 @@
       "passageChecksum": "1e7ab3bf87777761ab8109c700979ba2a496aa05ff5255643fd5f2154874f6b6",
       "normalizedPassageChecksum": "a7a47f09139bb3d3b495b8b2c9bda28c49de3cabf75ff3de93e36eccb845d3e5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_dff5ec561e02b747ea1ccff6",
+      "predicate": "Member Of",
+      "subjectTitle": "Florian Ziemialkowski",
+      "objectTitle": "Lviv City Council",
+      "confidence": "MEDIUM",
+      "evidence": {
+        "passageId": "passage_86fa1de39918d9839aba2b8e",
+        "pageId": "page_nybc313875_0148",
+        "scanIndex": 148,
+        "leafNumber": 147,
+        "printedPage": null,
+        "passageCharStart": 1114,
+        "passageCharEnd": 1136,
+        "normalizedPassageCharStart": 1114,
+        "normalizedPassageCharEnd": 1136,
+        "pageCharStart": 3680,
+        "pageCharEnd": 3702,
+        "quote": "פלוריא ן זיאמליאקובסקי",
+        "normalizedQuote": "פלוריא ן זיאמליאקובסקי",
+        "modelQuote": "פלוריאןזיאמליאקובסקי",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n147/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "1e7ab3bf87777761ab8109c700979ba2a496aa05ff5255643fd5f2154874f6b6",
+        "normalizedPassageChecksum": "a7a47f09139bb3d3b495b8b2c9bda28c49de3cabf75ff3de93e36eccb845d3e5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_c08bb8deb6c292054cb87fcc",
+      "id": "mention_2446631b722e8d2fb81fb821",
+      "type": "Institution",
+      "title": "Lviv City Council",
+      "relation": "Member Of"
+    },
+    {
+      "id": "mention_feb14564eae3e04dbb3762ae",
       "type": "Community",
       "title": "Jews of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -71,7 +109,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_efb3525e69fd9a9ad11d7439",
+      "id": "mention_43ccb96a1ca09599ea321d27",
       "type": "Person",
       "title": "Joshua Mizem",
       "relation": "Appears in same passage"

@@ -5,7 +5,7 @@
   "summary": "Served as regional leader for thirty years during Zolkiew’s prominence.",
   "originalName": "גרשוןבןנתןבןבצלאלהמוכסן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 81,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 165,
       "passageCharEnd": 198,
-      "normalizedPassageCharStart": 122,
-      "normalizedPassageCharEnd": 145,
+      "normalizedPassageCharStart": 165,
+      "normalizedPassageCharEnd": 198,
       "pageCharStart": 3880,
       "pageCharEnd": 3913,
       "quote": "גרשו ן ב ן נת ן ב ן בצלא ל המוכסן",
-      "normalizedQuote": "גרשוןבןנתןבןבצלאלהמוכסן",
+      "normalizedQuote": "גרשו ן ב ן נת ן ב ן בצלא ל המוכסן",
       "modelQuote": "גרשוןבןנתןבןבצלאלהמוכסן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n80/mode/1up",
@@ -33,13 +33,55 @@
       "passageChecksum": "31084ea4c77496a97adec50d30fcebc10353691ebac7cda4cf4bc27570bc0a63",
       "normalizedPassageChecksum": "91457ff321d3d0d78ea7874d52d1372c7c10b8c13586b00f8b305a051cd2a821",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_32b64bcf2612575089704c7a",
+      "predicate": "Led By",
+      "subjectTitle": "Gershon son of Nathan son of Bezalel the tax farmer",
+      "objectTitle": "Zolkiew",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "regional leader",
+        "duration": "30 years"
+      },
+      "evidence": {
+        "passageId": "passage_770f6578a099d4f5efd0c243",
+        "pageId": "page_nybc313875_0081",
+        "scanIndex": 81,
+        "leafNumber": 80,
+        "printedPage": null,
+        "passageCharStart": 116,
+        "passageCharEnd": 142,
+        "normalizedPassageCharStart": 116,
+        "normalizedPassageCharEnd": 142,
+        "pageCharStart": 3831,
+        "pageCharEnd": 3857,
+        "quote": "במש ך 30 שנ ה כיה ן כפרנ ס",
+        "normalizedQuote": "במש ך 30 שנ ה כיה ן כפרנ ס",
+        "modelQuote": "במשך30שנהכיהןכפרנס",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n80/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "31084ea4c77496a97adec50d30fcebc10353691ebac7cda4cf4bc27570bc0a63",
+        "normalizedPassageChecksum": "91457ff321d3d0d78ea7874d52d1372c7c10b8c13586b00f8b305a051cd2a821",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_ea14ecfd78a2cb772cf09145",
+      "type": "Community",
+      "title": "Zolkiew",
+      "relation": "Led By"
+    },
     {
       "id": "mention_632bb2e12c52f3c51925c8cf",
       "type": "Person",

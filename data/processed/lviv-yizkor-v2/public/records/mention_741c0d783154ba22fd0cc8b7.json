@@ -5,7 +5,7 @@
   "summary": "Country included among permitted import-trade origins.",
   "originalName": "איטליה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 39,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 302,
       "passageCharEnd": 326,
-      "normalizedPassageCharStart": 226,
-      "normalizedPassageCharEnd": 247,
+      "normalizedPassageCharStart": 302,
+      "normalizedPassageCharEnd": 326,
       "pageCharStart": 302,
       "pageCharEnd": 326,
       "quote": "מאיטליה , תורכי ה\nוולכיה",
-      "normalizedQuote": "מאיטליה,תורכיה וולכיה",
+      "normalizedQuote": "מאיטליה , תורכי ה\nוולכיה",
       "modelQuote": "מאיטליה,תורכיה וולכיה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n38/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "66e5bd93be71af142526f3b848ec898203d2f32c26ccbb509fec4f7d89ba5194",
       "normalizedPassageChecksum": "7827f6e527df305d04d0246a1e828aba44843080c9a6525f42371b420a87b452",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 1269,
       "passageCharEnd": 1276,
-      "normalizedPassageCharStart": 941,
-      "normalizedPassageCharEnd": 947,
+      "normalizedPassageCharStart": 1269,
+      "normalizedPassageCharEnd": 1276,
       "pageCharStart": 1269,
       "pageCharEnd": 1276,
       "quote": "איטלי ה",
-      "normalizedQuote": "איטליה",
+      "normalizedQuote": "איטלי ה",
       "modelQuote": "איטליה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n364/mode/1up",
@@ -57,19 +57,13 @@
       "passageChecksum": "95a048b5fa9b2c0217bf951789aaf1d6bcd1e58462a1919e7fc7148bbb934a22",
       "normalizedPassageChecksum": "d487d5692315fcb8391bf1b113e2aa9636f3d101b34334c50c8cb50ef6a9ec97",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_00d721f1a7caecdc42f322af",
       "type": "Place",
@@ -95,7 +89,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
@@ -113,25 +107,19 @@
       "relation": "Appears in same passage"
     },
     {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
       "id": "mention_061b5b2f2d6022d0483d9ba2",
       "type": "Place",
       "title": "Poland",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a6aa6e9d023950ad2f7d220e",
-      "type": "Place",
-      "title": "Warsaw",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_02bfd01e4d2ba40c17fa4606",
-      "type": "Place",
-      "title": "Lodz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_02f723f1a22975a97e0e1cb5",
+      "id": "mention_f2c524e70e7ad3b8e971a919",
       "type": "Place",
       "title": "Krakow",
       "relation": "Appears in same passage"
@@ -146,12 +134,6 @@
       "id": "mention_cb259180891bc9ffb2d980ba",
       "type": "Place",
       "title": "Israel",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_24a653f599d68f6aab07981f",
-      "type": "Place",
-      "title": "South America",
       "relation": "Appears in same passage"
     }
   ],

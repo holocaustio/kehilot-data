@@ -5,7 +5,7 @@
   "summary": "Lviv rabbi who did not join Mahzikei ha-Dat.",
   "originalName": "הרבר׳צביאורנשטייןמלבוב",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 235,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 465,
       "passageCharEnd": 515,
-      "normalizedPassageCharStart": 353,
-      "normalizedPassageCharEnd": 388,
+      "normalizedPassageCharStart": 465,
+      "normalizedPassageCharEnd": 515,
       "pageCharStart": 3910,
       "pageCharEnd": 3960,
       "quote": "הר ב ר ׳ צב י אורנשטיי ן מלבו ב ומספ ר רבני ם עמ ו",
-      "normalizedQuote": "הרבר׳צביאורנשטייןמלבובומספררבניםעמו",
+      "normalizedQuote": "הר ב ר ׳ צב י אורנשטיי ן מלבו ב ומספ ר רבני ם עמ ו",
       "modelQuote": "הרבר׳צביאורנשטייןמלבובומספררבניםעמו",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n234/mode/1up",
@@ -34,11 +34,46 @@
       "passageChecksum": "d6b8f6d47ce83048dc70081941fd6e1534aadebad34dc034380783dc05b4d089",
       "normalizedPassageChecksum": "5593e11e64f7facee0c374569846767120428c9b074c30495282d404a77d2c0c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_1109df51f04eaffcf7f1db8d",
+      "predicate": "Located In",
+      "subjectTitle": "Rabbi Zev Ornstein",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "description": "rabbi from Lviv"
+      },
+      "evidence": {
+        "passageId": "passage_2d678441ad0c611ee6e7b455",
+        "pageId": "page_nybc313875_0235",
+        "scanIndex": 235,
+        "leafNumber": 234,
+        "printedPage": null,
+        "passageCharStart": 465,
+        "passageCharEnd": 496,
+        "normalizedPassageCharStart": 465,
+        "normalizedPassageCharEnd": 496,
+        "pageCharStart": 3910,
+        "pageCharEnd": 3941,
+        "quote": "הר ב ר ׳ צב י אורנשטיי ן מלבו ב",
+        "normalizedQuote": "הר ב ר ׳ צב י אורנשטיי ן מלבו ב",
+        "modelQuote": "הרבר׳צביאורנשטייןמלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n234/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d6b8f6d47ce83048dc70081941fd6e1534aadebad34dc034380783dc05b4d089",
+        "normalizedPassageChecksum": "5593e11e64f7facee0c374569846767120428c9b074c30495282d404a77d2c0c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {

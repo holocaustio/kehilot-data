@@ -1,11 +1,11 @@
 {
   "id": "mention_8abf4737331bfad1b7069c1f",
   "type": "Place",
-  "title": "Old Jewish Cemetery",
+  "title": "Old Jewish Cemetery in Lviv",
   "summary": "Old Jewish cemetery in Lviv.",
   "originalName": "ביתהעלמיןהיהודיהישן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 11,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1316,
       "passageCharEnd": 1342,
-      "normalizedPassageCharStart": 1004,
-      "normalizedPassageCharEnd": 1023,
+      "normalizedPassageCharStart": 1316,
+      "normalizedPassageCharEnd": 1342,
       "pageCharStart": 1316,
       "pageCharEnd": 1342,
       "quote": "בי ת העלמי ן היהוד י היש ן",
-      "normalizedQuote": "ביתהעלמיןהיהודיהישן",
+      "normalizedQuote": "בי ת העלמי ן היהוד י היש ן",
       "modelQuote": "ביתהעלמיןהיהודיהישן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n10/mode/1up",
@@ -33,36 +33,224 @@
       "passageChecksum": "30afd178452190a0e29ae521f33fc3b191efbddf96f3bc896038e3bf00ee20a2",
       "normalizedPassageChecksum": "6ddbea2e3df7ec26156a16e5c60bb8319f68ce5584b25846fdec10d31fb906af",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
-      "passageId": "passage_8bc373c61a90ed49e5ef4949",
-      "pageId": "page_nybc313875_0291",
-      "scanIndex": 291,
-      "leafNumber": 290,
+      "passageId": "passage_4de2bfecb981c85122e106f6",
+      "pageId": "page_nybc313875_0286",
+      "scanIndex": 286,
+      "leafNumber": 285,
+      "printedPage": null,
+      "passageCharStart": 0,
+      "passageCharEnd": 32,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 32,
+      "pageCharStart": 0,
+      "pageCharEnd": 32,
+      "quote": "בית־העלמי ן היהוד י היש ן בלבו ב",
+      "normalizedQuote": "בית־העלמי ן היהוד י היש ן בלבו ב",
+      "modelQuote": "בית־העלמיןהיהודיהישןבלבוב",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n285/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "a5955ea530a7d9ea96d9cfe6632c6ca96e89b12ff5f08ab6dadede62ab71c3db",
+      "normalizedPassageChecksum": "bc121ef51f5e3cacac3ec36de815fa6fa150a2de8202e98444d0483a55708701",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_64eaeb82f9d42db0d54efc17",
+      "pageId": "page_nybc313875_0287",
+      "scanIndex": 287,
+      "leafNumber": 286,
       "printedPage": null,
       "passageCharStart": 5,
-      "passageCharEnd": 30,
+      "passageCharEnd": 37,
       "normalizedPassageCharStart": 5,
-      "normalizedPassageCharEnd": 25,
+      "normalizedPassageCharEnd": 37,
       "pageCharStart": 5,
-      "pageCharEnd": 30,
-      "quote": "כית־העלמי ן היהוד י היש ן",
-      "normalizedQuote": "כית־העלמיןהיהודיהישן",
-      "modelQuote": "כית־העלמיןהיהודיהישן",
+      "pageCharEnd": 37,
+      "quote": "בית־העלמי ן היהוד י היש ן כלכו ב",
+      "normalizedQuote": "בית־העלמי ן היהוד י היש ן כלכו ב",
+      "modelQuote": "בית־העלמין היהודי הישן כלכוב",
       "bbox": null,
-      "scanUrl": "https://archive.org/details/nybc313875/page/n290/mode/1up",
+      "scanUrl": "https://archive.org/details/nybc313875/page/n286/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-      "passageChecksum": "2abe4e670f81eb9ad97bd9b7a70459a2d40e3040975c737c540d4b16fa50e87c",
-      "normalizedPassageChecksum": "f47dfb5214e301db251ac7f553e290c3d8f9c76a1f41f60b4cc547c7b3492bce",
+      "passageChecksum": "8a1c7f2964965796865b895018c60c5eb493b468f5c1b94df883356f9d728d8b",
+      "normalizedPassageChecksum": "5904213aa3b7cf7a5c2665eee7c3445d878641466e791da5c850e7bb10f5f423",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_b0a7d64f7b41070c8c92af05",
+      "predicate": "Located In",
+      "subjectTitle": "Old Jewish Cemetery in Lviv",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4de2bfecb981c85122e106f6",
+        "pageId": "page_nybc313875_0286",
+        "scanIndex": 286,
+        "leafNumber": 285,
+        "printedPage": null,
+        "passageCharStart": 95,
+        "passageCharEnd": 121,
+        "normalizedPassageCharStart": 95,
+        "normalizedPassageCharEnd": 121,
+        "pageCharStart": 95,
+        "pageCharEnd": 121,
+        "quote": "בית־הקברו ת היהוד י\nבלבו ב",
+        "normalizedQuote": "בית־הקברו ת היהוד י\nבלבו ב",
+        "modelQuote": "בית־הקברותהיהודי בלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n285/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a5955ea530a7d9ea96d9cfe6632c6ca96e89b12ff5f08ab6dadede62ab71c3db",
+        "normalizedPassageChecksum": "bc121ef51f5e3cacac3ec36de815fa6fa150a2de8202e98444d0483a55708701",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_0b4735df0ef5372f7bd8dff4",
+      "predicate": "Located In",
+      "subjectTitle": "Old Jewish Cemetery in Lviv",
+      "objectTitle": "Spitalna Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4de2bfecb981c85122e106f6",
+        "pageId": "page_nybc313875_0286",
+        "scanIndex": 286,
+        "leafNumber": 285,
+        "printedPage": null,
+        "passageCharStart": 398,
+        "passageCharEnd": 436,
+        "normalizedPassageCharStart": 398,
+        "normalizedPassageCharEnd": 436,
+        "pageCharStart": 398,
+        "pageCharEnd": 436,
+        "quote": "בית־העלמי ן היש ן שע״ י רחו ב\nשפיטאלנה",
+        "normalizedQuote": "בית־העלמי ן היש ן שע״ י רחו ב\nשפיטאלנה",
+        "modelQuote": "בית־העלמיןהישןשע״ירחוב שפיטאלנה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n285/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a5955ea530a7d9ea96d9cfe6632c6ca96e89b12ff5f08ab6dadede62ab71c3db",
+        "normalizedPassageChecksum": "bc121ef51f5e3cacac3ec36de815fa6fa150a2de8202e98444d0483a55708701",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_a7cc2c27d4a5c9c7c1ca994a",
+      "predicate": "Authored By",
+      "subjectTitle": "Rabbi David Kahana",
+      "objectTitle": "Old Jewish Cemetery in Lviv",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage presents the text as written by Rabbi David Kahana.",
+      "evidence": {
+        "passageId": "passage_4de2bfecb981c85122e106f6",
+        "pageId": "page_nybc313875_0286",
+        "scanIndex": 286,
+        "leafNumber": 285,
+        "printedPage": null,
+        "passageCharStart": 34,
+        "passageCharEnd": 68,
+        "normalizedPassageCharStart": 34,
+        "normalizedPassageCharEnd": 68,
+        "pageCharStart": 34,
+        "pageCharEnd": 68,
+        "quote": "מא ת הר ב ד״ ר דו ד כהנא , ס/אלו ף",
+        "normalizedQuote": "מא ת הר ב ד״ ר דו ד כהנא , ס/אלו ף",
+        "modelQuote": "מאתהרבד״רדודכהנא,ס/אלוף",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n285/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a5955ea530a7d9ea96d9cfe6632c6ca96e89b12ff5f08ab6dadede62ab71c3db",
+        "normalizedPassageChecksum": "bc121ef51f5e3cacac3ec36de815fa6fa150a2de8202e98444d0483a55708701",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_5274fb237e29192611d00eb6",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Professor Meir Balaban",
+      "objectTitle": "Old Jewish Cemetery in Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "year": "1588"
+      },
+      "evidence": {
+        "passageId": "passage_64eaeb82f9d42db0d54efc17",
+        "pageId": "page_nybc313875_0287",
+        "scanIndex": 287,
+        "leafNumber": 286,
+        "printedPage": null,
+        "passageCharStart": 629,
+        "passageCharEnd": 733,
+        "normalizedPassageCharStart": 629,
+        "normalizedPassageCharEnd": 733,
+        "pageCharStart": 629,
+        "pageCharEnd": 733,
+        "quote": "פרופ ׳ מאי ר בלב ן ז״ ל יג ע ומצ א שבשנ ת\n1588 הקיפ ו 63 בתי ם וחצרו ת נוצריי ם א ת בית ־\nהעלמי ן היהודי",
+        "normalizedQuote": "פרופ ׳ מאי ר בלב ן ז״ ל יג ע ומצ א שבשנ ת\n1588 הקיפ ו 63 בתי ם וחצרו ת נוצריי ם א ת בית ־\nהעלמי ן היהודי",
+        "modelQuote": "פרופ׳ מאיר בלבן ז״ליגעומצאשבשנת 1588הקיפו63בתיםוחצרותנוצרייםאתבית־ העלמיןהיהודי",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n286/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "8a1c7f2964965796865b895018c60c5eb493b468f5c1b94df883356f9d728d8b",
+        "normalizedPassageChecksum": "5904213aa3b7cf7a5c2665eee7c3445d878641466e791da5c850e7bb10f5f423",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_99eb33d0eb7a63ac84177bc3",
+      "type": "Death",
+      "title": "Closure of the old Jewish cemetery in Lviv",
+      "summary": "The old cemetery is described as closed in 1855.",
+      "dateStart": "1855",
+      "dateEnd": "1855",
+      "confidence": "HIGH",
+      "uncertaintyNote": "Closure is not an allowed event type; no event emitted.",
+      "evidence": {
+        "passageId": "passage_4de2bfecb981c85122e106f6",
+        "pageId": "page_nybc313875_0286",
+        "scanIndex": 286,
+        "leafNumber": 285,
+        "printedPage": null,
+        "passageCharStart": 358,
+        "passageCharEnd": 389,
+        "normalizedPassageCharStart": 358,
+        "normalizedPassageCharEnd": 389,
+        "pageCharStart": 358,
+        "pageCharEnd": 389,
+        "quote": "ע ד שנ ת 1855 ,\nז״ א ע ד סגירתו",
+        "normalizedQuote": "ע ד שנ ת 1855 ,\nז״ א ע ד סגירתו",
+        "modelQuote": "עדשנת1855, ז״אעדסגירתו",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n285/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a5955ea530a7d9ea96d9cfe6632c6ca96e89b12ff5f08ab6dadede62ab71c3db",
+        "normalizedPassageChecksum": "bc121ef51f5e3cacac3ec36de815fa6fa150a2de8202e98444d0483a55708701",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_440ed87ba0d2c75a93675b9e",
@@ -125,45 +313,129 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c08bb8deb6c292054cb87fcc",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Jews of Lviv",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_82988a2f6ebee4ff860aa9fd",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_6c6ce6706b72d92cc98198ad",
+      "type": "Place",
+      "title": "Spitalna Street",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_918b966fec4b3ffe9832dbd4",
       "type": "Person",
-      "title": "Isaac son of Jacob",
+      "title": "Rabbi David Kahana",
+      "relation": "Authored By"
+    },
+    {
+      "id": "event_candidate_99eb33d0eb7a63ac84177bc3",
+      "type": "Event",
+      "title": "Closure of the old Jewish cemetery in Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_918b966fec4b3ffe9832dbd4",
+      "type": "Person",
+      "title": "Rabbi David Kahana",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a68a43c0d472f79371b1c944",
-      "type": "Person",
-      "title": "Judah son of Samuel",
+      "id": "mention_6c6ce6706b72d92cc98198ad",
+      "type": "Place",
+      "title": "Spitalna Street",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c609c9d4e7594cae5536a2a1",
-      "type": "Person",
-      "title": "Eliezer son of Samuel",
+      "id": "mention_ab8f18d6a1ad23d9a48d1653",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0e95ad59ce605a7394259f5a",
-      "type": "Person",
-      "title": "Solomon son of Samuel",
+      "id": "mention_35ccf2910e5e657d2731eae8",
+      "type": "Community",
+      "title": "Inner-city Jewish congregation of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_21877031a6160b7a67e7e5c4",
+      "id": "mention_02286abfc35c2e7324f5e635",
+      "type": "Community",
+      "title": "Outlying Jewish congregation of Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1c00c5431353b2689d07abba",
+      "type": "Place",
+      "title": "Jewish Street, Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c1fc7aed49f0deac938f136b",
       "type": "Person",
-      "title": "Ozer son of Solomon",
+      "title": "Professor Meir Balaban",
+      "relation": "Mentioned In"
+    },
+    {
+      "id": "mention_8389f552790b8d552816cabd",
+      "type": "Person",
+      "title": "Head of the Karaite community in Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a7f7c9b29740408297f1b55a",
+      "type": "Person",
+      "title": "Rabbi Jacob Kahal",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c0599e940b4460d48d53cde7",
+      "type": "Person",
+      "title": "Rabbi Asher HaCohen",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c1fc7aed49f0deac938f136b",
+      "type": "Person",
+      "title": "Professor Meir Balaban",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9d8e7a818980a9ab27c5ccec",
+      "type": "Place",
+      "title": "Dominican Square",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0ec0639e76837f267e6b69e2",
+      "type": "Place",
+      "title": "Krakow Gate",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3528c1ccc9150a2559ef5fcc",
+      "type": "Place",
+      "title": "Krakowska Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1c1c2bb2092d91c347ce6693",
+      "type": "Place",
+      "title": "Skarbekovska Street",
       "relation": "Appears in same passage"
     }
   ],

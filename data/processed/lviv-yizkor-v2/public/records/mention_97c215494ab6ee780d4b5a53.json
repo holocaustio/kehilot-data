@@ -5,7 +5,7 @@
   "summary": "Named as a district leader and first leader of the lands.",
   "originalName": "ר׳מנחםשמומענדל",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 84,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 138,
       "passageCharEnd": 158,
-      "normalizedPassageCharStart": 95,
-      "normalizedPassageCharEnd": 109,
+      "normalizedPassageCharStart": 138,
+      "normalizedPassageCharEnd": 158,
       "pageCharStart": 3144,
       "pageCharEnd": 3164,
       "quote": "ר ׳ מנח ם שמ ו מענדל",
-      "normalizedQuote": "ר׳מנחםשמומענדל",
+      "normalizedQuote": "ר ׳ מנח ם שמ ו מענדל",
       "modelQuote": "ר׳מנחםשמומענדל",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n83/mode/1up",
@@ -34,7 +34,7 @@
       "passageChecksum": "d8e0ba7d6a4140fbf1714dbc6a4698b883126706f1a86557ca7aae2d032d8321",
       "normalizedPassageChecksum": "5aa401ef45c4eae616d6961fd1918aee53a26c3eb462d0652071a1f3ea966840",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -42,27 +42,9 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_37795d179c0899df3d4520ca",
-      "type": "Person",
-      "title": "R. Zeev ben Meikish",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_3081aa5e9bd72d486f8f6bdd",
       "type": "Person",
       "title": "R. Moshe Meashil",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b7752b481f225f6602b04360",
-      "type": "Person",
-      "title": "R. Mordechai of Lublin",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_cf419acd607d2bbfe80e3051",
-      "type": "Person",
-      "title": "R. Chaim ben David Makh",
       "relation": "Appears in same passage"
     },
     {
@@ -102,15 +84,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_8cae8713df3c8f8a6a059e20",
       "type": "Place",
-      "title": "Lviv",
+      "title": "Yavorov",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d9ff8fee9d352cfb55811c61",
-      "type": "Place",
-      "title": "Lublin",
+      "id": "mention_c482500006ac5e9fdaa0fbb3",
+      "type": "Community",
+      "title": "Two communities",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c371fec6eddfe52b688fa548",
+      "type": "Organization",
+      "title": "Rabbinical court",
       "relation": "Appears in same passage"
     }
   ],

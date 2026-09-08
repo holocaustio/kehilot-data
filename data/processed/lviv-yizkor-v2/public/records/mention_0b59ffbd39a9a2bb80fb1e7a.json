@@ -5,7 +5,7 @@
   "summary": "Former governorate official in Lviv who recommended full Jewish civil equality.",
   "originalName": "קרויס",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 191,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 800,
       "passageCharEnd": 848,
-      "normalizedPassageCharStart": 599,
-      "normalizedPassageCharEnd": 635,
+      "normalizedPassageCharStart": 800,
+      "normalizedPassageCharEnd": 848,
       "pageCharStart": 2008,
       "pageCharEnd": 2056,
       "quote": "ברו ן קרוי ס (מ י שהי ה פקי ד הגוברניו ן\nבלבוב )",
-      "normalizedQuote": "ברוןקרויס(מישהיהפקידהגוברניון בלבוב)",
+      "normalizedQuote": "ברו ן קרוי ס (מ י שהי ה פקי ד הגוברניו ן\nבלבוב )",
       "modelQuote": "ברוןקרויס(מישהיהפקידהגוברניון בלבוב)",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n190/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "690c1d8010600588cddd7110ba6e7d078ad0576afefcb54999db135e52f37337",
       "normalizedPassageChecksum": "85835b7d6f5ea75ff8fea5b3f2e638aad3f3796924d6db2f75a249a378b727db",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_3fb077b5b05bb07a8051cb86",
+      "id": "claim_candidate_78aad53c824a367d9e6a9b0e",
       "predicate": "Worked At",
       "subjectTitle": "Krois",
-      "objectTitle": "Lviv",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "qualifiers": {
         "role": "former governorate official"
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 814,
         "passageCharEnd": 846,
-        "normalizedPassageCharStart": 609,
-        "normalizedPassageCharEnd": 634,
+        "normalizedPassageCharStart": 814,
+        "normalizedPassageCharEnd": 846,
         "pageCharStart": 2022,
         "pageCharEnd": 2054,
         "quote": "מ י שהי ה פקי ד הגוברניו ן\nבלבוב",
-        "normalizedQuote": "מישהיהפקידהגוברניון בלבוב",
+        "normalizedQuote": "מ י שהי ה פקי ד הגוברניו ן\nבלבוב",
         "modelQuote": "מישהיהפקידהגוברניון בלבוב",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n190/mode/1up",
@@ -68,19 +68,13 @@
         "passageChecksum": "690c1d8010600588cddd7110ba6e7d078ad0576afefcb54999db135e52f37337",
         "normalizedPassageChecksum": "85835b7d6f5ea75ff8fea5b3f2e638aad3f3796924d6db2f75a249a378b727db",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Worked At"
-    },
     {
       "id": "mention_0563e54ba3117db803d9bee9",
       "type": "Community",
@@ -109,12 +103,6 @@
       "id": "mention_5d6e35f57bc46fa8db715169",
       "type": "Person",
       "title": "Bach",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
       "relation": "Appears in same passage"
     }
   ],

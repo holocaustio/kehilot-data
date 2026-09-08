@@ -5,7 +5,7 @@
   "summary": "Community where Tzvi established a yeshiva and taught.",
   "originalName": "באלטונא",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 205,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 658,
       "passageCharEnd": 682,
-      "normalizedPassageCharStart": 469,
-      "normalizedPassageCharEnd": 486,
+      "normalizedPassageCharStart": 658,
+      "normalizedPassageCharEnd": 682,
       "pageCharStart": 1456,
       "pageCharEnd": 1480,
       "quote": "ר ׳ צב י התיש ב באלטונ א",
-      "normalizedQuote": "ר׳צביהתישבבאלטונא",
+      "normalizedQuote": "ר ׳ צב י התיש ב באלטונ א",
       "modelQuote": "ר׳צביהתישבבאלטונא",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n204/mode/1up",
@@ -32,13 +32,44 @@
       "passageChecksum": "11fb7351d5a615f5e0178f08ccea9202e0b2b1fe406a2396ce401e181c22d287",
       "normalizedPassageChecksum": "812cfd12f9fc06b1b27499dd01de0fe0246a7d824b732cdaf36cd39fb562fab5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_21370d36c8f8f324b8f98f8b",
+      "id": "claim_candidate_db0e05353eff0a43106c2a7b",
+      "predicate": "Lived At",
+      "subjectTitle": "Tzvi Hirsch Ashkenazi",
+      "objectTitle": "Altona community",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_49ad5b438b54ee213b37a7ea",
+        "pageId": "page_nybc313875_0205",
+        "scanIndex": 205,
+        "leafNumber": 204,
+        "printedPage": null,
+        "passageCharStart": 658,
+        "passageCharEnd": 682,
+        "normalizedPassageCharStart": 658,
+        "normalizedPassageCharEnd": 682,
+        "pageCharStart": 1456,
+        "pageCharEnd": 1480,
+        "quote": "ר ׳ צב י התיש ב באלטונ א",
+        "normalizedQuote": "ר ׳ צב י התיש ב באלטונ א",
+        "modelQuote": "ר׳צביהתישבבאלטונא",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n204/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "11fb7351d5a615f5e0178f08ccea9202e0b2b1fe406a2396ce401e181c22d287",
+        "normalizedPassageChecksum": "812cfd12f9fc06b1b27499dd01de0fe0246a7d824b732cdaf36cd39fb562fab5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_efac28ca2c1fc7204899cc0d",
       "predicate": "Located In",
       "subjectTitle": "Yeshiva in Altona",
       "objectTitle": "Altona community",
@@ -51,12 +82,12 @@
         "printedPage": null,
         "passageCharStart": 684,
         "passageCharEnd": 701,
-        "normalizedPassageCharStart": 488,
-        "normalizedPassageCharEnd": 500,
+        "normalizedPassageCharStart": 684,
+        "normalizedPassageCharEnd": 701,
         "pageCharStart": 1482,
         "pageCharEnd": 1499,
         "quote": "קב ע ישיב ה בבי ת",
-        "normalizedQuote": "קבעישיבהבבית",
+        "normalizedQuote": "קב ע ישיב ה בבי ת",
         "modelQuote": "קבעישיבהבבית",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n204/mode/1up",
@@ -64,13 +95,19 @@
         "passageChecksum": "11fb7351d5a615f5e0178f08ccea9202e0b2b1fe406a2396ce401e181c22d287",
         "normalizedPassageChecksum": "812cfd12f9fc06b1b27499dd01de0fe0246a7d824b732cdaf36cd39fb562fab5",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_3378b6da19b9dc972a24bd71",
+      "type": "Person",
+      "title": "Tzvi Hirsch Ashkenazi",
+      "relation": "Lived At"
+    },
     {
       "id": "mention_13ef6f0fe4ce53f5e8ca355d",
       "type": "Institution",
@@ -120,15 +157,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0fc5857222e287c72b79e236",
+      "id": "mention_71ba730f48c05a37dfeb7a69",
       "type": "Place",
       "title": "Hamburg",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_c876f91836531e28c5c08c9e",
-      "type": "Place",
-      "title": "Wandsbek",
       "relation": "Appears in same passage"
     },
     {

@@ -1,13 +1,13 @@
 {
   "schemaVersion": "kehilot-yizkor-selected-release-v1",
   "selectedVersion": "lviv-yizkor-v2",
-  "selectedAt": "2026-09-06T22:19:14.327Z",
+  "selectedAt": "2026-09-08T18:21:30.477Z",
   "community": "lviv",
   "bookId": "book_nybc313875",
   "publicGraphPath": "data/processed/lviv-yizkor-v2/adjudication/resolved-graph.json",
   "sourcePassagesPath": "data/processed/lviv-yizkor-v1/source/passages.jsonl",
-  "graphSha256": "4a7d7e7ba0f1606c7920896838f7d69ac20102d9fea2186393dc1db644cbd917",
-  "sourceSha256": "cc5dd0cabcc9b0688c115d9a9870d0e210464bf519cf4fe97e07815280e8d1a4",
+  "graphSha256": "bf0e39aea1d5afca66431745415d2a6487c1d43de9150608da9888fd3f8ac0d5",
+  "sourceSha256": "11a6bde88e2244ee1eb12744c452bb0875b4cdde148f2fcc390b5e54cf7f654d",
   "checks": {
     "allStagesCompleted": true,
     "structuralValidationPassed": true,
@@ -16,18 +16,18 @@
   },
   "allowedIncompleteStages": [],
   "provenance": {
-    "observations": 13175,
+    "observations": 13796,
     "missingEvidence": 0,
     "invalidRawRanges": 0
   },
   "counts": {
     "passages": 1233,
-    "mentions": 9632,
-    "claims": 2490,
-    "events": 1053,
-    "quarantinedAtExtraction": 1136,
-    "adjudicationReviewQueue": 140,
-    "publicSourceLinkedObservations": 11581
+    "mentions": 9643,
+    "claims": 2892,
+    "events": 1261,
+    "quarantinedAtExtraction": 515,
+    "adjudicationReviewQueue": 131,
+    "publicSourceLinkedObservations": 11856
   },
   "models": {
     "inventory": {
@@ -41,7 +41,7 @@
       "serviceTier": "flex",
       "reasoningEffort": "none",
       "promptVersion": "yizkor-extraction-prompt-v5",
-      "validatorVersion": "yizkor-provenance-validator-v4"
+      "validatorVersion": "yizkor-provenance-validator-v5"
     },
     "luna": {
       "model": "gpt-5.6-luna",
@@ -52,16 +52,16 @@
     "terra": {
       "model": "gpt-5.6-terra",
       "serviceTier": "flex",
-      "reasoningEffort": "high",
+      "reasoningEffort": "medium",
       "promptVersion": "yizkor-adjudication-prompt-v1"
     }
   },
   "costsUsd": {
     "inventory": 0.10455,
     "extraction": 1.109533,
-    "luna": 0.406162,
-    "terra": 0.45602,
-    "total": 2.076265
+    "luna": 0.448169,
+    "terra": 0.359898,
+    "total": 2.02215
   },
   "publicationPolicy": {
     "humanReviewComplete": false,

@@ -5,7 +5,7 @@
   "summary": "Rabbi whose donation honored the study house.",
   "originalName": "הרבר׳בנימיןזאב(וואווצי)שיינבלום",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 237,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 98,
       "passageCharEnd": 139,
-      "normalizedPassageCharStart": 70,
-      "normalizedPassageCharEnd": 101,
+      "normalizedPassageCharStart": 98,
+      "normalizedPassageCharEnd": 139,
       "pageCharStart": 3088,
       "pageCharEnd": 3129,
       "quote": "הר ב ר ׳ בנימי ן זא ב (וואווצי ) שיינבלום",
-      "normalizedQuote": "הרבר׳בנימיןזאב(וואווצי)שיינבלום",
+      "normalizedQuote": "הר ב ר ׳ בנימי ן זא ב (וואווצי ) שיינבלום",
       "modelQuote": "הרבר׳בנימיןזאב(וואווצי)שיינבלום",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n236/mode/1up",
@@ -33,14 +33,47 @@
       "passageChecksum": "e1b04232e19ed8c220afc1f1e022ea9c09eeed51060d61ea0e43a35a47282d01",
       "normalizedPassageChecksum": "146d2b9e4bf8ea83697aec9e85c5dba0b66e5da266f336c6209b5a1b64e040ed",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_35b12719771a192b10b03e39",
+      "predicate": "Donor Of",
+      "subjectTitle": "Rabbi Benjamin Zev Sheynblum",
+      "objectTitle": "Sixtuska Kloyz",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The wording indicates a donation connected with the study house but does not clearly define the relationship.",
+      "evidence": {
+        "passageId": "passage_0737267c466ac7537096226c",
+        "pageId": "page_nybc313875_0237",
+        "scanIndex": 237,
+        "leafNumber": 236,
+        "printedPage": null,
+        "passageCharStart": 86,
+        "passageCharEnd": 139,
+        "normalizedPassageCharStart": 86,
+        "normalizedPassageCharEnd": 139,
+        "pageCharStart": 3076,
+        "pageCharEnd": 3129,
+        "quote": "בנדבת ו\nש ל הר ב ר ׳ בנימי ן זא ב (וואווצי ) שיינבלום",
+        "normalizedQuote": "בנדבת ו\nש ל הר ב ר ׳ בנימי ן זא ב (וואווצי ) שיינבלום",
+        "modelQuote": "בנדבתו שלהרבר׳בנימיןזאב(וואווצי)שיינבלום",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n236/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "e1b04232e19ed8c220afc1f1e022ea9c09eeed51060d61ea0e43a35a47282d01",
+        "normalizedPassageChecksum": "146d2b9e4bf8ea83697aec9e85c5dba0b66e5da266f336c6209b5a1b64e040ed",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [
     {
-      "id": "event_candidate_d00ea751d80475825628cfce",
+      "id": "event_candidate_172c9c588582502711c03e08",
       "type": "Organization Founding",
       "title": "Establishment of the Sixtuska Study House",
       "summary": "A study house was established around 1910 with donor support.",
@@ -57,11 +90,11 @@
         "passageCharStart": 0,
         "passageCharEnd": 31,
         "normalizedPassageCharStart": 0,
-        "normalizedPassageCharEnd": 22,
+        "normalizedPassageCharEnd": 31,
         "pageCharStart": 2990,
         "pageCharEnd": 3021,
         "quote": "בער ך בשנ ת תר״ ג הוק ם הקלוי ז",
-        "normalizedQuote": "בערךבשנתתר״גהוקםהקלויז",
+        "normalizedQuote": "בער ך בשנ ת תר״ ג הוק ם הקלוי ז",
         "modelQuote": "בערךבשנתתר״גהוקםהקלויז",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n236/mode/1up",
@@ -69,14 +102,20 @@
         "passageChecksum": "e1b04232e19ed8c220afc1f1e022ea9c09eeed51060d61ea0e43a35a47282d01",
         "normalizedPassageChecksum": "146d2b9e4bf8ea83697aec9e85c5dba0b66e5da266f336c6209b5a1b64e040ed",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_d00ea751d80475825628cfce",
+      "id": "mention_70e51159338b5c968b374aaa",
+      "type": "Institution",
+      "title": "Sixtuska Kloyz",
+      "relation": "Donor Of"
+    },
+    {
+      "id": "event_candidate_172c9c588582502711c03e08",
       "type": "Event",
       "title": "Establishment of the Sixtuska Study House",
       "relation": "Participated In",

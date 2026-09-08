@@ -5,7 +5,7 @@
   "summary": "Head of the rabbinical court in Lviv and an early member of the kloyz.",
   "originalName": "הגאוןר׳אורי־וואלףסאלאט",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 236,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,11 +21,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 51,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 40,
+      "normalizedPassageCharEnd": 51,
       "pageCharStart": 3855,
       "pageCharEnd": 3906,
       "quote": "הגאו ן ר ׳ אורי־וואל ף סאלאט , רא ש בית־הדי ן\nבלבוב",
-      "normalizedQuote": "הגאוןר׳אורי־וואלףסאלאט,ראשבית־הדין בלבוב",
+      "normalizedQuote": "הגאו ן ר ׳ אורי־וואל ף סאלאט , רא ש בית־הדי ן\nבלבוב",
       "modelQuote": "הגאוןר׳אורי־וואלףסאלאט,ראשבית־הדין בלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n235/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "191d49d8cab26113132b24f5bc373e3af7144c06100aadd743a6af976b9e983f",
       "normalizedPassageChecksum": "5280727b20d0a9d75293a7dd5cba84e877815d523d063f40fd6b03584d326c41",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_1b61a18d6212dba0ce9bc750",
+      "predicate": "Member Of",
+      "subjectTitle": "Rabbi Uri-Wolf Salat",
+      "objectTitle": "Zhidachov Memorial Synagogue",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_750cef475873179aafd42d93",
+        "pageId": "page_nybc313875_0236",
+        "scanIndex": 236,
+        "leafNumber": 235,
+        "printedPage": null,
+        "passageCharStart": 54,
+        "passageCharEnd": 82,
+        "normalizedPassageCharStart": 54,
+        "normalizedPassageCharEnd": 82,
+        "pageCharStart": 3909,
+        "pageCharEnd": 3937,
+        "quote": "הי ה מעשר ה הראשוני ם בקלויז",
+        "normalizedQuote": "הי ה מעשר ה הראשוני ם בקלויז",
+        "modelQuote": "היהמעשרההראשוניםבקלויז",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n235/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "191d49d8cab26113132b24f5bc373e3af7144c06100aadd743a6af976b9e983f",
+        "normalizedPassageChecksum": "5280727b20d0a9d75293a7dd5cba84e877815d523d063f40fd6b03584d326c41",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_d46942f082661385fc4d1d63",
+      "type": "Institution",
+      "title": "Zhidachov Memorial Synagogue",
+      "relation": "Member Of"
+    },
     {
       "id": "mention_ddf3410d14a57269de2a3875",
       "type": "Person",

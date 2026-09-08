@@ -5,7 +5,7 @@
   "summary": "Merchant in Lviv who died in 1712.",
   "originalName": "יוסף",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 63,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 1233,
       "passageCharEnd": 1281,
-      "normalizedPassageCharStart": 902,
-      "normalizedPassageCharEnd": 937,
+      "normalizedPassageCharStart": 1233,
+      "normalizedPassageCharEnd": 1281,
       "pageCharStart": 2183,
       "pageCharEnd": 2231,
       "quote": "אחי ו יוס ף הי ה סוח ר\n\nבלבו ב ונפט ר בשנ ת 1712",
-      "normalizedQuote": "אחיויוסףהיהסוחר\n\nבלבובונפטרבשנת1712",
+      "normalizedQuote": "אחי ו יוס ף הי ה סוח ר\n\nבלבו ב ונפט ר בשנ ת 1712",
       "modelQuote": "אחיויוסףהיהסוחר\n\nבלבובונפטרבשנת1712",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n62/mode/1up",
@@ -34,13 +34,13 @@
       "passageChecksum": "c3188d1b3d7c9bacab960dad7b7673fdbf89d1b35da9afa80ae93b6fa386ff69",
       "normalizedPassageChecksum": "0a853d3d430be52fff7ce857bd2fdd8fda538b973fa88b782ec90fbb81f6811e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_61869d7e274e09ec0356d1a2",
+      "id": "claim_candidate_a95897de2bb830d060ed9f6c",
       "predicate": "Lived At",
       "subjectTitle": "Joseph",
       "objectTitle": "Lviv",
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 1239,
         "passageCharEnd": 1263,
-        "normalizedPassageCharStart": 906,
-        "normalizedPassageCharEnd": 924,
+        "normalizedPassageCharStart": 1239,
+        "normalizedPassageCharEnd": 1263,
         "pageCharStart": 2189,
         "pageCharEnd": 2213,
         "quote": "יוס ף הי ה סוח ר\n\nבלבו ב",
-        "normalizedQuote": "יוסףהיהסוחר\n\nבלבוב",
+        "normalizedQuote": "יוס ף הי ה סוח ר\n\nבלבו ב",
         "modelQuote": "יוסףהיהסוחר\n\nבלבוב",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n62/mode/1up",
@@ -66,14 +66,14 @@
         "passageChecksum": "c3188d1b3d7c9bacab960dad7b7673fdbf89d1b35da9afa80ae93b6fa386ff69",
         "normalizedPassageChecksum": "0a853d3d430be52fff7ce857bd2fdd8fda538b973fa88b782ec90fbb81f6811e",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [
     {
-      "id": "event_candidate_5c9b32c95561f93ebc2a36b3",
+      "id": "event_candidate_5ef40d7dacd6bdd4bfd15839",
       "type": "Death",
       "title": "Death of Joseph",
       "summary": "Joseph, a merchant in Lviv, died in 1712.",
@@ -88,12 +88,12 @@
         "printedPage": null,
         "passageCharStart": 1257,
         "passageCharEnd": 1281,
-        "normalizedPassageCharStart": 919,
-        "normalizedPassageCharEnd": 937,
+        "normalizedPassageCharStart": 1257,
+        "normalizedPassageCharEnd": 1281,
         "pageCharStart": 2207,
         "pageCharEnd": 2231,
         "quote": "בלבו ב ונפט ר בשנ ת 1712",
-        "normalizedQuote": "בלבובונפטרבשנת1712",
+        "normalizedQuote": "בלבו ב ונפט ר בשנ ת 1712",
         "modelQuote": "בלבובונפטרבשנת1712",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n62/mode/1up",
@@ -101,20 +101,20 @@
         "passageChecksum": "c3188d1b3d7c9bacab960dad7b7673fdbf89d1b35da9afa80ae93b6fa386ff69",
         "normalizedPassageChecksum": "0a853d3d430be52fff7ce857bd2fdd8fda538b973fa88b782ec90fbb81f6811e",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Lived At"
     },
     {
-      "id": "event_candidate_5c9b32c95561f93ebc2a36b3",
+      "id": "event_candidate_5ef40d7dacd6bdd4bfd15839",
       "type": "Event",
       "title": "Death of Joseph",
       "relation": "Participated In",
@@ -127,7 +127,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -151,7 +151,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"

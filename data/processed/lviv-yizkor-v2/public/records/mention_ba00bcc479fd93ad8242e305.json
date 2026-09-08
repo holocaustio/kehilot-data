@@ -5,7 +5,7 @@
   "summary": "Served as a deputy to the aid committee president.",
   "originalName": "פרום׳זיגמונטברומ־ ברג־ביטקובסקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 172,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 549,
       "passageCharEnd": 586,
-      "normalizedPassageCharStart": 407,
-      "normalizedPassageCharEnd": 438,
+      "normalizedPassageCharStart": 549,
+      "normalizedPassageCharEnd": 586,
       "pageCharStart": 1895,
       "pageCharEnd": 1932,
       "quote": "פרום ׳ זיגמונ ט ברומ ־\nברג־ביטקובסק י",
-      "normalizedQuote": "פרום׳זיגמונטברומ־ ברג־ביטקובסקי",
+      "normalizedQuote": "פרום ׳ זיגמונ ט ברומ ־\nברג־ביטקובסק י",
       "modelQuote": "פרום׳זיגמונטברומ־ ברג־ביטקובסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n171/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "8ed8c874943b7efde953ce67777813d057d73a66ce3dae3de4e09b06031386b6",
       "normalizedPassageChecksum": "9d986c29b836620967fc6f2312a4b7b24ede4812e3014fe87cd74492f83fd286",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_1fc5318a2baa8e115b5b9e7c",
+      "predicate": "Participated In",
+      "subjectTitle": "Professor Zygmunt Bromberg-Bitkowski",
+      "objectTitle": "Aid Committee",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "deputy"
+      },
+      "evidence": {
+        "passageId": "passage_5c9ef54882a266a6bebe87e5",
+        "pageId": "page_nybc313875_0172",
+        "scanIndex": 172,
+        "leafNumber": 171,
+        "printedPage": null,
+        "passageCharStart": 549,
+        "passageCharEnd": 600,
+        "normalizedPassageCharStart": 549,
+        "normalizedPassageCharEnd": 600,
+        "pageCharStart": 1895,
+        "pageCharEnd": 1946,
+        "quote": "פרום ׳ זיגמונ ט ברומ ־\nברג־ביטקובסק י וליא ו וואה ל",
+        "normalizedQuote": "פרום ׳ זיגמונ ט ברומ ־\nברג־ביטקובסק י וליא ו וואה ל",
+        "modelQuote": "פרום׳זיגמונטברומ־ ברג־ביטקובסקיוליאווואהל",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n171/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "8ed8c874943b7efde953ce67777813d057d73a66ce3dae3de4e09b06031386b6",
+        "normalizedPassageChecksum": "9d986c29b836620967fc6f2312a4b7b24ede4812e3014fe87cd74492f83fd286",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_bda0d11a81a5f5e5611e769e",
+      "type": "Organization",
+      "title": "Aid Committee",
+      "relation": "Participated In"
+    },
     {
       "id": "mention_90cb05326dc9c84758eabee8",
       "type": "Person",
@@ -77,9 +118,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {

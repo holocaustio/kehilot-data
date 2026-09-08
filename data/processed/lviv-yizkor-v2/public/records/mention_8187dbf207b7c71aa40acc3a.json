@@ -5,7 +5,7 @@
   "summary": "Jewish merchant in Lviv who signed a petition concerning Jewish dress.",
   "originalName": "ליב מנדלסזוהן",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 108,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 286,
       "passageCharEnd": 300,
-      "normalizedPassageCharStart": 215,
-      "normalizedPassageCharEnd": 228,
+      "normalizedPassageCharStart": 286,
+      "normalizedPassageCharEnd": 300,
       "pageCharStart": 2784,
       "pageCharEnd": 2798,
       "quote": "לי ב\nמנדלסזוהן",
-      "normalizedQuote": "ליב מנדלסזוהן",
+      "normalizedQuote": "לי ב\nמנדלסזוהן",
       "modelQuote": "ליב מנדלסזוהן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n107/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "cd567c79652f4c295dd941ad0c068fb5450c089a403f17b6da00f50def17201c",
       "normalizedPassageChecksum": "c57ebb6aa17058289bfa52d673cfa1b95655d2da39aa988ddf206903c03c1bfb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_6b80059fd7fe44e15f8b5b4c",
+      "id": "claim_candidate_da6891f5561b2fdcb63f7fe3",
       "predicate": "Member Of",
       "subjectTitle": "Lieb Mendelssohn",
       "objectTitle": "Lviv Jewish community",
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 193,
         "passageCharEnd": 300,
-        "normalizedPassageCharStart": 145,
-        "normalizedPassageCharEnd": 228,
+        "normalizedPassageCharStart": 193,
+        "normalizedPassageCharEnd": 300,
         "pageCharStart": 2691,
         "pageCharEnd": 2798,
         "quote": "סוחרי ם יהודי ם משלמי־המ ס הגדולים , הנכבדי ם\nוהאמידי ם ביות ר ש ל קהל ת לבוב : פיש ל מיזם , לי ב\nמנדלסזוהן",
-        "normalizedQuote": "סוחריםיהודיםמשלמי־המסהגדולים,הנכבדים והאמידיםביותרשלקהלתלבוב:פישלמיזם,ליב מנדלסזוהן",
+        "normalizedQuote": "סוחרי ם יהודי ם משלמי־המ ס הגדולים , הנכבדי ם\nוהאמידי ם ביות ר ש ל קהל ת לבוב : פיש ל מיזם , לי ב\nמנדלסזוהן",
         "modelQuote": "סוחרים יהודים משלמי־המס הגדולים,הנכבדים והאמידים ביותר של קהלת לבוב:פישלמיזם,ליב מנדלסזוהן",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n107/mode/1up",
@@ -74,10 +74,17 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_b3724975d6fc1539b519d029",
+      "type": "Event",
+      "title": "Petition against proposed changes to Jewish dress",
+      "relation": "Participated In",
+      "role": "Participant"
     },
     {
       "id": "mention_b72d0a668e44ad58ae0ee2eb",
@@ -98,9 +105,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     }
   ],

@@ -5,7 +5,7 @@
   "summary": "City where a commission assessed buildings in January 1607.",
   "originalName": "בובה",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 35,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 508,
       "passageCharEnd": 534,
-      "normalizedPassageCharStart": 382,
-      "normalizedPassageCharEnd": 402,
+      "normalizedPassageCharStart": 508,
+      "normalizedPassageCharEnd": 534,
       "pageCharStart": 508,
       "pageCharEnd": 534,
       "quote": "לבוב ה במחצי ת ינוא ר 1607",
-      "normalizedQuote": "לבובהבמחציתינואר1607",
+      "normalizedQuote": "לבוב ה במחצי ת ינוא ר 1607",
       "modelQuote": "לבובהבמחציתינואר1607",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n34/mode/1up",
@@ -34,17 +34,17 @@
       "passageChecksum": "56e4f78d56105c364c1ddd31cd3e40e58f26f71b4a960f87ba4fdfc5602492b7",
       "normalizedPassageChecksum": "2091bccbb7508ded0fbe062d9bed1e454a2d99d7ff51251ff3d962eaa04aa6f9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_fd3ab3f9e2335e5451732fdf",
-      "type": "Employment",
+      "id": "event_candidate_e6963b0262ef75362dfd7385",
+      "type": "Building Assessment",
       "title": "Commission assessment of buildings",
-      "summary": "A commission assessed the buildings in Bova in mid-January 1607.",
+      "summary": "A commission assessed buildings in Bova in mid-January 1607.",
       "dateStart": "1607-01",
       "confidence": "HIGH",
       "uncertaintyNote": "Employment is only a schema-compatible approximation; the text describes an assessment.",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 492,
         "passageCharEnd": 555,
-        "normalizedPassageCharStart": 370,
-        "normalizedPassageCharEnd": 418,
+        "normalizedPassageCharStart": 492,
+        "normalizedPassageCharEnd": 555,
         "pageCharStart": 492,
         "pageCharEnd": 555,
         "quote": "כשהגיע ה הועד ה לבוב ה במחצי ת ינוא ר 1607\nהאמיד ו א ת הבניני ם",
-        "normalizedQuote": "כשהגיעההועדהלבובהבמחציתינואר1607 האמידואתהבנינים",
+        "normalizedQuote": "כשהגיע ה הועד ה לבוב ה במחצי ת ינוא ר 1607\nהאמיד ו א ת הבניני ם",
         "modelQuote": "כשהגיעההועדהלבובהבמחציתינואר1607 האמידואתהבנינים",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n34/mode/1up",
@@ -69,23 +69,17 @@
         "passageChecksum": "56e4f78d56105c364c1ddd31cd3e40e58f26f71b4a960f87ba4fdfc5602492b7",
         "normalizedPassageChecksum": "2091bccbb7508ded0fbe062d9bed1e454a2d99d7ff51251ff3d962eaa04aa6f9",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_fd3ab3f9e2335e5451732fdf",
+      "id": "event_candidate_e6963b0262ef75362dfd7385",
       "type": "Event",
       "title": "Commission assessment of buildings",
       "relation": "Occurred At"
-    },
-    {
-      "id": "mention_c28f86d23df8565a1e5bccba",
-      "type": "Community",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
     },
     {
       "id": "mention_612f9d562272736e28f8dd8b",
@@ -106,9 +100,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8d56a92163653681f2cee504",
+      "id": "mention_2446631b722e8d2fb81fb821",
       "type": "Institution",
-      "title": "City council",
+      "title": "Lviv City Council",
       "relation": "Appears in same passage"
     }
   ],

@@ -5,7 +5,7 @@
   "summary": "Listed as a member of the community committee in 1841.",
   "originalName": "וי.א. רוזנשטיין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 139,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 587,
       "passageCharEnd": 603,
-      "normalizedPassageCharStart": 434,
-      "normalizedPassageCharEnd": 449,
+      "normalizedPassageCharStart": 587,
+      "normalizedPassageCharEnd": 603,
       "pageCharStart": 587,
       "pageCharEnd": 603,
       "quote": "וי.א .\nרוזנשטיין",
-      "normalizedQuote": "וי.א. רוזנשטיין",
+      "normalizedQuote": "וי.א .\nרוזנשטיין",
       "modelQuote": "וי.א. רוזנשטיין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n138/mode/1up",
@@ -32,18 +32,53 @@
       "passageChecksum": "d4d43d978c525585e3b3ab2dc8f8fae257b13c80e570508373902dd218990844",
       "normalizedPassageChecksum": "6995cadad46751ea613b9de715705c03927fb82df0995c323280eb7293f47a69",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_e7f98893b35d5e22c67f1b30",
+      "type": "Organization Founding",
+      "title": "Community committee formed",
+      "summary": "A district-appointed committee headed the community in 1841.",
+      "dateStart": "1841",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The controlled event types do not include committee appointment; organization founding is only an approximation.",
+      "evidence": {
+        "passageId": "passage_9de8a5a9825f46dd5cf29398",
+        "pageId": "page_nybc313875_0139",
+        "scanIndex": 139,
+        "leafNumber": 138,
+        "printedPage": null,
+        "passageCharStart": 384,
+        "passageCharEnd": 470,
+        "normalizedPassageCharStart": 384,
+        "normalizedPassageCharEnd": 470,
+        "pageCharStart": 384,
+        "pageCharEnd": 470,
+        "quote": "בראש־הקהל ה עמ ד הוע ד שנתמנ ה עו ד ע״ י שר *\n\nהמחו ז מיהלבאכ ר בשנ ת 1841 , בהרכ ב זה",
+        "normalizedQuote": "בראש־הקהל ה עמ ד הוע ד שנתמנ ה עו ד ע״ י שר *\n\nהמחו ז מיהלבאכ ר בשנ ת 1841 , בהרכ ב זה",
+        "modelQuote": "בראש־הקהלהעמדהועדשנתמנהעודע״ישר*\n\nהמחוזמיהלבאכרבשנת1841,בהרכבזה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n138/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d4d43d978c525585e3b3ab2dc8f8fae257b13c80e570508373902dd218990844",
+        "normalizedPassageChecksum": "6995cadad46751ea613b9de715705c03927fb82df0995c323280eb7293f47a69",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
-      "type": "Community",
-      "title": "Lviv Jewish community",
-      "relation": "Appears in same passage"
+      "id": "event_candidate_e7f98893b35d5e22c67f1b30",
+      "type": "Event",
+      "title": "Community committee formed",
+      "relation": "Participated In",
+      "role": "Participant"
     },
     {
       "id": "mention_44cc40432b8a2d7ab0088d83",
@@ -109,6 +144,12 @@
       "id": "mention_63e8c3b6e7fa160c845dd262",
       "type": "Person",
       "title": "Dr. Ignatz Nossig",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7cd625db75c0a0c483858669",
+      "type": "Person",
+      "title": "Dr. Alfred Nossig",
       "relation": "Appears in same passage"
     }
   ],

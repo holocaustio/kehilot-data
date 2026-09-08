@@ -5,7 +5,7 @@
   "summary": "Identified as Dr. David Diamand’s son.",
   "originalName": "ד״דיעקבדיאמאנד",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 141,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 861,
       "passageCharEnd": 879,
-      "normalizedPassageCharStart": 622,
-      "normalizedPassageCharEnd": 636,
+      "normalizedPassageCharStart": 861,
+      "normalizedPassageCharEnd": 879,
       "pageCharStart": 1738,
       "pageCharEnd": 1756,
       "quote": "ד״ ד יעק ב דיאמאנד",
-      "normalizedQuote": "ד״דיעקבדיאמאנד",
+      "normalizedQuote": "ד״ ד יעק ב דיאמאנד",
       "modelQuote": "ד״דיעקבדיאמאנד",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n140/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "239aec094e21d14ae5b30be1fb1f0d8c02490de81610ed98d7a48caece809291",
       "normalizedPassageChecksum": "1a58a5af07169725583bb33e9f7d3739ea34dd5232026d31a3efc58ddb763127",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_8b70d50c7b0135fee4e76cfe",
+      "id": "claim_candidate_6254ab1606a46c0573b1dd9f",
       "predicate": "Child Of",
       "subjectTitle": "Dr. Jacob Diamand",
       "objectTitle": "Dr. David Diamand",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 851,
         "passageCharEnd": 879,
-        "normalizedPassageCharStart": 616,
-        "normalizedPassageCharEnd": 636,
+        "normalizedPassageCharStart": 851,
+        "normalizedPassageCharEnd": 879,
         "pageCharStart": 1728,
         "pageCharEnd": 1756,
         "quote": "אבי ו ש ל ד״ ד יעק ב דיאמאנד",
-        "normalizedQuote": "אביושלד״דיעקבדיאמאנד",
+        "normalizedQuote": "אבי ו ש ל ד״ ד יעק ב דיאמאנד",
         "modelQuote": "אביושלד״דיעקבדיאמאנד",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n140/mode/1up",
@@ -68,7 +68,7 @@
         "passageChecksum": "239aec094e21d14ae5b30be1fb1f0d8c02490de81610ed98d7a48caece809291",
         "normalizedPassageChecksum": "1a58a5af07169725583bb33e9f7d3739ea34dd5232026d31a3efc58ddb763127",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -94,21 +94,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0fc5857222e287c72b79e236",
-      "type": "Place",
-      "title": "Hamburg",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_eac1394c358968494ef169c9",
       "type": "Person",
       "title": "Hirsch Zipper",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_270698422cb5ff3ad31afd24",
-      "type": "Institution",
-      "title": "Orphanage",
       "relation": "Appears in same passage"
     },
     {
@@ -151,6 +139,18 @@
       "id": "mention_d461d520215943baa50a2921",
       "type": "Institution",
       "title": "Talmud Torah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_30fb0f4155ead4741b4a1024",
+      "type": "Place",
+      "title": "New cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e5d9d84a0ec3cb29f7aa749c",
+      "type": "Institution",
+      "title": "Synagogue on the new cemetery land",
       "relation": "Appears in same passage"
     }
   ],

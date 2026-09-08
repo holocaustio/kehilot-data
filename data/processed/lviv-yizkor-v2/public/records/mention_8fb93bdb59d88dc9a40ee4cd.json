@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 29,
       "passageCharEnd": 65,
-      "normalizedPassageCharStart": 21,
-      "normalizedPassageCharEnd": 47,
+      "normalizedPassageCharStart": 29,
+      "normalizedPassageCharEnd": 65,
       "pageCharStart": 3628,
       "pageCharEnd": 3664,
       "quote": "נעש ה המקו ם\nסני ף ש ל \"חסיד י בלז \"",
-      "normalizedQuote": "נעשההמקום סניףשל\"חסידיבלז\"",
+      "normalizedQuote": "נעש ה המקו ם\nסני ף ש ל \"חסיד י בלז \"",
       "modelQuote": "נעשה המקום סניף של \"חסידי בלז\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n232/mode/1up",
@@ -37,9 +37,50 @@
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_0efa0d1d673a398fa23595ad",
+      "predicate": "Affiliated With",
+      "subjectTitle": "Lublin Kloyz",
+      "objectTitle": "Belz Hasidim",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "afterText": "World War I"
+      },
+      "evidence": {
+        "passageId": "passage_f93c4d420b46c1d650e408ce",
+        "pageId": "page_nybc313875_0233",
+        "scanIndex": 233,
+        "leafNumber": 232,
+        "printedPage": null,
+        "passageCharStart": 29,
+        "passageCharEnd": 65,
+        "normalizedPassageCharStart": 29,
+        "normalizedPassageCharEnd": 65,
+        "pageCharStart": 3628,
+        "pageCharEnd": 3664,
+        "quote": "נעש ה המקו ם\nסני ף ש ל \"חסיד י בלז \"",
+        "normalizedQuote": "נעש ה המקו ם\nסני ף ש ל \"חסיד י בלז \"",
+        "modelQuote": "נעשה המקום סניף של \"חסידי בלז\"",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n232/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d7d7d1f1475edf35ab97b1b0be14354b3a6a9b45a489fcbdc064418957ccc3d7",
+        "normalizedPassageChecksum": "bcaf52537168c4d6380f5d00be8db7f1bf958a73df1d8892d0ecf3f985d86521",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_5fb65c82f27f9f6be370cc99",
+      "type": "Institution",
+      "title": "Lublin Kloyz",
+      "relation": "Affiliated With"
+    },
     {
       "id": "mention_9050229045d5477a05766f7a",
       "type": "Person",

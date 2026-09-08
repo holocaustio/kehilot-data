@@ -5,7 +5,7 @@
   "summary": "Polemical book published in Lviv in 1864.",
   "originalName": "מגלהטמירין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 245,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 167,
       "passageCharEnd": 207,
-      "normalizedPassageCharStart": 123,
-      "normalizedPassageCharEnd": 153,
+      "normalizedPassageCharStart": 167,
+      "normalizedPassageCharEnd": 207,
       "pageCharStart": 4283,
       "pageCharEnd": 4323,
       "quote": "״מגל ה טמירין ״ ליוס ף פרל , לבוב , 1864",
-      "normalizedQuote": "״מגלהטמירין״ליוסףפרל,לבוב,1864",
+      "normalizedQuote": "״מגל ה טמירין ״ ליוס ף פרל , לבוב , 1864",
       "modelQuote": "״מגלהטמירין״ליוסףפרל,לבוב,1864",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n244/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "9addd14711f31776985e014b1721ff51173c6005c8267f54b3a42cdc6eb0c761",
       "normalizedPassageChecksum": "2ca69a57a7f783492d1a2677ff1b2dfa0668acbe48b0ff58fceaeca861204f12",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_ec9e0c9e99b1f441caed3793",
+      "id": "claim_candidate_0939622e05d04ade8f1863a3",
       "predicate": "Authored By",
       "subjectTitle": "Yosef Perl",
       "objectTitle": "Megaleh Temirin",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 168,
         "passageCharEnd": 193,
-        "normalizedPassageCharStart": 124,
-        "normalizedPassageCharEnd": 143,
+        "normalizedPassageCharStart": 168,
+        "normalizedPassageCharEnd": 193,
         "pageCharStart": 4284,
         "pageCharEnd": 4309,
         "quote": "מגל ה טמירין ״ ליוס ף פרל",
-        "normalizedQuote": "מגלהטמירין״ליוסףפרל",
+        "normalizedQuote": "מגל ה טמירין ״ ליוס ף פרל",
         "modelQuote": "מגלהטמירין״ליוסףפרל",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n244/mode/1up",
@@ -65,7 +65,41 @@
         "passageChecksum": "9addd14711f31776985e014b1721ff51173c6005c8267f54b3a42cdc6eb0c761",
         "normalizedPassageChecksum": "2ca69a57a7f783492d1a2677ff1b2dfa0668acbe48b0ff58fceaeca861204f12",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_9a3101bf5e49e0ac08df06e0",
+      "predicate": "Located In",
+      "subjectTitle": "Megaleh Temirin",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "publicationYear": "1864"
+      },
+      "evidence": {
+        "passageId": "passage_8e8134e8fe4c2515aa2cbc37",
+        "pageId": "page_nybc313875_0245",
+        "scanIndex": 245,
+        "leafNumber": 244,
+        "printedPage": null,
+        "passageCharStart": 196,
+        "passageCharEnd": 207,
+        "normalizedPassageCharStart": 196,
+        "normalizedPassageCharEnd": 207,
+        "pageCharStart": 4312,
+        "pageCharEnd": 4323,
+        "quote": "לבוב , 1864",
+        "normalizedQuote": "לבוב , 1864",
+        "modelQuote": "לבוב,1864",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n244/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9addd14711f31776985e014b1721ff51173c6005c8267f54b3a42cdc6eb0c761",
+        "normalizedPassageChecksum": "2ca69a57a7f783492d1a2677ff1b2dfa0668acbe48b0ff58fceaeca861204f12",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -103,27 +137,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_704227154a26274ceba0a178",
-      "type": "Place",
-      "title": "Sadigura",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_57c9392d5bfb716b8e6263cc",
       "type": "Person",
       "title": "Former maskil censor",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2fa82db46fb1f228b5695c9e",
+      "id": "mention_14d65ca16fc8565199af0187",
       "type": "Place",
       "title": "Galicia",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_db9e4f0346ac46e1168dde4f",
-      "type": "Place",
-      "title": "Belz",
       "relation": "Appears in same passage"
     }
   ],

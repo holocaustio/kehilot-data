@@ -5,7 +5,7 @@
   "summary": "Teacher at the Halych district school.",
   "originalName": "בנימיןגרייבאום",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 96,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 395,
       "passageCharEnd": 424,
-      "normalizedPassageCharStart": 287,
-      "normalizedPassageCharEnd": 309,
+      "normalizedPassageCharStart": 395,
+      "normalizedPassageCharEnd": 424,
       "pageCharStart": 2598,
       "pageCharEnd": 2627,
       "quote": "בנימי ן גרייבאו ם ( 200 פל׳ )",
-      "normalizedQuote": "בנימיןגרייבאום(200פל׳)",
+      "normalizedQuote": "בנימי ן גרייבאו ם ( 200 פל׳ )",
       "modelQuote": "בנימיןגרייבאום(200פל׳)",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n95/mode/1up",
@@ -32,13 +32,55 @@
       "passageChecksum": "17dfd124a220fbf0f163c23728a10fca4dd17fc144335725f78057ca0d356c59",
       "normalizedPassageChecksum": "6b7c2f605782455d2fa670886627c99bcb1a0884b3337a8cfce401dd9ee48b5e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_2ca25de3ccb363c91a58e14f",
+      "predicate": "Worked At",
+      "subjectTitle": "Benjamin Greibaum",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "teacher",
+        "district": "Halych"
+      },
+      "evidence": {
+        "passageId": "passage_93a0e419ad72c949ed4d1d23",
+        "pageId": "page_nybc313875_0096",
+        "scanIndex": 96,
+        "leafNumber": 95,
+        "printedPage": null,
+        "passageCharStart": 395,
+        "passageCharEnd": 447,
+        "normalizedPassageCharStart": 395,
+        "normalizedPassageCharEnd": 447,
+        "pageCharStart": 2598,
+        "pageCharEnd": 2650,
+        "quote": "בנימי ן גרייבאו ם ( 200 פל׳ )\nבבית־הספ ר ברוב ע הליץ",
+        "normalizedQuote": "בנימי ן גרייבאו ם ( 200 פל׳ )\nבבית־הספ ר ברוב ע הליץ",
+        "modelQuote": "בנימיןגרייבאום(200פל׳) בבית־הספרברובעהליץ",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n95/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "17dfd124a220fbf0f163c23728a10fca4dd17fc144335725f78057ca0d356c59",
+        "normalizedPassageChecksum": "6b7c2f605782455d2fa670886627c99bcb1a0884b3337a8cfce401dd9ee48b5e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Worked At"
+    },
     {
       "id": "mention_880be3966f9e553b038dbb87",
       "type": "Person",
@@ -70,7 +112,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_59e75fc0a7d2a9e22667976b",
+      "id": "mention_f7589cbfdeb75c96908ce4af",
       "type": "Person",
       "title": "Homberg",
       "relation": "Appears in same passage"

@@ -5,7 +5,7 @@
   "summary": "A city court judge listed among those killed that day.",
   "originalName": "יהודהליבבןמשהמרגליות",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 57,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1627,
       "passageCharEnd": 1659,
-      "normalizedPassageCharStart": 1190,
-      "normalizedPassageCharEnd": 1212,
+      "normalizedPassageCharStart": 1627,
+      "normalizedPassageCharEnd": 1659,
       "pageCharStart": 2190,
       "pageCharEnd": 2222,
       "quote": "ר , יהוד ה לי ב ב ן מש ה מרגליות",
-      "normalizedQuote": "ר,יהודהליבבןמשהמרגליות",
+      "normalizedQuote": "ר , יהוד ה לי ב ב ן מש ה מרגליות",
       "modelQuote": "ר,יהודהליבבןמשהמרגליות",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n56/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "f128d5f2f2849032ab59f5fe463412140b5cec61f3f0dfd3b0a90b8f23bbb9eb",
       "normalizedPassageChecksum": "7aab7bf675d8364b2b9937bc4c3735e5f9e090784749498f5716f6f2959049c3",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_2a14dad7d858569765a7b426",
+      "id": "claim_candidate_2f1618c5b619f737879f77d6",
       "predicate": "Member Of",
       "subjectTitle": "Yehuda Leib ben Moshe Margoliot",
-      "objectTitle": "Jewish community of Lviv",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "qualifiers": {
         "role": "city court judge"
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 1602,
         "passageCharEnd": 1626,
-        "normalizedPassageCharStart": 1172,
-        "normalizedPassageCharEnd": 1190,
+        "normalizedPassageCharStart": 1602,
+        "normalizedPassageCharEnd": 1626,
         "pageCharStart": 2165,
         "pageCharEnd": 2189,
         "quote": "הדיי ן ורא ש בית ־\nהדי ן",
-        "normalizedQuote": "הדייןוראשבית־ הדין",
+        "normalizedQuote": "הדיי ן ורא ש בית ־\nהדי ן",
         "modelQuote": "הדייןוראשבית־הדין",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n56/mode/1up",
@@ -73,19 +73,46 @@
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_03952b263d599a0dfd1e8616",
+      "type": "Aktion Or Raid",
+      "title": "Attack on Lviv’s Jewish quarter",
+      "summary": "Students and a mob attacked and devastated the Jewish quarter; 129 Jews were killed.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5bec0d74228a6f1f40efcc2d",
+        "pageId": "page_nybc313875_0057",
+        "scanIndex": 57,
+        "leafNumber": 56,
+        "printedPage": null,
+        "passageCharStart": 1331,
+        "passageCharEnd": 1360,
+        "normalizedPassageCharStart": 1331,
+        "normalizedPassageCharEnd": 1360,
+        "pageCharStart": 1894,
+        "pageCharEnd": 1923,
+        "quote": "באות ו יו ם\nנהרג ו 129 יהודים",
+        "normalizedQuote": "באות ו יו ם\nנהרג ו 129 יהודים",
+        "modelQuote": "באותויום נהרגו129יהודים",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n56/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "f128d5f2f2849032ab59f5fe463412140b5cec61f3f0dfd3b0a90b8f23bbb9eb",
+        "normalizedPassageChecksum": "7aab7bf675d8364b2b9937bc4c3735e5f9e090784749498f5716f6f2959049c3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
-      "relation": "Member Of"
-    },
-    {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
-      "relation": "Appears in same passage"
+      "id": "event_candidate_03952b263d599a0dfd1e8616",
+      "type": "Event",
+      "title": "Attack on Lviv’s Jewish quarter",
+      "relation": "Participated In",
+      "role": "Victim"
     },
     {
       "id": "mention_5c6750bb0802214e56edf881",

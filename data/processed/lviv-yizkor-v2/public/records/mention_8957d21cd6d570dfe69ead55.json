@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1201,
       "passageCharEnd": 1224,
-      "normalizedPassageCharStart": 897,
-      "normalizedPassageCharEnd": 917,
+      "normalizedPassageCharStart": 1201,
+      "normalizedPassageCharEnd": 1224,
       "pageCharStart": 2322,
       "pageCharEnd": 2345,
       "quote": "בבית־הכנס ת בחוץ ־\nלעיר",
-      "normalizedQuote": "בבית־הכנסתבחוץ־ לעיר",
+      "normalizedQuote": "בבית־הכנס ת בחוץ ־\nלעיר",
       "modelQuote": "בבית־הכנסתבחוץ־לעיר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n119/mode/1up",
@@ -40,10 +40,10 @@
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_6834b774a35bc62ba6fbeb9d",
-      "type": "Sermon Delivery",
+      "id": "event_candidate_d1459341dad741079fa48646",
+      "type": "Employment",
       "title": "Abraham Cohen's first sermon",
-      "summary": "Abraham Cohen delivered his first sermon at the synagogue outside the city.",
+      "summary": "Abraham Cohen delivered his first sermon at a synagogue outside the city.",
       "confidence": "HIGH",
       "uncertaintyNote": "The event is classified as employment because no sermon-specific event type exists.",
       "evidence": {
@@ -54,12 +54,12 @@
         "printedPage": null,
         "passageCharStart": 1160,
         "passageCharEnd": 1200,
-        "normalizedPassageCharStart": 867,
-        "normalizedPassageCharEnd": 897,
+        "normalizedPassageCharStart": 1160,
+        "normalizedPassageCharEnd": 1200,
         "pageCharStart": 2281,
         "pageCharEnd": 2321,
         "quote": "בשב ת כ״ ג\nבא ב התקיימ ה דרשת ו הראשונ ה",
-        "normalizedQuote": "בשבתכ״ג באבהתקיימהדרשתוהראשונה",
+        "normalizedQuote": "בשב ת כ״ ג\nבא ב התקיימ ה דרשת ו הראשונ ה",
         "modelQuote": "בשבתכ״ג באבהתקיימהדרשתוהראשונה",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n119/mode/1up",
@@ -67,14 +67,14 @@
         "passageChecksum": "9d85945766d580f3842bd14108abb26389ced5e16244d018237c36dac5ba5530",
         "normalizedPassageChecksum": "8ad54eb194737e457056eb86ab0486662da2534984ec71f90e0f861356474e25",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_6834b774a35bc62ba6fbeb9d",
+      "id": "event_candidate_d1459341dad741079fa48646",
       "type": "Event",
       "title": "Abraham Cohen's first sermon",
       "relation": "Occurred At"
@@ -125,12 +125,6 @@
       "id": "mention_ad1bf48971c95df25e685fee",
       "type": "Organization",
       "title": "Congregation Committee",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_fdd4b1926b29e3ee5c51f07f",
-      "type": "Organization",
-      "title": "Temple Committee Council",
       "relation": "Appears in same passage"
     },
     {

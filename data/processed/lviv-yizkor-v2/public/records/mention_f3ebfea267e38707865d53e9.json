@@ -5,7 +5,7 @@
   "summary": "The ministry authorized the community to pay pensions to Cohen's widow and orphans.",
   "originalName": "משרד־הפניםבוינה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 134,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 433,
       "passageCharEnd": 476,
-      "normalizedPassageCharStart": 325,
-      "normalizedPassageCharEnd": 359,
+      "normalizedPassageCharStart": 433,
+      "normalizedPassageCharEnd": 476,
       "pageCharStart": 2716,
       "pageCharEnd": 2759,
       "quote": "הרש ה\nמשרד־הפני ם בוינ ה ב־ 20 בדצמב ר 1849",
-      "normalizedQuote": "הרשה משרד־הפניםבוינהב־20בדצמבר1849",
+      "normalizedQuote": "הרש ה\nמשרד־הפני ם בוינ ה ב־ 20 בדצמב ר 1849",
       "modelQuote": "הרשה משרד־הפניםבוינהב־20בדצמבר1849",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n133/mode/1up",
@@ -33,13 +33,53 @@
       "passageChecksum": "bb29f5b645be4a62984a5415fbbedf857455a6aa608b95b2789f1011e6c4c35d",
       "normalizedPassageChecksum": "a11e0d9b5969e07ae13d7a3bc87cc1d7afb42a72ddafb29119b27f839de01612",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_43982010286e3115096f2cff",
+      "type": "Employment",
+      "title": "Authorization of Cohen family pension",
+      "summary": "Vienna authorized the community to pay Mrs. Cohen and her orphans an annual pension.",
+      "dateStart": "1849-12-20",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ba1dc9b48768c42d910470a2",
+        "pageId": "page_nybc313875_0134",
+        "scanIndex": 134,
+        "leafNumber": 133,
+        "printedPage": null,
+        "passageCharStart": 433,
+        "passageCharEnd": 476,
+        "normalizedPassageCharStart": 433,
+        "normalizedPassageCharEnd": 476,
+        "pageCharStart": 2716,
+        "pageCharEnd": 2759,
+        "quote": "הרש ה\nמשרד־הפני ם בוינ ה ב־ 20 בדצמב ר 1849",
+        "normalizedQuote": "הרש ה\nמשרד־הפני ם בוינ ה ב־ 20 בדצמב ר 1849",
+        "modelQuote": "הרשה משרד־הפניםבוינהב־20בדצמבר1849",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n133/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "bb29f5b645be4a62984a5415fbbedf857455a6aa608b95b2789f1011e6c4c35d",
+        "normalizedPassageChecksum": "a11e0d9b5969e07ae13d7a3bc87cc1d7afb42a72ddafb29119b27f839de01612",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_43982010286e3115096f2cff",
+      "type": "Event",
+      "title": "Authorization of Cohen family pension",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
     {
       "id": "mention_c7fb8a75f060aae4ed17bf00",
       "type": "Person",
@@ -71,13 +111,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_50fd21a0f31116d4f939aa3a",
+      "id": "mention_6f2d261875e8e8d9157f9f70",
       "type": "Person",
       "title": "Stadion",
       "relation": "Appears in same passage"

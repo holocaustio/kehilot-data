@@ -5,7 +5,7 @@
   "summary": "Named as an arbitrator from the Lviv district.",
   "originalName": "ר'יעקבאהרן בןמרדכימסטרי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 85,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 458,
       "passageCharEnd": 490,
-      "normalizedPassageCharStart": 319,
-      "normalizedPassageCharEnd": 342,
+      "normalizedPassageCharStart": 458,
+      "normalizedPassageCharEnd": 490,
       "pageCharStart": 458,
       "pageCharEnd": 490,
       "quote": "ר ' יעק ב אהר ן\nב ן מרדכ י מסטרי",
-      "normalizedQuote": "ר'יעקבאהרן בןמרדכימסטרי",
+      "normalizedQuote": "ר ' יעק ב אהר ן\nב ן מרדכ י מסטרי",
       "modelQuote": "ר'יעקבאהרן בןמרדכימסטרי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n84/mode/1up",
@@ -34,11 +34,46 @@
       "passageChecksum": "3550378ceec2a5e212447a34be76fd19248319244996c0f9b82a25e538dc5250",
       "normalizedPassageChecksum": "3e7861529b4cf7093b678a3c3d05d7d6711e54d3eb898ad2486eb5fafb51aef7",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_a4b5230e3faa49a1abd1a69f",
+      "predicate": "Member Of",
+      "subjectTitle": "R. Yaakov Aharon ben Mordechai Misteri",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "arbitrator"
+      },
+      "evidence": {
+        "passageId": "passage_7183cc3e3d09bc77143326ac",
+        "pageId": "page_nybc313875_0085",
+        "scanIndex": 85,
+        "leafNumber": 84,
+        "printedPage": null,
+        "passageCharStart": 493,
+        "passageCharEnd": 511,
+        "normalizedPassageCharStart": 493,
+        "normalizedPassageCharEnd": 511,
+        "pageCharStart": 493,
+        "pageCharEnd": 511,
+        "quote": "מבור ר מגלי ל לבוב",
+        "normalizedQuote": "מבור ר מגלי ל לבוב",
+        "modelQuote": "מבוררמגליללבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n84/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "3550378ceec2a5e212447a34be76fd19248319244996c0f9b82a25e538dc5250",
+        "normalizedPassageChecksum": "3e7861529b4cf7093b678a3c3d05d7d6711e54d3eb898ad2486eb5fafb51aef7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -102,15 +137,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
-      "type": "Community",
-      "title": "Lviv Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_070390ec0eea3acc850abb3a",
-      "type": "Work",
-      "title": "Pnei Yehoshua",
+      "id": "mention_f0bda04d9c42da4ffaa0ed08",
+      "type": "Document",
+      "title": "1781 letter from R. Mordechai Zaba Ornstein to R. Yehezkel Landa",
       "relation": "Appears in same passage"
     }
   ],

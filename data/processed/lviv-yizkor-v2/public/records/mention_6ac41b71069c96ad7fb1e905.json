@@ -5,7 +5,7 @@
   "summary": "Teacher, writer, historian, mathematician, linguist, and philosopher who knew thirteen languages.",
   "originalName": "טילמןיהושע",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 379,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 393,
       "passageCharEnd": 467,
-      "normalizedPassageCharStart": 302,
-      "normalizedPassageCharEnd": 360,
+      "normalizedPassageCharStart": 393,
+      "normalizedPassageCharEnd": 467,
       "pageCharStart": 1805,
       "pageCharEnd": 1879,
       "quote": "23 . טילמ ן יהושע . מור ה וסופר , היסטוריון ,\nמתימטיקאי , בלש ן ופילוסוף .",
-      "normalizedQuote": "23.טילמןיהושע.מורהוסופר,היסטוריון, מתימטיקאי,בלשןופילוסוף.",
+      "normalizedQuote": "23 . טילמ ן יהושע . מור ה וסופר , היסטוריון ,\nמתימטיקאי , בלש ן ופילוסוף .",
       "modelQuote": "23.טילמןיהושע.מורהוסופר,היסטוריון, מתימטיקאי,בלשןופילוסוף.",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n378/mode/1up",
@@ -32,13 +32,51 @@
       "passageChecksum": "7bd9d76abcdfc0b0bd9a275d6810f684897a9a46914fb8817b47e2d060f2575f",
       "normalizedPassageChecksum": "fb6fdc139625b0bc28b01edab0e14957bc64a00b234cc945bdc6b7e4d071b2e0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_31770d3dfd9f995382bfe8e9",
+      "predicate": "Member Of",
+      "subjectTitle": "Joshua Tilman",
+      "objectTitle": "Unity",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_83e2bf61775547a573a274ed",
+        "pageId": "page_nybc313875_0379",
+        "scanIndex": 379,
+        "leafNumber": 378,
+        "printedPage": null,
+        "passageCharStart": 735,
+        "passageCharEnd": 774,
+        "normalizedPassageCharStart": 735,
+        "normalizedPassageCharEnd": 774,
+        "pageCharStart": 2147,
+        "pageCharEnd": 2186,
+        "quote": "חב ר מפלג ת\nהעבוד ה הציוני ת \"התאחדות \"",
+        "normalizedQuote": "חב ר מפלג ת\nהעבוד ה הציוני ת \"התאחדות \"",
+        "modelQuote": "חברמפלגת העבודההציונית\"התאחדות\"",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n378/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "7bd9d76abcdfc0b0bd9a275d6810f684897a9a46914fb8817b47e2d060f2575f",
+        "normalizedPassageChecksum": "fb6fdc139625b0bc28b01edab0e14957bc64a00b234cc945bdc6b7e4d071b2e0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_368f6f85182c4a1e95132678",
+      "type": "Organization",
+      "title": "Unity",
+      "relation": "Member Of"
+    },
     {
       "id": "mention_d87f341c5f01a99a7f994302",
       "type": "Person",

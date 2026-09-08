@@ -5,7 +5,7 @@
   "summary": "Surgeon from Brody listed among Galician Jews who joined a Polish uprising.",
   "originalName": "יוסףקרוכמלניקמברודי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 187,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 1095,
       "passageCharEnd": 1128,
-      "normalizedPassageCharStart": 798,
-      "normalizedPassageCharEnd": 824,
+      "normalizedPassageCharStart": 1095,
+      "normalizedPassageCharEnd": 1128,
       "pageCharStart": 3435,
       "pageCharEnd": 3468,
       "quote": "יוס ף קרוכמלני ק מברודי , חירור ג",
-      "normalizedQuote": "יוסףקרוכמלניקמברודי,חירורג",
+      "normalizedQuote": "יוס ף קרוכמלני ק מברודי , חירור ג",
       "modelQuote": "יוסףקרוכמלניקמברודי,חירורג",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n186/mode/1up",
@@ -34,11 +34,44 @@
       "passageChecksum": "f049cad7116357cf1d426d11cd87ed41b40bccd963d0bad68bcf0a28bba1dc5e",
       "normalizedPassageChecksum": "890a4d7be840ee3be996947772ff3fe721c63c9784364f477df837d66d5b9bc4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_90c4b062f285d99c6d13f971",
+      "predicate": "Originated In",
+      "subjectTitle": "Joseph Krochmalnik",
+      "objectTitle": "Brody",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "Brody is grammatically associated with the person but may indicate origin rather than birth.",
+      "evidence": {
+        "passageId": "passage_8f46eb0e28909d92d08dd503",
+        "pageId": "page_nybc313875_0187",
+        "scanIndex": 187,
+        "leafNumber": 186,
+        "printedPage": null,
+        "passageCharStart": 1095,
+        "passageCharEnd": 1118,
+        "normalizedPassageCharStart": 1095,
+        "normalizedPassageCharEnd": 1118,
+        "pageCharStart": 3435,
+        "pageCharEnd": 3458,
+        "quote": "יוס ף קרוכמלני ק מברודי",
+        "normalizedQuote": "יוס ף קרוכמלני ק מברודי",
+        "modelQuote": "יוסףקרוכמלניקמברודי",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n186/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "f049cad7116357cf1d426d11cd87ed41b40bccd963d0bad68bcf0a28bba1dc5e",
+        "normalizedPassageChecksum": "890a4d7be840ee3be996947772ff3fe721c63c9784364f477df837d66d5b9bc4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -72,7 +105,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b07b0d3ce72b2d83cf363105",
+      "id": "mention_a9720958b8c56c9def57d7a1",
       "type": "Person",
       "title": "David Rotenberg",
       "relation": "Appears in same passage"

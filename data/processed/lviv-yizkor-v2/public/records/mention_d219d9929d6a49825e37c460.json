@@ -5,7 +5,7 @@
   "summary": "A rabbi whose authority was disputed by Lviv community leaders.",
   "originalName": "הרבר׳יהושעבןצבי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 67,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 47,
       "passageCharEnd": 84,
-      "normalizedPassageCharStart": 32,
-      "normalizedPassageCharEnd": 56,
+      "normalizedPassageCharStart": 47,
+      "normalizedPassageCharEnd": 84,
       "pageCharStart": 4070,
       "pageCharEnd": 4107,
       "quote": "המחלוק ת ע ם הר ב ר ׳ יהוש ע ב ן צב י",
-      "normalizedQuote": "המחלוקתעםהרבר׳יהושעבןצבי",
+      "normalizedQuote": "המחלוק ת ע ם הר ב ר ׳ יהוש ע ב ן צב י",
       "modelQuote": "המחלוקתעםהרבר׳יהושעבןצבי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n66/mode/1up",
@@ -33,15 +33,54 @@
       "passageChecksum": "42c60b56f3a29fb0e15e22df20c2b3a517b63359581158dde6424576f2315c79",
       "normalizedPassageChecksum": "1c2dba9e9a1fe199a0b72814218665c86786db8957e9aa956c29f214a86f6af5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_dbc101b5b26067977c61ed40",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Pnei Yehoshua",
+      "objectTitle": "Yehoshua ben Zvi",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage identifies the rabbi through the work but does not explicitly state authorship.",
+      "evidence": {
+        "passageId": "passage_c32915c08ee7d63898f2a7df",
+        "pageId": "page_nybc313875_0067",
+        "scanIndex": 67,
+        "leafNumber": 66,
+        "printedPage": null,
+        "passageCharStart": 60,
+        "passageCharEnd": 107,
+        "normalizedPassageCharStart": 60,
+        "normalizedPassageCharEnd": 107,
+        "pageCharStart": 4083,
+        "pageCharEnd": 4130,
+        "quote": "הר ב ר ׳ יהוש ע ב ן צב י (בעמ״ ח \"פנ י\nיהושע\" )",
+        "normalizedQuote": "הר ב ר ׳ יהוש ע ב ן צב י (בעמ״ ח \"פנ י\nיהושע\" )",
+        "modelQuote": "הרבר׳יהושעבןצבי(בעמ״ח\"פני יהושע\")",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n66/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "42c60b56f3a29fb0e15e22df20c2b3a517b63359581158dde6424576f2315c79",
+        "normalizedPassageChecksum": "1c2dba9e9a1fe199a0b72814218665c86786db8957e9aa956c29f214a86f6af5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_c28f86d23df8565a1e5bccba",
+      "id": "mention_070390ec0eea3acc850abb3a",
+      "type": "Work",
+      "title": "Pnei Yehoshua",
+      "relation": "Mentioned In"
+    },
+    {
+      "id": "mention_9b71e41686bcf22378e612ac",
       "type": "Community",
       "title": "Lviv",
       "relation": "Appears in same passage"

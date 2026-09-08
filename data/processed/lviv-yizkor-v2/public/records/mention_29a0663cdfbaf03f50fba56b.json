@@ -5,7 +5,7 @@
   "summary": "Street containing the orphanage synagogue.",
   "originalName": "רחוב יאנובסקה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 232,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 211,
       "passageCharEnd": 225,
-      "normalizedPassageCharStart": 162,
-      "normalizedPassageCharEnd": 175,
+      "normalizedPassageCharStart": 211,
+      "normalizedPassageCharEnd": 225,
       "pageCharStart": 1548,
       "pageCharEnd": 1562,
       "quote": "רחו ב\nיאנובסקה",
-      "normalizedQuote": "רחוב יאנובסקה",
+      "normalizedQuote": "רחו ב\nיאנובסקה",
       "modelQuote": "רחוב יאנובסקה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n231/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "ac81ac56f6ea736684da494bef2721b78dcf7dbac8463d779ae53f75c3e6f941",
       "normalizedPassageChecksum": "59f214ea2207fb51b32aa81a0a46b597f14d1589276b105ce35a2d67410ced4f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 722,
       "passageCharEnd": 756,
-      "normalizedPassageCharStart": 537,
-      "normalizedPassageCharEnd": 565,
+      "normalizedPassageCharStart": 722,
+      "normalizedPassageCharEnd": 756,
       "pageCharStart": 2982,
       "pageCharEnd": 3016,
       "quote": "ברחו ב\n\nיאנובסק א בית־בישו ל ביר ה",
-      "normalizedQuote": "ברחוב\n\nיאנובסקאבית־בישולבירה",
+      "normalizedQuote": "ברחו ב\n\nיאנובסק א בית־בישו ל ביר ה",
       "modelQuote": "ברחוב\n\nיאנובסקאבית־בישולבירה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n263/mode/1up",
@@ -57,43 +57,11 @@
       "passageChecksum": "a1bb4b1b60218b4e220f5199ef88a1d755e24225c280487edcb08080d5120a9a",
       "normalizedPassageChecksum": "d42ee84a45efb939e58600b4d369209f41bd4a3c6fb27d883b66906ceefcb06f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_ab5df8e950b613b9f0af636b",
-      "predicate": "Located In",
-      "subjectTitle": "Rabbi Simhah Rappaport",
-      "objectTitle": "Janowska Street",
-      "confidence": "MEDIUM",
-      "evidence": {
-        "passageId": "passage_5f34a4dfa6abddd6d5514394",
-        "pageId": "page_nybc313875_0264",
-        "scanIndex": 264,
-        "leafNumber": 263,
-        "printedPage": null,
-        "passageCharStart": 715,
-        "passageCharEnd": 739,
-        "normalizedPassageCharStart": 532,
-        "normalizedPassageCharEnd": 552,
-        "pageCharStart": 2975,
-        "pageCharEnd": 2999,
-        "quote": "שהקי ם ברחו ב\n\nיאנובסק א",
-        "normalizedQuote": "שהקיםברחוב\n\nיאנובסקא",
-        "modelQuote": "שהקיםברחוב\n\nיאנובסקא",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n263/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "a1bb4b1b60218b4e220f5199ef88a1d755e24225c280487edcb08080d5120a9a",
-        "normalizedPassageChecksum": "d42ee84a45efb939e58600b4d369209f41bd4a3c6fb27d883b66906ceefcb06f",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
     {
@@ -124,12 +92,6 @@
       "id": "mention_bee33be33a058c1aae46233c",
       "type": "Institution",
       "title": "Sixtuska Shul",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0408777cbbdba3e239dcb8a7",
-      "type": "Person",
-      "title": "Rabbi Shlomo Plats",
       "relation": "Appears in same passage"
     },
     {
@@ -169,12 +131,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0942da3b20c4f8ed465db3b0",
-      "type": "Person",
-      "title": "Rabbi Simhah Rappaport",
-      "relation": "Located In"
-    },
-    {
       "id": "mention_b026c95b08cf1e94976142ce",
       "type": "Family",
       "title": "Priestly Rappaport family",
@@ -187,7 +143,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b9b5ea64e7bf675f4f96d4ec",
+      "id": "mention_7ee40e1e2bfbf3d9845b65c1",
       "type": "Person",
       "title": "Rabbi Benjamin Rappaport",
       "relation": "Appears in same passage"
@@ -211,7 +167,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

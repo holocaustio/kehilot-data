@@ -5,7 +5,7 @@
   "summary": "School where Abraham Cohen worked as a teacher.",
   "originalName": "בית־הספרהגרמני",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 218,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1018,
       "passageCharEnd": 1036,
-      "normalizedPassageCharStart": 738,
-      "normalizedPassageCharEnd": 753,
+      "normalizedPassageCharStart": 1018,
+      "normalizedPassageCharEnd": 1036,
       "pageCharStart": 2288,
       "pageCharEnd": 2306,
       "quote": "בבית־הספ ר הגרמנ י",
-      "normalizedQuote": "בבית־הספרהגרמני",
+      "normalizedQuote": "בבית־הספ ר הגרמנ י",
       "modelQuote": "בבית־הספרהגרמני",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n217/mode/1up",
@@ -33,54 +33,13 @@
       "passageChecksum": "7efcbfcca43bd80edddbfeb27d2b219d07670f7421a955292a8b1d8f1b41381a",
       "normalizedPassageChecksum": "f91ad7792d931e3f70e890a766bc66fb319babbdece100911f0917dd32b86fdd",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_43c8a6fd6321f09259ceba1c",
-      "predicate": "Worked At",
-      "subjectTitle": "Rabbi Abraham Cohen",
-      "objectTitle": "German school in Bohumín",
-      "confidence": "HIGH",
-      "qualifiers": {
-        "role": "teacher"
-      },
-      "evidence": {
-        "passageId": "passage_77501be49851ef25b47422c2",
-        "pageId": "page_nybc313875_0218",
-        "scanIndex": 218,
-        "leafNumber": 217,
-        "printedPage": null,
-        "passageCharStart": 990,
-        "passageCharEnd": 1036,
-        "normalizedPassageCharStart": 717,
-        "normalizedPassageCharEnd": 753,
-        "pageCharStart": 2260,
-        "pageCharEnd": 2306,
-        "quote": "עב ד כמור ה בשנ י\nבתי־ספר : בבית־הספ ר הגרמנ י",
-        "normalizedQuote": "עבדכמורהבשני בתי־ספר:בבית־הספרהגרמני",
-        "modelQuote": "עבדכמורהבשני בתי־ספר:בבית־הספרהגרמני",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n217/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "7efcbfcca43bd80edddbfeb27d2b219d07670f7421a955292a8b1d8f1b41381a",
-        "normalizedPassageChecksum": "f91ad7792d931e3f70e890a766bc66fb319babbdece100911f0917dd32b86fdd",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_8771e42d3451cbe53a566c27",
-      "type": "Person",
-      "title": "Rabbi Abraham Cohen",
-      "relation": "Worked At"
-    },
     {
       "id": "mention_dc4c863c514797e3654cd97b",
       "type": "Person",
@@ -106,19 +65,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8771e42d3451cbe53a566c27",
-      "type": "Person",
-      "title": "Rabbi Abraham Cohen",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_2cd9e2119954d81dc5dace72",
       "type": "Place",
       "title": "Vorarlberg, Austria",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -151,6 +104,12 @@
       "id": "mention_881372f1d9060fd1ae3f0e04",
       "type": "Person",
       "title": "Rabbi Samuel Landau",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_865c7dfca4920fbaece638ec",
+      "type": "Person",
+      "title": "Hirsch Homberg",
       "relation": "Appears in same passage"
     }
   ],

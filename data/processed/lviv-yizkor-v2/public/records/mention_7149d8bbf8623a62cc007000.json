@@ -5,7 +5,7 @@
   "summary": "The office where Dr. Holzer served as head of the social department.",
   "originalName": "משרדיהקהלההיהודית",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 269,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 763,
       "passageCharEnd": 829,
-      "normalizedPassageCharStart": 553,
-      "normalizedPassageCharEnd": 604,
+      "normalizedPassageCharStart": 763,
+      "normalizedPassageCharEnd": 829,
       "pageCharStart": 763,
       "pageCharEnd": 829,
       "quote": "במשרד י הקהל ה היהודית , ב ה שימ ש בתפקי ד מנה ל\nהמחלק ה הסוציאלית",
-      "normalizedQuote": "במשרדיהקהלההיהודית,בהשימשבתפקידמנהל המחלקההסוציאלית",
+      "normalizedQuote": "במשרד י הקהל ה היהודית , ב ה שימ ש בתפקי ד מנה ל\nהמחלק ה הסוציאלית",
       "modelQuote": "במשרדיהקהלההיהודית,בהשימשבתפקידמנהל המחלקההסוציאלית",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n268/mode/1up",
@@ -33,17 +33,55 @@
       "passageChecksum": "e79f545c96a42b86c9c1329aa993eee3801eed6a44e6c5c519edf0c7d80acfe8",
       "normalizedPassageChecksum": "41100ae82bb992ea00fc7b203fd15e17ddd260853ae3e19c5f7177b71f0ff53c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_2e0bb052a79c53a09096716e",
+      "predicate": "Worked At",
+      "subjectTitle": "Dr. Wilhelm Holzer",
+      "objectTitle": "Jewish Community Office",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_84b07474a5921f0e2dbc4b7a",
+        "pageId": "page_nybc313875_0269",
+        "scanIndex": 269,
+        "leafNumber": 268,
+        "printedPage": null,
+        "passageCharStart": 763,
+        "passageCharEnd": 829,
+        "normalizedPassageCharStart": 763,
+        "normalizedPassageCharEnd": 829,
+        "pageCharStart": 763,
+        "pageCharEnd": 829,
+        "quote": "במשרד י הקהל ה היהודית , ב ה שימ ש בתפקי ד מנה ל\nהמחלק ה הסוציאלית",
+        "normalizedQuote": "במשרד י הקהל ה היהודית , ב ה שימ ש בתפקי ד מנה ל\nהמחלק ה הסוציאלית",
+        "modelQuote": "במשרדיהקהלההיהודית,בהשימשבתפקידמנהל המחלקההסוציאלית",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n268/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "e79f545c96a42b86c9c1329aa993eee3801eed6a44e6c5c519edf0c7d80acfe8",
+        "normalizedPassageChecksum": "41100ae82bb992ea00fc7b203fd15e17ddd260853ae3e19c5f7177b71f0ff53c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
+      "id": "mention_e5200e2df13520ee65d59a4a",
+      "type": "Person",
+      "title": "Dr. Wilhelm Holzer",
+      "relation": "Worked At"
+    },
+    {
       "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {

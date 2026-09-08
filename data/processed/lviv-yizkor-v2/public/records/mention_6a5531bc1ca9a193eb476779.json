@@ -5,7 +5,7 @@
   "summary": "Place of the Polish victory in the 1414 war against the Crusaders.",
   "originalName": "גרובבלד",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 16,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 189,
       "passageCharEnd": 232,
-      "normalizedPassageCharStart": 138,
-      "normalizedPassageCharEnd": 172,
+      "normalizedPassageCharStart": 189,
+      "normalizedPassageCharEnd": 232,
       "pageCharStart": 189,
       "pageCharEnd": 232,
       "quote": "שנגמר ה בנצחו ן הפולני ם בגרובבל ד\n( 1414 )",
-      "normalizedQuote": "שנגמרהבנצחוןהפולניםבגרובבלד (1414)",
+      "normalizedQuote": "שנגמר ה בנצחו ן הפולני ם בגרובבל ד\n( 1414 )",
       "modelQuote": "שנגמרהבנצחוןהפולניםבגרובבלד (1414)",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n15/mode/1up",
@@ -34,13 +34,13 @@
       "passageChecksum": "909859248a0e33a05b9bf8baf04191e6f3b46a41de5ca586744920f10705076a",
       "normalizedPassageChecksum": "aa2ec9c14946688536a9b058830d360b69188e139483bca5fcb6ca591fafac04",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_8ebe55eb7d44eaf2bbc0c74e",
+      "id": "claim_candidate_a1a1729adf8f14a3eeb91452",
       "predicate": "Participated In",
       "subjectTitle": "Waluchko",
       "objectTitle": "Grunwald",
@@ -57,12 +57,12 @@
         "printedPage": null,
         "passageCharStart": 140,
         "passageCharEnd": 186,
-        "normalizedPassageCharStart": 103,
-        "normalizedPassageCharEnd": 137,
+        "normalizedPassageCharStart": 140,
+        "normalizedPassageCharEnd": 186,
         "pageCharStart": 140,
         "pageCharEnd": 186,
         "quote": "בשנ ת 1414 הו א מממ ן א ת המלחמ ה\nנג ד הצלבנים",
-        "normalizedQuote": "בשנת1414הואמממןאתהמלחמה נגדהצלבנים",
+        "normalizedQuote": "בשנ ת 1414 הו א מממ ן א ת המלחמ ה\nנג ד הצלבנים",
         "modelQuote": "בשנת1414הואמממןאתהמלחמה נגדהצלבנים",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n15/mode/1up",
@@ -70,58 +70,18 @@
         "passageChecksum": "909859248a0e33a05b9bf8baf04191e6f3b46a41de5ca586744920f10705076a",
         "normalizedPassageChecksum": "aa2ec9c14946688536a9b058830d360b69188e139483bca5fcb6ca591fafac04",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [
-    {
-      "id": "event_candidate_74bb704068f143ef7026cdb5",
-      "type": "Military Service",
-      "title": "War against the Crusaders",
-      "summary": "Waluchko financed a war against the Crusaders in 1414.",
-      "dateStart": "1414",
-      "confidence": "HIGH",
-      "uncertaintyNote": "The event type is only an approximate fit because financing is not a listed event type.",
-      "evidence": {
-        "passageId": "passage_cb8c21f34feb298480e73146",
-        "pageId": "page_nybc313875_0016",
-        "scanIndex": 16,
-        "leafNumber": 15,
-        "printedPage": null,
-        "passageCharStart": 140,
-        "passageCharEnd": 186,
-        "normalizedPassageCharStart": 103,
-        "normalizedPassageCharEnd": 137,
-        "pageCharStart": 140,
-        "pageCharEnd": 186,
-        "quote": "בשנ ת 1414 הו א מממ ן א ת המלחמ ה\nנג ד הצלבנים",
-        "normalizedQuote": "בשנת1414הואמממןאתהמלחמה נגדהצלבנים",
-        "modelQuote": "בשנת1414הואמממןאתהמלחמה נגדהצלבנים",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n15/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "909859248a0e33a05b9bf8baf04191e6f3b46a41de5ca586744920f10705076a",
-        "normalizedPassageChecksum": "aa2ec9c14946688536a9b058830d360b69188e139483bca5fcb6ca591fafac04",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "events": [],
   "connections": [
     {
       "id": "mention_0f4901465480a585e1ea1c03",
       "type": "Person",
       "title": "Waluchko",
       "relation": "Participated In"
-    },
-    {
-      "id": "event_candidate_74bb704068f143ef7026cdb5",
-      "type": "Event",
-      "title": "War against the Crusaders",
-      "relation": "Occurred At"
     },
     {
       "id": "mention_87cdf3eea03580f51e367abb",

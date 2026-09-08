@@ -5,7 +5,7 @@
   "summary": "A trustee who was later in Bnei Brak.",
   "originalName": "ר׳ זאב־וואלףנויבויאר",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 231,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 995,
       "passageCharEnd": 1035,
-      "normalizedPassageCharStart": 717,
-      "normalizedPassageCharEnd": 750,
+      "normalizedPassageCharStart": 995,
+      "normalizedPassageCharEnd": 1035,
       "pageCharStart": 3617,
       "pageCharEnd": 3657,
       "quote": "ר ׳\nזאב־וואל ף נויבויא ר (כע ת בבני־ברק)",
-      "normalizedQuote": "ר׳ זאב־וואלףנויבויאר(כעתבבני־ברק)",
+      "normalizedQuote": "ר ׳\nזאב־וואל ף נויבויא ר (כע ת בבני־ברק)",
       "modelQuote": "ר׳ זאב־וואלףנויבויאר(כעתבבני־ברק)",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n230/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "d06abeacdb94c80a57747b57023bcac52458a99ca63f5b83db9fa77960b296c2",
       "normalizedPassageChecksum": "631ef315ac52e47f5865ba96cb871fbe7519093119e818b234aa31fca4478c30",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_3cd0f7ef9497dcbc94709fa5",
+      "id": "claim_candidate_c9f02e254b1be4bd51415bb5",
       "predicate": "Lived At",
       "subjectTitle": "Zeev-Wolf Neubauer",
-      "objectTitle": "Bnei Brak",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "qualifiers": {
         "temporal": "later"
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 1020,
         "passageCharEnd": 1035,
-        "normalizedPassageCharStart": 737,
-        "normalizedPassageCharEnd": 750,
+        "normalizedPassageCharStart": 1020,
+        "normalizedPassageCharEnd": 1035,
         "pageCharStart": 3642,
         "pageCharEnd": 3657,
         "quote": "(כע ת בבני־ברק)",
-        "normalizedQuote": "(כעתבבני־ברק)",
+        "normalizedQuote": "(כע ת בבני־ברק)",
         "modelQuote": "(כעתבבני־ברק)",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n230/mode/1up",
@@ -68,25 +68,13 @@
         "passageChecksum": "d06abeacdb94c80a57747b57023bcac52458a99ca63f5b83db9fa77960b296c2",
         "normalizedPassageChecksum": "631ef315ac52e47f5865ba96cb871fbe7519093119e818b234aa31fca4478c30",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
-    {
-      "id": "mention_558feccfde4626ed14bb7c23",
-      "type": "Place",
-      "title": "Bnei Brak",
-      "relation": "Lived At"
-    },
-    {
-      "id": "mention_3b7b49471832ed0d0df45892",
-      "type": "Community",
-      "title": "Znyshynia",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_763a361752ff981c9156a60a",
       "type": "Institution",
@@ -142,15 +130,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_558feccfde4626ed14bb7c23",
-      "type": "Place",
-      "title": "Bnei Brak",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_d24fefb0e8ba51fad8a607b2",
       "type": "Person",
       "title": "Mattathias Weintraub",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5382ea166322be7c12883a9b",
+      "type": "Institution",
+      "title": "Great Study House in Znyshynia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6c1961e61456361ed5e306da",
+      "type": "Person",
+      "title": "Hugo Ulrich",
       "relation": "Appears in same passage"
     }
   ],

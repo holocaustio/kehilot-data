@@ -5,7 +5,7 @@
   "summary": "Abduction and violence against Jews attributed to Ukrainian nationalists.",
   "originalName": "\"פעולתפטלורה\"",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 305,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 296,
       "passageCharEnd": 334,
-      "normalizedPassageCharStart": 215,
-      "normalizedPassageCharEnd": 244,
+      "normalizedPassageCharStart": 296,
+      "normalizedPassageCharEnd": 334,
       "pageCharStart": 1674,
       "pageCharEnd": 1712,
       "quote": "פעול ה ז ו נודע ה בש ם\n\"פעול ת פטלורה\"",
-      "normalizedQuote": "פעולהזונודעהבשם \"פעולתפטלורה\"",
+      "normalizedQuote": "פעול ה ז ו נודע ה בש ם\n\"פעול ת פטלורה\"",
       "modelQuote": "פעולהזונודעהבשם \"פעולתפטלורה\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n304/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "4c9208f86a84c35bcce85aa466796f7ebdcc0202965a149d97f522978d7c54da",
       "normalizedPassageChecksum": "b1d05c4c44c6231e3ad56d1eb91e08d0586dff66ad363f97f5899c10f8b0856b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 1146,
       "passageCharEnd": 1163,
-      "normalizedPassageCharStart": 851,
-      "normalizedPassageCharEnd": 865,
+      "normalizedPassageCharStart": 1146,
+      "normalizedPassageCharEnd": 1163,
       "pageCharStart": 2361,
       "pageCharEnd": 2378,
       "quote": "באקצי ה \"פטלורה \"",
-      "normalizedQuote": "באקציה\"פטלורה\"",
+      "normalizedQuote": "באקצי ה \"פטלורה \"",
       "modelQuote": "באקציה\"פטלורה\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n313/mode/1up",
@@ -57,11 +57,43 @@
       "passageChecksum": "a3a96d3b7548b9001ef957d19011047511d572edcd1867451ae7785190f0cc29",
       "normalizedPassageChecksum": "3ad51fe08345480be1ba4b8d713981e9727122acf40f74faef1075ed22f32695",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_9739381225d7da7d9149bfa1",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Petliura Action",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e575852c143a2932ec24504f",
+        "pageId": "page_nybc313875_0305",
+        "scanIndex": 305,
+        "leafNumber": 304,
+        "printedPage": null,
+        "passageCharStart": 765,
+        "passageCharEnd": 794,
+        "normalizedPassageCharStart": 765,
+        "normalizedPassageCharEnd": 794,
+        "pageCharStart": 2143,
+        "pageCharEnd": 2172,
+        "quote": "זעז ע א ת יהוד י לבו ב במיוחד",
+        "normalizedQuote": "זעז ע א ת יהוד י לבו ב במיוחד",
+        "modelQuote": "זעזעאתיהודילבובבמיוחד",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n304/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "4c9208f86a84c35bcce85aa466796f7ebdcc0202965a149d97f522978d7c54da",
+        "normalizedPassageChecksum": "b1d05c4c44c6231e3ad56d1eb91e08d0586dff66ad363f97f5899c10f8b0856b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -116,12 +148,6 @@
       "id": "mention_90200741bf27c33bce61fce3",
       "type": "Event",
       "title": "German raid on Jewish homes",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a71a29b61eeec0bf3f141982",
-      "type": "Organization",
-      "title": "Jewish Council",
       "relation": "Appears in same passage"
     },
     {

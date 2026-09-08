@@ -5,7 +5,7 @@
   "summary": "Cantor accepted in Lviv in 1862.",
   "originalName": "אוסוולדוייס",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 221,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 891,
       "passageCharEnd": 912,
-      "normalizedPassageCharStart": 649,
-      "normalizedPassageCharEnd": 666,
+      "normalizedPassageCharStart": 891,
+      "normalizedPassageCharEnd": 912,
       "pageCharStart": 891,
       "pageCharEnd": 912,
       "quote": "אוסוול ד ויי ס משגדין",
-      "normalizedQuote": "אוסוולדוייסמשגדין",
+      "normalizedQuote": "אוסוול ד ויי ס משגדין",
       "modelQuote": "אוסוולדוייסמשגדין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n220/mode/1up",
@@ -34,13 +34,54 @@
       "passageChecksum": "a1780691a39d42e68e995d0db1a0888f4fdf51d962e4e85380a26fd27f08933d",
       "normalizedPassageChecksum": "20f4811b631603312c44939f3508369a654883064674b5acc27c9c36714640da",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_3f361d5f59db41f158a56360",
+      "type": "Employment",
+      "title": "Weiss accepted as cantor",
+      "summary": "Oswald Weiss was accepted as cantor in Lviv in 1862.",
+      "dateStart": "1862",
+      "dateEnd": "1862",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_748415223292fe778f200d44",
+        "pageId": "page_nybc313875_0221",
+        "scanIndex": 221,
+        "leafNumber": 220,
+        "printedPage": null,
+        "passageCharStart": 862,
+        "passageCharEnd": 905,
+        "normalizedPassageCharStart": 862,
+        "normalizedPassageCharEnd": 905,
+        "pageCharStart": 862,
+        "pageCharEnd": 905,
+        "quote": "ור ק בשנ ת 1862 נתקב ל\nכחז ן אוסוול ד ויי ס",
+        "normalizedQuote": "ור ק בשנ ת 1862 נתקב ל\nכחז ן אוסוול ד ויי ס",
+        "modelQuote": "ורקבשנת1862נתקבל כחזןאוסוולדוייס",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n220/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a1780691a39d42e68e995d0db1a0888f4fdf51d962e4e85380a26fd27f08933d",
+        "normalizedPassageChecksum": "20f4811b631603312c44939f3508369a654883064674b5acc27c9c36714640da",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_3f361d5f59db41f158a56360",
+      "type": "Event",
+      "title": "Weiss accepted as cantor",
+      "relation": "Participated In",
+      "role": "Employee"
+    },
     {
       "id": "mention_e6711e77bfdd1f307ca69157",
       "type": "Person",
@@ -60,7 +101,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_30361a499bda3fb108886342",
+      "id": "mention_60cdc77ce6abc95f0f098139",
       "type": "Place",
       "title": "Königsberg",
       "relation": "Appears in same passage"

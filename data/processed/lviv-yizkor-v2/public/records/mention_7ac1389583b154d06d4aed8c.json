@@ -5,7 +5,7 @@
   "summary": "Member associated with the commission.",
   "originalName": "סטניסלב סטאדניצקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 31,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 533,
       "passageCharEnd": 552,
-      "normalizedPassageCharStart": 399,
-      "normalizedPassageCharEnd": 416,
+      "normalizedPassageCharStart": 533,
+      "normalizedPassageCharEnd": 552,
       "pageCharStart": 2857,
       "pageCharEnd": 2876,
       "quote": "סטניסל ב\nסטאדניצק י",
-      "normalizedQuote": "סטניסלב סטאדניצקי",
+      "normalizedQuote": "סטניסל ב\nסטאדניצק י",
       "modelQuote": "סטניסלב סטאדניצקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n30/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "cf2d5215dd258dfbb34b6f84ea72003b8681c1f033dec612c149f83a45f03fc1",
       "normalizedPassageChecksum": "3b7f15ce64ea0a01c5767dba2960c33b07d045cc5a1bda58830424d216cad6e2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_5e2b4872304898d866a51a55",
+      "type": "Migration",
+      "title": "Commission members arrived in Lviv",
+      "summary": "Two commission members arrived in Lviv on 10 October 1603.",
+      "dateStart": "1603-10-10",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage describes arrival, but the event is not clearly migration.",
+      "evidence": {
+        "passageId": "passage_e2f22b760a32a7ea50230df9",
+        "pageId": "page_nybc313875_0031",
+        "scanIndex": 31,
+        "leafNumber": 30,
+        "printedPage": null,
+        "passageCharStart": 438,
+        "passageCharEnd": 489,
+        "normalizedPassageCharStart": 438,
+        "normalizedPassageCharEnd": 489,
+        "pageCharStart": 2762,
+        "pageCharEnd": 2813,
+        "quote": "ב* 10 באוקטוב ר 1603 הגיע ו לבוב ה שנ י חבר י הועדה",
+        "normalizedQuote": "ב* 10 באוקטוב ר 1603 הגיע ו לבוב ה שנ י חבר י הועדה",
+        "modelQuote": "ב*10באוקטובר1603הגיעולבובהשניחבריהועדה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n30/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "cf2d5215dd258dfbb34b6f84ea72003b8681c1f033dec612c149f83a45f03fc1",
+        "normalizedPassageChecksum": "3b7f15ce64ea0a01c5767dba2960c33b07d045cc5a1bda58830424d216cad6e2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_5e2b4872304898d866a51a55",
+      "type": "Event",
+      "title": "Commission members arrived in Lviv",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_2004eaef83e87e674a804c8a",
       "type": "Person",
@@ -77,9 +118,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2dab4f6661be9be103065092",
+      "id": "mention_02f723f1a22975a97e0e1cb5",
       "type": "Place",
-      "title": "Kraków",
+      "title": "Krakow",
       "relation": "Appears in same passage"
     },
     {

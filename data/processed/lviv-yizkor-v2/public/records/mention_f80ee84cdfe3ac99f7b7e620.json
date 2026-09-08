@@ -5,7 +5,7 @@
   "summary": "Head of the yeshiva and later rabbinical judge in Przemysl.",
   "originalName": "ר׳יוסףב״רמשהחריףסג״ל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 204,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1272,
       "passageCharEnd": 1302,
-      "normalizedPassageCharStart": 902,
-      "normalizedPassageCharEnd": 922,
+      "normalizedPassageCharStart": 1272,
+      "normalizedPassageCharEnd": 1302,
       "pageCharStart": 2184,
       "pageCharEnd": 2214,
       "quote": "ר ׳ יוס ף ב״ ר מש ה חרי ף סג״ל",
-      "normalizedQuote": "ר׳יוסףב״רמשהחריףסג״ל",
+      "normalizedQuote": "ר ׳ יוס ף ב״ ר מש ה חרי ף סג״ל",
       "modelQuote": "ר׳יוסףב״רמשהחריףסג״ל",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n203/mode/1up",
@@ -33,13 +33,47 @@
       "passageChecksum": "62cf8c059913d6a780a4cef678ca6fd3e826de782e07658f94b267907d1feea2",
       "normalizedPassageChecksum": "afd8f5c2583685266e7e3d4a76d09e3e7ac523fa07ee579b74d3a96fe2b4c0b6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_cbed3bceb500efc383aa5216",
+      "id": "claim_candidate_0a1aa4eeaa4d9ee93540adc5",
+      "predicate": "Child Of",
+      "subjectTitle": "Joseph son of Moshe HaHarif Segal",
+      "objectTitle": "Moshe HaHarif",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "relationship": "son"
+      },
+      "evidence": {
+        "passageId": "passage_0518ebe3e6ca0e2b056085ea",
+        "pageId": "page_nybc313875_0204",
+        "scanIndex": 204,
+        "leafNumber": 203,
+        "printedPage": null,
+        "passageCharStart": 1272,
+        "passageCharEnd": 1297,
+        "normalizedPassageCharStart": 1272,
+        "normalizedPassageCharEnd": 1297,
+        "pageCharStart": 2184,
+        "pageCharEnd": 2209,
+        "quote": "ר ׳ יוס ף ב״ ר מש ה חרי ף",
+        "normalizedQuote": "ר ׳ יוס ף ב״ ר מש ה חרי ף",
+        "modelQuote": "ר׳יוסףב״רמשהחריף",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n203/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "62cf8c059913d6a780a4cef678ca6fd3e826de782e07658f94b267907d1feea2",
+        "normalizedPassageChecksum": "afd8f5c2583685266e7e3d4a76d09e3e7ac523fa07ee579b74d3a96fe2b4c0b6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_3dc434c0823516bf5aa81d57",
       "predicate": "Parent Of",
       "subjectTitle": "Judah Leib Hasid",
       "objectTitle": "Joseph son of Moshe HaHarif Segal",
@@ -55,12 +89,12 @@
         "printedPage": null,
         "passageCharStart": 1346,
         "passageCharEnd": 1377,
-        "normalizedPassageCharStart": 955,
-        "normalizedPassageCharEnd": 976,
+        "normalizedPassageCharStart": 1346,
+        "normalizedPassageCharEnd": 1377,
         "pageCharStart": 2258,
         "pageCharEnd": 2289,
         "quote": "חתנ ו ש ל ר ׳\nיהוד ה לי ב חסי ד",
-        "normalizedQuote": "חתנושלר׳ יהודהליבחסיד",
+        "normalizedQuote": "חתנ ו ש ל ר ׳\nיהוד ה לי ב חסי ד",
         "modelQuote": "חתנושלר׳ יהודהליבחסיד",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n203/mode/1up",
@@ -68,13 +102,19 @@
         "passageChecksum": "62cf8c059913d6a780a4cef678ca6fd3e826de782e07658f94b267907d1feea2",
         "normalizedPassageChecksum": "afd8f5c2583685266e7e3d4a76d09e3e7ac523fa07ee579b74d3a96fe2b4c0b6",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_7b984235587f3b506cbdebef",
+      "type": "Person",
+      "title": "Moshe HaHarif",
+      "relation": "Child Of"
+    },
     {
       "id": "mention_9eb6385ef8e0bc72b2d92d6d",
       "type": "Person",

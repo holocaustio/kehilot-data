@@ -5,7 +5,7 @@
   "summary": "German official newspaper carrying a ghetto relocation notice.",
   "originalName": "לעמבערגערצייטונג",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 316,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 863,
       "passageCharEnd": 906,
-      "normalizedPassageCharStart": 650,
-      "normalizedPassageCharEnd": 685,
+      "normalizedPassageCharStart": 863,
+      "normalizedPassageCharEnd": 906,
       "pageCharStart": 934,
       "pageCharEnd": 977,
       "quote": "בעתו ן הרשמ י הגרמנ י\n״לעמבערגע ר צייטונג ״",
-      "normalizedQuote": "בעתוןהרשמיהגרמני ״לעמבערגערצייטונג״",
+      "normalizedQuote": "בעתו ן הרשמ י הגרמנ י\n״לעמבערגע ר צייטונג ״",
       "modelQuote": "בעתוןהרשמיהגרמני ״לעמבערגערצייטונג״",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n315/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "ba128d5701ee15a0f3f803f95c388bb57d2627565d1178b3b55371c432de625c",
       "normalizedPassageChecksum": "9f2183dc9e5331722392a2a8370ea02fe2f4e6482e21a7e800335880e454a0db",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 30,
       "passageCharEnd": 50,
-      "normalizedPassageCharStart": 23,
-      "normalizedPassageCharEnd": 41,
+      "normalizedPassageCharStart": 30,
+      "normalizedPassageCharEnd": 50,
       "pageCharStart": 30,
       "pageCharEnd": 50,
       "quote": "\"לעמבערגע ר צייטונג״",
-      "normalizedQuote": "\"לעמבערגערצייטונג״",
+      "normalizedQuote": "\"לעמבערגע ר צייטונג״",
       "modelQuote": "\"לעמבערגערצייטונג״",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n172/mode/1up",
@@ -57,7 +57,7 @@
       "passageChecksum": "124cf70b2c481e1875c056d05af37f4f49c0bd9c7e489d769f033b23361ef3b1",
       "normalizedPassageChecksum": "9aefbd424ffacb783bb4be7885850ccb4ab7e0f805cd5c30d189bd827df662be",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -65,7 +65,7 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -86,12 +86,6 @@
       "id": "mention_07176b69550761959ee891e9",
       "type": "Place",
       "title": "Kleparovska Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e384b41da1eff363cf608819",
-      "type": "Place",
-      "title": "Feltevna Street",
       "relation": "Appears in same passage"
     },
     {
@@ -140,6 +134,12 @@
       "id": "mention_655849a3f6ffd8b0da954004",
       "type": "Person",
       "title": "N. Sokolov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_213ad355b77f4eb5f36c90d0",
+      "type": "Place",
+      "title": "Lviv",
       "relation": "Appears in same passage"
     }
   ],

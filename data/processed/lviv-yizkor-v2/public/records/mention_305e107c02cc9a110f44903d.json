@@ -5,7 +5,7 @@
   "summary": "Body whose Jewish-district medical aid department employed Shalom Gottfried.",
   "originalName": "\"המועצה\"",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 378,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 894,
       "passageCharEnd": 912,
-      "normalizedPassageCharStart": 668,
-      "normalizedPassageCharEnd": 681,
+      "normalizedPassageCharStart": 894,
+      "normalizedPassageCharEnd": 912,
       "pageCharStart": 2019,
       "pageCharEnd": 2037,
       "quote": "שע ל י ד \"המועצה \"",
-      "normalizedQuote": "שעליד\"המועצה\"",
+      "normalizedQuote": "שע ל י ד \"המועצה \"",
       "modelQuote": "שעליד\"המועצה\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n377/mode/1up",
@@ -33,13 +33,44 @@
       "passageChecksum": "ae92e631def3ebf6923c903d43fc9aa753b14ecc665d50da1860f590bd2519c5",
       "normalizedPassageChecksum": "d1324b3b10303308e8fcc3607f6ea37818f0cde39d284536d2901798101f886a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_e4e90b53c9c38882dbdd46b0",
+      "id": "claim_candidate_f1c92540bf56758e0f8f1652",
+      "predicate": "Member Of",
+      "subjectTitle": "Jacob Bodkier",
+      "objectTitle": "The Council",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_405a3f130d00cdd1fc3deb5a",
+        "pageId": "page_nybc313875_0378",
+        "scanIndex": 378,
+        "leafNumber": 377,
+        "printedPage": null,
+        "passageCharStart": 421,
+        "passageCharEnd": 464,
+        "normalizedPassageCharStart": 421,
+        "normalizedPassageCharEnd": 464,
+        "pageCharStart": 421,
+        "pageCharEnd": 464,
+        "quote": "הי ה חב ר מועצ ת המפלג ה\nש ל ציונ י גליצי ה",
+        "normalizedQuote": "הי ה חב ר מועצ ת המפלג ה\nש ל ציונ י גליצי ה",
+        "modelQuote": "היהחברמועצתהמפלגה שלציוניגליציה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n377/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "fe92d16e578e71e1f5fb141e35936ab5be0ed941b4698055edb730f610e35d59",
+        "normalizedPassageChecksum": "c33bb40ec193ea5121f91427d966d9be2601f069471fe134dc6f0cf5f474a3d8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_9134f61aae82b369c2ff9ee3",
       "predicate": "Worked At",
       "subjectTitle": "Dr. Shalom Gottfried",
       "objectTitle": "The Council",
@@ -55,12 +86,12 @@
         "printedPage": null,
         "passageCharStart": 865,
         "passageCharEnd": 912,
-        "normalizedPassageCharStart": 646,
-        "normalizedPassageCharEnd": 681,
+        "normalizedPassageCharStart": 865,
+        "normalizedPassageCharEnd": 912,
         "pageCharStart": 1990,
         "pageCharEnd": 2037,
         "quote": "עב ד במחלק ת העזר ה הרפואי ת\nשע ל י ד \"המועצה \"",
-        "normalizedQuote": "עבדבמחלקתהעזרההרפואית שעליד\"המועצה\"",
+        "normalizedQuote": "עב ד במחלק ת העזר ה הרפואי ת\nשע ל י ד \"המועצה \"",
         "modelQuote": "עבדבמחלקתהעזרההרפואית שעליד\"המועצה\"",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n377/mode/1up",
@@ -68,13 +99,19 @@
         "passageChecksum": "ae92e631def3ebf6923c903d43fc9aa753b14ecc665d50da1860f590bd2519c5",
         "normalizedPassageChecksum": "d1324b3b10303308e8fcc3607f6ea37818f0cde39d284536d2901798101f886a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_8b5c1820873d3d9d7e2b378a",
+      "type": "Person",
+      "title": "Jacob Bodkier",
+      "relation": "Member Of"
+    },
     {
       "id": "mention_75ecbd325af4cce7dedfc3f8",
       "type": "Person",
@@ -100,12 +137,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ecc47dd0a7fa6234af8491de",
-      "type": "Place",
-      "title": "Kolomyia",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_b7a1225e98f5b707d71f7c26",
       "type": "Person",
       "title": "Ben-Zion Ginsberg",
@@ -121,12 +152,6 @@
       "id": "mention_4b0362d81fa12268280147c9",
       "type": "Publication",
       "title": "Haynt",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a6aa6e9d023950ad2f7d220e",
-      "type": "Place",
-      "title": "Warsaw",
       "relation": "Appears in same passage"
     },
     {
@@ -151,6 +176,18 @@
       "id": "mention_bb7b4c3bd9115fe1d659331e",
       "type": "Organization",
       "title": "Radical Zionists",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_adacb0d758948952cc3628b4",
+      "type": "Person",
+      "title": "Dr. Abraham Ainsler",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5bf90c3d73fc6cb2d287ee3d",
+      "type": "Place",
+      "title": "Piascowa Gora",
       "relation": "Appears in same passage"
     }
   ],

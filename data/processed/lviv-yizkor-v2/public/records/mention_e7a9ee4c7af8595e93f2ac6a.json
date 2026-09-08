@@ -5,7 +5,7 @@
   "summary": "A merchant in Lviv who filed a complaint in 1747.",
   "originalName": "ישראלפאיס",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 76,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 448,
       "passageCharEnd": 474,
-      "normalizedPassageCharStart": 317,
-      "normalizedPassageCharEnd": 336,
+      "normalizedPassageCharStart": 448,
+      "normalizedPassageCharEnd": 474,
       "pageCharStart": 2615,
       "pageCharEnd": 2641,
       "quote": "הסוח ר ישרא ל פאי ס בלבו ב",
-      "normalizedQuote": "הסוחרישראלפאיסבלבוב",
+      "normalizedQuote": "הסוח ר ישרא ל פאי ס בלבו ב",
       "modelQuote": "הסוחרישראלפאיסבלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n75/mode/1up",
@@ -33,14 +33,14 @@
       "passageChecksum": "f4dda81316656d0fe2dc0c981e75e9fe1deecdd5346980bb0f4cd818563174fc",
       "normalizedPassageChecksum": "f5e10f6d1eae9b9a5ab5e04208e1a23bd57c7033fdd5780efd9083d48a4a4be0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_7a92155d024719c1ffd8bba9",
+      "id": "event_candidate_d5fd974abf2be72ec698c30d",
       "type": "Arrest",
       "title": "Israel Fais complaint",
       "summary": "Israel Fais filed a complaint against a judgment in Lviv in 1747.",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 436,
         "passageCharEnd": 500,
-        "normalizedPassageCharStart": 309,
-        "normalizedPassageCharEnd": 356,
+        "normalizedPassageCharStart": 436,
+        "normalizedPassageCharEnd": 500,
         "pageCharStart": 2603,
         "pageCharEnd": 2667,
         "quote": "תלונת ו ש ל הסוח ר ישרא ל פאי ס בלבו ב בשנ ת\n1747 נג ד פסק־דינ ו",
-        "normalizedQuote": "תלונתושלהסוחרישראלפאיסבלבובבשנת 1747נגדפסק־דינו",
+        "normalizedQuote": "תלונת ו ש ל הסוח ר ישרא ל פאי ס בלבו ב בשנ ת\n1747 נג ד פסק־דינ ו",
         "modelQuote": "תלונתושלהסוחרישראלפאיסבלבובבשנת 1747נגדפסק־דינו",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n75/mode/1up",
@@ -69,21 +69,21 @@
         "passageChecksum": "f4dda81316656d0fe2dc0c981e75e9fe1deecdd5346980bb0f4cd818563174fc",
         "normalizedPassageChecksum": "f5e10f6d1eae9b9a5ab5e04208e1a23bd57c7033fdd5780efd9083d48a4a4be0",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_7a92155d024719c1ffd8bba9",
+      "id": "event_candidate_d5fd974abf2be72ec698c30d",
       "type": "Event",
       "title": "Israel Fais complaint",
       "relation": "Participated In",
       "role": "Subject"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

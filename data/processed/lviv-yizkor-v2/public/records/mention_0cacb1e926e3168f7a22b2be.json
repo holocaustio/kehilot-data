@@ -5,7 +5,7 @@
   "summary": "Benefactor who helped Sohistab publish copied inscriptions.",
   "originalName": "יעקבמנדלשיף",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 278,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 41,
       "passageCharEnd": 63,
-      "normalizedPassageCharStart": 29,
-      "normalizedPassageCharEnd": 46,
+      "normalizedPassageCharStart": 41,
+      "normalizedPassageCharEnd": 63,
       "pageCharStart": 2625,
       "pageCharEnd": 2647,
       "quote": "הגבי ר\nיעק ב מנד ל שיף",
-      "normalizedQuote": "הגביר יעקבמנדלשיף",
+      "normalizedQuote": "הגבי ר\nיעק ב מנד ל שיף",
       "modelQuote": "הגביר יעקבמנדלשיף",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n277/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "17f9d6a51d4555e302ec63e1b8c68840da6ed6ff70cd092b501188437fab587f",
       "normalizedPassageChecksum": "e0ad21f53f3d699dd48b42c069fdab3fcdbcb6e9f4c9befbe41d0d105e79bb70",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_46589bc8f7c3dba6eb3d6fcb",
+      "id": "claim_candidate_e41a21f1c09d65a6d31c1579",
       "predicate": "Participated In",
       "subjectTitle": "Yaakov Mendel Shif",
       "objectTitle": "Matzevat Kodesh",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 41,
         "passageCharEnd": 122,
-        "normalizedPassageCharStart": 29,
-        "normalizedPassageCharEnd": 91,
+        "normalizedPassageCharStart": 41,
+        "normalizedPassageCharEnd": 122,
         "pageCharStart": 2625,
         "pageCharEnd": 2706,
         "quote": "הגבי ר\nיעק ב מנד ל שיף ׳ גבא י בית־החולים ׳ שקיב ל עלי ו\nלעזו ר לסוחיסט ב להוצי א",
-        "normalizedQuote": "הגביר יעקבמנדלשיף׳גבאיבית־החולים׳שקיבלעליו לעזורלסוחיסטבלהוציא",
+        "normalizedQuote": "הגבי ר\nיעק ב מנד ל שיף ׳ גבא י בית־החולים ׳ שקיב ל עלי ו\nלעזו ר לסוחיסט ב להוצי א",
         "modelQuote": "הגביר יעקבמנדלשיף׳גבאיבית־החולים׳שקיבלעליו לעזורלסוחיסטבלהוציא",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n277/mode/1up",
@@ -68,12 +68,47 @@
         "passageChecksum": "17f9d6a51d4555e302ec63e1b8c68840da6ed6ff70cd092b501188437fab587f",
         "normalizedPassageChecksum": "e0ad21f53f3d699dd48b42c069fdab3fcdbcb6e9f4c9befbe41d0d105e79bb70",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_11d95e1b5f6f55020d1c3db7",
+      "type": "Business Opening",
+      "title": "Publication of Matzevat Kodesh",
+      "summary": "The first booklet of cemetery inscriptions was printed in 1860.",
+      "dateStart": "1860",
+      "dateEnd": "1860",
+      "confidence": "HIGH",
+      "uncertaintyNote": "Event type is not available for publication; omitted.",
+      "evidence": {
+        "passageId": "passage_7031b9c89645554fe460d8c1",
+        "pageId": "page_nybc313875_0278",
+        "scanIndex": 278,
+        "leafNumber": 277,
+        "printedPage": null,
+        "passageCharStart": 156,
+        "passageCharEnd": 202,
+        "normalizedPassageCharStart": 156,
+        "normalizedPassageCharEnd": 202,
+        "pageCharStart": 2740,
+        "pageCharEnd": 2786,
+        "quote": "בשנ ת 1860 נדפס ה החובר ת הראשונ ה \"מצב ת\nקודש",
+        "normalizedQuote": "בשנ ת 1860 נדפס ה החובר ת הראשונ ה \"מצב ת\nקודש",
+        "modelQuote": "בשנת1860נדפסההחוברתהראשונה\"מצבת קודש",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n277/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "17f9d6a51d4555e302ec63e1b8c68840da6ed6ff70cd092b501188437fab587f",
+        "normalizedPassageChecksum": "e0ad21f53f3d699dd48b42c069fdab3fcdbcb6e9f4c9befbe41d0d105e79bb70",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_dc05090e3f7b6ce3ddfe8971",
@@ -82,7 +117,14 @@
       "relation": "Participated In"
     },
     {
-      "id": "mention_464d7744a57eb3afc708f062",
+      "id": "event_candidate_11d95e1b5f6f55020d1c3db7",
+      "type": "Event",
+      "title": "Publication of Matzevat Kodesh",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_e5bc7dfff78bd3aeafe2eb34",
       "type": "Institution",
       "title": "Hospital",
       "relation": "Appears in same passage"

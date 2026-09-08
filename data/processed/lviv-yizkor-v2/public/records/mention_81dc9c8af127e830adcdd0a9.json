@@ -5,7 +5,7 @@
   "summary": "A Jewish-Polish writer listed among victims of an execution.",
   "originalName": "לודויגראטה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 333,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 241,
       "passageCharEnd": 275,
-      "normalizedPassageCharStart": 182,
-      "normalizedPassageCharEnd": 209,
+      "normalizedPassageCharStart": 241,
+      "normalizedPassageCharEnd": 275,
       "pageCharStart": 241,
       "pageCharEnd": 275,
       "quote": "הסופ ר היהודי־פולנ י לודוי ג ראט ה",
-      "normalizedQuote": "הסופרהיהודי־פולנילודויגראטה",
+      "normalizedQuote": "הסופ ר היהודי־פולנ י לודוי ג ראט ה",
       "modelQuote": "הסופרהיהודי־פולנילודויגראטה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n332/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "109daf74813f461364fd579aee2cc58096fd556b1102068b564286ed260e3021",
       "normalizedPassageChecksum": "40162b211d6cde83670e335dd4a4d9aa6d89e85e9109fb92050588778aa56531",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 587,
       "passageCharEnd": 612,
-      "normalizedPassageCharStart": 435,
-      "normalizedPassageCharEnd": 453,
+      "normalizedPassageCharStart": 587,
+      "normalizedPassageCharEnd": 612,
       "pageCharStart": 587,
       "pageCharEnd": 612,
       "quote": "ד״ ר לודוי ג ראטה ׳ נרצ ח",
-      "normalizedQuote": "ד״רלודויגראטה׳נרצח",
+      "normalizedQuote": "ד״ ר לודוי ג ראטה ׳ נרצ ח",
       "modelQuote": "ד״רלודויגראטה׳נרצח",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n344/mode/1up",
@@ -57,14 +57,49 @@
       "passageChecksum": "8afabacb23eba83f680ffb3dd8d1cf6eb49f4683ace92656d00127e7dd94db25",
       "normalizedPassageChecksum": "ab9d22c3e655a66c5d63e95d344e98151a9177ad00015dc7e4060c3c6ba521d6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c9f65a2958a2f60c8c03da48",
+      "predicate": "Murdered At",
+      "subjectTitle": "Ludwig Ratner",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "dateText": "September 1, 1942"
+      },
+      "evidence": {
+        "passageId": "passage_e055ae6cfeec05c2fff5ae23",
+        "pageId": "page_nybc313875_0345",
+        "scanIndex": 345,
+        "leafNumber": 344,
+        "printedPage": null,
+        "passageCharStart": 607,
+        "passageCharEnd": 664,
+        "normalizedPassageCharStart": 607,
+        "normalizedPassageCharEnd": 664,
+        "pageCharStart": 607,
+        "pageCharEnd": 664,
+        "quote": "נרצ ח כאמור ׳ באכזריו ת ביד י\nהגרמני ם ב־ 1 לספטמב ר 1942",
+        "normalizedQuote": "נרצ ח כאמור ׳ באכזריו ת ביד י\nהגרמני ם ב־ 1 לספטמב ר 1942",
+        "modelQuote": "נרצחכאמור׳באכזריותבידי הגרמניםב־1לספטמבר1942",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n344/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "8afabacb23eba83f680ffb3dd8d1cf6eb49f4683ace92656d00127e7dd94db25",
+        "normalizedPassageChecksum": "ab9d22c3e655a66c5d63e95d344e98151a9177ad00015dc7e4060c3c6ba521d6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [
     {
-      "id": "event_candidate_451e4290bddb6176dadb2f50",
+      "id": "event_candidate_ccdcb80f583193d912c38bb2",
       "type": "Murder",
       "title": "Execution of listed victims",
       "summary": "Several people were hanged by Germans; the passage lists victims.",
@@ -77,12 +112,12 @@
         "printedPage": null,
         "passageCharStart": 222,
         "passageCharEnd": 275,
-        "normalizedPassageCharStart": 168,
-        "normalizedPassageCharEnd": 209,
+        "normalizedPassageCharStart": 222,
+        "normalizedPassageCharEnd": 275,
         "pageCharStart": 222,
         "pageCharEnd": 275,
         "quote": "בי ן החללי ם\nהיו : הסופ ר היהודי־פולנ י לודוי ג ראט ה",
-        "normalizedQuote": "ביןהחללים היו:הסופרהיהודי־פולנילודויגראטה",
+        "normalizedQuote": "בי ן החללי ם\nהיו : הסופ ר היהודי־פולנ י לודוי ג ראט ה",
         "modelQuote": "ביןהחללים היו:הסופרהיהודי־פולנילודויגראטה",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n332/mode/1up",
@@ -90,14 +125,47 @@
         "passageChecksum": "109daf74813f461364fd579aee2cc58096fd556b1102068b564286ed260e3021",
         "normalizedPassageChecksum": "40162b211d6cde83670e335dd4a4d9aa6d89e85e9109fb92050588778aa56531",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_bc4252196fd2ed838b37bfcc",
+      "type": "Murder",
+      "title": "Murder of Ludwig Ratner",
+      "summary": "Ludwig Ratner was murdered by Germans on September 1, 1942.",
+      "dateStart": "1942-09-01",
+      "dateEnd": "1942-09-01",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e055ae6cfeec05c2fff5ae23",
+        "pageId": "page_nybc313875_0345",
+        "scanIndex": 345,
+        "leafNumber": 344,
+        "printedPage": null,
+        "passageCharStart": 607,
+        "passageCharEnd": 664,
+        "normalizedPassageCharStart": 607,
+        "normalizedPassageCharEnd": 664,
+        "pageCharStart": 607,
+        "pageCharEnd": 664,
+        "quote": "נרצ ח כאמור ׳ באכזריו ת ביד י\nהגרמני ם ב־ 1 לספטמב ר 1942",
+        "normalizedQuote": "נרצ ח כאמור ׳ באכזריו ת ביד י\nהגרמני ם ב־ 1 לספטמב ר 1942",
+        "modelQuote": "נרצחכאמור׳באכזריותבידי הגרמניםב־1לספטמבר1942",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n344/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "8afabacb23eba83f680ffb3dd8d1cf6eb49f4683ace92656d00127e7dd94db25",
+        "normalizedPassageChecksum": "ab9d22c3e655a66c5d63e95d344e98151a9177ad00015dc7e4060c3c6ba521d6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_451e4290bddb6176dadb2f50",
+      "id": "event_candidate_ccdcb80f583193d912c38bb2",
       "type": "Event",
       "title": "Execution of listed victims",
       "relation": "Participated In",
@@ -110,10 +178,23 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d4bbf3f2df3e8bb5efab3cc3",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "event_candidate_bc4252196fd2ed838b37bfcc",
+      "type": "Event",
+      "title": "Murder of Ludwig Ratner",
+      "relation": "Participated In",
+      "role": "Victim"
     },
     {
       "id": "mention_73f009b3c2ed48a0625ce6f6",

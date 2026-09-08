@@ -5,7 +5,7 @@
   "summary": "Only son of Lowenstein who married Miriam Horowitz.",
   "originalName": "נתן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 221,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1102,
       "passageCharEnd": 1118,
-      "normalizedPassageCharStart": 819,
-      "normalizedPassageCharEnd": 832,
+      "normalizedPassageCharStart": 1102,
+      "normalizedPassageCharEnd": 1118,
       "pageCharStart": 2477,
       "pageCharEnd": 2493,
       "quote": "בנ ו יחידו ,\nנתן",
-      "normalizedQuote": "בנויחידו, נתן",
+      "normalizedQuote": "בנ ו יחידו ,\nנתן",
       "modelQuote": "בנויחידו, נתן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n220/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "8f0b5b0b8c22889ddb41e777e1e4f8e90ae8dfa8c860d856ec33fdb4a0481084",
       "normalizedPassageChecksum": "cf433a7780451cd8fcedd70ee1faf0cab772c43436f4c8b4406e6f314374f5f7",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_07e29e0082f7a6cfc57b9977",
+      "id": "claim_candidate_328571680292a4c2229ed20a",
       "predicate": "Child Of",
       "subjectTitle": "Nathan",
-      "objectTitle": "Dr. Lowenstein",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_9f55f811627ab3884e3bc093",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 1102,
         "passageCharEnd": 1118,
-        "normalizedPassageCharStart": 819,
-        "normalizedPassageCharEnd": 832,
+        "normalizedPassageCharStart": 1102,
+        "normalizedPassageCharEnd": 1118,
         "pageCharStart": 2477,
         "pageCharEnd": 2493,
         "quote": "בנ ו יחידו ,\nנתן",
-        "normalizedQuote": "בנויחידו, נתן",
+        "normalizedQuote": "בנ ו יחידו ,\nנתן",
         "modelQuote": "בנויחידו, נתן",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n220/mode/1up",
@@ -65,12 +65,12 @@
         "passageChecksum": "8f0b5b0b8c22889ddb41e777e1e4f8e90ae8dfa8c860d856ec33fdb4a0481084",
         "normalizedPassageChecksum": "cf433a7780451cd8fcedd70ee1faf0cab772c43436f4c8b4406e6f314374f5f7",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "claim_candidate_a51c9cd1f396a947ccd5a2cd",
+      "id": "claim_candidate_82138f3bfa9f5aa7966f536a",
       "predicate": "Spouse Of",
       "subjectTitle": "Nathan",
       "objectTitle": "Miriam Horowitz",
@@ -83,12 +83,12 @@
         "printedPage": null,
         "passageCharStart": 1115,
         "passageCharEnd": 1141,
-        "normalizedPassageCharStart": 829,
-        "normalizedPassageCharEnd": 846,
+        "normalizedPassageCharStart": 1115,
+        "normalizedPassageCharEnd": 1141,
         "pageCharStart": 2490,
         "pageCharEnd": 2516,
         "quote": "נתן , נש א לאש ת א ת מרי ם",
-        "normalizedQuote": "נתן,נשאלאשתאתמרים",
+        "normalizedQuote": "נתן , נש א לאש ת א ת מרי ם",
         "modelQuote": "נתן,נשאלאשתאתמרים",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n220/mode/1up",
@@ -96,7 +96,7 @@
         "passageChecksum": "8f0b5b0b8c22889ddb41e777e1e4f8e90ae8dfa8c860d856ec33fdb4a0481084",
         "normalizedPassageChecksum": "cf433a7780451cd8fcedd70ee1faf0cab772c43436f4c8b4406e6f314374f5f7",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -104,22 +104,10 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_76da7fbc31c2f429b8320cfc",
-      "type": "Person",
-      "title": "Dr. Lowenstein",
-      "relation": "Child Of"
-    },
-    {
       "id": "mention_0969c7edaf5b7b55f1fe0799",
       "type": "Person",
       "title": "Miriam Horowitz",
       "relation": "Spouse Of"
-    },
-    {
-      "id": "mention_76da7fbc31c2f429b8320cfc",
-      "type": "Person",
-      "title": "Dr. Lowenstein",
-      "relation": "Appears in same passage"
     },
     {
       "id": "mention_555140c7e306b925076d751b",
@@ -128,21 +116,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_71b37844dd294ad668cb06c1",
+      "id": "mention_2d03155b0c10906905d8e3ef",
       "type": "Organization",
-      "title": "Shomer Yisrael",
+      "title": "Shomer Israel Association",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_34ff382e978ed47f7cb48c30",
       "type": "Organization",
       "title": "Maccabi Esh",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_49314adb98f2eabb1110166d",
-      "type": "Institution",
-      "title": "Heichal",
       "relation": "Appears in same passage"
     },
     {

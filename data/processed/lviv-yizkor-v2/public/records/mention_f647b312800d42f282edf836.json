@@ -5,7 +5,7 @@
   "summary": "Sworn assessors accused of reducing taxes for themselves and associates.",
   "originalName": "שמאי־הקהלה המושבעים",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 77,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 314,
       "passageCharEnd": 335,
-      "normalizedPassageCharStart": 232,
-      "normalizedPassageCharEnd": 251,
+      "normalizedPassageCharStart": 314,
+      "normalizedPassageCharEnd": 335,
       "pageCharStart": 1605,
       "pageCharEnd": 1626,
       "quote": "שמאי־הקהל ה\nהמושבעי ם",
-      "normalizedQuote": "שמאי־הקהלה המושבעים",
+      "normalizedQuote": "שמאי־הקהל ה\nהמושבעי ם",
       "modelQuote": "שמאי־הקהלה המושבעים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n76/mode/1up",
@@ -33,19 +33,13 @@
       "passageChecksum": "701e26c8564b8104005944fd97da5f2f44d84c05d8d5d5b95f7018ec575f79d9",
       "normalizedPassageChecksum": "26e22f2f4d5d6d04b8e50315db1d558bc8905d039af126842375cdc23ead2659",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_0d474c220cc62aca0bd2264f",
-      "type": "Community",
-      "title": "the community",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_847b8b7808a651a7ff61174d",
       "type": "Person",
@@ -74,12 +68,6 @@
       "id": "mention_90d1847facc093e6f8a61815",
       "type": "Institution",
       "title": "the synagogue",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_62669b7a5980e72e44880611",
-      "type": "Institution",
-      "title": "the hospital",
       "relation": "Appears in same passage"
     }
   ],

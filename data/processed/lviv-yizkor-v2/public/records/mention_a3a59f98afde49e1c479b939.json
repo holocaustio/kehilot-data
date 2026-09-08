@@ -5,7 +5,7 @@
   "summary": "A notable scholar who was a judge in Znyshynia.",
   "originalName": "הרבר׳צבירוזנפלד",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 231,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 847,
       "passageCharEnd": 868,
-      "normalizedPassageCharStart": 611,
-      "normalizedPassageCharEnd": 626,
+      "normalizedPassageCharStart": 847,
+      "normalizedPassageCharEnd": 868,
       "pageCharStart": 3469,
       "pageCharEnd": 3490,
       "quote": "הר ב ר ׳ צב י רוזנפלד",
-      "normalizedQuote": "הרבר׳צבירוזנפלד",
+      "normalizedQuote": "הר ב ר ׳ צב י רוזנפלד",
       "modelQuote": "הרבר׳צבירוזנפלד",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n230/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "d06abeacdb94c80a57747b57023bcac52458a99ca63f5b83db9fa77960b296c2",
       "normalizedPassageChecksum": "631ef315ac52e47f5865ba96cb871fbe7519093119e818b234aa31fca4478c30",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_a8ef472412248c5ad7c879cc",
+      "id": "claim_candidate_770ec8eee4c2773d1ccbf3ba",
       "predicate": "Worked At",
       "subjectTitle": "Rabbi Tzvi Rosenfeld",
-      "objectTitle": "Znyshynia",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "qualifiers": {
         "role": "judge"
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 871,
         "passageCharEnd": 892,
-        "normalizedPassageCharStart": 627,
-        "normalizedPassageCharEnd": 645,
+        "normalizedPassageCharStart": 871,
+        "normalizedPassageCharEnd": 892,
         "pageCharStart": 3493,
         "pageCharEnd": 3514,
         "quote": "שהי ה דיי ן\nבזנישיניא",
-        "normalizedQuote": "שהיהדיין בזנישיניא",
+        "normalizedQuote": "שהי ה דיי ן\nבזנישיניא",
         "modelQuote": "שהיהדיין בזנישיניא",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n230/mode/1up",
@@ -68,25 +68,13 @@
         "passageChecksum": "d06abeacdb94c80a57747b57023bcac52458a99ca63f5b83db9fa77960b296c2",
         "normalizedPassageChecksum": "631ef315ac52e47f5865ba96cb871fbe7519093119e818b234aa31fca4478c30",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
-    {
-      "id": "mention_3b7b49471832ed0d0df45892",
-      "type": "Community",
-      "title": "Znyshynia",
-      "relation": "Worked At"
-    },
-    {
-      "id": "mention_3b7b49471832ed0d0df45892",
-      "type": "Community",
-      "title": "Znyshynia",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_763a361752ff981c9156a60a",
       "type": "Institution",
@@ -142,15 +130,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_558feccfde4626ed14bb7c23",
-      "type": "Place",
-      "title": "Bnei Brak",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_d24fefb0e8ba51fad8a607b2",
       "type": "Person",
       "title": "Mattathias Weintraub",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5382ea166322be7c12883a9b",
+      "type": "Institution",
+      "title": "Great Study House in Znyshynia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6c1961e61456361ed5e306da",
+      "type": "Person",
+      "title": "Hugo Ulrich",
       "relation": "Appears in same passage"
     }
   ],

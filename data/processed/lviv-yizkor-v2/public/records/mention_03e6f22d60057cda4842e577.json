@@ -5,7 +5,7 @@
   "summary": "King who supported Jewish migration to Poland.",
   "originalName": "המלךזיגמונט1",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 175,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 652,
       "passageCharEnd": 681,
-      "normalizedPassageCharStart": 491,
-      "normalizedPassageCharEnd": 512,
+      "normalizedPassageCharStart": 652,
+      "normalizedPassageCharEnd": 681,
       "pageCharStart": 3121,
       "pageCharEnd": 3150,
       "quote": "ונתמכ ה ע״ י המל ך זיגמונ ט 1",
-      "normalizedQuote": "ונתמכהע״יהמלךזיגמונט1",
+      "normalizedQuote": "ונתמכ ה ע״ י המל ך זיגמונ ט 1",
       "modelQuote": "ונתמכהע״יהמלךזיגמונט1",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n174/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "acc4ac7660f0b3940149c16b73778a89155e4974bbf28b4577a2bd993bbda045",
       "normalizedPassageChecksum": "e3ed9b365d45057af6706d98a4a60025d14361c4608370dade10a59e675f11c8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_4aff1b8c1cf8c9fc13022bfe",
+      "id": "claim_candidate_13fd5ac958f40ed8ecbaa368",
       "predicate": "Led By",
       "subjectTitle": "Sigismund I",
       "objectTitle": "Lviv Jewish community",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 652,
         "passageCharEnd": 681,
-        "normalizedPassageCharStart": 491,
-        "normalizedPassageCharEnd": 512,
+        "normalizedPassageCharStart": 652,
+        "normalizedPassageCharEnd": 681,
         "pageCharStart": 3121,
         "pageCharEnd": 3150,
         "quote": "ונתמכ ה ע״ י המל ך זיגמונ ט 1",
-        "normalizedQuote": "ונתמכהע״יהמלךזיגמונט1",
+        "normalizedQuote": "ונתמכ ה ע״ י המל ך זיגמונ ט 1",
         "modelQuote": "ונתמכהע״יהמלךזיגמונט1",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n174/mode/1up",
@@ -68,18 +68,58 @@
         "passageChecksum": "acc4ac7660f0b3940149c16b73778a89155e4974bbf28b4577a2bd993bbda045",
         "normalizedPassageChecksum": "e3ed9b365d45057af6706d98a4a60025d14361c4608370dade10a59e675f11c8",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_182f81737161f9fc82e9d2c4",
+      "type": "Migration",
+      "title": "Jewish migration to Poland",
+      "summary": "Jewish migration to Poland began in 1516 and was supported by King Sigismund I.",
+      "dateStart": "1516",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2133322b1777c9b4f70b78f1",
+        "pageId": "page_nybc313875_0175",
+        "scanIndex": 175,
+        "leafNumber": 174,
+        "printedPage": null,
+        "passageCharStart": 598,
+        "passageCharEnd": 651,
+        "normalizedPassageCharStart": 598,
+        "normalizedPassageCharEnd": 651,
+        "pageCharStart": 3067,
+        "pageCharEnd": 3120,
+        "quote": "זרימ ת יהודי ם צחיי ם לפולי ן התחיל ה עו ד בשנ ת\n1516",
+        "normalizedQuote": "זרימ ת יהודי ם צחיי ם לפולי ן התחיל ה עו ד בשנ ת\n1516",
+        "modelQuote": "זרימתיהודיםצחייםלפוליןהתחילהעודבשנת 1516",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n174/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "acc4ac7660f0b3940149c16b73778a89155e4974bbf28b4577a2bd993bbda045",
+        "normalizedPassageChecksum": "e3ed9b365d45057af6706d98a4a60025d14361c4608370dade10a59e675f11c8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_4aea7e28d688490f426dbba7",
       "type": "Community",
       "title": "Lviv Jewish community",
       "relation": "Led By"
+    },
+    {
+      "id": "event_candidate_182f81737161f9fc82e9d2c4",
+      "type": "Event",
+      "title": "Jewish migration to Poland",
+      "relation": "Participated In",
+      "role": "Organizer"
     },
     {
       "id": "mention_061b5b2f2d6022d0483d9ba2",
@@ -100,7 +140,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

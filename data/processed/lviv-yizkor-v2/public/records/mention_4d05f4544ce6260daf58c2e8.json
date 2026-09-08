@@ -5,7 +5,7 @@
   "summary": "A partner in publishing a work in Lviv.",
   "originalName": "הר׳יהודה ליבאדלר",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 276,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 290,
       "passageCharEnd": 320,
-      "normalizedPassageCharStart": 205,
-      "normalizedPassageCharEnd": 227,
+      "normalizedPassageCharStart": 290,
+      "normalizedPassageCharEnd": 320,
       "pageCharStart": 5125,
       "pageCharEnd": 5155,
       "quote": "הר ׳ יהוד ה\nל י ב אדל ר מסמבור",
-      "normalizedQuote": "הר׳יהודה ליבאדלרמסמבור",
+      "normalizedQuote": "הר ׳ יהוד ה\nל י ב אדל ר מסמבור",
       "modelQuote": "הר׳יהודה ליבאדלרמסמבור",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n275/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "8b88672a153f9a5a51e1a59fb1f52f490533abf70e41ec6da44b886ea04b2402",
       "normalizedPassageChecksum": "0feb77cfb63282eecfd59ab11c088fc50f353bfdc22b206def02e1eee3e26c73",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_3d1a9a18e59f149784f51969",
-      "predicate": "From",
+      "id": "claim_candidate_abb96ff52e293ac12c052c55",
+      "predicate": "Originated In",
       "subjectTitle": "Yehuda Leib Adler",
-      "objectTitle": "Sambor",
+      "objectTitle": "Yehuda Leib Adler was from Sambor.",
       "confidence": "MEDIUM",
       "evidence": {
         "passageId": "passage_a38d1e47b85a7ce9bc6e38b4",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 290,
         "passageCharEnd": 320,
-        "normalizedPassageCharStart": 205,
-        "normalizedPassageCharEnd": 227,
+        "normalizedPassageCharStart": 290,
+        "normalizedPassageCharEnd": 320,
         "pageCharStart": 5125,
         "pageCharEnd": 5155,
         "quote": "הר ׳ יהוד ה\nל י ב אדל ר מסמבור",
-        "normalizedQuote": "הר׳יהודה ליבאדלרמסמבור",
+        "normalizedQuote": "הר ׳ יהוד ה\nל י ב אדל ר מסמבור",
         "modelQuote": "הר׳יהודה ליבאדלרמסמבור",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n275/mode/1up",
@@ -65,12 +65,12 @@
         "passageChecksum": "8b88672a153f9a5a51e1a59fb1f52f490533abf70e41ec6da44b886ea04b2402",
         "normalizedPassageChecksum": "0feb77cfb63282eecfd59ab11c088fc50f353bfdc22b206def02e1eee3e26c73",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "claim_candidate_78f3e710f93527410353731d",
+      "id": "claim_candidate_5b404707adbdd0a6965afb69",
       "predicate": "Participated In",
       "subjectTitle": "Yehuda Leib Adler",
       "objectTitle": "Unresolved object",
@@ -86,12 +86,12 @@
         "printedPage": null,
         "passageCharStart": 291,
         "passageCharEnd": 313,
-        "normalizedPassageCharStart": 206,
-        "normalizedPassageCharEnd": 221,
+        "normalizedPassageCharStart": 291,
+        "normalizedPassageCharEnd": 313,
         "pageCharStart": 5126,
         "pageCharEnd": 5148,
         "quote": "ר ׳ יהוד ה\nל י ב אדל ר",
-        "normalizedQuote": "ר׳יהודה ליבאדלר",
+        "normalizedQuote": "ר ׳ יהוד ה\nל י ב אדל ר",
         "modelQuote": "ר׳יהודה ליבאדלר",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n275/mode/1up",
@@ -99,25 +99,13 @@
         "passageChecksum": "8b88672a153f9a5a51e1a59fb1f52f490533abf70e41ec6da44b886ea04b2402",
         "normalizedPassageChecksum": "0feb77cfb63282eecfd59ab11c088fc50f353bfdc22b206def02e1eee3e26c73",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
-    {
-      "id": "mention_074ccd08e7f92ec07fbc79f8",
-      "type": "Place",
-      "title": "Sambor",
-      "relation": "From"
-    },
-    {
-      "id": "mention_f39f64307b51bdefda8ee064",
-      "type": "Person",
-      "title": "Yehuda Leib",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_bc111074c1ee2ddb3e5f2d65",
       "type": "Person",
@@ -133,13 +121,7 @@
     {
       "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_074ccd08e7f92ec07fbc79f8",
-      "type": "Place",
-      "title": "Sambor",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     }
   ],

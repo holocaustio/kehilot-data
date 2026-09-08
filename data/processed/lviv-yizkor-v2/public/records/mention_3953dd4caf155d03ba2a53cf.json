@@ -5,7 +5,7 @@
   "summary": "Hayyim ben Leizer fled to Hatzi in 1728 and died there.",
   "originalName": "חייםבןלייזר",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 179,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1620,
       "passageCharEnd": 1673,
-      "normalizedPassageCharStart": 1131,
-      "normalizedPassageCharEnd": 1170,
+      "normalizedPassageCharStart": 1620,
+      "normalizedPassageCharEnd": 1673,
       "pageCharStart": 3287,
       "pageCharEnd": 3340,
       "quote": "חיי ם ב ן לייזרל . בשנ ת 1728 נמל ט לחאצי ם ונפט ר\nשם",
-      "normalizedQuote": "חייםבןלייזרל.בשנת1728נמלטלחאציםונפטר שם",
+      "normalizedQuote": "חיי ם ב ן לייזרל . בשנ ת 1728 נמל ט לחאצי ם ונפט ר\nשם",
       "modelQuote": "חייםבןלייזרל.בשנת1728נמלטלחאציםונפטר שם",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n178/mode/1up",
@@ -33,14 +33,14 @@
       "passageChecksum": "76c9d8f5cd45cccd8b9466308bab74cfa5ba248cba75503cd79513db59eb461f",
       "normalizedPassageChecksum": "7a1538c43ba9e1446feef15def2fd5f7de1c4882f2da5876538dd53ff4749145",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_1b488af7468bd3ac2d9fed96",
+      "id": "event_candidate_068a83b12c8b81fdbacb947b",
       "type": "Migration",
       "title": "Hayyim ben Leizer fled",
       "summary": "Hayyim ben Leizer fled to an uncertain destination in 1728.",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 1639,
         "passageCharEnd": 1663,
-        "normalizedPassageCharStart": 1144,
-        "normalizedPassageCharEnd": 1162,
+        "normalizedPassageCharStart": 1639,
+        "normalizedPassageCharEnd": 1663,
         "pageCharStart": 3306,
         "pageCharEnd": 3330,
         "quote": "בשנ ת 1728 נמל ט לחאצי ם",
-        "normalizedQuote": "בשנת1728נמלטלחאצים",
+        "normalizedQuote": "בשנ ת 1728 נמל ט לחאצי ם",
         "modelQuote": "בשנת1728נמלטלחאצים",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n178/mode/1up",
@@ -69,12 +69,12 @@
         "passageChecksum": "76c9d8f5cd45cccd8b9466308bab74cfa5ba248cba75503cd79513db59eb461f",
         "normalizedPassageChecksum": "7a1538c43ba9e1446feef15def2fd5f7de1c4882f2da5876538dd53ff4749145",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "event_candidate_c743c4567ea8c44e7d469ea3",
+      "id": "event_candidate_da642a0b3813a3b7dc71da89",
       "type": "Death",
       "title": "Death of Hayyim ben Leizer",
       "summary": "Hayyim ben Leizer died after fleeing in 1728.",
@@ -88,12 +88,12 @@
         "printedPage": null,
         "passageCharStart": 1664,
         "passageCharEnd": 1673,
-        "normalizedPassageCharStart": 1162,
-        "normalizedPassageCharEnd": 1170,
+        "normalizedPassageCharStart": 1664,
+        "normalizedPassageCharEnd": 1673,
         "pageCharStart": 3331,
         "pageCharEnd": 3340,
         "quote": "ונפט ר\nשם",
-        "normalizedQuote": "ונפטר שם",
+        "normalizedQuote": "ונפט ר\nשם",
         "modelQuote": "ונפטר שם",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n178/mode/1up",
@@ -101,21 +101,21 @@
         "passageChecksum": "76c9d8f5cd45cccd8b9466308bab74cfa5ba248cba75503cd79513db59eb461f",
         "normalizedPassageChecksum": "7a1538c43ba9e1446feef15def2fd5f7de1c4882f2da5876538dd53ff4749145",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_1b488af7468bd3ac2d9fed96",
+      "id": "event_candidate_068a83b12c8b81fdbacb947b",
       "type": "Event",
       "title": "Hayyim ben Leizer fled",
       "relation": "Participated In",
       "role": "Subject"
     },
     {
-      "id": "event_candidate_c743c4567ea8c44e7d469ea3",
+      "id": "event_candidate_da642a0b3813a3b7dc71da89",
       "type": "Event",
       "title": "Death of Hayyim ben Leizer",
       "relation": "Participated In",
@@ -128,7 +128,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1130b0e1223dbcdaba4d62aa",
+      "id": "mention_a4669d5800bff1df28b80289",
       "type": "Community",
       "title": "Lviv community",
       "relation": "Appears in same passage"
@@ -146,7 +146,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_02f723f1a22975a97e0e1cb5",
+      "id": "mention_f2c524e70e7ad3b8e971a919",
       "type": "Place",
       "title": "Krakow",
       "relation": "Appears in same passage"

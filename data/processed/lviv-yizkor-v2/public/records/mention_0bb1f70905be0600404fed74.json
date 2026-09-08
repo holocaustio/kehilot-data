@@ -5,7 +5,7 @@
   "summary": "A surgeon from Brody.",
   "originalName": "יעקבהילד",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 187,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 205,
       "passageCharEnd": 232,
-      "normalizedPassageCharStart": 154,
-      "normalizedPassageCharEnd": 175,
+      "normalizedPassageCharStart": 205,
+      "normalizedPassageCharEnd": 232,
       "pageCharStart": 3813,
       "pageCharEnd": 3840,
       "quote": "יעק ב הילד , חירור ג מברודי",
-      "normalizedQuote": "יעקבהילד,חירורגמברודי",
+      "normalizedQuote": "יעק ב הילד , חירור ג מברודי",
       "modelQuote": "יעקבהילד,חירורגמברודי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n186/mode/1up",
@@ -32,14 +32,14 @@
       "passageChecksum": "5b9305b6be02c3ed1909a639856534a0825820089204f2d502f355359376044a",
       "normalizedPassageChecksum": "4aec25ffa1b3cf0d8912138d5800c48bef682ba107e79c9ff06c42d43ea31f97",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_742f3370e98f7b01707e3a1b",
-      "predicate": "From",
+      "id": "claim_candidate_c9d49249a3d10ee87760ffa3",
+      "predicate": "Originated From",
       "subjectTitle": "Jacob Hild",
       "objectTitle": "Brody",
       "confidence": "MEDIUM",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 218,
         "passageCharEnd": 232,
-        "normalizedPassageCharStart": 163,
-        "normalizedPassageCharEnd": 175,
+        "normalizedPassageCharStart": 218,
+        "normalizedPassageCharEnd": 232,
         "pageCharStart": 3826,
         "pageCharEnd": 3840,
         "quote": "חירור ג מברודי",
-        "normalizedQuote": "חירורגמברודי",
+        "normalizedQuote": "חירור ג מברודי",
         "modelQuote": "חירורגמברודי",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n186/mode/1up",
@@ -68,7 +68,7 @@
         "passageChecksum": "5b9305b6be02c3ed1909a639856534a0825820089204f2d502f355359376044a",
         "normalizedPassageChecksum": "4aec25ffa1b3cf0d8912138d5800c48bef682ba107e79c9ff06c42d43ea31f97",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -76,10 +76,10 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_ff078c16fe314afc974e8200",
+      "id": "mention_ff93701c70e4d37c6fc363b1",
       "type": "Place",
       "title": "Brody",
-      "relation": "From"
+      "relation": "Originated From"
     },
     {
       "id": "mention_538c91bddc88f54a0f37a96f",
@@ -106,7 +106,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ff078c16fe314afc974e8200",
+      "id": "mention_ff93701c70e4d37c6fc363b1",
       "type": "Place",
       "title": "Brody",
       "relation": "Appears in same passage"

@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 558,
       "passageCharEnd": 626,
-      "normalizedPassageCharStart": 406,
-      "normalizedPassageCharEnd": 459,
+      "normalizedPassageCharStart": 558,
+      "normalizedPassageCharEnd": 626,
       "pageCharStart": 2906,
       "pageCharEnd": 2974,
       "quote": "גיס ו ש ל \"החוזה\" , הגביר , החסי ד\nותלמיד־חכם , ר ׳ אריה־לי ב מימליס",
-      "normalizedQuote": "גיסושל\"החוזה\",הגביר,החסיד ותלמיד־חכם,ר׳אריה־ליבמימליס",
+      "normalizedQuote": "גיס ו ש ל \"החוזה\" , הגביר , החסי ד\nותלמיד־חכם , ר ׳ אריה־לי ב מימליס",
       "modelQuote": "גיסו של \"החוזה\", הגביר, החסיד ותלמיד־חכם, ר׳ אריה־ליב מימליס",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n232/mode/1up",
@@ -37,9 +37,89 @@
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_4802c2199c7d1161bfe3a0de",
+      "predicate": "Associated With",
+      "subjectTitle": "Lublin Kloyz",
+      "objectTitle": "Aryeh-Leib Mimelis",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text attributes the founding to Lublin Hasidim collectively; this person is named among them.",
+      "evidence": {
+        "passageId": "passage_5b4ae674e0504e789ff8c8a6",
+        "pageId": "page_nybc313875_0233",
+        "scanIndex": 233,
+        "leafNumber": 232,
+        "printedPage": null,
+        "passageCharStart": 528,
+        "passageCharEnd": 626,
+        "normalizedPassageCharStart": 528,
+        "normalizedPassageCharEnd": 626,
+        "pageCharStart": 2876,
+        "pageCharEnd": 2974,
+        "quote": "ע״ י חסיד י\nלובלין , וביניה ם גיס ו ש ל \"החוזה\" , הגביר , החסי ד\nותלמיד־חכם , ר ׳ אריה־לי ב מימליס",
+        "normalizedQuote": "ע״ י חסיד י\nלובלין , וביניה ם גיס ו ש ל \"החוזה\" , הגביר , החסי ד\nותלמיד־חכם , ר ׳ אריה־לי ב מימליס",
+        "modelQuote": "ע״י חסידי לובלין, וביניהם גיסו של \"החוזה\", הגביר, החסיד ותלמיד־חכם, ר׳ אריה־ליב מימליס",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n232/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "c7dc2196b38228d6a3fba5b7e3b40931ff5adedf580c995e450330d501c697ef",
+        "normalizedPassageChecksum": "9db2c6709ba671ecdfa93c812c9b7b1fc769e451257d47792bc4cbc11563eee8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_a423f2387ed6bebc8cf45fec",
+      "type": "Organization Founding",
+      "title": "Founding of the Lublin Kloyz",
+      "summary": "The Lublin Kloyz was founded in 1811 in Lviv.",
+      "dateStart": "1811",
+      "dateEnd": "1811",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5b4ae674e0504e789ff8c8a6",
+        "pageId": "page_nybc313875_0233",
+        "scanIndex": 233,
+        "leafNumber": 232,
+        "printedPage": null,
+        "passageCharStart": 418,
+        "passageCharEnd": 445,
+        "normalizedPassageCharStart": 418,
+        "normalizedPassageCharEnd": 445,
+        "pageCharStart": 2766,
+        "pageCharEnd": 2793,
+        "quote": "נוס ד\nבשנ ת תקע״ ב ( 1811 )",
+        "normalizedQuote": "נוס ד\nבשנ ת תקע״ ב ( 1811 )",
+        "modelQuote": "נוסד בשנת תקע״ב(1811)",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n232/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "c7dc2196b38228d6a3fba5b7e3b40931ff5adedf580c995e450330d501c697ef",
+        "normalizedPassageChecksum": "9db2c6709ba671ecdfa93c812c9b7b1fc769e451257d47792bc4cbc11563eee8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "mention_5fb65c82f27f9f6be370cc99",
+      "type": "Institution",
+      "title": "Lublin Kloyz",
+      "relation": "Associated With"
+    },
+    {
+      "id": "event_candidate_a423f2387ed6bebc8cf45fec",
+      "type": "Event",
+      "title": "Founding of the Lublin Kloyz",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
     {
       "id": "mention_5fb65c82f27f9f6be370cc99",
       "type": "Institution",
@@ -49,7 +129,7 @@
     {
       "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {

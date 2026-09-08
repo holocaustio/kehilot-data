@@ -5,7 +5,7 @@
   "summary": "Person named in a community document.",
   "originalName": "שמואל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 28,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 396,
       "passageCharEnd": 418,
-      "normalizedPassageCharStart": 291,
-      "normalizedPassageCharEnd": 308,
+      "normalizedPassageCharStart": 396,
+      "normalizedPassageCharEnd": 418,
       "pageCharStart": 396,
       "pageCharEnd": 418,
       "quote": "עזריאל , שמוא ל ובוכ ר",
-      "normalizedQuote": "עזריאל,שמואלובוכר",
+      "normalizedQuote": "עזריאל , שמוא ל ובוכ ר",
       "modelQuote": "עזריאל,שמואלובוכר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n27/mode/1up",
@@ -32,13 +32,19 @@
       "passageChecksum": "eae92debebd76e4842854637d0135cca3c328613c0c374bc64b59ba020834ef2",
       "normalizedPassageChecksum": "444afb72a0e3b580ebe75c62774b7f713038b264706e4925ff9b354805f63331",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
   "connections": [
+    {
+      "id": "mention_11a0e91762b12bd6aea3d95a",
+      "type": "Person",
+      "title": "Israel son of Jonah (Jonashovitz)",
+      "relation": "Appears in same passage"
+    },
     {
       "id": "mention_bd1890a88f31241e3f8d5436",
       "type": "Person",

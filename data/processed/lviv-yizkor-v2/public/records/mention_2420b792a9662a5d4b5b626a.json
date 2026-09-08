@@ -5,7 +5,7 @@
   "summary": "Merchant from Danzig whose alleged extortion accusation led to Nachmanovitz's dismissal.",
   "originalName": "סבסטיאןפוגטמדאנציג",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 51,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 236,
       "passageCharEnd": 266,
-      "normalizedPassageCharStart": 178,
-      "normalizedPassageCharEnd": 201,
+      "normalizedPassageCharStart": 236,
+      "normalizedPassageCharEnd": 266,
       "pageCharStart": 236,
       "pageCharEnd": 266,
       "quote": "הסוח ר סבסטיא ן פוג ט מדאנצי ג",
-      "normalizedQuote": "הסוחרסבסטיאןפוגטמדאנציג",
+      "normalizedQuote": "הסוח ר סבסטיא ן פוג ט מדאנצי ג",
       "modelQuote": "הסוחרסבסטיאןפוגטמדאנציג",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
@@ -32,14 +32,14 @@
       "passageChecksum": "2fe995ca64413ee376f2f9e4e76d4049b4ad27d9afa120e4886c03d38f3ba67d",
       "normalizedPassageChecksum": "612902101e51576df35d16c75a2ab004b8c6042579469ea297282e2435960168",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_ef42adf927c31435f1073434",
+      "id": "event_candidate_e2642601779469fce2003419",
       "type": "Employment",
       "title": "Nachmanovitz dismissed from office",
       "summary": "Nachmanovitz was accused of extorting money and dismissed in 1595.",
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 196,
         "passageCharEnd": 281,
-        "normalizedPassageCharStart": 150,
-        "normalizedPassageCharEnd": 213,
+        "normalizedPassageCharStart": 196,
+        "normalizedPassageCharEnd": 281,
         "pageCharStart": 196,
         "pageCharEnd": 281,
         "quote": "בשנ ת 1595 הואש ם ע ל סחיט ת כספי ם\nמ ן הסוח ר סבסטיא ן פוג ט מדאנצי ג ופוט ר מכהונתו",
-        "normalizedQuote": "בשנת1595הואשםעלסחיטתכספים מןהסוחרסבסטיאןפוגטמדאנציגופוטרמכהונתו",
+        "normalizedQuote": "בשנ ת 1595 הואש ם ע ל סחיט ת כספי ם\nמ ן הסוח ר סבסטיא ן פוג ט מדאנצי ג ופוט ר מכהונתו",
         "modelQuote": "בשנת1595הואשםעלסחיטתכספים מןהסוחרסבסטיאןפוגטמדאנציגופוטרמכהונתו",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
@@ -66,24 +66,18 @@
         "passageChecksum": "2fe995ca64413ee376f2f9e4e76d4049b4ad27d9afa120e4886c03d38f3ba67d",
         "normalizedPassageChecksum": "612902101e51576df35d16c75a2ab004b8c6042579469ea297282e2435960168",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_ef42adf927c31435f1073434",
+      "id": "event_candidate_e2642601779469fce2003419",
       "type": "Event",
       "title": "Nachmanovitz dismissed from office",
       "relation": "Participated In",
       "role": "Witness"
-    },
-    {
-      "id": "mention_8954d017b15ab265a2d43735",
-      "type": "Person",
-      "title": "Nachmanovitz",
-      "relation": "Appears in same passage"
     },
     {
       "id": "mention_4c98d6b494c45b0bab100fbd",
@@ -98,13 +92,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ea3e738f9fdc3a1cfb212110",
-      "type": "Place",
-      "title": "Potilitch",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3a05ad67c7267626e05dd48e",
+      "id": "mention_f84cf04594a462d8e805bea4",
       "type": "Place",
       "title": "Danzig",
       "relation": "Appears in same passage"
@@ -149,6 +137,18 @@
       "id": "mention_280e572dfb18c77482d1b4fb",
       "type": "Work",
       "title": "Turei Zahav",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3a7c180d9a4fe525a6942931",
+      "type": "Place",
+      "title": "Nemyriv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ce97b961bdfdc5825369f915",
+      "type": "Community",
+      "title": "Jewish community outside Lviv",
       "relation": "Appears in same passage"
     }
   ],

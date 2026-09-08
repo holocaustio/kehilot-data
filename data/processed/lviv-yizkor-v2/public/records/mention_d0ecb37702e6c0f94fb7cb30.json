@@ -5,7 +5,7 @@
   "summary": "Brought from Krakow to Lviv and accepted as city rabbi by his supporters.",
   "originalName": "משהרפפורט",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 215,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1084,
       "passageCharEnd": 1127,
-      "normalizedPassageCharStart": 781,
-      "normalizedPassageCharEnd": 812,
+      "normalizedPassageCharStart": 1084,
+      "normalizedPassageCharEnd": 1127,
       "pageCharStart": 3680,
       "pageCharEnd": 3723,
       "quote": "הביא ו מאמריק ה ללבו ב\nא ת ר ׳ מש ה רפפור ט",
-      "normalizedQuote": "הביאומאמריקהללבוב אתר׳משהרפפורט",
+      "normalizedQuote": "הביא ו מאמריק ה ללבו ב\nא ת ר ׳ מש ה רפפור ט",
       "modelQuote": "הביאומאמריקהללבוב אתר׳משהרפפורט",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n214/mode/1up",
@@ -33,18 +33,51 @@
       "passageChecksum": "351670e05b6b423dad637820359737e41656f207ca4a24085382613e281f00c4",
       "normalizedPassageChecksum": "7ae4a94bc596b06c1d9f5b9b94a1d99a64a2dbb32191aab0a1279da96d018b6c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_5823fa13d8542962e6161585",
+      "predicate": "Migrated To",
+      "subjectTitle": "Moshe Rapoport",
+      "objectTitle": "Lviv",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR phrase appears to indicate bringing him from Krakow to Lviv, but the source wording is compressed.",
+      "evidence": {
+        "passageId": "passage_1ac986d9193642187c82e0b4",
+        "pageId": "page_nybc313875_0215",
+        "scanIndex": 215,
+        "leafNumber": 214,
+        "printedPage": null,
+        "passageCharStart": 1084,
+        "passageCharEnd": 1106,
+        "normalizedPassageCharStart": 1084,
+        "normalizedPassageCharEnd": 1106,
+        "pageCharStart": 3680,
+        "pageCharEnd": 3702,
+        "quote": "הביא ו מאמריק ה ללבו ב",
+        "normalizedQuote": "הביא ו מאמריק ה ללבו ב",
+        "modelQuote": "הביאומאמריקהללבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n214/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "351670e05b6b423dad637820359737e41656f207ca4a24085382613e281f00c4",
+        "normalizedPassageChecksum": "7ae4a94bc596b06c1d9f5b9b94a1d99a64a2dbb32191aab0a1279da96d018b6c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_4ee1ef9f074fbea2638fad5c",
-      "type": "Person",
-      "title": "Yitzhak Shmelkes",
-      "relation": "Appears in same passage"
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Migrated To"
     },
     {
       "id": "mention_059714a84314cf9606c7a848",
@@ -77,15 +110,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_06b9447bad2b7e54525a39fa",
+      "id": "mention_8a793f96e6bfdcf796950edc",
       "type": "Institution",
-      "title": "Temple",
+      "title": "The Temple",
       "relation": "Appears in same passage"
     },
     {

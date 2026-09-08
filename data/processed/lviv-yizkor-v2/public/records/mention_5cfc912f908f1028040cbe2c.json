@@ -5,7 +5,7 @@
   "summary": "Krakow rabbi who corresponded with Sabbatai Zevi's followers.",
   "originalName": "ר׳אריה־ליבבן זכריהמנדל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 60,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 557,
       "passageCharEnd": 587,
-      "normalizedPassageCharStart": 407,
-      "normalizedPassageCharEnd": 429,
+      "normalizedPassageCharStart": 557,
+      "normalizedPassageCharEnd": 587,
       "pageCharStart": 2790,
       "pageCharEnd": 2820,
       "quote": "ר ׳ אריה־לי ב ב ן\nזכרי ה מנד ל",
-      "normalizedQuote": "ר׳אריה־ליבבן זכריהמנדל",
+      "normalizedQuote": "ר ׳ אריה־לי ב ב ן\nזכרי ה מנד ל",
       "modelQuote": "ר׳אריה־ליבבן זכריהמנדל",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "7ada94f8f243c513cab0d58a7c2f8925a68abe06cc6c30691c9e06bf9acd5bad",
       "normalizedPassageChecksum": "a62ecf55f7a1354e85b85933bfd9014e59afb3a461c7a40e0e6efe3e8e383c54",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_801218e04f646a75013fa2dd",
+      "id": "claim_candidate_b9afdb47436c8c6560b2d8ec",
       "predicate": "Lived At",
       "subjectTitle": "Aryeh-Leib ben Zekharyah Mendel",
-      "objectTitle": "Krakow",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_7a138fbe80c437661cb90e41",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 545,
         "passageCharEnd": 587,
-        "normalizedPassageCharStart": 399,
-        "normalizedPassageCharEnd": 429,
+        "normalizedPassageCharStart": 545,
+        "normalizedPassageCharEnd": 587,
         "pageCharStart": 2778,
         "pageCharEnd": 2820,
         "quote": "ר ב מקרקא , ר ׳ אריה־לי ב ב ן\nזכרי ה מנד ל",
-        "normalizedQuote": "רבמקרקא,ר׳אריה־ליבבן זכריהמנדל",
+        "normalizedQuote": "ר ב מקרקא , ר ׳ אריה־לי ב ב ן\nזכרי ה מנד ל",
         "modelQuote": "רבמקרקא,ר׳אריה־ליבבן זכריהמנדל",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -65,19 +65,13 @@
         "passageChecksum": "7ada94f8f243c513cab0d58a7c2f8925a68abe06cc6c30691c9e06bf9acd5bad",
         "normalizedPassageChecksum": "a62ecf55f7a1354e85b85933bfd9014e59afb3a461c7a40e0e6efe3e8e383c54",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
-    {
-      "id": "mention_02f723f1a22975a97e0e1cb5",
-      "type": "Place",
-      "title": "Krakow",
-      "relation": "Lived At"
-    },
     {
       "id": "mention_abd43d449a522d86815952de",
       "type": "Person",
@@ -97,12 +91,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_02f723f1a22975a97e0e1cb5",
-      "type": "Place",
-      "title": "Krakow",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_fa9390958a387b26890be2da",
       "type": "Work",
       "title": "Megaleh Amukot",
@@ -115,7 +103,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -148,6 +136,12 @@
       "id": "mention_f4c1a7600e8bfa5a8f4a3cee",
       "type": "Place",
       "title": "Komarno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eb8f58d8ab3b7a127c7c51ff",
+      "type": "Place",
+      "title": "Constantinople",
       "relation": "Appears in same passage"
     }
   ],

@@ -5,7 +5,7 @@
   "summary": "Jewish merchant in Lviv who signed a petition concerning Jewish dress.",
   "originalName": "פישלמיזם",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 108,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 273,
       "passageCharEnd": 283,
-      "normalizedPassageCharStart": 206,
-      "normalizedPassageCharEnd": 214,
+      "normalizedPassageCharStart": 273,
+      "normalizedPassageCharEnd": 283,
       "pageCharStart": 2771,
       "pageCharEnd": 2781,
       "quote": "פיש ל מיזם",
-      "normalizedQuote": "פישלמיזם",
+      "normalizedQuote": "פיש ל מיזם",
       "modelQuote": "פישלמיזם",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n107/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "cd567c79652f4c295dd941ad0c068fb5450c089a403f17b6da00f50def17201c",
       "normalizedPassageChecksum": "c57ebb6aa17058289bfa52d673cfa1b95655d2da39aa988ddf206903c03c1bfb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 638,
       "passageCharEnd": 676,
-      "normalizedPassageCharStart": 460,
-      "normalizedPassageCharEnd": 487,
+      "normalizedPassageCharStart": 638,
+      "normalizedPassageCharEnd": 676,
       "pageCharStart": 2813,
       "pageCharEnd": 2851,
       "quote": "א ת פיש ל מיז ם אוה ב\nלשו ן וספ ר עברי",
-      "normalizedQuote": "אתפישלמיזםאוהב לשוןוספרעברי",
+      "normalizedQuote": "א ת פיש ל מיז ם אוה ב\nלשו ן וספ ר עברי",
       "modelQuote": "אתפישלמיזםאוהב לשוןוספרעברי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n111/mode/1up",
@@ -57,13 +57,13 @@
       "passageChecksum": "121c820f73edb76d4be5191061409f75decab9b4e8152ed5a673b67408e9c93d",
       "normalizedPassageChecksum": "8024d6f18b62959a195c0ccb59bcf1fc641ec9a5f6dcf7c69c1ddb781d2f0584",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_ab35cb154ced4d8375e9b789",
+      "id": "claim_candidate_cfdd33d85ce662e25a65943a",
       "predicate": "Member Of",
       "subjectTitle": "Fishel Mizm",
       "objectTitle": "Lviv Jewish community",
@@ -77,12 +77,12 @@
         "printedPage": null,
         "passageCharStart": 193,
         "passageCharEnd": 283,
-        "normalizedPassageCharStart": 145,
-        "normalizedPassageCharEnd": 214,
+        "normalizedPassageCharStart": 193,
+        "normalizedPassageCharEnd": 283,
         "pageCharStart": 2691,
         "pageCharEnd": 2781,
         "quote": "סוחרי ם יהודי ם משלמי־המ ס הגדולים , הנכבדי ם\nוהאמידי ם ביות ר ש ל קהל ת לבוב : פיש ל מיזם",
-        "normalizedQuote": "סוחריםיהודיםמשלמי־המסהגדולים,הנכבדים והאמידיםביותרשלקהלתלבוב:פישלמיזם",
+        "normalizedQuote": "סוחרי ם יהודי ם משלמי־המ ס הגדולים , הנכבדי ם\nוהאמידי ם ביות ר ש ל קהל ת לבוב : פיש ל מיזם",
         "modelQuote": "סוחרים יהודים משלמי־המס הגדולים,הנכבדים והאמידים ביותר של קהלת לבוב:פישלמיזם",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n107/mode/1up",
@@ -98,10 +98,17 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_b3724975d6fc1539b519d029",
+      "type": "Event",
+      "title": "Petition against proposed changes to Jewish dress",
+      "relation": "Participated In",
+      "role": "Participant"
     },
     {
       "id": "mention_8187dbf207b7c71aa40acc3a",
@@ -122,9 +129,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -158,7 +165,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

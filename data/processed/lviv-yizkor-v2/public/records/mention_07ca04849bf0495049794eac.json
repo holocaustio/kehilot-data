@@ -5,7 +5,7 @@
   "summary": "A head of the study house and its congregation.",
   "originalName": "מרדכיברז״פ־רפפורט",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 237,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 519,
       "passageCharEnd": 538,
-      "normalizedPassageCharStart": 380,
-      "normalizedPassageCharEnd": 397,
+      "normalizedPassageCharStart": 519,
+      "normalizedPassageCharEnd": 538,
       "pageCharStart": 3509,
       "pageCharEnd": 3528,
       "quote": "מרדכ י ברז״פ־רפפורט",
-      "normalizedQuote": "מרדכיברז״פ־רפפורט",
+      "normalizedQuote": "מרדכ י ברז״פ־רפפורט",
       "modelQuote": "מרדכיברז״פ־רפפורט",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n236/mode/1up",
@@ -34,13 +34,51 @@
       "passageChecksum": "e1b04232e19ed8c220afc1f1e022ea9c09eeed51060d61ea0e43a35a47282d01",
       "normalizedPassageChecksum": "146d2b9e4bf8ea83697aec9e85c5dba0b66e5da266f336c6209b5a1b64e040ed",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_1a44bf8055f59653aa593173",
+      "predicate": "Led By",
+      "subjectTitle": "Mordechai Rappaport",
+      "objectTitle": "Sixtuska Kloyz",
+      "confidence": "MEDIUM",
+      "evidence": {
+        "passageId": "passage_0737267c466ac7537096226c",
+        "pageId": "page_nybc313875_0237",
+        "scanIndex": 237,
+        "leafNumber": 236,
+        "printedPage": null,
+        "passageCharStart": 519,
+        "passageCharEnd": 538,
+        "normalizedPassageCharStart": 519,
+        "normalizedPassageCharEnd": 538,
+        "pageCharStart": 3509,
+        "pageCharEnd": 3528,
+        "quote": "מרדכ י ברז״פ־רפפורט",
+        "normalizedQuote": "מרדכ י ברז״פ־רפפורט",
+        "modelQuote": "מרדכיברז״פ־רפפורט",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n236/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "e1b04232e19ed8c220afc1f1e022ea9c09eeed51060d61ea0e43a35a47282d01",
+        "normalizedPassageChecksum": "146d2b9e4bf8ea83697aec9e85c5dba0b66e5da266f336c6209b5a1b64e040ed",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_70e51159338b5c968b374aaa",
+      "type": "Institution",
+      "title": "Sixtuska Kloyz",
+      "relation": "Led By"
+    },
     {
       "id": "mention_70e51159338b5c968b374aaa",
       "type": "Institution",

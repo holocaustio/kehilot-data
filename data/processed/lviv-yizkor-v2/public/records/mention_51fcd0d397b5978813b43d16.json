@@ -5,7 +5,7 @@
   "summary": "A voivode who summoned both sides before his court in August 1640.",
   "originalName": "יעקבסוביבסקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 47,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,11 +21,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 36,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 28,
+      "normalizedPassageCharEnd": 36,
       "pageCharStart": 1340,
       "pageCharEnd": 1376,
       "quote": "הוויבוד ה ש ל רייסי ן יעק ב סוביבסקי",
-      "normalizedQuote": "הוויבודהשלרייסיןיעקבסוביבסקי",
+      "normalizedQuote": "הוויבוד ה ש ל רייסי ן יעק ב סוביבסקי",
       "modelQuote": "הוויבודהשלרייסיןיעקבסוביבסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n46/mode/1up",
@@ -33,14 +33,14 @@
       "passageChecksum": "080cdf83261dc8733d5b3cf8956084795c5771cf715bd75dec8d70e0800064db",
       "normalizedPassageChecksum": "cadcdff504e1fa54e56f9f50ffb9e8675992e61a1a6e6a4ee47a2337879e0cfe",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_deeb9a31d8310d87e199e582",
+      "id": "event_candidate_4eeb8f0f49c88158e59d3938",
       "type": "Arrest",
       "title": "Summons before the voivode’s court",
       "summary": "The voivode summoned both sides to appear before his court on 8 August 1640.",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 39,
         "passageCharEnd": 102,
-        "normalizedPassageCharStart": 29,
-        "normalizedPassageCharEnd": 76,
+        "normalizedPassageCharStart": 39,
+        "normalizedPassageCharEnd": 102,
         "pageCharStart": 1379,
         "pageCharEnd": 1442,
         "quote": "תב ע א ת שנ י\nהצדדי ם להופי ע ב־ 8 באוגוס ט 1640 בפנ י בית־דינו",
-        "normalizedQuote": "תבעאתשני הצדדיםלהופיעב־8באוגוסט1640בפניבית־דינו",
+        "normalizedQuote": "תב ע א ת שנ י\nהצדדי ם להופי ע ב־ 8 באוגוס ט 1640 בפנ י בית־דינו",
         "modelQuote": "תבעאתשני הצדדיםלהופיעב־8באוגוסט1640בפניבית־דינו",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n46/mode/1up",
@@ -69,21 +69,21 @@
         "passageChecksum": "080cdf83261dc8733d5b3cf8956084795c5771cf715bd75dec8d70e0800064db",
         "normalizedPassageChecksum": "cadcdff504e1fa54e56f9f50ffb9e8675992e61a1a6e6a4ee47a2337879e0cfe",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_deeb9a31d8310d87e199e582",
+      "id": "event_candidate_4eeb8f0f49c88158e59d3938",
       "type": "Event",
       "title": "Summons before the voivode’s court",
       "relation": "Participated In",
       "role": "Organizer"
     },
     {
-      "id": "mention_d4bbf3f2df3e8bb5efab3cc3",
+      "id": "mention_4c48cab29fa3eac580cd5912",
       "type": "Community",
       "title": "Jewish community",
       "relation": "Appears in same passage"
@@ -98,12 +98,6 @@
       "id": "mention_cea9f416b7828d02daaecd92",
       "type": "Place",
       "title": "Krakow District",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3ca5cb1e76bdcf46a2081c5a",
-      "type": "Place",
-      "title": "Inside the City",
       "relation": "Appears in same passage"
     },
     {

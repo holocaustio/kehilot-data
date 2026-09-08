@@ -5,7 +5,7 @@
   "summary": "Jacob son of Rafael was another Portuguese Jewish merchant in Lviv.",
   "originalName": "יעקב בןרפאל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 22,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 820,
       "passageCharEnd": 834,
-      "normalizedPassageCharStart": 602,
-      "normalizedPassageCharEnd": 613,
+      "normalizedPassageCharStart": 820,
+      "normalizedPassageCharEnd": 834,
       "pageCharStart": 4001,
       "pageCharEnd": 4015,
       "quote": "יעק ב\nב ן רפאל",
-      "normalizedQuote": "יעקב בןרפאל",
+      "normalizedQuote": "יעק ב\nב ן רפאל",
       "modelQuote": "יעקב בןרפאל",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n21/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "50237e74cabba49de150b318d29e44cbc4058c4c725d3423da02999199b3ea5a",
       "normalizedPassageChecksum": "5c843488491a76037c176df15271ce390a8716ffdbe9042947c0ab49283b78e6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_931dc9d24d2744192b3c4888",
+      "predicate": "Worked At",
+      "subjectTitle": "Jacob son of Rafael",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "activity": "wholesale trade"
+      },
+      "evidence": {
+        "passageId": "passage_e0a70687df62f0b41fe7f202",
+        "pageId": "page_nybc313875_0022",
+        "scanIndex": 22,
+        "leafNumber": 21,
+        "printedPage": null,
+        "passageCharStart": 784,
+        "passageCharEnd": 885,
+        "normalizedPassageCharStart": 784,
+        "normalizedPassageCharEnd": 885,
+        "pageCharStart": 3965,
+        "pageCharEnd": 4066,
+        "quote": "נמצ א בלבו ב עו ד יהוד י פורטוגלי , יעק ב\nב ן רפאל , וקבוצ ת יהודי ם מונציה , שניהל ו עסקי ם\nסיטוניים",
+        "normalizedQuote": "נמצ א בלבו ב עו ד יהוד י פורטוגלי , יעק ב\nב ן רפאל , וקבוצ ת יהודי ם מונציה , שניהל ו עסקי ם\nסיטוניים",
+        "modelQuote": "נמצאבלבובעודיהודיפורטוגלי,יעקב בןרפאל,וקבוצתיהודיםמונציה,שניהלועסקים סיטוניים",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n21/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "50237e74cabba49de150b318d29e44cbc4058c4c725d3423da02999199b3ea5a",
+        "normalizedPassageChecksum": "5c843488491a76037c176df15271ce390a8716ffdbe9042947c0ab49283b78e6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Worked At"
+    },
     {
       "id": "mention_a7d5893b2cae56362f6d151e",
       "type": "Person",
@@ -65,12 +106,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_10d179c8e52a673f1045d958",
-      "type": "Community",
-      "title": "Portuguese Jews",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_a7bba37b6953443f4a8d9e08",
       "type": "Community",
       "title": "Jews of Venice",
@@ -80,12 +115,6 @@
       "id": "mention_eb8f58d8ab3b7a127c7c51ff",
       "type": "Place",
       "title": "Constantinople",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_6ec79011b3d1025fb70f8e85",
-      "type": "Person",
-      "title": "Jan Zamoyski",
       "relation": "Appears in same passage"
     },
     {

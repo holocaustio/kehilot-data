@@ -5,7 +5,7 @@
   "summary": "A son of Rabbi David Halevi who received a silk garment.",
   "originalName": "ר׳אריהליב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 61,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 48,
       "passageCharEnd": 80,
-      "normalizedPassageCharStart": 35,
-      "normalizedPassageCharEnd": 56,
+      "normalizedPassageCharStart": 48,
+      "normalizedPassageCharEnd": 80,
       "pageCharStart": 48,
       "pageCharEnd": 80,
       "quote": "נת ן לר ׳ ארי ה לי ב כתונ ת מש י",
-      "normalizedQuote": "נתןלר׳אריהליבכתונתמשי",
+      "normalizedQuote": "נת ן לר ׳ ארי ה לי ב כתונ ת מש י",
       "modelQuote": "נתןלר׳אריהליבכתונתמשי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n60/mode/1up",
@@ -32,13 +32,59 @@
       "passageChecksum": "13552ea5953cde96479c96db4adfde8b1fe3d306bc3aad23f0ea7f8ef52d5735",
       "normalizedPassageChecksum": "7f4e6f95c4ab7d0bc0145fee31e24654facd98efc45c643e1e4f1becce083d03",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_dadcdb561cf92d9a4eddc51e",
+      "type": "Marriage",
+      "title": "Meeting with Shabbetai Tzvi",
+      "summary": "Rabbi Isaiah Halevi and Rabbi Aryeh Levi met Shabbetai Tzvi.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text describes a meeting, but no allowed meeting event type exists; this candidate is not event-compatible.",
+      "evidence": {
+        "passageId": "passage_5ef158295768d356d58e1a07",
+        "pageId": "page_nybc313875_0060",
+        "scanIndex": 60,
+        "leafNumber": 59,
+        "printedPage": null,
+        "passageCharStart": 388,
+        "passageCharEnd": 413,
+        "normalizedPassageCharStart": 388,
+        "normalizedPassageCharEnd": 413,
+        "pageCharStart": 3991,
+        "pageCharEnd": 4016,
+        "quote": "הו א קר ב א תאורחי ו אליו",
+        "normalizedQuote": "הו א קר ב א תאורחי ו אליו",
+        "modelQuote": "הואקרבאתאורחיואליו",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "537750ef4dc571fe8d1beb147e3a22645c72e2362782d196328b552b9129eed4",
+        "normalizedPassageChecksum": "05962d9ec48c7bc8ac387d8a23b93235620dec9ae771c02ba5e65fa4910066b4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "mention_522c1a4a84e66f6f34de43ee",
+      "type": "Person",
+      "title": "Rabbi David Halevi",
+      "relation": "Child Of"
+    },
+    {
+      "id": "event_candidate_dadcdb561cf92d9a4eddc51e",
+      "type": "Event",
+      "title": "Meeting with Shabbetai Tzvi",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_b97c4c0be85d4069be90a89a",
       "type": "Person",

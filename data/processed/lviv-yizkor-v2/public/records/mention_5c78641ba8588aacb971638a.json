@@ -5,7 +5,7 @@
   "summary": "Commander of Polish forces entering Lviv in 1809.",
   "originalName": "הנסיךיחףפוניאטובסקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 101,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 1075,
       "passageCharEnd": 1111,
-      "normalizedPassageCharStart": 802,
-      "normalizedPassageCharEnd": 829,
+      "normalizedPassageCharStart": 1075,
+      "normalizedPassageCharEnd": 1111,
       "pageCharStart": 2112,
       "pageCharEnd": 2148,
       "quote": "בפקוד ו ש ל הנסי ך יח ף פוניאטובסק י",
-      "normalizedQuote": "בפקודושלהנסיךיחףפוניאטובסקי",
+      "normalizedQuote": "בפקוד ו ש ל הנסי ך יח ף פוניאטובסק י",
       "modelQuote": "בפקודושלהנסיךיחףפוניאטובסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n100/mode/1up",
@@ -34,23 +34,59 @@
       "passageChecksum": "dd275a84615e860ab1f01a2dc1c0d584ffbfd269ef4cb71592e2ed391a7ebc3f",
       "normalizedPassageChecksum": "8cde9015acc860240da8b8f93a2ad88d83f63fce88eba1a432577e8d0f1b6bdc",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_9dc39311bce9b4468105a397",
+      "type": "Migration",
+      "title": "Polish army entered Lviv",
+      "summary": "Polish forces under Prince Poniatowski entered Lviv in 1809.",
+      "dateStart": "1809",
+      "dateEnd": "1809",
+      "confidence": "HIGH",
+      "uncertaintyNote": "Entry of an army is not directly represented by an allowed event type.",
+      "evidence": {
+        "passageId": "passage_a70d22c3a182124853b6f5df",
+        "pageId": "page_nybc313875_0101",
+        "scanIndex": 101,
+        "leafNumber": 100,
+        "printedPage": null,
+        "passageCharStart": 1061,
+        "passageCharEnd": 1125,
+        "normalizedPassageCharStart": 1061,
+        "normalizedPassageCharEnd": 1125,
+        "pageCharStart": 2098,
+        "pageCharEnd": 2162,
+        "quote": "הצב א הפולנ י בפקוד ו ש ל הנסי ך יח ף פוניאטובסק י\n\nנכנ ס ללבו ב",
+        "normalizedQuote": "הצב א הפולנ י בפקוד ו ש ל הנסי ך יח ף פוניאטובסק י\n\nנכנ ס ללבו ב",
+        "modelQuote": "הצבאהפולניבפקודושלהנסיךיחףפוניאטובסקינכנסללבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n100/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "dd275a84615e860ab1f01a2dc1c0d584ffbfd269ef4cb71592e2ed391a7ebc3f",
+        "normalizedPassageChecksum": "8cde9015acc860240da8b8f93a2ad88d83f63fce88eba1a432577e8d0f1b6bdc",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
-      "relation": "Appears in same passage"
+      "id": "event_candidate_9dc39311bce9b4468105a397",
+      "type": "Event",
+      "title": "Polish army entered Lviv",
+      "relation": "Participated In",
+      "role": "Participant"
     },
     {
-      "id": "mention_9653da7657e4307e62d45c86",
-      "type": "Person",
-      "title": "Nowakowski",
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {

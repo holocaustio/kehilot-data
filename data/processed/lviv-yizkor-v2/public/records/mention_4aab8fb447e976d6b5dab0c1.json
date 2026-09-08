@@ -5,7 +5,7 @@
   "summary": "A leader of the Women’s Committee assisting refugees.",
   "originalName": "ד״רצציליהקלאפטן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 169,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 610,
       "passageCharEnd": 629,
-      "normalizedPassageCharStart": 462,
-      "normalizedPassageCharEnd": 477,
+      "normalizedPassageCharStart": 610,
+      "normalizedPassageCharEnd": 629,
       "pageCharStart": 1957,
       "pageCharEnd": 1976,
       "quote": "ד״ ר צצילי ה קלאפטן",
-      "normalizedQuote": "ד״רצציליהקלאפטן",
+      "normalizedQuote": "ד״ ר צצילי ה קלאפטן",
       "modelQuote": "ד״רצציליהקלאפטן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n168/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "47dc9a9a3c64804ef3d4d3582024ae70b30e9644be4ec092ffe45b6450ced0df",
       "normalizedPassageChecksum": "1079fa2af575461721398ba5f21a6f45f96af730b85003aaf24641f7979c692d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_47127a58982589f323d41c34",
+      "id": "claim_candidate_5e7a0d44cf7f1fd114e7eb20",
       "predicate": "Member Of",
       "subjectTitle": "Dr. Cecilia Klaften",
-      "objectTitle": "Rescue Committee",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "qualifiers": {
         "subcommittee": "Women’s Committee"
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 584,
         "passageCharEnd": 629,
-        "normalizedPassageCharStart": 441,
-        "normalizedPassageCharEnd": 477,
+        "normalizedPassageCharStart": 584,
+        "normalizedPassageCharEnd": 629,
         "pageCharStart": 1931,
         "pageCharEnd": 1976,
         "quote": "ברא ש \"ועדת־הנשים \" עמד ו\nד״ ר צצילי ה קלאפטן",
-        "normalizedQuote": "בראש\"ועדת־הנשים\"עמדו ד״רצציליהקלאפטן",
+        "normalizedQuote": "ברא ש \"ועדת־הנשים \" עמד ו\nד״ ר צצילי ה קלאפטן",
         "modelQuote": "בראש\"ועדת־הנשים\"עמדו ד״רצציליהקלאפטן",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n168/mode/1up",
@@ -68,7 +68,7 @@
         "passageChecksum": "47dc9a9a3c64804ef3d4d3582024ae70b30e9644be4ec092ffe45b6450ced0df",
         "normalizedPassageChecksum": "1079fa2af575461721398ba5f21a6f45f96af730b85003aaf24641f7979c692d",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -76,21 +76,9 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_117c511256b72709cef3d66c",
-      "type": "Organization",
-      "title": "Rescue Committee",
-      "relation": "Member Of"
-    },
-    {
       "id": "mention_f333bcf138be65e19e4ed6f7",
       "type": "Person",
       "title": "Shmuel Di-Horowitz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_117c511256b72709cef3d66c",
-      "type": "Organization",
-      "title": "Rescue Committee",
       "relation": "Appears in same passage"
     },
     {
@@ -151,6 +139,12 @@
       "id": "mention_698c919458f392ffea3738e1",
       "type": "Person",
       "title": "Dr. Sterner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ea95544211618f855c9391eb",
+      "type": "Organization",
+      "title": "Jewish Scouts Movement",
       "relation": "Appears in same passage"
     }
   ],

@@ -5,7 +5,7 @@
   "summary": "A new location approved for rebuilding the synagogue.",
   "originalName": "בשיפוליהארמוןהפוזנאי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 46,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 707,
       "passageCharEnd": 743,
-      "normalizedPassageCharStart": 527,
-      "normalizedPassageCharEnd": 555,
+      "normalizedPassageCharStart": 707,
+      "normalizedPassageCharEnd": 743,
       "pageCharStart": 2070,
       "pageCharEnd": 2106,
       "quote": "במקו ם חד ש בשיפול י הארמו ן הפוזנאי",
-      "normalizedQuote": "במקוםחדשבשיפוליהארמוןהפוזנאי",
+      "normalizedQuote": "במקו ם חד ש בשיפול י הארמו ן הפוזנאי",
       "modelQuote": "במקוםחדשבשיפוליהארמוןהפוזנאי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n45/mode/1up",
@@ -34,51 +34,13 @@
       "passageChecksum": "0854e215f58f15801d07f7c08eecd503b2466779da625991ce50c63f3ef65013",
       "normalizedPassageChecksum": "4ecb5e62aac722aedb098e6f925890109fe47f087918c9fa0b2384df5b0c5880",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_77d32b8b6fc5de582c2b2516",
-      "predicate": "Located In",
-      "subjectTitle": "Jewish synagogue",
-      "objectTitle": "Slopes of the Poznan Palace",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_9ad8574003d5c7948edf44bd",
-        "pageId": "page_nybc313875_0046",
-        "scanIndex": 46,
-        "leafNumber": 45,
-        "printedPage": null,
-        "passageCharStart": 670,
-        "passageCharEnd": 743,
-        "normalizedPassageCharStart": 499,
-        "normalizedPassageCharEnd": 555,
-        "pageCharStart": 2033,
-        "pageCharEnd": 2106,
-        "quote": "להקי ם א ת הריסו ת בית־הכנסת ,\nאול ם במקו ם חד ש בשיפול י הארמו ן הפוזנאי",
-        "normalizedQuote": "להקיםאתהריסותבית־הכנסת, אולםבמקוםחדשבשיפוליהארמוןהפוזנאי",
-        "modelQuote": "להקיםאתהריסותבית־הכנסת, אולםבמקוםחדשבשיפוליהארמוןהפוזנאי",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n45/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "0854e215f58f15801d07f7c08eecd503b2466779da625991ce50c63f3ef65013",
-        "normalizedPassageChecksum": "4ecb5e62aac722aedb098e6f925890109fe47f087918c9fa0b2384df5b0c5880",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_ad82f0ba1ac5b678e698e3cb",
-      "type": "Institution",
-      "title": "Jewish synagogue",
-      "relation": "Located In"
-    },
     {
       "id": "mention_0ec0639e76837f267e6b69e2",
       "type": "Place",
@@ -92,15 +54,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ad82f0ba1ac5b678e698e3cb",
-      "type": "Institution",
-      "title": "Jewish synagogue",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     }
   ],

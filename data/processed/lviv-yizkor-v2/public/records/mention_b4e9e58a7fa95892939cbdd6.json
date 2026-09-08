@@ -5,7 +5,7 @@
   "summary": "Jewish quarter discussed in relation to housing and residence restrictions.",
   "originalName": "הרובעהיהודי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 144,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 20,
       "passageCharEnd": 46,
-      "normalizedPassageCharStart": 15,
-      "normalizedPassageCharEnd": 35,
+      "normalizedPassageCharStart": 20,
+      "normalizedPassageCharEnd": 46,
       "pageCharStart": 4031,
       "pageCharEnd": 4057,
       "quote": "קיו ם הרוב ע היהוד י בלבוב",
-      "normalizedQuote": "קיוםהרובעהיהודיבלבוב",
+      "normalizedQuote": "קיו ם הרוב ע היהוד י בלבוב",
       "modelQuote": "קיוםהרובעהיהודיבלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n143/mode/1up",
@@ -33,13 +33,135 @@
       "passageChecksum": "6053b7813637d0e4f9989d7265686391a7cab2233e28b84409e2e13d9a6ba2ef",
       "normalizedPassageChecksum": "0a557b4035c8f0f64b364657f23251132288cb6c1c34309b58afbc968266afcb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_8f659164d6cee486426d1028",
+      "predicate": "Lived At",
+      "subjectTitle": "Herman Mizim",
+      "objectTitle": "Lviv Jewish quarter",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "context": "among the first permitted to live in non-Jewish districts"
+      },
+      "evidence": {
+        "passageId": "passage_2a2cfa45eac342cb6fdb7925",
+        "pageId": "page_nybc313875_0145",
+        "scanIndex": 145,
+        "leafNumber": 144,
+        "printedPage": null,
+        "passageCharStart": 956,
+        "passageCharEnd": 975,
+        "normalizedPassageCharStart": 956,
+        "normalizedPassageCharEnd": 975,
+        "pageCharStart": 956,
+        "pageCharEnd": 975,
+        "quote": "הרמ ן מיז ם ויהוש ע",
+        "normalizedQuote": "הרמ ן מיז ם ויהוש ע",
+        "modelQuote": "הרמןמיזםויהושע",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n144/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9d12045b153ef727f9f847569625045948eecbd7f5ada9378df488998a3ff180",
+        "normalizedPassageChecksum": "6a402240986c92f3e19c641787739dffff5c2d37b03f20e1ce10f69558611302",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_d717c7b6b194f0dd5d9be285",
+      "predicate": "Lived At",
+      "subjectTitle": "Joshua M. Goldhaber",
+      "objectTitle": "Lviv Jewish quarter",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "context": "among the first permitted to live in non-Jewish districts"
+      },
+      "evidence": {
+        "passageId": "passage_2a2cfa45eac342cb6fdb7925",
+        "pageId": "page_nybc313875_0145",
+        "scanIndex": 145,
+        "leafNumber": 144,
+        "printedPage": null,
+        "passageCharStart": 968,
+        "passageCharEnd": 1001,
+        "normalizedPassageCharStart": 968,
+        "normalizedPassageCharEnd": 1001,
+        "pageCharStart": 968,
+        "pageCharEnd": 1001,
+        "quote": "ויהוש ע\nמ . גולדהאבר , חבר־העיריה",
+        "normalizedQuote": "ויהוש ע\nמ . גולדהאבר , חבר־העיריה",
+        "modelQuote": "ויהושע מ.גולדהאבר,חבר־העיריה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n144/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9d12045b153ef727f9f847569625045948eecbd7f5ada9378df488998a3ff180",
+        "normalizedPassageChecksum": "6a402240986c92f3e19c641787739dffff5c2d37b03f20e1ce10f69558611302",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_0c17e67f2a87c41639eda5d1",
+      "type": "Fire",
+      "title": "Building collapses in the Jewish quarter",
+      "summary": "Some old, dilapidated houses collapsed in 1863 amid overcrowding and structural danger.",
+      "dateStart": "1863",
+      "dateEnd": "1863",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text describes collapses, which do not fit an allowed event type; event omitted.",
+      "evidence": {
+        "passageId": "passage_2a2cfa45eac342cb6fdb7925",
+        "pageId": "page_nybc313875_0145",
+        "scanIndex": 145,
+        "leafNumber": 144,
+        "printedPage": null,
+        "passageCharStart": 93,
+        "passageCharEnd": 124,
+        "normalizedPassageCharStart": 93,
+        "normalizedPassageCharEnd": 124,
+        "pageCharStart": 93,
+        "pageCharEnd": 124,
+        "quote": "אחדי ם מה ם התמוטט ו בשנ ת 1863",
+        "normalizedQuote": "אחדי ם מה ם התמוטט ו בשנ ת 1863",
+        "modelQuote": "אחדיםמהםהתמוטטובשנת1863",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n144/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9d12045b153ef727f9f847569625045948eecbd7f5ada9378df488998a3ff180",
+        "normalizedPassageChecksum": "6a402240986c92f3e19c641787739dffff5c2d37b03f20e1ce10f69558611302",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "mention_7493c578595e74775b46ee67",
+      "type": "Person",
+      "title": "Herman Mizim",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_e1a90a682d87ddb4113a8d11",
+      "type": "Person",
+      "title": "Joshua M. Goldhaber",
+      "relation": "Lived At"
+    },
+    {
+      "id": "event_candidate_0c17e67f2a87c41639eda5d1",
+      "type": "Event",
+      "title": "Building collapses in the Jewish quarter",
+      "relation": "Occurred At"
+    },
     {
       "id": "mention_780bbdddd02d3e937a8316d9",
       "type": "Person",
@@ -47,15 +169,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_50579297f14f06319c4664dd",
+      "id": "mention_2446631b722e8d2fb81fb821",
       "type": "Institution",
-      "title": "Lviv municipality",
+      "title": "Lviv City Council",
       "relation": "Appears in same passage"
     },
     {

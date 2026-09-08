@@ -5,7 +5,7 @@
   "summary": "Christian deputy who attended Heichal’s semicentennial celebration.",
   "originalName": "וזיאמילקובסקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 221,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 163,
       "passageCharEnd": 177,
-      "normalizedPassageCharStart": 123,
-      "normalizedPassageCharEnd": 136,
+      "normalizedPassageCharStart": 163,
+      "normalizedPassageCharEnd": 177,
       "pageCharStart": 2802,
       "pageCharEnd": 2816,
       "quote": "וזיאמילקובסק י",
-      "normalizedQuote": "וזיאמילקובסקי",
+      "normalizedQuote": "וזיאמילקובסק י",
       "modelQuote": "וזיאמילקובסקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n220/mode/1up",
@@ -34,13 +34,55 @@
       "passageChecksum": "5ef3f84b670876a754f3e7f36949ea9722de18252b3423e3c4092cea4c0f6fc1",
       "normalizedPassageChecksum": "d6255946ea2e75eb19a6eeac5cc820a0a39a4b441e5c1a2ab77c13eadf5e9c7b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_ce214439bf8818b7d4a86850",
+      "type": "Organization Founding",
+      "title": "Heichal semicentennial celebration",
+      "summary": "Heichal celebrated its semicentennial in 1870 with civic and military representatives attending.",
+      "dateStart": "1870",
+      "dateEnd": "1870",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event is a celebration, while the available event types lack a dedicated celebration type.",
+      "evidence": {
+        "passageId": "passage_f350b5a2ab9c4fc81e2c8eb6",
+        "pageId": "page_nybc313875_0221",
+        "scanIndex": 221,
+        "leafNumber": 220,
+        "printedPage": null,
+        "passageCharStart": 57,
+        "passageCharEnd": 108,
+        "normalizedPassageCharStart": 57,
+        "normalizedPassageCharEnd": 108,
+        "pageCharStart": 2696,
+        "pageCharEnd": 2747,
+        "quote": "בשנ ת 1870 חגג ו א ת חצי־היוב ל לקיומ ו ש ל ה״היכל\"",
+        "normalizedQuote": "בשנ ת 1870 חגג ו א ת חצי־היוב ל לקיומ ו ש ל ה״היכל\"",
+        "modelQuote": "בשנת1870חגגואתחצי־היובללקיומושלה״היכל\"",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n220/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "5ef3f84b670876a754f3e7f36949ea9722de18252b3423e3c4092cea4c0f6fc1",
+        "normalizedPassageChecksum": "d6255946ea2e75eb19a6eeac5cc820a0a39a4b441e5c1a2ab77c13eadf5e9c7b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_ce214439bf8818b7d4a86850",
+      "type": "Event",
+      "title": "Heichal semicentennial celebration",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_258fd2472dd561f2f0e2b938",
       "type": "Person",
@@ -66,12 +108,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3375d2c23baaed539c284e9b",
-      "type": "Person",
-      "title": "Hillel Lechner",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_fedb84aa92ede53ce25b9b68",
       "type": "Person",
       "title": "Emmanuel Gal",
@@ -87,12 +123,6 @@
       "id": "mention_e83129bbf24ece4e2b0ac9ad",
       "type": "Person",
       "title": "Dr. Shlomo Landsberger",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_164d28173d34fac47ac270e0",
-      "type": "Person",
-      "title": "Nathan Meir",
       "relation": "Appears in same passage"
     },
     {

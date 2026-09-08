@@ -5,7 +5,7 @@
   "summary": "Rabbi in Abtsai, Hesse, accepted as preacher but faced governmental opposition.",
   "originalName": "ד״רשמואלאדלר",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 191,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 566,
       "passageCharEnd": 596,
-      "normalizedPassageCharStart": 408,
-      "normalizedPassageCharEnd": 431,
+      "normalizedPassageCharStart": 566,
+      "normalizedPassageCharEnd": 596,
       "pageCharStart": 4995,
       "pageCharEnd": 5025,
       "quote": "נתקב ל\nכמטי ף ד״ ר שמוא ל אדלר",
-      "normalizedQuote": "נתקבל כמטיףד״רשמואלאדלר",
+      "normalizedQuote": "נתקב ל\nכמטי ף ד״ ר שמוא ל אדלר",
       "modelQuote": "נתקבל כמטיףד״רשמואלאדלר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n190/mode/1up",
@@ -34,13 +34,95 @@
       "passageChecksum": "f8d31b812cfa1aec99d24042fd9222c44d3eb093cac3f9f6c4399390d05171e0",
       "normalizedPassageChecksum": "8691ac578c98e47bba05288ae3130550e66da104a7690a28daffca3c50de85d9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_b3aecd7cafeb0f9c69f676d1",
+      "predicate": "Worked At",
+      "subjectTitle": "Dr. Samuel Adler",
+      "objectTitle": "Emmanuel Synagogue",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "rabbi",
+        "year": "1857"
+      },
+      "evidence": {
+        "passageId": "passage_9f2eb76cb965280616e33f78",
+        "pageId": "page_nybc313875_0192",
+        "scanIndex": 192,
+        "leafNumber": 191,
+        "printedPage": null,
+        "passageCharStart": 2986,
+        "passageCharEnd": 3040,
+        "normalizedPassageCharStart": 2986,
+        "normalizedPassageCharEnd": 3040,
+        "pageCharStart": 2986,
+        "pageCharEnd": 3040,
+        "quote": "בשנ ת 1857 הוזמ ן כר ב לבית־הכנס ת \"עמנואל \" בניו־יורק",
+        "normalizedQuote": "בשנ ת 1857 הוזמ ן כר ב לבית־הכנס ת \"עמנואל \" בניו־יורק",
+        "modelQuote": "בשנת1857הוזמןכרבלבית־הכנסת\"עמנואל\"בניו־יורק",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n191/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "21e799500bf5e2b23c7c1c3ae74b63887240fc154d0ddf75f18ceb93fb8cda4b",
+        "normalizedPassageChecksum": "14c1101b7bb8189118d054f6eed1aaf40b07a30e485532d8a2fe8eeabd876f0c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_b45b9234bfdb8a8767de551c",
+      "type": "Employment",
+      "title": "Dr. Adler invited to serve at Emmanuel Synagogue",
+      "summary": "Dr. Adler was invited as rabbi at Emmanuel Synagogue in New York in 1857.",
+      "dateStart": "1857",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9f2eb76cb965280616e33f78",
+        "pageId": "page_nybc313875_0192",
+        "scanIndex": 192,
+        "leafNumber": 191,
+        "printedPage": null,
+        "passageCharStart": 2986,
+        "passageCharEnd": 3040,
+        "normalizedPassageCharStart": 2986,
+        "normalizedPassageCharEnd": 3040,
+        "pageCharStart": 2986,
+        "pageCharEnd": 3040,
+        "quote": "בשנ ת 1857 הוזמ ן כר ב לבית־הכנס ת \"עמנואל \" בניו־יורק",
+        "normalizedQuote": "בשנ ת 1857 הוזמ ן כר ב לבית־הכנס ת \"עמנואל \" בניו־יורק",
+        "modelQuote": "בשנת1857הוזמןכרבלבית־הכנסת\"עמנואל\"בניו־יורק",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n191/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "21e799500bf5e2b23c7c1c3ae74b63887240fc154d0ddf75f18ceb93fb8cda4b",
+        "normalizedPassageChecksum": "14c1101b7bb8189118d054f6eed1aaf40b07a30e485532d8a2fe8eeabd876f0c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "mention_c619b9a47a946cdbdd1f1aaf",
+      "type": "Institution",
+      "title": "Emmanuel Synagogue",
+      "relation": "Worked At"
+    },
+    {
+      "id": "event_candidate_b45b9234bfdb8a8767de551c",
+      "type": "Event",
+      "title": "Dr. Adler invited to serve at Emmanuel Synagogue",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
     {
       "id": "mention_5a753e64cc7de17f07c7f14f",
       "type": "Person",
@@ -57,12 +139,6 @@
       "id": "mention_ef3b34ea56d164de5f4c4809",
       "type": "Place",
       "title": "Moshchiska",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_ec79162995636fcebc9eaa33",
-      "type": "Place",
-      "title": "Bohemia",
       "relation": "Appears in same passage"
     },
     {

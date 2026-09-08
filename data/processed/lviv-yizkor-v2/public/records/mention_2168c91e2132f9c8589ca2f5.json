@@ -5,7 +5,7 @@
   "summary": "Region whose Jewish communities were governed through a state committee.",
   "originalName": "מדינת רייסין",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 81,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 47,
       "passageCharEnd": 62,
-      "normalizedPassageCharStart": 34,
-      "normalizedPassageCharEnd": 46,
+      "normalizedPassageCharStart": 47,
+      "normalizedPassageCharEnd": 62,
       "pageCharStart": 47,
       "pageCharEnd": 62,
       "quote": "מדיינ ת רייסי ן",
-      "normalizedQuote": "מדיינתרייסין",
+      "normalizedQuote": "מדיינ ת רייסי ן",
       "modelQuote": "מדיינתרייסין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n80/mode/1up",
@@ -34,48 +34,53 @@
       "passageChecksum": "92424caa16830d19f29efbfe0b52619048e6eceb229a61527fea6b8686aa1527",
       "normalizedPassageChecksum": "327b5662ad597de6b40ae1269637f07c451418dc698ff4d1b20932b258621875",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_64aa7bec56fe5791a14b25c1",
+      "predicate": "Member Of",
+      "subjectTitle": "Chaim Reitzes",
+      "objectTitle": "Ruthenia",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "regional parnas"
+      },
+      "evidence": {
+        "passageId": "passage_3d20adf8795485fd2dc381a9",
+        "pageId": "page_nybc313875_0081",
+        "scanIndex": 81,
+        "leafNumber": 80,
+        "printedPage": null,
+        "passageCharStart": 331,
+        "passageCharEnd": 355,
+        "normalizedPassageCharStart": 331,
+        "normalizedPassageCharEnd": 355,
+        "pageCharStart": 1312,
+        "pageCharEnd": 1336,
+        "quote": "פרנס־הגלי ל חיי ם רייצ ס",
+        "normalizedQuote": "פרנס־הגלי ל חיי ם רייצ ס",
+        "modelQuote": "פרנס־הגלילחייםרייצס",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n80/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "7820eb4660744e3cce18bdf19e6e05272f89d0db0b3ef0740258ae3d9e5db950",
+        "normalizedPassageChecksum": "f863384bbca9992341af544228fdfd71ebcfbb0e4089112462106b46cdcb2b72",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_c28f86d23df8565a1e5bccba",
-      "type": "Community",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_28f4d1305599802fcd44fd2c",
-      "type": "Community",
-      "title": "Zolkiew",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_163aafe81ba7720d498db550",
-      "type": "Community",
-      "title": "Brody",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a6089a475cbec69263a3d4f5",
-      "type": "Community",
-      "title": "Buczacz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_ebff1c80daa4dde898f75ddf",
-      "type": "Community",
-      "title": "Zaloczow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a2895dd86cc6e8d2ab9cfda0",
-      "type": "Community",
-      "title": "Stryi",
-      "relation": "Appears in same passage"
+      "id": "mention_78cb24e43aa5f3159db41017",
+      "type": "Person",
+      "title": "Chaim Reitzes",
+      "relation": "Member Of"
     },
     {
       "id": "mention_aa32d541d706e5af5ecdc712",
@@ -87,12 +92,6 @@
       "id": "mention_64ef1426307be93f9e892876",
       "type": "Community",
       "title": "Litman",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_2034ec10b05ddefa7af206b0",
-      "type": "Community",
-      "title": "Zaluzhye",
       "relation": "Appears in same passage"
     },
     {
@@ -111,6 +110,42 @@
       "id": "mention_42327f9acb590433cf0efe1f",
       "type": "Person",
       "title": "Menahem of Brody",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f4a72859a15ad92aaca94360",
+      "type": "Person",
+      "title": "Samuel of Stryi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1656ff0d060ef543f2b7a5af",
+      "type": "Person",
+      "title": "Mordecai of Tysmenytsia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5148c40a195479e44fc20dc3",
+      "type": "Person",
+      "title": "Isaac of Chernelytsia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eea8099df4da6b429b050148",
+      "type": "Person",
+      "title": "Mattathias of Kosov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_282d7ca349a7c0a696ecf7d1",
+      "type": "Person",
+      "title": "Litman of Zaluzhye",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_74243d9f4811109e59464b15",
+      "type": "Person",
+      "title": "Gershon Nathan son of Bezalel the Tax Collector",
       "relation": "Appears in same passage"
     }
   ],

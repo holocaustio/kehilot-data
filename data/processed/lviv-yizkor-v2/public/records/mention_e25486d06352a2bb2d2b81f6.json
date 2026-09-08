@@ -5,7 +5,7 @@
   "summary": "Bank branch director and city council member in Lviv.",
   "originalName": "ד״ריוסףקולישר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 265,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 471,
       "passageCharEnd": 512,
-      "normalizedPassageCharStart": 345,
-      "normalizedPassageCharEnd": 373,
+      "normalizedPassageCharStart": 471,
+      "normalizedPassageCharEnd": 512,
       "pageCharStart": 1684,
       "pageCharEnd": 1725,
       "quote": "ד״ ר יוס ף קוליש ר מנה ל הסני ף ש ל הבנ ק",
-      "normalizedQuote": "ד״ריוסףקולישרמנהלהסניףשלהבנק",
+      "normalizedQuote": "ד״ ר יוס ף קוליש ר מנה ל הסני ף ש ל הבנ ק",
       "modelQuote": "ד״ריוסףקולישרמנהלהסניףשלהבנק",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n264/mode/1up",
@@ -32,13 +32,54 @@
       "passageChecksum": "6e44111110c71197c561ab6f37a63bd225698aff95356753ac74552f5cbd8812",
       "normalizedPassageChecksum": "fd8f7e25e3eaf63072f49791827e43d7d764d79014ba57cecb3996aba6fb3e2b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_823184846c1afecdd58da386",
+      "predicate": "Worked At",
+      "subjectTitle": "Dr. Joseph Kolischer",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "bank branch director; city council member"
+      },
+      "evidence": {
+        "passageId": "passage_6c710528ee7f84336b994558",
+        "pageId": "page_nybc313875_0265",
+        "scanIndex": 265,
+        "leafNumber": 264,
+        "printedPage": null,
+        "passageCharStart": 490,
+        "passageCharEnd": 541,
+        "normalizedPassageCharStart": 490,
+        "normalizedPassageCharEnd": 541,
+        "pageCharStart": 1703,
+        "pageCharEnd": 1754,
+        "quote": "מנה ל הסני ף ש ל הבנ ק\n\nהלאומ י בלבו ב וחבר־העירי ה",
+        "normalizedQuote": "מנה ל הסני ף ש ל הבנ ק\n\nהלאומ י בלבו ב וחבר־העירי ה",
+        "modelQuote": "מנהלהסניףשלהבנק הלאומיבלבובוחבר־העיריה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n264/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "6e44111110c71197c561ab6f37a63bd225698aff95356753ac74552f5cbd8812",
+        "normalizedPassageChecksum": "fd8f7e25e3eaf63072f49791827e43d7d764d79014ba57cecb3996aba6fb3e2b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Worked At"
+    },
     {
       "id": "mention_aa30c073a42a02224322f9a8",
       "type": "Family",
@@ -76,15 +117,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_06b9447bad2b7e54525a39fa",
+      "id": "mention_8a793f96e6bfdcf796950edc",
       "type": "Institution",
-      "title": "Temple",
+      "title": "The Temple",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_71b37844dd294ad668cb06c1",
+      "id": "mention_2d03155b0c10906905d8e3ef",
       "type": "Organization",
-      "title": "Shomer Yisrael",
+      "title": "Shomer Israel Association",
       "relation": "Appears in same passage"
     }
   ],

@@ -5,7 +5,7 @@
   "summary": "Rabbi whose anniversary and death are described.",
   "originalName": "הרבגוטמן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 225,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 770,
       "passageCharEnd": 780,
-      "normalizedPassageCharStart": 566,
-      "normalizedPassageCharEnd": 574,
+      "normalizedPassageCharStart": 770,
+      "normalizedPassageCharEnd": 780,
       "pageCharStart": 770,
       "pageCharEnd": 780,
       "quote": "הר ב גוטמן",
-      "normalizedQuote": "הרבגוטמן",
+      "normalizedQuote": "הר ב גוטמן",
       "modelQuote": "הרבגוטמן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n224/mode/1up",
@@ -33,14 +33,14 @@
       "passageChecksum": "20b69e558b418621d264fe9541dcdadccd32102339c88110f1a55db4ccc5fbb9",
       "normalizedPassageChecksum": "0e7bc9ab2bc466c7c80c768087359c550296a6e4f38f04220322989f5246476d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_98830dfd22a871bb71546f1b",
+      "id": "event_candidate_a6912b5169882b9a559a4453",
       "type": "Organization Founding",
       "title": "Anniversary celebration for Rabbi Gutman",
       "summary": "A half-jubilee celebration honored Rabbi Gutman's work in 1925.",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 1155,
         "passageCharEnd": 1233,
-        "normalizedPassageCharStart": 843,
-        "normalizedPassageCharEnd": 901,
+        "normalizedPassageCharStart": 1155,
+        "normalizedPassageCharEnd": 1233,
         "pageCharStart": 1155,
         "pageCharEnd": 1233,
         "quote": "בח ג השבועו ת ש ל 1925 התקיימ ה חגיג ת חצי־יוב ל\n\nלעבודת ו ש ל הר ב ד״ ר גוטמן",
-        "normalizedQuote": "בחגהשבועותשל1925התקיימהחגיגתחצי־יובל\n\nלעבודתושלהרבד״רגוטמן",
+        "normalizedQuote": "בח ג השבועו ת ש ל 1925 התקיימ ה חגיג ת חצי־יוב ל\n\nלעבודת ו ש ל הר ב ד״ ר גוטמן",
         "modelQuote": "בחגהשבועותשל1925התקיימהחגיגתחצי־יובל\n\nלעבודתושלהרבד״רגוטמן",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n224/mode/1up",
@@ -68,16 +68,56 @@
         "passageChecksum": "20b69e558b418621d264fe9541dcdadccd32102339c88110f1a55db4ccc5fbb9",
         "normalizedPassageChecksum": "0e7bc9ab2bc466c7c80c768087359c550296a6e4f38f04220322989f5246476d",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_5b667db48a34ee5fce0bd486",
+      "type": "Death",
+      "title": "Death of Rabbi Gutman",
+      "summary": "Rabbi Gutman died in 1935.",
+      "dateStart": "1935",
+      "dateEnd": "1935",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_de1a6e4a324455ecccc0d993",
+        "pageId": "page_nybc313875_0225",
+        "scanIndex": 225,
+        "leafNumber": 224,
+        "printedPage": null,
+        "passageCharStart": 1089,
+        "passageCharEnd": 1122,
+        "normalizedPassageCharStart": 1089,
+        "normalizedPassageCharEnd": 1122,
+        "pageCharStart": 2428,
+        "pageCharEnd": 2461,
+        "quote": "בשנ ת 1935 נפט ר הר ב ד״ ר גוטמ ן",
+        "normalizedQuote": "בשנ ת 1935 נפט ר הר ב ד״ ר גוטמ ן",
+        "modelQuote": "בשנת1935נפטרהרבד״רגוטמן",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n224/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "be85cd107c99cd6445b64b42a3af8c9d9428efb4c7e452bdf0e5a76d7bbd382f",
+        "normalizedPassageChecksum": "383b0806b640b598bc6f5ab632d599d6af4eaa180a1e72fb6b61f81937723385",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_98830dfd22a871bb71546f1b",
+      "id": "event_candidate_a6912b5169882b9a559a4453",
       "type": "Event",
       "title": "Anniversary celebration for Rabbi Gutman",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "event_candidate_5b667db48a34ee5fce0bd486",
+      "type": "Event",
+      "title": "Death of Rabbi Gutman",
       "relation": "Participated In",
       "role": "Subject"
     },
@@ -97,12 +137,6 @@
       "id": "mention_88ae0af60983559d43031f79",
       "type": "Place",
       "title": "Vienna",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -130,27 +164,33 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0cc40f433b0b077930442955",
-      "type": "Person",
-      "title": "Karl",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_69154baf0e1d53fdfe8a88fb",
       "type": "Person",
       "title": "Shimon Shaff",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_49314adb98f2eabb1110166d",
+      "id": "mention_f70bead11af82fa9e6a85163",
       "type": "Institution",
-      "title": "Heichal",
+      "title": "Heichal Synagogue",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_25f33239c35823af766e4a3d",
       "type": "Person",
       "title": "Karl Shahand",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8d04ea36838fb5a82c0ccd33",
+      "type": "Person",
+      "title": "Joseph Huizman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f2030395dd91d2f884455c4b",
+      "type": "Person",
+      "title": "Jacob Mone",
       "relation": "Appears in same passage"
     }
   ],

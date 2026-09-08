@@ -5,7 +5,7 @@
   "summary": "Birthplace associated with Abraham Shendliger.",
   "originalName": "דוברומיל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 209,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 50,
       "passageCharEnd": 64,
-      "normalizedPassageCharStart": 43,
-      "normalizedPassageCharEnd": 55,
+      "normalizedPassageCharStart": 50,
+      "normalizedPassageCharEnd": 64,
       "pageCharStart": 50,
       "pageCharEnd": 64,
       "quote": "ילי ד דוברומיל",
-      "normalizedQuote": "ילידדוברומיל",
+      "normalizedQuote": "ילי ד דוברומיל",
       "modelQuote": "ילידדוברומיל",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n208/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "207545b443052aa90c57310ff71d69848bc725518c2866de6e72b959d63f004f",
       "normalizedPassageChecksum": "4299b8a460c3951bd3691bb635beee6a0f4ba4ef13a7caaa030ba1d5fd49b9b8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 708,
       "passageCharEnd": 726,
-      "normalizedPassageCharStart": 535,
-      "normalizedPassageCharEnd": 550,
+      "normalizedPassageCharStart": 708,
+      "normalizedPassageCharEnd": 726,
       "pageCharStart": 708,
       "pageCharEnd": 726,
       "quote": "בסביבו ת דוברומי ל",
-      "normalizedQuote": "בסביבותדוברומיל",
+      "normalizedQuote": "בסביבו ת דוברומי ל",
       "modelQuote": "בסביבותדוברומיל",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n362/mode/1up",
@@ -57,25 +57,13 @@
       "passageChecksum": "b2fbf67fb08fb3020b42446b98be5280a98a6595826cc2f0f4372abfc5eb9f66",
       "normalizedPassageChecksum": "1137bdbf7e59ca9193be4ff6dfe6025cf4b28401b518376387b95cea49ce8361",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_8b8f935b15422947931c0c51",
-      "type": "Work",
-      "title": "Yeshuot Yaakov",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_5eb90b133e6317c31145fba4",
       "type": "Place",
@@ -95,15 +83,21 @@
       "relation": "Appears in same passage"
     },
     {
+      "id": "mention_8b8f935b15422947931c0c51",
+      "type": "Work",
+      "title": "Yeshuot Yaakov",
+      "relation": "Appears in same passage"
+    },
+    {
       "id": "mention_cde6907c5da4991f947863dd",
       "type": "Person",
       "title": "Dr. Friedman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b9694b51efe25601fb72b9c4",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
-      "title": "Yanovi",
+      "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {

@@ -5,7 +5,7 @@
   "summary": "Study house of the Olisk rebbe in his Lviv home.",
   "originalName": "בית־מדרשוהיהבביתו",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 239,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 942,
       "passageCharEnd": 964,
-      "normalizedPassageCharStart": 689,
-      "normalizedPassageCharEnd": 707,
+      "normalizedPassageCharStart": 942,
+      "normalizedPassageCharEnd": 964,
       "pageCharStart": 942,
       "pageCharEnd": 964,
       "quote": "ובית־מדרש ו הי ה בביתו",
-      "normalizedQuote": "ובית־מדרשוהיהבביתו",
+      "normalizedQuote": "ובית־מדרש ו הי ה בביתו",
       "modelQuote": "ובית־מדרשוהיהבביתו",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n238/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "9d666d515055372349b208235f5be4208147a23105086d96450e47ea1c9c49c9",
       "normalizedPassageChecksum": "5c1f67119fa8c0eeef5623b91dea32a14c5e7dee72c1914f0156a6c43cdb3d13",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_d1518b26b70fe7df769a2efd",
+      "predicate": "Located In",
+      "subjectTitle": "Olisk Beit Midrash",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_3cdf64a85765e11036cac365",
+        "pageId": "page_nybc313875_0239",
+        "scanIndex": 239,
+        "leafNumber": 238,
+        "printedPage": null,
+        "passageCharStart": 897,
+        "passageCharEnd": 939,
+        "normalizedPassageCharStart": 897,
+        "normalizedPassageCharEnd": 939,
+        "pageCharStart": 897,
+        "pageCharEnd": 939,
+        "quote": "האדמו״ ר מאוליס ק\nהתגור ר כ ל השני ם בלבוב",
+        "normalizedQuote": "האדמו״ ר מאוליס ק\nהתגור ר כ ל השני ם בלבוב",
+        "modelQuote": "האדמו״רמאוליסק התגוררכלהשניםבלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n238/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9d666d515055372349b208235f5be4208147a23105086d96450e47ea1c9c49c9",
+        "normalizedPassageChecksum": "5c1f67119fa8c0eeef5623b91dea32a14c5e7dee72c1914f0156a6c43cdb3d13",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_998a91de6c3406b791263c44",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Located In"
+    },
     {
       "id": "mention_cb7ce093c07c0760751dd875",
       "type": "Institution",

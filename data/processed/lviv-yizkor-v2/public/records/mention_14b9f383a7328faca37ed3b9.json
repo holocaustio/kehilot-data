@@ -5,7 +5,7 @@
   "summary": "A committee was formed to defend the rights of Rabbi Cohen's family.",
   "originalName": "ועדמיוחדלהגנהעלזכויותמשפחתהר׳כהן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 134,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 503,
       "passageCharEnd": 566,
-      "normalizedPassageCharStart": 369,
-      "normalizedPassageCharEnd": 415,
+      "normalizedPassageCharStart": 503,
+      "normalizedPassageCharEnd": 566,
       "pageCharStart": 1725,
       "pageCharEnd": 1788,
       "quote": "המתקדמי ם הקימ ו וע ד מיוח ד להגנ ה ע ל זכויו ת\nמשפח ת הר ׳ כהן",
-      "normalizedQuote": "המתקדמיםהקימוועדמיוחדלהגנהעלזכויות משפחתהר׳כהן",
+      "normalizedQuote": "המתקדמי ם הקימ ו וע ד מיוח ד להגנ ה ע ל זכויו ת\nמשפח ת הר ׳ כהן",
       "modelQuote": "המתקדמיםהקימוועדמיוחדלהגנהעלזכויות משפחתהר׳כהן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n133/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "f8dcfd78acaf509f1871b81d8022cbadb0f24e5250ae611a6aa9d83cfd362e2b",
       "normalizedPassageChecksum": "59ea8a907bf6c83c46279fb1750bb0981084cf3021fee427e38e3ebe3b3c9738",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_11fc7f3f4048d97c64442136",
+      "predicate": "Affiliated With",
+      "subjectTitle": "Committee for the Defense of Rabbi Cohen's Family Rights",
+      "objectTitle": "Cohen family",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_0fdfc72513b65a0abdd72a0c",
+        "pageId": "page_nybc313875_0134",
+        "scanIndex": 134,
+        "leafNumber": 133,
+        "printedPage": null,
+        "passageCharStart": 520,
+        "passageCharEnd": 566,
+        "normalizedPassageCharStart": 520,
+        "normalizedPassageCharEnd": 566,
+        "pageCharStart": 1742,
+        "pageCharEnd": 1788,
+        "quote": "וע ד מיוח ד להגנ ה ע ל זכויו ת\nמשפח ת הר ׳ כהן",
+        "normalizedQuote": "וע ד מיוח ד להגנ ה ע ל זכויו ת\nמשפח ת הר ׳ כהן",
+        "modelQuote": "ועדמיוחדלהגנהעלזכויות משפחתהר׳כהן",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n133/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "f8dcfd78acaf509f1871b81d8022cbadb0f24e5250ae611a6aa9d83cfd362e2b",
+        "normalizedPassageChecksum": "59ea8a907bf6c83c46279fb1750bb0981084cf3021fee427e38e3ebe3b3c9738",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_c82e8b628b0b8c666dae92fd",
+      "type": "Family",
+      "title": "Cohen family",
+      "relation": "Affiliated With"
+    },
     {
       "id": "mention_24ac22080773a6d21a797a85",
       "type": "Person",

@@ -5,7 +5,7 @@
   "summary": "Jewish person reported killed during the Lviv bombardment.",
   "originalName": "גראבשיידברנהרד",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 136,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 849,
       "passageCharEnd": 887,
-      "normalizedPassageCharStart": 631,
-      "normalizedPassageCharEnd": 661,
+      "normalizedPassageCharStart": 849,
+      "normalizedPassageCharEnd": 887,
       "pageCharStart": 849,
       "pageCharEnd": 887,
       "quote": "מבי ן היהודי ם נהרג ו גראבשיי ד ברנהרד",
-      "normalizedQuote": "מביןהיהודיםנהרגוגראבשיידברנהרד",
+      "normalizedQuote": "מבי ן היהודי ם נהרג ו גראבשיי ד ברנהרד",
       "modelQuote": "מביןהיהודיםנהרגוגראבשיידברנהרד",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n135/mode/1up",
@@ -33,14 +33,14 @@
       "passageChecksum": "4b373a432fe50ea3d0f2aacec4316c4e960d83c8d9d2cda66a0927b7ed6b38d0",
       "normalizedPassageChecksum": "19e5fa0bc61c71573ca1d17dbb38ae46b76866c667e262491be4197079c37135",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_ca02c1862eb4c13c3ea041b5",
+      "id": "event_candidate_ac4afb7b95d9788d83830498",
       "type": "Aktion Or Raid",
       "title": "Bombardment of Lviv",
       "summary": "Artillery bombarded Lviv, destroying major buildings and killing 55 people.",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 540,
         "passageCharEnd": 582,
-        "normalizedPassageCharStart": 401,
-        "normalizedPassageCharEnd": 433,
+        "normalizedPassageCharStart": 540,
+        "normalizedPassageCharEnd": 582,
         "pageCharStart": 540,
         "pageCharEnd": 582,
         "quote": "פקוד ה לפלוגו ת\nתותחני ם להפצי ץ א ת העי ר",
-        "normalizedQuote": "פקודהלפלוגות תותחניםלהפציץאתהעיר",
+        "normalizedQuote": "פקוד ה לפלוגו ת\nתותחני ם להפצי ץ א ת העי ר",
         "modelQuote": "פקודהלפלוגות תותחניםלהפציץאתהעיר",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n135/mode/1up",
@@ -69,14 +69,14 @@
         "passageChecksum": "4b373a432fe50ea3d0f2aacec4316c4e960d83c8d9d2cda66a0927b7ed6b38d0",
         "normalizedPassageChecksum": "19e5fa0bc61c71573ca1d17dbb38ae46b76866c667e262491be4197079c37135",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_ca02c1862eb4c13c3ea041b5",
+      "id": "event_candidate_ac4afb7b95d9788d83830498",
       "type": "Event",
       "title": "Bombardment of Lviv",
       "relation": "Participated In",
@@ -119,13 +119,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ff078c16fe314afc974e8200",
+      "id": "mention_ff93701c70e4d37c6fc363b1",
       "type": "Place",
       "title": "Brody",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -137,21 +137,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_70b40389613757948215bd7a",
-      "type": "Institution",
-      "title": "Lviv University",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_aa3edd23abb34265e871193f",
-      "type": "Institution",
-      "title": "Lviv Technical Institution",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_4ba495a05fb37144f61bf46c",
       "type": "Institution",
       "title": "Lviv Real School",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6ec5e65c3aa3760f214dcfe9",
+      "type": "Institution",
+      "title": "Lviv Theater",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0337456b0d41ba68db35ad5a",
+      "type": "Organization",
+      "title": "National Guard",
       "relation": "Appears in same passage"
     }
   ],

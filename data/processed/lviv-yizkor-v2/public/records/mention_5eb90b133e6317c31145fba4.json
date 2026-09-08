@@ -5,7 +5,7 @@
   "summary": "Town where Zvi Hirsch previously served as rabbi.",
   "originalName": "בבולחוב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 209,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 385,
       "passageCharEnd": 399,
-      "normalizedPassageCharStart": 271,
-      "normalizedPassageCharEnd": 283,
+      "normalizedPassageCharStart": 385,
+      "normalizedPassageCharEnd": 399,
       "pageCharStart": 385,
       "pageCharEnd": 399,
       "quote": "אב״ ד\nבבולחו ב",
-      "normalizedQuote": "אב״ד בבולחוב",
+      "normalizedQuote": "אב״ ד\nבבולחו ב",
       "modelQuote": "אב״ד בבולחוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n208/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "207545b443052aa90c57310ff71d69848bc725518c2866de6e72b959d63f004f",
       "normalizedPassageChecksum": "4299b8a460c3951bd3691bb635beee6a0f4ba4ef13a7caaa030ba1d5fd49b9b8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -41,21 +41,9 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_8b8f935b15422947931c0c51",
-      "type": "Work",
-      "title": "Yeshuot Yaakov",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_cc8698a9fa26bc3323ded8d2",
       "type": "Place",
       "title": "Dobromil",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -68,6 +56,12 @@
       "id": "mention_d94e82761f4c766fd00bc786",
       "type": "Place",
       "title": "Zolkiew",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8b8f935b15422947931c0c51",
+      "type": "Work",
+      "title": "Yeshuot Yaakov",
       "relation": "Appears in same passage"
     }
   ],

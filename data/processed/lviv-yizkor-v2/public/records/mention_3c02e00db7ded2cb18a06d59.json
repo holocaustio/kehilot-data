@@ -1,0 +1,133 @@
+{
+  "id": "mention_3c02e00db7ded2cb18a06d59",
+  "type": "Community",
+  "title": "Lviv Ghetto",
+  "summary": "Ghetto described during its liquidation and resistance.",
+  "originalName": "הגיטו",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 350,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "ghetto",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a1478edb02c66d38c36f9da3",
+      "pageId": "page_nybc313875_0350",
+      "scanIndex": 350,
+      "leafNumber": 349,
+      "printedPage": null,
+      "passageCharStart": 389,
+      "passageCharEnd": 395,
+      "normalizedPassageCharStart": 389,
+      "normalizedPassageCharEnd": 395,
+      "pageCharStart": 1774,
+      "pageCharEnd": 1780,
+      "quote": "בגיט ו",
+      "normalizedQuote": "בגיט ו",
+      "modelQuote": "בגיטו",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n349/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "c8fe40aaea29bf2449c20c9f8f788790ff15fe17d90e00261519ac0578e8ec1d",
+      "normalizedPassageChecksum": "50f80add8ab03c2e3f52f73a54775ecb68fd04167e9ddb74931c6156cea79e03",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_d75013b08bb8d28ffa4b2626",
+      "predicate": "Located In",
+      "subjectTitle": "Lviv ghetto",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_bdc191eb76c9d8d941ff11f2",
+        "pageId": "page_nybc313875_0350",
+        "scanIndex": 350,
+        "leafNumber": 349,
+        "printedPage": null,
+        "passageCharStart": 46,
+        "passageCharEnd": 65,
+        "normalizedPassageCharStart": 46,
+        "normalizedPassageCharEnd": 65,
+        "pageCharStart": 2664,
+        "pageCharEnd": 2683,
+        "quote": "חיסו ל\nהגיט ו בלבוב",
+        "normalizedQuote": "חיסו ל\nהגיט ו בלבוב",
+        "modelQuote": "חיסול הגיטו בלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n349/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "982bc05bdd441c48e1399c8754a10d7eb38db8e4d6b3b6ec66af732674933013",
+        "normalizedPassageChecksum": "737c2818e94b6ddc7e55947e445521c3805032be6fb40982cff99e43a335c3fb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_fde52d5ce717a1149efd0def",
+      "type": "Aktion Or Raid",
+      "title": "Liquidation of the ghetto",
+      "summary": "German forces attacked the ghetto, forcing residents from hiding places and killing many.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a1478edb02c66d38c36f9da3",
+        "pageId": "page_nybc313875_0350",
+        "scanIndex": 350,
+        "leafNumber": 349,
+        "printedPage": null,
+        "passageCharStart": 1120,
+        "passageCharEnd": 1156,
+        "normalizedPassageCharStart": 1120,
+        "normalizedPassageCharEnd": 1156,
+        "pageCharStart": 2505,
+        "pageCharEnd": 2541,
+        "quote": "מפע ל חיסו ל הגיט ו התנה ל באכזריו ת",
+        "normalizedQuote": "מפע ל חיסו ל הגיט ו התנה ל באכזריו ת",
+        "modelQuote": "מפעל חיסול הגיטו התנהל באכזריות",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n349/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "c8fe40aaea29bf2449c20c9f8f788790ff15fe17d90e00261519ac0578e8ec1d",
+        "normalizedPassageChecksum": "50f80add8ab03c2e3f52f73a54775ecb68fd04167e9ddb74931c6156cea79e03",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Located In"
+    },
+    {
+      "id": "event_candidate_fde52d5ce717a1149efd0def",
+      "type": "Event",
+      "title": "Liquidation of the ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_3decf1d8f534b10f84d56e70",
+      "type": "Person",
+      "title": "Kaczmann",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_48599cb04cbd8f2b1d0f9463",
+      "type": "Place",
+      "title": "Janowska camp",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

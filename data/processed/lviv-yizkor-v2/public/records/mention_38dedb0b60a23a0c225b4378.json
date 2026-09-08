@@ -5,7 +5,7 @@
   "summary": "General schools attended by approximately 500 Jewish children.",
   "originalName": "בתי־הספרהכלליים",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 159,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 923,
       "passageCharEnd": 969,
-      "normalizedPassageCharStart": 698,
-      "normalizedPassageCharEnd": 735,
+      "normalizedPassageCharStart": 923,
+      "normalizedPassageCharEnd": 969,
       "pageCharStart": 923,
       "pageCharEnd": 969,
       "quote": "כ־ 500 ילדי ם\nיהודי ם למד ו בבתי־הספ ר הכלליים",
-      "normalizedQuote": "כ־500ילדים יהודיםלמדובבתי־הספרהכלליים",
+      "normalizedQuote": "כ־ 500 ילדי ם\nיהודי ם למד ו בבתי־הספ ר הכלליים",
       "modelQuote": "כ־500ילדים יהודיםלמדובבתי־הספרהכלליים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n158/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "329c9fd13cb4af0539801f44c82db351b5d0cf57fa3f0c6bb8503606e3e13a1d",
       "normalizedPassageChecksum": "4e54a5f34bd5b76b990ffe428e6c3e6127ad33b95ec1d74bb3a2df5be2fa9fe6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -62,12 +62,6 @@
       "id": "mention_a875330a38deebc8e28920b7",
       "type": "Person",
       "title": "Jacob-Tzvi Shperling",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -110,6 +104,12 @@
       "id": "mention_d461d520215943baa50a2921",
       "type": "Institution",
       "title": "Talmud Torah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0c3ee37db594fd6fa5f505f4",
+      "type": "Institution",
+      "title": "First soup kitchen",
       "relation": "Appears in same passage"
     }
   ],

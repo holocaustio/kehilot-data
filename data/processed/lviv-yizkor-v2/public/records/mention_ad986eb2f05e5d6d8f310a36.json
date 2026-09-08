@@ -5,7 +5,7 @@
   "summary": "The Heichal’s official name was changed to a Polish designation.",
   "originalName": "ביתתפלהגרמני־יהודי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 223,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 366,
       "passageCharEnd": 388,
-      "normalizedPassageCharStart": 269,
-      "normalizedPassageCharEnd": 287,
+      "normalizedPassageCharStart": 366,
+      "normalizedPassageCharEnd": 388,
       "pageCharStart": 366,
       "pageCharEnd": 388,
       "quote": "בי ת תפל ה גרמני־יהודי",
-      "normalizedQuote": "ביתתפלהגרמני־יהודי",
+      "normalizedQuote": "בי ת תפל ה גרמני־יהודי",
       "modelQuote": "ביתתפלהגרמני־יהודי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n222/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "b7185e5486ea1c13406de9384f7c097b85f2ca338357c585ebe2ccf220af10c6",
       "normalizedPassageChecksum": "eb01e10dc8ccbf7015d4cb97fdbd83558c60a0134f731f75f7cd1c43df905546",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_b0e6555613652a8cb04c3800",
+      "predicate": "Formerly Named",
+      "subjectTitle": "Heichal",
+      "objectTitle": "German-Jewish prayer house",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cb2fa5ad04b927a50db8e085",
+        "pageId": "page_nybc313875_0223",
+        "scanIndex": 223,
+        "leafNumber": 222,
+        "printedPage": null,
+        "passageCharStart": 353,
+        "passageCharEnd": 396,
+        "normalizedPassageCharStart": 353,
+        "normalizedPassageCharEnd": 396,
+        "pageCharStart": 353,
+        "pageCharEnd": 396,
+        "quote": "הש ם הרשמ י \"בי ת תפל ה גרמני־יהודי \" נשתנה",
+        "normalizedQuote": "הש ם הרשמ י \"בי ת תפל ה גרמני־יהודי \" נשתנה",
+        "modelQuote": "השםהרשמי\"ביתתפלהגרמני־יהודי\"נשתנה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n222/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "b7185e5486ea1c13406de9384f7c097b85f2ca338357c585ebe2ccf220af10c6",
+        "normalizedPassageChecksum": "eb01e10dc8ccbf7015d4cb97fdbd83558c60a0134f731f75f7cd1c43df905546",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_f70bead11af82fa9e6a85163",
+      "type": "Institution",
+      "title": "Heichal Synagogue",
+      "relation": "Formerly Named"
+    },
     {
       "id": "mention_834144441a7e488ac8d4b24e",
       "type": "Person",

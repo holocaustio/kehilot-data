@@ -5,7 +5,7 @@
   "summary": "Jewish prisoner elder and prewar café musician killed by Rokita.",
   "originalName": "קאמף",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 355,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,11 +21,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 36,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 26,
+      "normalizedPassageCharEnd": 36,
       "pageCharStart": 1162,
       "pageCharEnd": 1198,
       "quote": "רוקיט א מינ ה א ת חבר ו היהוד י קאמף",
-      "normalizedQuote": "רוקיטאמינהאתחברוהיהודיקאמף",
+      "normalizedQuote": "רוקיט א מינ ה א ת חבר ו היהוד י קאמף",
       "modelQuote": "רוקיטאמינהאתחברוהיהודיקאמף",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n354/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "1a72d7f132f9f7cd6ef34cbd940dcc073b1f80a545f788f1caf493dd68158e3e",
       "normalizedPassageChecksum": "bf8447411bd4769e7c0c1d2545a2846b20098b89490954a208a811d4052e2d62",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_c6f119b565b15816b74e9577",
+      "id": "claim_candidate_cfa7cae3350a6c2fc64fdce4",
       "predicate": "Spouse Of",
       "subjectTitle": "Kampf’s wife",
       "objectTitle": "Kampf",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 439,
         "passageCharEnd": 448,
-        "normalizedPassageCharStart": 325,
-        "normalizedPassageCharEnd": 331,
+        "normalizedPassageCharStart": 439,
+        "normalizedPassageCharEnd": 448,
         "pageCharStart": 1601,
         "pageCharEnd": 1610,
         "quote": "א ת אשת ו",
-        "normalizedQuote": "אתאשתו",
+        "normalizedQuote": "א ת אשת ו",
         "modelQuote": "אתאשתו",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n354/mode/1up",
@@ -65,13 +65,19 @@
         "passageChecksum": "1a72d7f132f9f7cd6ef34cbd940dcc073b1f80a545f788f1caf493dd68158e3e",
         "normalizedPassageChecksum": "bf8447411bd4769e7c0c1d2545a2846b20098b89490954a208a811d4052e2d62",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_066566b1b8e67ae9ae39bad3",
+      "type": "Place",
+      "title": "Yanov Camp",
+      "relation": "Member Of"
+    },
     {
       "id": "mention_d6d0015879050f7311f072b2",
       "type": "Person",

@@ -5,7 +5,7 @@
   "summary": "Proposed school modeled on the Pressburg Yeshiva.",
   "originalName": "בית־ספר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 146,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 135,
       "passageCharEnd": 181,
-      "normalizedPassageCharStart": 100,
-      "normalizedPassageCharEnd": 138,
+      "normalizedPassageCharStart": 135,
+      "normalizedPassageCharEnd": 181,
       "pageCharStart": 3625,
       "pageCharEnd": 3671,
       "quote": "ליס ד בגליצי ה בית־ספ ר\nכדוגמ ת ישיבת־פרשבור ג",
-      "normalizedQuote": "ליסדבגליציהבית־ספר כדוגמתישיבת־פרשבורג",
+      "normalizedQuote": "ליס ד בגליצי ה בית־ספ ר\nכדוגמ ת ישיבת־פרשבור ג",
       "modelQuote": "ליסדבגליציהבית־ספר כדוגמתישיבת־פרשבורג",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n145/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "1a3a1eb31a6c3f58bd545e61fc0fff7e96173553b33b3886fba0c6d1a9343fc1",
       "normalizedPassageChecksum": "c32713adc889ebcd0e62ee945b298419991a244c9e7ffd7f91e1e8d3ddf34733",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_d1b17bff3080e19fda7c1704",
+      "id": "claim_candidate_71ed1d93d9eed7729d54cb3d",
       "predicate": "Affiliated With",
       "subjectTitle": "Galician rabbinical school",
       "objectTitle": "Pressburg Yeshiva",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 150,
         "passageCharEnd": 181,
-        "normalizedPassageCharStart": 111,
-        "normalizedPassageCharEnd": 138,
+        "normalizedPassageCharStart": 150,
+        "normalizedPassageCharEnd": 181,
         "pageCharStart": 3640,
         "pageCharEnd": 3671,
         "quote": "בית־ספ ר\nכדוגמ ת ישיבת־פרשבור ג",
-        "normalizedQuote": "בית־ספר כדוגמתישיבת־פרשבורג",
+        "normalizedQuote": "בית־ספ ר\nכדוגמ ת ישיבת־פרשבור ג",
         "modelQuote": "בית־ספר כדוגמתישיבת־פרשבורג",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n145/mode/1up",
@@ -68,17 +68,17 @@
         "passageChecksum": "1a3a1eb31a6c3f58bd545e61fc0fff7e96173553b33b3886fba0c6d1a9343fc1",
         "normalizedPassageChecksum": "c32713adc889ebcd0e62ee945b298419991a244c9e7ffd7f91e1e8d3ddf34733",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [
     {
-      "id": "event_candidate_bdb3912bdd494c3ae5e0b7e4",
-      "type": "Policy Approval",
+      "id": "event_candidate_008e89a96d81dd9c1a5d8e33",
+      "type": "Plan Approval",
       "title": "Galician rabbinical school proposal approved",
-      "summary": "The emperor approved the proposed Galician rabbinical school plan on 4 July 1860.",
+      "summary": "The proposal to establish a Galician rabbinical school was approved by the emperor on 4 July 1860; the passage does not establish that the school was founded.",
       "dateStart": "1860-07-04",
       "confidence": "MEDIUM",
       "uncertaintyNote": "The text describes approval of a plan, not necessarily the school's establishment.",
@@ -90,12 +90,12 @@
         "printedPage": null,
         "passageCharStart": 322,
         "passageCharEnd": 356,
-        "normalizedPassageCharStart": 245,
-        "normalizedPassageCharEnd": 270,
+        "normalizedPassageCharStart": 322,
+        "normalizedPassageCharEnd": 356,
         "pageCharStart": 3812,
         "pageCharEnd": 3846,
         "quote": "ב־ 4 ביול י 1860 נאשר ה ע״ י הקיסר",
-        "normalizedQuote": "ב־4ביולי1860נאשרהע״יהקיסר",
+        "normalizedQuote": "ב־ 4 ביול י 1860 נאשר ה ע״ י הקיסר",
         "modelQuote": "ב־4ביולי1860נאשרהע״י הקיסר",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n145/mode/1up",
@@ -116,7 +116,7 @@
       "relation": "Affiliated With"
     },
     {
-      "id": "event_candidate_bdb3912bdd494c3ae5e0b7e4",
+      "id": "event_candidate_008e89a96d81dd9c1a5d8e33",
       "type": "Event",
       "title": "Galician rabbinical school proposal approved",
       "relation": "Participated In",
@@ -129,7 +129,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2fa82db46fb1f228b5695c9e",
+      "id": "mention_14d65ca16fc8565199af0187",
       "type": "Place",
       "title": "Galicia",
       "relation": "Appears in same passage"

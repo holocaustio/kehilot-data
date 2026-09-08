@@ -5,7 +5,7 @@
   "summary": "Elected to the Lviv community council in May 1862.",
   "originalName": "ש.כהן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 147,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 913,
       "passageCharEnd": 920,
-      "normalizedPassageCharStart": 693,
-      "normalizedPassageCharEnd": 698,
+      "normalizedPassageCharStart": 913,
+      "normalizedPassageCharEnd": 920,
       "pageCharStart": 3745,
       "pageCharEnd": 3752,
       "quote": "ש . כהן",
-      "normalizedQuote": "ש.כהן",
+      "normalizedQuote": "ש . כהן",
       "modelQuote": "ש.כהן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n146/mode/1up",
@@ -32,13 +32,95 @@
       "passageChecksum": "c8791cdd804649b2039bcd7f2dc1379012c89d5c5093dbb83af403e9c12bd871",
       "normalizedPassageChecksum": "bd3d5cd855bce8d63ad6d8a36ff37d25cb5fcb2a914aff3ca637d6bec88a1429",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_5a722afde3d274d235a4199e",
+      "predicate": "Member Of",
+      "subjectTitle": "S. Cohen",
+      "objectTitle": "Lviv Jewish Community",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "community council member"
+      },
+      "evidence": {
+        "passageId": "passage_41b7b827b9e99fbd5192ed47",
+        "pageId": "page_nybc313875_0147",
+        "scanIndex": 147,
+        "leafNumber": 146,
+        "printedPage": null,
+        "passageCharStart": 913,
+        "passageCharEnd": 920,
+        "normalizedPassageCharStart": 913,
+        "normalizedPassageCharEnd": 920,
+        "pageCharStart": 3745,
+        "pageCharEnd": 3752,
+        "quote": "ש . כהן",
+        "normalizedQuote": "ש . כהן",
+        "modelQuote": "ש.כהן",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n146/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "c8791cdd804649b2039bcd7f2dc1379012c89d5c5093dbb83af403e9c12bd871",
+        "normalizedPassageChecksum": "bd3d5cd855bce8d63ad6d8a36ff37d25cb5fcb2a914aff3ca637d6bec88a1429",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_3b786ddbab6f1a1099415654",
+      "type": "Organization Founding",
+      "title": "Lviv Community Council Election",
+      "summary": "Community council members were elected in May 1862.",
+      "dateStart": "1862-05",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include elections; this is represented as an organization-founding candidate only provisionally.",
+      "evidence": {
+        "passageId": "passage_41b7b827b9e99fbd5192ed47",
+        "pageId": "page_nybc313875_0147",
+        "scanIndex": 147,
+        "leafNumber": 146,
+        "printedPage": null,
+        "passageCharStart": 771,
+        "passageCharEnd": 816,
+        "normalizedPassageCharStart": 771,
+        "normalizedPassageCharEnd": 816,
+        "pageCharStart": 3603,
+        "pageCharEnd": 3648,
+        "quote": "בבחירו ת א ל ועד־הקהל ה — במא י 1862\n— נבחר ו",
+        "normalizedQuote": "בבחירו ת א ל ועד־הקהל ה — במא י 1862\n— נבחר ו",
+        "modelQuote": "בבחירותאלועד־הקהלה—במאי1862 —נבחרו",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n146/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "c8791cdd804649b2039bcd7f2dc1379012c89d5c5093dbb83af403e9c12bd871",
+        "normalizedPassageChecksum": "bd3d5cd855bce8d63ad6d8a36ff37d25cb5fcb2a914aff3ca637d6bec88a1429",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_3b786ddbab6f1a1099415654",
+      "type": "Event",
+      "title": "Lviv Community Council Election",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_c8320195068d688d1580b976",
       "type": "Person",

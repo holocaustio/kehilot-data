@@ -5,7 +5,7 @@
   "summary": "Listed among people who disappeared without a known fate.",
   "originalName": "אמילאיגל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 345,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 592,
       "passageCharEnd": 602,
-      "normalizedPassageCharStart": 430,
-      "normalizedPassageCharEnd": 438,
+      "normalizedPassageCharStart": 592,
+      "normalizedPassageCharEnd": 602,
       "pageCharStart": 3959,
       "pageCharEnd": 3969,
       "quote": "אמי ל איגל",
-      "normalizedQuote": "אמילאיגל",
+      "normalizedQuote": "אמי ל איגל",
       "modelQuote": "אמילאיגל",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n344/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "eba7835d97d4bec8f46e5aeea8e86e2ca44dfd9590edb37671ba102de62dd89b",
       "normalizedPassageChecksum": "413f7cc2d1973a94a91ff9d9555bce204ded6bf08df7c91bedbe4a9e1da0062d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 116,
       "passageCharEnd": 166,
-      "normalizedPassageCharStart": 86,
-      "normalizedPassageCharEnd": 122,
+      "normalizedPassageCharStart": 116,
+      "normalizedPassageCharEnd": 166,
       "pageCharStart": 3631,
       "pageCharEnd": 3681,
       "quote": "יח ד ע ם אמי ל איג ל (ג ם הו א\nמסופר י ה״חווילה\" )",
-      "normalizedQuote": "יחדעםאמילאיגל(גםהוא מסופריה״חווילה\")",
+      "normalizedQuote": "יח ד ע ם אמי ל איג ל (ג ם הו א\nמסופר י ה״חווילה\" )",
       "modelQuote": "יחדעםאמילאיגל(גםהוא מסופריה״חווילה\")",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n377/mode/1up",
@@ -57,11 +57,46 @@
       "passageChecksum": "eae8c8944376452e56ce74466b6f30f55a3e0fb21263f46e1dbc5b7ba70f4c6b",
       "normalizedPassageChecksum": "aebef5ff91db4158e1ac1f99d7c3105d010c7a65042680c4e32404b77bb50785",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_594cf8589e351fe5022a36f3",
+      "predicate": "Member Of",
+      "subjectTitle": "Emil Aigl",
+      "objectTitle": "Khavila",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "writer"
+      },
+      "evidence": {
+        "passageId": "passage_257e2aa6ab0ff3a56128c30e",
+        "pageId": "page_nybc313875_0378",
+        "scanIndex": 378,
+        "leafNumber": 377,
+        "printedPage": null,
+        "passageCharStart": 138,
+        "passageCharEnd": 163,
+        "normalizedPassageCharStart": 138,
+        "normalizedPassageCharEnd": 163,
+        "pageCharStart": 3653,
+        "pageCharEnd": 3678,
+        "quote": "ג ם הו א\nמסופר י ה״חווילה",
+        "normalizedQuote": "ג ם הו א\nמסופר י ה״חווילה",
+        "modelQuote": "גםהוא מסופריה״חווילה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n377/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "eae8c8944376452e56ce74466b6f30f55a3e0fb21263f46e1dbc5b7ba70f4c6b",
+        "normalizedPassageChecksum": "aebef5ff91db4158e1ac1f99d7c3105d010c7a65042680c4e32404b77bb50785",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -135,6 +170,12 @@
       "type": "Person",
       "title": "Dr. Henryk Protovitz-Stiller",
       "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e3dba73058d87fa6d335ceac",
+      "type": "Publication",
+      "title": "Khavila",
+      "relation": "Member Of"
     },
     {
       "id": "mention_9e631b928bab9ace65ecbbbb",

@@ -5,7 +5,7 @@
   "summary": "Target of a failed partisan incursion and hiding place for Polish partisans.",
   "originalName": "פוליןהקונרסאית",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 121,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 880,
       "passageCharEnd": 914,
-      "normalizedPassageCharStart": 652,
-      "normalizedPassageCharEnd": 680,
+      "normalizedPassageCharStart": 880,
+      "normalizedPassageCharEnd": 914,
       "pageCharStart": 3310,
       "pageCharEnd": 3344,
       "quote": "פליש ה פרטיזני ת לפולי ן הקונרסאית",
-      "normalizedQuote": "פלישהפרטיזניתלפוליןהקונרסאית",
+      "normalizedQuote": "פליש ה פרטיזני ת לפולי ן הקונרסאית",
       "modelQuote": "פלישהפרטיזניתלפוליןהקונרסאית",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n120/mode/1up",
@@ -34,13 +34,13 @@
       "passageChecksum": "df1f0823cc5dcd5c01e77d8a19947ff801cfbcfc6798b35e9d625739142ff473",
       "normalizedPassageChecksum": "ab2684a36e4510733fb103b0b183c827dc3f97fa876d9baa84038aac6dea704a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_b74593f3653ba891c8e4ec0f",
+      "id": "claim_candidate_dfb091dd9240ec8049cf01f6",
       "predicate": "Led By",
       "subjectTitle": "Yosef Zalowski",
       "objectTitle": "Congress Poland",
@@ -59,12 +59,12 @@
         "printedPage": null,
         "passageCharStart": 829,
         "passageCharEnd": 932,
-        "normalizedPassageCharStart": 616,
-        "normalizedPassageCharEnd": 695,
+        "normalizedPassageCharStart": 829,
+        "normalizedPassageCharEnd": 932,
         "pageCharStart": 3259,
         "pageCharEnd": 3362,
         "quote": "יוז ף זאלובסק י ארג ן במר ס 1833 , ע ל דע ת עצמו ,\nפליש ה פרטיזני ת לפולי ן הקונרסאית , שנכשל ה\nלחלוטין",
-        "normalizedQuote": "יוזףזאלובסקיארגןבמרס1833,עלדעתעצמו, פלישהפרטיזניתלפוליןהקונרסאית,שנכשלה לחלוטין",
+        "normalizedQuote": "יוז ף זאלובסק י ארג ן במר ס 1833 , ע ל דע ת עצמו ,\nפליש ה פרטיזני ת לפולי ן הקונרסאית , שנכשל ה\nלחלוטין",
         "modelQuote": "יוזףזאלובסקיארגןבמרס1833,עלדעתעצמו, פלישהפרטיזניתלפוליןהקונרסאית,שנכשלה לחלוטין",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n120/mode/1up",
@@ -72,12 +72,46 @@
         "passageChecksum": "df1f0823cc5dcd5c01e77d8a19947ff801cfbcfc6798b35e9d625739142ff473",
         "normalizedPassageChecksum": "ab2684a36e4510733fb103b0b183c827dc3f97fa876d9baa84038aac6dea704a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_3a48289df48ddee28d19fd8c",
+      "type": "Incursion",
+      "title": "Failed partisan incursion into Congress Poland",
+      "summary": "Yosef Zalowski organized a failed partisan incursion into Congress Poland in March 1833.",
+      "dateStart": "1833-03",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "No allowed event type specifically represents an incursion; migration is only an approximate classification.",
+      "evidence": {
+        "passageId": "passage_643299db091b6cdf35c51775",
+        "pageId": "page_nybc313875_0121",
+        "scanIndex": 121,
+        "leafNumber": 120,
+        "printedPage": null,
+        "passageCharStart": 880,
+        "passageCharEnd": 932,
+        "normalizedPassageCharStart": 880,
+        "normalizedPassageCharEnd": 932,
+        "pageCharStart": 3310,
+        "pageCharEnd": 3362,
+        "quote": "פליש ה פרטיזני ת לפולי ן הקונרסאית , שנכשל ה\nלחלוטין",
+        "normalizedQuote": "פליש ה פרטיזני ת לפולי ן הקונרסאית , שנכשל ה\nלחלוטין",
+        "modelQuote": "פלישהפרטיזניתלפוליןהקונרסאית,שנכשלה לחלוטין",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n120/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "df1f0823cc5dcd5c01e77d8a19947ff801cfbcfc6798b35e9d625739142ff473",
+        "normalizedPassageChecksum": "ab2684a36e4510733fb103b0b183c827dc3f97fa876d9baa84038aac6dea704a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_2cb931af2f6a4a5aa179cb8d",
@@ -86,13 +120,19 @@
       "relation": "Led By"
     },
     {
+      "id": "event_candidate_3a48289df48ddee28d19fd8c",
+      "type": "Event",
+      "title": "Failed partisan incursion into Congress Poland",
+      "relation": "Occurred At"
+    },
+    {
       "id": "mention_2cb931af2f6a4a5aa179cb8d",
       "type": "Person",
       "title": "Yosef Zalowski",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2fa82db46fb1f228b5695c9e",
+      "id": "mention_14d65ca16fc8565199af0187",
       "type": "Place",
       "title": "Galicia",
       "relation": "Appears in same passage"
@@ -104,25 +144,19 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_92b0fd1a75040548b447143a",
-      "type": "Community",
-      "title": "Jews of Galicia",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_73a600c0ee81d21a11ec7ced",
       "type": "Community",
       "title": "Jews of Brody",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c08bb8deb6c292054cb87fcc",
+      "id": "mention_feb14564eae3e04dbb3762ae",
       "type": "Community",
       "title": "Jews of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

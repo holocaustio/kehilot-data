@@ -5,7 +5,7 @@
   "summary": "Head of the royal commission that arrived in Lviv in early 1758.",
   "originalName": "פליקסצאצקי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 72,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 311,
       "passageCharEnd": 323,
-      "normalizedPassageCharStart": 239,
-      "normalizedPassageCharEnd": 249,
+      "normalizedPassageCharStart": 311,
+      "normalizedPassageCharEnd": 323,
       "pageCharStart": 311,
       "pageCharEnd": 323,
       "quote": "פליק ס צאצקי",
-      "normalizedQuote": "פליקסצאצקי",
+      "normalizedQuote": "פליק ס צאצקי",
       "modelQuote": "פליקסצאצקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n71/mode/1up",
@@ -33,17 +33,17 @@
       "passageChecksum": "8049e8ae13cb3a3a10750d0f504f56d9f6845214f06d6caad737899e9168b315",
       "normalizedPassageChecksum": "e079a0ef18392da8d050a5941de147b6fe243b673e7e2cac3ab9202fc82f6cd0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_2c38d9a284fa67ba448325cd",
-      "type": "Arrival",
+      "id": "event_candidate_83ab582b2d539890f74d2e73",
+      "type": "Migration",
       "title": "Royal commission arrival in Lviv",
-      "summary": "A royal commission headed by Felix Czacki arrived in Lviv in early 1758.",
+      "summary": "A royal commission arrived in Lviv in early 1758.",
       "dateStart": "1758",
       "confidence": "HIGH",
       "uncertaintyNote": "The event concerns the commission, whose other members are unnamed.",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 219,
         "passageCharEnd": 259,
-        "normalizedPassageCharStart": 169,
-        "normalizedPassageCharEnd": 200,
+        "normalizedPassageCharStart": 219,
+        "normalizedPassageCharEnd": 259,
         "pageCharStart": 219,
         "pageCharEnd": 259,
         "quote": "בראשי ת 1758 הגיע ה לבוב ה ועד ה מלכותית",
-        "normalizedQuote": "בראשית1758הגיעהלבובהועדהמלכותית",
+        "normalizedQuote": "בראשי ת 1758 הגיע ה לבוב ה ועד ה מלכותית",
         "modelQuote": "בראשית1758הגיעהלבובהועדהמלכותית",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n71/mode/1up",
@@ -68,21 +68,21 @@
         "passageChecksum": "8049e8ae13cb3a3a10750d0f504f56d9f6845214f06d6caad737899e9168b315",
         "normalizedPassageChecksum": "e079a0ef18392da8d050a5941de147b6fe243b673e7e2cac3ab9202fc82f6cd0",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_2c38d9a284fa67ba448325cd",
+      "id": "event_candidate_83ab582b2d539890f74d2e73",
       "type": "Event",
       "title": "Royal commission arrival in Lviv",
       "relation": "Participated In",
       "role": "Subject"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

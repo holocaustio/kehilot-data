@@ -1,0 +1,59 @@
+{
+  "id": "event_candidate_a0269f96577e6025eda2be1e",
+  "type": "Event",
+  "title": "Karl Budweiser moved his printing press",
+  "summary": "Karl Budweiser transferred his press from Krakow to Lviv in 1872.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 275,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The text explicitly describes moving the press; person migration is not certain.",
+  "dateStart": "1872",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_97af143c736f80d541e178a1",
+      "pageId": "page_nybc313875_0275",
+      "scanIndex": 275,
+      "leafNumber": 274,
+      "printedPage": null,
+      "passageCharStart": 828,
+      "passageCharEnd": 887,
+      "normalizedPassageCharStart": 828,
+      "normalizedPassageCharEnd": 887,
+      "pageCharStart": 2047,
+      "pageCharEnd": 2106,
+      "quote": "בשנ ת תרל״ ב העבי ר קאר ל בודוייז ר\nא ת דפוס ו מקרק א ללבוב",
+      "normalizedQuote": "בשנ ת תרל״ ב העבי ר קאר ל בודוייז ר\nא ת דפוס ו מקרק א ללבוב",
+      "modelQuote": "בשנתתרל״בהעבירקארלבודוייזר אתדפוסומקרקאללבוב",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n274/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "a4b400b90e80caab84ed83a7634f7ad58ecf69987035eb84c4d77c2872d46216",
+      "normalizedPassageChecksum": "cb95256c5a4a16359f9501c5f98121e7c04ea77b0af5e6d02c6171d24db00688",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_8f5e1a5b49eb50057a4572c6",
+      "type": "Person",
+      "title": "Karl Budweiser",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

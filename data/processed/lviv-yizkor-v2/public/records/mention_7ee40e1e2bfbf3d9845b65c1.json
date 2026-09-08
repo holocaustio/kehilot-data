@@ -5,7 +5,7 @@
   "summary": "Author of Borders of Benjamin.",
   "originalName": "ר׳בנימין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 118,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 385,
       "passageCharEnd": 432,
-      "normalizedPassageCharStart": 286,
-      "normalizedPassageCharEnd": 321,
+      "normalizedPassageCharStart": 385,
+      "normalizedPassageCharEnd": 432,
       "pageCharStart": 1993,
       "pageCharEnd": 2040,
       "quote": "ני ן ונכ ד לר ׳ בנימין , מחב ר \"גבולו ת בנימין\"",
-      "normalizedQuote": "ניןונכדלר׳בנימין,מחבר\"גבולותבנימין\"",
+      "normalizedQuote": "ני ן ונכ ד לר ׳ בנימין , מחב ר \"גבולו ת בנימין\"",
       "modelQuote": "ניןונכדלר׳בנימין,מחבר\"גבולותבנימין\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n117/mode/1up",
@@ -32,11 +32,67 @@
       "passageChecksum": "04f7b139188e1e4390181c2f983eee5d08e42a3ea6a1c0b7b6ab1353c5077388",
       "normalizedPassageChecksum": "2c2b71f978864da46d0fc66c15b3d5ba19a98f710cb930cfedb22a051ce970f1",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_5f34a4dfa6abddd6d5514394",
+      "pageId": "page_nybc313875_0264",
+      "scanIndex": 264,
+      "leafNumber": 263,
+      "printedPage": null,
+      "passageCharStart": 562,
+      "passageCharEnd": 605,
+      "normalizedPassageCharStart": 562,
+      "normalizedPassageCharEnd": 605,
+      "pageCharStart": 2822,
+      "pageCharEnd": 2865,
+      "quote": "נכד־אחי ו ר ׳\nבנימין , שהי ה ר ב באולקסוניץ",
+      "normalizedQuote": "נכד־אחי ו ר ׳\nבנימין , שהי ה ר ב באולקסוניץ",
+      "modelQuote": "נכד־אחיור׳ בנימין,שהיהרבבאולקסוניץ",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n263/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "a1bb4b1b60218b4e220f5199ef88a1d755e24225c280487edcb08080d5120a9a",
+      "normalizedPassageChecksum": "d42ee84a45efb939e58600b4d369209f41bd4a3c6fb27d883b66906ceefcb06f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_a88e6f36bcc723a2ba077653",
+      "predicate": "Member Of Family",
+      "subjectTitle": "Rabbi Benjamin Rappaport",
+      "objectTitle": "Unresolved object",
+      "confidence": "MEDIUM",
+      "evidence": {
+        "passageId": "passage_5f34a4dfa6abddd6d5514394",
+        "pageId": "page_nybc313875_0264",
+        "scanIndex": 264,
+        "leafNumber": 263,
+        "printedPage": null,
+        "passageCharStart": 562,
+        "passageCharEnd": 582,
+        "normalizedPassageCharStart": 562,
+        "normalizedPassageCharEnd": 582,
+        "pageCharStart": 2822,
+        "pageCharEnd": 2842,
+        "quote": "נכד־אחי ו ר ׳\nבנימין",
+        "normalizedQuote": "נכד־אחי ו ר ׳\nבנימין",
+        "modelQuote": "נכד־אחיור׳ בנימין",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n263/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a1bb4b1b60218b4e220f5199ef88a1d755e24225c280487edcb08080d5120a9a",
+        "normalizedPassageChecksum": "d42ee84a45efb939e58600b4d369209f41bd4a3c6fb27d883b66906ceefcb06f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -70,7 +126,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7bea81e41dc62b87440a4ca2",
+      "id": "mention_fa7ac32c6ac3696604ce9c15",
       "type": "Place",
       "title": "Ukraine",
       "relation": "Appears in same passage"
@@ -109,6 +165,48 @@
       "id": "mention_e1a9193b323b629b561914ae",
       "type": "Place",
       "title": "Podolia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b026c95b08cf1e94976142ce",
+      "type": "Family",
+      "title": "Priestly Rappaport family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1aba49ce9376551e56ac4a23",
+      "type": "Person",
+      "title": "Rabbi Hayim Rappaport",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_53009180fc44f7fe1e6a1f89",
+      "type": "Person",
+      "title": "Dr. Jacob Rappaport",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0942da3b20c4f8ed465db3b0",
+      "type": "Person",
+      "title": "Rabbi Simhah Rappaport",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_29a0663cdfbaf03f50fba56b",
+      "type": "Place",
+      "title": "Janowska Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_52b911ca881bf31ff3d2c8db",
+      "type": "Person",
+      "title": "Rabbi Meir Rappaport",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_998a91de6c3406b791263c44",
+      "type": "Place",
+      "title": "Lviv",
       "relation": "Appears in same passage"
     }
   ],

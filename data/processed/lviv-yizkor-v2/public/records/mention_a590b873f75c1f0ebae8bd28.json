@@ -5,7 +5,7 @@
   "summary": "Rabbi from Brody whose student married Hadassah Shmelkes.",
   "originalName": "ר׳נתןלויןמברודי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 196,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 1361,
       "passageCharEnd": 1404,
-      "normalizedPassageCharStart": 994,
-      "normalizedPassageCharEnd": 1026,
+      "normalizedPassageCharStart": 1361,
+      "normalizedPassageCharEnd": 1404,
       "pageCharStart": 1594,
       "pageCharEnd": 1637,
       "quote": "לתלמיד ו ר ׳ נת ן לוי ן מברודי , הר ב\nברישא",
-      "normalizedQuote": "לתלמידור׳נתןלויןמברודי,הרב ברישא",
+      "normalizedQuote": "לתלמיד ו ר ׳ נת ן לוי ן מברודי , הר ב\nברישא",
       "modelQuote": "לתלמידור׳נתןלויןמברודי,הרב ברישא",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n195/mode/1up",
@@ -34,55 +34,13 @@
       "passageChecksum": "96539f83c2048942acc6dda7e97be7032775d0e8d484b4685b0d167d54783308",
       "normalizedPassageChecksum": "6e9004563d8984b4ab3ed2373606230384ef7f9c51242d3ea42c9f9d133b26d9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_ac3031ba1fb801eea50122e2",
-      "predicate": "Married To Student Of",
-      "subjectTitle": "Hadassah Shmelkes",
-      "objectTitle": "Rabbi Nathan Levin",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The husband is unnamed; this claim links her to Rabbi Nathan Levin’s student only as represented by the local key.",
-      "qualifiers": {
-        "spouseIdentity": "unnamed student"
-      },
-      "evidence": {
-        "passageId": "passage_69cd7c268c91c09c351e3d88",
-        "pageId": "page_nybc313875_0196",
-        "scanIndex": 196,
-        "leafNumber": 195,
-        "printedPage": null,
-        "passageCharStart": 1348,
-        "passageCharEnd": 1391,
-        "normalizedPassageCharStart": 985,
-        "normalizedPassageCharEnd": 1016,
-        "pageCharStart": 1581,
-        "pageCharEnd": 1624,
-        "quote": "הית ה נשוא ה לתלמיד ו ר ׳ נת ן לוי ן מברודי",
-        "normalizedQuote": "היתהנשואהלתלמידור׳נתןלויןמברודי",
-        "modelQuote": "היתהנשואהלתלמידור׳נתןלויןמברודי",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n195/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "96539f83c2048942acc6dda7e97be7032775d0e8d484b4685b0d167d54783308",
-        "normalizedPassageChecksum": "6e9004563d8984b4ab3ed2373606230384ef7f9c51242d3ea42c9f9d133b26d9",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_e4ee29780ae178f8ec27e941",
-      "type": "Person",
-      "title": "Hadassah Shmelkes",
-      "relation": "Married To Student Of"
-    },
     {
       "id": "mention_2963306e63ce3e7e1a2030d9",
       "type": "Person",
@@ -138,13 +96,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ff078c16fe314afc974e8200",
+      "id": "mention_ff93701c70e4d37c6fc363b1",
       "type": "Place",
       "title": "Brody",
       "relation": "Appears in same passage"

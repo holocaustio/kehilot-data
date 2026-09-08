@@ -5,7 +5,7 @@
   "summary": "Brought the institute proposal to the Silesian Diet in 1894.",
   "originalName": "ד״רברנרדגולדמן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 167,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 480,
       "passageCharEnd": 499,
-      "normalizedPassageCharStart": 353,
-      "normalizedPassageCharEnd": 367,
+      "normalizedPassageCharStart": 480,
+      "normalizedPassageCharEnd": 499,
       "pageCharStart": 480,
       "pageCharEnd": 499,
       "quote": "ד״ ר ברנר ד גולדמ ן",
-      "normalizedQuote": "ד״רברנרדגולדמן",
+      "normalizedQuote": "ד״ ר ברנר ד גולדמ ן",
       "modelQuote": "ד״רברנרדגולדמן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n166/mode/1up",
@@ -32,7 +32,7 @@
       "passageChecksum": "8b998b70cf212cb9170282631f98e4b712507e11b858a01aff4f720d889f656b",
       "normalizedPassageChecksum": "10c475105832113c8a89183d235510138a9539607c3223edbd26e0a4af466f8a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -43,12 +43,12 @@
       "printedPage": null,
       "passageCharStart": 152,
       "passageCharEnd": 178,
-      "normalizedPassageCharStart": 116,
-      "normalizedPassageCharEnd": 136,
+      "normalizedPassageCharStart": 152,
+      "normalizedPassageCharEnd": 178,
       "pageCharStart": 152,
       "pageCharEnd": 178,
       "quote": "ד״ ר ברנר ד גולדמ ן ודומיו",
-      "normalizedQuote": "ד״רברנרדגולדמןודומיו",
+      "normalizedQuote": "ד״ ר ברנר ד גולדמ ן ודומיו",
       "modelQuote": "ד״רברנרדגולדמןודומיו",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n269/mode/1up",
@@ -56,11 +56,43 @@
       "passageChecksum": "0c5354d0e3e1b59ebf5eeb45289ce5749620ba4155ec0906a9f4beecb8b86a5b",
       "normalizedPassageChecksum": "45e817b7317b09cf3facb0d267c41b024cb2557437deed9ea16d7edeadd3a4fd",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c6c1963e49448155186cea6e",
+      "predicate": "Distinct From",
+      "subjectTitle": "Bernard Goldman",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_538453385ba4756190b8c65c",
+        "pageId": "page_nybc313875_0270",
+        "scanIndex": 270,
+        "leafNumber": 269,
+        "printedPage": null,
+        "passageCharStart": 152,
+        "passageCharEnd": 178,
+        "normalizedPassageCharStart": 152,
+        "normalizedPassageCharEnd": 178,
+        "pageCharStart": 152,
+        "pageCharEnd": 178,
+        "quote": "ד״ ר ברנר ד גולדמ ן ודומיו",
+        "normalizedQuote": "ד״ ר ברנר ד גולדמ ן ודומיו",
+        "modelQuote": "ד״רברנרדגולדמןודומיו",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n269/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "0c5354d0e3e1b59ebf5eeb45289ce5749620ba4155ec0906a9f4beecb8b86a5b",
+        "normalizedPassageChecksum": "45e817b7317b09cf3facb0d267c41b024cb2557437deed9ea16d7edeadd3a4fd",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -85,12 +117,6 @@
       "id": "mention_5eac5161e14a31530ddf7894",
       "type": "Person",
       "title": "Dr. Spiger",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7e009251badaef4f7a1bbb33",
-      "type": "Person",
-      "title": "Dr. Meir Balaban",
       "relation": "Appears in same passage"
     },
     {

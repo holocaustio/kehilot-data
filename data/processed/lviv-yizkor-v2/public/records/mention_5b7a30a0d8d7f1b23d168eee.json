@@ -5,7 +5,7 @@
   "summary": "A special 1863 publication about taxation of the Lemberg Israelite community.",
   "originalName": "חוברתמיוחדתעלשאלתמסי־הקהלה(דיבעשטייע־ רונגס־פראגעדעראיזראעליטישעןקולטוס־געמיינדע איןלעמבערג,1863,31עמ׳)",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 147,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 911,
       "passageCharEnd": 946,
-      "normalizedPassageCharStart": 683,
-      "normalizedPassageCharEnd": 709,
+      "normalizedPassageCharStart": 911,
+      "normalizedPassageCharEnd": 946,
       "pageCharStart": 2370,
       "pageCharEnd": 2405,
       "quote": "חובר ת מיוחד ת ע ל שאל ת מסי־הקהל ה",
-      "normalizedQuote": "חוברתמיוחדתעלשאלתמסי־הקהלה",
+      "normalizedQuote": "חובר ת מיוחד ת ע ל שאל ת מסי־הקהל ה",
       "modelQuote": "חוברתמיוחדתעלשאלתמסי־הקהלה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n146/mode/1up",
@@ -33,19 +33,13 @@
       "passageChecksum": "6c877f52e6485ceb75a8057cbaadb7cba5c81176ceef6080914f5aff00fd55ae",
       "normalizedPassageChecksum": "590f248be077a1d7115db101edc83547a725635a10fc2c8044e1c8bca6738509",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_1dd0400f5e1ed5c3a5ddb63d",
-      "type": "Organization",
-      "title": "Association",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_7d3e6339dbc4a651b5732cf2",
       "type": "Place",
@@ -56,12 +50,6 @@
       "id": "mention_9d2027dd18db7f78f7f7ed8a",
       "type": "Person",
       "title": "Dr. Ian Frid",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_f4382e56dfa7da720219132b",
-      "type": "Person",
-      "title": "Dr. Henrik Gotlib",
       "relation": "Appears in same passage"
     },
     {
@@ -110,6 +98,12 @@
       "id": "mention_4972a31e44fd9df65ac85b6c",
       "type": "Person",
       "title": "Samuel Modelinger",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     }
   ],

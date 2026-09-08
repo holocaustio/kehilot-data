@@ -5,7 +5,7 @@
   "summary": "Artillery officer placed in command of Lviv and its suburbs.",
   "originalName": "פרדיננדוולף",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 56,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 721,
       "passageCharEnd": 734,
-      "normalizedPassageCharStart": 532,
-      "normalizedPassageCharEnd": 543,
+      "normalizedPassageCharStart": 721,
+      "normalizedPassageCharEnd": 734,
       "pageCharStart": 4124,
       "pageCharEnd": 4137,
       "quote": "פרדיננ ד וולף",
-      "normalizedQuote": "פרדיננדוולף",
+      "normalizedQuote": "פרדיננ ד וולף",
       "modelQuote": "פרדיננדוולף",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n55/mode/1up",
@@ -32,17 +32,17 @@
       "passageChecksum": "529c9246c3e6a3920243be127651c60399ff6e6f27d4f31f8bbc988e2f2573a0",
       "normalizedPassageChecksum": "39413edc644f557fbf6bf77f424cc09d626016f0371519f1ec04a886b6534884",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_50e22e9667d69cd603926744",
-      "type": "Civil Disturbance",
+      "id": "event_candidate_8e902bd4b440d246011e6666",
+      "type": "Civil Unrest",
       "title": "Disturbances in Lviv and suburbs",
-      "summary": "During disturbances in Lviv's suburbs, students threatened the Jewish quarter, while the city council and Potocki arranged defensive measures. June 8, 1664 is the date of Potocki's notice, not a demonstrated event range.",
+      "summary": "Disturbances in and around Lviv’s Jewish quarter prompted defensive measures and military assistance on June 8, 1664.",
       "dateStart": "1664-06-08",
       "dateEnd": "1664-06-12",
       "confidence": "MEDIUM",
@@ -55,12 +55,12 @@
         "printedPage": null,
         "passageCharStart": 583,
         "passageCharEnd": 610,
-        "normalizedPassageCharStart": 430,
-        "normalizedPassageCharEnd": 451,
+        "normalizedPassageCharStart": 583,
+        "normalizedPassageCharEnd": 610,
         "pageCharStart": 3986,
         "pageCharEnd": 4013,
         "quote": "בתחיל ת הפרעו ת בפרב ר העיר",
-        "normalizedQuote": "בתחילתהפרעותבפרברהעיר",
+        "normalizedQuote": "בתחיל ת הפרעו ת בפרב ר העיר",
         "modelQuote": "בתחילתהפרעותבפרברהעיר",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n55/mode/1up",
@@ -68,14 +68,14 @@
         "passageChecksum": "529c9246c3e6a3920243be127651c60399ff6e6f27d4f31f8bbc988e2f2573a0",
         "normalizedPassageChecksum": "39413edc644f557fbf6bf77f424cc09d626016f0371519f1ec04a886b6534884",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_50e22e9667d69cd603926744",
+      "id": "event_candidate_8e902bd4b440d246011e6666",
       "type": "Event",
       "title": "Disturbances in Lviv and suburbs",
       "relation": "Participated In",
@@ -88,21 +88,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_41e47ca0fdfccb919272f57f",
-      "type": "Person",
-      "title": "Trnawski",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_f886af63493a5e4252c1dbf1",
-      "type": "Community",
-      "title": "Jewish Quarter of Lviv",
       "relation": "Appears in same passage"
     },
     {

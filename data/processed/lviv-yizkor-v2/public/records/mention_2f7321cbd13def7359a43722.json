@@ -5,7 +5,7 @@
   "summary": "Rabbi who recognized Jacob Joshua Falk’s abilities and recommended him.",
   "originalName": "חכםצבי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 207,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 467,
       "passageCharEnd": 492,
-      "normalizedPassageCharStart": 336,
-      "normalizedPassageCharEnd": 354,
+      "normalizedPassageCharStart": 467,
+      "normalizedPassageCharEnd": 492,
       "pageCharStart": 2817,
       "pageCharEnd": 2842,
       "quote": "ב א ה״חכ ם צבי \" לפולני ה",
-      "normalizedQuote": "באה״חכםצבי\"לפולניה",
+      "normalizedQuote": "ב א ה״חכ ם צבי \" לפולני ה",
       "modelQuote": "באה״חכםצבי\"לפולניה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n206/mode/1up",
@@ -34,13 +34,54 @@
       "passageChecksum": "9551b91a169a46274fcc86c20c3bc33e75f45fc740149e30aff3712cdda95d9e",
       "normalizedPassageChecksum": "e9090b1804527e4bfc6d08d0ffd1f4d0e4ac07843458866dd108c0c26ece002a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_2dc9248e1ac8b0c36b707572",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Zvi Horowitz",
+      "objectTitle": "Jacob Joshua Falk",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "action": "recommended him for rabbinical leadership"
+      },
+      "evidence": {
+        "passageId": "passage_651438ac5ef491584129b789",
+        "pageId": "page_nybc313875_0207",
+        "scanIndex": 207,
+        "leafNumber": 206,
+        "printedPage": null,
+        "passageCharStart": 715,
+        "passageCharEnd": 730,
+        "normalizedPassageCharStart": 715,
+        "normalizedPassageCharEnd": 730,
+        "pageCharStart": 3065,
+        "pageCharEnd": 3080,
+        "quote": "המלי ץ ע ל רי״י",
+        "normalizedQuote": "המלי ץ ע ל רי״י",
+        "modelQuote": "המליץעלרי״י",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n206/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9551b91a169a46274fcc86c20c3bc33e75f45fc740149e30aff3712cdda95d9e",
+        "normalizedPassageChecksum": "e9090b1804527e4bfc6d08d0ffd1f4d0e4ac07843458866dd108c0c26ece002a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_c0e2e181149bf919b1e27b4c",
+      "type": "Person",
+      "title": "Jacob Joshua Falk",
+      "relation": "Mentioned In"
+    },
     {
       "id": "mention_67a9590bf83c57412b592606",
       "type": "Place",

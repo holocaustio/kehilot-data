@@ -5,7 +5,7 @@
   "summary": "Town where the Jewish school was located.",
   "originalName": "חודורוב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 184,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 95,
       "passageCharEnd": 122,
-      "normalizedPassageCharStart": 66,
-      "normalizedPassageCharEnd": 90,
+      "normalizedPassageCharStart": 95,
+      "normalizedPassageCharEnd": 122,
       "pageCharStart": 4038,
       "pageCharEnd": 4065,
       "quote": "לבית־הספ ר היהוד י\nבחודורוב",
-      "normalizedQuote": "לבית־הספרהיהודי בחודורוב",
+      "normalizedQuote": "לבית־הספ ר היהוד י\nבחודורוב",
       "modelQuote": "לבית־הספרהיהודי בחודורוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n183/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "ad4929384459aa21c301afa0766beaf87309148a384722472b24892e2147ff1e",
       "normalizedPassageChecksum": "bc62b5281a39725537c22b2497a6cb7eac736afa411f9b10a3e032e71d59df33",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 527,
       "passageCharEnd": 539,
-      "normalizedPassageCharStart": 372,
-      "normalizedPassageCharEnd": 382,
+      "normalizedPassageCharStart": 527,
+      "normalizedPassageCharEnd": 539,
       "pageCharStart": 527,
       "pageCharEnd": 539,
       "quote": "ר ב בחודורוב",
-      "normalizedQuote": "רבבחודורוב",
+      "normalizedQuote": "ר ב בחודורוב",
       "modelQuote": "רבבחודורוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n208/mode/1up",
@@ -57,14 +57,14 @@
       "passageChecksum": "207545b443052aa90c57310ff71d69848bc725518c2866de6e72b959d63f004f",
       "normalizedPassageChecksum": "4299b8a460c3951bd3691bb635beee6a0f4ba4ef13a7caaa030ba1d5fd49b9b8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_4f2f5e85c3bbf9d421a085bc",
+      "id": "event_candidate_ea8dda30553de8983f700ea8",
       "type": "Employment",
       "title": "Moshe Rozger invited as a teacher",
       "summary": "Moshe Rozger accepted a government invitation to teach at the Jewish school in Khodorov.",
@@ -78,12 +78,12 @@
         "printedPage": null,
         "passageCharStart": 6,
         "passageCharEnd": 122,
-        "normalizedPassageCharStart": 3,
-        "normalizedPassageCharEnd": 90,
+        "normalizedPassageCharStart": 6,
+        "normalizedPassageCharEnd": 122,
         "pageCharStart": 3949,
         "pageCharEnd": 4065,
         "quote": "בשנ ת 1819 הי ה מקר ה בעני ן המור ה מש ה רוזגצריי ג\nשקב ל א ת הזמנ ת הממשל ה בתו ר מור ה לבית־הספ ר היהוד י\nבחודורוב",
-        "normalizedQuote": "בשנת1819היהמקרהבעניןהמורהמשהרוזגצרייג שקבלאתהזמנתהממשלהבתורמורהלבית־הספרהיהודי בחודורוב",
+        "normalizedQuote": "בשנ ת 1819 הי ה מקר ה בעני ן המור ה מש ה רוזגצריי ג\nשקב ל א ת הזמנ ת הממשל ה בתו ר מור ה לבית־הספ ר היהוד י\nבחודורוב",
         "modelQuote": "בשנת1819היהמקרהבעניןהמורהמשהרוזגצרייג שקבלאתהזמנתהממשלהבתורמורהלבית־הספרהיהודי בחודורוב",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n183/mode/1up",
@@ -91,14 +91,14 @@
         "passageChecksum": "ad4929384459aa21c301afa0766beaf87309148a384722472b24892e2147ff1e",
         "normalizedPassageChecksum": "bc62b5281a39725537c22b2497a6cb7eac736afa411f9b10a3e032e71d59df33",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_4f2f5e85c3bbf9d421a085bc",
+      "id": "event_candidate_ea8dda30553de8983f700ea8",
       "type": "Event",
       "title": "Moshe Rozger invited as a teacher",
       "relation": "Occurred At"
@@ -112,25 +112,13 @@
     {
       "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8b8f935b15422947931c0c51",
-      "type": "Work",
-      "title": "Yeshuot Yaakov",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_cc8698a9fa26bc3323ded8d2",
       "type": "Place",
       "title": "Dobromil",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -143,6 +131,12 @@
       "id": "mention_d94e82761f4c766fd00bc786",
       "type": "Place",
       "title": "Zolkiew",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8b8f935b15422947931c0c51",
+      "type": "Work",
+      "title": "Yeshuot Yaakov",
       "relation": "Appears in same passage"
     }
   ],

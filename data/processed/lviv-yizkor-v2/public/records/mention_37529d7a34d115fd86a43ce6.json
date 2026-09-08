@@ -5,7 +5,7 @@
   "summary": "Physician certified in Padua in 1678 and associated with Lviv.",
   "originalName": "יעקב",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 63,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 1111,
       "passageCharEnd": 1162,
-      "normalizedPassageCharStart": 814,
-      "normalizedPassageCharEnd": 852,
+      "normalizedPassageCharStart": 1111,
+      "normalizedPassageCharEnd": 1162,
       "pageCharStart": 2061,
       "pageCharEnd": 2112,
       "quote": "אחי ו יעק ב הוסמ ך בפדוא ה כד״ ר לרפוא ה\nבשנ ת 1678",
-      "normalizedQuote": "אחיויעקבהוסמךבפדואהכד״רלרפואה בשנת1678",
+      "normalizedQuote": "אחי ו יעק ב הוסמ ך בפדוא ה כד״ ר לרפוא ה\nבשנ ת 1678",
       "modelQuote": "אחיויעקבהוסמךבפדואהכד״רלרפואה בשנת1678",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n62/mode/1up",
@@ -34,17 +34,17 @@
       "passageChecksum": "c3188d1b3d7c9bacab960dad7b7673fdbf89d1b35da9afa80ae93b6fa386ff69",
       "normalizedPassageChecksum": "0a853d3d430be52fff7ce857bd2fdd8fda538b973fa88b782ec90fbb81f6811e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_0a12b8a02dda4aa635d60e56",
-      "type": "Professional Certification",
+      "id": "event_candidate_f8af24ed508a3dd45fe75a7b",
+      "type": "Medical Certification",
       "title": "Jacob receives medical certification in Padua",
-      "summary": "Jacob was certified as a doctor in Padua in 1678.",
+      "summary": "Jacob was certified as a doctor of medicine in Padua in 1678.",
       "dateStart": "1678",
       "confidence": "MEDIUM",
       "uncertaintyNote": "The wording indicates certification, not necessarily school attendance.",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 1123,
         "passageCharEnd": 1162,
-        "normalizedPassageCharStart": 822,
-        "normalizedPassageCharEnd": 852,
+        "normalizedPassageCharStart": 1123,
+        "normalizedPassageCharEnd": 1162,
         "pageCharStart": 2073,
         "pageCharEnd": 2112,
         "quote": "הוסמ ך בפדוא ה כד״ ר לרפוא ה\nבשנ ת 1678",
-        "normalizedQuote": "הוסמךבפדואהכד״רלרפואה בשנת1678",
+        "normalizedQuote": "הוסמ ך בפדוא ה כד״ ר לרפוא ה\nבשנ ת 1678",
         "modelQuote": "הוסמךבפדואהכד״רלרפואה בשנת1678",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n62/mode/1up",
@@ -69,14 +69,14 @@
         "passageChecksum": "c3188d1b3d7c9bacab960dad7b7673fdbf89d1b35da9afa80ae93b6fa386ff69",
         "normalizedPassageChecksum": "0a853d3d430be52fff7ce857bd2fdd8fda538b973fa88b782ec90fbb81f6811e",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_0a12b8a02dda4aa635d60e56",
+      "id": "event_candidate_f8af24ed508a3dd45fe75a7b",
       "type": "Event",
       "title": "Jacob receives medical certification in Padua",
       "relation": "Participated In",
@@ -89,7 +89,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -113,7 +113,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
       "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"

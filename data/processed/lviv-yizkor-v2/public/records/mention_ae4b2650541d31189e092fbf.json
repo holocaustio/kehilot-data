@@ -5,7 +5,7 @@
   "summary": "Named as arbitrator from Lviv and rabbi of Rusyn lands.",
   "originalName": "ר׳יצחקסגללנדא",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 85,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1766,
       "passageCharEnd": 1785,
-      "normalizedPassageCharStart": 1210,
-      "normalizedPassageCharEnd": 1223,
+      "normalizedPassageCharStart": 1766,
+      "normalizedPassageCharEnd": 1785,
       "pageCharStart": 1766,
       "pageCharEnd": 1785,
       "quote": "ר ׳ יצח ק סג ל לנדא",
-      "normalizedQuote": "ר׳יצחקסגללנדא",
+      "normalizedQuote": "ר ׳ יצח ק סג ל לנדא",
       "modelQuote": "ר׳יצחקסגללנדא",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n84/mode/1up",
@@ -33,11 +33,46 @@
       "passageChecksum": "3550378ceec2a5e212447a34be76fd19248319244996c0f9b82a25e538dc5250",
       "normalizedPassageChecksum": "3e7861529b4cf7093b678a3c3d05d7d6711e54d3eb898ad2486eb5fafb51aef7",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_9d28cd449c670543beb2699e",
+      "predicate": "Member Of",
+      "subjectTitle": "R. Yitzchak Segal Landa",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "arbitrator_and_rabbi_of_rusyn_lands"
+      },
+      "evidence": {
+        "passageId": "passage_7183cc3e3d09bc77143326ac",
+        "pageId": "page_nybc313875_0085",
+        "scanIndex": 85,
+        "leafNumber": 84,
+        "printedPage": null,
+        "passageCharStart": 1807,
+        "passageCharEnd": 1838,
+        "normalizedPassageCharStart": 1807,
+        "normalizedPassageCharEnd": 1838,
+        "pageCharStart": 1807,
+        "pageCharEnd": 1838,
+        "quote": "מבור ר מלבוב , רב־הגלי ל רייסין",
+        "normalizedQuote": "מבור ר מלבוב , רב־הגלי ל רייסין",
+        "modelQuote": "מבוררמלבוב,רב־הגלילרייסין",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n84/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "3550378ceec2a5e212447a34be76fd19248319244996c0f9b82a25e538dc5250",
+        "normalizedPassageChecksum": "3e7861529b4cf7093b678a3c3d05d7d6711e54d3eb898ad2486eb5fafb51aef7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
@@ -101,15 +136,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
-      "type": "Community",
-      "title": "Lviv Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_070390ec0eea3acc850abb3a",
-      "type": "Work",
-      "title": "Pnei Yehoshua",
+      "id": "mention_f0bda04d9c42da4ffaa0ed08",
+      "type": "Document",
+      "title": "1781 letter from R. Mordechai Zaba Ornstein to R. Yehezkel Landa",
       "relation": "Appears in same passage"
     }
   ],

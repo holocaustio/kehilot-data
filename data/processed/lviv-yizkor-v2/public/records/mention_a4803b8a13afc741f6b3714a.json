@@ -5,7 +5,7 @@
   "summary": "Proofreader who worked at the press for many years.",
   "originalName": "יהודהליברייס",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 272,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 439,
       "passageCharEnd": 507,
-      "normalizedPassageCharStart": 309,
-      "normalizedPassageCharEnd": 356,
+      "normalizedPassageCharStart": 439,
+      "normalizedPassageCharEnd": 507,
       "pageCharStart": 439,
       "pageCharEnd": 507,
       "quote": "בתו ר מגי ה עב ד בדפו ס ז ה שני ם רבו ת התורנ י\nר ׳ יהוד ה לי ב רייס",
-      "normalizedQuote": "בתורמגיהעבדבדפוסזהשניםרבותהתורני ר׳יהודהליברייס",
+      "normalizedQuote": "בתו ר מגי ה עב ד בדפו ס ז ה שני ם רבו ת התורנ י\nר ׳ יהוד ה לי ב רייס",
       "modelQuote": "בתורמגיהעבדבדפוסזהשניםרבותהתורני ר׳יהודהליברייס",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n271/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "d541481c81e2b2fcfbde82316f83f27e9fa136f0297aaee26e8d8446a9f3b2db",
       "normalizedPassageChecksum": "44d673417b33a94a449bacc567b6bb97932f65011ef2ca9c8b9ac7fe9444f8ec",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_b7e0be346dd627bb47ee82ef",
+      "predicate": "Worked At",
+      "subjectTitle": "Judah Leib Reis",
+      "objectTitle": "Lviv Hebrew Printing Press",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7c7dac393bf1e666c26eee7a",
+        "pageId": "page_nybc313875_0272",
+        "scanIndex": 272,
+        "leafNumber": 271,
+        "printedPage": null,
+        "passageCharStart": 439,
+        "passageCharEnd": 478,
+        "normalizedPassageCharStart": 439,
+        "normalizedPassageCharEnd": 478,
+        "pageCharStart": 439,
+        "pageCharEnd": 478,
+        "quote": "בתו ר מגי ה עב ד בדפו ס ז ה שני ם רבו ת",
+        "normalizedQuote": "בתו ר מגי ה עב ד בדפו ס ז ה שני ם רבו ת",
+        "modelQuote": "בתורמגיהעבדבדפוסזהשניםרבות",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n271/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d541481c81e2b2fcfbde82316f83f27e9fa136f0297aaee26e8d8446a9f3b2db",
+        "normalizedPassageChecksum": "44d673417b33a94a449bacc567b6bb97932f65011ef2ca9c8b9ac7fe9444f8ec",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_a856b773436a39b5c31ba6f6",
+      "type": "Institution",
+      "title": "Lviv Hebrew Printing Press",
+      "relation": "Worked At"
+    },
     {
       "id": "mention_470c807d5e5e525210b5e686",
       "type": "Person",

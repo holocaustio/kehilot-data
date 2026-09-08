@@ -5,7 +5,7 @@
   "summary": "Rabbi in Lviv from 1669 to 1684 and later elected rabbi of Lublin.",
   "originalName": "ר׳צביהירשבןזכריהמנדלקלויזנר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 60,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 655,
       "passageCharEnd": 694,
-      "normalizedPassageCharStart": 471,
-      "normalizedPassageCharEnd": 498,
+      "normalizedPassageCharStart": 655,
+      "normalizedPassageCharEnd": 694,
       "pageCharStart": 655,
       "pageCharEnd": 694,
       "quote": "ר ׳ צב י היר ש ב ן זכרי ה מנד ל קלויזנר",
-      "normalizedQuote": "ר׳צביהירשבןזכריהמנדלקלויזנר",
+      "normalizedQuote": "ר ׳ צב י היר ש ב ן זכרי ה מנד ל קלויזנר",
       "modelQuote": "ר׳צביהירשבןזכריהמנדלקלויזנר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
@@ -33,13 +33,102 @@
       "passageChecksum": "0a62a21dd142e6f02ffa139cc8388646d415552dc670aaab642ea24f5e35eddb",
       "normalizedPassageChecksum": "d62723e4de7c935f592eb0d79d36669816564ef145c784dd0759ad195976d586",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_270eeda5f51c7f63a680817c",
+      "predicate": "Participated In",
+      "subjectTitle": "Zvi Hirsch son of Zachariah Mendel Klausner",
+      "objectTitle": "Council of Four Lands",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "dateText": "בשנת1684"
+      },
+      "evidence": {
+        "passageId": "passage_1ec97a24f09f34cf9887b133",
+        "pageId": "page_nybc313875_0060",
+        "scanIndex": 60,
+        "leafNumber": 59,
+        "printedPage": null,
+        "passageCharStart": 732,
+        "passageCharEnd": 763,
+        "normalizedPassageCharStart": 732,
+        "normalizedPassageCharEnd": 763,
+        "pageCharStart": 732,
+        "pageCharEnd": 763,
+        "quote": "השתת ף בפעילו ת\nבמוש ב וע ד ד״א",
+        "normalizedQuote": "השתת ף בפעילו ת\nבמוש ב וע ד ד״א",
+        "modelQuote": "השתתףבפעילות במושבועדד״א",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "0a62a21dd142e6f02ffa139cc8388646d415552dc670aaab642ea24f5e35eddb",
+        "normalizedPassageChecksum": "d62723e4de7c935f592eb0d79d36669816564ef145c784dd0759ad195976d586",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_73ae288e7f77f73d2cee42ad",
+      "type": "Employment",
+      "title": "Zvi Hirsch served as rabbi in Lviv",
+      "summary": "Zvi Hirsch served as rabbi in Lviv from 1669 to 1684.",
+      "dateStart": "1669",
+      "dateEnd": "1684",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1ec97a24f09f34cf9887b133",
+        "pageId": "page_nybc313875_0060",
+        "scanIndex": 60,
+        "leafNumber": 59,
+        "printedPage": null,
+        "passageCharStart": 697,
+        "passageCharEnd": 715,
+        "normalizedPassageCharStart": 697,
+        "normalizedPassageCharEnd": 715,
+        "pageCharStart": 697,
+        "pageCharEnd": 715,
+        "quote": "בשני ם 1669 — 1684",
+        "normalizedQuote": "בשני ם 1669 — 1684",
+        "modelQuote": "בשנים1669—1684",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n59/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "0a62a21dd142e6f02ffa139cc8388646d415552dc670aaab642ea24f5e35eddb",
+        "normalizedPassageChecksum": "d62723e4de7c935f592eb0d79d36669816564ef145c784dd0759ad195976d586",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "mention_76a993f1e94ea2adc95ef58c",
+      "type": "Organization",
+      "title": "Council of Four Lands",
+      "relation": "Participated In"
+    },
+    {
+      "id": "event_candidate_73ae288e7f77f73d2cee42ad",
+      "type": "Event",
+      "title": "Zvi Hirsch served as rabbi in Lviv",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "event_candidate_3fb8c6211986d3e6924e421b",
+      "type": "Event",
+      "title": "Election of Zvi Hirsch as rabbi of Lublin",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
     {
       "id": "mention_a161df591922074616a337fe",
       "type": "Person",

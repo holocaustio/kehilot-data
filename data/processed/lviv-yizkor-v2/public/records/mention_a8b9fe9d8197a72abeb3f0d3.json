@@ -5,7 +5,7 @@
   "summary": "Committee member listed among signatories of the first Lviv petition.",
   "originalName": "ליברוסמאן",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 122,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 971,
       "passageCharEnd": 983,
-      "normalizedPassageCharStart": 720,
-      "normalizedPassageCharEnd": 729,
+      "normalizedPassageCharStart": 971,
+      "normalizedPassageCharEnd": 983,
       "pageCharStart": 3876,
       "pageCharEnd": 3888,
       "quote": "לי ב רוסמא ן",
-      "normalizedQuote": "ליברוסמאן",
+      "normalizedQuote": "לי ב רוסמא ן",
       "modelQuote": "ליברוסמאן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n121/mode/1up",
@@ -33,14 +33,14 @@
       "passageChecksum": "74c1fca508d15b843efac31fb2c866569f7a6386ef2bd960b10d09549dcd78e6",
       "normalizedPassageChecksum": "b81d33c89283fbba115fb528f30b0a3d9470621921f9663479651d98e95578ca",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_8f44fbd5880a4e0ca3bcbbb5",
+      "id": "event_candidate_80bf1eeafa34f342fb97cdac",
       "type": "Migration",
       "title": "First petition sent by Lviv community",
       "summary": "Lviv community sent its first petition to the government on 22 August 1847.",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 739,
         "passageCharEnd": 800,
-        "normalizedPassageCharStart": 551,
-        "normalizedPassageCharEnd": 597,
+        "normalizedPassageCharStart": 739,
+        "normalizedPassageCharEnd": 800,
         "pageCharStart": 3644,
         "pageCharEnd": 3705,
         "quote": "הפטיצי ה הראשונ ה נשלח ה ע״ י קהל ת לבו ב ב־ 22\nבאוגוס ט 1847",
-        "normalizedQuote": "הפטיציההראשונהנשלחהע״יקהלתלבובב־22 באוגוסט1847",
+        "normalizedQuote": "הפטיצי ה הראשונ ה נשלח ה ע״ י קהל ת לבו ב ב־ 22\nבאוגוס ט 1847",
         "modelQuote": "הפטיציההראשונהנשלחהע״יקהלתלבובב־22 באוגוסט1847",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n121/mode/1up",
@@ -69,24 +69,18 @@
         "passageChecksum": "74c1fca508d15b843efac31fb2c866569f7a6386ef2bd960b10d09549dcd78e6",
         "normalizedPassageChecksum": "b81d33c89283fbba115fb528f30b0a3d9470621921f9663479651d98e95578ca",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_8f44fbd5880a4e0ca3bcbbb5",
+      "id": "event_candidate_80bf1eeafa34f342fb97cdac",
       "type": "Event",
       "title": "First petition sent by Lviv community",
       "relation": "Participated In",
       "role": "Author"
-    },
-    {
-      "id": "mention_2862398e8d96cc2e8b4ccf05",
-      "type": "Person",
-      "title": "Dr. Blumenfeld",
-      "relation": "Appears in same passage"
     },
     {
       "id": "mention_92ba8b0c379b6e90b1d7f73a",
@@ -101,7 +95,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ac58cc334bc3daaa66b6f9ef",
+      "id": "mention_82a8e34df5355fe953188f49",
       "type": "Person",
       "title": "Dr. Leo Kolisher",
       "relation": "Appears in same passage"
@@ -137,21 +131,27 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5bbcd928dd974b5bfa995f7d",
+      "id": "mention_f1fba61a3d3dfe496f9cdbc3",
       "type": "Community",
-      "title": "Brody Jewish community",
+      "title": "Stryy Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fb44419a44fa87410816b373",
+      "type": "Community",
+      "title": "Galician Jewry",
       "relation": "Appears in same passage"
     }
   ],

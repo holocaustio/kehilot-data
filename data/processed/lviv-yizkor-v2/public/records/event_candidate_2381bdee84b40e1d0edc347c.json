@@ -1,0 +1,58 @@
+{
+  "id": "event_candidate_2381bdee84b40e1d0edc347c",
+  "type": "Event",
+  "title": "Forced grave demolition at the public cemetery",
+  "summary": "Ukrainian police forced Jews to demolish graves at the public cemetery.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 318,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Employment",
+  "uncertaintyNote": "The text describes forced labor but does not identify the Jewish workers individually.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c34dbd334c7c08c955c5eedc",
+      "pageId": "page_nybc313875_0318",
+      "scanIndex": 318,
+      "leafNumber": 317,
+      "printedPage": null,
+      "passageCharStart": 989,
+      "passageCharEnd": 1039,
+      "normalizedPassageCharStart": 989,
+      "normalizedPassageCharEnd": 1039,
+      "pageCharStart": 989,
+      "pageCharEnd": 1039,
+      "quote": "שוטרי ם אוקראיני ם מעבידי ם יהודי ם בהריס ת קברי ם",
+      "normalizedQuote": "שוטרי ם אוקראיני ם מעבידי ם יהודי ם בהריס ת קברי ם",
+      "modelQuote": "שוטריםאוקראיניםמעבידיםיהודיםבהריסתקברים",
+      "bbox": null,
+      "scanUrl": "https://archive.org/details/nybc313875/page/n317/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "ab24b06785738a0a716de6edfa0c70f84d9beb57ee1f5be71c6a274cb84b9956",
+      "normalizedPassageChecksum": "a1c90f177be1cbf78d8dc92fb8ec30f1e399eb11b04ef415630afc6de8a6fb01",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b73ce5afec8fa98390efb255",
+      "type": "Place",
+      "title": "Public cemetery",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_cca5ec181cfa778572497fbc",
+      "type": "Organization",
+      "title": "Ukrainian police",
+      "relation": "Participant",
+      "role": "Employer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

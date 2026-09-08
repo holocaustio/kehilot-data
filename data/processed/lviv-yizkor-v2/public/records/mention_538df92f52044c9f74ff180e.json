@@ -5,7 +5,7 @@
   "summary": "Worked with Aharon Rubinovich during the Jesuit court case.",
   "originalName": "ר׳נחמןבןיצחק",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 51,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 878,
       "passageCharEnd": 901,
-      "normalizedPassageCharStart": 625,
-      "normalizedPassageCharEnd": 639,
+      "normalizedPassageCharStart": 878,
+      "normalizedPassageCharEnd": 901,
       "pageCharStart": 2022,
       "pageCharEnd": 2045,
       "quote": "ע ם ר ׳ נחמ ן ב ן יצח ק",
-      "normalizedQuote": "עםר׳נחמןבןיצחק",
+      "normalizedQuote": "ע ם ר ׳ נחמ ן ב ן יצח ק",
       "modelQuote": "עםר׳נחמןבןיצחק",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
@@ -33,13 +33,55 @@
       "passageChecksum": "c8f2ce76873e923f8731b985dbf6817f5f19df2886b2b21ee7a242d992ebcc11",
       "normalizedPassageChecksum": "be2ed7831f9eea7e352b1aa3dda52aafdce1c232b21302029c3f6dc8ac43852e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_f54fe52f2640a2fd57656ad7",
+      "type": "Travel",
+      "title": "Travel during the Jesuit court case",
+      "summary": "Nachman, Aharon, and Mendel traveled to Warsaw in February 1606 and Kraków in April 1606 while handling the Jesuit court matter.",
+      "dateStart": "1606-02",
+      "dateEnd": "1606-04",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event type is only an approximate fit because travel and negotiation are not controlled event types.",
+      "evidence": {
+        "passageId": "passage_789557ce695180f0b6e9870e",
+        "pageId": "page_nybc313875_0051",
+        "scanIndex": 51,
+        "leafNumber": 50,
+        "printedPage": null,
+        "passageCharStart": 936,
+        "passageCharEnd": 1015,
+        "normalizedPassageCharStart": 936,
+        "normalizedPassageCharEnd": 1015,
+        "pageCharStart": 2080,
+        "pageCharEnd": 2159,
+        "quote": "הו א נס ע בפברוא ר 1606 ע ם ר ׳\nנחמ ן והשתדל ן מנד ל לורש ה ובאפרי ל 1606 לקרקא",
+        "normalizedQuote": "הו א נס ע בפברוא ר 1606 ע ם ר ׳\nנחמ ן והשתדל ן מנד ל לורש ה ובאפרי ל 1606 לקרקא",
+        "modelQuote": "הואנסעבפברואר1606עםר׳ נחמןוהשתדלןמנדללורשהובאפריל1606לקרקא",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "c8f2ce76873e923f8731b985dbf6817f5f19df2886b2b21ee7a242d992ebcc11",
+        "normalizedPassageChecksum": "be2ed7831f9eea7e352b1aa3dda52aafdce1c232b21302029c3f6dc8ac43852e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_f54fe52f2640a2fd57656ad7",
+      "type": "Event",
+      "title": "Travel during the Jesuit court case",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_0664c6afa49654d1d2eed427",
       "type": "Person",
@@ -101,15 +143,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     }
   ],

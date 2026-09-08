@@ -5,7 +5,7 @@
   "summary": "A Lviv advocate traveled to Warsaw on behalf of the congregation.",
   "originalName": "ר׳חייםקורמיש",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 72,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 463,
       "passageCharEnd": 489,
-      "normalizedPassageCharStart": 344,
-      "normalizedPassageCharEnd": 363,
+      "normalizedPassageCharStart": 463,
+      "normalizedPassageCharEnd": 489,
       "pageCharStart": 1517,
       "pageCharEnd": 1543,
       "quote": "ר ׳ חיי ם קורמיש 3 ) מלבוב",
-      "normalizedQuote": "ר׳חייםקורמיש3)מלבוב",
+      "normalizedQuote": "ר ׳ חיי ם קורמיש 3 ) מלבוב",
       "modelQuote": "ר׳חייםקורמיש3)מלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n71/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "f54e0fb3a3ca4b127e0910b1050fcee47855e5eef9d61cbe760bf9b0f91422e1",
       "normalizedPassageChecksum": "18bdcd9d13af530bb3d8e9682f41e201c15089971901f1c066fc279bd160c6e4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_05b7ed2ce214f60984a21fc5",
+      "id": "claim_candidate_f3ebb51bd9cd44388e109383",
       "predicate": "Participated In",
       "subjectTitle": "Rabbi Hayyim Kormish",
       "objectTitle": "Warsaw",
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 442,
         "passageCharEnd": 454,
-        "normalizedPassageCharStart": 328,
-        "normalizedPassageCharEnd": 337,
+        "normalizedPassageCharStart": 442,
+        "normalizedPassageCharEnd": 454,
         "pageCharStart": 1496,
         "pageCharEnd": 1508,
         "quote": "נס ע לוארש ה",
-        "normalizedQuote": "נסעלוארשה",
+        "normalizedQuote": "נס ע לוארש ה",
         "modelQuote": "נסעלוארשה",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n71/mode/1up",
@@ -66,7 +66,7 @@
         "passageChecksum": "f54e0fb3a3ca4b127e0910b1050fcee47855e5eef9d61cbe760bf9b0f91422e1",
         "normalizedPassageChecksum": "18bdcd9d13af530bb3d8e9682f41e201c15089971901f1c066fc279bd160c6e4",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -74,15 +74,21 @@
   "events": [],
   "connections": [
     {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "From"
+    },
+    {
       "id": "mention_a6aa6e9d023950ad2f7d220e",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Participated In"
     },
     {
-      "id": "mention_e4de77a160993215d46a14bf",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Jewish congregation",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {

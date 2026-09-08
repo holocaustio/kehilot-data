@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 288,
       "passageCharEnd": 320,
-      "normalizedPassageCharStart": 207,
-      "normalizedPassageCharEnd": 231,
+      "normalizedPassageCharStart": 288,
+      "normalizedPassageCharEnd": 320,
       "pageCharStart": 3046,
       "pageCharEnd": 3078,
       "quote": "ובשע ה שהחרימ ו\nא ת שי״ ר בלבו ב",
-      "normalizedQuote": "ובשעהשהחרימו אתשי״רבלבוב",
+      "normalizedQuote": "ובשע ה שהחרימ ו\nא ת שי״ ר בלבו ב",
       "modelQuote": "ובשעה שהחרימו את שי״ר בלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n243/mode/1up",
@@ -37,11 +37,49 @@
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_f4dc2bb6ec1dd73e80f1534d",
+      "predicate": "Participated In",
+      "subjectTitle": "Shi''r",
+      "objectTitle": "Ban against Shi''r in Lviv",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_d0f2ba8d7fe55cd44d89cb83",
+        "pageId": "page_nybc313875_0244",
+        "scanIndex": 244,
+        "leafNumber": 243,
+        "printedPage": null,
+        "passageCharStart": 296,
+        "passageCharEnd": 320,
+        "normalizedPassageCharStart": 296,
+        "normalizedPassageCharEnd": 320,
+        "pageCharStart": 3054,
+        "pageCharEnd": 3078,
+        "quote": "החרימ ו\nא ת שי״ ר בלבו ב",
+        "normalizedQuote": "החרימ ו\nא ת שי״ ר בלבו ב",
+        "modelQuote": "החרימו את שי״ר בלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n243/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "839df1b6f8759c46498296c992dc90ffea3b65a65b637e98a2ae9b50e4869817",
+        "normalizedPassageChecksum": "4155b3ce8d75548cc836ea9013f9351e72d41022784942ab20cd3c1b0d4e0ca9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_d6af6ef631fa526251c4176a",
+      "id": "mention_960f720f73b18e1032696f4c",
+      "type": "Person",
+      "title": "Shi''r",
+      "relation": "Participated In"
+    },
+    {
+      "id": "mention_42937a5371bc74a74603f8de",
       "type": "Place",
       "title": "Ternopil",
       "relation": "Appears in same passage"

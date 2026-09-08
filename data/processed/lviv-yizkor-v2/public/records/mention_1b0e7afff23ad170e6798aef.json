@@ -5,7 +5,7 @@
   "summary": "Jewish merchant in Lviv who signed a petition concerning Jewish dress.",
   "originalName": "ברמודלינגר",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 108,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 318,
       "passageCharEnd": 331,
-      "normalizedPassageCharStart": 240,
-      "normalizedPassageCharEnd": 250,
+      "normalizedPassageCharStart": 318,
+      "normalizedPassageCharEnd": 331,
       "pageCharStart": 2816,
       "pageCharEnd": 2829,
       "quote": "ב ר מודלינג ר",
-      "normalizedQuote": "ברמודלינגר",
+      "normalizedQuote": "ב ר מודלינג ר",
       "modelQuote": "ברמודלינגר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n107/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "cd567c79652f4c295dd941ad0c068fb5450c089a403f17b6da00f50def17201c",
       "normalizedPassageChecksum": "c57ebb6aa17058289bfa52d673cfa1b95655d2da39aa988ddf206903c03c1bfb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_1d0b77e915af7d483e006774",
+      "id": "claim_candidate_a524025d7dbc067223bc1b9b",
       "predicate": "Member Of",
       "subjectTitle": "Ber Modlinger",
       "objectTitle": "Lviv Jewish community",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 318,
         "passageCharEnd": 331,
-        "normalizedPassageCharStart": 240,
-        "normalizedPassageCharEnd": 250,
+        "normalizedPassageCharStart": 318,
+        "normalizedPassageCharEnd": 331,
         "pageCharStart": 2816,
         "pageCharEnd": 2829,
         "quote": "ב ר מודלינג ר",
-        "normalizedQuote": "ברמודלינגר",
+        "normalizedQuote": "ב ר מודלינג ר",
         "modelQuote": "ברמודלינגר",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n107/mode/1up",
@@ -65,7 +65,7 @@
         "passageChecksum": "cd567c79652f4c295dd941ad0c068fb5450c089a403f17b6da00f50def17201c",
         "normalizedPassageChecksum": "c57ebb6aa17058289bfa52d673cfa1b95655d2da39aa988ddf206903c03c1bfb",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -73,10 +73,17 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_b3724975d6fc1539b519d029",
+      "type": "Event",
+      "title": "Petition against proposed changes to Jewish dress",
+      "relation": "Participated In",
+      "role": "Participant"
     },
     {
       "id": "mention_b72d0a668e44ad58ae0ee2eb",
@@ -97,9 +104,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4aea7e28d688490f426dbba7",
+      "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv Jewish community",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     }
   ],

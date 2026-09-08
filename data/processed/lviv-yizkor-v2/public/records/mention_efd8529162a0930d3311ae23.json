@@ -5,7 +5,7 @@
   "summary": "A police commander who donated his entire fortune to the orphanage.",
   "originalName": "הרשציפר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 119,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1030,
       "passageCharEnd": 1040,
-      "normalizedPassageCharStart": 773,
-      "normalizedPassageCharEnd": 780,
+      "normalizedPassageCharStart": 1030,
+      "normalizedPassageCharEnd": 1040,
       "pageCharStart": 2229,
       "pageCharEnd": 2239,
       "quote": "הר ש ציפ ר",
-      "normalizedQuote": "הרשציפר",
+      "normalizedQuote": "הר ש ציפ ר",
       "modelQuote": "הרשציפר",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n118/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "72a43645609ecff96528a79b813a653c2461accb714296376a138ca42aa523b7",
       "normalizedPassageChecksum": "ac97b6e0e38f1681b6c2a59fb07c8838f1f287c7448d706975537c7ee8296c10",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_c5329d67abfe84f6c6c74e69",
+      "id": "claim_candidate_ea654a114d6f11314be03a81",
       "predicate": "Donated To",
       "subjectTitle": "Hershtsiper",
       "objectTitle": "Orphanage",
@@ -53,12 +53,12 @@
         "printedPage": null,
         "passageCharStart": 1059,
         "passageCharEnd": 1088,
-        "normalizedPassageCharStart": 793,
-        "normalizedPassageCharEnd": 811,
+        "normalizedPassageCharStart": 1059,
+        "normalizedPassageCharEnd": 1088,
         "pageCharStart": 2258,
         "pageCharEnd": 2287,
         "quote": "שתר ם למע ל ז ה א ת כ ל הונ ו",
-        "normalizedQuote": "שתרםלמעלזהאתכלהונו",
+        "normalizedQuote": "שתר ם למע ל ז ה א ת כ ל הונ ו",
         "modelQuote": "שתרםלמעלזהאתכלהונו",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n118/mode/1up",
@@ -66,18 +66,58 @@
         "passageChecksum": "72a43645609ecff96528a79b813a653c2461accb714296376a138ca42aa523b7",
         "normalizedPassageChecksum": "ac97b6e0e38f1681b6c2a59fb07c8838f1f287c7448d706975537c7ee8296c10",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_95ff1d20f545ffc1a3641a66",
+      "type": "Business Opening",
+      "title": "Orphanage opening",
+      "summary": "The orphanage opened on 30 May 1842 with assistance from a police commander.",
+      "dateStart": "1842-05-30",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_31d187cc1c3ff70ce7b3259b",
+        "pageId": "page_nybc313875_0119",
+        "scanIndex": 119,
+        "leafNumber": 118,
+        "printedPage": null,
+        "passageCharStart": 945,
+        "passageCharEnd": 980,
+        "normalizedPassageCharStart": 945,
+        "normalizedPassageCharEnd": 980,
+        "pageCharStart": 2144,
+        "pageCharEnd": 2179,
+        "quote": "בית״היתומי ם נפת ח ב״ 30 במא י 1842",
+        "normalizedQuote": "בית״היתומי ם נפת ח ב״ 30 במא י 1842",
+        "modelQuote": "בית״היתומיםנפתחב״30במאי1842",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n118/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "72a43645609ecff96528a79b813a653c2461accb714296376a138ca42aa523b7",
+        "normalizedPassageChecksum": "ac97b6e0e38f1681b6c2a59fb07c8838f1f287c7448d706975537c7ee8296c10",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_270698422cb5ff3ad31afd24",
       "type": "Institution",
       "title": "Orphanage",
       "relation": "Donated To"
+    },
+    {
+      "id": "event_candidate_95ff1d20f545ffc1a3641a66",
+      "type": "Event",
+      "title": "Orphanage opening",
+      "relation": "Participated In",
+      "role": "Organizer"
     },
     {
       "id": "mention_fb969bc1cbf544035c576ad6",

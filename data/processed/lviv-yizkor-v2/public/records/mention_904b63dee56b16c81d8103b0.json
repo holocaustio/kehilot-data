@@ -5,7 +5,7 @@
   "summary": "The king who recommended compromise with the Jews in 1627.",
   "originalName": "המלךזיגמונט111",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 40,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 605,
       "passageCharEnd": 623,
-      "normalizedPassageCharStart": 443,
-      "normalizedPassageCharEnd": 457,
+      "normalizedPassageCharStart": 605,
+      "normalizedPassageCharEnd": 623,
       "pageCharStart": 605,
       "pageCharEnd": 623,
       "quote": "המל ך זיגמונ ט 111",
-      "normalizedQuote": "המלךזיגמונט111",
+      "normalizedQuote": "המל ך זיגמונ ט 111",
       "modelQuote": "המלךזיגמונט111",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n39/mode/1up",
@@ -34,16 +34,16 @@
       "passageChecksum": "721adcf87b1855e4fa69a55be126ebf1f07f0b6c50e10c9f2b71087077104535",
       "normalizedPassageChecksum": "310c177e5bbe969ecd3573b4685b11081fa568cc83a08c1ae98c04d6fd958d60",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_2d9a8da5d89529aae7282f59",
+      "id": "claim_candidate_0b47440aa993142ce169aefd",
       "predicate": "Mentioned In",
       "subjectTitle": "Sigismund III Vasa",
-      "objectTitle": "Jewish community of Lviv",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "qualifiers": {
         "context": "recommended compromise with Jews"
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 605,
         "passageCharEnd": 689,
-        "normalizedPassageCharStart": 443,
-        "normalizedPassageCharEnd": 505,
+        "normalizedPassageCharStart": 605,
+        "normalizedPassageCharEnd": 689,
         "pageCharStart": 605,
         "pageCharEnd": 689,
         "quote": "המל ך זיגמונ ט 111 ב־ 4 בדצמב ר\n\n1627 א ל העירי ה בהמלצה , לכרו ת פשר ה ע ם היהודי ם",
-        "normalizedQuote": "המלךזיגמונט111ב־4בדצמבר\n\n1627אלהעיריהבהמלצה,לכרותפשרהעםהיהודים",
+        "normalizedQuote": "המל ך זיגמונ ט 111 ב־ 4 בדצמב ר\n\n1627 א ל העירי ה בהמלצה , לכרו ת פשר ה ע ם היהודי ם",
         "modelQuote": "המלךזיגמונט111ב־4בדצמבר1627אלהעיריהבהמלצה,לכרותפשרהעםהיהודים",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n39/mode/1up",
@@ -76,7 +76,7 @@
   ],
   "events": [
     {
-      "id": "event_candidate_1beb11638a1135e9f9b2dd9e",
+      "id": "event_candidate_ec9e731097cd1e438c6d39ff",
       "type": "Migration",
       "title": "Royal recommendation for compromise with Lviv Jews",
       "summary": "Sigismund III recommended that Lviv authorities compromise with the Jews.",
@@ -91,12 +91,12 @@
         "printedPage": null,
         "passageCharStart": 624,
         "passageCharEnd": 689,
-        "normalizedPassageCharStart": 457,
-        "normalizedPassageCharEnd": 505,
+        "normalizedPassageCharStart": 624,
+        "normalizedPassageCharEnd": 689,
         "pageCharStart": 624,
         "pageCharEnd": 689,
         "quote": "ב־ 4 בדצמב ר\n\n1627 א ל העירי ה בהמלצה , לכרו ת פשר ה ע ם היהודי ם",
-        "normalizedQuote": "ב־4בדצמבר\n\n1627אלהעיריהבהמלצה,לכרותפשרהעםהיהודים",
+        "normalizedQuote": "ב־ 4 בדצמב ר\n\n1627 א ל העירי ה בהמלצה , לכרו ת פשר ה ע ם היהודי ם",
         "modelQuote": "ב־4בדצמבר1627אלהעיריהבהמלצה,לכרותפשרהעםהיהודים",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n39/mode/1up",
@@ -111,26 +111,14 @@
   ],
   "connections": [
     {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
-      "relation": "Mentioned In"
-    },
-    {
-      "id": "event_candidate_1beb11638a1135e9f9b2dd9e",
+      "id": "event_candidate_ec9e731097cd1e438c6d39ff",
       "type": "Event",
       "title": "Royal recommendation for compromise with Lviv Jews",
       "relation": "Participated In",
       "role": "Organizer"
     },
     {
-      "id": "mention_17f754f3f20824510698c4b3",
-      "type": "Community",
-      "title": "Jewish community of Lviv",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"

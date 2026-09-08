@@ -5,7 +5,7 @@
   "summary": "Head of the Jewish Council, murdered during the German operation.",
   "originalName": "ד״ראברזון",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 338,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1371,
       "passageCharEnd": 1405,
-      "normalizedPassageCharStart": 1021,
-      "normalizedPassageCharEnd": 1046,
+      "normalizedPassageCharStart": 1371,
+      "normalizedPassageCharEnd": 1405,
       "pageCharStart": 1432,
       "pageCharEnd": 1466,
       "quote": "רא ש המועצ ה היהודי ת ד״ ר אברזו ן",
-      "normalizedQuote": "ראשהמועצההיהודיתד״ראברזון",
+      "normalizedQuote": "רא ש המועצ ה היהודי ת ד״ ר אברזו ן",
       "modelQuote": "ראשהמועצההיהודיתד״ראברזון",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n337/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "a585fa070bf71af0be0fdfe83da33979a0f339fe71190455079ab41d2834e901",
       "normalizedPassageChecksum": "aaf3045843dc9e0d13c19f3ac8387f74c488c5d5208bb66f569b2d14ea184cdf",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -77,12 +77,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0ef1210d6ccbbfc82be865a2",
-      "type": "Place",
-      "title": "The ghetto",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_2b3c5d678a34d7f00d5471b3",
       "type": "Place",
       "title": "Belzec",
@@ -110,6 +104,12 @@
       "id": "mention_76a9da7596d1ce025695ea2b",
       "type": "Institution",
       "title": "Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d64d7195f556a96d2515edad",
+      "type": "Organization",
+      "title": "Wehrmacht",
       "relation": "Appears in same passage"
     }
   ],

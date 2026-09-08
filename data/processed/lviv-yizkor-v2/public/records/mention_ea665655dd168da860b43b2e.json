@@ -5,7 +5,7 @@
   "summary": "Shekna’s wife, who worked with him in business.",
   "originalName": "דינה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 16,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 664,
       "passageCharEnd": 693,
-      "normalizedPassageCharStart": 482,
-      "normalizedPassageCharEnd": 503,
+      "normalizedPassageCharStart": 664,
+      "normalizedPassageCharEnd": 693,
       "pageCharStart": 3273,
       "pageCharEnd": 3302,
       "quote": "את ו יח ד עובדי ם אשת ו\nדינ ה",
-      "normalizedQuote": "אתויחדעובדיםאשתו דינה",
+      "normalizedQuote": "את ו יח ד עובדי ם אשת ו\nדינ ה",
       "modelQuote": "אתויחדעובדיםאשתו דינה",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n15/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "9df6ebdb1b0d6e24bd9fa84e96ebd9507060ee12f4ae8f11eb9c7286fef6621e",
       "normalizedPassageChecksum": "b0414a3f4989d6acc9f607972ff4e21a44709b3d33c4acb5c5c502310f87604f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_1cba1f252f4ef802fa3f1580",
+      "predicate": "Spouse Of",
+      "subjectTitle": "Dina",
+      "objectTitle": "Shekna son of Joseph",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cf04b207eff1117908d058cf",
+        "pageId": "page_nybc313875_0016",
+        "scanIndex": 16,
+        "leafNumber": 15,
+        "printedPage": null,
+        "passageCharStart": 682,
+        "passageCharEnd": 693,
+        "normalizedPassageCharStart": 682,
+        "normalizedPassageCharEnd": 693,
+        "pageCharStart": 3291,
+        "pageCharEnd": 3302,
+        "quote": "אשת ו\nדינ ה",
+        "normalizedQuote": "אשת ו\nדינ ה",
+        "modelQuote": "אשתו דינה",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n15/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "9df6ebdb1b0d6e24bd9fa84e96ebd9507060ee12f4ae8f11eb9c7286fef6621e",
+        "normalizedPassageChecksum": "b0414a3f4989d6acc9f607972ff4e21a44709b3d33c4acb5c5c502310f87604f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_c198da31b5dcca5761b959c3",
+      "type": "Person",
+      "title": "Shekna son of Joseph",
+      "relation": "Spouse Of"
+    },
     {
       "id": "mention_ccbe6ba402738f6bdd113f57",
       "type": "Person",

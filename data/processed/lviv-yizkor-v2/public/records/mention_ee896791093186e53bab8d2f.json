@@ -5,7 +5,7 @@
   "summary": "Former rabbi in Kulikov and later preacher and decisor in Lviv.",
   "originalName": "ר׳יעקבמקילוקוב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 206,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 304,
       "passageCharEnd": 386,
-      "normalizedPassageCharStart": 215,
-      "normalizedPassageCharEnd": 281,
+      "normalizedPassageCharStart": 304,
+      "normalizedPassageCharEnd": 386,
       "pageCharStart": 3729,
       "pageCharEnd": 3811,
       "quote": "ר ׳ יעק ב מקילוקוב , מקוד ם\nר ב בקוליקוב , ואחרי־כ ן מורה־צד ק ומגיד־מישרי ם\nבלבוב",
-      "normalizedQuote": "ר׳יעקבמקילוקוב,מקודם רבבקוליקוב,ואחרי־כןמורה־צדקומגיד־מישרים בלבוב",
+      "normalizedQuote": "ר ׳ יעק ב מקילוקוב , מקוד ם\nר ב בקוליקוב , ואחרי־כ ן מורה־צד ק ומגיד־מישרי ם\nבלבוב",
       "modelQuote": "ר׳יעקבמקילוקוב,מקודם רבבקוליקוב,ואחרי־כןמורה־צדקומגיד־מישרים בלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n205/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "02127adc67836edd3eb11b6cf3e0e5cf8e247b633feac1c4734aa153262e058c",
       "normalizedPassageChecksum": "96fbc916bf251074eeac0a4243c68092b34499cc6c48aa4745ea178b5488ebd2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_87ca03113ba8416db47ad2f6",
+      "id": "claim_candidate_1573963cda48496331b2ac9a",
       "predicate": "Worked At",
       "subjectTitle": "Jacob of Kulikov",
       "objectTitle": "Kulikov",
@@ -56,12 +56,12 @@
         "printedPage": null,
         "passageCharStart": 325,
         "passageCharEnd": 344,
-        "normalizedPassageCharStart": 230,
-        "normalizedPassageCharEnd": 246,
+        "normalizedPassageCharStart": 325,
+        "normalizedPassageCharEnd": 344,
         "pageCharStart": 3750,
         "pageCharEnd": 3769,
         "quote": "מקוד ם\nר ב בקוליקוב",
-        "normalizedQuote": "מקודם רבבקוליקוב",
+        "normalizedQuote": "מקוד ם\nר ב בקוליקוב",
         "modelQuote": "מקודם רבבקוליקוב",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n205/mode/1up",
@@ -69,7 +69,42 @@
         "passageChecksum": "02127adc67836edd3eb11b6cf3e0e5cf8e247b633feac1c4734aa153262e058c",
         "normalizedPassageChecksum": "96fbc916bf251074eeac0a4243c68092b34499cc6c48aa4745ea178b5488ebd2",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_e0f09012c375ce11d4a632f9",
+      "predicate": "Worked At",
+      "subjectTitle": "Jacob of Kulikov",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "preacher and decisor",
+        "later_service": true
+      },
+      "evidence": {
+        "passageId": "passage_481a22a5f70bbfb9c6231a87",
+        "pageId": "page_nybc313875_0206",
+        "scanIndex": 206,
+        "leafNumber": 205,
+        "printedPage": null,
+        "passageCharStart": 347,
+        "passageCharEnd": 386,
+        "normalizedPassageCharStart": 347,
+        "normalizedPassageCharEnd": 386,
+        "pageCharStart": 3772,
+        "pageCharEnd": 3811,
+        "quote": "ואחרי־כ ן מורה־צד ק ומגיד־מישרי ם\nבלבוב",
+        "normalizedQuote": "ואחרי־כ ן מורה־צד ק ומגיד־מישרי ם\nבלבוב",
+        "modelQuote": "ואחרי־כןמורה־צדקומגיד־מישרים בלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n205/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "02127adc67836edd3eb11b6cf3e0e5cf8e247b633feac1c4734aa153262e058c",
+        "normalizedPassageChecksum": "96fbc916bf251074eeac0a4243c68092b34499cc6c48aa4745ea178b5488ebd2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -80,6 +115,12 @@
       "id": "mention_759531d1bc4cb03f20dfd615",
       "type": "Place",
       "title": "Kulikov",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "type": "Place",
+      "title": "Lviv",
       "relation": "Worked At"
     },
     {
@@ -95,7 +136,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ecc47dd0a7fa6234af8491de",
+      "id": "mention_c7197ef475fe6845339b2300",
       "type": "Place",
       "title": "Kolomyia",
       "relation": "Appears in same passage"

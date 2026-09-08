@@ -5,7 +5,7 @@
   "summary": "Manager of the housing office who retained the original receipt.",
   "originalName": "ד״ריפה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 332,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1732,
       "passageCharEnd": 1765,
-      "normalizedPassageCharStart": 1264,
-      "normalizedPassageCharEnd": 1290,
+      "normalizedPassageCharStart": 1732,
+      "normalizedPassageCharEnd": 1765,
       "pageCharStart": 3938,
       "pageCharEnd": 3971,
       "quote": "ע״ י ד״ ר יפה ,\nמנה ל משרד־השיכון",
-      "normalizedQuote": "ע״יד״ריפה, מנהלמשרד־השיכון",
+      "normalizedQuote": "ע״ י ד״ ר יפה ,\nמנה ל משרד־השיכון",
       "modelQuote": "ע״יד״ריפה, מנהלמשרד־השיכון",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n331/mode/1up",
@@ -33,16 +33,16 @@
       "passageChecksum": "257db184a07f79bfa85f2091e72835a75f84f1fd0c1d79eab99f7759dd3b2ab4",
       "normalizedPassageChecksum": "2fc23ffc4c6fad7014989ec760ad267edd6a18873d8a72eecd58fb4d391097eb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_8b054f877398d95346575dbc",
+      "id": "claim_candidate_a923917dfa932ab46aaf1ec5",
       "predicate": "Worked At",
       "subjectTitle": "Dr. Yafeh",
-      "objectTitle": "Housing Office",
+      "objectTitle": "Unresolved object",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_247bf5a6fb034df69c439d3b",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 1748,
         "passageCharEnd": 1765,
-        "normalizedPassageCharStart": 1275,
-        "normalizedPassageCharEnd": 1290,
+        "normalizedPassageCharStart": 1748,
+        "normalizedPassageCharEnd": 1765,
         "pageCharStart": 3954,
         "pageCharEnd": 3971,
         "quote": "מנה ל משרד־השיכון",
-        "normalizedQuote": "מנהלמשרד־השיכון",
+        "normalizedQuote": "מנה ל משרד־השיכון",
         "modelQuote": "מנהלמשרד־השיכון",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n331/mode/1up",
@@ -65,19 +65,13 @@
         "passageChecksum": "257db184a07f79bfa85f2091e72835a75f84f1fd0c1d79eab99f7759dd3b2ab4",
         "normalizedPassageChecksum": "2fc23ffc4c6fad7014989ec760ad267edd6a18873d8a72eecd58fb4d391097eb",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [],
   "connections": [
-    {
-      "id": "mention_556333a6c9fca7031f565097",
-      "type": "Institution",
-      "title": "Housing Office",
-      "relation": "Worked At"
-    },
     {
       "id": "mention_b430ce2c9b238e602a77b1a2",
       "type": "Institution",
@@ -103,7 +97,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6a15d573f56cd97600ce14e8",
+      "id": "mention_f5589de7a0c42d837971f5da",
       "type": "Person",
       "title": "Dr. Landsberg",
       "relation": "Appears in same passage"
@@ -118,12 +112,6 @@
       "id": "mention_998df74e87757164fcb13065",
       "type": "Place",
       "title": "Bloniecki Street prison",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_556333a6c9fca7031f565097",
-      "type": "Institution",
-      "title": "Housing Office",
       "relation": "Appears in same passage"
     },
     {

@@ -5,7 +5,7 @@
   "summary": "Head and leader in Lviv and its district.",
   "originalName": "יהושעהשילבןר׳צביהירש",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 84,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 779,
       "passageCharEnd": 858,
-      "normalizedPassageCharStart": 536,
-      "normalizedPassageCharEnd": 592,
+      "normalizedPassageCharStart": 779,
+      "normalizedPassageCharEnd": 858,
       "pageCharStart": 2266,
       "pageCharEnd": 2345,
       "quote": "יהוש ע השי ל ב ן ר ׳ צב י הירש ׳ אב״ ד ור״ מ דלבו ב והגליל ,\nרא ש ומנהי ג בלבוב",
-      "normalizedQuote": "יהושעהשילבןר׳צביהירש׳אב״דור״מדלבובוהגליל, ראשומנהיגבלבוב",
+      "normalizedQuote": "יהוש ע השי ל ב ן ר ׳ צב י הירש ׳ אב״ ד ור״ מ דלבו ב והגליל ,\nרא ש ומנהי ג בלבוב",
       "modelQuote": "יהושעהשילבןר׳צביהירש׳אב״דור״מדלבובוהגליל, ראשומנהיגבלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n83/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "f0a4216ab95e191c626170ebfa770e843c54de03da1d3533cab42db55cfa82af",
       "normalizedPassageChecksum": "fee9731f77aa3a84edc853f6398125d164f858f7a0809d012f5cf0fd7e623d2f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_2f11e70e02d931b1cf09c5e6",
+      "predicate": "Led By",
+      "subjectTitle": "Yehoshua Heshel ben Tzvi Hirsch",
+      "objectTitle": "Lviv Jewish community",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ed68637023b1c724194acc2d",
+        "pageId": "page_nybc313875_0084",
+        "scanIndex": 84,
+        "leafNumber": 83,
+        "printedPage": null,
+        "passageCharStart": 840,
+        "passageCharEnd": 858,
+        "normalizedPassageCharStart": 840,
+        "normalizedPassageCharEnd": 858,
+        "pageCharStart": 2327,
+        "pageCharEnd": 2345,
+        "quote": "רא ש ומנהי ג בלבוב",
+        "normalizedQuote": "רא ש ומנהי ג בלבוב",
+        "modelQuote": "ראשומנהיגבלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n83/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "f0a4216ab95e191c626170ebfa770e843c54de03da1d3533cab42db55cfa82af",
+        "normalizedPassageChecksum": "fee9731f77aa3a84edc853f6398125d164f858f7a0809d012f5cf0fd7e623d2f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_4aea7e28d688490f426dbba7",
+      "type": "Community",
+      "title": "Lviv Jewish community",
+      "relation": "Led By"
+    },
     {
       "id": "mention_7f2fb545ac734bdca47eaf65",
       "type": "Person",

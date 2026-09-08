@@ -5,7 +5,7 @@
   "summary": "Merchant sued in 1754 over alleged leather purchases and exports.",
   "originalName": "אליהומושקוביץ",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 75,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 816,
       "passageCharEnd": 839,
-      "normalizedPassageCharStart": 613,
-      "normalizedPassageCharEnd": 631,
+      "normalizedPassageCharStart": 816,
+      "normalizedPassageCharEnd": 839,
       "pageCharStart": 1875,
       "pageCharEnd": 1898,
       "quote": "הסוח ר אליה ו מושקובי ץ",
-      "normalizedQuote": "הסוחראליהומושקוביץ",
+      "normalizedQuote": "הסוח ר אליה ו מושקובי ץ",
       "modelQuote": "הסוחראליהומושקוביץ",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n74/mode/1up",
@@ -32,13 +32,54 @@
       "passageChecksum": "4c5b9405c6cbd32c46cea69c90b98917e385ed6e2fb754b6090e6008b0ab0c81",
       "normalizedPassageChecksum": "4fc58ea6720cafabe33d5f9af43e98582b4f342955ef507317cbfcc57158d3c0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_4b51b1f51bd402f55f75f360",
+      "type": "Arrest",
+      "title": "Lawsuit against Eli Moshkovitz",
+      "summary": "A lawsuit was filed against merchant Eli Moshkovitz over alleged leather exports in 1754.",
+      "dateStart": "1754",
+      "confidence": "HIGH",
+      "uncertaintyNote": "No allowed event type directly represents a lawsuit.",
+      "evidence": {
+        "passageId": "passage_72da1eeb9d4bbe87e47f5279",
+        "pageId": "page_nybc313875_0075",
+        "scanIndex": 75,
+        "leafNumber": 74,
+        "printedPage": null,
+        "passageCharStart": 787,
+        "passageCharEnd": 839,
+        "normalizedPassageCharStart": 787,
+        "normalizedPassageCharEnd": 839,
+        "pageCharStart": 1846,
+        "pageCharEnd": 1898,
+        "quote": "בשנ ת\n1754 הגיש ו משפ ט נג ד הסוח ר אליה ו מושקובי ץ",
+        "normalizedQuote": "בשנ ת\n1754 הגיש ו משפ ט נג ד הסוח ר אליה ו מושקובי ץ",
+        "modelQuote": "בשנת 1754הגישומשפטנגדהסוחראליהומושקוביץ",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n74/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "4c5b9405c6cbd32c46cea69c90b98917e385ed6e2fb754b6090e6008b0ab0c81",
+        "normalizedPassageChecksum": "4fc58ea6720cafabe33d5f9af43e98582b4f342955ef507317cbfcc57158d3c0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_4b51b1f51bd402f55f75f360",
+      "type": "Event",
+      "title": "Lawsuit against Eli Moshkovitz",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
     {
       "id": "mention_e8cfe7097ea7e3975096a4ec",
       "type": "Organization",
@@ -52,27 +93,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d4e83e75ffc612530ba5073c",
+      "id": "mention_f755b6c68f74e7d12dfbd81f",
       "type": "Organization",
       "title": "Tanners' guild",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4a5d480e8f857219a0514a3a",
-      "type": "Organization",
-      "title": "Carpenters' guild",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d9adef5728f7978d310c414a",
-      "type": "Organization",
-      "title": "Glaziers' guild",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bf39d3674231911d7ce4425d",
-      "type": "Organization",
-      "title": "Barbers' guild",
       "relation": "Appears in same passage"
     },
     {

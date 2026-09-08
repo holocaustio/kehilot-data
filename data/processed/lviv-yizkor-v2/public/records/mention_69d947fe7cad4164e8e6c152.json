@@ -5,7 +5,7 @@
   "summary": "Patron accused by the furriers' guild in 1770 of taking unauthorized payments.",
   "originalName": "משהלאנדים",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 75,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 788,
       "passageCharEnd": 799,
-      "normalizedPassageCharStart": 596,
-      "normalizedPassageCharEnd": 605,
+      "normalizedPassageCharStart": 788,
+      "normalizedPassageCharEnd": 799,
       "pageCharStart": 788,
       "pageCharEnd": 799,
       "quote": "מש ה לאנדים",
-      "normalizedQuote": "משהלאנדים",
+      "normalizedQuote": "מש ה לאנדים",
       "modelQuote": "משהלאנדים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n74/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "72cc412a94eccee5c49ab5a1de3f6b551c72eca2ca875ac1cff88682e42e8be3",
       "normalizedPassageChecksum": "6b894c00648a9875e2476cf3797458138b7b780ef28aff026c478c2ca9c1240a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -44,12 +44,12 @@
       "printedPage": null,
       "passageCharStart": 748,
       "passageCharEnd": 760,
-      "normalizedPassageCharStart": 546,
-      "normalizedPassageCharEnd": 555,
+      "normalizedPassageCharStart": 748,
+      "normalizedPassageCharEnd": 760,
       "pageCharStart": 1946,
       "pageCharEnd": 1958,
       "quote": "מש ה לאנדי ם",
-      "normalizedQuote": "משהלאנדים",
+      "normalizedQuote": "מש ה לאנדי ם",
       "modelQuote": "משהלאנדים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n78/mode/1up",
@@ -57,13 +57,13 @@
       "passageChecksum": "59fbf7f7c3eab75257536abf52e900e3be286677afc76dd9f723c2b88dc6a08c",
       "normalizedPassageChecksum": "b030e15ea8612bdad2e65cd76494a17ac32334afe4c661bc7edadd73e6e167b0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_e59aa42777d833bd6e4a9708",
+      "id": "claim_candidate_3e5f398d494b8f669ef120ed",
       "predicate": "Led By",
       "subjectTitle": "Internal court",
       "objectTitle": "Moshe Landers",
@@ -80,12 +80,12 @@
         "printedPage": null,
         "passageCharStart": 408,
         "passageCharEnd": 426,
-        "normalizedPassageCharStart": 305,
-        "normalizedPassageCharEnd": 319,
+        "normalizedPassageCharStart": 408,
+        "normalizedPassageCharEnd": 426,
         "pageCharStart": 408,
         "pageCharEnd": 426,
         "quote": "שבראש ו עמ ד פטרון",
-        "normalizedQuote": "שבראשועמדפטרון",
+        "normalizedQuote": "שבראש ו עמ ד פטרון",
         "modelQuote": "שבראשועמדפטרון",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n74/mode/1up",
@@ -93,7 +93,7 @@
         "passageChecksum": "72cc412a94eccee5c49ab5a1de3f6b551c72eca2ca875ac1cff88682e42e8be3",
         "normalizedPassageChecksum": "6b894c00648a9875e2476cf3797458138b7b780ef28aff026c478c2ca9c1240a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -107,20 +107,20 @@
       "relation": "Led By"
     },
     {
-      "id": "event_candidate_a2d849d9baf9e1f290aa5bc9",
+      "id": "event_candidate_a25b547be7e09cd5fc56dcfc",
       "type": "Event",
       "title": "Dismissal of the furriers' guild patron",
       "relation": "Participated In",
       "role": "Employee"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_00f77d8390841387b931728b",
+      "id": "mention_9b540113b113c74bf10079cb",
       "type": "Organization",
       "title": "Furriers' guild",
       "relation": "Appears in same passage"
@@ -138,27 +138,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_30012bb7b12cff3ddbe3c03c",
-      "type": "Place",
-      "title": "Synagogue tower",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7d20d93207abc6a3e63a6fa9",
-      "type": "Person",
-      "title": "Sobolishin",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_74896462177a046fbb9213dd",
       "type": "Family",
       "title": "Mizem family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bed71c443af9c879eb9ee8b3",
-      "type": "Person",
-      "title": "Yerachmiel Mizem",
       "relation": "Appears in same passage"
     },
     {

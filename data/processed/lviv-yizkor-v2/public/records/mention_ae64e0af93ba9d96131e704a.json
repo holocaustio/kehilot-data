@@ -5,7 +5,7 @@
   "summary": "Religious knowledge textbook used for marriage-license examinations.",
   "originalName": "ספרושלהרץ הומברג",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 98,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 193,
       "passageCharEnd": 248,
-      "normalizedPassageCharStart": 149,
-      "normalizedPassageCharEnd": 190,
+      "normalizedPassageCharStart": 193,
+      "normalizedPassageCharEnd": 248,
       "pageCharStart": 3842,
       "pageCharEnd": 3897,
       "quote": "לעמו ד בבחינ ה בידיעות־הד ת לפ י ספר ו ש ל הר ץ\nהומבר ג",
-      "normalizedQuote": "לעמודבבחינהבידיעות־הדתלפיספרושלהרץ הומברג",
+      "normalizedQuote": "לעמו ד בבחינ ה בידיעות־הד ת לפ י ספר ו ש ל הר ץ\nהומבר ג",
       "modelQuote": "לעמודבבחינהבידיעות־הדתלפיספרושלהרץ הומברג",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n97/mode/1up",
@@ -33,13 +33,54 @@
       "passageChecksum": "01102e4686ddaecfe9912796efb17bd564f18178b1af3109f597499791381c62",
       "normalizedPassageChecksum": "97b85a9ba3549e7028c3af59468e1f3e841536207809b9944ba919ff9274a67f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_68fe8d374be05ae9280b263d",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Hertz Homberg",
+      "objectTitle": "Homberg’s religious textbook",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "author or namesake"
+      },
+      "evidence": {
+        "passageId": "passage_0ac1aef56aa18b226b074b60",
+        "pageId": "page_nybc313875_0098",
+        "scanIndex": 98,
+        "leafNumber": 97,
+        "printedPage": null,
+        "passageCharStart": 226,
+        "passageCharEnd": 248,
+        "normalizedPassageCharStart": 226,
+        "normalizedPassageCharEnd": 248,
+        "pageCharStart": 3875,
+        "pageCharEnd": 3897,
+        "quote": "ספר ו ש ל הר ץ\nהומבר ג",
+        "normalizedQuote": "ספר ו ש ל הר ץ\nהומבר ג",
+        "modelQuote": "ספרושלהרץ הומברג",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n97/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "01102e4686ddaecfe9912796efb17bd564f18178b1af3109f597499791381c62",
+        "normalizedPassageChecksum": "97b85a9ba3549e7028c3af59468e1f3e841536207809b9944ba919ff9274a67f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_f7589cbfdeb75c96908ce4af",
+      "type": "Person",
+      "title": "Hertz Homberg",
+      "relation": "Mentioned In"
+    },
     {
       "id": "mention_64e4c77ecd7aff2751c19d0c",
       "type": "Institution",

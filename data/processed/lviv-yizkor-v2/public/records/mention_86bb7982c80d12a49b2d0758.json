@@ -5,7 +5,7 @@
   "summary": "The passage cites the Lviv Jewish community school as a model for publicly supported schools.",
   "originalName": "בית־הספרהיהודישלקהלתלבוב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 143,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 1197,
       "passageCharEnd": 1229,
-      "normalizedPassageCharStart": 877,
-      "normalizedPassageCharEnd": 901,
+      "normalizedPassageCharStart": 1197,
+      "normalizedPassageCharEnd": 1229,
       "pageCharStart": 3358,
       "pageCharEnd": 3390,
       "quote": "בית־הספ ר היהוד י ש ל קהל ת לבוב",
-      "normalizedQuote": "בית־הספרהיהודישלקהלתלבוב",
+      "normalizedQuote": "בית־הספ ר היהוד י ש ל קהל ת לבוב",
       "modelQuote": "בית־הספרהיהודישלקהלתלבוב",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n142/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "528f7d2dc9b524116878a1845eeeb504b3114086be993f90c5d9b9f6b589cba4",
       "normalizedPassageChecksum": "2ece941d4905dcd6e2e651cadf950c866cd6f206b267639ca477aac727c90ade",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_8304dfeeb191526424b07543",
+      "predicate": "Located In",
+      "subjectTitle": "Lviv Jewish community school",
+      "objectTitle": "Lviv Jewish community",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cd91a0c51e88a138580a7a4b",
+        "pageId": "page_nybc313875_0143",
+        "scanIndex": 143,
+        "leafNumber": 142,
+        "printedPage": null,
+        "passageCharStart": 1197,
+        "passageCharEnd": 1229,
+        "normalizedPassageCharStart": 1197,
+        "normalizedPassageCharEnd": 1229,
+        "pageCharStart": 3358,
+        "pageCharEnd": 3390,
+        "quote": "בית־הספ ר היהוד י ש ל קהל ת לבוב",
+        "normalizedQuote": "בית־הספ ר היהוד י ש ל קהל ת לבוב",
+        "modelQuote": "בית־הספרהיהודישלקהלתלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n142/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "528f7d2dc9b524116878a1845eeeb504b3114086be993f90c5d9b9f6b589cba4",
+        "normalizedPassageChecksum": "2ece941d4905dcd6e2e651cadf950c866cd6f206b267639ca477aac727c90ade",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Located In"
+    },
     {
       "id": "mention_00d721f1a7caecdc42f322af",
       "type": "Place",

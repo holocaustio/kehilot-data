@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 759,
       "passageCharEnd": 826,
-      "normalizedPassageCharStart": 549,
-      "normalizedPassageCharEnd": 597,
+      "normalizedPassageCharStart": 759,
+      "normalizedPassageCharEnd": 826,
       "pageCharStart": 759,
       "pageCharEnd": 826,
       "quote": "וכ ך מתא ר בנ ו יצחק , שהי ה א ף הו א א ז בחצר־המוו ת\n\nש ל בריגידקי",
-      "normalizedQuote": "וכךמתארבנויצחק,שהיהאףהואאזבחצר־המוות\n\nשלבריגידקי",
+      "normalizedQuote": "וכ ך מתא ר בנ ו יצחק , שהי ה א ף הו א א ז בחצר־המוו ת\n\nש ל בריגידקי",
       "modelQuote": "וכךמתארבנויצחק,שהיהאףהואאזבחצר־המוותשלבריגידקי",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n303/mode/1up",
@@ -37,9 +37,86 @@
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_2effe5b912c05770c68b14d6",
+      "predicate": "Child Of",
+      "subjectTitle": "Isaac Levin",
+      "objectTitle": "Dr. Ezekiel Levin",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ede91e83b8aeb1476cc28119",
+        "pageId": "page_nybc313875_0304",
+        "scanIndex": 304,
+        "leafNumber": 303,
+        "printedPage": null,
+        "passageCharStart": 882,
+        "passageCharEnd": 889,
+        "normalizedPassageCharStart": 882,
+        "normalizedPassageCharEnd": 889,
+        "pageCharStart": 882,
+        "pageCharEnd": 889,
+        "quote": "א ת אבי",
+        "normalizedQuote": "א ת אבי",
+        "modelQuote": "אתאבי",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n303/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "cdf4ee5fd861692db190770e0b2eb1c80837ac5ca03c278dce95a60db07c76aa",
+        "normalizedPassageChecksum": "db2e5122e704c05df89c60428078f6757c23c77f9a31a88a0ce272aeba2356d9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_6fac3b9f66ca144eba8d7bed",
+      "type": "Murder",
+      "title": "Murder of Dr. Ezekiel Levin",
+      "summary": "Dr. Levin was captured and taken to the Brygidki prison courtyard, where he was killed.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ede91e83b8aeb1476cc28119",
+        "pageId": "page_nybc313875_0304",
+        "scanIndex": 304,
+        "leafNumber": 303,
+        "printedPage": null,
+        "passageCharStart": 674,
+        "passageCharEnd": 755,
+        "normalizedPassageCharStart": 674,
+        "normalizedPassageCharEnd": 755,
+        "pageCharStart": 674,
+        "pageCharEnd": 755,
+        "quote": "כב ר ב א ע ד ס ף בית ו תפסוה ו\n\nהשוטרי ם האוקראיני ם והובילוה ו לחצ ר ביור ד,סוהר",
+        "normalizedQuote": "כב ר ב א ע ד ס ף בית ו תפסוה ו\n\nהשוטרי ם האוקראיני ם והובילוה ו לחצ ר ביור ד,סוהר",
+        "modelQuote": "כברבאעדסףביתותפסוהוהשוטריםהאוקראיניםוהובילוהולחצרביורד,סוהר",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n303/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "cdf4ee5fd861692db190770e0b2eb1c80837ac5ca03c278dce95a60db07c76aa",
+        "normalizedPassageChecksum": "db2e5122e704c05df89c60428078f6757c23c77f9a31a88a0ce272aeba2356d9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "mention_ad8bb23cf44749e481479299",
+      "type": "Person",
+      "title": "Dr. Ezekiel Levin",
+      "relation": "Child Of"
+    },
+    {
+      "id": "event_candidate_6fac3b9f66ca144eba8d7bed",
+      "type": "Event",
+      "title": "Murder of Dr. Ezekiel Levin",
+      "relation": "Participated In",
+      "role": "Witness"
+    },
     {
       "id": "mention_cde6907c5da4991f947863dd",
       "type": "Person",

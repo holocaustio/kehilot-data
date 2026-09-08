@@ -5,7 +5,7 @@
   "summary": "Rabbi who managed the rabbinate as acting chief rabbi.",
   "originalName": "יעקבאורנשטיין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 210,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 31,
       "passageCharEnd": 84,
-      "normalizedPassageCharStart": 26,
-      "normalizedPassageCharEnd": 66,
+      "normalizedPassageCharStart": 31,
+      "normalizedPassageCharEnd": 84,
       "pageCharStart": 31,
       "pageCharEnd": 84,
       "quote": "יעק ב אורנשטיי ן ניה ל א ת הרבנו ת כממל א מקו ם\nהאב״ד",
-      "normalizedQuote": "יעקבאורנשטייןניהלאתהרבנותכממלאמקום האב״ד",
+      "normalizedQuote": "יעק ב אורנשטיי ן ניה ל א ת הרבנו ת כממל א מקו ם\nהאב״ד",
       "modelQuote": "יעקבאורנשטייןניהלאתהרבנותכממלאמקום האב״ד",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n209/mode/1up",
@@ -33,7 +33,7 @@
       "passageChecksum": "8f4e950459a0b69b5c62488bccda9210b917dadd333976d9a1936207a1234457",
       "normalizedPassageChecksum": "f1a8ee490af81bb7d2f791b04abfffda9a48ec67b0109770185e9127bc90e16d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -45,11 +45,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 19,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 15,
+      "normalizedPassageCharEnd": 19,
       "pageCharStart": 2039,
       "pageCharEnd": 2058,
       "quote": "ר ׳ יעק ב אורנשטיין",
-      "normalizedQuote": "ר׳יעקבאורנשטיין",
+      "normalizedQuote": "ר ׳ יעק ב אורנשטיין",
       "modelQuote": "ר׳יעקבאורנשטיין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n109/mode/1up",
@@ -57,13 +57,54 @@
       "passageChecksum": "b1d8c96ffa67cf9cb45b1804d26d60e1afe7a7e2973a3c7958a17472ba8cc1ba",
       "normalizedPassageChecksum": "1b4373eeef6563f7022e7e977d51e04949e5c7188bc5a35b0b8b09e6898b39d3",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_d2c487c7242af8b010d46673",
+      "predicate": "Worked At",
+      "subjectTitle": "Yaakov Ornstein",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "acting chief rabbi"
+      },
+      "evidence": {
+        "passageId": "passage_6297dc81a32e422f1cd3f004",
+        "pageId": "page_nybc313875_0210",
+        "scanIndex": 210,
+        "leafNumber": 209,
+        "printedPage": null,
+        "passageCharStart": 48,
+        "passageCharEnd": 84,
+        "normalizedPassageCharStart": 48,
+        "normalizedPassageCharEnd": 84,
+        "pageCharStart": 48,
+        "pageCharEnd": 84,
+        "quote": "ניה ל א ת הרבנו ת כממל א מקו ם\nהאב״ד",
+        "normalizedQuote": "ניה ל א ת הרבנו ת כממל א מקו ם\nהאב״ד",
+        "modelQuote": "ניהלאתהרבנותכממלאמקום האב״ד",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n209/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "8f4e950459a0b69b5c62488bccda9210b917dadd333976d9a1936207a1234457",
+        "normalizedPassageChecksum": "f1a8ee490af81bb7d2f791b04abfffda9a48ec67b0109770185e9127bc90e16d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Worked At"
+    },
     {
       "id": "mention_257c83b3a80ce46729ad9ebf",
       "type": "Person",
@@ -89,7 +130,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c28f86d23df8565a1e5bccba",
+      "id": "mention_9b71e41686bcf22378e612ac",
       "type": "Community",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -137,12 +178,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8b497fce2328f6734f679dc9",
-      "type": "Person",
-      "title": "Isaac Arter",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_845170d383110c885ef98fa9",
       "type": "Person",
       "title": "Judah-Lieb Pastor",
@@ -185,7 +220,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -206,6 +241,12 @@
       "id": "mention_1b0e87117bcc688856ec19d7",
       "type": "Person",
       "title": "Solomon son of Chaim Baruch Brick",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7abfae346c07dec9e1e714ca",
+      "type": "Place",
+      "title": "Germany",
       "relation": "Appears in same passage"
     }
   ],

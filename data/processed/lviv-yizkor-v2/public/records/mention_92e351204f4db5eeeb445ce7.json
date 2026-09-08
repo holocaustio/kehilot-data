@@ -5,7 +5,7 @@
   "summary": "The first cemetery, located at Podzamcze.",
   "originalName": "בית־העלמיןהראשון נמצאב״פודזאמצא״",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 260,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 917,
       "passageCharEnd": 955,
-      "normalizedPassageCharStart": 687,
-      "normalizedPassageCharEnd": 719,
+      "normalizedPassageCharStart": 917,
+      "normalizedPassageCharEnd": 955,
       "pageCharStart": 2884,
       "pageCharEnd": 2922,
       "quote": "בית־העלמי ן הראשו ן\nנמצ א ב״פודזאמצא ״",
-      "normalizedQuote": "בית־העלמיןהראשון נמצאב״פודזאמצא״",
+      "normalizedQuote": "בית־העלמי ן הראשו ן\nנמצ א ב״פודזאמצא ״",
       "modelQuote": "בית־העלמיןהראשון נמצאב״פודזאמצא״",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n259/mode/1up",
@@ -33,13 +33,52 @@
       "passageChecksum": "3bf0780b8b431949083cc2b1b3163e0d2bbca5d8cc884718efc503be94bea115",
       "normalizedPassageChecksum": "5c25556f405e5f7a58c486b6bafe8b060d30291742e67e674e7b05e0d63bd2fa",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_ea7402a17bb6785db1a6cbd3",
+      "predicate": "Located In",
+      "subjectTitle": "First Cemetery at Podzamcze",
+      "objectTitle": "Krakow Suburb",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage places these sites in the area described, but the exact relationship to the suburb is compressed in OCR.",
+      "evidence": {
+        "passageId": "passage_cfc19d432b09a2fcc9397d4b",
+        "pageId": "page_nybc313875_0260",
+        "scanIndex": 260,
+        "leafNumber": 259,
+        "printedPage": null,
+        "passageCharStart": 858,
+        "passageCharEnd": 955,
+        "normalizedPassageCharStart": 858,
+        "normalizedPassageCharEnd": 955,
+        "pageCharStart": 2825,
+        "pageCharEnd": 2922,
+        "quote": "הונח ו יסודו ת הקהל ה היהודי ת\nבלבוב , בית־הכנס ת הראשון , בית־העלמי ן הראשו ן\nנמצ א ב״פודזאמצא ״",
+        "normalizedQuote": "הונח ו יסודו ת הקהל ה היהודי ת\nבלבוב , בית־הכנס ת הראשון , בית־העלמי ן הראשו ן\nנמצ א ב״פודזאמצא ״",
+        "modelQuote": "הונחויסודותהקהלההיהודית בלבוב,בית־הכנסתהראשון,בית־העלמיןהראשון נמצאב״פודזאמצא״",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n259/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "3bf0780b8b431949083cc2b1b3163e0d2bbca5d8cc884718efc503be94bea115",
+        "normalizedPassageChecksum": "5c25556f405e5f7a58c486b6bafe8b060d30291742e67e674e7b05e0d63bd2fa",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_71367d884fe2c0cbed0066a9",
+      "type": "Place",
+      "title": "Krakow Suburb",
+      "relation": "Located In"
+    },
     {
       "id": "mention_1c8a4b323259bfae42f44077",
       "type": "Person",
@@ -65,7 +104,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_31d1abfadd54428b33e34c21",
+      "id": "mention_b82b1affea2baa98c75dc39f",
       "type": "Place",
       "title": "Zolkiewska Street",
       "relation": "Appears in same passage"

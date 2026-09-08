@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 848,
       "passageCharEnd": 876,
-      "normalizedPassageCharStart": 597,
-      "normalizedPassageCharEnd": 619,
+      "normalizedPassageCharStart": 848,
+      "normalizedPassageCharEnd": 876,
       "pageCharStart": 1986,
       "pageCharEnd": 2014,
       "quote": "מוה ׳ יצה ק במוהר״ ר\n\nשמוא ל",
-      "normalizedQuote": "מוה׳יצהקבמוהר״ר\n\nשמואל",
+      "normalizedQuote": "מוה ׳ יצה ק במוהר״ ר\n\nשמוא ל",
       "modelQuote": "מוה׳יצהקבמוהר״ר שמואל",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n288/mode/1up",
@@ -39,8 +39,47 @@
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_66c84278b958930b8457e778",
+      "type": "Murder",
+      "title": "Martyrdom of Isaac son of Samuel",
+      "summary": "Isaac son of Samuel was killed by persecutors near Lviv on 8 Iyar.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_07cda9456c42c05e74f1f5df",
+        "pageId": "page_nybc313875_0289",
+        "scanIndex": 289,
+        "leafNumber": 288,
+        "printedPage": null,
+        "passageCharStart": 949,
+        "passageCharEnd": 1046,
+        "normalizedPassageCharStart": 949,
+        "normalizedPassageCharEnd": 1046,
+        "pageCharStart": 2087,
+        "pageCharEnd": 2184,
+        "quote": "ונהר ג ביד י אריר ה\n\nע״ י הפוחזי ם אש ר בקהל ו ביו ם השב ת קוד ש ח ׳\n\nאיי ר תכ״ ד לפ״ ק פ ה לבו ב",
+        "normalizedQuote": "ונהר ג ביד י אריר ה\n\nע״ י הפוחזי ם אש ר בקהל ו ביו ם השב ת קוד ש ח ׳\n\nאיי ר תכ״ ד לפ״ ק פ ה לבו ב",
+        "modelQuote": "ונהרגבידיארירה ע״יהפוחזיםאשרבקהלוביוםהשבתקודשח׳ איירתכ״דלפ״קפהלבוב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n288/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "0328d5a57a06f8dc26802924bbeef77920f86fd195fa2faab6302124d8c64de4",
+        "normalizedPassageChecksum": "96d980d0a7a93dfcf8ad8ac34405ce80f1a6cef735a981d4db45795bd990656a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_66c84278b958930b8457e778",
+      "type": "Event",
+      "title": "Martyrdom of Isaac son of Samuel",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
     {
       "id": "mention_4d837fa26d579e1dd4e93d52",
       "type": "Person",

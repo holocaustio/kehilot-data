@@ -5,7 +5,7 @@
   "summary": "Military force that destroyed city outskirts and the synagogue.",
   "originalName": "הקוזקים",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 54,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 23,
       "passageCharEnd": 36,
-      "normalizedPassageCharStart": 16,
-      "normalizedPassageCharEnd": 26,
+      "normalizedPassageCharStart": 23,
+      "normalizedPassageCharEnd": 36,
       "pageCharStart": 397,
       "pageCharEnd": 410,
       "quote": "ע״ י הקוזקי ם",
-      "normalizedQuote": "ע״יהקוזקים",
+      "normalizedQuote": "ע״ י הקוזקי ם",
       "modelQuote": "ע״יהקוזקים",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n53/mode/1up",
@@ -33,17 +33,57 @@
       "passageChecksum": "5b2f58c984c813c6251a9602f6d977de70de3abd41d4d1315524d8ff1c047813",
       "normalizedPassageChecksum": "9415715bca9ba42d95ed1628a39b10c81d5c17ce16ad34cf2fadcf3c918d62fa",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_65e3c746722b8a278e384749",
+      "type": "Aktion Or Raid",
+      "title": "Khmelnytsky’s 1648 assault on Lviv",
+      "summary": "Khmelnytsky demanded surrender of Jews and threatened to attack the city.",
+      "dateStart": "1648-10-10",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_41e8b9925474857c88fb92c7",
+        "pageId": "page_nybc313875_0054",
+        "scanIndex": 54,
+        "leafNumber": 53,
+        "printedPage": null,
+        "passageCharStart": 176,
+        "passageCharEnd": 239,
+        "normalizedPassageCharStart": 176,
+        "normalizedPassageCharEnd": 239,
+        "pageCharStart": 550,
+        "pageCharEnd": 613,
+        "quote": "לפנ י הסתערותו , ב־ 10\nבאוקטוב ר 1648 , של ח לעירי ת לבו ב מכתב",
+        "normalizedQuote": "לפנ י הסתערותו , ב־ 10\nבאוקטוב ר 1648 , של ח לעירי ת לבו ב מכתב",
+        "modelQuote": "לפניהסתערותו,ב־10 באוקטובר1648,שלחלעיריתלבובמכתב",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n53/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "5b2f58c984c813c6251a9602f6d977de70de3abd41d4d1315524d8ff1c047813",
+        "normalizedPassageChecksum": "9415715bca9ba42d95ed1628a39b10c81d5c17ce16ad34cf2fadcf3c918d62fa",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_65e3c746722b8a278e384749",
+      "type": "Event",
+      "title": "Khmelnytsky’s 1648 assault on Lviv",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
     {
       "id": "mention_c28f86d23df8565a1e5bccba",
       "type": "Community",
-      "title": "Lviv",
+      "title": "Jewish community of Lviv",
       "relation": "Appears in same passage"
     },
     {
@@ -62,12 +102,6 @@
       "id": "mention_6f78f70b97f5a9d2fdc97d59",
       "type": "Person",
       "title": "Theodor Rudkiewicz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bbfb5aff4e9185a1b4b3b5eb",
-      "type": "Place",
-      "title": "Zaporizhia",
       "relation": "Appears in same passage"
     }
   ],

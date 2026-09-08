@@ -5,7 +5,7 @@
   "summary": "Tribunal that issued a ruling concerning Jewish and Jesuit property.",
   "originalName": "הטריבונל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 35,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 173,
       "passageCharEnd": 235,
-      "normalizedPassageCharStart": 129,
-      "normalizedPassageCharEnd": 175,
+      "normalizedPassageCharStart": 173,
+      "normalizedPassageCharEnd": 235,
       "pageCharStart": 1479,
       "pageCharEnd": 1541,
       "quote": "הוצ א ע״ י הטריבונ ל\nבראשות ו ש ל המל ך זיגמונ ט וו ו פסק־די ן",
-      "normalizedQuote": "הוצאע״יהטריבונל בראשותושלהמלךזיגמונטווופסק־דין",
+      "normalizedQuote": "הוצ א ע״ י הטריבונ ל\nבראשות ו ש ל המל ך זיגמונ ט וו ו פסק־די ן",
       "modelQuote": "הוצאע״יהטריבונל בראשותושלהמלךזיגמונטווופסק־דין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n34/mode/1up",
@@ -33,13 +33,51 @@
       "passageChecksum": "b126741f467d42a034c153e788316b83684574b8d103adbf10ea7041f4f03f75",
       "normalizedPassageChecksum": "d9e5fa68c3f160484fb9ae569d3e513b1c84f0900546284fceae1f76a962f531",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_56e1968011649d6d4b780c23",
+      "predicate": "Led By",
+      "subjectTitle": "Zolkiewski",
+      "objectTitle": "Tribunal chaired by King Sigismund",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_09633d3df83d58ac3007309c",
+        "pageId": "page_nybc313875_0035",
+        "scanIndex": 35,
+        "leafNumber": 34,
+        "printedPage": null,
+        "passageCharStart": 300,
+        "passageCharEnd": 334,
+        "normalizedPassageCharStart": 300,
+        "normalizedPassageCharEnd": 334,
+        "pageCharStart": 300,
+        "pageCharEnd": 334,
+        "quote": "ועד ה חדש ה בראשות ו ש ל\nזולקיבסקי",
+        "normalizedQuote": "ועד ה חדש ה בראשות ו ש ל\nזולקיבסקי",
+        "modelQuote": "ועדהחדשהבראשותושל זולקיבסקי",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n34/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "56e4f78d56105c364c1ddd31cd3e40e58f26f71b4a960f87ba4fdfc5602492b7",
+        "normalizedPassageChecksum": "2091bccbb7508ded0fbe062d9bed1e454a2d99d7ff51251ff3d962eaa04aa6f9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_612f9d562272736e28f8dd8b",
+      "type": "Person",
+      "title": "Zolkiewski",
+      "relation": "Led By"
+    },
     {
       "id": "mention_9a4e66e27aa86aa09aa247de",
       "type": "Person",

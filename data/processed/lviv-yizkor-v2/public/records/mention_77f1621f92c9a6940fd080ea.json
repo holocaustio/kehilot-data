@@ -5,7 +5,7 @@
   "summary": "Newspaper in which Lateris published an obituary.",
   "originalName": "ווינערבלעטער",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 192,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 545,
       "passageCharEnd": 561,
-      "normalizedPassageCharStart": 406,
-      "normalizedPassageCharEnd": 420,
+      "normalizedPassageCharStart": 545,
+      "normalizedPassageCharEnd": 561,
       "pageCharStart": 3786,
       "pageCharEnd": 3802,
       "quote": "\"ווינע ר בלעטער\"",
-      "normalizedQuote": "\"ווינערבלעטער\"",
+      "normalizedQuote": "\"ווינע ר בלעטער\"",
       "modelQuote": "\"ווינערבלעטער\"",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n191/mode/1up",
@@ -33,13 +33,13 @@
       "passageChecksum": "067f60d4fca540eb6cca4c4b2b19caf6aad9ec88259006ce21a07540cbf355b6",
       "normalizedPassageChecksum": "fe9727b228147223697302acc91300e70f67f65af6f84ac717e4bbc3d0d675dc",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_2fbdb31cb636ef3bb6b85dfd",
+      "id": "claim_candidate_1d278ede293b3dbe144361cc",
       "predicate": "Authored By",
       "subjectTitle": "Lateris",
       "objectTitle": "Wiener Blaetter",
@@ -52,12 +52,12 @@
         "printedPage": null,
         "passageCharStart": 508,
         "passageCharEnd": 563,
-        "normalizedPassageCharStart": 379,
-        "normalizedPassageCharEnd": 421,
+        "normalizedPassageCharStart": 508,
+        "normalizedPassageCharEnd": 563,
         "pageCharStart": 3749,
         "pageCharEnd": 3804,
         "quote": "לטרי ס פרס ם עלי ה מאמר־הספ ד בעתו ן \"ווינע ר בלעטער\" ׳",
-        "normalizedQuote": "לטריספרסםעליהמאמר־הספדבעתון\"ווינערבלעטער\"׳",
+        "normalizedQuote": "לטרי ס פרס ם עלי ה מאמר־הספ ד בעתו ן \"ווינע ר בלעטער\" ׳",
         "modelQuote": "לטריספרסםעליהמאמר־הספדבעתון\"ווינערבלעטער\"׳",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n191/mode/1up",
@@ -65,7 +65,7 @@
         "passageChecksum": "067f60d4fca540eb6cca4c4b2b19caf6aad9ec88259006ce21a07540cbf355b6",
         "normalizedPassageChecksum": "fe9727b228147223697302acc91300e70f67f65af6f84ac717e4bbc3d0d675dc",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -85,7 +85,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ac58cc334bc3daaa66b6f9ef",
+      "id": "mention_ab57b77a46dfbd07be61e97d",
       "type": "Person",
       "title": "Dr. Leo Kolischer",
       "relation": "Appears in same passage"
@@ -124,18 +124,6 @@
       "id": "mention_909fcd40aefc910a71964d4a",
       "type": "Person",
       "title": "Lateris",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_74f10d2c9f32adc7be76468e",
-      "type": "Place",
-      "title": "Budapest",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_48b4be68ca897896c98cff74",
-      "type": "Place",
-      "title": "Lviv",
       "relation": "Appears in same passage"
     }
   ],

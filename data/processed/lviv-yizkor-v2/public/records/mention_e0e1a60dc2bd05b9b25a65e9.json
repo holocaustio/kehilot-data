@@ -5,7 +5,7 @@
   "summary": "A personal name appearing in the OCR correction list.",
   "originalName": "סטפן",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 385,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 979,
       "passageCharEnd": 984,
-      "normalizedPassageCharStart": 866,
-      "normalizedPassageCharEnd": 870,
+      "normalizedPassageCharStart": 979,
+      "normalizedPassageCharEnd": 984,
       "pageCharStart": 2967,
       "pageCharEnd": 2972,
       "quote": "סטפ ן",
-      "normalizedQuote": "סטפן",
+      "normalizedQuote": "סטפ ן",
       "modelQuote": "סטפן",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n384/mode/1up",
@@ -32,7 +32,7 @@
       "passageChecksum": "fed088623b341952b3d6431ad0e4a3d3f240224da5488068fb0105737ae67af5",
       "normalizedPassageChecksum": "93aba9f086b6df75b06b50389ed208edfbc0cbe046d73d2667a7b277d4d17e21",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -40,7 +40,7 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_a0be5d4d8b41acc9587c7ed3",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
@@ -55,12 +55,6 @@
       "id": "mention_eb732b27e1e78ff5ac6f3e48",
       "type": "Place",
       "title": "Radom",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0278d2b22f3a251a0d348d2a",
-      "type": "Place",
-      "title": "Hungary",
       "relation": "Appears in same passage"
     }
   ],

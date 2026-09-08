@@ -5,7 +5,7 @@
   "summary": "Elected to the Lviv community council in May 1862.",
   "originalName": "רחמיאלאורנשטיין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 147,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": null,
       "passageCharStart": 937,
       "passageCharEnd": 954,
-      "normalizedPassageCharStart": 709,
-      "normalizedPassageCharEnd": 724,
+      "normalizedPassageCharStart": 937,
+      "normalizedPassageCharEnd": 954,
       "pageCharStart": 3769,
       "pageCharEnd": 3786,
       "quote": "רחמיא ל אורנשטיין",
-      "normalizedQuote": "רחמיאלאורנשטיין",
+      "normalizedQuote": "רחמיא ל אורנשטיין",
       "modelQuote": "רחמיאלאורנשטיין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n146/mode/1up",
@@ -32,7 +32,7 @@
       "passageChecksum": "c8791cdd804649b2039bcd7f2dc1379012c89d5c5093dbb83af403e9c12bd871",
       "normalizedPassageChecksum": "bd3d5cd855bce8d63ad6d8a36ff37d25cb5fcb2a914aff3ca637d6bec88a1429",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -43,12 +43,12 @@
       "printedPage": null,
       "passageCharStart": 624,
       "passageCharEnd": 642,
-      "normalizedPassageCharStart": 459,
-      "normalizedPassageCharEnd": 475,
+      "normalizedPassageCharStart": 624,
+      "normalizedPassageCharEnd": 642,
       "pageCharStart": 2081,
       "pageCharEnd": 2099,
       "quote": "רחמיא ל\nאורנשטיי ן",
-      "normalizedQuote": "רחמיאל אורנשטיין",
+      "normalizedQuote": "רחמיא ל\nאורנשטיי ן",
       "modelQuote": "רחמיאל אורנשטיין",
       "bbox": null,
       "scanUrl": "https://archive.org/details/nybc313875/page/n193/mode/1up",
@@ -56,14 +56,82 @@
       "passageChecksum": "3bb2198b8bbca87d6bde0e52d38605630794fad4a4343b12c5ccb2ffa2c0157e",
       "normalizedPassageChecksum": "92aca84dffc13a6e4c8a1b3e205fba1187e95e04d66fef510283b6dc6c797298",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_528527041037dfd54058fb71",
+      "predicate": "Member Of",
+      "subjectTitle": "Rachmiel Orenstein",
+      "objectTitle": "Lviv Jewish Community",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "community council member"
+      },
+      "evidence": {
+        "passageId": "passage_41b7b827b9e99fbd5192ed47",
+        "pageId": "page_nybc313875_0147",
+        "scanIndex": 147,
+        "leafNumber": 146,
+        "printedPage": null,
+        "passageCharStart": 937,
+        "passageCharEnd": 954,
+        "normalizedPassageCharStart": 937,
+        "normalizedPassageCharEnd": 954,
+        "pageCharStart": 3769,
+        "pageCharEnd": 3786,
+        "quote": "רחמיא ל אורנשטיין",
+        "normalizedQuote": "רחמיא ל אורנשטיין",
+        "modelQuote": "רחמיאלאורנשטיין",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n146/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "c8791cdd804649b2039bcd7f2dc1379012c89d5c5093dbb83af403e9c12bd871",
+        "normalizedPassageChecksum": "bd3d5cd855bce8d63ad6d8a36ff37d25cb5fcb2a914aff3ca637d6bec88a1429",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [
     {
-      "id": "event_candidate_82d20e199fa49ef3ca686acf",
+      "id": "event_candidate_3b786ddbab6f1a1099415654",
+      "type": "Organization Founding",
+      "title": "Lviv Community Council Election",
+      "summary": "Community council members were elected in May 1862.",
+      "dateStart": "1862-05",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include elections; this is represented as an organization-founding candidate only provisionally.",
+      "evidence": {
+        "passageId": "passage_41b7b827b9e99fbd5192ed47",
+        "pageId": "page_nybc313875_0147",
+        "scanIndex": 147,
+        "leafNumber": 146,
+        "printedPage": null,
+        "passageCharStart": 771,
+        "passageCharEnd": 816,
+        "normalizedPassageCharStart": 771,
+        "normalizedPassageCharEnd": 816,
+        "pageCharStart": 3603,
+        "pageCharEnd": 3648,
+        "quote": "בבחירו ת א ל ועד־הקהל ה — במא י 1862\n— נבחר ו",
+        "normalizedQuote": "בבחירו ת א ל ועד־הקהל ה — במא י 1862\n— נבחר ו",
+        "modelQuote": "בבחירותאלועד־הקהלה—במאי1862 —נבחרו",
+        "bbox": null,
+        "scanUrl": "https://archive.org/details/nybc313875/page/n146/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "c8791cdd804649b2039bcd7f2dc1379012c89d5c5093dbb83af403e9c12bd871",
+        "normalizedPassageChecksum": "bd3d5cd855bce8d63ad6d8a36ff37d25cb5fcb2a914aff3ca637d6bec88a1429",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_63fec9388f2603c6581884b1",
       "type": "Organization Founding",
       "title": "Lviv community leadership protest",
       "summary": "Lviv community leaders published a sharp protest against Isaac Deutsch in March 1865.",
@@ -79,12 +147,12 @@
         "printedPage": null,
         "passageCharStart": 643,
         "passageCharEnd": 662,
-        "normalizedPassageCharStart": 475,
-        "normalizedPassageCharEnd": 489,
+        "normalizedPassageCharStart": 643,
+        "normalizedPassageCharEnd": 662,
         "pageCharStart": 2100,
         "pageCharEnd": 2119,
         "quote": "פרסמ ו מחא ה חריפ ה",
-        "normalizedQuote": "פרסמומחאהחריפה",
+        "normalizedQuote": "פרסמ ו מחא ה חריפ ה",
         "modelQuote": "פרסמומחאהחריפה",
         "bbox": null,
         "scanUrl": "https://archive.org/details/nybc313875/page/n193/mode/1up",
@@ -92,12 +160,25 @@
         "passageChecksum": "3bb2198b8bbca87d6bde0e52d38605630794fad4a4343b12c5ccb2ffa2c0157e",
         "normalizedPassageChecksum": "92aca84dffc13a6e4c8a1b3e205fba1187e95e04d66fef510283b6dc6c797298",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
+    {
+      "id": "mention_c28f86d23df8565a1e5bccba",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_3b786ddbab6f1a1099415654",
+      "type": "Event",
+      "title": "Lviv Community Council Election",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_c8320195068d688d1580b976",
       "type": "Person",
@@ -171,7 +252,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "event_candidate_82d20e199fa49ef3ca686acf",
+      "id": "event_candidate_63fec9388f2603c6581884b1",
       "type": "Event",
       "title": "Lviv community leadership protest",
       "relation": "Participated In",
@@ -208,7 +289,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_48b4be68ca897896c98cff74",
+      "id": "mention_998a91de6c3406b791263c44",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
