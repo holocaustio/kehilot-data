@@ -1,0 +1,100 @@
+{
+  "id": "mention_06f8257e07e0bc0f7ee02341",
+  "type": "Organization",
+  "title": "Nazi Ukrainian Bandits",
+  "summary": "Armed group described as forcing gravediggers to bury living Jews with the dead.",
+  "originalName": "אוקראַינישע נאַצי-באַנדיטן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 227,
+  "printedPage": "211",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "armed band",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1bdce0816de689ca3b3e42fb",
+      "pageId": "page_nybc313697_0227",
+      "scanIndex": 227,
+      "leafNumber": 226,
+      "printedPage": "211",
+      "passageCharStart": 1015,
+      "passageCharEnd": 1041,
+      "normalizedPassageCharStart": 1015,
+      "normalizedPassageCharEnd": 1041,
+      "pageCharStart": 1015,
+      "pageCharEnd": 1041,
+      "quote": "אוקראַינישע\nנאַצי-באַנדיטן",
+      "normalizedQuote": "אוקראַינישע\nנאַצי-באַנדיטן",
+      "modelQuote": "אוקראַינישע\nנאַצי-באַנדיטן",
+      "bbox": {
+        "left": 416,
+        "top": 2906,
+        "right": 2380,
+        "bottom": 3079
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n226/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "720a9b8103208a30a962a5017f73e8120e7453a57338d54d3b214c49d1986210",
+      "normalizedPassageChecksum": "a3becf4fa563cca69841730eb55e5dfdb023ad2765c572f912e12450bfd29fa9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b531eb4c03e2d16cb6cf6d9b",
+      "type": "Murder",
+      "title": "Living Jews buried with the dead",
+      "summary": "Nazi Ukrainian bandits forced living Jews into excavated graves with the dead.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1bdce0816de689ca3b3e42fb",
+        "pageId": "page_nybc313697_0227",
+        "scanIndex": 227,
+        "leafNumber": 226,
+        "printedPage": "211",
+        "passageCharStart": 1072,
+        "passageCharEnd": 1155,
+        "normalizedPassageCharStart": 1072,
+        "normalizedPassageCharEnd": 1155,
+        "pageCharStart": 1072,
+        "pageCharEnd": 1155,
+        "quote": "אריינצו-\nװאַרפן PR‏ די אויסגעגראָבענע גריבער די לעבעדיקע אידן\nצוזאַמען מיט די טויטע",
+        "normalizedQuote": "אריינצו-\nװאַרפן PR‏ די אויסגעגראָבענע גריבער די לעבעדיקע אידן\nצוזאַמען מיט די טויטע",
+        "modelQuote": "אריינצו-\nװאַרפן PR‏ די אויסגעגראָבענע גריבער די לעבעדיקע אידן\nצוזאַמען מיט די טויטע",
+        "bbox": {
+          "left": 415,
+          "top": 3006,
+          "right": 2381,
+          "bottom": 3282
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n226/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "720a9b8103208a30a962a5017f73e8120e7453a57338d54d3b214c49d1986210",
+        "normalizedPassageChecksum": "a3becf4fa563cca69841730eb55e5dfdb023ad2765c572f912e12450bfd29fa9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b531eb4c03e2d16cb6cf6d9b",
+      "type": "Event",
+      "title": "Living Jews buried with the dead",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_f1917604ede3ba35ec021865",
+      "type": "Place",
+      "title": "Excavated Graves",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

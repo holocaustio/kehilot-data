@@ -1,0 +1,107 @@
+{
+  "id": "mention_d901c1fbf88db5132a34bf4c",
+  "type": "Place",
+  "title": "7 Gildowe Street",
+  "summary": "Address of the destroyed Paienibank building.",
+  "originalName": "גילדאָװע 7",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 175,
+  "printedPage": "159",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street address",
+  "uncertaintyNote": "The OCR identifies the address, while the building name is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c23dd01a6efb1315d1801205",
+      "pageId": "page_nybc313697_0175",
+      "scanIndex": 175,
+      "leafNumber": 174,
+      "printedPage": "159",
+      "passageCharStart": 869,
+      "passageCharEnd": 884,
+      "normalizedPassageCharStart": 869,
+      "normalizedPassageCharEnd": 884,
+      "pageCharStart": 2146,
+      "pageCharEnd": 2161,
+      "quote": "אויף גילדאָװע 7",
+      "normalizedQuote": "אויף גילדאָװע 7",
+      "modelQuote": "אויף גילדאָװע 7",
+      "bbox": {
+        "left": 3189,
+        "top": 3756,
+        "right": 3657,
+        "bottom": 3832
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n174/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "e8bd2856484a0fe09c5dfdb5b957b22795360fe5ca20cda05d064d02031af27c",
+      "normalizedPassageChecksum": "5b7d31389d2e8a635fe99700a26e98f7455fd8af326527696fb1cddc74dd3af0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_6961d2bbe3cb84b3b1656bd6",
+      "predicate": "Located In",
+      "subjectTitle": "7 Gildowe Street",
+      "objectTitle": "Bialystok",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage presents the address in the context of Bialystok, but the exact location relationship is implicit.",
+      "evidence": {
+        "passageId": "passage_c23dd01a6efb1315d1801205",
+        "pageId": "page_nybc313697_0175",
+        "scanIndex": 175,
+        "leafNumber": 174,
+        "printedPage": "159",
+        "passageCharStart": 843,
+        "passageCharEnd": 884,
+        "normalizedPassageCharStart": 843,
+        "normalizedPassageCharEnd": 884,
+        "pageCharStart": 2120,
+        "pageCharEnd": 2161,
+        "quote": "די צעשטערטע פּאַיעןיבאַנק אויף גילדאָװע 7",
+        "normalizedQuote": "די צעשטערטע פּאַיעןיבאַנק אויף גילדאָװע 7",
+        "modelQuote": "די צעשטערטע פּאַיעןיבאַנק אויף גילדאָװע 7",
+        "bbox": {
+          "left": 3189,
+          "top": 3756,
+          "right": 4470,
+          "bottom": 3832
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n174/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "e8bd2856484a0fe09c5dfdb5b957b22795360fe5ca20cda05d064d02031af27c",
+        "normalizedPassageChecksum": "5b7d31389d2e8a635fe99700a26e98f7455fd8af326527696fb1cddc74dd3af0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_99933590bfaa7e6bfc44b2d1",
+      "type": "Institution",
+      "title": "Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

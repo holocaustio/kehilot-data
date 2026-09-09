@@ -1,0 +1,101 @@
+{
+  "id": "mention_f9ab38d23205f54d5705e18c",
+  "type": "Person",
+  "title": "the narrator's father",
+  "summary": "The narrator's father was assigned a number at Auschwitz.",
+  "originalName": "מיין פאָטער",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 335,
+  "printedPage": "319",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "father",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6f166528eb36790a6e8afcfd",
+      "pageId": "page_nybc313697_0335",
+      "scanIndex": 335,
+      "leafNumber": 334,
+      "printedPage": "319",
+      "passageCharStart": 692,
+      "passageCharEnd": 713,
+      "normalizedPassageCharStart": 692,
+      "normalizedPassageCharEnd": 713,
+      "pageCharStart": 1302,
+      "pageCharEnd": 1323,
+      "quote": "נומער פון מיין פאָטער",
+      "normalizedQuote": "נומער פון מיין פאָטער",
+      "modelQuote": "נומער פון מיין פאָטער",
+      "bbox": {
+        "left": 1571,
+        "top": 2854,
+        "right": 2387,
+        "bottom": 2924
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n334/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "db54fabbcb2405a0dde9982a037ad3e05bfba41221bcaf3704abbe79a1771db2",
+      "normalizedPassageChecksum": "1e84e9e79af0af371c36126b2b3bf8f9397de9a1b262c522952296897e512776",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_41665567a7f12b6740df25e3",
+      "type": "Number Assignment",
+      "title": "Number assigned to the narrator's father",
+      "summary": "A number was written down for the narrator's father; imprisonment is not directly stated.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR is noisy and the exact administrative action is somewhat unclear.",
+      "evidence": {
+        "passageId": "passage_6f166528eb36790a6e8afcfd",
+        "pageId": "page_nybc313697_0335",
+        "scanIndex": 335,
+        "leafNumber": 334,
+        "printedPage": "319",
+        "passageCharStart": 668,
+        "passageCharEnd": 713,
+        "normalizedPassageCharStart": 668,
+        "normalizedPassageCharEnd": 713,
+        "pageCharStart": 1278,
+        "pageCharEnd": 1323,
+        "quote": "אויפגעשריבן געװאָרן דער\nנומער פון מיין פאָטער",
+        "normalizedQuote": "אויפגעשריבן געװאָרן דער\nנומער פון מיין פאָטער",
+        "modelQuote": "אויפגעשריבן געװאָרן דער נומער פון מיין פאָטער",
+        "bbox": {
+          "left": 380,
+          "top": 2752,
+          "right": 2387,
+          "bottom": 2924
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n334/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "db54fabbcb2405a0dde9982a037ad3e05bfba41221bcaf3704abbe79a1771db2",
+        "normalizedPassageChecksum": "1e84e9e79af0af371c36126b2b3bf8f9397de9a1b262c522952296897e512776",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_41665567a7f12b6740df25e3",
+      "type": "Event",
+      "title": "Number assigned to the narrator's father",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_77c65d392fc90ea3a55c5081",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

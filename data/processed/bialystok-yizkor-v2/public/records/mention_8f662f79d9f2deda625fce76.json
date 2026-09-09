@@ -1,0 +1,95 @@
+{
+  "id": "mention_8f662f79d9f2deda625fce76",
+  "type": "Organization",
+  "title": "Tuler and Wilner Zemelni Bank",
+  "summary": "A bank that began issuing loans for newly built houses.",
+  "originalName": "די טולער און די ווילנער ,זעמעלני\" באַנק",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 27,
+  "printedPage": "11",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "bank",
+  "uncertaintyNote": "The bank name is affected by OCR and punctuation.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_43ef140d55d6b9540c223d04",
+      "pageId": "page_nybc313697_0027",
+      "scanIndex": 27,
+      "leafNumber": 26,
+      "printedPage": "11",
+      "passageCharStart": 380,
+      "passageCharEnd": 419,
+      "normalizedPassageCharStart": 380,
+      "normalizedPassageCharEnd": 419,
+      "pageCharStart": 5366,
+      "pageCharEnd": 5405,
+      "quote": "די טולער און די ווילנער ,זעמעלני\"\nבאַנק",
+      "normalizedQuote": "די טולער און די ווילנער ,זעמעלני\"\nבאַנק",
+      "modelQuote": "די טולער און די ווילנער ,זעמעלני\"\nבאַנק",
+      "bbox": {
+        "left": 2572,
+        "top": 5494,
+        "right": 4533,
+        "bottom": 5687
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n26/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "9b032652e0884f61a4c9d26a99f0e099f963bec9ce6c11008cf79e298f26be86",
+      "normalizedPassageChecksum": "7fea1028587fb0e5ec5f983c3b039854a312f77710f4c45bb8fa4e855f974e27",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_1cc6c1892300546947c23511",
+      "type": "Business Opening",
+      "title": "Bank loans for newly built houses",
+      "summary": "The Tuler and Wilner Zemelni Bank began issuing loans for newly built houses.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_43ef140d55d6b9540c223d04",
+        "pageId": "page_nybc313697_0027",
+        "scanIndex": 27,
+        "leafNumber": 26,
+        "printedPage": "11",
+        "passageCharStart": 414,
+        "passageCharEnd": 482,
+        "normalizedPassageCharStart": 414,
+        "normalizedPassageCharEnd": 482,
+        "pageCharStart": 5400,
+        "pageCharEnd": 5468,
+        "quote": "באַנק האָבן אָנגעהױבן אַרױסצוגעבן הלוואות אויף נייי\nגעמויערטע הייזער",
+        "normalizedQuote": "באַנק האָבן אָנגעהױבן אַרױסצוגעבן הלוואות אויף נייי\nגעמויערטע הייזער",
+        "modelQuote": "באַנק האָבן אָנגעהױבן אַרױסצוגעבן הלוואות אויף נייי\nגעמויערטע הייזער",
+        "bbox": {
+          "left": 2576,
+          "top": 5602,
+          "right": 4534,
+          "bottom": 5787
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n26/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "9b032652e0884f61a4c9d26a99f0e099f963bec9ce6c11008cf79e298f26be86",
+        "normalizedPassageChecksum": "7fea1028587fb0e5ec5f983c3b039854a312f77710f4c45bb8fa4e855f974e27",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_1cc6c1892300546947c23511",
+      "type": "Event",
+      "title": "Bank loans for newly built houses",
+      "relation": "Participated In",
+      "role": "Subject"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -2,15 +2,15 @@
   "id": "mention_855b6aaa0e6a62ca32a30ea3",
   "type": "Person",
   "title": "Zinoviev",
-  "summary": "Zinoviev is mentioned in connection with the brother's imprisonment.",
+  "summary": "Person whose imprisonment was mentioned alongside Kamenev's.",
   "originalName": "זינאָוויעוו'ז",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 122,
   "printedPage": "106",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The possessive or punctuation form is unclear in OCR.",
+  "subtype": "political figure",
   "evidenceRefs": [
     {
       "passageId": "passage_509cf5776fc4b72cccad3e1e",
@@ -20,8 +20,8 @@
       "printedPage": "106",
       "passageCharStart": 118,
       "passageCharEnd": 131,
-      "normalizedPassageCharStart": 101,
-      "normalizedPassageCharEnd": 114,
+      "normalizedPassageCharStart": 118,
+      "normalizedPassageCharEnd": 131,
       "pageCharStart": 1541,
       "pageCharEnd": 1554,
       "quote": "זינאָוויעוו'ז",
@@ -38,17 +38,17 @@
       "passageChecksum": "d6d5bbd464ff949fd87508821d5b919a0740e131eff33d6dff25fcf7cfc774ba",
       "normalizedPassageChecksum": "b11bd2d7e39f1dd1a8881d4215f4ab5784052e55293e76b46316c5ac756de9f5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_b555e7737056ed59f4aa0c14",
+      "id": "event_candidate_c85d7741196d85c7d9ecbd0e",
       "type": "Arrest",
-      "title": "Meir's first arrest",
-      "summary": "Meir was arrested and imprisoned with people identified as Kameniev and Zinoviev.",
+      "title": "Mair's first arrest",
+      "summary": "Mair was imprisoned with Kamenev and Zinoviev.",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_509cf5776fc4b72cccad3e1e",
@@ -58,13 +58,13 @@
         "printedPage": "106",
         "passageCharStart": 22,
         "passageCharEnd": 45,
-        "normalizedPassageCharStart": 17,
-        "normalizedPassageCharEnd": 38,
+        "normalizedPassageCharStart": 22,
+        "normalizedPassageCharEnd": 45,
         "pageCharStart": 1445,
         "pageCharEnd": 1468,
         "quote": "ברודער געווען אַרעסטירט",
-        "normalizedQuote": "ברודערגעוועןאַרעסטירט",
-        "modelQuote": "ברודערגעוועןאַרעסטירט",
+        "normalizedQuote": "ברודער געווען אַרעסטירט",
+        "modelQuote": "ברודער געווען אַרעסטירט",
         "bbox": {
           "left": 379,
           "top": 3100,
@@ -76,35 +76,47 @@
         "passageChecksum": "d6d5bbd464ff949fd87508821d5b919a0740e131eff33d6dff25fcf7cfc774ba",
         "normalizedPassageChecksum": "b11bd2d7e39f1dd1a8881d4215f4ab5784052e55293e76b46316c5ac756de9f5",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_b555e7737056ed59f4aa0c14",
+      "id": "event_candidate_c85d7741196d85c7d9ecbd0e",
       "type": "Event",
-      "title": "Meir's first arrest",
+      "title": "Mair's first arrest",
       "relation": "Participated In",
       "role": "Participant"
     },
     {
-      "id": "mention_87d3b6061ad00ffb6660283b",
+      "id": "mention_2ccf459b011411276111cb04",
       "type": "Person",
-      "title": "Meir",
+      "title": "Kamenev",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bc70fe756036d1935adec32b",
+      "id": "mention_fe791c751a8bbf46f110ab7b",
       "type": "Person",
-      "title": "Kameniev",
+      "title": "Mair",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a4034e4fcbe0cd50a6d0a7a0",
+      "id": "mention_866fa05900dbd062c1c618aa",
+      "type": "Person",
+      "title": "Baron Ginzburg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9b9e2da82c8299f9109f2861",
       "type": "Place",
       "title": "Kiev",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_478bad212a537ccf78bfd86e",
+      "type": "Place",
+      "title": "Kiev prison",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,107 @@
+{
+  "id": "mention_81c91287068a28ff66c88b66",
+  "type": "Person",
+  "title": "Abramchik",
+  "summary": "An orphan who urged children in the orphanage to end their lives.",
+  "originalName": "אַבראַמטשיק",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 215,
+  "printedPage": "199",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "orphan activist",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e31bfe8129fd36d78b6fb8ad",
+      "pageId": "page_nybc313697_0215",
+      "scanIndex": 215,
+      "leafNumber": 214,
+      "printedPage": "199",
+      "passageCharStart": 476,
+      "passageCharEnd": 512,
+      "normalizedPassageCharStart": 476,
+      "normalizedPassageCharEnd": 512,
+      "pageCharStart": 4088,
+      "pageCharEnd": 4124,
+      "quote": "אַבראַמטשיק, אַ יתום פון יתומים:הויז",
+      "normalizedQuote": "אַבראַמטשיק, אַ יתום פון יתומים:הויז",
+      "modelQuote": "אַבראַמטשיק, אַ יתום פון יתומים:הויז",
+      "bbox": {
+        "left": 3061,
+        "top": 3322,
+        "right": 4342,
+        "bottom": 3391
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n214/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "d7675362a573223386ecb216282bf0cd13615e9f433eb56ad31072ece701a7af",
+      "normalizedPassageChecksum": "453f04f18856fa98b66edc2b8b89fd5ec1624f61838a3bc492309929625bbdb7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a11fde57e0a5f62b6752e7ab",
+      "type": "Death",
+      "title": "Suicides of two orphans",
+      "summary": "Two orphans followed Abramchik's call and hanged themselves at the orphanage entrance.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR corruption obscures parts of the sentence.",
+      "evidence": {
+        "passageId": "passage_e31bfe8129fd36d78b6fb8ad",
+        "pageId": "page_nybc313697_0215",
+        "scanIndex": 215,
+        "leafNumber": 214,
+        "printedPage": "199",
+        "passageCharStart": 708,
+        "passageCharEnd": 776,
+        "normalizedPassageCharStart": 708,
+        "normalizedPassageCharEnd": 776,
+        "pageCharStart": 4320,
+        "pageCharEnd": 4388,
+        "quote": "נאָר צוויי יתומים, וועלכע TANT‏ זיך צו\"\nזאַמען מיט DN‏ אויפגעהאַנגען",
+        "normalizedQuote": "נאָר צוויי יתומים, וועלכע TANT‏ זיך צו\"\nזאַמען מיט DN‏ אויפגעהאַנגען",
+        "modelQuote": "נאָר צוויי יתומים, וועלכע TANT‏ זיך צו\"זאַמען מיט DN‏ אויפגעהאַנגען",
+        "bbox": {
+          "left": 2572,
+          "top": 3703,
+          "right": 4492,
+          "bottom": 3886
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n214/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "d7675362a573223386ecb216282bf0cd13615e9f433eb56ad31072ece701a7af",
+        "normalizedPassageChecksum": "453f04f18856fa98b66edc2b8b89fd5ec1624f61838a3bc492309929625bbdb7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a11fde57e0a5f62b6752e7ab",
+      "type": "Event",
+      "title": "Suicides of two orphans",
+      "relation": "Participated In",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_d3aaff75cb268e2b350362a4",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_76039d189c2b338df4c74d58",
+      "type": "Institution",
+      "title": "Hospital",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

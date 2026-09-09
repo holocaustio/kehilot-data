@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_11a4c6ae93416194f21281bd",
+  "type": "Event",
+  "title": "Deportation to Majdanek",
+  "summary": "A wagon transported victims to Majdanek.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 251,
+  "printedPage": "235",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The OCR-corrupted date and unnamed victims are unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cf7668d47ad496ef92aeee27",
+      "pageId": "page_nybc313697_0251",
+      "scanIndex": 251,
+      "leafNumber": 250,
+      "printedPage": "235",
+      "passageCharStart": 1029,
+      "passageCharEnd": 1061,
+      "normalizedPassageCharStart": 1029,
+      "normalizedPassageCharEnd": 1061,
+      "pageCharStart": 3589,
+      "pageCharEnd": 3621,
+      "quote": "אָפּגעפירט געװאָרן PP‏ מיידאַנעק",
+      "normalizedQuote": "אָפּגעפירט געװאָרן PP‏ מיידאַנעק",
+      "modelQuote": "אָפּגעפירט געװאָרן PP‏ מיידאַנעק",
+      "bbox": {
+        "left": 3358,
+        "top": 4750,
+        "right": 4531,
+        "bottom": 4824
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n250/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "99a8b741e002b2874dcc8c9cf80314784191369ac61c31d2658818c9c18ea929",
+      "normalizedPassageChecksum": "4c40190382cb0b7254a495fb944c86ae3c056db21a101686a74fec0e7682f8d5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_76165d19deb49f5e4c44fda5",
+      "type": "Place",
+      "title": "Majdanek",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70fc2d041366c8b2f6644388",
+      "type": "Organization",
+      "title": "SS",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

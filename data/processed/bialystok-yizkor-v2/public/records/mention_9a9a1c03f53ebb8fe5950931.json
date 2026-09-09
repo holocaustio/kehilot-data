@@ -2,10 +2,10 @@
   "id": "mention_9a9a1c03f53ebb8fe5950931",
   "type": "Person",
   "title": "Tsitrin",
-  "summary": "",
+  "summary": "Named as a member of the Velki Przemysl manufacturers’ association.",
   "originalName": "ציטרין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 94,
   "printedPage": "78",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,8 +19,8 @@
       "printedPage": "78",
       "passageCharStart": 713,
       "passageCharEnd": 719,
-      "normalizedPassageCharStart": 622,
-      "normalizedPassageCharEnd": 628,
+      "normalizedPassageCharStart": 713,
+      "normalizedPassageCharEnd": 719,
       "pageCharStart": 4164,
       "pageCharEnd": 4170,
       "quote": "ציטרין",
@@ -37,59 +37,84 @@
       "passageChecksum": "248a826d4954211dcaca2f6dc5d08b6f18405185f22529c6596e2e760d9e1fe6",
       "normalizedPassageChecksum": "4a569c394cec95b12560d47befd0ae2257847e22f7d9b86430b5b22cdf5cf02d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_dd94df0c1e57b75f2fdcd683",
+      "predicate": "Member Of",
+      "subjectTitle": "Velki Przemysl",
+      "objectTitle": "Tsitrin",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_b437159e4429d2d3c6e3738d",
+        "pageId": "page_nybc313697_0094",
+        "scanIndex": 94,
+        "leafNumber": 93,
+        "printedPage": "78",
+        "passageCharStart": 713,
+        "passageCharEnd": 719,
+        "normalizedPassageCharStart": 713,
+        "normalizedPassageCharEnd": 719,
+        "pageCharStart": 4164,
+        "pageCharEnd": 4170,
+        "quote": "ציטרין",
+        "normalizedQuote": "ציטרין",
+        "modelQuote": "ציטרין",
+        "bbox": {
+          "left": 4521,
+          "top": 5313,
+          "right": 4735,
+          "bottom": 5383
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n93/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "248a826d4954211dcaca2f6dc5d08b6f18405185f22529c6596e2e760d9e1fe6",
+        "normalizedPassageChecksum": "4a569c394cec95b12560d47befd0ae2257847e22f7d9b86430b5b22cdf5cf02d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_a8695f7584335560fdf2aab7",
-      "type": "Institution",
-      "title": "Ministry of War",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bddab023b8e0d6f43ead1133",
-      "type": "Person",
-      "title": "Grabski",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7f35cf0f9d354d0782f7a321",
-      "type": "Place",
-      "title": "Bialystok",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_41647ea9e96aa1c9a8e22e51",
+      "id": "mention_f926a90daf75b3820faaae99",
       "type": "Organization",
-      "title": "Jewish Manufacturers' Delegation",
-      "relation": "Appears in same passage"
+      "title": "Velki Przemysl",
+      "relation": "Member Of"
     },
     {
-      "id": "mention_6b50ee71aa770ffb90db5535",
+      "id": "mention_001d70de4b84e58f86ac1c6d",
       "type": "Person",
       "title": "Novik",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f6d0c6ecebd6203615bcc788",
+      "id": "mention_3b5811e497de811cc088b05f",
+      "type": "Person",
+      "title": "Paretski-Gavenski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_42eba418a9cf2f66257684df",
       "type": "Person",
       "title": "Triling",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_257b0626c55deee2e278a80c",
+      "id": "mention_383d47335ade6917414dba19",
       "type": "Person",
-      "title": "Isaac Pines",
+      "title": "Isaak Pines",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d9eff9065af00f49c1e61a79",
-      "type": "Organization",
-      "title": "Sokol Union",
+      "id": "mention_831eddff4346d849e22e42af",
+      "type": "Person",
+      "title": "Sokol",
       "relation": "Appears in same passage"
     },
     {
@@ -105,9 +130,33 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5bfb78b191f424c7f40f07f7",
+      "id": "mention_30c991feaabfcbd4108baaad",
       "type": "Person",
-      "title": "Emil Kulikovsky",
+      "title": "Marine",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5f5161c937fd3e9e7ee29eaa",
+      "type": "Person",
+      "title": "Emil Kulikovski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1b63c4f80443484970996f5a",
+      "type": "Person",
+      "title": "Itshe Meir Sokol",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_44ae3819e94adddae42fd09f",
+      "type": "Person",
+      "title": "Grabski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
       "relation": "Appears in same passage"
     }
   ],

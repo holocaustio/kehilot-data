@@ -1,0 +1,105 @@
+{
+  "id": "mention_e48a67954e943bca47e2ce19",
+  "type": "Place",
+  "title": "Waszlikower Street",
+  "summary": "Street identified as the location of the High Beth Midrash.",
+  "originalName": "רחוב וואשליקאוור",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 46,
+  "printedPage": "30",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e8103fb04582246f67a3f1d1",
+      "pageId": "page_nybc313697_0046",
+      "scanIndex": 46,
+      "leafNumber": 45,
+      "printedPage": "30",
+      "passageCharStart": 916,
+      "passageCharEnd": 933,
+      "normalizedPassageCharStart": 916,
+      "normalizedPassageCharEnd": 933,
+      "pageCharStart": 4278,
+      "pageCharEnd": 4295,
+      "quote": "ברחוב וואשליקאוור",
+      "normalizedQuote": "ברחוב וואשליקאוור",
+      "modelQuote": "ברחוב וואשליקאוור",
+      "bbox": {
+        "left": 3677,
+        "top": 5136,
+        "right": 4350,
+        "bottom": 5217
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n45/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "639e8f7dfb4b95388a9c621061258ad3185ef0e7ae52e45528af0921f3e1810b",
+      "normalizedPassageChecksum": "a60e85a2c445f65fd5ee8081999edfdfa930d29841529ee1266ed9ce119036aa",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2500941a6fdb932ee74abb29",
+      "predicate": "Located In",
+      "subjectTitle": "High Beth Midrash",
+      "objectTitle": "Waszlikower Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e8103fb04582246f67a3f1d1",
+        "pageId": "page_nybc313697_0046",
+        "scanIndex": 46,
+        "leafNumber": 45,
+        "printedPage": "30",
+        "passageCharStart": 903,
+        "passageCharEnd": 933,
+        "normalizedPassageCharStart": 903,
+        "normalizedPassageCharEnd": 933,
+        "pageCharStart": 4265,
+        "pageCharEnd": 4295,
+        "quote": "בבהמ\"ד הגבוה\nברחוב וואשליקאוור",
+        "normalizedQuote": "בבהמ\"ד הגבוה\nברחוב וואשליקאוור",
+        "modelQuote": "בבהמ\"ד הגבוה ברחוב וואשליקאוור",
+        "bbox": {
+          "left": 2808,
+          "top": 5049,
+          "right": 4350,
+          "bottom": 5217
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n45/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "639e8f7dfb4b95388a9c621061258ad3185ef0e7ae52e45528af0921f3e1810b",
+        "normalizedPassageChecksum": "a60e85a2c445f65fd5ee8081999edfdfa930d29841529ee1266ed9ce119036aa",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_1a6dd4bf1e5771591ecc9867",
+      "type": "Institution",
+      "title": "High Beth Midrash",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_1a6dd4bf1e5771591ecc9867",
+      "type": "Institution",
+      "title": "High Beth Midrash",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_469a9a61893c0712a68e9022",
+      "type": "Event",
+      "title": "Public Fast for the Pogroms",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

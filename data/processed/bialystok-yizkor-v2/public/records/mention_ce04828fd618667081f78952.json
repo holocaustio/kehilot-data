@@ -1,0 +1,112 @@
+{
+  "id": "mention_ce04828fd618667081f78952",
+  "type": "Person",
+  "title": "Josef Mengele",
+  "summary": "Named as a camp doctor who selected prisoners for death.",
+  "originalName": "מענגעלע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 329,
+  "printedPage": "313",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Nazi physician",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a125823ed2cdbb8ee61336ea",
+      "pageId": "page_nybc313697_0329",
+      "scanIndex": 329,
+      "leafNumber": 328,
+      "printedPage": "313",
+      "passageCharStart": 596,
+      "passageCharEnd": 603,
+      "normalizedPassageCharStart": 596,
+      "normalizedPassageCharEnd": 603,
+      "pageCharStart": 1624,
+      "pageCharEnd": 1631,
+      "quote": "מענגעלע",
+      "normalizedQuote": "מענגעלע",
+      "modelQuote": "מענגעלע",
+      "bbox": {
+        "left": 1144,
+        "top": 4128,
+        "right": 1453,
+        "bottom": 4212
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n328/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "40b94163e251b64f26b21a140668273d344cd6640a12e4e29763416d8e9ad54a",
+      "normalizedPassageChecksum": "8164a6cb1ad4e734a6edac3d6727598e7a7b08cc3b49efa027aef435a53c33e4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_4afe9bab08d7084d57a6d827",
+      "type": "Murder",
+      "title": "Selections at Auschwitz",
+      "summary": "Mengele is described sending arrivals toward death with a gesture of his cane.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a125823ed2cdbb8ee61336ea",
+        "pageId": "page_nybc313697_0329",
+        "scanIndex": 329,
+        "leafNumber": 328,
+        "printedPage": "313",
+        "passageCharStart": 777,
+        "passageCharEnd": 797,
+        "normalizedPassageCharStart": 777,
+        "normalizedPassageCharEnd": 797,
+        "pageCharStart": 1805,
+        "pageCharEnd": 1825,
+        "quote": "זי אָפּשיקן\nצום טויט",
+        "normalizedQuote": "זי אָפּשיקן\nצום טויט",
+        "modelQuote": "זי אָפּשיקן צום טויט",
+        "bbox": {
+          "left": 390,
+          "top": 4450,
+          "right": 2396,
+          "bottom": 4606
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n328/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "40b94163e251b64f26b21a140668273d344cd6640a12e4e29763416d8e9ad54a",
+        "normalizedPassageChecksum": "8164a6cb1ad4e734a6edac3d6727598e7a7b08cc3b49efa027aef435a53c33e4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_4afe9bab08d7084d57a6d827",
+      "type": "Event",
+      "title": "Selections at Auschwitz",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_3665939c1c84db6f43d99dc7",
+      "type": "Place",
+      "title": "Auschwitz station",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a4a5382b8caf393a2cb40328",
+      "type": "Place",
+      "title": "Blizhin labor camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a75e021b9a93366c0b2af6cc",
+      "type": "Person",
+      "title": "Arthur Gasberg",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

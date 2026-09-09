@@ -2,10 +2,10 @@
   "id": "mention_98ead07d517742478da2301c",
   "type": "Institution",
   "title": "Kadimah Culture Center in Melbourne",
-  "summary": "Institution receiving the Pejsach Kaplan Library.",
-  "originalName": "KadimahCultureCenterinMelbourne",
+  "summary": "Melbourne cultural center receiving the Pejsach Kaplan Library.",
+  "originalName": "Kadimah Culture Center in Melbourne",
   "confidence": "HIGH",
-  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 428,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 3493,
       "passageCharEnd": 3528,
-      "normalizedPassageCharStart": 3022,
-      "normalizedPassageCharEnd": 3053,
+      "normalizedPassageCharStart": 3493,
+      "normalizedPassageCharEnd": 3528,
       "pageCharStart": 3493,
       "pageCharEnd": 3528,
       "quote": "Kadimah Culture Center in Melbourne",
-      "normalizedQuote": "KadimahCultureCenterinMelbourne",
+      "normalizedQuote": "Kadimah Culture Center in Melbourne",
       "modelQuote": "Kadimah Culture Center in Melbourne",
       "bbox": {
         "left": 2561,
@@ -38,45 +38,44 @@
       "passageChecksum": "f10253cb3058650612a3ebb99af4836b37a17f9fb233d4e976901ba69dbce3b9",
       "normalizedPassageChecksum": "3411359705e40ddba4a3a1f8383275b223ee04982be6aa858d71d23d940ea9df",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_cabc484ff889af41147539e5",
-      "predicate": "Under Auspices Of",
-      "subjectTitle": "Bialystoker Centre in Australia",
-      "objectTitle": "Kadimah Culture Center in Melbourne",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The OCR describes the library as being under the Centre’s auspices, not a formal affiliation.",
+      "id": "claim_candidate_0d764a2d12a172ccaa121cb0",
+      "predicate": "Located In",
+      "subjectTitle": "Kadimah Culture Center in Melbourne",
+      "objectTitle": "Melbourne",
+      "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_fb20df293b6fcd1aefd2860c",
         "pageId": "page_nybc313697_0428",
         "scanIndex": 428,
         "leafNumber": 427,
         "printedPage": null,
-        "passageCharStart": 2852,
-        "passageCharEnd": 2879,
-        "normalizedPassageCharStart": 2462,
-        "normalizedPassageCharEnd": 2486,
-        "pageCharStart": 2852,
-        "pageCharEnd": 2879,
-        "quote": "under the Centre’s auspices",
-        "normalizedQuote": "undertheCentre’sauspices",
-        "modelQuote": "under the Centre’s auspices",
+        "passageCharStart": 3493,
+        "passageCharEnd": 3528,
+        "normalizedPassageCharStart": 3493,
+        "normalizedPassageCharEnd": 3528,
+        "pageCharStart": 3493,
+        "pageCharEnd": 3528,
+        "quote": "Kadimah Culture Center in Melbourne",
+        "normalizedQuote": "Kadimah Culture Center in Melbourne",
+        "modelQuote": "Kadimah Culture Center in Melbourne",
         "bbox": {
-          "left": 3412,
-          "top": 1200,
-          "right": 4404,
-          "bottom": 1274
+          "left": 2561,
+          "top": 2475,
+          "right": 4011,
+          "bottom": 2541
         },
         "scanUrl": "https://archive.org/details/nybc313697/page/n427/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
         "passageChecksum": "f10253cb3058650612a3ebb99af4836b37a17f9fb233d4e976901ba69dbce3b9",
         "normalizedPassageChecksum": "3411359705e40ddba4a3a1f8383275b223ee04982be6aa858d71d23d940ea9df",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
@@ -84,63 +83,69 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_58a0c2989b81ae5fb1a5e35a",
-      "type": "Organization",
-      "title": "Bialystoker Centre in Australia",
-      "relation": "Under Auspices Of"
+      "id": "mention_71196964f4ce4e8b5a104d59",
+      "type": "Place",
+      "title": "Melbourne",
+      "relation": "Located In"
     },
     {
-      "id": "mention_3c81e340acb970bfeb7c6c35",
+      "id": "mention_2f6b67ec2381a51240e458ef",
       "type": "Person",
       "title": "Pejsach Albert",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_58a0c2989b81ae5fb1a5e35a",
+      "id": "mention_9ecc8ef5de44d8363612e061",
       "type": "Organization",
       "title": "Bialystoker Centre in Australia",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8505fa0af270eb8d6daca6c4",
+      "id": "mention_71196964f4ce4e8b5a104d59",
+      "type": "Place",
+      "title": "Melbourne",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b07ff62c964a48a6b7abbedd",
       "type": "Place",
       "title": "St. Kilda",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_228cd1507d05b0c673b4ea32",
+      "id": "mention_4ed8d2414223932427bfe3d2",
       "type": "Person",
       "title": "M. Pit",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_043e22839361653afe0cfece",
+      "id": "mention_3b92f2bcc6ae0824111ce39d",
       "type": "Person",
       "title": "Esther",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a0e2cab158003fdcd0371dc2",
+      "id": "mention_847d90db8bab01b2903ea63d",
+      "type": "Person",
+      "title": "Awrom Zbar",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fa16327be4fea0ebeca04e92",
       "type": "Person",
       "title": "Pejsach Kaplan",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bd4ab82442d8c33a25c89db1",
-      "type": "Family",
-      "title": "Davis brothers",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_88e61134c0649699ed19b576",
+      "id": "mention_403313345ebc11276adc297f",
       "type": "Organization",
       "title": "Red Magen David",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_048bbf80ac343bcde3b84187",
+      "id": "mention_5847e648b9d7c460e1cec62e",
       "type": "Place",
-      "title": "Kiryat Bialystok",
+      "title": "Kiryat Bialystok in Israel",
       "relation": "Appears in same passage"
     }
   ],

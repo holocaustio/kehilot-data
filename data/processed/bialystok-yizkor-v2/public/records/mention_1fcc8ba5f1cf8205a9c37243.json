@@ -1,0 +1,124 @@
+{
+  "id": "mention_1fcc8ba5f1cf8205a9c37243",
+  "type": "Family",
+  "title": "Sam Salazh’s family",
+  "summary": "Sam Salazh’s murdered parents and ten siblings.",
+  "originalName": "משפּחה",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 323,
+  "printedPage": "307",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "family",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c9c7419900fe6440a3bca44d",
+      "pageId": "page_nybc313697_0323",
+      "scanIndex": 323,
+      "leafNumber": 322,
+      "printedPage": "307",
+      "passageCharStart": 672,
+      "passageCharEnd": 706,
+      "normalizedPassageCharStart": 672,
+      "normalizedPassageCharEnd": 706,
+      "pageCharStart": 1810,
+      "pageCharEnd": 1844,
+      "quote": "מיינע זעקס ברידער און פיר שוועסטער",
+      "normalizedQuote": "מיינע זעקס ברידער און פיר שוועסטער",
+      "modelQuote": "מיינע זעקס ברידער און פיר שוועסטער",
+      "bbox": {
+        "left": 2554,
+        "top": 1181,
+        "right": 3981,
+        "bottom": 1251
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n322/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "7e7e3500b839dddc52739deb71274343ef30538b4982407895483eb735b2f096",
+      "normalizedPassageChecksum": "1a62d0adc059ec86a7dd48d80ad775db211762971cfe8f67cd3fedff14d21451",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e989dd742747b89212b2ce23",
+      "type": "Murder",
+      "title": "Murder of Salazh’s family",
+      "summary": "Nazi murderers killed Salazh’s parents and ten siblings.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c9c7419900fe6440a3bca44d",
+        "pageId": "page_nybc313697_0323",
+        "scanIndex": 323,
+        "leafNumber": 322,
+        "printedPage": "307",
+        "passageCharStart": 590,
+        "passageCharEnd": 647,
+        "normalizedPassageCharStart": 590,
+        "normalizedPassageCharEnd": 647,
+        "pageCharStart": 1728,
+        "pageCharEnd": 1785,
+        "quote": "די נאַצישע רוצחים\nJINN‏ אומגעבראַכט מיין פאָטער און מוטער",
+        "normalizedQuote": "די נאַצישע רוצחים\nJINN‏ אומגעבראַכט מיין פאָטער און מוטער",
+        "modelQuote": "די נאַצישע רוצחים JINN‏ אומגעבראַכט מיין פאָטער און מוטער",
+        "bbox": {
+          "left": 2551,
+          "top": 975,
+          "right": 4562,
+          "bottom": 1148
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n322/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "7e7e3500b839dddc52739deb71274343ef30538b4982407895483eb735b2f096",
+        "normalizedPassageChecksum": "1a62d0adc059ec86a7dd48d80ad775db211762971cfe8f67cd3fedff14d21451",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e989dd742747b89212b2ce23",
+      "type": "Event",
+      "title": "Murder of Salazh’s family",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_0398da7417546013d9ec9d83",
+      "type": "Person",
+      "title": "Sam Salazh",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6576994b027063e5a4e1b9ec",
+      "type": "Person",
+      "title": "Shmai",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a4f57876ba2177fb8805493b",
+      "type": "Person",
+      "title": "Ester",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3aaff75cb268e2b350362a4",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5a9e5aa36a45398a274da5e7",
+      "type": "Community",
+      "title": "Jews murdered at Treblinka",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

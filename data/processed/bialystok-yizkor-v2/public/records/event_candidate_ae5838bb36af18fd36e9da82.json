@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_ae5838bb36af18fd36e9da82",
+  "type": "Event",
+  "title": "Visit to Auschwitz",
+  "summary": "Valery Giscard d’Estaing visited Auschwitz on June 18, 1975, accompanied by Samuel Pisar.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 419,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Visit",
+  "uncertaintyNote": "The visit is explicit, but LIBERATION is not a fitting event type.",
+  "dateStart": "1975-06-18",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d12ab5b2608510cff6c88418",
+      "pageId": "page_nybc313697_0419",
+      "scanIndex": 419,
+      "leafNumber": 418,
+      "printedPage": null,
+      "passageCharStart": 60,
+      "passageCharEnd": 98,
+      "normalizedPassageCharStart": 60,
+      "normalizedPassageCharEnd": 98,
+      "pageCharStart": 60,
+      "pageCharEnd": 98,
+      "quote": "On June 18, 1975, former French Presi-",
+      "normalizedQuote": "On June 18, 1975, former French Presi-",
+      "modelQuote": "On June 18, 1975, former French Presi-",
+      "bbox": {
+        "left": 1131,
+        "top": 903,
+        "right": 2390,
+        "bottom": 968
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n418/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "9e3deabc22cd485a17b3cb4ab095dd07fd6736482fec49bc40eb8520cae78801",
+      "normalizedPassageChecksum": "35b02a5cfad0ad82404966027b30072b47fe204ee2ec730d955aaaca766f6860",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_77c65d392fc90ea3a55c5081",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_f4c7073bd1d6cf4e1ac10f74",
+      "type": "Person",
+      "title": "Valery Giscard d’Estaing",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_efd50ca236acd725e6c699ef",
+      "type": "Person",
+      "title": "Samuel Pisar",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

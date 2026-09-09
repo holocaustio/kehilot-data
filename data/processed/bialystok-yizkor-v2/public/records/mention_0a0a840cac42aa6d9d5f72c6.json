@@ -1,0 +1,106 @@
+{
+  "id": "mention_0a0a840cac42aa6d9d5f72c6",
+  "type": "Place",
+  "title": "Stein’s warehouses",
+  "summary": "Stein’s warehouses employed several hundred workers and provided food payments.",
+  "originalName": "שטיינ'ס סקלאדעס",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 143,
+  "printedPage": "127",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "warehouse complex",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4a7584dabed157972994c1df",
+      "pageId": "page_nybc313697_0143",
+      "scanIndex": 143,
+      "leafNumber": 142,
+      "printedPage": "127",
+      "passageCharStart": 809,
+      "passageCharEnd": 828,
+      "normalizedPassageCharStart": 809,
+      "normalizedPassageCharEnd": 828,
+      "pageCharStart": 3469,
+      "pageCharEnd": 3488,
+      "quote": "אין שטיינ'ס סקלאדעס",
+      "normalizedQuote": "אין שטיינ'ס סקלאדעס",
+      "modelQuote": "אין שטיינ'ס סקלאדעס",
+      "bbox": {
+        "left": 3573,
+        "top": 4809,
+        "right": 4357,
+        "bottom": 4889
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n142/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "ac0b5310c159bc0258f76e2a823e719cbba85cccef8ef3f037f90daa86e7560e",
+      "normalizedPassageChecksum": "859770112576c3240b341bf6e5b7ef657d960a210772cee9fb578aea0b36f9b8",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f57d791dc9daf38be87c25fd",
+      "type": "Employment",
+      "title": "Workers at Stein’s warehouses contributed food",
+      "summary": "Workers at Stein’s warehouses received food as payment and contributed weekly food to Jewish orphans.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4a7584dabed157972994c1df",
+        "pageId": "page_nybc313697_0143",
+        "scanIndex": 143,
+        "leafNumber": 142,
+        "printedPage": "127",
+        "passageCharStart": 809,
+        "passageCharEnd": 858,
+        "normalizedPassageCharStart": 809,
+        "normalizedPassageCharEnd": 858,
+        "pageCharStart": 3469,
+        "pageCharEnd": 3518,
+        "quote": "אין שטיינ'ס סקלאדעס, למשל, וואו עס האָבן געאַרבעט",
+        "normalizedQuote": "אין שטיינ'ס סקלאדעס, למשל, וואו עס האָבן געאַרבעט",
+        "modelQuote": "אין שטיינ'ס סקלאדעס, למשל, וואו עס האָבן געאַרבעט",
+        "bbox": {
+          "left": 2427,
+          "top": 4809,
+          "right": 4357,
+          "bottom": 4891
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n142/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "ac0b5310c159bc0258f76e2a823e719cbba85cccef8ef3f037f90daa86e7560e",
+        "normalizedPassageChecksum": "859770112576c3240b341bf6e5b7ef657d960a210772cee9fb578aea0b36f9b8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f57d791dc9daf38be87c25fd",
+      "type": "Event",
+      "title": "Workers at Stein’s warehouses contributed food",
+      "relation": "Participated In",
+      "role": "Employer"
+    },
+    {
+      "id": "mention_e20bbefa0bd1a10dc7ab04b2",
+      "type": "Organization",
+      "title": "Nazi authorities",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_afbc37b58976ab2605723dd4",
+      "type": "Community",
+      "title": "Hungry Jewish orphans",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

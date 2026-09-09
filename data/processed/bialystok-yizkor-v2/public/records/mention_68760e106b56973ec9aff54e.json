@@ -1,0 +1,112 @@
+{
+  "id": "mention_68760e106b56973ec9aff54e",
+  "type": "Place",
+  "title": "Lublin camp",
+  "summary": "A Lublin camp commandant is mentioned in connection with an operation.",
+  "originalName": "לובלינער לאַגער",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 220,
+  "printedPage": "204",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_426f0ac65c249ff77ab5b6aa",
+      "pageId": "page_nybc313697_0220",
+      "scanIndex": 220,
+      "leafNumber": 219,
+      "printedPage": "204",
+      "passageCharStart": 407,
+      "passageCharEnd": 422,
+      "normalizedPassageCharStart": 407,
+      "normalizedPassageCharEnd": 422,
+      "pageCharStart": 3678,
+      "pageCharEnd": 3693,
+      "quote": "לובלינער לאַגער",
+      "normalizedQuote": "לובלינער לאַגער",
+      "modelQuote": "לובלינער לאַגער",
+      "bbox": {
+        "left": 2530,
+        "top": 5564,
+        "right": 3565,
+        "bottom": 5647
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n219/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "14c6bc7359951596e33ee59d1b2286841cd9e8e84305fa83e162885377db52ea",
+      "normalizedPassageChecksum": "715733f5e272df29adf94912541c52cee6cb453ce10088864dcf9e58bfa4aedf",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_abb2a87c980b74a8f5c27580",
+      "predicate": "Commander Of",
+      "subjectTitle": "Tuman",
+      "objectTitle": "Lublin camp",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage identifies Tuman as the camp commandant; OCR noise appears before the place name.",
+      "evidence": {
+        "passageId": "passage_426f0ac65c249ff77ab5b6aa",
+        "pageId": "page_nybc313697_0220",
+        "scanIndex": 220,
+        "leafNumber": 219,
+        "printedPage": "204",
+        "passageCharStart": 388,
+        "passageCharEnd": 458,
+        "normalizedPassageCharStart": 388,
+        "normalizedPassageCharEnd": 458,
+        "pageCharStart": 3659,
+        "pageCharEnd": 3729,
+        "quote": "אונטערץ אָנפיר WH‏ לובלינער לאַגער:קאָמענדאַנט,\nאָבערשטורמפירער טומאַן",
+        "normalizedQuote": "אונטערץ אָנפיר WH‏ לובלינער לאַגער:קאָמענדאַנט,\nאָבערשטורמפירער טומאַן",
+        "modelQuote": "אונטערץ אָנפיר WH‏ לובלינער לאַגער:קאָמענדאַנט,\nאָבערשטורמפירער טומאַן",
+        "bbox": {
+          "left": 2530,
+          "top": 5564,
+          "right": 4492,
+          "bottom": 5747
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n219/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "14c6bc7359951596e33ee59d1b2286841cd9e8e84305fa83e162885377db52ea",
+        "normalizedPassageChecksum": "715733f5e272df29adf94912541c52cee6cb453ce10088864dcf9e58bfa4aedf",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_9c3b686562ef966d8ab60868",
+      "type": "Person",
+      "title": "Tuman",
+      "relation": "Commander Of"
+    },
+    {
+      "id": "mention_50cde4ecbcb2ec787ffa3c54",
+      "type": "Community",
+      "title": "Bialystok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9c3b686562ef966d8ab60868",
+      "type": "Person",
+      "title": "Tuman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_447990f00109739a0d7d9dcf",
+      "type": "Person",
+      "title": "Fridl",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

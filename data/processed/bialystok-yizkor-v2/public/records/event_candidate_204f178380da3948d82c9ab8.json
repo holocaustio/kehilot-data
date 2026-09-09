@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_204f178380da3948d82c9ab8",
+  "type": "Event",
+  "title": "Nazi forces approach Ghetto Parkan",
+  "summary": "Nazi groups approached Ghetto Parkan, causing panic among the Jewish population.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 220,
+  "printedPage": "204",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "uncertaintyNote": "The date wording and OCR token are unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_673616a88c3495ecef4ca754",
+      "pageId": "page_nybc313697_0220",
+      "scanIndex": 220,
+      "leafNumber": 219,
+      "printedPage": "204",
+      "passageCharStart": 800,
+      "passageCharEnd": 860,
+      "normalizedPassageCharStart": 800,
+      "normalizedPassageCharEnd": 860,
+      "pageCharStart": 3074,
+      "pageCharEnd": 3134,
+      "quote": "גרעסערע גרופּעס\nנאַצי:רוצחים דערנענטערט DIY‏ געטאָ-פּאַרקאַן",
+      "normalizedQuote": "גרעסערע גרופּעס\nנאַצי:רוצחים דערנענטערט DIY‏ געטאָ-פּאַרקאַן",
+      "modelQuote": "גרעסערע גרופּעס\nנאַצי:רוצחים דערנענטערט DIY‏ געטאָ-פּאַרקאַן",
+      "bbox": {
+        "left": 2528,
+        "top": 4269,
+        "right": 4489,
+        "bottom": 4439
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n219/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "904dc2efc50a0efa52aa08be4b0dab58df5e7e93fa284f76c05183ab0441d0cf",
+      "normalizedPassageChecksum": "563837c0c85bee3e52a11c4156c597ccdbcd0869a0d7bcb1a36e6b790439e447",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_ffff80baaed48c615e5000e9",
+      "type": "Place",
+      "title": "Ghetto Parkan",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_bcde502ec838ba6f96a7a5f3",
+      "type": "Organization",
+      "title": "Nazi murderers",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_50cde4ecbcb2ec787ffa3c54",
+      "type": "Community",
+      "title": "Bialystok Jewish community",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

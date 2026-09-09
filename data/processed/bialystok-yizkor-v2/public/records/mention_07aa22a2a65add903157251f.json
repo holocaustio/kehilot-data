@@ -1,0 +1,157 @@
+{
+  "id": "mention_07aa22a2a65add903157251f",
+  "type": "Person",
+  "title": "Emiel",
+  "summary": "A sensitive writer who died in Israel and wrote essays.",
+  "originalName": "עמיאל",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 111,
+  "printedPage": "95",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "writer",
+  "uncertaintyNote": "The OCR contains an artifact before the name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9d1cc53f5c223a5feb6340dd",
+      "pageId": "page_nybc313697_0111",
+      "scanIndex": 111,
+      "leafNumber": 110,
+      "printedPage": "95",
+      "passageCharStart": 423,
+      "passageCharEnd": 450,
+      "normalizedPassageCharStart": 423,
+      "normalizedPassageCharEnd": 450,
+      "pageCharStart": 4744,
+      "pageCharEnd": 4771,
+      "quote": "דער פיינפילנדיקער WR‏ עמיאל",
+      "normalizedQuote": "דער פיינפילנדיקער WR‏ עמיאל",
+      "modelQuote": "דער פיינפילנדיקער WR‏ עמיאל",
+      "bbox": {
+        "left": 3179,
+        "top": 5616,
+        "right": 4355,
+        "bottom": 5700
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n110/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "3004a5482e5e3162676263056acbaed21cd8474fc5196344a0097654ca226315",
+      "normalizedPassageChecksum": "2afd1c2caa2ed13a9423c48887dea3f16ec9ab5e0b57171e7d65b7db657d309d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2db5d23de859721d41c07efb",
+      "predicate": "Died In",
+      "subjectTitle": "Emiel",
+      "objectTitle": "Israel",
+      "confidence": "MEDIUM",
+      "evidence": {
+        "passageId": "passage_9d1cc53f5c223a5feb6340dd",
+        "pageId": "page_nybc313697_0111",
+        "scanIndex": 111,
+        "leafNumber": 110,
+        "printedPage": "95",
+        "passageCharStart": 453,
+        "passageCharEnd": 472,
+        "normalizedPassageCharStart": 453,
+        "normalizedPassageCharEnd": 472,
+        "pageCharStart": 4774,
+        "pageCharEnd": 4793,
+        "quote": "געשטאָרבן PR‏\nישראל",
+        "normalizedQuote": "געשטאָרבן PR‏\nישראל",
+        "modelQuote": "געשטאָרבן PR‏\nישראל",
+        "bbox": {
+          "left": 2577,
+          "top": 5618,
+          "right": 4510,
+          "bottom": 5799
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n110/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "3004a5482e5e3162676263056acbaed21cd8474fc5196344a0097654ca226315",
+        "normalizedPassageChecksum": "2afd1c2caa2ed13a9423c48887dea3f16ec9ab5e0b57171e7d65b7db657d309d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_f19a4ceb12bdfa43402b4068",
+      "type": "Death",
+      "title": "Emiel's death in Israel",
+      "summary": "Emiel died in Israel.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR contains artifacts in the death statement.",
+      "evidence": {
+        "passageId": "passage_9d1cc53f5c223a5feb6340dd",
+        "pageId": "page_nybc313697_0111",
+        "scanIndex": 111,
+        "leafNumber": 110,
+        "printedPage": "95",
+        "passageCharStart": 453,
+        "passageCharEnd": 472,
+        "normalizedPassageCharStart": 453,
+        "normalizedPassageCharEnd": 472,
+        "pageCharStart": 4774,
+        "pageCharEnd": 4793,
+        "quote": "געשטאָרבן PR‏\nישראל",
+        "normalizedQuote": "געשטאָרבן PR‏\nישראל",
+        "modelQuote": "געשטאָרבן PR‏\nישראל",
+        "bbox": {
+          "left": 2577,
+          "top": 5618,
+          "right": 4510,
+          "bottom": 5799
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n110/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "3004a5482e5e3162676263056acbaed21cd8474fc5196344a0097654ca226315",
+        "normalizedPassageChecksum": "2afd1c2caa2ed13a9423c48887dea3f16ec9ab5e0b57171e7d65b7db657d309d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b35b0c57bfadc67ab3fb1d37",
+      "type": "Place",
+      "title": "Israel",
+      "relation": "Died In"
+    },
+    {
+      "id": "event_candidate_f19a4ceb12bdfa43402b4068",
+      "type": "Event",
+      "title": "Emiel's death in Israel",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_b1cea750109553270d0b6f81",
+      "type": "Person",
+      "title": "Vitsatski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2d4aaacff94961c939e2835a",
+      "type": "Publication",
+      "title": "New Life",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b35b0c57bfadc67ab3fb1d37",
+      "type": "Place",
+      "title": "Israel",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

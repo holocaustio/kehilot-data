@@ -1,0 +1,75 @@
+{
+  "id": "mention_7304890a40cc5a6a861ae451",
+  "type": "Business",
+  "title": "Belgian company",
+  "summary": "A Belgian company received a concession and built an electric station.",
+  "originalName": "אַ בעלגישע פירמע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 92,
+  "printedPage": "76",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "company",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_147b7b01517f4c4b8437b87f",
+      "pageId": "page_nybc313697_0092",
+      "scanIndex": 92,
+      "leafNumber": 91,
+      "printedPage": "76",
+      "passageCharStart": 132,
+      "passageCharEnd": 148,
+      "normalizedPassageCharStart": 132,
+      "normalizedPassageCharEnd": 148,
+      "pageCharStart": 1157,
+      "pageCharEnd": 1173,
+      "quote": "אַ בעלגישע פירמע",
+      "normalizedQuote": "אַ בעלגישע פירמע",
+      "modelQuote": "אַ בעלגישע פירמע",
+      "bbox": {
+        "left": 817,
+        "top": 2637,
+        "right": 1447,
+        "bottom": 2719
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n91/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "e3e481c7dd42610dfc7a0d062ad8ea026735f4dac440615f39e6edea4fb0df63",
+      "normalizedPassageChecksum": "7c7e917d2aa94e686973e447042dc345177154c98999e8cc0d0a29e07044c3e5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Located In"
+    },
+    {
+      "id": "event_candidate_359253e2eed1afb20ffb0006",
+      "type": "Event",
+      "title": "Construction of an electric station in Bialystok",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4742c301370e340de04e165f",
+      "type": "Institution",
+      "title": "Electric station in Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

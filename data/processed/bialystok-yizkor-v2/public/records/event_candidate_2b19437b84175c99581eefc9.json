@@ -1,0 +1,65 @@
+{
+  "id": "event_candidate_2b19437b84175c99581eefc9",
+  "type": "Event",
+  "title": "First hospital founded",
+  "summary": "Sender Bloch founded the first hospital in 1840.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 97,
+  "printedPage": "81",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Organization Founding",
+  "uncertaintyNote": "The OCR places the date separately from the founding statement.",
+  "dateStart": "1840",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7f174ce4103597d10d0a41dc",
+      "pageId": "page_nybc313697_0097",
+      "scanIndex": 97,
+      "leafNumber": 96,
+      "printedPage": "81",
+      "passageCharStart": 24,
+      "passageCharEnd": 46,
+      "normalizedPassageCharStart": 24,
+      "normalizedPassageCharEnd": 46,
+      "pageCharStart": 1307,
+      "pageCharEnd": 1329,
+      "quote": "סענדער בלאָך געגרינדעט",
+      "normalizedQuote": "סענדער בלאָך געגרינדעט",
+      "modelQuote": "סענדער בלאָך געגרינדעט",
+      "bbox": {
+        "left": 633,
+        "top": 4634,
+        "right": 1499,
+        "bottom": 4716
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n96/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f59f9519bd46e82a43d549a084ac1fdfd8758a89aab9daf1ca65ed5a18c337b4",
+      "normalizedPassageChecksum": "5e21e65de90e7be06de9ec5c89b268e9c59f8ef31959fddda5da211142ae4362",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6c8ac21293827d1933e3c766",
+      "type": "Person",
+      "title": "Sender Bloch",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_91e7ff8720d0ae0e856867bb",
+      "type": "Institution",
+      "title": "Jewish Hospital of Bialystok",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

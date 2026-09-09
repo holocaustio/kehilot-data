@@ -2,10 +2,10 @@
   "id": "mention_b6b5933a460ad1f22fdaf88f",
   "type": "Person",
   "title": "Trocki",
-  "summary": "One of eight escapees from the ghetto.",
+  "summary": "One of eight people who escaped their place of work in the ghetto.",
   "originalName": "Trocki",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 520,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,8 +19,8 @@
       "printedPage": null,
       "passageCharStart": 782,
       "passageCharEnd": 788,
-      "normalizedPassageCharStart": 664,
-      "normalizedPassageCharEnd": 670,
+      "normalizedPassageCharStart": 782,
+      "normalizedPassageCharEnd": 788,
       "pageCharStart": 782,
       "pageCharEnd": 788,
       "quote": "Trocki",
@@ -37,19 +37,18 @@
       "passageChecksum": "5559df917a852c34d69ed3f0a0d6fb2bfa232724359bd46003562d8c032dd5e2",
       "normalizedPassageChecksum": "e926343431202899b5950947df79cb8d7537460869ff9cc9135930a9e81f4113",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_2edd13991c610c630e700e61",
+      "id": "event_candidate_670c76a4689331fa1e67b25c",
       "type": "Migration",
-      "title": "Escape from the ghetto",
-      "summary": "Eight men escaped their workplace in the ghetto on November 1, 1943.",
+      "title": "Escape from the Ghetto Workplace",
+      "summary": "Eight people escaped their place of work in the ghetto on November 1, 1943.",
       "dateStart": "1943-11-01",
-      "dateEnd": "1943-11-01",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_3f10738180aa5a07963dbf1c",
@@ -59,13 +58,13 @@
         "printedPage": null,
         "passageCharStart": 479,
         "passageCharEnd": 549,
-        "normalizedPassageCharStart": 407,
-        "normalizedPassageCharEnd": 465,
+        "normalizedPassageCharStart": 479,
+        "normalizedPassageCharEnd": 549,
         "pageCharStart": 479,
         "pageCharEnd": 549,
         "quote": "On\nNovember 1, 1943, we sneaked out of our place of work\nin the ghetto",
-        "normalizedQuote": "On November1,1943,wesneakedoutofourplaceofwork intheghetto",
-        "modelQuote": "OnNovember1,1943,wesneakedoutofourplaceofworkintheghetto",
+        "normalizedQuote": "On\nNovember 1, 1943, we sneaked out of our place of work\nin the ghetto",
+        "modelQuote": "On\nNovember 1, 1943, we sneaked out of our place of work\nin the ghetto",
         "bbox": {
           "left": 503,
           "top": 2919,
@@ -77,21 +76,33 @@
         "passageChecksum": "5559df917a852c34d69ed3f0a0d6fb2bfa232724359bd46003562d8c032dd5e2",
         "normalizedPassageChecksum": "e926343431202899b5950947df79cb8d7537460869ff9cc9135930a9e81f4113",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_2edd13991c610c630e700e61",
+      "id": "event_candidate_670c76a4689331fa1e67b25c",
       "type": "Event",
-      "title": "Escape from the ghetto",
+      "title": "Escape from the Ghetto Workplace",
       "relation": "Participated In",
       "role": "Participant"
     },
     {
-      "id": "mention_c15d9aa2d3aeada52294a5ae",
+      "id": "mention_cf3e95815c9c8e3c685f63d3",
+      "type": "Place",
+      "title": "Białystok Ghetto Cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_dff9a4fc2c8633e2c6346c6c",
+      "type": "Event",
+      "title": "Fleeing Captivity",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2e361a38c4330edb31b94469",
       "type": "Person",
       "title": "Szymon Amiel",
       "relation": "Appears in same passage"
@@ -103,15 +114,33 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_341901b1e1ab3f87e294c7d3",
+      "id": "mention_f43f5d097f64afa8e14fcc51",
       "type": "Person",
       "title": "Mojsze Grotkowicz",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ccf6a01f8628b097afd110cc",
+      "id": "mention_63c412268e9168c7ff7fa1de",
+      "type": "Place",
+      "title": "Nowolipja Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a7e89bcebe40eec865b9f68e",
+      "type": "Business",
+      "title": "Mojsze Grotkowicz's locksmith business",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2c968ac19822eea11217f8c2",
       "type": "Person",
       "title": "Meir Bez",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c609b783b19959ced5f62136",
+      "type": "Place",
+      "title": "Horodok",
       "relation": "Appears in same passage"
     },
     {
@@ -127,39 +156,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e52d200f8f40391a592bdbdd",
+      "id": "mention_c1a4d9686d58144d4babf1fe",
       "type": "Person",
       "title": "Icele",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_edbbaadf40f449d2abc16b91",
-      "type": "Place",
-      "title": "Ghetto cemetery",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bc89d1cd3763c17cd8a41adb",
-      "type": "Place",
-      "title": "Nowolipja Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_08526b061dd6380cc32d1997",
-      "type": "Place",
-      "title": "Horodok",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e96a4906e40b6045a70a7966",
-      "type": "Place",
-      "title": "Lodz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7f35cf0f9d354d0782f7a321",
-      "type": "Place",
-      "title": "Bialystok",
       "relation": "Appears in same passage"
     }
   ],

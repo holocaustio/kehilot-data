@@ -2,10 +2,10 @@
   "id": "mention_7beddee86e043286aeb483b8",
   "type": "Place",
   "title": "Poltava",
-  "summary": "Location of the 1906 founding conference.",
+  "summary": "Poltava hosted the first founding conference mentioned in the passage.",
   "originalName": "פּאָלטאַװע",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 63,
   "printedPage": "47",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,8 +20,8 @@
       "printedPage": "47",
       "passageCharStart": 20,
       "passageCharEnd": 30,
-      "normalizedPassageCharStart": 16,
-      "normalizedPassageCharEnd": 26,
+      "normalizedPassageCharStart": 20,
+      "normalizedPassageCharEnd": 30,
       "pageCharStart": 20,
       "pageCharEnd": 30,
       "quote": "פּאָלטאַװע",
@@ -38,7 +38,7 @@
       "passageChecksum": "9f3210346917bfcb12dbfcf1e66aefb841b928678ec64647b3ee85a6bdaef2a3",
       "normalizedPassageChecksum": "7b1271308d40acbaade0f86a86dba47c89b993b8400c9e86b375da25ed2ef809",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     },
     {
@@ -47,39 +47,78 @@
       "scanIndex": 64,
       "leafNumber": 63,
       "printedPage": "48",
-      "passageCharStart": 174,
-      "passageCharEnd": 218,
-      "normalizedPassageCharStart": 149,
-      "normalizedPassageCharEnd": 190,
-      "pageCharStart": 3716,
-      "pageCharEnd": 3760,
-      "quote": "אונזער צענטראַל:קאַמיטעט PR PNR‏\nפּאָלטאַווע",
-      "normalizedQuote": "אונזערצענטראַל:קאַמיטעטPRPNR‏ פּאָלטאַווע",
-      "modelQuote": "אונזערצענטראַל:קאַמיטעטPRPNR‏ פּאָלטאַווע",
+      "passageCharStart": 207,
+      "passageCharEnd": 236,
+      "normalizedPassageCharStart": 207,
+      "normalizedPassageCharEnd": 236,
+      "pageCharStart": 3749,
+      "pageCharEnd": 3778,
+      "quote": "פּאָלטאַווע אַרעסטירט געװאָרן",
+      "normalizedQuote": "פּאָלטאַווע אַרעסטירט געװאָרן",
+      "modelQuote": "פּאָלטאַווע אַרעסטירט געװאָרן",
       "bbox": {
-        "left": 2577,
-        "top": 2324,
+        "left": 3470,
+        "top": 2424,
         "right": 4516,
-        "bottom": 2506
+        "bottom": 2507
       },
       "scanUrl": "https://archive.org/details/nybc313697/page/n63/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
       "passageChecksum": "c375a6f236d1b0b569c28a321cf78de0c194867c1f86aa20ad67437eca655b6e",
       "normalizedPassageChecksum": "9d32d11c45d281c062062d45a6cc48278511fe844591098bb64cc9af9e8d7bab",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_d7b81f58d464c145b2b8c82c",
+      "predicate": "Arrested At",
+      "subjectTitle": "Borokhov",
+      "objectTitle": "Poltava",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says Borokhov was arrested; imprisonment is not explicitly stated.",
+      "evidence": {
+        "passageId": "passage_10deb2f65a6dd05c945e38dd",
+        "pageId": "page_nybc313697_0064",
+        "scanIndex": 64,
+        "leafNumber": 63,
+        "printedPage": "48",
+        "passageCharStart": 451,
+        "passageCharEnd": 492,
+        "normalizedPassageCharStart": 451,
+        "normalizedPassageCharEnd": 492,
+        "pageCharStart": 3993,
+        "pageCharEnd": 4034,
+        "quote": "נאָר באָראָכאָוו PNR‏ אַרעס-\nטירט געװאָרן",
+        "normalizedQuote": "נאָר באָראָכאָוו PNR‏ אַרעס-\nטירט געװאָרן",
+        "modelQuote": "נאָר באָראָכאָוו PNR‏ אַרעס-\nטירט געװאָרן",
+        "bbox": {
+          "left": 2582,
+          "top": 2837,
+          "right": 4520,
+          "bottom": 3003
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n63/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "c375a6f236d1b0b569c28a321cf78de0c194867c1f86aa20ad67437eca655b6e",
+        "normalizedPassageChecksum": "9d32d11c45d281c062062d45a6cc48278511fe844591098bb64cc9af9e8d7bab",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [
     {
-      "id": "event_candidate_b3940fb82dd5a4d275001d92",
+      "id": "event_candidate_de13f1df64d5d0c0b93dcc14",
       "type": "Organization Founding",
-      "title": "Poalei Zion founding conference",
-      "summary": "A founding conference of Poalei Zion was held in Poltava in 1906.",
+      "title": "First founding conference in Poltava",
+      "summary": "The first founding conference of Poyale Zion took place in Poltava with about twenty delegates.",
       "dateStart": "1906",
       "confidence": "HIGH",
+      "uncertaintyNote": "The month is unclear in OCR; only the year is retained.",
       "evidence": {
         "passageId": "passage_746dfa439a8e698061ab86a1",
         "pageId": "page_nybc313697_0063",
@@ -88,13 +127,13 @@
         "printedPage": "47",
         "passageCharStart": 20,
         "passageCharEnd": 65,
-        "normalizedPassageCharStart": 16,
-        "normalizedPassageCharEnd": 58,
+        "normalizedPassageCharStart": 20,
+        "normalizedPassageCharEnd": 65,
         "pageCharStart": 20,
         "pageCharEnd": 65,
         "quote": "פּאָלטאַװע, דער ערשטער גרינדונג-\nצוזאַמענפאָר",
-        "normalizedQuote": "פּאָלטאַװע,דערערשטערגרינדונג- צוזאַמענפאָר",
-        "modelQuote": "פּאָלטאַװע,דערערשטערגרינדונג- צוזאַמענפאָר",
+        "normalizedQuote": "פּאָלטאַװע, דער ערשטער גרינדונג-\nצוזאַמענפאָר",
+        "modelQuote": "פּאָלטאַװע, דער ערשטער גרינדונג-צוזאַמענפאָר",
         "bbox": {
           "left": 419,
           "top": 349,
@@ -106,46 +145,109 @@
         "passageChecksum": "9f3210346917bfcb12dbfcf1e66aefb841b928678ec64647b3ee85a6bdaef2a3",
         "normalizedPassageChecksum": "7b1271308d40acbaade0f86a86dba47c89b993b8400c9e86b375da25ed2ef809",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_b50aaf166f115479d190e62f",
+      "type": "Arrest",
+      "title": "Central committee arrest",
+      "summary": "The central committee in Poltava was reported arrested in July 1906.",
+      "dateStart": "1906-07",
+      "dateEnd": "1906-07",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The date is explicit, but the arrest sentence follows later and OCR segmentation is irregular.",
+      "evidence": {
+        "passageId": "passage_10deb2f65a6dd05c945e38dd",
+        "pageId": "page_nybc313697_0064",
+        "scanIndex": 64,
+        "leafNumber": 63,
+        "printedPage": "48",
+        "passageCharStart": 4,
+        "passageCharEnd": 56,
+        "normalizedPassageCharStart": 4,
+        "normalizedPassageCharEnd": 56,
+        "pageCharStart": 3546,
+        "pageCharEnd": 3598,
+        "quote": "יולי 1906, נאָכדעם וי מען ONT‏ צעטריבן די\nערשטע-דומע",
+        "normalizedQuote": "יולי 1906, נאָכדעם וי מען ONT‏ צעטריבן די\nערשטע-דומע",
+        "modelQuote": "יולי 1906, נאָכדעם וי מען ONT‏ צעטריבן די\nערשטע-דומע",
+        "bbox": {
+          "left": 2574,
+          "top": 2025,
+          "right": 4513,
+          "bottom": 2206
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n63/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "c375a6f236d1b0b569c28a321cf78de0c194867c1f86aa20ad67437eca655b6e",
+        "normalizedPassageChecksum": "9d32d11c45d281c062062d45a6cc48278511fe844591098bb64cc9af9e8d7bab",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_b3940fb82dd5a4d275001d92",
+      "id": "event_candidate_de13f1df64d5d0c0b93dcc14",
       "type": "Event",
-      "title": "Poalei Zion founding conference",
+      "title": "First founding conference in Poltava",
       "relation": "Occurred At"
     },
     {
-      "id": "mention_7b38ab8055e2f36d27d7bbdc",
-      "type": "Person",
-      "title": "Ian Klianovski",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_ef85a54ab944f7cf19d3b102",
+      "id": "mention_1d5235189ad22876d99c8b11",
       "type": "Community",
-      "title": "Bialystok",
+      "title": "Southern Lithuanian Region",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6c150f4e6f1687a118b92589",
-      "type": "Organization",
-      "title": "Poalei Zion",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a71b47c9bc65ac65419ae1b6",
+      "id": "mention_4dc640745cad22fc04d6766c",
       "type": "Person",
-      "title": "Nor Borokhov",
+      "title": "Yankel Yanovsky",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_47475dafbd8fc74ad13ba3fd",
+      "id": "mention_c3de0617e0f192b769832ce2",
+      "type": "Person",
+      "title": "Borokhov",
+      "relation": "Arrested At"
+    },
+    {
+      "id": "event_candidate_b50aaf166f115479d190e62f",
+      "type": "Event",
+      "title": "Central committee arrest",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c3de0617e0f192b769832ce2",
+      "type": "Person",
+      "title": "Borokhov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4a0b4ded5b86d3f226bef6dd",
+      "type": "Person",
+      "title": "Zarbabel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2d43c86ea190b82b33c0e74d",
       "type": "Place",
       "title": "Vilna",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4ddfea33d2752363caa4a6ed",
+      "type": "Organization",
+      "title": "Central committee",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ad26f97a7c1915561e9109ff",
+      "type": "Work",
+      "title": "Habima",
       "relation": "Appears in same passage"
     }
   ],

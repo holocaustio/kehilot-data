@@ -2,15 +2,15 @@
   "id": "mention_8b329dea9579323f2904d246",
   "type": "Person",
   "title": "Melamed",
-  "summary": "Named among notable Jewish personalities of former Bialystok.",
+  "summary": "Jewish personality associated with former Bialystok.",
   "originalName": "מלמד",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 373,
   "printedPage": "357",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "Given name is not supplied.",
+  "uncertaintyNote": "Given name is absent.",
   "evidenceRefs": [
     {
       "passageId": "passage_9a1716b8ab270ed808754c15",
@@ -20,8 +20,8 @@
       "printedPage": "357",
       "passageCharStart": 183,
       "passageCharEnd": 187,
-      "normalizedPassageCharStart": 162,
-      "normalizedPassageCharEnd": 166,
+      "normalizedPassageCharStart": 183,
+      "normalizedPassageCharEnd": 187,
       "pageCharStart": 183,
       "pageCharEnd": 187,
       "quote": "מלמד",
@@ -38,7 +38,7 @@
       "passageChecksum": "38b107a9c4670a109efcdee8c061414c4b996b87bbcd7e532b35a5e9814c7507",
       "normalizedPassageChecksum": "e437c38215f7f356aed616e8fb90e4935a8a3cd5ad905be668b43b5399da6a3b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -46,21 +46,33 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_2a7ab1a5e719da996592ea38",
+      "id": "mention_b35b0c57bfadc67ab3fb1d37",
+      "type": "Place",
+      "title": "Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_776206490273dbdf751c60e8",
+      "type": "Organization",
+      "title": "Bialystok organization",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3d32fba2dc73042ba692a29b",
       "type": "Person",
       "title": "Zalman Yerushalmi",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8884c8a8add14295ead00a9c",
+      "id": "mention_20cc17e2d6d2eaefc947c04e",
       "type": "Person",
-      "title": "Rabbi Shmuel Mohilever",
+      "title": "Samuel Mohilever",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5db00ba5a9f99a43e1322df9",
+      "id": "mention_5c491aae3e51bdee34cc3481",
       "type": "Person",
-      "title": "Hazanovitz",
+      "title": "Chaznovitz",
       "relation": "Appears in same passage"
     },
     {
@@ -82,21 +94,27 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e9a494f236bfb850a15fba80",
-      "type": "Community",
-      "title": "Bialystok Jewish community",
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_048bbf80ac343bcde3b84187",
+      "id": "mention_986eac3034e2eb648f895022",
+      "type": "Place",
+      "title": "Bialystok memorial",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_55833c9573fa8c8e6076d616",
+      "type": "Organization",
+      "title": "Kedushei Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3626534cbd49166b0770742f",
       "type": "Place",
       "title": "Kiryat Bialystok",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_67e2a37c08260c0ae52918ff",
-      "type": "Institution",
-      "title": "Bialystok library",
       "relation": "Appears in same passage"
     }
   ],

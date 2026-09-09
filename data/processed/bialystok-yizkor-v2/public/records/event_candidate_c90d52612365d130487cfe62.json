@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_c90d52612365d130487cfe62",
+  "type": "Event",
+  "title": "Jewish Council meeting",
+  "summary": "A Jewish Council meeting on November 8 addressed the ghetto’s uncertain situation.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 187,
+  "printedPage": "171",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Employment",
+  "uncertaintyNote": "The passage clearly states a meeting, but EMPLOYMENT is not a direct event category; event extraction is therefore uncertain.",
+  "dateStart": "1941-11-08",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7d21e4d8cae479e77be0a6e1",
+      "pageId": "page_nybc313697_0187",
+      "scanIndex": 187,
+      "leafNumber": 186,
+      "printedPage": "171",
+      "passageCharStart": 528,
+      "passageCharEnd": 572,
+      "normalizedPassageCharStart": 528,
+      "normalizedPassageCharEnd": 572,
+      "pageCharStart": 3234,
+      "pageCharEnd": 3278,
+      "quote": "ביי דער אידן-ראַט זיצונג TID‏\n8טן נאָוועמבער",
+      "normalizedQuote": "ביי דער אידן-ראַט זיצונג TID‏\n8טן נאָוועמבער",
+      "modelQuote": "ביי דער אידן-ראַט זיצונג TID‏ 8טן נאָוועמבער",
+      "bbox": {
+        "left": 2570,
+        "top": 1068,
+        "right": 4496,
+        "bottom": 1240
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n186/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b7a42cb3fd9d9be177279241bb1509c0eeef837c1aabf54ec2360bc6a2b30da6",
+      "normalizedPassageChecksum": "cf0149303a845e382e583c4b31669ad9811ebc7581f6896a3aed232a136090f9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_fa4cc4135827db4d1d8daab0",
+      "type": "Place",
+      "title": "Białystok Ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_99933590bfaa7e6bfc44b2d1",
+      "type": "Institution",
+      "title": "Jewish Council",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

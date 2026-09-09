@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_1ea92248784e260a811d2bb3",
+  "type": "Event",
+  "title": "Deportation of Abraham Bantchevsky and Viktor to Auschwitz",
+  "summary": "Abraham Bantchevsky and Viktor were deported to Auschwitz during the war.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 401,
+  "printedPage": "385",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "OCR noise is present.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_44a6db033e6245b1577eb7af",
+      "pageId": "page_nybc313697_0401",
+      "scanIndex": 401,
+      "leafNumber": 400,
+      "printedPage": "385",
+      "passageCharStart": 416,
+      "passageCharEnd": 502,
+      "normalizedPassageCharStart": 416,
+      "normalizedPassageCharEnd": 502,
+      "pageCharStart": 3041,
+      "pageCharEnd": 3127,
+      "quote": "דר. אברהם באַנטשעווסקי, צוזאַמען מיט TT POT‏\nװיקטאָר, דעפּאַרטירט געװאָרן PP‏ אוישוויץ",
+      "normalizedQuote": "דר. אברהם באַנטשעווסקי, צוזאַמען מיט TT POT‏\nװיקטאָר, דעפּאַרטירט געװאָרן PP‏ אוישוויץ",
+      "modelQuote": "דר. אברהם באַנטשעווסקי, צוזאַמען מיט TT POT‏ װיקטאָר, דעפּאַרטירט געװאָרן PP‏ אוישוויץ",
+      "bbox": {
+        "left": 2558,
+        "top": 1658,
+        "right": 4557,
+        "bottom": 1832
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n400/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "2f95746a8c884e0789efe836d563b1110965c73a4cbd54fb427e77bf5321bfa8",
+      "normalizedPassageChecksum": "85228326939efa418f9e2acde3a56aca17e46b919deb22af59476bf7209cf302",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_77c65d392fc90ea3a55c5081",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a25d1d9f8ff9e9f6d1d6e8df",
+      "type": "Person",
+      "title": "Dr. Abraham Bantchevsky",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_000de1c7f1707d657bdb34a6",
+      "type": "Person",
+      "title": "Viktor",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

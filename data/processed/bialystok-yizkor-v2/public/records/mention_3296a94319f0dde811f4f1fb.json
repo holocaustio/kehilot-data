@@ -1,0 +1,131 @@
+{
+  "id": "mention_3296a94319f0dde811f4f1fb",
+  "type": "Person",
+  "title": "Shchedrovsky",
+  "summary": "A person named in an announcement concerning executions.",
+  "originalName": "שטשעדראָווסקי",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 192,
+  "printedPage": "176",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3467117abe25df3230ea4baf",
+      "pageId": "page_nybc313697_0192",
+      "scanIndex": 192,
+      "leafNumber": 191,
+      "printedPage": "176",
+      "passageCharStart": 108,
+      "passageCharEnd": 121,
+      "normalizedPassageCharStart": 108,
+      "normalizedPassageCharEnd": 121,
+      "pageCharStart": 1747,
+      "pageCharEnd": 1760,
+      "quote": "שטשעדראָווסקי",
+      "normalizedQuote": "שטשעדראָווסקי",
+      "modelQuote": "שטשעדראָווסקי",
+      "bbox": {
+        "left": 1847,
+        "top": 4673,
+        "right": 2383,
+        "bottom": 4742
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n191/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "e1fd28e92a0ad4f6420c1ddcfe0acc73a04d2a457e8c6c1c78b8aab222e07c82",
+      "normalizedPassageChecksum": "d825c6460ab46a5b1fb6c66b2954f4eea96a8e30f2cfb9ef131a3fc3d268a10f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_4636f639a78d3eda3c3de5ef",
+      "type": "Murder",
+      "title": "Execution of named persons",
+      "summary": "Three named persons were hanged in the ghetto for allegedly stealing from the factory.",
+      "dateStart": "1943-01-01",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR obscures parts of the sentence, but the named persons and execution context are clear.",
+      "evidence": {
+        "passageId": "passage_3467117abe25df3230ea4baf",
+        "pageId": "page_nybc313697_0192",
+        "scanIndex": 192,
+        "leafNumber": 191,
+        "printedPage": "176",
+        "passageCharStart": 0,
+        "passageCharEnd": 53,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 53,
+        "pageCharStart": 1639,
+        "pageCharEnd": 1692,
+        "quote": "אויפגעהאַנגען געװאָרן PR‏ געטאַ IND‏ גנב'ענען TD‏ דער",
+        "normalizedQuote": "אויפגעהאַנגען געװאָרן PR‏ געטאַ IND‏ גנב'ענען TD‏ דער",
+        "modelQuote": "אויפגעהאַנגען געװאָרן PR‏ געטאַ IND‏ גנב'ענען TD‏ דער",
+        "bbox": {
+          "left": 418,
+          "top": 4473,
+          "right": 2383,
+          "bottom": 4543
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n191/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "e1fd28e92a0ad4f6420c1ddcfe0acc73a04d2a457e8c6c1c78b8aab222e07c82",
+        "normalizedPassageChecksum": "d825c6460ab46a5b1fb6c66b2954f4eea96a8e30f2cfb9ef131a3fc3d268a10f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_4636f639a78d3eda3c3de5ef",
+      "type": "Event",
+      "title": "Execution of named persons",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_c66a1d7e1aa86589395ef81b",
+      "type": "Organization",
+      "title": "Bialystok Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3681201f274981345344033",
+      "type": "Person",
+      "title": "Dvorsky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5fe349d8248669e8b47748f7",
+      "type": "Person",
+      "title": "Jablansky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2f902303058ade8826e89801",
+      "type": "Organization",
+      "title": "Wehrmacht",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8dd327502507360fa9bf4e2a",
+      "type": "Work",
+      "title": "Bialystok Yizkor Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

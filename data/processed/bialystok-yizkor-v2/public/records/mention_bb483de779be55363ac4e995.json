@@ -2,10 +2,10 @@
   "id": "mention_bb483de779be55363ac4e995",
   "type": "Person",
   "title": "Mendele",
-  "summary": "Named among classic authors whose books were read or discussed.",
+  "summary": "Mendele is listed among classic authors whose books were circulated.",
   "originalName": "מענדעלע",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 36,
   "printedPage": "20",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,8 +20,8 @@
       "printedPage": "20",
       "passageCharStart": 404,
       "passageCharEnd": 411,
-      "normalizedPassageCharStart": 347,
-      "normalizedPassageCharEnd": 354,
+      "normalizedPassageCharStart": 404,
+      "normalizedPassageCharEnd": 411,
       "pageCharStart": 3608,
       "pageCharEnd": 3615,
       "quote": "מענדעלע",
@@ -38,7 +38,36 @@
       "passageChecksum": "9cf0439dfa565d9fa62704722bcd56510706009e8372ad7f00ed0900a1fc65b2",
       "normalizedPassageChecksum": "da15f33902e46b16d0b98076363af5636450040ec514e554ae1fba4d3a50dff6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_6a7bf720d5e358d9905a4716",
+      "pageId": "page_nybc313697_0059",
+      "scanIndex": 59,
+      "leafNumber": 58,
+      "printedPage": "43",
+      "passageCharStart": 1231,
+      "passageCharEnd": 1242,
+      "normalizedPassageCharStart": 1231,
+      "normalizedPassageCharEnd": 1242,
+      "pageCharStart": 3032,
+      "pageCharEnd": 3043,
+      "quote": "מענדעלע\nשול",
+      "normalizedQuote": "מענדעלע\nשול",
+      "modelQuote": "מענדעלע\nשול",
+      "bbox": {
+        "left": 2567,
+        "top": 759,
+        "right": 4521,
+        "bottom": 921
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n58/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "768fec281f913cfc9521e6cf36b2cb4f24a461c08c776ee11806aa57bc150aef",
+      "normalizedPassageChecksum": "0864b756baa0a3b7f608a5c54d01399d91e8064231ccb3b60d1cdd14a21c3307",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -46,45 +75,99 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_1362ed2650f7aa9d1cd8c1af",
-      "type": "Organization",
-      "title": "Bund",
+      "id": "mention_8f13a127332a75eccba05443",
+      "type": "Work",
+      "title": "The Four Brothers",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bc6813af844be9c45b9434d7",
+      "id": "mention_a041c3411e441716eff1e7e4",
       "type": "Person",
-      "title": "I. L. Peretz",
+      "title": "Y. L. Peretz",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_584c69a51b7a43c8494e8047",
+      "id": "mention_af4678b12b9ab894cd762332",
       "type": "Person",
       "title": "Sholem Aleichem",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dd8610c85b9a42f7a95a1530",
+      "id": "mention_7d3c9efc5c0a5707303dea66",
       "type": "Person",
       "title": "Abraham Reisen",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_383b0e9fe4d6e1737509492e",
-      "type": "Work",
-      "title": "Yom Tov leaflets",
+      "id": "mention_5e0456c6b451f52944d982a4",
+      "type": "Publication",
+      "title": "Yom-Tov Blettlekh",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dddfc138fe30063cb7186ce6",
+      "id": "mention_9566784eacede8f467fbab6b",
       "type": "Publication",
       "title": "Di Tsukunft",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_859839c943b5dd8604520a7d",
+      "id": "mention_4d64aa945a2039d8424f605d",
       "type": "Publication",
-      "title": "Jewish Worker",
+      "title": "Yidisher Arbeter",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_096bfc3ee1d644b48b62b677",
+      "type": "Person",
+      "title": "Shaul Goldman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_654f1b106bf0561fd9bf1dc4",
+      "type": "Person",
+      "title": "Branislav Grosser",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d05c3bc0199c5d0c60008fba",
+      "type": "Person",
+      "title": "Beinush Mikhalevitch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_01c8a2cf4497e2c9b5e9c9b9",
+      "type": "Institution",
+      "title": "Shalom Aleichem Library",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a11b976be0040e76f84f312d",
+      "type": "Institution",
+      "title": "Branislav Grosser School",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5132035870c337c5873a6aa4",
+      "type": "Place",
+      "title": "Rabinska 18",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_39b06edd04f3d9cea58dcabc",
+      "type": "Institution",
+      "title": "Beinush Mikhalevitch School",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ca153a036642975b903e7b40",
+      "type": "Institution",
+      "title": "Mendele School",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6ea88134be4f8988362ebf8d",
+      "type": "Place",
+      "title": "Koshtshelne 6",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,125 @@
+{
+  "id": "mention_2e4f62d4dfe892b7ce69a3f5",
+  "type": "Organization",
+  "title": "SS personnel",
+  "summary": "Well-armed SS personnel sent to occupy the factories.",
+  "originalName": "ס. ס. לייט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 252,
+  "printedPage": "236",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "armed SS personnel",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bcfa4b7902874ed2e2072f01",
+      "pageId": "page_nybc313697_0252",
+      "scanIndex": 252,
+      "leafNumber": 251,
+      "printedPage": "236",
+      "passageCharStart": 956,
+      "passageCharEnd": 986,
+      "normalizedPassageCharStart": 956,
+      "normalizedPassageCharEnd": 986,
+      "pageCharStart": 4643,
+      "pageCharEnd": 4673,
+      "quote": "מיט גוט-\nבאַװאַפנטע ס. ס. לייט",
+      "normalizedQuote": "מיט גוט-\nבאַװאַפנטע ס. ס. לייט",
+      "modelQuote": "מיט גוט-באַװאַפנטע ס. ס. לייט",
+      "bbox": {
+        "left": 2563,
+        "top": 4240,
+        "right": 4525,
+        "bottom": 4423
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n251/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "339407995e25f93a183b9a5e87a428670d5f70027b7b565393b5781b70bb6401",
+      "normalizedPassageChecksum": "7d40634a56690cab7f145304db80b01c041c11022b9e340a6053ae04346dac41",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_7d334c0a45ae3b5312c1078c",
+      "type": "Aktion Or Raid",
+      "title": "German attack on the ghetto",
+      "summary": "On August 16, 1943, German forces arrived with heavy machine guns and occupied the factories; well-armed SS personnel were involved.",
+      "dateStart": "1943-08-16",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_bcfa4b7902874ed2e2072f01",
+        "pageId": "page_nybc313697_0252",
+        "scanIndex": 252,
+        "leafNumber": 251,
+        "printedPage": "236",
+        "passageCharStart": 786,
+        "passageCharEnd": 808,
+        "normalizedPassageCharStart": 786,
+        "normalizedPassageCharEnd": 808,
+        "pageCharStart": 4473,
+        "pageCharEnd": 4495,
+        "quote": "דעם 16טן אױיגוסט, 1943",
+        "normalizedQuote": "דעם 16טן אױיגוסט, 1943",
+        "modelQuote": "דעם 16טן אױיגוסט, 1943",
+        "bbox": {
+          "left": 2560,
+          "top": 3938,
+          "right": 3408,
+          "bottom": 4011
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n251/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "339407995e25f93a183b9a5e87a428670d5f70027b7b565393b5781b70bb6401",
+        "normalizedPassageChecksum": "7d40634a56690cab7f145304db80b01c041c11022b9e340a6053ae04346dac41",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f76bd0c4f21654415c7980da",
+      "type": "Place",
+      "title": "factories",
+      "relation": "Occupied"
+    },
+    {
+      "id": "event_candidate_7d334c0a45ae3b5312c1078c",
+      "type": "Event",
+      "title": "German attack on the ghetto",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_fa4cc4135827db4d1d8daab0",
+      "type": "Place",
+      "title": "Białystok Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f76bd0c4f21654415c7980da",
+      "type": "Place",
+      "title": "factories",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_757454e1cca0ddef649db556",
+      "type": "Organization",
+      "title": "German authorities",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1d6f5505c9ef50f9b76e1d1a",
+      "type": "Organization",
+      "title": "organizations",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

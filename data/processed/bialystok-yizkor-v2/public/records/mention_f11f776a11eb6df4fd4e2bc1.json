@@ -1,0 +1,113 @@
+{
+  "id": "mention_f11f776a11eb6df4fd4e2bc1",
+  "type": "Person",
+  "title": "Tadek",
+  "summary": "A self-defense group leader who killed a Nazi before dying.",
+  "originalName": "טאַדעק",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 222,
+  "printedPage": "206",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "fighter; pseudonym",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cacc255409cd28292d73a964",
+      "pageId": "page_nybc313697_0222",
+      "scanIndex": 222,
+      "leafNumber": 221,
+      "printedPage": "206",
+      "passageCharStart": 462,
+      "passageCharEnd": 517,
+      "normalizedPassageCharStart": 462,
+      "normalizedPassageCharEnd": 517,
+      "pageCharStart": 2627,
+      "pageCharEnd": 2682,
+      "quote": "אָנפירער פון דער\nזעלבסטשוץ-גרופּע, טאַדעק (פּסעװדאָנים)",
+      "normalizedQuote": "אָנפירער פון דער\nזעלבסטשוץ-גרופּע, טאַדעק (פּסעװדאָנים)",
+      "modelQuote": "אָנפירער פון דער\nזעלבסטשוץ-גרופּע, טאַדעק (פּסעװדאָנים)",
+      "bbox": {
+        "left": 453,
+        "top": 5439,
+        "right": 2407,
+        "bottom": 5619
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n221/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b7a691fe15d24d8f74e8c21dffbbc7ba2979c508aa4e7e752b123e3184685a74",
+      "normalizedPassageChecksum": "ddcc3e93ae1e3d219d28ae307fe2b6dc449ab0ca6aa9a7f391382502e495894b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_7d27a61c6d660471182ff252",
+      "type": "Combat Action",
+      "title": "Tadek kills a Nazi",
+      "summary": "Tadek killed a Nazi with accurate shots before dying.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event type is constrained by the schema; the passage describes combat rather than formal military service.",
+      "evidence": {
+        "passageId": "passage_cacc255409cd28292d73a964",
+        "pageId": "page_nybc313697_0222",
+        "scanIndex": 222,
+        "leafNumber": 221,
+        "printedPage": "206",
+        "passageCharStart": 584,
+        "passageCharEnd": 634,
+        "normalizedPassageCharStart": 584,
+        "normalizedPassageCharEnd": 634,
+        "pageCharStart": 2749,
+        "pageCharEnd": 2799,
+        "quote": "אַװעקצושיקן אויף יענער וועלט אַ AND‏ נאַצי-בעסטיעס",
+        "normalizedQuote": "אַװעקצושיקן אויף יענער וועלט אַ AND‏ נאַצי-בעסטיעס",
+        "modelQuote": "אַװעקצושיקן אויף יענער וועלט אַ AND‏ נאַצי-בעסטיעס",
+        "bbox": {
+          "left": 530,
+          "top": 5732,
+          "right": 2409,
+          "bottom": 5820
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n221/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "b7a691fe15d24d8f74e8c21dffbbc7ba2979c508aa4e7e752b123e3184685a74",
+        "normalizedPassageChecksum": "ddcc3e93ae1e3d219d28ae307fe2b6dc449ab0ca6aa9a7f391382502e495894b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_7d27a61c6d660471182ff252",
+      "type": "Event",
+      "title": "Tadek kills a Nazi",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_fb9d101d8a6051cac340764e",
+      "type": "Community",
+      "title": "Białystok Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5a2a4a40a391b9f771d99a7d",
+      "type": "Place",
+      "title": "Juravtser Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_38e5bd42fac0667f3775ce03",
+      "type": "Organization",
+      "title": "Russian Nazis",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

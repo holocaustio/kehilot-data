@@ -1,0 +1,103 @@
+{
+  "id": "mention_e0215fc28230e4a55bf34dde",
+  "type": "Organization",
+  "title": "Poale Zion Workers Party",
+  "summary": "The workers party named in a 1916 conference caption.",
+  "originalName": "אַרבעטער-פּאַרטײ פּועלי-ציון",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 241,
+  "printedPage": "225",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "political party",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_06efa84f6b3c758d3c0ecda9",
+      "pageId": "page_nybc313697_0241",
+      "scanIndex": 241,
+      "leafNumber": 240,
+      "printedPage": "225",
+      "passageCharStart": 836,
+      "passageCharEnd": 883,
+      "normalizedPassageCharStart": 836,
+      "normalizedPassageCharEnd": 883,
+      "pageCharStart": 2774,
+      "pageCharEnd": 2821,
+      "quote": "קאָנפערענץ פון דער אַרבעטער-פּאַרטײ פּועלי-ציון",
+      "normalizedQuote": "קאָנפערענץ פון דער אַרבעטער-פּאַרטײ פּועלי-ציון",
+      "modelQuote": "קאָנפערענץ פון דער אַרבעטער-פּאַרטײ פּועלי-ציון",
+      "bbox": {
+        "left": 2973,
+        "top": 1833,
+        "right": 4392,
+        "bottom": 1916
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n240/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "8f65b8e2eeae36693cec1fab21305cb651983c78fa54b04acfcb4b143b5945b9",
+      "normalizedPassageChecksum": "4820ac4fc3610b06aca157a236a30b09d70a88e7bc123c7e8509a6ea053649e4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_71cf0f39ec87418fb92c603e",
+      "type": "Conference",
+      "title": "Poale Zion Workers Party conference",
+      "summary": "A Poale Zion Workers Party conference held in Bialystok in 1916.",
+      "dateStart": "1916",
+      "dateEnd": "1916",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage identifies a conference, not an organization founding; event omitted.",
+      "evidence": {
+        "passageId": "passage_06efa84f6b3c758d3c0ecda9",
+        "pageId": "page_nybc313697_0241",
+        "scanIndex": 241,
+        "leafNumber": 240,
+        "printedPage": "225",
+        "passageCharStart": 836,
+        "passageCharEnd": 902,
+        "normalizedPassageCharStart": 836,
+        "normalizedPassageCharEnd": 902,
+        "pageCharStart": 2774,
+        "pageCharEnd": 2840,
+        "quote": "קאָנפערענץ פון דער אַרבעטער-פּאַרטײ פּועלי-ציון (\"באָראָכאָווצעס\")",
+        "normalizedQuote": "קאָנפערענץ פון דער אַרבעטער-פּאַרטײ פּועלי-ציון (\"באָראָכאָווצעס\")",
+        "modelQuote": "קאָנפערענץ פון דער אַרבעטער-פּאַרטײ פּועלי-ציון (\"באָראָכאָווצעס\")",
+        "bbox": {
+          "left": 2426,
+          "top": 1833,
+          "right": 4392,
+          "bottom": 1916
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n240/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "8f65b8e2eeae36693cec1fab21305cb651983c78fa54b04acfcb4b143b5945b9",
+        "normalizedPassageChecksum": "4820ac4fc3610b06aca157a236a30b09d70a88e7bc123c7e8509a6ea053649e4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_71cf0f39ec87418fb92c603e",
+      "type": "Event",
+      "title": "Poale Zion Workers Party conference",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_2bb781dcde091b36b3600ffd",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

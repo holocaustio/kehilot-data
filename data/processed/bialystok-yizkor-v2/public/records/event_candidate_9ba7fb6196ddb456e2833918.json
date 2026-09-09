@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_9ba7fb6196ddb456e2833918",
+  "type": "Event",
+  "title": "Execution of Isaac Malmed",
+  "summary": "Isaac Malmed stood at a scaffold and was executed after mistreatment and interrogation.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 218,
+  "printedPage": "202",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The passage clearly describes an execution context, but the exact execution wording is partly corrupted.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1a55b05a08113e9dd9ba7879",
+      "pageId": "page_nybc313697_0218",
+      "scanIndex": 218,
+      "leafNumber": 217,
+      "printedPage": "202",
+      "passageCharStart": 732,
+      "passageCharEnd": 765,
+      "normalizedPassageCharStart": 732,
+      "normalizedPassageCharEnd": 765,
+      "pageCharStart": 2032,
+      "pageCharEnd": 2065,
+      "quote": "מאַלמעד געשטאַנען אויפ'ץ\nעשאַפאָט",
+      "normalizedQuote": "מאַלמעד געשטאַנען אויפ'ץ\nעשאַפאָט",
+      "modelQuote": "מאַלמעד געשטאַנען אויפ'ץ עשאַפאָט",
+      "bbox": {
+        "left": 2564,
+        "top": 996,
+        "right": 4522,
+        "bottom": 1185
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n217/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "0e49819e37d50e9286af5a49d474ebb9f4d52650f9ee929ed6625349df47b7b3",
+      "normalizedPassageChecksum": "761d72bbc31989331be69d87acdf6ca4b42cce4efe849f9f5ab78a1521a2370d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f6b1efc1cc223707bf3dc32c",
+      "type": "Place",
+      "title": "scaffold",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_36c6ca87042d3c2bdaba407c",
+      "type": "Person",
+      "title": "Isaac Malmed",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

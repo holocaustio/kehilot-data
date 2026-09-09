@@ -1,0 +1,118 @@
+{
+  "id": "mention_8df45db1bbd148c96e9b4f3e",
+  "type": "Place",
+  "title": "Nadjetchne Street",
+  "summary": "Street where Red Army troops were positioned during the violence.",
+  "originalName": "נאַדזשעטשנע גאַס",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 142,
+  "printedPage": "126",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "Transliteration is approximate because of OCR and spelling.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_73a7b940dbb4382d367b1b41",
+      "pageId": "page_nybc313697_0142",
+      "scanIndex": 142,
+      "leafNumber": 141,
+      "printedPage": "126",
+      "passageCharStart": 480,
+      "passageCharEnd": 514,
+      "normalizedPassageCharStart": 480,
+      "normalizedPassageCharEnd": 514,
+      "pageCharStart": 480,
+      "pageCharEnd": 514,
+      "quote": "האָט געשטעלט אויף נאַדזשעטשנע גאַס",
+      "normalizedQuote": "האָט געשטעלט אויף נאַדזשעטשנע גאַס",
+      "modelQuote": "האָט געשטעלט אויף נאַדזשעטשנע גאַס",
+      "bbox": {
+        "left": 953,
+        "top": 1341,
+        "right": 2378,
+        "bottom": 1428
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n141/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f3433c2537cb8168ceb0d29111770b47fcc0823174c9c3dffb9b893171c517ef",
+      "normalizedPassageChecksum": "36a9d8965a1913beba33e89cefeb9f947ef04dd6f4fd76ad5a18ba959de5182d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_bd935814eb3a6ed5626d1d74",
+      "predicate": "Located In",
+      "subjectTitle": "Red Army",
+      "objectTitle": "Nadjetchne Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_73a7b940dbb4382d367b1b41",
+        "pageId": "page_nybc313697_0142",
+        "scanIndex": 142,
+        "leafNumber": 141,
+        "printedPage": "126",
+        "passageCharStart": 457,
+        "passageCharEnd": 514,
+        "normalizedPassageCharStart": 457,
+        "normalizedPassageCharEnd": 514,
+        "pageCharStart": 457,
+        "pageCharEnd": 514,
+        "quote": "אַ גרופּע רויט-אַרמײער\nהאָט געשטעלט אויף נאַדזשעטשנע גאַס",
+        "normalizedQuote": "אַ גרופּע רויט-אַרמײער\nהאָט געשטעלט אויף נאַדזשעטשנע גאַס",
+        "modelQuote": "אַ גרופּע רויט-אַרמײער האָט געשטעלט אויף נאַדזשעטשנע גאַס",
+        "bbox": {
+          "left": 382,
+          "top": 1244,
+          "right": 2378,
+          "bottom": 1428
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n141/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "f3433c2537cb8168ceb0d29111770b47fcc0823174c9c3dffb9b893171c517ef",
+        "normalizedPassageChecksum": "36a9d8965a1913beba33e89cefeb9f947ef04dd6f4fd76ad5a18ba959de5182d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_4b8d965a86e8a8334fc6b0a7",
+      "type": "Organization",
+      "title": "Red Army",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_f36d2cc512dcaae58710a7a3",
+      "type": "Community",
+      "title": "Bialystok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_91de6c53eca1d9a4359b2a43",
+      "type": "Institution",
+      "title": "Former Manishewitsch bathhouse",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_23fd95f4435478f226222a29",
+      "type": "Institution",
+      "title": "Former Real Gymnasium",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b8d965a86e8a8334fc6b0a7",
+      "type": "Organization",
+      "title": "Red Army",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

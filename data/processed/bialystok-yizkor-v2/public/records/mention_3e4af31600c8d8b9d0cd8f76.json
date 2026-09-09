@@ -1,17 +1,16 @@
 {
   "id": "mention_3e4af31600c8d8b9d0cd8f76",
   "type": "Organization",
-  "title": "Literary Association",
-  "summary": "An association connected with members of Kaplan’s newspaper.",
+  "title": "Literary association",
+  "summary": "Association where Pesach Kaplan served as honorary secretary for ten years.",
   "originalName": "ליטעראַטן-פאַראיין",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 112,
   "printedPage": "96",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "literary association",
-  "uncertaintyNote": "The organization’s formal name is not given.",
   "evidenceRefs": [
     {
       "passageId": "passage_29192fc95e2075ffc7f27ae3",
@@ -21,8 +20,8 @@
       "printedPage": "96",
       "passageCharStart": 920,
       "passageCharEnd": 938,
-      "normalizedPassageCharStart": 797,
-      "normalizedPassageCharEnd": 815,
+      "normalizedPassageCharStart": 920,
+      "normalizedPassageCharEnd": 938,
       "pageCharStart": 5012,
       "pageCharEnd": 5030,
       "quote": "ליטעראַטן-פאַראיין",
@@ -39,29 +38,76 @@
       "passageChecksum": "832a2bfc18bb85483e7bac8f814913cbb6201e1c1d0ed968d354fc90fcb56597",
       "normalizedPassageChecksum": "96b2e7b993e1cf5b5df5c967b4212419a99cae5904ac8226f72416219250b17d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_27ed71943431956ed10886fc",
+      "predicate": "Member Of",
+      "subjectTitle": "Pesach Kaplan",
+      "objectTitle": "Literary association",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "honorary secretary",
+        "duration": "ten years"
+      },
+      "evidence": {
+        "passageId": "passage_29192fc95e2075ffc7f27ae3",
+        "pageId": "page_nybc313697_0112",
+        "scanIndex": 112,
+        "leafNumber": 111,
+        "printedPage": "96",
+        "passageCharStart": 844,
+        "passageCharEnd": 882,
+        "normalizedPassageCharStart": 844,
+        "normalizedPassageCharEnd": 882,
+        "pageCharStart": 4936,
+        "pageCharEnd": 4974,
+        "quote": "זייענדיק גאַנצע צען יאָר ערן-סעקרעטאַר",
+        "normalizedQuote": "זייענדיק גאַנצע צען יאָר ערן-סעקרעטאַר",
+        "modelQuote": "זייענדיק גאַנצע צען יאָר ערן-סעקרעטאַר",
+        "bbox": {
+          "left": 2715,
+          "top": 4599,
+          "right": 4113,
+          "bottom": 4671
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n111/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "832a2bfc18bb85483e7bac8f814913cbb6201e1c1d0ed968d354fc90fcb56597",
+        "normalizedPassageChecksum": "96b2e7b993e1cf5b5df5c967b4212419a99cae5904ac8226f72416219250b17d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_2040c3e60efd0463919daa68",
+      "id": "mention_9c997d99328d7cc465052df9",
+      "type": "Person",
+      "title": "Pesach Kaplan",
+      "relation": "Member Of"
+    },
+    {
+      "id": "mention_3d8b6b5a2e894e319c599179",
       "type": "Publication",
       "title": "Unzer Lebn",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e9a494f236bfb850a15fba80",
-      "type": "Community",
-      "title": "Bialystok Jewish community",
+      "id": "mention_b460141339fedafd04b1cd05",
+      "type": "Publication",
+      "title": "Bialystok yearbooks",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_02a5647ffa153fdd8ba86c44",
+      "id": "mention_c9ef516d78defd061fa81027",
       "type": "Publication",
-      "title": "Bialystok yearbooks",
+      "title": "The almanac",
       "relation": "Appears in same passage"
     }
   ],

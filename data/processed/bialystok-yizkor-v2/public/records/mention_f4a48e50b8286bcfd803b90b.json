@@ -1,0 +1,123 @@
+{
+  "id": "mention_f4a48e50b8286bcfd803b90b",
+  "type": "Place",
+  "title": "Norfolk Street",
+  "summary": "Street where the Great Synagogue was located.",
+  "originalName": "נאָרפאָלק סטריט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 349,
+  "printedPage": "333",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c5de918e2febef021ca52513",
+      "pageId": "page_nybc313697_0349",
+      "scanIndex": 349,
+      "leafNumber": 348,
+      "printedPage": "333",
+      "passageCharStart": 85,
+      "passageCharEnd": 100,
+      "normalizedPassageCharStart": 85,
+      "normalizedPassageCharEnd": 100,
+      "pageCharStart": 1972,
+      "pageCharEnd": 1987,
+      "quote": "נאָרפאָלק\nסטריט",
+      "normalizedQuote": "נאָרפאָלק\nסטריט",
+      "modelQuote": "נאָרפאָלק סטריט",
+      "bbox": {
+        "left": 390,
+        "top": 4053,
+        "right": 2390,
+        "bottom": 4241
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n348/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "ee42e986ff78d16d3a5bc4ce763ca913638034f50bc1c04f9f7502304ee5cb47",
+      "normalizedPassageChecksum": "305143da43b62a3fd6e0eedbaee27b73758a8ed741e5c8407c00e15602d22157",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_b703e3e232b46868559647d6",
+      "predicate": "Located In",
+      "subjectTitle": "Great Synagogue",
+      "objectTitle": "Norfolk Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c5de918e2febef021ca52513",
+        "pageId": "page_nybc313697_0349",
+        "scanIndex": 349,
+        "leafNumber": 348,
+        "printedPage": "333",
+        "passageCharStart": 63,
+        "passageCharEnd": 100,
+        "normalizedPassageCharStart": 63,
+        "normalizedPassageCharEnd": 100,
+        "pageCharStart": 1950,
+        "pageCharEnd": 1987,
+        "quote": "בית המדרש הגדול, APN‏ נאָרפאָלק\nסטריט",
+        "normalizedQuote": "בית המדרש הגדול, APN‏ נאָרפאָלק\nסטריט",
+        "modelQuote": "בית המדרש הגדול, APN‏ נאָרפאָלק\nסטריט",
+        "bbox": {
+          "left": 390,
+          "top": 4053,
+          "right": 2390,
+          "bottom": 4241
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n348/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "ee42e986ff78d16d3a5bc4ce763ca913638034f50bc1c04f9f7502304ee5cb47",
+        "normalizedPassageChecksum": "305143da43b62a3fd6e0eedbaee27b73758a8ed741e5c8407c00e15602d22157",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_8aa39b010286f5562305beb6",
+      "type": "Institution",
+      "title": "Great Synagogue",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_583f1d6b340dfe230b6eaead",
+      "type": "Person",
+      "title": "Shimkha",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8aa39b010286f5562305beb6",
+      "type": "Institution",
+      "title": "Great Synagogue",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a2e83afa85b9f3d3f1c6d2e2",
+      "type": "Person",
+      "title": "General Kruger",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d2f1ba4f128bf9ee7f2541f6",
+      "type": "Publication",
+      "title": "The Journal",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2529792277fd3518213137d7",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,133 @@
+{
+  "id": "mention_927a542992e48f023fa31a6d",
+  "type": "Institution",
+  "title": "Queen Hotel",
+  "summary": "A hotel in Basel associated with Dr. Herzl’s expected stay.",
+  "originalName": "קעניגע",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 41,
+  "printedPage": "25",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "hotel",
+  "uncertaintyNote": "The hotel name is partly obscured by OCR and punctuation.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9ebf5ff49c0e70c71f80e747",
+      "pageId": "page_nybc313697_0041",
+      "scanIndex": 41,
+      "leafNumber": 40,
+      "printedPage": "25",
+      "passageCharStart": 460,
+      "passageCharEnd": 502,
+      "normalizedPassageCharStart": 460,
+      "normalizedPassageCharEnd": 502,
+      "pageCharStart": 460,
+      "pageCharEnd": 502,
+      "quote": "באַקאַנטן האָטעל PT,‏ קעניגע\" אַרײנגעפאָרן",
+      "normalizedQuote": "באַקאַנטן האָטעל PT,‏ קעניגע\" אַרײנגעפאָרן",
+      "modelQuote": "באַקאַנטן האָטעל PT,‏ קעניגע\" אַרײנגעפאָרן",
+      "bbox": {
+        "left": 778,
+        "top": 1236,
+        "right": 2384,
+        "bottom": 1320
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n40/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "3bc73cd96745dde5c4fcaafa53ea4cab6d7f48b047fb36f465f9908f883b67a0",
+      "normalizedPassageChecksum": "8d6e4ca063cb41a68a418cdd96123aab749e6ffed9bd9d14158aa15382f6968f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_d794fcf467150a1e5a6694b6",
+      "predicate": "Lived At",
+      "subjectTitle": "Dr. Herzl",
+      "objectTitle": "Queen Hotel",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "modality": "expected"
+      },
+      "evidence": {
+        "passageId": "passage_9ebf5ff49c0e70c71f80e747",
+        "pageId": "page_nybc313697_0041",
+        "scanIndex": 41,
+        "leafNumber": 40,
+        "printedPage": "25",
+        "passageCharStart": 535,
+        "passageCharEnd": 562,
+        "normalizedPassageCharStart": 535,
+        "normalizedPassageCharEnd": 562,
+        "pageCharStart": 535,
+        "pageCharEnd": 562,
+        "quote": "געדאַרפט דר. הערצל וואוינען",
+        "normalizedQuote": "געדאַרפט דר. הערצל וואוינען",
+        "modelQuote": "געדאַרפט דר. הערצל וואוינען",
+        "bbox": {
+          "left": 542,
+          "top": 1339,
+          "right": 1552,
+          "bottom": 1421
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n40/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "3bc73cd96745dde5c4fcaafa53ea4cab6d7f48b047fb36f465f9908f883b67a0",
+        "normalizedPassageChecksum": "8d6e4ca063cb41a68a418cdd96123aab749e6ffed9bd9d14158aa15382f6968f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_050343dfd3f4797972fda6aa",
+      "type": "Person",
+      "title": "Dr. Herzl",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_e57c2d0e08016bb1ea04271f",
+      "type": "Person",
+      "title": "Chaim",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_050343dfd3f4797972fda6aa",
+      "type": "Person",
+      "title": "Dr. Herzl",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0ee19bdf1b791492421fe295",
+      "type": "Place",
+      "title": "Basel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d5d99bbf8e6a2f68d1b1a9bb",
+      "type": "Place",
+      "title": "Rhine",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7fd4d0b5f07de9720164fcd7",
+      "type": "Event",
+      "title": "Zionist Congresses in Basel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_dc4a9a4c82ff460f0c5af6ad",
+      "type": "Place",
+      "title": "Pilvishok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

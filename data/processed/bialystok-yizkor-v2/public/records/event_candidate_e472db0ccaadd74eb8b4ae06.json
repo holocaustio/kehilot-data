@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_e472db0ccaadd74eb8b4ae06",
+  "type": "Event",
+  "title": "Troupe arrival in New York",
+  "summary": "Tsemakh’s troupe arrived in New York after a performance period.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 64,
+  "printedPage": "48",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The text clearly states the troupe arrived, but the exact relationship between Tsemakh and the troupe is partly obscured by OCR.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4187d26bd7779221ce79ec06",
+      "pageId": "page_nybc313697_0064",
+      "scanIndex": 64,
+      "leafNumber": 63,
+      "printedPage": "48",
+      "passageCharStart": 393,
+      "passageCharEnd": 440,
+      "normalizedPassageCharStart": 393,
+      "normalizedPassageCharEnd": 440,
+      "pageCharStart": 2358,
+      "pageCharEnd": 2405,
+      "quote": "צמח מיט PT‏ טרופּע PR‏\nאָנגעקומען PP‏ ניו-יאָרק",
+      "normalizedQuote": "צמח מיט PT‏ טרופּע PR‏\nאָנגעקומען PP‏ ניו-יאָרק",
+      "modelQuote": "צמח מיט PT‏ טרופּע PR‏ אָנגעקומען PP‏ ניו-יאָרק",
+      "bbox": {
+        "left": 464,
+        "top": 5448,
+        "right": 2417,
+        "bottom": 5614
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n63/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "958c455afd0642366e71233e9e03d347c215c8f8b31afd04d20b89a7126688e9",
+      "normalizedPassageChecksum": "b98b527f9f7e6363681915c283a2b43ee6c9cfca6ca4336970aea8c1b7f16155",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_2529792277fd3518213137d7",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_64b3a17742dccd02d3d48e22",
+      "type": "Person",
+      "title": "Nakhum Tsemakh",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_2529792277fd3518213137d7",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

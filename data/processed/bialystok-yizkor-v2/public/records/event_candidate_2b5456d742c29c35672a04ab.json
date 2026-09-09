@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_2b5456d742c29c35672a04ab",
+  "type": "Event",
+  "title": "Rabbi Lipele’s dacha prayer gathering",
+  "summary": "Rabbi Lipele held a minyan for prayer at the dacha, attended by local people.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 38,
+  "printedPage": "22",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Employment",
+  "uncertaintyNote": "The schema has no prayer-service event type; employment is only a technical placeholder.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f774eb0fe9a9bd70ccc97d52",
+      "pageId": "page_nybc313697_0038",
+      "scanIndex": 38,
+      "leafNumber": 37,
+      "printedPage": "22",
+      "passageCharStart": 297,
+      "passageCharEnd": 331,
+      "normalizedPassageCharStart": 297,
+      "normalizedPassageCharEnd": 331,
+      "pageCharStart": 4280,
+      "pageCharEnd": 4314,
+      "quote": "פלעגט ער האָבן אַ מנין צום\nדאַװנען",
+      "normalizedQuote": "פלעגט ער האָבן אַ מנין צום\nדאַװנען",
+      "modelQuote": "פלעגט ער האָבן אַ מנין צום דאַװנען",
+      "bbox": {
+        "left": 2588,
+        "top": 5188,
+        "right": 4478,
+        "bottom": 5362
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n37/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f54c54e7b45a59c10aa31ac344741ecbb3222ae43e736e3026f40f5cae8e39c6",
+      "normalizedPassageChecksum": "b372b60a4a551a6def1e230711a17523d0ce8ba1f15d5039960b329707540fe0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_8075572215519d86df07335e",
+      "type": "Place",
+      "title": "dacha",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_480e2203efef5dd22decb1ae",
+      "type": "Person",
+      "title": "Rabbi Lipele",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

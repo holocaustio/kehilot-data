@@ -5,7 +5,7 @@
   "summary": "Shulamit was born in 1929 and attended the gymnasium.",
   "originalName": "שולמית",
   "confidence": "HIGH",
-  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 286,
   "printedPage": "270",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "270",
       "passageCharStart": 485,
       "passageCharEnd": 508,
-      "normalizedPassageCharStart": 416,
-      "normalizedPassageCharEnd": 437,
+      "normalizedPassageCharStart": 485,
+      "normalizedPassageCharEnd": 508,
       "pageCharStart": 3204,
       "pageCharEnd": 3227,
       "quote": "צווייטע טעכטערל, שולמית",
-      "normalizedQuote": "צווייטעטעכטערל,שולמית",
+      "normalizedQuote": "צווייטע טעכטערל, שולמית",
       "modelQuote": "צווייטע טעכטערל, שולמית",
       "bbox": {
         "left": 3027,
@@ -38,24 +38,311 @@
       "passageChecksum": "09bf21694f7dac28bcac76ac7937ddd670c461bb0f87fee0f5ba427193b88f10",
       "normalizedPassageChecksum": "884829c648e8bb855bd0111ed4cc556c72695b7f6f038e5c4c6e3a97666f0dff",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_3fd6d82486c99f7868efa7be",
+      "pageId": "page_nybc313697_0288",
+      "scanIndex": 288,
+      "leafNumber": 287,
+      "printedPage": "272",
+      "passageCharStart": 515,
+      "passageCharEnd": 521,
+      "normalizedPassageCharStart": 515,
+      "normalizedPassageCharEnd": 521,
+      "pageCharStart": 1893,
+      "pageCharEnd": 1899,
+      "quote": "שולמית",
+      "normalizedQuote": "שולמית",
+      "modelQuote": "שולמית",
+      "bbox": {
+        "left": 465,
+        "top": 4200,
+        "right": 709,
+        "bottom": 4270
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n287/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "a558e7bd5616e16a8b1c68892b7d7a8be163f7467ef5fbd63fbe89ad6299491f",
+      "normalizedPassageChecksum": "92f7ca1760bb6839ffaec6550ce013c7d7ca9c9fbe7c148ebcac7cfcd82d3941",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_affa74daf807dfc6b946fa35",
+      "predicate": "Child Of",
+      "subjectTitle": "Shulamit",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2f39071cd638933fe0b2e31b",
+        "pageId": "page_nybc313697_0286",
+        "scanIndex": 286,
+        "leafNumber": 285,
+        "printedPage": "270",
+        "passageCharStart": 485,
+        "passageCharEnd": 508,
+        "normalizedPassageCharStart": 485,
+        "normalizedPassageCharEnd": 508,
+        "pageCharStart": 3204,
+        "pageCharEnd": 3227,
+        "quote": "צווייטע טעכטערל, שולמית",
+        "normalizedQuote": "צווייטע טעכטערל, שולמית",
+        "modelQuote": "צווייטע טעכטערל, שולמית",
+        "bbox": {
+          "left": 3027,
+          "top": 2047,
+          "right": 3985,
+          "bottom": 2127
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n285/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "09bf21694f7dac28bcac76ac7937ddd670c461bb0f87fee0f5ba427193b88f10",
+        "normalizedPassageChecksum": "884829c648e8bb855bd0111ed4cc556c72695b7f6f038e5c4c6e3a97666f0dff",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_5924b09d40bf295b6ec7bcf7",
+      "predicate": "Attended",
+      "subjectTitle": "Shulamit",
+      "objectTitle": "Hebrew Gymnasium in Pinsk",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage does not individually specify which daughter attended.",
+      "evidence": {
+        "passageId": "passage_2f39071cd638933fe0b2e31b",
+        "pageId": "page_nybc313697_0286",
+        "scanIndex": 286,
+        "leafNumber": 285,
+        "printedPage": "270",
+        "passageCharStart": 737,
+        "passageCharEnd": 782,
+        "normalizedPassageCharStart": 737,
+        "normalizedPassageCharEnd": 782,
+        "pageCharStart": 3456,
+        "pageCharEnd": 3501,
+        "quote": "די\nביידע טעכטערלעך TIT‏ געווען דאָרט שילערינס",
+        "normalizedQuote": "די\nביידע טעכטערלעך TIT‏ געווען דאָרט שילערינס",
+        "modelQuote": "די ביידע טעכטערלעך TIT‏ געווען דאָרט שילערינס",
+        "bbox": {
+          "left": 2559,
+          "top": 2458,
+          "right": 4490,
+          "bottom": 2622
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n285/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "09bf21694f7dac28bcac76ac7937ddd670c461bb0f87fee0f5ba427193b88f10",
+        "normalizedPassageChecksum": "884829c648e8bb855bd0111ed4cc556c72695b7f6f038e5c4c6e3a97666f0dff",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_9e7113f4d950935253c6b2db",
+      "predicate": "Child Of",
+      "subjectTitle": "Shulamit Datner",
+      "objectTitle": "Dr. Shimon Datner",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR obscures part of the daughters' names and parent reference.",
+      "evidence": {
+        "passageId": "passage_3fd6d82486c99f7868efa7be",
+        "pageId": "page_nybc313697_0288",
+        "scanIndex": 288,
+        "leafNumber": 287,
+        "printedPage": "272",
+        "passageCharStart": 477,
+        "passageCharEnd": 521,
+        "normalizedPassageCharStart": 477,
+        "normalizedPassageCharEnd": 521,
+        "pageCharStart": 1855,
+        "pageCharEnd": 1899,
+        "quote": "און זיינע MY‏ טעכטער, DW‏ (מיקע) TIN‏ שולמית",
+        "normalizedQuote": "און זיינע MY‏ טעכטער, DW‏ (מיקע) TIN‏ שולמית",
+        "modelQuote": "און זיינע MY‏ טעכטער, DW‏ (מיקע) TIN‏ שולמית",
+        "bbox": {
+          "left": 465,
+          "top": 4200,
+          "right": 2146,
+          "bottom": 4285
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n287/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "a558e7bd5616e16a8b1c68892b7d7a8be163f7467ef5fbd63fbe89ad6299491f",
+        "normalizedPassageChecksum": "92f7ca1760bb6839ffaec6550ce013c7d7ca9c9fbe7c148ebcac7cfcd82d3941",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_d2297409afa9a28692f8542e",
+      "type": "Birth",
+      "title": "Birth of Shulamit",
+      "summary": "Shulamit was born in 1929.",
+      "dateStart": "1929",
+      "dateEnd": "1929",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2f39071cd638933fe0b2e31b",
+        "pageId": "page_nybc313697_0286",
+        "scanIndex": 286,
+        "leafNumber": 285,
+        "printedPage": "270",
+        "passageCharStart": 438,
+        "passageCharEnd": 471,
+        "normalizedPassageCharStart": 438,
+        "normalizedPassageCharEnd": 471,
+        "pageCharStart": 3157,
+        "pageCharEnd": 3190,
+        "quote": "אַ יאָר שפעטער (1929) PN‏ געבוירן",
+        "normalizedQuote": "אַ יאָר שפעטער (1929) PN‏ געבוירן",
+        "modelQuote": "אַ יאָר שפעטער (1929) PN‏ געבוירן",
+        "bbox": {
+          "left": 2554,
+          "top": 1958,
+          "right": 3679,
+          "bottom": 2030
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n285/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "09bf21694f7dac28bcac76ac7937ddd670c461bb0f87fee0f5ba427193b88f10",
+        "normalizedPassageChecksum": "884829c648e8bb855bd0111ed4cc556c72695b7f6f038e5c4c6e3a97666f0dff",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "event_candidate_589fffdda0139887c8173b76",
+      "id": "mention_d3a9b2b71de98929ada4f77c",
+      "type": "Institution",
+      "title": "Hebrew Gymnasium in Pinsk",
+      "relation": "Attended"
+    },
+    {
+      "id": "event_candidate_d2297409afa9a28692f8542e",
       "type": "Event",
       "title": "Birth of Shulamit",
       "relation": "Participated In",
       "role": "Subject"
     },
     {
-      "id": "mention_e9a494f236bfb850a15fba80",
+      "id": "mention_60856a0a384e2941e65bd612",
       "type": "Community",
-      "title": "Bialystok Jewish community",
+      "title": "Pinsk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3a9b2b71de98929ada4f77c",
+      "type": "Institution",
+      "title": "Hebrew Gymnasium in Pinsk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_46308cad6159742fd0761da4",
+      "type": "Person",
+      "title": "Ruzke",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_77824e8bcb01f22cdf9eceff",
+      "type": "Person",
+      "title": "Miriam",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2bb781dcde091b36b3600ffd",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c534ad0f8ff7433fbee25996",
+      "type": "Person",
+      "title": "Dr. Shimon Datner",
+      "relation": "Child Of"
+    },
+    {
+      "id": "mention_d24714978d63009eabac9595",
+      "type": "Person",
+      "title": "Dr. Franke Horowitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_738c9d274cd502dc41c21872",
+      "type": "Person",
+      "title": "Magister Hadassah Sprung",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d54e90a25116601f888cb74e",
+      "type": "Person",
+      "title": "Magister Jacob Schnaper",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fab2d1b35115af9b112b42ab",
+      "type": "Person",
+      "title": "Lubelski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c534ad0f8ff7433fbee25996",
+      "type": "Person",
+      "title": "Dr. Shimon Datner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b936018ce329b051e503892e",
+      "type": "Person",
+      "title": "Shoshana Datner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_738b4d46b740865bf32223da",
+      "type": "Person",
+      "title": "Israel Reis",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3c438e919be365d55b5f589a",
+      "type": "Person",
+      "title": "Ogronik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a1c36fce9d0a0efc06478f5e",
+      "type": "Person",
+      "title": "Dr. Michael Bergman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0209ffea7b282feb875a65b6",
+      "type": "Person",
+      "title": "Niushe Bergman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_248ac3a0e71d7816a4f2bbcc",
+      "type": "Person",
+      "title": "Baziunie",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_458a51c330899749e08d5185",
+      "type": "Person",
+      "title": "Lushe",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_e989dd742747b89212b2ce23",
+  "type": "Event",
+  "title": "Murder of Salazh’s family",
+  "summary": "Nazi murderers killed Salazh’s parents and ten siblings.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 323,
+  "printedPage": "307",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c9c7419900fe6440a3bca44d",
+      "pageId": "page_nybc313697_0323",
+      "scanIndex": 323,
+      "leafNumber": 322,
+      "printedPage": "307",
+      "passageCharStart": 590,
+      "passageCharEnd": 647,
+      "normalizedPassageCharStart": 590,
+      "normalizedPassageCharEnd": 647,
+      "pageCharStart": 1728,
+      "pageCharEnd": 1785,
+      "quote": "די נאַצישע רוצחים\nJINN‏ אומגעבראַכט מיין פאָטער און מוטער",
+      "normalizedQuote": "די נאַצישע רוצחים\nJINN‏ אומגעבראַכט מיין פאָטער און מוטער",
+      "modelQuote": "די נאַצישע רוצחים JINN‏ אומגעבראַכט מיין פאָטער און מוטער",
+      "bbox": {
+        "left": 2551,
+        "top": 975,
+        "right": 4562,
+        "bottom": 1148
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n322/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "7e7e3500b839dddc52739deb71274343ef30538b4982407895483eb735b2f096",
+      "normalizedPassageChecksum": "1a62d0adc059ec86a7dd48d80ad775db211762971cfe8f67cd3fedff14d21451",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1fcc8ba5f1cf8205a9c37243",
+      "type": "Family",
+      "title": "Sam Salazh’s family",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_bcde502ec838ba6f96a7a5f3",
+      "type": "Organization",
+      "title": "Nazi murderers",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_0398da7417546013d9ec9d83",
+      "type": "Person",
+      "title": "Sam Salazh",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,124 @@
+{
+  "id": "mention_73587da175d19c2513037802",
+  "type": "Place",
+  "title": "Poniatow labor camp",
+  "summary": "Labor camp where 22,000 Jews were shot on November 3, 1943.",
+  "originalName": "Poniatow labor camp",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 522,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "labor_camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dd5f4a0b78ee53a18f0b07b3",
+      "pageId": "page_nybc313697_0522",
+      "scanIndex": 522,
+      "leafNumber": 521,
+      "printedPage": null,
+      "passageCharStart": 2463,
+      "passageCharEnd": 2486,
+      "normalizedPassageCharStart": 2463,
+      "normalizedPassageCharEnd": 2486,
+      "pageCharStart": 2463,
+      "pageCharEnd": 2486,
+      "quote": "the Poniatow labor camp",
+      "normalizedQuote": "the Poniatow labor camp",
+      "modelQuote": "the Poniatow labor camp",
+      "bbox": {
+        "left": 869,
+        "top": 5443,
+        "right": 1911,
+        "bottom": 5519
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n521/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "111376166e1e4f636fc2db97c27ed89711d728f22e1f3f98b3a3e0b5ee189954",
+      "normalizedPassageChecksum": "a6069b2d76a3b3e606f7b9a7d3fa80fdf7d96c678ca1bb5d7fc5974dadae5f23",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_327520fb5ede05cb3dd9a932",
+      "type": "Murder",
+      "title": "Mass shooting at Poniatow labor camp",
+      "summary": "On November 3, 1943, 22,000 Jews, including 9,000 Bialystoker Jews, were shot.",
+      "dateStart": "1943-11-03",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_dd5f4a0b78ee53a18f0b07b3",
+        "pageId": "page_nybc313697_0522",
+        "scanIndex": 522,
+        "leafNumber": 521,
+        "printedPage": null,
+        "passageCharStart": 2422,
+        "passageCharEnd": 2486,
+        "normalizedPassageCharStart": 2422,
+        "normalizedPassageCharEnd": 2486,
+        "pageCharStart": 2422,
+        "pageCharEnd": 2486,
+        "quote": "On November 3, 1943, all of\n\nthe Jews at the Poniatow labor camp",
+        "normalizedQuote": "On November 3, 1943, all of\n\nthe Jews at the Poniatow labor camp",
+        "modelQuote": "On November 3, 1943, all of\nthe Jews at the Poniatow labor camp",
+        "bbox": {
+          "left": 329,
+          "top": 5341,
+          "right": 2369,
+          "bottom": 5519
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n521/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "111376166e1e4f636fc2db97c27ed89711d728f22e1f3f98b3a3e0b5ee189954",
+        "normalizedPassageChecksum": "a6069b2d76a3b3e606f7b9a7d3fa80fdf7d96c678ca1bb5d7fc5974dadae5f23",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_327520fb5ede05cb3dd9a932",
+      "type": "Event",
+      "title": "Mass shooting at Poniatow labor camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_034ad14f3c0bab8a9742c5b1",
+      "type": "Community",
+      "title": "Theresienstadt",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1cdf2bd8df1c4451ede3b262",
+      "type": "Place",
+      "title": "Lublin-Poniatow",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c6d8128ad56ab4fe73a083c9",
+      "type": "Community",
+      "title": "mini ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bae3236b4121c695aa2fd7ae",
+      "type": "Person",
+      "title": "Rajzner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a1ed71298563054c19e54a76",
+      "type": "Place",
+      "title": "German concentration camp",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,111 @@
+{
+  "id": "mention_d5b129ccac2884369efba9e7",
+  "type": "Place",
+  "title": "Birth region of Bialystok returnees",
+  "summary": "Unspecified birth region to which some Bialystok residents returned.",
+  "originalName": "געבורטס-שטאַט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 173,
+  "printedPage": "157",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "birth region",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_127d491486a6782d34ef253f",
+      "pageId": "page_nybc313697_0173",
+      "scanIndex": 173,
+      "leafNumber": 172,
+      "printedPage": "157",
+      "passageCharStart": 580,
+      "passageCharEnd": 609,
+      "normalizedPassageCharStart": 580,
+      "normalizedPassageCharEnd": 609,
+      "pageCharStart": 1324,
+      "pageCharEnd": 1353,
+      "quote": "צוריק אין זייער געבורטס-שטאַט",
+      "normalizedQuote": "צוריק אין זייער געבורטס-שטאַט",
+      "modelQuote": "צוריק אין זייער געבורטס-שטאַט",
+      "bbox": {
+        "left": 1284,
+        "top": 2843,
+        "right": 2368,
+        "bottom": 2911
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n172/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "3c6505c5994da3c34fd027392d1281ac9e69dc3c71a91d958e971083f8bb095a",
+      "normalizedPassageChecksum": "eb56f4342b89e2f78933f3758dd274353fe5d570b87fbb66a3e78e05fdac1ab7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_20a95225f196a17c8ed3ebe5",
+      "type": "Migration",
+      "title": "Return of Bialystok residents to their birthplace",
+      "summary": "Some Bialystok residents returned to their birthplace when conditions warmed.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_127d491486a6782d34ef253f",
+        "pageId": "page_nybc313697_0173",
+        "scanIndex": 173,
+        "leafNumber": 172,
+        "printedPage": "157",
+        "passageCharStart": 528,
+        "passageCharEnd": 609,
+        "normalizedPassageCharStart": 528,
+        "normalizedPassageCharEnd": 609,
+        "pageCharStart": 1272,
+        "pageCharEnd": 1353,
+        "quote": "רייסן PT‏ אַרױס אונטערנעמונגס-לוסטיקע ביאַליסטאַקער\nצוריק אין זייער געבורטס-שטאַט",
+        "normalizedQuote": "רייסן PT‏ אַרױס אונטערנעמונגס-לוסטיקע ביאַליסטאַקער\nצוריק אין זייער געבורטס-שטאַט",
+        "modelQuote": "רייסן PT‏ אַרױס אונטערנעמונגס-לוסטיקע ביאַליסטאַקער צוריק אין זייער געבורטס-שטאַט",
+        "bbox": {
+          "left": 440,
+          "top": 2726,
+          "right": 2368,
+          "bottom": 2911
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n172/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "3c6505c5994da3c34fd027392d1281ac9e69dc3c71a91d958e971083f8bb095a",
+        "normalizedPassageChecksum": "eb56f4342b89e2f78933f3758dd274353fe5d570b87fbb66a3e78e05fdac1ab7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_20a95225f196a17c8ed3ebe5",
+      "type": "Event",
+      "title": "Return of Bialystok residents to their birthplace",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_0b0e7faf2ad64726c197096f",
+      "type": "Place",
+      "title": "Pruzhany",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2bb781dcde091b36b3600ffd",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_96f1360e8c4bf0850d9470f1",
+      "type": "Organization",
+      "title": "JOINT",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

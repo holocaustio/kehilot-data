@@ -1,0 +1,132 @@
+{
+  "id": "mention_34e23b0fa8d4ec3342703127",
+  "type": "Place",
+  "title": "Large synagogue",
+  "summary": "A large synagogue where Jews were imprisoned and burned alive.",
+  "originalName": "Synagegue",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 530,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "synagogue",
+  "uncertaintyNote": "OCR spelling is irregular.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dc07dd24699617ae1c59cff0",
+      "pageId": "page_nybc313697_0530",
+      "scanIndex": 530,
+      "leafNumber": 529,
+      "printedPage": null,
+      "passageCharStart": 165,
+      "passageCharEnd": 180,
+      "normalizedPassageCharStart": 165,
+      "normalizedPassageCharEnd": 180,
+      "pageCharStart": 165,
+      "pageCharEnd": 180,
+      "quote": "large Synagegue",
+      "normalizedQuote": "large Synagegue",
+      "modelQuote": "large Synagegue",
+      "bbox": {
+        "left": 1270,
+        "top": 897,
+        "right": 1856,
+        "bottom": 977
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n529/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "68ffdbdbc432fe173d7a148bf1597109960ba35d2b874fe93222e213b01eadcf",
+      "normalizedPassageChecksum": "ba326471543d0fd6fcbc6c652f54ae350d51a1c30fee258385cd5ce9f0d513a7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_92d5a21a10490698020c75e8",
+      "type": "Aktion Or Raid",
+      "title": "Burning of Jews in the large synagogue",
+      "summary": "Nazi forces herded 2,000 Jews into a large synagogue and burned them alive.",
+      "dateStart": "1941-06-27",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage also mentions the city’s Sage; its identity is unclear.",
+      "evidence": {
+        "passageId": "passage_dc07dd24699617ae1c59cff0",
+        "pageId": "page_nybc313697_0530",
+        "scanIndex": 530,
+        "leafNumber": 529,
+        "printedPage": null,
+        "passageCharStart": 138,
+        "passageCharEnd": 210,
+        "normalizedPassageCharStart": 138,
+        "normalizedPassageCharEnd": 210,
+        "pageCharStart": 138,
+        "pageCharEnd": 210,
+        "quote": "herded 2,000 Jews into\nthe large Synagegue, where they were burned alive",
+        "normalizedQuote": "herded 2,000 Jews into\nthe large Synagegue, where they were burned alive",
+        "modelQuote": "herded 2,000 Jews into\nthe large Synagegue, where they were burned alive",
+        "bbox": {
+          "left": 1119,
+          "top": 815,
+          "right": 4017,
+          "bottom": 978
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n529/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "68ffdbdbc432fe173d7a148bf1597109960ba35d2b874fe93222e213b01eadcf",
+        "normalizedPassageChecksum": "ba326471543d0fd6fcbc6c652f54ae350d51a1c30fee258385cd5ce9f0d513a7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_92d5a21a10490698020c75e8",
+      "type": "Event",
+      "title": "Burning of Jews in the large synagogue",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_2bb781dcde091b36b3600ffd",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cd4aaa0bee9cb71e9ff34ff9",
+      "type": "Place",
+      "title": "Petrashe",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_72a48bb6fd45ddc9080ddb51",
+      "type": "Community",
+      "title": "Bialystok Jews",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2fdfcf7a8cbf127724a57f47",
+      "type": "Place",
+      "title": "Bialystok ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3aaff75cb268e2b350362a4",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_636e1a4f52a742f56e46f761",
+      "type": "Document",
+      "title": "The Bialystoker Memorial Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

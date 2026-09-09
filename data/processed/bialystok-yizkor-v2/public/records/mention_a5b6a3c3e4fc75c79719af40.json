@@ -2,16 +2,16 @@
   "id": "mention_a5b6a3c3e4fc75c79719af40",
   "type": "Place",
   "title": "Rozanski",
-  "summary": "Location at the corner of Kupiecka Street.",
+  "summary": "Rozanski is identified as the corner adjoining Kupiecka Street.",
   "originalName": "Rozanski",
   "confidence": "MEDIUM",
-  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 518,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "street or locality",
-  "uncertaintyNote": "The text does not clarify whether Rozanski is a street or locality.",
+  "subtype": "street or location",
+  "uncertaintyNote": "The OCR does not clarify whether Rozanski is a street or another location.",
   "evidenceRefs": [
     {
       "passageId": "passage_1262ec61f33f5925bc34db5a",
@@ -21,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 3135,
       "passageCharEnd": 3150,
-      "normalizedPassageCharStart": 2638,
-      "normalizedPassageCharEnd": 2652,
+      "normalizedPassageCharStart": 3135,
+      "normalizedPassageCharEnd": 3150,
       "pageCharStart": 3135,
       "pageCharEnd": 3150,
       "quote": "corner Rozanski",
-      "normalizedQuote": "cornerRozanski",
+      "normalizedQuote": "corner Rozanski",
       "modelQuote": "corner Rozanski",
       "bbox": {
         "left": 3729,
@@ -39,7 +39,7 @@
       "passageChecksum": "b73e790c553a2a3c4ec35882d7d4b3b038d8d74c9bf676816de00847874063f7",
       "normalizedPassageChecksum": "e1fcb82ae797a2b5b02665eef1c509b7dd907d90c83fdea2c192962e8fd98b03",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -47,63 +47,69 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_9b3b6653347f10f8b8df558b",
+      "id": "mention_9a6e05a459f66f3237fbfece",
       "type": "Place",
-      "title": "Bialystok Prison",
+      "title": "Augustow Forests",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_47565cb07a8f0d5d602aacbc",
-      "type": "Place",
-      "title": "7 Kraszewskiego Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_91614b1a0833ea4f8340943f",
-      "type": "Place",
-      "title": "Nowosjolka",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_08cd73d3cc3e1fdd8f12eb61",
-      "type": "Place",
-      "title": "Zielona Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_94c404313470608df4220a58",
-      "type": "Place",
-      "title": "Grabuwka",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a1559376abe6d81d3b07e7df",
+      "id": "mention_af8867d20063b896b92a38ef",
       "type": "Person",
       "title": "Zalmen Amiel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5e0ac63f0e6da0b598f1e4f3",
+      "id": "mention_65b8a189efd16dd2ba466ef4",
+      "type": "Person",
+      "title": "Jankl Amiel-Kulikowski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ce6ce90d603bb86e1a808e60",
       "type": "Person",
       "title": "Finkelsztejn",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_05c2252cdbf023fd83badb3a",
+      "id": "mention_bc18edca5d64fe37c4b8d83e",
       "type": "Place",
       "title": "Kupiecka Street",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4829f107817d97ba6ed4006a",
-      "type": "Organization",
-      "title": "Nazis",
+      "id": "mention_b1dfc1e1c362d33ee68dd754",
+      "type": "Place",
+      "title": "7 Kraszewskiego Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f030beadab765d95151f9b87",
+      "type": "Place",
+      "title": "Nowosjolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7cfb23d9f65fdc0842773594",
+      "type": "Place",
+      "title": "Zielona Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2670e2b6a7d0ab88b52c224d",
+      "type": "Place",
+      "title": "Grabuwka",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_98882126bd1494919712d3e3",
-      "type": "Organization",
+      "type": "Community",
       "title": "Russians",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_398b5bdeb51dae9b74621aa2",
+      "type": "Person",
+      "title": "Gestapo chief",
       "relation": "Appears in same passage"
     }
   ],

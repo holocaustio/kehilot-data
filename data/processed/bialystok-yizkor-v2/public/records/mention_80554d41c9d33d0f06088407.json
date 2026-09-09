@@ -1,17 +1,16 @@
 {
   "id": "mention_80554d41c9d33d0f06088407",
   "type": "Person",
-  "title": "Fridl-Beast",
-  "summary": "A figure who opened fire and continued killing captured Jews.",
+  "title": "Fridl Beast",
+  "summary": "A named perpetrator who shot and continued murdering victims.",
   "originalName": "פרידל-בעסטיע",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 231,
   "printedPage": "215",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "named individual or epithet",
-  "uncertaintyNote": "The OCR may represent a name, epithet, or corrupted form.",
+  "subtype": "perpetrator",
   "evidenceRefs": [
     {
       "passageId": "passage_c8ff007280666f6f95a8408a",
@@ -39,23 +38,67 @@
       "passageChecksum": "1aefe657d5bc29578ba6b3d292ed5ef784677f37baee86b07451a55d196f42f0",
       "normalizedPassageChecksum": "2642bc7e9264e04d1a8e0539b6d886132ad7a459dae41f24414f2ab561514f6e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_5542b94c6a5689f41ed65fe2",
+      "predicate": "Murdered At",
+      "subjectTitle": "Fridl Beast",
+      "objectTitle": "Ghetto cemetery",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage states that captured Jews were taken to the cemetery and shot by Fridl, but the location wording is syntactically unclear.",
+      "evidence": {
+        "passageId": "passage_c8ff007280666f6f95a8408a",
+        "pageId": "page_nybc313697_0231",
+        "scanIndex": 231,
+        "leafNumber": 230,
+        "printedPage": "215",
+        "passageCharStart": 722,
+        "passageCharEnd": 781,
+        "normalizedPassageCharStart": 722,
+        "normalizedPassageCharEnd": 781,
+        "pageCharStart": 3489,
+        "pageCharEnd": 3548,
+        "quote": "געכאַפּטע אידן זיינען געבראַכט געװאָרן אויפץ\nגעטאָ בית-עולם",
+        "normalizedQuote": "געכאַפּטע אידן זיינען געבראַכט געװאָרן אויפץ\nגעטאָ בית-עולם",
+        "modelQuote": "געכאַפּטע אידן זיינען געבראַכט געװאָרן אויפץ\nגעטאָ בית-עולם",
+        "bbox": {
+          "left": 2570,
+          "top": 1736,
+          "right": 4538,
+          "bottom": 1913
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n230/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "1aefe657d5bc29578ba6b3d292ed5ef784677f37baee86b07451a55d196f42f0",
+        "normalizedPassageChecksum": "2642bc7e9264e04d1a8e0539b6d886132ad7a459dae41f24414f2ab561514f6e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_edbbaadf40f449d2abc16b91",
+      "id": "mention_460f69dc9dfa15fb7ad9e856",
+      "type": "Place",
+      "title": "Ghetto cemetery",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "mention_460f69dc9dfa15fb7ad9e856",
       "type": "Place",
       "title": "Ghetto cemetery",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b6d8b81aa294709b7b8bc401",
-      "type": "Place",
-      "title": "Ghetto",
+      "id": "mention_bdaf5c8c5f3b34b69853984c",
+      "type": "Organization",
+      "title": "Ukrainian Nazi murderers",
       "relation": "Appears in same passage"
     }
   ],

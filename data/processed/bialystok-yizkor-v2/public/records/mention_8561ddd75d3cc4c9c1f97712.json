@@ -1,0 +1,114 @@
+{
+  "id": "mention_8561ddd75d3cc4c9c1f97712",
+  "type": "Place",
+  "title": "A village",
+  "summary": "A village where Salazh worked as a shepherd and laborer.",
+  "originalName": "דאָרף",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 323,
+  "printedPage": "307",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "village",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c4de1392e501b6cff97db4cd",
+      "pageId": "page_nybc313697_0323",
+      "scanIndex": 323,
+      "leafNumber": 322,
+      "printedPage": "307",
+      "passageCharStart": 485,
+      "passageCharEnd": 497,
+      "normalizedPassageCharStart": 485,
+      "normalizedPassageCharEnd": 497,
+      "pageCharStart": 2421,
+      "pageCharEnd": 2433,
+      "quote": "אין אַ דאָרף",
+      "normalizedQuote": "אין אַ דאָרף",
+      "modelQuote": "אין אַ דאָרף",
+      "bbox": {
+        "left": 3875,
+        "top": 2418,
+        "right": 4265,
+        "bottom": 2487
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n322/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "8ab54b843842fb6271a0d9d3d9ee40762730ebd76a5c5d490f6432172855f7b5",
+      "normalizedPassageChecksum": "231df87de4bfa9f92f18b21448b826ade40836b175fd9409b1e6f6cfc273b586",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_e9fbfefecf9a00bc4cc399de",
+      "predicate": "Worked At",
+      "subjectTitle": "Sam Salazh",
+      "objectTitle": "A village",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "roles": "shepherd; laborer"
+      },
+      "evidence": {
+        "passageId": "passage_c4de1392e501b6cff97db4cd",
+        "pageId": "page_nybc313697_0323",
+        "scanIndex": 323,
+        "leafNumber": 322,
+        "printedPage": "307",
+        "passageCharStart": 473,
+        "passageCharEnd": 536,
+        "normalizedPassageCharStart": 473,
+        "normalizedPassageCharEnd": 536,
+        "pageCharStart": 2409,
+        "pageCharEnd": 2472,
+        "quote": "צו\nאַ פּױער אין אַ דאָרף ביי וועמען עֶר איז געװאָרן אַ פּאַסטוך",
+        "normalizedQuote": "צו\nאַ פּױער אין אַ דאָרף ביי וועמען עֶר איז געװאָרן אַ פּאַסטוך",
+        "modelQuote": "צו אַ פּױער אין אַ דאָרף ביי וועמען עֶר איז געװאָרן אַ פּאַסטוך",
+        "bbox": {
+          "left": 2555,
+          "top": 2315,
+          "right": 4571,
+          "bottom": 2487
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n322/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "8ab54b843842fb6271a0d9d3d9ee40762730ebd76a5c5d490f6432172855f7b5",
+        "normalizedPassageChecksum": "231df87de4bfa9f92f18b21448b826ade40836b175fd9409b1e6f6cfc273b586",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_0398da7417546013d9ec9d83",
+      "type": "Person",
+      "title": "Sam Salazh",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_14c94c4254dc6409bbba93d2",
+      "type": "Person",
+      "title": "Sarolke Kat",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3aaff75cb268e2b350362a4",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bcde502ec838ba6f96a7a5f3",
+      "type": "Organization",
+      "title": "Nazi murderers",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,107 @@
+{
+  "id": "mention_37ec6c48cefbc3b0f5e2b2ad",
+  "type": "Person",
+  "title": "Lapidus",
+  "summary": "Person credited with erecting a three-story building with shops and apartments.",
+  "originalName": "לאַפּידוס",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 136,
+  "printedPage": "120",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "builder_or_owner",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e9e392d1133b731daf742486",
+      "pageId": "page_nybc313697_0136",
+      "scanIndex": 136,
+      "leafNumber": 135,
+      "printedPage": "120",
+      "passageCharStart": 460,
+      "passageCharEnd": 488,
+      "normalizedPassageCharStart": 460,
+      "normalizedPassageCharEnd": 488,
+      "pageCharStart": 1621,
+      "pageCharEnd": 1649,
+      "quote": "האָט לאַפּידוס אַרויפגעשטעלט",
+      "normalizedQuote": "האָט לאַפּידוס אַרויפגעשטעלט",
+      "modelQuote": "האָט לאַפּידוס אַרויפגעשטעלט",
+      "bbox": {
+        "left": 1336,
+        "top": 3324,
+        "right": 2381,
+        "bottom": 3408
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n135/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "a7760737d858bef79dd6d059b14ee986d6feea117ed4e8e6c6307ab6e0cf3773",
+      "normalizedPassageChecksum": "018f2d240e5c1655650b176f6579fc6b3e32873261d3a8dd3646e55c54a93ce1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_15e48c2a68386194900fb9ea",
+      "type": "Construction",
+      "title": "Construction of a three-story building on Yurovtser Street",
+      "summary": "Lapidus erected a three-story building with shops and apartments on Yurovtser Street.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The allowed event types do not precisely include building construction; business opening is only an approximate classification.",
+      "evidence": {
+        "passageId": "passage_e9e392d1133b731daf742486",
+        "pageId": "page_nybc313697_0136",
+        "scanIndex": 136,
+        "leafNumber": 135,
+        "printedPage": "120",
+        "passageCharStart": 460,
+        "passageCharEnd": 512,
+        "normalizedPassageCharStart": 460,
+        "normalizedPassageCharEnd": 512,
+        "pageCharStart": 1621,
+        "pageCharEnd": 1673,
+        "quote": "האָט לאַפּידוס אַרויפגעשטעלט אַ דריי-עטאַזשנעם מויער",
+        "normalizedQuote": "האָט לאַפּידוס אַרויפגעשטעלט אַ דריי-עטאַזשנעם מויער",
+        "modelQuote": "האָט לאַפּידוס אַרויפגעשטעלט אַ דריי-עטאַזשנעם מויער",
+        "bbox": {
+          "left": 385,
+          "top": 3324,
+          "right": 2381,
+          "bottom": 3408
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n135/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "a7760737d858bef79dd6d059b14ee986d6feea117ed4e8e6c6307ab6e0cf3773",
+        "normalizedPassageChecksum": "018f2d240e5c1655650b176f6579fc6b3e32873261d3a8dd3646e55c54a93ce1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_15e48c2a68386194900fb9ea",
+      "type": "Event",
+      "title": "Construction of a three-story building on Yurovtser Street",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_e9cc177339dbe472c411e264",
+      "type": "Person",
+      "title": "Mordechai Pagorelski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b90307177ca01e91336f44f",
+      "type": "Place",
+      "title": "Yurovtser Street",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,16 +1,15 @@
 {
   "id": "mention_bd526da4af5f5ba6f07f5459",
   "type": "Person",
-  "title": "Chaim Weber",
-  "summary": "Named as a prisoner or captive questioned by a bandit leader.",
+  "title": "Chaim the Weaver",
+  "summary": "A person addressed by the bandit leader during an interrogation.",
   "originalName": "חיים דעם וועבער",
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 249,
   "printedPage": "233",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "OCR spacing and surrounding text are unclear.",
   "evidenceRefs": [
     {
       "passageId": "passage_ea9f2b677556d6b10ae8b824",
@@ -20,12 +19,12 @@
       "printedPage": "233",
       "passageCharStart": 853,
       "passageCharEnd": 868,
-      "normalizedPassageCharStart": 729,
-      "normalizedPassageCharEnd": 743,
+      "normalizedPassageCharStart": 853,
+      "normalizedPassageCharEnd": 868,
       "pageCharStart": 3822,
       "pageCharEnd": 3837,
       "quote": "חיים דעם\nוועבער",
-      "normalizedQuote": "חייםדעם וועבער",
+      "normalizedQuote": "חיים דעם\nוועבער",
       "modelQuote": "חיים דעם וועבער",
       "bbox": {
         "left": 2546,
@@ -44,6 +43,13 @@
   ],
   "claims": [],
   "events": [],
-  "connections": [],
+  "connections": [
+    {
+      "id": "mention_e09e9c5ce8dc5a5e56cc0809",
+      "type": "Person",
+      "title": "Srolke the Lomer",
+      "relation": "Appears in same passage"
+    }
+  ],
   "publicationEligible": false
 }

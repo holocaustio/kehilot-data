@@ -1,0 +1,115 @@
+{
+  "id": "mention_d1a5b104b306f89dc9a7ea68",
+  "type": "Organization",
+  "title": "Hitlerist military units",
+  "summary": "Military units packed and withdrew toward Warsaw.",
+  "originalName": "היטלעריסטישע מיליטערישע אָפּטײלונגען",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 128,
+  "printedPage": "112",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military units",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_aed19d36e3b67ff3a6543820",
+      "pageId": "page_nybc313697_0128",
+      "scanIndex": 128,
+      "leafNumber": 127,
+      "printedPage": "112",
+      "passageCharStart": 569,
+      "passageCharEnd": 610,
+      "normalizedPassageCharStart": 569,
+      "normalizedPassageCharEnd": 610,
+      "pageCharStart": 569,
+      "pageCharEnd": 610,
+      "quote": "די היטלעריסטישע מילי-\nטערישע אָפּטײלונגען",
+      "normalizedQuote": "די היטלעריסטישע מילי-\nטערישע אָפּטײלונגען",
+      "modelQuote": "די היטלעריסטישע מילי-טערישע אָפּטײלונגען",
+      "bbox": {
+        "left": 376,
+        "top": 1321,
+        "right": 2371,
+        "bottom": 1509
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n127/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "48e0a0d57195b4230588eab5461ff466b8a00613b8bfb66f6dbbd2832ebd54b6",
+      "normalizedPassageChecksum": "a4577d898980659ba98b3f57e882557adf8c2a592a512032f85d912a4dc526fc",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c8a98bbab0a1a5f02c9ec6c5",
+      "type": "Migration",
+      "title": "Hitlerist military units withdrew from Bialystok",
+      "summary": "Hitlerist military units packed up and withdrew toward Warsaw before the Soviet arrival.",
+      "dateStart": "1939-09-22",
+      "dateEnd": "1939-09-22",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The date is inferred as the next day after 21 September and is therefore uncertain.",
+      "evidence": {
+        "passageId": "passage_aed19d36e3b67ff3a6543820",
+        "pageId": "page_nybc313697_0128",
+        "scanIndex": 128,
+        "leafNumber": 127,
+        "printedPage": "112",
+        "passageCharStart": 569,
+        "passageCharEnd": 621,
+        "normalizedPassageCharStart": 569,
+        "normalizedPassageCharEnd": 621,
+        "pageCharStart": 569,
+        "pageCharEnd": 621,
+        "quote": "די היטלעריסטישע מילי-\nטערישע אָפּטײלונגען פאַרפּאַקן",
+        "normalizedQuote": "די היטלעריסטישע מילי-\nטערישע אָפּטײלונגען פאַרפּאַקן",
+        "modelQuote": "די היטלעריסטישע מילי-\nטערישע אָפּטײלונגען פאַרפּאַקן",
+        "bbox": {
+          "left": 376,
+          "top": 1321,
+          "right": 2371,
+          "bottom": 1509
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n127/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "48e0a0d57195b4230588eab5461ff466b8a00613b8bfb66f6dbbd2832ebd54b6",
+        "normalizedPassageChecksum": "a4577d898980659ba98b3f57e882557adf8c2a592a512032f85d912a4dc526fc",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c8a98bbab0a1a5f02c9ec6c5",
+      "type": "Event",
+      "title": "Hitlerist military units withdrew from Bialystok",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_990d7d8f6cf18a3cd8b24512",
+      "type": "Organization",
+      "title": "Soviet Army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_35f61a0a474658fc611949aa",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

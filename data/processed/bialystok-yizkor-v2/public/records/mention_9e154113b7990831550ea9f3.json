@@ -1,16 +1,16 @@
 {
   "id": "mention_9e154113b7990831550ea9f3",
   "type": "Place",
-  "title": "Paniatów",
-  "summary": "Paniatów is identified as the destination of deported Bialystok Jews and the site of a labor camp.",
+  "title": "Poniatow",
+  "summary": "A labor camp where Bialystoker Jews were taken and murdered.",
   "originalName": "פּאַניאַטאָוו",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 233,
   "printedPage": "217",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "town and labor-camp location",
+  "subtype": "labor camp",
   "evidenceRefs": [
     {
       "passageId": "passage_ea767ac6c329d100eac3b614",
@@ -20,8 +20,8 @@
       "printedPage": "217",
       "passageCharStart": 172,
       "passageCharEnd": 185,
-      "normalizedPassageCharStart": 147,
-      "normalizedPassageCharEnd": 160,
+      "normalizedPassageCharStart": 172,
+      "normalizedPassageCharEnd": 185,
       "pageCharStart": 3061,
       "pageCharEnd": 3074,
       "quote": "פּאַניאַטאָוו",
@@ -38,19 +38,19 @@
       "passageChecksum": "6eb1dcf693cf906a6ee6e603883411d2a0db6fc25bf2f5aa4dcf7263efe812c9",
       "normalizedPassageChecksum": "0c041aaec65c41d38c0f9392f2537dbef31062a9ef8bc38346c3dbb2df13deee",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_c858870c4dfdeea62eb39ac9",
-      "predicate": "Migrated To",
-      "subjectTitle": "Bialystok Jews",
-      "objectTitle": "Paniatów",
+      "id": "claim_candidate_dc633131a6c236d330fe0886",
+      "predicate": "Transported To",
+      "subjectTitle": "Bialystok",
+      "objectTitle": "Poniatow",
       "confidence": "HIGH",
       "qualifiers": {
-        "context": "transported"
+        "group": "Bialystoker Jews"
       },
       "evidence": {
         "passageId": "passage_ea767ac6c329d100eac3b614",
@@ -59,18 +59,54 @@
         "leafNumber": 232,
         "printedPage": "217",
         "passageCharStart": 1108,
-        "passageCharEnd": 1182,
-        "normalizedPassageCharStart": 952,
-        "normalizedPassageCharEnd": 1018,
+        "passageCharEnd": 1153,
+        "normalizedPassageCharStart": 1108,
+        "normalizedPassageCharEnd": 1153,
         "pageCharStart": 3997,
-        "pageCharEnd": 4071,
-        "quote": "די ביאַליסטאָקער אידן, וועלכע זיינען געבראַכט “YX‏\nװאָרן PP‏ פּאַניאַטאָוו",
-        "normalizedQuote": "דיביאַליסטאָקעראידן,וועלכעזיינעןגעבראַכט“YX‏ װאָרןPP‏פּאַניאַטאָוו",
-        "modelQuote": "דיביאַליסטאָקעראידן,וועלכעזיינעןגעבראַכט“YX‏ װאָרןPP‏פּאַניאַטאָוו",
+        "pageCharEnd": 4042,
+        "quote": "די ביאַליסטאָקער אידן, וועלכע זיינען געבראַכט",
+        "normalizedQuote": "די ביאַליסטאָקער אידן, וועלכע זיינען געבראַכט",
+        "modelQuote": "די ביאַליסטאָקער אידן, וועלכע זיינען געבראַכט",
         "bbox": {
-          "left": 2582,
+          "left": 2721,
           "top": 2526,
-          "right": 4544,
+          "right": 4283,
+          "bottom": 2609
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n232/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "6eb1dcf693cf906a6ee6e603883411d2a0db6fc25bf2f5aa4dcf7263efe812c9",
+        "normalizedPassageChecksum": "0c041aaec65c41d38c0f9392f2537dbef31062a9ef8bc38346c3dbb2df13deee",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_f3e3c5b9718e57aa16a75766",
+      "predicate": "Murdered At",
+      "subjectTitle": "Bialystok",
+      "objectTitle": "Poniatow",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ea767ac6c329d100eac3b614",
+        "pageId": "page_nybc313697_0233",
+        "scanIndex": 233,
+        "leafNumber": 232,
+        "printedPage": "217",
+        "passageCharStart": 1169,
+        "passageCharEnd": 1197,
+        "normalizedPassageCharStart": 1169,
+        "normalizedPassageCharEnd": 1197,
+        "pageCharStart": 4058,
+        "pageCharEnd": 4086,
+        "quote": "פּאַניאַטאָוו, זיינען דאָרטן",
+        "normalizedQuote": "פּאַניאַטאָוו, זיינען דאָרטן",
+        "modelQuote": "פּאַניאַטאָוו, זיינען דאָרטן",
+        "bbox": {
+          "left": 3308,
+          "top": 2641,
+          "right": 4158,
           "bottom": 2710
         },
         "scanUrl": "https://archive.org/details/nybc313697/page/n232/mode/1up",
@@ -78,37 +114,36 @@
         "passageChecksum": "6eb1dcf693cf906a6ee6e603883411d2a0db6fc25bf2f5aa4dcf7263efe812c9",
         "normalizedPassageChecksum": "0c041aaec65c41d38c0f9392f2537dbef31062a9ef8bc38346c3dbb2df13deee",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
-    },
+    }
+  ],
+  "events": [
     {
-      "id": "claim_candidate_86a39ba2ebc410f21d43a3e0",
-      "predicate": "Murdered At",
-      "subjectTitle": "Bialystok Jews",
-      "objectTitle": "Paniatów",
+      "id": "event_candidate_bbcc13766ca39db9f950f41f",
+      "type": "Murder",
+      "title": "Murder of Bialystoker Jews at Poniatow",
+      "summary": "Bialystoker Jews brought to Poniatow were murdered there shortly afterward.",
       "confidence": "HIGH",
-      "qualifiers": {
-        "timing": "shortly afterward"
-      },
       "evidence": {
         "passageId": "passage_ea767ac6c329d100eac3b614",
         "pageId": "page_nybc313697_0233",
         "scanIndex": 233,
         "leafNumber": 232,
         "printedPage": "217",
-        "passageCharStart": 1184,
+        "passageCharStart": 1108,
         "passageCharEnd": 1242,
-        "normalizedPassageCharStart": 1019,
-        "normalizedPassageCharEnd": 1070,
-        "pageCharStart": 4073,
+        "normalizedPassageCharStart": 1108,
+        "normalizedPassageCharEnd": 1242,
+        "pageCharStart": 3997,
         "pageCharEnd": 4131,
-        "quote": "זיינען דאָרטן PNR‏ אַ גאַנץ קורצער\nVY‏ אומגעבראַכט געװאָרן",
-        "normalizedQuote": "זיינעןדאָרטןPNR‏אַגאַנץקורצער VY‏אומגעבראַכטגעװאָרן",
-        "modelQuote": "זיינעןדאָרטןPNR‏אַגאַנץקורצער VY‏אומגעבראַכטגעװאָרן",
+        "quote": "די ביאַליסטאָקער אידן, וועלכע זיינען געבראַכט “YX‏\nװאָרן PP‏ פּאַניאַטאָוו, זיינען דאָרטן PNR‏ אַ גאַנץ קורצער\nVY‏ אומגעבראַכט געװאָרן",
+        "normalizedQuote": "די ביאַליסטאָקער אידן, וועלכע זיינען געבראַכט “YX‏\nװאָרן PP‏ פּאַניאַטאָוו, זיינען דאָרטן PNR‏ אַ גאַנץ קורצער\nVY‏ אומגעבראַכט געװאָרן",
+        "modelQuote": "די ביאַליסטאָקער אידן, וועלכע זיינען געבראַכט “YX‏\nװאָרן PP‏ פּאַניאַטאָוו, זיינען דאָרטן PNR‏ אַ גאַנץ קורצער\nVY‏ אומגעבראַכט געװאָרן",
         "bbox": {
           "left": 2581,
-          "top": 2641,
+          "top": 2526,
           "right": 4544,
           "bottom": 2810
         },
@@ -117,33 +152,44 @@
         "passageChecksum": "6eb1dcf693cf906a6ee6e603883411d2a0db6fc25bf2f5aa4dcf7263efe812c9",
         "normalizedPassageChecksum": "0c041aaec65c41d38c0f9392f2537dbef31062a9ef8bc38346c3dbb2df13deee",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
   "connections": [
     {
-      "id": "mention_70192fc10286afb74a6cbee8",
+      "id": "mention_2bb781dcde091b36b3600ffd",
       "type": "Community",
-      "title": "Bialystok Jewish Community",
-      "relation": "Migrated To"
+      "title": "Bialystok",
+      "relation": "Transported To"
     },
     {
-      "id": "mention_70192fc10286afb74a6cbee8",
+      "id": "mention_2bb781dcde091b36b3600ffd",
       "type": "Community",
-      "title": "Bialystok Jewish Community",
+      "title": "Bialystok",
       "relation": "Murdered At"
+    },
+    {
+      "id": "event_candidate_bbcc13766ca39db9f950f41f",
+      "type": "Event",
+      "title": "Murder of Bialystoker Jews at Poniatow",
+      "relation": "Occurred At"
     },
     {
       "id": "mention_1cdf2bd8df1c4451ede3b262",
       "type": "Place",
-      "title": "Lublin-Paniatów",
+      "title": "Lublin-Poniatow",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ee249fe2d3016aa53624b061",
+      "id": "mention_2bb781dcde091b36b3600ffd",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8acca738d4ae07a4473e7441",
       "type": "Place",
       "title": "Oryol",
       "relation": "Appears in same passage"
@@ -155,9 +201,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ef3079274aef7688c6508bbe",
+      "id": "mention_7c24c1a9863df9d918cb63cc",
       "type": "Place",
-      "title": "Kharkiv",
+      "title": "Kharkov",
       "relation": "Appears in same passage"
     },
     {
@@ -167,9 +213,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_70192fc10286afb74a6cbee8",
-      "type": "Community",
-      "title": "Bialystok Jewish Community",
+      "id": "mention_e65cbd02b788a2a503bd1f52",
+      "type": "Organization",
+      "title": "Soviet Union",
       "relation": "Appears in same passage"
     }
   ],

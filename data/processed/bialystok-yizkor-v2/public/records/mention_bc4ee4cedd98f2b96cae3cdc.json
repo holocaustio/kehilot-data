@@ -1,0 +1,123 @@
+{
+  "id": "mention_bc4ee4cedd98f2b96cae3cdc",
+  "type": "Publication",
+  "title": "Good Morning",
+  "summary": "A daily local newspaper published in Białystok.",
+  "originalName": "גוט-מאָרגן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 113,
+  "printedPage": "97",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "newspaper",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bb530e6514a5c0b0fdc495be",
+      "pageId": "page_nybc313697_0113",
+      "scanIndex": 113,
+      "leafNumber": 112,
+      "printedPage": "97",
+      "passageCharStart": 942,
+      "passageCharEnd": 952,
+      "normalizedPassageCharStart": 942,
+      "normalizedPassageCharEnd": 952,
+      "pageCharStart": 1640,
+      "pageCharEnd": 1650,
+      "quote": "גוט-מאָרגן",
+      "normalizedQuote": "גוט-מאָרגן",
+      "modelQuote": "גוט-מאָרגן",
+      "bbox": {
+        "left": 697,
+        "top": 3931,
+        "right": 1121,
+        "bottom": 3998
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n112/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f972175dc55d3c9e807d32a4033b7867d85469be78faf14b0d71c8af290c28fb",
+      "normalizedPassageChecksum": "2a80a2f1bc857c2b0faeb4e751b0acd86f2d4a0df760b508487b2c96867e7fd1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_540c908d851852375ebf68c5",
+      "predicate": "Published In",
+      "subjectTitle": "Good Morning",
+      "objectTitle": "Białystok",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_bb530e6514a5c0b0fdc495be",
+        "pageId": "page_nybc313697_0113",
+        "scanIndex": 113,
+        "leafNumber": 112,
+        "printedPage": "97",
+        "passageCharStart": 867,
+        "passageCharEnd": 953,
+        "normalizedPassageCharStart": 867,
+        "normalizedPassageCharEnd": 953,
+        "pageCharStart": 1565,
+        "pageCharEnd": 1651,
+        "quote": "ביאַליסטאַק דערשינען צוויי טעגלעכע\nלאָקאַלע צייטונגען , אונזער לעבן\" און , גוט-מאָרגן\"",
+        "normalizedQuote": "ביאַליסטאַק דערשינען צוויי טעגלעכע\nלאָקאַלע צייטונגען , אונזער לעבן\" און , גוט-מאָרגן\"",
+        "modelQuote": "ביאַליסטאַק דערשינען צוויי טעגלעכע לאָקאַלע צייטונגען , אונזער לעבן\" און , גוט-מאָרגן\"",
+        "bbox": {
+          "left": 451,
+          "top": 3818,
+          "right": 2388,
+          "bottom": 4007
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n112/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "f972175dc55d3c9e807d32a4033b7867d85469be78faf14b0d71c8af290c28fb",
+        "normalizedPassageChecksum": "2a80a2f1bc857c2b0faeb4e751b0acd86f2d4a0df760b508487b2c96867e7fd1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_7733228430ed693f83c073d6",
+      "type": "Place",
+      "title": "Białystok",
+      "relation": "Published In"
+    },
+    {
+      "id": "mention_595aad9d3d94abcd8e8f2651",
+      "type": "Organization",
+      "title": "Jewish Printers’ Union",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7733228430ed693f83c073d6",
+      "type": "Place",
+      "title": "Białystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a6aa216a1a688dee9595e3d6",
+      "type": "Publication",
+      "title": "Our Life",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e766d876895f620bb208b042",
+      "type": "Person",
+      "title": "Kaplan",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_379bf95a196140e556ef10ce",
+      "type": "Organization",
+      "title": "Our Life Publishing House",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,11 +1,11 @@
 {
   "id": "mention_6b2218e70828816aaf2d2cd6",
   "type": "Place",
-  "title": "The courtyard",
-  "summary": "The bandits searched the courtyard.",
-  "originalName": "אונזער הויף",
+  "title": "Courtyard",
+  "summary": "Courtyard searched by the bandits.",
+  "originalName": "הויף",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 248,
   "printedPage": "232",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "232",
       "passageCharStart": 1044,
       "passageCharEnd": 1055,
-      "normalizedPassageCharStart": 887,
-      "normalizedPassageCharEnd": 898,
+      "normalizedPassageCharStart": 1044,
+      "normalizedPassageCharEnd": 1055,
       "pageCharStart": 1887,
       "pageCharEnd": 1898,
       "quote": "אונזער\nהויף",
-      "normalizedQuote": "אונזער הויף",
+      "normalizedQuote": "אונזער\nהויף",
       "modelQuote": "אונזער הויף",
       "bbox": {
         "left": 417,
@@ -38,23 +38,133 @@
       "passageChecksum": "700e0da9fa995cbd28eb007070809828599576af32102f271d8935db8cb89e5c",
       "normalizedPassageChecksum": "918880752d559985bfeded7c08e6f219cd718360a54151d86373f2b631b025d9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_7b7350dc0565f367ac1cfd97",
+      "type": "Search Or Raid",
+      "title": "Search of the courtyard",
+      "summary": "Bandits searched the courtyard with a tracking dog and found nothing; perpetrator identity is not specified as Germans.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_730c1caa3a5e1db293bd9267",
+        "pageId": "page_nybc313697_0248",
+        "scanIndex": 248,
+        "leafNumber": 247,
+        "printedPage": "232",
+        "passageCharStart": 730,
+        "passageCharEnd": 791,
+        "normalizedPassageCharStart": 730,
+        "normalizedPassageCharEnd": 791,
+        "pageCharStart": 1573,
+        "pageCharEnd": 1634,
+        "quote": "די באַנדיטן זיינען PIN‏ צו אונז PR‏ הויף, געזוכט, גע-\nנישטערט",
+        "normalizedQuote": "די באַנדיטן זיינען PIN‏ צו אונז PR‏ הויף, געזוכט, גע-\nנישטערט",
+        "modelQuote": "די באַנדיטן זיינען PIN‏ צו אונז PR‏ הויף, געזוכט, גע-\nנישטערט",
+        "bbox": {
+          "left": 411,
+          "top": 3808,
+          "right": 2383,
+          "bottom": 3985
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n247/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "700e0da9fa995cbd28eb007070809828599576af32102f271d8935db8cb89e5c",
+        "normalizedPassageChecksum": "918880752d559985bfeded7c08e6f219cd718360a54151d86373f2b631b025d9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_c44939bfc81d6c48686e1188",
+      "type": "Refuge Seeking",
+      "title": "Gazhalchani siblings seek shelter",
+      "summary": "Two brothers and a sister appealed for refuge and were taken in by the hidden group.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The siblings’ names and the surrounding appeal are partly corrupted by OCR.",
+      "evidence": {
+        "passageId": "passage_730c1caa3a5e1db293bd9267",
+        "pageId": "page_nybc313697_0248",
+        "scanIndex": 248,
+        "leafNumber": 247,
+        "printedPage": "232",
+        "passageCharStart": 374,
+        "passageCharEnd": 404,
+        "normalizedPassageCharStart": 374,
+        "normalizedPassageCharEnd": 404,
+        "pageCharStart": 1217,
+        "pageCharEnd": 1247,
+        "quote": "גאזשאלטשאני מיט IX‏ אויסגעשריי",
+        "normalizedQuote": "גאזשאלטשאני מיט IX‏ אויסגעשריי",
+        "modelQuote": "גאזשאלטשאני מיט IX‏ אויסגעשריי",
+        "bbox": {
+          "left": 1213,
+          "top": 3097,
+          "right": 2388,
+          "bottom": 3175
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n247/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "700e0da9fa995cbd28eb007070809828599576af32102f271d8935db8cb89e5c",
+        "normalizedPassageChecksum": "918880752d559985bfeded7c08e6f219cd718360a54151d86373f2b631b025d9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_4829f107817d97ba6ed4006a",
+      "id": "event_candidate_7b7350dc0565f367ac1cfd97",
+      "type": "Event",
+      "title": "Search of the courtyard",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "event_candidate_c44939bfc81d6c48686e1188",
+      "type": "Event",
+      "title": "Gazhalchani siblings seek shelter",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5d339c33ff84992bbc426f51",
+      "type": "Person",
+      "title": "Gazhalchani siblings",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e1fb281a71ddc02d15ebb437",
+      "type": "Place",
+      "title": "Our street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_991c2a9eda2a1ea64fa3c0bc",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b92a74e513284e7079c58db9",
       "type": "Organization",
       "title": "Nazis",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5a2d7df82a7a488add090f70",
-      "type": "Organization",
-      "title": "Jewish police",
+      "id": "mention_3658caaebc645e62a1f92369",
+      "type": "Person",
+      "title": "Gendarme",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_becac4d6b7c03ae7650a7eb1",
+      "type": "Person",
+      "title": "Jewish police officer",
       "relation": "Appears in same passage"
     }
   ],

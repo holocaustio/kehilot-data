@@ -2,15 +2,16 @@
   "id": "mention_6cc880310367df2903c156e1",
   "type": "Person",
   "title": "Dr. Iserson",
-  "summary": "A physician named among hospital staff.",
+  "summary": "A renowned doctor who worked at the Białystok Jewish Hospital.",
   "originalName": "דר, איסערסאַן",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 106,
   "printedPage": "90",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "doctor",
+  "uncertaintyNote": "The source uses a comma after the title.",
   "evidenceRefs": [
     {
       "passageId": "passage_029af3181a62aa4e8156b240",
@@ -20,12 +21,12 @@
       "printedPage": "90",
       "passageCharStart": 583,
       "passageCharEnd": 596,
-      "normalizedPassageCharStart": 504,
-      "normalizedPassageCharEnd": 517,
+      "normalizedPassageCharStart": 583,
+      "normalizedPassageCharEnd": 596,
       "pageCharStart": 2618,
       "pageCharEnd": 2631,
       "quote": "דר,\nאיסערסאַן",
-      "normalizedQuote": "דר, איסערסאַן",
+      "normalizedQuote": "דר,\nאיסערסאַן",
       "modelQuote": "דר, איסערסאַן",
       "bbox": {
         "left": 256,
@@ -38,7 +39,7 @@
       "passageChecksum": "9aed1238e62078fd13fb827744e00599e6f45388711d58ca374092cc1f032c6f",
       "normalizedPassageChecksum": "53128bb0db773de39270be023c30a5fb1fd16cf12427ffc8df41aa60f8bb8046",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,61 +47,55 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_70192fc10286afb74a6cbee8",
-      "type": "Community",
-      "title": "Bialystok Jewish Community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e2759ae2b97c8975cfd07d88",
-      "type": "Institution",
-      "title": "Jewish Hospital in Bialystok",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a0e005dfe777f8a0355d9593",
+      "id": "mention_3c07ba4d745d7cc5500684ee",
       "type": "Person",
-      "title": "Dr. Reigo-Rodzki",
+      "title": "Dr. Reigordzki",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1f144e1745067bc3d38f5f0d",
+      "id": "mention_0cb75203487f92eadd72f8a2",
       "type": "Person",
       "title": "Dr. Triling",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c55ef236b19b9cf66b692b76",
+      "id": "mention_6db3fd97f042e322d6c6b276",
       "type": "Person",
       "title": "Dr. Farshterter",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_033d37981bbb40b4435f8928",
+      "id": "mention_84583d593283d1718d9e65b2",
       "type": "Person",
       "title": "Dr. Epstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bbd816abab253beca3e78287",
+      "id": "mention_41387329466a1928e6c8c994",
       "type": "Person",
       "title": "Dr. Ziman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_40512adbd77d771dffad400d",
+      "id": "mention_6ab17accf60aab9c70a76bc9",
       "type": "Person",
       "title": "Dr. Jacobson",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0574874e31d3b34002c9be88",
+      "id": "mention_7cc671f2572f156065c3417a",
       "type": "Person",
       "title": "Dr. Kagan",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dce4fd3f40943d300bcc3a84",
+      "id": "mention_920861fea7faf7a66977a8de",
+      "type": "Person",
+      "title": "Wolf",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ab5eba8e79aa5f63fd8d5d2",
       "type": "Person",
       "title": "Dr. Feigin",
       "relation": "Appears in same passage"

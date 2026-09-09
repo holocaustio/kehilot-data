@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_fc760a1a49d598a925ffbaa9",
+  "type": "Event",
+  "title": "Matzah bakery opening",
+  "summary": "Asher Wein opened a bakery at Yatke Street 11 to produce matzah.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 271,
+  "printedPage": "255",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fcfede6ad1db64e76681986c",
+      "pageId": "page_nybc313697_0271",
+      "scanIndex": 271,
+      "leafNumber": 270,
+      "printedPage": "255",
+      "passageCharStart": 938,
+      "passageCharEnd": 963,
+      "normalizedPassageCharStart": 938,
+      "normalizedPassageCharEnd": 963,
+      "pageCharStart": 2227,
+      "pageCharEnd": 2252,
+      "quote": "יאַטקע גאַס 11 אַ בעקעריי",
+      "normalizedQuote": "יאַטקע גאַס 11 אַ בעקעריי",
+      "modelQuote": "יאַטקע גאַס 11 אַ בעקעריי",
+      "bbox": {
+        "left": 2980,
+        "top": 2017,
+        "right": 3908,
+        "bottom": 2086
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n270/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "a0d12546d77c2f8b1638445112da5a271876a000bdb3e2a0cc64189df9c86329",
+      "normalizedPassageChecksum": "d7d51460b66418cfbd06510c9b48ea995ba76334795f8b3808c882e5ac9be5cd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_d79e3b0f3a9ce08eb8b3e5f2",
+      "type": "Place",
+      "title": "Yatke Street 11",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6623f1a1337b9157e8f79234",
+      "type": "Person",
+      "title": "Asher Wein",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

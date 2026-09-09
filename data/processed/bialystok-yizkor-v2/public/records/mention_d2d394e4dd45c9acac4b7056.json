@@ -1,0 +1,107 @@
+{
+  "id": "mention_d2d394e4dd45c9acac4b7056",
+  "type": "Business",
+  "title": "Trilling company",
+  "summary": "A Bialystok company representative is described as purchasing local wool.",
+  "originalName": "טרילינג",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 375,
+  "printedPage": "359",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "company",
+  "uncertaintyNote": "The company name and sentence are affected by OCR noise.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_150b20efc0313230f69b68a5",
+      "pageId": "page_nybc313697_0375",
+      "scanIndex": 375,
+      "leafNumber": 374,
+      "printedPage": "359",
+      "passageCharStart": 843,
+      "passageCharEnd": 873,
+      "normalizedPassageCharStart": 843,
+      "normalizedPassageCharEnd": 873,
+      "pageCharStart": 3900,
+      "pageCharEnd": 3930,
+      "quote": "ביאַלי\nסטאָקער פירמע , טרילינג",
+      "normalizedQuote": "ביאַלי\nסטאָקער פירמע , טרילינג",
+      "modelQuote": "ביאַלי\nסטאָקער פירמע , טרילינג",
+      "bbox": {
+        "left": 2582,
+        "top": 2831,
+        "right": 4581,
+        "bottom": 3030
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n374/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f2028c2c99c1eedab7980de030664f4aca9da944d11f19be698fd6dab4de8274",
+      "normalizedPassageChecksum": "113254a2d2ceed390c8a930d9149c016372bccd7d41d7438ec558de05ac975e6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_d112e2efb233bf5c32963a66",
+      "predicate": "Located In",
+      "subjectTitle": "Trilling company",
+      "objectTitle": "Bialystok",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The phrase identifies the company as Bialystok-based, though OCR is noisy.",
+      "evidence": {
+        "passageId": "passage_150b20efc0313230f69b68a5",
+        "pageId": "page_nybc313697_0375",
+        "scanIndex": 375,
+        "leafNumber": 374,
+        "printedPage": "359",
+        "passageCharStart": 820,
+        "passageCharEnd": 873,
+        "normalizedPassageCharStart": 820,
+        "normalizedPassageCharEnd": 873,
+        "pageCharStart": 3877,
+        "pageCharEnd": 3930,
+        "quote": "אַ פאַָרשטייער פון דער ביאַלי\nסטאָקער פירמע , טרילינג",
+        "normalizedQuote": "אַ פאַָרשטייער פון דער ביאַלי\nסטאָקער פירמע , טרילינג",
+        "modelQuote": "אַ פאַָרשטייער פון דער ביאַלי\nסטאָקער פירמע , טרילינג",
+        "bbox": {
+          "left": 2582,
+          "top": 2831,
+          "right": 4581,
+          "bottom": 3030
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n374/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "f2028c2c99c1eedab7980de030664f4aca9da944d11f19be698fd6dab4de8274",
+        "normalizedPassageChecksum": "113254a2d2ceed390c8a930d9149c016372bccd7d41d7438ec558de05ac975e6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_2bb781dcde091b36b3600ffd",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_2bb781dcde091b36b3600ffd",
+      "type": "Community",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4a0a75a4268248c84c4670ea",
+      "type": "Place",
+      "title": "Jerusalem",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

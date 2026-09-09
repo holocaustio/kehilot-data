@@ -2,15 +2,14 @@
   "id": "mention_271a24aeb3d375e4e3f37dd4",
   "type": "Person",
   "title": "Trotsky",
-  "summary": "Named among escapees from a Warsaw labor site.",
+  "summary": "Participant in the escape group.",
   "originalName": "טראָצקי",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 238,
   "printedPage": "222",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "Only a surname is given.",
   "evidenceRefs": [
     {
       "passageId": "passage_e87d2cebc5b5b744ef02787d",
@@ -20,8 +19,8 @@
       "printedPage": "222",
       "passageCharStart": 629,
       "passageCharEnd": 636,
-      "normalizedPassageCharStart": 546,
-      "normalizedPassageCharEnd": 553,
+      "normalizedPassageCharStart": 629,
+      "normalizedPassageCharEnd": 636,
       "pageCharStart": 5252,
       "pageCharEnd": 5259,
       "quote": "טראָצקי",
@@ -38,48 +37,99 @@
       "passageChecksum": "9ca9e5cb5c12f1360cfb90cb0e088e3c45e1796257ef75b756c17ce14182aceb",
       "normalizedPassageChecksum": "de0aba100fb4e61c100cb74b68e713f1ec7c510dd6075b6c9f0612c2f8d9bc72",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_152dced86c239a0da079ef93",
+      "type": "Migration",
+      "title": "Escape from the labor site",
+      "summary": "On November 1, 1943, a group escaped from a labor site at 27 Warsawer Street and sought contact with partisans.",
+      "dateStart": "1943-11-01",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text says eight people, but the subsequent OCR list appears to name more than eight; participant mapping is therefore uncertain.",
+      "evidence": {
+        "passageId": "passage_e87d2cebc5b5b744ef02787d",
+        "pageId": "page_nybc313697_0238",
+        "scanIndex": 238,
+        "leafNumber": 237,
+        "printedPage": "222",
+        "passageCharStart": 267,
+        "passageCharEnd": 356,
+        "normalizedPassageCharStart": 267,
+        "normalizedPassageCharEnd": 356,
+        "pageCharStart": 4890,
+        "pageCharEnd": 4979,
+        "quote": "אונזער אַרבעטס-פּלאַץ FIN‏ װואַרשעװוער 27, אונטער דעם\nשלייער ITN TD‏ זיינען מיר אַנטלאָפן",
+        "normalizedQuote": "אונזער אַרבעטס-פּלאַץ FIN‏ װואַרשעװוער 27, אונטער דעם\nשלייער ITN TD‏ זיינען מיר אַנטלאָפן",
+        "modelQuote": "אונזער אַרבעטס-פּלאַץ FIN‏ װואַרשעװוער 27, אונטער דעם\nשלייער ITN TD‏ זיינען מיר אַנטלאָפן",
+        "bbox": {
+          "left": 2574,
+          "top": 4230,
+          "right": 4536,
+          "bottom": 4415
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n237/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "9ca9e5cb5c12f1360cfb90cb0e088e3c45e1796257ef75b756c17ce14182aceb",
+        "normalizedPassageChecksum": "de0aba100fb4e61c100cb74b68e713f1ec7c510dd6075b6c9f0612c2f8d9bc72",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "event_candidate_fe25b8ef9c6f248f4f8c1522",
+      "id": "event_candidate_152dced86c239a0da079ef93",
       "type": "Event",
-      "title": "Escape from the Warsaw labor site",
+      "title": "Escape from the labor site",
       "relation": "Participated In",
       "role": "Participant"
     },
     {
-      "id": "mention_531818b80c592082a25dabcc",
+      "id": "mention_d6d7f618fa253d3bcf0eaf23",
       "type": "Person",
       "title": "Shimon Emiel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c7792d76aa26e4ca6aa4f796",
+      "id": "mention_8bc87705c983463669857b3d",
       "type": "Person",
       "title": "Berl Schatzman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c044a803b9949163df729e33",
+      "id": "mention_1fc3c18cf15c9cea6975e135",
       "type": "Person",
-      "title": "Moyshe Grotkovitsh",
+      "title": "Moshe Grotkovitch",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_57bb1978a265642ddc0ba402",
+      "id": "mention_822cc71c332baa3481feeb7b",
       "type": "Person",
-      "title": "Meir Bez",
+      "title": "Elboim's youngest daughter",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a6b430ec8039090a8b845c82",
+      "id": "mention_cc53febc2ac97751342855ec",
       "type": "Person",
-      "title": "Henokh Lupe",
+      "title": "Meir",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a636b7cee16da6b8721eb6bd",
+      "type": "Person",
+      "title": "Beza",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fa9b8580804a06042b52d4d0",
+      "type": "Person",
+      "title": "Henoch Lupe",
       "relation": "Appears in same passage"
     },
     {
@@ -89,9 +139,27 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_257ef1ce1f8660e475a8e3ff",
+      "id": "mention_dfe0b799feaf54052091ca27",
       "type": "Person",
       "title": "Itsele",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cd60dee0ab7f4901735edc5f",
+      "type": "Person",
+      "title": "Juzhek",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_be742c7070a0c0b0da71b221",
+      "type": "Place",
+      "title": "27 Warsawer Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fc04452d3d0d0f02b8684bf1",
+      "type": "Place",
+      "title": "Piaskes-Kiovska Street",
       "relation": "Appears in same passage"
     }
   ],

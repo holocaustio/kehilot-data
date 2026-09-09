@@ -2,10 +2,10 @@
   "id": "mention_e096e39d903768709578b226",
   "type": "Place",
   "title": "Treblinka death camp",
-  "summary": "Death camp named as a destination for evacuated Jews.",
+  "summary": "Death camp to which Jews from surrounding communities were sent.",
   "originalName": "Treblinka death camp",
   "confidence": "HIGH",
-  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 542,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 4810,
       "passageCharEnd": 4842,
-      "normalizedPassageCharStart": 4116,
-      "normalizedPassageCharEnd": 4143,
+      "normalizedPassageCharStart": 4810,
+      "normalizedPassageCharEnd": 4842,
       "pageCharStart": 4810,
       "pageCharEnd": 4842,
       "quote": "sent to the Treblinka death camp",
-      "normalizedQuote": "senttotheTreblinkadeathcamp",
+      "normalizedQuote": "sent to the Treblinka death camp",
       "modelQuote": "sent to the Treblinka death camp",
       "bbox": {
         "left": 2587,
@@ -38,59 +38,100 @@
       "passageChecksum": "45cb329a91672aaedc280cbac888471f2ed087dc874089567c5aa247687545df",
       "normalizedPassageChecksum": "8f429aa67a03fef4ee4a43686493bd7a27c7a22fe6b056f141462b7376ecb067",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_18ac35164df140bb963ec12a",
+      "type": "Deportation",
+      "title": "Evacuation of surrounding Jewish communities",
+      "summary": "On November 2, 1942, the vicinity around Bialystok containing approximately 150,000 Jews was evacuated; people were murdered in their home communities or sent to Treblinka.",
+      "dateStart": "1942-11-02",
+      "dateEnd": "1942-11-02",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text does not identify a single destination or event participant beyond the affected Jews.",
+      "evidence": {
+        "passageId": "passage_7138384e998c2db54795e5a6",
+        "pageId": "page_nybc313697_0542",
+        "scanIndex": 542,
+        "leafNumber": 541,
+        "printedPage": null,
+        "passageCharStart": 4606,
+        "passageCharEnd": 4718,
+        "normalizedPassageCharStart": 4606,
+        "normalizedPassageCharEnd": 4718,
+        "pageCharStart": 4606,
+        "pageCharEnd": 4718,
+        "quote": "On November 2, 1942, the entire vicinity around\nBialystok, containing approximately 150,000 Jews, was\nevacuated.",
+        "normalizedQuote": "On November 2, 1942, the entire vicinity around\nBialystok, containing approximately 150,000 Jews, was\nevacuated.",
+        "modelQuote": "On November 2, 1942, the entire vicinity around\nBialystok, containing approximately 150,000 Jews, was\nevacuated.",
+        "bbox": {
+          "left": 2585,
+          "top": 4203,
+          "right": 4621,
+          "bottom": 4468
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n541/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "45cb329a91672aaedc280cbac888471f2ed087dc874089567c5aa247687545df",
+        "normalizedPassageChecksum": "8f429aa67a03fef4ee4a43686493bd7a27c7a22fe6b056f141462b7376ecb067",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_3e4721197a9b32c1af8d184c",
+      "id": "event_candidate_18ac35164df140bb963ec12a",
+      "type": "Event",
+      "title": "Evacuation of surrounding Jewish communities",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_bf1a2ed7870764a7e07a670c",
       "type": "Person",
       "title": "Efrajim Barasz",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4d9650da9a2fde5fb5d7fcf6",
+      "id": "mention_104c5b7fb31ad07db585ce4f",
       "type": "Person",
       "title": "Rabbi Dr. Rozenman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_70192fc10286afb74a6cbee8",
+      "id": "mention_a1809ab5803987bf9e9aad00",
       "type": "Community",
-      "title": "Bialystok Jewish Community",
+      "title": "Jewish community of Bialystok",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5b8064e9df611a20e80a7f45",
+      "id": "mention_fa4cc4135827db4d1d8daab0",
       "type": "Place",
-      "title": "Bialystok ghetto",
+      "title": "Białystok Ghetto",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7a72428f84d0e81bef2a0442",
-      "type": "Organization",
+      "id": "mention_5a1ea5b7cceaa78db73a527f",
+      "type": "Institution",
       "title": "Judenrat",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f8d55770aa72339d10256d30",
+      "id": "mention_6fd9752889a2980cd0bc3055",
       "type": "Institution",
-      "title": "Bialystok ghetto factories",
+      "title": "ghetto hospital",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4dee3a42936a9e7efb23be57",
+      "id": "mention_0ba5861412e2813142c9918a",
       "type": "Institution",
-      "title": "Bialystok ghetto schools and vocational training centers",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_c68af6fd945b1607ad4c47c8",
-      "type": "Institution",
-      "title": "Bialystok ghetto hospital",
+      "title": "ghetto schools and vocational training centers",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,112 @@
+{
+  "id": "mention_337498fcc7791e217b06cd43",
+  "type": "Place",
+  "title": "Petrashe Field",
+  "summary": "A field where thousands of Jewish men, women, children, and elderly people were confined.",
+  "originalName": "פּעטראַשע פעלד",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 224,
+  "printedPage": "208",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "field",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_86e989ff96575b2cb4468f99",
+      "pageId": "page_nybc313697_0224",
+      "scanIndex": 224,
+      "leafNumber": 223,
+      "printedPage": "208",
+      "passageCharStart": 537,
+      "passageCharEnd": 565,
+      "normalizedPassageCharStart": 537,
+      "normalizedPassageCharEnd": 565,
+      "pageCharStart": 537,
+      "pageCharEnd": 565,
+      "quote": "די שחיטה PAN‏ פּעטראַשע פעלד",
+      "normalizedQuote": "די שחיטה PAN‏ פּעטראַשע פעלד",
+      "modelQuote": "די שחיטה PAN‏ פּעטראַשע פעלד",
+      "bbox": {
+        "left": 711,
+        "top": 1455,
+        "right": 2061,
+        "bottom": 1577
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n223/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "492931861043618b13e74aaecc0ccc87bdd27ca736bd022d5b45cc2a2595f639",
+      "normalizedPassageChecksum": "cb0f6bb2329e8d3ef90b429055a31faada81f9773b5a991180b5cebc07341e2a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_82efdaf5e08efbb427496ab0",
+      "type": "Imprisonment",
+      "title": "Confinement at Petrashe Field",
+      "summary": "Approximately 25,000 Jews were crowded into a narrow area and surrounded by armed forces.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR corruption affects the sentence, though confinement of the Jewish group is clear.",
+      "evidence": {
+        "passageId": "passage_86e989ff96575b2cb4468f99",
+        "pageId": "page_nybc313697_0224",
+        "scanIndex": 224,
+        "leafNumber": 223,
+        "printedPage": "208",
+        "passageCharStart": 576,
+        "passageCharEnd": 724,
+        "normalizedPassageCharStart": 576,
+        "normalizedPassageCharEnd": 724,
+        "pageCharStart": 576,
+        "pageCharEnd": 724,
+        "quote": "25 טויזנט אידישע מענער, פרויען, קינדער VN‏\nזקנים — PR‏ ווייטער פאַרצייכנט PNR‏ רייזנער'ס “DN‏\nלעבענישן -- זיינען אַרײנגעקוועטשט TANYA‏ אין IN‏ ענגען",
+        "normalizedQuote": "25 טויזנט אידישע מענער, פרויען, קינדער VN‏\nזקנים — PR‏ ווייטער פאַרצייכנט PNR‏ רייזנער'ס “DN‏\nלעבענישן -- זיינען אַרײנגעקוועטשט TANYA‏ אין IN‏ ענגען",
+        "modelQuote": "25 טויזנט אידישע מענער, פרויען, קינדער VN‏ זקנים — PR‏ ווייטער פאַרצייכנט PNR‏ רייזנער'ס “DN‏ לעבענישן -- זיינען אַרײנגעקוועטשט TANYA‏ אין IN‏ ענגען",
+        "bbox": {
+          "left": 410,
+          "top": 1620,
+          "right": 2371,
+          "bottom": 1895
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n223/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "492931861043618b13e74aaecc0ccc87bdd27ca736bd022d5b45cc2a2595f639",
+        "normalizedPassageChecksum": "cb0f6bb2329e8d3ef90b429055a31faada81f9773b5a991180b5cebc07341e2a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_82efdaf5e08efbb427496ab0",
+      "type": "Event",
+      "title": "Confinement at Petrashe Field",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_06244f6dbe23de2bbd022b23",
+      "type": "Community",
+      "title": "Białystok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a81d5597ace5e790a14a435c",
+      "type": "Place",
+      "title": "Ukraine",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0936fc3d64621ce2b5b42e26",
+      "type": "Community",
+      "title": "Jewish population",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

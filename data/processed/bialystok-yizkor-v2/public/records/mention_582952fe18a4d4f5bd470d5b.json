@@ -1,0 +1,101 @@
+{
+  "id": "mention_582952fe18a4d4f5bd470d5b",
+  "type": "Place",
+  "title": "Urawecki Street",
+  "summary": "Children are assembled in groups on Urawecki Street.",
+  "originalName": "יוראַוועצקי גאַס",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 243,
+  "printedPage": "227",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "Transliteration is uncertain because of OCR and unavailable contextual spelling.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_14a35bfb791156b34932ecc9",
+      "pageId": "page_nybc313697_0243",
+      "scanIndex": 243,
+      "leafNumber": 242,
+      "printedPage": "227",
+      "passageCharStart": 173,
+      "passageCharEnd": 189,
+      "normalizedPassageCharStart": 173,
+      "normalizedPassageCharEnd": 189,
+      "pageCharStart": 1337,
+      "pageCharEnd": 1353,
+      "quote": "יוראַוועצקי גאַס",
+      "normalizedQuote": "יוראַוועצקי גאַס",
+      "modelQuote": "יוראַוועצקי גאַס",
+      "bbox": {
+        "left": 1674,
+        "top": 3895,
+        "right": 2191,
+        "bottom": 3963
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n242/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b1612e6c3dee36981f72e8fc8d6cd4516e55766de7ea2346b9b6704754168caa",
+      "normalizedPassageChecksum": "aa5d1f4ce1014a295f3d722058066b1c7f1fe3268d490f13647d3c7df299f51a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f2915b32a54d8dec9b87f3be",
+      "type": "Murder",
+      "title": "Murder of captured young women",
+      "summary": "Captured young women are shot after refusing an order to sing.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR noise obscures some details.",
+      "evidence": {
+        "passageId": "passage_14a35bfb791156b34932ecc9",
+        "pageId": "page_nybc313697_0243",
+        "scanIndex": 243,
+        "leafNumber": 242,
+        "printedPage": "227",
+        "passageCharStart": 790,
+        "passageCharEnd": 829,
+        "normalizedPassageCharStart": 790,
+        "normalizedPassageCharEnd": 829,
+        "pageCharStart": 1954,
+        "pageCharEnd": 1993,
+        "quote": "דער ,העלד\" צילט ONT IN‏\nמאַשינען:געװוער",
+        "normalizedQuote": "דער ,העלד\" צילט ONT IN‏\nמאַשינען:געװוער",
+        "modelQuote": "דער ,העלד\" צילט ONT IN‏ מאַשינען:געװוער",
+        "bbox": {
+          "left": 630,
+          "top": 5280,
+          "right": 2189,
+          "bottom": 5467
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n242/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "b1612e6c3dee36981f72e8fc8d6cd4516e55766de7ea2346b9b6704754168caa",
+        "normalizedPassageChecksum": "aa5d1f4ce1014a295f3d722058066b1c7f1fe3268d490f13647d3c7df299f51a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f2915b32a54d8dec9b87f3be",
+      "type": "Event",
+      "title": "Murder of captured young women",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_2cd70e28480922a3e27e15e9",
+      "type": "Event",
+      "title": "Shooting of young Jewish women",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,100 @@
+{
+  "id": "mention_afaff70326c589dd97c53b72",
+  "type": "Institution",
+  "title": "Orler Yeshiva",
+  "summary": "Yeshiva mentioned in connection with its head and teachers.",
+  "originalName": "דער אָרלער",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 70,
+  "printedPage": "54",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "yeshiva",
+  "uncertaintyNote": "The OCR does not clearly preserve the institution's full name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0a0eb9ee2619656a8cf2c48e",
+      "pageId": "page_nybc313697_0070",
+      "scanIndex": 70,
+      "leafNumber": 69,
+      "printedPage": "54",
+      "passageCharStart": 26,
+      "passageCharEnd": 36,
+      "normalizedPassageCharStart": 26,
+      "normalizedPassageCharEnd": 36,
+      "pageCharStart": 2878,
+      "pageCharEnd": 2888,
+      "quote": "דער אָרלער",
+      "normalizedQuote": "דער אָרלער",
+      "modelQuote": "דער אָרלער",
+      "bbox": {
+        "left": 3039,
+        "top": 402,
+        "right": 3501,
+        "bottom": 479
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n69/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "6f0aed6f185ee8ad44d7c06e6bf4f77f7554f0f22b442ed617e8ed80f123d951",
+      "normalizedPassageChecksum": "c18fce03d9b47a04739eef26ab7ad99554f79e40e964a9af1f36e9e0d51170f0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_436acc4bc885ec7b4f3baf14",
+      "predicate": "Led By",
+      "subjectTitle": "Shimon-Zelig",
+      "objectTitle": "Orler Yeshiva",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_0a0eb9ee2619656a8cf2c48e",
+        "pageId": "page_nybc313697_0070",
+        "scanIndex": 70,
+        "leafNumber": 69,
+        "printedPage": "54",
+        "passageCharStart": 105,
+        "passageCharEnd": 144,
+        "normalizedPassageCharStart": 105,
+        "normalizedPassageCharEnd": 144,
+        "pageCharStart": 2957,
+        "pageCharEnd": 2996,
+        "quote": "ר'\nשמעון-זעליג, דער ראש:ישיבה און משגיח",
+        "normalizedQuote": "ר'\nשמעון-זעליג, דער ראש:ישיבה און משגיח",
+        "modelQuote": "ר' שמעון-זעליג, דער ראש:ישיבה און משגיח",
+        "bbox": {
+          "left": 2572,
+          "top": 511,
+          "right": 4438,
+          "bottom": 671
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n69/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "6f0aed6f185ee8ad44d7c06e6bf4f77f7554f0f22b442ed617e8ed80f123d951",
+        "normalizedPassageChecksum": "c18fce03d9b47a04739eef26ab7ad99554f79e40e964a9af1f36e9e0d51170f0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_1f658af04af3013ef684de0b",
+      "type": "Person",
+      "title": "Shimon-Zelig",
+      "relation": "Led By"
+    },
+    {
+      "id": "mention_1f658af04af3013ef684de0b",
+      "type": "Person",
+      "title": "Shimon-Zelig",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

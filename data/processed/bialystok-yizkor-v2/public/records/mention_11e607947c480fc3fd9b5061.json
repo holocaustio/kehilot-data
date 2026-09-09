@@ -1,0 +1,108 @@
+{
+  "id": "mention_11e607947c480fc3fd9b5061",
+  "type": "Place",
+  "title": "Ghetto prison",
+  "summary": "Ghetto prison mentioned as a guarded site.",
+  "originalName": "דער געטאָ-טורמע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 174,
+  "printedPage": "158",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "ghetto prison",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_13fd1499d0331081016fd2b1",
+      "pageId": "page_nybc313697_0174",
+      "scanIndex": 174,
+      "leafNumber": 173,
+      "printedPage": "158",
+      "passageCharStart": 763,
+      "passageCharEnd": 778,
+      "normalizedPassageCharStart": 763,
+      "normalizedPassageCharEnd": 778,
+      "pageCharStart": 763,
+      "pageCharEnd": 778,
+      "quote": "דער געטאָ-טורמע",
+      "normalizedQuote": "דער געטאָ-טורמע",
+      "modelQuote": "דער געטאָ-טורמע",
+      "bbox": {
+        "left": 1774,
+        "top": 1698,
+        "right": 2387,
+        "bottom": 1767
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n173/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "1ab4b1e706d602ea70841037e15345055943c7cbcd6e5bb5af1f5c0e4121ff16",
+      "normalizedPassageChecksum": "3dfb50695fd4d9baf6f405ea79778de8d125c266200b78c69362a20b2600b6c0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_34ed3e415196bf17ba4f8955",
+      "type": "Uprising",
+      "title": "Bialystok ghetto uprising",
+      "summary": "The uprising in the Bialystok ghetto began on 6 August 1943.",
+      "dateStart": "1943-08-06",
+      "dateEnd": "1943-08-06",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The allowed event types do not include a ghetto uprising; classified as AKTION_OR_RAID.",
+      "evidence": {
+        "passageId": "passage_13fd1499d0331081016fd2b1",
+        "pageId": "page_nybc313697_0174",
+        "scanIndex": 174,
+        "leafNumber": 173,
+        "printedPage": "158",
+        "passageCharStart": 1014,
+        "passageCharEnd": 1038,
+        "normalizedPassageCharStart": 1014,
+        "normalizedPassageCharEnd": 1038,
+        "pageCharStart": 1014,
+        "pageCharEnd": 1038,
+        "quote": "דער אויפשטאַנד אין געטאָ",
+        "normalizedQuote": "דער אויפשטאַנד אין געטאָ",
+        "modelQuote": "דער אויפשטאַנד אין געטאָ",
+        "bbox": {
+          "left": 1081,
+          "top": 3789,
+          "right": 1828,
+          "bottom": 3852
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n173/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "1ab4b1e706d602ea70841037e15345055943c7cbcd6e5bb5af1f5c0e4121ff16",
+        "normalizedPassageChecksum": "3dfb50695fd4d9baf6f405ea79778de8d125c266200b78c69362a20b2600b6c0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_34ed3e415196bf17ba4f8955",
+      "type": "Event",
+      "title": "Bialystok ghetto uprising",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9219ceaa71a54a0a8ffc7c55",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2868464f2071f3c6d24cdbe0",
+      "type": "Event",
+      "title": "Ghetto uprising",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

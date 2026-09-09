@@ -1,17 +1,16 @@
 {
   "id": "mention_cdb3819bc3bd6ae4de629a96",
   "type": "Place",
-  "title": "Tel Stone",
-  "summary": "Land in Israel reportedly purchased by Jacob Sapirstein.",
+  "title": "Tel-Stone",
+  "summary": "Place where Yakov Sapirshteyn purchased land to help establish Israel.",
   "originalName": "טעלש-סטאָן",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 368,
   "printedPage": "352",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "land",
-  "uncertaintyNote": "The OCR contains an unclear place-name rendering.",
+  "uncertaintyNote": "Place-name reading is uncertain because of OCR.",
   "evidenceRefs": [
     {
       "passageId": "passage_62d009139c1bfb27311be4e2",
@@ -21,8 +20,8 @@
       "printedPage": "352",
       "passageCharStart": 1236,
       "passageCharEnd": 1246,
-      "normalizedPassageCharStart": 1065,
-      "normalizedPassageCharEnd": 1075,
+      "normalizedPassageCharStart": 1236,
+      "normalizedPassageCharEnd": 1246,
       "pageCharStart": 1236,
       "pageCharEnd": 1246,
       "quote": "טעלש-סטאָן",
@@ -39,7 +38,7 @@
       "passageChecksum": "aa2e01c442e92665d45e0ec46ff251f69926ffa9c813ec5f236dd46be1566498",
       "normalizedPassageChecksum": "fe53f54997e4af776888cc438b4d97449df68cada50d68ad82e91efcb69efdd5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -47,15 +46,21 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_3412a5aca72b2de890450163",
+      "id": "mention_150b27d78d7752c8d064f88f",
       "type": "Person",
-      "title": "Jacob Sapirstein",
+      "title": "Yakov Sapirshteyn",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8ee92dbf38954740e27488f0",
+      "id": "mention_3607ac775928b49303ff7993",
       "type": "Business",
-      "title": "Greeting Card Corporation",
+      "title": "Greetings Corporation",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e84109d7d043494ccfce4c22",
+      "type": "Institution",
+      "title": "Worcester Hebrew Academy",
       "relation": "Appears in same passage"
     }
   ],

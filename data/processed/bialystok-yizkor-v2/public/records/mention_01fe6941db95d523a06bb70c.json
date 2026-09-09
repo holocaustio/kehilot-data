@@ -1,0 +1,167 @@
+{
+  "id": "mention_01fe6941db95d523a06bb70c",
+  "type": "Place",
+  "title": "Zabier Cemetery",
+  "summary": "Cemetery where victims were buried in mass graves and later restored.",
+  "originalName": "זשאַבּיער בּית-עלמין",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 284,
+  "printedPage": "268",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cemetery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e3f493484cc246415e2fba41",
+      "pageId": "page_nybc313697_0284",
+      "scanIndex": 284,
+      "leafNumber": 283,
+      "printedPage": "268",
+      "passageCharStart": 38,
+      "passageCharEnd": 58,
+      "normalizedPassageCharStart": 38,
+      "normalizedPassageCharEnd": 58,
+      "pageCharStart": 38,
+      "pageCharEnd": 58,
+      "quote": "זשאַבּיער בּית-עלמין",
+      "normalizedQuote": "זשאַבּיער בּית-עלמין",
+      "modelQuote": "זשאַבּיער בּית-עלמין",
+      "bbox": {
+        "left": 513,
+        "top": 523,
+        "right": 2487,
+        "bottom": 781
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n283/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "0d22610806da530c9b94e94ab36c61d43ea5b740dac0362adb8749d5ca5e52ce",
+      "normalizedPassageChecksum": "40788980fa4fb285836ce01bba6730fed94fc19cf4ea8b10e7cddb2568e49181",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_99a6ec466cd550a7c1f83fea",
+      "type": "Murder",
+      "title": "Burials in mass graves at Zabier Cemetery",
+      "summary": "People shot with machine-gun bullets were buried in long mass graves at Zabier Cemetery.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage describes burials and shootings but does not identify the victims.",
+      "evidence": {
+        "passageId": "passage_e3f493484cc246415e2fba41",
+        "pageId": "page_nybc313697_0284",
+        "scanIndex": 284,
+        "leafNumber": 283,
+        "printedPage": "268",
+        "passageCharStart": 100,
+        "passageCharEnd": 139,
+        "normalizedPassageCharStart": 100,
+        "normalizedPassageCharEnd": 139,
+        "pageCharStart": 100,
+        "pageCharEnd": 139,
+        "quote": "מען מקבר\nגעווען אין לאַנגע ברידער-קברים",
+        "normalizedQuote": "מען מקבר\nגעווען אין לאַנגע ברידער-קברים",
+        "modelQuote": "מען מקבר געווען אין לאַנגע ברידער-קברים",
+        "bbox": {
+          "left": 441,
+          "top": 855,
+          "right": 2374,
+          "bottom": 1024
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n283/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "0d22610806da530c9b94e94ab36c61d43ea5b740dac0362adb8749d5ca5e52ce",
+        "normalizedPassageChecksum": "40788980fa4fb285836ce01bba6730fed94fc19cf4ea8b10e7cddb2568e49181",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_7cc921c3371981e38393a326",
+      "type": "Restoration",
+      "title": "Restoration of Zabier Cemetery",
+      "summary": "Survivors cleaned the graves, enclosed the cemetery with a solid wall, appointed a watchman, and built a small synagogue.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage does not provide a date; the event is postwar restoration.",
+      "evidence": {
+        "passageId": "passage_e3f493484cc246415e2fba41",
+        "pageId": "page_nybc313697_0284",
+        "scanIndex": 284,
+        "leafNumber": 283,
+        "printedPage": "268",
+        "passageCharStart": 862,
+        "passageCharEnd": 880,
+        "normalizedPassageCharStart": 862,
+        "normalizedPassageCharEnd": 880,
+        "pageCharStart": 862,
+        "pageCharEnd": 880,
+        "quote": "די קברים גערייניקט",
+        "normalizedQuote": "די קברים גערייניקט",
+        "modelQuote": "די קברים גערייניקט",
+        "bbox": {
+          "left": 824,
+          "top": 2345,
+          "right": 1533,
+          "bottom": 2412
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n283/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "0d22610806da530c9b94e94ab36c61d43ea5b740dac0362adb8749d5ca5e52ce",
+        "normalizedPassageChecksum": "40788980fa4fb285836ce01bba6730fed94fc19cf4ea8b10e7cddb2568e49181",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_99a6ec466cd550a7c1f83fea",
+      "type": "Event",
+      "title": "Burials in mass graves at Zabier Cemetery",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "event_candidate_7cc921c3371981e38393a326",
+      "type": "Event",
+      "title": "Restoration of Zabier Cemetery",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c534ad0f8ff7433fbee25996",
+      "type": "Person",
+      "title": "Dr. Shimon Datner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3aaff75cb268e2b350362a4",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_76165d19deb49f5e4c44fda5",
+      "type": "Place",
+      "title": "Majdanek",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_77c65d392fc90ea3a55c5081",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

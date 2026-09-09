@@ -5,7 +5,7 @@
   "summary": "The first emigrants from Bialystok founded Rishon LeZion with Rothschild assistance.",
   "originalName": "ראשון לציון",
   "confidence": "HIGH",
-  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 14,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": null,
       "passageCharStart": 460,
       "passageCharEnd": 491,
-      "normalizedPassageCharStart": 393,
-      "normalizedPassageCharEnd": 420,
+      "normalizedPassageCharStart": 460,
+      "normalizedPassageCharEnd": 491,
       "pageCharStart": 3769,
       "pageCharEnd": 3800,
       "quote": "זיי האָבן געגרינדעט ראשון לציון",
-      "normalizedQuote": "זייהאָבןגעגרינדעטראשוןלציון",
+      "normalizedQuote": "זיי האָבן געגרינדעט ראשון לציון",
       "modelQuote": "זיי האָבן געגרינדעט ראשון לציון",
       "bbox": {
         "left": 3250,
@@ -38,7 +38,7 @@
       "passageChecksum": "aed21531576adbce62580c5bb96363beb2d56d6e3a737dfd16094f276bb8006a",
       "normalizedPassageChecksum": "dbd0abe067f9cbf768ff1aec651ee48842e153368085737f0e912a8244dcc966",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     },
     {
@@ -48,38 +48,75 @@
       "leafNumber": 619,
       "printedPage": null,
       "passageCharStart": 2837,
-      "passageCharEnd": 2893,
-      "normalizedPassageCharStart": 2449,
-      "normalizedPassageCharEnd": 2498,
+      "passageCharEnd": 2858,
+      "normalizedPassageCharStart": 2837,
+      "normalizedPassageCharEnd": 2858,
       "pageCharStart": 2837,
-      "pageCharEnd": 2893,
-      "quote": "founded Rishon Lezion (with the help of\nthe Rothschilds)",
-      "normalizedQuote": "foundedRishonLezion(withthehelpof theRothschilds)",
-      "modelQuote": "foundedRishonLezion(withthehelpof theRothschilds)",
+      "pageCharEnd": 2858,
+      "quote": "founded Rishon Lezion",
+      "normalizedQuote": "founded Rishon Lezion",
+      "modelQuote": "founded Rishon Lezion",
       "bbox": {
-        "left": 2582,
-        "top": 3761,
-        "right": 4639,
-        "bottom": 3981
+        "left": 2783,
+        "top": 3764,
+        "right": 3833,
+        "bottom": 3838
       },
       "scanUrl": "https://archive.org/details/nybc313697/page/n619/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
       "passageChecksum": "9036eb99bd2b56e22f5c2b2dda1be0e1d26fc88c4f2fec2e01791a9b18dd4202",
       "normalizedPassageChecksum": "a8e4a798869eef0e8a13908104a55f6b856b24702682290f9f900c56d3d095a7",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_e74abeefcf0f7a2ef74856ae",
-      "predicate": "Participated In",
-      "subjectTitle": "BILU",
-      "objectTitle": "Rishon Lezion",
+      "id": "claim_candidate_44a4303e6c1206088609a86e",
+      "predicate": "Founded By",
+      "subjectTitle": "Rishon LeZion",
+      "objectTitle": "Jewish Bialystok",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage says emigrants from Bialystok founded Rishon LeZion, not necessarily the entire community.",
+      "evidence": {
+        "passageId": "passage_81b01841ebd14729f71accf0",
+        "pageId": "page_nybc313697_0014",
+        "scanIndex": 14,
+        "leafNumber": 13,
+        "printedPage": null,
+        "passageCharStart": 380,
+        "passageCharEnd": 440,
+        "normalizedPassageCharStart": 380,
+        "normalizedPassageCharEnd": 440,
+        "pageCharStart": 3689,
+        "pageCharEnd": 3749,
+        "quote": "די ערשטע MT TD‏ זיינען אַװעק\nפון ביאַליסטאָק קיין PIN‏ ישראל",
+        "normalizedQuote": "די ערשטע MT TD‏ זיינען אַװעק\nפון ביאַליסטאָק קיין PIN‏ ישראל",
+        "modelQuote": "די ערשטע MT TD‏ זיינען אַװעק\nפון ביאַליסטאָק קיין PIN‏ ישראל",
+        "bbox": {
+          "left": 2610,
+          "top": 4441,
+          "right": 4553,
+          "bottom": 4637
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n13/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "aed21531576adbce62580c5bb96363beb2d56d6e3a737dfd16094f276bb8006a",
+        "normalizedPassageChecksum": "dbd0abe067f9cbf768ff1aec651ee48842e153368085737f0e912a8244dcc966",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_8562f6cb212c92307809a07b",
+      "predicate": "Founded By",
+      "subjectTitle": "Rishon Lezion",
+      "objectTitle": "BILU",
       "confidence": "HIGH",
       "qualifiers": {
-        "dateText": "1882"
+        "year": 1882
       },
       "evidence": {
         "passageId": "passage_7cc92b5634c6ad450c0f0a99",
@@ -87,147 +124,182 @@
         "scanIndex": 620,
         "leafNumber": 619,
         "printedPage": null,
-        "passageCharStart": 2793,
+        "passageCharStart": 2837,
         "passageCharEnd": 2858,
-        "normalizedPassageCharStart": 2413,
-        "normalizedPassageCharEnd": 2468,
-        "pageCharStart": 2793,
+        "normalizedPassageCharStart": 2837,
+        "normalizedPassageCharEnd": 2858,
+        "pageCharStart": 2837,
         "pageCharEnd": 2858,
-        "quote": "The first group left for Israel in 1882\nand founded Rishon Lezion",
-        "normalizedQuote": "ThefirstgroupleftforIsraelin1882 andfoundedRishonLezion",
-        "modelQuote": "ThefirstgroupleftforIsraelin1882 andfoundedRishonLezion",
+        "quote": "founded Rishon Lezion",
+        "normalizedQuote": "founded Rishon Lezion",
+        "modelQuote": "founded Rishon Lezion",
         "bbox": {
-          "left": 2579,
-          "top": 3632,
-          "right": 4629,
-          "bottom": 3839
+          "left": 2783,
+          "top": 3764,
+          "right": 3833,
+          "bottom": 3838
         },
         "scanUrl": "https://archive.org/details/nybc313697/page/n619/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
         "passageChecksum": "9036eb99bd2b56e22f5c2b2dda1be0e1d26fc88c4f2fec2e01791a9b18dd4202",
         "normalizedPassageChecksum": "a8e4a798869eef0e8a13908104a55f6b856b24702682290f9f900c56d3d095a7",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
   ],
   "events": [
     {
-      "id": "event_candidate_6dd1ff581e0d7be4398d0327",
-      "type": "Migration",
-      "title": "BILU group departure for Israel",
-      "summary": "The first BILU group left for Israel in 1882 and founded Rishon Lezion.",
-      "dateStart": "1882",
+      "id": "event_candidate_d8241a8fef3863168f825a26",
+      "type": "Organization Founding",
+      "title": "Founding of Rishon LeZion",
+      "summary": "The first emigrants from Bialystok founded Rishon LeZion with Rothschild assistance.",
       "confidence": "HIGH",
       "evidence": {
-        "passageId": "passage_7cc92b5634c6ad450c0f0a99",
-        "pageId": "page_nybc313697_0620",
-        "scanIndex": 620,
-        "leafNumber": 619,
+        "passageId": "passage_81b01841ebd14729f71accf0",
+        "pageId": "page_nybc313697_0014",
+        "scanIndex": 14,
+        "leafNumber": 13,
         "printedPage": null,
-        "passageCharStart": 2793,
-        "passageCharEnd": 2858,
-        "normalizedPassageCharStart": 2413,
-        "normalizedPassageCharEnd": 2468,
-        "pageCharStart": 2793,
-        "pageCharEnd": 2858,
-        "quote": "The first group left for Israel in 1882\nand founded Rishon Lezion",
-        "normalizedQuote": "ThefirstgroupleftforIsraelin1882 andfoundedRishonLezion",
-        "modelQuote": "ThefirstgroupleftforIsraelin1882 andfoundedRishonLezion",
+        "passageCharStart": 460,
+        "passageCharEnd": 505,
+        "normalizedPassageCharStart": 460,
+        "normalizedPassageCharEnd": 505,
+        "pageCharStart": 3769,
+        "pageCharEnd": 3814,
+        "quote": "זיי האָבן געגרינדעט ראשון לציון, מיט דער הילף",
+        "normalizedQuote": "זיי האָבן געגרינדעט ראשון לציון, מיט דער הילף",
+        "modelQuote": "זיי האָבן געגרינדעט ראשון לציון, מיט דער הילף",
         "bbox": {
-          "left": 2579,
-          "top": 3632,
-          "right": 4629,
-          "bottom": 3839
+          "left": 2629,
+          "top": 4665,
+          "right": 4573,
+          "bottom": 4770
         },
-        "scanUrl": "https://archive.org/details/nybc313697/page/n619/mode/1up",
+        "scanUrl": "https://archive.org/details/nybc313697/page/n13/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
-        "passageChecksum": "9036eb99bd2b56e22f5c2b2dda1be0e1d26fc88c4f2fec2e01791a9b18dd4202",
-        "normalizedPassageChecksum": "a8e4a798869eef0e8a13908104a55f6b856b24702682290f9f900c56d3d095a7",
+        "passageChecksum": "aed21531576adbce62580c5bb96363beb2d56d6e3a737dfd16094f276bb8006a",
+        "normalizedPassageChecksum": "dbd0abe067f9cbf768ff1aec651ee48842e153368085737f0e912a8244dcc966",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_ab94bd5a6876bb53f1a2c954",
-      "type": "Place",
-      "title": "Israel",
-      "relation": "Appears in same passage"
+      "id": "mention_fc2ba3adf3ae1076834a33b6",
+      "type": "Community",
+      "title": "Jewish Bialystok",
+      "relation": "Founded By"
     },
     {
-      "id": "mention_b3058a29b7351b20b5a03311",
-      "type": "Organization",
-      "title": "BILU",
-      "relation": "Participated In"
-    },
-    {
-      "id": "event_candidate_6dd1ff581e0d7be4398d0327",
+      "id": "event_candidate_d8241a8fef3863168f825a26",
       "type": "Event",
-      "title": "BILU group departure for Israel",
+      "title": "Founding of Rishon LeZion",
       "relation": "Occurred At"
     },
     {
-      "id": "mention_84d581a005627c3e419cdbfa",
-      "type": "Person",
-      "title": "Max Ratner",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7f35cf0f9d354d0782f7a321",
+      "id": "mention_1fd067a7479a54f5797bfb15",
       "type": "Place",
       "title": "Bialystok",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c43541f14d0ad79402261fe4",
-      "type": "Institution",
-      "title": "Bet Hasefer Haamimi Haivri Harishonin",
+      "id": "mention_0e7c413adf51be30239de106",
+      "type": "Organization",
+      "title": "Bilu",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b82a47c9b4095cda12e30c85",
+      "id": "mention_b35b0c57bfadc67ab3fb1d37",
+      "type": "Place",
+      "title": "Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_47ea0056e107a7f0863c8665",
+      "type": "Family",
+      "title": "The narrator's parents",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f08182c64577695a918603d1",
+      "type": "Family",
+      "title": "The Rothschilds",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e77ee911134e7743467b33f4",
+      "type": "Institution",
+      "title": "The narrator's school",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0e7c413adf51be30239de106",
+      "type": "Organization",
+      "title": "BILU",
+      "relation": "Founded By"
+    },
+    {
+      "id": "mention_a15a9009493e288e070b44a4",
+      "type": "Person",
+      "title": "Dr. Herzl",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ca616e0907a810a313ecddf2",
+      "type": "Family",
+      "title": "Narrator’s parents",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_50cde4ecbcb2ec787ffa3c54",
+      "type": "Community",
+      "title": "Bialystok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0332e162df9c25a098a1d76d",
+      "type": "Community",
+      "title": "Bialystok Jewry",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f7faf9f72bb46516b96de2e4",
+      "type": "Family",
+      "title": "Rothschilds",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_34b2169ccf0fb08665f106e0",
+      "type": "Institution",
+      "title": "Bet Hasefer Haamimi Haivri Harishon",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2ec515175675c25f8ee50425",
       "type": "Organization",
       "title": "Tarbut Schools",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d046d1923bde376049726b9e",
+      "id": "mention_d8386d4468ef631fb6c19d4a",
       "type": "Place",
       "title": "Czysta Street",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b3058a29b7351b20b5a03311",
-      "type": "Organization",
-      "title": "BILU",
+      "id": "mention_f736924c790a95c724b4d6ae",
+      "type": "Place",
+      "title": "Poland",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_75cf8af662e1cac762e2e800",
-      "type": "Family",
-      "title": "Ratner family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d9256cfa9cabd2c5be26a825",
-      "type": "Family",
-      "title": "Rothschild family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_998852192f12fa6824a6b5be",
-      "type": "Person",
-      "title": "Theodor Herzl",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_70192fc10286afb74a6cbee8",
-      "type": "Community",
-      "title": "Bialystok Jewish Community",
+      "id": "mention_3ef15973393db949f138afa1",
+      "type": "Place",
+      "title": "Russia",
       "relation": "Appears in same passage"
     }
   ],

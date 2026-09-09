@@ -1,0 +1,129 @@
+{
+  "id": "mention_fa9538082bb0637f77e48288",
+  "type": "Place",
+  "title": "Stutthof concentration camp",
+  "summary": "Concentration camp to which the group was later deported.",
+  "originalName": "שטוטהאָפער קאַנצענטראַציע-לאַגער",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 225,
+  "printedPage": "209",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "concentration camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_71930c68d0a802a94bdb309d",
+      "pageId": "page_nybc313697_0225",
+      "scanIndex": 225,
+      "leafNumber": 224,
+      "printedPage": "209",
+      "passageCharStart": 753,
+      "passageCharEnd": 785,
+      "normalizedPassageCharStart": 753,
+      "normalizedPassageCharEnd": 785,
+      "pageCharStart": 753,
+      "pageCharEnd": 785,
+      "quote": "שטוטהאָפער קאַנצענטראַציע-לאַגער",
+      "normalizedQuote": "שטוטהאָפער קאַנצענטראַציע-לאַגער",
+      "modelQuote": "שטוטהאָפער קאַנצענטראַציע-לאַגער",
+      "bbox": {
+        "left": 534,
+        "top": 1810,
+        "right": 1765,
+        "bottom": 1893
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n224/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "9cd910175c8b359d2166e9f6c8f40a0f38f5ca40d8698a28e2b3a0476637787c",
+      "normalizedPassageChecksum": "c23270fea9b2f744f65b670cbd9216b24c993ebdab8ce11047cc3a1f2a21a4bf",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b1d89bf69f74baae00df1f16",
+      "type": "Deportation",
+      "title": "Deportation of workers to Stutthof",
+      "summary": "Workers were taken from the cartonage factory through Grodno and Lamzh Prison to Stutthof.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_71930c68d0a802a94bdb309d",
+        "pageId": "page_nybc313697_0225",
+        "scanIndex": 225,
+        "leafNumber": 224,
+        "printedPage": "209",
+        "passageCharStart": 716,
+        "passageCharEnd": 785,
+        "normalizedPassageCharStart": 716,
+        "normalizedPassageCharEnd": 785,
+        "pageCharStart": 716,
+        "pageCharEnd": 785,
+        "quote": "די גרופּע פאַרשלעפּט\nגעװאָרן PR‏ דעם שטוטהאָפער קאַנצענטראַציע-לאַגער",
+        "normalizedQuote": "די גרופּע פאַרשלעפּט\nגעװאָרן PR‏ דעם שטוטהאָפער קאַנצענטראַציע-לאַגער",
+        "modelQuote": "די גרופּע פאַרשלעפּט געװאָרן PR‏ דעם שטוטהאָפער קאַנצענטראַציע-לאַגער",
+        "bbox": {
+          "left": 421,
+          "top": 1709,
+          "right": 2386,
+          "bottom": 1894
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n224/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "9cd910175c8b359d2166e9f6c8f40a0f38f5ca40d8698a28e2b3a0476637787c",
+        "normalizedPassageChecksum": "c23270fea9b2f744f65b670cbd9216b24c993ebdab8ce11047cc3a1f2a21a4bf",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b1d89bf69f74baae00df1f16",
+      "type": "Event",
+      "title": "Deportation of workers to Stutthof",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d669e83216a0efd264d553aa",
+      "type": "Person",
+      "title": "Yaakov Goldberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cd4aaa0bee9cb71e9ff34ff9",
+      "type": "Place",
+      "title": "Petrashe",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cf0794c1762175b86c6969ae",
+      "type": "Place",
+      "title": "Lamzh Prison",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_44dd71d387485941050939dd",
+      "type": "Place",
+      "title": "Grodno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d38d57b68e6c1bd64802e1a5",
+      "type": "Place",
+      "title": "Cartonage factory",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_57c7e128d9e27ee93aaf7f6a",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

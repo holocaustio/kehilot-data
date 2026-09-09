@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_62d02617c7104763a0e1c675",
+  "type": "Event",
+  "title": "Trip from Warsaw to Bialystok",
+  "summary": "Izaak Rybal-Rybalowski and Szymon Datner traveled by taxi from Warsaw to Bialystok on December 13, 1977.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 476,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Travel",
+  "uncertaintyNote": "The passage describes a day trip rather than migration; event retained as travel-related candidate.",
+  "dateStart": "1977-12-13",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_eca9d799acf26e0b680f9b2b",
+      "pageId": "page_nybc313697_0476",
+      "scanIndex": 476,
+      "leafNumber": 475,
+      "printedPage": null,
+      "passageCharStart": 2372,
+      "passageCharEnd": 2408,
+      "normalizedPassageCharStart": 2372,
+      "normalizedPassageCharEnd": 2408,
+      "pageCharStart": 2372,
+      "pageCharEnd": 2408,
+      "quote": "Tuesday,\nDecember 13, 1977 was free.",
+      "normalizedQuote": "Tuesday,\nDecember 13, 1977 was free.",
+      "modelQuote": "Tuesday,\nDecember 13, 1977 was free.",
+      "bbox": {
+        "left": 483,
+        "top": 5197,
+        "right": 2384,
+        "bottom": 5358
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n475/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "5d036d5f6516ae737429861f122edcf6f489313cc3e959d7241ef89d2b37ab7f",
+      "normalizedPassageChecksum": "315dc64f74181c3d99a9798d53d75a146889de39100d739d17d27dd297996ae3",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a2ab1ab35677575b1d2dbce1",
+      "type": "Person",
+      "title": "Izaak Rybal-Rybalowski",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_818adfdd145ba5eb4b1bce6d",
+      "type": "Person",
+      "title": "Szymon Datner",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

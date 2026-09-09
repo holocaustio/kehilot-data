@@ -1,35 +1,33 @@
 {
   "schemaVersion": "kehilot-yizkor-selected-release-v1",
   "selectedVersion": "bialystok-yizkor-v2",
-  "selectedAt": "2026-09-04T15:54:13.488Z",
+  "selectedAt": "2026-09-09T06:00:00.890Z",
   "community": "bialystok",
   "bookId": "book_nybc313697",
   "publicGraphPath": "data/processed/bialystok-yizkor-v2/adjudication/resolved-graph.json",
   "sourcePassagesPath": "data/processed/bialystok-yizkor-v1/source/passages.jsonl",
-  "graphSha256": "b480fbe7978900008fbb0d51d2b38f5ccbb1a82a6f6cd4e5d8695184f821946e",
-  "sourceSha256": "65b70c29a460d5d92716f25a5b229155cf8332db4894ef5f95ba96abdbedea54",
+  "graphSha256": "ae2cbeda2ef4b8a20171871d00d1c15c6d15851e0fefd86aceb72a54f43a48cf",
+  "sourceSha256": "e1f2eeb9a9880914569d20877af9e8ff17522ae95081439873165de5aadea432",
   "checks": {
-    "allStagesCompleted": false,
+    "allStagesCompleted": true,
     "structuralValidationPassed": true,
     "provenanceValidationPassed": true,
     "resolutionComplete": true
   },
-  "allowedIncompleteStages": [
-    "extraction"
-  ],
+  "allowedIncompleteStages": [],
   "provenance": {
-    "observations": 15431,
+    "observations": 16935,
     "missingEvidence": 0,
     "invalidRawRanges": 0
   },
   "counts": {
     "passages": 1994,
-    "mentions": 11755,
-    "claims": 2548,
-    "events": 1128,
-    "quarantinedAtExtraction": 1321,
-    "adjudicationReviewQueue": 470,
-    "publicSourceLinkedObservations": 12436
+    "mentions": 12162,
+    "claims": 3285,
+    "events": 1488,
+    "quarantinedAtExtraction": 546,
+    "adjudicationReviewQueue": 212,
+    "publicSourceLinkedObservations": 14849
   },
   "models": {
     "inventory": {
@@ -42,8 +40,8 @@
       "model": "gpt-5.6-luna",
       "serviceTier": "flex",
       "reasoningEffort": "none",
-      "promptVersion": "yizkor-extraction-prompt-v5",
-      "validatorVersion": "yizkor-provenance-validator-v4"
+      "promptVersion": "yizkor-extraction-prompt-v6",
+      "validatorVersion": "yizkor-provenance-validator-v5"
     },
     "luna": {
       "model": "gpt-5.6-luna",
@@ -54,16 +52,16 @@
     "terra": {
       "model": "gpt-5.6-terra",
       "serviceTier": "flex",
-      "reasoningEffort": "high",
+      "reasoningEffort": "medium",
       "promptVersion": "yizkor-adjudication-prompt-v1"
     }
   },
   "costsUsd": {
     "inventory": 0.174676,
-    "extraction": 1.426022,
-    "luna": 0.395355,
-    "terra": 4.600248,
-    "total": 6.596301
+    "extraction": 1.387552,
+    "luna": 0.958463,
+    "terra": 0.889985,
+    "total": 3.410676
   },
   "publicationPolicy": {
     "humanReviewComplete": false,

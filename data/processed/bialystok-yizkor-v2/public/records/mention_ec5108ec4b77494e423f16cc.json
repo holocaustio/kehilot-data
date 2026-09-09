@@ -1,0 +1,118 @@
+{
+  "id": "mention_ec5108ec4b77494e423f16cc",
+  "type": "Place",
+  "title": "Lemberg",
+  "summary": "City where Dr. Welger's wife and child were reported killed.",
+  "originalName": "לעמבערג",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 288,
+  "printedPage": "272",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7350952d1980427b82a54fb6",
+      "pageId": "page_nybc313697_0288",
+      "scanIndex": 288,
+      "leafNumber": 287,
+      "printedPage": "272",
+      "passageCharStart": 1172,
+      "passageCharEnd": 1179,
+      "normalizedPassageCharStart": 1172,
+      "normalizedPassageCharEnd": 1179,
+      "pageCharStart": 1172,
+      "pageCharEnd": 1179,
+      "quote": "לעמבערג",
+      "normalizedQuote": "לעמבערג",
+      "modelQuote": "לעמבערג",
+      "bbox": {
+        "left": 1478,
+        "top": 2554,
+        "right": 1802,
+        "bottom": 2634
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n287/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "9a87bb9fa0ce3919f5597c9d4126ed7a81cf25d08b60550229dcb7b6cf464131",
+      "normalizedPassageChecksum": "39a4f66fd872c77df5a10608ccf3ecf53a5c6102736b1852f762238ee57c5b7f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_dd9b604a5be0045708d8360b",
+      "type": "Death",
+      "title": "Death of Dr. Welger's wife and child in Lemberg",
+      "summary": "Dr. Welger's wife and child perished in Lemberg.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says they perished; the circumstances are not explicitly specified.",
+      "evidence": {
+        "passageId": "passage_7350952d1980427b82a54fb6",
+        "pageId": "page_nybc313697_0288",
+        "scanIndex": 288,
+        "leafNumber": 287,
+        "printedPage": "272",
+        "passageCharStart": 1136,
+        "passageCharEnd": 1179,
+        "normalizedPassageCharStart": 1136,
+        "normalizedPassageCharEnd": 1179,
+        "pageCharStart": 1136,
+        "pageCharEnd": 1179,
+        "quote": "פרוי און קינד, זענען\nאומגעקומען PR‏ לעמבערג",
+        "normalizedQuote": "פרוי און קינד, זענען\nאומגעקומען PR‏ לעמבערג",
+        "modelQuote": "פרוי און קינד, זענען אומגעקומען PR‏ לעמבערג",
+        "bbox": {
+          "left": 445,
+          "top": 2467,
+          "right": 2380,
+          "bottom": 2635
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n287/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "9a87bb9fa0ce3919f5597c9d4126ed7a81cf25d08b60550229dcb7b6cf464131",
+        "normalizedPassageChecksum": "39a4f66fd872c77df5a10608ccf3ecf53a5c6102736b1852f762238ee57c5b7f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_dd9b604a5be0045708d8360b",
+      "type": "Event",
+      "title": "Death of Dr. Welger's wife and child in Lemberg",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6581cd6c28ff46d4a05e0205",
+      "type": "Person",
+      "title": "Dr. Welger",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9717e0df0e2a1a9e33ff8580",
+      "type": "Person",
+      "title": "Dr. Welger's wife",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_29776ee25ff317612f168ba4",
+      "type": "Person",
+      "title": "Dr. Welger's child",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f2a7f4f44694795f39ed9954",
+      "type": "Place",
+      "title": "Galicia",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

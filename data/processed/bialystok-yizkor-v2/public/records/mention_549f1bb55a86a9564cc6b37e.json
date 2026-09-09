@@ -1,0 +1,125 @@
+{
+  "id": "mention_549f1bb55a86a9564cc6b37e",
+  "type": "Place",
+  "title": "Cemetery of the Martyrs",
+  "summary": "Cemetery purchased and enclosed for the martyrs.",
+  "originalName": "בית-עולם פון די קדושים",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 390,
+  "printedPage": "374",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cemetery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_187f67ad2d017cd5b4772c54",
+      "pageId": "page_nybc313697_0390",
+      "scanIndex": 390,
+      "leafNumber": 389,
+      "printedPage": "374",
+      "passageCharStart": 184,
+      "passageCharEnd": 210,
+      "normalizedPassageCharStart": 184,
+      "normalizedPassageCharEnd": 210,
+      "pageCharStart": 1206,
+      "pageCharEnd": 1232,
+      "quote": "דעם בית-עולם פון די קדושים",
+      "normalizedQuote": "דעם בית-עולם פון די קדושים",
+      "modelQuote": "דעם בית-עולם פון די קדושים",
+      "bbox": {
+        "left": 618,
+        "top": 3016,
+        "right": 1622,
+        "bottom": 3099
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n389/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "022e0c159262d9d201f5893ee4f0792949a094aa99c9288e0bcf04764d40397a",
+      "normalizedPassageChecksum": "580ee9ba976760fa63dce05f402a613d5cb3ad752de06a99ca8395d5aa106f82",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e5d78a0eb983ac0f484f0714",
+      "type": "Death",
+      "title": "Reburial and memorialization of martyrs",
+      "summary": "Martyrs were exhumed, reburied in Israel, and honored with a monument.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage describes reburial and memorialization, but no allowed event type exactly represents either process.",
+      "evidence": {
+        "passageId": "passage_187f67ad2d017cd5b4772c54",
+        "pageId": "page_nybc313697_0390",
+        "scanIndex": 390,
+        "leafNumber": 389,
+        "printedPage": "374",
+        "passageCharStart": 308,
+        "passageCharEnd": 372,
+        "normalizedPassageCharStart": 308,
+        "normalizedPassageCharEnd": 372,
+        "pageCharStart": 1330,
+        "pageCharEnd": 1394,
+        "quote": "וואו די קדושים\nזיינען עקסהומירט געװאָרן, געבראַכט געװאָרן צו קבר",
+        "normalizedQuote": "וואו די קדושים\nזיינען עקסהומירט געװאָרן, געבראַכט געװאָרן צו קבר",
+        "modelQuote": "וואו די קדושים זיינען עקסהומירט געװאָרן, געבראַכט געװאָרן צו קבר",
+        "bbox": {
+          "left": 444,
+          "top": 3233,
+          "right": 2393,
+          "bottom": 3401
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n389/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "022e0c159262d9d201f5893ee4f0792949a094aa99c9288e0bcf04764d40397a",
+        "normalizedPassageChecksum": "580ee9ba976760fa63dce05f402a613d5cb3ad752de06a99ca8395d5aa106f82",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e5d78a0eb983ac0f484f0714",
+      "type": "Event",
+      "title": "Reburial and memorialization of martyrs",
+      "relation": "Occurred At",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5e2cb125a75ce01d192cfa75",
+      "type": "Institution",
+      "title": "Cultural Center",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a2fb1c04bb2aa7c3caf15a73",
+      "type": "Publication",
+      "title": "Bialystoker Stimme",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1d564a3ad447818f9a5074b9",
+      "type": "Person",
+      "title": "M. Pit",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_105040e9c130b7782ebf0156",
+      "type": "Place",
+      "title": "America",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

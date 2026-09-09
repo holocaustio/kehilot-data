@@ -1,0 +1,127 @@
+{
+  "id": "mention_ab98b0927d1dc8650f826411",
+  "type": "Publication",
+  "title": "Polish newspaper",
+  "summary": "Newspaper whose journalist interviewed Litvinov's brother.",
+  "originalName": "פּוילישער צייטונג",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 122,
+  "printedPage": "106",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "newspaper",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_acdf2c61b2d2143416758468",
+      "pageId": "page_nybc313697_0122",
+      "scanIndex": 122,
+      "leafNumber": 121,
+      "printedPage": "106",
+      "passageCharStart": 317,
+      "passageCharEnd": 342,
+      "normalizedPassageCharStart": 317,
+      "normalizedPassageCharEnd": 342,
+      "pageCharStart": 3695,
+      "pageCharEnd": 3720,
+      "quote": "פון דער פּוילישער צייטונג",
+      "normalizedQuote": "פון דער פּוילישער צייטונג",
+      "modelQuote": "פון דער פּוילישער צייטונג",
+      "bbox": {
+        "left": 2557,
+        "top": 2056,
+        "right": 3463,
+        "bottom": 2139
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n121/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "6c5242f92de89994ba08e9d167673315b25a1854ad7a23158d335fc8debbe950",
+      "normalizedPassageChecksum": "86d0353d98649dfbaccfa03358daa7e5de2c8e6b9866780844c84f61e20baeb2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_bf1f930cdbfd0606c2478ee5",
+      "type": "Interview",
+      "title": "Interview with Yaakov Valakh",
+      "summary": "A Polish newspaper journalist interviewed Litvinov’s elder brother, Rabbi Yaakov Valakh, in Warsaw in late 1928.",
+      "dateStart": "1928-01-01",
+      "dateEnd": "1928-12-31",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage clearly dates the interview context to late 1928, but OCR disrupts the sentence.",
+      "evidence": {
+        "passageId": "passage_e880ae18132d76f91f32b3b6",
+        "pageId": "page_nybc313697_0122",
+        "scanIndex": 122,
+        "leafNumber": 121,
+        "printedPage": "106",
+        "passageCharStart": 829,
+        "passageCharEnd": 882,
+        "normalizedPassageCharStart": 829,
+        "normalizedPassageCharEnd": 882,
+        "pageCharStart": 2954,
+        "pageCharEnd": 3007,
+        "quote": "PX‏ סוף 1928, TWIT‏ מאַקסים VDP‏ איז געווען אויף גאָר",
+        "normalizedQuote": "PX‏ סוף 1928, TWIT‏ מאַקסים VDP‏ איז געווען אויף גאָר",
+        "modelQuote": "PX‏ סוף 1928, TWIT‏ מאַקסים VDP‏ איז געווען אויף גאָר",
+        "bbox": {
+          "left": 2552,
+          "top": 737,
+          "right": 4215,
+          "bottom": 804
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n121/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "3a64e1935b55e86b980718db3ace603d8d2fa37619de79711ddf58da08c69cde",
+        "normalizedPassageChecksum": "1bc7f4ce65af4ebbf4ac56e9a9d08a772639b165f2859be3cfd4cb470868e2d4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_bf1f930cdbfd0606c2478ee5",
+      "type": "Event",
+      "title": "Interview with Yaakov Valakh",
+      "relation": "Participated In",
+      "role": "Employer"
+    },
+    {
+      "id": "mention_1b3864e00f5fac7ab724b5f3",
+      "type": "Person",
+      "title": "Litvinov's brother",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0230097f308bb1cf8bba2765",
+      "type": "Place",
+      "title": "Wiltche Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_10d94dc0e74a711b4b083b80",
+      "type": "Place",
+      "title": "Łódź",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c2e11d1032bd27ae72eec89b",
+      "type": "Business",
+      "title": "Apothecary on Wiltche Street",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

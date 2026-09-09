@@ -2,15 +2,16 @@
   "id": "mention_26814fdbc7f3be4ccb41b2f8",
   "type": "Person",
   "title": "Pawel Rozental",
-  "summary": "A person identified in a 1906 Bund committee photograph caption.",
+  "summary": "Pawel Rozental appears in a caption identifying the 1906 Bund Committee in Bialystok.",
   "originalName": "Pawel Rozental",
   "confidence": "MEDIUM",
-  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 596,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The caption does not clearly separate the names and roles.",
+  "subtype": "Bund committee member",
+  "uncertaintyNote": "The caption groups Ana and Pawel under one surname.",
   "evidenceRefs": [
     {
       "passageId": "passage_1af49e3c33712457f9157ce3",
@@ -20,12 +21,12 @@
       "printedPage": null,
       "passageCharStart": 1224,
       "passageCharEnd": 1246,
-      "normalizedPassageCharStart": 1054,
-      "normalizedPassageCharEnd": 1073,
+      "normalizedPassageCharStart": 1224,
+      "normalizedPassageCharEnd": 1246,
       "pageCharStart": 1224,
       "pageCharEnd": 1246,
       "quote": "Ana and Pawel Rozental",
-      "normalizedQuote": "AnaandPawelRozental",
+      "normalizedQuote": "Ana and Pawel Rozental",
       "modelQuote": "Ana and Pawel Rozental",
       "bbox": {
         "left": 1382,
@@ -38,18 +39,21 @@
       "passageChecksum": "45f8ae92e69abe3e9b6ca9a308cf885220765eb0c109361daced218e60bb2899",
       "normalizedPassageChecksum": "70d3e80b96bb8a045d884e25a0a618a67c3917d08e284932a400168c8dc4c7cb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_424eba66b6c4f9502fc2f5ed",
-      "predicate": "Participated In",
+      "id": "claim_candidate_c0941bf94e359bda87786bc1",
+      "predicate": "Member Of",
       "subjectTitle": "Pawel Rozental",
-      "objectTitle": "Bund Committee in Bialystok in 1906",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The caption identifies the person but does not explicitly define participation beyond inclusion in the listed committee.",
+      "objectTitle": "Bund",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "year": "1906",
+        "role": "committee member"
+      },
       "evidence": {
         "passageId": "passage_1af49e3c33712457f9157ce3",
         "pageId": "page_nybc313697_0596",
@@ -58,12 +62,12 @@
         "printedPage": null,
         "passageCharStart": 1224,
         "passageCharEnd": 1246,
-        "normalizedPassageCharStart": 1054,
-        "normalizedPassageCharEnd": 1073,
+        "normalizedPassageCharStart": 1224,
+        "normalizedPassageCharEnd": 1246,
         "pageCharStart": 1224,
         "pageCharEnd": 1246,
         "quote": "Ana and Pawel Rozental",
-        "normalizedQuote": "AnaandPawelRozental",
+        "normalizedQuote": "Ana and Pawel Rozental",
         "modelQuote": "Ana and Pawel Rozental",
         "bbox": {
           "left": 1382,
@@ -76,21 +80,21 @@
         "passageChecksum": "45f8ae92e69abe3e9b6ca9a308cf885220765eb0c109361daced218e60bb2899",
         "normalizedPassageChecksum": "70d3e80b96bb8a045d884e25a0a618a67c3917d08e284932a400168c8dc4c7cb",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
   ],
   "events": [
     {
-      "id": "event_candidate_43bd6a0d0cd17d0cc3214ba7",
-      "type": "Organization Activity",
-      "title": "Bund committee in Bialystok, 1906",
-      "summary": "A Bund committee in Bialystok in 1906 is identified in a photograph caption.",
+      "id": "event_candidate_eda1943df24c875611a2e23d",
+      "type": "Committee Identification",
+      "title": "Bund Committee in Bialystok in 1906",
+      "summary": "A caption identifies the Bund Committee in Bialystok in 1906 and lists Albert Lurie, Ana and Pawel Rozental, and Taras.",
       "dateStart": "1906",
       "dateEnd": "1906",
       "confidence": "HIGH",
-      "uncertaintyNote": "The caption identifies a committee but does not establish an organization-founding event.",
+      "uncertaintyNote": "The caption identifies a committee but does not explicitly state that it was founded in 1906.",
       "evidence": {
         "passageId": "passage_1af49e3c33712457f9157ce3",
         "pageId": "page_nybc313697_0596",
@@ -99,12 +103,12 @@
         "printedPage": null,
         "passageCharStart": 1159,
         "passageCharEnd": 1194,
-        "normalizedPassageCharStart": 999,
-        "normalizedPassageCharEnd": 1029,
+        "normalizedPassageCharStart": 1159,
+        "normalizedPassageCharEnd": 1194,
         "pageCharStart": 1159,
         "pageCharEnd": 1194,
         "quote": "BUND COMMITTEE IN BIALYSTOK IN 1906",
-        "normalizedQuote": "BUNDCOMMITTEEINBIALYSTOKIN1906",
+        "normalizedQuote": "BUND COMMITTEE IN BIALYSTOK IN 1906",
         "modelQuote": "BUND COMMITTEE IN BIALYSTOK IN 1906",
         "bbox": {
           "left": 560,
@@ -117,53 +121,47 @@
         "passageChecksum": "45f8ae92e69abe3e9b6ca9a308cf885220765eb0c109361daced218e60bb2899",
         "normalizedPassageChecksum": "70d3e80b96bb8a045d884e25a0a618a67c3917d08e284932a400168c8dc4c7cb",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_27f6d07967d3803e585c0fb7",
-      "type": "Photograph",
-      "title": "Bund Committee in Bialystok in 1906",
-      "relation": "Participated In"
+      "id": "mention_d08d6a209e86e462848fe8b5",
+      "type": "Organization",
+      "title": "Bund",
+      "relation": "Member Of"
     },
     {
-      "id": "event_candidate_43bd6a0d0cd17d0cc3214ba7",
+      "id": "event_candidate_eda1943df24c875611a2e23d",
       "type": "Event",
-      "title": "Bund committee in Bialystok, 1906",
+      "title": "Bund Committee in Bialystok in 1906",
       "relation": "Participated In",
       "role": "Participant"
     },
     {
-      "id": "mention_7f35cf0f9d354d0782f7a321",
-      "type": "Place",
-      "title": "Bialystok",
+      "id": "mention_f36d2cc512dcaae58710a7a3",
+      "type": "Community",
+      "title": "Bialystok Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1362ed2650f7aa9d1cd8c1af",
+      "id": "mention_d08d6a209e86e462848fe8b5",
       "type": "Organization",
       "title": "Bund",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c83571e94dacfd3c9665d754",
+      "id": "mention_9917798c8c6b85d72e346a6e",
       "type": "Organization",
       "title": "Polish Bund",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c573c74ec39370c26eab6231",
+      "id": "mention_6b42a8ae18441f4eab5aaf3d",
       "type": "Organization",
       "title": "Communists",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_883e5e4ca261295a7dc17c79",
-      "type": "Institution",
-      "title": "Sholem Aleichem Library",
       "relation": "Appears in same passage"
     },
     {
@@ -179,27 +177,39 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_52970fc09d6cf50a5be9e070",
+      "id": "mention_37ff8d95431d77863d28ddd1",
       "type": "Person",
       "title": "Taras",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4312e100189920d4296e972a",
+      "id": "mention_86521d44a0f419a09678098f",
+      "type": "Institution",
+      "title": "Bundist schools",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eda9ea8bceddff0ec47ebff8",
+      "type": "Institution",
+      "title": "Sholem Aleichem Library",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_df1c394357e4a9481277da9b",
       "type": "Person",
       "title": "Izchok Rywkin",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_065201d6c20b1cd9182c3961",
-      "type": "Organization",
-      "title": "Jewish trade unions",
+      "id": "mention_35f61a0a474658fc611949aa",
+      "type": "Place",
+      "title": "Warsaw",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_27f6d07967d3803e585c0fb7",
-      "type": "Photograph",
-      "title": "Bund Committee in Bialystok in 1906",
+      "id": "mention_c98b3d168d1846f4ae02292b",
+      "type": "Organization",
+      "title": "Jewish trade unions",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,127 @@
+{
+  "id": "mention_2d3cc4d946a1c545468a481b",
+  "type": "Organization",
+  "title": "American Relief Committee",
+  "summary": "An American relief committee whose secretary and delegate was David Sohn.",
+  "originalName": "אַמעריקאַנער רעליף-קאָמיטעט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 362,
+  "printedPage": "346",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "relief committee",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c197b06c2cdd6ee97ce7a030",
+      "pageId": "page_nybc313697_0362",
+      "scanIndex": 362,
+      "leafNumber": 361,
+      "printedPage": "346",
+      "passageCharStart": 333,
+      "passageCharEnd": 395,
+      "normalizedPassageCharStart": 333,
+      "normalizedPassageCharEnd": 395,
+      "pageCharStart": 1344,
+      "pageCharEnd": 1406,
+      "quote": "דער סעקרעטאַר און דעלעגאַט פון דעם\nאַמעריקאַנער רעליף-קאָמיטעט",
+      "normalizedQuote": "דער סעקרעטאַר און דעלעגאַט פון דעם\nאַמעריקאַנער רעליף-קאָמיטעט",
+      "modelQuote": "דער סעקרעטאַר און דעלעגאַט פון דעם אַמעריקאַנער רעליף-קאָמיטעט",
+      "bbox": {
+        "left": 488,
+        "top": 5176,
+        "right": 2431,
+        "bottom": 5350
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n361/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "6299d3d63d84dff13def4c4df28ec03c855625541fea082ad120bbb146e26cc7",
+      "normalizedPassageChecksum": "fbfd73f8d42ad70aec333db093a37e45043882e0a22ea2eb6525f8c610e84b36",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2dc0303b1e0da1245a6f92d5",
+      "predicate": "Member Of",
+      "subjectTitle": "David Sohn",
+      "objectTitle": "American Relief Committee",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR is unclear around David Sohn's assignment to Bialystok.",
+      "qualifiers": {
+        "role": "secretary and delegate"
+      },
+      "evidence": {
+        "passageId": "passage_c197b06c2cdd6ee97ce7a030",
+        "pageId": "page_nybc313697_0362",
+        "scanIndex": 362,
+        "leafNumber": 361,
+        "printedPage": "346",
+        "passageCharStart": 310,
+        "passageCharEnd": 395,
+        "normalizedPassageCharStart": 310,
+        "normalizedPassageCharEnd": 395,
+        "pageCharStart": 1321,
+        "pageCharEnd": 1406,
+        "quote": "ער\nקיין ביאַליסטאָק וי דער סעקרעטאַר און דעלעגאַט פון דעם\nאַמעריקאַנער רעליף-קאָמיטעט",
+        "normalizedQuote": "ער\nקיין ביאַליסטאָק וי דער סעקרעטאַר און דעלעגאַט פון דעם\nאַמעריקאַנער רעליף-קאָמיטעט",
+        "modelQuote": "ער קיין ביאַליסטאָק וי דער סעקרעטאַר און דעלעגאַט פון דעם אַמעריקאַנער רעליף-קאָמיטעט",
+        "bbox": {
+          "left": 486,
+          "top": 5096,
+          "right": 2431,
+          "bottom": 5350
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n361/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "6299d3d63d84dff13def4c4df28ec03c855625541fea082ad120bbb146e26cc7",
+        "normalizedPassageChecksum": "fbfd73f8d42ad70aec333db093a37e45043882e0a22ea2eb6525f8c610e84b36",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_87254b27845632f834ac7de6",
+      "type": "Person",
+      "title": "David Sohn",
+      "relation": "Member Of"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2ee1a122d43cb291441a00f3",
+      "type": "Organization",
+      "title": "Bialystok Relief",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8dd327502507360fa9bf4e2a",
+      "type": "Work",
+      "title": "Bialystok Yizkor Book",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a1809ab5803987bf9e9aad00",
+      "type": "Community",
+      "title": "Jewish community of Bialystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3ef15973393db949f138afa1",
+      "type": "Place",
+      "title": "Russia",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,106 @@
+{
+  "id": "mention_9fafda21c118a510b93637ef",
+  "type": "Place",
+  "title": "Tartak prison",
+  "summary": "Prison identified as the site of a particularly horrific massacre.",
+  "originalName": "טאַרטאַק ,, אונטערץ טורמע",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 45,
+  "printedPage": "29",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "prison",
+  "uncertaintyNote": "OCR includes intrusive Latin tokens and punctuation.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_db3f47abf7a7c60227bd6cad",
+      "pageId": "page_nybc313697_0045",
+      "scanIndex": 45,
+      "leafNumber": 44,
+      "printedPage": "29",
+      "passageCharStart": 323,
+      "passageCharEnd": 361,
+      "normalizedPassageCharStart": 323,
+      "normalizedPassageCharEnd": 361,
+      "pageCharStart": 3861,
+      "pageCharEnd": 3899,
+      "quote": "די שחיטה\nPR‏ טאַרטאַק ,, אונטערץ טורמע",
+      "normalizedQuote": "די שחיטה\nPR‏ טאַרטאַק ,, אונטערץ טורמע",
+      "modelQuote": "די שחיטה\nPR‏ טאַרטאַק ,, אונטערץ טורמע",
+      "bbox": {
+        "left": 2577,
+        "top": 2130,
+        "right": 4538,
+        "bottom": 2303
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n44/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "14c071be4c877a23cee40d4e69e34a8a497c32298dd5870b02599cda3009e1f4",
+      "normalizedPassageChecksum": "3e9ece859ed244e736587a8343c9b08952971aa7bc61314aa2274f03b7a93f43",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c434a9c6626384c856242e06",
+      "type": "Murder",
+      "title": "Murder of the Einstein family",
+      "summary": "Einstein, his wife, and two children were killed in a massacre.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_db3f47abf7a7c60227bd6cad",
+        "pageId": "page_nybc313697_0045",
+        "scanIndex": 45,
+        "leafNumber": 44,
+        "printedPage": "29",
+        "passageCharStart": 460,
+        "passageCharEnd": 515,
+        "normalizedPassageCharStart": 460,
+        "normalizedPassageCharEnd": 515,
+        "pageCharStart": 3998,
+        "pageCharEnd": 4053,
+        "quote": "די הריגה פון דער פאַמיליע איינ-\nשטיין, אַ אידישער לערער",
+        "normalizedQuote": "די הריגה פון דער פאַמיליע איינ-\nשטיין, אַ אידישער לערער",
+        "modelQuote": "די הריגה פון דער פאַמיליע איינ-\nשטיין, אַ אידישער לערער",
+        "bbox": {
+          "left": 2581,
+          "top": 2415,
+          "right": 4538,
+          "bottom": 2595
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n44/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "14c071be4c877a23cee40d4e69e34a8a497c32298dd5870b02599cda3009e1f4",
+        "normalizedPassageChecksum": "3e9ece859ed244e736587a8343c9b08952971aa7bc61314aa2274f03b7a93f43",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c434a9c6626384c856242e06",
+      "type": "Event",
+      "title": "Murder of the Einstein family",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4fd24a734f33dc0ee197a8b0",
+      "type": "Person",
+      "title": "Einstein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_269506c1c050a8af1e52bbb5",
+      "type": "Family",
+      "title": "Einstein family",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

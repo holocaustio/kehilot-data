@@ -2,15 +2,15 @@
   "id": "mention_915aa41fdf27a8a28548cc4a",
   "type": "Place",
   "title": "Ravensbrück",
-  "summary": "Named as one of the camps to which prisoners were sent.",
+  "summary": "Named as one of the extermination camps to which prisoners were sent.",
   "originalName": "ראַװענסברוק",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 341,
   "printedPage": "325",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "concentration camp",
+  "subtype": "camp",
   "evidenceRefs": [
     {
       "passageId": "passage_52297e3ea7df7458b1e6eb67",
@@ -20,8 +20,8 @@
       "printedPage": "325",
       "passageCharStart": 363,
       "passageCharEnd": 374,
-      "normalizedPassageCharStart": 315,
-      "normalizedPassageCharEnd": 326,
+      "normalizedPassageCharStart": 363,
+      "normalizedPassageCharEnd": 374,
       "pageCharStart": 3021,
       "pageCharEnd": 3032,
       "quote": "ראַװענסברוק",
@@ -38,7 +38,7 @@
       "passageChecksum": "99ceb6cbd9a0c855b65ada4b7463a81eae9a7453246bed4b979da1fde554232d",
       "normalizedPassageChecksum": "1781d716eb177c7066129cd7e31baa5417f179750a62d34306454dcd9f5284b8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -46,28 +46,27 @@
   "events": [],
   "connections": [
     {
-      "id": "event_candidate_ef15e5b2f15233ba3d51d19a",
-      "type": "Event",
-      "title": "Deportation to extermination camps",
-      "relation": "Participated In",
-      "role": "Participant"
-    },
-    {
-      "id": "mention_ef85a54ab944f7cf19d3b102",
-      "type": "Community",
-      "title": "Bialystok",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_6c215125e8cc6b72e7686ff7",
+      "id": "mention_59d97b233323378b1041cbde",
       "type": "Place",
-      "title": "Stutthof",
+      "title": "Stutthof Concentration Camp",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3dd97b325114b756d51e0906",
+      "id": "mention_77c65d392fc90ea3a55c5081",
       "type": "Place",
       "title": "Auschwitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b6ce6fbfa5fb55e0ad217f4",
+      "type": "Place",
+      "title": "Neustadt",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
       "relation": "Appears in same passage"
     }
   ],

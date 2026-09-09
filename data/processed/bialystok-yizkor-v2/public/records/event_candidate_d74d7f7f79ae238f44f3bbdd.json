@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_d74d7f7f79ae238f44f3bbdd",
+  "type": "Event",
+  "title": "Commercial School opens",
+  "summary": "The Commercial School opened on Folk Kempner’s initiative.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 117,
+  "printedPage": "101",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "School Opening",
+  "uncertaintyNote": "School opening is explicit, but the controlled event types lack a general opening event.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f4c3f1f7b5b16d84c43961f3",
+      "pageId": "page_nybc313697_0117",
+      "scanIndex": 117,
+      "leafNumber": 116,
+      "printedPage": "101",
+      "passageCharStart": 571,
+      "passageCharEnd": 595,
+      "normalizedPassageCharStart": 571,
+      "normalizedPassageCharEnd": 595,
+      "pageCharStart": 571,
+      "pageCharEnd": 595,
+      "quote": "עפנט PT‏ די קאָמערץ-שולע",
+      "normalizedQuote": "עפנט PT‏ די קאָמערץ-שולע",
+      "modelQuote": "עפנט PT‏ די קאָמערץ-שולע",
+      "bbox": {
+        "left": 626,
+        "top": 1836,
+        "right": 1606,
+        "bottom": 1917
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n116/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "30aea0504a2a465ca00489ff997af436732764e10fa3c317a2ed2e6e0cd79789",
+      "normalizedPassageChecksum": "769d3dd43cdbfdb56c51c8908163d291a27ba03d775611a43e262c793ae3fdde",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_d4eb73bd86012700ec5850ea",
+      "type": "Institution",
+      "title": "Commercial School",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_4ff1b3092d28f0461fafb419",
+      "type": "Person",
+      "title": "Folk Kempner",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

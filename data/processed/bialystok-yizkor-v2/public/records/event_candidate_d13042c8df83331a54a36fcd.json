@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_d13042c8df83331a54a36fcd",
+  "type": "Event",
+  "title": "Deportation of Jewish children to Auschwitz",
+  "summary": "Jewish children were brought from Vilna to Auschwitz and killed there.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 335,
+  "printedPage": "319",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Deportation",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b78a013d961f51ab07e0c68a",
+      "pageId": "page_nybc313697_0335",
+      "scanIndex": 335,
+      "leafNumber": 334,
+      "printedPage": "319",
+      "passageCharStart": 142,
+      "passageCharEnd": 175,
+      "normalizedPassageCharStart": 142,
+      "normalizedPassageCharEnd": 175,
+      "pageCharStart": 2256,
+      "pageCharEnd": 2289,
+      "quote": "געבראַכט\nקיין אוישוויץ פון ווילנע",
+      "normalizedQuote": "געבראַכט\nקיין אוישוויץ פון ווילנע",
+      "modelQuote": "געבראַכט\nקיין אוישוויץ פון ווילנע",
+      "bbox": {
+        "left": 390,
+        "top": 4813,
+        "right": 2396,
+        "bottom": 4986
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n334/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b665fbf074f2d371e2cd02e0f2ae6d1407ca09ff0cb56f4d8c69bf817231c64d",
+      "normalizedPassageChecksum": "6e08aa864fc1bd55599d86655a028caa50f96e11ad8d1203ec3d37389a1f03b0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_77c65d392fc90ea3a55c5081",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4c2e9b01bddfc628574073bd",
+      "type": "Community",
+      "title": "Jewish children from Vilna",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

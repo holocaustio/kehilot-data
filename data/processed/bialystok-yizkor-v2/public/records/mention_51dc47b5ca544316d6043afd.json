@@ -1,0 +1,113 @@
+{
+  "id": "mention_51dc47b5ca544316d6043afd",
+  "type": "Place",
+  "title": "Novolipie",
+  "summary": "City near which Kotik's library was located.",
+  "originalName": "נאָװאָליפּיע",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 36,
+  "printedPage": "20",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "uncertaintyNote": "The OCR phrase contains an unclear word after the place name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_05e5401ca1dbf1f5e5dfc4f8",
+      "pageId": "page_nybc313697_0036",
+      "scanIndex": 36,
+      "leafNumber": 35,
+      "printedPage": "20",
+      "passageCharStart": 0,
+      "passageCharEnd": 32,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 32,
+      "pageCharStart": 0,
+      "pageCharEnd": 32,
+      "quote": "נישט ווייט פון נאָװאָליפּיע גאָס",
+      "normalizedQuote": "נישט ווייט פון נאָװאָליפּיע גאָס",
+      "modelQuote": "נישט ווייט פון נאָװאָליפּיע גאָס",
+      "bbox": {
+        "left": 1137,
+        "top": 343,
+        "right": 2208,
+        "bottom": 422
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n35/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "f8e536d7202be6de91b092aa7611060744bdfa0bca2f6ca46674cb4d98343239",
+      "normalizedPassageChecksum": "f6f6c50e9357a90298eb1879056317c632f26571a7906d42aa40983dbb181955",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2475cc81d06bf4659c29ecb1",
+      "predicate": "Located Near",
+      "subjectTitle": "Kotik's Library",
+      "objectTitle": "Novolipie",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR indicates proximity to Novolipie but includes unclear text.",
+      "evidence": {
+        "passageId": "passage_05e5401ca1dbf1f5e5dfc4f8",
+        "pageId": "page_nybc313697_0036",
+        "scanIndex": 36,
+        "leafNumber": 35,
+        "printedPage": "20",
+        "passageCharStart": 0,
+        "passageCharEnd": 83,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 83,
+        "pageCharStart": 0,
+        "pageCharEnd": 83,
+        "quote": "נישט ווייט פון נאָװאָליפּיע גאָס, האָט פאַרמאָגט רוסישע,\nדייטשישע TN‏ אידישע ביכער.",
+        "normalizedQuote": "נישט ווייט פון נאָװאָליפּיע גאָס, האָט פאַרמאָגט רוסישע,\nדייטשישע TN‏ אידישע ביכער.",
+        "modelQuote": "נישט ווייט פון נאָװאָליפּיע גאָס, האָט פאַרמאָגט רוסישע,\nדייטשישע TN‏ אידישע ביכער.",
+        "bbox": {
+          "left": 309,
+          "top": 343,
+          "right": 2208,
+          "bottom": 519
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n35/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "f8e536d7202be6de91b092aa7611060744bdfa0bca2f6ca46674cb4d98343239",
+        "normalizedPassageChecksum": "f6f6c50e9357a90298eb1879056317c632f26571a7906d42aa40983dbb181955",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_c9f50aac20f009bc822c557a",
+      "type": "Institution",
+      "title": "Kotik's Library",
+      "relation": "Located Near"
+    },
+    {
+      "id": "mention_a7b45efae75e677251d2a167",
+      "type": "Person",
+      "title": "Kotik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c9f50aac20f009bc822c557a",
+      "type": "Institution",
+      "title": "Kotik's Library",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d2fc9e9929cfe7676a2cd3df",
+      "type": "Institution",
+      "title": "The two libraries",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

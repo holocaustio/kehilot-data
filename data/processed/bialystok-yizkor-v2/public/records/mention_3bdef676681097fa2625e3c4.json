@@ -1,0 +1,112 @@
+{
+  "id": "mention_3bdef676681097fa2625e3c4",
+  "type": "Place",
+  "title": "Yeshiva Street",
+  "summary": "The narrator searches for the former home on Yeshiva Street.",
+  "originalName": "ישיבה-געסל",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 308,
+  "printedPage": "292",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "The OCR contains corrupt material around the street name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_841b5b0ffd7212ecd85d421b",
+      "pageId": "page_nybc313697_0308",
+      "scanIndex": 308,
+      "leafNumber": 307,
+      "printedPage": "292",
+      "passageCharStart": 408,
+      "passageCharEnd": 449,
+      "normalizedPassageCharStart": 408,
+      "normalizedPassageCharEnd": 449,
+      "pageCharStart": 2227,
+      "pageCharEnd": 2268,
+      "quote": "כאָטש אַ TID VW‏\nדעם VIN‏ אויף ישיבה-געסל",
+      "normalizedQuote": "כאָטש אַ TID VW‏\nדעם VIN‏ אויף ישיבה-געסל",
+      "modelQuote": "כאָטש אַ TID VW‏ דעם VIN‏ אויף ישיבה-געסל",
+      "bbox": {
+        "left": 2625,
+        "top": 2633,
+        "right": 4560,
+        "bottom": 2798
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n307/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "30d41f6ea16ad73f614e0e9af564a20a3e908019c22cc8b65f71f4e8ea9632de",
+      "normalizedPassageChecksum": "ad8df2ee3fae9538d18a00f3b2f9585dbda930c4744da089d143c650f792980c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_dd63820919f76e30f290a3b5",
+      "predicate": "Lived At",
+      "subjectTitle": "unnamed narrator",
+      "objectTitle": "Yeshiva Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_841b5b0ffd7212ecd85d421b",
+        "pageId": "page_nybc313697_0308",
+        "scanIndex": 308,
+        "leafNumber": 307,
+        "printedPage": "292",
+        "passageCharStart": 434,
+        "passageCharEnd": 491,
+        "normalizedPassageCharStart": 434,
+        "normalizedPassageCharEnd": 491,
+        "pageCharStart": 2253,
+        "pageCharEnd": 2310,
+        "quote": "אויף ישיבה-געסל, INT‏ עס PR‏ געשטאַנען די\nהויז, מיין היים",
+        "normalizedQuote": "אויף ישיבה-געסל, INT‏ עס PR‏ געשטאַנען די\nהויז, מיין היים",
+        "modelQuote": "אויף ישיבה-געסל, INT‏ עס PR‏ געשטאַנען די\nהויז, מיין היים",
+        "bbox": {
+          "left": 2626,
+          "top": 2717,
+          "right": 4560,
+          "bottom": 2896
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n307/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "30d41f6ea16ad73f614e0e9af564a20a3e908019c22cc8b65f71f4e8ea9632de",
+        "normalizedPassageChecksum": "ad8df2ee3fae9538d18a00f3b2f9585dbda930c4744da089d143c650f792980c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_f5fbc38b2c845dfad07ec5ce",
+      "type": "Person",
+      "title": "unnamed narrator",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_6719850cda6a7906ba60b16b",
+      "type": "Place",
+      "title": "Karakuzels Courtyard",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_211acce0f08b53640d46d9ca",
+      "type": "Place",
+      "title": "overgrown field",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f5fbc38b2c845dfad07ec5ce",
+      "type": "Person",
+      "title": "unnamed narrator",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

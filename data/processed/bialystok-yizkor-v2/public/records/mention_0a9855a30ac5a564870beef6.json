@@ -1,0 +1,113 @@
+{
+  "id": "mention_0a9855a30ac5a564870beef6",
+  "type": "Organization",
+  "title": "Nazi rulers",
+  "summary": "Nazi rulers imposed new decrees and orders on Jews.",
+  "originalName": "נאַצי-הערשערס",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 146,
+  "printedPage": "130",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "persecuting authority",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f08076a1aa136c821d92fd46",
+      "pageId": "page_nybc313697_0146",
+      "scanIndex": 146,
+      "leafNumber": 145,
+      "printedPage": "130",
+      "passageCharStart": 538,
+      "passageCharEnd": 555,
+      "normalizedPassageCharStart": 538,
+      "normalizedPassageCharEnd": 555,
+      "pageCharStart": 2807,
+      "pageCharEnd": 2824,
+      "quote": "די נאַצי-\nהערשערס",
+      "normalizedQuote": "די נאַצי-\nהערשערס",
+      "modelQuote": "די נאַצי-הערשערס",
+      "bbox": {
+        "left": 399,
+        "top": 5001,
+        "right": 2397,
+        "bottom": 5168
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n145/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "7ef3b4d116f08da4ef01567735041632203eb184cbd244434374e1db7dccb630",
+      "normalizedPassageChecksum": "7d543b0e18bdaf7970ce8e4e39eb902c92a3b489afc24b0b1e1a187afc1e3933",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_2822475fb941089e96744675",
+      "type": "Ghetto Creation",
+      "title": "Creation of a ghetto for Bialystok Jews",
+      "summary": "Creation of a segregated area in Bialystok where Jews were confined.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR is damaged, and the passage reports news of the ghetto's creation without naming organizers explicitly.",
+      "evidence": {
+        "passageId": "passage_f08076a1aa136c821d92fd46",
+        "pageId": "page_nybc313697_0146",
+        "scanIndex": 146,
+        "leafNumber": 145,
+        "printedPage": "130",
+        "passageCharStart": 816,
+        "passageCharEnd": 853,
+        "normalizedPassageCharStart": 816,
+        "normalizedPassageCharEnd": 853,
+        "pageCharStart": 3085,
+        "pageCharEnd": 3122,
+        "quote": "עס ווערט געשאַפן AND‏ די אידן א געטאַ",
+        "normalizedQuote": "עס ווערט געשאַפן AND‏ די אידן א געטאַ",
+        "modelQuote": "עס ווערט געשאַפן AND‏ די אידן א געטאַ",
+        "bbox": {
+          "left": 578,
+          "top": 5615,
+          "right": 2009,
+          "bottom": 5689
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n145/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "7ef3b4d116f08da4ef01567735041632203eb184cbd244434374e1db7dccb630",
+        "normalizedPassageChecksum": "7d543b0e18bdaf7970ce8e4e39eb902c92a3b489afc24b0b1e1a187afc1e3933",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_2822475fb941089e96744675",
+      "type": "Event",
+      "title": "Creation of a ghetto for Bialystok Jews",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_f36d2cc512dcaae58710a7a3",
+      "type": "Community",
+      "title": "Bialystok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cb95f054e3e4a959f4af9209",
+      "type": "Place",
+      "title": "Bialystok Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2b5b562d004eeb1e0058a43a",
+      "type": "Document",
+      "title": "Bialystoker Yizkor Book",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -2,11 +2,11 @@
   "schemaVersion": "kehilot-yizkor-reading-paths-v1",
   "pipelineVersion": "kehilot-yizkor-reading-paths-v1",
   "promptVersion": "kehilot-yizkor-reading-paths-prompt-v1",
-  "generatedAt": "2026-09-04T16:38:01.892Z",
+  "generatedAt": "2026-09-09T06:01:40.581Z",
   "community": {
     "id": "community_bialystok",
-    "displayName": "Bialystok",
-    "canonicalName": "Bialystok",
+    "displayName": "bialystok",
+    "canonicalName": "bialystok",
     "country": "Poland"
   },
   "book": {
@@ -16,7 +16,7 @@
   "source": {
     "selectedVersion": "bialystok-yizkor-v2",
     "graphPath": "data/processed/bialystok-yizkor-v2/adjudication/resolved-graph.json",
-    "graphSha256": "b480fbe7978900008fbb0d51d2b38f5ccbb1a82a6f6cd4e5d8695184f821946e",
+    "graphSha256": "ae2cbeda2ef4b8a20171871d00d1c15c6d15851e0fefd86aceb72a54f43a48cf",
     "candidateCount": 360
   },
   "model": {
@@ -26,656 +26,457 @@
   },
   "overview": {
     "title": "Reading Białystok Through Its Memorial Book",
-    "summary": "Białystok was remembered as a major Jewish community: a center of Torah learning, religious life, education, culture, politics, industry, and family networks. The memorial book traces an arc from institutions, trades, schools, newspapers, and communal associations to Nazi occupation, ghettoization, murder, deportation, resistance, and destruction. It also follows survivors and descendants as they rebuilt communities abroad, supported one another, and created photographs, publications, archives, monuments, and testimony. Exploring these paths reveals both the richness of Jewish Białystok before the Holocaust and the continuing work of remembering it."
+    "summary": "Białystok was home to a substantial Jewish community shaped by textile work, trade, religious institutions, schools, political movements, publishing, and Yiddish culture [mention_ffe0a295b088cd30002eae84; mention_84e00881b8769ce9e0339793; mention_d26ab35f65a675ac78c749a6]. The memorial book follows this community from its varied prewar life through Soviet and German rule, the ghetto, mass murder, deportation, resistance, and survival [event_candidate_b11454789122d738889c2540; mention_1bf03fd06df2ca3de760e4ab; event_candidate_3d1ba2efa88ccefd2e8c386a]. It also shows how survivors returned, mourned the dead, rebuilt communal institutions, and preserved Białystok’s memory across Europe, Israel, and the Americas [event_candidate_6a5294b341fd330353d1d949; event_candidate_36ece3a34d9becd19186832c; mention_e24e759e03f108f11ea8e913]. Exploring these paths helps readers connect institutions and family histories to the destruction of a community and to the enduring work of remembrance."
   },
   "paths": [
     {
-      "id": "path-community-beforewar",
+      "id": "path-community-life",
       "theme": "COMMUNITY_LIFE",
       "title": "What kind of Jewish community was Białystok?",
-      "description": "This path introduces Białystok as a lived community rather than only a wartime location. By the end, readers will recognize its institutions, families, businesses, and social networks.",
-      "question": "How did ordinary communal life take shape before the Holocaust?",
+      "description": "This path introduces Białystok as a living community with an economic base, religious institutions, schools, political movements, and cultural organizations. By the end, readers will see that the people later described as victims belonged to a complex society with many forms of communal life.",
+      "question": "How did Jewish people in Białystok work, worship, learn, organize, and create culture?",
       "steps": [
         {
-          "title": "A substantial Jewish city",
-          "summary": "The memorial book presents Białystok as a predominantly Jewish city with a population of 39,000, and as a community known for vitality, achievement, and varied social life. These accounts establish the scale of the community that Nazi persecution later targeted.",
+          "title": "A textile and trading center",
+          "summary": "The memorial book presents Białystok as a lively center of textile production and world trade, while other accounts describe Jewish workers, manufacturers, and trade unions. This economic life helps explain the range of occupations and communal networks represented in the book [mention_ffe0a295b088cd30002eae84; mention_f5534c51c32214ff163ce307; mention_d26ab35f65a675ac78c749a6].",
           "recordIds": [
-            "mention_8b05e5356e8d1c3121d13998",
-            "mention_2b595b77b057d8c66e37602f",
-            "mention_923c505b2e87ed40f2fa445d"
+            "mention_ffe0a295b088cd30002eae84",
+            "mention_f5534c51c32214ff163ce307",
+            "mention_d26ab35f65a675ac78c749a6"
           ],
           "records": [
             {
-              "recordId": "mention_8b05e5356e8d1c3121d13998",
+              "recordId": "mention_ffe0a295b088cd30002eae84",
               "kind": "mention",
-              "type": "COMMUNITY",
+              "type": "PLACE",
               "title": "Bialystok",
-              "summary": "A predominantly Jewish industrial city whose housing and community life changed substantially.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 611,
-              "printedPage": null,
-              "passageId": "passage_338e20e9adce635c9e1cebe2",
-              "quote": "BialystokwasalwaysapredominantlyJewishcity."
-            },
-            {
-              "recordId": "mention_2b595b77b057d8c66e37602f",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Bialystok community",
-              "summary": "Bialystok is described as having a population of 39,000.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 496,
-              "printedPage": null,
-              "passageId": "passage_8a6e0decd75927e0324bf324",
-              "quote": "thecurrentsituationin Bialystokwithapopulationof39,000"
-            },
-            {
-              "recordId": "mention_923c505b2e87ed40f2fa445d",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Bialystok",
-              "summary": "Birthplace and Jewish community praised for vitality, creativity, and achievement.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 598,
-              "printedPage": null,
-              "passageId": "passage_de88ffa84f5a9eaacc7be087",
-              "quote": "Bialystok!"
-            }
-          ],
-          "position": 1
-        },
-        {
-          "title": "Institutions of care and association",
-          "summary": "Białystok Jews created organized support through the Bialystok Support Association, a Jewish hospital founded in 1840, and societies including Somach Noflim. These institutions show communal responsibility expressed through health care, welfare, and association-building.",
-          "recordIds": [
-            "event_candidate_fda5582a8669bf8246ab31dd",
-            "event_candidate_56ce852cb5823e9348807079",
-            "event_candidate_da4858a3d5aff8d2517076ae"
-          ],
-          "records": [
-            {
-              "recordId": "event_candidate_fda5582a8669bf8246ab31dd",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Founding of the Bialystoker Unterstitzungs Verein",
-              "summary": "The first organized society was established in 1864.",
-              "dateStart": "1864",
-              "dateEnd": "",
-              "scanIndex": 453,
-              "printedPage": null,
-              "passageId": "passage_11fbc8068b5b29ae5a2ffa31",
-              "quote": "thefirst organizedsocietywasthe‘‘BialystokerUnterstitzungs Verein”establishedin1864"
-            },
-            {
-              "recordId": "event_candidate_56ce852cb5823e9348807079",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Jewish Hospital founded",
-              "summary": "The Jewish Hospital was founded in 1840.",
-              "dateStart": "1840",
-              "dateEnd": "",
-              "scanIndex": 577,
-              "printedPage": null,
-              "passageId": "passage_bb2cfc631f13216bd302ae9c",
-              "quote": "ThenursesanddoctorsoftheJewishHospital,foundedin 1840."
-            },
-            {
-              "recordId": "event_candidate_da4858a3d5aff8d2517076ae",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Founding of Bialystoker Somach Noflim",
-              "summary": "Bialystoker Somach Noflim was founded in 1886.",
-              "dateStart": "1886",
-              "dateEnd": "1886",
-              "scanIndex": 454,
-              "printedPage": null,
-              "passageId": "passage_8f1133267c44eed14e3427cf",
-              "quote": "theSomachNoflim,foundedin 1886"
-            }
-          ],
-          "position": 2
-        },
-        {
-          "title": "Work, trade, and family enterprise",
-          "summary": "The book recalls textile manufacturing, cooperatives of bakers and tailors, and family businesses such as the Rybalowski kosher restaurant and catering hall. Such evidence places Jewish life in workplaces, shops, restaurants, and family enterprises as well as in formal institutions.",
-          "recordIds": [
-            "mention_1f7d44f4b72c855fa13e9d29",
-            "mention_27759bfccdb75e665b6b56e1",
-            "mention_385039651707bc043fde5eb5",
-            "mention_3de71aefd81b3588fb4f89c1"
-          ],
-          "records": [
-            {
-              "recordId": "mention_1f7d44f4b72c855fa13e9d29",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Textile manufacturing",
-              "summary": "Textile manufacturing developed gradually in Bialystok.",
+              "summary": "Bialystok is described as a former textile and world-trade center.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 90,
               "printedPage": "74",
-              "passageId": "passage_a14e59ed23f51fb233c25c10",
-              "quote": "דיטוך-פאַבריקאַציע"
+              "passageId": "passage_36dcdd13192d1d9c657b5bd6",
+              "quote": "ביאַליסטאָק געווען אַ לעבעדיקער, AVP ON‏ וועלט האַנדלס-צענטער"
             },
             {
-              "recordId": "mention_27759bfccdb75e665b6b56e1",
+              "recordId": "mention_f5534c51c32214ff163ce307",
               "kind": "mention",
               "type": "BUSINESS",
-              "title": "Bakers’ Cooperative",
-              "summary": "Cooperative listed with its chairman and leaders.",
+              "title": "textile industry",
+              "summary": "An industry operating three shifts around the clock.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 280,
-              "printedPage": "264",
-              "passageId": "passage_cba063bc0703c068fb14e4e4",
-              "quote": "בעקערקאָאָפּעראַטיוו"
+              "scanIndex": 169,
+              "printedPage": "153",
+              "passageId": "passage_89df424c15b7b3a2890f6a51",
+              "quote": "דער טעקסטיל אינדוסטריע"
             },
             {
-              "recordId": "mention_385039651707bc043fde5eb5",
+              "recordId": "mention_d26ab35f65a675ac78c749a6",
               "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Tailors’ Cooperative",
-              "summary": "Cooperative listed with its leader.",
+              "type": "ORGANIZATION",
+              "title": "Jewish workers’ trade unions in Bialystok",
+              "summary": "Trade unions of Jewish workers in Bialystok.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 280,
-              "printedPage": "264",
-              "passageId": "passage_cba063bc0703c068fb14e4e4",
-              "quote": "שניידערקאָאָפּעראַטיו"
-            },
-            {
-              "recordId": "mention_3de71aefd81b3588fb4f89c1",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Rybalowski restaurant-catering hall",
-              "summary": "Family-owned kosher restaurant and catering hall near Bialystok's railroad station.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 443,
-              "printedPage": null,
-              "passageId": "passage_cc4f37f5e85d99136036a564",
-              "quote": "TheRybalowskifamilyownedakosherrestaurant- cateringhallinBialystok,neartherailroadstation"
-            }
-          ],
-          "position": 3
-        },
-        {
-          "title": "Families within the community",
-          "summary": "Family accounts range from Sam Solazh’s religious family of eleven children to the Rybalowski family’s restaurant and the Sapirstein family’s greeting-card business. These testimonies make the community personal: its history was carried through households, work, marriage, and kinship.",
-          "recordIds": [
-            "mention_f21918b9674de6bf6ae98efd",
-            "mention_8ffba8a52c0e1ccfd06d752e",
-            "mention_c6524f897c095a0c266f5243"
-          ],
-          "records": [
-            {
-              "recordId": "mention_f21918b9674de6bf6ae98efd",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Sam Solazh's family",
-              "summary": "Sam Solazh came from a religious family and was one of eleven children.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 321,
-              "printedPage": "305",
-              "passageId": "passage_208fd0c5b2e3b3133e927918",
-              "quote": "זייןמשפּחההאָטגעשטאַמט"
-            },
-            {
-              "recordId": "mention_8ffba8a52c0e1ccfd06d752e",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Rybalowski family",
-              "summary": "Family that owned a kosher restaurant-catering hall in Bialystok.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 443,
-              "printedPage": null,
-              "passageId": "passage_cc4f37f5e85d99136036a564",
-              "quote": "TheRybalowskifamilyownedakosherrestaurant- cateringhallinBialystok"
-            },
-            {
-              "recordId": "mention_c6524f897c095a0c266f5243",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Sapirstein family",
-              "summary": "Family that developed a postcard and greeting-card business.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 368,
-              "printedPage": "352",
-              "passageId": "passage_e6e5966d11d41885c746c48b",
-              "quote": "דימשפּחהPW‏ אָנגעהויבןPON‏אויסאַרבעטןווינטש-קאַרטן"
-            }
-          ],
-          "position": 4
-        }
-      ]
-    },
-    {
-      "id": "path-faith-learning-culture",
-      "theme": "EDUCATION_CULTURE",
-      "title": "How did learning, faith, and culture shape Białystok?",
-      "description": "This path explores the intellectual and cultural institutions that gave Białystok its distinctive identity. Readers will see how religious study, schools, publishing, theatre, music, and language-making coexisted within one community.",
-      "question": "What did Białystok’s Jews teach, read, create, and perform?",
-      "steps": [
-        {
-          "title": "A center of Torah learning",
-          "summary": "The memorial book describes Białystok as one of the centers of Torah learning and records religious families and Hasidic traditions. This places religious study and observance at the heart of the community’s self-understanding.",
-          "recordIds": [
-            "mention_050763c0f5b559883f493e37",
-            "mention_02ff96de28b2c2ef2a8019b3",
-            "mention_2639bdccac85b117b3594dea"
-          ],
-          "records": [
-            {
-              "recordId": "mention_050763c0f5b559883f493e37",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Bialystok",
-              "summary": "Community portrayed as a major center of Torah learning and religious education.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 591,
-              "printedPage": null,
-              "passageId": "passage_4e4351ec0e5935a57204a0b7",
-              "quote": "Bialystokwaswellknownasoneofthecentersof Torahlearning."
-            },
-            {
-              "recordId": "mention_02ff96de28b2c2ef2a8019b3",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Valakh family",
-              "summary": "Meir Valakh's family, identified as followers of the Kotzker Hasidic tradition.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 120,
-              "printedPage": "104",
-              "passageId": "passage_4e3430c591ddda055f586177",
-              "quote": "משפּחהפוןקאָצקערחסידים"
-            },
-            {
-              "recordId": "mention_2639bdccac85b117b3594dea",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Walach family",
-              "summary": "Chasidic family from Bialystok.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 574,
-              "printedPage": null,
-              "passageId": "passage_f486480e519e336eb601c498",
-              "quote": "toaChasidicfamily"
+              "scanIndex": 60,
+              "printedPage": "44",
+              "passageId": "passage_918c4aed133e15ba75d2bd2d",
+              "quote": "די טרעיד-יוניאָנס פון די אידישע אַרבעטער"
             }
           ],
           "position": 1
         },
         {
-          "title": "Schools and languages",
-          "summary": "Accounts of yeshiva education, additional instruction in Polish, and the construction of a city school show an educational world that included both Jewish learning and the state language. Education connected religious tradition with civic and modern life.",
+          "title": "Religious and educational institutions",
+          "summary": "Jewish life included the Great Synagogue, a Talmud Torah and yeshiva, and a Hebrew Gymnasium founded in 1919. These institutions show that religious learning and modern Hebrew education existed alongside one another [mention_f1d6ef3fb67f151355fb322f; mention_9857edbf61b30d1375a5f20f; event_candidate_8c5f7d04b3b340301ed9861f].",
           "recordIds": [
-            "mention_634042800394b22e6310a880",
-            "event_candidate_08b2294194dfa19bc1c39692",
-            "mention_bc5ae1640b00715f8d6c47c0"
+            "mention_f1d6ef3fb67f151355fb322f",
+            "mention_9857edbf61b30d1375a5f20f",
+            "event_candidate_8c5f7d04b3b340301ed9861f"
           ],
           "records": [
             {
-              "recordId": "mention_634042800394b22e6310a880",
+              "recordId": "mention_f1d6ef3fb67f151355fb322f",
               "kind": "mention",
-              "type": "OBJECT",
-              "title": "Polish language",
-              "summary": "The state language used for additional daily instruction.",
+              "type": "INSTITUTION",
+              "title": "Great Bialystok Synagogue",
+              "summary": "The Great Bialystok Synagogue is described as central to Jewish life.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 50,
+              "printedPage": "34",
+              "passageId": "passage_984db25c7cb71f0ba41f0c8d",
+              "quote": "די גרויסע ביאַליסטאָקער שוהל"
+            },
+            {
+              "recordId": "mention_9857edbf61b30d1375a5f20f",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Talmud Torah",
+              "summary": "Religious school mentioned as being expanded with the yeshiva.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 71,
               "printedPage": "55",
-              "passageId": "passage_10f7b2ed099082c2b06c66c2",
-              "quote": "מלוכה- שפּראַך--פּױליש"
+              "passageId": "passage_7757b1c19e8693940f00ce9a",
+              "quote": "דער תלמוד- תורה און ישיבה"
             },
             {
-              "recordId": "event_candidate_08b2294194dfa19bc1c39692",
+              "recordId": "event_candidate_8c5f7d04b3b340301ed9861f",
               "kind": "event",
-              "type": "BUSINESS_OPENING",
-              "title": "Construction of the new city school",
-              "summary": "The new city school was begun in 1909 and completed in 1913.",
-              "dateStart": "1909",
-              "dateEnd": "1913",
-              "scanIndex": 26,
-              "printedPage": "10",
-              "passageId": "passage_a94af64db1376468655cf60d",
-              "quote": "האָטאָנגעהױבןבויעןPR‏1909און פאַרענדיקטPR‏1913"
-            },
-            {
-              "recordId": "mention_bc5ae1640b00715f8d6c47c0",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Tanneries",
-              "summary": "Tannery owners housed yeshiva students in their businesses.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 69,
-              "printedPage": "53",
-              "passageId": "passage_e87cd2b71245d028a01e252c",
-              "quote": "אייגענטימערפוןגאַרבאַרניעס"
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of the Hebrew Gymnasium in Bialystok",
+              "summary": "The Hebrew Gymnasium in Bialystok was founded in 1919.",
+              "dateStart": "1919",
+              "dateEnd": "1919",
+              "scanIndex": 286,
+              "printedPage": "270",
+              "passageId": "passage_da5fd3b8cdea4898d2bdef09",
+              "quote": "געגרינדעט געװאָרן PR‏ יאָר 1919"
             }
           ],
           "position": 2
         },
         {
-          "title": "Printing, newspapers, and ideas",
-          "summary": "Białystok’s first printing press opened in 1804, and the Bialystoker Tageblatt appeared in 1913 as the city’s first daily newspaper. The book also links Białystok to Ludwik Zamenhof’s creation of Esperanto, illustrating the community’s engagement with publishing and universalist ideas.",
+          "title": "Reading, publishing, and performance",
+          "summary": "The community supported libraries, a Jewish publishing house, newspapers, and Yiddish theater. The study library opened in 1933, while the Sholem Aleichem Library and theater groups helped make reading and performance organized parts of communal culture [event_candidate_ee2a0858026dfad6fa50d7a2; mention_6dc5aac4b8b9c9c00df85f06; mention_10c46b89a617b98bd25a2c95; event_candidate_6bc50cfe07aa995e9f70dfab].",
           "recordIds": [
-            "event_candidate_87bd2104d1792ff4d61508c8",
-            "event_candidate_5bb51278d6b1378f0af33a94",
-            "event_candidate_b13a1ad4ccb3035d35dd3fe9"
+            "event_candidate_ee2a0858026dfad6fa50d7a2",
+            "mention_6dc5aac4b8b9c9c00df85f06",
+            "mention_10c46b89a617b98bd25a2c95",
+            "event_candidate_6bc50cfe07aa995e9f70dfab"
           ],
           "records": [
             {
-              "recordId": "event_candidate_87bd2104d1792ff4d61508c8",
-              "kind": "event",
-              "type": "BUSINESS_OPENING",
-              "title": "Opening of Bialystok’s first printing press",
-              "summary": "Bialystok’s first printing press opened in 1804 under Rabbi Aaron Halevi Hurwitz.",
-              "dateStart": "1804",
-              "dateEnd": "",
-              "scanIndex": 19,
-              "printedPage": "3",
-              "passageId": "passage_7c9309bf2d6854df021d5534",
-              "quote": "1804,איזPR‏ביאַליסטאָקגעעפנטגעװאָרןדי ערשטעדרוקעריידורךר'אהרןהלויהורוויץ"
-            },
-            {
-              "recordId": "event_candidate_5bb51278d6b1378f0af33a94",
-              "kind": "event",
-              "type": "PUBLICATION_FOUNDING",
-              "title": "Bialystoker Tageblatt appears",
-              "summary": "Bialystoker Tageblatt began appearing in 1913 as Bialystok’s first daily newspaper, edited by A. S. Herszberg.",
-              "dateStart": "1913",
-              "dateEnd": "1913",
-              "scanIndex": 574,
-              "printedPage": null,
-              "passageId": "passage_f486480e519e336eb601c498",
-              "quote": "1913-ThefirstdailynewspaperBialystokerTageblatt appears,editedbyA.S.Herszberg."
-            },
-            {
-              "recordId": "event_candidate_b13a1ad4ccb3035d35dd3fe9",
+              "recordId": "event_candidate_ee2a0858026dfad6fa50d7a2",
               "kind": "event",
               "type": "ORGANIZATION_FOUNDING",
-              "title": "Creation of Esperanto",
-              "summary": "Dr. Lazarus Zamenhof created the artificial language Esperanto in 1887.",
-              "dateStart": "1887",
-              "dateEnd": "1887",
-              "scanIndex": 42,
-              "printedPage": "26",
-              "passageId": "passage_1b3cbc8586ce307098d78f94",
-              "quote": "געשאַפןגעװאָרןניטדורךPP‏אַנדערן,וי דורךדעםביאַליסטאָקעראיד,דר.לאַזאַרוס(לודוויק) זאַמענהאָף,PN‏יאָר1887"
+              "title": "Opening of the Bialystok community study library",
+              "summary": "The study library opened at the Bialystok community on 15 January 1933.",
+              "dateStart": "1933-01-15",
+              "dateEnd": "",
+              "scanIndex": 85,
+              "printedPage": "69",
+              "passageId": "passage_4bde0034df60b7ccf6972c4c",
+              "quote": "די דערעפענונג פון דער שטודיר-ביבליאָטעק ביי דער בּיאַליסטאָקער קהילה דעם 15-טען יאַנואַר 1933"
+            },
+            {
+              "recordId": "mention_6dc5aac4b8b9c9c00df85f06",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Sholem Aleichem Library",
+              "summary": "The Sholem Aleichem Library expanded strongly during the period described.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 66,
+              "printedPage": "50",
+              "passageId": "passage_0a57165ef1f50a57f6cb48b3",
+              "quote": "די שלום-עליכם ביבליאָטעק"
+            },
+            {
+              "recordId": "mention_10c46b89a617b98bd25a2c95",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Jewish publishing house",
+              "summary": "A Jewish publishing house established in Białystok in the early 1930s.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 112,
+              "printedPage": "96",
+              "passageId": "passage_2c026be0b7de0c420eab2b7a",
+              "quote": "געגרינדעט אַ אידישער פאַרלאַג"
+            },
+            {
+              "recordId": "event_candidate_6bc50cfe07aa995e9f70dfab",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Gilah Rinah established",
+              "summary": "A small Yiddish theater troupe was established in Bialystok in the late 1920s.",
+              "dateStart": "1927",
+              "dateEnd": "1929",
+              "scanIndex": 585,
+              "printedPage": null,
+              "passageId": "passage_6ccd9a959c13cc054854cc69",
+              "quote": "In the late 1920’s a small Yiddish theater troupe named Gilah Rinah was established"
             }
           ],
           "position": 3
         },
         {
-          "title": "A culture of performance and music",
-          "summary": "The memorial book recalls Białystok’s actors and entertainers, the opening of the Habimah Theater in 1913, and the founding of the Zionist Hazamir orchestra in 1915. These examples show culture as a public, organized, and shared part of Jewish life.",
+          "title": "Politics and collective action",
+          "summary": "Białystok’s Jewish residents participated in Zionist and Bundist movements, workers’ organizations, strikes, and political publishing. The evidence points to a community debating its future while also organizing around labor and social questions [event_candidate_18d250b9981ea6461188a45a; event_candidate_26ad0a4968e5bcfe9174ab4e; event_candidate_85aeb7464755241626370a66; mention_9ca5a3390a0f349197d870ec].",
           "recordIds": [
-            "mention_86dbcb9f8d994efcfd248b1b",
-            "event_candidate_d31f7975522184748c556551",
-            "event_candidate_b979d3015aec2720520d77a6"
+            "event_candidate_18d250b9981ea6461188a45a",
+            "event_candidate_26ad0a4968e5bcfe9174ab4e",
+            "event_candidate_85aeb7464755241626370a66",
+            "mention_9ca5a3390a0f349197d870ec"
           ],
           "records": [
             {
-              "recordId": "mention_86dbcb9f8d994efcfd248b1b",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Bialystok",
-              "summary": "City and Jewish community described throughout the passage.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 585,
-              "printedPage": null,
-              "passageId": "passage_6ccd9a959c13cc054854cc69",
-              "quote": "Bialystokproducedasignificantnumberofitsown actorsandentertainers"
-            },
-            {
-              "recordId": "event_candidate_d31f7975522184748c556551",
+              "recordId": "event_candidate_18d250b9981ea6461188a45a",
               "kind": "event",
               "type": "ORGANIZATION_FOUNDING",
-              "title": "Habimah Theater opens",
-              "summary": "Habimah Theater opened in 1913 with Shma Yisroel.",
-              "dateStart": "1913",
-              "dateEnd": "1913",
-              "scanIndex": 574,
-              "printedPage": null,
-              "passageId": "passage_f486480e519e336eb601c498",
-              "quote": "1913-TheHabimahTheaterisopenedbyNochum Cemach"
-            },
-            {
-              "recordId": "event_candidate_b979d3015aec2720520d77a6",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Hazamir founded",
-              "summary": "Hazamir, a Zionist orchestra, was founded in 1915 with forty members.",
-              "dateStart": "1915",
-              "dateEnd": "1915",
-              "scanIndex": 104,
-              "printedPage": "88",
-              "passageId": "passage_acec8e3e22bb3e30d882ac9e",
-              "quote": "1915PR‏געגרינדעטדער,הזמיר\",אַ ציוניסטישער"
-            }
-          ],
-          "position": 4
-        }
-      ]
-    },
-    {
-      "id": "path-politics-mobility",
-      "theme": "POLITICS",
-      "title": "How did Białystok’s Jews respond to politics, work, and migration?",
-      "description": "This path follows political organizing, labor action, antisemitic violence, and migration. It helps readers understand Białystok as a community shaped by both local struggle and connections to America, Israel, and wider Jewish movements.",
-      "question": "How did people organize, protest, leave, and build connections elsewhere?",
-      "steps": [
-        {
-          "title": "Political movements took root",
-          "summary": "The book identifies the Bund’s founding in 1897, a Bund committee in Białystok in 1906, and Zionist meetings held from 1900 to 1904. These records show that Jewish political life included competing visions of labor, Jewish collective life, and Zionism.",
-          "recordIds": [
-            "event_candidate_912e830db0a4d3c03f4575c5",
-            "event_candidate_43bd6a0d0cd17d0cc3214ba7",
-            "event_candidate_5c37f682e5a342bae86139b7"
-          ],
-          "records": [
-            {
-              "recordId": "event_candidate_912e830db0a4d3c03f4575c5",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Founding of the Bund",
-              "summary": "The Bund was founded in 1897.",
+              "title": "Bialystok Chovevei Zion meeting",
+              "summary": "A 1897 Bialystok meeting adopted the constitution for a Zionist organization in Russia.",
               "dateStart": "1897",
-              "dateEnd": "",
-              "scanIndex": 92,
-              "printedPage": "76",
-              "passageId": "passage_1952dc367c4cf9b0eb777e2e",
-              "quote": "בונד\",וועלכערהאָטזיך געגרינדעטONTTN,1897PR"
-            },
-            {
-              "recordId": "event_candidate_43bd6a0d0cd17d0cc3214ba7",
-              "kind": "event",
-              "type": "ORGANIZATION_ACTIVITY",
-              "title": "Bund committee in Bialystok, 1906",
-              "summary": "A Bund committee in Bialystok in 1906 is identified in a photograph caption.",
-              "dateStart": "1906",
-              "dateEnd": "1906",
-              "scanIndex": 596,
+              "dateEnd": "1897",
+              "scanIndex": 609,
               "printedPage": null,
-              "passageId": "passage_1af49e3c33712457f9157ce3",
-              "quote": "BUNDCOMMITTEEINBIALYSTOKIN1906"
+              "passageId": "passage_d429b8f7d1dcf216c6a145f4",
+              "quote": "he arranged for a meeting in Bialystok in the spring of 1897"
             },
             {
-              "recordId": "event_candidate_5c37f682e5a342bae86139b7",
+              "recordId": "event_candidate_26ad0a4968e5bcfe9174ab4e",
               "kind": "event",
               "type": "ORGANIZATION_FOUNDING",
-              "title": "Zionist meetings at Adath Yeshurun",
-              "summary": "Zionist meetings were held every Saturday afternoon from 1900 through 1904.",
+              "title": "Bund Central Committee in Bialystok",
+              "summary": "The Bund Central Committee was located in Bialystok from 1900 to 1905.",
               "dateStart": "1900",
-              "dateEnd": "1904",
-              "scanIndex": 37,
-              "printedPage": "21",
-              "passageId": "passage_00d32d7597db42d631730772",
-              "quote": "עדת ישורון\",PW‏נאָװאָליפּיעגאַס,פלעגןיעדןשבתנאָכ- מיטיק,פוןAW‏1900ביז1904,אָפּגעהאַלטןTUN‏ציוניס- טישעפאַרזאַמלונגען"
-            }
-          ],
-          "position": 1
-        },
-        {
-          "title": "Labor and economic pressure",
-          "summary": "Jewish weavers struck for higher wages in 1882, and a large strike later encompassed Białystok’s textile industry in 1894. The memorial book connects the industrial crisis around 1900 with an atmosphere favoring emigration, linking economic conditions to mobility.",
-          "recordIds": [
-            "event_candidate_4baaafe02496ee156d17b6b4",
-            "event_candidate_595b9f528d989b02de4d9d0c",
-            "event_candidate_75035c7c76482cf0e164d04a"
-          ],
-          "records": [
+              "dateEnd": "1905",
+              "scanIndex": 607,
+              "printedPage": null,
+              "passageId": "passage_a9d711dcf6ab784e43065eca",
+              "quote": "From 1900 to 1905 the Bund Central Committee was located there."
+            },
             {
-              "recordId": "event_candidate_4baaafe02496ee156d17b6b4",
+              "recordId": "event_candidate_85aeb7464755241626370a66",
               "kind": "event",
-              "type": "ARREST",
-              "title": "Jewish weavers’ strike in 1882",
-              "summary": "Seventy Jewish weavers struck Aron Suraski for higher wages.",
+              "type": "EMPLOYMENT",
+              "title": "Jewish weavers’ strike against Aron Suraski",
+              "summary": "Seventy Jewish weavers struck for higher wages in 1882.",
               "dateStart": "1882",
               "dateEnd": "1882",
               "scanIndex": 607,
               "printedPage": null,
               "passageId": "passage_a9d711dcf6ab784e43065eca",
-              "quote": "Asearlyas1882,seventyJewishweaverswentouton strikeagainstthefactoryowner,AronSuraski"
+              "quote": "As early as 1882, seventy Jewish weavers went out on strike"
             },
             {
-              "recordId": "event_candidate_595b9f528d989b02de4d9d0c",
-              "kind": "event",
-              "type": "EMPLOYMENT",
-              "title": "Textile-industry strike of 1894",
-              "summary": "A large strike encompassed Bialystok’s textile industry and lasted over three weeks.",
-              "dateStart": "1894",
-              "dateEnd": "1894",
-              "scanIndex": 35,
-              "printedPage": "19",
-              "passageId": "passage_857df72b3df3f2d9d73b02dd",
-              "quote": "סטרייקפוןAKA‏אַגרויסןפאַרנעם,װאָסהאָטאַרומ- געכאַפּטדיגאַנצעטעקסטיל-אינדוסטריעאין1894"
+              "recordId": "mention_9ca5a3390a0f349197d870ec",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Bund",
+              "summary": "Political movement whose fourth gathering in Bialystok is mentioned.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 117,
+              "printedPage": "101",
+              "passageId": "passage_f4c3f1f7b5b16d84c43961f3",
+              "quote": "ביאַליסטאָק דער פערטער צוזאַמענפאָר פון , בונד"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path-families-work",
+      "theme": "FAMILIES",
+      "title": "How did family, work, and migration shape Białystok life?",
+      "description": "This path follows families across textile work, education, business, and migration. It helps descendants and family researchers understand how Białystok connected local lives to wider Jewish networks in America and elsewhere.",
+      "question": "What can family stories reveal about the community’s social and economic world?",
+      "steps": [
+        {
+          "title": "Families in trade and industry",
+          "summary": "The book recalls Jewish families involved in textile manufacturing, cloth production, and commerce, including the Ratowcer and Freidkin families. These accounts connect household histories to the city’s broader industrial economy [mention_757827c95ed24dfe534d6942; mention_58d2b11e658b0bd76b4dff0f; mention_54a645254b00a7ef93c66ddc].",
+          "recordIds": [
+            "mention_757827c95ed24dfe534d6942",
+            "mention_58d2b11e658b0bd76b4dff0f",
+            "mention_54a645254b00a7ef93c66ddc"
+          ],
+          "records": [
+            {
+              "recordId": "mention_757827c95ed24dfe534d6942",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Ratowcer family",
+              "summary": "Family associated with textile manufacturing and migration from Bialystok.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 446,
+              "printedPage": null,
+              "passageId": "passage_7729a4acf23b834ebbc92219",
+              "quote": "His parents, Mojsze and Pesze Ratowcer, owned weaving looms and were textile manufacturers."
             },
             {
-              "recordId": "event_candidate_75035c7c76482cf0e164d04a",
+              "recordId": "mention_58d2b11e658b0bd76b4dff0f",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Freidkin brothers",
+              "summary": "Brothers identified with a cloth factory.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 80,
+              "printedPage": "64",
+              "passageId": "passage_3ba303fa7aa3b4c8a12749ce",
+              "quote": "ברידער פריידקין (טוך-פאַבריק)"
+            },
+            {
+              "recordId": "mention_54a645254b00a7ef93c66ddc",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Zabludowski family",
+              "summary": "Descendants of Izchok Zabludowski described as wealthy and influential in Bialystok.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 616,
+              "printedPage": null,
+              "passageId": "passage_b5f0a75b15a796b59477c126",
+              "quote": "His descendants were among the wealthiest and most influen- tial families in Bialystok."
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Education and opportunity",
+          "summary": "Max Ratner is remembered as having grown up in Białystok and studied at its Hebrew Gymnasium, later becoming an industrialist and philanthropist in Cleveland. His story illustrates how education and migration could carry Białystok identities into new settings [mention_ba566dbe50cfa70ad8d83b2f; mention_c6be1d6fb45d0acdd6fc6e55; event_candidate_503f9247257864fadcc8d93d].",
+          "recordIds": [
+            "mention_ba566dbe50cfa70ad8d83b2f",
+            "mention_c6be1d6fb45d0acdd6fc6e55",
+            "event_candidate_503f9247257864fadcc8d93d"
+          ],
+          "records": [
+            {
+              "recordId": "mention_ba566dbe50cfa70ad8d83b2f",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Max Ratner",
+              "summary": "Person described as born and raised in Bialystok and educated at its first Jewish Hebrew gymnasium.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 367,
+              "printedPage": "351",
+              "passageId": "passage_7bf28a11207aec0c545fba56",
+              "quote": "מאַקס ראַטנער"
+            },
+            {
+              "recordId": "mention_c6be1d6fb45d0acdd6fc6e55",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Max Ratner",
+              "summary": "Bialystoker industrialist, philanthropist, and business leader in Cleveland.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 446,
+              "printedPage": null,
+              "passageId": "passage_7729a4acf23b834ebbc92219",
+              "quote": "Max Ratner of Cleveland, a most distinguished Bialystoker, a prosperous industrialist and leading philanthropist"
+            },
+            {
+              "recordId": "event_candidate_503f9247257864fadcc8d93d",
               "kind": "event",
               "type": "MIGRATION",
-              "title": "Emigration sentiment after the industrial crisis",
-              "summary": "The 1900 industrial crisis created an atmosphere favoring emigration.",
-              "dateStart": "1900",
-              "dateEnd": "",
-              "scanIndex": 27,
-              "printedPage": "11",
-              "passageId": "passage_ea46063df609094695a0d962",
-              "quote": "דערעקאַנאָמישער קריזיסהאָטגעשאַפןIN‏עמיגראַציע-שטימונג"
+              "title": "Charles Ratner’s migration to America",
+              "summary": "Charles Ratner left Bialystok and came to America in 1905.",
+              "dateStart": "1905",
+              "dateEnd": "1905",
+              "scanIndex": 446,
+              "printedPage": null,
+              "passageId": "passage_7729a4acf23b834ebbc92219",
+              "quote": "His oldest brother, Charles (Kalman), had come to America in 1905."
             }
           ],
           "position": 2
         },
         {
-          "title": "Pogroms and political violence",
-          "summary": "The book records the killing of 25 Jews by Russian soldiers on July 30, 1905, and describes a bloody Białystok pogrom of June 1–3, 1906. These accounts show why political and communal life developed under the pressure of violence as well as aspiration.",
+          "title": "Migration and landsmen networks",
+          "summary": "Białystok families and former residents created associations in Argentina, New York, and elsewhere, maintaining ties to their former home. These networks later became important channels for aid, commemoration, and communal continuity [event_candidate_840c8f3319961ad43b469daa; mention_a81bc2357a5099081ad69e6f; mention_e24e759e03f108f11ea8e913].",
           "recordIds": [
-            "event_candidate_e3b2a0661f2df0d27e525e51",
-            "event_candidate_fb7fee0c1128424abbd25495"
+            "event_candidate_840c8f3319961ad43b469daa",
+            "mention_a81bc2357a5099081ad69e6f",
+            "mention_e24e759e03f108f11ea8e913"
           ],
           "records": [
             {
-              "recordId": "event_candidate_e3b2a0661f2df0d27e525e51",
+              "recordId": "event_candidate_840c8f3319961ad43b469daa",
               "kind": "event",
-              "type": "MURDER",
-              "title": "Killing of 25 Jews on Surazer Street",
-              "summary": "Russian soldiers reportedly killed 25 Jews on July 30, 1905.",
-              "dateStart": "1905-07-30",
-              "dateEnd": "1905-07-30",
-              "scanIndex": 603,
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Establishment of the Bialystoker Society in Argentina",
+              "summary": "Efforts succeeded in establishing the society in 1930.",
+              "dateStart": "1930",
+              "dateEnd": "1930",
+              "scanIndex": 424,
               "printedPage": null,
-              "passageId": "passage_afd6bc8e360367e5d7b48541",
-              "quote": "VictimsofthetragicSaturdayofJuly30,1905,when Russiansoldiersslaughtered25JewsinSurazerStreet"
+              "passageId": "passage_b50dbd349cca6e4c084bb6d1",
+              "quote": "Only in 1930 were such efforts successful"
             },
             {
-              "recordId": "event_candidate_fb7fee0c1128424abbd25495",
-              "kind": "event",
-              "type": "AKTION_OR_RAID",
-              "title": "Bialystok pogrom",
-              "summary": "A bloody pogrom in Bialystok virtually destroyed the Labor Zionist regional committee.",
-              "dateStart": "1906-06-01",
-              "dateEnd": "1906-06-03",
-              "scanIndex": 594,
-              "printedPage": null,
-              "passageId": "passage_763cf5a18de0c1ecec64388e",
-              "quote": "ThebloodypogrominBialystokofJune1-3,1906"
+              "recordId": "mention_a81bc2357a5099081ad69e6f",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Bialystoker Young Men's Benevolent Association",
+              "summary": "An organization founded in 1906 that remained active in charitable and Jewish causes.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 356,
+              "printedPage": "340",
+              "passageId": "passage_cf2931249b757784f9a01747",
+              "quote": "ביאַליסטאָקער יאַנג מענס בענעװואַלענט אַסאָסיעישאָן"
+            },
+            {
+              "recordId": "mention_e24e759e03f108f11ea8e913",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Bialystoker Center",
+              "summary": "A center that grew from the relief committee and became an important address.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 353,
+              "printedPage": "337",
+              "passageId": "passage_97632cc9230a948f7241a1de",
+              "quote": "דער ,ביאַליסטאָקער צענטער\""
             }
           ],
           "position": 3
         },
         {
-          "title": "Migration and durable networks",
-          "summary": "Bialystokers traveled to America and Eretz Israel, including Jacob Sapirstein’s arrival in Boston in 1905 and David Sohn’s move to America in 1911. Migration did not end communal ties: later Bialystoker organizations, publications, and conferences connected people across countries.",
+          "title": "Family rupture under persecution",
+          "summary": "Wartime testimony records families separated by deportation and murder, including the loss of parents and siblings. These accounts make clear that destruction reached into ordinary family relationships, not only public institutions [event_candidate_e989dd742747b89212b2ce23; event_candidate_06572ac44b5b96fd1b6e44ec; mention_01ce21c65b62fa6b00df7412].",
           "recordIds": [
-            "event_candidate_455466d84e97bcd032cf1472",
-            "event_candidate_bebe966096194de631b53523",
-            "event_candidate_924e6066f7f931f336a3393f",
-            "mention_1ab2804d0692865905194245"
+            "event_candidate_e989dd742747b89212b2ce23",
+            "event_candidate_06572ac44b5b96fd1b6e44ec",
+            "mention_01ce21c65b62fa6b00df7412"
           ],
           "records": [
             {
-              "recordId": "event_candidate_455466d84e97bcd032cf1472",
+              "recordId": "event_candidate_e989dd742747b89212b2ce23",
               "kind": "event",
-              "type": "MIGRATION",
-              "title": "Jacob Sapirstein arrived in Boston",
-              "summary": "Jacob Sapirstein arrived in Boston in 1905.",
-              "dateStart": "1905",
-              "dateEnd": "1905",
-              "scanIndex": 444,
-              "printedPage": null,
-              "passageId": "passage_6da98a4467891d19283ddd5d",
-              "quote": "HearrivedinBostonin1905"
-            },
-            {
-              "recordId": "event_candidate_bebe966096194de631b53523",
-              "kind": "event",
-              "type": "MIGRATION",
-              "title": "David Sohn came to America",
-              "summary": "David Sohn came to America in 1911.",
-              "dateStart": "1911",
-              "dateEnd": "",
-              "scanIndex": 441,
-              "printedPage": null,
-              "passageId": "passage_d130b73e40f1e349a3a0be3b",
-              "quote": "HecametoAmericain1911"
-            },
-            {
-              "recordId": "event_candidate_924e6066f7f931f336a3393f",
-              "kind": "event",
-              "type": "MIGRATION",
-              "title": "Arrival of Welwel and Etka Suchawolsky in Eretz Israel",
-              "summary": "Welwel and Etka Suchawolsky arrived in Eretz Israel in 1905.",
-              "dateStart": "1905",
-              "dateEnd": "",
-              "scanIndex": 436,
-              "printedPage": null,
-              "passageId": "passage_e5d6bab2cf03be9daa04043c",
-              "quote": "arrivedinEretzIsraelin1905"
-            },
-            {
-              "recordId": "mention_1ab2804d0692865905194245",
-              "kind": "mention",
-              "type": "PERSON",
-              "title": "David Sohn",
-              "summary": "Convened the 1949 world conference of Bialystoker organizations.",
+              "type": "MURDER",
+              "title": "Murder of Salazh’s family",
+              "summary": "Nazi murderers killed Salazh’s parents and ten siblings.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 436,
-              "printedPage": null,
-              "passageId": "passage_e5d6bab2cf03be9daa04043c",
-              "quote": "thelate DavidSohnconvenedaworldconferencein1949in NewYork"
+              "scanIndex": 323,
+              "printedPage": "307",
+              "passageId": "passage_c9c7419900fe6440a3bca44d",
+              "quote": "די נאַצישע רוצחים JINN‏ אומגעבראַכט מיין פאָטער און מוטער"
+            },
+            {
+              "recordId": "event_candidate_06572ac44b5b96fd1b6e44ec",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Mother deported to Treblinka",
+              "summary": "The narrator's mother was deported to Treblinka with others.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 335,
+              "printedPage": "319",
+              "passageId": "passage_f9f2bb9c18a64636a321e96f",
+              "quote": "מיין מאַמע PN‏ דאַמאָלט אַרוױסגעפירט געװאָרן PP‏ טרעבלינקע"
+            },
+            {
+              "recordId": "mention_01ce21c65b62fa6b00df7412",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Narrator's father",
+              "summary": "Father was seen among deported people and later went to Majdanek.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 335,
+              "printedPage": "319",
+              "passageId": "passage_f9f2bb9c18a64636a321e96f",
+              "quote": "מיין ליבן פאָטער"
             }
           ],
           "position": 4
@@ -685,199 +486,426 @@
     {
       "id": "path-occupation-ghetto",
       "theme": "OCCUPATION_GHETTO",
-      "title": "What happened to Białystok under Nazi occupation?",
-      "description": "This path explains how occupation transformed communal institutions into instruments of coercion while residents faced forced labor, deprivation, deportation, and murder. It emphasizes the memorial book’s account of people navigating impossible choices under German rule.",
-      "question": "How did occupation and ghettoization destroy the community?",
+      "title": "How did occupation transform everyday life?",
+      "description": "This path traces the shift from prewar communal autonomy to German occupation, confinement, forced labor, hunger, and terror. Readers will understand how the ghetto was both a site of coercion and a place where people tried to preserve education, work, and mutual responsibility.",
+      "question": "What happened to Białystok’s community after war and occupation began?",
       "steps": [
         {
-          "title": "Occupation and imposed administration",
-          "summary": "The memorial-book records describe a Jewish Council established under German occupation, with departments for industry, economy, welfare, taxation, labor, and communication with German authorities. The Council’s responsibilities reveal how Nazi demands penetrated everyday communal administration.",
+          "title": "War and changing rule",
+          "summary": "The memorial book describes the outbreak of war in September 1939, the arrival of German forces, and the subsequent arrival of the Soviet Army. Under Soviet occupation, the Hebrew Gymnasium was converted to Yiddish instruction, showing how political rule affected communal institutions [event_candidate_f67647865a86ad33434b734e; event_candidate_955e161c41b31db112075827; event_candidate_2dbed2aa3d22cc304108ae2f; event_candidate_b11454789122d738889c2540].",
           "recordIds": [
-            "mention_06a1fc0da91ce8734f2d89a4",
-            "mention_2c754c4d3441d35acdc9fb45",
-            "mention_05943e92332993e3e94fa5d",
-            "mention_7128e89c6835e7474d176087"
+            "event_candidate_f67647865a86ad33434b734e",
+            "event_candidate_955e161c41b31db112075827",
+            "event_candidate_2dbed2aa3d22cc304108ae2f",
+            "event_candidate_b11454789122d738889c2540"
           ],
           "records": [
             {
-              "recordId": "mention_06a1fc0da91ce8734f2d89a4",
-              "kind": "mention",
-              "type": "ORGANIZATION",
-              "title": "Jewish Council",
-              "summary": "Council established under the German occupation authorities.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 142,
-              "printedPage": "126",
-              "passageId": "passage_d68466212048ae51a04b8cbe",
-              "quote": "זאָלן שאַפןאַאידן-ראַט"
+              "recordId": "event_candidate_f67647865a86ad33434b734e",
+              "kind": "event",
+              "type": "OUTBREAK_OF_WAR",
+              "title": "Outbreak of the war",
+              "summary": "The author states that war broke out on September 1, 1939.",
+              "dateStart": "1939-09-01",
+              "dateEnd": "1939-09-01",
+              "scanIndex": 126,
+              "printedPage": "110",
+              "passageId": "passage_f092de849d92d26b6de6763c",
+              "quote": "עס PN‏ אױסגעבראָכן די מלחמה, דעם 1טן “BYD‏ טעמבער, 1939"
             },
             {
-              "recordId": "mention_2c754c4d3441d35acdc9fb45",
-              "kind": "mention",
-              "type": "ORGANIZATION",
-              "title": "Jewish Council",
-              "summary": "Council with industrial, economic, and welfare departments.",
-              "dateStart": "",
+              "recordId": "event_candidate_955e161c41b31db112075827",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Hitlerist soldiers enter Bialystok",
+              "summary": "Hitlerist soldiers entered Bialystok on or shortly after 15 September 1939.",
+              "dateStart": "1939-09-15",
               "dateEnd": "",
-              "scanIndex": 162,
-              "printedPage": "146",
-              "passageId": "passage_a22a821b738920d24fed580a",
-              "quote": "אידן:ראַט"
+              "scanIndex": 128,
+              "printedPage": "112",
+              "passageId": "passage_d41940d22dd48def19791e74",
+              "quote": "די ערשטע גרופּן היטלעריסטישע סאָלדאַטן ביים אָנקומען קיין ביאַליסטאַק"
             },
             {
-              "recordId": "mention_7128e89c6835e7474d176087",
-              "kind": "mention",
-              "type": "ORGANIZATION",
-              "title": "Jewish Council",
-              "summary": "The Jewish Council organized and regulated labor in the ghetto.",
-              "dateStart": "",
+              "recordId": "event_candidate_2dbed2aa3d22cc304108ae2f",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Soviet Army arrived in Bialystok",
+              "summary": "The Soviet Army was expected to arrive in Bialystok amid public preparations and decorations.",
+              "dateStart": "1939-09-22",
+              "dateEnd": "1939-09-22",
+              "scanIndex": 128,
+              "printedPage": "112",
+              "passageId": "passage_297d8e4d7674c76ccd083c4e",
+              "quote": "סאַװעטן-אַרמײ אָנקומען PN‏ שטאָט"
+            },
+            {
+              "recordId": "event_candidate_b11454789122d738889c2540",
+              "kind": "event",
+              "type": "EMPLOYMENT",
+              "title": "Hebrew Gymnasium converted to Yiddish instruction",
+              "summary": "The gymnasium converted to Yiddish under Russian occupation in November 1939.",
+              "dateStart": "1939-11",
               "dateEnd": "",
-              "scanIndex": 185,
-              "printedPage": "169",
-              "passageId": "passage_959e4d6d7899e3395fda602c",
-              "quote": "אידן-ראַט"
+              "scanIndex": 490,
+              "printedPage": null,
+              "passageId": "passage_9d554a81b5764e01b5bf7772",
+              "quote": "in November 1939, the gymnasium converted to Yiddish"
             }
           ],
           "position": 1
         },
         {
-          "title": "The ghetto was enclosed",
-          "summary": "The Białystok ghetto was completed on August 1, 1941, after the Nazi occupation, and was to be blockaded and enclosed by a fence with three gates. Ghettoization separated Jews from the wider city while preserving a tightly controlled laboring population.",
+          "title": "The German assault on Jewish life",
+          "summary": "The testimony reports that German forces burned Jewish streets, the synagogue quarter, and the Great Synagogue; one account says about 2,000 Jews were inside the synagogue when it was burned. These acts attacked people, sacred spaces, and the visible presence of Jewish Białystok [event_candidate_e9fb0770e971a12395372717; event_candidate_2bb6e2ad7a62dc824fc8c5a9; event_candidate_2f679245c47ee6f170e1aa64].",
           "recordIds": [
-            "mention_4fc17daa21d9cb79785538ae",
-            "mention_e3ee4f49ad0b91d205486e77"
+            "event_candidate_e9fb0770e971a12395372717",
+            "event_candidate_2bb6e2ad7a62dc824fc8c5a9",
+            "event_candidate_2f679245c47ee6f170e1aa64"
           ],
           "records": [
             {
-              "recordId": "mention_4fc17daa21d9cb79785538ae",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Bialystok ghetto",
-              "summary": "The Bialystok ghetto was completed on August 1, 1941, after Nazi occupation.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 555,
-              "printedPage": null,
-              "passageId": "passage_a7a950c9fc8c9bf91d920d66",
-              "quote": "theghettofortheJewswas completed"
+              "recordId": "event_candidate_e9fb0770e971a12395372717",
+              "kind": "event",
+              "type": "FIRE",
+              "title": "Destruction of Bialystok Jewish streets and synagogue",
+              "summary": "German forces set Jewish streets and the Great City Synagogue on fire.",
+              "dateStart": "1941-06-27",
+              "dateEnd": "1941-06-27",
+              "scanIndex": 262,
+              "printedPage": "246",
+              "passageId": "passage_7901ac5d1c1a5e74ecdf5862",
+              "quote": "זיינען אונטערגעצונדן TANYA‏ דורך די דייטשן גלייך PR‏ ערשטן טאָג"
             },
             {
-              "recordId": "mention_e3ee4f49ad0b91d205486e77",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Bialystok ghetto",
-              "summary": "The ghetto was blockaded and enclosed by a fence with three gates.",
+              "recordId": "event_candidate_2bb6e2ad7a62dc824fc8c5a9",
+              "kind": "event",
+              "type": "FIRE",
+              "title": "Burning of the synagogue quarter",
+              "summary": "The Germans burned the entire synagogue quarter upon entering Bialystok.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 554,
+              "scanIndex": 270,
+              "printedPage": "254",
+              "passageId": "passage_eb785e9f29573ba9f7c98298",
+              "quote": "דעם גאַנצן שוהל-קװואַרטאַל האָבן INT‏ די דייטשן פאַרברענט"
+            },
+            {
+              "recordId": "event_candidate_2f679245c47ee6f170e1aa64",
+              "kind": "event",
+              "type": "FIRE",
+              "title": "Burning of the Great Synagogue",
+              "summary": "Nazis burned the Great Synagogue in 1941 with about 2,000 Jews inside.",
+              "dateStart": "1941",
+              "dateEnd": "",
+              "scanIndex": 614,
               "printedPage": null,
-              "passageId": "passage_64d4ddf7380f127c3c416e43",
-              "quote": "Theghettowastobecompletelyblockaded"
+              "passageId": "passage_264d32dbf71abe61c52c1e70",
+              "quote": "burned by the Nazis in 1941 with about 2,000 Jews inside"
             }
           ],
           "position": 2
         },
         {
-          "title": "Labor, scarcity, and coercion",
-          "summary": "The Council organized and regulated labor, while textile industry operated in three shifts around the clock; other accounts describe food cards, bread distribution, and clandestine baking in an abandoned Jewish bakery. These details show how work and survival became inseparable under confinement.",
+          "title": "Confinement and forced labor",
+          "summary": "The ghetto is described as a fenced mass prison containing approximately 60,000 Jews, with guarded gates and compulsory labor. The Jewish Council administered labor assignments and even organized vocational education, revealing the mixture of imposed exploitation and efforts to maintain skills and structure [mention_5da6f5d94fbad84f8c6701e4; event_candidate_6526f5e286e40226138e3fc3; event_candidate_78d08ca4a0b1612c4b0cae55; event_candidate_edbca923613756ba348262e8].",
           "recordIds": [
-            "mention_7128e89c6835e7474d176087",
-            "mention_a7f7499e68b148011e35ad24",
-            "mention_380c70f0507ad6b0ad3ec98a",
-            "mention_811cd1fd442a5e25812f5cb4"
+            "mention_5da6f5d94fbad84f8c6701e4",
+            "event_candidate_6526f5e286e40226138e3fc3",
+            "event_candidate_78d08ca4a0b1612c4b0cae55",
+            "event_candidate_edbca923613756ba348262e8"
           ],
           "records": [
             {
-              "recordId": "mention_7128e89c6835e7474d176087",
+              "recordId": "mention_5da6f5d94fbad84f8c6701e4",
               "kind": "mention",
-              "type": "ORGANIZATION",
-              "title": "Jewish Council",
-              "summary": "The Jewish Council organized and regulated labor in the ghetto.",
+              "type": "PLACE",
+              "title": "Bialystok ghetto",
+              "summary": "Ghetto enclosed by a fence and containing approximately 60,000 Jews.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 185,
-              "printedPage": "169",
-              "passageId": "passage_959e4d6d7899e3395fda602c",
-              "quote": "אידן-ראַט"
+              "scanIndex": 554,
+              "printedPage": null,
+              "passageId": "passage_64d4ddf7380f127c3c416e43",
+              "quote": "a massive jail for 60,000 Jews"
             },
             {
-              "recordId": "mention_a7f7499e68b148011e35ad24",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "textile industry",
-              "summary": "The textile industry operated in three shifts around the clock.",
+              "recordId": "event_candidate_6526f5e286e40226138e3fc3",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Ghetto gates and guarding",
+              "summary": "The Bialystok ghetto had three gates and was guarded from outside and inside.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 169,
-              "printedPage": "153",
-              "passageId": "passage_89df424c15b7b3a2890f6a51",
-              "quote": "דער טעקסטילאינדוסטריע"
+              "scanIndex": 147,
+              "printedPage": "131",
+              "passageId": "passage_739125d5c453a6e15944f4da",
+              "quote": "געהאָט דרי באַזונדערע טויערן"
             },
             {
-              "recordId": "mention_380c70f0507ad6b0ad3ec98a",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Jewish Council",
-              "summary": "Council described as administering industrial work and bread distribution.",
+              "recordId": "event_candidate_edbca923613756ba348262e8",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Organization of mass vocational education",
+              "summary": "The Jewish Council organized mass vocational education in multiple trades.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 163,
-              "printedPage": "147",
-              "passageId": "passage_58260f46317286425b0743bc",
-              "quote": "אידן-ראַט"
-            },
-            {
-              "recordId": "mention_811cd1fd442a5e25812f5cb4",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Abandoned Jewish Bakery",
-              "summary": "An abandoned Jewish bakery where Jews secretly baked bread and pastries.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 234,
-              "printedPage": "218",
-              "passageId": "passage_0892e8bda01c75e1af216d55",
-              "quote": "אַפאַרלאָזענער אידישערבעקעריי"
+              "scanIndex": 175,
+              "printedPage": "159",
+              "passageId": "passage_9c96731ce489a69f4f2ec482",
+              "quote": "דער אידן-ראַט איז צוגעטראָטן צו אָרגאַניזירן מאַסן-אויס- בילדונג"
             }
           ],
           "position": 3
         },
         {
-          "title": "Actions, deportations, and murder",
-          "summary": "The memorial book describes the February 1943 Action, beginning during the night of February 4–5, and a February massacre involving deportations and shootings. It also records a train carrying women and children toward Treblinka, making clear that ghetto administration unfolded alongside systematic murder.",
+          "title": "Community under pressure",
+          "summary": "Reports describe sanitation departments, schools, an orphanage, and food-supply concerns inside the ghetto, while deportation demands brought grief to Jewish families. These details show why the ghetto must be understood as both a system of Nazi control and a community struggling to care for its members [mention_f655597b27283103bea343a2; mention_478a00437274228099259b1c; mention_8e643b1ed97767c9afea30f7; mention_6c67bbe4e752e8b0efecfedf].",
           "recordIds": [
-            "event_candidate_453dfc5c31766d6cc3295203",
-            "mention_6f6839c24899de6e9ddce491",
-            "event_candidate_4b8c652d43da818fa73da6ba",
-            "mention_d0358f22be86ba62fe6220d2"
+            "mention_f655597b27283103bea343a2",
+            "mention_478a00437274228099259b1c",
+            "mention_8e643b1ed97767c9afea30f7",
+            "mention_6c67bbe4e752e8b0efecfedf"
           ],
           "records": [
             {
-              "recordId": "mention_6f6839c24899de6e9ddce491",
+              "recordId": "mention_f655597b27283103bea343a2",
               "kind": "mention",
-              "type": "EVENT",
-              "title": "February massacre",
-              "summary": "A February massacre involving deportations, shootings, and approximately six thousand victims.",
+              "type": "ORGANIZATION",
+              "title": "Judenrat",
+              "summary": "The Jewish council supervised the sanitation department.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 217,
-              "printedPage": "201",
-              "passageId": "passage_4970f5b1170c8764ed404385",
-              "quote": "דערטרױיעריקערסך'הכלפוןדערפעברואַרשחיטה"
+              "scanIndex": 160,
+              "printedPage": "144",
+              "passageId": "passage_46d2ce2775b0ab426775663d",
+              "quote": "דער סאַניטאַר-אָפּטײל ביים אידן-ראָט"
             },
             {
-              "recordId": "mention_d0358f22be86ba62fe6220d2",
+              "recordId": "mention_478a00437274228099259b1c",
               "kind": "mention",
-              "type": "PHOTOGRAPH",
-              "title": "Photograph of Jewish Hospital Personnel Being Taken to Treblinka",
-              "summary": "A photograph depicts hospital personnel being taken to Treblinka.",
+              "type": "INSTITUTION",
+              "title": "School in the Bialystok ghetto",
+              "summary": "School operating inside the ghetto.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 106,
-              "printedPage": "90",
-              "passageId": "passage_5cf3a10338b1dbae93655e5d",
-              "quote": "בילד,OND‏ווייזט,וימ'פירטאַװעקדעםפּערסאַנאַלפון דעםאידישןשפּיטאָלAN‏דעםPPAVI‏טרעבלינקע"
+              "scanIndex": 554,
+              "printedPage": null,
+              "passageId": "passage_64d4ddf7380f127c3c416e43",
+              "quote": "an orphanage, a school"
+            },
+            {
+              "recordId": "mention_8e643b1ed97767c9afea30f7",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Orphanage in the Bialystok ghetto",
+              "summary": "Orphanage operating inside the ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 554,
+              "printedPage": null,
+              "passageId": "passage_64d4ddf7380f127c3c416e43",
+              "quote": "an orphanage, a school"
+            },
+            {
+              "recordId": "mention_6c67bbe4e752e8b0efecfedf",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Jewish families",
+              "summary": "Jewish families experienced grief over the deportation demands.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 168,
+              "printedPage": "152",
+              "passageId": "passage_309357a08bfb448d2bcef5ce",
+              "quote": "די יעניקע אידישע פאַמיליעס"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path-destruction",
+      "theme": "DEPORTATION_MURDER",
+      "title": "How was Białystok’s Jewish community destroyed?",
+      "description": "This path follows the escalating process of shootings, Aktionen, deportations, and ghetto liquidation. By the end, readers will understand destruction as a series of organized assaults that reached streets, homes, workplaces, hiding places, and deportation trains.",
+      "question": "How did persecution become mass murder?",
+      "steps": [
+        {
+          "title": "Early shootings and massacres",
+          "summary": "The accounts describe mass shootings in Praga’s Garden and at Pietrasze Field, as well as more than a thousand murdered Jews left in Białystok’s streets. These testimonies show that mass murder began locally, before deportation transports carried people away [event_candidate_3f406af6475ae654a412f5eb; event_candidate_ee6112170bb49fcdb3c3bd9b; event_candidate_01e91ed9ff6b23da5f9e53cf].",
+          "recordIds": [
+            "event_candidate_3f406af6475ae654a412f5eb",
+            "event_candidate_ee6112170bb49fcdb3c3bd9b",
+            "event_candidate_01e91ed9ff6b23da5f9e53cf"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_ee6112170bb49fcdb3c3bd9b",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Thursday victims massacre",
+              "summary": "Nazis reportedly shot two hundred Jews at Pietrasze Field after the July 3 roundup.",
+              "dateStart": "1941-07-03",
+              "dateEnd": "1941-07-03",
+              "scanIndex": 558,
+              "printedPage": null,
+              "passageId": "passage_bae24ce52ae62cc814c40c58",
+              "quote": "these two hundred were shot by the Nazis at Pietrasze Field"
+            },
+            {
+              "recordId": "event_candidate_01e91ed9ff6b23da5f9e53cf",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Murder of Jews on Bialystok streets",
+              "summary": "More than a thousand murdered Jews were left on Bialystok streets.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 165,
+              "printedPage": "149",
+              "passageId": "passage_276cb60121bcef830595825d",
+              "quote": "דערשאַסענע אידן אויף די ביאַליסטאַקער גאַסן העכער טויזנט"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Aktionen and terror",
+          "summary": "The February 1942 Aktion brought killings and despair, and a February 1943 Aktion murdered a newspaper seller and his wife. Other testimony describes executions before the Judenrat building, demonstrating how public terror was used against the ghetto population [event_candidate_0777476afe6a1e6201e878a2; event_candidate_f0b27435f46a3d7353a984ac; event_candidate_2a404b5dcd7a12d8f92f2308].",
+          "recordIds": [
+            "event_candidate_0777476afe6a1e6201e878a2",
+            "event_candidate_f0b27435f46a3d7353a984ac",
+            "event_candidate_2a404b5dcd7a12d8f92f2308"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_0777476afe6a1e6201e878a2",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "February 1942 Aktion",
+              "summary": "An Aktion occurred on 5 February 1942; Franke Horowitz died by suicide and Bazyunie was strangled.",
+              "dateStart": "1942-02-05",
+              "dateEnd": "",
+              "scanIndex": 288,
+              "printedPage": "272",
+              "passageId": "passage_b29f025a6fea3fe69bcd5302",
+              "quote": "בעת‎ דער ,אַקציע\" דעם 5טן פּעברואַר 1942"
+            },
+            {
+              "recordId": "event_candidate_f0b27435f46a3d7353a984ac",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Action of February 5, 1943",
+              "summary": "An unnamed newspaper seller and his wife were murdered during this action.",
+              "dateStart": "1943-02-05",
+              "dateEnd": "1943-02-05",
+              "scanIndex": 208,
+              "printedPage": "192",
+              "passageId": "passage_f66cf194f1046f57118e4bd5",
+              "quote": "אין דער אַקציע פון 5טן פעברואַר 1943"
+            },
+            {
+              "recordId": "event_candidate_2a404b5dcd7a12d8f92f2308",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Three Jews hanged",
+              "summary": "Three Jews were executed by hanging before the Judenrat building on December 31, 1942.",
+              "dateStart": "1942-12-31",
+              "dateEnd": "1942-12-31",
+              "scanIndex": 540,
+              "printedPage": null,
+              "passageId": "passage_72debb8901fd627d0fb5edda",
+              "quote": "Three executions by hanging were carried out in front of the Judenrat building in the Bialystok ghetto on December 31, 1942"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Deportation to killing centers",
+          "summary": "The book records deportations from the ghetto and district to Treblinka, Auschwitz, Majdanek, and other camps. One account states that tens of thousands of Białystoker Jews were sent to camps during the 1943 liquidation, where many were murdered [event_candidate_02fcf960a9af0dbe161c3203; mention_37f3bbb10cca0ae5d9533062; event_candidate_4e17e4d69a41727fd303a91f].",
+          "recordIds": [
+            "event_candidate_02fcf960a9af0dbe161c3203",
+            "mention_37f3bbb10cca0ae5d9533062",
+            "event_candidate_4e17e4d69a41727fd303a91f"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_02fcf960a9af0dbe161c3203",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Deportation and extermination of Bialystoker Jews",
+              "summary": "Tens of thousands of Bialystoker Jews were sent to camps during the 1943 ghetto liquidation.",
+              "dateStart": "1943",
+              "dateEnd": "1943",
+              "scanIndex": 508,
+              "printedPage": null,
+              "passageId": "passage_afd6e5b57838ad3ebb6a540c",
+              "quote": "Tens of thousands of Bialystoker Jews were sent to Treblinka, Auschwitz and Majdanek in the summer of 1943"
+            },
+            {
+              "recordId": "mention_37f3bbb10cca0ae5d9533062",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Auschwitz",
+              "summary": "Camp to which Jews from the Bialystok ghetto were deported and murdered in gas chambers.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 470,
+              "printedPage": null,
+              "passageId": "passage_1d9133115810309066d7b662",
+              "quote": "to Auschwitz, where they died in the gas chambers"
+            },
+            {
+              "recordId": "event_candidate_4e17e4d69a41727fd303a91f",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Deportation of captured Jewish fighters",
+              "summary": "Captured Jewish fighters were deported to Treblinka, Majdanek, and Auschwitz.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 509,
+              "printedPage": null,
+              "passageId": "passage_2f0c3c51ca0ae7050aac630f",
+              "quote": "The Jewish fighters were captured and deported to Treblinka, Majdanek and Auschwitz."
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "The final liquidation",
+          "summary": "In August 1943, Nazi forces liquidated the ghetto and ordered the remaining Jews to assemble; the last 1,200 children were transported away in the final days of the month. The evidence frames liquidation as the destruction of the remaining community, including its youngest members [event_candidate_3d1ba2efa88ccefd2e8c386a; event_candidate_3997ec?; event_candidate_857e030fc4ac4d0064f7c318].",
+          "recordIds": [
+            "event_candidate_3d1ba2efa88ccefd2e8c386a",
+            "event_candidate_3997ec466cd550a7c1f83fea",
+            "event_candidate_857e030fc4ac4d0064f7c318"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_3d1ba2efa88ccefd2e8c386a",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Liquidation of the Bialystok ghetto",
+              "summary": "Nazis liquidated the Bialystok ghetto in August 1943.",
+              "dateStart": "1943-08",
+              "dateEnd": "",
+              "scanIndex": 500,
+              "printedPage": null,
+              "passageId": "passage_385de0aeed26c26321fcc5db",
+              "quote": "the Nazis liquidated the Bialystok ghetto"
+            },
+            {
+              "recordId": "event_candidate_857e030fc4ac4d0064f7c318",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Deportation of Bialystok ghetto children",
+              "summary": "The last 1,200 children were transported from Bialystok to Theresienstadt in late August 1943.",
+              "dateStart": "1943-08-25",
+              "dateEnd": "1943-08-31",
+              "scanIndex": 523,
+              "printedPage": null,
+              "passageId": "passage_6a1289dbb1ca5f06ef47b996",
+              "quote": "The last 1,200 ghetto children were evacuated from Bialystok in the final days of August 1943."
             }
           ],
           "position": 4
@@ -888,141 +916,224 @@
       "id": "path-resistance-survival",
       "theme": "HIDING_ESCAPE_RESISTANCE",
       "title": "How did people resist, hide, and survive?",
-      "description": "This path follows armed resistance, hiding, smuggling, escape attempts, and individual survival. It presents resistance as both organized action and the preservation of life, memory, and solidarity under extreme danger.",
-      "question": "What choices and forms of resistance remained possible?",
+      "description": "This path centers the choices and risks of people who resisted Nazi violence, escaped transports, hid, or helped others. It presents survival not as a simple outcome but as a series of dangerous acts shaped by solidarity, chance, and loss.",
+      "question": "What forms did resistance and survival take in and around the ghetto?",
       "steps": [
         {
-          "title": "Communal life continued in the ghetto",
-          "summary": "The memorial book states that Jewish communal, cultural, and resistance activities continued in the Białystok ghetto. A ghetto celebration held on June 29, 1942 shows that collective life persisted even under persecution.",
+          "title": "Armed resistance",
+          "summary": "The memorial book remembers the Białystok Ghetto Uprising and identifies participants who fought and died, including Frida Rybalowski and Lyube Subatnik. The uprising mattered because people resisted the destruction of their community even when the military situation was overwhelmingly unequal [mention_116b6268374ccc013aa7032a; event_candidate_b96431fed0419d549a3a08b0; event_candidate_e2dc0e49007645769cac4ff2].",
           "recordIds": [
-            "mention_44a4fff4052ea4a7639f4a36",
-            "mention_5c31e9e7099336f877dda7d5"
+            "mention_116b6268374ccc013aa7032a",
+            "event_candidate_b96431fed0419d549a3a08b0",
+            "event_candidate_e2dc0e49007645769cac4ff2"
           ],
           "records": [
             {
-              "recordId": "mention_44a4fff4052ea4a7639f4a36",
+              "recordId": "mention_116b6268374ccc013aa7032a",
               "kind": "mention",
-              "type": "PLACE",
-              "title": "Bialystok ghetto",
-              "summary": "Ghetto where Jewish communal, cultural, and resistance activities continued.",
+              "type": "EVENT",
+              "title": "Bialystok Ghetto Uprising",
+              "summary": "Armed resistance associated with the Jews of Bialystok.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 553,
-              "printedPage": null,
-              "passageId": "passage_fb1de3710188903af9dd78f2",
-              "quote": "intheBialystokghetto"
+              "scanIndex": 135,
+              "printedPage": "119",
+              "passageId": "passage_ec0165a8110251ec8941c1d7",
+              "quote": "באַקאַנטן געטאַ-אױפשטאַנד פון די ביאַליסטאָקער אידן"
             },
             {
-              "recordId": "mention_5c31e9e7099336f877dda7d5",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Bialystok ghetto",
-              "summary": "Ghetto where a June 29, 1942 celebration was held.",
-              "dateStart": "",
+              "recordId": "event_candidate_b96431fed0419d549a3a08b0",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Frida’s death during the Bialystok ghetto uprising",
+              "summary": "Frida was killed during the Bialystok ghetto uprising.",
+              "dateStart": "1943-08-16",
               "dateEnd": "",
-              "scanIndex": 542,
+              "scanIndex": 470,
               "printedPage": null,
-              "passageId": "passage_7138384e998c2db54795e5a6",
-              "quote": "acelebrationwasheldinthe ghetto"
+              "passageId": "passage_1d9133115810309066d7b662",
+              "quote": "killed in the Bialystok ghetto uprising on August 16, 1943"
+            },
+            {
+              "recordId": "event_candidate_e2dc0e49007645769cac4ff2",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Death in the August 1943 uprising",
+              "summary": "Lyube Subatnik reportedly fell in an uprising on August 16, 1943.",
+              "dateStart": "1943-08-16",
+              "dateEnd": "1943-08-16",
+              "scanIndex": 83,
+              "printedPage": "67",
+              "passageId": "passage_6923eaebc9d525a6dbdc0e0c",
+              "quote": "געפאַלן אינ'ם אויפשטאַנד דעם 16טן אויגוסט 1943"
             }
           ],
           "position": 1
         },
         {
-          "title": "Preparing for armed resistance",
-          "summary": "Young factory workers began preparing for armed resistance, and the self-defense organization decided to burn houses and attempt escape from the ghetto. These accounts show deliberate preparation rather than passive acceptance of the destruction being imposed.",
+          "title": "Individual acts of defiance",
+          "summary": "Isaac Malmed is remembered for blinding an SS officer with sulfuric acid before being hanged, while young fighters Szmuel Rajzner and Nochum Kozak hid in an attic and shot at Nazis. These accounts preserve resistance as both organized struggle and individual acts under terror [event_candidate_1c2d55f4017667c00fa50452; event_candidate_9ba7fb6196ddb456e2833918; mention_c1ac2c6abfb7b9a457daf908; mention_e500aa7b1e09ba311dc88a44].",
           "recordIds": [
-            "mention_94ff5eec22826ba6d3a3f385",
-            "mention_9bbd983bdb0a0d61426d6b62"
+            "event_candidate_1c2d55f4017667c00fa50452",
+            "event_candidate_9ba7fb6196ddb456e2833918",
+            "mention_c1ac2c6abfb7b9a457daf908",
+            "mention_e500aa7b1e09ba311dc88a44"
           ],
           "records": [
             {
-              "recordId": "mention_94ff5eec22826ba6d3a3f385",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Bialystok ghetto",
-              "summary": "Ghetto where young factory workers prepared armed resistance.",
+              "recordId": "event_candidate_1c2d55f4017667c00fa50452",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Malmed’s resistance and execution",
+              "summary": "Malmed blinded an SS officer with sulfuric acid and was later hanged.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 540,
+              "scanIndex": 474,
               "printedPage": null,
-              "passageId": "passage_45f4305f315a315b407e272b",
-              "quote": "theyoungfactoryworkers intheghettobegantoprepareforarmedresistance"
+              "passageId": "passage_dfcc9f3dcc4e27c8616db8bf",
+              "quote": "Malmed’s hanged body that night in the middle of Commerce Street"
             },
             {
-              "recordId": "mention_9bbd983bdb0a0d61426d6b62",
-              "kind": "mention",
-              "type": "EVENT",
-              "title": "Ghetto resistance decision",
-              "summary": "The self-defense organization decided to burn houses and attempt escape from the ghetto.",
+              "recordId": "event_candidate_9ba7fb6196ddb456e2833918",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Execution of Isaac Malmed",
+              "summary": "Isaac Malmed stood at a scaffold and was executed after mistreatment and interrogation.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 221,
-              "printedPage": "205",
-              "passageId": "passage_e06dbc2841ce0b874d068b76",
-              "quote": "דיזעלבסטשוץהאָטDIN‏באַשלאָסן,IX‏כדידער געטאָ-פּאַרקאַןזאָלאָפּברענען"
+              "scanIndex": 218,
+              "printedPage": "202",
+              "passageId": "passage_1a55b05a08113e9dd9ba7879",
+              "quote": "מאַלמעד געשטאַנען אויפ'ץ עשאַפאָט"
+            },
+            {
+              "recordId": "mention_c1ac2c6abfb7b9a457daf908",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Szmuel Rajzner",
+              "summary": "Fifteen-year-old resistance fighter who shot Nazis near a fire engine.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 528,
+              "printedPage": null,
+              "passageId": "passage_9792afed456c821d46c40672",
+              "quote": "Szmuel Rajzner and Nochum Kozak hid in an attic"
+            },
+            {
+              "recordId": "mention_e500aa7b1e09ba311dc88a44",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Nochum Kozak",
+              "summary": "Fifteen-year-old resistance fighter who shot Nazis near a fire engine.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 528,
+              "printedPage": null,
+              "passageId": "passage_9792afed456c821d46c40672",
+              "quote": "Szmuel Rajzner and Nochum Kozak hid in an attic"
             }
           ],
           "position": 2
         },
         {
-          "title": "The uprising and its aims",
-          "summary": "The Białystok uprising sought to seize factories, break German encirclement, and evacuate young people, while insurgents fought German forces during the liquidation. The book records that German and Ukrainian guards later shot 272 insurgents after an attempted escape.",
+          "title": "Hiding and escape",
+          "summary": "Families hid in rooms, people escaped from workplaces and transports, and twenty-five Jews jumped from a death train near Łapy, with three surviving according to the account. These stories show the extreme danger of seeking refuge beyond the ghetto as well as the persistence of attempts to live [event_candidate_2fa11506edb6de32fbda17e8; event_candidate_1639270b6c8d9ffcd6114a04; event_candidate_b526c5b12af66da12878380b; event_candidate_ee50f6797b46e23f66a90745].",
           "recordIds": [
-            "event_candidate_1fd80c1d5dca96a6b3f4afba",
-            "mention_aa42e70a7234e784067dcf03",
-            "event_candidate_60d9d4023737327ee6e194d3"
+            "event_candidate_2fa11506edb6de32fbda17e8",
+            "event_candidate_1639270b6c8d9ffcd6114a04",
+            "event_candidate_b526c5b12af66da12878380b",
+            "event_candidate_ee50f6797b46e23f66a90745"
           ],
           "records": [
             {
-              "recordId": "mention_aa42e70a7234e784067dcf03",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Bialystok ghetto",
-              "summary": "Ghetto where Jewish resistance fought German and SS forces in August 1943.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 510,
-              "printedPage": null,
-              "passageId": "passage_db90a19daa05dbcf150a0807",
-              "quote": "OnAugust16,1943,theGermanarmyandtheSS contingents,whohadenteredtheghettotoliquidateit"
-            }
-          ],
-          "position": 3
-        },
-        {
-          "title": "Hiding and helping others",
-          "summary": "One account describes a family of five hiding in the ghetto, while Sam Solasz returned to the ghetto and smuggled food to prisoners. These testimonies widen the meaning of resistance to include concealment, risk, and aid to others.",
-          "recordIds": [
-            "mention_f97e0b81ed8f803cc2b098c5",
-            "mention_0412a41a193675d82da5b53a"
-          ],
-          "records": [
-            {
-              "recordId": "mention_f97e0b81ed8f803cc2b098c5",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Bialystok ghetto",
-              "summary": "Ghetto where a family of five hid during Nazi violence.",
+              "recordId": "event_candidate_2fa11506edb6de32fbda17e8",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Family hiding during ghetto invasion",
+              "summary": "A family of five hid in a small room for a week during Nazi violence.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 465,
               "printedPage": null,
               "passageId": "passage_d8ba1fc79085d06cc4940a9a",
-              "quote": "livingintheBialystok ghetto"
+              "quote": "The five of us — my father, mother and their three sons — hid in the little room"
             },
             {
-              "recordId": "mention_0412a41a193675d82da5b53a",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Bialystok ghetto",
-              "summary": "Ghetto where Solasz returned and smuggled food to prisoners.",
+              "recordId": "event_candidate_b526c5b12af66da12878380b",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Escape from a train destined for Treblinka",
+              "summary": "Twenty-five Jews jumped from a death train near Lapy; three survived.",
+              "dateStart": "1943-08",
+              "dateEnd": "",
+              "scanIndex": 500,
+              "printedPage": null,
+              "passageId": "passage_385de0aeed26c26321fcc5db",
+              "quote": "Twenty-five Jews had leaped here from the death train"
+            },
+            {
+              "recordId": "event_candidate_ee50f6797b46e23f66a90745",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Escape from deportation transport",
+              "summary": "Solazh escaped with a friend and hid beneath a large rubber wheel.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 472,
+              "scanIndex": 321,
+              "printedPage": "305",
+              "passageId": "passage_35ca5aaf8b14744bd1c176f2",
+              "quote": "צוזאַמען מיט זיינעם אַ חבר, איז סאַלאַזשיץ געלונגען צו אַנטלױפן"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Survival through help and skill",
+          "summary": "Sholem Garfinkel rescued a narrator from deportation and worked as a shoemaker, while Pesach Kaplan received protection through his daughter and a ghetto factory. Such testimony shows survival as dependent on relationships, work assignments, and moments of protection [mention_5616cb389cf12b018c625239; mention_c213571f5ae2ba41298afcf9; mention_9cabea4c3d645059a2366725].",
+          "recordIds": [
+            "mention_5616cb389cf12b018c625239",
+            "mention_c213571f5ae2ba41298afcf9",
+            "mention_9cabea4c3d645059a2366725"
+          ],
+          "records": [
+            {
+              "recordId": "mention_5616cb389cf12b018c625239",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Sholem Garfinkel",
+              "summary": "Young man who rescued the narrator from deportation and worked as a shoemaker.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 465,
               "printedPage": null,
-              "passageId": "passage_f6baf03e2a8ee0c6bec9f674",
-              "quote": "slipundetectedinandoutoftheBialystokghetto"
+              "passageId": "passage_d8ba1fc79085d06cc4940a9a",
+              "quote": "Sholem Garfinkel worked in the camp as a shoemaker"
+            },
+            {
+              "recordId": "mention_c213571f5ae2ba41298afcf9",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Pesach Kaplan",
+              "summary": "Jewish person who hid, became ill, and received protection in a ghetto factory.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 165,
+              "printedPage": "149",
+              "passageId": "passage_f1bcac0432e2061900628a69",
+              "quote": "האָט פּסח קאַפּלאַן, דורך זיין טאָכטער גענאָסן"
+            },
+            {
+              "recordId": "mention_9cabea4c3d645059a2366725",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Sanie Kaplan",
+              "summary": "Pesach Kaplan's oldest daughter, responsible in a ghetto factory.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 165,
+              "printedPage": "149",
+              "passageId": "passage_f1bcac0432e2061900628a69",
+              "quote": "זיין עלטסטע טאָכטער, סאַניע, האָט געהאַט אַ פאַראַנטװאָרטלעכן"
             }
           ],
           "position": 4
@@ -1031,241 +1142,184 @@
     },
     {
       "id": "path-memory-afterlife",
-      "theme": "MEMORY",
-      "title": "How did Białystok survive after the destruction?",
-      "description": "This path examines how survivors and descendants rebuilt communal institutions and preserved the destroyed world through testimony, publications, archives, photographs, and memorials. By the end, readers will understand the yizkor book itself as part of a worldwide effort to carry Białystok forward.",
-      "question": "How was a destroyed community remembered and continued elsewhere?",
+      "theme": "SURVIVAL_AFTERLIFE",
+      "title": "What happened after liberation, and how was Białystok remembered?",
+      "description": "This path follows the first survivors back to Białystok and the creation of memorial, relief, cultural, and landsmen institutions. Readers will understand that postwar survival included rebuilding communities while mourning a destroyed world and preserving its testimony.",
+      "question": "How did survivors and descendants keep Białystok alive after the Holocaust?",
       "steps": [
         {
-          "title": "Survivors rebuilt communal life",
-          "summary": "After the war, Bialystokers organized relief and eldercare institutions in New York, including the Bialystoker Center and Home for the Aged, associated with David Sohn. The Bialystoker Stimme connected survivors and friends and reported on relief work.",
+          "title": "Return to a devastated home",
+          "summary": "After liberation in 1945, the first forty Jewish survivors returned to Białystok, and later accounts describe the destroyed ghetto and the remaining fence. Return therefore meant confronting a familiar city whose Jewish landscape had been violently erased [event_candidate_6a5294b341fd330353d1d949; mention_cc1214b9ecbc1a252d507a94; mention_d59077d6fd32ba91eb65bc70].",
           "recordIds": [
-            "mention_79a53ac3b9d6f354ce56c9a8",
-            "mention_8c4ba4782b37adb76a5cd656",
-            "mention_fb65fa31ec88878e8b9fb794",
-            "mention_907fc4c25c8d81c7a0f31ada"
+            "event_candidate_6a5294b341fd330353d1d949",
+            "mention_cc1214b9ecbc1a252d507a94",
+            "mention_d59077d6fd32ba91eb65bc70"
           ],
           "records": [
             {
-              "recordId": "mention_79a53ac3b9d6f354ce56c9a8",
-              "kind": "mention",
-              "type": "PERSON",
-              "title": "David Sohn",
-              "summary": "Bialystoker community leader and founder of relief and eldercare institutions.",
-              "dateStart": "",
+              "recordId": "event_candidate_6a5294b341fd330353d1d949",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Return of forty Jews to Bialystok",
+              "summary": "Forty Jews returned to Bialystok after liberation by the Red Army.",
+              "dateStart": "1945",
               "dateEnd": "",
-              "scanIndex": 441,
+              "scanIndex": 497,
               "printedPage": null,
-              "passageId": "passage_d130b73e40f1e349a3a0be3b",
-              "quote": "Our/andsman- schaftwasfortunateinhavingsuchaleaderinDavid Sohn."
+              "passageId": "passage_087cf122180cf62e717d459a",
+              "quote": "After liberation by the Red Army in 1945, we, the first forty Jews, returned to Bialystok."
             },
             {
-              "recordId": "mention_8c4ba4782b37adb76a5cd656",
+              "recordId": "mention_cc1214b9ecbc1a252d507a94",
               "kind": "mention",
-              "type": "PERSON",
-              "title": "David Sohn",
-              "summary": "Writer and Jewish community leader who died on February 10, 1968.",
+              "type": "PLACE",
+              "title": "Bialystok ghetto",
+              "summary": "Destroyed ghetto whose barbed-wire fence remained visible to the returning survivor.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 442,
+              "scanIndex": 498,
               "printedPage": null,
-              "passageId": "passage_3faba167b722f8b35aea5b5d",
-              "quote": "WriterandJewishcommunityleader,founderand ExecutiveDirectoroftheBialystokerCenterandHomefor theAgedinNewYork.DiedFebruary10,1968."
+              "passageId": "passage_9cc443bb7fb7deb019ecda32",
+              "quote": "a remnant of the destroyed Bialystok ghetto"
             },
             {
-              "recordId": "mention_fb65fa31ec88878e8b9fb794",
+              "recordId": "mention_d59077d6fd32ba91eb65bc70",
               "kind": "mention",
-              "type": "PUBLICATION",
-              "title": "Bialystoker Stimme",
-              "summary": "Magazine whose issues connected Bialystok survivors and friends.",
+              "type": "PLACE",
+              "title": "Bialystok",
+              "summary": "The passage calls Bialystok the community’s devastated hometown.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 479,
-              "printedPage": null,
-              "passageId": "passage_ddcf214591548da4e3ad097a",
-              "quote": "the BialystokerStimme"
+              "scanIndex": 396,
+              "printedPage": "380",
+              "passageId": "passage_806372e3e67d281482c677a4",
+              "quote": "אונזער חרוב-געװואָרענער היימשטאָט ביאַליסטאָק"
             }
           ],
           "position": 1
         },
         {
-          "title": "A worldwide Bialystoker network",
-          "summary": "Bialystokers gathered in Johannesburg in 1949, sent pioneers to settlements in Israel, and held the 1948 Culture Congress in New York. These records show survivors creating new communal centers while retaining Białystok as a shared point of origin.",
+          "title": "Burial and mourning",
+          "summary": "The postwar record describes 230 exhumed corpses being interred in Zabia Cemetery in November 1945, while later memorial academies marked the anniversary of ghetto liquidation. Burial and public commemoration became ways to give the murdered a place in the community’s continuing memory [event_candidate_36ece3a34d9becd19186832c; event_candidate_a8112f822f97cd0768c07c64].",
           "recordIds": [
-            "mention_818fe21c6d9f861cfc990889",
-            "mention_1a9918b59fae98fe7ce5725b",
-            "mention_d524aed45024b71fc8065836",
-            "mention_adc27f66830816d8ed4dfd6c"
+            "event_candidate_36ece3a34d9becd19186832c",
+            "event_candidate_a8112f822f97cd0768c07c64"
           ],
           "records": [
             {
-              "recordId": "mention_818fe21c6d9f861cfc990889",
-              "kind": "mention",
-              "type": "PHOTOGRAPH",
-              "title": "Bialystok landsleit gathering photograph",
-              "summary": "A photograph depicts a Bialystok landsleit gathering in Johannesburg in 1949.",
-              "dateStart": "",
+              "recordId": "event_candidate_36ece3a34d9becd19186832c",
+              "kind": "event",
+              "type": "DEATH",
+              "title": "Exhumed corpses interred",
+              "summary": "Two hundred thirty exhumed corpses were interred in Zabia cemetery on November 22, 1945.",
+              "dateStart": "1945-11-22",
               "dateEnd": "",
-              "scanIndex": 406,
-              "printedPage": "390",
-              "passageId": "passage_a1267cf2935361a3a724fc04",
-              "quote": "אַצוזאַמענקונפטTD‏בּיאַליסטאָקערלאַנדסלײטאיןיאָהאַנעסבּורגמיטדר.חייםשאָשקעסאין1949"
-            },
-            {
-              "recordId": "mention_1a9918b59fae98fe7ce5725b",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Jerusalimski-Yerushalmi family",
-              "summary": "Family that settled in Israel and created a manufacturing network.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 433,
+              "scanIndex": 494,
               "printedPage": null,
-              "passageId": "passage_fd02e84eeca7747e24e5e50a",
-              "quote": "TheJerusalimski- YerushalmifamilysettledinIsrael"
-            },
-            {
-              "recordId": "mention_d524aed45024b71fc8065836",
-              "kind": "mention",
-              "type": "PHOTOGRAPH",
-              "title": "Bialystok pioneers group photograph",
-              "summary": "A photograph lists Bialystok pioneers in a Jewish settlement in Mexico.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 406,
-              "printedPage": "390",
-              "passageId": "passage_a1267cf2935361a3a724fc04",
-              "quote": "אַגרופּעבּואַליסטאָקערפּיאָנערן"
-            },
-            {
-              "recordId": "mention_adc27f66830816d8ed4dfd6c",
-              "kind": "mention",
-              "type": "EVENT",
-              "title": "Culture Congress in New York",
-              "summary": "Congress attended by a group of Bialystoker delegates in 1948.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 418,
-              "printedPage": null,
-              "passageId": "passage_7976493451d48306eece0756",
-              "quote": "AGroupofBialystokerDelegatestotheCultureCongressinNewYorkin1948"
+              "passageId": "passage_95d44e3440e39255a877c286",
+              "quote": "They were all interred in the Zabia cemetery on November 22, 1945."
             }
           ],
           "position": 2
         },
         {
-          "title": "Preserving evidence and testimony",
-          "summary": "The book recalls a buried archive excavated after the war, a 1951 Białystok photo album, and Szymon Datner’s account published in the November–December 1946 Bialystoker Stimme. Archives, images, and testimony preserved experiences that Nazi destruction sought to erase.",
+          "title": "Rebuilding communal life",
+          "summary": "Survivors and Białystok organizations created relief and cultural institutions, including the Bialystoker Center, which aided reconstruction efforts and received many postwar appeals. These organizations made practical assistance and communal identity part of the work of survival [event_candidate_33d17aea1b1b4bf0cd09a9e3; mention_45698c263c79bd48c6d3dc8b; event_candidate_cc7e251b5d1eb221217b561b].",
           "recordIds": [
-            "mention_1290922586b7b2201cb33e64",
-            "mention_1a7fbcce77c3e0c7c38f785f",
-            "mention_dd8412412ab8daf66d8ff416",
-            "mention_2ae846727c7bb9e973e669d1"
+            "event_candidate_33d17aea1b1b4bf0cd09a9e3",
+            "mention_45698c263c79bd48c6d3dc8b",
+            "event_candidate_cc7e251b5d1eb221217b561b"
           ],
           "records": [
             {
-              "recordId": "mention_1290922586b7b2201cb33e64",
-              "kind": "mention",
-              "type": "OBJECT",
-              "title": "Archive",
-              "summary": "A buried archive was excavated after the war.",
+              "recordId": "event_candidate_33d17aea1b1b4bf0cd09a9e3",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "David Sohn founded Bialystok Relief",
+              "summary": "David Sohn founded Bialystok Relief during the conflict period.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 197,
-              "printedPage": "181",
-              "passageId": "passage_2680129bd0044a71281d7ff5",
-              "quote": "ערדעםאַרכיוו“DIN‏ געגראָבן"
+              "scanIndex": 362,
+              "printedPage": "346",
+              "passageId": "passage_c197b06c2cdd6ee97ce7a030",
+              "quote": "דוד סאָהן גרינדעט דעמאָלט דעם ביאַליסטאָקער רעליף"
             },
             {
-              "recordId": "mention_1a7fbcce77c3e0c7c38f785f",
+              "recordId": "mention_45698c263c79bd48c6d3dc8b",
               "kind": "mention",
-              "type": "PHOTOGRAPH",
-              "title": "Bialystok Photo Album",
-              "summary": "Historic photo album issued in 1951 and prepared by Izaak Rybal.",
+              "type": "ORGANIZATION",
+              "title": "Bialystoker Center in New York",
+              "summary": "New York organization that aided efforts to rebuild Bialystok’s Jewish community.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 442,
+              "scanIndex": 506,
               "printedPage": null,
-              "passageId": "passage_3faba167b722f8b35aea5b5d",
-              "quote": "thehistoricBialystokPhotoAlbumissuedin 1951"
+              "passageId": "passage_37d9998b570d66ba5487e23b",
+              "quote": "mostly by the Bialystoker Center in New York."
             },
             {
-              "recordId": "mention_dd8412412ab8daf66d8ff416",
-              "kind": "mention",
-              "type": "PERSON",
-              "title": "Szymon Datner",
-              "summary": "Educator, historian, witness, and resistance participant.",
+              "recordId": "event_candidate_cc7e251b5d1eb221217b561b",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Postwar survivor contacts with the Bialystok Center",
+              "summary": "Survivors from Europe, Israel, and elsewhere contacted the New York center after the war.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 558,
-              "printedPage": null,
-              "passageId": "passage_bae24ce52ae62cc814c40c58",
-              "quote": "Dr.Szymon Datner,well-knowneducatorandhistorian"
-            },
-            {
-              "recordId": "mention_2ae846727c7bb9e973e669d1",
-              "kind": "mention",
-              "type": "PUBLICATION",
-              "title": "Bialystoker Stimme",
-              "summary": "Publication containing Datner’s account of the massacre.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 558,
-              "printedPage": null,
-              "passageId": "passage_bae24ce52ae62cc814c40c58",
-              "quote": "the November-December1946issueoftheBialystoker Stimme"
+              "scanIndex": 299,
+              "printedPage": "283",
+              "passageId": "passage_3f94513ef9aae5950559193e",
+              "quote": "פון גלייך נאָך דער מלחמה אָנגעקומען אומצאָליקע בריוו און ווענדונגען"
             }
           ],
           "position": 3
         },
         {
-          "title": "Memorials and the yizkor tradition",
-          "summary": "Memorials included a monument above a pogrom mass grave, eight hundred stones at Treblinka, and a plaque unveiled in honor of Białystok’s dead. The memorial book, published by Empire Press, belongs to this continuing effort to name, document, and remember the community.",
+          "title": "Writing the community into memory",
+          "summary": "Survivors and former residents preserved Białystok through diaries, elegies, newspapers, albums, and memorial books. Works such as Pinkas Bialystok and the Bialystok Picture Album show how documentation became an answer to destruction and dispersal [mention_0503bca933332e4bbb0dfca0; mention_67d05a24518e050fa4c3b02f; event_candidate_f9ea617140b1581104ef1677].",
           "recordIds": [
-            "mention_526f1c38cecc32020aef3c31",
-            "mention_b32136bcd4d9da5e4960905d",
-            "event_candidate_ce1f20b6fef2903f653cd839",
-            "mention_1f71d99c5df0acbc9687956b"
+            "mention_0503bca933332e4bbb0dfca0",
+            "mention_67d05a24518e050fa4c3b02f",
+            "event_candidate_f9ea617140b1581104ef1677"
           ],
           "records": [
             {
-              "recordId": "mention_526f1c38cecc32020aef3c31",
+              "recordId": "mention_0503bca933332e4bbb0dfca0",
               "kind": "mention",
-              "type": "OBJECT",
-              "title": "Pillar of Sorrow monument",
-              "summary": "A monument erected above the mass grave of pogrom victims.",
+              "type": "WORK",
+              "title": "Pinkas Bialystok",
+              "summary": "A monumental work authored by Awrom Szmuel Herszberg.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 601,
+              "scanIndex": 611,
               "printedPage": null,
-              "passageId": "passage_a931e2f01002a4408a975b63",
-              "quote": "Abovethisgraveatallmonu- mentwaserected"
+              "passageId": "passage_338e20e9adce635c9e1cebe2",
+              "quote": "author of the exhaustive monumental work Pinkas Bialystok"
             },
             {
-              "recordId": "mention_b32136bcd4d9da5e4960905d",
+              "recordId": "mention_67d05a24518e050fa4c3b02f",
               "kind": "mention",
-              "type": "OBJECT",
-              "title": "Memorial stones",
-              "summary": "Eight hundred large and small memorial stones were erected at Treblinka.",
+              "type": "WORK",
+              "title": "Bialystok Picture Album — A Famous City and Its Jews Throughout the World",
+              "summary": "1951 album documenting Jewish life in Bialystok and Bialystokers worldwide.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 310,
-              "printedPage": "294",
-              "passageId": "passage_995088e7600d98aa6436b146",
-              "quote": "800 גרויסעWN‏קלענערעמצבות-שטיינער"
+              "scanIndex": 447,
+              "printedPage": null,
+              "passageId": "passage_dc43cc447024c1fd4e1f663c",
+              "quote": "Bialystok Picture Album — A Famous City and Its Jews Throughout the World."
             },
             {
-              "recordId": "mention_1f71d99c5df0acbc9687956b",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Empire Press",
-              "summary": "Empire Press published the Bialystoker Memorial Book.",
-              "dateStart": "",
+              "recordId": "event_candidate_f9ea617140b1581104ef1677",
+              "kind": "event",
+              "type": "EMPLOYMENT",
+              "title": "Submission of Rybalowski’s elegy",
+              "summary": "Ruwen Rybalowski submitted his elegy to the Jewish Reconstruction Committee in Bialystok.",
+              "dateStart": "1946-12",
               "dateEnd": "",
-              "scanIndex": 625,
+              "scanIndex": 470,
               "printedPage": null,
-              "passageId": "passage_25c6589107a4c440ec7c3958",
-              "quote": "TheBialystokerMemorialBook WasPublishedBy EmpirePress"
+              "passageId": "passage_1d9133115810309066d7b662",
+              "quote": "He submitted this elegy to the Jewish Reconstruction Committee in Bialystok in December 1946"
             }
           ],
           "position": 4
@@ -1275,688 +1329,445 @@
   ],
   "timeline": [
     {
-      "periodStart": "1320",
-      "periodEnd": "1320",
-      "dateLabel": "1320",
-      "title": "Białystok is founded as a village",
-      "summary": "The memorial book’s historical account says Białystok was founded as a village by the Lithuanian Count Gedimin.",
+      "periodStart": "1742",
+      "periodEnd": "1742",
+      "dateLabel": "1742",
+      "title": "Białystok is raised from village to town",
+      "summary": "The memorial book records that King August III raised Białystok’s status from a village to a town [event_candidate_eeaec3b86973b6f6b859f2f5].",
       "recordIds": [
-        "event_candidate_7009434d24a7879f67af60ce"
+        "event_candidate_eeaec3b86973b6f6b859f2f5"
       ],
       "records": [
         {
-          "recordId": "event_candidate_7009434d24a7879f67af60ce",
+          "recordId": "event_candidate_eeaec3b86973b6f6b859f2f5",
           "kind": "event",
           "type": "ORGANIZATION_FOUNDING",
-          "title": "Founding of Bialystok as a village",
-          "summary": "Bialystok was founded as a village by Count Gedimin in 1320.",
-          "dateStart": "1320",
-          "dateEnd": "",
-          "scanIndex": 616,
+          "title": "Bialystok elevated from village to town",
+          "summary": "King August III raised Bialystok’s status from village to town in 1742.",
+          "dateStart": "1742",
+          "dateEnd": "1742",
+          "scanIndex": 613,
           "printedPage": null,
-          "passageId": "passage_b5f0a75b15a796b59477c126",
-          "quote": "In1320,Bialystokwas foundedasavillagebytheLithuanianCountGedimin"
+          "passageId": "passage_623bcd7a429fca35069094b7",
+          "quote": "(1742), King August III raised the status of Bialytok froma village toa town."
         }
       ],
       "position": 1
     },
     {
-      "periodStart": "1718",
-      "periodEnd": "1718",
-      "dateLabel": "1718",
-      "title": "The Old Bet Hamidrash is constructed",
-      "summary": "The book dates construction of the Old Bet Hamidrash to 1718, marking an early institutional presence of Jewish religious life.",
-      "recordIds": [
-        "event_candidate_2d95a862909ddc4f59929ae3"
-      ],
-      "records": [
-        {
-          "recordId": "event_candidate_2d95a862909ddc4f59929ae3",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Construction of the Old Bet Hamidrash",
-          "summary": "The Old Bet Hamidrash was constructed in 1718.",
-          "dateStart": "1718",
-          "dateEnd": "",
-          "scanIndex": 615,
-          "printedPage": null,
-          "passageId": "passage_50f05c51d976752a4c71b036",
-          "quote": "TheoldBetHamidrashwasconstructedin1718"
-        }
-      ],
-      "position": 2
-    },
-    {
-      "periodStart": "1804",
-      "periodEnd": "1804",
-      "dateLabel": "1804",
-      "title": "The first printing press opens",
-      "summary": "Białystok’s first printing press opened under Rabbi Aaron Halevi Hurwitz, linking religious leadership with the circulation of print.",
-      "recordIds": [
-        "event_candidate_87bd2104d1792ff4d61508c8"
-      ],
-      "records": [
-        {
-          "recordId": "event_candidate_87bd2104d1792ff4d61508c8",
-          "kind": "event",
-          "type": "BUSINESS_OPENING",
-          "title": "Opening of Bialystok’s first printing press",
-          "summary": "Bialystok’s first printing press opened in 1804 under Rabbi Aaron Halevi Hurwitz.",
-          "dateStart": "1804",
-          "dateEnd": "",
-          "scanIndex": 19,
-          "printedPage": "3",
-          "passageId": "passage_7c9309bf2d6854df021d5534",
-          "quote": "1804,איזPR‏ביאַליסטאָקגעעפנטגעװאָרןדי ערשטעדרוקעריידורךר'אהרןהלויהורוויץ"
-        }
-      ],
-      "position": 3
-    },
-    {
-      "periodStart": "1840",
-      "periodEnd": "1840",
-      "dateLabel": "1840",
-      "title": "The Jewish Hospital is founded",
-      "summary": "The Jewish Hospital was founded in 1840, an example of organized communal health care.",
-      "recordIds": [
-        "event_candidate_56ce852cb5823e9348807079"
-      ],
-      "records": [
-        {
-          "recordId": "event_candidate_56ce852cb5823e9348807079",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Jewish Hospital founded",
-          "summary": "The Jewish Hospital was founded in 1840.",
-          "dateStart": "1840",
-          "dateEnd": "",
-          "scanIndex": 577,
-          "printedPage": null,
-          "passageId": "passage_bb2cfc631f13216bd302ae9c",
-          "quote": "ThenursesanddoctorsoftheJewishHospital,foundedin 1840."
-        }
-      ],
-      "position": 4
-    },
-    {
-      "periodStart": "1864",
-      "periodEnd": "1864",
-      "dateLabel": "1864",
-      "title": "The Bialystok Support Association is established",
-      "summary": "The first organized society identified in the account was the Bialystoker Unterstitzungs Verein, established in 1864.",
-      "recordIds": [
-        "event_candidate_fda5582a8669bf8246ab31dd"
-      ],
-      "records": [
-        {
-          "recordId": "event_candidate_fda5582a8669bf8246ab31dd",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Founding of the Bialystoker Unterstitzungs Verein",
-          "summary": "The first organized society was established in 1864.",
-          "dateStart": "1864",
-          "dateEnd": "",
-          "scanIndex": 453,
-          "printedPage": null,
-          "passageId": "passage_11fbc8068b5b29ae5a2ffa31",
-          "quote": "thefirst organizedsocietywasthe‘‘BialystokerUnterstitzungs Verein”establishedin1864"
-        }
-      ],
-      "position": 5
-    },
-    {
-      "periodStart": "1878",
-      "periodEnd": "1878",
-      "dateLabel": "1878",
-      "title": "Zamenhof develops an early form of Esperanto",
-      "summary": "As a 19-year-old student in Białystok, Zamenhof created a rudimentary grammar he called the “Language of Everywhere.”",
-      "recordIds": [
-        "event_candidate_88939363db88f7a698e099d2"
-      ],
-      "records": [
-        {
-          "recordId": "event_candidate_88939363db88f7a698e099d2",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Creation of Esperanto",
-          "summary": "Zamenhof created a rudimentary Esperanto grammar in Bialystok in 1878.",
-          "dateStart": "1878",
-          "dateEnd": "",
-          "scanIndex": 605,
-          "printedPage": null,
-          "passageId": "passage_03b5b62384665051c2b2f923",
-          "quote": "In1878,asa19-year-oldhighschoolstudent, Zamenhofsatinasmallroominhisfather’shousein Bialystok,andcreatedarudimentarygrammarthathe initiallycalledthe“‘LanguageofEverywhere.”"
-        }
-      ],
-      "position": 6
-    },
-    {
       "periodStart": "1882",
       "periodEnd": "1882",
       "dateLabel": "1882",
-      "title": "Labor action and migration shape communal life",
-      "summary": "Seventy Jewish weavers struck for higher wages, while Bialystok pioneers helped establish Petach Tikvah in Israel. The two accounts place labor politics and migration within the same community history.",
+      "title": "Jewish workers organize and strike",
+      "summary": "Seventy Jewish weavers went on strike for higher wages, according to the memorial-book account [event_candidate_85aeb7464755241626370a66].",
       "recordIds": [
-        "event_candidate_4baaafe02496ee156d17b6b4",
-        "event_candidate_ba0ec8a9cdde1cb7037bde65"
+        "event_candidate_85aeb7464755241626370a66"
       ],
       "records": [
         {
-          "recordId": "event_candidate_4baaafe02496ee156d17b6b4",
+          "recordId": "event_candidate_85aeb7464755241626370a66",
           "kind": "event",
-          "type": "ARREST",
-          "title": "Jewish weavers’ strike in 1882",
-          "summary": "Seventy Jewish weavers struck Aron Suraski for higher wages.",
+          "type": "EMPLOYMENT",
+          "title": "Jewish weavers’ strike against Aron Suraski",
+          "summary": "Seventy Jewish weavers struck for higher wages in 1882.",
           "dateStart": "1882",
           "dateEnd": "1882",
           "scanIndex": 607,
           "printedPage": null,
           "passageId": "passage_a9d711dcf6ab784e43065eca",
-          "quote": "Asearlyas1882,seventyJewishweaverswentouton strikeagainstthefactoryowner,AronSuraski"
-        },
-        {
-          "recordId": "event_candidate_ba0ec8a9cdde1cb7037bde65",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Establishment of Petach Tikvah",
-          "summary": "Bialystok pioneers helped establish Petach Tikvah in Israel in 1882.",
-          "dateStart": "1882",
-          "dateEnd": "",
-          "scanIndex": 615,
-          "printedPage": null,
-          "passageId": "passage_50f05c51d976752a4c71b036",
-          "quote": "in1882,severalprominentBialystoker pioneershelpedestablishPetachTikvahinIsrael"
+          "quote": "As early as 1882, seventy Jewish weavers went out on strike"
         }
       ],
-      "position": 7
-    },
-    {
-      "periodStart": "1887",
-      "periodEnd": "1887",
-      "dateLabel": "1887",
-      "title": "Esperanto is created",
-      "summary": "The book attributes the creation of the artificial language Esperanto to the Bialystoker Jew Dr. Lazarus (Ludwik) Zamenhof.",
-      "recordIds": [
-        "event_candidate_b13a1ad4ccb3035d35dd3fe9"
-      ],
-      "records": [
-        {
-          "recordId": "event_candidate_b13a1ad4ccb3035d35dd3fe9",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Creation of Esperanto",
-          "summary": "Dr. Lazarus Zamenhof created the artificial language Esperanto in 1887.",
-          "dateStart": "1887",
-          "dateEnd": "1887",
-          "scanIndex": 42,
-          "printedPage": "26",
-          "passageId": "passage_1b3cbc8586ce307098d78f94",
-          "quote": "געשאַפןגעװאָרןניטדורךPP‏אַנדערן,וי דורךדעםביאַליסטאָקעראיד,דר.לאַזאַרוס(לודוויק) זאַמענהאָף,PN‏יאָר1887"
-        }
-      ],
-      "position": 8
+      "position": 2
     },
     {
       "periodStart": "1897",
-      "periodEnd": "1897",
-      "dateLabel": "1897",
-      "title": "The Bund is founded",
-      "summary": "The Bund was founded in 1897, and the book also recalls Bialystok political exiles traveling through Siberia toward Yakutsk.",
+      "periodEnd": "1905",
+      "dateLabel": "1897–1905",
+      "title": "Zionist and Bundist politics take root",
+      "summary": "A Białystok meeting in 1897 adopted a constitution for a Zionist organization, and the Bund Central Committee was located in the city from 1900 to 1905 [event_candidate_18d250b9981ea6461188a45a; event_candidate_26ad0a4968e5bcfe9174ab4e].",
       "recordIds": [
-        "event_candidate_912e830db0a4d3c03f4575c5",
-        "event_candidate_33c406b93f7ddb427ca93c05"
+        "event_candidate_18d250b9981ea6461188a45a",
+        "event_candidate_26ad0a4968e5bcfe9174ab4e"
       ],
       "records": [
         {
-          "recordId": "event_candidate_912e830db0a4d3c03f4575c5",
+          "recordId": "event_candidate_18d250b9981ea6461188a45a",
           "kind": "event",
           "type": "ORGANIZATION_FOUNDING",
-          "title": "Founding of the Bund",
-          "summary": "The Bund was founded in 1897.",
-          "dateStart": "1897",
-          "dateEnd": "",
-          "scanIndex": 92,
-          "printedPage": "76",
-          "passageId": "passage_1952dc367c4cf9b0eb777e2e",
-          "quote": "בונד\",וועלכערהאָטזיך געגרינדעטONTTN,1897PR"
-        },
-        {
-          "recordId": "event_candidate_33c406b93f7ddb427ca93c05",
-          "kind": "event",
-          "type": "MIGRATION",
-          "title": "Bialystok political exiles travel toward Yakutsk",
-          "summary": "A group of Bialystok political exiles traveled through Siberia toward Yakutsk in 1897.",
+          "title": "Bialystok Chovevei Zion meeting",
+          "summary": "A 1897 Bialystok meeting adopted the constitution for a Zionist organization in Russia.",
           "dateStart": "1897",
           "dateEnd": "1897",
-          "scanIndex": 36,
-          "printedPage": "20",
-          "passageId": "passage_15efd1130bc5b0738cb93df4",
-          "quote": "אַגרופּעבּיאַליסטאָקערפּאָליטישעפּאַרשיקטעPR‏סיביר,אויפ'ןוועג קייןיאַקוטסק,אין1897."
-        }
-      ],
-      "position": 9
-    },
-    {
-      "periodStart": "1900",
-      "periodEnd": "1904",
-      "dateLabel": "1900–1904",
-      "title": "Zionist meetings are held in Białystok",
-      "summary": "Zionist meetings were held every Saturday afternoon at Adath Yeshurun during this period.",
-      "recordIds": [
-        "event_candidate_5c37f682e5a342bae86139b7"
-      ],
-      "records": [
+          "scanIndex": 609,
+          "printedPage": null,
+          "passageId": "passage_d429b8f7d1dcf216c6a145f4",
+          "quote": "he arranged for a meeting in Bialystok in the spring of 1897"
+        },
         {
-          "recordId": "event_candidate_5c37f682e5a342bae86139b7",
+          "recordId": "event_candidate_26ad0a4968e5bcfe9174ab4e",
           "kind": "event",
           "type": "ORGANIZATION_FOUNDING",
-          "title": "Zionist meetings at Adath Yeshurun",
-          "summary": "Zionist meetings were held every Saturday afternoon from 1900 through 1904.",
+          "title": "Bund Central Committee in Bialystok",
+          "summary": "The Bund Central Committee was located in Bialystok from 1900 to 1905.",
           "dateStart": "1900",
-          "dateEnd": "1904",
-          "scanIndex": 37,
-          "printedPage": "21",
-          "passageId": "passage_00d32d7597db42d631730772",
-          "quote": "עדת ישורון\",PW‏נאָװאָליפּיעגאַס,פלעגןיעדןשבתנאָכ- מיטיק,פוןAW‏1900ביז1904,אָפּגעהאַלטןTUN‏ציוניס- טישעפאַרזאַמלונגען"
+          "dateEnd": "1905",
+          "scanIndex": 607,
+          "printedPage": null,
+          "passageId": "passage_a9d711dcf6ab784e43065eca",
+          "quote": "From 1900 to 1905 the Bund Central Committee was located there."
         }
       ],
-      "position": 10
+      "position": 3
     },
     {
       "periodStart": "1905",
       "periodEnd": "1906",
       "dateLabel": "1905–1906",
-      "title": "Violence and pogroms strike Białystok",
-      "summary": "The book records the killing of 25 Jews by Russian soldiers on July 30, 1905, and a bloody Białystok pogrom from June 1 to 3, 1906.",
+      "title": "Pogroms devastate Jewish residents",
+      "summary": "The book’s historical account reports that Czarist soldiers staged pogroms in Białystok in 1905–1906, maiming or killing many Jewish victims [event_candidate_9b069194b030b08c0704d3c7].",
       "recordIds": [
-        "event_candidate_e3b2a0661f2df0d27e525e51",
-        "event_candidate_fb7fee0c1128424abbd25495"
+        "event_candidate_9b069194b030b08c0704d3c7"
       ],
       "records": [
         {
-          "recordId": "event_candidate_e3b2a0661f2df0d27e525e51",
-          "kind": "event",
-          "type": "MURDER",
-          "title": "Killing of 25 Jews on Surazer Street",
-          "summary": "Russian soldiers reportedly killed 25 Jews on July 30, 1905.",
-          "dateStart": "1905-07-30",
-          "dateEnd": "1905-07-30",
-          "scanIndex": 603,
-          "printedPage": null,
-          "passageId": "passage_afd6bc8e360367e5d7b48541",
-          "quote": "VictimsofthetragicSaturdayofJuly30,1905,when Russiansoldiersslaughtered25JewsinSurazerStreet"
-        },
-        {
-          "recordId": "event_candidate_fb7fee0c1128424abbd25495",
+          "recordId": "event_candidate_9b069194b030b08c0704d3c7",
           "kind": "event",
           "type": "AKTION_OR_RAID",
-          "title": "Bialystok pogrom",
-          "summary": "A bloody pogrom in Bialystok virtually destroyed the Labor Zionist regional committee.",
-          "dateStart": "1906-06-01",
-          "dateEnd": "1906-06-03",
-          "scanIndex": 594,
+          "title": "Czarist pogroms in Bialystok",
+          "summary": "Czarist soldiers staged pogroms in Bialystok, maiming or killing many Jewish victims.",
+          "dateStart": "1905",
+          "dateEnd": "1906",
+          "scanIndex": 613,
           "printedPage": null,
-          "passageId": "passage_763cf5a18de0c1ecec64388e",
-          "quote": "ThebloodypogrominBialystokofJune1-3,1906"
+          "passageId": "passage_623bcd7a429fca35069094b7",
+          "quote": "In 1905-06, Czarist soldiers staged pogroms in Bialystok"
+        }
+      ],
+      "position": 4
+    },
+    {
+      "periodStart": "1919",
+      "periodEnd": "1919",
+      "dateLabel": "1919",
+      "title": "Hebrew Gymnasium is founded",
+      "summary": "The Hebrew Gymnasium in Białystok was founded in 1919, becoming part of the community’s educational life [event_candidate_8c5f7d04b3b340301ed9861f].",
+      "recordIds": [
+        "event_candidate_8c5f7d04b3b340301ed9861f"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_8c5f7d04b3b340301ed9861f",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Founding of the Hebrew Gymnasium in Bialystok",
+          "summary": "The Hebrew Gymnasium in Bialystok was founded in 1919.",
+          "dateStart": "1919",
+          "dateEnd": "1919",
+          "scanIndex": 286,
+          "printedPage": "270",
+          "passageId": "passage_da5fd3b8cdea4898d2bdef09",
+          "quote": "געגרינדעט געװאָרן PR‏ יאָר 1919"
+        }
+      ],
+      "position": 5
+    },
+    {
+      "periodStart": "1927",
+      "periodEnd": "1933",
+      "dateLabel": "Late 1920s–1933",
+      "title": "Cultural institutions expand",
+      "summary": "A Yiddish theater troupe was established in the late 1920s, and the community study library opened on 15 January 1933 [event_candidate_6bc50cfe07aa995e9f70dfab; event_candidate_ee2a0858026dfad6fa50d7a2].",
+      "recordIds": [
+        "event_candidate_6bc50cfe07aa995e9f70dfab",
+        "event_candidate_ee2a0858026dfad6fa50d7a2"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_6bc50cfe07aa995e9f70dfab",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Gilah Rinah established",
+          "summary": "A small Yiddish theater troupe was established in Bialystok in the late 1920s.",
+          "dateStart": "1927",
+          "dateEnd": "1929",
+          "scanIndex": 585,
+          "printedPage": null,
+          "passageId": "passage_6ccd9a959c13cc054854cc69",
+          "quote": "In the late 1920’s a small Yiddish theater troupe named Gilah Rinah was established"
+        },
+        {
+          "recordId": "event_candidate_ee2a0858026dfad6fa50d7a2",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Opening of the Bialystok community study library",
+          "summary": "The study library opened at the Bialystok community on 15 January 1933.",
+          "dateStart": "1933-01-15",
+          "dateEnd": "",
+          "scanIndex": 85,
+          "printedPage": "69",
+          "passageId": "passage_4bde0034df60b7ccf6972c4c",
+          "quote": "די דערעפענונג פון דער שטודיר-ביבליאָטעק ביי דער בּיאַליסטאָקער קהילה דעם 15-טען יאַנואַר 1933"
+        }
+      ],
+      "position": 6
+    },
+    {
+      "periodStart": "1939-09-01",
+      "periodEnd": "1939-11",
+      "dateLabel": "September–November 1939",
+      "title": "War and changing occupation",
+      "summary": "The war began on 1 September 1939; German forces entered the city, followed by Soviet control, under which the Hebrew Gymnasium converted to Yiddish instruction in November [event_candidate_f67647865a86ad33434b734e; event_candidate_955e161c41b31db112075827; event_candidate_b11454789122d738889c2540].",
+      "recordIds": [
+        "event_candidate_f67647865a86ad33434b734e",
+        "event_candidate_955e161c41b31db112075827",
+        "event_candidate_b11454789122d738889c2540"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_f67647865a86ad33434b734e",
+          "kind": "event",
+          "type": "OUTBREAK_OF_WAR",
+          "title": "Outbreak of the war",
+          "summary": "The author states that war broke out on September 1, 1939.",
+          "dateStart": "1939-09-01",
+          "dateEnd": "1939-09-01",
+          "scanIndex": 126,
+          "printedPage": "110",
+          "passageId": "passage_f092de849d92d26b6de6763c",
+          "quote": "עס PN‏ אױסגעבראָכן די מלחמה, דעם 1טן “BYD‏ טעמבער, 1939"
+        },
+        {
+          "recordId": "event_candidate_955e161c41b31db112075827",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Hitlerist soldiers enter Bialystok",
+          "summary": "Hitlerist soldiers entered Bialystok on or shortly after 15 September 1939.",
+          "dateStart": "1939-09-15",
+          "dateEnd": "",
+          "scanIndex": 128,
+          "printedPage": "112",
+          "passageId": "passage_d41940d22dd48def19791e74",
+          "quote": "די ערשטע גרופּן היטלעריסטישע סאָלדאַטן ביים אָנקומען קיין ביאַליסטאַק"
+        },
+        {
+          "recordId": "event_candidate_b11454789122d738889c2540",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Hebrew Gymnasium converted to Yiddish instruction",
+          "summary": "The gymnasium converted to Yiddish under Russian occupation in November 1939.",
+          "dateStart": "1939-11",
+          "dateEnd": "",
+          "scanIndex": 490,
+          "printedPage": null,
+          "passageId": "passage_9d554a81b5764e01b5bf7772",
+          "quote": "in November 1939, the gymnasium converted to Yiddish"
+        }
+      ],
+      "position": 7
+    },
+    {
+      "periodStart": "1941",
+      "periodEnd": "1941",
+      "dateLabel": "1941",
+      "title": "German occupation and destruction begin",
+      "summary": "The memorial book records German occupation, the burning of Jewish streets and synagogues, and the creation of the Białystok ghetto [mention_1bf03fd06df2ca3de760e4ab; event_candidate_e9fb0770e971a12395372717; event_candidate_651a3f54d233a030d2d94524].",
+      "recordIds": [
+        "mention_1bf03fd06df2ca3de760e4ab",
+        "event_candidate_e9fb0770e971a12395372717",
+        "event_candidate_651a3f54d233a030d2d94524"
+      ],
+      "records": [
+        {
+          "recordId": "mention_1bf03fd06df2ca3de760e4ab",
+          "kind": "mention",
+          "type": "PLACE",
+          "title": "Bialystok",
+          "summary": "City occupied by German forces in June 1941.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 114,
+          "printedPage": "98",
+          "passageId": "passage_1f3a96391f7a55972954aed8",
+          "quote": "די דייטשן האָבן פאַרנומען ביאַליסטאָק"
+        },
+        {
+          "recordId": "event_candidate_e9fb0770e971a12395372717",
+          "kind": "event",
+          "type": "FIRE",
+          "title": "Destruction of Bialystok Jewish streets and synagogue",
+          "summary": "German forces set Jewish streets and the Great City Synagogue on fire.",
+          "dateStart": "1941-06-27",
+          "dateEnd": "1941-06-27",
+          "scanIndex": 262,
+          "printedPage": "246",
+          "passageId": "passage_7901ac5d1c1a5e74ecdf5862",
+          "quote": "זיינען אונטערגעצונדן TANYA‏ דורך די דייטשן גלייך PR‏ ערשטן טאָג"
+        },
+        {
+          "recordId": "event_candidate_651a3f54d233a030d2d94524",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Solasz returned to Knyszin",
+          "summary": "Solasz returned to Knyszin when Nazis constructed the Bialystok ghetto in 1941.",
+          "dateStart": "1941",
+          "dateEnd": "",
+          "scanIndex": 472,
+          "printedPage": null,
+          "passageId": "passage_f6baf03e2a8ee0c6bec9f674",
+          "quote": "When the Nazi invaders constructed the infamous ghetto in Bialystok in 1941, he returned to Knyszin"
+        }
+      ],
+      "position": 8
+    },
+    {
+      "periodStart": "1942-02-05",
+      "periodEnd": "1942-11-02",
+      "dateLabel": "February–November 1942",
+      "title": "Aktionen, terror, and sealed gates",
+      "summary": "The record describes the February 1942 Aktion, deportation threats, and the closing of the ghetto gates on 2 November 1942 [event_candidate_0777476afe6a1e6201e878a2; event_candidate_9e6e36a7d30904f9f625b53e; event_candidate_bbc4a862a57a24b791fb1db9].",
+      "recordIds": [
+        "event_candidate_0777476afe6a1e6201e878a2",
+        "event_candidate_9e6e36a7d30904f9f625b53e",
+        "event_candidate_bbc4a862a57a24b791fb1db9"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_0777476afe6a1e6201e878a2",
+          "kind": "event",
+          "type": "AKTION_OR_RAID",
+          "title": "February 1942 Aktion",
+          "summary": "An Aktion occurred on 5 February 1942; Franke Horowitz died by suicide and Bazyunie was strangled.",
+          "dateStart": "1942-02-05",
+          "dateEnd": "",
+          "scanIndex": 288,
+          "printedPage": "272",
+          "passageId": "passage_b29f025a6fea3fe69bcd5302",
+          "quote": "בעת‎ דער ,אַקציע\" דעם 5טן פּעברואַר 1942"
+        },
+        {
+          "recordId": "event_candidate_9e6e36a7d30904f9f625b53e",
+          "kind": "event",
+          "type": "DEPORTATION",
+          "title": "Deportations from Bialystok district",
+          "summary": "A death-bound struggle and deportations were announced in the Bialystok district.",
+          "dateStart": "1942-10-20",
+          "dateEnd": "",
+          "scanIndex": 190,
+          "printedPage": "174",
+          "passageId": "passage_cf344c6fa52842491b7c59cf",
+          "quote": "דעם פרייטיק, 20טן “PR‏ טאָבער 1942"
+        },
+        {
+          "recordId": "event_candidate_bbc4a862a57a24b791fb1db9",
+          "kind": "event",
+          "type": "DEPORTATION",
+          "title": "Closure of Białystok Ghetto Gates",
+          "summary": "Armed patrols closed the ghetto gates on 2 November 1942.",
+          "dateStart": "1942-11-02",
+          "dateEnd": "1942-11-02",
+          "scanIndex": 185,
+          "printedPage": "169",
+          "passageId": "passage_5c3be0b356fbead238d64770",
+          "quote": "דער פאַקט, OND‏ די טויערן NOVA TID‏ זיינען “AND‏ ריגלט געװאָרן"
+        }
+      ],
+      "position": 9
+    },
+    {
+      "periodStart": "1943-08",
+      "periodEnd": "1943-08-31",
+      "dateLabel": "August 1943",
+      "title": "Uprising and final liquidation",
+      "summary": "The Białystok ghetto uprising took place amid the Nazi liquidation of the ghetto; the last 1,200 children were transported away in the final days of August [event_candidate_3d1ba2efa88ccefd2e8c386a; event_candidate_3997ec466cd550a7c1f83fea; event_candidate_857e030fc4ac4d0064f7c318].",
+      "recordIds": [
+        "event_candidate_3d1ba2efa88ccefd2e8c386a",
+        "event_candidate_3997ec466cd550a7c1f83fea",
+        "event_candidate_857e030fc4ac4d0064f7c318"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_3d1ba2efa88ccefd2e8c386a",
+          "kind": "event",
+          "type": "AKTION_OR_RAID",
+          "title": "Liquidation of the Bialystok ghetto",
+          "summary": "Nazis liquidated the Bialystok ghetto in August 1943.",
+          "dateStart": "1943-08",
+          "dateEnd": "",
+          "scanIndex": 500,
+          "printedPage": null,
+          "passageId": "passage_385de0aeed26c26321fcc5db",
+          "quote": "the Nazis liquidated the Bialystok ghetto"
+        },
+        {
+          "recordId": "event_candidate_857e030fc4ac4d0064f7c318",
+          "kind": "event",
+          "type": "DEPORTATION",
+          "title": "Deportation of Bialystok ghetto children",
+          "summary": "The last 1,200 children were transported from Bialystok to Theresienstadt in late August 1943.",
+          "dateStart": "1943-08-25",
+          "dateEnd": "1943-08-31",
+          "scanIndex": 523,
+          "printedPage": null,
+          "passageId": "passage_6a1289dbb1ca5f06ef47b996",
+          "quote": "The last 1,200 ghetto children were evacuated from Bialystok in the final days of August 1943."
+        }
+      ],
+      "position": 10
+    },
+    {
+      "periodStart": "1945",
+      "periodEnd": "1946",
+      "dateLabel": "1945–1946",
+      "title": "Return, burial, and reconstruction",
+      "summary": "Forty Jewish survivors returned to Białystok after liberation in 1945, corpses were interred in Zabia Cemetery, and a survivor submitted an elegy to the Jewish Reconstruction Committee in 1946 [event_candidate_6a5294b341fd330353d1d949; event_candidate_36ece3a34d9becd19186832c; event_candidate_f9ea617140b1581104ef1677].",
+      "recordIds": [
+        "event_candidate_6a5294b341fd330353d1d949",
+        "event_candidate_36ece3a34d9becd19186832c",
+        "event_candidate_f9ea617140b1581104ef1677"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_6a5294b341fd330353d1d949",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Return of forty Jews to Bialystok",
+          "summary": "Forty Jews returned to Bialystok after liberation by the Red Army.",
+          "dateStart": "1945",
+          "dateEnd": "",
+          "scanIndex": 497,
+          "printedPage": null,
+          "passageId": "passage_087cf122180cf62e717d459a",
+          "quote": "After liberation by the Red Army in 1945, we, the first forty Jews, returned to Bialystok."
+        },
+        {
+          "recordId": "event_candidate_36ece3a34d9becd19186832c",
+          "kind": "event",
+          "type": "DEATH",
+          "title": "Exhumed corpses interred",
+          "summary": "Two hundred thirty exhumed corpses were interred in Zabia cemetery on November 22, 1945.",
+          "dateStart": "1945-11-22",
+          "dateEnd": "",
+          "scanIndex": 494,
+          "printedPage": null,
+          "passageId": "passage_95d44e3440e39255a877c286",
+          "quote": "They were all interred in the Zabia cemetery on November 22, 1945."
+        },
+        {
+          "recordId": "event_candidate_f9ea617140b1581104ef1677",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Submission of Rybalowski’s elegy",
+          "summary": "Ruwen Rybalowski submitted his elegy to the Jewish Reconstruction Committee in Bialystok.",
+          "dateStart": "1946-12",
+          "dateEnd": "",
+          "scanIndex": 470,
+          "printedPage": null,
+          "passageId": "passage_1d9133115810309066d7b662",
+          "quote": "He submitted this elegy to the Jewish Reconstruction Committee in Bialystok in December 1946"
         }
       ],
       "position": 11
-    },
-    {
-      "periodStart": "1913",
-      "periodEnd": "1915",
-      "dateLabel": "1913–1915",
-      "title": "Newspapers, theatre, and music flourish",
-      "summary": "The Bialystoker Tageblatt appeared as the city’s first daily newspaper in 1913; the Habimah Theater opened that year, and the Zionist Hazamir orchestra was founded in 1915.",
-      "recordIds": [
-        "event_candidate_5bb51278d6b1378f0af33a94",
-        "event_candidate_d31f7975522184748c556551",
-        "event_candidate_b979d3015aec2720520d77a6"
-      ],
-      "records": [
-        {
-          "recordId": "event_candidate_5bb51278d6b1378f0af33a94",
-          "kind": "event",
-          "type": "PUBLICATION_FOUNDING",
-          "title": "Bialystoker Tageblatt appears",
-          "summary": "Bialystoker Tageblatt began appearing in 1913 as Bialystok’s first daily newspaper, edited by A. S. Herszberg.",
-          "dateStart": "1913",
-          "dateEnd": "1913",
-          "scanIndex": 574,
-          "printedPage": null,
-          "passageId": "passage_f486480e519e336eb601c498",
-          "quote": "1913-ThefirstdailynewspaperBialystokerTageblatt appears,editedbyA.S.Herszberg."
-        },
-        {
-          "recordId": "event_candidate_d31f7975522184748c556551",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Habimah Theater opens",
-          "summary": "Habimah Theater opened in 1913 with Shma Yisroel.",
-          "dateStart": "1913",
-          "dateEnd": "1913",
-          "scanIndex": 574,
-          "printedPage": null,
-          "passageId": "passage_f486480e519e336eb601c498",
-          "quote": "1913-TheHabimahTheaterisopenedbyNochum Cemach"
-        },
-        {
-          "recordId": "event_candidate_b979d3015aec2720520d77a6",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Hazamir founded",
-          "summary": "Hazamir, a Zionist orchestra, was founded in 1915 with forty members.",
-          "dateStart": "1915",
-          "dateEnd": "1915",
-          "scanIndex": 104,
-          "printedPage": "88",
-          "passageId": "passage_acec8e3e22bb3e30d882ac9e",
-          "quote": "1915PR‏געגרינדעטדער,הזמיר\",אַ ציוניסטישער"
-        }
-      ],
-      "position": 12
-    },
-    {
-      "periodStart": "1939",
-      "periodEnd": "1939",
-      "dateLabel": "1939",
-      "title": "The community’s tragedy begins",
-      "summary": "A memorial-book account states that the tragedy for Białystok’s Jewish community commenced in 1939.",
-      "recordIds": [
-        "mention_7f443bac8935dd1f1442ef9c"
-      ],
-      "records": [
-        {
-          "recordId": "mention_7f443bac8935dd1f1442ef9c",
-          "kind": "mention",
-          "type": "COMMUNITY",
-          "title": "Bialystok Jewish community",
-          "summary": "The Jewish community experienced Nazi violence and displacement in 1939.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 568,
-          "printedPage": null,
-          "passageId": "passage_37dbbdbe3ee3f628cac11066",
-          "quote": "thetragedyfortheJewishcommunity inBialystokcommenced"
-        }
-      ],
-      "position": 13
-    },
-    {
-      "periodStart": "1941-08-01",
-      "periodEnd": "1941-08-01",
-      "dateLabel": "August 1, 1941",
-      "title": "The Białystok ghetto is completed",
-      "summary": "After the Nazi occupation, the ghetto for Jews was completed on August 1, 1941, and was enclosed and blockaded.",
-      "recordIds": [
-        "mention_4fc17daa21d9cb79785538ae",
-        "mention_e3ee4f49ad0b91d205486e77"
-      ],
-      "records": [
-        {
-          "recordId": "mention_4fc17daa21d9cb79785538ae",
-          "kind": "mention",
-          "type": "PLACE",
-          "title": "Bialystok ghetto",
-          "summary": "The Bialystok ghetto was completed on August 1, 1941, after Nazi occupation.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 555,
-          "printedPage": null,
-          "passageId": "passage_a7a950c9fc8c9bf91d920d66",
-          "quote": "theghettofortheJewswas completed"
-        },
-        {
-          "recordId": "mention_e3ee4f49ad0b91d205486e77",
-          "kind": "mention",
-          "type": "PLACE",
-          "title": "Bialystok ghetto",
-          "summary": "The ghetto was blockaded and enclosed by a fence with three gates.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 554,
-          "printedPage": null,
-          "passageId": "passage_64d4ddf7380f127c3c416e43",
-          "quote": "Theghettowastobecompletelyblockaded"
-        }
-      ],
-      "position": 14
-    },
-    {
-      "periodStart": "1942-06-29",
-      "periodEnd": "1942-06-29",
-      "dateLabel": "June 29, 1942",
-      "title": "A celebration is held in the ghetto",
-      "summary": "The memorial book records a celebration in the Białystok ghetto, evidence that communal activity continued under confinement.",
-      "recordIds": [
-        "mention_5c31e9e7099336f877dda7d5"
-      ],
-      "records": [
-        {
-          "recordId": "mention_5c31e9e7099336f877dda7d5",
-          "kind": "mention",
-          "type": "PLACE",
-          "title": "Bialystok ghetto",
-          "summary": "Ghetto where a June 29, 1942 celebration was held.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 542,
-          "printedPage": null,
-          "passageId": "passage_7138384e998c2db54795e5a6",
-          "quote": "acelebrationwasheldinthe ghetto"
-        }
-      ],
-      "position": 15
-    },
-    {
-      "periodStart": "1943-08-16",
-      "periodEnd": "1943-08-16",
-      "dateLabel": "August 16, 1943",
-      "title": "The ghetto liquidation begins",
-      "summary": "The liquidation of the Białystok ghetto began on August 16, 1943, when German and SS forces entered to destroy it; Jewish resistance fought back.",
-      "recordIds": [
-        "mention_c6ab1f2774907d237120c368",
-        "mention_aa42e70a7234e784067dcf03"
-      ],
-      "records": [
-        {
-          "recordId": "mention_c6ab1f2774907d237120c368",
-          "kind": "mention",
-          "type": "PLACE",
-          "title": "Bialystok ghetto",
-          "summary": "Ghetto where liquidation began on August 16, 1943.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 517,
-          "printedPage": null,
-          "passageId": "passage_0b053aa5c5ac34337ca66cba",
-          "quote": "TheliquidationoftheBialystokghettobeganon August16,1943"
-        },
-        {
-          "recordId": "mention_aa42e70a7234e784067dcf03",
-          "kind": "mention",
-          "type": "PLACE",
-          "title": "Bialystok ghetto",
-          "summary": "Ghetto where Jewish resistance fought German and SS forces in August 1943.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 510,
-          "printedPage": null,
-          "passageId": "passage_db90a19daa05dbcf150a0807",
-          "quote": "OnAugust16,1943,theGermanarmyandtheSS contingents,whohadenteredtheghettotoliquidateit"
-        }
-      ],
-      "position": 16
-    },
-    {
-      "periodStart": "1946",
-      "periodEnd": "1946",
-      "dateLabel": "1946",
-      "title": "Survivor testimony circulates",
-      "summary": "The November–December 1946 Bialystoker Stimme published Szymon Datner’s account, while a March–April issue carried a postwar list of Jews in Białystok.",
-      "recordIds": [
-        "mention_2ae846727c7bb9e973e669d1",
-        "mention_369ee9e45aa88f6440108afb"
-      ],
-      "records": [
-        {
-          "recordId": "mention_2ae846727c7bb9e973e669d1",
-          "kind": "mention",
-          "type": "PUBLICATION",
-          "title": "Bialystoker Stimme",
-          "summary": "Publication containing Datner’s account of the massacre.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 558,
-          "printedPage": null,
-          "passageId": "passage_bae24ce52ae62cc814c40c58",
-          "quote": "the November-December1946issueoftheBialystoker Stimme"
-        },
-        {
-          "recordId": "mention_369ee9e45aa88f6440108afb",
-          "kind": "mention",
-          "type": "PUBLICATION",
-          "title": "Bialystoker Stimme",
-          "summary": "Periodical issue containing the postwar list.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 502,
-          "printedPage": null,
-          "passageId": "passage_579d10d200378fa1a1311e0e",
-          "quote": "March-April1946issueoftheBialystokerStimme"
-        }
-      ],
-      "position": 17
-    },
-    {
-      "periodStart": "1948",
-      "periodEnd": "1948",
-      "dateLabel": "1948",
-      "title": "Bialystoker delegates attend a Culture Congress",
-      "summary": "A group of Bialystoker delegates attended the Culture Congress in New York, reflecting postwar cultural reconstruction.",
-      "recordIds": [
-        "mention_adc27f66830816d8ed4dfd6c"
-      ],
-      "records": [
-        {
-          "recordId": "mention_adc27f66830816d8ed4dfd6c",
-          "kind": "mention",
-          "type": "EVENT",
-          "title": "Culture Congress in New York",
-          "summary": "Congress attended by a group of Bialystoker delegates in 1948.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 418,
-          "printedPage": null,
-          "passageId": "passage_7976493451d48306eece0756",
-          "quote": "AGroupofBialystokerDelegatestotheCultureCongressinNewYorkin1948"
-        }
-      ],
-      "position": 18
-    },
-    {
-      "periodStart": "1949",
-      "periodEnd": "1949",
-      "dateLabel": "1949",
-      "title": "Bialystokers gather in Johannesburg",
-      "summary": "A photograph records a Bialystok landsleit gathering in Johannesburg, showing the continuing reach of the Bialystoker diaspora.",
-      "recordIds": [
-        "mention_818fe21c6d9f861cfc990889"
-      ],
-      "records": [
-        {
-          "recordId": "mention_818fe21c6d9f861cfc990889",
-          "kind": "mention",
-          "type": "PHOTOGRAPH",
-          "title": "Bialystok landsleit gathering photograph",
-          "summary": "A photograph depicts a Bialystok landsleit gathering in Johannesburg in 1949.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 406,
-          "printedPage": "390",
-          "passageId": "passage_a1267cf2935361a3a724fc04",
-          "quote": "אַצוזאַמענקונפטTD‏בּיאַליסטאָקערלאַנדסלײטאיןיאָהאַנעסבּורגמיטדר.חייםשאָשקעסאין1949"
-        }
-      ],
-      "position": 19
-    },
-    {
-      "periodStart": "1951",
-      "periodEnd": "1951",
-      "dateLabel": "1951",
-      "title": "A historic Białystok photo album is issued",
-      "summary": "The historic Bialystok Photo Album was issued in 1951 and prepared by Izaak Rybal.",
-      "recordIds": [
-        "mention_1a7fbcce77c3e0c7c38f785f"
-      ],
-      "records": [
-        {
-          "recordId": "mention_1a7fbcce77c3e0c7c38f785f",
-          "kind": "mention",
-          "type": "PHOTOGRAPH",
-          "title": "Bialystok Photo Album",
-          "summary": "Historic photo album issued in 1951 and prepared by Izaak Rybal.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 442,
-          "printedPage": null,
-          "passageId": "passage_3faba167b722f8b35aea5b5d",
-          "quote": "thehistoricBialystokPhotoAlbumissuedin 1951"
-        }
-      ],
-      "position": 20
-    },
-    {
-      "periodStart": "1961",
-      "periodEnd": "1961",
-      "dateLabel": "1961",
-      "title": "Bialystok survivors witness at the Eichmann trial",
-      "summary": "The memorial book identifies Bialystok Jewish survivors among witnesses at the Eichmann trial in Jerusalem in 1961.",
-      "recordIds": [
-        "mention_dc9994c98c83a1d0d88a7112"
-      ],
-      "records": [
-        {
-          "recordId": "mention_dc9994c98c83a1d0d88a7112",
-          "kind": "mention",
-          "type": "EVENT",
-          "title": "Eichmann trial",
-          "summary": "Historical trial in Jerusalem in 1961 involving Bialystok Jewish survivors as witnesses.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 329,
-          "printedPage": "313",
-          "passageId": "passage_a647531a8cda4883c7e080a4",
-          "quote": "יאָר1961,וועןPR‏ירושליםPR‏ פאָרגעקומעןדערהיסטאָרישעראײיכמאַן-פּראָצעס"
-        }
-      ],
-      "position": 21
-    },
-    {
-      "periodStart": "1981",
-      "periodEnd": "1981",
-      "dateLabel": "1981",
-      "title": "The Bialystoker Stimme continues publication",
-      "summary": "The Bialystoker Stimme was issued twice yearly in 1981, continuing the publication tradition that connected Bialystokers worldwide.",
-      "recordIds": [
-        "mention_912a0c0b56b50ca94e5a3900"
-      ],
-      "records": [
-        {
-          "recordId": "mention_912a0c0b56b50ca94e5a3900",
-          "kind": "mention",
-          "type": "PUBLICATION",
-          "title": "Bialystoker Stimme",
-          "summary": "Publication issued by the landsmanschaft twice yearly in 1981.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 449,
-          "printedPage": null,
-          "passageId": "passage_92f176ed8da1ad1328c4cfce",
-          "quote": "magazine,BialystokerStimme."
-        }
-      ],
-      "position": 22
     }
   ]
 }

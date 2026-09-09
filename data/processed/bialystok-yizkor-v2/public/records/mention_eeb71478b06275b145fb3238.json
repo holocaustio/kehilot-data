@@ -1,0 +1,125 @@
+{
+  "id": "mention_eeb71478b06275b145fb3238",
+  "type": "Institution",
+  "title": "Factory",
+  "summary": "A factory where 700 workers packed machinery and goods.",
+  "originalName": "פאַבריק",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 232,
+  "printedPage": "216",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "factory",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_128079a861e5fc396167d962",
+      "pageId": "page_nybc313697_0232",
+      "scanIndex": 232,
+      "leafNumber": 231,
+      "printedPage": "216",
+      "passageCharStart": 571,
+      "passageCharEnd": 597,
+      "normalizedPassageCharStart": 571,
+      "normalizedPassageCharEnd": 597,
+      "pageCharStart": 4258,
+      "pageCharEnd": 4284,
+      "quote": "זאָלן פאַרלאָזן די\nפאַבריק",
+      "normalizedQuote": "זאָלן פאַרלאָזן די\nפאַבריק",
+      "modelQuote": "זאָלן פאַרלאָזן די פאַבריק",
+      "bbox": {
+        "left": 2577,
+        "top": 3900,
+        "right": 4542,
+        "bottom": 4087
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n231/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "28adfc25035d16edd6cd2c4705a32c488f82d5397df341ec3c3447ee7667430b",
+      "normalizedPassageChecksum": "54c1d16ef00864d4866a970a3b4a4990dcc153aac22b4a5ca582ba08221d444c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_41236c4c3ea82d74e0881174",
+      "type": "Migration",
+      "title": "Workers moved to the Small Ghetto",
+      "summary": "Seven hundred workers were ordered to leave the factory and assemble on Kupieczka Street.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The workers are explicitly numbered, but no individual identities are provided.",
+      "evidence": {
+        "passageId": "passage_128079a861e5fc396167d962",
+        "pageId": "page_nybc313697_0232",
+        "scanIndex": 232,
+        "leafNumber": 231,
+        "printedPage": "216",
+        "passageCharStart": 318,
+        "passageCharEnd": 333,
+        "normalizedPassageCharStart": 318,
+        "normalizedPassageCharEnd": 333,
+        "pageCharStart": 4005,
+        "pageCharEnd": 4020,
+        "quote": "די 700 אַרבעטער",
+        "normalizedQuote": "די 700 אַרבעטער",
+        "modelQuote": "די 700 אַרבעטער",
+        "bbox": {
+          "left": 3322,
+          "top": 3514,
+          "right": 3948,
+          "bottom": 3581
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n231/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "28adfc25035d16edd6cd2c4705a32c488f82d5397df341ec3c3447ee7667430b",
+        "normalizedPassageChecksum": "54c1d16ef00864d4866a970a3b4a4990dcc153aac22b4a5ca582ba08221d444c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_41236c4c3ea82d74e0881174",
+      "type": "Event",
+      "title": "Workers moved to the Small Ghetto",
+      "relation": "Participated In",
+      "role": "Employer"
+    },
+    {
+      "id": "mention_f9ecbe6677798da0c566dabd",
+      "type": "Place",
+      "title": "Small Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2a472812417dae9711502f26",
+      "type": "Place",
+      "title": "Kupieczka Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b4b80cd16ca51e52c10a5258",
+      "type": "Place",
+      "title": "Polna Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_80b216ae3c9d56bd1e0878a1",
+      "type": "Place",
+      "title": "Ghetto Park Gate",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4456ab5de80a3124284f0aa3",
+      "type": "Place",
+      "title": "Firefighters' Garage",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,100 @@
+{
+  "id": "mention_ffff80baaed48c615e5000e9",
+  "type": "Place",
+  "title": "Ghetto Parkan",
+  "summary": "Jews living near Ghetto Parkan heard suspicious noises and approaching Nazi troops.",
+  "originalName": "געטאָ-פּאַרקאַן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 220,
+  "printedPage": "204",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "ghetto area",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_673616a88c3495ecef4ca754",
+      "pageId": "page_nybc313697_0220",
+      "scanIndex": 220,
+      "leafNumber": 219,
+      "printedPage": "204",
+      "passageCharStart": 523,
+      "passageCharEnd": 553,
+      "normalizedPassageCharStart": 523,
+      "normalizedPassageCharEnd": 553,
+      "pageCharStart": 2797,
+      "pageCharEnd": 2827,
+      "quote": "געוואוינט ביים געטאָ-פּאַרקאַן",
+      "normalizedQuote": "געוואוינט ביים געטאָ-פּאַרקאַן",
+      "modelQuote": "געוואוינט ביים געטאָ-פּאַרקאַן",
+      "bbox": {
+        "left": 2525,
+        "top": 3765,
+        "right": 3549,
+        "bottom": 3834
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n219/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "904dc2efc50a0efa52aa08be4b0dab58df5e7e93fa284f76c05183ab0441d0cf",
+      "normalizedPassageChecksum": "563837c0c85bee3e52a11c4156c597ccdbcd0869a0d7bcb1a36e6b790439e447",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_204f178380da3948d82c9ab8",
+      "type": "Aktion Or Raid",
+      "title": "Nazi forces approach Ghetto Parkan",
+      "summary": "Nazi groups approached Ghetto Parkan, causing panic among the Jewish population.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The date wording and OCR token are unclear.",
+      "evidence": {
+        "passageId": "passage_673616a88c3495ecef4ca754",
+        "pageId": "page_nybc313697_0220",
+        "scanIndex": 220,
+        "leafNumber": 219,
+        "printedPage": "204",
+        "passageCharStart": 800,
+        "passageCharEnd": 860,
+        "normalizedPassageCharStart": 800,
+        "normalizedPassageCharEnd": 860,
+        "pageCharStart": 3074,
+        "pageCharEnd": 3134,
+        "quote": "גרעסערע גרופּעס\nנאַצי:רוצחים דערנענטערט DIY‏ געטאָ-פּאַרקאַן",
+        "normalizedQuote": "גרעסערע גרופּעס\nנאַצי:רוצחים דערנענטערט DIY‏ געטאָ-פּאַרקאַן",
+        "modelQuote": "גרעסערע גרופּעס\nנאַצי:רוצחים דערנענטערט DIY‏ געטאָ-פּאַרקאַן",
+        "bbox": {
+          "left": 2528,
+          "top": 4269,
+          "right": 4489,
+          "bottom": 4439
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n219/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "904dc2efc50a0efa52aa08be4b0dab58df5e7e93fa284f76c05183ab0441d0cf",
+        "normalizedPassageChecksum": "563837c0c85bee3e52a11c4156c597ccdbcd0869a0d7bcb1a36e6b790439e447",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_204f178380da3948d82c9ab8",
+      "type": "Event",
+      "title": "Nazi forces approach Ghetto Parkan",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_bcde502ec838ba6f96a7a5f3",
+      "type": "Organization",
+      "title": "Nazi murderers",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

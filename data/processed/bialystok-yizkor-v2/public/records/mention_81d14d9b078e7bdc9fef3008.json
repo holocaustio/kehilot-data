@@ -1,0 +1,101 @@
+{
+  "id": "mention_81d14d9b078e7bdc9fef3008",
+  "type": "Institution",
+  "title": "Great City School",
+  "summary": "A school in Bialystok burned by the Nazis in 1941.",
+  "originalName": "די גרויסע שטאָט-שול",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 20,
+  "printedPage": "4",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "school",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ff6faf68a5d4f707916badd5",
+      "pageId": "page_nybc313697_0020",
+      "scanIndex": 20,
+      "leafNumber": 19,
+      "printedPage": "4",
+      "passageCharStart": 289,
+      "passageCharEnd": 308,
+      "normalizedPassageCharStart": 289,
+      "normalizedPassageCharEnd": 308,
+      "pageCharStart": 2517,
+      "pageCharEnd": 2536,
+      "quote": "די גרויסע שטאָט-שול",
+      "normalizedQuote": "די גרויסע שטאָט-שול",
+      "modelQuote": "די גרויסע שטאָט-שול",
+      "bbox": {
+        "left": 3257,
+        "top": 947,
+        "right": 3961,
+        "bottom": 1026
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n19/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "2a184daa8a745741fa8babe470e591d304b84566b4955a3e475671bac7dea7ce",
+      "normalizedPassageChecksum": "c97c142aee3769e5935e2f7bd18e8ab1c5daba2cf491298633b82af07fd2f24f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_448e4398822d2f57c7132ed5",
+      "type": "Fire",
+      "title": "Burning of the Great City School",
+      "summary": "The Nazis burned the Great City School together with nearby streets in 1941.",
+      "dateStart": "1941",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ff6faf68a5d4f707916badd5",
+        "pageId": "page_nybc313697_0020",
+        "scanIndex": 20,
+        "leafNumber": 19,
+        "printedPage": "4",
+        "passageCharStart": 272,
+        "passageCharEnd": 353,
+        "normalizedPassageCharStart": 272,
+        "normalizedPassageCharEnd": 353,
+        "pageCharStart": 2500,
+        "pageCharEnd": 2581,
+        "quote": "דער שול:הויף און די גרויסע שטאָט-שול (װאָס די נאַציס\nהאָבן AW? PR‏ 1941 פאַרברענט",
+        "normalizedQuote": "דער שול:הויף און די גרויסע שטאָט-שול (װאָס די נאַציס\nהאָבן AW? PR‏ 1941 פאַרברענט",
+        "modelQuote": "דער שול:הויף און די גרויסע שטאָט-שול (װאָס די נאַציס\nהאָבן AW? PR‏ 1941 פאַרברענט",
+        "bbox": {
+          "left": 2723,
+          "top": 947,
+          "right": 4586,
+          "bottom": 1127
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n19/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "2a184daa8a745741fa8babe470e591d304b84566b4955a3e475671bac7dea7ce",
+        "normalizedPassageChecksum": "c97c142aee3769e5935e2f7bd18e8ab1c5daba2cf491298633b82af07fd2f24f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_448e4398822d2f57c7132ed5",
+      "type": "Event",
+      "title": "Burning of the Great City School",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_b42c7264e93a6c8f6c5fa48b",
+      "type": "Place",
+      "title": "School Courtyard",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

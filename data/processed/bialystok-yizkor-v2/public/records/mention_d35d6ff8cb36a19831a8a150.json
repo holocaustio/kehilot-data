@@ -2,15 +2,16 @@
   "id": "mention_d35d6ff8cb36a19831a8a150",
   "type": "Place",
   "title": "Palesie Street",
-  "summary": "Street identified with a factory location.",
+  "summary": "A street identified near an industrial complex.",
   "originalName": "פּאַלעסיע גאַס",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 163,
   "printedPage": "147",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "street",
+  "uncertaintyNote": "The OCR rendering of the street name is uncertain.",
   "evidenceRefs": [
     {
       "passageId": "passage_58260f46317286425b0743bc",
@@ -20,12 +21,12 @@
       "printedPage": "147",
       "passageCharStart": 714,
       "passageCharEnd": 728,
-      "normalizedPassageCharStart": 614,
-      "normalizedPassageCharEnd": 628,
+      "normalizedPassageCharStart": 714,
+      "normalizedPassageCharEnd": 728,
       "pageCharStart": 714,
       "pageCharEnd": 728,
       "quote": "פּאַלעסיע\nגאַס",
-      "normalizedQuote": "פּאַלעסיע גאַס",
+      "normalizedQuote": "פּאַלעסיע\nגאַס",
       "modelQuote": "פּאַלעסיע גאַס",
       "bbox": {
         "left": 441,
@@ -38,7 +39,7 @@
       "passageChecksum": "ecaad2c19ed82d4828147f82b7b6305873b575256fcfa864212e8190a9c031b9",
       "normalizedPassageChecksum": "f087e7bd998656dd604501bc4d68a32de72d5ace60b10deb2a95a79bde3a73b9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,45 +47,21 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_91df0abcab7668fcc37e45f9",
-      "type": "Place",
-      "title": "the ghetto",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_6ccabd4a687d11a0fc71db21",
-      "type": "Institution",
-      "title": "Bialystok Jewish Council",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_21c336c0c1d9b9172884eadf",
-      "type": "Place",
-      "title": "Rogurovcer Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7966a619d77e154e44e7d593",
-      "type": "Place",
-      "title": "Falna Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8282f183c86366262fd9525d",
-      "type": "Institution",
-      "title": "Soviet industrial combines",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a6b3aeb06cd544fd901c67d0",
-      "type": "Place",
-      "title": "neutral zone",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8389b2d1d62682a858cc67ba",
+      "id": "mention_f36d2cc512dcaae58710a7a3",
       "type": "Community",
-      "title": "Jewish workers",
+      "title": "Bialystok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_99933590bfaa7e6bfc44b2d1",
+      "type": "Institution",
+      "title": "Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fa4cc4135827db4d1d8daab0",
+      "type": "Place",
+      "title": "Białystok Ghetto",
       "relation": "Appears in same passage"
     }
   ],

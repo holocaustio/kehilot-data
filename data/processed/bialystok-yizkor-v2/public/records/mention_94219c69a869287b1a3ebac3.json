@@ -1,0 +1,146 @@
+{
+  "id": "mention_94219c69a869287b1a3ebac3",
+  "type": "Place",
+  "title": "Prison",
+  "summary": "A prison where prisoners hid and were held before liberation.",
+  "originalName": "טורמע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 325,
+  "printedPage": "309",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "prison",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a7a5cbbdfb276d1753752ab3",
+      "pageId": "page_nybc313697_0325",
+      "scanIndex": 325,
+      "leafNumber": 324,
+      "printedPage": "309",
+      "passageCharStart": 0,
+      "passageCharEnd": 13,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 13,
+      "pageCharStart": 0,
+      "pageCharEnd": 13,
+      "quote": "פון דער טורמע",
+      "normalizedQuote": "פון דער טורמע",
+      "modelQuote": "פון דער טורמע",
+      "bbox": {
+        "left": 1822,
+        "top": 283,
+        "right": 2386,
+        "bottom": 352
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n324/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "c11fcdb8038ddcb34023caec8ee48f8c7fb162534a631e911e207efddee655e6",
+      "normalizedPassageChecksum": "fbe4b22b77fd52e302634afcf41cb13b813641eb07640c6356d18e695a8331f2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_de9f32a0bb494bafd717646a",
+      "predicate": "Murdered",
+      "subjectTitle": "Hitlerists",
+      "objectTitle": "Prison",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage describes prisoners being shot after being driven into an open area; the prison is the stated origin, not necessarily the shooting location.",
+      "qualifiers": {
+        "victims": "prisoners"
+      },
+      "evidence": {
+        "passageId": "passage_1bdfec9fc994e5a15ed8df11",
+        "pageId": "page_nybc313697_0325",
+        "scanIndex": 325,
+        "leafNumber": 324,
+        "printedPage": "309",
+        "passageCharStart": 114,
+        "passageCharEnd": 139,
+        "normalizedPassageCharStart": 114,
+        "normalizedPassageCharEnd": 139,
+        "pageCharStart": 625,
+        "pageCharEnd": 650,
+        "quote": "אַרעסטאַנטן פון דער טורמע",
+        "normalizedQuote": "אַרעסטאַנטן פון דער טורמע",
+        "modelQuote": "אַרעסטאַנטן פון דער טורמע",
+        "bbox": {
+          "left": 656,
+          "top": 1512,
+          "right": 1734,
+          "bottom": 1581
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n324/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "ef13d91c4ac4fc7e52d70c226d01f8abe8f304f763430d097daddd2158fb5aad",
+        "normalizedPassageChecksum": "3d94cfcc372062964b36ff33b75fac257e8bbffee1ce2dcc7a1d4b3a5799c302",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_389c7417b3a7f5c6654d71a5",
+      "type": "Liberation",
+      "title": "Liberation from the prison",
+      "summary": "The narrator sensed that liberation from the prison was approaching.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a7a5cbbdfb276d1753752ab3",
+        "pageId": "page_nybc313697_0325",
+        "scanIndex": 325,
+        "leafNumber": 324,
+        "printedPage": "309",
+        "passageCharStart": 398,
+        "passageCharEnd": 418,
+        "normalizedPassageCharStart": 398,
+        "normalizedPassageCharEnd": 418,
+        "pageCharStart": 398,
+        "pageCharEnd": 418,
+        "quote": "טאָג פון באַפרײיאונג",
+        "normalizedQuote": "טאָג פון באַפרײיאונג",
+        "modelQuote": "טאָג פון באַפרײיאונג",
+        "bbox": {
+          "left": 545,
+          "top": 998,
+          "right": 1254,
+          "bottom": 1070
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n324/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "c11fcdb8038ddcb34023caec8ee48f8c7fb162534a631e911e207efddee655e6",
+        "normalizedPassageChecksum": "fbe4b22b77fd52e302634afcf41cb13b813641eb07640c6356d18e695a8331f2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6cec9e64d0a66e4aa757d202",
+      "type": "Organization",
+      "title": "Hitlerists",
+      "relation": "Murdered"
+    },
+    {
+      "id": "event_candidate_389c7417b3a7f5c6654d71a5",
+      "type": "Event",
+      "title": "Liberation from the prison",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_13f670bc21f852b7566c2b1d",
+      "type": "Person",
+      "title": "Chaim Rozenblum",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

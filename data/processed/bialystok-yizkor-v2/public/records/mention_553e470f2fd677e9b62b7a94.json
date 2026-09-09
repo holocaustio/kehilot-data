@@ -1,0 +1,108 @@
+{
+  "id": "mention_553e470f2fd677e9b62b7a94",
+  "type": "Organization",
+  "title": "Jewish Telegraphic Agency",
+  "summary": "Agency that reported Hershberg's death on May 10, 1940.",
+  "originalName": "אידישע טעלעגראַפן אַגענטור",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 30,
+  "printedPage": "14",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "news agency",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_02fd94559bd26181a24fef4f",
+      "pageId": "page_nybc313697_0030",
+      "scanIndex": 30,
+      "leafNumber": 29,
+      "printedPage": "14",
+      "passageCharStart": 762,
+      "passageCharEnd": 790,
+      "normalizedPassageCharStart": 762,
+      "normalizedPassageCharEnd": 790,
+      "pageCharStart": 3118,
+      "pageCharEnd": 3146,
+      "quote": "(אידישע טעלעגראַפן אַגענטור)",
+      "normalizedQuote": "(אידישע טעלעגראַפן אַגענטור)",
+      "modelQuote": "(אידישע טעלעגראַפן אַגענטור)",
+      "bbox": {
+        "left": 3112,
+        "top": 3927,
+        "right": 4143,
+        "bottom": 4011
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n29/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "b1de969c53cfd044e873114160642ece969d1a51b2c0c03d3e0454a2072866b4",
+      "normalizedPassageChecksum": "c2cad8867ff3517e486c8c25e53d2eb6d5a6d38df9bdde9e03c9ab3996e8436e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_2ba416c4b865325ebc03dfc7",
+      "type": "Death",
+      "title": "Reported death of Abraham Shmuel Hershberg",
+      "summary": "The Jewish Telegraphic Agency reported Hershberg's death in Bialystok on May 10, 1940.",
+      "dateStart": "1940-05-10",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage says this report later proved inaccurate.",
+      "evidence": {
+        "passageId": "passage_02fd94559bd26181a24fef4f",
+        "pageId": "page_nybc313697_0030",
+        "scanIndex": 30,
+        "leafNumber": 29,
+        "printedPage": "14",
+        "passageCharStart": 728,
+        "passageCharEnd": 843,
+        "normalizedPassageCharStart": 728,
+        "normalizedPassageCharEnd": 843,
+        "pageCharStart": 3084,
+        "pageCharEnd": 3199,
+        "quote": "דעם 10טן מאַי 1940 האָט\nדי “NON,‏ (אידישע טעלעגראַפן אַגענטור) געמאָלדן, TR‏\nהערשבערג PR‏ געשטאָרבן PR‏ ביאַליסטאָק",
+        "normalizedQuote": "דעם 10טן מאַי 1940 האָט\nדי “NON,‏ (אידישע טעלעגראַפן אַגענטור) געמאָלדן, TR‏\nהערשבערג PR‏ געשטאָרבן PR‏ ביאַליסטאָק",
+        "modelQuote": "דעם 10טן מאַי 1940 האָט\nדי “NON,‏ (אידישע טעלעגראַפן אַגענטור) געמאָלדן, TR‏\nהערשבערג PR‏ געשטאָרבן PR‏ ביאַליסטאָק",
+        "bbox": {
+          "left": 2642,
+          "top": 3847,
+          "right": 4524,
+          "bottom": 4109
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n29/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "b1de969c53cfd044e873114160642ece969d1a51b2c0c03d3e0454a2072866b4",
+        "normalizedPassageChecksum": "c2cad8867ff3517e486c8c25e53d2eb6d5a6d38df9bdde9e03c9ab3996e8436e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_2ba416c4b865325ebc03dfc7",
+      "type": "Event",
+      "title": "Reported death of Abraham Shmuel Hershberg",
+      "relation": "Participated In",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_65b9e069005441f4dd811dd0",
+      "type": "Person",
+      "title": "Abraham Shmuel Hershberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fd067a7479a54f5797bfb15",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

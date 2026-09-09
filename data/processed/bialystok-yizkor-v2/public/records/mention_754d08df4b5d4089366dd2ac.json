@@ -1,0 +1,99 @@
+{
+  "id": "mention_754d08df4b5d4089366dd2ac",
+  "type": "Place",
+  "title": "The city",
+  "summary": "The city experienced gunfire, looting, and near-total silence during the violence.",
+  "originalName": "שטאָט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 45,
+  "printedPage": "29",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cf70545c9064b4028890d90c",
+      "pageId": "page_nybc313697_0045",
+      "scanIndex": 45,
+      "leafNumber": 44,
+      "printedPage": "29",
+      "passageCharStart": 0,
+      "passageCharEnd": 13,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 13,
+      "pageCharStart": 3050,
+      "pageCharEnd": 3063,
+      "quote": "איבער'ן שטאָט",
+      "normalizedQuote": "איבער'ן שטאָט",
+      "modelQuote": "איבער'ן שטאָט",
+      "bbox": {
+        "left": 3849,
+        "top": 723,
+        "right": 4373,
+        "bottom": 792
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n44/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "d6457afe93bedc7cb88651446a4d4d0cfa8383f168986f3a3e277f2afa97c79f",
+      "normalizedPassageChecksum": "19cac3b6f5646f6d9a9ca5bb8da7fd08207b66be89d1ccb86c7014c4d92317f1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f1683e505992d6393fe31a87",
+      "type": "Aktion Or Raid",
+      "title": "Pogrom violence in the city",
+      "summary": "Armed soldiers and police fired while hooligans looted shops and goods.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cf70545c9064b4028890d90c",
+        "pageId": "page_nybc313697_0045",
+        "scanIndex": 45,
+        "leafNumber": 44,
+        "printedPage": "29",
+        "passageCharStart": 74,
+        "passageCharEnd": 129,
+        "normalizedPassageCharStart": 74,
+        "normalizedPassageCharEnd": 129,
+        "pageCharStart": 3124,
+        "pageCharEnd": 3179,
+        "quote": "באַװאָפּנטע סאָלדאַטן\nאון פּאָליצײ געשאָסן אין די גאַסן",
+        "normalizedQuote": "באַװאָפּנטע סאָלדאַטן\nאון פּאָליצײ געשאָסן אין די גאַסן",
+        "modelQuote": "באַװאָפּנטע סאָלדאַטן\nאון פּאָליצײ געשאָסן אין די גאַסן",
+        "bbox": {
+          "left": 2569,
+          "top": 815,
+          "right": 4531,
+          "bottom": 994
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n44/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "d6457afe93bedc7cb88651446a4d4d0cfa8383f168986f3a3e277f2afa97c79f",
+        "normalizedPassageChecksum": "19cac3b6f5646f6d9a9ca5bb8da7fd08207b66be89d1ccb86c7014c4d92317f1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f1683e505992d6393fe31a87",
+      "type": "Event",
+      "title": "Pogrom violence in the city",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_e6e09d1700d3fd26b7c63359",
+      "type": "Organization",
+      "title": "Police",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

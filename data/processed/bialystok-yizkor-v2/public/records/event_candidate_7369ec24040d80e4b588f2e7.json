@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_7369ec24040d80e4b588f2e7",
+  "type": "Event",
+  "title": "Deportation of non-Jewish Bialystok residents to Siberia",
+  "summary": "Several thousand non-Jewish Bialystok residents were arrested and sent to Siberia.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 129,
+  "printedPage": "113",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The OCR contains intrusive Latin fragments.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_62a11e84b64fbe81c5094fac",
+      "pageId": "page_nybc313697_0129",
+      "scanIndex": 129,
+      "leafNumber": 128,
+      "printedPage": "113",
+      "passageCharStart": 399,
+      "passageCharEnd": 439,
+      "normalizedPassageCharStart": 399,
+      "normalizedPassageCharEnd": 439,
+      "pageCharStart": 2559,
+      "pageCharEnd": 2599,
+      "quote": "אַרעסטירט TX‏ אַרױסגעשיקט\nPP TINA‏ סיביר",
+      "normalizedQuote": "אַרעסטירט TX‏ אַרױסגעשיקט\nPP TINA‏ סיביר",
+      "modelQuote": "אַרעסטירט TX‏ אַרױסגעשיקט PP TINA‏ סיביר",
+      "bbox": {
+        "left": 467,
+        "top": 5519,
+        "right": 2400,
+        "bottom": 5684
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n128/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "577fef16df602862b85dfaceb795887cc2f223a2a2d21b3485ebc2e87877c1a1",
+      "normalizedPassageChecksum": "19349f9dcd65dbf613b3724465f86a0114bba7689ecfece17b6c2b3024b17117",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f51eed2c30efef6f88fc0588",
+      "type": "Place",
+      "title": "Siberia",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_f41077517f75cca88082dad0",
+      "type": "Community",
+      "title": "Non-Jewish Bialystok residents",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

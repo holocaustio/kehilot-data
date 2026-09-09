@@ -2,15 +2,14 @@
   "id": "mention_e2799783a285a5a6a53f467e",
   "type": "Person",
   "title": "Marilke",
-  "summary": "A person associated with sending information about a Jewish girl.",
+  "summary": "A Jewish girl whose name serves as a password for partisans.",
   "originalName": "מאַרילקע",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 238,
   "printedPage": "222",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The passage's OCR is heavily corrupted.",
   "evidenceRefs": [
     {
       "passageId": "passage_2d859bf379f3f9b0289da114",
@@ -20,8 +19,8 @@
       "printedPage": "222",
       "passageCharStart": 733,
       "passageCharEnd": 741,
-      "normalizedPassageCharStart": 624,
-      "normalizedPassageCharEnd": 632,
+      "normalizedPassageCharStart": 733,
+      "normalizedPassageCharEnd": 741,
       "pageCharStart": 1191,
       "pageCharEnd": 1199,
       "quote": "מאַרילקע",
@@ -38,15 +37,58 @@
       "passageChecksum": "0d25505e6a843e02dfa1a15ce392dd8521cf1e7ea9b4099a39d7dd3061072f03",
       "normalizedPassageChecksum": "aa67aeb243a60f24c9cce14c541889508c9a2fb30490bdfdba2b373ce4d53ad6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_395e4bcd64e1b270b4bdfc91",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Marilke",
+      "objectTitle": "Partisans",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2d859bf379f3f9b0289da114",
+        "pageId": "page_nybc313697_0238",
+        "scanIndex": 238,
+        "leafNumber": 237,
+        "printedPage": "222",
+        "passageCharStart": 705,
+        "passageCharEnd": 741,
+        "normalizedPassageCharStart": 705,
+        "normalizedPassageCharEnd": 741,
+        "pageCharStart": 1163,
+        "pageCharEnd": 1199,
+        "quote": "רעדן בלויז די צוויי װערטער: מאַרילקע",
+        "normalizedQuote": "רעדן בלויז די צוויי װערטער: מאַרילקע",
+        "modelQuote": "רעדן בלויז די צוויי װערטער: מאַרילקע",
+        "bbox": {
+          "left": 1065,
+          "top": 2514,
+          "right": 2378,
+          "bottom": 2598
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n237/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "0d25505e6a843e02dfa1a15ce392dd8521cf1e7ea9b4099a39d7dd3061072f03",
+        "normalizedPassageChecksum": "aa67aeb243a60f24c9cce14c541889508c9a2fb30490bdfdba2b373ce4d53ad6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_ca54a397e1116d619a5273a1",
+      "id": "mention_7403a431c1fda42b6c0f712d",
+      "type": "Organization",
+      "title": "Partisans",
+      "relation": "Mentioned In"
+    },
+    {
+      "id": "mention_cd60dee0ab7f4901735edc5f",
       "type": "Person",
       "title": "Yuzhek",
       "relation": "Appears in same passage"
@@ -58,20 +100,14 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_806d8d00a6b78eb62ede610a",
+      "id": "mention_fc2fad143d50cde01d0ffbf0",
       "type": "Place",
       "title": "Forest",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2f04635f86fdbb9074550f3f",
-      "type": "Place",
-      "title": "City",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d781cb70defb556da2d9e3a7",
-      "type": "Community",
+      "id": "mention_7403a431c1fda42b6c0f712d",
+      "type": "Organization",
       "title": "Partisans",
       "relation": "Appears in same passage"
     }

@@ -1,0 +1,72 @@
+{
+  "id": "event_candidate_bbc4a862a57a24b791fb1db9",
+  "type": "Event",
+  "title": "Closure of Białystok Ghetto Gates",
+  "summary": "Armed patrols closed the ghetto gates on 2 November 1942.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 185,
+  "printedPage": "169",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The schema lacks a gate-closure event type; DEPORTATION is not a precise fit.",
+  "dateStart": "1942-11-02",
+  "dateEnd": "1942-11-02",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5c3be0b356fbead238d64770",
+      "pageId": "page_nybc313697_0185",
+      "scanIndex": 185,
+      "leafNumber": 184,
+      "printedPage": "169",
+      "passageCharStart": 703,
+      "passageCharEnd": 765,
+      "normalizedPassageCharStart": 703,
+      "normalizedPassageCharEnd": 765,
+      "pageCharStart": 4349,
+      "pageCharEnd": 4411,
+      "quote": "דער פאַקט, OND‏ די טויערן NOVA TID‏ זיינען “AND‏\nריגלט געװאָרן",
+      "normalizedQuote": "דער פאַקט, OND‏ די טויערן NOVA TID‏ זיינען “AND‏\nריגלט געװאָרן",
+      "modelQuote": "דער פאַקט, OND‏ די טויערן NOVA TID‏ זיינען “AND‏ ריגלט געװאָרן",
+      "bbox": {
+        "left": 2573,
+        "top": 4105,
+        "right": 4497,
+        "bottom": 4272
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n184/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "1aaf4dc0260bf31cc0a96053f0c337e0f71e84a9db2ae24a18c2c2ad29b254de",
+      "normalizedPassageChecksum": "6e76331390e3f68167a8b1842b359a529962f27502c59b8f8c31f1b05ca15883",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_fa4cc4135827db4d1d8daab0",
+      "type": "Place",
+      "title": "Białystok Ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_fa4cc4135827db4d1d8daab0",
+      "type": "Place",
+      "title": "Białystok Ghetto",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_ae0c7668c852d26ba7ba7ed8",
+      "type": "Organization",
+      "title": "German Occupation Authority",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

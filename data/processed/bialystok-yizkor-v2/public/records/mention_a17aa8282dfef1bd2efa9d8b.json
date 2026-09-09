@@ -1,0 +1,103 @@
+{
+  "id": "mention_a17aa8282dfef1bd2efa9d8b",
+  "type": "Place",
+  "title": "Biała River",
+  "summary": "A gallows was prepared near the Biała River.",
+  "originalName": "ביאַלע",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 191,
+  "printedPage": "175",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "river",
+  "uncertaintyNote": "OCR wording suggests a bridge near the Biała; exact geographic identification is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_375291eefca92a7378c302fc",
+      "pageId": "page_nybc313697_0191",
+      "scanIndex": 191,
+      "leafNumber": 190,
+      "printedPage": "175",
+      "passageCharStart": 503,
+      "passageCharEnd": 527,
+      "normalizedPassageCharStart": 503,
+      "normalizedPassageCharEnd": 527,
+      "pageCharStart": 2363,
+      "pageCharEnd": 2387,
+      "quote": "לעבן בריק פון דער ביאַלע",
+      "normalizedQuote": "לעבן בריק פון דער ביאַלע",
+      "modelQuote": "לעבן בריק פון דער ביאַלע",
+      "bbox": {
+        "left": 817,
+        "top": 4978,
+        "right": 1733,
+        "bottom": 5059
+      },
+      "scanUrl": "https://archive.org/details/nybc313697/page/n190/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+      "passageChecksum": "8144e42f34256aab1c468b795d759553fdea00c638c2481542987906a134a124",
+      "normalizedPassageChecksum": "f0e31a7cb26ea8a7707334ca222d985c9f3d21f7a92d8c60d9401bde486a6053",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_cd11d0f220cf979422f7cec4",
+      "type": "Murder",
+      "title": "Execution of three Jews near the Biała River",
+      "summary": "Three of ten accused Jews were hanged by a Jewish policeman near a bridge over the Biała River.",
+      "dateStart": "1943-02",
+      "dateEnd": "1943-02",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The surrounding OCR is heavily corrupted; the month and year appear in a report description.",
+      "evidence": {
+        "passageId": "passage_375291eefca92a7378c302fc",
+        "pageId": "page_nybc313697_0191",
+        "scanIndex": 191,
+        "leafNumber": 190,
+        "printedPage": "175",
+        "passageCharStart": 670,
+        "passageCharEnd": 745,
+        "normalizedPassageCharStart": 670,
+        "normalizedPassageCharEnd": 745,
+        "pageCharStart": 2530,
+        "pageCharEnd": 2605,
+        "quote": "דריי פון די 10 האָט, לוט אַ באַ-\nפעל, אַ אידישער פּאַליציאַנט אויפגעהאַנגען",
+        "normalizedQuote": "דריי פון די 10 האָט, לוט אַ באַ-\nפעל, אַ אידישער פּאַליציאַנט אויפגעהאַנגען",
+        "modelQuote": "דריי פון די 10 האָט, לוט אַ באַ-\nפעל, אַ אידישער פּאַליציאַנט אויפגעהאַנגען",
+        "bbox": {
+          "left": 465,
+          "top": 5274,
+          "right": 2391,
+          "bottom": 5453
+        },
+        "scanUrl": "https://archive.org/details/nybc313697/page/n190/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313697/nybc313697.pdf",
+        "passageChecksum": "8144e42f34256aab1c468b795d759553fdea00c638c2481542987906a134a124",
+        "normalizedPassageChecksum": "f0e31a7cb26ea8a7707334ca222d985c9f3d21f7a92d8c60d9401bde486a6053",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_cd11d0f220cf979422f7cec4",
+      "type": "Event",
+      "title": "Execution of three Jews near the Biała River",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_06244f6dbe23de2bbd022b23",
+      "type": "Community",
+      "title": "Białystok Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}
