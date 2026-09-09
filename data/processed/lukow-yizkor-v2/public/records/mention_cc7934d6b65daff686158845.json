@@ -1,0 +1,101 @@
+{
+  "id": "mention_cc7934d6b65daff686158845",
+  "type": "Place",
+  "title": "Shvidri",
+  "summary": "Village where weapons were excavated.",
+  "originalName": "שװידרי",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 476,
+  "printedPage": "472",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "village",
+  "uncertaintyNote": "OCR spelling is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d1aac7a6911b20e723c89a98",
+      "pageId": "page_nybc301551_0476",
+      "scanIndex": 476,
+      "leafNumber": 475,
+      "printedPage": "472",
+      "passageCharStart": 87,
+      "passageCharEnd": 99,
+      "normalizedPassageCharStart": 87,
+      "normalizedPassageCharEnd": 99,
+      "pageCharStart": 2645,
+      "pageCharEnd": 2657,
+      "quote": "דאר ף שװידרי",
+      "normalizedQuote": "דאר ף שװידרי",
+      "modelQuote": "דארף שװידרי",
+      "bbox": {
+        "left": 2370,
+        "top": 4357,
+        "right": 2902,
+        "bottom": 4423
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n475/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "9a1a20294f948030277b186412a827262f5fc92a6e86689a63e34c0d04f9bbca",
+      "normalizedPassageChecksum": "6230f2491c7e90917190c6c3e61d71aaf8243507ac92b67d47cd8baf6b8eae9b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_bb4a2a32cdd802aeb56d6578",
+      "type": "Migration",
+      "title": "Journey to excavate hidden weapons",
+      "summary": "The narrator and companions went to Shvidri to excavate hidden weapons.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "Migration is only a loose fit; the text describes travel, not migration.",
+      "evidence": {
+        "passageId": "passage_d1aac7a6911b20e723c89a98",
+        "pageId": "page_nybc301551_0476",
+        "scanIndex": 476,
+        "leafNumber": 475,
+        "printedPage": "472",
+        "passageCharStart": 78,
+        "passageCharEnd": 141,
+        "normalizedPassageCharStart": 78,
+        "normalizedPassageCharEnd": 141,
+        "pageCharStart": 2636,
+        "pageCharEnd": 2699,
+        "quote": "אװעק א ץ דאר ף שװידרי , כד י אויםצוגראב ן ד י באד,אלטענ ע ביקםן",
+        "normalizedQuote": "אװעק א ץ דאר ף שװידרי , כד י אויםצוגראב ן ד י באד,אלטענ ע ביקםן",
+        "modelQuote": "אװעק אץ דארף שװידרי, כדי אויםצוגראבן די באד,אלטענע ביקםן",
+        "bbox": {
+          "left": 1008,
+          "top": 4351,
+          "right": 3030,
+          "bottom": 4429
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n475/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "9a1a20294f948030277b186412a827262f5fc92a6e86689a63e34c0d04f9bbca",
+        "normalizedPassageChecksum": "6230f2491c7e90917190c6c3e61d71aaf8243507ac92b67d47cd8baf6b8eae9b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_bb4a2a32cdd802aeb56d6578",
+      "type": "Event",
+      "title": "Journey to excavate hidden weapons",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_f27fc9ccf7e2ff1dafcbcdc0",
+      "type": "Person",
+      "title": "Polish man",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

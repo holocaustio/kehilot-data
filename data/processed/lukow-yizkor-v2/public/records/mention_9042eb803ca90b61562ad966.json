@@ -2,10 +2,10 @@
   "id": "mention_9042eb803ca90b61562ad966",
   "type": "Person",
   "title": "Sholem Aleichem",
-  "summary": "Author of the cited play about Tevye the Milkman.",
+  "summary": "Author named in connection with Tevye the Milkman.",
   "originalName": "שלום עליכמס",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 528,
   "printedPage": "524",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "524",
       "passageCharStart": 995,
       "passageCharEnd": 1008,
-      "normalizedPassageCharStart": 868,
-      "normalizedPassageCharEnd": 879,
+      "normalizedPassageCharStart": 995,
+      "normalizedPassageCharEnd": 1008,
       "pageCharStart": 995,
       "pageCharEnd": 1008,
       "quote": "שלו ם עליכמ ס",
-      "normalizedQuote": "שלום עליכמס",
+      "normalizedQuote": "שלו ם עליכמ ס",
       "modelQuote": "שלום עליכמס",
       "bbox": {
         "left": 493,
@@ -38,56 +38,13 @@
       "passageChecksum": "45de6e34703aa188c00a87c89ddcf6734caaabaf111496d824597ee28eecf1f0",
       "normalizedPassageChecksum": "0addd19949e3f141acba40c6eeeedb3b49af4d7e32ea3ab9730d99b7e3ba68c5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_d4d5e200d9248c8d19836af3",
-      "predicate": "Authored By",
-      "subjectTitle": "Sholem Aleichem",
-      "objectTitle": "Tevye the Milkman",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_2ceec840b36a4828552ae6bd",
-        "pageId": "page_nybc301551_0528",
-        "scanIndex": 528,
-        "leafNumber": 527,
-        "printedPage": "524",
-        "passageCharStart": 995,
-        "passageCharEnd": 1030,
-        "normalizedPassageCharStart": 868,
-        "normalizedPassageCharEnd": 900,
-        "pageCharStart": 995,
-        "pageCharEnd": 1030,
-        "quote": "שלו ם עליכמ ס ״טובי ה\nדער מילכיקער״",
-        "normalizedQuote": "שלום עליכמס ״טוביה דער מילכיקער״",
-        "modelQuote": "שלום עליכמס ״טוביה דער מילכיקער״",
-        "bbox": {
-          "left": 453,
-          "top": 2368,
-          "right": 3057,
-          "bottom": 2558
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n527/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "45de6e34703aa188c00a87c89ddcf6734caaabaf111496d824597ee28eecf1f0",
-        "normalizedPassageChecksum": "0addd19949e3f141acba40c6eeeedb3b49af4d7e32ea3ab9730d99b7e3ba68c5",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_4386902944f9f890c691b87b",
-      "type": "Work",
-      "title": "Tevye the Milkman",
-      "relation": "Authored By"
-    },
     {
       "id": "mention_4d8879d7cc6b778d32300a9c",
       "type": "Person",
@@ -95,31 +52,55 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_32b30d7e8b922d56a9139816",
+      "id": "mention_8420498cb240ed04492d97fb",
       "type": "Work",
-      "title": "Song of the Valley",
+      "title": "Shir HaEmek",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3fdfe377e142a075cd7c6ba2",
+      "id": "mention_3b72d84255707fa6120f57c1",
       "type": "Place",
-      "title": "Pithiviers camp",
+      "title": "Pithiviers concentration camp",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2d9b9c166f6a3bbfd50fcc8e",
+      "id": "mention_6bdd087e6e7821e6f61f2f9f",
       "type": "Place",
-      "title": "Beaune-la-Rolande camp",
+      "title": "Ban-la-Roland concentration camp",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bb16f0fb5e7ae042f21f9e3e",
+      "id": "mention_9be736bf9c8a3e73185c3621",
+      "type": "Place",
+      "title": "France",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cf5972479b4ad20cc75b2fba",
+      "type": "Organization",
+      "title": "Assistance committee",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_205cc4d0426fe8433d7de4b5",
+      "type": "Organization",
+      "title": "Cultural commission",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e024f5d91fe6a213d58db410",
+      "type": "Institution",
+      "title": "Jewish theater",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c7b7d67f35a81b7744d4cd96",
       "type": "Work",
       "title": "At Night in the Old Market",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4386902944f9f890c691b87b",
+      "id": "mention_ca7eaec0be850382eb0af475",
       "type": "Work",
       "title": "Tevye the Milkman",
       "relation": "Appears in same passage"

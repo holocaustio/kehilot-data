@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_9e2b53a31c67f99c56f30a31",
+  "type": "Event",
+  "title": "Smaliar worked at a Jewish hospital in Minsk",
+  "summary": "Smaliar worked at a Jewish hospital in Minsk under the name Stolarevich.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 498,
+  "printedPage": "494",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Employment",
+  "uncertaintyNote": "OCR may distort the name and place.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_580fd2e03796bdc8ca0ac5ab",
+      "pageId": "page_nybc301551_0498",
+      "scanIndex": 498,
+      "leafNumber": 497,
+      "printedPage": "494",
+      "passageCharStart": 3,
+      "passageCharEnd": 62,
+      "normalizedPassageCharStart": 3,
+      "normalizedPassageCharEnd": 62,
+      "pageCharStart": 846,
+      "pageCharEnd": 905,
+      "quote": "םמאליא ר הא ט דעמאל ט געארבע ט אי ן מינםקע ר ײדיש ן שפיטא ל",
+      "normalizedQuote": "םמאליא ר הא ט דעמאל ט געארבע ט אי ן מינםקע ר ײדיש ן שפיטא ל",
+      "modelQuote": "םמאליאר האט דעמאלט געארבעט אין מינםקער ײדישן שפיטאל",
+      "bbox": {
+        "left": 490,
+        "top": 2005,
+        "right": 2962,
+        "bottom": 2091
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n497/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "2f0986c1a496ccff0017066763bcb1aa013abdaec797bdaa310ceb06830a8aba",
+      "normalizedPassageChecksum": "0b831a2977bcbf9546b3d32c2e2a6c31a3717328b90ed2afb81bc46eb4d09906",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_05e0eb59c2d0871551149029",
+      "type": "Place",
+      "title": "Minsk",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_69a2c4ec939e3bfc54fa3312",
+      "type": "Person",
+      "title": "Smaliar",
+      "relation": "Participant",
+      "role": "Employee"
+    },
+    {
+      "id": "mention_7f2db01150819b87cd692054",
+      "type": "Institution",
+      "title": "Minsk Jewish Hospital",
+      "relation": "Participant",
+      "role": "Employer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

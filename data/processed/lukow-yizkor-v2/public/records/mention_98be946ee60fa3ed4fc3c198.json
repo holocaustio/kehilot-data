@@ -2,15 +2,14 @@
   "id": "mention_98be946ee60fa3ed4fc3c198",
   "type": "Person",
   "title": "Libreikh",
-  "summary": "A member of the literary circle under Kroy's leadership.",
+  "summary": "Member of the literary circle under Kroy’s leadership.",
   "originalName": "ליברײך",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 142,
   "printedPage": "138",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "Only one name is given.",
   "evidenceRefs": [
     {
       "passageId": "passage_7dab4707c3fa97bc4fc80e47",
@@ -20,8 +19,8 @@
       "printedPage": "138",
       "passageCharStart": 1063,
       "passageCharEnd": 1069,
-      "normalizedPassageCharStart": 924,
-      "normalizedPassageCharEnd": 930,
+      "normalizedPassageCharStart": 1063,
+      "normalizedPassageCharEnd": 1069,
       "pageCharStart": 1063,
       "pageCharEnd": 1069,
       "quote": "ליברײך",
@@ -38,84 +37,59 @@
       "passageChecksum": "ea875bee58751e1fb2e033de4dda124671b58511720700f90e8145fc5ace79cb",
       "normalizedPassageChecksum": "2d8f51548e3dd9bfc0267e52a7654a323a138a023769c3630e60d540650bd877",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_e8af0e5c3aed99c6ddaeb571",
-      "predicate": "Member Of",
-      "subjectTitle": "Libreikh",
-      "objectTitle": "Literary circle",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_7dab4707c3fa97bc4fc80e47",
-        "pageId": "page_nybc301551_0142",
-        "scanIndex": 142,
-        "leafNumber": 141,
-        "printedPage": "138",
-        "passageCharStart": 1063,
-        "passageCharEnd": 1069,
-        "normalizedPassageCharStart": 924,
-        "normalizedPassageCharEnd": 930,
-        "pageCharStart": 1063,
-        "pageCharEnd": 1069,
-        "quote": "ליברײך",
-        "normalizedQuote": "ליברײך",
-        "modelQuote": "ליברײך",
-        "bbox": {
-          "left": 2752,
-          "top": 4458,
-          "right": 2910,
-          "bottom": 4510
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n141/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "ea875bee58751e1fb2e033de4dda124671b58511720700f90e8145fc5ace79cb",
-        "normalizedPassageChecksum": "2d8f51548e3dd9bfc0267e52a7654a323a138a023769c3630e60d540650bd877",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
     {
-      "id": "mention_bab70036196ebfb360505e73",
+      "id": "mention_e1d47cadbd12e072902029b7",
       "type": "Organization",
-      "title": "Literary circle",
-      "relation": "Member Of"
-    },
-    {
-      "id": "mention_42a05bb9ec098e0fdc244119",
-      "type": "Person",
-      "title": "Luther Kroy",
+      "title": "Right Poalei Zion",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b7131dea60f7d035f0f8f11a",
-      "type": "Person",
-      "title": "Moses Finkelstein",
+      "id": "mention_d431867a4d05fef15a548d49",
+      "type": "Place",
+      "title": "Jewish Street in Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b406db324a332a59293048b8",
+      "id": "mention_d7e2b3a246fefd250b031ed6",
       "type": "Person",
-      "title": "Shimon Sheinberg",
+      "title": "Liebter Kroy",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e127eaa4543b207cc9d1d606",
+      "id": "mention_0e3173e737baeb916ece682d",
       "type": "Person",
-      "title": "Moses Feltsman",
+      "title": "Moshe Finkelshtein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f3934c8a375b8d7e889c8c11",
+      "id": "mention_b3b21565d8e0e3412a4a3230",
       "type": "Person",
-      "title": "Moses Gatesdiner",
+      "title": "Shimon Sheynberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_794fa1500e5f565e0339f7e6",
+      "type": "Person",
+      "title": "Moshe Feltsman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_77af4059035cb6828a852177",
+      "type": "Person",
+      "title": "Motl Feltsman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c4cdd9d24420f16e22d72a32",
+      "type": "Person",
+      "title": "Moshe Gatesdiner",
       "relation": "Appears in same passage"
     },
     {
@@ -125,21 +99,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9cbb088a72cd207c6bdb207b",
+      "id": "mention_a7db43b58ec7f16aa2584842",
       "type": "Person",
       "title": "Jacob Lichtenstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_757e98e0770a5c9bb0c5e409",
-      "type": "Organization",
-      "title": "Poale Zion",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bab70036196ebfb360505e73",
-      "type": "Organization",
-      "title": "Literary circle",
+      "id": "mention_4016cdc9edbf3a1d5d17e67d",
+      "type": "Institution",
+      "title": "Gymnasium",
       "relation": "Appears in same passage"
     }
   ],

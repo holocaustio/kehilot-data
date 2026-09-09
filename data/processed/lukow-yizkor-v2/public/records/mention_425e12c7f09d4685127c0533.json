@@ -1,0 +1,101 @@
+{
+  "id": "mention_425e12c7f09d4685127c0533",
+  "type": "Place",
+  "title": "Piotrków prison",
+  "summary": "The prison where the narrator was held.",
+  "originalName": "פיאטרקאורער תפיסה",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 125,
+  "printedPage": "121",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "prison",
+  "uncertaintyNote": "OCR spelling is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_704d4af773ef33273aac70fc",
+      "pageId": "page_nybc301551_0125",
+      "scanIndex": 125,
+      "leafNumber": 124,
+      "printedPage": "121",
+      "passageCharStart": 28,
+      "passageCharEnd": 56,
+      "normalizedPassageCharStart": 28,
+      "normalizedPassageCharEnd": 56,
+      "pageCharStart": 28,
+      "pageCharEnd": 56,
+      "quote": "פ װ דע ר פיאטרקאורע ר תפיס ה",
+      "normalizedQuote": "פ װ דע ר פיאטרקאורע ר תפיס ה",
+      "modelQuote": "פװ דער פיאטרקאורער תפיסה",
+      "bbox": {
+        "left": 1577,
+        "top": 866,
+        "right": 2738,
+        "bottom": 933
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n124/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "e200ab962e33c1bbbd0b12987fa053521fa5cf4bf6ab55ecd9713670c631a229",
+      "normalizedPassageChecksum": "d70d798f7ac504eb2993b0a18c7698d0cc1d6505deba9945ef2ab3b3a90d9a78",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_53d50e55ec44414034d98ca0",
+      "type": "Migration",
+      "title": "Money sent to Piotrków",
+      "summary": "Nakh sent Regina with money to Piotrków.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "This is an explicitly described journey or dispatch, but the controlled event types do not include sending aid; MIGRATION is only an approximate classification.",
+      "evidence": {
+        "passageId": "passage_f5669d48549a2309dabcff20",
+        "pageId": "page_nybc301551_0125",
+        "scanIndex": 125,
+        "leafNumber": 124,
+        "printedPage": "121",
+        "passageCharStart": 56,
+        "passageCharEnd": 128,
+        "normalizedPassageCharStart": 56,
+        "normalizedPassageCharEnd": 128,
+        "pageCharStart": 876,
+        "pageCharEnd": 948,
+        "quote": "חב ר נ ח הא ט געשיק ט\nקיץ פיאטרקא װ ד י חברט ע רעגינ ע מי ט א ביס ל געלט",
+        "normalizedQuote": "חב ר נ ח הא ט געשיק ט\nקיץ פיאטרקא װ ד י חברט ע רעגינ ע מי ט א ביס ל געלט",
+        "modelQuote": "חבר נח האט געשיקט קיץ פיאטרקאװ די חברטע רעגינע מיטא ביסל געלט",
+        "bbox": {
+          "left": 470,
+          "top": 1987,
+          "right": 3066,
+          "bottom": 2143
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n124/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b9fb3277bd4feadef7947b6822644a8a2bf75757b2777e034bf2b2a3ad8902f7",
+        "normalizedPassageChecksum": "26728f2929d3f05e9e8f5733dff839103907be4e6dfada1a61024d8a1d9316c5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_53d50e55ec44414034d98ca0",
+      "type": "Event",
+      "title": "Money sent to Piotrków",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4ce167afb218c2054f828105",
+      "type": "Institution",
+      "title": "Prison administration",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

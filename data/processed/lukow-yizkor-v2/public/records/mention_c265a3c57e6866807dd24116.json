@@ -1,0 +1,118 @@
+{
+  "id": "mention_c265a3c57e6866807dd24116",
+  "type": "Place",
+  "title": "Malkin",
+  "summary": "A place where the narrator crossed the border in January 1940.",
+  "originalName": "מאלקין",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 343,
+  "printedPage": "339",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "border crossing",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1973c503462944de80c85ec5",
+      "pageId": "page_nybc301551_0343",
+      "scanIndex": 343,
+      "leafNumber": 342,
+      "printedPage": "339",
+      "passageCharStart": 395,
+      "passageCharEnd": 425,
+      "normalizedPassageCharStart": 395,
+      "normalizedPassageCharEnd": 425,
+      "pageCharStart": 395,
+      "pageCharEnd": 425,
+      "quote": "ב ײ מאלקי ן אדיבע ר ד י גרענעץ",
+      "normalizedQuote": "ב ײ מאלקי ן אדיבע ר ד י גרענעץ",
+      "modelQuote": "בײ מאלקין אדיבער די גרענעץ",
+      "bbox": {
+        "left": 805,
+        "top": 1264,
+        "right": 1853,
+        "bottom": 1344
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n342/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "fc18a729df99694c3e2ca91bc1a9fd67d97dd5758c363ec8a1789323759f3dd9",
+      "normalizedPassageChecksum": "0e75bbe9021451fa57df9c28dd6820b27ecdaef0f11653ee81a8b9bc732cb734",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e1cd267d4ade596d1be6cbd8",
+      "type": "Migration",
+      "title": "Narrator crossed the border at Malkin",
+      "summary": "The narrator crossed the border at Malkin in early January 1940.",
+      "dateStart": "1940-01",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1973c503462944de80c85ec5",
+        "pageId": "page_nybc301551_0343",
+        "scanIndex": 343,
+        "leafNumber": 342,
+        "printedPage": "339",
+        "passageCharStart": 360,
+        "passageCharEnd": 425,
+        "normalizedPassageCharStart": 360,
+        "normalizedPassageCharEnd": 425,
+        "pageCharStart": 360,
+        "pageCharEnd": 425,
+        "quote": "אי ן אנהײ ב יאנוא ר 1940 בי ן אי ך ב ײ מאלקי ן אדיבע ר ד י גרענעץ",
+        "normalizedQuote": "אי ן אנהײ ב יאנוא ר 1940 בי ן אי ך ב ײ מאלקי ן אדיבע ר ד י גרענעץ",
+        "modelQuote": "אין אנהײב יאנואר1940 בין איך בײ מאלקין אדיבער די גרענעץ",
+        "bbox": {
+          "left": 805,
+          "top": 1264,
+          "right": 2883,
+          "bottom": 1344
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n342/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "fc18a729df99694c3e2ca91bc1a9fd67d97dd5758c363ec8a1789323759f3dd9",
+        "normalizedPassageChecksum": "0e75bbe9021451fa57df9c28dd6820b27ecdaef0f11653ee81a8b9bc732cb734",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e1cd267d4ade596d1be6cbd8",
+      "type": "Event",
+      "title": "Narrator crossed the border at Malkin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a77df426a705eb653b042890",
+      "type": "Place",
+      "title": "Lublin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d916f5bea54f3af5b30bc91b",
+      "type": "Person",
+      "title": "Moses Aaron Lisebiker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fa3a8939e5a906c54bfa501",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

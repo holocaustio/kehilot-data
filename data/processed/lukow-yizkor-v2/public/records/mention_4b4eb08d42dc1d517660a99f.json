@@ -2,15 +2,15 @@
   "id": "mention_4b4eb08d42dc1d517660a99f",
   "type": "Person",
   "title": "Keslbrener",
-  "summary": "A Jewish person who escaped from the deportation train with the narrator.",
+  "summary": "Jewish escapee who jumped from the train near Łuków.",
   "originalName": "קעםלברענער",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 321,
   "printedPage": "317",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "OCR spelling may be uncertain.",
+  "uncertaintyNote": "Name transliteration is uncertain because of OCR.",
   "evidenceRefs": [
     {
       "passageId": "passage_938f7c9c4db9575ac05a6f65",
@@ -20,12 +20,12 @@
       "printedPage": "317",
       "passageCharStart": 1322,
       "passageCharEnd": 1333,
-      "normalizedPassageCharStart": 1131,
-      "normalizedPassageCharEnd": 1141,
+      "normalizedPassageCharStart": 1322,
+      "normalizedPassageCharEnd": 1333,
       "pageCharStart": 1322,
       "pageCharEnd": 1333,
       "quote": "קעםלברענע ר",
-      "normalizedQuote": "קעםלברענער",
+      "normalizedQuote": "קעםלברענע ר",
       "modelQuote": "קעםלברענער",
       "bbox": {
         "left": 1682,
@@ -38,19 +38,18 @@
       "passageChecksum": "fd78a820e34e22b9052becf8fceeabe186bc58feaa7b98cce965a98e304f6839",
       "normalizedPassageChecksum": "8cdaf72cd7f748bbabae511957e1c93a2863186b4cccd51249571605874d67c1",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_7fa5dc1ad7d8609ae1a8ecee",
+      "id": "event_candidate_657c26d1f7d3b58432828de0",
       "type": "Migration",
       "title": "Escape from deportation train",
-      "summary": "The narrator escaped from the train three kilometers from Lukow with two other Jews.",
+      "summary": "The narrator and two Jews jumped from a train three kilometers from Łuków.",
       "confidence": "HIGH",
-      "uncertaintyNote": "The event type is limited to the available controlled vocabulary.",
       "evidence": {
         "passageId": "passage_938f7c9c4db9575ac05a6f65",
         "pageId": "page_nybc301551_0321",
@@ -58,19 +57,19 @@
         "leafNumber": 320,
         "printedPage": "317",
         "passageCharStart": 1028,
-        "passageCharEnd": 1126,
-        "normalizedPassageCharStart": 882,
-        "normalizedPassageCharEnd": 967,
+        "passageCharEnd": 1112,
+        "normalizedPassageCharStart": 1028,
+        "normalizedPassageCharEnd": 1112,
         "pageCharStart": 1028,
-        "pageCharEnd": 1126,
-        "quote": "װען מי ר זענע ן געװע ן דרי י קילאמעטע ר פו ן לוקאװ , אי ז מי ר געלונגע ן צ ו שפרינ ־\n\nגען פו ן צוג",
-        "normalizedQuote": "װען מיר זענען געװען דריי קילאמעטער פון לוקאװ, איז מיר געלונגען צו שפרינ־\n\nגען פון צוג",
-        "modelQuote": "װען מיר זענען געװען דריי קילאמעטער פון לוקאװ, איז מיר געלונגען צו שפרינ־גען פון צוג",
+        "pageCharEnd": 1112,
+        "quote": "װען מי ר זענע ן געװע ן דרי י קילאמעטע ר פו ן לוקאװ , אי ז מי ר געלונגע ן צ ו שפרינ ־",
+        "normalizedQuote": "װען מי ר זענע ן געװע ן דרי י קילאמעטע ר פו ן לוקאװ , אי ז מי ר געלונגע ן צ ו שפרינ ־",
+        "modelQuote": "װען מיר זענען געװען דריי קילאמעטער פון לוקאװ, איז מיר געלונגען צו שפרינ־",
         "bbox": {
           "left": 478,
           "top": 4228,
-          "right": 3066,
-          "bottom": 4410
+          "right": 2908,
+          "bottom": 4308
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n320/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
@@ -84,82 +83,46 @@
   ],
   "connections": [
     {
-      "id": "event_candidate_7fa5dc1ad7d8609ae1a8ecee",
+      "id": "event_candidate_657c26d1f7d3b58432828de0",
       "type": "Event",
       "title": "Escape from deportation train",
       "relation": "Participated In",
       "role": "Survivor"
     },
     {
-      "id": "mention_66df5f1594ada7e5aaedd1fc",
-      "type": "Community",
-      "title": "Lukow Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_09a019ffd885545713588bcd",
+      "id": "mention_c4d0626bc2b1d337bd0d9832",
       "type": "Person",
       "title": "Abraham Weisbaum",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_52b9c1a5e9a5e05ce84918ff",
-      "type": "Person",
-      "title": "Unnamed narrator",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e7fbee3182be73611b643143",
-      "type": "Place",
-      "title": "Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5936d51c1e8035704f34e05b",
-      "type": "Place",
-      "title": "Łuków Ghetto",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b4d843ca22b0116346521ff8",
+      "id": "mention_5475663f345e1e5e11dcd79d",
       "type": "Place",
       "title": "Pig Market",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_fb3d86a4450c8f7743219fa0",
+      "id": "mention_f866ac6dd2e511db07559238",
       "type": "Person",
-      "title": "Unnamed wife of narrator",
+      "title": "Latschka",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_12327fc1fdff0fd0de71c39f",
-      "type": "Family",
-      "title": "Unnamed children of narrator",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_cd12f5c982a6a6886c452097",
+      "id": "mention_593b7372aa4b08ba673993e4",
       "type": "Person",
-      "title": "Latchka",
+      "title": "Yitzhak Adlanski",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6ac37eb82502be43a64839eb",
-      "type": "Person",
-      "title": "Yitzhak Adlansky",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_da30c1d7470b10c230a98e12",
+      "id": "mention_d0cc1f39b4d42e016c7b5345",
       "type": "Place",
-      "title": "Railway line near Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_13f44749652656445080d1a7",
-      "type": "Place",
-      "title": "Railway",
+      "title": "Treblinka",
       "relation": "Appears in same passage"
     }
   ],

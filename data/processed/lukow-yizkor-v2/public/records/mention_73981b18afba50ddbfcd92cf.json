@@ -2,10 +2,10 @@
   "id": "mention_73981b18afba50ddbfcd92cf",
   "type": "Person",
   "title": "Rabbi Meir'l of Krakow",
-  "summary": "Rabbi of Lukow described as a strict Jewish scholar.",
-  "originalName": "הרב של לוקוב ר׳ מאיר׳ל מקרקוב",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "summary": "Rabbi of Łuków and a renowned Torah scholar.",
+  "originalName": "ר׳ מאיר׳ל מקרקוב",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 79,
   "printedPage": "75",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "75",
       "passageCharStart": 611,
       "passageCharEnd": 645,
-      "normalizedPassageCharStart": 534,
-      "normalizedPassageCharEnd": 563,
+      "normalizedPassageCharStart": 611,
+      "normalizedPassageCharEnd": 645,
       "pageCharStart": 611,
       "pageCharEnd": 645,
       "quote": "הר ב ש ל לוקו ב ר ׳ מאיר׳ ל מקרקוב",
-      "normalizedQuote": "הרב של לוקוב ר׳ מאיר׳ל מקרקוב",
+      "normalizedQuote": "הר ב ש ל לוקו ב ר ׳ מאיר׳ ל מקרקוב",
       "modelQuote": "הרב של לוקוב ר׳ מאיר׳ל מקרקוב",
       "bbox": {
         "left": 709,
@@ -38,16 +38,16 @@
       "passageChecksum": "dcbe47e0d2cd001a4ff5ca25530dd985209c40a539cf01369d417d45b3eb4b7b",
       "normalizedPassageChecksum": "b6a0cbd28b127cc7498cb78655f0a4d2198753c4fe1db28acb0aeb1a6670aba3",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_0f83d8eaaece99958a8edb5a",
-      "predicate": "Rabbi Of",
+      "id": "claim_candidate_a54b41c02100e8c0ffc67d47",
+      "predicate": "Led By",
       "subjectTitle": "Rabbi Meir'l of Krakow",
-      "objectTitle": "Lukow Jewish community",
+      "objectTitle": "Łuków",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_dfb0e7ed50483133bf51d1a4",
@@ -56,26 +56,26 @@
         "leafNumber": 78,
         "printedPage": "75",
         "passageCharStart": 611,
-        "passageCharEnd": 626,
-        "normalizedPassageCharStart": 534,
-        "normalizedPassageCharEnd": 546,
+        "passageCharEnd": 645,
+        "normalizedPassageCharStart": 611,
+        "normalizedPassageCharEnd": 645,
         "pageCharStart": 611,
-        "pageCharEnd": 626,
-        "quote": "הר ב ש ל לוקו ב",
-        "normalizedQuote": "הרב של לוקוב",
-        "modelQuote": "הרב של לוקוב",
+        "pageCharEnd": 645,
+        "quote": "הר ב ש ל לוקו ב ר ׳ מאיר׳ ל מקרקוב",
+        "normalizedQuote": "הר ב ש ל לוקו ב ר ׳ מאיר׳ ל מקרקוב",
+        "modelQuote": "הרב של לוקוב ר׳ מאיר׳ל מקרקוב",
         "bbox": {
-          "left": 1243,
+          "left": 709,
           "top": 1707,
           "right": 1821,
-          "bottom": 1783
+          "bottom": 1787
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n78/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "dcbe47e0d2cd001a4ff5ca25530dd985209c40a539cf01369d417d45b3eb4b7b",
         "normalizedPassageChecksum": "b6a0cbd28b127cc7498cb78655f0a4d2198753c4fe1db28acb0aeb1a6670aba3",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -83,10 +83,10 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_87890fe45352fe83680cda98",
+      "id": "mention_7a72afda1e5352d9745e4738",
       "type": "Community",
-      "title": "Lukow Jewish community",
-      "relation": "Rabbi Of"
+      "title": "Łuków",
+      "relation": "Led By"
     },
     {
       "id": "mention_1691ab8ee55b78e983c950ad",
@@ -95,13 +95,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b654db31b4a78d7c43e260aa",
+      "id": "mention_c8b49835d771772869b372c1",
       "type": "Person",
-      "title": "Chaim Meir Heyblum",
+      "title": "Haim Meir Heiblum",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a8ba6a524f06f351f9c69f48",
+      "id": "mention_fced8a903fc4c2f2762578b1",
       "type": "Person",
       "title": "Shimon Shinberg",
       "relation": "Appears in same passage"
@@ -113,27 +113,45 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_05fbd899f5b6b13d0c5b9b2e",
+      "id": "mention_62aecc06dd8dad7dcf9fe7bd",
+      "type": "Person",
+      "title": "Ben-Zion Skorka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f4626383e277f9f656e6ef56",
       "type": "Person",
       "title": "Motel Feldman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_cbaf735ea40918bdca9d0e3a",
+      "id": "mention_91f4536e2b8c482943fcd06d",
+      "type": "Person",
+      "title": "Robinstein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e97350dee1010a9660b944b1",
       "type": "Publication",
-      "title": "The Lukower Vort",
+      "title": "The Lukower Wort",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_87890fe45352fe83680cda98",
+      "id": "mention_7a72afda1e5352d9745e4738",
       "type": "Community",
-      "title": "Lukow Jewish community",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_75b32052970e586dcb3b23f5",
+      "id": "mention_ba12c3d08dbf16d519666059",
       "type": "Institution",
-      "title": "Great Old Study House",
+      "title": "Łuków Great Old Study House",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_84eb9a8e4b38657a1131fa13",
+      "type": "Person",
+      "title": "Rabbi Mwliya",
       "relation": "Appears in same passage"
     },
     {

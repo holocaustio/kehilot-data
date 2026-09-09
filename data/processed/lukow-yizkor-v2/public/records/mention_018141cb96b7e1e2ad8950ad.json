@@ -2,10 +2,10 @@
   "id": "mention_018141cb96b7e1e2ad8950ad",
   "type": "Person",
   "title": "Yakov Gefen",
-  "summary": "A committed young member of Agudah's religious youth.",
+  "summary": "Religious youth activist associated with Agudah.",
   "originalName": "יעקב גפן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 230,
   "printedPage": "226",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "226",
       "passageCharStart": 550,
       "passageCharEnd": 568,
-      "normalizedPassageCharStart": 475,
-      "normalizedPassageCharEnd": 490,
+      "normalizedPassageCharStart": 550,
+      "normalizedPassageCharEnd": 568,
       "pageCharStart": 550,
       "pageCharEnd": 568,
       "quote": "א ט אי ז יעק ב גפן",
-      "normalizedQuote": "אט איז יעקב גפן",
+      "normalizedQuote": "א ט אי ז יעק ב גפן",
       "modelQuote": "אט איז יעקב גפן",
       "bbox": {
         "left": 475,
@@ -37,136 +37,94 @@
       "passageChecksum": "54edec69fe294fb04ebc84633679edc5f5c0672cff8b501988d8573715d7e394",
       "normalizedPassageChecksum": "38f22aad981b2fba1f76ad86c8e9bbe582985d31c378f32367436d658005bc45",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
-      "alignmentScore": 1
-    },
-    {
-      "passageId": "passage_08d51de12b634864b564cf3c",
-      "pageId": "page_nybc301551_0230",
-      "scanIndex": 230,
-      "leafNumber": 229,
-      "printedPage": "226",
-      "passageCharStart": 444,
-      "passageCharEnd": 489,
-      "normalizedPassageCharStart": 381,
-      "normalizedPassageCharEnd": 419,
-      "pageCharStart": 1632,
-      "pageCharEnd": 1677,
-      "quote": "הערש ל לערמא ן מי ט זײ ן ״םװיטע ״ — יעק ב גפן",
-      "normalizedQuote": "הערשל לערמאן מיט זײן ״םװיטע״— יעקב גפן",
-      "modelQuote": "הערשל לערמאן מיט זײן ״םװיטע״— יעקב גפן",
-      "bbox": {
-        "left": 901,
-        "top": 2941,
-        "right": 2435,
-        "bottom": 3023
-      },
-      "scanUrl": "https://archive.org/details/nybc301551/page/n229/mode/1up",
-      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-      "passageChecksum": "9a0227c497d0aeeb7c789852eca346429f8f37463103ca9668965f64e5a6d0c5",
-      "normalizedPassageChecksum": "7394d3686e5c12b55706aab2ffb92080610ac744004d1036e3250b5fc99a0843",
-      "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_5ae8d5349261abc365a8d9f9",
+      "predicate": "Father In Law Of",
+      "subjectTitle": "Yakov Gefen",
+      "objectTitle": "Ule Sheinberg",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The wording indicates a father-in-law relationship, but OCR is unclear.",
+      "qualifiers": {
+        "relationship": "father-in-law"
+      },
+      "evidence": {
+        "passageId": "passage_772fd706fbb5b23e42ab72dc",
+        "pageId": "page_nybc301551_0230",
+        "scanIndex": 230,
+        "leafNumber": 229,
+        "printedPage": "226",
+        "passageCharStart": 571,
+        "passageCharEnd": 595,
+        "normalizedPassageCharStart": 571,
+        "normalizedPassageCharEnd": 595,
+        "pageCharStart": 571,
+        "pageCharEnd": 595,
+        "quote": "ר׳ אול ע שײנבערג ם אײדעם",
+        "normalizedQuote": "ר׳ אול ע שײנבערג ם אײדעם",
+        "modelQuote": "ר׳ אולע שײנבערגם אײדעם",
+        "bbox": {
+          "left": 2295,
+          "top": 1575,
+          "right": 3101,
+          "bottom": 1651
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n229/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "54edec69fe294fb04ebc84633679edc5f5c0672cff8b501988d8573715d7e394",
+        "normalizedPassageChecksum": "38f22aad981b2fba1f76ad86c8e9bbe582985d31c378f32367436d658005bc45",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_b6a6b9daf61fd187c596672a",
+      "id": "mention_c4f20bed86f4bc762ff4388d",
       "type": "Person",
-      "title": "Hershl Lerman",
+      "title": "Ule Sheinberg",
+      "relation": "Father In Law Of"
+    },
+    {
+      "id": "mention_825e2f914cda7e25fbc6a55b",
+      "type": "Person",
+      "title": "Hershel Lerman",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_c4f20bed86f4bc762ff4388d",
       "type": "Person",
-      "title": "Rabbi Ule Sheinberg",
+      "title": "Ule Sheinberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_50d4b5a6f493527414c60aab",
+      "id": "mention_bd198d44b9daca0e2fcc5b33",
       "type": "Person",
       "title": "Yakov Rubinstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c8b430ee2bf79acb12ac99b0",
+      "id": "mention_d162d1fefd2a659aa08f7588",
       "type": "Person",
-      "title": "Leibl Aries",
+      "title": "Leybl Aries",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2fbb7eaf2efdaa3c71f78728",
+      "id": "mention_ca664607ced5828b0d84a453",
       "type": "Person",
-      "title": "Avraham Ginzburg",
+      "title": "Avraham Gintsburg",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_a633f52625d2a5230252ce89",
       "type": "Person",
       "title": "Shamai Leyb Charni",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e7fbee3182be73611b643143",
-      "type": "Place",
-      "title": "Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_04e15220fba0acfacf0844e3",
-      "type": "Organization",
-      "title": "Agudath Israel",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_220d9844f4ba8c4a4947891f",
-      "type": "Organization",
-      "title": "Zeyirei Agudah in Warsaw",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7a515fbb99b26141aff285e6",
-      "type": "Place",
-      "title": "Warsaw",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e1695365516e0bfde0289d46",
-      "type": "Person",
-      "title": "Simha Lander",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7e800400b619e67622941d91",
-      "type": "Person",
-      "title": "Hersh Leyzer",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0fab7eb861beb87f979d1c2f",
-      "type": "Organization",
-      "title": "Judenrat",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d53cc2274931c63882469517",
-      "type": "Organization",
-      "title": "Agudah youth in Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_f56c094824c65ab85529c14c",
-      "type": "Person",
-      "title": "Writer of the passage",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_41ab148826619ea673da3803",
-      "type": "Person",
-      "title": "Rabbi Shmuel Hayim Siraka",
       "relation": "Appears in same passage"
     }
   ],

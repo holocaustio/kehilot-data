@@ -2,15 +2,14 @@
   "id": "mention_062ce08f1f74fefee95b3d25",
   "type": "Person",
   "title": "Ben-Zion Landsberg",
-  "summary": "Helped support reopening the association.",
+  "summary": "Worked to help reopen the association.",
   "originalName": "בן־צױן לאנדםבערג",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 128,
   "printedPage": "124",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "Surname contains possible OCR distortion.",
   "evidenceRefs": [
     {
       "passageId": "passage_58c95bba7702477f3e406d14",
@@ -20,12 +19,12 @@
       "printedPage": "124",
       "passageCharStart": 588,
       "passageCharEnd": 606,
-      "normalizedPassageCharStart": 514,
-      "normalizedPassageCharEnd": 530,
+      "normalizedPassageCharStart": 588,
+      "normalizedPassageCharEnd": 606,
       "pageCharStart": 1563,
       "pageCharEnd": 1581,
       "quote": "בן־צױ ן לאנדםבער ג",
-      "normalizedQuote": "בן־צױן לאנדםבערג",
+      "normalizedQuote": "בן־צױ ן לאנדםבער ג",
       "modelQuote": "בן־צױן לאנדםבערג",
       "bbox": {
         "left": 2180,
@@ -38,45 +37,45 @@
       "passageChecksum": "7303db30193da0f4d627630da9da31ed0e0f48d79a080781287d36cd3795e2c9",
       "normalizedPassageChecksum": "f08c8aa4165de8c28c93d9da5db3c6592d060c7eaeeeef770ba771df073b030a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_202fd4c61e38407c11b7c8d2",
-      "predicate": "Supported Reopening Of",
+      "id": "claim_candidate_7970df59d01b1a257addb1d6",
+      "predicate": "Member Of",
       "subjectTitle": "Ben-Zion Landsberg",
-      "objectTitle": "Nadel Association",
+      "objectTitle": "Nadl Association",
       "confidence": "MEDIUM",
-      "uncertaintyNote": "The passage says he helped reopen the association but does not explicitly state membership.",
+      "uncertaintyNote": "The passage names him alongside the association’s chair but does not explicitly state his role.",
       "evidence": {
         "passageId": "passage_58c95bba7702477f3e406d14",
         "pageId": "page_nybc301551_0128",
         "scanIndex": 128,
         "leafNumber": 127,
         "printedPage": "124",
-        "passageCharStart": 572,
-        "passageCharEnd": 632,
-        "normalizedPassageCharStart": 500,
-        "normalizedPassageCharEnd": 552,
-        "pageCharStart": 1547,
-        "pageCharEnd": 1607,
-        "quote": "או ן דע ר\nאלטער בן־צױ ן לאנדםבער ג לײג ן ארײ ן א ם ך ענערגיע",
-        "normalizedQuote": "און דער אלטער בן־צױן לאנדםבערג לײגן ארײןא םך ענערגיע",
-        "modelQuote": "און דער אלטער בן־צױן לאנדםבערג לײגן ארײןא םך ענערגיע",
+        "passageCharStart": 577,
+        "passageCharEnd": 606,
+        "normalizedPassageCharStart": 577,
+        "normalizedPassageCharEnd": 606,
+        "pageCharStart": 1552,
+        "pageCharEnd": 1581,
+        "quote": "דע ר\nאלטער בן־צױ ן לאנדםבער ג",
+        "normalizedQuote": "דע ר\nאלטער בן־צױ ן לאנדםבער ג",
+        "modelQuote": "דער אלטער בן־צױן לאנדםבערג",
         "bbox": {
           "left": 458,
-          "top": 2893,
+          "top": 2897,
           "right": 2988,
-          "bottom": 3049
+          "bottom": 3045
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n127/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "7303db30193da0f4d627630da9da31ed0e0f48d79a080781287d36cd3795e2c9",
         "normalizedPassageChecksum": "f08c8aa4165de8c28c93d9da5db3c6592d060c7eaeeeef770ba771df073b030a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -84,21 +83,27 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_2c7a3e25577a8db094470118",
+      "id": "mention_3551119fdf16738f6962faaf",
       "type": "Organization",
-      "title": "Nadel Association",
-      "relation": "Supported Reopening Of"
+      "title": "Nadl Association",
+      "relation": "Member Of"
     },
     {
-      "id": "mention_727c4221974c789f58028500",
+      "id": "mention_8cb10aa926be587d3a969070",
       "type": "Person",
       "title": "Shepsl Berish",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2c7a3e25577a8db094470118",
+      "id": "mention_ebf247eb02dd12bd6581bb96",
       "type": "Organization",
-      "title": "Nadel Association",
+      "title": "Kambind",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ca505ea64d1130663ea17a03",
+      "type": "Organization",
+      "title": "The Reds",
       "relation": "Appears in same passage"
     },
     {
@@ -108,19 +113,19 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_02f79b8e9f59e093fbc02260",
+      "id": "mention_3551119fdf16738f6962faaf",
+      "type": "Organization",
+      "title": "Nadl Association",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bacc05d3e3431dd8bd22d401",
       "type": "Person",
       "title": "Shlomo Zakalik",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_acc9a75598aa7d95566bef69",
-      "type": "Person",
-      "title": "Moshe Shlakhtavich",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b520b3bd08851e24d5dbe153",
+      "id": "mention_209688ed183b0f86a69f57a2",
       "type": "Institution",
       "title": "City Council",
       "relation": "Appears in same passage"

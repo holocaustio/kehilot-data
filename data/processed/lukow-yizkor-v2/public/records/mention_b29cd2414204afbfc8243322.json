@@ -2,16 +2,15 @@
   "id": "mention_b29cd2414204afbfc8243322",
   "type": "Person",
   "title": "Goldberg",
-  "summary": "Performer praised for creating an excellent role.",
+  "summary": "Goldberg created a striking character in the reviewed theatrical production.",
   "originalName": "גאלדבערג",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 271,
   "printedPage": "267",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "performer",
-  "uncertaintyNote": "OCR may affect the title and transliteration.",
+  "subtype": "theater performer",
   "evidenceRefs": [
     {
       "passageId": "passage_edab6f6b2ed9bc3dfc671582",
@@ -21,12 +20,12 @@
       "printedPage": "267",
       "passageCharStart": 384,
       "passageCharEnd": 397,
-      "normalizedPassageCharStart": 328,
-      "normalizedPassageCharEnd": 340,
+      "normalizedPassageCharStart": 384,
+      "normalizedPassageCharEnd": 397,
       "pageCharStart": 1230,
       "pageCharEnd": 1243,
       "quote": "פר ׳ גאלדבערג",
-      "normalizedQuote": "פר׳ גאלדבערג",
+      "normalizedQuote": "פר ׳ גאלדבערג",
       "modelQuote": "פר׳ גאלדבערג",
       "bbox": {
         "left": 1112,
@@ -39,23 +38,80 @@
       "passageChecksum": "e86596de013065f2024ea1e7a037f74b6f29dcd6bacc3dc71523f9fca4c1415c",
       "normalizedPassageChecksum": "ce816010f1f6c3cb9cb7abf5f70bd6a934eba58f76ddc13bfb990bc4a7352960",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_cbcf0fc5f28fdcc07924783d",
+      "type": "Theatrical Review",
+      "title": "Theatrical production reviewed",
+      "summary": "A theatrical production was reviewed, with comments on performers, acting, and staging.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage is a theatrical critique; the exact production and event date are not stated.",
+      "evidence": {
+        "passageId": "passage_edab6f6b2ed9bc3dfc671582",
+        "pageId": "page_nybc301551_0271",
+        "scanIndex": 271,
+        "leafNumber": 270,
+        "printedPage": "267",
+        "passageCharStart": 400,
+        "passageCharEnd": 439,
+        "normalizedPassageCharStart": 400,
+        "normalizedPassageCharEnd": 439,
+        "pageCharStart": 1246,
+        "pageCharEnd": 1285,
+        "quote": "ניש ט שלעכ ט האב ן\nגעשפילט ה ׳ בורשטי ן",
+        "normalizedQuote": "ניש ט שלעכ ט האב ן\nגעשפילט ה ׳ בורשטי ן",
+        "modelQuote": "נישט שלעכט האבן געשפילט ה׳ בורשטין",
+        "bbox": {
+          "left": 490,
+          "top": 3815,
+          "right": 2912,
+          "bottom": 4001
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n270/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "e86596de013065f2024ea1e7a037f74b6f29dcd6bacc3dc71523f9fca4c1415c",
+        "normalizedPassageChecksum": "ce816010f1f6c3cb9cb7abf5f70bd6a934eba58f76ddc13bfb990bc4a7352960",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_4228f9f88955ef2ec77441fe",
+      "id": "event_candidate_cbcf0fc5f28fdcc07924783d",
+      "type": "Event",
+      "title": "Theatrical production reviewed",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_6612250b4a39032fa0d5161c",
       "type": "Person",
-      "title": "Karamazh",
+      "title": "Burshtein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d1db632822384826505aaeb7",
+      "id": "mention_5cd54ab9cd536a8b1d05267b",
       "type": "Person",
-      "title": "Burstein",
+      "title": "Skorke",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6292b325fb57c6789d800921",
+      "type": "Person",
+      "title": "Gritsman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_92a05e4c991d3615e26df596",
+      "type": "Person",
+      "title": "Zaltsman",
       "relation": "Appears in same passage"
     }
   ],

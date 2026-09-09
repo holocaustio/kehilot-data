@@ -2,10 +2,10 @@
   "id": "mention_110480f2004c273ecc65207c",
   "type": "Person",
   "title": "Shmuel Shaynberg",
-  "summary": "Named as a deceased contributor to the Lukow mutual aid fund.",
+  "summary": "Contributor to the Łuków Gemilut Hesed fund.",
   "originalName": "שמואל שיינבערג",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 139,
   "printedPage": "135",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "135",
       "passageCharStart": 321,
       "passageCharEnd": 336,
-      "normalizedPassageCharStart": 280,
-      "normalizedPassageCharEnd": 294,
+      "normalizedPassageCharStart": 321,
+      "normalizedPassageCharEnd": 336,
       "pageCharStart": 321,
       "pageCharEnd": 336,
       "quote": "שמוא ל שיינבערג",
-      "normalizedQuote": "שמואל שיינבערג",
+      "normalizedQuote": "שמוא ל שיינבערג",
       "modelQuote": "שמואל שיינבערג",
       "bbox": {
         "left": 761,
@@ -37,29 +37,73 @@
       "passageChecksum": "501bb58e56e5bd8f3255ea776e18bdd9617d708296a8b74ebac6f912a23af157",
       "normalizedPassageChecksum": "c8e3fb73b5b4f43f27e0259e791269e6d2d8d36a13974272c9ce1e5ea7e0aaf2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_8adac1b8039ced009c8c4568",
+      "predicate": "Contributed To",
+      "subjectTitle": "Shmuel Shaynberg",
+      "objectTitle": "Gemilut Hesed Fund",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage explicitly says they gave everything for the fund's existence, but does not specify formal membership.",
+      "evidence": {
+        "passageId": "passage_63cdbd1e566726b735eece06",
+        "pageId": "page_nybc301551_0139",
+        "scanIndex": 139,
+        "leafNumber": 138,
+        "printedPage": "135",
+        "passageCharStart": 297,
+        "passageCharEnd": 336,
+        "normalizedPassageCharStart": 297,
+        "normalizedPassageCharEnd": 336,
+        "pageCharStart": 297,
+        "pageCharEnd": 336,
+        "quote": "יעק ב ליכטענשטיי ן או ן שמוא ל שיינבערג",
+        "normalizedQuote": "יעק ב ליכטענשטיי ן או ן שמוא ל שיינבערג",
+        "modelQuote": "יעקב ליכטענשטיין און שמואל שיינבערג",
+        "bbox": {
+          "left": 761,
+          "top": 1164,
+          "right": 2113,
+          "bottom": 1240
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n138/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "501bb58e56e5bd8f3255ea776e18bdd9617d708296a8b74ebac6f912a23af157",
+        "normalizedPassageChecksum": "c8e3fb73b5b4f43f27e0259e791269e6d2d8d36a13974272c9ce1e5ea7e0aaf2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_9a334fc379753dd860859213",
+      "id": "mention_3ffd49d070e4dae54b23f291",
+      "type": "Institution",
+      "title": "Gemilut Hesed Fund",
+      "relation": "Contributed To"
+    },
+    {
+      "id": "mention_bc0638a1f9ad82ba91f940f9",
       "type": "Person",
-      "title": "Yaakov Lichtenstein",
+      "title": "Yakov Lichtenstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_40a5b9430804c1878e74549e",
+      "id": "mention_3d236e8b0acf623f1f5db076",
       "type": "Person",
-      "title": "Leah Feldman (Waksman)",
+      "title": "Leahtshe Feldman (Waksman)",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_eefaac961818ed528ea68f4d",
-      "type": "Community",
-      "title": "Lukow",
+      "id": "mention_3ffd49d070e4dae54b23f291",
+      "type": "Institution",
+      "title": "Gemilut Hesed Fund",
       "relation": "Appears in same passage"
     }
   ],

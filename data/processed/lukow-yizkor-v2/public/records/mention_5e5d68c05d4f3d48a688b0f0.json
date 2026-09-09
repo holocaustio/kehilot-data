@@ -2,14 +2,15 @@
   "id": "mention_5e5d68c05d4f3d48a688b0f0",
   "type": "Person",
   "title": "Hershl",
-  "summary": "Contributor's brother-in-law, listed among the dead.",
+  "summary": "Named among relatives in a memorial list.",
   "originalName": "הערשל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 648,
   "printedPage": "644",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
+  "subtype": "brother_in_law",
   "evidenceRefs": [
     {
       "passageId": "passage_2a0aa5e985027396f527514e",
@@ -19,12 +20,12 @@
       "printedPage": "644",
       "passageCharStart": 205,
       "passageCharEnd": 223,
-      "normalizedPassageCharStart": 178,
-      "normalizedPassageCharEnd": 194,
+      "normalizedPassageCharStart": 205,
+      "normalizedPassageCharEnd": 223,
       "pageCharStart": 205,
       "pageCharEnd": 223,
       "quote": "מי ץ שװאגע ר הערשל",
-      "normalizedQuote": "מיץ שװאגער הערשל",
+      "normalizedQuote": "מי ץ שװאגע ר הערשל",
       "modelQuote": "מיץ שװאגער הערשל",
       "bbox": {
         "left": 1006,
@@ -37,70 +38,21 @@
       "passageChecksum": "d63c364345e0cae8277384e0d709edaa68281fa112f68bb8b26d339020aa2650",
       "normalizedPassageChecksum": "2e5055de0497016e38dc8cc237638116afab7bb507561fd1992ffb0af85e0b03",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_c165d668b545ab56fd04ca81",
-      "predicate": "In Law Of",
-      "subjectTitle": "Yehudit Zilkherfoys",
-      "objectTitle": "Hershl",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_2a0aa5e985027396f527514e",
-        "pageId": "page_nybc301551_0648",
-        "scanIndex": 648,
-        "leafNumber": 647,
-        "printedPage": "644",
-        "passageCharStart": 205,
-        "passageCharEnd": 223,
-        "normalizedPassageCharStart": 178,
-        "normalizedPassageCharEnd": 194,
-        "pageCharStart": 205,
-        "pageCharEnd": 223,
-        "quote": "מי ץ שװאגע ר הערשל",
-        "normalizedQuote": "מיץ שװאגער הערשל",
-        "modelQuote": "מיץ שװאגער הערשל",
-        "bbox": {
-          "left": 1006,
-          "top": 3874,
-          "right": 1790,
-          "bottom": 3960
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n647/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "d63c364345e0cae8277384e0d709edaa68281fa112f68bb8b26d339020aa2650",
-        "normalizedPassageChecksum": "2e5055de0497016e38dc8cc237638116afab7bb507561fd1992ffb0af85e0b03",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
     {
-      "id": "mention_1afe39e2f14dc4b85c377f02",
+      "id": "mention_3f25145dd866674be1cd878e",
       "type": "Person",
-      "title": "Yehudit Zilkherfoys",
-      "relation": "In Law Of"
-    },
-    {
-      "id": "mention_1afe39e2f14dc4b85c377f02",
-      "type": "Person",
-      "title": "Yehudit Zilkherfoys",
+      "title": "David Zilberboym",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c90a6141079789ed2225cbd4",
-      "type": "Person",
-      "title": "Dovid Zilberboym",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8d691a77c7aa3912afb82805",
+      "id": "mention_bba2f673b3c79169a41e395d",
       "type": "Place",
       "title": "Israel",
       "relation": "Appears in same passage"
@@ -112,21 +64,27 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d06f8d225f9f047c171b87b7",
+      "id": "mention_90978c178113cfa3a1938835",
       "type": "Person",
-      "title": "Rakhl Tenenboym",
+      "title": "Rachel Tenenbaum",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5c19681f340dd2eaac09eac6",
+      "id": "mention_d4627f8de41994e76b372a0a",
       "type": "Person",
-      "title": "Rivka Eizenberg",
+      "title": "Rivka Eisenberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5c0105a035be46abd175908b",
+      "id": "mention_d788a86df7a7fb4779003687",
       "type": "Person",
-      "title": "Yekhiel Eizenberg",
+      "title": "Yekhiel Eisenberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c235bed46667db4796593dee",
+      "type": "Person",
+      "title": "Yehudit Zilberfoys",
       "relation": "Appears in same passage"
     },
     {

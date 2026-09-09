@@ -1,0 +1,106 @@
+{
+  "id": "mention_fab0f5a007597d33647d11b8",
+  "type": "Institution",
+  "title": "Regensburg hospital",
+  "summary": "Hospital where the narrator awoke after being shot during a forced evacuation.",
+  "originalName": "רעגענסבורגער שפיטאל",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 473,
+  "printedPage": "469",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "hospital",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f9cf6d9f4fe39baaebd8a8e8",
+      "pageId": "page_nybc301551_0473",
+      "scanIndex": 473,
+      "leafNumber": 472,
+      "printedPage": "469",
+      "passageCharStart": 898,
+      "passageCharEnd": 923,
+      "normalizedPassageCharStart": 898,
+      "normalizedPassageCharEnd": 923,
+      "pageCharStart": 898,
+      "pageCharEnd": 923,
+      "quote": "אי ן רעגענסבורגע ר שפיטאל",
+      "normalizedQuote": "אי ן רעגענסבורגע ר שפיטאל",
+      "modelQuote": "אין רעגענסבורגער שפיטאל",
+      "bbox": {
+        "left": 1918,
+        "top": 2133,
+        "right": 2828,
+        "bottom": 2209
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n472/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "c9e96aef719117b856ee337d72abe5a1034571009c2f5348154f60131007096d",
+      "normalizedPassageChecksum": "1728f313c8027ebb2f1e8107d1b13e12e2cfee875c68298b7e7e244069cba2b5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f97962f6914e7fdb19e36aa1",
+      "type": "Hospitalization",
+      "title": "Narrator awakens in Regensburg hospital",
+      "summary": "The narrator awoke in Regensburg hospital after being shot and was later transported to Bamberg.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "Event type is limited by the schema; the text clearly describes hospitalization, not death.",
+      "evidence": {
+        "passageId": "passage_f9cf6d9f4fe39baaebd8a8e8",
+        "pageId": "page_nybc301551_0473",
+        "scanIndex": 473,
+        "leafNumber": 472,
+        "printedPage": "469",
+        "passageCharStart": 860,
+        "passageCharEnd": 923,
+        "normalizedPassageCharStart": 860,
+        "normalizedPassageCharEnd": 923,
+        "pageCharStart": 860,
+        "pageCharEnd": 923,
+        "quote": "אי ך בי ן געםאל ן א מ זי ך\nאויפגעכאפט אי ן רעגענסבורגע ר שפיטאל",
+        "normalizedQuote": "אי ך בי ן געםאל ן א מ זי ך\nאויפגעכאפט אי ן רעגענסבורגע ר שפיטאל",
+        "modelQuote": "איך בין געםאלן אמ זיך אויפגעכאפט אין רעגענסבורגער שפיטאל",
+        "bbox": {
+          "left": 456,
+          "top": 2035,
+          "right": 2828,
+          "bottom": 2209
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n472/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "c9e96aef719117b856ee337d72abe5a1034571009c2f5348154f60131007096d",
+        "normalizedPassageChecksum": "1728f313c8027ebb2f1e8107d1b13e12e2cfee875c68298b7e7e244069cba2b5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f97962f6914e7fdb19e36aa1",
+      "type": "Event",
+      "title": "Narrator awakens in Regensburg hospital",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9af1e03aeed9f423540ed4d4",
+      "type": "Place",
+      "title": "Bamberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_16a20cecbcf90d1189be8422",
+      "type": "Place",
+      "title": "Paris",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

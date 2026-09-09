@@ -2,10 +2,10 @@
   "id": "mention_69f2ec17ffa4e5d0b0be5e5e",
   "type": "Person",
   "title": "Adolf Eichmann",
-  "summary": "Named Nazi official who arrived at the camp near the end of February.",
+  "summary": "Nazi official who arrived at the camp near the end of February.",
   "originalName": "אדאלף אײכמאן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 472,
   "printedPage": "468",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "468",
       "passageCharStart": 1209,
       "passageCharEnd": 1222,
-      "normalizedPassageCharStart": 1039,
-      "normalizedPassageCharEnd": 1051,
+      "normalizedPassageCharStart": 1209,
+      "normalizedPassageCharEnd": 1222,
       "pageCharStart": 2546,
       "pageCharEnd": 2559,
       "quote": "אדאל ף אײכמאן",
-      "normalizedQuote": "אדאלף אײכמאן",
+      "normalizedQuote": "אדאל ף אײכמאן",
       "modelQuote": "אדאלף אײכמאן",
       "bbox": {
         "left": 1192,
@@ -37,17 +37,17 @@
       "passageChecksum": "c759b95cc49d5fca916ed2d67eb631f0edcca37096d88417f336b2d498938c4c",
       "normalizedPassageChecksum": "4ee7532ea33054ac6636ebff5b62aeff4f5417d982fc64e44fefba66a13e8040",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_2dd4120e2fdddc6bc9db00fe",
+      "id": "event_candidate_04d5d5b1d84d9994308286e9",
       "type": "Migration",
-      "title": "Adolf Eichmann arrived at the camp",
-      "summary": "Adolf Eichmann arrived at the camp near the end of February.",
+      "title": "Adolf Eichmann arrives at the camp",
+      "summary": "Adolf Eichmann came to the camp at the end of February.",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_c9201a407e39b45ba21f08e3",
@@ -57,12 +57,12 @@
         "printedPage": "468",
         "passageCharStart": 1170,
         "passageCharEnd": 1222,
-        "normalizedPassageCharStart": 1005,
-        "normalizedPassageCharEnd": 1051,
+        "normalizedPassageCharStart": 1170,
+        "normalizedPassageCharEnd": 1222,
         "pageCharStart": 2507,
         "pageCharEnd": 2559,
         "quote": "םוף פעברוא ר אי ז אי ן לאגע ר געקומע ן אדאל ף אײכמאן",
-        "normalizedQuote": "םוף פעברואר איז אין לאגער געקומען אדאלף אײכמאן",
+        "normalizedQuote": "םוף פעברוא ר אי ז אי ן לאגע ר געקומע ן אדאל ף אײכמאן",
         "modelQuote": "םוף פעברואר איז אין לאגער געקומען אדאלף אײכמאן",
         "bbox": {
           "left": 1192,
@@ -75,53 +75,41 @@
         "passageChecksum": "c759b95cc49d5fca916ed2d67eb631f0edcca37096d88417f336b2d498938c4c",
         "normalizedPassageChecksum": "4ee7532ea33054ac6636ebff5b62aeff4f5417d982fc64e44fefba66a13e8040",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_2dd4120e2fdddc6bc9db00fe",
+      "id": "event_candidate_04d5d5b1d84d9994308286e9",
       "type": "Event",
-      "title": "Adolf Eichmann arrived at the camp",
+      "title": "Adolf Eichmann arrives at the camp",
       "relation": "Participated In",
       "role": "Subject"
     },
     {
-      "id": "mention_453fe3269a8244601ec000f8",
+      "id": "mention_468bf38bc18a609ed9ed5bb9",
       "type": "Place",
-      "title": "Flossenbürg camp",
+      "title": "Flamenburg camp",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_22c89ef0a415991bf1cfd51e",
+      "id": "mention_b87db76c0b6c7c51b5d806b1",
       "type": "Place",
-      "title": "Block 3",
+      "title": "Flensburg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_972e6b6523dee0f8c204a12b",
+      "id": "mention_005ca7ccc034266bac77c0fe",
       "type": "Place",
       "title": "Berlin",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_481f8e1b096948c90880e478",
-      "type": "Organization",
-      "title": "Ukrainians",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_32f8edb4b3f4a1627123b908",
-      "type": "Organization",
-      "title": "Lithuanians",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_28e3cc2454c8ebddf999ee6f",
-      "type": "Organization",
-      "title": "German SS",
+      "id": "mention_11b4f10ff3bc924ba27406e4",
+      "type": "Place",
+      "title": "Arianenburg",
       "relation": "Appears in same passage"
     }
   ],

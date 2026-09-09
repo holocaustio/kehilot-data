@@ -2,10 +2,10 @@
   "id": "mention_1e1ff4a03eee44e8b142643a",
   "type": "Place",
   "title": "Colombia",
-  "summary": "Nahum Goldzak later settled there.",
+  "summary": "Country where Nahum Goldzak later settled.",
   "originalName": "קאלאמביע",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 600,
   "printedPage": "596",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "596",
       "passageCharStart": 301,
       "passageCharEnd": 314,
-      "normalizedPassageCharStart": 259,
-      "normalizedPassageCharEnd": 271,
+      "normalizedPassageCharStart": 301,
+      "normalizedPassageCharEnd": 314,
       "pageCharStart": 1612,
       "pageCharEnd": 1625,
       "quote": "אי ן קאלאמביע",
-      "normalizedQuote": "אין קאלאמביע",
+      "normalizedQuote": "אי ן קאלאמביע",
       "modelQuote": "אין קאלאמביע",
       "bbox": {
         "left": 941,
@@ -38,19 +38,19 @@
       "passageChecksum": "628c738f052e441ef7009e61e560810ce3549dcaec0598004911d21cb66b1e67",
       "normalizedPassageChecksum": "48cc31ccd8c866acd97bd9b2b343903814b7abc21cbdc52481054d1955c4a3fc",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_c19d0bc67c853019b6aea105",
-      "predicate": "Migrated To",
+      "id": "claim_candidate_32d61d9ec20db01f383ada51",
+      "predicate": "Lived At",
       "subjectTitle": "Nahum Goldzak",
       "objectTitle": "Colombia",
       "confidence": "HIGH",
       "qualifiers": {
-        "sequence": "later"
+        "later": true
       },
       "evidence": {
         "passageId": "passage_66363bf8512042bb1d882222",
@@ -60,12 +60,12 @@
         "printedPage": "596",
         "passageCharStart": 276,
         "passageCharEnd": 314,
-        "normalizedPassageCharStart": 238,
-        "normalizedPassageCharEnd": 271,
+        "normalizedPassageCharStart": 276,
+        "normalizedPassageCharEnd": 314,
         "pageCharStart": 1587,
         "pageCharEnd": 1625,
         "quote": "שפעטע ר באזעצ ט ע ר זי ך אי ן קאלאמביע",
-        "normalizedQuote": "שפעטער באזעצט ער זיך אין קאלאמביע",
+        "normalizedQuote": "שפעטע ר באזעצ ט ע ר זי ך אי ן קאלאמביע",
         "modelQuote": "שפעטער באזעצט ער זיך אין קאלאמביע",
         "bbox": {
           "left": 941,
@@ -78,7 +78,7 @@
         "passageChecksum": "628c738f052e441ef7009e61e560810ce3549dcaec0598004911d21cb66b1e67",
         "normalizedPassageChecksum": "48cc31ccd8c866acd97bd9b2b343903814b7abc21cbdc52481054d1955c4a3fc",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -86,57 +86,69 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_9dcc8ca3b7c415c7111eca09",
+      "id": "mention_68d1d776d83d743c841894d3",
       "type": "Person",
       "title": "Nahum Goldzak",
-      "relation": "Migrated To"
+      "relation": "Lived At"
     },
     {
-      "id": "mention_9dcc8ca3b7c415c7111eca09",
+      "id": "mention_68d1d776d83d743c841894d3",
       "type": "Person",
       "title": "Nahum Goldzak",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_08b246c4a7cfc2b3d3cb9ad1",
+      "id": "mention_7a520b4b56320af5bf661c6c",
+      "type": "Place",
+      "title": "Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_46a110cd8547438bf449a5db",
+      "type": "Organization",
+      "title": "Polish government",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b8b284a65f12f0926c043338",
+      "type": "Event",
+      "title": "Israeli War of Independence",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ac223f6b76e947808a845998",
       "type": "Organization",
       "title": "Haganah",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8d691a77c7aa3912afb82805",
+      "id": "mention_bba2f673b3c79169a41e395d",
       "type": "Place",
       "title": "Israel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_759db505594895669274e209",
-      "type": "Event",
-      "title": "1948 War of Independence",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3a5fd6583ffcee9295af0cb2",
+      "id": "mention_c9d0af1ac3a375a41a209b88",
       "type": "Person",
-      "title": "Itshe Heiblum",
+      "title": "Itshe Heibloom",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b53ee2d70d9d2e4f61a0e0fa",
+      "id": "mention_599045102b9f53a646c9266e",
       "type": "Person",
-      "title": "Chaim Meir Heiblum",
+      "title": "Chaim Meir Heibloom",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bc6c05b9708500e5ff8346e2",
+      "id": "mention_8a1c6f819729c0fd6ec6af65",
       "type": "Family",
-      "title": "Heiblum family",
+      "title": "Heibloom family",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_eefaac961818ed528ea68f4d",
+      "id": "mention_f24bb37493b0a89d690f2483",
       "type": "Community",
-      "title": "Lukow",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,119 @@
+{
+  "id": "mention_d9a4096f283a9ff1ba1dbd91",
+  "type": "Person",
+  "title": "Political prisoners",
+  "summary": "Additional political detainees joined the transport en route to Lublin.",
+  "originalName": "פאליטישע ארעםטאנטן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 122,
+  "printedPage": "118",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "group of political prisoners",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2056fe0e59ab8ba0b9a25241",
+      "pageId": "page_nybc301551_0122",
+      "scanIndex": 122,
+      "leafNumber": 121,
+      "printedPage": "118",
+      "passageCharStart": 386,
+      "passageCharEnd": 415,
+      "normalizedPassageCharStart": 386,
+      "normalizedPassageCharEnd": 415,
+      "pageCharStart": 386,
+      "pageCharEnd": 415,
+      "quote": "נא ך פי ל פאליטיש ע ארעםטאנטן",
+      "normalizedQuote": "נא ך פי ל פאליטיש ע ארעםטאנטן",
+      "modelQuote": "נאך פיל פאליטישע ארעםטאנטן",
+      "bbox": {
+        "left": 1638,
+        "top": 1391,
+        "right": 2672,
+        "bottom": 1471
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n121/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "965824ee0480917b0a32bb1a5e69aa76c7f07bdd5701369670e6f81c10b3e3b3",
+      "normalizedPassageChecksum": "b61779292d6716cff6130783e078fceedab6448d9ed313f509a1949bf11a2d5b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_ea89ca55012beb9b93cc3b1d",
+      "type": "Arrest",
+      "title": "Arrest and transport to Lublin",
+      "summary": "People were taken to a police facility, then transported toward Lublin.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6aba1b2bc72cc3fe8d9f23c6",
+        "pageId": "page_nybc301551_0121",
+        "scanIndex": 121,
+        "leafNumber": 120,
+        "printedPage": "117",
+        "passageCharStart": 0,
+        "passageCharEnd": 59,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 59,
+        "pageCharStart": 978,
+        "pageCharEnd": 1037,
+        "quote": "שפעט ביינאכ ט זענע ן מי ר געפיר ט געװאר ן אי ן פאליציי־הויז",
+        "normalizedQuote": "שפעט ביינאכ ט זענע ן מי ר געפיר ט געװאר ן אי ן פאליציי־הויז",
+        "modelQuote": "שפעט ביינאכט זענען מיר געפירט געװארן אין פאליציי־הויז",
+        "bbox": {
+          "left": 1026,
+          "top": 4128,
+          "right": 2862,
+          "bottom": 4214
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n120/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "bf8de20d55db23b3e8fd804425d40bd9ce833334e76abad46c40cf42e1d48bee",
+        "normalizedPassageChecksum": "c6f286a3d98876cd830de0707c35dba3d96f1e462d57b5ed082584eaec81c472",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_ea89ca55012beb9b93cc3b1d",
+      "type": "Event",
+      "title": "Arrest and transport to Lublin",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "event_candidate_482504d265d771d8b8651292",
+      "type": "Event",
+      "title": "Arrival in Lublin",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_a77df426a705eb653b042890",
+      "type": "Place",
+      "title": "Lublin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_14da7392be588ac82597c206",
+      "type": "Place",
+      "title": "Lublin railway station",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4c29b0b20879945a07f1de87",
+      "type": "Place",
+      "title": "Zamek",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

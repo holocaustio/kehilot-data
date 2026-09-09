@@ -2,10 +2,10 @@
   "id": "mention_212b5f317fc3ed0720f4769a",
   "type": "Person",
   "title": "Shlomo Zalman",
-  "summary": "Rabbi who died in 1660 and was probably a rabbi in Łuków.",
+  "summary": "Rabbi who probably served in Łuków after Efraim Fishel.",
   "originalName": "הרב שלמה זלמן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 33,
   "printedPage": "29",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "29",
       "passageCharStart": 1137,
       "passageCharEnd": 1185,
-      "normalizedPassageCharStart": 968,
-      "normalizedPassageCharEnd": 1009,
+      "normalizedPassageCharStart": 1137,
+      "normalizedPassageCharEnd": 1185,
       "pageCharStart": 1137,
       "pageCharEnd": 1185,
       "quote": "הרב שלמ ה זלמן , נפט ר געװאר ן אי ן ת״ כ (1660 )",
-      "normalizedQuote": "הרב שלמה זלמן, נפטר געװארן אין ת״כ (1660)",
+      "normalizedQuote": "הרב שלמ ה זלמן , נפט ר געװאר ן אי ן ת״ כ (1660 )",
       "modelQuote": "הרב שלמה זלמן, נפטר געװארן אין ת״כ (1660)",
       "bbox": {
         "left": 1426,
@@ -38,20 +38,19 @@
       "passageChecksum": "3e69da9f6062bb6a633980db79b15b9b53675b1ddf54239ef631479c3431966d",
       "normalizedPassageChecksum": "d6f6586dc1401656176edd14e3ba6086d929159acdaba3d5b6da72e86a652ee1",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_46c40354cc26df465416ceec",
+      "id": "claim_candidate_9ba1c0c0cfb2eee57857b7a1",
       "predicate": "Worked At",
       "subjectTitle": "Shlomo Zalman",
       "objectTitle": "Łuków",
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "qualifiers": {
-        "role": "rabbi",
-        "certainty": "almost certain"
+        "role": "rabbi"
       },
       "evidence": {
         "passageId": "passage_bcc379d925207506859677fc",
@@ -60,33 +59,69 @@
         "leafNumber": 32,
         "printedPage": "29",
         "passageCharStart": 1187,
-        "passageCharEnd": 1275,
-        "normalizedPassageCharStart": 1011,
-        "normalizedPassageCharEnd": 1087,
+        "passageCharEnd": 1235,
+        "normalizedPassageCharStart": 1187,
+        "normalizedPassageCharEnd": 1235,
         "pageCharStart": 1187,
-        "pageCharEnd": 1275,
-        "quote": "ער אי ז כמע ט װ י זיכע ר געװאר ן ר ב אי ן לוקא װ נא ך דע ם אויבנדערמאנט ן ר ׳\nאפרים פישל",
-        "normalizedQuote": "ער איז כמעט װי זיכער געװארן רב אין לוקאװ נאך דעם אויבנדערמאנטן ר׳ אפרים פישל",
-        "modelQuote": "ער איז כמעט װי זיכער געװארן רב אין לוקאװ נאך דעם אויבנדערמאנטן ר׳ אפרים פישל",
+        "pageCharEnd": 1235,
+        "quote": "ער אי ז כמע ט װ י זיכע ר געװאר ן ר ב אי ן לוקא װ",
+        "normalizedQuote": "ער אי ז כמע ט װ י זיכע ר געװאר ן ר ב אי ן לוקא װ",
+        "modelQuote": "ער איז כמעט װי זיכער געװארן רב אין לוקאװ",
         "bbox": {
-          "left": 480,
+          "left": 1310,
           "top": 2734,
-          "right": 2980,
-          "bottom": 2918
+          "right": 2942,
+          "bottom": 2816
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n32/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "3e69da9f6062bb6a633980db79b15b9b53675b1ddf54239ef631479c3431966d",
         "normalizedPassageChecksum": "d6f6586dc1401656176edd14e3ba6086d929159acdaba3d5b6da72e86a652ee1",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_9a5a55152aac2b5f033f8c94",
+      "predicate": "Child Of",
+      "subjectTitle": "Shlomo Zalman",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2e472d68fa685dad4ed4f40e",
+        "pageId": "page_nybc301551_0033",
+        "scanIndex": 33,
+        "leafNumber": 32,
+        "printedPage": "29",
+        "passageCharStart": 0,
+        "passageCharEnd": 80,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 80,
+        "pageCharStart": 1357,
+        "pageCharEnd": 1437,
+        "quote": "זלמן אי ז געװע ן א זו ן פו ן דע ם לעמבערגע ר ר ב אבראשק י (אבדד,ם ) קאצינעלבויגן",
+        "normalizedQuote": "זלמן אי ז געװע ן א זו ן פו ן דע ם לעמבערגע ר ר ב אבראשק י (אבדד,ם ) קאצינעלבויגן",
+        "modelQuote": "זלמן איז געװעןא זון פון דעם לעמבערגער רב אבראשקי (אבדד,ם) קאצינעלבויגן",
+        "bbox": {
+          "left": 654,
+          "top": 3038,
+          "right": 3026,
+          "bottom": 3138
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n32/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "fdb55a0525d4d62755f9cd9edb22bb05ded1f39ddbd355100da23a07760c7b00",
+        "normalizedPassageChecksum": "18b9ea8b0045718e87139ecfa7c39538056c784cb619d5239582a1cbbb1559f8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "events": [
     {
-      "id": "event_candidate_9d508e71fd5479794cb38ad7",
+      "id": "event_candidate_a7bdda317a82aa396d1a58d0",
       "type": "Death",
       "title": "Death of Shlomo Zalman",
       "summary": "Shlomo Zalman died in 1660.",
@@ -99,67 +134,67 @@
         "scanIndex": 33,
         "leafNumber": 32,
         "printedPage": "29",
-        "passageCharStart": 1137,
+        "passageCharStart": 1154,
         "passageCharEnd": 1185,
-        "normalizedPassageCharStart": 968,
-        "normalizedPassageCharEnd": 1009,
-        "pageCharStart": 1137,
+        "normalizedPassageCharStart": 1154,
+        "normalizedPassageCharEnd": 1185,
+        "pageCharStart": 1154,
         "pageCharEnd": 1185,
-        "quote": "הרב שלמ ה זלמן , נפט ר געװאר ן אי ן ת״ כ (1660 )",
-        "normalizedQuote": "הרב שלמה זלמן, נפטר געװארן אין ת״כ (1660)",
-        "modelQuote": "הרב שלמה זלמן, נפטר געװארן אין ת״כ (1660)",
+        "quote": "נפט ר געװאר ן אי ן ת״ כ (1660 )",
+        "normalizedQuote": "נפט ר געװאר ן אי ן ת״ כ (1660 )",
+        "modelQuote": "נפטר געװארן אין ת״כ (1660)",
         "bbox": {
           "left": 1426,
           "top": 2580,
-          "right": 3034,
-          "bottom": 2662
+          "right": 2540,
+          "bottom": 2658
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n32/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "3e69da9f6062bb6a633980db79b15b9b53675b1ddf54239ef631479c3431966d",
         "normalizedPassageChecksum": "d6f6586dc1401656176edd14e3ba6086d929159acdaba3d5b6da72e86a652ee1",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
-      "type": "Place",
-      "title": "Łuków",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Worked At"
     },
     {
-      "id": "event_candidate_9d508e71fd5479794cb38ad7",
+      "id": "event_candidate_a7bdda317a82aa396d1a58d0",
       "type": "Event",
       "title": "Death of Shlomo Zalman",
       "relation": "Participated In",
       "role": "Subject"
     },
     {
-      "id": "mention_079cff3383fcac81f32d01c3",
+      "id": "mention_2bc7cc74683707cac328634b",
       "type": "Person",
-      "title": "Ephraim Fishel",
+      "title": "Efraim Fishel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_010383ace69132e8280274b1",
+      "id": "mention_3ad40c9fad66d0c4cb93a65a",
       "type": "Person",
       "title": "Leyb Fishel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_aafdbba5a4a0c27ce305a6a3",
+      "id": "mention_81aeadaf2c8da8cfddcdcec3",
       "type": "Person",
-      "title": "Zekharya Hanavi",
+      "title": "Zekharya the Prophet",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6677de83bfdd300abf73aebf",
+      "id": "mention_fab597d787f6a83aaa95ce10",
       "type": "Person",
-      "title": "Saul Wahl",
+      "title": "Shaul Wahl",
       "relation": "Appears in same passage"
     },
     {
@@ -169,39 +204,33 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0e4b87850ca4512f6b3678e7",
+      "id": "mention_427e1b11a23e0bbcf1fb09f5",
       "type": "Person",
       "title": "Fishel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9c94918e4c784f0b3b4640f3",
-      "type": "Person",
-      "title": "Abishal Frankfurter",
+      "id": "mention_fc1afd6fd8a6cce489f7e54c",
+      "type": "Place",
+      "title": "Mezhyrich",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7a374400068b4cd95627ef81",
+      "id": "mention_9ae3baac3ccb3cdfdd6018b8",
+      "type": "Person",
+      "title": "Avishl Frankfurter",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1306edcfa210cf9c76908ad7",
       "type": "Person",
       "title": "Mordechai Lisser",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
-      "type": "Place",
-      "title": "Łuków",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5ea76459ad0c6e551697d2f5",
-      "type": "Place",
-      "title": "Mezritch",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7a520b4b56320af5bf661c6c",
-      "type": "Place",
-      "title": "Poland",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     }
   ],

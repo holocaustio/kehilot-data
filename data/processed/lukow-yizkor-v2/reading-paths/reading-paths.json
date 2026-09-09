@@ -2,10 +2,10 @@
   "schemaVersion": "kehilot-yizkor-reading-paths-v1",
   "pipelineVersion": "kehilot-yizkor-reading-paths-v1",
   "promptVersion": "kehilot-yizkor-reading-paths-prompt-v1",
-  "generatedAt": "2026-08-25T21:27:50.090Z",
+  "generatedAt": "2026-09-09T09:48:59.316Z",
   "community": {
     "id": "community_lukow",
-    "displayName": "Lukow",
+    "displayName": "lukow",
     "canonicalName": "Łuków",
     "country": "Poland"
   },
@@ -16,626 +16,269 @@
   "source": {
     "selectedVersion": "lukow-yizkor-v2",
     "graphPath": "data/processed/lukow-yizkor-v2/adjudication/resolved-graph.json",
-    "graphSha256": "9b1ec5d3472ca99088e9086e9a8d6d5380aac0aff3797c5609298cbb926b5edd",
+    "graphSha256": "f20f9c2860c53e6920183de94b224e9a9769e221e8e8a4d94406602335687a81",
     "candidateCount": 360
   },
   "model": {
     "name": "gpt-5.6-luna",
-    "serviceTier": "default",
+    "serviceTier": "flex",
     "reasoningEffort": "medium"
   },
   "overview": {
-    "title": "Jewish Łuków through Sefer Lukow",
-    "summary": "The memorial book presents Łuków as a Jewish community with documented religious institutions, schools, political movements, cultural life, families, and trades. Its testimony follows the community from centuries-old residence and rights through modern communal growth, German occupation, ghettos, deportations, murder, hiding, and resistance. Survivors then carried Łuków’s memory into new places through publications, memorial gatherings, and a pledge to remember the dead. Exploring these paths helps readers understand both the richness of the community that was destroyed and the testimony through which its history is preserved. [mention_60784a4a59ca237b5eed45e4; mention_c6ab49c2af6964c62ea9e416; mention_0d3f09ddd44dc8d2ca1f3563; mention_69efd85d788697ef4161ad94]"
+    "title": "Reading Jewish Łuków through Sefer Lukov",
+    "summary": "Łuków was home to a longstanding Jewish community whose religious life, schools, libraries, newspapers, political movements, businesses, and families shaped the town. The memorial book traces this world from earlier settlement and communal institutions through wartime occupation, ghettoization, murder, deportation, hiding, resistance, and survival. Its testimonies also show how survivors and descendants rebuilt community memory after the Holocaust. By following the paths below, readers can understand both the richness of Jewish Łuków before the destruction and the human choices, losses, and acts of remembrance recorded afterward."
   },
   "paths": [
     {
-      "id": "origins_and_belonging",
+      "id": "path_community_foundations",
       "theme": "COMMUNITY_LIFE",
-      "title": "How long had Jewish life existed in Łuków?",
-      "description": "This path traces the community’s documented legal, religious, and historical foundations, showing how Jewish residence in Łuków was connected to rights, institutions, and collective memory. By the end, readers will see that the community destroyed during the Holocaust had deep roots. [mention_60784a4a59ca237b5eed45e4; mention_938fd314b74841c6cd50a246]",
-      "question": "What foundations made Jewish communal life possible in Łuków?",
+      "title": "How long had Jewish Łuków existed, and what held the community together?",
+      "description": "This path establishes Łuków’s historical depth and introduces the institutions, religious authorities, and communal rights that sustained Jewish life. By the end, readers will see the community not as a prelude to catastrophe, but as a society with its own history and structures.",
+      "question": "What made Jewish Łuków a community before the Holocaust?",
       "steps": [
         {
-          "title": "Residence and communal rights",
-          "summary": "The memorial book cites a Jewish rights charter issued on 10 May 1659, granting Jews rights of residence, commerce, crafts, property, a synagogue, and a cemetery. These rights provide the book’s evidence for an established community with both economic and communal institutions. [mention_60784a4a59ca237b5eed45e4; mention_938fd314b74841c6cd50a246]",
+          "title": "A community with deep roots",
+          "summary": "The memorial book places an early settlement in Łuków in the twelfth century, identifies the town’s establishment in 1230, and records its official recognition as a town in 1403. It also preserves population records of 911 Jewish poll-tax payers in 1765 and 1,877 Jews in 1840, showing a community with a long and documented presence.",
           "recordIds": [
-            "mention_60784a4a59ca237b5eed45e4",
-            "mention_938fd314b74841c6cd50a246"
+            "event_candidate_b713cc012ea03e7752d3ac14",
+            "event_candidate_f1a24db81c5dc49b58f3dfb6",
+            "event_candidate_0cee3516c04b7f1012879fcf",
+            "event_candidate_8d07c5653d882ffe1698ff1e"
           ],
           "records": [
             {
-              "recordId": "mention_60784a4a59ca237b5eed45e4",
-              "kind": "mention",
-              "type": "DOCUMENT",
-              "title": "Jewish rights charter of 10 May 1659",
-              "summary": "Charter granting Jews residence, commerce, crafts, property, synagogue, and cemetery rights.",
-              "dateStart": "",
+              "recordId": "event_candidate_b713cc012ea03e7752d3ac14",
+              "kind": "event",
+              "type": "SETTLEMENT",
+              "title": "Early settlement in Łuków",
+              "summary": "A settlement probably existed in Łuków during the twelfth century.",
+              "dateStart": "1101",
+              "dateEnd": "1200",
+              "scanIndex": 45,
+              "printedPage": "41",
+              "passageId": "passage_76eee2e618466238ae8e2989",
+              "quote": "הי ה בה כנרא ה ישו ב במא ה ה־ 12 לספירה"
+            },
+            {
+              "recordId": "event_candidate_f1a24db81c5dc49b58f3dfb6",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of Luków",
+              "summary": "Luków was established in 1230.",
+              "dateStart": "1230",
               "dateEnd": "",
-              "scanIndex": 46,
-              "printedPage": "42",
-              "passageId": "passage_de343182715cff53b7aaa79d",
-              "quote": "בכתב הזכויות שנתן ב־10 למאי1659 ליהודי לוקוב"
+              "scanIndex": 92,
+              "printedPage": "88",
+              "passageId": "passage_18115dd66d1776333180e518",
+              "quote": "לוקוב, שהי א אח ת הערי ם העתיקו ת בפולין , הוקמ ה ב־1230"
+            },
+            {
+              "recordId": "event_candidate_0cee3516c04b7f1012879fcf",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Łuków recognized as a town",
+              "summary": "Łuków was officially designated a town in 1403.",
+              "dateStart": "1403",
+              "dateEnd": "1403",
+              "scanIndex": 489,
+              "printedPage": "485",
+              "passageId": "passage_53ed3b1c071ecf8de36e2779",
+              "quote": "אפיציעל אי ז לוקא װ באשטימ ט געװאר ן אל ס שטא ט ערש ט אי ן 1403 יאר"
+            },
+            {
+              "recordId": "event_candidate_8d07c5653d882ffe1698ff1e",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Łuków Jewish population record",
+              "summary": "Records counted 911 Jewish poll-tax payers in Łuków in 1765.",
+              "dateStart": "1765",
+              "dateEnd": "1765",
+              "scanIndex": 25,
+              "printedPage": "21",
+              "passageId": "passage_9672065a7be1c1561c9ed2c0",
+              "quote": "אין 1765 זענע ן געװע ן 543 ײדיש ע קאפשטײער־צאלער ם אי ן דע ר םביבד ״ או ן 911 אין לוקאוו"
             }
           ],
           "position": 1
         },
         {
-          "title": "A long religious tradition",
-          "summary": "The book describes Łuków as a Hasidic town with several Hasidic groups and records the presence of rabbis and study houses. It also recalls the Great Synagogue, built at the beginning of the nineteenth century, showing how religious life was expressed through leadership, prayer, and study. [mention_c6ab49c2af6964c62ea9e416; event_candidate_e187009eebdf6c1ecc93525e; mention_ae22001900e8d0fb4243b0e0; mention_0c89c9f9dfd604dc0a2a575a]",
+          "title": "Rights, worship, and communal authority",
+          "summary": "A 1659 charter is described as granting Łuków Jews rights of residence, trade, crafts, property, synagogue, and cemetery. The book also remembers rabbis, study houses, a yeshiva, a Talmud Torah, and the rebuilding of the Great Synagogue at the beginning of the nineteenth century.",
           "recordIds": [
-            "mention_c6ab49c2af6964c62ea9e416",
-            "event_candidate_e187009eebdf6c1ecc93525e",
-            "mention_ae22001900e8d0fb4243b0e0",
-            "mention_0c89c9f9dfd604dc0a2a575a"
+            "event_candidate_1a004f5b3730d0db5f5a12bf",
+            "event_candidate_1588fd41121fdb9e2a273081",
+            "mention_fc0977cfd6680f1f538506fb",
+            "mention_15635f16613806d709cd5b2c"
           ],
           "records": [
             {
-              "recordId": "mention_c6ab49c2af6964c62ea9e416",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Łuków Jewish community",
-              "summary": "Łuków was described as a Hasidic town with several Hasidic groups.",
-              "dateStart": "",
+              "recordId": "event_candidate_1a004f5b3730d0db5f5a12bf",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Granting of rights to Łuków Jews",
+              "summary": "A 1659 charter granted Łuków Jews residence, trade, craft, property, synagogue, and cemetery rights.",
+              "dateStart": "1659-05-10",
               "dateEnd": "",
-              "scanIndex": 36,
-              "printedPage": "32",
-              "passageId": "passage_0c535499ec4ef97f5bf25737",
-              "quote": "לוקאװ איז געװעןא חםידישע שטאט"
+              "scanIndex": 46,
+              "printedPage": "42",
+              "passageId": "passage_de343182715cff53b7aaa79d",
+              "quote": "בכתב הזכויו ת שנת ן ב־ 10 למא י 1659 ליהוד י לוקוב"
             },
             {
-              "recordId": "event_candidate_e187009eebdf6c1ecc93525e",
+              "recordId": "event_candidate_1588fd41121fdb9e2a273081",
               "kind": "event",
-              "type": "CONSTRUCTION",
-              "title": "Construction of the Great Synagogue",
-              "summary": "The Great Synagogue was built at the beginning of the nineteenth century.",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Rebuilding of the Great Synagogue",
+              "summary": "The Great Synagogue was rebuilt at the beginning of the nineteenth century.",
               "dateStart": "1800",
-              "dateEnd": "1833",
+              "dateEnd": "1825",
               "scanIndex": 99,
               "printedPage": "95",
               "passageId": "passage_e942fdc5f55f4698f447cc4a",
-              "quote": "די גרויםע שול איז אויפגעבויט געװארן אין אנהײב פון 19טן יארהונדערט"
+              "quote": "די גרוים ע שו ל אי ז אויפגעבוי ט געװאר ן אי ן אנהײ ב פו ן 19ט ן יארהונדערט"
             },
             {
-              "recordId": "mention_ae22001900e8d0fb4243b0e0",
+              "recordId": "mention_fc0977cfd6680f1f538506fb",
               "kind": "mention",
               "type": "INSTITUTION",
-              "title": "Chaya Sarah Beth Midrash",
-              "summary": "The smaller Chaya Sarah Beth Midrash hosted enthusiastic religious study.",
+              "title": "Łuków Yeshiva",
+              "summary": "A yeshiva whose teachers raised much of the town’s youth.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 134,
-              "printedPage": "130",
-              "passageId": "passage_f23f1c708ba19b4a0970efe0",
-              "quote": "קלענערן א. ג. חיה שרהם בית־מדרש"
+              "scanIndex": 229,
+              "printedPage": "225",
+              "passageId": "passage_2fbc7f6f0f6a6e2380049c63",
+              "quote": "פא ר דע ר ישיב ה סו ן לוקאװ"
             },
             {
-              "recordId": "mention_0c89c9f9dfd604dc0a2a575a",
+              "recordId": "mention_15635f16613806d709cd5b2c",
               "kind": "mention",
               "type": "INSTITUTION",
-              "title": "Chaya Sarah Beth Midrash",
-              "summary": "New beth midrash named after the righteous Chaya Sarah.",
+              "title": "Talmud Torah",
+              "summary": "Community-supported school for several hundred impoverished boys.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 72,
               "printedPage": "68",
               "passageId": "passage_fa9fbda2086924e4a4e437b2",
-              "quote": "חיה שרהם בית־מדרש"
+              "quote": "אין דע ר תלמוד־תור ה"
             }
           ],
           "position": 2
         },
         {
-          "title": "Synagogues rebuilt after destruction",
-          "summary": "The memorial book recalls that the old synagogue was burned during a Cossack uprising and that Jews were later permitted to build a new one. The account connects physical rebuilding with the community’s continuing presence in Łuków. [mention_a9afe19b73a896b093c3c21b; mention_b66fa9385f02e19bfe5d716a; mention_b32b163585fefe0dbe0f61e6]",
+          "title": "Religious learning as lived experience",
+          "summary": "The records connect Łuków with rabbinic figures and works including the Bayit Hadash, Ketoret HaSamim, and Tevuot Shor, while personal recollections describe prayer, study, bar mitzvah, and communal observance. Together, these accounts show religious life as both scholarship and everyday practice.",
           "recordIds": [
-            "mention_a9afe19b73a896b093c3c21b",
-            "mention_b66fa9385f02e19bfe5d716a",
-            "mention_b32b163585fefe0dbe0f61e6"
+            "mention_57ffc22c71785a5a64189fc0",
+            "mention_5ce44635fce486afc9e5130f",
+            "mention_8b354d375d51d1d8199b3282",
+            "mention_4cb5ff6403f5edc7dbdf55e3"
           ],
           "records": [
             {
-              "recordId": "mention_a9afe19b73a896b093c3c21b",
+              "recordId": "mention_57ffc22c71785a5a64189fc0",
               "kind": "mention",
-              "type": "EVENT",
-              "title": "Cossack uprising",
-              "summary": "The original Jewish privilege burned together with the synagogue during the Cossack uprising.",
+              "type": "WORK",
+              "title": "Bayit Hadash",
+              "summary": "A famous work associated with Joel Sirkis.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 20,
-              "printedPage": "16",
-              "passageId": "passage_2c01cb9f1d5a6ec1cccc10ef",
-              "quote": "בעת דעם קאזאקן־אויפשטאנד"
+              "scanIndex": 21,
+              "printedPage": "17",
+              "passageId": "passage_c6fd8c1391331b9ec697d3aa",
+              "quote": "זײ ן בארימ ט װערק ב״ ח — בי ת חד ש"
             },
             {
-              "recordId": "mention_b66fa9385f02e19bfe5d716a",
+              "recordId": "mention_8b354d375d51d1d8199b3282",
               "kind": "mention",
-              "type": "EVENT",
-              "title": "Haydamak burning of the old synagogue",
-              "summary": "Haydamaks burned the old synagogue, after which Jews were allowed to build a new one.",
+              "type": "WORK",
+              "title": "Tevuot Shor",
+              "summary": "Book authored by Rabbi Zalman Shor.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 20,
-              "printedPage": "16",
-              "passageId": "passage_2c01cb9f1d5a6ec1cccc10ef",
-              "quote": "די הײדאמאקעם האבן פארברענט די אלטע שול"
+              "scanIndex": 34,
+              "printedPage": "30",
+              "passageId": "passage_2cf7b054e67d1d58bc55ee33",
+              "quote": "מחב ר פו ן דע ם ״תבוא ת שור״"
             },
             {
-              "recordId": "mention_b32b163585fefe0dbe0f61e6",
+              "recordId": "mention_4cb5ff6403f5edc7dbdf55e3",
               "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Lukow Jewish community",
-              "summary": "Jewish residents of Lukow are described in relation to a synagogue and Christian neighborhood expansion.",
+              "type": "EVENT",
+              "title": "Bar mitzvah",
+              "summary": "A boy was called to the haftarah on his bar mitzvah day.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 22,
-              "printedPage": "18",
-              "passageId": "passage_004457c8531bae8e8954761c",
-              "quote": "די לוקאװער ײדן צוריק אויפשטעלן זײער שול"
+              "scanIndex": 284,
+              "printedPage": "280",
+              "passageId": "passage_afcf47342ff1329654b4fd72",
+              "quote": "אי ן טא ג פו ן בר־מצװה"
             }
           ],
           "position": 3
         },
         {
-          "title": "Religious learning for children",
-          "summary": "The community-supported Talmud Torah taught hundreds of poor children, while a study house served older students and was supported by wealthy Jewish residents. These institutions show that education and religious study were organized as communal responsibilities, not only private activities. [mention_4d01156bb696f4ecb9e2d962; mention_b70a8c0919237bbe6d4d6a65]",
+          "title": "Institutions beyond the synagogue",
+          "summary": "The community supported a Jewish public library, a reading room, a kindergarten, public schools, and girls’ education through Beit Yaakov. These institutions mattered because they gave children, youth, and adults places to learn, read, and participate in communal culture.",
           "recordIds": [
-            "mention_4d01156bb696f4ecb9e2d962",
-            "mention_b70a8c0919237bbe6d4d6a65"
+            "mention_1a6bb728fcf7f119acef74a9",
+            "mention_b21a90d0d47c58f5373a6149",
+            "mention_1512c211832e2b1059824d58",
+            "mention_4420ef80502d4597ece38cea"
           ],
           "records": [
             {
-              "recordId": "mention_4d01156bb696f4ecb9e2d962",
+              "recordId": "mention_1a6bb728fcf7f119acef74a9",
               "kind": "mention",
               "type": "INSTITUTION",
-              "title": "Lukow Talmud Torah",
-              "summary": "Community-supported school attended by hundreds of poor children.",
+              "title": "Jewish Public Library",
+              "summary": "A Jewish public library in Łuków offering books, translations, cultural events, and a reading room.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 81,
-              "printedPage": "77",
-              "passageId": "passage_7c33ae95f185ed775c8702f1",
-              "quote": "בתלמוד התורה למדו מספר מאות ילדים ענײם. התלמוד תורה קוײם ע״י הקהילה"
+              "scanIndex": 78,
+              "printedPage": "74",
+              "passageId": "passage_9c5c456efd28178619433c8a",
+              "quote": "הםפרי ה העממי ת היהודית ״ײדיש ע פאלק ם ביבליאטעק״"
             },
             {
-              "recordId": "mention_b70a8c0919237bbe6d4d6a65",
+              "recordId": "mention_b21a90d0d47c58f5373a6149",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Culture Association",
+              "summary": "Organization associated with a library, kindergarten, and public school.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 64,
+              "printedPage": "60",
+              "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+              "quote": "בײ ם ״קולטור־פאראײן״"
+            },
+            {
+              "recordId": "mention_1512c211832e2b1059824d58",
               "kind": "mention",
               "type": "INSTITUTION",
-              "title": "Study house",
-              "summary": "A study house supported by wealthy Jewish residents and attended by older students.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 81,
-              "printedPage": "77",
-              "passageId": "passage_04d6d720237e09332f880a21",
-              "quote": "והם החזיקו את בית המדרש"
-            }
-          ],
-          "position": 4
-        }
-      ]
-    },
-    {
-      "id": "work_and_everyday_economy",
-      "theme": "OCCUPATION_GHETTO",
-      "title": "What did people do to make a living?",
-      "description": "This path reconstructs Łuków’s streets and economy through workshops, factories, shops, and family businesses named in the book. It shows a community sustained by both small household enterprises and larger employers. [mention_70051ea3dd119d301c5c3bc5; mention_90fe9d5e8d7c64e134e2ebc9; mention_3e853b47cd6ef70efe5473c0]",
-      "question": "How did work shape Jewish life in Łuków?",
-      "steps": [
-        {
-          "title": "A varied commercial world",
-          "summary": "The book names Jewish businesses selling cloth goods, stationery, oil and lighting supplies, and food, alongside bakeries, barbershops, and guesthouses. These accounts place Jewish work within the town’s streets and markets and reveal the everyday networks that connected households to customers and neighbors. [mention_2ae84b216f7b4980b684c299; mention_2f96e7facd1404efc0caa95b; mention_8563ee473dc1ad89cc18cc97; mention_df62100016d06b91f047107c; mention_9b311c4de3e29dbe323c3311; mention_a5ee180bb8ffdcbfb3755f24]",
-          "recordIds": [
-            "mention_2ae84b216f7b4980b684c299",
-            "mention_2f96e7facd1404efc0caa95b",
-            "mention_8563ee473dc1ad89cc18cc97",
-            "mention_df62100016d06b91f047107c5f24"
-          ],
-          "records": [
-            {
-              "recordId": "mention_2ae84b216f7b4980b684c299",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Cloth-goods shop",
-              "summary": "Jews traded in cloth goods at one of the town’s shops.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 12,
-              "printedPage": "8",
-              "passageId": "passage_45aa830b198075be2f227dfb",
-              "quote": "דא האבן יידן געהאנדלט מיט שניט־סחורה"
-            },
-            {
-              "recordId": "mention_2f96e7facd1404efc0caa95b",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Stationery Shop",
-              "summary": "A shop with broad windows, entered from Zhelekhauer Road.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 288,
-              "printedPage": "284",
-              "passageId": "passage_bff73ab9c6afdcba3d7f7228",
-              "quote": "געשעפט פון שרײב־מאטעריאלן"
-            },
-            {
-              "recordId": "mention_8563ee473dc1ad89cc18cc97",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Biderman's oil and distribution shop",
-              "summary": "A shop known as an oil business sold lighting supplies, soap, and kindling.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 289,
-              "printedPage": "285",
-              "passageId": "passage_0b0e128ed8e6cc1dc6cb67d3",
-              "quote": "בידערמאנם נאפט־ און דיםטריבוציע־געשעפט"
-            }
-          ],
-          "position": 1
-        },
-        {
-          "title": "Factories and skilled production",
-          "summary": "Jewish-owned production included a shoe factory, a soap factory, a spinning mill, an album factory, a brewery, and an oil press. Gastman’s shoe factory employed 300 workers, indicating that Jewish economic life included substantial industrial employment as well as small shops. [mention_097f9b289659bf1d1aa7cdde; mention_d400ab1520f4c9c9a29074c4; mention_bf68ecce7024a50bd14c207d; mention_c311951627fec600d703941a; mention_45e8dc52acc35fe704684a6c; mention_77de3e59f176edaec475ccb1; mention_70051ea3dd119d301c5c3bc5]",
-          "recordIds": [
-            "mention_097f9b289659bf1d1aa7cdde",
-            "mention_d400ab1520f4c9c9a29074c4",
-            "mention_bf68ecce7024a50bd14c207d",
-            "mention_c311951627fec600d703941a"
-          ],
-          "records": [
-            {
-              "recordId": "mention_097f9b289659bf1d1aa7cdde",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Joseph Mendel Hochman’s shoe factory",
-              "summary": "A small shoe factory opened in Łuków.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 74,
-              "printedPage": "70",
-              "passageId": "passage_8324468ea103c24aba3c57dc",
-              "quote": "בית חרושת קטן ױתר לנעלײם של יוםף מנדל הוכמן"
-            },
-            {
-              "recordId": "mention_d400ab1520f4c9c9a29074c4",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Moshe Lichtenstein's soap factory",
-              "summary": "One of Moshe Lichtenstein's two factories produced soap.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 297,
-              "printedPage": "293",
-              "passageId": "passage_a50f0483ad13b7594d9928b4",
-              "quote": "בעל שני בתי־חרושת, אחד לםבון"
-            },
-            {
-              "recordId": "mention_bf68ecce7024a50bd14c207d",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Ezriel Watemakher's Spinning Mill",
-              "summary": "A spinning mill in the first house on Zhelekh over Street.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 302,
-              "printedPage": "298",
-              "passageId": "passage_292ee9d77b8b59436a8358d5",
-              "quote": "דאם איז געװען די שפינערײ פון עזריאל װאטעמאכער"
-            },
-            {
-              "recordId": "mention_c311951627fec600d703941a",
-              "kind": "mention",
-              "type": "BUSINESS",
-              "title": "Album factory",
-              "summary": "An album factory was established in Łuków.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 74,
-              "printedPage": "70",
-              "passageId": "passage_8324468ea103c24aba3c57dc",
-              "quote": "בית חרושת לאלבומים"
-            }
-          ],
-          "position": 2
-        },
-        {
-          "title": "Economic change and movement",
-          "summary": "The book records the relocation of Gastman’s shoe factory from Warsaw to Łuków in 1906–1907 and the creation of a Loan and Savings Fund in 1908. It also records a 30-percent decline in Łuków’s Jewish population between 1914 and 1930, suggesting that opportunity and economic pressure both shaped mobility. [event_candidate_92892b8cbe0212f3dbd69616; event_candidate_d65f5cf47e91c1615c77991e; event_candidate_3df67ead2a8ae8ab80bb9a69]",
-          "recordIds": [
-            "event_candidate_92892b8cbe0212f3dbd69616",
-            "event_candidate_d65f5cf47e91c1615c77991e",
-            "event_candidate_3df67ead2a8ae8ab80bb9a69"
-          ],
-          "records": [
-            {
-              "recordId": "event_candidate_92892b8cbe0212f3dbd69616",
-              "kind": "event",
-              "type": "BUSINESS_RELOCATION",
-              "title": "Transfer of Gastman’s shoe factory",
-              "summary": "Gastman’s shoe factory was relocated from Warsaw to Łuków in 1906–1907, contributing to local economic activity.",
-              "dateStart": "1906",
-              "dateEnd": "1907",
-              "scanIndex": 74,
-              "printedPage": "70",
-              "passageId": "passage_8324468ea103c24aba3c57dc",
-              "quote": "העברת בית החרושת לנעלײם של גםטמן מװרשה ללוקוב"
-            },
-            {
-              "recordId": "event_candidate_d65f5cf47e91c1615c77991e",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Founding of the Loan and Savings Fund",
-              "summary": "Loan and Savings Fund founded in 1908 on Warsaw Street.",
-              "dateStart": "1908",
-              "dateEnd": "",
-              "scanIndex": 108,
-              "printedPage": "104",
-              "passageId": "passage_7d1ba3c1cd9dd5c769ed4f1e",
-              "quote": "אין יאר1908 איז געגרינדעט געװארן די ״לײ־ און שפאר־קאסע״"
-            },
-            {
-              "recordId": "event_candidate_3df67ead2a8ae8ab80bb9a69",
-              "kind": "event",
-              "type": "MIGRATION",
-              "title": "Decline of the Jewish population of Lukow",
-              "summary": "The Jewish population declined by 30 percent between 1914 and 1930.",
-              "dateStart": "1914",
-              "dateEnd": "1930",
-              "scanIndex": 88,
-              "printedPage": "84",
-              "passageId": "passage_2791fb091404e19874074dc7",
-              "quote": "צװישן די יארן 1914—1930 איז די ײדישע באפעלקערונג פארקלענערט געװארן מיט30 פראצענט"
-            }
-          ],
-          "position": 3
-        },
-        {
-          "title": "Mutual aid after war",
-          "summary": "Between 1918 and 1920, a public kitchen was established in Łuków with funds from American landsmen. The initiative shows how translocal Jewish ties supported people facing hardship in the town. [event_candidate_aafcd2b8406529e6ba668640]",
-          "recordIds": [
-            "event_candidate_aafcd2b8406529e6ba668640"
-          ],
-          "records": [
-            {
-              "recordId": "event_candidate_aafcd2b8406529e6ba668640",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Establishment of a public kitchen in Lukow",
-              "summary": "A public kitchen was established in Lukow using funds from American landsmen.",
-              "dateStart": "1918",
-              "dateEnd": "1920",
-              "scanIndex": 199,
-              "printedPage": "195",
-              "passageId": "passage_3601b38a73041b6db33c7f8b",
-              "quote": "צװישן די יארן 20—1918 איז אין לוקאװ געשאפן געװאחא פאלקםקיך׳"
-            }
-          ],
-          "position": 4
-        }
-      ]
-    },
-    {
-      "id": "id_education_culture",
-      "theme": "EDUCATION_CULTURE",
-      "title": "How did Łuków’s young people learn and create?",
-      "description": "This path follows competing and overlapping educational, literary, theatrical, and youth initiatives. Readers will understand Łuków as a place where Jewish culture was actively produced, debated, and passed to younger generations. [mention_ac3b9dd3075c9ee527d2d6ac; mention_6e4995243460b4f376933f77; mention_1c242248e1fe5259e8fb4e7c]",
-      "question": "What kinds of education and culture flourished before the destruction?",
-      "steps": [
-        {
-          "title": "Religious and girls’ education",
-          "summary": "Agudath Israel opened a Beit Yaakov school for girls, while the yeshiva continued to attract much of the youth. Together with the Talmud Torah and study houses, these institutions show several forms of religious education within the community. [mention_2960c7920839e9fab6e29c37; mention_6e3020982c02a9d09f1935f1; mention_5ffce3ac39b3494978ec1f44]",
-          "recordIds": [
-            "mention_2960c7920839e9fab6e29c37",
-            "mention_6e3020982c02a9d09f1935f1",
-            "mention_5ffce3ac39b3494978ec1f44"
-          ],
-          "records": [
-            {
-              "recordId": "mention_2960c7920839e9fab6e29c37",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Beth Jacob",
-              "summary": "A girls school opened by Agudath Israel in Lukow.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 66,
-              "printedPage": "62",
-              "passageId": "passage_3a6b2584c1ba9bed23f0799f",
-              "quote": "שול פאר מײדלעך א. נ. ״בית יעקב״"
-            },
-            {
-              "recordId": "mention_6e3020982c02a9d09f1935f1",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Beit Yaakov School",
-              "summary": "Girls school opened by Agudath Israel in Lukow.",
+              "title": "Beit Yaakov",
+              "summary": "A girls’ school opened by Agudat Israel in Łuków.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 76,
               "printedPage": "72",
               "passageId": "passage_9ebe286c0dce0d6dc1b137dc",
-              "quote": "בית םפר לבנות בשם ״בית יעקב״"
+              "quote": "בי ת םפ ר לבנו ת בש ם ״בי ת יעקב ״"
             },
             {
-              "recordId": "mention_5ffce3ac39b3494978ec1f44",
+              "recordId": "mention_4420ef80502d4597ece38cea",
               "kind": "mention",
               "type": "INSTITUTION",
-              "title": "Yeshiva",
-              "summary": "Religious institution where much of the youth still studied.",
+              "title": "Elementary School",
+              "summary": "The elementary school opened in 1928 with four classes and four teachers.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 144,
-              "printedPage": "140",
-              "passageId": "passage_96e24e9f55dec6b61e52eb5c",
-              "quote": "דער ױגנט האט נאך געלערנט אין ישיבה"
-            }
-          ],
-          "position": 1
-        },
-        {
-          "title": "A secular Yiddish school",
-          "summary": "The secular Yiddish folk school formally opened in August 1928 and began classes on 1 September with one class. The Medem School account records a Jewish folk-school project that placed Yiddish language and secular education at the center of communal life. [event_candidate_6e4995243460b4f376933f77; event_candidate_6c996996e4e3303c0844947e; mention_ac3b9dd3075c9ee527d2d6ac]",
-          "recordIds": [
-            "event_candidate_6e4995243460b4f376933f77",
-            "event_candidate_6c996996e4e3303c0844947e",
-            "mention_ac3b9dd3075c9ee527d2d6ac"
-          ],
-          "records": [
-            {
-              "recordId": "event_candidate_6e4995243460b4f376933f77",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Opening of the secular Yiddish folk school in Lukow",
-              "summary": "The secular Yiddish folk school formally opened on a Saturday evening in August 1928.",
-              "dateStart": "1928-08",
-              "dateEnd": "1928-08",
-              "scanIndex": 115,
-              "printedPage": "111",
-              "passageId": "passage_7844a50704a9f9b8eca55d92",
-              "quote": "די פײערלעכע דערעפענונג פון דער ײדיש־װעלטלעכער פאלקםשול אין לוקאװ איז פארגעקומען דעם ערשטן שבת־אװנט אין חודש אויגוםט 1928"
-            },
-            {
-              "recordId": "event_candidate_6c996996e4e3303c0844947e",
-              "kind": "event",
-              "type": "SCHOOL_OPENING",
-              "title": "Opening of the school",
-              "summary": "The school opened on September 1, 1928 with one class.",
-              "dateStart": "1928-09-01",
-              "dateEnd": "",
-              "scanIndex": 115,
-              "printedPage": "111",
-              "passageId": "passage_d8140b83c6ccd5d042973bf2",
-              "quote": "די שול איז געעפנט געװארן דעם 1טן םעפטעמבער1928"
-            },
-            {
-              "recordId": "mention_ac3b9dd3075c9ee527d2d6ac",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Medem School in Lukow",
-              "summary": "A Jewish folk school in Lukow opened in October 1928.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 163,
-              "printedPage": "159",
-              "passageId": "passage_78523897949744ef473a219b",
-              "quote": "די מעדעם־שול אין לוקאװ"
-            }
-          ],
-          "position": 2
-        },
-        {
-          "title": "Youth movements and shared activity",
-          "summary": "Hashomer Hatzair was established in Łuków in 1925 and organized cultural and educational work, attracting young people from several social groups. A Jewish football team was organized in 1921, showing that youth life included both ideological activity and recreation. [event_candidate_6dbb39f5a499e264a051c4ee; mention_78282e7b8f031827c15c7f2b; mention_15d6bf5aec3d7425ca088a48; event_candidate_69b6b3cfb7c9d90ed5024510]",
-          "recordIds": [
-            "event_candidate_6dbb39f5a499e264a051c4ee",
-            "mention_78282e7b8f031827c15c7f2b",
-            "mention_15d6bf5aec3d7425ca088a48",
-            "event_candidate_69b6b3cfb7c9d90ed5024510"
-          ],
-          "records": [
-            {
-              "recordId": "event_candidate_6dbb39f5a499e264a051c4ee",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Founding of Hashomer Hatzair in Lukow",
-              "summary": "Three young people decided to establish Hashomer Hatzair in Lukow.",
-              "dateStart": "1925",
-              "dateEnd": "1925",
-              "scanIndex": 156,
-              "printedPage": "152",
-              "passageId": "passage_a91c28dfbbc24eeac211afcf",
-              "quote": "החלטנו ליםד בלוקוב את הארגון של השומר הצעיר"
-            },
-            {
-              "recordId": "mention_78282e7b8f031827c15c7f2b",
-              "kind": "mention",
-              "type": "ORGANIZATION",
-              "title": "Hashomer Hatzair",
-              "summary": "Ran cultural and educational activities for local youth.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 76,
-              "printedPage": "72",
-              "passageId": "passage_5229d20042be6217e2798b0d",
-              "quote": "עבודת ״השומר הצעיר״"
-            },
-            {
-              "recordId": "mention_15d6bf5aec3d7425ca088a48",
-              "kind": "mention",
-              "type": "ORGANIZATION",
-              "title": "Hashomer Hatzair",
-              "summary": "A youth movement attracting young people from several social groups.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 147,
-              "printedPage": "143",
-              "passageId": "passage_30356fb351d11500c8a985a8",
-              "quote": "די יוגנט פון אלע שיכטן האט געשטראמט אין ״השומר הצעיר״"
-            },
-            {
-              "recordId": "event_candidate_69b6b3cfb7c9d90ed5024510",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Organization of the first Jewish football team in Lukow",
-              "summary": "The first Jewish football team was organized in Lukow in 1921.",
-              "dateStart": "1921",
-              "dateEnd": "1921",
-              "scanIndex": 164,
-              "printedPage": "160",
-              "passageId": "passage_54311df2ca49370903eb0430",
-              "quote": "איז אין יאר1921 ארגאניזירט געװארן די ערשטע ײדישע פוטבאל־מאגשאפט"
-            }
-          ],
-          "position": 3
-        },
-        {
-          "title": "Print and performance",
-          "summary": "The weekly newspaper The Lukower Word appeared in 1927, and the book describes a local library founded in 1916. Abraham Nachtomi is remembered as an actor and writer who founded the Ohel theater, linking local literacy, journalism, and performance. [event_candidate_0fd7d6d17fa49dc5a2c83ced; event_candidate_2321c9942843a2dd07aa5460; mention_1c242248e1fe5259e8fb4e7c]",
-          "recordIds": [
-            "event_candidate_0fd7d6d17fa49dc5a2c83ced",
-            "event_candidate_2321c9942843a2dd07aa5460",
-            "mention_1c242248e1fe5259e8fb4e7c"
-          ],
-          "records": [
-            {
-              "recordId": "event_candidate_0fd7d6d17fa49dc5a2c83ced",
-              "kind": "event",
-              "type": "PUBLICATION",
-              "title": "Publication of the first issue of The Lukower Word",
-              "summary": "The first issue of The Lukower Word appeared on 16 September 1927.",
-              "dateStart": "1927-09-16",
-              "dateEnd": "",
-              "scanIndex": 243,
-              "printedPage": "239",
-              "passageId": "passage_3d43cfc783e3e9c6c42d0343",
-              "quote": "דאס לוקאװער װארט׳ נומ. 1, 6ו סעפטעמבער1927"
-            },
-            {
-              "recordId": "event_candidate_2321c9942843a2dd07aa5460",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Founding of the Lukow Library",
-              "summary": "The library was officially founded in 1916.",
-              "dateStart": "1916",
-              "dateEnd": "",
-              "scanIndex": 129,
-              "printedPage": "125",
-              "passageId": "passage_4a456551e7aecea3e9e0049b",
-              "quote": "אפיציעל געגרינדעט געװארן אין יאר 1916"
-            },
-            {
-              "recordId": "mention_1c242248e1fe5259e8fb4e7c",
-              "kind": "mention",
-              "type": "PERSON",
-              "title": "Abraham Nachtomi",
-              "summary": "A Jewish actor, writer, and founder of the Ohel theater.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 294,
-              "printedPage": "290",
-              "passageId": "passage_64638f534b7c3aaa0c4558da",
-              "quote": "אברהם נחתומי (אברהם פיעקאזש)"
+              "scanIndex": 77,
+              "printedPage": "73",
+              "passageId": "passage_04efcbc4dc69c42dd4f4fce2",
+              "quote": "ב־1928 נפת ח בי ת הספ ר היסוד י"
             }
           ],
           "position": 4
@@ -643,86 +286,193 @@
       ]
     },
     {
-      "id": "id_politics_and_public_life",
-      "theme": "POLITICS",
-      "title": "How did Jews debate their future?",
-      "description": "This path examines elections, Bundist activity, Zionist initiatives, workers’ protest, and cultural associations. It shows Jewish Łuków as politically diverse and publicly engaged rather than socially uniform. [event_candidate_6ffae1afdfdb036f3c8dfced; event_candidate_4165359a2faeec590fb0eeb9; mention_39a1792553067c6f424781dd]",
-      "question": "Which political visions and civic activities shaped the community?",
+      "id": "path_modern_life",
+      "theme": "EDUCATION_CULTURE",
+      "title": "What did modern Jewish life look like in Łuków?",
+      "description": "This path follows the growth of education, Yiddish culture, youth movements, and political debate from the early twentieth century. It shows how Łuków’s Jews created competing but interconnected visions of communal life.",
+      "question": "How did education, culture, and politics shape younger generations?",
       "steps": [
         {
-          "title": "Workers’ protest and repression",
-          "summary": "Workers demonstrated in Łuków in 1905, after which police dispersed the demonstration and made arrests. The book presents this episode as an early expression of Jewish workers’ political activity under pressure from authorities. [event_candidate_14c687ab13c38470aa278ad2; event_candidate_b19408745eb6a36b0d57d028]",
+          "title": "Schools for different communities and needs",
+          "summary": "The Medem folk school opened in October 1928, while Tsisho education primarily served children from poor working-class families. Beit Yaakov offered girls’ schooling, and students’ secret attendance at Hashomer Hatzair activities reveals tensions between established religious education and new youth movements.",
           "recordIds": [
-            "event_candidate_14c687ab13c38470aa278ad2",
-            "event_candidate_b19408745eb6a36b0d57d028"
+            "mention_2626d795ce140527b91c663b",
+            "mention_930a43cae3d662c2d7a9804e",
+            "mention_a6e299f1e5e7852d58fa448e",
+            "mention_04f8cb8a1fd3d42f23aaf6a4"
           ],
           "records": [
             {
-              "recordId": "event_candidate_14c687ab13c38470aa278ad2",
-              "kind": "event",
-              "type": "DEMONSTRATION",
-              "title": "Workers’ demonstration in Lukow",
-              "summary": "Workers demonstrated in Lukow in 1905 after the tsar’s alleged amnesty.",
-              "dateStart": "1905",
-              "dateEnd": "1905",
-              "scanIndex": 107,
-              "printedPage": "103",
-              "passageId": "passage_09a98a43a72b29115cb05c15",
-              "quote": "נאך דעם צארם פאלשער אמנעםטיע זענען די ארבעטער ארוים אין די גאםן"
+              "recordId": "mention_2626d795ce140527b91c663b",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Medem School in Łuków",
+              "summary": "Jewish folk school opened in Łuków in October 1928.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 163,
+              "printedPage": "159",
+              "passageId": "passage_78523897949744ef473a219b",
+              "quote": "די ײדיש ע פאלקסשו ל א . נ . פו ן װל . מעדעם , אי ז געעפנ ט יעװאר ן אי ן אקטאבע ר 1928"
             },
             {
-              "recordId": "event_candidate_b19408745eb6a36b0d57d028",
-              "kind": "event",
-              "type": "ARREST",
-              "title": "Arrests after the 1905 demonstration",
-              "summary": "Police dispersed the demonstration and carried out arrests.",
-              "dateStart": "1905",
+              "recordId": "mention_930a43cae3d662c2d7a9804e",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Tsisho School",
+              "summary": "A school serving primarily children from poor working-class families.",
+              "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 129,
-              "printedPage": "125",
-              "passageId": "passage_4a456551e7aecea3e9e0049b",
-              "quote": "די פאליציי האט זײ צעטריבן און אדורכגעפירט ארעםטן"
+              "scanIndex": 115,
+              "printedPage": "111",
+              "passageId": "passage_d8140b83c6ccd5d042973bf2",
+              "quote": "אי ן דע ר ציש״א־שו ל האב ן בעיק ר געלערנ ט"
+            },
+            {
+              "recordId": "mention_a6e299f1e5e7852d58fa448e",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Beit Yaakov",
+              "summary": "A girls' educational institution whose students secretly attended Hashomer Hatzair.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 148,
+              "printedPage": "144",
+              "passageId": "passage_d6a5a152cdde72daac942d00",
+              "quote": "״בי ת יעקב ״"
+            },
+            {
+              "recordId": "mention_04f8cb8a1fd3d42f23aaf6a4",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Hashomer Hatzair",
+              "summary": "A youth movement whose members’ parents faced threatened communal excommunication.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 149,
+              "printedPage": "145",
+              "passageId": "passage_e73cf7526f33dee80fe44301",
+              "quote": "ד י קינדער , װא ם געהער ן צו ם ״השומ ר הצעיר״"
             }
           ],
           "position": 1
         },
         {
-          "title": "Bundist organization",
-          "summary": "The Bund was active in Łuków by 1904, organized early strikes, and formed a local organization in April 1916. Its later activity included political, professional, and cultural work, demonstrating that socialism operated through sustained communal organization. [event_candidate_6ffae1afdfdb036f3c8dfced; event_candidate_4165359a2faeec590fb0eeb9; mention_00ac06ca3fe97369cb9047c9]",
+          "title": "Libraries, newspapers, and public culture",
+          "summary": "Łuków’s Jewish public library offered books, translations, cultural events, and a reading room, while The Łuków Word was published to promote cultural and social revival. The existence of local Yiddish newspapers and reading audiences shows a community engaged in public argument and cultural production.",
           "recordIds": [
-            "event_candidate_6ffae1afdfdb036f3c8dfced",
-            "event_candidate_4165359a2faeec590fb0eeb9",
-            "mention_00ac06ca3fe97369cb9047c9"
+            "mention_1a6bb728fcf7f119acef74a9",
+            "mention_489c51f19fe15ed0bea6183f",
+            "mention_09ec4f69322b4c6009a182d4",
+            "mention_f2b0fc1f0d276a804622df12"
           ],
           "records": [
             {
-              "recordId": "event_candidate_6ffae1afdfdb036f3c8dfced",
-              "kind": "event",
-              "type": "ORGANIZATION_ACTIVITY",
-              "title": "Bund activity in Lukow",
-              "summary": "The Bundist movement was active in Lukow by 1904 and organized the first strikes.",
-              "dateStart": "1904",
+              "recordId": "mention_1a6bb728fcf7f119acef74a9",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Jewish Public Library",
+              "summary": "A Jewish public library in Łuków offering books, translations, cultural events, and a reading room.",
+              "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 492,
-              "printedPage": "488",
-              "passageId": "passage_1364588210975d541856ad46",
-              "quote": "אין יאר1904 איז שוין טעטיק אין שטעטלא לעגאלע ארגאניזאציע פװ די ״חובבי־ צױן״ און אויךא בונדישע באװעגונג"
+              "scanIndex": 78,
+              "printedPage": "74",
+              "passageId": "passage_9c5c456efd28178619433c8a",
+              "quote": "הםפרי ה העממי ת היהודית ״ײדיש ע פאלק ם ביבליאטעק״"
             },
             {
-              "recordId": "event_candidate_4165359a2faeec590fb0eeb9",
-              "kind": "event",
-              "type": "ORGANIZATION_FOUNDING",
-              "title": "Formation of the Bund organization in Lukow",
-              "summary": "The Bund organization in Lukow was formed in April 1916.",
-              "dateStart": "1916-04",
+              "recordId": "mention_489c51f19fe15ed0bea6183f",
+              "kind": "mention",
+              "type": "PUBLICATION",
+              "title": "The Łuków Word",
+              "summary": "A newspaper published to promote Łuków’s cultural and social revival.",
+              "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 109,
-              "printedPage": "105",
-              "passageId": "passage_d7c06922066c7c6af7db3d33",
-              "quote": "אין אפריל1916 געשאפן געװארן די בונדישע ארגאניזאציע אין לוקאוו"
+              "scanIndex": 243,
+              "printedPage": "239",
+              "passageId": "passage_3d43cfc783e3e9c6c42d0343",
+              "quote": "דאס לוקאװע ר װארט ׳"
             },
             {
-              "recordId": "mention_00ac06ca3fe97369cb9047c9",
+              "recordId": "mention_09ec4f69322b4c6009a182d4",
+              "kind": "mention",
+              "type": "PUBLICATION",
+              "title": "The Łuków Word",
+              "summary": "A Łuków Jewish newspaper represented by issues from 1927.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 242,
+              "printedPage": "238",
+              "passageId": "passage_5eb57b7df71cab0f75c2214d",
+              "quote": "פו ן דע ר צײטונ ג ^דא ס לוקאװע ר װארט״ פו ן יא ר 1927"
+            },
+            {
+              "recordId": "mention_f2b0fc1f0d276a804622df12",
+              "kind": "mention",
+              "type": "PUBLICATION",
+              "title": "The Lukow Word",
+              "summary": "Weekly newspaper published several issues by the cultural commission in 1930.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 69,
+              "printedPage": "65",
+              "passageId": "passage_d4b41d5ba7ca4f5d59052b8e",
+              "quote": "דא ס לוקאווע ר װארט"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Youth movements and political choices",
+          "summary": "Hashomer Hatzair organized cultural, educational, and forest activities, while Agudah youth activity and the Bund offered other forms of collective belonging. The records therefore present Łuków youth as active participants in ideological and social movements, not merely recipients of adult institutions.",
+          "recordIds": [
+            "mention_78282e7b8f031827c15c7f2b",
+            "mention_46222db8b95fa1b79a42928b",
+            "mention_3d5ee2433226c64eb269015b",
+            "mention_62b4d84bd5bdeda188a7627d"
+          ],
+          "records": [
+            {
+              "recordId": "mention_78282e7b8f031827c15c7f2b",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Hashomer Hatzair",
+              "summary": "Youth movement conducting cultural and educational activity.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 76,
+              "printedPage": "72",
+              "passageId": "passage_5229d20042be6217e2798b0d",
+              "quote": "עבוד ת ״השומ ר הצעיר ״"
+            },
+            {
+              "recordId": "mention_46222db8b95fa1b79a42928b",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Hashomer Hatzair",
+              "summary": "Youth movement whose members held activities and forest outings.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 94,
+              "printedPage": "90",
+              "passageId": "passage_18b527543bf146d4736f37cd",
+              "quote": "גדו ד ש ל ״השומ ר הצעיר ״"
+            },
+            {
+              "recordId": "mention_3d5ee2433226c64eb269015b",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Łuków",
+              "summary": "Community where Agudah youth activity occurred.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 230,
+              "printedPage": "226",
+              "passageId": "passage_08d51de12b634864b564cf3c",
+              "quote": "אי ן לוקא װ"
+            },
+            {
+              "recordId": "mention_62b4d84bd5bdeda188a7627d",
               "kind": "mention",
               "type": "ORGANIZATION",
               "title": "Bund",
@@ -732,109 +482,72 @@
               "scanIndex": 111,
               "printedPage": "107",
               "passageId": "passage_e8ad77c87a71b1a7175c0141",
-              "quote": "דער ״בונד״ װײטער געםירט זיץ פאלי־ טישע, פראפעסיאנעלע און קולטור־טעטיקײט"
-            }
-          ],
-          "position": 2
-        },
-        {
-          "title": "Elections and representation",
-          "summary": "The first town council elections took place in 1919, and municipal elections were held in 1928. Shlomo Zakalik is remembered as both a communist town-council representative and the first candidate on an association’s city-council list, connecting Jewish politics to municipal representation. [mention_7fc5a6193cb74c990ef01333; event_candidate_cb13e40da007a4b47892154f; mention_3b9ac94968470ca56187ebe6]",
-          "recordIds": [
-            "mention_7fc5a6193cb74c990ef01333",
-            "event_candidate_cb13e40da007a4b47892154f",
-            "mention_3b9ac94968470ca56187ebe6"
-          ],
-          "records": [
-            {
-              "recordId": "mention_7fc5a6193cb74c990ef01333",
-              "kind": "mention",
-              "type": "EVENT",
-              "title": "First town council elections",
-              "summary": "The first town council elections took place in 1919.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 111,
-              "printedPage": "107",
-              "passageId": "passage_5ba4cb67e7c4394e7cc54879",
-              "quote": "די ערשטע שטאטראט־װאלן אין יאר 1919"
-            },
-            {
-              "recordId": "event_candidate_cb13e40da007a4b47892154f",
-              "kind": "event",
-              "type": "ELECTION",
-              "title": "Lukow municipal elections",
-              "summary": "Municipal elections in Lukow took place in 1928.",
-              "dateStart": "1928",
-              "dateEnd": "1928",
-              "scanIndex": 95,
-              "printedPage": "91",
-              "passageId": "passage_5a637ef2ee928ff594ac2afd",
-              "quote": "בבחירות לעיריה בשנת1928"
-            },
-            {
-              "recordId": "mention_3b9ac94968470ca56187ebe6",
-              "kind": "mention",
-              "type": "PERSON",
-              "title": "Shlomo Zakalik",
-              "summary": "Communist town council representative.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 493,
-              "printedPage": "489",
-              "passageId": "passage_520e2cefc7978a896ddadfa9",
-              "quote": "דער קאמוניםט שלמה זאקא־ ליק"
+              "quote": "הא ט דע ר ״בונד ״ װײטע ר געםיר ט"
             }
           ],
           "position": 3
         },
         {
-          "title": "Zionist and cultural organizing",
-          "summary": "The Culture Association served as a center for Jewish political groups, while Hashomer Hatzair conducted youth work and supported Zionist fundraising. The book therefore records political competition alongside shared cultural spaces and activities. [mention_39a1792553067c6f424781dd; mention_9f79e5eb7adeef2122c99be5; mention_0ecadfc248841734c2d4c4dc]",
+          "title": "The Bund as a social world",
+          "summary": "The Bund in Łuków combined political work with cultural, professional, and youth activity; it opened a cultural club, supported a cooperative shop in 1919, and participated in school and civic affairs. Its presence shows how working-class politics became part of everyday communal life.",
           "recordIds": [
-            "mention_39a1792553067c6f424781dd",
-            "mention_9f79e5eb7adeef2122c99be5",
-            "mention_0ecadfc248841734c2d4c4dc"
+            "event_candidate_8597f8067c7d9ebe13a3503c",
+            "mention_0091d6aee515afd9252049ba",
+            "mention_588061f15768edb65a7582fa",
+            "event_candidate_96a1195046c0e1987f2098fc"
           ],
           "records": [
             {
-              "recordId": "mention_39a1792553067c6f424781dd",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Cultural Association",
-              "summary": "A center for Jewish political groups and influence beyond the Jewish community.",
-              "dateStart": "",
+              "recordId": "event_candidate_8597f8067c7d9ebe13a3503c",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of the Bundist organization in Łuków",
+              "summary": "The Bundist organization in Łuków was formed in April 1916.",
+              "dateStart": "1916-04",
               "dateEnd": "",
-              "scanIndex": 134,
-              "printedPage": "130",
-              "passageId": "passage_733efc7763e9e33c8723e349",
-              "quote": "דער קולטור־פאראײן איז געװעןא צענטער פאר אלע יידישע פאליטישע גרופירונגען"
+              "scanIndex": 109,
+              "printedPage": "105",
+              "passageId": "passage_d7c06922066c7c6af7db3d33",
+              "quote": "אי ן אפרי ל 1916 געשאפ ן געװאר ן ד י בונדיש ע ארגאניזאצי ע אי ן לוקאוו"
             },
             {
-              "recordId": "mention_9f79e5eb7adeef2122c99be5",
+              "recordId": "mention_0091d6aee515afd9252049ba",
               "kind": "mention",
               "type": "ORGANIZATION",
-              "title": "Hashomer Hatzair",
-              "summary": "Hashomer Hatzair was contested by Communist youth and supported Zionist fundraising activity.",
+              "title": "Bund",
+              "summary": "Political party that opened a cultural club and organized political and cultural activities.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 150,
-              "printedPage": "146",
-              "passageId": "passage_6f50b6ba54de51aeb160935a",
-              "quote": "פון דער אנדערער זײט איז ״השומר הצעיר״ שארף באקעמפט געװארן"
+              "scanIndex": 64,
+              "printedPage": "60",
+              "passageId": "passage_05f84e6fdee1503574132dfa",
+              "quote": "דע ר //בונד״"
             },
             {
-              "recordId": "mention_0ecadfc248841734c2d4c4dc",
+              "recordId": "mention_588061f15768edb65a7582fa",
               "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Culture Association",
-              "summary": "The Culture Association hosted meetings and later rented another venue.",
+              "type": "ORGANIZATION",
+              "title": "Bund",
+              "summary": "The Bund conducted cultural and professional activities in Łuków.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 67,
-              "printedPage": "63",
-              "passageId": "passage_2b59ca07234d1c7a0a5c33eb",
-              "quote": "לאקאל פון קולטור־פאראיץ"
+              "scanIndex": 110,
+              "printedPage": "106",
+              "passageId": "passage_a9512540310c257a1625fdaa",
+              "quote": "דער ״בונד ״ אי ז תיכ ף צוגעטראט ן צ ו א קולטור־געזעלשאפטלעכע ר או ן פראפע ־ םיאנעלער טעטיקײט"
+            },
+            {
+              "recordId": "event_candidate_96a1195046c0e1987f2098fc",
+              "kind": "event",
+              "type": "BUSINESS_OPENING",
+              "title": "Bund cooperative shop opened",
+              "summary": "The Bund opened a cooperative food shop in Łuków in 1919.",
+              "dateStart": "1919",
+              "dateEnd": "",
+              "scanIndex": 112,
+              "printedPage": "108",
+              "passageId": "passage_e3d1ebd43af36c760fda13e8",
+              "quote": "דע ר ״בונד ״ אי ן לוקא װ געעפנ ט אויף דע ר שולגא ם א קאאפעראטױו ע קרא ם"
             }
           ],
           "position": 4
@@ -842,781 +555,765 @@
       ]
     },
     {
-      "id": "id_occupation_and_destruction",
-      "theme": "DEPORTATION_MURDER",
-      "title": "How was the community destroyed?",
-      "description": "This path moves from German occupation and the ghetto to Aktionen, deportations, mass murder, and the emptying of camps. It teaches destruction as a process that affected institutions, families, and the town’s entire Jewish population. [mention_2fbbc3a812e820fe0f92dc02; mention_36b575815f63cbd20af2e6f6; mention_6d3b24c756c2709de866e2e5]",
-      "question": "What happened to Łuków’s Jews under German occupation?",
+      "id": "path_work_family",
+      "theme": "OCCUPATION_GHETTO",
+      "title": "How did families and work organize everyday life?",
+      "description": "This path reconstructs Łuków through workplaces, shops, streets, and family histories preserved in the book. It helps readers understand the community as an interconnected economy and neighborhood network before occupation destroyed those relationships.",
+      "question": "Where did people work, trade, live, and raise families?",
       "steps": [
         {
-          "title": "Occupation and confinement",
-          "summary": "The memorial book identifies the German occupation and describes a Jewish ghetto in Łuków, with a Judenrat located within the ghetto area. These accounts mark the transition from communal autonomy to imposed confinement and coercive administration. [mention_2fbbc3a812e820fe0f92dc02; mention_5936d51c1e8035704f34e05b; mention_c88998ebcbf13419c72c0bcb]",
+          "title": "Factories and skilled work",
+          "summary": "The Gastman mechanical shoe factory moved from Warsaw to Łuków in 1906–1907 and is described as employing 300 workers. Other records recall Lieberman’s album factory, brass workshops, mills, bakeries, printing, barbering, and sewing-machine sales, revealing a varied Jewish working and commercial life.",
           "recordIds": [
-            "mention_2fbbc3a812e820fe0f92dc02",
-            "mention_5936d51c1e8035704f34e05b",
-            "mention_c88998ebcbf13419c72c0bcb"
+            "event_candidate_3060fb181012fd413652ef42",
+            "mention_a437722c18677519414c079b",
+            "mention_b57805770526cf925d4ae64d",
+            "mention_a8bbf2caf42e9cb2c7f829f0"
           ],
           "records": [
             {
-              "recordId": "mention_2fbbc3a812e820fe0f92dc02",
+              "recordId": "event_candidate_3060fb181012fd413652ef42",
+              "kind": "event",
+              "type": "FACTORY_RELOCATION",
+              "title": "Gastman shoe factory transferred to Łuków",
+              "summary": "Gastman's shoe factory was transferred from Warsaw to Łuków in 1906–1907, contributing to the town's economic revival.",
+              "dateStart": "1906",
+              "dateEnd": "1907",
+              "scanIndex": 74,
+              "printedPage": "70",
+              "passageId": "passage_8324468ea103c24aba3c57dc",
+              "quote": "בגל ל העבר ת בי ת החרוש ת לנעלײם ש ל גםטמ ן מװרש ה ללוקוב"
+            },
+            {
+              "recordId": "mention_a437722c18677519414c079b",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Gastman shoe factory",
+              "summary": "Large Łuków shoe factory employing 300 workers.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 193,
+              "printedPage": "189",
+              "passageId": "passage_8a3d1d31d1928ecc5c701233",
+              "quote": "גאםטמאנ ם שיך־פאברי ק"
+            },
+            {
+              "recordId": "mention_b57805770526cf925d4ae64d",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Lieberman's album factory",
+              "summary": "Warsaw album factory moved to Łuków with modern machines and equipment.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 103,
+              "printedPage": "99",
+              "passageId": "passage_81135adb065674d44726dd9a",
+              "quote": "פו ן דע ר באװוסטע ר אלבאם־פאברי ק ליבערמאן"
+            },
+            {
+              "recordId": "mention_a8bbf2caf42e9cb2c7f829f0",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Haim David Zakalik’s Brass Workshop",
+              "summary": "Brass workshop near the Zhelekhov road.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 292,
+              "printedPage": "288",
+              "passageId": "passage_48aa5e2938cbd0ad5b5cd30a",
+              "quote": "זײ ן מעש־טאקערײ"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Businesses embedded in neighborhoods",
+          "summary": "The memorial book places grocery shops, bakeries, a soda-water factory, stationery shops, mills, and other businesses beside homes, streets, and communal buildings. These details matter because they show how economic activity and family life occupied the same local spaces.",
+          "recordIds": [
+            "mention_fb20f3df4acd09e95c167dfd",
+            "mention_1e4351c58efeb5638e53d26c",
+            "mention_17d5eb32177d3be551b9f59d",
+            "mention_2f96e7facd1404efc0caa95b"
+          ],
+          "records": [
+            {
+              "recordId": "mention_fb20f3df4acd09e95c167dfd",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Rachel’s soda-water shop",
+              "summary": "A soda-water factory and shop operated by Rachel in Łuków.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 209,
+              "printedPage": "205",
+              "passageId": "passage_5538f55babd9ffd08826dcf9",
+              "quote": "אי ן זעלב ן הוי ף האט רח ל געהא ט ד י סאדעוואםער־פאבריק"
+            },
+            {
+              "recordId": "mention_1e4351c58efeb5638e53d26c",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Grocery store of Babe Hana Shmuels",
+              "summary": "Grocery store near the bakery and Yankl Esikmakher’s residence.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 203,
+              "printedPage": "199",
+              "passageId": "passage_6ecccbe76bd2253ddcc77556",
+              "quote": "ד י שפײזקרא ם פו ן דע ר באב ע חנ ה שמואלס"
+            },
+            {
+              "recordId": "mention_17d5eb32177d3be551b9f59d",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Bakery near Yankl Esikmakher",
+              "summary": "Bakery located next to Yankl Esikmakher’s residence.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 203,
+              "printedPage": "199",
+              "passageId": "passage_6ecccbe76bd2253ddcc77556",
+              "quote": "אי ן שכנות מיט ן עםיקמאכע ר אי ז געװע ן ד י בעקער ײ"
+            },
+            {
+              "recordId": "mention_2f96e7facd1404efc0caa95b",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Stationery shop",
+              "summary": "A stationery shop had broad windows and an entrance from Zhelekhaver Way.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 288,
+              "printedPage": "284",
+              "passageId": "passage_bff73ab9c6afdcba3d7f7228",
+              "quote": "געשעפ ט פו ן שרײב־מאטעריאלן"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Families across generations",
+          "summary": "The book follows families who owned factories, breweries, shops, and homes, and records marriages, births, migration for work, and the burdens created by widowhood. These accounts make clear that Łuków’s history was carried through family networks as well as public institutions.",
+          "recordIds": [
+            "mention_e8db95689f8700a10e62fac3",
+            "event_candidate_d50c88ac6239033c049ba4e4",
+            "event_candidate_7bb2053d0cbe1c2e65ffd2b2",
+            "event_candidate_ef6f667af784408a7ce34c94"
+          ],
+          "records": [
+            {
+              "recordId": "mention_e8db95689f8700a10e62fac3",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Rozal–Yustman–Noy family",
+              "summary": "Family owning Łuków’s brewery and described as its wealthiest Jewish family.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 226,
+              "printedPage": "222",
+              "passageId": "passage_529977bbaac5543e86352b62",
+              "quote": "ד י פאמיליעם רוזא ל—יוםטמא ן—נוי"
+            },
+            {
+              "recordId": "event_candidate_d50c88ac6239033c049ba4e4",
+              "kind": "event",
+              "type": "MARRIAGE",
+              "title": "Israel's marriage to Toybe Berknwald",
+              "summary": "Israel married Toybe Berknwald in 1912.",
+              "dateStart": "1912",
+              "dateEnd": "",
+              "scanIndex": 596,
+              "printedPage": "592",
+              "passageId": "passage_804b7c11cbda27100cc3f93e",
+              "quote": "אי ן 1912 הא ט ע ר חתונ ה מי ט טויב ע בערקנװאל ד"
+            },
+            {
+              "recordId": "event_candidate_7bb2053d0cbe1c2e65ffd2b2",
+              "kind": "event",
+              "type": "BIRTH",
+              "title": "Birth of Abraham",
+              "summary": "Toybe gave birth to the couple's only son, Abraham, in 1914.",
+              "dateStart": "1914",
+              "dateEnd": "",
+              "scanIndex": 596,
+              "printedPage": "592",
+              "passageId": "passage_804b7c11cbda27100cc3f93e",
+              "quote": "אי ן 1914 געבויר ט ז י אי ם דע ם אײנציק ן זון"
+            },
+            {
+              "recordId": "event_candidate_ef6f667af784408a7ce34c94",
+              "kind": "event",
+              "type": "DEATH",
+              "title": "Death of Narrator's Father",
+              "summary": "The narrator's father died in 1910, leaving the mother and three orphans.",
+              "dateStart": "1910",
+              "dateEnd": "",
+              "scanIndex": 108,
+              "printedPage": "104",
+              "passageId": "passage_7d1ba3c1cd9dd5c769ed4f1e",
+              "quote": "ווען מײ ן פאטע ר אי ז געשטארבן , אי ן יא ר 1910"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Migration and mutual aid",
+          "summary": "Some Łuków Jews left for Warsaw, America, or New York, while landsmanshaftn organizations maintained ties with the town. The Łuków society sent money to women whose husbands were at war and relief shipments reached needy Jews in 1919, showing that migration also created systems of support.",
+          "recordIds": [
+            "event_candidate_8426ea782c58eb23be972443",
+            "event_candidate_bf2c334a2e5c0d5e862ed0f2",
+            "event_candidate_37cda609cd65e0fdf22bd5c1",
+            "event_candidate_21e83263c76d40367babfb71"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_8426ea782c58eb23be972443",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Shlomo Zakalik moves to Warsaw",
+              "summary": "Shlomo Zakalik left Łuków for Warsaw to obtain work in 1912.",
+              "dateStart": "1912",
+              "dateEnd": "",
+              "scanIndex": 604,
+              "printedPage": "600",
+              "passageId": "passage_9be09b10c434cad6b9d81331",
+              "quote": "פאר ט שלמ ה אי ן יאר 1912 אװע ק קײ ן װארשע , ו װ ע ר באקומ ט ארבעט"
+            },
+            {
+              "recordId": "event_candidate_bf2c334a2e5c0d5e862ed0f2",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Narrator's Arrival in America",
+              "summary": "The narrator left on August 2, 1913, and arrived in America on August 25.",
+              "dateStart": "1913-08-02",
+              "dateEnd": "1913-08-25",
+              "scanIndex": 108,
+              "printedPage": "104",
+              "passageId": "passage_efd6e107e8fb23a783eab468",
+              "quote": "דע ם 25סט ן אויגום ט הא ב איך באטראט ן דע ם באד ן פו ן מײ ן נײע ר הײ ם אי ן אמעריקע"
+            },
+            {
+              "recordId": "event_candidate_37cda609cd65e0fdf22bd5c1",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Formation of a Łuków landsmen organization",
+              "summary": "A Łuków landsmen organization was formed in New York in December 1910.",
+              "dateStart": "1910-12",
+              "dateEnd": "1910-12",
+              "scanIndex": 572,
+              "printedPage": "568",
+              "passageId": "passage_5eebd343df75346decec3750",
+              "quote": "פרײטי ק אװנ ט דע ם סנסט ן דעצעמבע ר 1910 אי ז געשאפ ן געװאר ן א ן ארגאניזאציע"
+            },
+            {
+              "recordId": "event_candidate_21e83263c76d40367babfb71",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Aid sent to Łuków in 1914",
+              "summary": "The society sent hundreds of dollars to Łuków for women whose husbands were at war.",
+              "dateStart": "1914",
+              "dateEnd": "1914",
+              "scanIndex": 576,
+              "printedPage": "572",
+              "passageId": "passage_57eb3cc055e810b8c3fdfdaa",
+              "quote": "אי ן יא ר 1914 הא ט ד י םאסײעט י געשיק ט ד י ערשט ע הונדערטע ר דאלא ר קײן לוקא װ"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_destruction",
+      "theme": "DEPORTATION_MURDER",
+      "title": "How did occupation transform Łuków into a site of persecution and murder?",
+      "description": "This path follows the escalation from war and occupation to ghetto rule, shootings, Aktionen, deportation, and the destruction of families. It keeps the memorial book’s testimony at the center while identifying the people and institutions involved in these events.",
+      "question": "What happened to Łuków’s Jews under occupation?",
+      "steps": [
+        {
+          "title": "War and German occupation",
+          "summary": "The memorial book describes the catastrophe beginning with the German invasion of Poland in September 1939 and refers to Łuków’s transformation during the occupation. It also records a Judenrat headed by Weintraub during the first period of German rule, marking the forced reorganization of communal life under persecution.",
+          "recordIds": [
+            "mention_3c37e06a01daa42b9c85c853",
+            "mention_1d971fc6a609ebd92f134318",
+            "mention_4f9ddb0abc84b70a441965b7",
+            "mention_5993230891ca4cca6e8ca5c0"
+          ],
+          "records": [
+            {
+              "recordId": "mention_3c37e06a01daa42b9c85c853",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "World War II",
+              "summary": "Catastrophe beginning with the 1939 invasion of Poland.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 25,
+              "printedPage": "21",
+              "passageId": "passage_9be064f8adcdb564b5736834",
+              "quote": "אי ן םעפטעמבע ר 1939 קומ ט א ניי ע װעלט־קאטאםטראפע"
+            },
+            {
+              "recordId": "mention_1d971fc6a609ebd92f134318",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Łuków",
+              "summary": "The passage describes Łuków during the German occupation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 109,
+              "printedPage": "105",
+              "passageId": "passage_d7c06922066c7c6af7db3d33",
+              "quote": "לוקא װ פארװאנדל ט געװאר ן"
+            },
+            {
+              "recordId": "mention_4f9ddb0abc84b70a441965b7",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Judenrat of Łuków",
+              "summary": "Council headed by Weintraub during the first period of German occupation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 225,
+              "printedPage": "221",
+              "passageId": "passage_3eba7a17abae3c3dd1cde299",
+              "quote": "שטײ ט ע ר ברא ש פו ן יודענ ־ ראט"
+            },
+            {
+              "recordId": "mention_5993230891ca4cca6e8ca5c0",
               "kind": "mention",
               "type": "EVENT",
               "title": "German occupation",
-              "summary": "The German occupation awakened Lukow from its stagnation.",
+              "summary": "The German occupation awakened Łuków from its stagnation.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 262,
               "printedPage": "258",
               "passageId": "passage_ab0713157f49993276549932",
-              "quote": "די דײטשע אקופאציע"
-            },
-            {
-              "recordId": "mention_5936d51c1e8035704f34e05b",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Lukow ghetto",
-              "summary": "A ghetto in Lukow described under German occupation.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 321,
-              "printedPage": "317",
-              "passageId": "passage_938f7c9c4db9575ac05a6f65",
-              "quote": "ײדן אין לוקאװער געטא"
-            },
-            {
-              "recordId": "mention_c88998ebcbf13419c72c0bcb",
-              "kind": "mention",
-              "type": "INSTITUTION",
-              "title": "Judenrat",
-              "summary": "Jewish council located within the ghetto area.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 439,
-              "printedPage": "435",
-              "passageId": "passage_6cf3ec547fab6f4e11c30f34",
-              "quote": "דער ױדענראט"
+              "quote": "ערשט ד י דײטש ע אקופאצי ע"
             }
           ],
           "position": 1
         },
         {
-          "title": "Aktionen and deportations",
-          "summary": "The book recalls a first deportation addressed by the Łuków rabbi and announces an Aktion in Łuków in which Jews were killed or deported. On 16 July 1942, both camps were emptied and 1,050 people were transported, according to the cited account. [mention_513eb32363ba5fa214710ecd; mention_761eb66809a7e98e09124be9; mention_6d3b24c756c2709de866e2e5]",
+          "title": "Confinement and mass violence",
+          "summary": "The records describe Jews confined in the Łuków ghetto and a November 9 action in which 200 Jewish people were brought to the magistrate’s court; many were shot there or at the cemetery. Another testimony states that approximately 1,500 Jews were killed in an action on March 20.",
           "recordIds": [
-            "mention_513eb32363ba5fa214710ecd",
-            "mention_761eb66809a7e98e09124be9",
-            "mention_6d3b24c756c2709de866e2e5"
+            "mention_76eb15544e4d28d1c210814f",
+            "mention_1d2acbedf7bc9608949c2bd9",
+            "event_candidate_3b1f3b7de96d9c87ec6ed7dc"
           ],
           "records": [
             {
-              "recordId": "mention_513eb32363ba5fa214710ecd",
+              "recordId": "mention_76eb15544e4d28d1c210814f",
               "kind": "mention",
-              "type": "EVENT",
-              "title": "First deportation",
-              "summary": "The Lukow rabbi addressed Jews on the eve of the first deportation.",
+              "type": "COMMUNITY",
+              "title": "Jewish community of Łuków",
+              "summary": "Jews of Łuków confined in a ghetto and deported.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 363,
-              "printedPage": "359",
-              "passageId": "passage_eeee326db126d4e2a0fd51f6",
-              "quote": "ערב דער ערשטער דעפארטאציע"
+              "scanIndex": 361,
+              "printedPage": "357",
+              "passageId": "passage_78e64492a4d46c8c655230a5",
+              "quote": "לוקאװע ר ײדן"
             },
             {
-              "recordId": "mention_761eb66809a7e98e09124be9",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Lukow ghetto",
-              "summary": "Ghetto where an Aktion reportedly occurred and Jews were killed or deported.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 378,
-              "printedPage": "374",
-              "passageId": "passage_5b0a2ed4a5f07b6ad353a1cf",
-              "quote": "אן ״אקציע״ אין לוקאװער געטא"
-            },
-            {
-              "recordId": "mention_6d3b24c756c2709de866e2e5",
+              "recordId": "mention_1d2acbedf7bc9608949c2bd9",
               "kind": "mention",
               "type": "EVENT",
-              "title": "Transport from the camps to Auschwitz",
-              "summary": "Both camps were emptied and 1,050 people were transported on 16 July 1942.",
+              "title": "9 November shootings",
+              "summary": "Two hundred Jewish people were brought to court; many were shot there or at the cemetery.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 463,
-              "printedPage": "459",
-              "passageId": "passage_fefe404339315b3fa63213f1",
-              "quote": "דעם 16טן ױלי1942 האט מען אויםגעלײדיקט ביידע לאגערם"
+              "scanIndex": 367,
+              "printedPage": "363",
+              "passageId": "passage_5edd01a67b7376fecfcb9960",
+              "quote": "דע ם 9ט ן נאװעמבע ד הא ט מע ן געבראכ ט 200 ײ ח צו ם מאגיםטראט־הויף"
+            },
+            {
+              "recordId": "event_candidate_3b1f3b7de96d9c87ec6ed7dc",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Aktion against Jews",
+              "summary": "On March 20, an action was carried out and approximately 1,500 Jews were killed.",
+              "dateStart": "03-20",
+              "dateEnd": "",
+              "scanIndex": 497,
+              "printedPage": "493",
+              "passageId": "passage_188f2c04d79cd47abb804ce0",
+              "quote": "דע ם 20ט ן מער ץ װער ט װידע ר דורכגעפיר ט אן אקצי ע"
             }
           ],
           "position": 2
         },
         {
-          "title": "Murder beyond the ghetto",
-          "summary": "The memorial book records Jews being driven through the town on 11 November and describes sixteen Jews hiding in a bunker who were killed in the Burke forests. It also records a Jewish family from Atchepalin taken to a forest and killed, showing the reach of violence beyond deportation transports. [event_candidate_ea8fd465fc130a73298a29b6; mention_694d53b8f06cb612878fb266; mention_b07cb129a93e281a5ca4cfc0]",
+          "title": "The final Aktionen and deportation",
+          "summary": "Survivor testimony recalls the last Aktion in the ghetto and a final Aktion from which the narrator’s mother and youngest brother escaped. The book also records deportations from the region to Treblinka and extermination camps, showing the movement from local persecution toward systematic murder.",
           "recordIds": [
-            "event_candidate_ea8fd465fc130a73298a29b6",
-            "mention_694d53b8f06cb612878fb266",
-            "mention_b07cb129a93e281a5ca4cfc0"
+            "mention_ec50aed24dde8f9a6cb1e1b6",
+            "mention_7bd8352eea51d7fd1bdb1cef",
+            "mention_3f9b34fea6bb5faf1d3dfee9"
           ],
           "records": [
             {
-              "recordId": "event_candidate_ea8fd465fc130a73298a29b6",
-              "kind": "event",
-              "type": "FORCED_TRANSFER",
-              "title": "Deportation transport of Jews",
-              "summary": "Thousands of Jews were driven through the narrator's street on 11 November.",
-              "dateStart": "-11-11",
-              "dateEnd": "",
-              "scanIndex": 368,
-              "printedPage": "364",
-              "passageId": "passage_8b07a82aecc3762f0beb8a8e",
-              "quote": "דעם 11טן נאװעמבער) געטריבן דורך אונדזער גאס עטלעכע טומנט ײדן"
-            },
-            {
-              "recordId": "mention_694d53b8f06cb612878fb266",
+              "recordId": "mention_ec50aed24dde8f9a6cb1e1b6",
               "kind": "mention",
               "type": "EVENT",
-              "title": "Murder of sixteen Jews in Burke forests",
-              "summary": "Sixteen Jews hiding in a bunker were killed in the Burke forests.",
+              "title": "the last ghetto Aktion",
+              "summary": "The narrator and brother were together during the last Aktion in the ghetto.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 364,
-              "printedPage": "360",
-              "passageId": "passage_b224add25ac74570a5d58d1c",
-              "quote": "אין די בורקער װעלדער האט מען געהרגעט16 ײדן"
+              "scanIndex": 449,
+              "printedPage": "445",
+              "passageId": "passage_c7f11afa49a774c00854fd45",
+              "quote": "בע ת דע ר לעצטע ר אקצי ע אי ן געטא"
             },
             {
-              "recordId": "mention_b07cb129a93e281a5ca4cfc0",
+              "recordId": "mention_7bd8352eea51d7fd1bdb1cef",
               "kind": "mention",
-              "type": "FAMILY",
-              "title": "Single Jewish family in Atchepalin",
-              "summary": "A Jewish family from Atchepalin was taken to a forest and killed.",
+              "type": "EVENT",
+              "title": "Final Aktion",
+              "summary": "The final Aktion from which the narrator’s mother and youngest brother escaped.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 363,
-              "printedPage": "359",
-              "passageId": "passage_728f58b877d8b4592f4e41ee",
-              "quote": "אן אײנציקע ײדישע משפחה"
+              "scanIndex": 406,
+              "printedPage": "402",
+              "passageId": "passage_e85bc65266e4e1a34bc01aab",
+              "quote": "דער לעצטע ר אקציע"
+            },
+            {
+              "recordId": "mention_3f9b34fea6bb5faf1d3dfee9",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Deportation of Rike Jews",
+              "summary": "Rike’s remaining Jews were deported to Treblinka and extermination camps.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 511,
+              "printedPage": "507",
+              "passageId": "passage_f71d585015cfe58ce80c98b0",
+              "quote": "געפיר ט הא ט מע ן ז ײ קײ ז טרבלינקע"
             }
           ],
           "position": 3
         },
         {
-          "title": "The scale of loss",
-          "summary": "A memorial-book passage states that thousands of Łuków Jews were murdered by the Germans, while another passage identifies the Jewish community as destroyed during the Holocaust. These statements frame individual testimonies within the destruction of the community as a whole. [mention_eaafc350a735e2f5377d92e2; mention_51a47108fed7e36207cfc81e]",
+          "title": "Families destroyed",
+          "summary": "Memorial entries and testimonies name families murdered by German perpetrators, killed while hiding, or murdered after being concealed by Polish helpers. These accounts restore individual and family identity to a history otherwise recorded through numbers and operations.",
           "recordIds": [
-            "mention_eaafc350a735e2f5377d92e2",
-            "mention_51a47108fed7e36207cfc81e"
+            "mention_e501c03e08d65c32ad395ca5",
+            "mention_80dbd2ea23c34b1ff2708dc2",
+            "mention_cadccf2ba27b8bdf88169d74",
+            "mention_4ea5d33cccb247b15502f4b4"
           ],
           "records": [
             {
-              "recordId": "mention_eaafc350a735e2f5377d92e2",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Jews of Lukow",
-              "summary": "Thousands of Lukow Jews were murdered by Germans.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 15,
-              "printedPage": "11",
-              "passageId": "passage_e8cd03cda4fffb97ece87644",
-              "quote": "רצחו הגרמגים אלפי יהודים הן מלוקוב העיר"
-            },
-            {
-              "recordId": "mention_51a47108fed7e36207cfc81e",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Lukow Jewish community",
-              "summary": "The Lukow Jewish community was destroyed during the Holocaust.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 48,
-              "printedPage": "44",
-              "passageId": "passage_89d7b8f78f9e534513d96644",
-              "quote": "יהודי לוקוב הופכים אזרחים פולנײם"
-            }
-          ],
-          "position": 4
-        }
-      ]
-    },
-    {
-      "id": "id_survival_resistance",
-      "theme": "HIDING_ESCAPE_RESISTANCE",
-      "title": "How did people resist and survive?",
-      "description": "This path follows escapes from the ghetto, family hiding, aid, armed resistance, and partisan activity. It emphasizes the choices and dangers recorded in survivor testimony without treating survival as simple or guaranteed. [mention_0a944723421e2f4aca48adee; mention_4021de3502c30eddd847269a; mention_7cdb047c537a5caeb1344ae6]",
-      "question": "What forms did resistance and survival take?",
-      "steps": [
-        {
-          "title": "Escape into forests and hiding places",
-          "summary": "The book records Łuków Jews escaping into forests by using their knowledge of local paths, while the narrator’s family escaped to the forest after the Aktionen. Other accounts describe families hidden in a brickworks, a bunker, and a Polish person’s home. [mention_ced27f4379d6de3528849e36; mention_09673cc4ff5951a919f6fbd8; mention_9714bc962e4e276d3d4f89a2; mention_4021de3502c30eddd847269a]",
-          "recordIds": [
-            "mention_ced27f4379d6de3528849e36",
-            "mention_09673cc4ff5951a919f6fbd8",
-            "mention_9714bc962e4e276d3d4f89a2",
-            "mention_4021de3502c30eddd847269a"
-          ],
-          "records": [
-            {
-              "recordId": "mention_ced27f4379d6de3528849e36",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Lukow Jews",
-              "summary": "Lukow Jews escaped into the forest using their knowledge of local paths.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 389,
-              "printedPage": "385",
-              "passageId": "passage_419c11fe23b46d4ee418d9f7",
-              "quote": "דאם זענען געװען לוקאװער ײדן"
-            },
-            {
-              "recordId": "mention_09673cc4ff5951a919f6fbd8",
+              "recordId": "mention_e501c03e08d65c32ad395ca5",
               "kind": "mention",
               "type": "FAMILY",
-              "title": "Narrator's family",
-              "summary": "The narrator's family escaped to the forest after the actions.",
+              "title": "Gatesdiner family",
+              "summary": "The family is mourned as murdered by German perpetrators.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 513,
-              "printedPage": "509",
-              "passageId": "passage_e1a4eb1a0ca267a81a8c0392",
-              "quote": "מיט מײן פאמיליע"
+              "scanIndex": 653,
+              "printedPage": "649",
+              "passageId": "passage_9d31bfc37966e673f9415073",
+              "quote": "אומגעבראכט דור ך ד י דייטש ע מערדע ר"
             },
             {
-              "recordId": "mention_9714bc962e4e276d3d4f89a2",
+              "recordId": "mention_80dbd2ea23c34b1ff2708dc2",
               "kind": "mention",
               "type": "FAMILY",
-              "title": "Frengler family",
-              "summary": "A family of thirteen people reported hiding in a brickworks.",
+              "title": "Prost family",
+              "summary": "Family murdered while hiding in the area.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 325,
-              "printedPage": "321",
-              "passageId": "passage_c1aa9fbf7b3a7d81bf477f66",
-              "quote": "די גאנצע משפחה פרענגלער"
-            },
-            {
-              "recordId": "mention_4021de3502c30eddd847269a",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Narrator's family",
-              "summary": "The narrator's family hid people in a bunker without the Polish owner's knowledge.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 480,
-              "printedPage": "476",
-              "passageId": "passage_6902e8d9dde1d0260db26c4a",
-              "quote": "דורד מימ פאמיליע"
-            }
-          ],
-          "position": 1
-        },
-        {
-          "title": "Aid and its dangers",
-          "summary": "The Domanski brothers are remembered for hiding Jews and being attacked by the Armia Krajowa, while the Kesselbrener family was hidden in Domina and later murdered. These testimonies reveal both the risks taken by helpers and the uncertainty surrounding rescue. [mention_75898d451626fd90768cd307; mention_cadccf2ba27b8bdf88169d74]",
-          "recordIds": [
-            "mention_75898d451626fd90768cd307",
-            "mention_cadccf2ba27b8bdf88169d74"
-          ],
-          "records": [
-            {
-              "recordId": "mention_75898d451626fd90768cd307",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "Domanski family",
-              "summary": "Two brothers who hid Jews and were attacked by the Armia Krajowa.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 329,
-              "printedPage": "325",
-              "passageId": "passage_0e977c0c46c153a2e50025f6",
-              "quote": "חיו שני האחים דומנסקי"
+              "scanIndex": 483,
+              "printedPage": "479",
+              "passageId": "passage_e2920039edef1280233d5474",
+              "quote": "לרצו ח א ת משפח ת פרוסט ׳"
             },
             {
               "recordId": "mention_cadccf2ba27b8bdf88169d74",
               "kind": "mention",
               "type": "FAMILY",
               "title": "Kesselbrener family",
-              "summary": "A family hidden at a Polish person’s home in Domina and murdered.",
+              "summary": "A family hidden at a Polish man’s home in Domina and murdered by the Armia Krajowa.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 329,
               "printedPage": "325",
               "passageId": "passage_52c7cff29ffdbba330c3c685",
-              "quote": "משפחת קסלברנר היתה מוסתרת אצל פולני בדומינה"
-            }
-          ],
-          "position": 2
-        },
-        {
-          "title": "Youth resistance in the ghetto",
-          "summary": "A youth resistance group formed and operated in the Łuków ghetto, and the book also describes resistance groups operating there. This matters because it places organized Jewish resistance within the ghetto itself, alongside escape and hiding. [mention_36b575815f63cbd20af2e6f6; mention_9fd1456627de07d942855a80]",
-          "recordIds": [
-            "mention_36b575815f63cbd20af2e6f6",
-            "mention_9fd1456627de07d942855a80"
-          ],
-          "records": [
-            {
-              "recordId": "mention_36b575815f63cbd20af2e6f6",
-              "kind": "mention",
-              "type": "PLACE",
-              "title": "Lukow ghetto",
-              "summary": "Ghetto where a youth resistance group formed and operated.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 439,
-              "printedPage": "435",
-              "passageId": "passage_1799dbe27b572139dec2e26a",
-              "quote": "אין לוקאװער געטא"
+              "quote": "משפחת קסלברנ ר הית ה מוסתר ת אצ ל פולנ י בדומינה"
             },
             {
-              "recordId": "mention_9fd1456627de07d942855a80",
+              "recordId": "mention_4ea5d33cccb247b15502f4b4",
               "kind": "mention",
-              "type": "PLACE",
-              "title": "Łuków ghetto",
-              "summary": "Ghetto where Jewish resistance groups operated.",
+              "type": "FAMILY",
+              "title": "Frast family",
+              "summary": "Family murdered and burned with the farmer’s property.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 506,
-              "printedPage": "502",
-              "passageId": "passage_04cae54344fdd00977a5efc0",
-              "quote": "װידערשטאנד אין לוקאןוער געטא"
+              "scanIndex": 478,
+              "printedPage": "474",
+              "passageId": "passage_828179149e0ab6cc6a6bee63",
+              "quote": "ד י משפח ה פראסט"
             }
           ],
-          "position": 3
-        },
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_survival_resistance_memory",
+      "theme": "SURVIVAL_AFTERLIFE",
+      "title": "How did people resist, survive, and remember?",
+      "description": "This path traces clandestine political activity, escapes, hiding, armed resistance, and the postwar work of rebuilding memory. It shows survival as a mixture of courage, mutual aid, chance, and painful return—not a simple ending to the story.",
+      "question": "What forms did resistance and survival take, and how was Łuków remembered afterward?",
+      "steps": [
         {
-          "title": "Fighters and underground networks",
-          "summary": "Reuven Heiblum is remembered as an organizer of underground activity in the Minsk ghetto who helped send medicine to partisans and later died in combat in 1943. Nahum Goldzak is remembered as a partisan who destroyed German supply columns, showing that some Łuków-born activists continued resistance beyond the town. [mention_7cdb047c537a5caeb1344ae6; mention_3dc6e7513ca752877fde3eea; mention_7e4c368208b1fac0a07ac07a]",
+          "title": "Resistance inside and beyond the ghetto",
+          "summary": "The book recalls a clandestine gathering commemorating the Great October Revolution and describes Reuben Heyblum’s underground work sending medicines to partisan detachments. Nahum Goldzak is remembered as a Łuków-born activist who aided underground resistance and later became a partisan survivor.",
           "recordIds": [
-            "mention_7cdb047c537a5caeb1344ae6",
-            "mention_3dc6e7513ca752877fde3eea",
-            "mention_7e4c368208b1fac0a07ac07a"
+            "mention_1efb5f7e9f627c20f064a49e",
+            "mention_4e8535723a35048ad57787b6",
+            "mention_3475d0e9e0bddbea1d69a529",
+            "mention_60c66183cffbb3af1573b8d5"
           ],
           "records": [
             {
-              "recordId": "mention_7cdb047c537a5caeb1344ae6",
+              "recordId": "mention_1efb5f7e9f627c20f064a49e",
               "kind": "mention",
-              "type": "PERSON",
-              "title": "Reuven Heiblum",
-              "summary": "Organized underground activity in the Minsk ghetto and helped send medicine to partisans.",
+              "type": "EVENT",
+              "title": "Great October Revolution",
+              "summary": "Revolution commemorated by ghetto residents in a clandestine gathering.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 497,
+              "printedPage": "493",
+              "passageId": "passage_39d76b00bc17bbb7f07f5233",
+              "quote": "פו ן דע ר גרויסע ר אקטאבער־רעװאלוציע"
+            },
+            {
+              "recordId": "mention_4e8535723a35048ad57787b6",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Reuben Heyblum’s Minsk Ghetto underground activity",
+              "summary": "Reuben helped send medicines to partisan detachments.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 522,
               "printedPage": "518",
               "passageId": "passage_9193603fff014150ed8cd009",
-              "quote": "װערט ראובן הײבלום אײנער פון די ארגאניזאטאח"
+              "quote": "מי ט זי ץ היל ף װער ן איבערגעשיק ט מעדיקא ־ מענטן צ ו ד י פארטיזאנער־אטריאדן"
             },
             {
-              "recordId": "mention_3dc6e7513ca752877fde3eea",
+              "recordId": "mention_3475d0e9e0bddbea1d69a529",
               "kind": "mention",
               "type": "PERSON",
-              "title": "Reuven Heiblum",
-              "summary": "A partisan and fighter who died in combat in 1943.",
+              "title": "Nahum Goldzak",
+              "summary": "A Łuków-born activist who later lived in Minsk and aided underground resistance.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 522,
-              "printedPage": "518",
-              "passageId": "passage_28f5d94e8c87740879b0dfeb",
-              "quote": "ראובן הײבלום"
+              "scanIndex": 600,
+              "printedPage": "596",
+              "passageId": "passage_78c4aaca221e5d088e16b717",
+              "quote": "נחום גאלדזא ק"
             },
             {
-              "recordId": "mention_7e4c368208b1fac0a07ac07a",
+              "recordId": "mention_60c66183cffbb3af1573b8d5",
               "kind": "mention",
               "type": "PERSON",
-              "title": "Nachum Goldzak",
-              "summary": "Partisan survivor who destroyed German supply columns.",
+              "title": "Nokhum Galdzak",
+              "summary": "Partisan survivor who destroyed German echelons.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 495,
               "printedPage": "491",
               "passageId": "passage_812d67f8ca91668eca4152ce",
-              "quote": "נחום גאלדזאק"
-            }
-          ],
-          "position": 4
-        }
-      ]
-    },
-    {
-      "id": "id_cultural_survival",
-      "theme": "SURVIVAL_AFTERLIFE",
-      "title": "How did people preserve humanity under persecution?",
-      "description": "This path looks at testimony, family memory, song, theater, and practical acts of endurance during and after catastrophe. Readers will understand survival not only as physical escape but also as the preservation of relationships, culture, and meaning. [mention_050ee2f51724670e801883fb; mention_32b30d7e8b922d56a9139816; mention_de3d5080822d0679ae1c74bd]",
-      "question": "What did people carry with them through destruction?",
-      "steps": [
-        {
-          "title": "Family memory amid flight",
-          "summary": "One testimony recalls a four-year-old girl playing with her doll before departure, while another describes taking a mezuzah in a tallit bag. These details place children, homes, and religious objects inside the experience of forced movement and loss. [mention_1b4f9aca8b20716e828070d9; mention_1a7a73bc1736624ef3ca53c5]",
-          "recordIds": [
-            "mention_1b4f9aca8b20716e828070d9",
-            "mention_1a7a73bc1736624ef3ca53c5"
-          ],
-          "records": [
-            {
-              "recordId": "mention_1b4f9aca8b20716e828070d9",
-              "kind": "mention",
-              "type": "OBJECT",
-              "title": "Doll",
-              "summary": "A four-year-old girl plays with her doll before departure.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 310,
-              "printedPage": "306",
-              "passageId": "passage_7d4bbfd809e6c305dc037b6e",
-              "quote": "מײן פיריעריק מײדעלע שפילט זיד מיט איר ליאלקע"
-            },
-            {
-              "recordId": "mention_1a7a73bc1736624ef3ca53c5",
-              "kind": "mention",
-              "type": "OBJECT",
-              "title": "A mezuzah",
-              "summary": "A mezuzah Zalman remembers to bring in his tallit bag.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 239,
-              "printedPage": "235",
-              "passageId": "passage_4c7a9c2a89bfac2fa97cb777",
-              "quote": "זלמן האט אױך נישט פארגעםן מיטצונעמעןא מזוזד"
+              "quote": "נחו ם גאלדזאק"
             }
           ],
           "position": 1
         },
         {
-          "title": "Theater and song in the camp",
-          "summary": "The camp dramatic circle performed Yiddish plays including Tuvia the Milkman and At Night in the Old Market. The Song of the Valley was sung as a camp anthem and symbol of hope, showing how performance and song sustained shared cultural expression. [mention_050ee2f51724670e801883fb; mention_dad0026327bc31e99ed0d0ea; mention_ec3aca8698ce3fd47317c6dd]",
+          "title": "Hiding and escape",
+          "summary": "Survivor accounts describe the narrator’s family escaping into the forest, families hiding in workshops or rural homes, and groups fleeing Łuków at night. Other testimonies record that some hidden families were later murdered, emphasizing both the possibility and the extreme danger of hiding.",
           "recordIds": [
-            "mention_050ee2f51724670e801883fb",
-            "mention_dad0026327bc31e99ed0d0ea",
-            "mention_ec3aca8698ce3fd47317c6dd"
+            "mention_c22d3fc5711329b2c4b92801",
+            "mention_e9dde8f750226db9eb53d546",
+            "mention_96a484603628a7e136cb617c",
+            "mention_b4df80322cae54f2fabc2918"
           ],
           "records": [
             {
-              "recordId": "mention_050ee2f51724670e801883fb",
+              "recordId": "mention_c22d3fc5711329b2c4b92801",
               "kind": "mention",
-              "type": "WORK",
-              "title": "Tuvia the Milkman",
-              "summary": "Yiddish theater play by Sholem Aleichem performed in the camp.",
+              "type": "FAMILY",
+              "title": "the narrator's family",
+              "summary": "The narrator escaped into the forest with family after the actions.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 530,
-              "printedPage": "526",
-              "passageId": "passage_b5e5ae778f818cf2143820f0",
-              "quote": "״טוביה דער מילכיקער״"
+              "scanIndex": 513,
+              "printedPage": "509",
+              "passageId": "passage_e1a4eb1a0ca267a81a8c0392",
+              "quote": "מי ר מי ט מײ ן פאמילי ע געלונגע ן צ ו אנטלוים ן אי ן װאלד"
             },
             {
-              "recordId": "mention_dad0026327bc31e99ed0d0ea",
+              "recordId": "mention_e9dde8f750226db9eb53d546",
               "kind": "mention",
-              "type": "WORK",
-              "title": "At Night in the Old Market",
-              "summary": "Yiddish theater play by Peretz performed by the camp dramatic circle.",
+              "type": "FAMILY",
+              "title": "Franglar family",
+              "summary": "Thirteen family members hiding in a brick workshop.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 530,
-              "printedPage": "526",
-              "passageId": "passage_b5e5ae778f818cf2143820f0",
-              "quote": "״בײנאכט אויפן אלטן מארק״"
+              "scanIndex": 330,
+              "printedPage": "326",
+              "passageId": "passage_3316e87aef8a403c1b7dd787",
+              "quote": "כ ל משפח ת פרנגלר , 13 איש"
             },
             {
-              "recordId": "mention_ec3aca8698ce3fd47317c6dd",
+              "recordId": "mention_96a484603628a7e136cb617c",
               "kind": "mention",
-              "type": "WORK",
-              "title": "Song of the Valley",
-              "summary": "Song that became a camp anthem and symbol of faith.",
+              "type": "FAMILY",
+              "title": "Sender Rendl family",
+              "summary": "Family of six people hiding in the forest.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 530,
-              "printedPage": "526",
-              "passageId": "passage_1cf03ba51a082badc3129f1b",
-              "quote": "״שיר העמק״"
+              "scanIndex": 325,
+              "printedPage": "321",
+              "passageId": "passage_f30c430b61ffaedd3110035e",
+              "quote": "ד י משפח ה פו ן סענדע ר רענדל"
+            },
+            {
+              "recordId": "mention_b4df80322cae54f2fabc2918",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Łuków",
+              "summary": "Town from which the group escaped during the night.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 392,
+              "printedPage": "388",
+              "passageId": "passage_9604df861ccf2b94d59eebea",
+              "quote": "פו ן לוקאװ"
             }
           ],
           "position": 2
         },
         {
-          "title": "Survivors begin to publish",
-          "summary": "The book identifies a 1947 Łódź publication as the first publication by Łuków survivors after the Holocaust. This marks a transition from immediate survival to collective testimony and reconstruction of communal history. [mention_de3d5080822d0679ae1c74bd]",
+          "title": "Liberation and return did not end the danger",
+          "summary": "The records place Łuków’s liberation before a survivors’ gathering and describe survivors returning to the town while Jews still faced persecution. A March 1946 document and accounts of repatriation convey a postwar world in which survival required movement, reunion, and difficult decisions about home.",
           "recordIds": [
-            "mention_de3d5080822d0679ae1c74bd"
+            "mention_63d2bc1220e80e4a1795559",
+            "mention_b972beaec04fa10e1b08717e",
+            "mention_8bea1878dd71ecd2df8550de",
+            "mention_018e1dd386e5b1a99ef6b524"
           ],
           "records": [
             {
-              "recordId": "mention_de3d5080822d0679ae1c74bd",
+              "recordId": "mention_b972beaec04fa10e1b08717e",
               "kind": "mention",
-              "type": "PUBLICATION",
-              "title": "The First Publication of the Łuków Survivors After the Holocaust",
-              "summary": "A 1947 Łódź publication by Łuków survivors after the Holocaust.",
+              "type": "PLACE",
+              "title": "Łuków",
+              "summary": "The community where survivors returned and where Jews faced persecution.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 622,
-              "printedPage": "618",
-              "passageId": "passage_02bcb2848d4dedb2dbc5eb56",
-              "quote": "די ערשטע פובליקאציע פון די לוקאװער נאכן חורבן"
+              "scanIndex": 435,
+              "printedPage": "431",
+              "passageId": "passage_04ead290f6efd9c815d320f2",
+              "quote": "קײ ן לוקאװ"
+            },
+            {
+              "recordId": "mention_8bea1878dd71ecd2df8550de",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "March 1946",
+              "summary": "The passage is dated March 1946.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 343,
+              "printedPage": "339",
+              "passageId": "passage_299bf272751a11a0ee1af2e4",
+              "quote": "מערץ, 1946 ."
+            },
+            {
+              "recordId": "mention_018e1dd386e5b1a99ef6b524",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Repatriation echelon",
+              "summary": "The text mentions returning home in a large repatriation echelon.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 343,
+              "printedPage": "339",
+              "passageId": "passage_0db2e77295fd52132b37dfcf",
+              "quote": "אי ן דע ם גרויס ן עשאלא ן רעפאטריאנט ן"
             }
           ],
           "position": 3
         },
         {
-          "title": "Survival after liberation",
-          "summary": "Nahum Goldzak is remembered as mobilizing in the Haganah during the 1948 War of Independence, while Israel Goldgewicht is remembered as a political activist, soldier, and craftsman. These accounts show Łuków survivors and descendants building lives and commitments in new settings after the Holocaust. [mention_759db505594895669274e209; mention_0976387cc233c969b863ca44]",
+          "title": "Memory as communal reconstruction",
+          "summary": "The Łuków landsmanschaft in Brussels, memorial evenings for ghetto victims, survivor publications, and the Yizkor book itself became forms of communal remembrance. These efforts preserved names, testimonies, cultural life, and the claim that Jewish Łuków should be known as a living community as well as a destroyed one.",
           "recordIds": [
-            "mention_759db505594895669274e209",
-            "mention_0976387cc233c969b863ca44"
+            "mention_50f87b92e0075e79e087f8a3",
+            "mention_5b7de93e42b7d29cbc6361ac",
+            "mention_752fabbe427b88d4e02c0dac",
+            "mention_ea1d18a03bc85d99728e9beb"
           ],
           "records": [
             {
-              "recordId": "mention_759db505594895669274e209",
-              "kind": "mention",
-              "type": "EVENT",
-              "title": "1948 War of Independence",
-              "summary": "A liberation war in Israel during 1948, when Nahum Goldzak mobilized in the Haganah.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 600,
-              "printedPage": "596",
-              "passageId": "passage_66363bf8512042bb1d882222",
-              "quote": "באפרײונגם־מלחמה אין1948 אין ישראל"
-            },
-            {
-              "recordId": "mention_0976387cc233c969b863ca44",
+              "recordId": "mention_50f87b92e0075e79e087f8a3",
               "kind": "mention",
               "type": "PERSON",
               "title": "Israel Goldgewicht",
-              "summary": "A revolutionary activist, soldier, craftsman, and reader of Russian literature.",
+              "summary": "Israel Goldgewicht led the Łuków landsmanschaft in Brussels.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 596,
-              "printedPage": "592",
-              "passageId": "passage_0b1429a346eb5b3e536fd549",
-              "quote": "ישראל גאלדגעװיכט"
-            }
-          ],
-          "position": 4
-        }
-      ]
-    },
-    {
-      "id": "id_memory_and_testimony",
-      "theme": "MEMORY",
-      "title": "Why was Sefer Lukow created?",
-      "description": "This path treats the memorial book as a survivor-produced act of remembrance, combining historical fragments, personal testimony, names, photographs, and commemorative gatherings. By the end, readers will understand both what the book preserves and why its perspective must be read as memorial testimony. [mention_0d3f09ddd44dc8d2ca1f3563; mention_3542383aca5513338de18de4; mention_ee0f0e7da1569da890ad106a]",
-      "question": "How did survivors remember a destroyed community?",
-      "steps": [
-        {
-          "title": "The book as testimony and warning",
-          "summary": "The Łuków Yizkor book is presented as testimony and as a warning to future generations, while Sefer Lukow documents Jewish life and the destruction of the community. Its purpose is therefore not only to list events but to keep the community present for readers who came after it. [mention_3542383aca5513338de18de4; mention_0d3f09ddd44dc8d2ca1f3563; mention_ee0f0e7da1569da890ad106a]",
-          "recordIds": [
-            "mention_3542383aca5513338de18de4",
-            "mention_0d3f09ddd44dc8d2ca1f3563",
-            "mention_ee0f0e7da1569da890ad106a"
-          ],
-          "records": [
-            {
-              "recordId": "mention_3542383aca5513338de18de4",
-              "kind": "mention",
-              "type": "PUBLICATION",
-              "title": "Luków Yizkor book",
-              "summary": "The book is presented as testimony and a warning to future generations.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 13,
-              "printedPage": "9",
-              "passageId": "passage_ce8d465b73cb41d69b6e4eba",
-              "quote": "דאס יזכור־בוך פון לוקאוו"
+              "scanIndex": 452,
+              "printedPage": "448",
+              "passageId": "passage_171e07c1352bbadebff21690",
+              "quote": "ישרא ל גאלדגעװיכ ט ז״ל"
             },
             {
-              "recordId": "mention_0d3f09ddd44dc8d2ca1f3563",
-              "kind": "mention",
-              "type": "WORK",
-              "title": "Sefer Lukow",
-              "summary": "Book documenting Lukow Jewish life and the destruction of its Jewish community.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 10,
-              "printedPage": null,
-              "passageId": "passage_5dbdf22aafb3b57074aa48b4",
-              "quote": "דאס ספר לוקאו"
-            },
-            {
-              "recordId": "mention_ee0f0e7da1569da890ad106a",
-              "kind": "mention",
-              "type": "WORK",
-              "title": "Lukow Yizkor book",
-              "summary": "The book is presented as a memorial and testimony for future Jewish generations.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 15,
-              "printedPage": "11",
-              "passageId": "passage_3a77e77ef013a8814bd7da3b",
-              "quote": "ספר היזכור של לוקוב יהיה מעין שלט לכל העוברים"
-            }
-          ],
-          "position": 1
-        },
-        {
-          "title": "Names, families, and photographs",
-          "summary": "The memorial sections name individuals such as Nahum Goldzak and Moshe Shlakhtavitch, while photographs and family passages preserve personal traces of people otherwise lost. These forms of remembrance restore individuality to a history that the book also describes on the scale of mass murder. [mention_e37edfa56ae3a69d8cdaf246; mention_10db9ec7b50e7730db38c793; mention_6662f7bbe4b24b831b417805; mention_f8f6de5164ce1c5a1fa72123]",
-          "recordIds": [
-            "mention_e37edfa56ae3a69d8cdaf246",
-            "mention_10db9ec7b50e7730db38c793",
-            "mention_6662f7bbe4b24b831b417805",
-            "mention_f8f6de5164ce1c5a1fa72123"
-          ],
-          "records": [
-            {
-              "recordId": "mention_e37edfa56ae3a69d8cdaf246",
-              "kind": "mention",
-              "type": "PERSON",
-              "title": "Nahum Goldzak",
-              "summary": "Named in the memorial section listing.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 659,
-              "printedPage": null,
-              "passageId": "passage_e7e40efb0b7687e78c1c8d46",
-              "quote": "נחום גאלדזאק"
-            },
-            {
-              "recordId": "mention_10db9ec7b50e7730db38c793",
-              "kind": "mention",
-              "type": "PERSON",
-              "title": "Moshe Shlakhtavitch",
-              "summary": "Named in the memorial section listing.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 659,
-              "printedPage": null,
-              "passageId": "passage_52cba90d9275b0581001e57e",
-              "quote": "משה שלאכטאװיטש"
-            },
-            {
-              "recordId": "mention_6662f7bbe4b24b831b417805",
-              "kind": "mention",
-              "type": "PHOTOGRAPH",
-              "title": "Photograph of Reuven Heiblum’s murdered daughter",
-              "summary": "Photograph removed from a wall before departure from the Minsk Ghetto.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 522,
-              "printedPage": "518",
-              "passageId": "passage_9193603fff014150ed8cd009",
-              "quote": "די םאטאגראפיע םון זיץ אײנציק דערמארדעט טעכטערל"
-            },
-            {
-              "recordId": "mention_f8f6de5164ce1c5a1fa72123",
-              "kind": "mention",
-              "type": "FAMILY",
-              "title": "The memorialized family",
-              "summary": "A family remembered for destruction and loss.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 649,
-              "printedPage": "645",
-              "passageId": "passage_b1c51e47ea6475a678c67a03",
-              "quote": "פון אונדזער משפחה"
-            }
-          ],
-          "position": 2
-        },
-        {
-          "title": "Collective commemorations",
-          "summary": "Surviving Łuków Jews recited a pledge to perpetuate the memory of the martyrs, and a memorial evening was held in 1947 by the Łuków Jews’ committee in Rüdesheim. A later memorial gathering in New York shows remembrance continuing across postwar communities. [mention_69efd85d788697ef4161ad94; mention_79fced09657944293541079b; mention_618597c5216efadc82a04d41]",
-          "recordIds": [
-            "mention_69efd85d788697ef4161ad94",
-            "mention_79fced09657944293541079b",
-            "mention_618597c5216efadc82a04d41"
-          ],
-          "records": [
-            {
-              "recordId": "mention_69efd85d788697ef4161ad94",
+              "recordId": "mention_5b7de93e42b7d29cbc6361ac",
               "kind": "mention",
               "type": "EVENT",
-              "title": "Memorial pledge of the surviving Lukow Jews",
-              "summary": "Surviving Lukow Jews recited a pledge to perpetuate the martyrs' memory.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 541,
-              "printedPage": "537",
-              "passageId": "passage_52e352f5d46083558a4e1957",
-              "quote": "די שבועה פון די לעבנגעבליבענע לוקאװער ײדן צו פאראײביקן דעם אנדענק"
-            },
-            {
-              "recordId": "mention_79fced09657944293541079b",
-              "kind": "mention",
-              "type": "COMMUNITY",
-              "title": "Łuków Jewish community",
-              "summary": "The Jewish community commemorated at the memorial evening.",
+              "title": "Memorial evening for Łuków ghetto victims",
+              "summary": "Memorial evening organized in Rüdesheim for victims of the Łuków ghetto.",
               "dateStart": "",
               "dateEnd": "",
               "scanIndex": 541,
               "printedPage": "537",
               "passageId": "passage_c7c8f8c40d74ce6bf4960fdd",
-              "quote": "דעם 17טן יוני1947 איז דורכן קאמיטעט פון די לוקאווער ײדן אין ריכבאד"
+              "quote": "אײנ ־ געארדנט געװאר ן א יזכור־אװנ ט פא ר ד י קדושי ם פו ן לוקאװע ר געטא"
             },
             {
-              "recordId": "mention_618597c5216efadc82a04d41",
-              "kind": "mention",
-              "type": "EVENT",
-              "title": "Memorial in New York",
-              "summary": "A memorial gathering was held in New York.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 591,
-              "printedPage": "587",
-              "passageId": "passage_e33f7bbc96fd689bc4045247",
-              "quote": "אזכרה אין ביױיארק"
-            }
-          ],
-          "position": 3
-        },
-        {
-          "title": "Reading testimony carefully",
-          "summary": "The book brings together chronicles, diaries, survivor recollections, publications, and memorial passages, including reproduced diary records by S. Zheminski. Reading these materials together means honoring their testimony while noticing that different passages preserve different voices, purposes, and levels of detail. [mention_0be2937202e38e978f401060; mention_de530ceb13957639ce40ee3e; mention_1a2a8ab28de5175304df528d]",
-          "recordIds": [
-            "mention_0be2937202e38e978f401060",
-            "mention_de530ceb13957639ce40ee3e",
-            "mention_1a2a8ab28de5175304df528d"
-          ],
-          "records": [
-            {
-              "recordId": "mention_0be2937202e38e978f401060",
+              "recordId": "mention_752fabbe427b88d4e02c0dac",
               "kind": "mention",
               "type": "PUBLICATION",
-              "title": "Polish chronicles",
-              "summary": "Chronicles recording John Casimir’s renewal of Jewish privileges.",
+              "title": "The first publication of the Łuków survivors",
+              "summary": "A publication described as the first by Łuków survivors after the Holocaust.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 20,
-              "printedPage": "16",
-              "passageId": "passage_80cbeee0de9ec79341550f5c",
-              "quote": "די פוילישע כראניקערם פארצײכענען"
+              "scanIndex": 622,
+              "printedPage": "618",
+              "passageId": "passage_02bcb2848d4dedb2dbc5eb56",
+              "quote": "די ערשט ע פובליקאצי ע פו ן ד י לוקאװע ר נאכ ן חורב ן"
             },
             {
-              "recordId": "mention_de530ceb13957639ce40ee3e",
+              "recordId": "mention_ea1d18a03bc85d99728e9beb",
               "kind": "mention",
-              "type": "DOCUMENT",
-              "title": "S. Zheminski's diary",
-              "summary": "Diary records by S. Zheminski are reproduced in the passage.",
+              "type": "WORK",
+              "title": "Yizkor book of Łuków",
+              "summary": "Memorial book intended to preserve testimony about Łuków and Jewish Eastern Europe.",
               "dateStart": "",
               "dateEnd": "",
-              "scanIndex": 358,
-              "printedPage": "354",
-              "passageId": "passage_56c6db5e11f09cbbaa711d4b",
-              "quote": "(גלעסלען פון ס. זטעמינסקיס טאגבון)"
-            },
-            {
-              "recordId": "mention_1a2a8ab28de5175304df528d",
-              "kind": "mention",
-              "type": "PUBLICATION",
-              "title": "Bulletin of the Jewish Historical Institute",
-              "summary": "Publication in which the diary pages appeared.",
-              "dateStart": "",
-              "dateEnd": "",
-              "scanIndex": 358,
-              "printedPage": "354",
-              "passageId": "passage_dc1905f4966ad0e39143b835",
-              "quote": "בױלעטין פון ײדישן היםטארישן אינסטיטוט"
+              "scanIndex": 13,
+              "printedPage": "9",
+              "passageId": "passage_ce8d465b73cb41d69b6e4eba",
+              "quote": "דא ס יזכור־בו ך פו ן לוקאו ו"
             }
           ],
           "position": 4
@@ -1626,442 +1323,466 @@
   ],
   "timeline": [
     {
-      "periodStart": "1659-05-10",
-      "periodEnd": "1659-05-10",
-      "dateLabel": "10 May 1659",
-      "title": "Jewish rights charter",
-      "summary": "A charter granted Jews of Łuków rights of residence, trade, crafts, property, a synagogue, and a cemetery. [mention_60784a4a59ca237b5eed45e4; event_candidate_938fd314b74841c6cd50a246]",
+      "periodStart": "1101",
+      "periodEnd": "1403",
+      "dateLabel": "Twelfth–fifteenth centuries",
+      "title": "Łuków’s early history and town formation",
+      "summary": "The memorial book places an early settlement in Łuków in the twelfth century, dates the town’s establishment to 1230, and records its official designation as a town in 1403.",
       "recordIds": [
-        "mention_60784a4a59ca237b5eed45e4",
-        "event_candidate_938fd314b74841c6cd50a246"
+        "event_candidate_b713cc012ea03e7752d3ac14",
+        "event_candidate_f1a24db81c5dc49b58f3dfb6",
+        "event_candidate_0cee3516c04b7f1012879fcf"
       ],
       "records": [
         {
-          "recordId": "mention_60784a4a59ca237b5eed45e4",
-          "kind": "mention",
-          "type": "DOCUMENT",
-          "title": "Jewish rights charter of 10 May 1659",
-          "summary": "Charter granting Jews residence, commerce, crafts, property, synagogue, and cemetery rights.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 46,
-          "printedPage": "42",
-          "passageId": "passage_de343182715cff53b7aaa79d",
-          "quote": "בכתב הזכויות שנתן ב־10 למאי1659 ליהודי לוקוב"
+          "recordId": "event_candidate_b713cc012ea03e7752d3ac14",
+          "kind": "event",
+          "type": "SETTLEMENT",
+          "title": "Early settlement in Łuków",
+          "summary": "A settlement probably existed in Łuków during the twelfth century.",
+          "dateStart": "1101",
+          "dateEnd": "1200",
+          "scanIndex": 45,
+          "printedPage": "41",
+          "passageId": "passage_76eee2e618466238ae8e2989",
+          "quote": "הי ה בה כנרא ה ישו ב במא ה ה־ 12 לספירה"
         },
         {
-          "recordId": "event_candidate_938fd314b74841c6cd50a246",
+          "recordId": "event_candidate_f1a24db81c5dc49b58f3dfb6",
           "kind": "event",
-          "type": "CHARTER_ISSUANCE",
-          "title": "Granting of Jewish rights charter",
-          "summary": "A Jewish rights charter was granted to the Jews of Lukow on 10 May 1659, conferring residence, trade, craft, property, synagogue, and cemetery rights.",
-          "dateStart": "1659-05-10",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Founding of Luków",
+          "summary": "Luków was established in 1230.",
+          "dateStart": "1230",
           "dateEnd": "",
-          "scanIndex": 46,
-          "printedPage": "42",
-          "passageId": "passage_de343182715cff53b7aaa79d",
-          "quote": "בכתב הזכויות שנתן ב־10 למאי1659 ליהודי לוקוב"
+          "scanIndex": 92,
+          "printedPage": "88",
+          "passageId": "passage_18115dd66d1776333180e518",
+          "quote": "לוקוב, שהי א אח ת הערי ם העתיקו ת בפולין , הוקמ ה ב־1230"
+        },
+        {
+          "recordId": "event_candidate_0cee3516c04b7f1012879fcf",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Łuków recognized as a town",
+          "summary": "Łuków was officially designated a town in 1403.",
+          "dateStart": "1403",
+          "dateEnd": "1403",
+          "scanIndex": 489,
+          "printedPage": "485",
+          "passageId": "passage_53ed3b1c071ecf8de36e2779",
+          "quote": "אפיציעל אי ז לוקא װ באשטימ ט געװאר ן אל ס שטא ט ערש ט אי ן 1403 יאר"
         }
       ],
       "position": 1
     },
     {
-      "periodStart": "1800",
-      "periodEnd": "1833",
-      "dateLabel": "Beginning of the 19th century",
-      "title": "Construction of the Great Synagogue",
-      "summary": "The Great Synagogue was built in Łuków at the beginning of the nineteenth century. [event_candidate_e187009eebdf6c1ecc93525e]",
+      "periodStart": "1659",
+      "periodEnd": "1765",
+      "dateLabel": "Seventeenth–eighteenth centuries",
+      "title": "Rights and recorded communal presence",
+      "summary": "A 1659 charter granted Łuków Jews rights connected with residence, trade, crafts, property, worship, and burial. By 1765, records counted 911 Jewish poll-tax payers in Łuków.",
       "recordIds": [
-        "event_candidate_e187009eebdf6c1ecc93525e"
+        "event_candidate_1a004f5b3730d0db5f5a12bf",
+        "event_candidate_8d07c5653d882ffe1698ff1e"
       ],
       "records": [
         {
-          "recordId": "event_candidate_e187009eebdf6c1ecc93525e",
+          "recordId": "event_candidate_1a004f5b3730d0db5f5a12bf",
           "kind": "event",
-          "type": "CONSTRUCTION",
-          "title": "Construction of the Great Synagogue",
-          "summary": "The Great Synagogue was built at the beginning of the nineteenth century.",
-          "dateStart": "1800",
-          "dateEnd": "1833",
-          "scanIndex": 99,
-          "printedPage": "95",
-          "passageId": "passage_e942fdc5f55f4698f447cc4a",
-          "quote": "די גרויםע שול איז אויפגעבויט געװארן אין אנהײב פון 19טן יארהונדערט"
+          "type": "MIGRATION",
+          "title": "Granting of rights to Łuków Jews",
+          "summary": "A 1659 charter granted Łuków Jews residence, trade, craft, property, synagogue, and cemetery rights.",
+          "dateStart": "1659-05-10",
+          "dateEnd": "",
+          "scanIndex": 46,
+          "printedPage": "42",
+          "passageId": "passage_de343182715cff53b7aaa79d",
+          "quote": "בכתב הזכויו ת שנת ן ב־ 10 למא י 1659 ליהוד י לוקוב"
+        },
+        {
+          "recordId": "event_candidate_8d07c5653d882ffe1698ff1e",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Łuków Jewish population record",
+          "summary": "Records counted 911 Jewish poll-tax payers in Łuków in 1765.",
+          "dateStart": "1765",
+          "dateEnd": "1765",
+          "scanIndex": 25,
+          "printedPage": "21",
+          "passageId": "passage_9672065a7be1c1561c9ed2c0",
+          "quote": "אין 1765 זענע ן געװע ן 543 ײדיש ע קאפשטײער־צאלער ם אי ן דע ר םביבד ״ או ן 911 אין לוקאוו"
         }
       ],
       "position": 2
     },
     {
-      "periodStart": "1904",
-      "periodEnd": "1908",
-      "dateLabel": "1904–1908",
-      "title": "Political organization and mutual aid",
-      "summary": "The Bund was active by 1904, workers demonstrated in 1905, the Bund organization formed in 1916 according to another account, and a Loan and Savings Fund was founded in 1908. [event_candidate_6ffae1afdfdb036f3c8dfced; event_candidate_14c687ab13c38470aa278ad2; event_candidate_d65f5cf47e91c1615c77991e]",
+      "periodStart": "1800",
+      "periodEnd": "1861",
+      "dateLabel": "Early to mid-nineteenth century",
+      "title": "Religious institutions and population growth",
+      "summary": "The Great Synagogue was rebuilt at the beginning of the nineteenth century. The book records 1,877 Jews in Łuków in 1840 and 2,255 in 1861.",
       "recordIds": [
-        "event_candidate_6ffae1afdfdb036f3c8dfced",
-        "event_candidate_14c687ab13c38470aa278ad2",
-        "event_candidate_d65f5cf47e91c1615c77991e"
+        "event_candidate_1588fd41121fdb9e2a273081",
+        "event_candidate_f33269e7bb3ffe8b93ff1243",
+        "event_candidate_f5ab11583e515a061ae3af65"
       ],
       "records": [
         {
-          "recordId": "event_candidate_6ffae1afdfdb036f3c8dfced",
-          "kind": "event",
-          "type": "ORGANIZATION_ACTIVITY",
-          "title": "Bund activity in Lukow",
-          "summary": "The Bundist movement was active in Lukow by 1904 and organized the first strikes.",
-          "dateStart": "1904",
-          "dateEnd": "",
-          "scanIndex": 492,
-          "printedPage": "488",
-          "passageId": "passage_1364588210975d541856ad46",
-          "quote": "אין יאר1904 איז שוין טעטיק אין שטעטלא לעגאלע ארגאניזאציע פװ די ״חובבי־ צױן״ און אויךא בונדישע באװעגונג"
-        },
-        {
-          "recordId": "event_candidate_14c687ab13c38470aa278ad2",
-          "kind": "event",
-          "type": "DEMONSTRATION",
-          "title": "Workers’ demonstration in Lukow",
-          "summary": "Workers demonstrated in Lukow in 1905 after the tsar’s alleged amnesty.",
-          "dateStart": "1905",
-          "dateEnd": "1905",
-          "scanIndex": 107,
-          "printedPage": "103",
-          "passageId": "passage_09a98a43a72b29115cb05c15",
-          "quote": "נאך דעם צארם פאלשער אמנעםטיע זענען די ארבעטער ארוים אין די גאםן"
-        },
-        {
-          "recordId": "event_candidate_d65f5cf47e91c1615c77991e",
+          "recordId": "event_candidate_1588fd41121fdb9e2a273081",
           "kind": "event",
           "type": "ORGANIZATION_FOUNDING",
-          "title": "Founding of the Loan and Savings Fund",
-          "summary": "Loan and Savings Fund founded in 1908 on Warsaw Street.",
-          "dateStart": "1908",
-          "dateEnd": "",
-          "scanIndex": 108,
-          "printedPage": "104",
-          "passageId": "passage_7d1ba3c1cd9dd5c769ed4f1e",
-          "quote": "אין יאר1908 איז געגרינדעט געװארן די ״לײ־ און שפאר־קאסע״"
+          "title": "Rebuilding of the Great Synagogue",
+          "summary": "The Great Synagogue was rebuilt at the beginning of the nineteenth century.",
+          "dateStart": "1800",
+          "dateEnd": "1825",
+          "scanIndex": 99,
+          "printedPage": "95",
+          "passageId": "passage_e942fdc5f55f4698f447cc4a",
+          "quote": "די גרוים ע שו ל אי ז אויפגעבוי ט געװאר ן אי ן אנהײ ב פו ן 19ט ן יארהונדערט"
+        },
+        {
+          "recordId": "event_candidate_f33269e7bb3ffe8b93ff1243",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Jewish population recorded in Łuków in 1840",
+          "summary": "A Jewish population of 1,877 was recorded in Łuków in 1840.",
+          "dateStart": "1840",
+          "dateEnd": "1840",
+          "scanIndex": 49,
+          "printedPage": "45",
+          "passageId": "passage_6f370f74f487116d5bdac744",
+          "quote": "בשנ ת 1840 נמצא ו בלוקו ב 1877 יהודי ם"
+        },
+        {
+          "recordId": "event_candidate_f5ab11583e515a061ae3af65",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Jewish population recorded in Łuków in 1861",
+          "summary": "A Jewish population of 2,255 was recorded in Łuków in 1861.",
+          "dateStart": "1861",
+          "dateEnd": "1861",
+          "scanIndex": 49,
+          "printedPage": "45",
+          "passageId": "passage_6f370f74f487116d5bdac744",
+          "quote": "וב־ 1861 נמצאו 2255 יהודי ם"
         }
       ],
       "position": 3
     },
     {
-      "periodStart": "1914",
-      "periodEnd": "1930",
-      "dateLabel": "1914–1930",
-      "title": "Population decline",
-      "summary": "The memorial book states that Łuków’s Jewish population declined by 30 percent during this period. [event_candidate_3df67ead2a8ae8ab80bb9a69]",
+      "periodStart": "1905",
+      "periodEnd": "1919",
+      "dateLabel": "1905–1919: industry, politics, and civic organization",
+      "title": "Modern communal life expands",
+      "summary": "The period saw workers’ activity and secret Bundist organization, the relocation of Gastman’s shoe factory to Łuków, the founding of a library, political parties, city council elections, and a Bund cooperative shop. Relief from New York and the Joint also connected local life to wider Jewish networks.",
       "recordIds": [
-        "event_candidate_3df67ead2a8ae8ab80bb9a69"
+        "event_candidate_f735ea2d3d0f5a167b25f402",
+        "event_candidate_3b81b44ca1d71df1ee5c0d1c",
+        "event_candidate_3060fb181012fd413652ef42",
+        "event_candidate_be7f3a0f7f6b91cf14c09f11"
       ],
       "records": [
         {
-          "recordId": "event_candidate_3df67ead2a8ae8ab80bb9a69",
+          "recordId": "event_candidate_f735ea2d3d0f5a167b25f402",
           "kind": "event",
-          "type": "MIGRATION",
-          "title": "Decline of the Jewish population of Lukow",
-          "summary": "The Jewish population declined by 30 percent between 1914 and 1930.",
-          "dateStart": "1914",
-          "dateEnd": "1930",
-          "scanIndex": 88,
-          "printedPage": "84",
-          "passageId": "passage_2791fb091404e19874074dc7",
-          "quote": "צװישן די יארן 1914—1930 איז די ײדישע באפעלקערונג פארקלענערט געװארן מיט30 פראצענט"
-        }
-      ],
-      "position": 4
-    },
-    {
-      "periodStart": "1916",
-      "periodEnd": "1916",
-      "dateLabel": "1916",
-      "title": "Library founded",
-      "summary": "The Lukow Library was officially founded in 1916. [event_candidate_2321c9942843a2dd07aa5460]",
-      "recordIds": [
-        "event_candidate_2321c9942843a2dd07aa5460"
-      ],
-      "records": [
+          "type": "AKTION_OR_RAID",
+          "title": "Workers’ demonstration in Luków",
+          "summary": "Workers demonstrated in Luków during the 1905 revolutionary movement.",
+          "dateStart": "1905",
+          "dateEnd": "1905",
+          "scanIndex": 107,
+          "printedPage": "103",
+          "passageId": "passage_09a98a43a72b29115cb05c15",
+          "quote": "אין יא ד 1905 , ווע ן ד י סאציאל־דעמאקראט ן או ן דע ר ״בונד ״ האב ן ארגאניזיר ט ד י ארבעטער־באװעגונג"
+        },
         {
-          "recordId": "event_candidate_2321c9942843a2dd07aa5460",
+          "recordId": "event_candidate_3b81b44ca1d71df1ee5c0d1c",
+          "kind": "event",
+          "type": "ORGANIZATIONAL_ACTIVITY",
+          "title": "Beginning of Bundist activity in Łuków",
+          "summary": "A secret Bundist organization existed in Łuków in 1905–1906.",
+          "dateStart": "1905",
+          "dateEnd": "",
+          "scanIndex": 109,
+          "printedPage": "105",
+          "passageId": "passage_da855fd7cc709febf15abd1c",
+          "quote": "אי ן לוקא װ עקזיסטיר ט א בונדיש ע געהײמ ע ארגאניזאציע"
+        },
+        {
+          "recordId": "event_candidate_3060fb181012fd413652ef42",
+          "kind": "event",
+          "type": "FACTORY_RELOCATION",
+          "title": "Gastman shoe factory transferred to Łuków",
+          "summary": "Gastman's shoe factory was transferred from Warsaw to Łuków in 1906–1907, contributing to the town's economic revival.",
+          "dateStart": "1906",
+          "dateEnd": "1907",
+          "scanIndex": 74,
+          "printedPage": "70",
+          "passageId": "passage_8324468ea103c24aba3c57dc",
+          "quote": "בגל ל העבר ת בי ת החרוש ת לנעלײם ש ל גםטמ ן מװרש ה ללוקוב"
+        },
+        {
+          "recordId": "event_candidate_be7f3a0f7f6b91cf14c09f11",
           "kind": "event",
           "type": "ORGANIZATION_FOUNDING",
-          "title": "Founding of the Lukow Library",
-          "summary": "The library was officially founded in 1916.",
+          "title": "Official founding of the library",
+          "summary": "The library was officially founded in Łuków in 1916.",
           "dateStart": "1916",
           "dateEnd": "",
           "scanIndex": 129,
           "printedPage": "125",
           "passageId": "passage_4a456551e7aecea3e9e0049b",
-          "quote": "אפיציעל געגרינדעט געװארן אין יאר 1916"
+          "quote": "ביבליאטעק , װא ס אי ז אפיציע ל געגרינדע ט געװאר ן אי ן יא ר 1916"
+        }
+      ],
+      "position": 4
+    },
+    {
+      "periodStart": "1920",
+      "periodEnd": "1928",
+      "dateLabel": "1920s: political struggle and education",
+      "title": "Conflict, culture, and new schools",
+      "summary": "The book records attacks on Jews, arrests and murders of political activists, and continuing Bundist activity. It also recalls the first Jewish football team in 1921, the Medem school in 1928, and expanding Jewish educational life.",
+      "recordIds": [
+        "event_candidate_c140c8740d8ede1a32769f6a",
+        "event_candidate_1e200e3c02ad4e1d4d7068f9",
+        "event_candidate_1947ba3653a057d34008db98",
+        "event_candidate_2626d795ce140527b91c663b"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_c140c8740d8ede1a32769f6a",
+          "kind": "event",
+          "type": "AKTION_OR_RAID",
+          "title": "Attack on Jews in Łuków",
+          "summary": "In 1920, Polish forces attacked Jews in Łuków.",
+          "dateStart": "1920",
+          "dateEnd": "1920",
+          "scanIndex": 79,
+          "printedPage": "75",
+          "passageId": "passage_16084f3b84127dd28843a4ac",
+          "quote": "ב־ 1920 כשהלרצ יקי ם התנפל ו ע ל היהודי ם בלוקוב"
+        },
+        {
+          "recordId": "event_candidate_1e200e3c02ad4e1d4d7068f9",
+          "kind": "event",
+          "type": "ARREST",
+          "title": "Arrests of Bund activists in Łuków",
+          "summary": "Bund activists, including Moshe and Chaya Huberman, were arrested in Łuków in 1920.",
+          "dateStart": "1920",
+          "dateEnd": "",
+          "scanIndex": 111,
+          "printedPage": "107",
+          "passageId": "passage_e8ad77c87a71b1a7175c0141",
+          "quote": "מע ן הא ט ארעסטיר ט מש ה או ן חי ה הובע ר מאן"
+        },
+        {
+          "recordId": "event_candidate_1947ba3653a057d34008db98",
+          "kind": "event",
+          "type": "MURDER",
+          "title": "Murder of Matl Branzoyl",
+          "summary": "Bundist activist Matl Branzoyl was murdered in detention in Lublin after 1920.",
+          "dateStart": "1920",
+          "dateEnd": "1920",
+          "scanIndex": 493,
+          "printedPage": "489",
+          "passageId": "passage_520e2cefc7978a896ddadfa9",
+          "quote": "אי ן 1920 יא ר נא ך ד י גרוים ע ארעםטן, װער ט אוי ך דערמארדע ט אי ן תפים ה אי ן לובלי ן דע ר בונדישע ר טוע ר מאט ל בראנזױל"
         }
       ],
       "position": 5
     },
     {
-      "periodStart": "1921",
-      "periodEnd": "1921",
-      "dateLabel": "1921",
-      "title": "Jewish football team organized",
-      "summary": "The first Jewish football team in Łuków was organized in 1921. [event_candidate_69b6b3cfb7c9d90ed5024510]",
+      "periodStart": "1939",
+      "periodEnd": "1942",
+      "dateLabel": "1939–1942: occupation, ghettoization, and mass murder",
+      "title": "The destruction of Jewish Łuków",
+      "summary": "The German invasion was followed by occupation, the establishment of a ghetto and Judenrat, shootings, and Aktionen. One recorded action killed approximately 1,500 Jews, while another deportation account names Treblinka and extermination camps.",
       "recordIds": [
-        "event_candidate_69b6b3cfb7c9d90ed5024510"
+        "mention_3c37e06a01daa42b9c85c853",
+        "mention_4f9ddb0abc84b70a441965b7",
+        "event_candidate_3b1f3b7de96d9c87ec6ed7dc",
+        "mention_3f9b34fea6bb5faf1d3dfee9"
       ],
       "records": [
         {
-          "recordId": "event_candidate_69b6b3cfb7c9d90ed5024510",
+          "recordId": "mention_3c37e06a01daa42b9c85c853",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "World War II",
+          "summary": "Catastrophe beginning with the 1939 invasion of Poland.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 25,
+          "printedPage": "21",
+          "passageId": "passage_9be064f8adcdb564b5736834",
+          "quote": "אי ן םעפטעמבע ר 1939 קומ ט א ניי ע װעלט־קאטאםטראפע"
+        },
+        {
+          "recordId": "mention_4f9ddb0abc84b70a441965b7",
+          "kind": "mention",
+          "type": "INSTITUTION",
+          "title": "Judenrat of Łuków",
+          "summary": "Council headed by Weintraub during the first period of German occupation.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 225,
+          "printedPage": "221",
+          "passageId": "passage_3eba7a17abae3c3dd1cde299",
+          "quote": "שטײ ט ע ר ברא ש פו ן יודענ ־ ראט"
+        },
+        {
+          "recordId": "event_candidate_3b1f3b7de96d9c87ec6ed7dc",
           "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Organization of the first Jewish football team in Lukow",
-          "summary": "The first Jewish football team was organized in Lukow in 1921.",
-          "dateStart": "1921",
-          "dateEnd": "1921",
-          "scanIndex": 164,
-          "printedPage": "160",
-          "passageId": "passage_54311df2ca49370903eb0430",
-          "quote": "איז אין יאר1921 ארגאניזירט געװארן די ערשטע ײדישע פוטבאל־מאגשאפט"
+          "type": "AKTION_OR_RAID",
+          "title": "Aktion against Jews",
+          "summary": "On March 20, an action was carried out and approximately 1,500 Jews were killed.",
+          "dateStart": "03-20",
+          "dateEnd": "",
+          "scanIndex": 497,
+          "printedPage": "493",
+          "passageId": "passage_188f2c04d79cd47abb804ce0",
+          "quote": "דע ם 20ט ן מער ץ װער ט װידע ר דורכגעפיר ט אן אקצי ע"
+        },
+        {
+          "recordId": "mention_3f9b34fea6bb5faf1d3dfee9",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "Deportation of Rike Jews",
+          "summary": "Rike’s remaining Jews were deported to Treblinka and extermination camps.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 511,
+          "printedPage": "507",
+          "passageId": "passage_f71d585015cfe58ce80c98b0",
+          "quote": "געפיר ט הא ט מע ן ז ײ קײ ז טרבלינקע"
         }
       ],
       "position": 6
     },
     {
-      "periodStart": "1925",
-      "periodEnd": "1928",
-      "dateLabel": "1925–1928",
-      "title": "Youth and school initiatives",
-      "summary": "Hashomer Hatzair was established in 1925, The Lukower Word began publication in 1927, and a secular Yiddish folk school opened in 1928. [event_candidate_6dbb39f5a499e264a051c4ee; event_candidate_0fd7d6d17fa49dc5a2c83ced; event_candidate_6e4995243460b4f376933f77]",
+      "periodStart": "1942",
+      "periodEnd": "1945",
+      "dateLabel": "Wartime years: hiding, escape, and resistance",
+      "title": "Survival under extreme danger",
+      "summary": "Testimonies describe escapes into forests, families hiding in workshops and rural homes, underground assistance to partisans, and partisan action. They also record that some hidden families were found and murdered.",
       "recordIds": [
-        "event_candidate_6dbb39f5a499e264a051c4ee",
-        "event_candidate_0fd7d6d17fa49dc5a2c83ced",
-        "event_candidate_6e4995243460b4f376933f77"
+        "mention_c22d3fc5711329b2c4b92801",
+        "mention_e9dde8f750226db9eb53d546",
+        "mention_4e8535723a35048ad57787b6",
+        "mention_cadccf2ba27b8bdf88169d74"
       ],
       "records": [
         {
-          "recordId": "event_candidate_6dbb39f5a499e264a051c4ee",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Founding of Hashomer Hatzair in Lukow",
-          "summary": "Three young people decided to establish Hashomer Hatzair in Lukow.",
-          "dateStart": "1925",
-          "dateEnd": "1925",
-          "scanIndex": 156,
-          "printedPage": "152",
-          "passageId": "passage_a91c28dfbbc24eeac211afcf",
-          "quote": "החלטנו ליםד בלוקוב את הארגון של השומר הצעיר"
-        },
-        {
-          "recordId": "event_candidate_0fd7d6d17fa49dc5a2c83ced",
-          "kind": "event",
-          "type": "PUBLICATION",
-          "title": "Publication of the first issue of The Lukower Word",
-          "summary": "The first issue of The Lukower Word appeared on 16 September 1927.",
-          "dateStart": "1927-09-16",
+          "recordId": "mention_c22d3fc5711329b2c4b92801",
+          "kind": "mention",
+          "type": "FAMILY",
+          "title": "the narrator's family",
+          "summary": "The narrator escaped into the forest with family after the actions.",
+          "dateStart": "",
           "dateEnd": "",
-          "scanIndex": 243,
-          "printedPage": "239",
-          "passageId": "passage_3d43cfc783e3e9c6c42d0343",
-          "quote": "דאס לוקאװער װארט׳ נומ. 1, 6ו סעפטעמבער1927"
+          "scanIndex": 513,
+          "printedPage": "509",
+          "passageId": "passage_e1a4eb1a0ca267a81a8c0392",
+          "quote": "מי ר מי ט מײ ן פאמילי ע געלונגע ן צ ו אנטלוים ן אי ן װאלד"
         },
         {
-          "recordId": "event_candidate_6e4995243460b4f376933f77",
-          "kind": "event",
-          "type": "ORGANIZATION_FOUNDING",
-          "title": "Opening of the secular Yiddish folk school in Lukow",
-          "summary": "The secular Yiddish folk school formally opened on a Saturday evening in August 1928.",
-          "dateStart": "1928-08",
-          "dateEnd": "1928-08",
-          "scanIndex": 115,
-          "printedPage": "111",
-          "passageId": "passage_7844a50704a9f9b8eca55d92",
-          "quote": "די פײערלעכע דערעפענונג פון דער ײדיש־װעלטלעכער פאלקםשול אין לוקאװ איז פארגעקומען דעם ערשטן שבת־אװנט אין חודש אויגוםט 1928"
+          "recordId": "mention_e9dde8f750226db9eb53d546",
+          "kind": "mention",
+          "type": "FAMILY",
+          "title": "Franglar family",
+          "summary": "Thirteen family members hiding in a brick workshop.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 330,
+          "printedPage": "326",
+          "passageId": "passage_3316e87aef8a403c1b7dd787",
+          "quote": "כ ל משפח ת פרנגלר , 13 איש"
+        },
+        {
+          "recordId": "mention_4e8535723a35048ad57787b6",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "Reuben Heyblum’s Minsk Ghetto underground activity",
+          "summary": "Reuben helped send medicines to partisan detachments.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 522,
+          "printedPage": "518",
+          "passageId": "passage_9193603fff014150ed8cd009",
+          "quote": "מי ט זי ץ היל ף װער ן איבערגעשיק ט מעדיקא ־ מענטן צ ו ד י פארטיזאנער־אטריאדן"
+        },
+        {
+          "recordId": "mention_cadccf2ba27b8bdf88169d74",
+          "kind": "mention",
+          "type": "FAMILY",
+          "title": "Kesselbrener family",
+          "summary": "A family hidden at a Polish man’s home in Domina and murdered by the Armia Krajowa.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 329,
+          "printedPage": "325",
+          "passageId": "passage_52c7cff29ffdbba330c3c685",
+          "quote": "משפחת קסלברנ ר הית ה מוסתר ת אצ ל פולנ י בדומינה"
         }
       ],
       "position": 7
     },
     {
-      "periodStart": "1939",
-      "periodEnd": "1942",
-      "dateLabel": "German occupation and the ghetto",
-      "title": "Confinement and Aktionen",
-      "summary": "The book describes German occupation, the Łuków ghetto, deportations, and Aktionen in which Jews were killed or deported. [mention_2fbbc3a812e820fe0f92dc02; mention_5936d51c1e8035704f34e05b; mention_761eb66809a7e98e09124be9]",
+      "periodStart": "1944",
+      "periodEnd": "1946",
+      "dateLabel": "1944–1946: liberation, return, and remembrance",
+      "title": "After liberation",
+      "summary": "The records associate Łuków’s liberation with survivors’ reunions, while other accounts describe return, continuing persecution, repatriation, and a March 1946 testimony. Memorial evenings and survivor publications began preserving the destroyed community’s history.",
       "recordIds": [
-        "mention_2fbbc3a812e820fe0f92dc02",
-        "mention_5936d51c1e8035704f34e05b",
-        "mention_761eb66809a7e98e09124be9"
+        "mention_63d2bc1220e80e4a1795559",
+        "mention_b972beaec04fa10e1b08717e",
+        "mention_8bea1878dd71ecd2df8550de",
+        "mention_752fabbe427b88d4e02c0dac"
       ],
       "records": [
         {
-          "recordId": "mention_2fbbc3a812e820fe0f92dc02",
-          "kind": "mention",
-          "type": "EVENT",
-          "title": "German occupation",
-          "summary": "The German occupation awakened Lukow from its stagnation.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 262,
-          "printedPage": "258",
-          "passageId": "passage_ab0713157f49993276549932",
-          "quote": "די דײטשע אקופאציע"
-        },
-        {
-          "recordId": "mention_5936d51c1e8035704f34e05b",
+          "recordId": "mention_b972beaec04fa10e1b08717e",
           "kind": "mention",
           "type": "PLACE",
-          "title": "Lukow ghetto",
-          "summary": "A ghetto in Lukow described under German occupation.",
+          "title": "Łuków",
+          "summary": "The community where survivors returned and where Jews faced persecution.",
           "dateStart": "",
           "dateEnd": "",
-          "scanIndex": 321,
-          "printedPage": "317",
-          "passageId": "passage_938f7c9c4db9575ac05a6f65",
-          "quote": "ײדן אין לוקאװער געטא"
+          "scanIndex": 435,
+          "printedPage": "431",
+          "passageId": "passage_04ead290f6efd9c815d320f2",
+          "quote": "קײ ן לוקאװ"
         },
         {
-          "recordId": "mention_761eb66809a7e98e09124be9",
+          "recordId": "mention_8bea1878dd71ecd2df8550de",
           "kind": "mention",
-          "type": "PLACE",
-          "title": "Lukow ghetto",
-          "summary": "Ghetto where an Aktion reportedly occurred and Jews were killed or deported.",
+          "type": "DOCUMENT",
+          "title": "March 1946",
+          "summary": "The passage is dated March 1946.",
           "dateStart": "",
           "dateEnd": "",
-          "scanIndex": 378,
-          "printedPage": "374",
-          "passageId": "passage_5b0a2ed4a5f07b6ad353a1cf",
-          "quote": "אן ״אקציע״ אין לוקאװער געטא"
-        }
-      ],
-      "position": 8
-    },
-    {
-      "periodStart": "1942-07-16",
-      "periodEnd": "1942-07-16",
-      "dateLabel": "16 July 1942",
-      "title": "Transport from the camps",
-      "summary": "The cited account states that both camps were emptied and 1,050 people were transported. [mention_6d3b24c756c2709de866e2e5]",
-      "recordIds": [
-        "mention_6d3b24c756c2709de866e2e5"
-      ],
-      "records": [
-        {
-          "recordId": "mention_6d3b24c756c2709de866e2e5",
-          "kind": "mention",
-          "type": "EVENT",
-          "title": "Transport from the camps to Auschwitz",
-          "summary": "Both camps were emptied and 1,050 people were transported on 16 July 1942.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 463,
-          "printedPage": "459",
-          "passageId": "passage_fefe404339315b3fa63213f1",
-          "quote": "דעם 16טן ױלי1942 האט מען אויםגעלײדיקט ביידע לאגערם"
-        }
-      ],
-      "position": 9
-    },
-    {
-      "periodStart": "1943",
-      "periodEnd": "1943",
-      "dateLabel": "1943",
-      "title": "Escape and armed resistance",
-      "summary": "The book records escape from the ghetto and remembers Reuven Heiblum as a fighter who died in combat in 1943. [mention_0a944723421e2f4aca48adee; mention_3dc6e7513ca752877fde3eea]",
-      "recordIds": [
-        "mention_0a944723421e2f4aca48adee",
-        "mention_3dc6e7513ca752877fde3eea"
-      ],
-      "records": [
-        {
-          "recordId": "mention_0a944723421e2f4aca48adee",
-          "kind": "mention",
-          "type": "PLACE",
-          "title": "Lukow ghetto",
-          "summary": "A ghetto from which the narrator escaped alone in early 1943.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 403,
-          "printedPage": "399",
-          "passageId": "passage_50a444bec18225835fcc26b6",
-          "quote": "לוקאװער געטא"
+          "scanIndex": 343,
+          "printedPage": "339",
+          "passageId": "passage_299bf272751a11a0ee1af2e4",
+          "quote": "מערץ, 1946 ."
         },
         {
-          "recordId": "mention_3dc6e7513ca752877fde3eea",
-          "kind": "mention",
-          "type": "PERSON",
-          "title": "Reuven Heiblum",
-          "summary": "A partisan and fighter who died in combat in 1943.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 522,
-          "printedPage": "518",
-          "passageId": "passage_28f5d94e8c87740879b0dfeb",
-          "quote": "ראובן הײבלום"
-        }
-      ],
-      "position": 10
-    },
-    {
-      "periodStart": "1947",
-      "periodEnd": "1947",
-      "dateLabel": "1947",
-      "title": "Survivors commemorate Łuków",
-      "summary": "A Łuków survivors’ publication appeared in 1947, and a memorial evening was held by the Łuków Jews’ committee in Rüdesheim. [mention_de3d5080822d0679ae1c74bd; mention_79fced09657944293541079b]",
-      "recordIds": [
-        "mention_de3d5080822d0679ae1c74bd",
-        "mention_79fced09657944293541079b"
-      ],
-      "records": [
-        {
-          "recordId": "mention_de3d5080822d0679ae1c74bd",
+          "recordId": "mention_752fabbe427b88d4e02c0dac",
           "kind": "mention",
           "type": "PUBLICATION",
-          "title": "The First Publication of the Łuków Survivors After the Holocaust",
-          "summary": "A 1947 Łódź publication by Łuków survivors after the Holocaust.",
+          "title": "The first publication of the Łuków survivors",
+          "summary": "A publication described as the first by Łuków survivors after the Holocaust.",
           "dateStart": "",
           "dateEnd": "",
           "scanIndex": 622,
           "printedPage": "618",
           "passageId": "passage_02bcb2848d4dedb2dbc5eb56",
-          "quote": "די ערשטע פובליקאציע פון די לוקאװער נאכן חורבן"
-        },
-        {
-          "recordId": "mention_79fced09657944293541079b",
-          "kind": "mention",
-          "type": "COMMUNITY",
-          "title": "Łuków Jewish community",
-          "summary": "The Jewish community commemorated at the memorial evening.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 541,
-          "printedPage": "537",
-          "passageId": "passage_c7c8f8c40d74ce6bf4960fdd",
-          "quote": "דעם 17טן יוני1947 איז דורכן קאמיטעט פון די לוקאווער ײדן אין ריכבאד"
+          "quote": "די ערשט ע פובליקאצי ע פו ן ד י לוקאװע ר נאכ ן חורב ן"
         }
       ],
-      "position": 11
-    },
-    {
-      "periodStart": "1948",
-      "periodEnd": "1948",
-      "dateLabel": "1948",
-      "title": "Postwar lives and commitments",
-      "summary": "Nahum Goldzak is remembered as mobilizing in the Haganah during the 1948 War of Independence. [mention_759db505594895669274e209]",
-      "recordIds": [
-        "mention_759db505594895669274e209"
-      ],
-      "records": [
-        {
-          "recordId": "mention_759db505594895669274e209",
-          "kind": "mention",
-          "type": "EVENT",
-          "title": "1948 War of Independence",
-          "summary": "A liberation war in Israel during 1948, when Nahum Goldzak mobilized in the Haganah.",
-          "dateStart": "",
-          "dateEnd": "",
-          "scanIndex": 600,
-          "printedPage": "596",
-          "passageId": "passage_66363bf8512042bb1d882222",
-          "quote": "באפרײונגם־מלחמה אין1948 אין ישראל"
-        }
-      ],
-      "position": 12
+      "position": 8
     }
   ]
 }

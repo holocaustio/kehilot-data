@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_b2de60ac2b7e2cb1105bb16d",
+  "type": "Event",
+  "title": "Israel Shrhalem beaten in custody",
+  "summary": "Israel Shrhalem was beaten by soldiers after shouting in the police station.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 179,
+  "printedPage": "175",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Imprisonment",
+  "uncertaintyNote": "No allowed event type directly represents beating; imprisonment is inferred from the detention context.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_724d9f24eb3938487a3d7a36",
+      "pageId": "page_nybc301551_0179",
+      "scanIndex": 179,
+      "leafNumber": 178,
+      "printedPage": "175",
+      "passageCharStart": 932,
+      "passageCharEnd": 967,
+      "normalizedPassageCharStart": 932,
+      "normalizedPassageCharEnd": 967,
+      "pageCharStart": 1650,
+      "pageCharEnd": 1685,
+      "quote": "אל ץ\nשטארקער הא ט מע ן אי ם געשלאגן",
+      "normalizedQuote": "אל ץ\nשטארקער הא ט מע ן אי ם געשלאגן",
+      "modelQuote": "אלץ שטארקער האט מען אים געשלאגן",
+      "bbox": {
+        "left": 474,
+        "top": 2820,
+        "right": 2870,
+        "bottom": 3032
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n178/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "6b7fa2af6a7051aef7357457f71e96646942b349ea198ab30a54551714e7eb64",
+      "normalizedPassageChecksum": "eaa5e604ca5cc045475fe8f3419545b19d2821d7cce55a1c231df0abe7a59b14",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_485d930c1221e52bc91ee8cb",
+      "type": "Institution",
+      "title": "Police station",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_24515ba64bc566a3853013a6",
+      "type": "Person",
+      "title": "Israel Shrhalem",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

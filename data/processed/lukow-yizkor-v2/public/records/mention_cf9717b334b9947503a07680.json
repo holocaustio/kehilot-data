@@ -2,14 +2,15 @@
   "id": "mention_cf9717b334b9947503a07680",
   "type": "Person",
   "title": "Leibl Feltsman",
-  "summary": "The speaker’s cousin and a Lukow Association member.",
+  "summary": "Gdalye Feltsman’s cousin and member of the Łuków association.",
   "originalName": "לײבל פעלצ־ מאן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 578,
   "printedPage": "574",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
+  "subtype": "cousin",
   "evidenceRefs": [
     {
       "passageId": "passage_de6701967c9be6c4fe0689cc",
@@ -19,12 +20,12 @@
       "printedPage": "574",
       "passageCharStart": 845,
       "passageCharEnd": 873,
-      "normalizedPassageCharStart": 718,
-      "normalizedPassageCharEnd": 742,
+      "normalizedPassageCharStart": 845,
+      "normalizedPassageCharEnd": 873,
       "pageCharStart": 1910,
       "pageCharEnd": 1938,
       "quote": "מי ץ קוזי ן לײב ל פעלצ ־\nמאן",
-      "normalizedQuote": "מיץ קוזין לײבל פעלצ־ מאן",
+      "normalizedQuote": "מי ץ קוזי ן לײב ל פעלצ ־\nמאן",
       "modelQuote": "מיץ קוזין לײבל פעלצ־ מאן",
       "bbox": {
         "left": 464,
@@ -37,7 +38,7 @@
       "passageChecksum": "0bb61f8da63e148c358039e93a854a8e85af241902cda3ed2cc1966b94b218b7",
       "normalizedPassageChecksum": "e009b41cde9c12e3423882668dc11e3966093c083fef31a95aab82593408985b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -45,15 +46,21 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_34ec0565c32d37e22eae40a1",
-      "type": "Person",
-      "title": "Shmuel Feltsman",
+      "id": "mention_530e9b66e4db30f4934d4af1",
+      "type": "Place",
+      "title": "America",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1cc71019c5fda48ab2da2c26",
+      "id": "mention_dc79582c0c1fc0e9b8c9a3c0",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4f98f3074d10cb23aa25de91",
       "type": "Organization",
-      "title": "Lukow Association",
+      "title": "Łuków Association",
       "relation": "Appears in same passage"
     }
   ],

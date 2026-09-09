@@ -1,11 +1,11 @@
 {
   "id": "mention_341c0970af30fe36f35bbd93",
-  "type": "Institution",
+  "type": "Business",
   "title": "Cooperative store",
-  "summary": "The narrator stopped at a cooperative store in Shedlimsko.",
+  "summary": "A cooperative store where the narrator encountered a saleswoman.",
   "originalName": "קאאפעראטיװער קראם",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 364,
   "printedPage": "360",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "360",
       "passageCharStart": 379,
       "passageCharEnd": 407,
-      "normalizedPassageCharStart": 326,
-      "normalizedPassageCharEnd": 351,
+      "normalizedPassageCharStart": 379,
+      "normalizedPassageCharEnd": 407,
       "pageCharStart": 379,
       "pageCharEnd": 407,
       "quote": "אי ן דע ר קאאפעראטיװע ר קראם",
-      "normalizedQuote": "אין דער קאאפעראטיװער קראם",
+      "normalizedQuote": "אי ן דע ר קאאפעראטיװע ר קראם",
       "modelQuote": "אין דער קאאפעראטיװער קראם",
       "bbox": {
         "left": 1913,
@@ -38,7 +38,7 @@
       "passageChecksum": "7ec725ecc3fd642580e733148b715437eea1988029878cc93cf0eefa91655e97",
       "normalizedPassageChecksum": "bbefd0e186d8883c347b232eb23b04f256f7ac4bf36de805d7b170cece08adb6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,33 +46,21 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_04891dbdb0a166127f526950",
-      "type": "Place",
-      "title": "Burke forests",
+      "id": "mention_d9223175ea558ffb39b62b98",
+      "type": "Person",
+      "title": "Police officer in Burke",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1bcbd2145a6c1f95ffd297fa",
+      "id": "mention_827dff6cdde9c1a373f462a0",
+      "type": "Community",
+      "title": "Hidden Jews",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b91213903bd413a97ea7d718",
       "type": "Person",
       "title": "Chief forest guard",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_612e7851981221372ac33350",
-      "type": "Event",
-      "title": "Arrests of two peasants",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_04523c43f14a7e2c29ddeb87",
-      "type": "Event",
-      "title": "Aktion against Jews in hiding",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_694d53b8f06cb612878fb266",
-      "type": "Event",
-      "title": "Murder of sixteen Jews in Burke forests",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,57 @@
+{
+  "id": "event_candidate_49922983932b4bd4a46d7380",
+  "type": "Event",
+  "title": "Murder of the Randel family",
+  "summary": "AK raiders killed members of the Randel family after being brought by the forest guard.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 330,
+  "printedPage": "326",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The passage does not explicitly identify every victim as a family member.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d486cc8a69f1877f474cbdfa",
+      "pageId": "page_nybc301551_0330",
+      "scanIndex": 330,
+      "leafNumber": 329,
+      "printedPage": "326",
+      "passageCharStart": 767,
+      "passageCharEnd": 813,
+      "normalizedPassageCharStart": 767,
+      "normalizedPassageCharEnd": 813,
+      "pageCharStart": 767,
+      "pageCharEnd": 813,
+      "quote": "שודד י הא.ק . שהרג ו א ת\nהיהודים באופ ן ברוטלי",
+      "normalizedQuote": "שודד י הא.ק . שהרג ו א ת\nהיהודים באופ ן ברוטלי",
+      "modelQuote": "שודדי הא.ק. שהרגו את היהודים באופן ברוטלי",
+      "bbox": {
+        "left": 458,
+        "top": 2022,
+        "right": 2948,
+        "bottom": 2188
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n329/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "302c46a3d5d4ad5795d32e222199ac592ff3711c704954fa7883ebf771d107ca",
+      "normalizedPassageChecksum": "2cfdad03fafc69ef7449f229f0c98a3931e42d46e2264974414f77576c2aade5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_02abaeaeb617065f99c4d544",
+      "type": "Family",
+      "title": "Randel family",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

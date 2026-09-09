@@ -2,15 +2,15 @@
   "id": "mention_9ab309943a977f42436ed11e",
   "type": "Person",
   "title": "Baren",
-  "summary": "A new labor-camp commander who sought medical examinations for the laborers.",
+  "summary": "A new labor camp commander who sought medical examinations for prisoners.",
   "originalName": "בארען",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 336,
   "printedPage": "332",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "camp commander",
+  "subtype": "labor camp commander",
   "evidenceRefs": [
     {
       "passageId": "passage_d4faa17defd1837e37ea5334",
@@ -20,12 +20,12 @@
       "printedPage": "332",
       "passageCharStart": 647,
       "passageCharEnd": 682,
-      "normalizedPassageCharStart": 559,
-      "normalizedPassageCharEnd": 590,
+      "normalizedPassageCharStart": 647,
+      "normalizedPassageCharEnd": 682,
       "pageCharStart": 647,
       "pageCharEnd": 682,
       "quote": "נײע ר קאמענדאנ ט מיט ן נאמע ן\nבארען",
-      "normalizedQuote": "נײער קאמענדאנט מיטן נאמען בארען",
+      "normalizedQuote": "נײע ר קאמענדאנ ט מיט ן נאמע ן\nבארען",
       "modelQuote": "נײער קאמענדאנט מיטן נאמען בארען",
       "bbox": {
         "left": 451,
@@ -38,7 +38,7 @@
       "passageChecksum": "edcf4da4424f02f101a8ba61eda3c3e159fccba52f2a63e898100c9489136557",
       "normalizedPassageChecksum": "6e4b811e1a13774746b76fdd613847e72b47e502b4e1ea66f65ef00b6cba20a2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -47,19 +47,19 @@
       "scanIndex": 336,
       "leafNumber": 335,
       "printedPage": "332",
-      "passageCharStart": 112,
+      "passageCharStart": 117,
       "passageCharEnd": 136,
-      "normalizedPassageCharStart": 97,
-      "normalizedPassageCharEnd": 118,
-      "pageCharStart": 1285,
+      "normalizedPassageCharStart": 117,
+      "normalizedPassageCharEnd": 136,
+      "pageCharStart": 1290,
       "pageCharEnd": 1309,
-      "quote": "דע ר לאגער־פירע ר בארע ן",
-      "normalizedQuote": "דער לאגער־פירער בארען",
-      "modelQuote": "דער לאגער־פירער בארען",
+      "quote": "לאגער־פירע ר בארע ן",
+      "normalizedQuote": "לאגער־פירע ר בארע ן",
+      "modelQuote": "לאגער־פירער בארען",
       "bbox": {
         "left": 1145,
         "top": 2692,
-        "right": 2169,
+        "right": 2021,
         "bottom": 2772
       },
       "scanUrl": "https://archive.org/details/nybc301551/page/n335/mode/1up",
@@ -67,69 +67,100 @@
       "passageChecksum": "b20cec64d01301dc080c705b7d337cee8c145f30dd189ef9f3fa854f7255c7d0",
       "normalizedPassageChecksum": "78cd2e9e6249f8f5076009d1b19916e45bb84fd43d62dab161304d521cdbd8eb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_6d5ab5bf7f6dcd937ad9e82e",
+      "predicate": "Led By",
+      "subjectTitle": "Baren",
+      "objectTitle": "Camp",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_3ac0567d6a1dd9039891d788",
+        "pageId": "page_nybc301551_0336",
+        "scanIndex": 336,
+        "leafNumber": 335,
+        "printedPage": "332",
+        "passageCharStart": 117,
+        "passageCharEnd": 136,
+        "normalizedPassageCharStart": 117,
+        "normalizedPassageCharEnd": 136,
+        "pageCharStart": 1290,
+        "pageCharEnd": 1309,
+        "quote": "לאגער־פירע ר בארע ן",
+        "normalizedQuote": "לאגער־פירע ר בארע ן",
+        "modelQuote": "לאגער־פירער בארען",
+        "bbox": {
+          "left": 1145,
+          "top": 2692,
+          "right": 2021,
+          "bottom": 2772
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n335/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b20cec64d01301dc080c705b7d337cee8c145f30dd189ef9f3fa854f7255c7d0",
+        "normalizedPassageChecksum": "78cd2e9e6249f8f5076009d1b19916e45bb84fd43d62dab161304d521cdbd8eb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_ae2d7e5b467ad6a6398ad6db",
+      "id": "mention_4e161920740b1436804e572f",
       "type": "Person",
-      "title": "Finkelshteyn",
+      "title": "Vvitchik",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e1ee131d5bacd38705813dbe",
+      "id": "mention_b65c5c70731b5cc03a9c72c6",
       "type": "Place",
       "title": "Biale",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a581072611ce7ad8b466042f",
+      "id": "mention_1ffd30e95d6edadc4a23520e",
+      "type": "Place",
+      "title": "Camp",
+      "relation": "Led By"
+    },
+    {
+      "id": "mention_1ffd30e95d6edadc4a23520e",
+      "type": "Place",
+      "title": "Camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_63d29029787c02b0d81d970c",
       "type": "Place",
       "title": "Biała",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_eef711e16bedc6ff2bea5b62",
+      "id": "mention_d31755ca9cc951fb6b430bd4",
       "type": "Place",
-      "title": "Mezritsch",
+      "title": "Międzyrzec",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_92a6b94155be70a6c8abdf3f",
-      "type": "Place",
-      "title": "Ragashnitsa",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_dcc8f9892ed46c2f71652527",
+      "id": "mention_f12dc21d9050143bb4a90c08",
       "type": "Person",
       "title": "Rashek",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_84c2086f145556db5d1351d6",
+      "id": "mention_5eb2116a7e8b4a03aabe367f",
       "type": "Place",
-      "title": "Central Street",
+      "title": "Ragashnitsa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_44fdb2fd5f366181e1b2b2ff",
-      "type": "Place",
-      "title": "Bathhouse",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_6a63369f12ef5256aefd7a95",
-      "type": "Place",
-      "title": "Nearby storage building",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_f944f20c088ca0c7b586151e",
+      "id": "mention_605618b1d7c7683299cfcdf5",
       "type": "Place",
       "title": "Barracks",
       "relation": "Appears in same passage"

@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_3941ca7da7fa3a13b2251b94",
+  "type": "Event",
+  "title": "Invasion of Poland",
+  "summary": "Hitler invaded Poland in September 1939.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 25,
+  "printedPage": "21",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "dateStart": "1939-09",
+  "dateEnd": "1939-09",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9be064f8adcdb564b5736834",
+      "pageId": "page_nybc301551_0025",
+      "scanIndex": 25,
+      "leafNumber": 24,
+      "printedPage": "21",
+      "passageCharStart": 1016,
+      "passageCharEnd": 1041,
+      "normalizedPassageCharStart": 1016,
+      "normalizedPassageCharEnd": 1041,
+      "pageCharStart": 1016,
+      "pageCharEnd": 1041,
+      "quote": "היטלע ר אינוואזיר ט פוילן",
+      "normalizedQuote": "היטלע ר אינוואזיר ט פוילן",
+      "modelQuote": "היטלער אינוואזירט פוילן",
+      "bbox": {
+        "left": 1093,
+        "top": 2129,
+        "right": 1917,
+        "bottom": 2203
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n24/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "8250f1a2337fd05a0cfe947f18057535435ae06bd57878df746540b3d8680fe1",
+      "normalizedPassageChecksum": "77ce02f1eac93af7574cf4da9801bb62f2a9fdfe867b4d1ebd3951b1c6417731",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_7a520b4b56320af5bf661c6c",
+      "type": "Place",
+      "title": "Poland",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_03bc99ae897873dd9a5a51d6",
+      "type": "Person",
+      "title": "Adolf Hitler",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

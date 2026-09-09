@@ -1,11 +1,11 @@
 {
   "id": "mention_8f3073675236f51ce1185c48",
   "type": "Person",
-  "title": "the mother",
-  "summary": "The narrator's mother remained in the Warsaw ghetto and declined to leave.",
+  "title": "Narrator’s mother",
+  "summary": "Mother refused to leave Warsaw and reported family circumstances.",
   "originalName": "די מאמע",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 373,
   "printedPage": "369",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "369",
       "passageCharStart": 408,
       "passageCharEnd": 437,
-      "normalizedPassageCharStart": 348,
-      "normalizedPassageCharEnd": 373,
+      "normalizedPassageCharStart": 408,
+      "normalizedPassageCharEnd": 437,
       "pageCharStart": 408,
       "pageCharEnd": 437,
       "quote": "ד י מאמ ע הא ט מי ר געענטפערט",
-      "normalizedQuote": "די מאמע האט מיר געענטפערט",
+      "normalizedQuote": "ד י מאמ ע הא ט מי ר געענטפערט",
       "modelQuote": "די מאמע האט מיר געענטפערט",
       "bbox": {
         "left": 1708,
@@ -38,33 +38,36 @@
       "passageChecksum": "4f4b9ccfa7db19b994a1f9dd8b723418c5155426590777a9ca20cf8c2daf1221",
       "normalizedPassageChecksum": "442f44867842db9fab0d6ebbf07d2ae618b15019d6ae44d0148a2ccdf4a0859b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_974af18a600ca5ad040da46c",
-      "predicate": "Could Not Leave",
-      "subjectTitle": "the mother",
-      "objectTitle": "Warsaw ghetto",
+      "id": "claim_candidate_31dec45d18738dfec2ddb961",
+      "predicate": "Located In",
+      "subjectTitle": "Narrator’s mother",
+      "objectTitle": "Warsaw Ghetto",
       "confidence": "MEDIUM",
-      "uncertaintyNote": "The passage states the mother could not leave the Warsaw ghetto; residence is implied but not directly stated.",
+      "uncertaintyNote": "The sentence describes the family’s inability to leave, not explicitly the mother’s residence.",
+      "qualifiers": {
+        "stated_context": "mother said leaving was impossible"
+      },
       "evidence": {
         "passageId": "passage_cd8aa9662aeaf205944d74e6",
         "pageId": "page_nybc301551_0373",
         "scanIndex": 373,
         "leafNumber": 372,
         "printedPage": "369",
-        "passageCharStart": 444,
+        "passageCharStart": 453,
         "passageCharEnd": 496,
-        "normalizedPassageCharStart": 378,
-        "normalizedPassageCharEnd": 424,
-        "pageCharStart": 444,
+        "normalizedPassageCharStart": 453,
+        "normalizedPassageCharEnd": 496,
+        "pageCharStart": 453,
         "pageCharEnd": 496,
-        "quote": "ע ס אי ז ניש ט מעגלע ד ארויםצוגי ץ\nפץ װארשעװע ר געטא",
-        "normalizedQuote": "עס איז נישט מעגלעד ארויםצוגיץ פץ װארשעװער געטא",
-        "modelQuote": "עס איז נישט מעגלעד ארויםצוגיץ פץ װארשעװער געטא",
+        "quote": "ניש ט מעגלע ד ארויםצוגי ץ\nפץ װארשעװע ר געטא",
+        "normalizedQuote": "ניש ט מעגלע ד ארויםצוגי ץ\nפץ װארשעװע ר געטא",
+        "modelQuote": "נישט מעגלעד ארויםצוגיץ פץ װארשעװער געטא",
         "bbox": {
           "left": 452,
           "top": 1373,
@@ -76,7 +79,7 @@
         "passageChecksum": "4f4b9ccfa7db19b994a1f9dd8b723418c5155426590777a9ca20cf8c2daf1221",
         "normalizedPassageChecksum": "442f44867842db9fab0d6ebbf07d2ae618b15019d6ae44d0148a2ccdf4a0859b",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -84,27 +87,45 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_ab09326f4083c480ed263c78",
+      "id": "mention_b75232939db46f6b50cc6c25",
       "type": "Place",
-      "title": "Warsaw ghetto",
-      "relation": "Could Not Leave"
+      "title": "Warsaw Ghetto",
+      "relation": "Located In"
     },
     {
-      "id": "mention_ab09326f4083c480ed263c78",
+      "id": "mention_6c06a43bd699f5f9feba382a",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Member Of Family"
+    },
+    {
+      "id": "mention_eec5e35ef0970bf464c62965",
       "type": "Place",
-      "title": "Warsaw ghetto",
+      "title": "Aleksandrow",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d51cccc105f865fe97f11526",
+      "id": "mention_b75232939db46f6b50cc6c25",
+      "type": "Place",
+      "title": "Warsaw Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8747b39c457c3f1c628805c3",
       "type": "Place",
       "title": "Warsaw cemetery",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6102ed135f48c273478d0d96",
-      "type": "Place",
-      "title": "Aleksandrow",
+      "id": "mention_7c5bd6883ee57902c5627776",
+      "type": "Person",
+      "title": "Narrator’s sister",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_72c1e4bb52be886087abf906",
+      "type": "Person",
+      "title": "Narrator’s brother",
       "relation": "Appears in same passage"
     }
   ],

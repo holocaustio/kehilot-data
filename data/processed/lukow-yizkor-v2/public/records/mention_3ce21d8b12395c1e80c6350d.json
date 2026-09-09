@@ -2,16 +2,15 @@
   "id": "mention_3ce21d8b12395c1e80c6350d",
   "type": "Person",
   "title": "Sarah Gold-Stits",
-  "summary": "The librarian of the Jewish Public Library.",
+  "summary": "The librarian of the Jewish public library.",
   "originalName": "שרה גאלד־שטיץ",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 69,
   "printedPage": "65",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "librarian",
-  "uncertaintyNote": "OCR or transliteration of the surname may be uncertain.",
   "evidenceRefs": [
     {
       "passageId": "passage_c6db130931520a389f0ab059",
@@ -21,12 +20,12 @@
       "printedPage": "65",
       "passageCharStart": 321,
       "passageCharEnd": 361,
-      "normalizedPassageCharStart": 281,
-      "normalizedPassageCharEnd": 318,
+      "normalizedPassageCharStart": 321,
+      "normalizedPassageCharEnd": 361,
       "pageCharStart": 1304,
       "pageCharEnd": 1344,
       "quote": "ביבליאטעקארי ן\nאיז געװע ן שר ה גאלד־שטיץ",
-      "normalizedQuote": "ביבליאטעקארין איז געװען שרה גאלד־שטיץ",
+      "normalizedQuote": "ביבליאטעקארי ן\nאיז געװע ן שר ה גאלד־שטיץ",
       "modelQuote": "ביבליאטעקארין איז געװען שרה גאלד־שטיץ",
       "bbox": {
         "left": 472,
@@ -39,20 +38,17 @@
       "passageChecksum": "ad33397ab3a94dffe2f44e666cda615609acee8af8eb8a610af8f04d5c8c86a8",
       "normalizedPassageChecksum": "8b61135f12b634f5de2eebb38af3958efff9fbbb910379c1214059c6dfbeece0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_5d98a25de871d378ef76fb87",
-      "predicate": "Worked At",
-      "subjectTitle": "Sarah Gold-Stits",
-      "objectTitle": "Jewish Public Library",
+      "id": "claim_candidate_69a34c1467f1d922597c76ad",
+      "predicate": "Led By",
+      "subjectTitle": "Jewish Public Library",
+      "objectTitle": "Sarah Gold-Stits",
       "confidence": "HIGH",
-      "qualifiers": {
-        "role": "librarian"
-      },
       "evidence": {
         "passageId": "passage_c6db130931520a389f0ab059",
         "pageId": "page_nybc301551_0069",
@@ -61,12 +57,12 @@
         "printedPage": "65",
         "passageCharStart": 321,
         "passageCharEnd": 361,
-        "normalizedPassageCharStart": 281,
-        "normalizedPassageCharEnd": 318,
+        "normalizedPassageCharStart": 321,
+        "normalizedPassageCharEnd": 361,
         "pageCharStart": 1304,
         "pageCharEnd": 1344,
         "quote": "ביבליאטעקארי ן\nאיז געװע ן שר ה גאלד־שטיץ",
-        "normalizedQuote": "ביבליאטעקארין איז געװען שרה גאלד־שטיץ",
+        "normalizedQuote": "ביבליאטעקארי ן\nאיז געװע ן שר ה גאלד־שטיץ",
         "modelQuote": "ביבליאטעקארין איז געװען שרה גאלד־שטיץ",
         "bbox": {
           "left": 472,
@@ -79,7 +75,7 @@
         "passageChecksum": "ad33397ab3a94dffe2f44e666cda615609acee8af8eb8a610af8f04d5c8c86a8",
         "normalizedPassageChecksum": "8b61135f12b634f5de2eebb38af3958efff9fbbb910379c1214059c6dfbeece0",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -87,27 +83,33 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_1806694cbc53e944da50158c",
+      "id": "mention_80e76260c698cfd0932106df",
       "type": "Institution",
       "title": "Jewish Public Library",
-      "relation": "Worked At"
+      "relation": "Led By"
     },
     {
-      "id": "mention_1806694cbc53e944da50158c",
+      "id": "mention_80e76260c698cfd0932106df",
       "type": "Institution",
       "title": "Jewish Public Library",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e2e6b020982275fc1a1e4506",
-      "type": "Organization",
-      "title": "Special Cultural Commission",
+      "id": "mention_e29cdafe525eb68fd904c659",
+      "type": "Publication",
+      "title": "Jewish press",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5b088ede9639a425ca6f6d47",
+      "type": "Publication",
+      "title": "Polish press",
       "relation": "Appears in same passage"
     }
   ],

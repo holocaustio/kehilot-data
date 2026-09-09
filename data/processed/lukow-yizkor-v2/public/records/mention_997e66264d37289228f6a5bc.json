@@ -1,0 +1,119 @@
+{
+  "id": "mention_997e66264d37289228f6a5bc",
+  "type": "Person",
+  "title": "Narrator",
+  "summary": "First-person narrator describing events in Łuków.",
+  "originalName": "איך האב",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 387,
+  "printedPage": "383",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "narrator",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a1ec8702024e68d7e8281933",
+      "pageId": "page_nybc301551_0387",
+      "scanIndex": 387,
+      "leafNumber": 386,
+      "printedPage": "383",
+      "passageCharStart": 144,
+      "passageCharEnd": 186,
+      "normalizedPassageCharStart": 144,
+      "normalizedPassageCharEnd": 186,
+      "pageCharStart": 144,
+      "pageCharEnd": 186,
+      "quote": "איך הא ב זי ך דערמאנ ט אי ן מײנע ר א חברטע",
+      "normalizedQuote": "איך הא ב זי ך דערמאנ ט אי ן מײנע ר א חברטע",
+      "modelQuote": "איך האב זיך דערמאנט אין מײנערא חברטע",
+      "bbox": {
+        "left": 1562,
+        "top": 1083,
+        "right": 2918,
+        "bottom": 1147
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n386/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "95abab4cf1c0ff9fbfe9b852e10682bbf6058eaa3973e65543efab7a21da34e4",
+      "normalizedPassageChecksum": "857afbfe9cbf821088e626c23e2516179217016474c9f52a1fe1a42442664366",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_17a3a893ae2124f53ea5245d",
+      "type": "Migration",
+      "title": "Arrival at a hiding place",
+      "summary": "The narrator followed a woman and girl through an attic route and reached a hiding place.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The movement is explicit, but no allowed event type precisely captures reaching a hiding place.",
+      "evidence": {
+        "passageId": "passage_08cb641e3e9d14739fc51176",
+        "pageId": "page_nybc301551_0387",
+        "scanIndex": 387,
+        "leafNumber": 386,
+        "printedPage": "383",
+        "passageCharStart": 1178,
+        "passageCharEnd": 1221,
+        "normalizedPassageCharStart": 1178,
+        "normalizedPassageCharEnd": 1221,
+        "pageCharStart": 2397,
+        "pageCharEnd": 2440,
+        "quote": "אזו י זענע ן מי ר\nדערגאנגען צו ם באהעלטעניש",
+        "normalizedQuote": "אזו י זענע ן מי ר\nדערגאנגען צו ם באהעלטעניש",
+        "modelQuote": "אזוי זענען מיר דערגאנגען צום באהעלטעניש",
+        "bbox": {
+          "left": 474,
+          "top": 4001,
+          "right": 2856,
+          "bottom": 4175
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n386/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "28b6ea86e3c261a72ad7d84e36d5a67d4dc29b268ea7361786d6f8b560ddaabb",
+        "normalizedPassageChecksum": "94c8321c73b3aa10852b3df5d934c770017e2ed0dbc580ee94bc50b83d3ec7b5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_17a3a893ae2124f53ea5245d",
+      "type": "Event",
+      "title": "Arrival at a hiding place",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_05f4bf14c38ef91701a6e119",
+      "type": "Person",
+      "title": "Female friend",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_915ef2a4280dea3cd1f2c115",
+      "type": "Community",
+      "title": "Hungarian Jews",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b5ea75e64824dcb909fa0e7d",
+      "type": "Community",
+      "title": "Czech Jews",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

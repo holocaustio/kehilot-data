@@ -2,15 +2,14 @@
   "id": "mention_b6686b9611bb9086e7ebea6d",
   "type": "Person",
   "title": "Yitzhak Zeev Librach",
-  "summary": "A Torah scholar and notable personality in the Lukow community.",
+  "summary": "Religious scholar and son-in-law of the narrator, remembered from Lukow.",
   "originalName": "יצחק זאב ליבראך",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 234,
   "printedPage": "230",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "rabbi_or_scholar",
   "evidenceRefs": [
     {
       "passageId": "passage_3faa691bb5ff08551b2dde77",
@@ -21,11 +20,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 26,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 22,
+      "normalizedPassageCharEnd": 26,
       "pageCharStart": 0,
       "pageCharEnd": 26,
       "quote": "ר׳ יצח ק זא ב ליברא ך ז״ ל",
-      "normalizedQuote": "ר׳ יצחק זאב ליבראך ז״ל",
+      "normalizedQuote": "ר׳ יצח ק זא ב ליברא ך ז״ ל",
       "modelQuote": "ר׳ יצחק זאב ליבראך ז״ל",
       "bbox": {
         "left": 1325,
@@ -38,17 +37,16 @@
       "passageChecksum": "afeecefadaab47c87eec24d5ef01ca3a94fbdcdbbf3330f4226c678b15aca133",
       "normalizedPassageChecksum": "88094644aaad021a7dd9f9c9de97d18dae20df1d8cb7ec1709e3a041936f2578",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [
+  "claims": [
     {
-      "id": "event_candidate_5ba7ac9320af33b2c7564f6d",
-      "type": "Death",
-      "title": "Death of Yitzhak Zeev Librach",
-      "summary": "Yitzhak Zeev Librach died aged eighty-five shortly before the Holocaust.",
+      "id": "claim_candidate_b753a44e253e5dcb406f6c5b",
+      "predicate": "Child Of",
+      "subjectTitle": "Yitzhak Zeev Librach",
+      "objectTitle": "Rabbi Sharga Feivush of Turczyn",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_3faa691bb5ff08551b2dde77",
@@ -56,15 +54,90 @@
         "scanIndex": 234,
         "leafNumber": 233,
         "printedPage": "230",
-        "passageCharStart": 586,
+        "passageCharStart": 997,
+        "passageCharEnd": 1044,
+        "normalizedPassageCharStart": 997,
+        "normalizedPassageCharEnd": 1044,
+        "pageCharStart": 997,
+        "pageCharEnd": 1044,
+        "quote": "בנ ו ש ל הר ב הנודע ׳ הר ב שרג א פײבו ש מטורצין",
+        "normalizedQuote": "בנ ו ש ל הר ב הנודע ׳ הר ב שרג א פײבו ש מטורצין",
+        "modelQuote": "בנו של הרב הנודע׳ הרב שרגא פײבוש מטורצין",
+        "bbox": {
+          "left": 1279,
+          "top": 3122,
+          "right": 2769,
+          "bottom": 3198
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n233/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "afeecefadaab47c87eec24d5ef01ca3a94fbdcdbbf3330f4226c678b15aca133",
+        "normalizedPassageChecksum": "88094644aaad021a7dd9f9c9de97d18dae20df1d8cb7ec1709e3a041936f2578",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_aa8422be095295e5bc47e9e9",
+      "predicate": "Son In Law Of",
+      "subjectTitle": "Shmuel Duchan",
+      "objectTitle": "Yitzhak Zeev Librach",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_02e9886c46d65ac84f4981e8",
+        "pageId": "page_nybc301551_0234",
+        "scanIndex": 234,
+        "leafNumber": 233,
+        "printedPage": "230",
+        "passageCharStart": 402,
+        "passageCharEnd": 407,
+        "normalizedPassageCharStart": 402,
+        "normalizedPassageCharEnd": 407,
+        "pageCharStart": 1606,
+        "pageCharEnd": 1611,
+        "quote": "חתנו׳",
+        "normalizedQuote": "חתנו׳",
+        "modelQuote": "חתנו׳",
+        "bbox": {
+          "left": 1085,
+          "top": 4201,
+          "right": 1097,
+          "bottom": 4219
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n233/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b61bcbb41ab7297a065d09d6d7e5ad9fabdd6613c82ce0773fe8bc400502088d",
+        "normalizedPassageChecksum": "e63adc9dd78d2d427381c54ac41b1838beae33b97b4af0fa473bf9e6998a5e85",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_5d7b9a281acc24f81f58ad04",
+      "type": "Death",
+      "title": "Death of Yitzhak Zeev Librach",
+      "summary": "Yitzhak Zeev Librach died shortly before the Holocaust, aged eighty-five.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The OCR form נאםף is preserved exactly.",
+      "evidence": {
+        "passageId": "passage_3faa691bb5ff08551b2dde77",
+        "pageId": "page_nybc301551_0234",
+        "scanIndex": 234,
+        "leafNumber": 233,
+        "printedPage": "230",
+        "passageCharStart": 597,
         "passageCharEnd": 637,
-        "normalizedPassageCharStart": 508,
-        "normalizedPassageCharEnd": 552,
-        "pageCharStart": 586,
+        "normalizedPassageCharStart": 597,
+        "normalizedPassageCharEnd": 637,
+        "pageCharStart": 597,
         "pageCharEnd": 637,
-        "quote": "זכה האי ש וזמ ן קצ ר לפנ י בו א השוא ה נאם ף\nאל עמו",
-        "normalizedQuote": "זכה האיש וזמן קצר לפני בוא השואה נאםף אל עמו",
-        "modelQuote": "זכה האיש וזמן קצר לפני בוא השואה נאםף אל עמו",
+        "quote": "זמ ן קצ ר לפנ י בו א השוא ה נאם ף\nאל עמו",
+        "normalizedQuote": "זמ ן קצ ר לפנ י בו א השוא ה נאם ף\nאל עמו",
+        "modelQuote": "זמן קצר לפני בוא השואה נאםף אל עמו",
         "bbox": {
           "left": 1783,
           "top": 2280,
@@ -76,34 +149,52 @@
         "passageChecksum": "afeecefadaab47c87eec24d5ef01ca3a94fbdcdbbf3330f4226c678b15aca133",
         "normalizedPassageChecksum": "88094644aaad021a7dd9f9c9de97d18dae20df1d8cb7ec1709e3a041936f2578",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_5ba7ac9320af33b2c7564f6d",
+      "id": "mention_3c5d3325ee2db935936a08af",
+      "type": "Person",
+      "title": "Rabbi Sharga Feivush of Turczyn",
+      "relation": "Child Of"
+    },
+    {
+      "id": "mention_1400329d89bdcef931b213f0",
+      "type": "Person",
+      "title": "Shmuel Duchan",
+      "relation": "Son In Law Of"
+    },
+    {
+      "id": "event_candidate_5d7b9a281acc24f81f58ad04",
       "type": "Event",
       "title": "Death of Yitzhak Zeev Librach",
       "relation": "Participated In",
       "role": "Subject"
     },
     {
-      "id": "mention_eefaac961818ed528ea68f4d",
+      "id": "mention_7aa892753c86eab51b9fedce",
       "type": "Community",
-      "title": "Lukow",
+      "title": "Lukow Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ba5875f34b8fa536a1d55d71",
+      "id": "mention_a59f557703c745a7d977cde4",
       "type": "Place",
+      "title": "Dr. Hunczinski Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_408d0a93d13de732ec8996a3",
+      "type": "Institution",
       "title": "Old synagogue",
       "relation": "Appears in same passage"
     },
@@ -114,15 +205,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_86560fdc7006374acaa2f713",
-      "type": "Place",
-      "title": "Dr. Hontzinski Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bded4ba51f6c1c514b0a175c",
+      "id": "mention_3c5d3325ee2db935936a08af",
       "type": "Person",
-      "title": "Rabbi Shraga Feivush of Turczyn",
+      "title": "Rabbi Sharga Feivush of Turczyn",
       "relation": "Appears in same passage"
     },
     {
@@ -132,7 +217,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d3719a257990ea27d01f2c0f",
+      "id": "mention_15958282cdd2e8a5ad1c0664",
       "type": "Person",
       "title": "Rabbi Yitzhak of Vurka",
       "relation": "Appears in same passage"

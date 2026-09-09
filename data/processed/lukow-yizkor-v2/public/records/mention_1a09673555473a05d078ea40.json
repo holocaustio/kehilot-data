@@ -2,15 +2,15 @@
   "id": "mention_1a09673555473a05d078ea40",
   "type": "Person",
   "title": "Chaya Sarah",
-  "summary": "Righteous woman after whom a new beth midrash was named.",
+  "summary": "Righteous woman after whom a study house was named.",
   "originalName": "חיה שרה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 72,
   "printedPage": "68",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "righteous woman",
+  "subtype": "religious_figure",
   "evidenceRefs": [
     {
       "passageId": "passage_fa9fbda2086924e4a4e437b2",
@@ -20,12 +20,12 @@
       "printedPage": "68",
       "passageCharStart": 926,
       "passageCharEnd": 946,
-      "normalizedPassageCharStart": 792,
-      "normalizedPassageCharEnd": 809,
+      "normalizedPassageCharStart": 926,
+      "normalizedPassageCharEnd": 946,
       "pageCharStart": 926,
       "pageCharEnd": 946,
       "quote": "דע ר צדיק ת חי ה שרה",
-      "normalizedQuote": "דער צדיקת חיה שרה",
+      "normalizedQuote": "דע ר צדיק ת חי ה שרה",
       "modelQuote": "דער צדיקת חיה שרה",
       "bbox": {
         "left": 1423,
@@ -38,15 +38,15 @@
       "passageChecksum": "c3992355fd9444c15a84dd32f5b6a1adc96d4eba4c4c18b6f1ce7259201421ad",
       "normalizedPassageChecksum": "ab7bddfc0c636385af4c14ff2bc830819b8007554a2a64ce05967d7824587ec0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_d2f9b0f6c1c13c59de0d0bea",
-      "predicate": "Named After",
-      "subjectTitle": "Chaya Sarah Beth Midrash",
+      "id": "claim_candidate_ca683047a459d3e90202c962",
+      "predicate": "Formerly Named",
+      "subjectTitle": "Chaya Sarah Study House",
       "objectTitle": "Chaya Sarah",
       "confidence": "HIGH",
       "evidence": {
@@ -55,19 +55,19 @@
         "scanIndex": 72,
         "leafNumber": 71,
         "printedPage": "68",
-        "passageCharStart": 863,
+        "passageCharStart": 907,
         "passageCharEnd": 946,
-        "normalizedPassageCharStart": 739,
-        "normalizedPassageCharEnd": 809,
-        "pageCharStart": 863,
+        "normalizedPassageCharStart": 907,
+        "normalizedPassageCharEnd": 946,
+        "pageCharStart": 907,
         "pageCharEnd": 946,
-        "quote": "מע ן הא ט ע ם גערופ ן חי ה שרה ם\nבית־מדרש — אויפ ן נאמע ן פו ן דע ר צדיק ת חי ה שרה",
-        "normalizedQuote": "מען האט עם גערופן חיה שרהם בית־מדרש— אויפן נאמען פון דער צדיקת חיה שרה",
-        "modelQuote": "מען האט עם גערופן חיה שרהם בית־מדרש— אויפן נאמען פון דער צדיקת חיה שרה",
+        "quote": "אויפ ן נאמע ן פו ן דע ר צדיק ת חי ה שרה",
+        "normalizedQuote": "אויפ ן נאמע ן פו ן דע ר צדיק ת חי ה שרה",
+        "modelQuote": "אויפן נאמען פון דער צדיקת חיה שרה",
         "bbox": {
-          "left": 465,
-          "top": 4238,
-          "right": 2885,
+          "left": 1423,
+          "top": 4342,
+          "right": 2785,
           "bottom": 4404
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n71/mode/1up",
@@ -75,7 +75,7 @@
         "passageChecksum": "c3992355fd9444c15a84dd32f5b6a1adc96d4eba4c4c18b6f1ce7259201421ad",
         "normalizedPassageChecksum": "ab7bddfc0c636385af4c14ff2bc830819b8007554a2a64ce05967d7824587ec0",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -83,10 +83,16 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_0c89c9f9dfd604dc0a2a575a",
+      "id": "mention_a10fbb57c56691566da3b4f4",
       "type": "Institution",
-      "title": "Chaya Sarah Beth Midrash",
-      "relation": "Named After"
+      "title": "Chaya Sarah Study House",
+      "relation": "Formerly Named"
+    },
+    {
+      "id": "mention_e0eb1dbc391387851d8dbc93",
+      "type": "Institution",
+      "title": "Great Synagogue of Łuków",
+      "relation": "Appears in same passage"
     },
     {
       "id": "mention_c13eeebab08bfa49bf6e8f3b",
@@ -95,21 +101,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a5909b65f80c87f11a0b4c3d",
+      "id": "mention_e1fb8e3df434f4d04bd8d72a",
       "type": "Person",
-      "title": "Chaim Motem Mandelbaum",
+      "title": "Chaim Mates Mandelbaum",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9e51b543c31f0cea7c8790f2",
+      "id": "mention_c025ad13d434c3725b45a8e7",
       "type": "Institution",
-      "title": "Small Beth Midrash",
+      "title": "Small Study House",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_320a22e95f0c9b60e2fe7203",
-      "type": "Organization",
-      "title": "Chevra Mikra",
+      "id": "mention_e3f7b1e5ddba174948c5225c",
+      "type": "Person",
+      "title": "Aaron Mikra-Rabbi",
       "relation": "Appears in same passage"
     },
     {
@@ -119,27 +125,33 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dd51cb1d0f1c5a8973db2fd2",
+      "id": "mention_60847054f967b6b12b36c3d6",
+      "type": "Event",
+      "title": "Debate among Hasidim in Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ed7edbb615c430cf0eed0122",
       "type": "Institution",
       "title": "Talmud Torah",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0c89c9f9dfd604dc0a2a575a",
+      "id": "mention_a10fbb57c56691566da3b4f4",
       "type": "Institution",
-      "title": "Chaya Sarah Beth Midrash",
+      "title": "Chaya Sarah Study House",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3e5d1752f611c424078255fd",
+      "id": "mention_7bd427277d6dcbaac3c33e55",
       "type": "Person",
-      "title": "Moshe Lichtenstitz",
+      "title": "Moses Lichtenstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b2e75971eec5da8de02e569d",
+      "id": "mention_2f5e90dbeff26643bf646b91",
       "type": "Person",
-      "title": "Moshe Barnstitz",
+      "title": "Moses Barnstein",
       "relation": "Appears in same passage"
     },
     {

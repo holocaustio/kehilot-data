@@ -1,0 +1,113 @@
+{
+  "id": "mention_346beca83d2fcfe312a2b711",
+  "type": "Place",
+  "title": "Malczynow",
+  "summary": "The narrator was taken toward Malczynow and fled from its cemetery.",
+  "originalName": "מאלצינאװ",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 449,
+  "printedPage": "445",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "uncertaintyNote": "OCR includes apparent corruption before the place name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0d95d706eacfb01ee5ae29f8",
+      "pageId": "page_nybc301551_0449",
+      "scanIndex": 449,
+      "leafNumber": 448,
+      "printedPage": "445",
+      "passageCharStart": 664,
+      "passageCharEnd": 683,
+      "normalizedPassageCharStart": 664,
+      "normalizedPassageCharEnd": 683,
+      "pageCharStart": 1468,
+      "pageCharEnd": 1487,
+      "quote": "פיר ן קי ק מאלצינאװ",
+      "normalizedQuote": "פיר ן קי ק מאלצינאװ",
+      "modelQuote": "פירן קיק מאלצינאװ",
+      "bbox": {
+        "left": 1017,
+        "top": 2733,
+        "right": 1715,
+        "bottom": 2811
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n448/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "9caa6c7cf3521839f1d4ba926c2ec2b0063b9c531cab047835287ab31e382eac",
+      "normalizedPassageChecksum": "1a27f03b4666f6e28f0d58cb3d11977e671ec3463542b865a0e716ad1a6e1b63",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_31545c6e556e3018f034be91",
+      "type": "Migration",
+      "title": "Transport toward Malczynow",
+      "summary": "The narrator and others were taken toward Malczynow.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The narrator and father's presence is explicit, but the OCR obscures part of the sentence.",
+      "evidence": {
+        "passageId": "passage_0d95d706eacfb01ee5ae29f8",
+        "pageId": "page_nybc301551_0449",
+        "scanIndex": 449,
+        "leafNumber": 448,
+        "printedPage": "445",
+        "passageCharStart": 638,
+        "passageCharEnd": 683,
+        "normalizedPassageCharStart": 638,
+        "normalizedPassageCharEnd": 683,
+        "pageCharStart": 1442,
+        "pageCharEnd": 1487,
+        "quote": "הא ט מע ן אונד ז גענומע ן פיר ן קי ק מאלצינאװ",
+        "normalizedQuote": "הא ט מע ן אונד ז גענומע ן פיר ן קי ק מאלצינאװ",
+        "modelQuote": "האט מען אונדז גענומען פירן קיק מאלצינאװ",
+        "bbox": {
+          "left": 1017,
+          "top": 2733,
+          "right": 2541,
+          "bottom": 2811
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n448/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "9caa6c7cf3521839f1d4ba926c2ec2b0063b9c531cab047835287ab31e382eac",
+        "normalizedPassageChecksum": "1a27f03b4666f6e28f0d58cb3d11977e671ec3463542b865a0e716ad1a6e1b63",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_31545c6e556e3018f034be91",
+      "type": "Event",
+      "title": "Transport toward Malczynow",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9ccd43ab37b1cf4878da43ab",
+      "type": "Person",
+      "title": "the narrator's little brother",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f3c08a25b58b1a7d7ab4b1e0",
+      "type": "Person",
+      "title": "the narrator's mother",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8c77ecdcd620684c83789402",
+      "type": "Place",
+      "title": "Malczynow cemetery",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

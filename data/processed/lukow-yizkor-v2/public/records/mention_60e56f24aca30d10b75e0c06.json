@@ -2,10 +2,10 @@
   "id": "mention_60e56f24aca30d10b75e0c06",
   "type": "Person",
   "title": "Kruglak",
-  "summary": "A farmer who owned the barn described in the passage.",
+  "summary": "A farmer who owned an isolated barn near the forest.",
   "originalName": "קרוגלאק",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 399,
   "printedPage": "395",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "395",
       "passageCharStart": 100,
       "passageCharEnd": 114,
-      "normalizedPassageCharStart": 88,
-      "normalizedPassageCharEnd": 101,
+      "normalizedPassageCharStart": 100,
+      "normalizedPassageCharEnd": 114,
       "pageCharStart": 100,
       "pageCharEnd": 114,
       "quote": "פויע ר קרוגלאק",
-      "normalizedQuote": "פויער קרוגלאק",
+      "normalizedQuote": "פויע ר קרוגלאק",
       "modelQuote": "פויער קרוגלאק",
       "bbox": {
         "left": 2521,
@@ -38,17 +38,66 @@
       "passageChecksum": "da1a2cff9d815864ad5ce074cbb9423774934e40c4db2112f043a941a674df7b",
       "normalizedPassageChecksum": "a986edae5c4c7f9eb2e3f4e4ec63f33cc888fe0db5fa36af88870be02bb0ea6a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c40da5007fa50802d9f396ca",
+      "predicate": "Owned",
+      "subjectTitle": "Kruglak's barn",
+      "objectTitle": "Kruglak",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ecb65ae19b5939aa6eab0f36",
+        "pageId": "page_nybc301551_0399",
+        "scanIndex": 399,
+        "leafNumber": 398,
+        "printedPage": "395",
+        "passageCharStart": 78,
+        "passageCharEnd": 114,
+        "normalizedPassageCharStart": 78,
+        "normalizedPassageCharEnd": 114,
+        "pageCharStart": 78,
+        "pageCharEnd": 114,
+        "quote": "װא ם הא ט געהער ט\nצום פויע ר קרוגלאק",
+        "normalizedQuote": "װא ם הא ט געהער ט\nצום פויע ר קרוגלאק",
+        "modelQuote": "װאם האט געהערט צום פויער קרוגלאק",
+        "bbox": {
+          "left": 451,
+          "top": 873,
+          "right": 3055,
+          "bottom": 1033
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n398/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "da1a2cff9d815864ad5ce074cbb9423774934e40c4db2112f043a941a674df7b",
+        "normalizedPassageChecksum": "a986edae5c4c7f9eb2e3f4e4ec63f33cc888fe0db5fa36af88870be02bb0ea6a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_6d8ffb3d15d5739358afa7cc",
+      "id": "mention_2b070c32620e3b5d92a4ec87",
       "type": "Place",
-      "title": "Jadwisin",
+      "title": "Kruglak's barn",
+      "relation": "Owned"
+    },
+    {
+      "id": "mention_2b070c32620e3b5d92a4ec87",
+      "type": "Place",
+      "title": "Kruglak's barn",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5fa3b915bea13faf8ef39f42",
+      "type": "Place",
+      "title": "Yadwishin",
       "relation": "Appears in same passage"
     }
   ],

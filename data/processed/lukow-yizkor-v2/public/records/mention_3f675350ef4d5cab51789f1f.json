@@ -1,0 +1,100 @@
+{
+  "id": "mention_3f675350ef4d5cab51789f1f",
+  "type": "Person",
+  "title": "Nachman Malkahles",
+  "summary": "A deceased man buried in the cemetery, remembered during an epidemic.",
+  "originalName": "ר׳ נחמן מלכהלעס",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 304,
+  "printedPage": "300",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cb44324b3653bbf821fc0d53",
+      "pageId": "page_nybc301551_0304",
+      "scanIndex": 304,
+      "leafNumber": 303,
+      "printedPage": "300",
+      "passageCharStart": 519,
+      "passageCharEnd": 537,
+      "normalizedPassageCharStart": 519,
+      "normalizedPassageCharEnd": 537,
+      "pageCharStart": 519,
+      "pageCharEnd": 537,
+      "quote": "ר ׳ נחמ ן מלכהלע ס",
+      "normalizedQuote": "ר ׳ נחמ ן מלכהלע ס",
+      "modelQuote": "ר׳ נחמן מלכהלעס",
+      "bbox": {
+        "left": 467,
+        "top": 1477,
+        "right": 1115,
+        "bottom": 1551
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n303/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "83b8f8d43aeaaf112ed37a8f96c87dc890828258e0107f35887b98985b95358f",
+      "normalizedPassageChecksum": "aa05e63152263b11e6ffd723d711aa78b34c5bb7b8df674563719af7ca33cdbc",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_1ef4439c637c8ec9e42554f4",
+      "type": "Death",
+      "title": "Nachman Malkahles died during an epidemic",
+      "summary": "Nachman Malkahles died during an epidemic, after reportedly resisting the angel of death.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR contains unclear characters in the death statement.",
+      "evidence": {
+        "passageId": "passage_cb44324b3653bbf821fc0d53",
+        "pageId": "page_nybc301551_0304",
+        "scanIndex": 304,
+        "leafNumber": 303,
+        "printedPage": "300",
+        "passageCharStart": 791,
+        "passageCharEnd": 851,
+        "normalizedPassageCharStart": 791,
+        "normalizedPassageCharEnd": 851,
+        "pageCharStart": 791,
+        "pageCharEnd": 851,
+        "quote": "ע ר אי ז נפט ר\nגעוואח, אבע ר ד י מגפ ה הא ט גלי ױ אויפגעהערט",
+        "normalizedQuote": "ע ר אי ז נפט ר\nגעוואח, אבע ר ד י מגפ ה הא ט גלי ױ אויפגעהערט",
+        "modelQuote": "ער איז נפטר געוואח, אבער די מגפה האט גליױ אויפגעהערט",
+        "bbox": {
+          "left": 467,
+          "top": 1803,
+          "right": 2927,
+          "bottom": 1969
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n303/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "83b8f8d43aeaaf112ed37a8f96c87dc890828258e0107f35887b98985b95358f",
+        "normalizedPassageChecksum": "aa05e63152263b11e6ffd723d711aa78b34c5bb7b8df674563719af7ca33cdbc",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_1ef4439c637c8ec9e42554f4",
+      "type": "Event",
+      "title": "Nachman Malkahles died during an epidemic",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_8123407c043bdcc9f8b82395",
+      "type": "Person",
+      "title": "Abrahamle",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

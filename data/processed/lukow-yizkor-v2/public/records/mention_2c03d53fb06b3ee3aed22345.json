@@ -2,15 +2,14 @@
   "id": "mention_2c03d53fb06b3ee3aed22345",
   "type": "Person",
   "title": "Benimele Shildkroit",
-  "summary": "Long-serving chair of the Nadel Association.",
+  "summary": "Long-serving chair of Nadl Association.",
   "originalName": "בנימעלע שילדקרויט",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 128,
   "printedPage": "124",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "association_chair",
   "evidenceRefs": [
     {
       "passageId": "passage_58c95bba7702477f3e406d14",
@@ -20,12 +19,12 @@
       "printedPage": "124",
       "passageCharStart": 551,
       "passageCharEnd": 569,
-      "normalizedPassageCharStart": 481,
-      "normalizedPassageCharEnd": 498,
+      "normalizedPassageCharStart": 551,
+      "normalizedPassageCharEnd": 569,
       "pageCharStart": 1526,
       "pageCharEnd": 1544,
       "quote": "בנימעל ע שילדקרויט",
-      "normalizedQuote": "בנימעלע שילדקרויט",
+      "normalizedQuote": "בנימעל ע שילדקרויט",
       "modelQuote": "בנימעלע שילדקרויט",
       "bbox": {
         "left": 796,
@@ -38,19 +37,19 @@
       "passageChecksum": "7303db30193da0f4d627630da9da31ed0e0f48d79a080781287d36cd3795e2c9",
       "normalizedPassageChecksum": "f08c8aa4165de8c28c93d9da5db3c6592d060c7eaeeeef770ba771df073b030a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_ae4b2b93461d0280e0e3960a",
-      "predicate": "Member Of",
+      "id": "claim_candidate_df994656a11788d44c2ede91",
+      "predicate": "Led By",
       "subjectTitle": "Benimele Shildkroit",
-      "objectTitle": "Nadel Association",
+      "objectTitle": "Nadl Association",
       "confidence": "HIGH",
       "qualifiers": {
-        "role": "chair"
+        "duration": "long-term"
       },
       "evidence": {
         "passageId": "passage_58c95bba7702477f3e406d14",
@@ -60,12 +59,12 @@
         "printedPage": "124",
         "passageCharStart": 505,
         "passageCharEnd": 569,
-        "normalizedPassageCharStart": 439,
-        "normalizedPassageCharEnd": 498,
+        "normalizedPassageCharStart": 505,
+        "normalizedPassageCharEnd": 569,
         "pageCharStart": 1480,
         "pageCharEnd": 1544,
         "quote": "דער לאנגיאריקע ר פארזיצע ר פו ן נאדל־פאראײן , בנימעל ע שילדקרויט",
-        "normalizedQuote": "דער לאנגיאריקער פארזיצער פון נאדל־פאראײן, בנימעלע שילדקרויט",
+        "normalizedQuote": "דער לאנגיאריקע ר פארזיצע ר פו ן נאדל־פאראײן , בנימעל ע שילדקרויט",
         "modelQuote": "דער לאנגיאריקער פארזיצער פון נאדל־פאראײן, בנימעלע שילדקרויט",
         "bbox": {
           "left": 796,
@@ -78,7 +77,7 @@
         "passageChecksum": "7303db30193da0f4d627630da9da31ed0e0f48d79a080781287d36cd3795e2c9",
         "normalizedPassageChecksum": "f08c8aa4165de8c28c93d9da5db3c6592d060c7eaeeeef770ba771df073b030a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -86,21 +85,33 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_2c7a3e25577a8db094470118",
+      "id": "mention_3551119fdf16738f6962faaf",
       "type": "Organization",
-      "title": "Nadel Association",
-      "relation": "Member Of"
+      "title": "Nadl Association",
+      "relation": "Led By"
     },
     {
-      "id": "mention_727c4221974c789f58028500",
+      "id": "mention_8cb10aa926be587d3a969070",
       "type": "Person",
       "title": "Shepsl Berish",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2c7a3e25577a8db094470118",
+      "id": "mention_ebf247eb02dd12bd6581bb96",
       "type": "Organization",
-      "title": "Nadel Association",
+      "title": "Kambind",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ca505ea64d1130663ea17a03",
+      "type": "Organization",
+      "title": "The Reds",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3551119fdf16738f6962faaf",
+      "type": "Organization",
+      "title": "Nadl Association",
       "relation": "Appears in same passage"
     },
     {
@@ -110,19 +121,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_02f79b8e9f59e093fbc02260",
+      "id": "mention_bacc05d3e3431dd8bd22d401",
       "type": "Person",
       "title": "Shlomo Zakalik",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_acc9a75598aa7d95566bef69",
-      "type": "Person",
-      "title": "Moshe Shlakhtavich",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b520b3bd08851e24d5dbe153",
+      "id": "mention_209688ed183b0f86a69f57a2",
       "type": "Institution",
       "title": "City Council",
       "relation": "Appears in same passage"

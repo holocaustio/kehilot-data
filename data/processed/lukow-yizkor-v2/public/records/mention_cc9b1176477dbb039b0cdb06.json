@@ -2,16 +2,16 @@
   "id": "mention_cc9b1176477dbb039b0cdb06",
   "type": "Person",
   "title": "Ratman Lichtenstein",
-  "summary": "A councilor who read and proposed a condolence statement.",
+  "summary": "A councilor who read a condolence statement and protested opening a discussion.",
   "originalName": "ראטמאן ליכטענשטיץ",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 255,
   "printedPage": "251",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "councilor",
-  "uncertaintyNote": "The surname has an OCR variant later in the passage.",
+  "subtype": "municipal councilor",
+  "uncertaintyNote": "The surname has a different OCR spelling later in the passage.",
   "evidenceRefs": [
     {
       "passageId": "passage_6de9f759aeb5296148d6e983",
@@ -21,12 +21,12 @@
       "printedPage": "251",
       "passageCharStart": 49,
       "passageCharEnd": 82,
-      "normalizedPassageCharStart": 44,
-      "normalizedPassageCharEnd": 72,
+      "normalizedPassageCharStart": 49,
+      "normalizedPassageCharEnd": 82,
       "pageCharStart": 49,
       "pageCharEnd": 82,
       "quote": "נעמ ט א װאר ט ראטמא ן ליכטענשטי ץ",
-      "normalizedQuote": "נעמטא װארט ראטמאן ליכטענשטיץ",
+      "normalizedQuote": "נעמ ט א װאר ט ראטמא ן ליכטענשטי ץ",
       "modelQuote": "נעמטא װארט ראטמאן ליכטענשטיץ",
       "bbox": {
         "left": 862,
@@ -39,7 +39,7 @@
       "passageChecksum": "b041ab84b17411703345eb5fb6a04c7db49728310c87a9c7c1514765db2107b6",
       "normalizedPassageChecksum": "71151c196e1cb1f37802c3cb42a72ffc34f4439fe8fe52a3cd9f083eab3bac69",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,9 +47,15 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_93af6c250ce838fdf88b3b70",
+      "id": "mention_14151943119fada9b999b2c6",
       "type": "Person",
       "title": "H. D. Namberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0afae2959c4e34dc486a9547",
+      "type": "Person",
+      "title": "The mayor",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,124 @@
+{
+  "id": "mention_f3b0f9c5f7236ec3532f514f",
+  "type": "Organization",
+  "title": "German aircraft",
+  "summary": "Aircraft that flew low and fired at civilian refugees.",
+  "originalName": "די דײטשע אעראפלאנען",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 516,
+  "printedPage": "512",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military force",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_394c2dcbe7c5787529be79cc",
+      "pageId": "page_nybc301551_0516",
+      "scanIndex": 516,
+      "leafNumber": 515,
+      "printedPage": "512",
+      "passageCharStart": 274,
+      "passageCharEnd": 295,
+      "normalizedPassageCharStart": 274,
+      "normalizedPassageCharEnd": 295,
+      "pageCharStart": 274,
+      "pageCharEnd": 295,
+      "quote": "די דײטש ע אעראפלאנע ן",
+      "normalizedQuote": "די דײטש ע אעראפלאנע ן",
+      "modelQuote": "די דײטשע אעראפלאנען",
+      "bbox": {
+        "left": 2235,
+        "top": 1154,
+        "right": 3103,
+        "bottom": 1236
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n515/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "f34d5aed267c1c4a5eb3604aae557cee0f388127e4b7baa295eae4392e163260",
+      "normalizedPassageChecksum": "6d9edafb04392bc73324638dd2a4e1c115611b08169678fc853971ab58703aa6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_6550b41d87b3b21dad847f2f",
+      "type": "Aktion Or Raid",
+      "title": "German aerial attacks on refugees",
+      "summary": "German aircraft fired on civilian refugees along the road near Minsk Mazowiecki and Kalushyn.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_394c2dcbe7c5787529be79cc",
+        "pageId": "page_nybc301551_0516",
+        "scanIndex": 516,
+        "leafNumber": 515,
+        "printedPage": "512",
+        "passageCharStart": 274,
+        "passageCharEnd": 373,
+        "normalizedPassageCharStart": 274,
+        "normalizedPassageCharEnd": 373,
+        "pageCharStart": 274,
+        "pageCharEnd": 373,
+        "quote": "די דײטש ע אעראפלאנע ן זענע ן געפלויג ן נידערי ק איבע ר ד י װעג ז א ץ געשאם ן אי ן ד י\nצױוילע פליטים",
+        "normalizedQuote": "די דײטש ע אעראפלאנע ן זענע ן געפלויג ן נידערי ק איבע ר ד י װעג ז א ץ געשאם ן אי ן ד י\nצױוילע פליטים",
+        "modelQuote": "די דײטשע אעראפלאנען זענען געפלויגן נידעריק איבער די װעגז אץ געשאםן אין די צױוילע פליטים",
+        "bbox": {
+          "left": 461,
+          "top": 1154,
+          "right": 3103,
+          "bottom": 1336
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n515/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "f34d5aed267c1c4a5eb3604aae557cee0f388127e4b7baa295eae4392e163260",
+        "normalizedPassageChecksum": "6d9edafb04392bc73324638dd2a4e1c115611b08169678fc853971ab58703aa6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_6550b41d87b3b21dad847f2f",
+      "type": "Event",
+      "title": "German aerial attacks on refugees",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_bf5701ed03ec7eb09041a54b",
+      "type": "Place",
+      "title": "Minsk Mazowiecki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0092e880b72543e46c368010",
+      "type": "Place",
+      "title": "Kalushyn",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1151ea17f53179ec4318b467",
+      "type": "Place",
+      "title": "Kalushyn cemetery",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

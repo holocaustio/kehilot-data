@@ -2,10 +2,10 @@
   "id": "mention_058f947f35a649c0c48d6ab6",
   "type": "Place",
   "title": "Pardes Hanna",
-  "summary": "Pardes Hanna is listed after the contributor’s name.",
+  "summary": "Pardes Hanna appears with the contributor’s name.",
   "originalName": "פרדס־חנה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 539,
   "printedPage": "535",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "535",
       "passageCharStart": 13,
       "passageCharEnd": 22,
-      "normalizedPassageCharStart": 12,
-      "normalizedPassageCharEnd": 20,
+      "normalizedPassageCharStart": 13,
+      "normalizedPassageCharEnd": 22,
       "pageCharStart": 13,
       "pageCharEnd": 22,
       "quote": "פרדס־חנ ה",
-      "normalizedQuote": "פרדס־חנה",
+      "normalizedQuote": "פרדס־חנ ה",
       "modelQuote": "פרדס־חנה",
       "bbox": {
         "left": 2080,
@@ -38,7 +38,36 @@
       "passageChecksum": "31fcc25aa6bbe499aa1ebc4b78ef11b8fcbbaddbea3073f65a2bdbfdeca721b2",
       "normalizedPassageChecksum": "e3cc3fd89fc5178107bae8a50ddd8ebacbcc671f0434447675d789a5e9073f3c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_db799ed520ef57a50895b22c",
+      "pageId": "page_nybc301551_0540",
+      "scanIndex": 540,
+      "leafNumber": 539,
+      "printedPage": "536",
+      "passageCharStart": 825,
+      "passageCharEnd": 840,
+      "normalizedPassageCharStart": 825,
+      "normalizedPassageCharEnd": 840,
+      "pageCharStart": 825,
+      "pageCharEnd": 840,
+      "quote": "םרדס־חנה, תשי ד",
+      "normalizedQuote": "םרדס־חנה, תשי ד",
+      "modelQuote": "םרדס־חנה, תשיד",
+      "bbox": {
+        "left": 476,
+        "top": 4676,
+        "right": 688,
+        "bottom": 4724
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n539/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "6acaf208465400d130f0c13604228292ea56173d74632a8a75493828f0bb601e",
+      "normalizedPassageChecksum": "4d1d64501bb44aabe30eab3b2e8ce5676c1b2e80ffbff96ba21e905b1c27d0e1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -52,15 +81,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_de61f2a36fa88c53af90dc07",
+      "id": "mention_3e5a9194bbe97c1ccf0b2a31",
       "type": "Institution",
       "title": "Old study house",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b3cab78bdcbe892ba8b76eba",
+      "id": "mention_09146963faf5a36919a41be8",
       "type": "Institution",
-      "title": "Dargur Hasidic study house",
+      "title": "Gur Hasidic house",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7a72afda1e5352d9745e4738",
+      "type": "Community",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     }
   ],

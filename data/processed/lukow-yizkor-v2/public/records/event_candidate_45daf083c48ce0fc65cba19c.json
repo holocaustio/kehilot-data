@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_45daf083c48ce0fc65cba19c",
+  "type": "Event",
+  "title": "Narrator detained by patrol",
+  "summary": "A patrol questioned the narrator and took him and the others from the study house to the police station.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 179,
+  "printedPage": "175",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Detention",
+  "uncertaintyNote": "The text clearly describes removal to the police station, though the legal status is not explicit.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fd3838bb4ff29a798c67c8ee",
+      "pageId": "page_nybc301551_0179",
+      "scanIndex": 179,
+      "leafNumber": 178,
+      "printedPage": "175",
+      "passageCharStart": 677,
+      "passageCharEnd": 714,
+      "normalizedPassageCharStart": 677,
+      "normalizedPassageCharEnd": 714,
+      "pageCharStart": 677,
+      "pageCharEnd": 714,
+      "quote": "א ץ אונד ז\nאפגעפירט אי ן דע ר פאליציי",
+      "normalizedQuote": "א ץ אונד ז\nאפגעפירט אי ן דע ר פאליציי",
+      "modelQuote": "אץ אונדז אפגעפירט אין דער פאליציי",
+      "bbox": {
+        "left": 492,
+        "top": 1578,
+        "right": 2878,
+        "bottom": 1756
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n178/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "473097a61db5ca584181b7825f676baeb3ad52fdb6b4d10016780e04c0ee23ab",
+      "normalizedPassageChecksum": "3b4758a1c793ec6026c06738a5cb17d6383d0d886182861bebc3f3a34fe2ad2a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_485d930c1221e52bc91ee8cb",
+      "type": "Institution",
+      "title": "Police station",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_039a0c01d4243a9d6341a808",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_57fb9bf899e9db2dd8ce53e6",
+      "type": "Organization",
+      "title": "Gendarmerie patrol",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

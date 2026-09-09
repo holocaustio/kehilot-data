@@ -1,0 +1,118 @@
+{
+  "id": "mention_11b4f10ff3bc924ba27406e4",
+  "type": "Place",
+  "title": "Arianenburg",
+  "summary": "Location where another selection took place.",
+  "originalName": "אריאנענבורג",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 472,
+  "printedPage": "468",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp or location",
+  "uncertaintyNote": "Place identification follows the OCR spelling.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c9201a407e39b45ba21f08e3",
+      "pageId": "page_nybc301551_0472",
+      "scanIndex": 472,
+      "leafNumber": 471,
+      "printedPage": "468",
+      "passageCharStart": 0,
+      "passageCharEnd": 16,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 16,
+      "pageCharStart": 1337,
+      "pageCharEnd": 1353,
+      "quote": "אין אריאנענבור ג",
+      "normalizedQuote": "אין אריאנענבור ג",
+      "modelQuote": "אין אריאנענבורג",
+      "bbox": {
+        "left": 2362,
+        "top": 2757,
+        "right": 2934,
+        "bottom": 2823
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n471/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "c759b95cc49d5fca916ed2d67eb631f0edcca37096d88417f336b2d498938c4c",
+      "normalizedPassageChecksum": "4ee7532ea33054ac6636ebff5b62aeff4f5417d982fc64e44fefba66a13e8040",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_117b2f44cc56537933fbcfd3",
+      "type": "Aktion Or Raid",
+      "title": "Selection at Arianenburg",
+      "summary": "A selection occurred at Arianenburg, and Muslim prisoners were chosen and subjected to injections.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c9201a407e39b45ba21f08e3",
+        "pageId": "page_nybc301551_0472",
+        "scanIndex": 472,
+        "leafNumber": 471,
+        "printedPage": "468",
+        "passageCharStart": 0,
+        "passageCharEnd": 51,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 51,
+        "pageCharStart": 1337,
+        "pageCharEnd": 1388,
+        "quote": "אין אריאנענבור ג אי ז װידע ר פארגעקומע ן א םעלעקציע",
+        "normalizedQuote": "אין אריאנענבור ג אי ז װידע ר פארגעקומע ן א םעלעקציע",
+        "modelQuote": "אין אריאנענבורג איז װידער פארגעקומעןא םעלעקציע",
+        "bbox": {
+          "left": 1226,
+          "top": 2735,
+          "right": 2934,
+          "bottom": 2823
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n471/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "c759b95cc49d5fca916ed2d67eb631f0edcca37096d88417f336b2d498938c4c",
+        "normalizedPassageChecksum": "4ee7532ea33054ac6636ebff5b62aeff4f5417d982fc64e44fefba66a13e8040",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_117b2f44cc56537933fbcfd3",
+      "type": "Event",
+      "title": "Selection at Arianenburg",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_69f2ec17ffa4e5d0b0be5e5e",
+      "type": "Person",
+      "title": "Adolf Eichmann",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_468bf38bc18a609ed9ed5bb9",
+      "type": "Place",
+      "title": "Flamenburg camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b87db76c0b6c7c51b5d806b1",
+      "type": "Place",
+      "title": "Flensburg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_005ca7ccc034266bac77c0fe",
+      "type": "Place",
+      "title": "Berlin",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

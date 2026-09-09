@@ -2,10 +2,10 @@
   "id": "mention_98f6044a925ce08a1422312b",
   "type": "Family",
   "title": "Morgenstern family",
-  "summary": "A family associated with Lukow and drawn into the Lukow committee.",
-  "originalName": "מארגנשטערן",
+  "summary": "A family among the Lukowers involved with the Lukower committee.",
+  "originalName": "משפחה מארגנשטערן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 459,
   "printedPage": "455",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "455",
       "passageCharStart": 99,
       "passageCharEnd": 125,
-      "normalizedPassageCharStart": 87,
-      "normalizedPassageCharEnd": 111,
+      "normalizedPassageCharStart": 99,
+      "normalizedPassageCharEnd": 125,
       "pageCharStart": 99,
       "pageCharEnd": 125,
       "quote": "מי ט דע ר\nמשפחה מארגנשטערן",
-      "normalizedQuote": "מיט דער משפחה מארגנשטערן",
+      "normalizedQuote": "מי ט דע ר\nמשפחה מארגנשטערן",
       "modelQuote": "מיט דער משפחה מארגנשטערן",
       "bbox": {
         "left": 460,
@@ -37,84 +37,47 @@
       "passageChecksum": "41041f7b33449c564a829736dd784f4f3aae6486bc6b14ca92472cab18a4e0cc",
       "normalizedPassageChecksum": "2d4bf810c5a33b66f056c32f961322aede16cde97ab20ef6ece984d02418fd24",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_c61cb16df2eeaac417ba781e",
-      "predicate": "Affiliated With",
-      "subjectTitle": "Morgenstern family",
-      "objectTitle": "Lukow committee",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_df1266518d5d836377ea2075",
-        "pageId": "page_nybc301551_0459",
-        "scanIndex": 459,
-        "leafNumber": 458,
-        "printedPage": "455",
-        "passageCharStart": 150,
-        "passageCharEnd": 186,
-        "normalizedPassageCharStart": 132,
-        "normalizedPassageCharEnd": 164,
-        "pageCharStart": 150,
-        "pageCharEnd": 186,
-        "quote": "מארגנשטערנע ן צו ם לוקאװע ר קאמיטע ט",
-        "normalizedQuote": "מארגנשטערנען צום לוקאװער קאמיטעט",
-        "modelQuote": "מארגנשטערנען צום לוקאװער קאמיטעט",
-        "bbox": {
-          "left": 486,
-          "top": 965,
-          "right": 1874,
-          "bottom": 1039
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n458/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "41041f7b33449c564a829736dd784f4f3aae6486bc6b14ca92472cab18a4e0cc",
-        "normalizedPassageChecksum": "2d4bf810c5a33b66f056c32f961322aede16cde97ab20ef6ece984d02418fd24",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
     {
-      "id": "mention_4bcfc02e0ea9f22fcb9b67d6",
-      "type": "Organization",
-      "title": "Lukow committee",
-      "relation": "Affiliated With"
-    },
-    {
-      "id": "mention_3453b1b8d6761de884818f18",
+      "id": "mention_6e9ee7e19113ad6e7f28cdd8",
       "type": "Person",
       "title": "Yosl Burshtin",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3fe325a8b5f9067a011fba8e",
+      "id": "mention_b91e9bac0736ac1a5d21a08d",
       "type": "Person",
-      "title": "Yidl Burshtin",
+      "title": "Yudl Burshtin",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_87890fe45352fe83680cda98",
+      "id": "mention_7aa892753c86eab51b9fedce",
       "type": "Community",
       "title": "Lukow Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4bcfc02e0ea9f22fcb9b67d6",
-      "type": "Organization",
-      "title": "Lukow committee",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_7a520b4b56320af5bf661c6c",
       "type": "Place",
       "title": "Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_142e6f456d87d4e761f27bee",
+      "type": "Organization",
+      "title": "Lukower committee",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f9d7c5dad79cb654dde417a1",
+      "type": "Work",
+      "title": "Lukow Yizkor book",
       "relation": "Appears in same passage"
     }
   ],

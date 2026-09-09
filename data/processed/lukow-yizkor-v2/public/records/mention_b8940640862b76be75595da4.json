@@ -1,0 +1,109 @@
+{
+  "id": "mention_b8940640862b76be75595da4",
+  "type": "Place",
+  "title": "Starostwo",
+  "summary": "Office where Rabbi Bran advocated for his congregation in 1920.",
+  "originalName": "םטאראסטװע",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 70,
+  "printedPage": "66",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "administrative office",
+  "uncertaintyNote": "OCR contains an initial character that may be defective.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_869d01874ca6f8c343e973b1",
+      "pageId": "page_nybc301551_0070",
+      "scanIndex": 70,
+      "leafNumber": 69,
+      "printedPage": "66",
+      "passageCharStart": 215,
+      "passageCharEnd": 235,
+      "normalizedPassageCharStart": 215,
+      "normalizedPassageCharEnd": 235,
+      "pageCharStart": 2448,
+      "pageCharEnd": 2468,
+      "quote": "אי ן דע ר םטאראסטװ ע",
+      "normalizedQuote": "אי ן דע ר םטאראסטװ ע",
+      "modelQuote": "אין דער םטאראסטװע",
+      "bbox": {
+        "left": 1039,
+        "top": 4230,
+        "right": 1853,
+        "bottom": 4296
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n69/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "9581c13abd6b1b5b2b2b86e25f365377f6c627a21c7ad819429ebd3e5d60273f",
+      "normalizedPassageChecksum": "79db328ea7f826e08d8c9c829a53300de415dd05c56fc69eec9f6b196cc7353c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8c8680ef625dd3a6608b617f",
+      "type": "Advocacy",
+      "title": "Rabbi Bran advocated for his congregation",
+      "summary": "In 1920, Rabbi Bran went to the Starostwo to advocate for his congregation.",
+      "dateStart": "1920",
+      "dateEnd": "1920",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event classification is approximate because the text describes advocacy rather than an enumerated event type.",
+      "evidence": {
+        "passageId": "passage_869d01874ca6f8c343e973b1",
+        "pageId": "page_nybc301551_0070",
+        "scanIndex": 70,
+        "leafNumber": 69,
+        "printedPage": "66",
+        "passageCharStart": 125,
+        "passageCharEnd": 265,
+        "normalizedPassageCharStart": 125,
+        "normalizedPassageCharEnd": 265,
+        "pageCharStart": 2358,
+        "pageCharEnd": 2498,
+        "quote": "אי ן יא ר 1920 , װע ן ד י האלערטשיקע ם זענע ן\nבאפאלז ײ ח אי ן לוקאװ , אי ז דע ר ר ב אװע ק אי ן דע ר םטאראסטװ ע זי ך משתד ל זײ ן פא ר\nזײן עדה",
+        "normalizedQuote": "אי ן יא ר 1920 , װע ן ד י האלערטשיקע ם זענע ן\nבאפאלז ײ ח אי ן לוקאװ , אי ז דע ר ר ב אװע ק אי ן דע ר םטאראסטװ ע זי ך משתד ל זײ ן פא ר\nזײן עדה",
+        "modelQuote": "אין יאר 1920, װען די האלערטשיקעם זענען באפאלז ײח אין לוקאװ, איז דער רב אװעק אין דער םטאראסטװע זיך משתדל זײן פאר זײן עדה",
+        "bbox": {
+          "left": 463,
+          "top": 4112,
+          "right": 3081,
+          "bottom": 4412
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n69/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "9581c13abd6b1b5b2b2b86e25f365377f6c627a21c7ad819429ebd3e5d60273f",
+        "normalizedPassageChecksum": "79db328ea7f826e08d8c9c829a53300de415dd05c56fc69eec9f6b196cc7353c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_8c8680ef625dd3a6608b617f",
+      "type": "Event",
+      "title": "Rabbi Bran advocated for his congregation",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_88ca499921304b4645bdf808",
+      "type": "Person",
+      "title": "Yisrael Finkelshteyn",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0f58e41812b9c94786d1a2b3",
+      "type": "Person",
+      "title": "Pesakh Rozen",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

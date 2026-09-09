@@ -2,16 +2,15 @@
   "id": "mention_01c70945be3b67edef351d47",
   "type": "Person",
   "title": "Unnamed woman",
-  "summary": "An unnamed woman runs into a courtyard and climbs to an attic.",
-  "originalName": "א פרוי",
+  "summary": "Woman seen running into a courtyard and seeking shelter.",
+  "originalName": "פרוי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 387,
   "printedPage": "383",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "woman",
-  "uncertaintyNote": "The text does not provide her name.",
   "evidenceRefs": [
     {
       "passageId": "passage_08cb641e3e9d14739fc51176",
@@ -21,12 +20,12 @@
       "printedPage": "383",
       "passageCharStart": 91,
       "passageCharEnd": 145,
-      "normalizedPassageCharStart": 79,
-      "normalizedPassageCharEnd": 123,
+      "normalizedPassageCharStart": 91,
+      "normalizedPassageCharEnd": 145,
       "pageCharStart": 1310,
       "pageCharEnd": 1364,
       "quote": "אי ך הא ב דערזע ן װ י א פרו י לויפ ט ארײ ן אי ן א הויף",
-      "normalizedQuote": "איך האב דערזען װיא פרוי לויפט ארײן איןא הויף",
+      "normalizedQuote": "אי ך הא ב דערזע ן װ י א פרו י לויפ ט ארײ ן אי ן א הויף",
       "modelQuote": "איך האב דערזען װיא פרוי לויפט ארײן איןא הויף",
       "bbox": {
         "left": 1002,
@@ -39,24 +38,57 @@
       "passageChecksum": "28b6ea86e3c261a72ad7d84e36d5a67d4dc29b268ea7361786d6f8b560ddaabb",
       "normalizedPassageChecksum": "94c8321c73b3aa10852b3df5d934c770017e2ed0dbc580ee94bc50b83d3ec7b5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_17a3a893ae2124f53ea5245d",
+      "type": "Migration",
+      "title": "Arrival at a hiding place",
+      "summary": "The narrator followed a woman and girl through an attic route and reached a hiding place.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The movement is explicit, but no allowed event type precisely captures reaching a hiding place.",
+      "evidence": {
+        "passageId": "passage_08cb641e3e9d14739fc51176",
+        "pageId": "page_nybc301551_0387",
+        "scanIndex": 387,
+        "leafNumber": 386,
+        "printedPage": "383",
+        "passageCharStart": 1178,
+        "passageCharEnd": 1221,
+        "normalizedPassageCharStart": 1178,
+        "normalizedPassageCharEnd": 1221,
+        "pageCharStart": 2397,
+        "pageCharEnd": 2440,
+        "quote": "אזו י זענע ן מי ר\nדערגאנגען צו ם באהעלטעניש",
+        "normalizedQuote": "אזו י זענע ן מי ר\nדערגאנגען צו ם באהעלטעניש",
+        "modelQuote": "אזוי זענען מיר דערגאנגען צום באהעלטעניש",
+        "bbox": {
+          "left": 474,
+          "top": 4001,
+          "right": 2856,
+          "bottom": 4175
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n386/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "28b6ea86e3c261a72ad7d84e36d5a67d4dc29b268ea7361786d6f8b560ddaabb",
+        "normalizedPassageChecksum": "94c8321c73b3aa10852b3df5d934c770017e2ed0dbc580ee94bc50b83d3ec7b5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_9541d323d6d6bd17ea185e63",
-      "type": "Person",
-      "title": "Narrator",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_1c84d8c6a1b3140007e5ba85",
-      "type": "Person",
-      "title": "Unnamed woman and girl",
-      "relation": "Appears in same passage"
+      "id": "event_candidate_17a3a893ae2124f53ea5245d",
+      "type": "Event",
+      "title": "Arrival at a hiding place",
+      "relation": "Participated In",
+      "role": "Participant"
     },
     {
       "id": "mention_f27acf858ecbabcf7e1ffc63",
@@ -65,9 +97,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5ed5939e707ca5ae9ff794d0",
+      "id": "mention_b10c0ed466a075d7d69431ed",
       "type": "Place",
       "title": "Hiding place",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_226d4b91b9178780e42ac4d4",
+      "type": "Person",
+      "title": "Unnamed girl",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e951fe2eae014b0804b185a8",
+      "type": "Community",
+      "title": "Jews hiding",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_deca52888f0fa79eef866ced",
+  "type": "Event",
+  "title": "German attack near a forest fire",
+  "summary": "Germans opened fire on Jews gathered around a forest fire, killing almost all of them.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 450,
+  "printedPage": "446",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_67ebe14aabac2ffec6b878cb",
+      "pageId": "page_nybc301551_0450",
+      "scanIndex": 450,
+      "leafNumber": 449,
+      "printedPage": "446",
+      "passageCharStart": 280,
+      "passageCharEnd": 342,
+      "normalizedPassageCharStart": 280,
+      "normalizedPassageCharEnd": 342,
+      "pageCharStart": 2651,
+      "pageCharEnd": 2713,
+      "quote": "דײטשן , ז ײ זענע ן צוגעלאפ ן צו ם פײע ר או ן געעפנ ט א\nשיסעריי",
+      "normalizedQuote": "דײטשן , ז ײ זענע ן צוגעלאפ ן צו ם פײע ר או ן געעפנ ט א\nשיסעריי",
+      "modelQuote": "דײטשן, זײ זענען צוגעלאפן צום פײער און געעפנטא שיסעריי",
+      "bbox": {
+        "left": 476,
+        "top": 4548,
+        "right": 2916,
+        "bottom": 4726
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n449/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "bc02bcc6f50c2249a4dd9aa79381587aca69e9f441c6b4c0abb56ded43061927",
+      "normalizedPassageChecksum": "1e27f0901f731e91db38f874354629f4d7e7adba264c632d9875783476fa1487",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f478ea5023685c49e12de1e6",
+      "type": "Place",
+      "title": "Forest",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_364feab287fd4e32974a21b7",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_a42a31fcd355d32541a52644",
+      "type": "Community",
+      "title": "Jews",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

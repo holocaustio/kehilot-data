@@ -1,11 +1,11 @@
 {
   "id": "mention_90ab305746f2bf29b8bae8ef",
   "type": "Institution",
-  "title": "Chelm prison",
-  "summary": "A prison described as evacuated.",
+  "title": "Chełm prison",
+  "summary": "Prison that had already been evacuated.",
   "originalName": "כעלמער טורמע",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 123,
   "printedPage": "119",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "119",
       "passageCharStart": 358,
       "passageCharEnd": 404,
-      "normalizedPassageCharStart": 309,
-      "normalizedPassageCharEnd": 349,
+      "normalizedPassageCharStart": 358,
+      "normalizedPassageCharEnd": 404,
       "pageCharStart": 2011,
       "pageCharEnd": 2057,
       "quote": "ד י כעלמע ר טורמ ע אי ז שוי ן געווע ן עװאקוירט",
-      "normalizedQuote": "די כעלמער טורמע איז שוין געווען עװאקוירט",
+      "normalizedQuote": "ד י כעלמע ר טורמ ע אי ז שוי ן געווע ן עװאקוירט",
       "modelQuote": "די כעלמער טורמע איז שוין געווען עװאקוירט",
       "bbox": {
         "left": 1331,
@@ -38,7 +38,7 @@
       "passageChecksum": "190db729821ff50f6e5e878b3953d384f86fafaccc5d5c09674ec90096e9936e",
       "normalizedPassageChecksum": "ec068c41da111e7a0f98bee250067809fd7db283053a3f7652cf80805b2627f9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,33 +46,39 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_9e2a6d4cbbef45e6093e6c9a",
+      "id": "mention_623fe6cf75ea278e97314e22",
       "type": "Place",
-      "title": "Chelm train station",
+      "title": "Chełm railway station",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d338cab87a9cef3bcf49df17",
-      "type": "Place",
-      "title": "Radom station",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_2aa86f6a02bb4ed1fe7d93b9",
-      "type": "Institution",
-      "title": "Radom prison",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_fee86c1457e2eba06c9bc6e2",
+      "id": "mention_87e8f7cd7734739976357ea0",
       "type": "Person",
-      "title": "Unnamed Bundist-school teacher",
+      "title": "Unnamed young teacher",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a7192772596ea61cb1898faa",
+      "id": "mention_8c840fb9b29103a4ea3271c5",
       "type": "Institution",
       "title": "Bundist school",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d8b6da447ca95c612d76cbb6",
+      "type": "Organization",
+      "title": "Red Army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_69da0c4d40c28399edf87577",
+      "type": "Place",
+      "title": "Radom railway station",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d0d9b35e204ada01d222831e",
+      "type": "Institution",
+      "title": "Radom prison",
       "relation": "Appears in same passage"
     }
   ],

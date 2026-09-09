@@ -1,0 +1,65 @@
+{
+  "id": "event_candidate_9931462d899600e035076db3",
+  "type": "Event",
+  "title": "Night murder action in Łuków",
+  "summary": "An organized nighttime action murdered 85 people in 1942.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 437,
+  "printedPage": "433",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The OCR reads “סערזאן”; the intended number is explicitly 85, but the victim identity is unspecified.",
+  "dateStart": "1942",
+  "dateEnd": "1942",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4df5ace098096084585028cb",
+      "pageId": "page_nybc301551_0437",
+      "scanIndex": 437,
+      "leafNumber": 436,
+      "printedPage": "433",
+      "passageCharStart": 1186,
+      "passageCharEnd": 1235,
+      "normalizedPassageCharStart": 1186,
+      "normalizedPassageCharEnd": 1235,
+      "pageCharStart": 2302,
+      "pageCharEnd": 2351,
+      "quote": "אי ן יענע ר נאכ ט הא ט מע ן אומגעבראכ ט 85 סערזאן",
+      "normalizedQuote": "אי ן יענע ר נאכ ט הא ט מע ן אומגעבראכ ט 85 סערזאן",
+      "modelQuote": "אין יענער נאכט האט מען אומגעבראכט85 סערזאן",
+      "bbox": {
+        "left": 473,
+        "top": 4129,
+        "right": 2061,
+        "bottom": 4205
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n436/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "338457e4cff7c16c20c842390ac56a499403cf5e1419a146dbf0677f47905985",
+      "normalizedPassageChecksum": "f517322777c5aa50111486957540652aff17d46b3fad75cdee1d476e78acb0be",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_0a9105db5d812c39c7e5d3a9",
+      "type": "Organization",
+      "title": "Polish police",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

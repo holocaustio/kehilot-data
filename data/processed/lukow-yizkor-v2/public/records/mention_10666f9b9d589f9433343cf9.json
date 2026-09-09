@@ -2,10 +2,10 @@
   "id": "mention_10666f9b9d589f9433343cf9",
   "type": "Person",
   "title": "Tzvi Lichter",
-  "summary": "He was listed among the first Hashomer Hatzair nest leaders.",
+  "summary": "Member of the first Hashomer Hatzair leadership.",
   "originalName": "צבי ליכטר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 157,
   "printedPage": "153",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,8 +19,8 @@
       "printedPage": "153",
       "passageCharStart": 457,
       "passageCharEnd": 466,
-      "normalizedPassageCharStart": 397,
-      "normalizedPassageCharEnd": 406,
+      "normalizedPassageCharStart": 457,
+      "normalizedPassageCharEnd": 466,
       "pageCharStart": 457,
       "pageCharEnd": 466,
       "quote": "צבי ליכטר",
@@ -37,29 +37,63 @@
       "passageChecksum": "0ed9acd0b4b52dbe47a839f9b5d0a51e6c42d7a817c0a69ee1b35a07e62911aa",
       "normalizedPassageChecksum": "ab8db1210632218b79e3a7fd63fb93d1cae707e5a293608ada9f20e37cb7881c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_3852562cb6ce37581c10cde9",
+      "predicate": "Member Of",
+      "subjectTitle": "Tzvi Lichter",
+      "objectTitle": "Hashomer Hatzair",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "first leadership"
+      },
+      "evidence": {
+        "passageId": "passage_9f5fccd7e49fa87e9b2d58e3",
+        "pageId": "page_nybc301551_0157",
+        "scanIndex": 157,
+        "leafNumber": 156,
+        "printedPage": "153",
+        "passageCharStart": 457,
+        "passageCharEnd": 466,
+        "normalizedPassageCharStart": 457,
+        "normalizedPassageCharEnd": 466,
+        "pageCharStart": 457,
+        "pageCharEnd": 466,
+        "quote": "צבי ליכטר",
+        "normalizedQuote": "צבי ליכטר",
+        "modelQuote": "צבי ליכטר",
+        "bbox": {
+          "left": 2785,
+          "top": 1491,
+          "right": 3035,
+          "bottom": 1559
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n156/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "0ed9acd0b4b52dbe47a839f9b5d0a51e6c42d7a817c0a69ee1b35a07e62911aa",
+        "normalizedPassageChecksum": "ab8db1210632218b79e3a7fd63fb93d1cae707e5a293608ada9f20e37cb7881c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_66df5f1594ada7e5aaedd1fc",
-      "type": "Community",
-      "title": "Lukow Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8dd12e0f91dc89453184ac9e",
+      "id": "mention_78282e7b8f031827c15c7f2b",
       "type": "Organization",
       "title": "Hashomer Hatzair",
-      "relation": "Appears in same passage"
+      "relation": "Member Of"
     },
     {
-      "id": "mention_81b8fbea708b65884e39708c",
+      "id": "mention_a2f6792324f6de2073b4a24d",
       "type": "Person",
-      "title": "Israel Rahnczaig",
+      "title": "Israel Rahncwig",
       "relation": "Appears in same passage"
     },
     {
@@ -69,9 +103,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7059ba474df8c0c48d2c92bf",
+      "id": "mention_87a52d272704ea2617641591",
       "type": "Person",
-      "title": "Zisel Feldman",
+      "title": "Zisl Feldman",
       "relation": "Appears in same passage"
     },
     {
@@ -81,9 +115,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7b02bfaf3e53bdf8f4c6c289",
+      "id": "mention_52b427111c9151d1050db436",
       "type": "Person",
-      "title": "Moshe Eisner",
+      "title": "Moses Eisner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_78282e7b8f031827c15c7f2b",
+      "type": "Organization",
+      "title": "Hashomer Hatzair",
       "relation": "Appears in same passage"
     }
   ],

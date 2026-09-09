@@ -2,16 +2,16 @@
   "id": "mention_56efb92873a8c3e76036641f",
   "type": "Person",
   "title": "Sirka",
-  "summary": "Mother whose name was used in Rabbi Joel Sirkesh's popular name.",
+  "summary": "Joel Sirkesh’s mother, after whom he was popularly called.",
   "originalName": "םירקע",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 29,
   "printedPage": "25",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "mother of Joel Sirkesh",
-  "uncertaintyNote": "The mother's full identity is not given.",
+  "subtype": "mother",
+  "uncertaintyNote": "OCR spelling is unclear.",
   "evidenceRefs": [
     {
       "passageId": "passage_d4e0682f9f6361654ad07efa",
@@ -21,12 +21,12 @@
       "printedPage": "25",
       "passageCharStart": 1096,
       "passageCharEnd": 1112,
-      "normalizedPassageCharStart": 939,
-      "normalizedPassageCharEnd": 953,
+      "normalizedPassageCharStart": 1096,
+      "normalizedPassageCharEnd": 1112,
       "pageCharStart": 2182,
       "pageCharEnd": 2198,
       "quote": "זײ ן מאמ ע םירקע",
-      "normalizedQuote": "זײן מאמע םירקע",
+      "normalizedQuote": "זײ ן מאמ ע םירקע",
       "modelQuote": "זײן מאמע םירקע",
       "bbox": {
         "left": 1138,
@@ -39,7 +39,7 @@
       "passageChecksum": "1b61d3225fd165a5277f964cdb6d369a52a743553a916270d3c39e8121239693",
       "normalizedPassageChecksum": "9546d49c6c4e035cb14dca516b828214a837f9ab05cf9daa0d7fc180fbd40ce4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,21 +47,21 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_ca48e45b452148da7172d0e4",
+      "id": "mention_0b275c57f45dbad926496ed2",
       "type": "Person",
       "title": "Joel Sirkesh",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9bf570d457b4d07bf724fa46",
-      "type": "Family",
-      "title": "Yafe family",
+      "id": "mention_d553155455ee93feb2c59d92",
+      "type": "Work",
+      "title": "Bet Hadash",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f0890dc1c2e91738280429ea",
-      "type": "Work",
-      "title": "Beit Hadash",
+      "id": "mention_aac3a9a7711fc5b0e7d17763",
+      "type": "Family",
+      "title": "Yafeh family",
       "relation": "Appears in same passage"
     }
   ],

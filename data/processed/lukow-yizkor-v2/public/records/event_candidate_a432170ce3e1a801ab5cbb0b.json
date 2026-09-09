@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_a432170ce3e1a801ab5cbb0b",
+  "type": "Event",
+  "title": "Demand for cemetery-site rent",
+  "summary": "The landowner demanded unpaid rent for the old cemetery site.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 213,
+  "printedPage": "209",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "No allowed event type directly represents a rent demand; this event is a weak classification.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7ddc93af86732a19006e6495",
+      "pageId": "page_nybc301551_0213",
+      "scanIndex": 213,
+      "leafNumber": 212,
+      "printedPage": "209",
+      "passageCharStart": 261,
+      "passageCharEnd": 328,
+      "normalizedPassageCharStart": 261,
+      "normalizedPassageCharEnd": 328,
+      "pageCharStart": 1355,
+      "pageCharEnd": 1422,
+      "quote": "ער הא ט געפאדערט , א ז מע ן זא ל תיכ ף אי ם באצאל ן דע ם גאנצ ן חוב",
+      "normalizedQuote": "ער הא ט געפאדערט , א ז מע ן זא ל תיכ ף אי ם באצאל ן דע ם גאנצ ן חוב",
+      "modelQuote": "ער האט געפאדערט, אז מען זאל תיכף אים באצאלן דעם גאנצן חוב",
+      "bbox": {
+        "left": 1063,
+        "top": 3764,
+        "right": 3077,
+        "bottom": 3844
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n212/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "5a5a69e650b69e94f81d3d946b14634c55d5a04a146c2f11169768b14b0e1c9f",
+      "normalizedPassageChecksum": "6978d9fe2ca783efc312352c48471f9911c98da8e184dc1b894d36b41c2019f7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_19eec17ce051db71d934d4c6",
+      "type": "Place",
+      "title": "Old cemetery",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_8ffc776d9346de9a39a70dee",
+      "type": "Person",
+      "title": "Romanian general",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_23d6c3793830a45ec78291bf",
+      "type": "Community",
+      "title": "Jewish community",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

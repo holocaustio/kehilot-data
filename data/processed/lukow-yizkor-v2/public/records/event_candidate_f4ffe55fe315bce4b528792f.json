@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_f4ffe55fe315bce4b528792f",
+  "type": "Event",
+  "title": "Deportation of Jews from Rike",
+  "summary": "Remaining Jews from Rike were taken to Treblinka and an extermination camp.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 511,
+  "printedPage": "507",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The passage places this after Passover 1942; exact date is not stated.",
+  "dateStart": "1942-04",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f71d585015cfe58ce80c98b0",
+      "pageId": "page_nybc301551_0511",
+      "scanIndex": 511,
+      "leafNumber": 510,
+      "printedPage": "507",
+      "passageCharStart": 349,
+      "passageCharEnd": 397,
+      "normalizedPassageCharStart": 349,
+      "normalizedPassageCharEnd": 397,
+      "pageCharStart": 349,
+      "pageCharEnd": 397,
+      "quote": "הא ט ארויםגעפיר ט פו ן דאר ט אל ע געבליבענ ע ײדן",
+      "normalizedQuote": "הא ט ארויםגעפיר ט פו ן דאר ט אל ע געבליבענ ע ײדן",
+      "modelQuote": "האט ארויםגעפירט פון דארט אלע געבליבענע ײדן",
+      "bbox": {
+        "left": 1337,
+        "top": 1279,
+        "right": 3139,
+        "bottom": 1357
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n510/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "e6b4504982e4ee2162b6424743db7d5b69aec9ceb0b4461b994b76fc6099cc82",
+      "normalizedPassageChecksum": "d2e0cf5116b3069c7396fbca38f5b3c4ecb325dc6739d2c2d410686a0b5b6ee2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_377833d4f07c3d633b26a2c1",
+      "type": "Place",
+      "title": "Rike",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_377833d4f07c3d633b26a2c1",
+      "type": "Place",
+      "title": "Rike",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_dfa9e0e954b55161fb2ec57a",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

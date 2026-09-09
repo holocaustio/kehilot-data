@@ -4,13 +4,12 @@
   "title": "Khaye Shtern",
   "summary": "Person who went to America after the school closure.",
   "originalName": "חיה שטערן",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 108,
   "printedPage": "104",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The OCR may render the destination phrase imperfectly.",
   "evidenceRefs": [
     {
       "passageId": "passage_7d1ba3c1cd9dd5c769ed4f1e",
@@ -20,12 +19,12 @@
       "printedPage": "104",
       "passageCharStart": 850,
       "passageCharEnd": 884,
-      "normalizedPassageCharStart": 729,
-      "normalizedPassageCharEnd": 759,
+      "normalizedPassageCharStart": 850,
+      "normalizedPassageCharEnd": 884,
       "pageCharStart": 1935,
       "pageCharEnd": 1969,
       "quote": "חי ה שטער ן\nאיז אװע ק קי ץ אמעריקע",
-      "normalizedQuote": "חיה שטערן איז אװעק קיץ אמעריקע",
+      "normalizedQuote": "חי ה שטער ן\nאיז אװע ק קי ץ אמעריקע",
       "modelQuote": "חיה שטערן איז אװעק קיץ אמעריקע",
       "bbox": {
         "left": 475,
@@ -38,18 +37,17 @@
       "passageChecksum": "35b17c0859b23695f0442ab9832309d30f3b45f4bc993fb7089d509e9ca867d0",
       "normalizedPassageChecksum": "5b7f88f06f564880b58ff137eebf696e8587bd6639ecc43aeca9ce82d04aba9f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_f2a74ad33c33ce9ce691686a",
+      "id": "claim_candidate_c86f9fb6fa8cc243cdf70808",
       "predicate": "Migrated To",
       "subjectTitle": "Khaye Shtern",
       "objectTitle": "America",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The OCR contains a possibly corrupted preposition.",
+      "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_7d1ba3c1cd9dd5c769ed4f1e",
         "pageId": "page_nybc301551_0108",
@@ -58,12 +56,12 @@
         "printedPage": "104",
         "passageCharStart": 850,
         "passageCharEnd": 884,
-        "normalizedPassageCharStart": 729,
-        "normalizedPassageCharEnd": 759,
+        "normalizedPassageCharStart": 850,
+        "normalizedPassageCharEnd": 884,
         "pageCharStart": 1935,
         "pageCharEnd": 1969,
         "quote": "חי ה שטער ן\nאיז אװע ק קי ץ אמעריקע",
-        "normalizedQuote": "חיה שטערן איז אװעק קיץ אמעריקע",
+        "normalizedQuote": "חי ה שטער ן\nאיז אװע ק קי ץ אמעריקע",
         "modelQuote": "חיה שטערן איז אװעק קיץ אמעריקע",
         "bbox": {
           "left": 475,
@@ -76,7 +74,7 @@
         "passageChecksum": "35b17c0859b23695f0442ab9832309d30f3b45f4bc993fb7089d509e9ca867d0",
         "normalizedPassageChecksum": "5b7f88f06f564880b58ff137eebf696e8587bd6639ecc43aeca9ce82d04aba9f",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -90,37 +88,43 @@
       "relation": "Migrated To"
     },
     {
-      "id": "mention_f85bb61aacd97ab9c078d29d",
-      "type": "Organization",
+      "id": "mention_959eb6bb4e797ccef86b4c42",
+      "type": "Institution",
       "title": "Loan and Savings Fund",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_669110e7c5ab9adcd55fdc19",
+      "id": "mention_2f34bda5fe17fb24cc3dac2b",
       "type": "Place",
       "title": "Warsaw Street",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f1a30f4917cc2bfc97b7ce86",
-      "type": "Institution",
-      "title": "Children's School",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_fb145ad659fc99909161902a",
       "type": "Person",
-      "title": "Berеле Gastman",
+      "title": "Berele Gastman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3d56dafb0bfaf1844c4ea462",
+      "id": "mention_f4c6b9a99131d07e752cc319",
+      "type": "Institution",
+      "title": "Children's School",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4ce4ac7860a837d394cb2645",
       "type": "Person",
-      "title": "Itshe Kenigsberg",
+      "title": "Itshe Koenigsberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Appears in same passage"
@@ -132,27 +136,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4f2d355b9f7454ea79d0c404",
+      "id": "mention_d955f5b6f7ea2f3e3f8ee7df",
+      "type": "Family",
+      "title": "Narrator's family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7920965ecfa9497c76e5b3fc",
       "type": "Person",
       "title": "Narrator's father",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_cdf1d0b7f73fd707096feda8",
-      "type": "Person",
-      "title": "Narrator's mother",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bf711ea70e0cc6c6dc0135a0",
-      "type": "Place",
-      "title": "House on the New Road",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_61118e02a39616d22259e18e",
-      "type": "Organization",
-      "title": "Russian Army",
       "relation": "Appears in same passage"
     }
   ],

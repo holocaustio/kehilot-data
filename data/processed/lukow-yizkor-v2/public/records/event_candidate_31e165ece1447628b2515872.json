@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_31e165ece1447628b2515872",
+  "type": "Event",
+  "title": "Burning of a Łuków synagogue",
+  "summary": "Khmelnytsky burned a synagogue described as not Łuków’s first.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 21,
+  "printedPage": "17",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Fire",
+  "uncertaintyNote": "The passage does not provide a date, and the synagogue’s exact identification is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_138f3f61660e2d0ab836ba2b",
+      "pageId": "page_nybc301551_0021",
+      "scanIndex": 21,
+      "leafNumber": 20,
+      "printedPage": "17",
+      "passageCharStart": 33,
+      "passageCharEnd": 64,
+      "normalizedPassageCharStart": 33,
+      "normalizedPassageCharEnd": 64,
+      "pageCharStart": 2272,
+      "pageCharEnd": 2303,
+      "quote": "ווא ס כמיעלניצק י הא ט פארברענט",
+      "normalizedQuote": "ווא ס כמיעלניצק י הא ט פארברענט",
+      "modelQuote": "וואס כמיעלניצקי האט פארברענט",
+      "bbox": {
+        "left": 1029,
+        "top": 3799,
+        "right": 2099,
+        "bottom": 3875
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n20/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "afe148828940309c795cd329b858206e48738e35302d302ecd0857bdf8d728e8",
+      "normalizedPassageChecksum": "f6b0e858bed0754b712b78365327a6bb195542d274cd635ecf059423188687b5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_110f0f653c6cb7abe22649c6",
+      "type": "Person",
+      "title": "Bohdan Khmelnytsky",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_f1e06ab8f3d0cc9f77771a62",
+      "type": "Institution",
+      "title": "Łuków synagogue",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,112 @@
+{
+  "id": "mention_0ddf48338ddea2be6e7399b9",
+  "type": "Place",
+  "title": "Shv.-Yerske Street",
+  "summary": "Street identified as Tulie’s residence area.",
+  "originalName": "שװ.־יערסקע־גאס",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 311,
+  "printedPage": "307",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "STREET",
+  "uncertaintyNote": "The OCR abbreviation and street name are unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9c2a5af9f4cfd94935c02cbe",
+      "pageId": "page_nybc301551_0311",
+      "scanIndex": 311,
+      "leafNumber": 310,
+      "printedPage": "307",
+      "passageCharStart": 36,
+      "passageCharEnd": 55,
+      "normalizedPassageCharStart": 36,
+      "normalizedPassageCharEnd": 55,
+      "pageCharStart": 36,
+      "pageCharEnd": 55,
+      "quote": "פו ן שװ.־יערסקע־גאס",
+      "normalizedQuote": "פו ן שװ.־יערסקע־גאס",
+      "modelQuote": "פון שװ.־יערסקע־גאס",
+      "bbox": {
+        "left": 1785,
+        "top": 873,
+        "right": 2501,
+        "bottom": 935
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n310/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "86829e44b13f3466abcf9023fc67532b0afcf1362e6a00f56641690e51f1de85",
+      "normalizedPassageChecksum": "b94334d3a0fcd9b5bdca7e7ee2c65db96399cb561b190ceac9d1284685709a3f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_4fb62febe14b1ddb522c4d78",
+      "predicate": "Lived At",
+      "subjectTitle": "Tulie",
+      "objectTitle": "Shv.-Yerske Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9c2a5af9f4cfd94935c02cbe",
+        "pageId": "page_nybc301551_0311",
+        "scanIndex": 311,
+        "leafNumber": 310,
+        "printedPage": "307",
+        "passageCharStart": 25,
+        "passageCharEnd": 55,
+        "normalizedPassageCharStart": 25,
+        "normalizedPassageCharEnd": 55,
+        "pageCharStart": 25,
+        "pageCharEnd": 55,
+        "quote": "מיי ן שכ ן פו ן שװ.־יערסקע־גאס",
+        "normalizedQuote": "מיי ן שכ ן פו ן שװ.־יערסקע־גאס",
+        "modelQuote": "מיין שכן פון שװ.־יערסקע־גאס",
+        "bbox": {
+          "left": 1785,
+          "top": 873,
+          "right": 2815,
+          "bottom": 935
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n310/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "86829e44b13f3466abcf9023fc67532b0afcf1362e6a00f56641690e51f1de85",
+        "normalizedPassageChecksum": "b94334d3a0fcd9b5bdca7e7ee2c65db96399cb561b190ceac9d1284685709a3f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_7555c9d72e98f17ecf09cec5",
+      "type": "Person",
+      "title": "Tulie",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_7555c9d72e98f17ecf09cec5",
+      "type": "Person",
+      "title": "Tulie",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0050bf53486977871459bc48",
+      "type": "Organization",
+      "title": "Jewish police",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_dc774a42276b6bbe6aff4d88",
+      "type": "Place",
+      "title": "Karmelitske Street",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

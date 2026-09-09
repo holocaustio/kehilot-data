@@ -4,13 +4,12 @@
   "title": "Itshe Wassertrager",
   "summary": "Resident of a house destroyed by a bomb.",
   "originalName": "איטשע װאםערטרעגער",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 429,
   "printedPage": "425",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "Name reading follows normalized OCR.",
   "evidenceRefs": [
     {
       "passageId": "passage_9010e6c6a6990e042406330e",
@@ -20,12 +19,12 @@
       "printedPage": "425",
       "passageCharStart": 872,
       "passageCharEnd": 890,
-      "normalizedPassageCharStart": 743,
-      "normalizedPassageCharEnd": 760,
+      "normalizedPassageCharStart": 872,
+      "normalizedPassageCharEnd": 890,
       "pageCharStart": 2719,
       "pageCharEnd": 2737,
       "quote": "איטש ע װאםערטרעגער",
-      "normalizedQuote": "איטשע װאםערטרעגער",
+      "normalizedQuote": "איטש ע װאםערטרעגער",
       "modelQuote": "איטשע װאםערטרעגער",
       "bbox": {
         "left": 1164,
@@ -38,16 +37,17 @@
       "passageChecksum": "459b28f12a7fdc2485b412b1107cb1a45a2993ee373a5c5615d2ccb462277dbd",
       "normalizedPassageChecksum": "14b290e6cab3f97a15117b412e15764590e664cd753c4e0929f958636b1dea92",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
+  "claims": [],
+  "events": [
     {
-      "id": "claim_candidate_95360dbe6954a5918fa09ab7",
-      "predicate": "Lived At",
-      "subjectTitle": "Itshe Wassertrager",
-      "objectTitle": "Kanalove Street",
+      "id": "event_candidate_28219856d2e15d008561505e",
+      "type": "Aktion Or Raid",
+      "title": "Bombing and overnight rescue operation",
+      "summary": "Bombing caused casualties and destruction; rescuers removed dead and living people from ruins.",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_9010e6c6a6990e042406330e",
@@ -55,47 +55,47 @@
         "scanIndex": 429,
         "leafNumber": 428,
         "printedPage": "425",
-        "passageCharStart": 808,
-        "passageCharEnd": 890,
-        "normalizedPassageCharStart": 689,
-        "normalizedPassageCharEnd": 760,
-        "pageCharStart": 2655,
-        "pageCharEnd": 2737,
-        "quote": "װע ן מי ר זענע ן צוגע ־\nקומען צו ם הויז , ו װ ע ם הא ט געוװינ ט איטש ע װאםערטרעגער",
-        "normalizedQuote": "װען מיר זענען צוגע־ קומען צום הויז, וװ עם האט געוװינט איטשע װאםערטרעגער",
-        "modelQuote": "װען מיר זענען צוגע־ קומען צום הויז, וװ עם האט געוװינט איטשע װאםערטרעגער",
+        "passageCharStart": 528,
+        "passageCharEnd": 591,
+        "normalizedPassageCharStart": 528,
+        "normalizedPassageCharEnd": 591,
+        "pageCharStart": 2375,
+        "pageCharEnd": 2438,
+        "quote": "די רעטונגם־אקצי ע האב ן מי ר געפיר ט א ן אויפהע ר א גאנצ ע נאכט",
+        "normalizedQuote": "די רעטונגם־אקצי ע האב ן מי ר געפיר ט א ן אויפהע ר א גאנצ ע נאכט",
+        "modelQuote": "די רעטונגם־אקציע האבן מיר געפירט אן אויפהערא גאנצע נאכט",
         "bbox": {
-          "left": 478,
-          "top": 4241,
-          "right": 3008,
-          "bottom": 4407
+          "left": 852,
+          "top": 3917,
+          "right": 2978,
+          "bottom": 3987
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n428/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "459b28f12a7fdc2485b412b1107cb1a45a2993ee373a5c5615d2ccb462277dbd",
         "normalizedPassageChecksum": "14b290e6cab3f97a15117b412e15764590e664cd753c4e0929f958636b1dea92",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
   "connections": [
     {
-      "id": "mention_aaf730c8ff9be9775f0432b2",
-      "type": "Place",
-      "title": "Kanalove Street",
-      "relation": "Lived At"
+      "id": "event_candidate_28219856d2e15d008561505e",
+      "type": "Event",
+      "title": "Bombing and overnight rescue operation",
+      "relation": "Participated In",
+      "role": "Subject"
     },
     {
-      "id": "mention_e7f300874c2c3a30a775613c",
+      "id": "mention_483b0b529645cbcd58e1a627",
       "type": "Person",
       "title": "Mechl",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_aaf730c8ff9be9775f0432b2",
+      "id": "mention_4888a51b74b9e5d223055de4",
       "type": "Place",
       "title": "Kanalove Street",
       "relation": "Appears in same passage"

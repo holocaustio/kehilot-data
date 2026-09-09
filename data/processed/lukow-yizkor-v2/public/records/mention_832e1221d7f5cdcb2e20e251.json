@@ -1,0 +1,106 @@
+{
+  "id": "mention_832e1221d7f5cdcb2e20e251",
+  "type": "Business",
+  "title": "Aryeh Brothers",
+  "summary": "Large company conducting business with merchants throughout Poland.",
+  "originalName": "״ברידער אריה״",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 227,
+  "printedPage": "223",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "company",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f620223f1b5bc4ec265867e9",
+      "pageId": "page_nybc301551_0227",
+      "scanIndex": 227,
+      "leafNumber": 226,
+      "printedPage": "223",
+      "passageCharStart": 547,
+      "passageCharEnd": 573,
+      "normalizedPassageCharStart": 547,
+      "normalizedPassageCharEnd": 573,
+      "pageCharStart": 547,
+      "pageCharEnd": 573,
+      "quote": "ד י פירמ ע ״ברידע ר אריה ״",
+      "normalizedQuote": "ד י פירמ ע ״ברידע ר אריה ״",
+      "modelQuote": "די פירמע ״ברידער אריה״",
+      "bbox": {
+        "left": 466,
+        "top": 1722,
+        "right": 1338,
+        "bottom": 1782
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n226/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "83d4c8aa944ef1c17a859ec1238281420c7000841135e5fdb1388ecdf975bf66",
+      "normalizedPassageChecksum": "205f2d40d6bc2a9c8ebf33f0c0f5f7a728ac0796fa80aeb926f9f98cc83b3d59",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_a6924627cecb5edb8ded1fbe",
+      "predicate": "Worked At",
+      "subjectTitle": "Zevulun Aryeh",
+      "objectTitle": "Aryeh Brothers",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR does not clearly state his precise role in the company.",
+      "evidence": {
+        "passageId": "passage_f620223f1b5bc4ec265867e9",
+        "pageId": "page_nybc301551_0227",
+        "scanIndex": 227,
+        "leafNumber": 226,
+        "printedPage": "223",
+        "passageCharStart": 721,
+        "passageCharEnd": 764,
+        "normalizedPassageCharStart": 721,
+        "normalizedPassageCharEnd": 764,
+        "pageCharStart": 721,
+        "pageCharEnd": 764,
+        "quote": "באקומע ן געהאל ט פו ן ד י קינ ־\nדערם פירמ ע",
+        "normalizedQuote": "באקומע ן געהאל ט פו ן ד י קינ ־\nדערם פירמ ע",
+        "modelQuote": "באקומען געהאלט פון די קינ־ דערם פירמע",
+        "bbox": {
+          "left": 466,
+          "top": 1914,
+          "right": 2998,
+          "bottom": 2092
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n226/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "83d4c8aa944ef1c17a859ec1238281420c7000841135e5fdb1388ecdf975bf66",
+        "normalizedPassageChecksum": "205f2d40d6bc2a9c8ebf33f0c0f5f7a728ac0796fa80aeb926f9f98cc83b3d59",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_ebbff5d93ab1ce7b27004a6d",
+      "type": "Person",
+      "title": "Zevulun Aryeh",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_ebbff5d93ab1ce7b27004a6d",
+      "type": "Person",
+      "title": "Zevulun Aryeh",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b74b4a9d788e246729e00ae9",
+      "type": "Place",
+      "title": "Lukow",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -2,10 +2,10 @@
   "id": "mention_a2ddbf248df643f8e43b5dcc",
   "type": "Person",
   "title": "David Lichtenstein",
-  "summary": "Named as the proprietor of a tavern entered and damaged by the Gestapo.",
+  "summary": "A tavern keeper whose establishment was destroyed by the Gestapo.",
   "originalName": "דוד ליכטענשטײן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 434,
   "printedPage": "430",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "430",
       "passageCharStart": 121,
       "passageCharEnd": 148,
-      "normalizedPassageCharStart": 105,
-      "normalizedPassageCharEnd": 128,
+      "normalizedPassageCharStart": 121,
+      "normalizedPassageCharEnd": 148,
       "pageCharStart": 1224,
       "pageCharEnd": 1251,
       "quote": "דו ד ליכטענשטײ ן אי ן שענ ק",
-      "normalizedQuote": "דוד ליכטענשטײן אין שענק",
+      "normalizedQuote": "דו ד ליכטענשטײ ן אי ן שענ ק",
       "modelQuote": "דוד ליכטענשטײן אין שענק",
       "bbox": {
         "left": 881,
@@ -37,19 +37,18 @@
       "passageChecksum": "f56dea2713879ecb7b225974220f27e73bbdbaef2cd9f1288fe2e7461e1bda49",
       "normalizedPassageChecksum": "dabe79c560e084ceeac50451fbc83c0926317ed02120d62b08c74cd9e4f8f881",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_8f30c5f3ea327e538c2ced1f",
-      "type": "Raid",
-      "title": "Gestapo arrival and raid",
-      "summary": "Gestapo officers arrived from Radzin and raided several establishments on Warsaw Street, breaking property and beating people.",
+      "id": "event_candidate_013a82195acdc845485b87f3",
+      "type": "Aktion Or Raid",
+      "title": "Gestapo raid on Warsaw Street",
+      "summary": "The Gestapo destroyed a tavern and shops and assaulted people.",
       "confidence": "HIGH",
-      "uncertaintyNote": "The passage describes a raid and damage; the controlled event type is only an approximate fit.",
       "evidence": {
         "passageId": "passage_661a6253665cc8997fad5011",
         "pageId": "page_nybc301551_0434",
@@ -57,16 +56,16 @@
         "leafNumber": 433,
         "printedPage": "430",
         "passageCharStart": 0,
-        "passageCharEnd": 70,
+        "passageCharEnd": 72,
         "normalizedPassageCharStart": 0,
-        "normalizedPassageCharEnd": 62,
+        "normalizedPassageCharEnd": 72,
         "pageCharStart": 1103,
-        "pageCharEnd": 1173,
-        "quote": "דעם 15ט ן נאװעמבער , מיטװאך , אי ז ד י געשטאפ א אנגעקומע ן פו ן ראדזין",
-        "normalizedQuote": "דעם 15טן נאװעמבער, מיטװאך, איז די געשטאפא אנגעקומען פון ראדזין",
-        "modelQuote": "דעם 15טן נאװעמבער, מיטװאך, איז די געשטאפא אנגעקומען פון ראדזין",
+        "pageCharEnd": 1175,
+        "quote": "דעם 15ט ן נאװעמבער , מיטװאך , אי ז ד י געשטאפ א אנגעקומע ן פו ן ראדזין .",
+        "normalizedQuote": "דעם 15ט ן נאװעמבער , מיטװאך , אי ז ד י געשטאפ א אנגעקומע ן פו ן ראדזין .",
+        "modelQuote": "דעם 15טן נאװעמבער, מיטװאך, איז די געשטאפא אנגעקומען פון ראדזין.",
         "bbox": {
-          "left": 779,
+          "left": 699,
           "top": 2331,
           "right": 2915,
           "bottom": 2395
@@ -76,83 +75,77 @@
         "passageChecksum": "f56dea2713879ecb7b225974220f27e73bbdbaef2cd9f1288fe2e7461e1bda49",
         "normalizedPassageChecksum": "dabe79c560e084ceeac50451fbc83c0926317ed02120d62b08c74cd9e4f8f881",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_8f30c5f3ea327e538c2ced1f",
+      "id": "event_candidate_013a82195acdc845485b87f3",
       "type": "Event",
-      "title": "Gestapo arrival and raid",
+      "title": "Gestapo raid on Warsaw Street",
       "relation": "Participated In",
       "role": "Victim"
     },
     {
-      "id": "mention_669110e7c5ab9adcd55fdc19",
-      "type": "Place",
-      "title": "Warsaw Street",
+      "id": "mention_e8953abb1988b4d7dce5b5e3",
+      "type": "Person",
+      "title": "Gershon Flug",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1b21d8adf140a2a24e4f1d66",
+      "id": "mention_d4a2b80650aa5d667f0ddf9b",
       "type": "Person",
-      "title": "Gershon Plug",
+      "title": "Mendl Weinberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1fecd0c1737cb439d498c855",
+      "id": "mention_09f49243d8b98cde3eb51cb5",
       "type": "Person",
-      "title": "Mendel Weinberg",
+      "title": "Moshe Aharon Weintraub",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7f8147dc1db40e9bbcef86c9",
+      "id": "mention_a65a31aa01a765006b197226",
       "type": "Person",
-      "title": "Moses Aaron Weintraub",
+      "title": "Menashe Shpilfoigl",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_04d05c54ef3d0a8ff49793ff",
+      "id": "mention_7cd422c2e4e9ba70f8636b62",
       "type": "Person",
-      "title": "Menashe Spilfoigl",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_fc4e3ba21bd30388dce1f2a0",
-      "type": "Person",
-      "title": "Sane Drangal",
+      "title": "Sane Drangol",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_ef8d59755f5d16b3dee5b7dc",
       "type": "Person",
-      "title": "Hersh Leizer Lender",
+      "title": "Hersh Leyzer Lender",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5dd1806c3afe6a0f6b0bf2f1",
-      "type": "Institution",
-      "title": "Magistrate",
+      "id": "mention_33d0a8a77fff5b593af973d5",
+      "type": "Person",
+      "title": "A Polish police officer",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5692526cdbeaf59506b09da8",
+      "id": "mention_1fa3a8939e5a906c54bfa501",
       "type": "Organization",
       "title": "Gestapo",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b08914c398ed78ad5ee38856",
+      "id": "mention_270a0a41efe0a6fb03fb62f7",
       "type": "Place",
-      "title": "Radzin",
+      "title": "Radzyń",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9ced0bda2cfd7374d17cdda2",
+      "id": "mention_2f34bda5fe17fb24cc3dac2b",
       "type": "Place",
-      "title": "Narrator's house",
+      "title": "Warsaw Street",
       "relation": "Appears in same passage"
     }
   ],

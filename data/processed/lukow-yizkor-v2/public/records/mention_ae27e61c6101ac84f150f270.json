@@ -2,10 +2,10 @@
   "id": "mention_ae27e61c6101ac84f150f270",
   "type": "Person",
   "title": "Moyshe Grinberg",
-  "summary": "Named among fighters who fell fighting the Germans.",
+  "summary": "Fell fighting Germans.",
   "originalName": "משה גרינבערג",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 495,
   "printedPage": "491",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "491",
       "passageCharStart": 471,
       "passageCharEnd": 484,
-      "normalizedPassageCharStart": 402,
-      "normalizedPassageCharEnd": 414,
+      "normalizedPassageCharStart": 471,
+      "normalizedPassageCharEnd": 484,
       "pageCharStart": 1827,
       "pageCharEnd": 1840,
       "quote": "מש ה גרינבערג",
-      "normalizedQuote": "משה גרינבערג",
+      "normalizedQuote": "מש ה גרינבערג",
       "modelQuote": "משה גרינבערג",
       "bbox": {
         "left": 488,
@@ -37,17 +37,17 @@
       "passageChecksum": "48b9056d4aeaaaa007b142ba055b5a38dbdffd48767d360ff9c29f680ef2761f",
       "normalizedPassageChecksum": "ef206de6037e2fec868d28e294f7ea91adeb01bb0eb2e61ebde42e371522c5a2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_539ad6d86b289c7da4295c2d",
-      "type": "Death",
-      "title": "Fighters fallen against the Germans",
-      "summary": "Named individuals fell fighting Germans in the Minsk ghetto and Belarusian forests.",
+      "id": "event_candidate_158ecfbc7da2c6a7869d8ff6",
+      "type": "Military Service",
+      "title": "Fighting in Minsk Ghetto and Belarusian forests",
+      "summary": "Named fighters fell fighting Germans in Minsk Ghetto and Belarusian forests.",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_812d67f8ca91668eca4152ce",
@@ -57,12 +57,12 @@
         "printedPage": "491",
         "passageCharStart": 325,
         "passageCharEnd": 417,
-        "normalizedPassageCharStart": 275,
-        "normalizedPassageCharEnd": 355,
+        "normalizedPassageCharStart": 325,
+        "normalizedPassageCharEnd": 417,
         "pageCharStart": 1681,
         "pageCharEnd": 1773,
         "quote": "אין קאמ ף קעג ן ד י דײטש ן אי ן מינםקע ר געט א או ן אי ן ד י װײסרוםיש ע װעלדע ר\nזענען געפאלן",
-        "normalizedQuote": "אין קאמף קעגן די דײטשן אין מינםקער געטא און אין די װײסרוםישע װעלדער זענען געפאלן",
+        "normalizedQuote": "אין קאמ ף קעג ן ד י דײטש ן אי ן מינםקע ר געט א או ן אי ן ד י װײסרוםיש ע װעלדע ר\nזענען געפאלן",
         "modelQuote": "אין קאמף קעגן די דײטשן אין מינםקער געטא און אין די װײסרוםישע װעלדער זענען געפאלן",
         "bbox": {
           "left": 468,
@@ -75,23 +75,23 @@
         "passageChecksum": "48b9056d4aeaaaa007b142ba055b5a38dbdffd48767d360ff9c29f680ef2761f",
         "normalizedPassageChecksum": "ef206de6037e2fec868d28e294f7ea91adeb01bb0eb2e61ebde42e371522c5a2",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_539ad6d86b289c7da4295c2d",
+      "id": "event_candidate_158ecfbc7da2c6a7869d8ff6",
       "type": "Event",
-      "title": "Fighters fallen against the Germans",
+      "title": "Fighting in Minsk Ghetto and Belarusian forests",
       "relation": "Participated In",
       "role": "Victim"
     },
     {
-      "id": "mention_c69a535c29dc1a912f3d9423",
+      "id": "mention_3ab99232bbce609a761b3d32",
       "type": "Person",
-      "title": "Reuven Landsberg",
+      "title": "Reuven Landemberg",
       "relation": "Appears in same passage"
     },
     {
@@ -101,9 +101,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_62c76a169dab5a8d66ddacd6",
+      "id": "mention_d27ef6043b9b09a982cca687",
       "type": "Person",
-      "title": "Faivel Farbiash",
+      "title": "Feyvl Farbiyezh",
       "relation": "Appears in same passage"
     },
     {
@@ -119,45 +119,39 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_51c983a43a988c7672a9884f",
+      "id": "mention_c53aaf20d95cca747d5f61cc",
       "type": "Person",
       "title": "Miriam Shparber",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_66ae2c89a3f2723cd1b8e447",
+      "id": "mention_e396d759a989433e2be226cc",
       "type": "Person",
-      "title": "Mindl Shparber",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4b709d13e645a251662f25c7",
-      "type": "Person",
-      "title": "Tabtse Shparber",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_39eba55d7910b4ee994b3526",
-      "type": "Family",
-      "title": "Shparber family",
+      "title": "Tabtshe Shparber",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_d11dea97d262ee632556a5d0",
       "type": "Person",
-      "title": "Mindl Shparber’s son",
+      "title": "Son of Mindl Shparber",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5f50954cc4efda414b29b0b9",
-      "type": "Place",
-      "title": "Minsk Ghetto",
+      "id": "mention_68d1d776d83d743c841894d3",
+      "type": "Person",
+      "title": "Nokhum Galdzak",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a69cdc8748399ba1b46434b9",
-      "type": "Place",
-      "title": "Belarusian forests",
+      "id": "mention_6465dc1cd000486daba79631",
+      "type": "Person",
+      "title": "Yankl “Charer”",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_17dfa4eb230578e17753a5f0",
+      "type": "Organization",
+      "title": "Minsk Ghetto Underground Organization",
       "relation": "Appears in same passage"
     }
   ],

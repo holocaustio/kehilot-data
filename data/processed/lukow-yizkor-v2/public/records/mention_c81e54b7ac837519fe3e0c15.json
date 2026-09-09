@@ -2,10 +2,10 @@
   "id": "mention_c81e54b7ac837519fe3e0c15",
   "type": "Place",
   "title": "Dęblin",
-  "summary": "The train passed through Dęblin.",
+  "summary": "A place through which the train traveled.",
   "originalName": "דעמבלין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 421,
   "printedPage": "417",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "417",
       "passageCharStart": 1076,
       "passageCharEnd": 1112,
-      "normalizedPassageCharStart": 925,
-      "normalizedPassageCharEnd": 956,
+      "normalizedPassageCharStart": 1076,
+      "normalizedPassageCharEnd": 1112,
       "pageCharStart": 2420,
       "pageCharEnd": 2456,
       "quote": "דער צו ג אי ז געפאר ן דור ך דעמבלי ן",
-      "normalizedQuote": "דער צוג איז געפארן דורך דעמבלין",
+      "normalizedQuote": "דער צו ג אי ז געפאר ן דור ך דעמבלי ן",
       "modelQuote": "דער צוג איז געפארן דורך דעמבלין",
       "bbox": {
         "left": 1723,
@@ -38,7 +38,36 @@
       "passageChecksum": "a698096b24c0ee732ccef1e555707818879634d89425ef7593004bfcca615cdd",
       "normalizedPassageChecksum": "8eba07a158ad6d30ffc4d0803d697eb68f3cdf61288feca769cd08fbf31e05b4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_4df5ace098096084585028cb",
+      "pageId": "page_nybc301551_0437",
+      "scanIndex": 437,
+      "leafNumber": 436,
+      "printedPage": "433",
+      "passageCharStart": 393,
+      "passageCharEnd": 409,
+      "normalizedPassageCharStart": 393,
+      "normalizedPassageCharEnd": 409,
+      "pageCharStart": 1509,
+      "pageCharEnd": 1525,
+      "quote": "מעזריט ש\nדעמבלין",
+      "normalizedQuote": "מעזריט ש\nדעמבלין",
+      "modelQuote": "מעזריטש דעמבלין",
+      "bbox": {
+        "left": 457,
+        "top": 2973,
+        "right": 2909,
+        "bottom": 3145
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n436/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "338457e4cff7c16c20c842390ac56a499403cf5e1419a146dbf0677f47905985",
+      "normalizedPassageChecksum": "f517322777c5aa50111486957540652aff17d46b3fad75cdee1d476e78acb0be",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,21 +75,63 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_eefaac961818ed528ea68f4d",
+      "id": "mention_302f797dd8c5555aaaa19727",
+      "type": "Place",
+      "title": "Majdanek",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_be37822e0d02ca035148a5dc",
       "type": "Community",
-      "title": "Lukow",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_46104ec3dc25185c50f5485c",
-      "type": "Organization",
-      "title": "SS men",
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bd36fb3818a9865165867732",
+      "id": "mention_9a69633f72bd5cb61664e24b",
+      "type": "Place",
+      "title": "Slovakia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9ec91b18df195e30e7157955",
+      "type": "Place",
+      "title": "Michalovce",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b57a9d4ac500fc615601a8df",
+      "type": "Place",
+      "title": "Mezeritch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3e93e575de1cd62eed24f21f",
+      "type": "Place",
+      "title": "Terawitch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b4f72eba8269a6d2959f805d",
+      "type": "Institution",
+      "title": "Study houses",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5da000d02f4f394eb4cc45de",
+      "type": "Family",
+      "title": "Łuków families",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0a9105db5d812c39c7e5d3a9",
       "type": "Organization",
-      "title": "Gendarmerie",
+      "title": "Polish police",
       "relation": "Appears in same passage"
     }
   ],

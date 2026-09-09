@@ -1,11 +1,11 @@
 {
   "id": "mention_4f9ddb0abc84b70a441965b7",
   "type": "Institution",
-  "title": "Lukow Judenrat",
-  "summary": "Judenrat headed by Moshe Aharon Weintraub during the first occupation period.",
+  "title": "Judenrat of Łuków",
+  "summary": "Council headed by Weintraub during the first period of German occupation.",
   "originalName": "יודענ־ראט",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 225,
   "printedPage": "221",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "221",
       "passageCharStart": 652,
       "passageCharEnd": 684,
-      "normalizedPassageCharStart": 554,
-      "normalizedPassageCharEnd": 581,
+      "normalizedPassageCharStart": 652,
+      "normalizedPassageCharEnd": 684,
       "pageCharStart": 1942,
       "pageCharEnd": 1974,
       "quote": "שטײ ט ע ר ברא ש פו ן יודענ ־\nראט",
-      "normalizedQuote": "שטײט ער בראש פון יודענ־ ראט",
+      "normalizedQuote": "שטײ ט ע ר ברא ש פו ן יודענ ־\nראט",
       "modelQuote": "שטײט ער בראש פון יודענ־ ראט",
       "bbox": {
         "left": 476,
@@ -38,49 +38,55 @@
       "passageChecksum": "9196139ab7a342ccb4e78ff4e9dc7b2372a19c7edfbe93b7dc9931158f06bcf0",
       "normalizedPassageChecksum": "1f8e2f19b411b2ded030d3d13251ed0583bd1681286b6aa117e65cd872bcfa77",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
-      "alignmentScore": 1
-    },
-    {
-      "passageId": "passage_e69d2e6a1c7176b53c6e62ed",
-      "pageId": "page_nybc301551_0320",
-      "scanIndex": 320,
-      "leafNumber": 319,
-      "printedPage": "316",
-      "passageCharStart": 885,
-      "passageCharEnd": 915,
-      "normalizedPassageCharStart": 755,
-      "normalizedPassageCharEnd": 781,
-      "pageCharStart": 1493,
-      "pageCharEnd": 1523,
-      "quote": "דע ר ױדענרא ט הא ט אײנגעארדנ ט",
-      "normalizedQuote": "דער ױדענראט האט אײנגעארדנט",
-      "modelQuote": "דער ױדענראט האט אײנגעארדנט",
-      "bbox": {
-        "left": 921,
-        "top": 3125,
-        "right": 2131,
-        "bottom": 3189
-      },
-      "scanUrl": "https://archive.org/details/nybc301551/page/n319/mode/1up",
-      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-      "passageChecksum": "0e42a8729cbd81a160b45c6134f4718f6787d9a05fb7e1b5663b6878bb85c58f",
-      "normalizedPassageChecksum": "34cc60c11e1f17f78d2fdf66c8bd99c6545d008021ed8886fd0e1b7d7f3efa50",
-      "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_a8595ed802bb051084712714",
-      "predicate": "Leads",
+      "id": "claim_candidate_70c6f6058dbe5a20f30f3fe3",
+      "predicate": "Led By",
       "subjectTitle": "Moshe Aharon Weintraub",
-      "objectTitle": "Lukow Judenrat",
+      "objectTitle": "Judenrat of Łuków",
       "confidence": "HIGH",
-      "qualifiers": {
-        "period": "first period of German occupation"
-      },
+      "evidence": {
+        "passageId": "passage_3eba7a17abae3c3dd1cde299",
+        "pageId": "page_nybc301551_0225",
+        "scanIndex": 225,
+        "leafNumber": 224,
+        "printedPage": "221",
+        "passageCharStart": 652,
+        "passageCharEnd": 684,
+        "normalizedPassageCharStart": 652,
+        "normalizedPassageCharEnd": 684,
+        "pageCharStart": 1942,
+        "pageCharEnd": 1974,
+        "quote": "שטײ ט ע ר ברא ש פו ן יודענ ־\nראט",
+        "normalizedQuote": "שטײ ט ע ר ברא ש פו ן יודענ ־\nראט",
+        "modelQuote": "שטײט ער בראש פון יודענ־ ראט",
+        "bbox": {
+          "left": 476,
+          "top": 3972,
+          "right": 3006,
+          "bottom": 4156
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n224/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "9196139ab7a342ccb4e78ff4e9dc7b2372a19c7edfbe93b7dc9931158f06bcf0",
+        "normalizedPassageChecksum": "1f8e2f19b411b2ded030d3d13251ed0583bd1681286b6aa117e65cd872bcfa77",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_0f139b8d315bc6cf1e4c1158",
+      "type": "Employment",
+      "title": "Weintraub heads the Łuków Judenrat",
+      "summary": "Moshe Aharon Weintraub headed the Judenrat during the first period of German occupation.",
+      "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_3eba7a17abae3c3dd1cde299",
         "pageId": "page_nybc301551_0225",
@@ -89,12 +95,12 @@
         "printedPage": "221",
         "passageCharStart": 600,
         "passageCharEnd": 684,
-        "normalizedPassageCharStart": 510,
-        "normalizedPassageCharEnd": 581,
+        "normalizedPassageCharStart": 600,
+        "normalizedPassageCharEnd": 684,
         "pageCharStart": 1890,
         "pageCharEnd": 1974,
         "quote": "אי ן דע ר ערשטע ר צײ ט פו ן דע ר גאצישע ר אקופאצי ע שטײ ט ע ר ברא ש פו ן יודענ ־\nראט",
-        "normalizedQuote": "אין דער ערשטער צײט פון דער גאצישער אקופאציע שטײט ער בראש פון יודענ־ ראט",
+        "normalizedQuote": "אי ן דע ר ערשטע ר צײ ט פו ן דע ר גאצישע ר אקופאצי ע שטײ ט ע ר ברא ש פו ן יודענ ־\nראט",
         "modelQuote": "אין דער ערשטער צײט פון דער גאצישער אקופאציע שטײט ער בראש פון יודענ־ ראט",
         "bbox": {
           "left": 476,
@@ -107,134 +113,41 @@
         "passageChecksum": "9196139ab7a342ccb4e78ff4e9dc7b2372a19c7edfbe93b7dc9931158f06bcf0",
         "normalizedPassageChecksum": "1f8e2f19b411b2ded030d3d13251ed0583bd1681286b6aa117e65cd872bcfa77",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    },
-    {
-      "id": "claim_candidate_f720e81ea27992ca2b7e68ad",
-      "predicate": "Leader Of",
-      "subjectTitle": "David the Beitelmacher",
-      "objectTitle": "Lukow Judenrat",
-      "confidence": "HIGH",
-      "qualifiers": {
-        "role": "kitchen leader"
-      },
-      "evidence": {
-        "passageId": "passage_e69d2e6a1c7176b53c6e62ed",
-        "pageId": "page_nybc301551_0320",
-        "scanIndex": 320,
-        "leafNumber": 319,
-        "printedPage": "316",
-        "passageCharStart": 1079,
-        "passageCharEnd": 1131,
-        "normalizedPassageCharStart": 919,
-        "normalizedPassageCharEnd": 964,
-        "pageCharStart": 1687,
-        "pageCharEnd": 1739,
-        "quote": "לײטע ר פו ן דע ר קי ך\nאיז געװע ן דו ד דע ר בײטלמאכער",
-        "normalizedQuote": "לײטער פון דער קיך איז געװען דוד דער בײטלמאכער",
-        "modelQuote": "לײטער פון דער קיך איז געװען דוד דער בײטלמאכער",
-        "bbox": {
-          "left": 465,
-          "top": 3321,
-          "right": 3081,
-          "bottom": 3511
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n319/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "0e42a8729cbd81a160b45c6134f4718f6787d9a05fb7e1b5663b6878bb85c58f",
-        "normalizedPassageChecksum": "34cc60c11e1f17f78d2fdf66c8bd99c6545d008021ed8886fd0e1b7d7f3efa50",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
   "connections": [
     {
-      "id": "mention_7f8147dc1db40e9bbcef86c9",
+      "id": "mention_09f49243d8b98cde3eb51cb5",
       "type": "Person",
       "title": "Moshe Aharon Weintraub",
-      "relation": "Leads"
+      "relation": "Led By"
     },
     {
-      "id": "mention_7f8147dc1db40e9bbcef86c9",
+      "id": "event_candidate_0f139b8d315bc6cf1e4c1158",
+      "type": "Event",
+      "title": "Weintraub heads the Łuków Judenrat",
+      "relation": "Participated In",
+      "role": "Employer"
+    },
+    {
+      "id": "mention_09f49243d8b98cde3eb51cb5",
       "type": "Person",
       "title": "Moshe Aharon Weintraub",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_04e15220fba0acfacf0844e3",
+      "id": "mention_bb0ca3e8afe802c3536de3b8",
       "type": "Organization",
-      "title": "Agudath Israel",
+      "title": "Agudah",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_66df5f1594ada7e5aaedd1fc",
+      "id": "mention_368c511e4830b21c2afad39d",
       "type": "Community",
-      "title": "Lukow Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e7fbee3182be73611b643143",
-      "type": "Place",
-      "title": "Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b76359f4a131d069ded1bb42",
-      "type": "Person",
-      "title": "David the Beitelmacher",
-      "relation": "Leader Of"
-    },
-    {
-      "id": "mention_cf4a1a0a274d8870f0c7a1ff",
-      "type": "Person",
-      "title": "Moshe Peperman",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_f214fba6b9f1a392bbd568ec",
-      "type": "Person",
-      "title": "Drozdahl",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b76359f4a131d069ded1bb42",
-      "type": "Person",
-      "title": "David the Beitelmacher",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d6112e09815069900ab9ec1d",
-      "type": "Place",
-      "title": "Siedlce",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_356556d32bcadfb6ea9b72b7",
-      "type": "Place",
-      "title": "Wengrow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_96658f9bd7ab87a5047ad279",
-      "type": "Place",
-      "title": "Suwałki",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_adb026d87f789e8c6893225c",
-      "type": "Institution",
-      "title": "Great synagogue",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_06156b6d8104287535f0a3b5",
-      "type": "Institution",
-      "title": "Prayer houses",
+      "title": "Jewish Łuków",
       "relation": "Appears in same passage"
     }
   ],

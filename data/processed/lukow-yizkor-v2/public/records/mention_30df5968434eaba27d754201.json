@@ -2,15 +2,15 @@
   "id": "mention_30df5968434eaba27d754201",
   "type": "Person",
   "title": "Yidl Pinte",
-  "summary": "Yakov Braun’s uncle and tailoring instructor.",
+  "summary": "Yakov Braun’s uncle and tailoring employer.",
   "originalName": "ײדל פינטע",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 116,
   "printedPage": "112",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "tailor_and_uncle",
+  "subtype": "tailor; uncle",
   "evidenceRefs": [
     {
       "passageId": "passage_c96d8894d2ab9e776e495e78",
@@ -20,12 +20,12 @@
       "printedPage": "112",
       "passageCharStart": 489,
       "passageCharEnd": 525,
-      "normalizedPassageCharStart": 414,
-      "normalizedPassageCharEnd": 444,
+      "normalizedPassageCharStart": 489,
+      "normalizedPassageCharEnd": 525,
       "pageCharStart": 489,
       "pageCharEnd": 525,
       "quote": "מי ק פעטע ר ײד ל פינט ע דע ם שנײדע ר",
-      "normalizedQuote": "מיק פעטער ײדל פינטע דעם שנײדער",
+      "normalizedQuote": "מי ק פעטע ר ײד ל פינט ע דע ם שנײדע ר",
       "modelQuote": "מיק פעטער ײדל פינטע דעם שנײדער",
       "bbox": {
         "left": 465,
@@ -38,17 +38,54 @@
       "passageChecksum": "8e909e7f2ecf5025b1d83cf45be4bd54484558cfc39859199ba2a6c3e97b629a",
       "normalizedPassageChecksum": "b51ddb112ac002b59eb2cb298aeb47ac39342a9978b73c59830498f95014443e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_2307179775e6265240d97543",
+      "predicate": "Sibling Of",
+      "subjectTitle": "Yakov Braun",
+      "objectTitle": "Yidl Pinte",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c96d8894d2ab9e776e495e78",
+        "pageId": "page_nybc301551_0116",
+        "scanIndex": 116,
+        "leafNumber": 115,
+        "printedPage": "112",
+        "passageCharStart": 489,
+        "passageCharEnd": 512,
+        "normalizedPassageCharStart": 489,
+        "normalizedPassageCharEnd": 512,
+        "pageCharStart": 489,
+        "pageCharEnd": 512,
+        "quote": "מי ק פעטע ר ײד ל פינט ע",
+        "normalizedQuote": "מי ק פעטע ר ײד ל פינט ע",
+        "modelQuote": "מיק פעטער ײדל פינטע",
+        "bbox": {
+          "left": 809,
+          "top": 2273,
+          "right": 1755,
+          "bottom": 2347
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n115/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "8e909e7f2ecf5025b1d83cf45be4bd54484558cfc39859199ba2a6c3e97b629a",
+        "normalizedPassageChecksum": "b51ddb112ac002b59eb2cb298aeb47ac39342a9978b73c59830498f95014443e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [
     {
-      "id": "event_candidate_52ec6cb9f4f9536ecec53e3a",
+      "id": "event_candidate_cf6f85a72c7eaa50cbfa9f0f",
       "type": "Employment",
       "title": "Yakov Braun begins tailoring apprenticeship",
-      "summary": "At age eleven, Yakov Braun was apprenticed to his uncle, a tailor.",
+      "summary": "At age eleven, Yakov Braun was sent to his uncle to learn tailoring.",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_c96d8894d2ab9e776e495e78",
@@ -58,12 +95,12 @@
         "printedPage": "112",
         "passageCharStart": 449,
         "passageCharEnd": 556,
-        "normalizedPassageCharStart": 381,
-        "normalizedPassageCharEnd": 471,
+        "normalizedPassageCharStart": 449,
+        "normalizedPassageCharEnd": 556,
         "pageCharStart": 449,
         "pageCharEnd": 556,
         "quote": "צו 11 יא ר הא ט מע ן מי ך אפגעגעב ן צ ו מי ק פעטע ר ײד ל פינט ע דע ם שנײדע ר\nאויף צ ו לערנע ן זי ך דא ם פאך",
-        "normalizedQuote": "צו11 יאר האט מען מיך אפגעגעבן צו מיק פעטער ײדל פינטע דעם שנײדער אויף צו לערנען זיך דאם פאך",
+        "normalizedQuote": "צו 11 יא ר הא ט מע ן מי ך אפגעגעב ן צ ו מי ק פעטע ר ײד ל פינט ע דע ם שנײדע ר\nאויף צ ו לערנע ן זי ך דא ם פאך",
         "modelQuote": "צו11 יאר האט מען מיך אפגעגעבן צו מיק פעטער ײדל פינטע דעם שנײדער אויף צו לערנען זיך דאם פאך",
         "bbox": {
           "left": 465,
@@ -76,21 +113,27 @@
         "passageChecksum": "8e909e7f2ecf5025b1d83cf45be4bd54484558cfc39859199ba2a6c3e97b629a",
         "normalizedPassageChecksum": "b51ddb112ac002b59eb2cb298aeb47ac39342a9978b73c59830498f95014443e",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_52ec6cb9f4f9536ecec53e3a",
+      "id": "mention_264ba0ecd95d982149d03a32",
+      "type": "Person",
+      "title": "Yakov Braun",
+      "relation": "Sibling Of"
+    },
+    {
+      "id": "event_candidate_cf6f85a72c7eaa50cbfa9f0f",
       "type": "Event",
       "title": "Yakov Braun begins tailoring apprenticeship",
       "relation": "Participated In",
       "role": "Employer"
     },
     {
-      "id": "mention_bb467360e441446c1ecc75e2",
+      "id": "mention_264ba0ecd95d982149d03a32",
       "type": "Person",
       "title": "Yakov Braun",
       "relation": "Appears in same passage"
@@ -102,9 +145,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e7fbee3182be73611b643143",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
-      "title": "Lukow",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     }
   ],

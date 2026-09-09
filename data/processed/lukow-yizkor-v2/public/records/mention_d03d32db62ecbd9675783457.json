@@ -1,16 +1,16 @@
 {
   "id": "mention_d03d32db62ecbd9675783457",
   "type": "Person",
-  "title": "Moshele the butcher",
-  "summary": "Moshele the butcher was among seventeen Lukow Jews shot before Polish independence.",
+  "title": "Moshele the Butcher",
+  "summary": "Young Łuków Jew listed among those shot.",
   "originalName": "משהלע די קצבטעם",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 199,
   "printedPage": "195",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The surname or occupational designation is unclear in OCR.",
+  "uncertaintyNote": "Name and surname appear OCR-corrupted.",
   "evidenceRefs": [
     {
       "passageId": "passage_c68e66e4a6ee334097b51937",
@@ -20,12 +20,12 @@
       "printedPage": "195",
       "passageCharStart": 531,
       "passageCharEnd": 547,
-      "normalizedPassageCharStart": 452,
-      "normalizedPassageCharEnd": 467,
+      "normalizedPassageCharStart": 531,
+      "normalizedPassageCharEnd": 547,
       "pageCharStart": 1723,
       "pageCharEnd": 1739,
       "quote": "משהלע ד י קצבטעם",
-      "normalizedQuote": "משהלע די קצבטעם",
+      "normalizedQuote": "משהלע ד י קצבטעם",
       "modelQuote": "משהלע די קצבטעם",
       "bbox": {
         "left": 2545,
@@ -38,29 +38,122 @@
       "passageChecksum": "5bf4b8a6602a8d84390cea439c5428ecfc2969953db14f5d5d3f9e54b8884d7f",
       "normalizedPassageChecksum": "0eabac7a5679ba4a3bb7338394368b47b28bc398a44dfe1dce8c5865de09eed8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_7e2ce76230847e49e3346ec9",
+      "predicate": "Murdered At",
+      "subjectTitle": "Moshele the Butcher",
+      "objectTitle": "Łuków",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage explicitly says the two young people were among those shot; names contain OCR corruption.",
+      "qualifiers": {
+        "method": "shooting",
+        "age": "young"
+      },
+      "evidence": {
+        "passageId": "passage_c68e66e4a6ee334097b51937",
+        "pageId": "page_nybc301551_0199",
+        "scanIndex": 199,
+        "leafNumber": 198,
+        "printedPage": "195",
+        "passageCharStart": 491,
+        "passageCharEnd": 547,
+        "normalizedPassageCharStart": 491,
+        "normalizedPassageCharEnd": 547,
+        "pageCharStart": 1683,
+        "pageCharEnd": 1739,
+        "quote": "דערונטע ר 2 ױגנטלעכע : ארי ה קצב ם או ן\nמשהלע ד י קצבטעם",
+        "normalizedQuote": "דערונטע ר 2 ױגנטלעכע : ארי ה קצב ם או ן\nמשהלע ד י קצבטעם",
+        "modelQuote": "דערונטער2 ױגנטלעכע: אריה קצבם און משהלע די קצבטעם",
+        "bbox": {
+          "left": 473,
+          "top": 3200,
+          "right": 2961,
+          "bottom": 3392
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n198/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "5bf4b8a6602a8d84390cea439c5428ecfc2969953db14f5d5d3f9e54b8884d7f",
+        "normalizedPassageChecksum": "0eabac7a5679ba4a3bb7338394368b47b28bc398a44dfe1dce8c5865de09eed8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_a5a3162b24ce448dc706564c",
+      "type": "Murder",
+      "title": "Shootings of Łuków Jews",
+      "summary": "Sixty Jewish residents were killed before Polish independence in 1918.",
+      "dateEnd": "1918",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c68e66e4a6ee334097b51937",
+        "pageId": "page_nybc301551_0199",
+        "scanIndex": 199,
+        "leafNumber": 198,
+        "printedPage": "195",
+        "passageCharStart": 286,
+        "passageCharEnd": 394,
+        "normalizedPassageCharStart": 286,
+        "normalizedPassageCharEnd": 394,
+        "pageCharStart": 1478,
+        "pageCharEnd": 1586,
+        "quote": "פאר דע ר פוילישע ר אומאפהענגיקײ ט אי ן 1918 הא ט ד י ײדיש ע באפעלקערונ ג\nאין לוקא װ טײע ר באצאלט : 60 קרבנות",
+        "normalizedQuote": "פאר דע ר פוילישע ר אומאפהענגיקײ ט אי ן 1918 הא ט ד י ײדיש ע באפעלקערונ ג\nאין לוקא װ טײע ר באצאלט : 60 קרבנות",
+        "modelQuote": "פאר דער פוילישער אומאפהענגיקײט אין1918 האט די ײדישע באפעלקערונג אין לוקאװ טײער באצאלט:60 קרבנות",
+        "bbox": {
+          "left": 475,
+          "top": 2996,
+          "right": 3067,
+          "bottom": 3182
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n198/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "5bf4b8a6602a8d84390cea439c5428ecfc2969953db14f5d5d3f9e54b8884d7f",
+        "normalizedPassageChecksum": "0eabac7a5679ba4a3bb7338394368b47b28bc398a44dfe1dce8c5865de09eed8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_66df5f1594ada7e5aaedd1fc",
-      "type": "Community",
-      "title": "Lukow Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5030178657907f325f9cd08e",
-      "type": "Person",
-      "title": "Shlomele Gapel",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4860433522781c76b9c69f34",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
-      "title": "Mass grave",
+      "title": "Łuków",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "event_candidate_a5a3162b24ce448dc706564c",
+      "type": "Event",
+      "title": "Shootings of Łuków Jews",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2387d7745597cd2570bde75e",
+      "type": "Person",
+      "title": "Arieh Katz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_00e8a41d0cae0bda7651dc89",
+      "type": "Person",
+      "title": "Shlomole Gafel",
       "relation": "Appears in same passage"
     }
   ],

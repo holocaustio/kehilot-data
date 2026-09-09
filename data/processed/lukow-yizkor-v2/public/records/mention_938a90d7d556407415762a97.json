@@ -2,14 +2,15 @@
   "id": "mention_938a90d7d556407415762a97",
   "type": "Person",
   "title": "Leibl Besser",
-  "summary": "Lukow Jew encountered in Soviet captivity.",
+  "summary": "Łuków Jew encountered in Soviet captivity.",
   "originalName": "לײבל בעםער",
-  "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 320,
   "printedPage": "316",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
+  "uncertaintyNote": "Surname may contain OCR error.",
   "evidenceRefs": [
     {
       "passageId": "passage_5fa18223d8da278767b56f35",
@@ -19,12 +20,12 @@
       "printedPage": "316",
       "passageCharStart": 356,
       "passageCharEnd": 367,
-      "normalizedPassageCharStart": 311,
-      "normalizedPassageCharEnd": 321,
+      "normalizedPassageCharStart": 356,
+      "normalizedPassageCharEnd": 367,
       "pageCharStart": 356,
       "pageCharEnd": 367,
       "quote": "לײב ל בעםער",
-      "normalizedQuote": "לײבל בעםער",
+      "normalizedQuote": "לײב ל בעםער",
       "modelQuote": "לײבל בעםער",
       "bbox": {
         "left": 483,
@@ -37,39 +38,35 @@
       "passageChecksum": "ee7e0dd9d24107f063fb71df8340178511a839cf41789c0dae47e302d2cf27cd",
       "normalizedPassageChecksum": "02e91842090cbd089f2bcef422b03cfabdcb6483492cf44fe7f7752ad0be1044",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_8712412b5897030d90942493",
+      "id": "claim_candidate_1f1a99bbd6b18e81d978e0d6",
       "predicate": "Migrated To",
       "subjectTitle": "Leibl Besser",
       "objectTitle": "Israel",
       "confidence": "HIGH",
-      "qualifiers": {
-        "intermediatePlace": "Russia",
-        "time": "later"
-      },
       "evidence": {
         "passageId": "passage_5fa18223d8da278767b56f35",
         "pageId": "page_nybc301551_0320",
         "scanIndex": 320,
         "leafNumber": 319,
         "printedPage": "316",
-        "passageCharStart": 510,
+        "passageCharStart": 524,
         "passageCharEnd": 604,
-        "normalizedPassageCharStart": 447,
-        "normalizedPassageCharEnd": 529,
-        "pageCharStart": 510,
+        "normalizedPassageCharStart": 524,
+        "normalizedPassageCharEnd": 604,
+        "pageCharStart": 524,
         "pageCharEnd": 604,
-        "quote": "זאקאלי ק או ן בעםע ר זענע ן\nגעבליבן אי ן רוםלאנ ד א ץ שפעטע ר זענע ן ז ײ אנגעקומע ן קי ץ ישראל",
-        "normalizedQuote": "זאקאליק און בעםער זענען געבליבן אין רוםלאנד אץ שפעטער זענען זײ אנגעקומען קיץ ישראל",
-        "modelQuote": "זאקאליק און בעםער זענען געבליבן אין רוםלאנד אץ שפעטער זענען זײ אנגעקומען קיץ ישראל",
+        "quote": "בעםע ר זענע ן\nגעבליבן אי ן רוםלאנ ד א ץ שפעטע ר זענע ן ז ײ אנגעקומע ן קי ץ ישראל",
+        "normalizedQuote": "בעםע ר זענע ן\nגעבליבן אי ן רוםלאנ ד א ץ שפעטע ר זענע ן ז ײ אנגעקומע ן קי ץ ישראל",
+        "modelQuote": "בעםער זענען געבליבן אין רוםלאנד אץ שפעטער זענען זײ אנגעקומען קיץ ישראל",
         "bbox": {
           "left": 463,
-          "top": 1735,
+          "top": 1751,
           "right": 2937,
           "bottom": 1917
         },
@@ -78,7 +75,7 @@
         "passageChecksum": "ee7e0dd9d24107f063fb71df8340178511a839cf41789c0dae47e302d2cf27cd",
         "normalizedPassageChecksum": "02e91842090cbd089f2bcef422b03cfabdcb6483492cf44fe7f7752ad0be1044",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -86,45 +83,58 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_8d691a77c7aa3912afb82805",
+      "id": "mention_bba2f673b3c79169a41e395d",
       "type": "Place",
       "title": "Israel",
       "relation": "Migrated To"
     },
     {
-      "id": "mention_8d579d85a581e5e79bb07bd6",
+      "id": "event_candidate_d29ef8aabcba49bf787b0b14",
+      "type": "Event",
+      "title": "Soviet captivity at Shepetovke",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_f98abb92afea21c797395a71",
       "type": "Person",
-      "title": "Moshe Greitzer",
+      "title": "Moshe Greytser",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_eefaac961818ed528ea68f4d",
-      "type": "Community",
-      "title": "Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0a5f51c1c0c71224d8081309",
+      "id": "mention_5de3641fc1916983df6e1a03",
       "type": "Place",
-      "title": "Shepetovka",
+      "title": "Shepetovke",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7a520b4b56320af5bf661c6c",
+      "id": "mention_c48525145f66dffbd213e29a",
+      "type": "Person",
+      "title": "Yakubovich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
-      "title": "Poland",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e6dc32fdd83d82499d7e8971",
+      "id": "mention_878dfd287aee1cc9b54f6d39",
       "type": "Place",
       "title": "Russia",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8d691a77c7aa3912afb82805",
+      "id": "mention_bba2f673b3c79169a41e395d",
       "type": "Place",
       "title": "Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_99b74c9a08b03cfcb5ddd4a9",
+      "type": "Place",
+      "title": "Soviet Union",
       "relation": "Appears in same passage"
     }
   ],

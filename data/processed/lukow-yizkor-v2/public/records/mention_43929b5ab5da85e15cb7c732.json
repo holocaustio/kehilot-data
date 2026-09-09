@@ -1,16 +1,16 @@
 {
   "id": "mention_43929b5ab5da85e15cb7c732",
   "type": "Person",
-  "title": "Mr. Benderman",
-  "summary": "An apothecary who served as the group’s honorary president and patron.",
-  "originalName": "ה׳ בענדערמאן",
+  "title": "Benderman",
+  "summary": "Pharmacist who served as honorary president and patron.",
+  "originalName": "בענדערמאן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 148,
   "printedPage": "144",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "patron",
+  "subtype": "pharmacist",
   "evidenceRefs": [
     {
       "passageId": "passage_01d65b512a093729edfd2a2f",
@@ -20,12 +20,12 @@
       "printedPage": "144",
       "passageCharStart": 566,
       "passageCharEnd": 600,
-      "normalizedPassageCharStart": 488,
-      "normalizedPassageCharEnd": 518,
+      "normalizedPassageCharStart": 566,
+      "normalizedPassageCharEnd": 600,
       "pageCharStart": 566,
       "pageCharEnd": 600,
       "quote": "דע ר\nה׳ בענדערמא ן פו ן דע ר אפטײק",
-      "normalizedQuote": "דער ה׳ בענדערמאן פון דער אפטײק",
+      "normalizedQuote": "דע ר\nה׳ בענדערמא ן פו ן דע ר אפטײק",
       "modelQuote": "דער ה׳ בענדערמאן פון דער אפטײק",
       "bbox": {
         "left": 441,
@@ -38,18 +38,49 @@
       "passageChecksum": "83b390073eb1d002aa991eb73236fa39da2243ab5848a8cfc29c99878d9e8408",
       "normalizedPassageChecksum": "94487fe45e66b943953a01b30d6f7cee142f09350dc8ed04b2b1cbeba56f670f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_d38efc2dd0fd42e0aea63fcc",
+      "pageId": "page_nybc301551_0155",
+      "scanIndex": 155,
+      "leafNumber": 154,
+      "printedPage": "151",
+      "passageCharStart": 1217,
+      "passageCharEnd": 1241,
+      "normalizedPassageCharStart": 1217,
+      "normalizedPassageCharEnd": 1241,
+      "pageCharStart": 1217,
+      "pageCharEnd": 1241,
+      "quote": "דע ר ציונים ט בענדערמא ן",
+      "normalizedQuote": "דע ר ציונים ט בענדערמא ן",
+      "modelQuote": "דער ציוניםט בענדערמאן",
+      "bbox": {
+        "left": 1923,
+        "top": 2332,
+        "right": 2831,
+        "bottom": 2394
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n154/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "aa0dba21b668344d2e6823c478944e646c0eb5fe7a3ed0ea9617abb9b1885be3",
+      "normalizedPassageChecksum": "b2e9da95ee893440dcf896fc383b5419bb0e2cfd6e9e9e628be13e306332eadc",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_4d2c10ce3a16580e7618819e",
-      "predicate": "Affiliated With",
-      "subjectTitle": "Mr. Benderman",
+      "id": "claim_candidate_84e0246856f23a9648fab407",
+      "predicate": "Patron Of",
+      "subjectTitle": "Benderman",
       "objectTitle": "Trumpeldor Group",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The pronoun refers to the group; the patron relationship is explicit in nearby text.",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "honorary president and patron"
+      },
       "evidence": {
         "passageId": "passage_01d65b512a093729edfd2a2f",
         "pageId": "page_nybc301551_0148",
@@ -57,60 +88,153 @@
         "leafNumber": 147,
         "printedPage": "144",
         "passageCharStart": 494,
-        "passageCharEnd": 544,
-        "normalizedPassageCharStart": 427,
-        "normalizedPassageCharEnd": 471,
+        "passageCharEnd": 584,
+        "normalizedPassageCharStart": 494,
+        "normalizedPassageCharEnd": 584,
         "pageCharStart": 494,
-        "pageCharEnd": 544,
-        "quote": "דער לערע ר ראזענצװײ ג הא ט אונד ז געשאפ ן א פאטראן",
-        "normalizedQuote": "דער לערער ראזענצװײג האט אונדז געשאפןא פאטראן",
-        "modelQuote": "דער לערער ראזענצװײג האט אונדז געשאפןא פאטראן",
+        "pageCharEnd": 584,
+        "quote": "דער לערע ר ראזענצװײ ג הא ט אונד ז געשאפ ן א פאטראן , א ״נשי א כבוד׳ • — דע ר\nה׳ בענדערמא ן",
+        "normalizedQuote": "דער לערע ר ראזענצװײ ג הא ט אונד ז געשאפ ן א פאטראן , א ״נשי א כבוד׳ • — דע ר\nה׳ בענדערמא ן",
+        "modelQuote": "דער לערער ראזענצװײג האט אונדז געשאפןא פאטראן,א ״נשיא כבוד׳•— דער ה׳ בענדערמאן",
         "bbox": {
-          "left": 1265,
+          "left": 441,
           "top": 1459,
-          "right": 2907,
-          "bottom": 1537
+          "right": 3091,
+          "bottom": 1639
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n147/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "83b390073eb1d002aa991eb73236fa39da2243ab5848a8cfc29c99878d9e8408",
         "normalizedPassageChecksum": "94487fe45e66b943953a01b30d6f7cee142f09350dc8ed04b2b1cbeba56f670f",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_71c6c66f8f3ffc1520b6bb49",
+      "predicate": "Helped",
+      "subjectTitle": "Benderman",
+      "objectTitle": "Hashomer Hatzair",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "Helping the organization does not necessarily establish formal membership.",
+      "evidence": {
+        "passageId": "passage_d38efc2dd0fd42e0aea63fcc",
+        "pageId": "page_nybc301551_0155",
+        "scanIndex": 155,
+        "leafNumber": 154,
+        "printedPage": "151",
+        "passageCharStart": 1303,
+        "passageCharEnd": 1343,
+        "normalizedPassageCharStart": 1303,
+        "normalizedPassageCharEnd": 1343,
+        "pageCharStart": 1303,
+        "pageCharEnd": 1343,
+        "quote": "ע ר פלעג ט בכל ל העלפ ן דע ם השומר־הצעיר",
+        "normalizedQuote": "ע ר פלעג ט בכל ל העלפ ן דע ם השומר־הצעיר",
+        "modelQuote": "ער פלעגט בכלל העלפן דעם השומר־הצעיר",
+        "bbox": {
+          "left": 1511,
+          "top": 2422,
+          "right": 2841,
+          "bottom": 2500
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n154/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "aa0dba21b668344d2e6823c478944e646c0eb5fe7a3ed0ea9617abb9b1885be3",
+        "normalizedPassageChecksum": "b2e9da95ee893440dcf896fc383b5419bb0e2cfd6e9e9e628be13e306332eadc",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_4fe03daee721d61c4cd0e8b0",
+      "type": "Migration",
+      "title": "Lag BaOmer trip to the forest",
+      "summary": "The group went to Zapovieniker Forest for Lag BaOmer.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_01d65b512a093729edfd2a2f",
+        "pageId": "page_nybc301551_0148",
+        "scanIndex": 148,
+        "leafNumber": 147,
+        "printedPage": "144",
+        "passageCharStart": 726,
+        "passageCharEnd": 804,
+        "normalizedPassageCharStart": 726,
+        "normalizedPassageCharEnd": 804,
+        "pageCharStart": 726,
+        "pageCharEnd": 804,
+        "quote": "איד דערמא ן זי ך א ״ל״ג־בעומר ״ װע ן מי ר זענע ן אװע ק אי ן זאפאװיעניקע ר װאלד",
+        "normalizedQuote": "איד דערמא ן זי ך א ״ל״ג־בעומר ״ װע ן מי ר זענע ן אװע ק אי ן זאפאװיעניקע ר װאלד",
+        "modelQuote": "איד דערמאן זיךא ״ל״ג־בעומר״ װען מיר זענען אװעק אין זאפאװיעניקער װאלד",
+        "bbox": {
+          "left": 459,
+          "top": 1773,
+          "right": 2921,
+          "bottom": 1853
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n147/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "83b390073eb1d002aa991eb73236fa39da2243ab5848a8cfc29c99878d9e8408",
+        "normalizedPassageChecksum": "94487fe45e66b943953a01b30d6f7cee142f09350dc8ed04b2b1cbeba56f670f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_447f4f29fa192f2da2c722e2",
+      "id": "mention_d4bac7a35ddfb1061df3426f",
       "type": "Organization",
       "title": "Trumpeldor Group",
-      "relation": "Affiliated With"
+      "relation": "Patron Of"
     },
     {
-      "id": "mention_447f4f29fa192f2da2c722e2",
+      "id": "event_candidate_4fe03daee721d61c4cd0e8b0",
+      "type": "Event",
+      "title": "Lag BaOmer trip to the forest",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_ec8505ff6fff7fac7d9b4afd",
+      "type": "Person",
+      "title": "Barnshtits",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_55ae04d76dc5f8999fda5f52",
+      "type": "Person",
+      "title": "Shmuel Lichter",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d4bac7a35ddfb1061df3426f",
       "type": "Organization",
       "title": "Trumpeldor Group",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_035bc81edcea643885eca513",
+      "id": "mention_a523bf129eb8198a1e0cf9b4",
       "type": "Place",
       "title": "Zapovieniker Forest",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_44ee509a7dd4db3d2b5a4b2a",
-      "type": "Event",
-      "title": "Lag BaOmer outing",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3b1081a92fbfcf2307b8c426",
+      "id": "mention_f4229e133bef3aacc91690c8",
       "type": "Place",
-      "title": "Benderman’s apothecary",
+      "title": "Łuków streets",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_b7f0a3b5eae82f3653555f45",
+  "type": "Event",
+  "title": "Murder of Haim Frost",
+  "summary": "Haim Frost was murdered in Luzi after liberation by Armia Krajowa killers.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 329,
+  "printedPage": "325",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0e977c0c46c153a2e50025f6",
+      "pageId": "page_nybc301551_0329",
+      "scanIndex": 329,
+      "leafNumber": 328,
+      "printedPage": "325",
+      "passageCharStart": 438,
+      "passageCharEnd": 467,
+      "normalizedPassageCharStart": 438,
+      "normalizedPassageCharEnd": 467,
+      "pageCharStart": 1684,
+      "pageCharEnd": 1713,
+      "quote": "וש ם נרצ ח ע״ י רוצח י הא.ק .",
+      "normalizedQuote": "וש ם נרצ ח ע״ י רוצח י הא.ק .",
+      "modelQuote": "ושם נרצח ע״י רוצחי הא.ק.",
+      "bbox": {
+        "left": 703,
+        "top": 3501,
+        "right": 1741,
+        "bottom": 3561
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n328/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "a3554ffc0770827a36ce39999d752599b9b96576bbcdbb5667717cf4ca1c67f6",
+      "normalizedPassageChecksum": "5f6a54930de4b087e2beebf999076f968b5d80f601992299075784fcd396e572",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_86d86b213fcbee0d71859e3d",
+      "type": "Place",
+      "title": "Luzi",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_b4e040ffb319c6ac4d2041f7",
+      "type": "Person",
+      "title": "Haim Frost",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_99070f33e607c3ca15183cf4",
+      "type": "Organization",
+      "title": "Armia Krajowa",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

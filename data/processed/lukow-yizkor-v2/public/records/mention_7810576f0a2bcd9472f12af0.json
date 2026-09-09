@@ -1,11 +1,11 @@
 {
   "id": "mention_7810576f0a2bcd9472f12af0",
   "type": "Person",
-  "title": "Rabbi Mendele Kotsker",
-  "summary": "Rabbi identified as Rabbi Israel Pilower’s grandfather.",
+  "title": "Mendele Kotsker",
+  "summary": "Rabbi Mendele Kotsker, identified as Israel Filaver’s grandfather.",
   "originalName": "ר׳ מענדעלע קאצקער",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 36,
   "printedPage": "32",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "32",
       "passageCharStart": 122,
       "passageCharEnd": 141,
-      "normalizedPassageCharStart": 103,
-      "normalizedPassageCharEnd": 120,
+      "normalizedPassageCharStart": 122,
+      "normalizedPassageCharEnd": 141,
       "pageCharStart": 1273,
       "pageCharEnd": 1292,
       "quote": "ר ׳ מענדעל ע קאצקער",
-      "normalizedQuote": "ר׳ מענדעלע קאצקער",
+      "normalizedQuote": "ר ׳ מענדעל ע קאצקער",
       "modelQuote": "ר׳ מענדעלע קאצקער",
       "bbox": {
         "left": 1097,
@@ -38,47 +38,77 @@
       "passageChecksum": "78ad3a30e6731526465f1e91d5468663cfae319453817caf051ee889b7e3d58b",
       "normalizedPassageChecksum": "03a46d1ce3984b982d33d00a70255e25b64720527d1ef05ad7967bc48db7a9eb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_cddd96bf48dc201550634890",
+      "pageId": "page_nybc301551_0346",
+      "scanIndex": 346,
+      "leafNumber": 345,
+      "printedPage": "342",
+      "passageCharStart": 579,
+      "passageCharEnd": 598,
+      "normalizedPassageCharStart": 579,
+      "normalizedPassageCharEnd": 598,
+      "pageCharStart": 1514,
+      "pageCharEnd": 1533,
+      "quote": "ר ׳ מענדעל ע קאצקער",
+      "normalizedQuote": "ר ׳ מענדעל ע קאצקער",
+      "modelQuote": "ר׳ מענדעלע קאצקער",
+      "bbox": {
+        "left": 2379,
+        "top": 3132,
+        "right": 3087,
+        "bottom": 3210
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n345/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "011a1c3b0f7b6af6b9c58dc0cf6159e4606e17e8dcd9caf53e9af2ba674102f6",
+      "normalizedPassageChecksum": "7f2e92e7ed2ecd1126c448d8f539b380809aa4c3a5bb02d89e778c0a74d97185",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_2a5c1a998f7510576f963c32",
-      "predicate": "Grandchild Of",
-      "subjectTitle": "Rabbi Israel Pilower",
-      "objectTitle": "Rabbi Mendele Kotsker",
+      "id": "claim_candidate_d1d0aef628f93248bc517ede",
+      "predicate": "Possibly Same As",
+      "subjectTitle": "Rabbi of Węgrów",
+      "objectTitle": "Mendele Kotsker",
       "confidence": "HIGH",
+      "uncertaintyNote": "The text says the Węgrów rabbi was a grandchild, but does not identify which grandchild.",
       "qualifiers": {
         "relationship": "grandchild"
       },
       "evidence": {
-        "passageId": "passage_4aab3ead93b608cf9be38f40",
-        "pageId": "page_nybc301551_0036",
-        "scanIndex": 36,
-        "leafNumber": 35,
-        "printedPage": "32",
-        "passageCharStart": 89,
-        "passageCharEnd": 141,
-        "normalizedPassageCharStart": 76,
-        "normalizedPassageCharEnd": 120,
-        "pageCharStart": 1240,
-        "pageCharEnd": 1292,
-        "quote": "ע ר אי ז געװע ן א ן אײניק ל פו ן ר ׳ מענדעל ע קאצקער",
-        "normalizedQuote": "ער איז געװען אן אײניקל פון ר׳ מענדעלע קאצקער",
-        "modelQuote": "ער איז געװען אן אײניקל פון ר׳ מענדעלע קאצקער",
+        "passageId": "passage_cddd96bf48dc201550634890",
+        "pageId": "page_nybc301551_0346",
+        "scanIndex": 346,
+        "leafNumber": 345,
+        "printedPage": "342",
+        "passageCharStart": 563,
+        "passageCharEnd": 598,
+        "normalizedPassageCharStart": 563,
+        "normalizedPassageCharEnd": 598,
+        "pageCharStart": 1498,
+        "pageCharEnd": 1533,
+        "quote": "א ן אײניק ל\nפון ר ׳ מענדעל ע קאצקער",
+        "normalizedQuote": "א ן אײניק ל\nפון ר ׳ מענדעל ע קאצקער",
+        "modelQuote": "אן אײניקל פון ר׳ מענדעלע קאצקער",
         "bbox": {
-          "left": 1097,
-          "top": 2834,
-          "right": 2907,
-          "bottom": 2912
+          "left": 453,
+          "top": 3042,
+          "right": 3087,
+          "bottom": 3210
         },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n35/mode/1up",
+        "scanUrl": "https://archive.org/details/nybc301551/page/n345/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "78ad3a30e6731526465f1e91d5468663cfae319453817caf051ee889b7e3d58b",
-        "normalizedPassageChecksum": "03a46d1ce3984b982d33d00a70255e25b64720527d1ef05ad7967bc48db7a9eb",
+        "passageChecksum": "011a1c3b0f7b6af6b9c58dc0cf6159e4606e17e8dcd9caf53e9af2ba674102f6",
+        "normalizedPassageChecksum": "7f2e92e7ed2ecd1126c448d8f539b380809aa4c3a5bb02d89e778c0a74d97185",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -86,75 +116,111 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_f1a68c6d2b5e397d8d282e58",
+      "id": "mention_a6622d3d68a591edde58b013",
       "type": "Person",
-      "title": "Rabbi Israel Pilower",
-      "relation": "Grandchild Of"
-    },
-    {
-      "id": "mention_f1a68c6d2b5e397d8d282e58",
-      "type": "Person",
-      "title": "Rabbi Israel Pilower",
+      "title": "Israel Filaver",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_da8d468584bbc4160fc238a2",
+      "id": "mention_e55a499307785b45b5d83a30",
       "type": "Person",
-      "title": "Rabbi Hershele",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e3aef4fc3f826e2c0beb6f87",
-      "type": "Person",
-      "title": "Rabbi Joseph Aaron",
+      "title": "Joseph Aaron",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_69fc60e01fb719a937edc778",
       "type": "Person",
-      "title": "Rabbi Akiva Meir",
+      "title": "Akiva Meir",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c128a754b5bd42e4fdc8ef8b",
+      "id": "mention_a4f23f71ac17a7dab9674765",
       "type": "Person",
-      "title": "Rabbi Yissachar Berish HaKohen",
+      "title": "Yissachar Berish HaKohen",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e7fbee3182be73611b643143",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
-      "title": "Lukow",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f0be032e93225c92bb3361d3",
+      "id": "mention_4954ef72c04e3cccc046848c",
       "type": "Place",
       "title": "Grabowe",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f6eb18f6d013e3dd565fe931",
+      "id": "mention_341cde962ed05e9502e8aa34",
       "type": "Place",
-      "title": "Wlodowa",
+      "title": "Włodawa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2f159a92bc5d57c93b3e1aad",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f22bff202ea4d0584500fff",
       "type": "Place",
       "title": "Wolbórz",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0cb61dc37a2c4138c15d52bb",
+      "id": "mention_1858a222217c529ebca3f596",
       "type": "Place",
       "title": "Piotrków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_54b36cdd5c7e9e53a0eb4e94",
-      "type": "Institution",
-      "title": "Pilower Hasidic Court",
+      "id": "mention_ed91d051a20dc9bfdb6e9d38",
+      "type": "Organization",
+      "title": "Filaver Hasidic Court",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_596f2c2a09d7a2242b661994",
+      "type": "Organization",
+      "title": "Miechów Hasidic Court",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5211be0fe31a8ad30d2eefb7",
+      "type": "Person",
+      "title": "Rabbi of Węgrów",
+      "relation": "Possibly Same As"
+    },
+    {
+      "id": "mention_fbcd7a10992d13f854b66a74",
+      "type": "Person",
+      "title": "Yakov Frebrnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c8ebb8e7f557dad1d6dce51f",
+      "type": "Person",
+      "title": "Hersh Meir Lederkremer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_096da2504ca4a8487684dc48",
+      "type": "Place",
+      "title": "Węgrów",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5211be0fe31a8ad30d2eefb7",
+      "type": "Person",
+      "title": "Rabbi of Węgrów",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_11b60dec77fa9e8f4fca4a30",
+      "type": "Person",
+      "title": "Shlomo Rozensthim",
       "relation": "Appears in same passage"
     }
   ],

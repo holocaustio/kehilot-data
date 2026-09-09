@@ -2,15 +2,14 @@
   "id": "mention_fdf5509c946f90f60766835a",
   "type": "Person",
   "title": "Mordechai Kleinman",
-  "summary": "Printer who helped produce underground leaflets against Germany.",
+  "summary": "Printer who helped produce and distribute resistance leaflets.",
   "originalName": "מרדכי קלײנמאן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 494,
   "printedPage": "490",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "printer",
   "evidenceRefs": [
     {
       "passageId": "passage_063e6a3660ee83d0b28d0d5c",
@@ -20,12 +19,12 @@
       "printedPage": "490",
       "passageCharStart": 608,
       "passageCharEnd": 622,
-      "normalizedPassageCharStart": 531,
-      "normalizedPassageCharEnd": 544,
+      "normalizedPassageCharStart": 608,
+      "normalizedPassageCharEnd": 622,
       "pageCharStart": 608,
       "pageCharEnd": 622,
       "quote": "מרדכ י קלײנמאן",
-      "normalizedQuote": "מרדכי קלײנמאן",
+      "normalizedQuote": "מרדכ י קלײנמאן",
       "modelQuote": "מרדכי קלײנמאן",
       "bbox": {
         "left": 1071,
@@ -38,13 +37,94 @@
       "passageChecksum": "d040c9b0b255d465e646f0f9e294e982f7745a222d3d1fed9aeae1ed5773eeda",
       "normalizedPassageChecksum": "d0d4433084b29c8d9478936891b49ced8c3d40b25728417c63eb8fd37bfe80e7",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_fc213c0bc911ed5bdaf1f614",
+      "predicate": "Worked At",
+      "subjectTitle": "Mordechai Kleinman",
+      "objectTitle": "Łuków resistance",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_063e6a3660ee83d0b28d0d5c",
+        "pageId": "page_nybc301551_0494",
+        "scanIndex": 494,
+        "leafNumber": 493,
+        "printedPage": "490",
+        "passageCharStart": 585,
+        "passageCharEnd": 622,
+        "normalizedPassageCharStart": 585,
+        "normalizedPassageCharEnd": 622,
+        "pageCharStart": 585,
+        "pageCharEnd": 622,
+        "quote": "צוזאמע ן מיט ן דרוקע ר מרדכ י קלײנמאן",
+        "normalizedQuote": "צוזאמע ן מיט ן דרוקע ר מרדכ י קלײנמאן",
+        "modelQuote": "צוזאמען מיטן דרוקער מרדכי קלײנמאן",
+        "bbox": {
+          "left": 1071,
+          "top": 1743,
+          "right": 2469,
+          "bottom": 1819
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n493/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "d040c9b0b255d465e646f0f9e294e982f7745a222d3d1fed9aeae1ed5773eeda",
+        "normalizedPassageChecksum": "d0d4433084b29c8d9478936891b49ced8c3d40b25728417c63eb8fd37bfe80e7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_1ebc9b0026d2861a5c2817d2",
+      "type": "Death",
+      "title": "Deaths of resistance activists at Auschwitz",
+      "summary": "The resistance activists described in the passage died at Auschwitz.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_063e6a3660ee83d0b28d0d5c",
+        "pageId": "page_nybc301551_0494",
+        "scanIndex": 494,
+        "leafNumber": 493,
+        "printedPage": "490",
+        "passageCharStart": 753,
+        "passageCharEnd": 817,
+        "normalizedPassageCharStart": 753,
+        "normalizedPassageCharEnd": 817,
+        "pageCharStart": 753,
+        "pageCharEnd": 817,
+        "quote": "ד י דאזיק ע העלדיש ע מענטש ן זענע ן אומגעקומע ן אי ן\nאשװיענטשים•",
+        "normalizedQuote": "ד י דאזיק ע העלדיש ע מענטש ן זענע ן אומגעקומע ן אי ן\nאשװיענטשים•",
+        "modelQuote": "די דאזיקע העלדישע מענטשן זענען אומגעקומען אין אשװיענטשים•",
+        "bbox": {
+          "left": 455,
+          "top": 1951,
+          "right": 2747,
+          "bottom": 2115
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n493/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "d040c9b0b255d465e646f0f9e294e982f7745a222d3d1fed9aeae1ed5773eeda",
+        "normalizedPassageChecksum": "d0d4433084b29c8d9478936891b49ced8c3d40b25728417c63eb8fd37bfe80e7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_1ebc9b0026d2861a5c2817d2",
+      "type": "Event",
+      "title": "Deaths of resistance activists at Auschwitz",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
     {
       "id": "mention_017985470dd9c58d97268229",
       "type": "Person",
@@ -58,7 +138,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e3e43338d39c22ccf63e4171",
+      "id": "mention_4be581715a26e6bcb079cabe",
       "type": "Place",
       "title": "Auschwitz",
       "relation": "Appears in same passage"

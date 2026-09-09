@@ -2,10 +2,10 @@
   "id": "mention_3eaee4176c4765be68da5eff",
   "type": "Person",
   "title": "Abraham the glazier",
-  "summary": "Neighbor remembered by the narrator in Łuków.",
+  "summary": "Neighbor who carried a long measuring rod and searched for broken windows.",
   "originalName": "אברהם דעם גלעזער",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 190,
   "printedPage": "186",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "186",
       "passageCharStart": 472,
       "passageCharEnd": 491,
-      "normalizedPassageCharStart": 404,
-      "normalizedPassageCharEnd": 420,
+      "normalizedPassageCharStart": 472,
+      "normalizedPassageCharEnd": 491,
       "pageCharStart": 1491,
       "pageCharEnd": 1510,
       "quote": "אברה ם דע ם גלעזע ר",
-      "normalizedQuote": "אברהם דעם גלעזער",
+      "normalizedQuote": "אברה ם דע ם גלעזע ר",
       "modelQuote": "אברהם דעם גלעזער",
       "bbox": {
         "left": 1095,
@@ -38,17 +38,18 @@
       "passageChecksum": "e3f8235922fa15ab5d8b70d1fc96d9cffbdc7671ee25ead9a7474925aecbe7e8",
       "normalizedPassageChecksum": "2120b8560e0e26d89558bf7d53ccb9e6b6d93dc02626a88a0e5705d699ef0f97",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_7057f3d14a516d7cda4ceffa",
+      "id": "claim_candidate_b687947806d308fb8901a864",
       "predicate": "Spouse Of",
       "subjectTitle": "Abraham the glazier",
       "objectTitle": "Ritl",
-      "confidence": "HIGH",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR in the possessive phrase is unclear.",
       "evidence": {
         "passageId": "passage_d39c7886d1848e1ae9ec9fbb",
         "pageId": "page_nybc301551_0190",
@@ -57,12 +58,12 @@
         "printedPage": "186",
         "passageCharStart": 693,
         "passageCharEnd": 708,
-        "normalizedPassageCharStart": 592,
-        "normalizedPassageCharEnd": 605,
+        "normalizedPassageCharStart": 693,
+        "normalizedPassageCharEnd": 708,
         "pageCharStart": 1712,
         "pageCharEnd": 1727,
         "quote": "זי ץ\nפרוי רית ל",
-        "normalizedQuote": "זיץ פרוי ריתל",
+        "normalizedQuote": "זי ץ\nפרוי רית ל",
         "modelQuote": "זיץ פרוי ריתל",
         "bbox": {
           "left": 457,
@@ -75,7 +76,7 @@
         "passageChecksum": "e3f8235922fa15ab5d8b70d1fc96d9cffbdc7671ee25ead9a7474925aecbe7e8",
         "normalizedPassageChecksum": "2120b8560e0e26d89558bf7d53ccb9e6b6d93dc02626a88a0e5705d699ef0f97",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -89,19 +90,19 @@
       "relation": "Spouse Of"
     },
     {
-      "id": "mention_eeb78584d248ec38e358e34d",
+      "id": "mention_a4aa24f5799c35c02d180829",
       "type": "Person",
       "title": "Chaim",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c77a835dc567cb10691012a8",
+      "id": "mention_ef99236f51ace503c4aaccda",
       "type": "Person",
       "title": "Mordechai",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6a61bb4faf93254e7b614cbe",
+      "id": "mention_276adeac5a357496df29c662",
       "type": "Person",
       "title": "Eliyahu",
       "relation": "Appears in same passage"
@@ -113,27 +114,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_50027357ba4bbfbb1a6922ce",
+      "id": "mention_efb5d053c5591b87af580f9c",
       "type": "Person",
-      "title": "Arieh Katzav",
+      "title": "Aryeh Katzav",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c16fd5a28ccb8c80ceec2e1a",
+      "id": "mention_a6480af7d08b2d812c19817b",
+      "type": "Place",
+      "title": "Miechów",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_599de3a67b7fee568d82c14c",
       "type": "Person",
-      "title": "Kapil Gantsazh",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
-      "type": "Place",
-      "title": "Łuków",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_dd449b269ea57ccbec6a9515",
-      "type": "Place",
-      "title": "Mięchów",
+      "title": "Kapl Gantsazh",
       "relation": "Appears in same passage"
     }
   ],

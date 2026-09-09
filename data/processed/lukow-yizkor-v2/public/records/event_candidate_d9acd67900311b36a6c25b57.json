@@ -1,0 +1,72 @@
+{
+  "id": "event_candidate_d9acd67900311b36a6c25b57",
+  "type": "Event",
+  "title": "School opened in Łuków in 1927",
+  "summary": "A school opened in Łuków and received annual support from the society.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 576,
+  "printedPage": "572",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "School Attendance",
+  "uncertaintyNote": "The source describes opening, but the schema has no school-opening event type.",
+  "dateStart": "1927",
+  "dateEnd": "1927",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_57eb3cc055e810b8c3fdfdaa",
+      "pageId": "page_nybc301551_0576",
+      "scanIndex": 576,
+      "leafNumber": 575,
+      "printedPage": "572",
+      "passageCharStart": 506,
+      "passageCharEnd": 550,
+      "normalizedPassageCharStart": 506,
+      "normalizedPassageCharEnd": 550,
+      "pageCharStart": 506,
+      "pageCharEnd": 550,
+      "quote": "אי ן זעלב ן\nיאר עפנ ט זי ך אי ן לוקא װ א שול",
+      "normalizedQuote": "אי ן זעלב ן\nיאר עפנ ט זי ך אי ן לוקא װ א שול",
+      "modelQuote": "אין זעלבן יאר עפנט זיך אין לוקאװא שול",
+      "bbox": {
+        "left": 468,
+        "top": 1380,
+        "right": 3082,
+        "bottom": 1554
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n575/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "74a1db59401ed3356f19475dbcceca93d4e8b1c15387192aa5d1e185c1d8831b",
+      "normalizedPassageChecksum": "d185e6cf867a9e413818f50000f321a991913c7d75b9dbde9a5520f7366c0866",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6740fa726b33530dda9d5d37",
+      "type": "Institution",
+      "title": "School in Łuków",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_c02f791ef1ac1c0a07d19116",
+      "type": "Organization",
+      "title": "Tsisho",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

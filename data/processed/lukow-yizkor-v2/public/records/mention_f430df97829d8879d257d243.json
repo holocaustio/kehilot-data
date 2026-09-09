@@ -2,10 +2,10 @@
   "id": "mention_f430df97829d8879d257d243",
   "type": "Person",
   "title": "Anshel Katz",
-  "summary": "Anshel Katz recounts childhood experiences during the war.",
+  "summary": "Anshel Katz recounts surviving wartime persecution as a child.",
   "originalName": "אנשל כ״ץ",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 447,
   "printedPage": "443",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,11 +21,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 9,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 8,
+      "normalizedPassageCharEnd": 9,
       "pageCharStart": 0,
       "pageCharEnd": 9,
       "quote": "אנשל כ״ ץ",
-      "normalizedQuote": "אנשל כ״ץ",
+      "normalizedQuote": "אנשל כ״ ץ",
       "modelQuote": "אנשל כ״ץ",
       "bbox": {
         "left": 2702,
@@ -38,7 +38,7 @@
       "passageChecksum": "2e6fc01ba186dfcb014d656f71f6a6fb4ad43fb51d44240bec71377f4160dcc9",
       "normalizedPassageChecksum": "f657c27b64fc2b346527877379e4bb5220d836a0ff084a340f513de55e6f082b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -49,12 +49,12 @@
       "printedPage": null,
       "passageCharStart": 428,
       "passageCharEnd": 438,
-      "normalizedPassageCharStart": 365,
-      "normalizedPassageCharEnd": 373,
+      "normalizedPassageCharStart": 428,
+      "normalizedPassageCharEnd": 438,
       "pageCharStart": 428,
       "pageCharEnd": 438,
       "quote": "אנש ל כ״ ץ",
-      "normalizedQuote": "אנשל כ״ץ",
+      "normalizedQuote": "אנש ל כ״ ץ",
       "modelQuote": "אנשל כ״ץ",
       "bbox": {
         "left": 1890,
@@ -67,23 +67,167 @@
       "passageChecksum": "e91aa5800db780c427c968d35c9807e23738c3065f3c6faf9c414baf0cc2dc4a",
       "normalizedPassageChecksum": "72af9d90951e15728632a1189ca03e526eabc6de23dc4380578391cae295b4ad",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_b3d6fd04bcd50a1958540961",
+      "type": "Birth",
+      "title": "Anshel Katz was nine when the war began",
+      "summary": "Anshel Katz states he was nine years old when the war broke out.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "This is an age reference, not a dated birth record.",
+      "evidence": {
+        "passageId": "passage_c975bb7ce2f52058db8a1a89",
+        "pageId": "page_nybc301551_0447",
+        "scanIndex": 447,
+        "leafNumber": 446,
+        "printedPage": "443",
+        "passageCharStart": 35,
+        "passageCharEnd": 96,
+        "normalizedPassageCharStart": 35,
+        "normalizedPassageCharEnd": 96,
+        "pageCharStart": 35,
+        "pageCharEnd": 96,
+        "quote": "9 יא ר בי ן אי ך אל ט געװע ן װע ן ד י מלחמ ה אי ז אויםגעבראכן",
+        "normalizedQuote": "9 יא ר בי ן אי ך אל ט געװע ן װע ן ד י מלחמ ה אי ז אויםגעבראכן",
+        "modelQuote": "9 יאר בין איך אלט געװען װען די מלחמה איז אויםגעבראכן",
+        "bbox": {
+          "left": 1106,
+          "top": 1220,
+          "right": 2982,
+          "bottom": 1298
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n446/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "2e6fc01ba186dfcb014d656f71f6a6fb4ad43fb51d44240bec71377f4160dcc9",
+        "normalizedPassageChecksum": "f657c27b64fc2b346527877379e4bb5220d836a0ff084a340f513de55e6f082b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_bab6b9400bfff1f51146cedf",
+      "type": "Aktion Or Raid",
+      "title": "First action",
+      "summary": "During the first action, Anshel Katz’s parents hid in an attic and Ukrainians reportedly arrived.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c975bb7ce2f52058db8a1a89",
+        "pageId": "page_nybc301551_0447",
+        "scanIndex": 447,
+        "leafNumber": 446,
+        "printedPage": "443",
+        "passageCharStart": 166,
+        "passageCharEnd": 191,
+        "normalizedPassageCharStart": 166,
+        "normalizedPassageCharEnd": 191,
+        "pageCharStart": 166,
+        "pageCharEnd": 191,
+        "quote": "בע ת דע ר ערשטע ר ״אקציע״",
+        "normalizedQuote": "בע ת דע ר ערשטע ר ״אקציע״",
+        "modelQuote": "בעת דער ערשטער ״אקציע״",
+        "bbox": {
+          "left": 812,
+          "top": 1340,
+          "right": 1742,
+          "bottom": 1404
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n446/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "2e6fc01ba186dfcb014d656f71f6a6fb4ad43fb51d44240bec71377f4160dcc9",
+        "normalizedPassageChecksum": "f657c27b64fc2b346527877379e4bb5220d836a0ff084a340f513de55e6f082b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_ab7aba02cfcf4e70c899e873",
+      "type": "Murder",
+      "title": "Shooting of Lender",
+      "summary": "Lender was taken aside and shot; his brother-in-law attacked the German shooter and was also shot.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage does not name Lender’s brother-in-law.",
+      "evidence": {
+        "passageId": "passage_c975bb7ce2f52058db8a1a89",
+        "pageId": "page_nybc301551_0447",
+        "scanIndex": 447,
+        "leafNumber": 446,
+        "printedPage": "443",
+        "passageCharStart": 918,
+        "passageCharEnd": 973,
+        "normalizedPassageCharStart": 918,
+        "normalizedPassageCharEnd": 973,
+        "pageCharStart": 918,
+        "pageCharEnd": 973,
+        "quote": "מען פיר ט אי ם אװע ק אי ן א זײ ט או ן מע ן דערשים ט אים",
+        "normalizedQuote": "מען פיר ט אי ם אװע ק אי ן א זײ ט או ן מע ן דערשים ט אים",
+        "modelQuote": "מען פירט אים אװעק איןא זײט און מען דערשיםט אים",
+        "bbox": {
+          "left": 1408,
+          "top": 2398,
+          "right": 3050,
+          "bottom": 2458
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n446/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "2e6fc01ba186dfcb014d656f71f6a6fb4ad43fb51d44240bec71377f4160dcc9",
+        "normalizedPassageChecksum": "f657c27b64fc2b346527877379e4bb5220d836a0ff084a340f513de55e6f082b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_8c4ca1a76815981496d3d725",
+      "id": "event_candidate_b3d6fd04bcd50a1958540961",
+      "type": "Event",
+      "title": "Anshel Katz was nine when the war began",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "event_candidate_bab6b9400bfff1f51146cedf",
+      "type": "Event",
+      "title": "First action",
+      "relation": "Participated In",
+      "role": "Witness"
+    },
+    {
+      "id": "event_candidate_ab7aba02cfcf4e70c899e873",
+      "type": "Event",
+      "title": "Shooting of Lender",
+      "relation": "Participated In",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_d8748f01937d1a8e54a13a9f",
       "type": "Person",
       "title": "Lender",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b4d843ca22b0116346521ff8",
+      "id": "mention_5475663f345e1e5e11dcd79d",
       "type": "Place",
-      "title": "Pig market",
+      "title": "Pig Market",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0f66bcc9a4d3f604e240ac74",
+      "type": "Organization",
+      "title": "Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0c24acf7f7017ba3bcd3a081",
+      "type": "Organization",
+      "title": "Ukrainian murderers",
       "relation": "Appears in same passage"
     },
     {
@@ -99,63 +243,57 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_672461443fff6b8ecd1c7c85",
+      "id": "mention_66e4844e3daf812ac5ad72b9",
       "type": "Person",
-      "title": "Elke Gerecht-Tikatski",
+      "title": "Elke Gerecht-Tikatzki",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4f3a6d79f4c2f8fb73cee938",
+      "id": "mention_5aeda559e775c1aebc928481",
       "type": "Person",
-      "title": "Leyb Shliterman",
+      "title": "Leib Shliterman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_641bbfec715a23a3b89d323d",
+      "id": "mention_6d57013b644355d3b17e60db",
       "type": "Person",
       "title": "Abba Dishel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8ad6adfc3dddf455bba2a54a",
+      "id": "mention_aaffe1b9337d3ec36c010739",
+      "type": "Person",
+      "title": "V. H. Ivan",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8acf096e462979617b85f7b7",
       "type": "Person",
       "title": "Shlomo Frengler",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1cfe14d7d4c3ccfc1c00a3ee",
+      "id": "mention_7ef8cddb4d1de8d63258535b",
+      "type": "Person",
+      "title": "N. H.",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_21e766db2773e20ba416d40c",
       "type": "Person",
       "title": "Isaiah Cohen",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6a409634f616a1054f48dbb4",
+      "id": "mention_b9835e224b4d35e30fee06f3",
       "type": "Person",
-      "title": "Moshe Zuckerman",
+      "title": "Jacob Keselbrener",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9dcc8ca3b7c415c7111eca09",
+      "id": "mention_7511e78bbf7acf2ab44ad819",
       "type": "Person",
-      "title": "Nahum Goldzak",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e4d9cbf9918668850783d11a",
-      "type": "Person",
-      "title": "Shlomo Rubinshteyn",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_41646c1198fa99b47c67227d",
-      "type": "Person",
-      "title": "Moshe Gerecht",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3938cfabf77b1b43a9f38ace",
-      "type": "Person",
-      "title": "Yehuda Burshteyn",
+      "title": "Noah Zhelaza",
       "relation": "Appears in same passage"
     }
   ],

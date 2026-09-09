@@ -1,0 +1,148 @@
+{
+  "id": "mention_01b3c86c7a70997cad90b56b",
+  "type": "Place",
+  "title": "Gurs Camp",
+  "summary": "Camp where Yankl was interned near the French-Spanish border.",
+  "originalName": "לאגער קורם",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 612,
+  "printedPage": "608",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "internment camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ad668373a022df9ec03549ad",
+      "pageId": "page_nybc301551_0612",
+      "scanIndex": 612,
+      "leafNumber": 611,
+      "printedPage": "608",
+      "passageCharStart": 79,
+      "passageCharEnd": 90,
+      "normalizedPassageCharStart": 79,
+      "normalizedPassageCharEnd": 90,
+      "pageCharStart": 79,
+      "pageCharEnd": 90,
+      "quote": "לאגע ר קורם",
+      "normalizedQuote": "לאגע ר קורם",
+      "modelQuote": "לאגער קורם",
+      "bbox": {
+        "left": 765,
+        "top": 897,
+        "right": 1211,
+        "bottom": 977
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n611/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "07ff7b66cadd19f2f0d8290f1a5df8ec9bdb8921181e9a36ea12de4c8cc264a2",
+      "normalizedPassageChecksum": "ac11c771025b3fa74013861082c6bd47388393f5994b39b703c79f313d5fed07",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2a7dae5c78d51a969a3a6bf1",
+      "predicate": "Imprisoned At",
+      "subjectTitle": "Yankl Zukerman",
+      "objectTitle": "Gurs Camp",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ad668373a022df9ec03549ad",
+        "pageId": "page_nybc301551_0612",
+        "scanIndex": 612,
+        "leafNumber": 611,
+        "printedPage": "608",
+        "passageCharStart": 62,
+        "passageCharEnd": 90,
+        "normalizedPassageCharStart": 62,
+        "normalizedPassageCharEnd": 90,
+        "pageCharStart": 62,
+        "pageCharEnd": 90,
+        "quote": "אינטערניר ט אי ן לאגע ר קורם",
+        "normalizedQuote": "אינטערניר ט אי ן לאגע ר קורם",
+        "modelQuote": "אינטערנירט אין לאגער קורם",
+        "bbox": {
+          "left": 765,
+          "top": 897,
+          "right": 1745,
+          "bottom": 977
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n611/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "07ff7b66cadd19f2f0d8290f1a5df8ec9bdb8921181e9a36ea12de4c8cc264a2",
+        "normalizedPassageChecksum": "ac11c771025b3fa74013861082c6bd47388393f5994b39b703c79f313d5fed07",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_0706ae0ef6bba1f87d478316",
+      "type": "Imprisonment",
+      "title": "Yankl Zukerman is interned at Gurs",
+      "summary": "After retreating, Yankl was interned at Gurs near the French-Spanish border.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ad668373a022df9ec03549ad",
+        "pageId": "page_nybc301551_0612",
+        "scanIndex": 612,
+        "leafNumber": 611,
+        "printedPage": "608",
+        "passageCharStart": 62,
+        "passageCharEnd": 90,
+        "normalizedPassageCharStart": 62,
+        "normalizedPassageCharEnd": 90,
+        "pageCharStart": 62,
+        "pageCharEnd": 90,
+        "quote": "אינטערניר ט אי ן לאגע ר קורם",
+        "normalizedQuote": "אינטערניר ט אי ן לאגע ר קורם",
+        "modelQuote": "אינטערנירט אין לאגער קורם",
+        "bbox": {
+          "left": 765,
+          "top": 897,
+          "right": 1745,
+          "bottom": 977
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n611/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "07ff7b66cadd19f2f0d8290f1a5df8ec9bdb8921181e9a36ea12de4c8cc264a2",
+        "normalizedPassageChecksum": "ac11c771025b3fa74013861082c6bd47388393f5994b39b703c79f313d5fed07",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a5f2c2da02618c0f0b90e3bf",
+      "type": "Person",
+      "title": "Yankl Zukerman",
+      "relation": "Imprisoned At"
+    },
+    {
+      "id": "event_candidate_0706ae0ef6bba1f87d478316",
+      "type": "Event",
+      "title": "Yankl Zukerman is interned at Gurs",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_702ab0b3eeb2b4f26df0e0a1",
+      "type": "Place",
+      "title": "Algeria",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_66839483775548ce08d68a32",
+      "type": "Organization",
+      "title": "French Foreign Legion",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

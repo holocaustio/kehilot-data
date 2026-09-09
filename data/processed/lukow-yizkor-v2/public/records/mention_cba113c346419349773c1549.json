@@ -2,16 +2,16 @@
   "id": "mention_cba113c346419349773c1549",
   "type": "Place",
   "title": "Glass factory",
-  "summary": "Site from which vehicles were expected to depart.",
+  "summary": "A glass factory from which vehicles were expected to depart.",
   "originalName": "גלאז־הוטע",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 502,
   "printedPage": "498",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "site",
-  "uncertaintyNote": "OCR wording identifies a glassworks or glass factory, but the exact site is unclear.",
+  "subtype": "factory",
+  "uncertaintyNote": "The OCR rendering may represent a named glassworks.",
   "evidenceRefs": [
     {
       "passageId": "passage_9398ac4477c121ce294cd6f9",
@@ -21,12 +21,12 @@
       "printedPage": "498",
       "passageCharStart": 820,
       "passageCharEnd": 850,
-      "normalizedPassageCharStart": 699,
-      "normalizedPassageCharEnd": 726,
+      "normalizedPassageCharStart": 820,
+      "normalizedPassageCharEnd": 850,
       "pageCharStart": 2796,
       "pageCharEnd": 2826,
       "quote": "פו ן דע ר גלאז־הוט ע\nארויםפארן",
-      "normalizedQuote": "פון דער גלאז־הוטע ארויםפארן",
+      "normalizedQuote": "פו ן דע ר גלאז־הוט ע\nארויםפארן",
       "modelQuote": "פון דער גלאז־הוטע ארויםפארן",
       "bbox": {
         "left": 472,
@@ -39,7 +39,7 @@
       "passageChecksum": "48e128cfb379daec96b83e49212c7348bf997fdc08fea5e2b362df3bdade2254",
       "normalizedPassageChecksum": "45fb9f078e5b3f0e2789f4476db11cdef99ac4c5ccb2c9f44db0870755f4f68c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,21 +47,21 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_cecc3006d497692363bc3fd2",
+      "id": "mention_e22d5df21acc6b748dad67eb",
       "type": "Place",
       "title": "Novogrudek",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_85125d996e01904808b7359f",
+      "id": "mention_41be78c5d90a64733f577e57",
       "type": "Place",
       "title": "Lida",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_61563012d8db39cba1353c1d",
-      "type": "Community",
-      "title": "Poles",
+      "id": "mention_95180a81ef3a97ab0d0db325",
+      "type": "Place",
+      "title": "Bridge between Novogrudek and Lida",
       "relation": "Appears in same passage"
     }
   ],

@@ -2,10 +2,10 @@
   "id": "mention_3e1ed6b76436067dfd3e7a07",
   "type": "Person",
   "title": "Leibish",
-  "summary": "The son described as a learner who studied late at night.",
+  "summary": "A learner and the household's sole privileged member, who studied late at the Gerer shtibl.",
   "originalName": "לײביש",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 238,
   "printedPage": "234",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "234",
       "passageCharStart": 234,
       "passageCharEnd": 263,
-      "normalizedPassageCharStart": 201,
-      "normalizedPassageCharEnd": 226,
+      "normalizedPassageCharStart": 234,
+      "normalizedPassageCharEnd": 263,
       "pageCharStart": 1276,
       "pageCharEnd": 1305,
       "quote": "דע ר זו ן לײביש , דע ר\nלערנער",
-      "normalizedQuote": "דער זון לײביש, דער לערנער",
+      "normalizedQuote": "דע ר זו ן לײביש , דע ר\nלערנער",
       "modelQuote": "דער זון לײביש, דער לערנער",
       "bbox": {
         "left": 470,
@@ -38,18 +38,17 @@
       "passageChecksum": "f8c4da12f4cdf063c80dd43f7993bfbb6e042eea02956c6b768a1deec83cf993",
       "normalizedPassageChecksum": "ec812460d2bd1508c4b9b0295455e69fadc083ba1f0bab61f2ce24bf7980b664",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_0c92034deb8fee1c20807c9e",
-      "predicate": "Attended",
+      "id": "claim_candidate_513ecf542998aa05458dfa11",
+      "predicate": "Studied At",
       "subjectTitle": "Leibish",
-      "objectTitle": "Gerer Shtibl",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The text describes studying there, but the institution's exact function is inferred from its name and context.",
+      "objectTitle": "Gerer shtibl",
+      "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_75799a124d9f723efaab73a6",
         "pageId": "page_nybc301551_0238",
@@ -58,12 +57,12 @@
         "printedPage": "234",
         "passageCharStart": 270,
         "passageCharEnd": 321,
-        "normalizedPassageCharStart": 232,
-        "normalizedPassageCharEnd": 275,
+        "normalizedPassageCharStart": 270,
+        "normalizedPassageCharEnd": 321,
         "pageCharStart": 1312,
         "pageCharEnd": 1363,
         "quote": "פלעג ט זיצ ן בי ז שפע ט ב ײ נאכ ט אי ן גערע ר שטיבל",
-        "normalizedQuote": "פלעגט זיצן ביז שפעט בײ נאכט אין גערער שטיבל",
+        "normalizedQuote": "פלעג ט זיצ ן בי ז שפע ט ב ײ נאכ ט אי ן גערע ר שטיבל",
         "modelQuote": "פלעגט זיצן ביז שפעט בײ נאכט אין גערער שטיבל",
         "bbox": {
           "left": 1110,
@@ -76,7 +75,7 @@
         "passageChecksum": "f8c4da12f4cdf063c80dd43f7993bfbb6e042eea02956c6b768a1deec83cf993",
         "normalizedPassageChecksum": "ec812460d2bd1508c4b9b0295455e69fadc083ba1f0bab61f2ce24bf7980b664",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -84,15 +83,15 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_48feef4fdf4fdfac56f559ea",
+      "id": "mention_cce8b4b592272a187c998ed4",
       "type": "Institution",
-      "title": "Gerer Shtibl",
-      "relation": "Attended"
+      "title": "Gerer shtibl",
+      "relation": "Studied At"
     },
     {
-      "id": "mention_48feef4fdf4fdfac56f559ea",
+      "id": "mention_cce8b4b592272a187c998ed4",
       "type": "Institution",
-      "title": "Gerer Shtibl",
+      "title": "Gerer shtibl",
       "relation": "Appears in same passage"
     }
   ],

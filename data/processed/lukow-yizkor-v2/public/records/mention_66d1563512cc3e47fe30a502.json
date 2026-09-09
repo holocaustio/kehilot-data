@@ -2,14 +2,15 @@
   "id": "mention_66d1563512cc3e47fe30a502",
   "type": "Place",
   "title": "New holy place",
-  "summary": "Place consecrated for the righteous and holy deceased.",
-  "originalName": "נײע ״הײליקע ארט״",
+  "summary": "A newly consecrated place where memorial circumambulations and prayers were held.",
+  "originalName": "״הײליקע ארט״",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 442,
   "printedPage": "438",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
+  "subtype": "religious site",
   "evidenceRefs": [
     {
       "passageId": "passage_ef18b6e1fdc2efe51a69984d",
@@ -19,12 +20,12 @@
       "printedPage": "438",
       "passageCharStart": 23,
       "passageCharEnd": 47,
-      "normalizedPassageCharStart": 20,
-      "normalizedPassageCharEnd": 40,
+      "normalizedPassageCharStart": 23,
+      "normalizedPassageCharEnd": 47,
       "pageCharStart": 2376,
       "pageCharEnd": 2400,
       "quote": "דא ם נײ ע ״הײליק ע ארט ״",
-      "normalizedQuote": "דאם נײע ״הײליקע ארט״",
+      "normalizedQuote": "דא ם נײ ע ״הײליק ע ארט ״",
       "modelQuote": "דאם נײע ״הײליקע ארט״",
       "bbox": {
         "left": 1345,
@@ -37,12 +38,57 @@
       "passageChecksum": "b342437d48cadd50a25440a6fb631cc56393f2089442c34bf7e32e362c17d323",
       "normalizedPassageChecksum": "d88202b3b52e9cb0673011a48ebb2c92466f179bce1b69f5be1384fc74b02b3f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
-  "connections": [],
+  "events": [
+    {
+      "id": "event_candidate_894bfcf6c832ba78ff17ad09",
+      "type": "Organization Founding",
+      "title": "Consecration of the new holy place",
+      "summary": "The new holy place was consecrated for righteous and holy people.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The schema lacks a consecration event type; organization founding is only an imperfect classification.",
+      "evidence": {
+        "passageId": "passage_ef18b6e1fdc2efe51a69984d",
+        "pageId": "page_nybc301551_0442",
+        "scanIndex": 442,
+        "leafNumber": 441,
+        "printedPage": "438",
+        "passageCharStart": 23,
+        "passageCharEnd": 70,
+        "normalizedPassageCharStart": 23,
+        "normalizedPassageCharEnd": 70,
+        "pageCharStart": 2376,
+        "pageCharEnd": 2423,
+        "quote": "דא ם נײ ע ״הײליק ע ארט ״ אי ז געװאר ן געהײליק ט",
+        "normalizedQuote": "דא ם נײ ע ״הײליק ע ארט ״ אי ז געװאר ן געהײליק ט",
+        "modelQuote": "דאם נײע ״הײליקע ארט״ איז געװארן געהײליקט",
+        "bbox": {
+          "left": 501,
+          "top": 4335,
+          "right": 2337,
+          "bottom": 4421
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n441/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b342437d48cadd50a25440a6fb631cc56393f2089442c34bf7e32e362c17d323",
+        "normalizedPassageChecksum": "d88202b3b52e9cb0673011a48ebb2c92466f179bce1b69f5be1384fc74b02b3f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_894bfcf6c832ba78ff17ad09",
+      "type": "Event",
+      "title": "Consecration of the new holy place",
+      "relation": "Occurred At"
+    }
+  ],
   "publicationEligible": false
 }

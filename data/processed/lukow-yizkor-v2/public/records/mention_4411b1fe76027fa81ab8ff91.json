@@ -2,14 +2,15 @@
   "id": "mention_4411b1fe76027fa81ab8ff91",
   "type": "Person",
   "title": "Malka",
-  "summary": "A grandmother who baked bread during a communal mourning period.",
+  "summary": "Berl’s grandmother, who baked bread during an epidemic and nursed her child.",
   "originalName": "באבע מלכה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 303,
   "printedPage": "299",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
+  "subtype": "family grandmother",
   "evidenceRefs": [
     {
       "passageId": "passage_df3e3f9cd16823b712a24066",
@@ -19,12 +20,12 @@
       "printedPage": "299",
       "passageCharStart": 389,
       "passageCharEnd": 418,
-      "normalizedPassageCharStart": 326,
-      "normalizedPassageCharEnd": 351,
+      "normalizedPassageCharStart": 389,
+      "normalizedPassageCharEnd": 418,
       "pageCharStart": 389,
       "pageCharEnd": 418,
       "quote": "ד י באב ע מלכ ה הא ט י־ערצײלט",
-      "normalizedQuote": "די באבע מלכה האט י־ערצײלט",
+      "normalizedQuote": "ד י באב ע מלכ ה הא ט י־ערצײלט",
       "modelQuote": "די באבע מלכה האט י־ערצײלט",
       "bbox": {
         "left": 1956,
@@ -37,44 +38,145 @@
       "passageChecksum": "fdc8106aec089156677e7d631325e311be1058b5ec1ee98e6b6d407282a53590",
       "normalizedPassageChecksum": "574654a2d2a5ee2cdd2136b318be9a339f031dd7e88a1cc5df9c87a903de32da",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
-      "alignmentScore": 1
-    },
-    {
-      "passageId": "passage_e69a81a5e697053a83641926",
-      "pageId": "page_nybc301551_0306",
-      "scanIndex": 306,
-      "leafNumber": 305,
-      "printedPage": "302",
-      "passageCharStart": 93,
-      "passageCharEnd": 146,
-      "normalizedPassageCharStart": 80,
-      "normalizedPassageCharEnd": 126,
-      "pageCharStart": 1349,
-      "pageCharEnd": 1402,
-      "quote": "װא ם ד י באב ע מלכ ה הא ט פא ר מיינעטװעג ן איינגעפאקט",
-      "normalizedQuote": "װאם די באבע מלכה האט פאר מיינעטװעגן איינגעפאקט",
-      "modelQuote": "װאם די באבע מלכה האט פאר מיינעטװעגן איינגעפאקט",
-      "bbox": {
-        "left": 1069,
-        "top": 2522,
-        "right": 2947,
-        "bottom": 2598
-      },
-      "scanUrl": "https://archive.org/details/nybc301551/page/n305/mode/1up",
-      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-      "passageChecksum": "c716761e4af90d24062ff7666c34b3ecf647d649589937747acc3567b9f63f03",
-      "normalizedPassageChecksum": "30f43a529dc7176540987b0022da34b486d3dac1206570f46bd36558e1674464",
-      "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_725c298291107d1b1d61c585",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Berl",
+      "objectTitle": "Malka",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_df3e3f9cd16823b712a24066",
+        "pageId": "page_nybc301551_0303",
+        "scanIndex": 303,
+        "leafNumber": 302,
+        "printedPage": "299",
+        "passageCharStart": 389,
+        "passageCharEnd": 418,
+        "normalizedPassageCharStart": 389,
+        "normalizedPassageCharEnd": 418,
+        "pageCharStart": 389,
+        "pageCharEnd": 418,
+        "quote": "ד י באב ע מלכ ה הא ט י־ערצײלט",
+        "normalizedQuote": "ד י באב ע מלכ ה הא ט י־ערצײלט",
+        "modelQuote": "די באבע מלכה האט י־ערצײלט",
+        "bbox": {
+          "left": 1956,
+          "top": 1409,
+          "right": 3008,
+          "bottom": 1485
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n302/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "fdc8106aec089156677e7d631325e311be1058b5ec1ee98e6b6d407282a53590",
+        "normalizedPassageChecksum": "574654a2d2a5ee2cdd2136b318be9a339f031dd7e88a1cc5df9c87a903de32da",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_9071003631d5f6bcfd5d4106",
+      "predicate": "Parent Of",
+      "subjectTitle": "Malka",
+      "objectTitle": "Berl’s father",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage describes him as Malka’s only son through the surrounding narrative.",
+      "evidence": {
+        "passageId": "passage_b63fde9079ff5b9413b9b774",
+        "pageId": "page_nybc301551_0303",
+        "scanIndex": 303,
+        "leafNumber": 302,
+        "printedPage": "299",
+        "passageCharStart": 165,
+        "passageCharEnd": 190,
+        "normalizedPassageCharStart": 165,
+        "normalizedPassageCharEnd": 190,
+        "pageCharStart": 1580,
+        "pageCharEnd": 1605,
+        "quote": "ע ר\nאיז געװע ן א בן־יחידל",
+        "normalizedQuote": "ע ר\nאיז געװע ן א בן־יחידל",
+        "modelQuote": "ער איז געװעןא בן־יחידל",
+        "bbox": {
+          "left": 472,
+          "top": 2929,
+          "right": 3064,
+          "bottom": 3097
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n302/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "a6f89cd558021b610dc7da1ab16320e09ccb2538e240b9c12c90947f16875337",
+        "normalizedPassageChecksum": "6de50fdfc78f1b8389b13751730164628f567dbb9b5f980557bc27b20ff76278",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_5cf1b0f194a35ef9e4d4666b",
+      "type": "Employment",
+      "title": "Malka bakes bread during epidemic",
+      "summary": "A rabbinical court attendant ordered Malka to rise from mourning and bake bread.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_df3e3f9cd16823b712a24066",
+        "pageId": "page_nybc301551_0303",
+        "scanIndex": 303,
+        "leafNumber": 302,
+        "printedPage": "299",
+        "passageCharStart": 980,
+        "passageCharEnd": 1076,
+        "normalizedPassageCharStart": 980,
+        "normalizedPassageCharEnd": 1076,
+        "pageCharStart": 980,
+        "pageCharEnd": 1076,
+        "quote": "אי ז געקומע ן דע ר בית־דין־שמ ש או ן באפויל ן ז י זא ל אויפשטײ ן\nפון דע ר שבע ה או ן באק ן ברויט",
+        "normalizedQuote": "אי ז געקומע ן דע ר בית־דין־שמ ש או ן באפויל ן ז י זא ל אויפשטײ ן\nפון דע ר שבע ה או ן באק ן ברויט",
+        "modelQuote": "איז געקומען דער בית־דין־שמש און באפוילן זי זאל אויפשטײן פון דער שבעה און באקן ברויט",
+        "bbox": {
+          "left": 480,
+          "top": 2157,
+          "right": 3082,
+          "bottom": 2355
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n302/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "fdc8106aec089156677e7d631325e311be1058b5ec1ee98e6b6d407282a53590",
+        "normalizedPassageChecksum": "574654a2d2a5ee2cdd2136b318be9a339f031dd7e88a1cc5df9c87a903de32da",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_673c707dfd15c97c32c2cea2",
+      "id": "mention_0870724e52d28eee826639e5",
+      "type": "Person",
+      "title": "Berl",
+      "relation": "Mentioned In"
+    },
+    {
+      "id": "mention_3d78495585ccd3878dc613a0",
+      "type": "Person",
+      "title": "Berl’s father",
+      "relation": "Parent Of"
+    },
+    {
+      "id": "event_candidate_5cf1b0f194a35ef9e4d4666b",
+      "type": "Event",
+      "title": "Malka bakes bread during epidemic",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_0870724e52d28eee826639e5",
       "type": "Person",
       "title": "Berl",
       "relation": "Appears in same passage"
@@ -86,39 +188,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_632ea5955a6fa62750fa2a83",
-      "type": "Place",
-      "title": "The city",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ad4f90d4c4c5c600f34cbdf8",
+      "id": "mention_b70a8c0919237bbe6d4d6a65",
       "type": "Institution",
-      "title": "Beth Din",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_2cb7e2926b278b647778e7ea",
-      "type": "Institution",
-      "title": "Beth Midrash",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3b9e2b309577515b1fed8c7b",
-      "type": "Person",
-      "title": "Rabbi Avrahamle Dayan",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3e64edd4925208511ee39431",
-      "type": "Person",
-      "title": "Avrahamle",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_6eabaaac59ed15d8e13c4f3e",
-      "type": "Institution",
-      "title": "Lomza Yeshiva",
+      "title": "Study house",
       "relation": "Appears in same passage"
     }
   ],

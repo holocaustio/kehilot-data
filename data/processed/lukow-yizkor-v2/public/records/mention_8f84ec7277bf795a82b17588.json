@@ -2,10 +2,10 @@
   "id": "mention_8f84ec7277bf795a82b17588",
   "type": "Person",
   "title": "Hersh David Nomberg",
-  "summary": "Known writer who studied with Rabbi Brown during childhood.",
+  "summary": "Known writer who studied with Rabbi Shmuel Shlomo Braun in childhood.",
   "originalName": "הרש דוד נומברג",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 55,
   "printedPage": "51",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "51",
       "passageCharStart": 227,
       "passageCharEnd": 257,
-      "normalizedPassageCharStart": 196,
-      "normalizedPassageCharEnd": 222,
+      "normalizedPassageCharStart": 227,
+      "normalizedPassageCharEnd": 257,
       "pageCharStart": 1612,
       "pageCharEnd": 1642,
       "quote": "הסופ ר הידו ע הר ש דו ד נומברג",
-      "normalizedQuote": "הסופר הידוע הרש דוד נומברג",
+      "normalizedQuote": "הסופ ר הידו ע הר ש דו ד נומברג",
       "modelQuote": "הסופר הידוע הרש דוד נומברג",
       "bbox": {
         "left": 486,
@@ -38,19 +38,19 @@
       "passageChecksum": "7690810e7e3728bc2c7fb96b49ee8ba845fd70baebc4c2db074d6b41a28fb3d0",
       "normalizedPassageChecksum": "0af9f6f707b5e6cb61b002c09f7d45d36595687e1122168e4c99557b52523812",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_d5f5038e565a862e1da32552",
-      "predicate": "Studied With",
-      "subjectTitle": "Samuel Solomon Brown",
+      "id": "claim_candidate_285b4588c4552cc09c02b817",
+      "predicate": "Studied At",
+      "subjectTitle": "Shmuel Shlomo Braun",
       "objectTitle": "Hersh David Nomberg",
       "confidence": "HIGH",
       "qualifiers": {
-        "relation": "studied_with"
+        "context": "studied together in childhood"
       },
       "evidence": {
         "passageId": "passage_4b0b68e286726eefac55150e",
@@ -60,12 +60,12 @@
         "printedPage": "51",
         "passageCharStart": 204,
         "passageCharEnd": 257,
-        "normalizedPassageCharStart": 177,
-        "normalizedPassageCharEnd": 222,
+        "normalizedPassageCharStart": 204,
+        "normalizedPassageCharEnd": 257,
         "pageCharStart": 1589,
         "pageCharEnd": 1642,
         "quote": "בילדות ו למ ד יח ד ע ם הסופ ר הידו ע הר ש דו ד נומברג",
-        "normalizedQuote": "בילדותו למד יחד עם הסופר הידוע הרש דוד נומברג",
+        "normalizedQuote": "בילדות ו למ ד יח ד ע ם הסופ ר הידו ע הר ש דו ד נומברג",
         "modelQuote": "בילדותו למד יחד עם הסופר הידוע הרש דוד נומברג",
         "bbox": {
           "left": 486,
@@ -78,7 +78,44 @@
         "passageChecksum": "7690810e7e3728bc2c7fb96b49ee8ba845fd70baebc4c2db074d6b41a28fb3d0",
         "normalizedPassageChecksum": "0af9f6f707b5e6cb61b002c09f7d45d36595687e1122168e4c99557b52523812",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_e048e2c76d7930f4b337fc5e",
+      "predicate": "Studied With",
+      "subjectTitle": "Hersh David Nomberg",
+      "objectTitle": "the writer's father, who was rabbi in Amshinov",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text states study with the writer’s father, but the setting is not explicitly identified as a school.",
+      "evidence": {
+        "passageId": "passage_4b0b68e286726eefac55150e",
+        "pageId": "page_nybc301551_0055",
+        "scanIndex": 55,
+        "leafNumber": 54,
+        "printedPage": "51",
+        "passageCharStart": 261,
+        "passageCharEnd": 300,
+        "normalizedPassageCharStart": 261,
+        "normalizedPassageCharEnd": 300,
+        "pageCharStart": 1646,
+        "pageCharEnd": 1685,
+        "quote": "אצל אב ױ ש ל הםופר , שהי ה ר ב באמשינוב",
+        "normalizedQuote": "אצל אב ױ ש ל הםופר , שהי ה ר ב באמשינוב",
+        "modelQuote": "אצל אבױ של הםופר, שהיה רב באמשינוב",
+        "bbox": {
+          "left": 1818,
+          "top": 4030,
+          "right": 3048,
+          "bottom": 4094
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n54/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "7690810e7e3728bc2c7fb96b49ee8ba845fd70baebc4c2db074d6b41a28fb3d0",
+        "normalizedPassageChecksum": "0af9f6f707b5e6cb61b002c09f7d45d36595687e1122168e4c99557b52523812",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -86,10 +123,10 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_3251a53b989cf3c42f4d3bb1",
+      "id": "mention_8b822dd61b494ed8e2778870",
       "type": "Person",
-      "title": "Samuel Solomon Brown",
-      "relation": "Studied With"
+      "title": "Shmuel Shlomo Braun",
+      "relation": "Studied At"
     },
     {
       "id": "mention_d180cc2e380772325b899db6",
@@ -98,21 +135,33 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3251a53b989cf3c42f4d3bb1",
+      "id": "mention_8b822dd61b494ed8e2778870",
       "type": "Person",
-      "title": "Samuel Solomon Brown",
+      "title": "Shmuel Shlomo Braun",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c537308853adb1e1480e3e39",
-      "type": "Person",
-      "title": "Aaron Neta Freiberg",
+      "id": "mention_16520c78b6931b0f9ee48228",
+      "type": "Place",
+      "title": "Amshinov",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d6a0058295b673c98d5e0ea1",
+      "id": "mention_c4c4e41191c1f4138c12aad1",
+      "type": "Person",
+      "title": "Aharon Neta Freiberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4ef4309d299e1dd6cfea5def",
       "type": "Community",
       "title": "Łuków Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6c354aea59ee81bb2c7a467d",
+      "type": "Place",
+      "title": "German gas chambers",
       "relation": "Appears in same passage"
     }
   ],

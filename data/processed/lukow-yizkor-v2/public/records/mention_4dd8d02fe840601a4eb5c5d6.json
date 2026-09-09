@@ -2,15 +2,16 @@
   "id": "mention_4dd8d02fe840601a4eb5c5d6",
   "type": "Organization",
   "title": "Warsaw Rabbinat",
-  "summary": "Authority whose permission was proposed for transferring a building to the magistrate.",
+  "summary": "Authority whose permission was proposed for transferring a prayer house to the magistrate.",
   "originalName": "װארשעװער ראבינאט",
-  "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 535,
   "printedPage": "531",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "rabbinical authority",
+  "uncertaintyNote": "OCR contains an attached character after the organization name.",
   "evidenceRefs": [
     {
       "passageId": "passage_351c06805400749bed06a240",
@@ -20,12 +21,12 @@
       "printedPage": "531",
       "passageCharStart": 935,
       "passageCharEnd": 967,
-      "normalizedPassageCharStart": 798,
-      "normalizedPassageCharEnd": 827,
+      "normalizedPassageCharStart": 935,
+      "normalizedPassageCharEnd": 967,
       "pageCharStart": 2117,
       "pageCharEnd": 2149,
       "quote": "װארשעװע ר ראבינא ט א דערלויבעניש",
-      "normalizedQuote": "װארשעװער ראבינאטא דערלויבעניש",
+      "normalizedQuote": "װארשעװע ר ראבינא ט א דערלויבעניש",
       "modelQuote": "װארשעװער ראבינאטא דערלויבעניש",
       "bbox": {
         "left": 753,
@@ -38,13 +39,60 @@
       "passageChecksum": "c2a58a7d53253716a215dd323133c3b9e1aa7e6cae481481e1e6e1642444a626",
       "normalizedPassageChecksum": "a8657fb3fe83d8f1bcb95622866bb2426c2e35fbdad831090a2d0a2466026b4d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_be768335c5bdcb2bba53c0c7",
+      "predicate": "Permission Requested From",
+      "subjectTitle": "Prayer house",
+      "objectTitle": "Warsaw Rabbinat",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage states permission was sought, not that affiliation existed.",
+      "qualifiers": {
+        "relationship": "permission requested"
+      },
+      "evidence": {
+        "passageId": "passage_351c06805400749bed06a240",
+        "pageId": "page_nybc301551_0535",
+        "scanIndex": 535,
+        "leafNumber": 534,
+        "printedPage": "531",
+        "passageCharStart": 935,
+        "passageCharEnd": 967,
+        "normalizedPassageCharStart": 935,
+        "normalizedPassageCharEnd": 967,
+        "pageCharStart": 2117,
+        "pageCharEnd": 2149,
+        "quote": "װארשעװע ר ראבינא ט א דערלויבעניש",
+        "normalizedQuote": "װארשעװע ר ראבינא ט א דערלויבעניש",
+        "modelQuote": "װארשעװער ראבינאטא דערלויבעניש",
+        "bbox": {
+          "left": 753,
+          "top": 4033,
+          "right": 2011,
+          "bottom": 4115
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n534/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "c2a58a7d53253716a215dd323133c3b9e1aa7e6cae481481e1e6e1642444a626",
+        "normalizedPassageChecksum": "a8657fb3fe83d8f1bcb95622866bb2426c2e35fbdad831090a2d0a2466026b4d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_0d89aa8317ec1a59ed6e1a78",
+      "type": "Institution",
+      "title": "Prayer house",
+      "relation": "Permission Requested From"
+    },
     {
       "id": "mention_69d33bdf235b97d7b48df3bd",
       "type": "Person",
@@ -52,45 +100,45 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_501d2ba76a28e52df8e977ba",
+      "id": "mention_0045bb15df10c22316fe8b8f",
       "type": "Place",
       "title": "Belgium",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_17f402082fee60e9f7c987d0",
+      "id": "mention_6c83232514402081563c6c07",
       "type": "Place",
       "title": "Brussels cemetery",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e7fbee3182be73611b643143",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
-      "title": "Lukow",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5dd1806c3afe6a0f6b0bf2f1",
+      "id": "mention_cc09664d6e58758486b05fdf",
       "type": "Institution",
       "title": "Magistrate",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_95ee87428a6a80c030b56991",
+      "id": "mention_75c705d9a273bcc7af302346",
       "type": "Person",
-      "title": "Burgomaster",
+      "title": "Mayor",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_94db29df48fe8cd9a805fd02",
+      "id": "mention_b33c20eca9867761b0135491",
       "type": "Place",
-      "title": "Maltsinov field",
+      "title": "Malcinov",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2cb7e2926b278b647778e7ea",
+      "id": "mention_0d89aa8317ec1a59ed6e1a78",
       "type": "Institution",
-      "title": "Beth midrash",
+      "title": "Prayer house",
       "relation": "Appears in same passage"
     }
   ],

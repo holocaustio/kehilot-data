@@ -2,14 +2,15 @@
   "id": "mention_c95e0e8555299ea240143ae5",
   "type": "Person",
   "title": "Eliyahu Feldman",
-  "summary": "Listed as a leader of the General Zionists.",
+  "summary": "Named among General Zionist leaders.",
   "originalName": "אליהו פלדמן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 76,
   "printedPage": "72",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
+  "subtype": "leader",
   "evidenceRefs": [
     {
       "passageId": "passage_5229d20042be6217e2798b0d",
@@ -19,12 +20,12 @@
       "printedPage": "72",
       "passageCharStart": 578,
       "passageCharEnd": 590,
-      "normalizedPassageCharStart": 499,
-      "normalizedPassageCharEnd": 510,
+      "normalizedPassageCharStart": 578,
+      "normalizedPassageCharEnd": 590,
       "pageCharStart": 578,
       "pageCharEnd": 590,
       "quote": "אליה ו פלדמן",
-      "normalizedQuote": "אליהו פלדמן",
+      "normalizedQuote": "אליה ו פלדמן",
       "modelQuote": "אליהו פלדמן",
       "bbox": {
         "left": 1303,
@@ -37,7 +38,7 @@
       "passageChecksum": "4f8471fd6ac639673240d4b9c06e3b85575ea1116e365d7167d6c25fe8d3bbe8",
       "normalizedPassageChecksum": "85240315931dac660478c272eee69f0790662ee2816b4b18d90b4088b762312f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -45,21 +46,27 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_fc5f04c16841e3914f9df4a9",
+      "id": "mention_53dca3ecb7a53f99f06c1ce7",
+      "type": "Person",
+      "title": "Chaim Meir Haiblum",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cd523305e7fd3b5041bae934",
       "type": "Organization",
-      "title": "People’s Party of Lukow",
+      "title": "Łuków Folk Party",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_acb7ab443e6f7c03e524b36e",
+      "id": "mention_97683426e0c7478f575c0f3e",
       "type": "Person",
-      "title": "Chaim Meir Heiblum",
+      "title": "Moshe Zuckerman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_30f42c9e62f15f7e4ee8a11f",
+      "id": "mention_de236851a40eb96c67ab78f5",
       "type": "Person",
-      "title": "Nathan Zuckerman",
+      "title": "Natan Zuckerman",
       "relation": "Appears in same passage"
     },
     {
@@ -69,19 +76,19 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_85c9e724d268f6cf8cf45770",
+      "id": "mention_4c68c4399ff47efb6d41137d",
       "type": "Person",
-      "title": "Chaim Motl Mandelbaum",
+      "title": "Chaim Motel Mandelbaum",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e6acb74e2def7fda9dc8df01",
+      "id": "mention_a40c3681ed554a8dca4347f7",
       "type": "Organization",
-      "title": "Left Poalei Zion",
+      "title": "Left Poale Zion",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_abc1c57e9a529eb3a45328a2",
+      "id": "mention_8433918ea813fea86ca2c288",
       "type": "Person",
       "title": "Itshe Koenigsberg",
       "relation": "Appears in same passage"
@@ -93,27 +100,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e752e354cc2f708be4a2105e",
+      "id": "mention_f4626383e277f9f656e6ef56",
       "type": "Person",
-      "title": "Motl Feldman",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_ad2760d4e72f846f904dbf37",
-      "type": "Organization",
-      "title": "Right Poalei Zion",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_10603b18db9afdec5d9b7931",
-      "type": "Organization",
-      "title": "Hapoel",
+      "title": "Motel Feldman",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_44277d78fd02d8d5697a9773",
       "type": "Person",
       "title": "Moshe Feldman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_58b215eab271d33f06171dbd",
+      "type": "Person",
+      "title": "Moshe Bornstein",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,11 +1,11 @@
 {
   "id": "mention_4c29b0b20879945a07f1de87",
   "type": "Place",
-  "title": "Zamek prison castle",
-  "summary": "The detainees were brought into an old prison castle called Zamek.",
+  "title": "Zamek",
+  "summary": "An old prison castle reached from the train under stone attack.",
   "originalName": "זאמעק",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 122,
   "printedPage": "118",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "118",
       "passageCharStart": 759,
       "passageCharEnd": 782,
-      "normalizedPassageCharStart": 657,
-      "normalizedPassageCharEnd": 678,
+      "normalizedPassageCharStart": 759,
+      "normalizedPassageCharEnd": 782,
       "pageCharStart": 759,
       "pageCharEnd": 782,
       "quote": "ארײנצוקומע ן אי ן זאמעק",
-      "normalizedQuote": "ארײנצוקומען אין זאמעק",
+      "normalizedQuote": "ארײנצוקומע ן אי ן זאמעק",
       "modelQuote": "ארײנצוקומען אין זאמעק",
       "bbox": {
         "left": 1330,
@@ -38,55 +38,47 @@
       "passageChecksum": "965824ee0480917b0a32bb1a5e69aa76c7f07bdd5701369670e6f81c10b3e3b3",
       "normalizedPassageChecksum": "b61779292d6716cff6130783e078fceedab6448d9ed313f509a1949bf11a2d5b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_47366f46025f5d1dd001623e",
+      "pageId": "page_nybc301551_0123",
+      "scanIndex": 123,
+      "leafNumber": 122,
+      "printedPage": "119",
+      "passageCharStart": 749,
+      "passageCharEnd": 770,
+      "normalizedPassageCharStart": 749,
+      "normalizedPassageCharEnd": 770,
+      "pageCharStart": 749,
+      "pageCharEnd": 770,
+      "quote": "ניש ט װײ ט פו ן זאמעק",
+      "normalizedQuote": "ניש ט װײ ט פו ן זאמעק",
+      "modelQuote": "נישט װײט פון זאמעק",
+      "bbox": {
+        "left": 1213,
+        "top": 1830,
+        "right": 1909,
+        "bottom": 1894
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n122/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "edea6163f9bc9b788d7e6ec4832bd36489658121b37d96c481577f05687e8349",
+      "normalizedPassageChecksum": "0296221f6698d083855748ef670458c283d7223b04db82bf2cd6dc79d90eb3f8",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [
-    {
-      "id": "event_candidate_d4e904df091d9ce0d23289bf",
-      "type": "Assault",
-      "title": "Attack during transfer to Zamek",
-      "summary": "During the transfer from the train to Zamek, people threw stones at the detainees and some were wounded.",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_2056fe0e59ab8ba0b9a25241",
-        "pageId": "page_nybc301551_0122",
-        "scanIndex": 122,
-        "leafNumber": 121,
-        "printedPage": "118",
-        "passageCharStart": 608,
-        "passageCharEnd": 677,
-        "normalizedPassageCharStart": 526,
-        "normalizedPassageCharEnd": 586,
-        "pageCharStart": 608,
-        "pageCharEnd": 677,
-        "quote": "פו ן דע ר בא ן ביז ן זאמע ק\nזענען מי ר באווארפ ן געװאר ן מי ט שטיינער",
-        "normalizedQuote": "פון דער באן ביזן זאמעק זענען מיר באווארפן געװארן מיט שטיינער",
-        "modelQuote": "פון דער באן ביזן זאמעק זענען מיר באווארפן געװארן מיט שטיינער",
-        "bbox": {
-          "left": 466,
-          "top": 1605,
-          "right": 3024,
-          "bottom": 1787
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n121/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "965824ee0480917b0a32bb1a5e69aa76c7f07bdd5701369670e6f81c10b3e3b3",
-        "normalizedPassageChecksum": "b61779292d6716cff6130783e078fceedab6448d9ed313f509a1949bf11a2d5b",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "events": [],
   "connections": [
     {
-      "id": "event_candidate_d4e904df091d9ce0d23289bf",
-      "type": "Event",
-      "title": "Attack during transfer to Zamek",
-      "relation": "Occurred At"
+      "id": "mention_a77df426a705eb653b042890",
+      "type": "Place",
+      "title": "Lublin",
+      "relation": "Appears in same passage"
     },
     {
       "id": "mention_14da7392be588ac82597c206",
@@ -95,9 +87,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a8cbd60dab68f912b2fd50ac",
+      "id": "mention_d9a4096f283a9ff1ba1dbd91",
       "type": "Person",
-      "title": "Political detainees",
+      "title": "Political prisoners",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d8b6da447ca95c612d76cbb6",
+      "type": "Organization",
+      "title": "Red Army",
       "relation": "Appears in same passage"
     }
   ],

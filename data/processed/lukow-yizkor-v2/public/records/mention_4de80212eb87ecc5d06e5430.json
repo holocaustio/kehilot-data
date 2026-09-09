@@ -2,16 +2,15 @@
   "id": "mention_4de80212eb87ecc5d06e5430",
   "type": "Person",
   "title": "Y. Gottlieb",
-  "summary": "Named among prominent lecturers who participated in presentations.",
+  "summary": "Lecturer who participated in events in Lukow.",
   "originalName": "י. גאטליב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 130,
   "printedPage": "126",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "lecturer",
-  "uncertaintyNote": "Only initials and surname are given.",
   "evidenceRefs": [
     {
       "passageId": "passage_109d195005a6fd564264c959",
@@ -21,12 +20,12 @@
       "printedPage": "126",
       "passageCharStart": 1121,
       "passageCharEnd": 1131,
-      "normalizedPassageCharStart": 991,
-      "normalizedPassageCharEnd": 1000,
+      "normalizedPassageCharStart": 1121,
+      "normalizedPassageCharEnd": 1131,
       "pageCharStart": 1121,
       "pageCharEnd": 1131,
       "quote": "י . גאטליב",
-      "normalizedQuote": "י. גאטליב",
+      "normalizedQuote": "י . גאטליב",
       "modelQuote": "י. גאטליב",
       "bbox": {
         "left": 1383,
@@ -39,23 +38,57 @@
       "passageChecksum": "b37fbc728e98e05be883c099777504e0be0e96f2301f55913da29a356e409dba",
       "normalizedPassageChecksum": "1113452ad1a79698b8b4905763602086366a13b259266bcb0f10eb0dc6341f7b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_1565e84ce059233f098a070c",
+      "predicate": "Participated In",
+      "subjectTitle": "Y. Gottlieb",
+      "objectTitle": "Unresolved object",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "activity": "lectures"
+      },
+      "evidence": {
+        "passageId": "passage_109d195005a6fd564264c959",
+        "pageId": "page_nybc301551_0130",
+        "scanIndex": 130,
+        "leafNumber": 129,
+        "printedPage": "126",
+        "passageCharStart": 1121,
+        "passageCharEnd": 1131,
+        "normalizedPassageCharStart": 1121,
+        "normalizedPassageCharEnd": 1131,
+        "pageCharStart": 1121,
+        "pageCharEnd": 1131,
+        "quote": "י . גאטליב",
+        "normalizedQuote": "י . גאטליב",
+        "modelQuote": "י. גאטליב",
+        "bbox": {
+          "left": 1383,
+          "top": 4452,
+          "right": 1767,
+          "bottom": 4528
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n129/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b37fbc728e98e05be883c099777504e0be0e96f2301f55913da29a356e409dba",
+        "normalizedPassageChecksum": "1113452ad1a79698b8b4905763602086366a13b259266bcb0f10eb0dc6341f7b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_1806694cbc53e944da50158c",
+      "id": "mention_08c19583f51d030dbd5c75e8",
       "type": "Institution",
-      "title": "Jewish Public Library",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_502483581d97dab17e86ef72",
-      "type": "Organization",
-      "title": "Cultural Association",
+      "title": "Jewish People’s Library",
       "relation": "Appears in same passage"
     },
     {
@@ -65,13 +98,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_23b2e1eaa7fe850b8af35ca3",
+      "id": "mention_8ac34ef8bba377ba9fb25b93",
       "type": "Work",
-      "title": "The Massacre",
+      "title": "The Slaughter",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9ef8ea708415a257cc899108",
+      "id": "mention_768056daf8069335b93d78ab",
       "type": "Work",
       "title": "The Yeshiva Student",
       "relation": "Appears in same passage"
@@ -83,9 +116,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8ef988b58c1abff9de7dae42",
+      "id": "mention_c01e72ac62465fadf3a15269",
       "type": "Work",
-      "title": "Sabbath in Paradise",
+      "title": "Shabbat Kodesh in Gan Eden",
       "relation": "Appears in same passage"
     },
     {
@@ -101,9 +134,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_565cf4d51ae73ece18b50aad",
+      "id": "mention_50b1af37c890fc26cc95ed09",
       "type": "Person",
-      "title": "Y. Fat",
+      "title": "Y. Pat",
       "relation": "Appears in same passage"
     },
     {
@@ -116,6 +149,12 @@
       "id": "mention_d6f64ce2303b09c515e8fed0",
       "type": "Person",
       "title": "Y. Zrubavel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_96fe9dadac9d1539683f41d1",
+      "type": "Person",
+      "title": "Hillel Zeitlin",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,17 +1,16 @@
 {
   "id": "mention_e3c90c0a9ed7aa9ce7e6cba0",
   "type": "Person",
-  "title": "Rabbi Shlomo Zalman of Lukow",
-  "summary": "A Lukow rabbi described as a major Torah authority.",
+  "title": "Rabbi Shlomo Zalman of Łuków",
+  "summary": "Łuków rabbi described as a major Torah authority known throughout the country.",
   "originalName": "ר׳ שלמה זלמן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 34,
   "printedPage": "30",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "rabbi",
-  "uncertaintyNote": "The text distinguishes him from another Rabbi Shlomo Zalman.",
   "evidenceRefs": [
     {
       "passageId": "passage_2cf7b054e67d1d58bc55ee33",
@@ -21,12 +20,12 @@
       "printedPage": "30",
       "passageCharStart": 826,
       "passageCharEnd": 858,
-      "normalizedPassageCharStart": 703,
-      "normalizedPassageCharEnd": 730,
+      "normalizedPassageCharStart": 826,
+      "normalizedPassageCharEnd": 858,
       "pageCharStart": 1910,
       "pageCharEnd": 1942,
       "quote": "דער לוקאװע ר ר ב ר ׳ שלמ ה זלמ ן",
-      "normalizedQuote": "דער לוקאװער רב ר׳ שלמה זלמן",
+      "normalizedQuote": "דער לוקאװע ר ר ב ר ׳ שלמ ה זלמ ן",
       "modelQuote": "דער לוקאװער רב ר׳ שלמה זלמן",
       "bbox": {
         "left": 1790,
@@ -39,23 +38,75 @@
       "passageChecksum": "0534594c1286690907ec10256290473e66de5dca7da35cfd14f90884cdc26987",
       "normalizedPassageChecksum": "9aa767bfcde1f689f77de69d7133100288b586812c736cd23b903eace7277ada",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_a72c7a96ad2acf42c4cddd10",
+      "predicate": "Located In",
+      "subjectTitle": "Rabbi Shlomo Zalman of Łuków",
+      "objectTitle": "Łuków",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "rabbi"
+      },
+      "evidence": {
+        "passageId": "passage_2cf7b054e67d1d58bc55ee33",
+        "pageId": "page_nybc301551_0034",
+        "scanIndex": 34,
+        "leafNumber": 33,
+        "printedPage": "30",
+        "passageCharStart": 826,
+        "passageCharEnd": 858,
+        "normalizedPassageCharStart": 826,
+        "normalizedPassageCharEnd": 858,
+        "pageCharStart": 1910,
+        "pageCharEnd": 1942,
+        "quote": "דער לוקאװע ר ר ב ר ׳ שלמ ה זלמ ן",
+        "normalizedQuote": "דער לוקאװע ר ר ב ר ׳ שלמ ה זלמ ן",
+        "modelQuote": "דער לוקאװער רב ר׳ שלמה זלמן",
+        "bbox": {
+          "left": 1790,
+          "top": 3369,
+          "right": 2928,
+          "bottom": 3445
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n33/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "0534594c1286690907ec10256290473e66de5dca7da35cfd14f90884cdc26987",
+        "normalizedPassageChecksum": "9aa767bfcde1f689f77de69d7133100288b586812c736cd23b903eace7277ada",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_53bbe9ab1b1a556978eef215",
-      "type": "Person",
-      "title": "Zalman of Lukow",
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_5f0a56bd5cde8de50f1025d6",
+      "type": "Publication",
+      "title": "New Shem HaGedolim",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9e0bece21c5524d3e3bc7026",
+      "id": "mention_17ec95bbcfb89130af1c53af",
       "type": "Person",
-      "title": "Rabbi Zalman Shur",
+      "title": "Elijah, nephew of the Gaon author of Tevuot Shor",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_83a0b00b37dddfefafbb61fd",
+      "type": "Person",
+      "title": "Rabbi Zalman Shor",
       "relation": "Appears in same passage"
     },
     {
@@ -65,9 +116,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_56e3fc78d44691661e47ea80",
-      "type": "Publication",
-      "title": "Shem HaGedolim HeHadash",
+      "id": "mention_7a520b4b56320af5bf661c6c",
+      "type": "Place",
+      "title": "Poland",
       "relation": "Appears in same passage"
     }
   ],

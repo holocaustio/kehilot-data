@@ -1,16 +1,17 @@
 {
   "id": "mention_5211be0fe31a8ad30d2eefb7",
   "type": "Person",
-  "title": "Rabbi of Wengrow",
-  "summary": "Rabbi of Wengrow shot during Yom Kippur night.",
+  "title": "Rabbi of Węgrów",
+  "summary": "Rabbi shot in Węgrów on the night of Yom Kippur.",
   "originalName": "װענגראװער רב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 346,
   "printedPage": "342",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "rabbi",
+  "uncertaintyNote": "The rabbi is unnamed.",
   "evidenceRefs": [
     {
       "passageId": "passage_cddd96bf48dc201550634890",
@@ -20,12 +21,12 @@
       "printedPage": "342",
       "passageCharStart": 535,
       "passageCharEnd": 553,
-      "normalizedPassageCharStart": 459,
-      "normalizedPassageCharEnd": 475,
+      "normalizedPassageCharStart": 535,
+      "normalizedPassageCharEnd": 553,
       "pageCharStart": 1470,
       "pageCharEnd": 1488,
       "quote": "דע ם װענגראװע ר רב",
-      "normalizedQuote": "דעם װענגראװער רב",
+      "normalizedQuote": "דע ם װענגראװע ר רב",
       "modelQuote": "דעם װענגראװער רב",
       "bbox": {
         "left": 1047,
@@ -38,33 +39,36 @@
       "passageChecksum": "011a1c3b0f7b6af6b9c58dc0cf6159e4606e17e8dcd9caf53e9af2ba674102f6",
       "normalizedPassageChecksum": "7f2e92e7ed2ecd1126c448d8f539b380809aa4c3a5bb02d89e778c0a74d97185",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [
+  "claims": [
     {
-      "id": "event_candidate_a239f5f7a16998d74843686d",
-      "type": "Murder",
-      "title": "Shooting of the Wengrow rabbi",
-      "summary": "The Wengrow rabbi was shot during Yom Kippur night.",
+      "id": "claim_candidate_d1d0aef628f93248bc517ede",
+      "predicate": "Possibly Same As",
+      "subjectTitle": "Rabbi of Węgrów",
+      "objectTitle": "Mendele Kotsker",
       "confidence": "HIGH",
+      "uncertaintyNote": "The text says the Węgrów rabbi was a grandchild, but does not identify which grandchild.",
+      "qualifiers": {
+        "relationship": "grandchild"
+      },
       "evidence": {
         "passageId": "passage_cddd96bf48dc201550634890",
         "pageId": "page_nybc301551_0346",
         "scanIndex": 346,
         "leafNumber": 345,
         "printedPage": "342",
-        "passageCharStart": 535,
+        "passageCharStart": 563,
         "passageCharEnd": 598,
-        "normalizedPassageCharStart": 459,
-        "normalizedPassageCharEnd": 514,
-        "pageCharStart": 1470,
+        "normalizedPassageCharStart": 563,
+        "normalizedPassageCharEnd": 598,
+        "pageCharStart": 1498,
         "pageCharEnd": 1533,
-        "quote": "דע ם װענגראװע ר רב , הי״ד , א ן אײניק ל\nפון ר ׳ מענדעל ע קאצקער",
-        "normalizedQuote": "דעם װענגראװער רב, הי״ד, אן אײניקל פון ר׳ מענדעלע קאצקער",
-        "modelQuote": "דעם װענגראװער רב, הי״ד, אן אײניקל פון ר׳ מענדעלע קאצקער",
+        "quote": "א ן אײניק ל\nפון ר ׳ מענדעל ע קאצקער",
+        "normalizedQuote": "א ן אײניק ל\nפון ר ׳ מענדעל ע קאצקער",
+        "modelQuote": "אן אײניקל פון ר׳ מענדעלע קאצקער",
         "bbox": {
           "left": 453,
           "top": 3042,
@@ -76,29 +80,29 @@
         "passageChecksum": "011a1c3b0f7b6af6b9c58dc0cf6159e4606e17e8dcd9caf53e9af2ba674102f6",
         "normalizedPassageChecksum": "7f2e92e7ed2ecd1126c448d8f539b380809aa4c3a5bb02d89e778c0a74d97185",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
+  "events": [],
   "connections": [
     {
-      "id": "event_candidate_a239f5f7a16998d74843686d",
-      "type": "Event",
-      "title": "Shooting of the Wengrow rabbi",
-      "relation": "Participated In",
-      "role": "Victim"
+      "id": "mention_7810576f0a2bcd9472f12af0",
+      "type": "Person",
+      "title": "Mendele Kotsker",
+      "relation": "Possibly Same As"
     },
     {
-      "id": "mention_e7fbee3182be73611b643143",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
-      "title": "Lukow",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_77027795a47278c7f933130e",
+      "id": "mention_fbcd7a10992d13f854b66a74",
       "type": "Person",
-      "title": "Yaakov Frebrnik",
+      "title": "Yakov Frebrnik",
       "relation": "Appears in same passage"
     },
     {
@@ -108,15 +112,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_356556d32bcadfb6ea9b72b7",
+      "id": "mention_096da2504ca4a8487684dc48",
       "type": "Place",
-      "title": "Wengrow",
+      "title": "Węgrów",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_af2c89b59a6dea1f8ad09888",
+      "id": "mention_7810576f0a2bcd9472f12af0",
       "type": "Person",
-      "title": "Shlomo Rozensteyn",
+      "title": "Mendele Kotsker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_11b60dec77fa9e8f4fca4a30",
+      "type": "Person",
+      "title": "Shlomo Rozensthim",
       "relation": "Appears in same passage"
     }
   ],

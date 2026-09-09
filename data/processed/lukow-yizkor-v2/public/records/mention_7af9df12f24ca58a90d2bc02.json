@@ -2,16 +2,14 @@
   "id": "mention_7af9df12f24ca58a90d2bc02",
   "type": "Person",
   "title": "Moshe Gatesdiner",
-  "summary": "Author of recollections about Lukow.",
+  "summary": "Author of the passage about Łuków.",
   "originalName": "משה גאטעסדינער",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 129,
   "printedPage": "125",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "author",
-  "uncertaintyNote": "Transliteration is approximate.",
   "evidenceRefs": [
     {
       "passageId": "passage_4a456551e7aecea3e9e0049b",
@@ -21,12 +19,12 @@
       "printedPage": "125",
       "passageCharStart": 528,
       "passageCharEnd": 543,
-      "normalizedPassageCharStart": 463,
-      "normalizedPassageCharEnd": 477,
+      "normalizedPassageCharStart": 528,
+      "normalizedPassageCharEnd": 543,
       "pageCharStart": 528,
       "pageCharEnd": 543,
       "quote": "משה גאטעסדינע ר",
-      "normalizedQuote": "משה גאטעסדינער",
+      "normalizedQuote": "משה גאטעסדינע ר",
       "modelQuote": "משה גאטעסדינער",
       "bbox": {
         "left": 2359,
@@ -39,39 +37,126 @@
       "passageChecksum": "11f35b75eaaf0dc1fcab6684c93b6985b6681ac2c747cd0984ce49a86db99d27",
       "normalizedPassageChecksum": "b18d0774ee39378792d315deed326ce41c41dd2bc98e3d6e460edcbeab2cfdad",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_ecd6e71ea56e5b3a750d9e04",
+      "predicate": "Parent Of",
+      "subjectTitle": "Yitzhak Eizik",
+      "objectTitle": "Moshe Gatesdiner",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The dedication names the parents but does not explicitly assign each parent’s relationship.",
+      "evidence": {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "pageId": "page_nybc301551_0129",
+        "scanIndex": 129,
+        "leafNumber": 128,
+        "printedPage": "125",
+        "passageCharStart": 574,
+        "passageCharEnd": 595,
+        "normalizedPassageCharStart": 574,
+        "normalizedPassageCharEnd": 595,
+        "pageCharStart": 574,
+        "pageCharEnd": 595,
+        "quote": "געװידמעט מײג ע עלטערן",
+        "normalizedQuote": "געװידמעט מײג ע עלטערן",
+        "modelQuote": "געװידמעט מײגע עלטערן",
+        "bbox": {
+          "left": 613,
+          "top": 2515,
+          "right": 1127,
+          "bottom": 2576
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n128/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "11f35b75eaaf0dc1fcab6684c93b6985b6681ac2c747cd0984ce49a86db99d27",
+        "normalizedPassageChecksum": "b18d0774ee39378792d315deed326ce41c41dd2bc98e3d6e460edcbeab2cfdad",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_f11b294a310408efa01346d7",
+      "predicate": "Parent Of",
+      "subjectTitle": "Dvashe",
+      "objectTitle": "Moshe Gatesdiner",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The dedication names the parents but does not explicitly assign each parent’s relationship.",
+      "evidence": {
+        "passageId": "passage_4a456551e7aecea3e9e0049b",
+        "pageId": "page_nybc301551_0129",
+        "scanIndex": 129,
+        "leafNumber": 128,
+        "printedPage": "125",
+        "passageCharStart": 574,
+        "passageCharEnd": 595,
+        "normalizedPassageCharStart": 574,
+        "normalizedPassageCharEnd": 595,
+        "pageCharStart": 574,
+        "pageCharEnd": 595,
+        "quote": "געװידמעט מײג ע עלטערן",
+        "normalizedQuote": "געװידמעט מײג ע עלטערן",
+        "modelQuote": "געװידמעט מײגע עלטערן",
+        "bbox": {
+          "left": 613,
+          "top": 2515,
+          "right": 1127,
+          "bottom": 2576
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n128/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "11f35b75eaaf0dc1fcab6684c93b6985b6681ac2c747cd0984ce49a86db99d27",
+        "normalizedPassageChecksum": "b18d0774ee39378792d315deed326ce41c41dd2bc98e3d6e460edcbeab2cfdad",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_8f6e791fda9e1a604933c66a",
+      "id": "mention_9b5a6a7ba2af204a57f304d9",
       "type": "Person",
-      "title": "Yitzhak-Eizik",
+      "title": "Yitzhak Eizik",
+      "relation": "Parent Of"
+    },
+    {
+      "id": "mention_5aaa42dfe938e01d7055bcb7",
+      "type": "Person",
+      "title": "Dvashe",
+      "relation": "Parent Of"
+    },
+    {
+      "id": "mention_fee4b0ae3da5b489c946d021",
+      "type": "Institution",
+      "title": "Workers’ Library",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_818dcf038d2647c287f71940",
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9b5a6a7ba2af204a57f304d9",
+      "type": "Person",
+      "title": "Yitzhak Eizik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5aaa42dfe938e01d7055bcb7",
       "type": "Person",
       "title": "Dvashe",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e7fbee3182be73611b643143",
-      "type": "Place",
-      "title": "Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_f7f9225de03bc8d23888f89e",
-      "type": "Institution",
-      "title": "Lukow Library",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5a6cdfdba0fcbf394ccaf40f",
+      "id": "mention_403c01517406e709cf9047e3",
       "type": "Place",
       "title": "Polish Castle",
       "relation": "Appears in same passage"

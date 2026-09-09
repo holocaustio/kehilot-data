@@ -1,17 +1,17 @@
 {
   "id": "mention_edebc1f751e4039fa565ff6d",
   "type": "Business",
-  "title": "Jungstein's agricultural machinery warehouse",
-  "summary": "Jungstein's warehouse contained agricultural machinery.",
+  "title": "Youngstein's agricultural machinery warehouse",
+  "summary": "A warehouse of agricultural machinery across from the tavern.",
   "originalName": "ױנגשטײנם סקלאד פץ לאנדװירטשאפט־מאשינען",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 289,
   "printedPage": "285",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "agricultural machinery warehouse",
-  "uncertaintyNote": "Several OCR characters in the phrase are uncertain.",
+  "uncertaintyNote": "The OCR contains an unclear character after the proprietor's name.",
   "evidenceRefs": [
     {
       "passageId": "passage_35f9a21202dde0f947abb184",
@@ -21,12 +21,12 @@
       "printedPage": "285",
       "passageCharStart": 454,
       "passageCharEnd": 495,
-      "normalizedPassageCharStart": 390,
-      "normalizedPassageCharEnd": 428,
+      "normalizedPassageCharStart": 454,
+      "normalizedPassageCharEnd": 495,
       "pageCharStart": 2791,
       "pageCharEnd": 2832,
       "quote": "ױנגשטײנ ם סקלא ד פ ץ לאנדװירטשאפט־מאשינען",
-      "normalizedQuote": "ױנגשטײנם סקלאד פץ לאנדװירטשאפט־מאשינען",
+      "normalizedQuote": "ױנגשטײנ ם סקלא ד פ ץ לאנדװירטשאפט־מאשינען",
       "modelQuote": "ױנגשטײנם סקלאד פץ לאנדװירטשאפט־מאשינען",
       "bbox": {
         "left": 1021,
@@ -39,7 +39,7 @@
       "passageChecksum": "7631fb5b64ccc9d49897e7faf7bac819a0f96f945bb23c531277e49317d20298",
       "normalizedPassageChecksum": "586786d0251ad0b2546c4b15a0fa8ec4de7edf559f0f67d6ce33f793960628e7",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,33 +47,51 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_e78b48636508a8a692dacc5d",
+      "id": "mention_d590d41a9aca168143599ddc",
       "type": "Institution",
-      "title": "Chaya-Sarah's house of study",
+      "title": "Chaya-Sarah's study house",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5592f7114d45b4e0f8555d9b",
+      "type": "Place",
+      "title": "The Chaynie",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_bd1ebbb75d043be82ba5d96f",
       "type": "Business",
-      "title": "Spirit monopoly",
+      "title": "Spirits monopoly",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_1d92afbc397c20ab986d04fd",
       "type": "Business",
-      "title": "Biderman's Singer machine dealership",
+      "title": "Berman's Singer machine dealership",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_867eabf6aeef10aa8b0226db",
+      "type": "Business",
+      "title": "Youngstein's Ralnitshe machines",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_27c24fcc20cd714117efadd6",
-      "type": "Place",
-      "title": "The theater building",
+      "type": "Business",
+      "title": "The theater house",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_cf40a7f6b31685fa89dab16d",
       "type": "Business",
-      "title": "The brewery",
+      "title": "Ek Bravorne",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ffe4ee7beaa9a700e7e8c8b2",
+      "type": "Business",
+      "title": "Ratz's tavern",
       "relation": "Appears in same passage"
     }
   ],

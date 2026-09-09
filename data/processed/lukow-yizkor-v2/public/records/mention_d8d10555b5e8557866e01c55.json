@@ -2,16 +2,15 @@
   "id": "mention_d8d10555b5e8557866e01c55",
   "type": "Place",
   "title": "Mardy",
-  "summary": "Town where the narrator crossed the Bug River.",
+  "summary": "The narrator crossed the Bug River in the town of Mardy.",
   "originalName": "מארדי",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 343,
   "printedPage": "339",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "town",
-  "uncertaintyNote": "Transliteration of the OCR place name is uncertain.",
   "evidenceRefs": [
     {
       "passageId": "passage_299bf272751a11a0ee1af2e4",
@@ -21,12 +20,12 @@
       "printedPage": "339",
       "passageCharStart": 1058,
       "passageCharEnd": 1075,
-      "normalizedPassageCharStart": 900,
-      "normalizedPassageCharEnd": 915,
+      "normalizedPassageCharStart": 1058,
+      "normalizedPassageCharEnd": 1075,
       "pageCharStart": 2460,
       "pageCharEnd": 2477,
       "quote": "אין שטעט ל מארד י",
-      "normalizedQuote": "אין שטעטל מארדי",
+      "normalizedQuote": "אין שטעט ל מארד י",
       "modelQuote": "אין שטעטל מארדי",
       "bbox": {
         "left": 2339,
@@ -39,13 +38,13 @@
       "passageChecksum": "0ae4c7ca4054ab23526e9c6c28b9118da2a944851c07824d4a8ed545fff22163",
       "normalizedPassageChecksum": "c203900bfcfbcdff46facef5e67a47766dc9023c2ab83d8a1bfd4447498e8f15",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_4ca7c7714aac374ca79c8a90",
+      "id": "claim_candidate_2dc9bc1a47c8b708ec13e53c",
       "predicate": "Near",
       "subjectTitle": "Mardy",
       "objectTitle": "Bug River",
@@ -58,12 +57,12 @@
         "printedPage": "339",
         "passageCharStart": 1058,
         "passageCharEnd": 1102,
-        "normalizedPassageCharStart": 900,
-        "normalizedPassageCharEnd": 938,
+        "normalizedPassageCharStart": 1058,
+        "normalizedPassageCharEnd": 1102,
         "pageCharStart": 2460,
         "pageCharEnd": 2504,
         "quote": "אין שטעט ל מארד י בי ן אי ך אריבע ר דע ם בוג",
-        "normalizedQuote": "אין שטעטל מארדי בין איך אריבער דעם בוג",
+        "normalizedQuote": "אין שטעט ל מארד י בי ן אי ך אריבע ר דע ם בוג",
         "modelQuote": "אין שטעטל מארדי בין איך אריבער דעם בוג",
         "bbox": {
           "left": 1615,
@@ -76,59 +75,127 @@
         "passageChecksum": "0ae4c7ca4054ab23526e9c6c28b9118da2a944851c07824d4a8ed545fff22163",
         "normalizedPassageChecksum": "c203900bfcfbcdff46facef5e67a47766dc9023c2ab83d8a1bfd4447498e8f15",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_666355ad8ac5456981497608",
+      "type": "Migration",
+      "title": "Travel through Mardy and across the Bug",
+      "summary": "The narrator crossed the Bug in Mardy and continued to Rivne.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_299bf272751a11a0ee1af2e4",
+        "pageId": "page_nybc301551_0343",
+        "scanIndex": 343,
+        "leafNumber": 342,
+        "printedPage": "339",
+        "passageCharStart": 1058,
+        "passageCharEnd": 1102,
+        "normalizedPassageCharStart": 1058,
+        "normalizedPassageCharEnd": 1102,
+        "pageCharStart": 2460,
+        "pageCharEnd": 2504,
+        "quote": "אין שטעט ל מארד י בי ן אי ך אריבע ר דע ם בוג",
+        "normalizedQuote": "אין שטעט ל מארד י בי ן אי ך אריבע ר דע ם בוג",
+        "modelQuote": "אין שטעטל מארדי בין איך אריבער דעם בוג",
+        "bbox": {
+          "left": 1615,
+          "top": 4006,
+          "right": 2937,
+          "bottom": 4084
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n342/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "0ae4c7ca4054ab23526e9c6c28b9118da2a944851c07824d4a8ed545fff22163",
+        "normalizedPassageChecksum": "c203900bfcfbcdff46facef5e67a47766dc9023c2ab83d8a1bfd4447498e8f15",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_c39f59c658a0fd365929fbe8",
+      "id": "mention_8de82d2b21efa1a42187c15a",
       "type": "Place",
       "title": "Bug River",
       "relation": "Near"
     },
     {
-      "id": "mention_66df5f1594ada7e5aaedd1fc",
+      "id": "event_candidate_666355ad8ac5456981497608",
+      "type": "Event",
+      "title": "Travel through Mardy and across the Bug",
+      "relation": "Occurred At",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_f24bb37493b0a89d690f2483",
       "type": "Community",
-      "title": "Lukow Jewish community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6de49a992a210fd4743d8159",
+      "id": "mention_811a8cda85d7ff1757c52f69",
       "type": "Place",
       "title": "Land of Israel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e6dc32fdd83d82499d7e8971",
+      "id": "mention_878dfd287aee1cc9b54f6d39",
       "type": "Place",
       "title": "Russia",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c39f59c658a0fd365929fbe8",
+      "id": "mention_005ca7ccc034266bac77c0fe",
+      "type": "Place",
+      "title": "Berlin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b59dcf1f491e28fcbdab439",
+      "type": "Place",
+      "title": "England",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9be736bf9c8a3e73185c3621",
+      "type": "Place",
+      "title": "France",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8de82d2b21efa1a42187c15a",
       "type": "Place",
       "title": "Bug River",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ebcdf896ab4229a13cf7e23d",
+      "id": "mention_90b7c52c2249598125e8273b",
       "type": "Place",
       "title": "Rivne",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_634cca32132a7ec0a1cdd763",
+      "id": "mention_1db68f082b7f43a6b386fe8d",
       "type": "Place",
-      "title": "Deep Russia",
+      "title": "Interior of Russia",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ac21e50864da87c395b680e5",
+      "id": "mention_8bea1878dd71ecd2df8550de",
       "type": "Document",
       "title": "March 1946",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_69a6cf68da9506334cb811b0",
+      "type": "Community",
+      "title": "Refugees",
       "relation": "Appears in same passage"
     }
   ],

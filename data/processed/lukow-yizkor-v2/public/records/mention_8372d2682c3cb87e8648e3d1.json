@@ -2,16 +2,16 @@
   "id": "mention_8372d2682c3cb87e8648e3d1",
   "type": "Place",
   "title": "Galambek",
-  "summary": "Work location where camp prisoners were required to labor.",
+  "summary": "Worksite where deported prisoners were required to labor.",
   "originalName": "גאלאמבעק",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 426,
   "printedPage": "422",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "work site",
-  "uncertaintyNote": "The location's exact identity is unclear.",
+  "subtype": "worksite",
+  "uncertaintyNote": "OCR may affect transliteration.",
   "evidenceRefs": [
     {
       "passageId": "passage_64fe22880789417c6c97ed4f",
@@ -21,12 +21,12 @@
       "printedPage": "422",
       "passageCharStart": 657,
       "passageCharEnd": 670,
-      "normalizedPassageCharStart": 557,
-      "normalizedPassageCharEnd": 569,
+      "normalizedPassageCharStart": 657,
+      "normalizedPassageCharEnd": 670,
       "pageCharStart": 1919,
       "pageCharEnd": 1932,
       "quote": "אי ן גאלאמבעק",
-      "normalizedQuote": "אין גאלאמבעק",
+      "normalizedQuote": "אי ן גאלאמבעק",
       "modelQuote": "אין גאלאמבעק",
       "bbox": {
         "left": 1500,
@@ -39,7 +39,7 @@
       "passageChecksum": "2f45a3416c44ce6b88be588b9eadcf4a13edba16974fad394a670f83811a10ca",
       "normalizedPassageChecksum": "ef14126a7c6ca12a4dec3b4dc1fa2b16d92f8ad1f8abca77e6c7c8a9120cba75",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,27 +47,27 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_ef8d59755f5d16b3dee5b7dc",
+      "id": "mention_d50722dc2114d4513a25e4be",
       "type": "Person",
-      "title": "Hersh Leizer Lender",
+      "title": "Hersh Leizer Lander",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d50fd245aead4a4112747545",
-      "type": "Institution",
-      "title": "Lukow Jewish Council",
+      "id": "mention_4ef4309d299e1dd6cfea5def",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9c01f1ccce748fdbbc7452f5",
+      "id": "mention_63d29029787c02b0d81d970c",
       "type": "Place",
-      "title": "Biala",
+      "title": "Biała",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e028b7dbd584e75add7da67f",
+      "id": "mention_3757a8df8dd52afeafd6d7a3",
       "type": "Place",
-      "title": "Damenin camp",
+      "title": "Damminin camp",
       "relation": "Appears in same passage"
     }
   ],

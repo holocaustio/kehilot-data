@@ -2,10 +2,10 @@
   "id": "mention_73451677353735872dde053a",
   "type": "Person",
   "title": "Abraham",
-  "summary": "The younger son who sought his future in Warsaw.",
+  "summary": "The younger son sought his future in Warsaw.",
   "originalName": "אברהם",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 291,
   "printedPage": "287",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "287",
       "passageCharStart": 56,
       "passageCharEnd": 81,
-      "normalizedPassageCharStart": 50,
-      "normalizedPassageCharEnd": 72,
+      "normalizedPassageCharStart": 56,
+      "normalizedPassageCharEnd": 81,
       "pageCharStart": 56,
       "pageCharEnd": 81,
       "quote": "דע ר צוױיטע ר זון , אברהם",
-      "normalizedQuote": "דער צוױיטער זון, אברהם",
+      "normalizedQuote": "דע ר צוױיטע ר זון , אברהם",
       "modelQuote": "דער צוױיטער זון, אברהם",
       "bbox": {
         "left": 1075,
@@ -37,19 +37,20 @@
       "passageChecksum": "a694f0809311beb6f39e48d6a23886147319a4b5f89cf96858da5cf150a6a5ca",
       "normalizedPassageChecksum": "fe0978c15b625c887d2b91cf9c26ded28e70496e52b55bd6f96903fa71199672",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_86a2d6039b6326c24dbc8d5d",
+      "id": "claim_candidate_ecd7169cdea2331bfda86f62",
       "predicate": "Sought Future In",
       "subjectTitle": "Abraham",
       "objectTitle": "Warsaw",
-      "confidence": "HIGH",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says he sought his future there, not explicitly that he migrated.",
       "qualifiers": {
-        "meaning": "sought his future in Warsaw"
+        "wording": "sought his future"
       },
       "evidence": {
         "passageId": "passage_76d377dc2e98738b4474df15",
@@ -57,18 +58,18 @@
         "scanIndex": 291,
         "leafNumber": 290,
         "printedPage": "287",
-        "passageCharStart": 56,
+        "passageCharStart": 84,
         "passageCharEnd": 120,
-        "normalizedPassageCharStart": 50,
-        "normalizedPassageCharEnd": 106,
-        "pageCharStart": 56,
+        "normalizedPassageCharStart": 84,
+        "normalizedPassageCharEnd": 120,
+        "pageCharStart": 84,
         "pageCharEnd": 120,
-        "quote": "דע ר צוױיטע ר זון , אברהם , הא ט געזוכ ט זי ץ\nצוקונפט אי ן װארשע",
-        "normalizedQuote": "דער צוױיטער זון, אברהם, האט געזוכט זיץ צוקונפט אין װארשע",
-        "modelQuote": "דער צוױיטער זון, אברהם, האט געזוכט זיץ צוקונפט אין װארשע",
+        "quote": "הא ט געזוכ ט זי ץ\nצוקונפט אי ן װארשע",
+        "normalizedQuote": "הא ט געזוכ ט זי ץ\nצוקונפט אי ן װארשע",
+        "modelQuote": "האט געזוכט זיץ צוקונפט אין װארשע",
         "bbox": {
           "left": 485,
-          "top": 870,
+          "top": 872,
           "right": 2943,
           "bottom": 1034
         },
@@ -77,7 +78,7 @@
         "passageChecksum": "a694f0809311beb6f39e48d6a23886147319a4b5f89cf96858da5cf150a6a5ca",
         "normalizedPassageChecksum": "fe0978c15b625c887d2b91cf9c26ded28e70496e52b55bd6f96903fa71199672",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -85,27 +86,27 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Sought Future In"
     },
     {
-      "id": "mention_0bd115f198b3e099be6b9a86",
+      "id": "mention_d9f613a179c1f8afab2b548d",
       "type": "Person",
-      "title": "Matl",
+      "title": "Mottel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_28b0c6e8afcb195d44c682ec",
+      "id": "mention_6460360517173064ebeb7dcc",
       "type": "Person",
-      "title": "Prumki",
+      "title": "Frumke",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_56012431f561703b616b0c82",
+      "id": "mention_9d1b2b88b97e95b2a056f8fe",
       "type": "Person",
-      "title": "Dovke Weinzicher",
+      "title": "Dov Weinzicher",
       "relation": "Appears in same passage"
     },
     {
@@ -115,13 +116,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_da9d4f01a5006f522b306478",
-      "type": "Person",
-      "title": "Rabbi Notele Weigzicher",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Appears in same passage"

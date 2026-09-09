@@ -5,13 +5,11 @@
   "summary": "Worked for photographer Migdal and attended a meeting.",
   "originalName": "העניעק פון טערעםפאל",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 140,
   "printedPage": "136",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "person",
-  "uncertaintyNote": "The OCR may distort the place or surname.",
   "evidenceRefs": [
     {
       "passageId": "passage_bb4349f05d12bc26a1fad7f5",
@@ -21,12 +19,12 @@
       "printedPage": "136",
       "passageCharStart": 596,
       "passageCharEnd": 667,
-      "normalizedPassageCharStart": 513,
-      "normalizedPassageCharEnd": 576,
+      "normalizedPassageCharStart": 596,
+      "normalizedPassageCharEnd": 667,
       "pageCharStart": 1920,
       "pageCharEnd": 1991,
       "quote": "העניעק פו ן טערעםפאל , װא ם הא ט געארבע ט ב ײ מיגדאל ן דע ם פאטאגראפיסט",
-      "normalizedQuote": "העניעק פון טערעםפאל, װאם האט געארבעט בײ מיגדאלן דעם פאטאגראפיסט",
+      "normalizedQuote": "העניעק פו ן טערעםפאל , װא ם הא ט געארבע ט ב ײ מיגדאל ן דע ם פאטאגראפיסט",
       "modelQuote": "העניעק פון טערעםפאל, װאם האט געארבעט בײ מיגדאלן דעם פאטאגראפיסט",
       "bbox": {
         "left": 807,
@@ -39,18 +37,18 @@
       "passageChecksum": "7f44f16af71af8f9494bdb49dcebf67043aeeef8cb8f7d7ab486fd7573538700",
       "normalizedPassageChecksum": "a931ef147ee17944a0a6abfab428e3b91f2c43073c1ac64705e1750540795ac8",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_45b999d615eb07690fd7e2b5",
-      "predicate": "Worked For",
+      "id": "claim_candidate_6c19872d21e75da8636c7d81",
+      "predicate": "Worked At",
       "subjectTitle": "Heniek of Teremfal",
       "objectTitle": "Migdal, the photographer",
       "confidence": "MEDIUM",
-      "uncertaintyNote": "The text identifies Migdal as a photographer, but does not clearly establish a formal business name.",
+      "uncertaintyNote": "The wording may identify a photographer named Migdal; the exact business or institution is unclear.",
       "evidence": {
         "passageId": "passage_bb4349f05d12bc26a1fad7f5",
         "pageId": "page_nybc301551_0140",
@@ -59,12 +57,12 @@
         "printedPage": "136",
         "passageCharStart": 629,
         "passageCharEnd": 667,
-        "normalizedPassageCharStart": 542,
-        "normalizedPassageCharEnd": 576,
+        "normalizedPassageCharStart": 629,
+        "normalizedPassageCharEnd": 667,
         "pageCharStart": 1953,
         "pageCharEnd": 1991,
         "quote": "געארבע ט ב ײ מיגדאל ן דע ם פאטאגראפיסט",
-        "normalizedQuote": "געארבעט בײ מיגדאלן דעם פאטאגראפיסט",
+        "normalizedQuote": "געארבע ט ב ײ מיגדאל ן דע ם פאטאגראפיסט",
         "modelQuote": "געארבעט בײ מיגדאלן דעם פאטאגראפיסט",
         "bbox": {
           "left": 807,
@@ -77,53 +75,80 @@
         "passageChecksum": "7f44f16af71af8f9494bdb49dcebf67043aeeef8cb8f7d7ab486fd7573538700",
         "normalizedPassageChecksum": "a931ef147ee17944a0a6abfab428e3b91f2c43073c1ac64705e1750540795ac8",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_e8dbb5ebd878571159c0898f",
+      "type": "Meeting",
+      "title": "Founding meeting of the group",
+      "summary": "The first meeting was planned and held at Leah Factor’s home near the cemetery; participants then decided to recruit members.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text describes a first meeting, but does not explicitly state that an organization was founded.",
+      "evidence": {
+        "passageId": "passage_bb4349f05d12bc26a1fad7f5",
+        "pageId": "page_nybc301551_0140",
+        "scanIndex": 140,
+        "leafNumber": 139,
+        "printedPage": "136",
+        "passageCharStart": 256,
+        "passageCharEnd": 324,
+        "normalizedPassageCharStart": 256,
+        "normalizedPassageCharEnd": 324,
+        "pageCharStart": 1580,
+        "pageCharEnd": 1648,
+        "quote": "מי ר האב ן באשלאס ן צ ו רופ ן ד י ערשט ע זיצונ ג דע ם קומענדיק ן שבת",
+        "normalizedQuote": "מי ר האב ן באשלאס ן צ ו רופ ן ד י ערשט ע זיצונ ג דע ם קומענדיק ן שבת",
+        "modelQuote": "מיר האבן באשלאסן צו רופן די ערשטע זיצונג דעם קומענדיקן שבת",
+        "bbox": {
+          "left": 699,
+          "top": 3335,
+          "right": 2905,
+          "bottom": 3411
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n139/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "7f44f16af71af8f9494bdb49dcebf67043aeeef8cb8f7d7ab486fd7573538700",
+        "normalizedPassageChecksum": "a931ef147ee17944a0a6abfab428e3b91f2c43073c1ac64705e1750540795ac8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_de2b590a4093a24049f15531",
+      "id": "event_candidate_e8dbb5ebd878571159c0898f",
+      "type": "Event",
+      "title": "Founding meeting of the group",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_9c4d641b53d1a0a021e2fceb",
       "type": "Person",
-      "title": "Roize Fishbein",
+      "title": "Royze Fishbein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_40360c2818ab5d53ba2ef962",
+      "id": "mention_dd80ebdc82aa90ef5ce71908",
       "type": "Person",
-      "title": "Leah Factor",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_370cd7a4261f0bc84e2d84b6",
-      "type": "Person",
-      "title": "Meir Saltzman",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_1492451fcfecb8d7bc2f20af",
-      "type": "Person",
-      "title": "Zatul Rosenzum",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_16a20cecbcf90d1189be8422",
-      "type": "Place",
-      "title": "Paris",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_458ee8b8395f7a85e227dac1",
-      "type": "Place",
-      "title": "Cemetery",
+      "title": "Meir Zaltzman",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_eac628c3b5dd22c69cd62d77",
       "type": "Place",
       "title": "Siedlce",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_16a20cecbcf90d1189be8422",
+      "type": "Place",
+      "title": "Paris",
       "relation": "Appears in same passage"
     }
   ],

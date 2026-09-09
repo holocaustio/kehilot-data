@@ -2,10 +2,10 @@
   "id": "mention_f81b59c5aaf46a13e4740de8",
   "type": "Person",
   "title": "Narrator",
-  "summary": "The unnamed narrator wrote letters for Mralik and later visited him.",
-  "originalName": "איך",
-  "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "summary": "The narrator wrote Mralik’s letters and later visited him in Warsaw.",
+  "originalName": "מיך",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 171,
   "printedPage": "167",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,12 +21,12 @@
       "printedPage": "167",
       "passageCharStart": 506,
       "passageCharEnd": 574,
-      "normalizedPassageCharStart": 426,
-      "normalizedPassageCharEnd": 482,
+      "normalizedPassageCharStart": 506,
+      "normalizedPassageCharEnd": 574,
       "pageCharStart": 1577,
       "pageCharEnd": 1645,
       "quote": "הא ט ע ר מי ך געבעטן , א ז אי ך זא ל אי ם שרײב ן ד י ברױ ו צו ם מײדל",
-      "normalizedQuote": "האט ער מיך געבעטן, אז איך זאל אים שרײבן די ברױו צום מײדל",
+      "normalizedQuote": "הא ט ע ר מי ך געבעטן , א ז אי ך זא ל אי ם שרײב ן ד י ברױ ו צו ם מײדל",
       "modelQuote": "האט ער מיך געבעטן, אז איך זאל אים שרײבן די ברױו צום מײדל",
       "bbox": {
         "left": 773,
@@ -39,18 +39,19 @@
       "passageChecksum": "a0e6a4e3946e44f255b37cb32a3539e6c0af358bed2a7642db34ea711e1ce0c6",
       "normalizedPassageChecksum": "28187b51014dbe8f090b0ff9d05285eb1eff8a762077e3552a107e02f0ce79f4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_ba43914d15b69dc19a4074a9",
+      "id": "event_candidate_157a98e56be8ce67b73f451a",
       "type": "Marriage",
-      "title": "Mralik's marriage",
-      "summary": "Mralik said he married the woman after receiving letters written by the narrator.",
+      "title": "Mralik’s marriage",
+      "summary": "Mralik said the narrator’s letters helped the woman marry him.",
       "confidence": "HIGH",
+      "uncertaintyNote": "The wife’s identity is not given.",
       "evidence": {
         "passageId": "passage_2ee6eacf967e11a6acf224e0",
         "pageId": "page_nybc301551_0171",
@@ -59,12 +60,12 @@
         "printedPage": "167",
         "passageCharStart": 1189,
         "passageCharEnd": 1240,
-        "normalizedPassageCharStart": 1004,
-        "normalizedPassageCharEnd": 1048,
+        "normalizedPassageCharStart": 1189,
+        "normalizedPassageCharEnd": 1240,
         "pageCharStart": 2260,
         "pageCharEnd": 2311,
         "quote": "א דאנ ק דיינ ע\nבריװ הא ט ז י חתונ ה געהא ט מי ט מיר",
-        "normalizedQuote": "א דאנק דיינע בריװ האט זי חתונה געהאט מיט מיר",
+        "normalizedQuote": "א דאנ ק דיינ ע\nבריװ הא ט ז י חתונ ה געהא ט מי ט מיר",
         "modelQuote": "א דאנק דיינע בריװ האט זי חתונה געהאט מיט מיר",
         "bbox": {
           "left": 477,
@@ -77,53 +78,35 @@
         "passageChecksum": "a0e6a4e3946e44f255b37cb32a3539e6c0af358bed2a7642db34ea711e1ce0c6",
         "normalizedPassageChecksum": "28187b51014dbe8f090b0ff9d05285eb1eff8a762077e3552a107e02f0ce79f4",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_ba43914d15b69dc19a4074a9",
+      "id": "event_candidate_157a98e56be8ce67b73f451a",
       "type": "Event",
-      "title": "Mralik's marriage",
+      "title": "Mralik’s marriage",
       "relation": "Participated In",
-      "role": "Witness"
+      "role": "Author"
     },
     {
-      "id": "mention_2169ca4cc835c650bbdd29fa",
-      "type": "Person",
-      "title": "Mralik",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b08914c398ed78ad5ee38856",
-      "type": "Place",
-      "title": "Radzin",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e34bd90eb7d3a1b75dabe458",
-      "type": "Place",
-      "title": "Kotsk",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_27c2cf7cb936dbdec937bf2c",
-      "type": "Person",
-      "title": "Mralik's wife",
+      "id": "mention_811a8cda85d7ff1757c52f69",
+      "type": "Place",
+      "title": "Land of Israel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6de49a992a210fd4743d8159",
-      "type": "Place",
-      "title": "Land of Israel",
+      "id": "mention_7404109dac0b692c851467d9",
+      "type": "Person",
+      "title": "Mralik",
       "relation": "Appears in same passage"
     }
   ],

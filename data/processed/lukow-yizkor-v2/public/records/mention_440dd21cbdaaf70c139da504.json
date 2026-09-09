@@ -2,16 +2,16 @@
   "id": "mention_440dd21cbdaaf70c139da504",
   "type": "Place",
   "title": "Kuzhnia",
-  "summary": "A place mentioned as another endpoint of the market.",
+  "summary": "A location named as another boundary of the market.",
   "originalName": "קוזשניע",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 291,
   "printedPage": "287",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "place",
-  "uncertaintyNote": "The OCR does not make the place type fully clear.",
+  "subtype": "street",
+  "uncertaintyNote": "The text does not clearly establish whether this is a street or another place.",
   "evidenceRefs": [
     {
       "passageId": "passage_af97bb9ae2fdaf42a66738b0",
@@ -21,12 +21,12 @@
       "printedPage": "287",
       "passageCharStart": 1029,
       "passageCharEnd": 1046,
-      "normalizedPassageCharStart": 898,
-      "normalizedPassageCharEnd": 913,
+      "normalizedPassageCharStart": 1029,
+      "normalizedPassageCharEnd": 1046,
       "pageCharStart": 2243,
       "pageCharEnd": 2260,
       "quote": "או ן דע ר קוזשניע",
-      "normalizedQuote": "און דער קוזשניע",
+      "normalizedQuote": "או ן דע ר קוזשניע",
       "modelQuote": "און דער קוזשניע",
       "bbox": {
         "left": 2473,
@@ -39,7 +39,7 @@
       "passageChecksum": "186622c3c365a51d5a91c3f146c35e6695db215ef76304ff2a1c439df74946da",
       "normalizedPassageChecksum": "61b62868b79af1d7ca609a32a26bb2756e23579f3ab68e798f37d8d38a90f4b5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,27 +47,33 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_669110e7c5ab9adcd55fdc19",
-      "type": "Place",
-      "title": "Warsaw Street",
+      "id": "mention_28ee13f2bda5863eb18863cc",
+      "type": "Community",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_24c7dd916375f36e84c6377e",
+      "id": "mention_896266f8aa168484e5cfb141",
       "type": "Person",
       "title": "Ichenberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3bf743e7b05e0ba8476dfa40",
+      "id": "mention_659f51084d11aee539c6bb01",
       "type": "Place",
-      "title": "Market square",
+      "title": "Market Square",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4dbed7c2763e59984b761f9f",
+      "id": "mention_f333e690e7cd7c0863aff1f1",
       "type": "Place",
-      "title": "Zhelechow Road",
+      "title": "Zelechów Road",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fdfbf41a29a800d29f3cbd2",
+      "type": "Place",
+      "title": "Brewery Road",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,105 @@
+{
+  "id": "mention_03294e87ea0bd1bed2d099ab",
+  "type": "Person",
+  "title": "Lieberman",
+  "summary": "A man who attacked an Obersturmbannführer and was subsequently shot.",
+  "originalName": "ליבערמאן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 357,
+  "printedPage": "353",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_87c3e3ca65fa892150c23e92",
+      "pageId": "page_nybc301551_0357",
+      "scanIndex": 357,
+      "leafNumber": 356,
+      "printedPage": "353",
+      "passageCharStart": 36,
+      "passageCharEnd": 44,
+      "normalizedPassageCharStart": 36,
+      "normalizedPassageCharEnd": 44,
+      "pageCharStart": 1055,
+      "pageCharEnd": 1063,
+      "quote": "ליבערמאן",
+      "normalizedQuote": "ליבערמאן",
+      "modelQuote": "ליבערמאן",
+      "bbox": {
+        "left": 1462,
+        "top": 2718,
+        "right": 1836,
+        "bottom": 2790
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n356/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "b6712dde1ecd098720829809c6f80a5baf7745646b88f959a9ad2685441e1a24",
+      "normalizedPassageChecksum": "b28b2084b0c1912a68eb884153a92c6c4ecf152f445a4493d1e87aa8c64d1bfb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_12de57cbc71c432af379fce6",
+      "type": "Murder",
+      "title": "Lieberman is shot",
+      "summary": "An Obersturmbannführer shoots Lieberman after Lieberman attacks him.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_87c3e3ca65fa892150c23e92",
+        "pageId": "page_nybc301551_0357",
+        "scanIndex": 357,
+        "leafNumber": 356,
+        "printedPage": "353",
+        "passageCharStart": 507,
+        "passageCharEnd": 543,
+        "normalizedPassageCharStart": 507,
+        "normalizedPassageCharEnd": 543,
+        "pageCharStart": 1526,
+        "pageCharEnd": 1562,
+        "quote": "דערשים ט ליבערמאנע ן מי ט צװ ײ קוילן",
+        "normalizedQuote": "דערשים ט ליבערמאנע ן מי ט צװ ײ קוילן",
+        "modelQuote": "דערשיםט ליבערמאנען מיט צװײ קוילן",
+        "bbox": {
+          "left": 1640,
+          "top": 3346,
+          "right": 2908,
+          "bottom": 3428
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n356/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b6712dde1ecd098720829809c6f80a5baf7745646b88f959a9ad2685441e1a24",
+        "normalizedPassageChecksum": "b28b2084b0c1912a68eb884153a92c6c4ecf152f445a4493d1e87aa8c64d1bfb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_12de57cbc71c432af379fce6",
+      "type": "Event",
+      "title": "Lieberman is shot",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_52b5d0d234a11c0d6df9ba5f",
+      "type": "Person",
+      "title": "Mrs. Burshtin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ae30152269cbbcbeaf07d682",
+      "type": "Organization",
+      "title": "Judenrat",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

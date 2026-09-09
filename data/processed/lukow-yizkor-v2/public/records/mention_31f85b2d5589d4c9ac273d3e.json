@@ -2,15 +2,15 @@
   "id": "mention_31f85b2d5589d4c9ac273d3e",
   "type": "Person",
   "title": "Abigdor",
-  "summary": "Jewish butcher forced to clean the street and beaten by a German officer.",
+  "summary": "Butcher forced to carry manure and lie in it.",
   "originalName": "אביגדור",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 334,
   "printedPage": "330",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "victim",
+  "subtype": "butcher",
   "evidenceRefs": [
     {
       "passageId": "passage_38aa977fbdb9bb70aa72646a",
@@ -20,12 +20,12 @@
       "printedPage": "330",
       "passageCharStart": 485,
       "passageCharEnd": 502,
-      "normalizedPassageCharStart": 420,
-      "normalizedPassageCharEnd": 435,
+      "normalizedPassageCharStart": 485,
+      "normalizedPassageCharEnd": 502,
       "pageCharStart": 485,
       "pageCharEnd": 502,
       "quote": "דע ר קצ ב אביגדור",
-      "normalizedQuote": "דער קצב אביגדור",
+      "normalizedQuote": "דע ר קצ ב אביגדור",
       "modelQuote": "דער קצב אביגדור",
       "bbox": {
         "left": 752,
@@ -38,61 +38,54 @@
       "passageChecksum": "2f72a0567900fbbcda6967b02d558ab5c4c98d36e0c96cbe315e7b0d6e9df9cc",
       "normalizedPassageChecksum": "6d9d651ff95af386672e02c0090be7f0e34a71f94817d693a98984b1355bb31c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
+  "claims": [],
+  "events": [
     {
-      "id": "claim_candidate_0f2ee2369a73319d11a64665",
-      "predicate": "Has Occupation",
-      "subjectTitle": "Abigdor",
-      "objectTitle": "Łuków",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The text explicitly identifies Abigdor as a butcher, but does not state where he worked.",
+      "id": "event_candidate_f524c03e91b628088e223b57",
+      "type": "Employment",
+      "title": "Forced labor imposed on Abigdor",
+      "summary": "Abigdor was forced to carry manure and lie in it while cleaning the street.",
+      "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_38aa977fbdb9bb70aa72646a",
         "pageId": "page_nybc301551_0334",
         "scanIndex": 334,
         "leafNumber": 333,
         "printedPage": "330",
-        "passageCharStart": 485,
-        "passageCharEnd": 502,
-        "normalizedPassageCharStart": 420,
-        "normalizedPassageCharEnd": 435,
-        "pageCharStart": 485,
-        "pageCharEnd": 502,
-        "quote": "דע ר קצ ב אביגדור",
-        "normalizedQuote": "דער קצב אביגדור",
-        "modelQuote": "דער קצב אביגדור",
+        "passageCharStart": 809,
+        "passageCharEnd": 856,
+        "normalizedPassageCharStart": 809,
+        "normalizedPassageCharEnd": 856,
+        "pageCharStart": 809,
+        "pageCharEnd": 856,
+        "quote": "אביגדו ר הא ט א גאנצ ן טא ג געטראג ן דא ם מים ט",
+        "normalizedQuote": "אביגדו ר הא ט א גאנצ ן טא ג געטראג ן דא ם מים ט",
+        "modelQuote": "אביגדור האטא גאנצן טאג געטראגן דאם מיםט",
         "bbox": {
-          "left": 752,
-          "top": 1865,
-          "right": 1424,
-          "bottom": 1927
+          "left": 630,
+          "top": 2281,
+          "right": 2322,
+          "bottom": 2345
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n333/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "2f72a0567900fbbcda6967b02d558ab5c4c98d36e0c96cbe315e7b0d6e9df9cc",
         "normalizedPassageChecksum": "6d9d651ff95af386672e02c0090be7f0e34a71f94817d693a98984b1355bb31c",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
   "connections": [
     {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
-      "type": "Place",
-      "title": "Łuków",
-      "relation": "Has Occupation"
-    },
-    {
-      "id": "event_candidate_9e87560f4849657130fb52d8",
+      "id": "event_candidate_f524c03e91b628088e223b57",
       "type": "Event",
-      "title": "Forced street cleaning of Abigdor",
+      "title": "Forced labor imposed on Abigdor",
       "relation": "Participated In",
       "role": "Subject"
     },
@@ -103,21 +96,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
       "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6ebade7922bf280f32723557",
+      "id": "mention_76301e2ac4606782b1048c9c",
       "type": "Place",
-      "title": "Brest",
+      "title": "Łuków ghetto",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5936d51c1e8035704f34e05b",
-      "type": "Place",
-      "title": "Łuków Ghetto",
+      "id": "mention_d8b6da447ca95c612d76cbb6",
+      "type": "Organization",
+      "title": "Red Army",
       "relation": "Appears in same passage"
     }
   ],

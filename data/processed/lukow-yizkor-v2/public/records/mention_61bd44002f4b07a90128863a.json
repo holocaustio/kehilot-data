@@ -1,0 +1,124 @@
+{
+  "id": "mention_61bd44002f4b07a90128863a",
+  "type": "Institution",
+  "title": "Cooperative Cashier at the Starostwo",
+  "summary": "A cooperative cashier where the narrator was taken and detained.",
+  "originalName": "קאאפעראטיװער קאםע בײ דער םטאראסטװע",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 434,
+  "printedPage": "430",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cooperative cashier",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fc9eba90ee98cdd9d4bce71e",
+      "pageId": "page_nybc301551_0434",
+      "scanIndex": 434,
+      "leafNumber": 433,
+      "printedPage": "430",
+      "passageCharStart": 26,
+      "passageCharEnd": 74,
+      "normalizedPassageCharStart": 26,
+      "normalizedPassageCharEnd": 74,
+      "pageCharStart": 2229,
+      "pageCharEnd": 2277,
+      "quote": "אי ן דע ר קאאפעראטיװע ר קאם ע ב ײ דע ר םטאראסטװע",
+      "normalizedQuote": "אי ן דע ר קאאפעראטיװע ר קאם ע ב ײ דע ר םטאראסטװע",
+      "modelQuote": "אין דער קאאפעראטיװער קאםע בײ דער םטאראסטװע",
+      "bbox": {
+        "left": 475,
+        "top": 3801,
+        "right": 2229,
+        "bottom": 3867
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n433/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "c0e344994fedd8f9d6bbfa28054f213be33edf16932afdd964a719e04c37cf38",
+      "normalizedPassageChecksum": "5947a8547aebc2dd22a4854b3aaf7040ddaba5874a957389d0a576e7f0ce452a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b03ad730f3a3ae415a66abba",
+      "type": "Arrest",
+      "title": "Detention of local residents",
+      "summary": "The narrator and named local residents were detained by Gestapo personnel and a Polish policeman.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR contains an unclear character and the passage lists detainees without a fully explicit arrest narrative.",
+      "evidence": {
+        "passageId": "passage_fc9eba90ee98cdd9d4bce71e",
+        "pageId": "page_nybc301551_0434",
+        "scanIndex": 434,
+        "leafNumber": 433,
+        "printedPage": "430",
+        "passageCharStart": 198,
+        "passageCharEnd": 246,
+        "normalizedPassageCharStart": 198,
+        "normalizedPassageCharEnd": 246,
+        "pageCharStart": 2401,
+        "pageCharEnd": 2449,
+        "quote": "פארשפאר ט 8 לוקאװע ר גלחים ׳ דע ר אדװאקא ט\nיאקוב",
+        "normalizedQuote": "פארשפאר ט 8 לוקאװע ר גלחים ׳ דע ר אדװאקא ט\nיאקוב",
+        "modelQuote": "פארשפארט8 לוקאװער גלחים׳ דער אדװאקאט יאקוב",
+        "bbox": {
+          "left": 461,
+          "top": 3995,
+          "right": 2981,
+          "bottom": 4181
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n433/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "c0e344994fedd8f9d6bbfa28054f213be33edf16932afdd964a719e04c37cf38",
+        "normalizedPassageChecksum": "5947a8547aebc2dd22a4854b3aaf7040ddaba5874a957389d0a576e7f0ce452a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b03ad730f3a3ae415a66abba",
+      "type": "Event",
+      "title": "Detention of local residents",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3dd4da223ac14bab87b4fe4",
+      "type": "Person",
+      "title": "Jakub",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2202a898c35b0b03bca9b406",
+      "type": "Person",
+      "title": "Filipek",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c0f9407284dbf5b1250069d8",
+      "type": "Person",
+      "title": "Sane Brinzl",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6885c05e5190e9fb8ff3b5db",
+      "type": "Person",
+      "title": "Simha Lender",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

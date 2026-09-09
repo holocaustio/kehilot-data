@@ -1,16 +1,16 @@
 {
   "id": "mention_001145d2c86a051e17294545",
   "type": "Community",
-  "title": "Jews from Holland",
-  "summary": "Group of Jewish prisoners working alongside the narrator.",
+  "title": "Jews from the Netherlands",
+  "summary": "Dutch Jewish prisoners worked alongside the narrator.",
   "originalName": "פון האלאנד",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 468,
   "printedPage": "464",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "national_group",
+  "subtype": "ethnic or national group",
   "evidenceRefs": [
     {
       "passageId": "passage_7ee54db9daf2faf83bcb792e",
@@ -20,12 +20,12 @@
       "printedPage": "464",
       "passageCharStart": 1122,
       "passageCharEnd": 1133,
-      "normalizedPassageCharStart": 965,
-      "normalizedPassageCharEnd": 975,
+      "normalizedPassageCharStart": 1122,
+      "normalizedPassageCharEnd": 1133,
       "pageCharStart": 2068,
       "pageCharEnd": 2079,
       "quote": "פו ן האלאנד",
-      "normalizedQuote": "פון האלאנד",
+      "normalizedQuote": "פו ן האלאנד",
       "modelQuote": "פון האלאנד",
       "bbox": {
         "left": 781,
@@ -38,7 +38,7 @@
       "passageChecksum": "b2d4ee961f980f9cc9bcd4ce778d054d218e5bdd172c3fcdd6588f8fc5be6f62",
       "normalizedPassageChecksum": "6f7e6d222359d215f2f3d85e330c7fbe44b8478b03693c2d5bb77d23f2646795",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,21 +46,33 @@
   "events": [],
   "connections": [
     {
+      "id": "mention_6469fdf398126468faa1616c",
+      "type": "Person",
+      "title": "Halujs",
+      "relation": "Appears in same passage"
+    },
+    {
       "id": "mention_a912f3c6f89fae7ba412e144",
       "type": "Place",
       "title": "Upper Silesia",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_54d3423a747f793e67dabbfd",
+      "id": "mention_9c28a36c7ba78be075c81089",
       "type": "Community",
       "title": "Jews from France",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dcdf21408b657c69bfa1aab6",
+      "id": "mention_13a77b6eafd9b9a22bdef1eb",
       "type": "Community",
-      "title": "Polish Jews",
+      "title": "Jews from Greece",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7baa97cecc18597c7de238f4",
+      "type": "Community",
+      "title": "Jews from Hungary",
       "relation": "Appears in same passage"
     }
   ],

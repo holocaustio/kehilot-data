@@ -2,16 +2,16 @@
   "id": "mention_3928cca77d2963187937a829",
   "type": "Place",
   "title": "Abandoned ghetto",
-  "summary": "The group entered the abandoned ghetto at night to obtain clothing and supplies.",
+  "summary": "A former ghetto entered at night to retrieve clothing and supplies.",
   "originalName": "פא־לאזטן געטא",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 450,
   "printedPage": "446",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "ghetto",
-  "uncertaintyNote": "The OCR hyphenation makes the exact original wording uncertain.",
+  "uncertaintyNote": "The OCR contains a line-break hyphen.",
   "evidenceRefs": [
     {
       "passageId": "passage_68bd514bcf4257e9244a8089",
@@ -21,12 +21,12 @@
       "printedPage": "446",
       "passageCharStart": 933,
       "passageCharEnd": 953,
-      "normalizedPassageCharStart": 799,
-      "normalizedPassageCharEnd": 816,
+      "normalizedPassageCharStart": 933,
+      "normalizedPassageCharEnd": 953,
       "pageCharStart": 933,
       "pageCharEnd": 953,
       "quote": "אי ן פא־לאזט ן געט א",
-      "normalizedQuote": "אין פא־לאזטן געטא",
+      "normalizedQuote": "אי ן פא־לאזט ן געט א",
       "modelQuote": "אין פא־לאזטן געטא",
       "bbox": {
         "left": 456,
@@ -39,7 +39,7 @@
       "passageChecksum": "3560dc0c833a49b853fe2b312b5d24b559159fa1c1c14ca7f2e1a992ce550d25",
       "normalizedPassageChecksum": "14dcefa8439857ea325462af75a843e752abad97369e1c4a58a8bf1c3a156f52",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,45 +47,51 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_33b37ee2782114a111753cb8",
-      "type": "Place",
-      "title": "Lukow area",
+      "id": "mention_5e2b0ba272169a37e1f7e950",
+      "type": "Person",
+      "title": "Reuben Katz",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f583a98d3acd4627139e225b",
-      "type": "Community",
-      "title": "Jewish Community of Łuków",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_1913cda1ad4f5ee3c629642a",
-      "type": "Place",
-      "title": "Zbartchevsky forest",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e70fceebc8df0e780cc71baa",
-      "type": "Place",
-      "title": "Lazy",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8b02673697bda00eef20b9f7",
+      "id": "mention_7e1ae686eb5d4594fc627883",
       "type": "Family",
       "title": "Barnik family",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6432bf56606e7ca97976523c",
-      "type": "Person",
-      "title": "Reuven Barnik",
+      "id": "mention_e6a8376214346e360e770870",
+      "type": "Place",
+      "title": "Łuków area",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f0bad35ccf63843d1d31cd5f",
+      "id": "mention_be37822e0d02ca035148a5dc",
+      "type": "Community",
+      "title": "Łuków Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fe91d025b2f5a73a6fc9ee17",
       "type": "Place",
-      "title": "Galambek forest",
+      "title": "Zbartshevsky forest",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5ea577273d0a03a1d552356b",
+      "type": "Place",
+      "title": "Łazy",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7baaac370d75effec45cdda9",
+      "type": "Place",
+      "title": "Galombker forest",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_85e5bb815d24a0d1f7569b15",
+      "type": "Community",
+      "title": "Group of sixteen people",
       "relation": "Appears in same passage"
     }
   ],

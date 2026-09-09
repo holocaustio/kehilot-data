@@ -1,0 +1,118 @@
+{
+  "id": "mention_17173f669a8631614a1c6169",
+  "type": "Organization",
+  "title": "Nazi murderers",
+  "summary": "Nazi murderers killed people unable to escape antisemitic persecution.",
+  "originalName": "די נאצישע מערדער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 166,
+  "printedPage": "162",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "perpetrators",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2fcb00710faace849b255e6a",
+      "pageId": "page_nybc301551_0166",
+      "scanIndex": 166,
+      "leafNumber": 165,
+      "printedPage": "162",
+      "passageCharStart": 991,
+      "passageCharEnd": 1009,
+      "normalizedPassageCharStart": 991,
+      "normalizedPassageCharEnd": 1009,
+      "pageCharStart": 991,
+      "pageCharEnd": 1009,
+      "quote": "ד י נאציש ע מערדער",
+      "normalizedQuote": "ד י נאציש ע מערדער",
+      "modelQuote": "די נאצישע מערדער",
+      "bbox": {
+        "left": 2437,
+        "top": 4290,
+        "right": 3099,
+        "bottom": 4352
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n165/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "0f3b2785fe9a45e417aacde30eb9051cce6e2285149958afa0bba58fb7fb21f1",
+      "normalizedPassageChecksum": "8d3e86c4c70e2f96f4717c20b08985fe523bb581a3b05e571ac965fd6691f586",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_41271d39d126bd110840f2a0",
+      "predicate": "Murdered By",
+      "subjectTitle": "Nazi murderers",
+      "objectTitle": "Łuków Jewish community",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage says Łuków Jews were murdered by Nazi perpetrators, but does not specify the murder location.",
+      "evidence": {
+        "passageId": "passage_2fcb00710faace849b255e6a",
+        "pageId": "page_nybc301551_0166",
+        "scanIndex": 166,
+        "leafNumber": 165,
+        "printedPage": "162",
+        "passageCharStart": 961,
+        "passageCharEnd": 1009,
+        "normalizedPassageCharStart": 961,
+        "normalizedPassageCharEnd": 1009,
+        "pageCharStart": 961,
+        "pageCharEnd": 1009,
+        "quote": "זענע ן געװא ח אומגעבראכ ט\nפון ד י נאציש ע מערדער",
+        "normalizedQuote": "זענע ן געװא ח אומגעבראכ ט\nפון ד י נאציש ע מערדער",
+        "modelQuote": "זענען געװאח אומגעבראכט פון די נאצישע מערדער",
+        "bbox": {
+          "left": 471,
+          "top": 4186,
+          "right": 3099,
+          "bottom": 4352
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n165/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "0f3b2785fe9a45e417aacde30eb9051cce6e2285149958afa0bba58fb7fb21f1",
+        "normalizedPassageChecksum": "8d3e86c4c70e2f96f4717c20b08985fe523bb581a3b05e571ac965fd6691f586",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_be37822e0d02ca035148a5dc",
+      "type": "Community",
+      "title": "Łuków Jewish community",
+      "relation": "Murdered By"
+    },
+    {
+      "id": "mention_b3f1e4d192ad3120c252e90d",
+      "type": "Institution",
+      "title": "Łuków Jewish Sports Club",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2aed05877f9fe7c3ec09cee8",
+      "type": "Community",
+      "title": "Siedlce Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_be37822e0d02ca035148a5dc",
+      "type": "Community",
+      "title": "Łuków Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

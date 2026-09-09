@@ -2,10 +2,10 @@
   "id": "mention_eb99557fecd0ee41d6791f2b",
   "type": "Person",
   "title": "Yakov Fleishhaker",
-  "summary": "A Jewish man reportedly shot at Ragozhnitse.",
+  "summary": "Jewish man shot at Ragazhnitse labor camp.",
   "originalName": "יעקב פלײשהאקער",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 320,
   "printedPage": "316",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "316",
       "passageCharStart": 432,
       "passageCharEnd": 448,
-      "normalizedPassageCharStart": 370,
-      "normalizedPassageCharEnd": 384,
+      "normalizedPassageCharStart": 432,
+      "normalizedPassageCharEnd": 448,
       "pageCharStart": 2335,
       "pageCharEnd": 2351,
       "quote": "יעק ב פלײשהאקע ר",
-      "normalizedQuote": "יעקב פלײשהאקער",
+      "normalizedQuote": "יעק ב פלײשהאקע ר",
       "modelQuote": "יעקב פלײשהאקער",
       "bbox": {
         "left": 2059,
@@ -37,31 +37,56 @@
       "passageChecksum": "8aca52c6ad4f69cebad46982230f5bba848ebc1aaeadfcaa25ec603838c22faa",
       "normalizedPassageChecksum": "95a2bec8e1551adb91cef8a252523d51d027eef29d13559b542228ea2d400797",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_5a726bc2bad865a62c0cb9f9",
+      "type": "Murder",
+      "title": "Shootings at Ragazhnitse",
+      "summary": "Several Jews were shot at the Ragazhnitse forced-labor camp.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a6f9ea5cb9745c41edecc694",
+        "pageId": "page_nybc301551_0320",
+        "scanIndex": 320,
+        "leafNumber": 319,
+        "printedPage": "316",
+        "passageCharStart": 382,
+        "passageCharEnd": 472,
+        "normalizedPassageCharStart": 382,
+        "normalizedPassageCharEnd": 472,
+        "pageCharStart": 2285,
+        "pageCharEnd": 2375,
+        "quote": "מע ן הא ט דערשאם ן עטלעכ ע ײדן : לײב ל\nקארפענקאפ, יעק ב פלײשהאקע ר או ן שמוא ל לימעראװיט ש",
+        "normalizedQuote": "מע ן הא ט דערשאם ן עטלעכ ע ײדן : לײב ל\nקארפענקאפ, יעק ב פלײשהאקע ר או ן שמוא ל לימעראװיט ש",
+        "modelQuote": "מען האט דערשאםן עטלעכע ײדן: לײבל קארפענקאפ, יעקב פלײשהאקער און שמואל לימעראװיטש",
+        "bbox": {
+          "left": 469,
+          "top": 4283,
+          "right": 2801,
+          "bottom": 4471
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n319/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "8aca52c6ad4f69cebad46982230f5bba848ebc1aaeadfcaa25ec603838c22faa",
+        "normalizedPassageChecksum": "95a2bec8e1551adb91cef8a252523d51d027eef29d13559b542228ea2d400797",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "event_candidate_22e64b11b4f0a3da3d58b95f",
+      "id": "event_candidate_5a726bc2bad865a62c0cb9f9",
       "type": "Event",
-      "title": "Shootings at Ragozhnitse",
+      "title": "Shootings at Ragazhnitse",
       "relation": "Participated In",
       "role": "Victim"
-    },
-    {
-      "id": "mention_e0b24b76db7a28c9e7d4c5a3",
-      "type": "Place",
-      "title": "Ragozhnitse",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5ea76459ad0c6e551697d2f5",
-      "type": "Place",
-      "title": "Mezritch",
-      "relation": "Appears in same passage"
     },
     {
       "id": "mention_2d466dc4ad82b7328d55eb60",
@@ -70,9 +95,27 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_528f6c528dde9f4f8be22e4d",
+      "id": "mention_c10d944366c01d946849860c",
       "type": "Person",
-      "title": "Shmuel Limerovich",
+      "title": "Shmuel Limerowitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_195f3591b6700c5fc5fbb9f0",
+      "type": "Place",
+      "title": "Lapiguz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_832fdf6fddfe361ad31cc3fd",
+      "type": "Place",
+      "title": "Ragazhnitse",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b57a9d4ac500fc615601a8df",
+      "type": "Place",
+      "title": "Mezeritch",
       "relation": "Appears in same passage"
     }
   ],

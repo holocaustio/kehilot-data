@@ -1,0 +1,111 @@
+{
+  "id": "mention_30ce5ddef356f9127e945abe",
+  "type": "Person",
+  "title": "Mordechai",
+  "summary": "The narrator's brother who jumped first from a train and was shot by Germans.",
+  "originalName": "מרדכי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 519,
+  "printedPage": "515",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a3aa6c3d5e5aff2aead775af",
+      "pageId": "page_nybc301551_0519",
+      "scanIndex": 519,
+      "leafNumber": 518,
+      "printedPage": "515",
+      "passageCharStart": 564,
+      "passageCharEnd": 611,
+      "normalizedPassageCharStart": 564,
+      "normalizedPassageCharEnd": 611,
+      "pageCharStart": 1745,
+      "pageCharEnd": 1792,
+      "quote": "דע ר גור ל אי ז געפאל ן אוי ף\nמיץ ברודע ר מרדכי",
+      "normalizedQuote": "דע ר גור ל אי ז געפאל ן אוי ף\nמיץ ברודע ר מרדכי",
+      "modelQuote": "דער גורל איז געפאלן אויף מיץ ברודער מרדכי",
+      "bbox": {
+        "left": 460,
+        "top": 3178,
+        "right": 3080,
+        "bottom": 3352
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n518/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "08165b94c1b6248de6c0812f02996c39120da475888b2495100f3ca5d7e42af4",
+      "normalizedPassageChecksum": "79df9fcfbf088f471ca35af8c7b3dc847d5c6863de49ee79c889d1c3ca01cd8f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_7316d7af6b0aa1815bc068fc",
+      "type": "Deportation",
+      "title": "Mordechai's train escape attempt",
+      "summary": "Mordechai jumped first from a train during the final Aktion in Łuków and was shot.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a3aa6c3d5e5aff2aead775af",
+        "pageId": "page_nybc301551_0519",
+        "scanIndex": 519,
+        "leafNumber": 518,
+        "printedPage": "515",
+        "passageCharStart": 614,
+        "passageCharEnd": 678,
+        "normalizedPassageCharStart": 614,
+        "normalizedPassageCharEnd": 678,
+        "pageCharStart": 1795,
+        "pageCharEnd": 1859,
+        "quote": "ע ר אי ז געשפרונגע ן דע ר ערשטער . ד י דײטש ן האב ן אי ם דערשאםן",
+        "normalizedQuote": "ע ר אי ז געשפרונגע ן דע ר ערשטער . ד י דײטש ן האב ן אי ם דערשאםן",
+        "modelQuote": "ער איז געשפרונגען דער ערשטער. די דײטשן האבן אים דערשאםן",
+        "bbox": {
+          "left": 478,
+          "top": 3292,
+          "right": 2558,
+          "bottom": 3366
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n518/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "08165b94c1b6248de6c0812f02996c39120da475888b2495100f3ca5d7e42af4",
+        "normalizedPassageChecksum": "79df9fcfbf088f471ca35af8c7b3dc847d5c6863de49ee79c889d1c3ca01cd8f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_7316d7af6b0aa1815bc068fc",
+      "type": "Event",
+      "title": "Mordechai's train escape attempt",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_806ce78ff1cbba4c3e9030f6",
+      "type": "Person",
+      "title": "Mordechai Gerecht",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d0cc1f39b4d42e016c7b5345",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

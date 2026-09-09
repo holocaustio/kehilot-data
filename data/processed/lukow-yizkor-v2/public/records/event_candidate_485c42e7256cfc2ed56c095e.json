@@ -1,0 +1,76 @@
+{
+  "id": "event_candidate_485c42e7256cfc2ed56c095e",
+  "type": "Event",
+  "title": "Murder of narrator’s mother and brother",
+  "summary": "Poles killed the narrator’s mother and brother in the same village near the end of 1943.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 411,
+  "printedPage": "407",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9c7d1b0b82b7a27f8fff600b",
+      "pageId": "page_nybc301551_0411",
+      "scanIndex": 411,
+      "leafNumber": 410,
+      "printedPage": "407",
+      "passageCharStart": 499,
+      "passageCharEnd": 518,
+      "normalizedPassageCharStart": 499,
+      "normalizedPassageCharEnd": 518,
+      "pageCharStart": 499,
+      "pageCharEnd": 518,
+      "quote": "הפולני ם הרג ו אותם",
+      "normalizedQuote": "הפולני ם הרג ו אותם",
+      "modelQuote": "הפולנים הרגו אותם",
+      "bbox": {
+        "left": 1792,
+        "top": 1503,
+        "right": 2452,
+        "bottom": 1567
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n410/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "62d13de3c271fcfe2ed123433df93852d2f213c0f903df37b408d98b11d28129",
+      "normalizedPassageChecksum": "6dc8ab3f8abee47f6cf35d14032092ef92955f9bb61827f62691db5788ca310a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_41be35f1663553877cfacffa",
+      "type": "Place",
+      "title": "Village near the railway tracks",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ce4864b658812786579c2c99",
+      "type": "Person",
+      "title": "Narrator’s mother",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_3a462f900f1dca62f982479d",
+      "type": "Person",
+      "title": "Narrator’s brother",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_10fb803ef7beba42ea974773",
+      "type": "Person",
+      "title": "Poles",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

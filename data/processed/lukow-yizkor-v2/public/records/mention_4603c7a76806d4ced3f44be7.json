@@ -2,15 +2,15 @@
   "id": "mention_4603c7a76806d4ced3f44be7",
   "type": "Person",
   "title": "Holberg",
-  "summary": "Tankolmski’s son-in-law, reportedly poisoned his family and himself.",
+  "summary": "Tankolmski's son-in-law, said to have poisoned his family and himself.",
   "originalName": "הולברג",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 328,
   "printedPage": "324",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The OCR rendering of the related surname is uncertain.",
+  "uncertaintyNote": "The OCR spelling of the relative's name is unclear.",
   "evidenceRefs": [
     {
       "passageId": "passage_184202c43ebed04451c73b46",
@@ -20,12 +20,12 @@
       "printedPage": "324",
       "passageCharStart": 221,
       "passageCharEnd": 278,
-      "normalizedPassageCharStart": 189,
-      "normalizedPassageCharEnd": 239,
+      "normalizedPassageCharStart": 221,
+      "normalizedPassageCharEnd": 278,
       "pageCharStart": 903,
       "pageCharEnd": 960,
       "quote": "הולברג ׳ חתנ ו ש ל טנקולםקי ׳\nהרעיל א ת משפחת ו וא ת עצמו",
-      "normalizedQuote": "הולברג׳ חתנו של טנקולםקי׳ הרעיל את משפחתו ואת עצמו",
+      "normalizedQuote": "הולברג ׳ חתנ ו ש ל טנקולםקי ׳\nהרעיל א ת משפחת ו וא ת עצמו",
       "modelQuote": "הולברג׳ חתנו של טנקולםקי׳ הרעיל את משפחתו ואת עצמו",
       "bbox": {
         "left": 451,
@@ -38,67 +38,45 @@
       "passageChecksum": "da0b932c78e5878c02b53435f1e837fe80dc8b3a989b75bd3e24062a086ccfe2",
       "normalizedPassageChecksum": "64dd6a9d9052508179b370b57b177f024dcaa151387b065593c1a34ac53a1620",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_6272086c56fa11454702b17b",
-      "predicate": "Son In Law Of",
-      "subjectTitle": "Holberg",
-      "objectTitle": "Holberg was Tankolmski's son-in-law.",
-      "confidence": "HIGH",
-      "qualifiers": {
-        "relationship": "son-in-law"
-      },
-      "evidence": {
-        "passageId": "passage_184202c43ebed04451c73b46",
-        "pageId": "page_nybc301551_0328",
-        "scanIndex": 328,
-        "leafNumber": 327,
-        "printedPage": "324",
-        "passageCharStart": 230,
-        "passageCharEnd": 248,
-        "normalizedPassageCharStart": 197,
-        "normalizedPassageCharEnd": 213,
-        "pageCharStart": 912,
-        "pageCharEnd": 930,
-        "quote": "חתנ ו ש ל טנקולםקי",
-        "normalizedQuote": "חתנו של טנקולםקי",
-        "modelQuote": "חתנו של טנקולםקי",
-        "bbox": {
-          "left": 469,
-          "top": 2012,
-          "right": 1125,
-          "bottom": 2090
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n327/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "da0b932c78e5878c02b53435f1e837fe80dc8b3a989b75bd3e24062a086ccfe2",
-        "normalizedPassageChecksum": "64dd6a9d9052508179b370b57b177f024dcaa151387b065593c1a34ac53a1620",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
     {
-      "id": "mention_92e3f82df2b1466c9e81b8f5",
+      "id": "mention_bb34fdd95cedb9d56765e07c",
       "type": "Person",
-      "title": "Godel Griczer",
+      "title": "Godel Gritzer",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c7604db010dd77397d02ec91",
+      "id": "mention_8e78ae9fde43b76c8f77a072",
       "type": "Person",
-      "title": "Aitshe Kremzik",
+      "title": "Aitshe Kramzik",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_cb11481b6632742af80719da",
+      "id": "mention_5475663f345e1e5e11dcd79d",
+      "type": "Place",
+      "title": "Pig Market",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b74c0e1689194a2b3370d083",
+      "type": "Place",
+      "title": "Miedzyrzec",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d0cc1f39b4d42e016c7b5345",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_abf3c0fce398e9fdb051f9ad",
       "type": "Person",
       "title": "David Fridman",
       "relation": "Appears in same passage"
@@ -110,33 +88,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d81bbbfad3c96a1d3ff38d5c",
-      "type": "Person",
-      "title": "Tcholkovski",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b4d843ca22b0116346521ff8",
-      "type": "Place",
-      "title": "Pig Market",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_eef711e16bedc6ff2bea5b62",
-      "type": "Place",
-      "title": "Mezritsch",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_6a6b0bf8f853539b50213c1b",
-      "type": "Place",
-      "title": "Treblinka",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_aa692a9ef63d86f15855f068",
+      "id": "mention_7a72afda1e5352d9745e4738",
       "type": "Community",
-      "title": "Lukow Ghetto",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_af84d3dd8b3885582216715b",
+      "type": "Person",
+      "title": "Tschulkovski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_76301e2ac4606782b1048c9c",
+      "type": "Place",
+      "title": "Łuków Ghetto",
       "relation": "Appears in same passage"
     }
   ],

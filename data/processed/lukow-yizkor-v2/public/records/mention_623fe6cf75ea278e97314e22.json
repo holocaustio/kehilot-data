@@ -1,0 +1,130 @@
+{
+  "id": "mention_623fe6cf75ea278e97314e22",
+  "type": "Place",
+  "title": "Chełm railway station",
+  "summary": "Railway station where the narrator and others arrived.",
+  "originalName": "כעלמער באן־םטאציע",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 123,
+  "printedPage": "119",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "railway station",
+  "uncertaintyNote": "OCR contains an unusual character in the station spelling.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_578a3f7e79c7b0a74e9ee528",
+      "pageId": "page_nybc301551_0123",
+      "scanIndex": 123,
+      "leafNumber": 122,
+      "printedPage": "119",
+      "passageCharStart": 47,
+      "passageCharEnd": 65,
+      "normalizedPassageCharStart": 47,
+      "normalizedPassageCharEnd": 65,
+      "pageCharStart": 1700,
+      "pageCharEnd": 1718,
+      "quote": "כעלמע ר באן־םטאציע",
+      "normalizedQuote": "כעלמע ר באן־םטאציע",
+      "modelQuote": "כעלמער באן־םטאציע",
+      "bbox": {
+        "left": 917,
+        "top": 3136,
+        "right": 1625,
+        "bottom": 3210
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n122/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "190db729821ff50f6e5e878b3953d384f86fafaccc5d5c09674ec90096e9936e",
+      "normalizedPassageChecksum": "ec068c41da111e7a0f98bee250067809fd7db283053a3f7652cf80805b2627f9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_16a404b3a21be53157c8cebe",
+      "type": "Migration",
+      "title": "Arrival at Chełm railway station",
+      "summary": "The narrator and others arrived at Chełm railway station.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_578a3f7e79c7b0a74e9ee528",
+        "pageId": "page_nybc301551_0123",
+        "scanIndex": 123,
+        "leafNumber": 122,
+        "printedPage": "119",
+        "passageCharStart": 7,
+        "passageCharEnd": 65,
+        "normalizedPassageCharStart": 7,
+        "normalizedPassageCharEnd": 65,
+        "pageCharStart": 1660,
+        "pageCharEnd": 1718,
+        "quote": "פארטא ג זענע ן מי ר געקומע ן אוי ף דע ר כעלמע ר באן־םטאציע",
+        "normalizedQuote": "פארטא ג זענע ן מי ר געקומע ן אוי ף דע ר כעלמע ר באן־םטאציע",
+        "modelQuote": "פארטאג זענען מיר געקומען אויף דער כעלמער באן־םטאציע",
+        "bbox": {
+          "left": 917,
+          "top": 3136,
+          "right": 2873,
+          "bottom": 3220
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n122/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "190db729821ff50f6e5e878b3953d384f86fafaccc5d5c09674ec90096e9936e",
+        "normalizedPassageChecksum": "ec068c41da111e7a0f98bee250067809fd7db283053a3f7652cf80805b2627f9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_16a404b3a21be53157c8cebe",
+      "type": "Event",
+      "title": "Arrival at Chełm railway station",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_87e8f7cd7734739976357ea0",
+      "type": "Person",
+      "title": "Unnamed young teacher",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8c840fb9b29103a4ea3271c5",
+      "type": "Institution",
+      "title": "Bundist school",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_90ab305746f2bf29b8bae8ef",
+      "type": "Institution",
+      "title": "Chełm prison",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d8b6da447ca95c612d76cbb6",
+      "type": "Organization",
+      "title": "Red Army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_69da0c4d40c28399edf87577",
+      "type": "Place",
+      "title": "Radom railway station",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d0d9b35e204ada01d222831e",
+      "type": "Institution",
+      "title": "Radom prison",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

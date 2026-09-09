@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_48e45e6ca03eb71ab1291d0b",
+  "type": "Event",
+  "title": "Shooting of Joshua Frost and his wife",
+  "summary": "Armia Krajowa fighters shot Joshua Frost and his wife at night.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 329,
+  "printedPage": "325",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The passage names Joshua Frost in OCR as סרוסט.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0e977c0c46c153a2e50025f6",
+      "pageId": "page_nybc301551_0329",
+      "scanIndex": 329,
+      "leafNumber": 328,
+      "printedPage": "325",
+      "passageCharStart": 120,
+      "passageCharEnd": 170,
+      "normalizedPassageCharStart": 120,
+      "normalizedPassageCharEnd": 170,
+      "pageCharStart": 1366,
+      "pageCharEnd": 1416,
+      "quote": "בליל ה אח ד בא ו הא.ק . ויר ו ביהוש ע סרוס ט ואשתו",
+      "normalizedQuote": "בליל ה אח ד בא ו הא.ק . ויר ו ביהוש ע סרוס ט ואשתו",
+      "modelQuote": "בלילה אחד באו הא.ק. וירו ביהושע סרוסט ואשתו",
+      "bbox": {
+        "left": 493,
+        "top": 3069,
+        "right": 1999,
+        "bottom": 3143
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n328/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "a3554ffc0770827a36ce39999d752599b9b96576bbcdbb5667717cf4ca1c67f6",
+      "normalizedPassageChecksum": "5f6a54930de4b087e2beebf999076f968b5d80f601992299075784fcd396e572",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_ff6624acb6aa2264c706e29e",
+      "type": "Place",
+      "title": "Aleksandrov",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a9679d57d6e541fcafcd1f58",
+      "type": "Person",
+      "title": "Joshua Frost",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_99070f33e607c3ca15183cf4",
+      "type": "Organization",
+      "title": "Armia Krajowa",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -2,15 +2,15 @@
   "id": "mention_10f953aca67383c648831de9",
   "type": "Person",
   "title": "Rekman",
-  "summary": "Named leader who demanded skilled workers.",
+  "summary": "A camp or roundup leader who demanded selected workers.",
   "originalName": "רעקמאן",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 445,
   "printedPage": "441",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "OCR and context make the exact role translation uncertain.",
+  "uncertaintyNote": "OCR may affect the rendering of the name and title.",
   "evidenceRefs": [
     {
       "passageId": "passage_af19f9b12379aa225c8e9bbc",
@@ -20,12 +20,12 @@
       "printedPage": "441",
       "passageCharStart": 364,
       "passageCharEnd": 388,
-      "normalizedPassageCharStart": 315,
-      "normalizedPassageCharEnd": 336,
+      "normalizedPassageCharStart": 364,
+      "normalizedPassageCharEnd": 388,
       "pageCharStart": 364,
       "pageCharEnd": 388,
       "quote": "דע ר לאגע־פירע ר רעקמא ן",
-      "normalizedQuote": "דער לאגע־פירער רעקמאן",
+      "normalizedQuote": "דע ר לאגע־פירע ר רעקמא ן",
       "modelQuote": "דער לאגע־פירער רעקמאן",
       "bbox": {
         "left": 497,
@@ -38,17 +38,68 @@
       "passageChecksum": "b24e44922f327d2e4cc935cc0a125b7fc3a49552c297cd7f065dff33168eca12",
       "normalizedPassageChecksum": "452314b4590facfea184ba418935612a007ece2f193cb9eb1cd154a26e9f7682",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_3ede82e9efc9122ac0e5d6f1",
+      "type": "Aktion Or Raid",
+      "title": "Roundup and selection of workers",
+      "summary": "Armed forces surrounded barracks and selected workers for labor.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event’s exact nature and date are partly obscured by OCR.",
+      "evidence": {
+        "passageId": "passage_af19f9b12379aa225c8e9bbc",
+        "pageId": "page_nybc301551_0445",
+        "scanIndex": 445,
+        "leafNumber": 444,
+        "printedPage": "441",
+        "passageCharStart": 189,
+        "passageCharEnd": 227,
+        "normalizedPassageCharStart": 189,
+        "normalizedPassageCharEnd": 227,
+        "pageCharStart": 189,
+        "pageCharEnd": 227,
+        "quote": "אונדזער ע באראק ן געװא ח ארומגערינגל ט",
+        "normalizedQuote": "אונדזער ע באראק ן געװא ח ארומגערינגל ט",
+        "modelQuote": "אונדזערע באראקן געװאח ארומגערינגלט",
+        "bbox": {
+          "left": 455,
+          "top": 1059,
+          "right": 1757,
+          "bottom": 1135
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n444/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b24e44922f327d2e4cc935cc0a125b7fc3a49552c297cd7f065dff33168eca12",
+        "normalizedPassageChecksum": "452314b4590facfea184ba418935612a007ece2f193cb9eb1cd154a26e9f7682",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_89ea72758a84505d26a93611",
-      "type": "Family",
-      "title": "Baradamski brothers",
+      "id": "event_candidate_3ede82e9efc9122ac0e5d6f1",
+      "type": "Event",
+      "title": "Roundup and selection of workers",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_0038322569c31e6efdb3f3ed",
+      "type": "Person",
+      "title": "Motl Tabakman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e30b01ce0d49bea5e50a6e2f",
+      "type": "Person",
+      "title": "Pavl Tabakman",
       "relation": "Appears in same passage"
     },
     {
@@ -70,9 +121,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e0b312f045a6a414ed0d9816",
+      "id": "mention_08bfdb32821424792a6246ad",
       "type": "Person",
-      "title": "Birger",
+      "title": "Burger",
       "relation": "Appears in same passage"
     },
     {
@@ -82,19 +133,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b4d843ca22b0116346521ff8",
+      "id": "mention_5475663f345e1e5e11dcd79d",
       "type": "Place",
       "title": "Pig Market",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6457fdc1de0ad91b867f214d",
-      "type": "Place",
-      "title": "Schoolyard",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d456e74fbe39bc98fe60e2be",
+      "id": "mention_ee57b7c5022f941dcc33549d",
       "type": "Institution",
       "title": "Jewish Police",
       "relation": "Appears in same passage"

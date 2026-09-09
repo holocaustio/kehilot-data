@@ -2,16 +2,15 @@
   "id": "mention_ef59507bf7780612ffb62e84",
   "type": "Place",
   "title": "Ravensbrück",
-  "summary": "Camp to which prisoners were sent during the evacuation.",
-  "originalName": "ראװענסבריק",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "summary": "Camp to which prisoners were sent during evacuation.",
+  "originalName": "ראװענםבריק",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 425,
   "printedPage": "421",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "camp",
-  "uncertaintyNote": "OCR spelling is unclear.",
   "evidenceRefs": [
     {
       "passageId": "passage_0715e91a296555f2d4f656c4",
@@ -21,12 +20,12 @@
       "printedPage": "421",
       "passageCharStart": 369,
       "passageCharEnd": 384,
-      "normalizedPassageCharStart": 318,
-      "normalizedPassageCharEnd": 332,
+      "normalizedPassageCharStart": 369,
+      "normalizedPassageCharEnd": 384,
       "pageCharStart": 1133,
       "pageCharEnd": 1148,
       "quote": "קי ץ ראװענםבריק",
-      "normalizedQuote": "קיץ ראװענםבריק",
+      "normalizedQuote": "קי ץ ראװענםבריק",
       "modelQuote": "קיץ ראװענםבריק",
       "bbox": {
         "left": 1399,
@@ -39,7 +38,7 @@
       "passageChecksum": "89b230b2849626db9eb6a05ecf8316388177f72519e91c9cd917c2f727abf984",
       "normalizedPassageChecksum": "f6c157287a7b8757a899a66b6908e0d24db114bbbff85f42490f550043a07032",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,7 +46,7 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_85608dcc6f38559f4e6ae494",
+      "id": "mention_4131f985462c7bf052f7cc50",
       "type": "Person",
       "title": "Israel Steinberg",
       "relation": "Appears in same passage"
@@ -71,15 +70,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_eefaac961818ed528ea68f4d",
+      "id": "mention_269637eaf769ad8f53ca235f",
       "type": "Community",
-      "title": "Lukow",
+      "title": "Łuków survivors",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_03bc99ae897873dd9a5a51d6",
-      "type": "Person",
-      "title": "Hitler",
+      "id": "mention_d8b6da447ca95c612d76cbb6",
+      "type": "Organization",
+      "title": "Red Army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_220b0566a146026354a2a316",
+      "type": "Organization",
+      "title": "German fascists",
       "relation": "Appears in same passage"
     }
   ],

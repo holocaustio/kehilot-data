@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_3a3c7402b33bd5b60c2646d1",
+  "type": "Event",
+  "title": "Selection at Birkenau",
+  "summary": "Dr. Mengele conducted a selection determining prisoners’ fate after arrival.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 531,
+  "printedPage": "527",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f5d0a54d389fae977a7ac2f6",
+      "pageId": "page_nybc301551_0531",
+      "scanIndex": 531,
+      "leafNumber": 530,
+      "printedPage": "527",
+      "passageCharStart": 1036,
+      "passageCharEnd": 1081,
+      "normalizedPassageCharStart": 1036,
+      "normalizedPassageCharEnd": 1081,
+      "pageCharStart": 1036,
+      "pageCharEnd": 1081,
+      "quote": "שם ער ך ד״ ר מנגל ה א ת הםלקצי ה הידוע ה של ו",
+      "normalizedQuote": "שם ער ך ד״ ר מנגל ה א ת הםלקצי ה הידוע ה של ו",
+      "modelQuote": "שם ערך ד״ר מנגלה את הםלקציה הידועה שלו",
+      "bbox": {
+        "left": 1649,
+        "top": 2428,
+        "right": 3109,
+        "bottom": 2512
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n530/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "54c457e61c003a19cc9f7a1194c177af75905fc9ab9bc64e916eba81aad1cd72",
+      "normalizedPassageChecksum": "bee93d3148a82255afc3ba8df912e9deaf55da0484a41273f88c87bd1b9421e2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_4f3ae122e67f11deb62420ca",
+      "type": "Place",
+      "title": "Birkenau",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_b19d77bcc4d033ae44f6c8c1",
+      "type": "Person",
+      "title": "Dr. Mengele",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_4f3ae122e67f11deb62420ca",
+      "type": "Place",
+      "title": "Birkenau",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

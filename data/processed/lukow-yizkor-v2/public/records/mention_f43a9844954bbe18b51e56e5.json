@@ -1,0 +1,111 @@
+{
+  "id": "mention_f43a9844954bbe18b51e56e5",
+  "type": "Place",
+  "title": "Synagogue in Łuków",
+  "summary": "A synagogue in Łuków was burned during the Cossack uprising.",
+  "originalName": "שול",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 20,
+  "printedPage": "16",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "synagogue",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2c01cb9f1d5a6ec1cccc10ef",
+      "pageId": "page_nybc301551_0020",
+      "scanIndex": 20,
+      "leafNumber": 19,
+      "printedPage": "16",
+      "passageCharStart": 70,
+      "passageCharEnd": 119,
+      "normalizedPassageCharStart": 70,
+      "normalizedPassageCharEnd": 119,
+      "pageCharStart": 1371,
+      "pageCharEnd": 1420,
+      "quote": "צוזאמע ן\nמיט דע ר שו ל בע ת דע ם קאזאקן־אויפשטאנד",
+      "normalizedQuote": "צוזאמע ן\nמיט דע ר שו ל בע ת דע ם קאזאקן־אויפשטאנד",
+      "modelQuote": "צוזאמען מיט דער שול בעת דעם קאזאקן־אויפשטאנד",
+      "bbox": {
+        "left": 463,
+        "top": 2634,
+        "right": 3079,
+        "bottom": 2808
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n19/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "bd9835260d8f0776673a691e3b00f1f54662abc95122fccb739a98f9c4ca54cc",
+      "normalizedPassageChecksum": "304a9ec95fe20f7cd144bc2736b1ed9358c889b1df0f137db13ee5733dba5c79",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_fef760b3ebede28e3e93917f",
+      "type": "Fire",
+      "title": "Burning of a synagogue during the Cossack uprising",
+      "summary": "A synagogue and the original privilege burned during the Cossack uprising.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2c01cb9f1d5a6ec1cccc10ef",
+        "pageId": "page_nybc301551_0020",
+        "scanIndex": 20,
+        "leafNumber": 19,
+        "printedPage": "16",
+        "passageCharStart": 70,
+        "passageCharEnd": 119,
+        "normalizedPassageCharStart": 70,
+        "normalizedPassageCharEnd": 119,
+        "pageCharStart": 1371,
+        "pageCharEnd": 1420,
+        "quote": "צוזאמע ן\nמיט דע ר שו ל בע ת דע ם קאזאקן־אויפשטאנד",
+        "normalizedQuote": "צוזאמע ן\nמיט דע ר שו ל בע ת דע ם קאזאקן־אויפשטאנד",
+        "modelQuote": "צוזאמען מיט דער שול בעת דעם קאזאקן־אויפשטאנד",
+        "bbox": {
+          "left": 463,
+          "top": 2634,
+          "right": 3079,
+          "bottom": 2808
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n19/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "bd9835260d8f0776673a691e3b00f1f54662abc95122fccb739a98f9c4ca54cc",
+        "normalizedPassageChecksum": "304a9ec95fe20f7cd144bc2736b1ed9358c889b1df0f137db13ee5733dba5c79",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_fef760b3ebede28e3e93917f",
+      "type": "Event",
+      "title": "Burning of a synagogue during the Cossack uprising",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_66df5f1594ada7e5aaedd1fc",
+      "type": "Community",
+      "title": "Jews of Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ad385191d9df938cc09e56d5",
+      "type": "Place",
+      "title": "Jewish cemetery in Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ddbb1a6d914be1e6bf8b744c",
+      "type": "Place",
+      "title": "New synagogue in Łuków",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,119 @@
+{
+  "id": "mention_7659c76e5c372fe6d4b9a371",
+  "type": "Place",
+  "title": "Tilsit",
+  "summary": "Place where an agreement was concluded in 1807.",
+  "originalName": "טילזיט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 39,
+  "printedPage": "35",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c900af5fdb25400cd1ab6b80",
+      "pageId": "page_nybc301551_0039",
+      "scanIndex": 39,
+      "leafNumber": 38,
+      "printedPage": "35",
+      "passageCharStart": 732,
+      "passageCharEnd": 755,
+      "normalizedPassageCharStart": 732,
+      "normalizedPassageCharEnd": 755,
+      "pageCharStart": 1998,
+      "pageCharEnd": 2021,
+      "quote": "דע ר אפמא ך אי ן טילזיט",
+      "normalizedQuote": "דע ר אפמא ך אי ן טילזיט",
+      "modelQuote": "דער אפמאך אין טילזיט",
+      "bbox": {
+        "left": 854,
+        "top": 3772,
+        "right": 1706,
+        "bottom": 3844
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n38/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "1da87f39af8423f38c62b36a87401ca5620a9c43131eef1e0dd4fb8181d3bab9",
+      "normalizedPassageChecksum": "ca7d06e47643dcd17ced37aa94821babe2c01cb46bb85e208dbb204d2aed557b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_91b634da3d897be8c4f2f42f",
+      "type": "Migration",
+      "title": "Treaty of Tilsit",
+      "summary": "An agreement in Tilsit restored the Duchy of Warsaw over part of former Polish territory.",
+      "dateStart": "1807",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The schema has no treaty event type; migration is not an exact fit.",
+      "evidence": {
+        "passageId": "passage_c900af5fdb25400cd1ab6b80",
+        "pageId": "page_nybc301551_0039",
+        "scanIndex": 39,
+        "leafNumber": 38,
+        "printedPage": "35",
+        "passageCharStart": 700,
+        "passageCharEnd": 755,
+        "normalizedPassageCharStart": 700,
+        "normalizedPassageCharEnd": 755,
+        "pageCharStart": 1966,
+        "pageCharEnd": 2021,
+        "quote": "אי ן 1807 אי ז געשלאם ן געװאר ן דע ר אפמא ך אי ן טילזיט",
+        "normalizedQuote": "אי ן 1807 אי ז געשלאם ן געװאר ן דע ר אפמא ך אי ן טילזיט",
+        "modelQuote": "אין1807 איז געשלאםן געװארן דער אפמאך אין טילזיט",
+        "bbox": {
+          "left": 854,
+          "top": 3768,
+          "right": 2776,
+          "bottom": 3844
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n38/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "1da87f39af8423f38c62b36a87401ca5620a9c43131eef1e0dd4fb8181d3bab9",
+        "normalizedPassageChecksum": "ca7d06e47643dcd17ced37aa94821babe2c01cb46bb85e208dbb204d2aed557b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_91b634da3d897be8c4f2f42f",
+      "type": "Event",
+      "title": "Treaty of Tilsit",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_57c75f2560562e623e378997",
+      "type": "Person",
+      "title": "Napoleon Bonaparte",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7a520b4b56320af5bf661c6c",
+      "type": "Place",
+      "title": "Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d2ba5ae49b30d1382076f7c3",
+      "type": "Place",
+      "title": "Duchy of Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8411d59f7d6e7de254bb6a32",
+      "type": "Community",
+      "title": "Polish Jews",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

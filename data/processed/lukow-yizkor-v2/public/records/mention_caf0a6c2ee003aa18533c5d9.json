@@ -1,0 +1,116 @@
+{
+  "id": "mention_caf0a6c2ee003aa18533c5d9",
+  "type": "Person",
+  "title": "Unnamed Polish woman",
+  "summary": "A Polish woman imprisoned in Siberia for two years escaped during the war.",
+  "originalName": "פוילישע",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 125,
+  "printedPage": "121",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "political prisoner",
+  "uncertaintyNote": "She is unnamed; OCR contains an apparent stray character.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cd21f1ec31fc8b042e5191a0",
+      "pageId": "page_nybc301551_0125",
+      "scanIndex": 125,
+      "leafNumber": 124,
+      "printedPage": "121",
+      "passageCharStart": 409,
+      "passageCharEnd": 434,
+      "normalizedPassageCharStart": 409,
+      "normalizedPassageCharEnd": 434,
+      "pageCharStart": 2535,
+      "pageCharEnd": 2560,
+      "quote": "ז י אי ז געװע ן א פוילישע",
+      "normalizedQuote": "ז י אי ז געװע ן א פוילישע",
+      "modelQuote": "זי איז געװעןא פוילישע",
+      "bbox": {
+        "left": 2114,
+        "top": 4235,
+        "right": 2926,
+        "bottom": 4307
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n124/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "86e8e67c77f8442f7e82a5fdad6b894399aebc1eeca086e2d8a22eddbf7a50c2",
+      "normalizedPassageChecksum": "61abb6e96f7ad03c6b9c43552a6aa85741f3f1fb6aa4998e23e872d6ea95a8a4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_f834f7530f47572b19ad081a",
+      "predicate": "Deported To",
+      "subjectTitle": "Unnamed Polish woman",
+      "objectTitle": "Siberia",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "duration": "two years"
+      },
+      "evidence": {
+        "passageId": "passage_cd21f1ec31fc8b042e5191a0",
+        "pageId": "page_nybc301551_0125",
+        "scanIndex": 125,
+        "leafNumber": 124,
+        "printedPage": "121",
+        "passageCharStart": 290,
+        "passageCharEnd": 319,
+        "normalizedPassageCharStart": 290,
+        "normalizedPassageCharEnd": 319,
+        "pageCharStart": 2416,
+        "pageCharEnd": 2445,
+        "quote": "צװ ײ יא ר פארשיק ט אי ן\nסיביר",
+        "normalizedQuote": "צװ ײ יא ר פארשיק ט אי ן\nסיביר",
+        "modelQuote": "צװײ יאר פארשיקט אין סיביר",
+        "bbox": {
+          "left": 470,
+          "top": 4019,
+          "right": 2950,
+          "bottom": 4203
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n124/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "86e8e67c77f8442f7e82a5fdad6b894399aebc1eeca086e2d8a22eddbf7a50c2",
+        "normalizedPassageChecksum": "61abb6e96f7ad03c6b9c43552a6aa85741f3f1fb6aa4998e23e872d6ea95a8a4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_8eb738943f16a89cb12bf748",
+      "type": "Place",
+      "title": "Siberia",
+      "relation": "Deported To"
+    },
+    {
+      "id": "event_candidate_d2c45981b5e20d9229c1abe6",
+      "type": "Event",
+      "title": "Escape during the war",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_8eb738943f16a89cb12bf748",
+      "type": "Place",
+      "title": "Siberia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ae0d0d0de597cb57895da139",
+      "type": "Community",
+      "title": "Jewish girls",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

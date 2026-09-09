@@ -2,16 +2,16 @@
   "id": "mention_ee5bb39550863b802ff3fb59",
   "type": "Person",
   "title": "Koval Zelig",
-  "summary": "He worked as a craftsman and helped heal sick people after work.",
+  "summary": "Jewish craftsman remembered for treating sick people after daily work.",
   "originalName": "קאװאל זעליג",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 200,
   "printedPage": "196",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "craftsman and healer",
-  "uncertaintyNote": "The first name or occupational term may be affected by OCR.",
+  "subtype": "healer_and_craftsman",
+  "uncertaintyNote": "The occupational term and name are affected by OCR.",
   "evidenceRefs": [
     {
       "passageId": "passage_cfe070064a59cfc04697f9a3",
@@ -21,12 +21,12 @@
       "printedPage": "196",
       "passageCharStart": 225,
       "passageCharEnd": 242,
-      "normalizedPassageCharStart": 199,
-      "normalizedPassageCharEnd": 214,
+      "normalizedPassageCharStart": 225,
+      "normalizedPassageCharEnd": 242,
       "pageCharStart": 225,
       "pageCharEnd": 242,
       "quote": "דע ר קאװא ל זעליג",
-      "normalizedQuote": "דער קאװאל זעליג",
+      "normalizedQuote": "דע ר קאװא ל זעליג",
       "modelQuote": "דער קאװאל זעליג",
       "bbox": {
         "left": 2311,
@@ -39,7 +39,7 @@
       "passageChecksum": "0891ef7b5aae310bfc4d3f6b3243607c7dee44b2a33dd9dfa800c783053ee805",
       "normalizedPassageChecksum": "fe065a832b96ef27f3d23f43bb0c5909a34250275b47098cdacb14675d90f57c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,27 +47,33 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_66df5f1594ada7e5aaedd1fc",
-      "type": "Community",
-      "title": "Lukow Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_82b47adeac7d102a330da330",
+      "id": "mention_a8afaba0ad8dbfb4ab491dea",
       "type": "Person",
-      "title": "Poliak Chegiarski",
+      "title": "Chaya Feltzman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_681659cfbe16759da314b83d",
-      "type": "Person",
-      "title": "Chaye Feltsman",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_91ea7549b42a7f8528e2c8a3",
+      "id": "mention_56843dc0426d3c7b93a8bcd1",
       "type": "Institution",
       "title": "School for Jewish children",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1038e1ba4f8352a74b1e3e0b",
+      "type": "Person",
+      "title": "Tchegiarski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_85888fef67e3a71887841d21",
+      "type": "Community",
+      "title": "Jewish villagers",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     }
   ],

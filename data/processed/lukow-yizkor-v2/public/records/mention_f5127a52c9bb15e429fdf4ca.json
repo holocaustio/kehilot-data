@@ -2,15 +2,15 @@
   "id": "mention_f5127a52c9bb15e429fdf4ca",
   "type": "Person",
   "title": "Hershl Zukerman",
-  "summary": "Lukow community member and longtime hospital attendant.",
+  "summary": "A Lukow man who served as a hospital attendant for many years.",
   "originalName": "הערשל צוקער־מאן",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 580,
   "printedPage": "576",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "OCR spelling and role wording are somewhat unclear.",
+  "uncertaintyNote": "OCR spacing and rendering may affect the surname.",
   "evidenceRefs": [
     {
       "passageId": "passage_65aa668217b88c2cb915cd8f",
@@ -20,12 +20,12 @@
       "printedPage": "576",
       "passageCharStart": 604,
       "passageCharEnd": 627,
-      "normalizedPassageCharStart": 519,
-      "normalizedPassageCharEnd": 539,
+      "normalizedPassageCharStart": 604,
+      "normalizedPassageCharEnd": 627,
       "pageCharStart": 2260,
       "pageCharEnd": 2283,
       "quote": "הערש ל צוקער ־\nמאן ע״ ה",
-      "normalizedQuote": "הערשל צוקער־ מאן ע״ה",
+      "normalizedQuote": "הערש ל צוקער ־\nמאן ע״ ה",
       "modelQuote": "הערשל צוקער־ מאן ע״ה",
       "bbox": {
         "left": 464,
@@ -38,47 +38,84 @@
       "passageChecksum": "2a855a71753ff2bcf321f904a8a9fea8bb2d537d2638e14e7840cc762d24c513",
       "normalizedPassageChecksum": "90c842587650a771b0179140263f553d6c37987d671a685a1d6bc4000225c3ae",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_67c29953110b79130efb0b3c",
+      "predicate": "Sibling Of",
+      "subjectTitle": "Moshe Zukerman",
+      "objectTitle": "Hershl Zukerman",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_65aa668217b88c2cb915cd8f",
+        "pageId": "page_nybc301551_0580",
+        "scanIndex": 580,
+        "leafNumber": 579,
+        "printedPage": "576",
+        "passageCharStart": 695,
+        "passageCharEnd": 726,
+        "normalizedPassageCharStart": 695,
+        "normalizedPassageCharEnd": 726,
+        "pageCharStart": 2351,
+        "pageCharEnd": 2382,
+        "quote": "זי ץ ברודע ר\nמשה צוקערמא ן ע״ ה",
+        "normalizedQuote": "זי ץ ברודע ר\nמשה צוקערמא ן ע״ ה",
+        "modelQuote": "זיץ ברודער משה צוקערמאן ע״ה",
+        "bbox": {
+          "left": 460,
+          "top": 3818,
+          "right": 3062,
+          "bottom": 3994
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n579/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "2a855a71753ff2bcf321f904a8a9fea8bb2d537d2638e14e7840cc762d24c513",
+        "normalizedPassageChecksum": "90c842587650a771b0179140263f553d6c37987d671a685a1d6bc4000225c3ae",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_a09f1843b506317b03028924",
+      "id": "mention_63a644798b7fda4db599ef5f",
+      "type": "Person",
+      "title": "Moshe Zukerman",
+      "relation": "Sibling Of"
+    },
+    {
+      "id": "mention_63a644798b7fda4db599ef5f",
       "type": "Person",
       "title": "Moshe Zukerman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_69c6932b7fe633cea25ef23e",
+      "id": "mention_879450f03ac35d985ef8fec6",
+      "type": "Organization",
+      "title": "Lukow Association",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_358ae432ed40afa5ddcb475c",
       "type": "Person",
       "title": "Leibl Marman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8e4581bb10fe33b27554f0e0",
+      "id": "mention_36a93cf0965d08db94f2e821",
       "type": "Person",
-      "title": "Eli Yangshteyn",
+      "title": "Morris Levit",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_57743b390bd9d9eba3688b9e",
-      "type": "Place",
-      "title": "United States",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_14b7d247e28dbef5822651d6",
-      "type": "Place",
-      "title": "Europe",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e6dc32fdd83d82499d7e8971",
-      "type": "Place",
-      "title": "Russia",
+      "id": "mention_41dfc2f031899c45f2497bf5",
+      "type": "Person",
+      "title": "Eli Yangshtein",
       "relation": "Appears in same passage"
     }
   ],

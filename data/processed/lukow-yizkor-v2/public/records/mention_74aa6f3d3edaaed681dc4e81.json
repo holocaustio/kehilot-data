@@ -2,14 +2,15 @@
   "id": "mention_74aa6f3d3edaaed681dc4e81",
   "type": "Person",
   "title": "Shmuel",
-  "summary": "Named as a brother in a memorial to a murdered family.",
+  "summary": "Brother named in a family remembrance.",
   "originalName": "שמואל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 649,
   "printedPage": "645",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
+  "subtype": "brother",
   "evidenceRefs": [
     {
       "passageId": "passage_b1c51e47ea6475a678c67a03",
@@ -19,12 +20,12 @@
       "printedPage": "645",
       "passageCharStart": 175,
       "passageCharEnd": 193,
-      "normalizedPassageCharStart": 152,
-      "normalizedPassageCharEnd": 168,
+      "normalizedPassageCharStart": 175,
+      "normalizedPassageCharEnd": 193,
       "pageCharStart": 175,
       "pageCharEnd": 193,
       "quote": "דעם ברודע ר שמוא ל",
-      "normalizedQuote": "דעם ברודער שמואל",
+      "normalizedQuote": "דעם ברודע ר שמוא ל",
       "modelQuote": "דעם ברודער שמואל",
       "bbox": {
         "left": 1795,
@@ -37,13 +38,42 @@
       "passageChecksum": "2110874576e83335766c344f86fa0810a65bce3d286ff508e56e2de98b193483",
       "normalizedPassageChecksum": "60fa82715263b722a61838471ef911e23016e7459390bc6fa0d48eee20b1b9fd",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_36f1e6cdc037d381de975556",
+      "pageId": "page_nybc301551_0483",
+      "scanIndex": 483,
+      "leafNumber": 482,
+      "printedPage": "479",
+      "passageCharStart": 472,
+      "passageCharEnd": 503,
+      "normalizedPassageCharStart": 472,
+      "normalizedPassageCharEnd": 503,
+      "pageCharStart": 1831,
+      "pageCharEnd": 1862,
+      "quote": "אח ױ ש ל שמואל ׳ יצח ק רוזנבלום",
+      "normalizedQuote": "אח ױ ש ל שמואל ׳ יצח ק רוזנבלום",
+      "modelQuote": "אחױ של שמואל׳ יצחק רוזנבלום",
+      "bbox": {
+        "left": 1786,
+        "top": 3275,
+        "right": 2860,
+        "bottom": 3353
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n482/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "7fde72a6c933ad4d240490a47c377d583fc51821aaa63c197ab373138e794722",
+      "normalizedPassageChecksum": "80c49ae898ebdc2acc59792c427def965337ee9bdf70cc162051b6d8a81d9993",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_e66dd0f438d9361ea753487b",
+      "id": "claim_candidate_d633c638c853f6d006ade0b7",
       "predicate": "Spouse Of",
       "subjectTitle": "Shmuel",
       "objectTitle": "Eidl",
@@ -54,19 +84,19 @@
         "scanIndex": 649,
         "leafNumber": 648,
         "printedPage": "645",
-        "passageCharStart": 187,
+        "passageCharStart": 175,
         "passageCharEnd": 211,
-        "normalizedPassageCharStart": 163,
-        "normalizedPassageCharEnd": 183,
-        "pageCharStart": 187,
+        "normalizedPassageCharStart": 175,
+        "normalizedPassageCharEnd": 211,
+        "pageCharStart": 175,
         "pageCharEnd": 211,
-        "quote": "שמוא ל או ן פרו י אייד ל",
-        "normalizedQuote": "שמואל און פרוי איידל",
-        "modelQuote": "שמואל און פרוי איידל",
+        "quote": "דעם ברודע ר שמוא ל או ן פרו י אייד ל",
+        "normalizedQuote": "דעם ברודע ר שמוא ל או ן פרו י אייד ל",
+        "modelQuote": "דעם ברודער שמואל און פרוי איידל",
         "bbox": {
           "left": 1187,
           "top": 1695,
-          "right": 2247,
+          "right": 2509,
           "bottom": 1777
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n648/mode/1up",
@@ -74,43 +104,44 @@
         "passageChecksum": "2110874576e83335766c344f86fa0810a65bce3d286ff508e56e2de98b193483",
         "normalizedPassageChecksum": "60fa82715263b722a61838471ef911e23016e7459390bc6fa0d48eee20b1b9fd",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "claim_candidate_e56c5933285fd973931913ac",
-      "predicate": "Member Of Family",
-      "subjectTitle": "Shmuel",
-      "objectTitle": "The memorialized family",
-      "confidence": "HIGH",
+      "id": "claim_candidate_c1c5fb29f7af536b2562064c",
+      "predicate": "Sibling Of",
+      "subjectTitle": "Yitzhak Rozenblum",
+      "objectTitle": "Shmuel Rozenblum",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The wording indicates a sibling relationship, but the exact sibling direction is not explicit.",
       "evidence": {
-        "passageId": "passage_b1c51e47ea6475a678c67a03",
-        "pageId": "page_nybc301551_0649",
-        "scanIndex": 649,
-        "leafNumber": 648,
-        "printedPage": "645",
-        "passageCharStart": 175,
-        "passageCharEnd": 193,
-        "normalizedPassageCharStart": 152,
-        "normalizedPassageCharEnd": 168,
-        "pageCharStart": 175,
-        "pageCharEnd": 193,
-        "quote": "דעם ברודע ר שמוא ל",
-        "normalizedQuote": "דעם ברודער שמואל",
-        "modelQuote": "דעם ברודער שמואל",
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "pageId": "page_nybc301551_0483",
+        "scanIndex": 483,
+        "leafNumber": 482,
+        "printedPage": "479",
+        "passageCharStart": 472,
+        "passageCharEnd": 503,
+        "normalizedPassageCharStart": 472,
+        "normalizedPassageCharEnd": 503,
+        "pageCharStart": 1831,
+        "pageCharEnd": 1862,
+        "quote": "אח ױ ש ל שמואל ׳ יצח ק רוזנבלום",
+        "normalizedQuote": "אח ױ ש ל שמואל ׳ יצח ק רוזנבלום",
+        "modelQuote": "אחױ של שמואל׳ יצחק רוזנבלום",
         "bbox": {
-          "left": 1795,
-          "top": 1699,
-          "right": 2509,
-          "bottom": 1773
+          "left": 1786,
+          "top": 3275,
+          "right": 2860,
+          "bottom": 3353
         },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n648/mode/1up",
+        "scanUrl": "https://archive.org/details/nybc301551/page/n482/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "2110874576e83335766c344f86fa0810a65bce3d286ff508e56e2de98b193483",
-        "normalizedPassageChecksum": "60fa82715263b722a61838471ef911e23016e7459390bc6fa0d48eee20b1b9fd",
+        "passageChecksum": "7fde72a6c933ad4d240490a47c377d583fc51821aaa63c197ab373138e794722",
+        "normalizedPassageChecksum": "80c49ae898ebdc2acc59792c427def965337ee9bdf70cc162051b6d8a81d9993",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -118,33 +149,93 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_ae081b32b379b8886481363f",
+      "id": "mention_954f9845f24317552fc71268",
       "type": "Person",
       "title": "Eidl",
       "relation": "Spouse Of"
     },
     {
-      "id": "mention_f8f6de5164ce1c5a1fa72123",
-      "type": "Family",
-      "title": "The memorialized family",
-      "relation": "Member Of Family"
-    },
-    {
       "id": "mention_5de9c58b66e2df1ff7c6ad98",
       "type": "Person",
-      "title": "Chaye-Tze",
+      "title": "Chaye Tze",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ae081b32b379b8886481363f",
+      "id": "mention_8c6241119ae905c9f5263a31",
+      "type": "Person",
+      "title": "Yosef",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3006d92dd726d9a737e0ddc8",
+      "type": "Person",
+      "title": "Male",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_954f9845f24317552fc71268",
       "type": "Person",
       "title": "Eidl",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f8f6de5164ce1c5a1fa72123",
+      "id": "mention_1571d2a165cfd19ac67c4834",
       "type": "Family",
-      "title": "The memorialized family",
+      "title": "The family of the memorial writer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a661a69d18a5b5fd00438f65",
+      "type": "Person",
+      "title": "Yitzhak Rozenblum",
+      "relation": "Sibling Of"
+    },
+    {
+      "id": "mention_73847cbf046ef849059e2c85",
+      "type": "Person",
+      "title": "Yaakov Dagerman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_319c0c59e4c13dbd0f10a028",
+      "type": "Person",
+      "title": "Motel Tabkman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aa8cf9ed52d55e2bcc1cf4ff",
+      "type": "Family",
+      "title": "Rozenblum family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ccfecfb01f8436fb7bf199eb",
+      "type": "Place",
+      "title": "Bunker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_968f7bdd58aac6aad26eb786",
+      "type": "Person",
+      "title": "Bronkovitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a661a69d18a5b5fd00438f65",
+      "type": "Person",
+      "title": "Yitzhak Rozenblum",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6add9598e632ba85521520dc",
+      "type": "Person",
+      "title": "Leibush Baron",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f20fe3395399e64628875e20",
+      "type": "Person",
+      "title": "Polish partisans",
       "relation": "Appears in same passage"
     }
   ],

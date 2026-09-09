@@ -2,16 +2,16 @@
   "id": "mention_e71f1c76f40e9dfebeda7dff",
   "type": "Person",
   "title": "Abraham",
-  "summary": "Israel’s four-year-old son after his mother died.",
+  "summary": "Israel’s four-year-old son after his mother’s death.",
   "originalName": "אברהם",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 597,
   "printedPage": "593",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "son",
-  "uncertaintyNote": "The OCR surrounding the name is unclear.",
+  "subtype": "child",
+  "uncertaintyNote": "The OCR around the name is corrupted.",
   "evidenceRefs": [
     {
       "passageId": "passage_6e0f610c50c60fd324c101cd",
@@ -21,12 +21,12 @@
       "printedPage": "593",
       "passageCharStart": 87,
       "passageCharEnd": 96,
-      "normalizedPassageCharStart": 76,
-      "normalizedPassageCharEnd": 84,
+      "normalizedPassageCharStart": 87,
+      "normalizedPassageCharEnd": 96,
       "pageCharStart": 87,
       "pageCharEnd": 96,
       "quote": "י מ אברהם",
-      "normalizedQuote": "ימ אברהם",
+      "normalizedQuote": "י מ אברהם",
       "modelQuote": "ימ אברהם",
       "bbox": {
         "left": 711,
@@ -39,47 +39,106 @@
       "passageChecksum": "68714143e6d6a676e4fc8634aa1a846b0c0a17c3a752a0a55c7f11f3309e7ac0",
       "normalizedPassageChecksum": "7c963ae5f0578e4d35b68ba553da13530344fe592f24180c674a490142d3faec",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_e176def9bbf7eb8dedd55832",
+      "predicate": "Parent Of",
+      "subjectTitle": "Israel",
+      "objectTitle": "Abraham",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR is corrupted around the child’s name.",
+      "qualifiers": {
+        "childAge": "four years"
+      },
+      "evidence": {
+        "passageId": "passage_6e0f610c50c60fd324c101cd",
+        "pageId": "page_nybc301551_0597",
+        "scanIndex": 597,
+        "leafNumber": 596,
+        "printedPage": "593",
+        "passageCharStart": 71,
+        "passageCharEnd": 96,
+        "normalizedPassageCharStart": 71,
+        "normalizedPassageCharEnd": 96,
+        "pageCharStart": 71,
+        "pageCharEnd": 96,
+        "quote": "מיט ן 4־יאריק ו י מ אברהם",
+        "normalizedQuote": "מיט ן 4־יאריק ו י מ אברהם",
+        "modelQuote": "מיטן 4־יאריקו ימ אברהם",
+        "bbox": {
+          "left": 711,
+          "top": 865,
+          "right": 1553,
+          "bottom": 933
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n596/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "68714143e6d6a676e4fc8634aa1a846b0c0a17c3a752a0a55c7f11f3309e7ac0",
+        "normalizedPassageChecksum": "7c963ae5f0578e4d35b68ba553da13530344fe592f24180c674a490142d3faec",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_f583a98d3acd4627139e225b",
+      "id": "mention_28ef5b68b110ed5386f281dd",
+      "type": "Person",
+      "title": "Israel",
+      "relation": "Parent Of"
+    },
+    {
+      "id": "mention_be37822e0d02ca035148a5dc",
       "type": "Community",
-      "title": "Jewish Community of Łuków",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5f08289d711f8c2edec5a729",
-      "type": "Organization",
-      "title": "Revkam",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e8f56be87b6046ab79bda077",
+      "id": "mention_3f7a1052391b661f9f33d61c",
       "type": "Place",
       "title": "Bug",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b06a4872dd902d53b268190f",
+      "id": "mention_7718c9c68727a9cb23a7ab5f",
       "type": "Place",
-      "title": "Lashitser Prison",
+      "title": "Lashchitsky prison",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_43e002e652fddfe05164a9a1",
+      "id": "mention_f0fc60f56f2e178ae3167ea9",
       "type": "Place",
-      "title": "Shedletser Prison",
+      "title": "Shadlets prison",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e8e239eb2cf15fe2f9db2781",
-      "type": "Place",
-      "title": "Kazianer Chain",
+      "id": "mention_8a4aa8160f4a869515cef25e",
+      "type": "Institution",
+      "title": "So-called Kazianer Chaynie",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d8b6da447ca95c612d76cbb6",
+      "type": "Organization",
+      "title": "Red Army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aba11e4042107ea9459f6d98",
+      "type": "Organization",
+      "title": "Revkom",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2e7c199d361726e68446d44e",
+      "type": "Organization",
+      "title": "Polish forces",
       "relation": "Appears in same passage"
     }
   ],

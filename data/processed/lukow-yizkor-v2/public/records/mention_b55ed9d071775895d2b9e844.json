@@ -2,15 +2,16 @@
   "id": "mention_b55ed9d071775895d2b9e844",
   "type": "Institution",
   "title": "French army",
-  "summary": "Army in which Moshe Zukerman volunteered and fought.",
+  "summary": "Army in which Zukerman volunteered and served at the front.",
   "originalName": "פראנצויזישער ארמײ",
-  "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 462,
   "printedPage": "458",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "army",
+  "uncertaintyNote": "OCR contains spelling errors.",
   "evidenceRefs": [
     {
       "passageId": "passage_dc34a77ebd8dab899f30db7d",
@@ -20,12 +21,12 @@
       "printedPage": "458",
       "passageCharStart": 428,
       "passageCharEnd": 456,
-      "normalizedPassageCharStart": 367,
-      "normalizedPassageCharEnd": 392,
+      "normalizedPassageCharStart": 428,
+      "normalizedPassageCharEnd": 456,
       "pageCharStart": 428,
       "pageCharEnd": 456,
       "quote": "אי ן דע ד פראנצויזישע ר ארמײ",
-      "normalizedQuote": "אין דעד פראנצויזישער ארמײ",
+      "normalizedQuote": "אי ן דע ד פראנצויזישע ר ארמײ",
       "modelQuote": "אין דעד פראנצויזישער ארמײ",
       "bbox": {
         "left": 1308,
@@ -38,25 +39,13 @@
       "passageChecksum": "7334bb9a812fa8e652471ab2ce35bb7e21948256770d936faa3a2978b33fbbe2",
       "normalizedPassageChecksum": "b44ddde8d14f64dc4b39143d53b9d12f6a59cf026ff7ee4f36f5aa5f283fd82c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
   "connections": [
-    {
-      "id": "mention_cce2ca264a811d2f8701e1f6",
-      "type": "Person",
-      "title": "Moshe Zukerman",
-      "relation": "Served In"
-    },
-    {
-      "id": "mention_cce2ca264a811d2f8701e1f6",
-      "type": "Person",
-      "title": "Moshe Zukerman",
-      "relation": "Appears in same passage"
-    },
     {
       "id": "mention_16a20cecbcf90d1189be8422",
       "type": "Place",
@@ -70,9 +59,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6aeea1575a529bbd1133b5ad",
+      "id": "mention_fcebe63bb6121bbaea8c23c7",
       "type": "Institution",
-      "title": "Paris police",
+      "title": "French police",
       "relation": "Appears in same passage"
     }
   ],

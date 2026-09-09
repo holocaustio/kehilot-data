@@ -1,0 +1,120 @@
+{
+  "id": "mention_46c51532381ac6db3a08f9b4",
+  "type": "Place",
+  "title": "Ratyn",
+  "summary": "The town where delegations visited the district head.",
+  "originalName": "ראתין",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 351,
+  "printedPage": "347",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "uncertaintyNote": "OCR transliteration of the place name is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_279104c1b9930ad6e2ce1901",
+      "pageId": "page_nybc301551_0351",
+      "scanIndex": 351,
+      "leafNumber": 350,
+      "printedPage": "347",
+      "passageCharStart": 613,
+      "passageCharEnd": 642,
+      "normalizedPassageCharStart": 613,
+      "normalizedPassageCharEnd": 642,
+      "pageCharStart": 613,
+      "pageCharEnd": 642,
+      "quote": "צו ם קרײזהויפטמא ן קײ ן ראתין",
+      "normalizedQuote": "צו ם קרײזהויפטמא ן קײ ן ראתין",
+      "modelQuote": "צום קרײזהויפטמאן קײן ראתין",
+      "bbox": {
+        "left": 743,
+        "top": 1598,
+        "right": 1813,
+        "bottom": 1662
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n350/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "e0f1372a30673cc673f17e898590b7b5a10f95c18d3cbad8c61495827a4cbe83",
+      "normalizedPassageChecksum": "7904aecc1f3fc380bd34cceb88ec5e11940dd6e8078d44cebfd80c42206cbc23",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_36ce3246e31756a29a69c403",
+      "type": "Delegation Travel",
+      "title": "Delegations traveled to Ratyn",
+      "summary": "Delegations traveled to Ratyn to visit the district head and intervene regarding the decree; their identities are unspecified.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "This is movement by delegations, but their identities are unspecified.",
+      "evidence": {
+        "passageId": "passage_279104c1b9930ad6e2ce1901",
+        "pageId": "page_nybc301551_0351",
+        "scanIndex": 351,
+        "leafNumber": 350,
+        "printedPage": "347",
+        "passageCharStart": 576,
+        "passageCharEnd": 642,
+        "normalizedPassageCharStart": 576,
+        "normalizedPassageCharEnd": 642,
+        "pageCharStart": 576,
+        "pageCharEnd": 642,
+        "quote": "ע ס זענע ן אוי ך געפאר ן דעלעגאציע ס צו ם קרײזהויפטמא ן קײ ן ראתין",
+        "normalizedQuote": "ע ס זענע ן אוי ך געפאר ן דעלעגאציע ס צו ם קרײזהויפטמא ן קײ ן ראתין",
+        "modelQuote": "עס זענען אויך געפארן דעלעגאציעס צום קרײזהויפטמאן קײן ראתין",
+        "bbox": {
+          "left": 743,
+          "top": 1580,
+          "right": 2979,
+          "bottom": 1662
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n350/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "e0f1372a30673cc673f17e898590b7b5a10f95c18d3cbad8c61495827a4cbe83",
+        "normalizedPassageChecksum": "7904aecc1f3fc380bd34cceb88ec5e11940dd6e8078d44cebfd80c42206cbc23",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_36ce3246e31756a29a69c403",
+      "type": "Event",
+      "title": "Delegations traveled to Ratyn",
+      "relation": "Occurred At",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_bb0efbdf9299f91f010876fe",
+      "type": "Person",
+      "title": "Landrat Fishel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b8f77c2794bf0677cfa1a56d",
+      "type": "Institution",
+      "title": "Łuków Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fa3a8939e5a906c54bfa501",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

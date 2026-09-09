@@ -1,0 +1,112 @@
+{
+  "id": "mention_726cde93196cb661f8e22f50",
+  "type": "Place",
+  "title": "Mans",
+  "summary": "A place containing a prison from which the prisoner was evacuated.",
+  "originalName": "מאנס",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 599,
+  "printedPage": "595",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "uncertaintyNote": "Place-name reading follows the OCR; geographic identification is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f781a9bb85a7166c61b5e236",
+      "pageId": "page_nybc301551_0599",
+      "scanIndex": 599,
+      "leafNumber": 598,
+      "printedPage": "595",
+      "passageCharStart": 496,
+      "passageCharEnd": 517,
+      "normalizedPassageCharStart": 496,
+      "normalizedPassageCharEnd": 517,
+      "pageCharStart": 1476,
+      "pageCharEnd": 1497,
+      "quote": "ד י טורמ ע םו ן מאנ ס",
+      "normalizedQuote": "ד י טורמ ע םו ן מאנ ס",
+      "modelQuote": "די טורמע םון מאנס",
+      "bbox": {
+        "left": 463,
+        "top": 3100,
+        "right": 1147,
+        "bottom": 3164
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n598/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "2333f3bb883c146b4c08b492335469c284000403e80582e9ffec373acecc06fe",
+      "normalizedPassageChecksum": "4779c5560e751147b68d69d575067b156bc0591b1b2c202f2a0e59abc24e6c08",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_0447aca2a921fa39aa9a94d8",
+      "predicate": "Imprisoned At",
+      "subjectTitle": "Unnamed prisoner from Mans",
+      "objectTitle": "Mans",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_f781a9bb85a7166c61b5e236",
+        "pageId": "page_nybc301551_0599",
+        "scanIndex": 599,
+        "leafNumber": 598,
+        "printedPage": "595",
+        "passageCharStart": 496,
+        "passageCharEnd": 517,
+        "normalizedPassageCharStart": 496,
+        "normalizedPassageCharEnd": 517,
+        "pageCharStart": 1476,
+        "pageCharEnd": 1497,
+        "quote": "ד י טורמ ע םו ן מאנ ס",
+        "normalizedQuote": "ד י טורמ ע םו ן מאנ ס",
+        "modelQuote": "די טורמע םון מאנס",
+        "bbox": {
+          "left": 463,
+          "top": 3100,
+          "right": 1147,
+          "bottom": 3164
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n598/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "2333f3bb883c146b4c08b492335469c284000403e80582e9ffec373acecc06fe",
+        "normalizedPassageChecksum": "4779c5560e751147b68d69d575067b156bc0591b1b2c202f2a0e59abc24e6c08",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b676e62c9df74eff1fdaaf18",
+      "type": "Person",
+      "title": "Unnamed prisoner from Mans",
+      "relation": "Imprisoned At"
+    },
+    {
+      "id": "mention_b676e62c9df74eff1fdaaf18",
+      "type": "Person",
+      "title": "Unnamed prisoner from Mans",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3f805659467ecc65807bc91a",
+      "type": "Place",
+      "title": "Brussels",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8563cc76944225c2eae41f91",
+      "type": "Organization",
+      "title": "American Army",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -2,10 +2,10 @@
   "id": "mention_8bc9d5f78e4b7488d376afff",
   "type": "Person",
   "title": "Neta",
-  "summary": "Neta entertained travelers with jokes about brides.",
+  "summary": "A badkhn who told jokes during the journey to a wedding.",
   "originalName": "ר׳ נטע בדחן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 207,
   "printedPage": "203",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "203",
       "passageCharStart": 307,
       "passageCharEnd": 336,
-      "normalizedPassageCharStart": 260,
-      "normalizedPassageCharEnd": 284,
+      "normalizedPassageCharStart": 307,
+      "normalizedPassageCharEnd": 336,
       "pageCharStart": 2262,
       "pageCharEnd": 2291,
       "quote": "ר ׳ נט ע בדח ן דערצײל ט װיצ ן",
-      "normalizedQuote": "ר׳ נטע בדחן דערצײלט װיצן",
+      "normalizedQuote": "ר ׳ נט ע בדח ן דערצײל ט װיצ ן",
       "modelQuote": "ר׳ נטע בדחן דערצײלט װיצן",
       "bbox": {
         "left": 480,
@@ -38,18 +38,57 @@
       "passageChecksum": "f7eee5f96f1b604dd44c70f5690f219ff5dcce4bc3690e06ddd5309a824ab63c",
       "normalizedPassageChecksum": "674520736d0b32b1d9864087f77f3c28814da9f55085b91b445b0b9efb9a0585",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_74dc772a21b9e29acb32723c",
+      "type": "Marriage",
+      "title": "Wedding performance in a village",
+      "summary": "Alter performed with a band at a wedding in a village.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage describes attendance and performance at a wedding, but does not identify the couple or date.",
+      "evidence": {
+        "passageId": "passage_2cb13ec022ff2fc4056327d3",
+        "pageId": "page_nybc301551_0207",
+        "scanIndex": 207,
+        "leafNumber": 206,
+        "printedPage": "203",
+        "passageCharStart": 14,
+        "passageCharEnd": 68,
+        "normalizedPassageCharStart": 14,
+        "normalizedPassageCharEnd": 68,
+        "pageCharStart": 1969,
+        "pageCharEnd": 2023,
+        "quote": "ר ׳ אלטע ר מי ך מיטגענומע ן אוי ף א חתונ ה אי ן א דארף",
+        "normalizedQuote": "ר ׳ אלטע ר מי ך מיטגענומע ן אוי ף א חתונ ה אי ן א דארף",
+        "modelQuote": "ר׳ אלטער מיך מיטגענומען אויףא חתונה איןא דארף",
+        "bbox": {
+          "left": 770,
+          "top": 3415,
+          "right": 2588,
+          "bottom": 3485
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n206/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "f7eee5f96f1b604dd44c70f5690f219ff5dcce4bc3690e06ddd5309a824ab63c",
+        "normalizedPassageChecksum": "674520736d0b32b1d9864087f77f3c28814da9f55085b91b445b0b9efb9a0585",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_76e7879aab261039782c2d8a",
-      "type": "Person",
-      "title": "Alter",
-      "relation": "Appears in same passage"
+      "id": "event_candidate_74dc772a21b9e29acb32723c",
+      "type": "Event",
+      "title": "Wedding performance in a village",
+      "relation": "Participated In",
+      "role": "Participant"
     }
   ],
   "publicationEligible": false

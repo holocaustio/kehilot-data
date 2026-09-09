@@ -2,10 +2,10 @@
   "id": "mention_897f00d913dd877ad09242fa",
   "type": "Person",
   "title": "Hersh Rubin",
-  "summary": "A merchant whose flour and sugar stores were requisitioned.",
+  "summary": "A person whose flour and sugar supplies were requisitioned.",
   "originalName": "הערש רובין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 173,
   "printedPage": "169",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "169",
       "passageCharStart": 225,
       "passageCharEnd": 237,
-      "normalizedPassageCharStart": 192,
-      "normalizedPassageCharEnd": 202,
+      "normalizedPassageCharStart": 225,
+      "normalizedPassageCharEnd": 237,
       "pageCharStart": 1475,
       "pageCharEnd": 1487,
       "quote": "הער ש רובי ן",
-      "normalizedQuote": "הערש רובין",
+      "normalizedQuote": "הער ש רובי ן",
       "modelQuote": "הערש רובין",
       "bbox": {
         "left": 512,
@@ -37,12 +37,19 @@
       "passageChecksum": "5c69ce841f7e054f7ade0b5e5f99f451e4839379cdee3703bbaffbef017ef30b",
       "normalizedPassageChecksum": "ca288f2975f193a5b1f5b0a53d7e013d00412ba118a404170fa67e1afa2d2a4e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [],
-  "connections": [],
+  "connections": [
+    {
+      "id": "mention_be37822e0d02ca035148a5dc",
+      "type": "Community",
+      "title": "Łuków Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
   "publicationEligible": false
 }

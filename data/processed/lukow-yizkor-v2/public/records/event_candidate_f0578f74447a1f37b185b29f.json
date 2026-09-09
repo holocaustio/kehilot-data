@@ -1,0 +1,65 @@
+{
+  "id": "event_candidate_f0578f74447a1f37b185b29f",
+  "type": "Event",
+  "title": "John Casimir’s visit to Łuków",
+  "summary": "John Casimir visited Łuków in 1652 after the Cossack attack on Poland.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 45,
+  "printedPage": "41",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The event is explicitly a visit, but MIGRATION is only the closest available event type.",
+  "dateStart": "1652",
+  "dateEnd": "1652",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c059867a7266b6a2718c6b76",
+      "pageId": "page_nybc301551_0045",
+      "scanIndex": 45,
+      "leafNumber": 44,
+      "printedPage": "41",
+      "passageCharStart": 187,
+      "passageCharEnd": 227,
+      "normalizedPassageCharStart": 187,
+      "normalizedPassageCharEnd": 227,
+      "pageCharStart": 1355,
+      "pageCharEnd": 1395,
+      "quote": "בק ר בלוקו ב המל ך יא ן קאזימי ר ב־ 1652",
+      "normalizedQuote": "בק ר בלוקו ב המל ך יא ן קאזימי ר ב־ 1652",
+      "modelQuote": "בקר בלוקוב המלך יאן קאזימיר ב־1652",
+      "bbox": {
+        "left": 680,
+        "top": 3229,
+        "right": 2222,
+        "bottom": 3305
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n44/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "56d8bf79b9e6f7be7bf5f4213653b3c9baa65ea181a68e0c24df1dbb941c0c92",
+      "normalizedPassageChecksum": "733ddbc40544296f107613aa80109d94347c54f495af20b8ca10c97ae42d96cd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_cecc552024e5a1c2ea9a7f06",
+      "type": "Person",
+      "title": "John Casimir",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

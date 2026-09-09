@@ -2,15 +2,14 @@
   "id": "mention_8e60ef7543fabbb771d58e27",
   "type": "Person",
   "title": "Israel Steinberg",
-  "summary": "A person working as a tailor and sewing for SS personnel.",
+  "summary": "A prisoner working as a tailor for SS personnel and bringing supplies to the narrator.",
   "originalName": "ישראל שטיינבערג",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 424,
   "printedPage": "420",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "named person",
   "evidenceRefs": [
     {
       "passageId": "passage_e4d5ca7028bf7d66f81355ef",
@@ -20,12 +19,12 @@
       "printedPage": "420",
       "passageCharStart": 1103,
       "passageCharEnd": 1130,
-      "normalizedPassageCharStart": 947,
-      "normalizedPassageCharEnd": 962,
+      "normalizedPassageCharStart": 1103,
+      "normalizedPassageCharEnd": 1130,
       "pageCharStart": 1103,
       "pageCharEnd": 1130,
       "quote": "י ש ר א ל\nש ט י י נ ב ע ר ג",
-      "normalizedQuote": "ישראל שטיינבערג",
+      "normalizedQuote": "י ש ר א ל\nש ט י י נ ב ע ר ג",
       "modelQuote": "ישראל שטיינבערג",
       "bbox": {
         "left": 407,
@@ -38,17 +37,53 @@
       "passageChecksum": "15b2fa8c0024068db80f0eac3e19e93e09d2b7125d1a8f731ac7ca62a051ac09",
       "normalizedPassageChecksum": "18269742a637303555da86c3bfe40c2bce3460a719d7634f52b93e8592f96f98",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [
+  "claims": [
     {
-      "id": "event_candidate_01de3d1144416b14669930b7",
-      "type": "Employment",
-      "title": "Israel Steinberg’s tailoring work",
-      "summary": "Israel Steinberg worked in tailoring and sewed for SS personnel; the employer is not specified.",
+      "id": "claim_candidate_42ddddb1319c1dc5562cc945",
+      "predicate": "Worked At",
+      "subjectTitle": "Israel Steinberg",
+      "objectTitle": "Canada",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The phrase establishes work at the location described in the surrounding sentence.",
+      "evidence": {
+        "passageId": "passage_e4d5ca7028bf7d66f81355ef",
+        "pageId": "page_nybc301551_0424",
+        "scanIndex": 424,
+        "leafNumber": 423,
+        "printedPage": "420",
+        "passageCharStart": 1235,
+        "passageCharEnd": 1258,
+        "normalizedPassageCharStart": 1235,
+        "normalizedPassageCharEnd": 1258,
+        "pageCharStart": 1235,
+        "pageCharEnd": 1258,
+        "quote": "ע ר ארבע ט ד א שנײדער ײ",
+        "normalizedQuote": "ע ר ארבע ט ד א שנײדער ײ",
+        "modelQuote": "ער ארבעט דא שנײדערײ",
+        "bbox": {
+          "left": 1067,
+          "top": 2477,
+          "right": 2015,
+          "bottom": 2539
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n423/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "15b2fa8c0024068db80f0eac3e19e93e09d2b7125d1a8f731ac7ca62a051ac09",
+        "normalizedPassageChecksum": "18269742a637303555da86c3bfe40c2bce3460a719d7634f52b93e8592f96f98",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_6ff8f82fff604b0188acaede",
+      "predicate": "Worked At",
+      "subjectTitle": "Israel Steinberg",
+      "objectTitle": "Canada",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_e4d5ca7028bf7d66f81355ef",
@@ -58,12 +93,12 @@
         "printedPage": "420",
         "passageCharStart": 1235,
         "passageCharEnd": 1288,
-        "normalizedPassageCharStart": 1050,
-        "normalizedPassageCharEnd": 1094,
+        "normalizedPassageCharStart": 1235,
+        "normalizedPassageCharEnd": 1288,
         "pageCharStart": 1235,
         "pageCharEnd": 1288,
         "quote": "ע ר ארבע ט ד א שנײדער ײ או ן נײ ט פא ר ד י ם.ם. '\nלײט",
-        "normalizedQuote": "ער ארבעט דא שנײדערײ און נײט פאר די ם.ם.' לײט",
+        "normalizedQuote": "ע ר ארבע ט ד א שנײדער ײ או ן נײ ט פא ר ד י ם.ם. '\nלײט",
         "modelQuote": "ער ארבעט דא שנײדערײ און נײט פאר די ם.ם.' לײט",
         "bbox": {
           "left": 415,
@@ -76,23 +111,67 @@
         "passageChecksum": "15b2fa8c0024068db80f0eac3e19e93e09d2b7125d1a8f731ac7ca62a051ac09",
         "normalizedPassageChecksum": "18269742a637303555da86c3bfe40c2bce3460a719d7634f52b93e8592f96f98",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_5b7c549bfb1c7f2030fe456e",
+      "type": "Employment",
+      "title": "Israel Steinberg works as a tailor",
+      "summary": "Israel Steinberg reports working as a tailor for SS personnel.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e4d5ca7028bf7d66f81355ef",
+        "pageId": "page_nybc301551_0424",
+        "scanIndex": 424,
+        "leafNumber": 423,
+        "printedPage": "420",
+        "passageCharStart": 1235,
+        "passageCharEnd": 1288,
+        "normalizedPassageCharStart": 1235,
+        "normalizedPassageCharEnd": 1288,
+        "pageCharStart": 1235,
+        "pageCharEnd": 1288,
+        "quote": "ע ר ארבע ט ד א שנײדער ײ או ן נײ ט פא ר ד י ם.ם. '\nלײט",
+        "normalizedQuote": "ע ר ארבע ט ד א שנײדער ײ או ן נײ ט פא ר ד י ם.ם. '\nלײט",
+        "modelQuote": "ער ארבעט דא שנײדערײ און נײט פאר די ם.ם.' לײט",
+        "bbox": {
+          "left": 415,
+          "top": 2477,
+          "right": 3031,
+          "bottom": 2651
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n423/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "15b2fa8c0024068db80f0eac3e19e93e09d2b7125d1a8f731ac7ca62a051ac09",
+        "normalizedPassageChecksum": "18269742a637303555da86c3bfe40c2bce3460a719d7634f52b93e8592f96f98",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_01de3d1144416b14669930b7",
+      "id": "mention_6b8053b460c38d8c0bba5f20",
+      "type": "Place",
+      "title": "Canada",
+      "relation": "Worked At"
+    },
+    {
+      "id": "event_candidate_5b7c549bfb1c7f2030fe456e",
       "type": "Event",
-      "title": "Israel Steinberg’s tailoring work",
+      "title": "Israel Steinberg works as a tailor",
       "relation": "Participated In",
       "role": "Employee"
     },
     {
-      "id": "mention_d1914d1b85802b964db74daa",
+      "id": "mention_886e37ed97bde1bc00b2e78d",
       "type": "Person",
-      "title": "Reuven Tikatski",
+      "title": "Reuven Tikoczki",
       "relation": "Appears in same passage"
     },
     {
@@ -102,21 +181,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e7fbee3182be73611b643143",
-      "type": "Place",
-      "title": "Lukow",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4542bf52127eb0f5eb8eb855",
-      "type": "Organization",
-      "title": "SS",
+      "id": "mention_6b8053b460c38d8c0bba5f20",
+      "type": "Place",
+      "title": "Canada",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dde6f66318ac705c30e5ff45",
+      "id": "mention_2d54ca95479247c885e71e2e",
       "type": "Place",
-      "title": "Canada magazines",
+      "title": "Germany",
       "relation": "Appears in same passage"
     }
   ],

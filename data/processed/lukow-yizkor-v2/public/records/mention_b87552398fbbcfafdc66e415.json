@@ -2,10 +2,10 @@
   "id": "mention_b87552398fbbcfafdc66e415",
   "type": "Person",
   "title": "Moshe Gritzer",
-  "summary": "Narrator who served in the Polish army and was captured by Soviet forces.",
+  "summary": "Author of a wartime account describing captivity and events in Łuków.",
   "originalName": "משה גריצר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 327,
   "printedPage": "323",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,11 +20,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 10,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 9,
+      "normalizedPassageCharEnd": 10,
       "pageCharStart": 0,
       "pageCharEnd": 10,
       "quote": "משה גריצ ר",
-      "normalizedQuote": "משה גריצר",
+      "normalizedQuote": "משה גריצ ר",
       "modelQuote": "משה גריצר",
       "bbox": {
         "left": 2664,
@@ -37,130 +37,17 @@
       "passageChecksum": "dbb9eb08120b77b644b36f0f374f818aeaee775b6a444f8eaedcfab5e3b6cc42",
       "normalizedPassageChecksum": "11418de3a6a95551d9e3a1d8fed877cc6eb6a53a81c0941d61c5b0746a809536",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_981917f82b5997ab13ac21a6",
-      "predicate": "Member Of",
-      "subjectTitle": "Moshe Gritzer",
-      "objectTitle": "Polish Army",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "OCR spelling is unclear.",
-      "evidence": {
-        "passageId": "passage_8c638c0c9f2727cbd5f3f722",
-        "pageId": "page_nybc301551_0327",
-        "scanIndex": 327,
-        "leafNumber": 326,
-        "printedPage": "323",
-        "passageCharStart": 74,
-        "passageCharEnd": 99,
-        "normalizedPassageCharStart": 66,
-        "normalizedPassageCharEnd": 88,
-        "pageCharStart": 74,
-        "pageCharEnd": 99,
-        "quote": "הײת י מגוײ ם הצב א הםולני",
-        "normalizedQuote": "הײתי מגוײם הצבא הםולני",
-        "modelQuote": "הײתי מגוײם הצבא הםולני",
-        "bbox": {
-          "left": 829,
-          "top": 1753,
-          "right": 1695,
-          "bottom": 1815
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n326/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "dbb9eb08120b77b644b36f0f374f818aeaee775b6a444f8eaedcfab5e3b6cc42",
-        "normalizedPassageChecksum": "11418de3a6a95551d9e3a1d8fed877cc6eb6a53a81c0941d61c5b0746a809536",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    },
-    {
-      "id": "claim_candidate_88cdb63801c1a159be1f8b83",
-      "predicate": "Returned To",
-      "subjectTitle": "Moshe Gritzer",
-      "objectTitle": "Lukow",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_8c638c0c9f2727cbd5f3f722",
-        "pageId": "page_nybc301551_0327",
-        "scanIndex": 327,
-        "leafNumber": 326,
-        "printedPage": "323",
-        "passageCharStart": 319,
-        "passageCharEnd": 358,
-        "normalizedPassageCharStart": 279,
-        "normalizedPassageCharEnd": 314,
-        "pageCharStart": 319,
-        "pageCharEnd": 358,
-        "quote": "אנ י ויעקובוביץ ׳ החלטנ ו לחזו ר ללוקוב",
-        "normalizedQuote": "אני ויעקובוביץ׳ החלטנו לחזור ללוקוב",
-        "modelQuote": "אני ויעקובוביץ׳ החלטנו לחזור ללוקוב",
-        "bbox": {
-          "left": 497,
-          "top": 2063,
-          "right": 1729,
-          "bottom": 2139
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n326/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "dbb9eb08120b77b644b36f0f374f818aeaee775b6a444f8eaedcfab5e3b6cc42",
-        "normalizedPassageChecksum": "11418de3a6a95551d9e3a1d8fed877cc6eb6a53a81c0941d61c5b0746a809536",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [
     {
-      "id": "event_candidate_bbe109c8a0109ce585c94227",
-      "type": "Military Service",
-      "title": "Moshe Gritzer served in the Polish Army",
-      "summary": "Moshe Gritzer served in the Polish Army in 1939 before Soviet capture.",
-      "dateStart": "1939",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "OCR obscures the exact wording of his military role.",
-      "evidence": {
-        "passageId": "passage_8c638c0c9f2727cbd5f3f722",
-        "pageId": "page_nybc301551_0327",
-        "scanIndex": 327,
-        "leafNumber": 326,
-        "printedPage": "323",
-        "passageCharStart": 34,
-        "passageCharEnd": 99,
-        "normalizedPassageCharStart": 31,
-        "normalizedPassageCharEnd": 88,
-        "pageCharStart": 34,
-        "pageCharEnd": 99,
-        "quote": "בשנת 1939 כשהגרמני ם כבש ו א ת פולניה ׳ הײת י מגוײ ם הצב א הםולני",
-        "normalizedQuote": "בשנת1939 כשהגרמנים כבשו את פולניה׳ הײתי מגוײם הצבא הםולני",
-        "modelQuote": "בשנת1939 כשהגרמנים כבשו את פולניה׳ הײתי מגוײם הצבא הםולני",
-        "bbox": {
-          "left": 829,
-          "top": 1747,
-          "right": 2871,
-          "bottom": 1815
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n326/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "dbb9eb08120b77b644b36f0f374f818aeaee775b6a444f8eaedcfab5e3b6cc42",
-        "normalizedPassageChecksum": "11418de3a6a95551d9e3a1d8fed877cc6eb6a53a81c0941d61c5b0746a809536",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    },
-    {
-      "id": "event_candidate_1a60702d3cceab8133be666a",
-      "type": "Arrest",
-      "title": "Moshe Gritzer was captured by Soviet forces",
-      "summary": "Moshe Gritzer became a Soviet prisoner at Shtovkovka after the occupation.",
-      "dateStart": "1939",
+      "id": "event_candidate_96760710a4e3f41ecf35be55",
+      "type": "Imprisonment",
+      "title": "Soviet captivity at Shtovka",
+      "summary": "The narrator was captured and held by Soviet forces at Shtovka.",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_8c638c0c9f2727cbd5f3f722",
@@ -170,12 +57,12 @@
         "printedPage": "323",
         "passageCharStart": 155,
         "passageCharEnd": 183,
-        "normalizedPassageCharStart": 136,
-        "normalizedPassageCharEnd": 161,
+        "normalizedPassageCharStart": 155,
+        "normalizedPassageCharEnd": 183,
         "pageCharStart": 155,
         "pageCharEnd": 183,
         "quote": "נפלת י בשב י הרום י בשפטובקה",
-        "normalizedQuote": "נפלתי בשבי הרוםי בשפטובקה",
+        "normalizedQuote": "נפלת י בשב י הרום י בשפטובקה",
         "modelQuote": "נפלתי בשבי הרוםי בשפטובקה",
         "bbox": {
           "left": 747,
@@ -188,96 +75,65 @@
         "passageChecksum": "dbb9eb08120b77b644b36f0f374f818aeaee775b6a444f8eaedcfab5e3b6cc42",
         "normalizedPassageChecksum": "11418de3a6a95551d9e3a1d8fed877cc6eb6a53a81c0941d61c5b0746a809536",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "mention_6ca3fabe96d40fcc665f3608",
-      "type": "Organization",
-      "title": "Polish Army",
-      "relation": "Member Of"
-    },
-    {
-      "id": "mention_eefaac961818ed528ea68f4d",
-      "type": "Community",
-      "title": "Lukow",
-      "relation": "Returned To"
-    },
-    {
-      "id": "event_candidate_bbe109c8a0109ce585c94227",
+      "id": "event_candidate_96760710a4e3f41ecf35be55",
       "type": "Event",
-      "title": "Moshe Gritzer served in the Polish Army",
+      "title": "Soviet captivity at Shtovka",
       "relation": "Participated In",
       "role": "Subject"
     },
     {
-      "id": "event_candidate_1a60702d3cceab8133be666a",
-      "type": "Event",
-      "title": "Moshe Gritzer was captured by Soviet forces",
-      "relation": "Participated In",
-      "role": "Victim"
-    },
-    {
-      "id": "mention_80cd7223eab6314e2b6fab0e",
+      "id": "mention_7a520b4b56320af5bf661c6c",
       "type": "Place",
       "title": "Poland",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6ca3fabe96d40fcc665f3608",
-      "type": "Organization",
-      "title": "Polish Army",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_043650af267c9aa2582b49bc",
+      "id": "mention_5f3963f21020509359e687c2",
       "type": "Place",
-      "title": "Shtovkovka",
+      "title": "Shtovka",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b8735b274b543ab9e7d3664c",
-      "type": "Organization",
-      "title": "Soviet forces",
+      "id": "mention_45a998015698d3032cca7040",
+      "type": "Community",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4814a0c59b67d6597d4f1125",
+      "id": "mention_173c5187fab6ab9914bc7fad",
       "type": "Person",
-      "title": "Libel Basar",
+      "title": "Libl Beser",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4d4917442b2ce46150146370",
+      "id": "mention_40a18e1bd4d888859e2319ea",
+      "type": "Person",
+      "title": "Hersh Bobgiker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_26a34664b550f5ce2f17b159",
       "type": "Person",
       "title": "Zaklik",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_515de92beab1eaea1046e45e",
-      "type": "Person",
-      "title": "Jacobowitz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_eefaac961818ed528ea68f4d",
-      "type": "Community",
-      "title": "Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d6112e09815069900ab9ec1d",
+      "id": "mention_eac628c3b5dd22c69cd62d77",
       "type": "Place",
       "title": "Siedlce",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5ee63599b19e17e323997b60",
+      "id": "mention_6c0942f28a1f0bf732ccc017",
       "type": "Person",
-      "title": "Moshe Feferman",
+      "title": "Moshe Paperman",
       "relation": "Appears in same passage"
     },
     {
@@ -287,9 +143,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9b7fed8f94081c55e534e402",
-      "type": "Community",
-      "title": "Nieslisk",
+      "id": "mention_a2faacf54d6799bf84f9d286",
+      "type": "Institution",
+      "title": "Łuków Judenrat",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e0eb1dbc391387851d8dbc93",
+      "type": "Institution",
+      "title": "Great Synagogue of Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_dcdadb524331e1bb4ca74639",
+      "type": "Institution",
+      "title": "Łuków study houses",
       "relation": "Appears in same passage"
     }
   ],

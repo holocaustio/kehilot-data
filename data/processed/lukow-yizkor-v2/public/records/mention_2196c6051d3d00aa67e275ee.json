@@ -2,10 +2,10 @@
   "id": "mention_2196c6051d3d00aa67e275ee",
   "type": "Institution",
   "title": "Labor Office",
-  "summary": "Office where Jews were required to register and assigned work.",
+  "summary": "Office where Jews were ordered to register and assigned work.",
   "originalName": "ארבעטם־אמט",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 416,
   "printedPage": "412",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "412",
       "passageCharStart": 337,
       "passageCharEnd": 352,
-      "normalizedPassageCharStart": 287,
-      "normalizedPassageCharEnd": 301,
+      "normalizedPassageCharStart": 337,
+      "normalizedPassageCharEnd": 352,
       "pageCharStart": 337,
       "pageCharEnd": 352,
       "quote": "אי ן ארבעטם־אמט",
-      "normalizedQuote": "אין ארבעטם־אמט",
+      "normalizedQuote": "אי ן ארבעטם־אמט",
       "modelQuote": "אין ארבעטם־אמט",
       "bbox": {
         "left": 690,
@@ -38,7 +38,36 @@
       "passageChecksum": "aa6bafc1d5a9767867b4d89999764a39f64a2c32eba5f66e498c92a83170c354",
       "normalizedPassageChecksum": "8adefbf55d91c530046891021b6a2bdf016f195ea907c631c9de44ebf0789a76",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_9498b4da8b2abe5f0a3ef99b",
+      "pageId": "page_nybc301551_0510",
+      "scanIndex": 510,
+      "leafNumber": 509,
+      "printedPage": "506",
+      "passageCharStart": 195,
+      "passageCharEnd": 212,
+      "normalizedPassageCharStart": 195,
+      "normalizedPassageCharEnd": 212,
+      "pageCharStart": 2800,
+      "pageCharEnd": 2817,
+      "quote": "דע ם ארבעטסאמ ט א",
+      "normalizedQuote": "דע ם ארבעטסאמ ט א",
+      "modelQuote": "דעם ארבעטסאמטא",
+      "bbox": {
+        "left": 1416,
+        "top": 4667,
+        "right": 2182,
+        "bottom": 4731
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n509/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "8d673ba14a70a0b9ca9a85e80eaea8569565786ddcb2db0ddbf45137c9a5bb02",
+      "normalizedPassageChecksum": "5801060c65774cbf788fec974b26b6e36c38a2aedae3bd8a2f34adf6dc90fa08",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,9 +75,9 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_672461443fff6b8ecd1c7c85",
+      "id": "mention_66e4844e3daf812ac5ad72b9",
       "type": "Person",
-      "title": "Elke Geret-Tikatski",
+      "title": "Elke Gerecht-Tikatski",
       "relation": "Appears in same passage"
     },
     {
@@ -58,15 +87,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
       "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e1f7bb2af69efa6de60bcf1e",
-      "type": "Institution",
-      "title": "Soldiers' Home",
+      "id": "mention_7590493b4535147745f18829",
+      "type": "Place",
+      "title": "Soldiers’ Home",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5bfdba09372563dad0e4b30c",
+      "type": "Organization",
+      "title": "German authorities",
       "relation": "Appears in same passage"
     }
   ],

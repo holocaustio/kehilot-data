@@ -2,10 +2,10 @@
   "id": "mention_94ef4e79b9a77f1b27df71ce",
   "type": "Person",
   "title": "Leah Feldman",
-  "summary": "Eighteen-year-old volunteer who died of typhus while rescuing Jewish refugees.",
+  "summary": "An 18-year-old rescued daughter of Chaim Shlomo Feldman who died of typhus.",
   "originalName": "לאה פעלדמאן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 64,
   "printedPage": "60",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "60",
       "passageCharStart": 183,
       "passageCharEnd": 195,
-      "normalizedPassageCharStart": 158,
-      "normalizedPassageCharEnd": 169,
+      "normalizedPassageCharStart": 183,
+      "normalizedPassageCharEnd": 195,
       "pageCharStart": 1324,
       "pageCharEnd": 1336,
       "quote": "לא ה פעלדמאן",
-      "normalizedQuote": "לאה פעלדמאן",
+      "normalizedQuote": "לא ה פעלדמאן",
       "modelQuote": "לאה פעלדמאן",
       "bbox": {
         "left": 2135,
@@ -37,13 +37,13 @@
       "passageChecksum": "d8f6eca9c5f4ddcf14b2cf9a64ed270e05324aab36fb42a688d6ceeba91afee7",
       "normalizedPassageChecksum": "0af9a7e8737d3c502ed70757b42963428ba1f301549c5277c6d7c861788c4d3a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_b4ff0c423761e4c962f167a3",
+      "id": "claim_candidate_dc93fe11fcd3f2bf3e6087f7",
       "predicate": "Child Of",
       "subjectTitle": "Leah Feldman",
       "objectTitle": "Chaim Shlomo Feldman",
@@ -54,15 +54,15 @@
         "scanIndex": 64,
         "leafNumber": 63,
         "printedPage": "60",
-        "passageCharStart": 198,
+        "passageCharStart": 223,
         "passageCharEnd": 254,
-        "normalizedPassageCharStart": 171,
-        "normalizedPassageCharEnd": 220,
-        "pageCharStart": 1339,
+        "normalizedPassageCharStart": 223,
+        "normalizedPassageCharEnd": 254,
+        "pageCharStart": 1364,
         "pageCharEnd": 1395,
-        "quote": "ד י געראטענ ע 18־יאריק ע טאכטע ר פו ן חײ ם שלמ ה\nפעלדמאן",
-        "normalizedQuote": "די געראטענע 18־יאריקע טאכטער פון חײם שלמה פעלדמאן",
-        "modelQuote": "די געראטענע 18־יאריקע טאכטער פון חײם שלמה פעלדמאן",
+        "quote": "טאכטע ר פו ן חײ ם שלמ ה\nפעלדמאן",
+        "normalizedQuote": "טאכטע ר פו ן חײ ם שלמ ה\nפעלדמאן",
+        "modelQuote": "טאכטער פון חײם שלמה פעלדמאן",
         "bbox": {
           "left": 461,
           "top": 2657,
@@ -74,49 +74,50 @@
         "passageChecksum": "d8f6eca9c5f4ddcf14b2cf9a64ed270e05324aab36fb42a688d6ceeba91afee7",
         "normalizedPassageChecksum": "0af9a7e8737d3c502ed70757b42963428ba1f301549c5277c6d7c861788c4d3a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
-    },
+    }
+  ],
+  "events": [
     {
-      "id": "claim_candidate_f327c1fc7b106ff82680fad4",
-      "predicate": "Sibling Of",
-      "subjectTitle": "Leah Feldman",
-      "objectTitle": "Motel Feldman of New York.",
+      "id": "event_candidate_ba9002a0848bc733722f0527",
+      "type": "Death",
+      "title": "Death of Leah Feldman",
+      "summary": "Leah Feldman died of typhus contracted during volunteer work.",
       "confidence": "MEDIUM",
-      "uncertaintyNote": "The exact relationship term is unclear in context.",
+      "uncertaintyNote": "Death is stated elsewhere in the passage, but this shortest quoted span does not itself state it.",
       "evidence": {
         "passageId": "passage_a0fae6fc3ed18e43f21401e4",
         "pageId": "page_nybc301551_0064",
         "scanIndex": 64,
         "leafNumber": 63,
         "printedPage": "60",
-        "passageCharStart": 256,
-        "passageCharEnd": 316,
-        "normalizedPassageCharStart": 222,
-        "normalizedPassageCharEnd": 274,
-        "pageCharStart": 1397,
-        "pageCharEnd": 1457,
-        "quote": "ד י שװעםטע ר פו ן אונדזע ר ליב ן מאט ל פעלדמא ן פו ן נױ־יארק",
-        "normalizedQuote": "די שװעםטער פון אונדזער ליבן מאטל פעלדמאן פון נױ־יארק",
-        "modelQuote": "די שװעםטער פון אונדזער ליבן מאטל פעלדמאן פון נױ־יארק",
+        "passageCharStart": 320,
+        "passageCharEnd": 373,
+        "normalizedPassageCharStart": 320,
+        "normalizedPassageCharEnd": 373,
+        "pageCharStart": 1461,
+        "pageCharEnd": 1514,
+        "quote": "ז י אי ז\nגעװען זײע ר באליב ט ב ײ דע ר שטאטישע ר ױגנ ט",
+        "normalizedQuote": "ז י אי ז\nגעװען זײע ר באליב ט ב ײ דע ר שטאטישע ר ױגנ ט",
+        "modelQuote": "זי איז געװען זײער באליבט בײ דער שטאטישער ױגנט",
         "bbox": {
-          "left": 735,
-          "top": 2751,
-          "right": 2911,
-          "bottom": 2835
+          "left": 459,
+          "top": 2777,
+          "right": 2993,
+          "bottom": 2931
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n63/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "d8f6eca9c5f4ddcf14b2cf9a64ed270e05324aab36fb42a688d6ceeba91afee7",
         "normalizedPassageChecksum": "0af9a7e8737d3c502ed70757b42963428ba1f301549c5277c6d7c861788c4d3a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
   "connections": [
     {
       "id": "mention_2151cb55c7c2e462418e121c",
@@ -125,11 +126,11 @@
       "relation": "Child Of"
     },
     {
-      "id": "event_candidate_0ca89e1f305b6d4fd9e179c2",
+      "id": "event_candidate_ba9002a0848bc733722f0527",
       "type": "Event",
       "title": "Death of Leah Feldman",
       "relation": "Participated In",
-      "role": "Subject"
+      "role": "Victim"
     },
     {
       "id": "mention_2151cb55c7c2e462418e121c",
@@ -140,37 +141,43 @@
     {
       "id": "mention_c0a1a2215841c95df812cda8",
       "type": "Person",
-      "title": "Motel Feldman",
+      "title": "Motl Feldman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_fc2cf496ec2d30f4e1e9ae73",
-      "type": "Place",
-      "title": "New York",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5664cbc9c9cf06df11663cf5",
+      "id": "mention_6bf288b6510644925ba11d9b",
       "type": "Person",
       "title": "Hershl Zilberstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b5cd959cdbec3eb77079ec89",
+      "id": "mention_dc79582c0c1fc0e9b8c9a3c0",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b21a90d0d47c58f5373a6149",
       "type": "Organization",
       "title": "Culture Association",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_82590bce1037dfb5e2871fa0",
+      "id": "mention_b6efcedf8b4d716ed71bfd29",
       "type": "Institution",
       "title": "Jewish Library",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a8ad39ed3f909b91ef2e5fce",
+      "id": "mention_7520296188eae4eabf7be673",
       "type": "Institution",
       "title": "Kindergarten",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5b852b03f7a6859c440265ec",
+      "type": "Institution",
+      "title": "Public School",
       "relation": "Appears in same passage"
     },
     {
@@ -180,19 +187,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5b852b03f7a6859c440265ec",
-      "type": "Institution",
-      "title": "First-Class Public School",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_304477a65e895be1a11ae235",
+      "id": "mention_c954ac2cb94595d59b7c16cc",
       "type": "Person",
-      "title": "Kahn",
+      "title": "Teacher Kan",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Appears in same passage"

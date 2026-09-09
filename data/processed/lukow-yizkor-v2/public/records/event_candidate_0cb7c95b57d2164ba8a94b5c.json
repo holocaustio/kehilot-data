@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_0cb7c95b57d2164ba8a94b5c",
+  "type": "Event",
+  "title": "Benjamin shot by an SS man",
+  "summary": "An SS man shot Benjamin and ordered his removal to the Maltsinov cemetery.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 513,
+  "printedPage": "509",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_033e7c53ed8996ecf244672e",
+      "pageId": "page_nybc301551_0513",
+      "scanIndex": 513,
+      "leafNumber": 512,
+      "printedPage": "509",
+      "passageCharStart": 61,
+      "passageCharEnd": 100,
+      "normalizedPassageCharStart": 61,
+      "normalizedPassageCharEnd": 100,
+      "pageCharStart": 61,
+      "pageCharEnd": 100,
+      "quote": "דע ר עס־עס־מא ן הא ט דערשאס ן בנימינע ן",
+      "normalizedQuote": "דע ר עס־עס־מא ן הא ט דערשאס ן בנימינע ן",
+      "modelQuote": "דער עס־עס־מאן האט דערשאסן בנימינען",
+      "bbox": {
+        "left": 455,
+        "top": 860,
+        "right": 1797,
+        "bottom": 930
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n512/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "4fa07521503553928b31906477926a1e8c70d2217d89710e9920cb2464ff4aa2",
+      "normalizedPassageChecksum": "2b2fb2797f9ff6cc19de6e707c2fbb287ac4ab2b9ad62b6aab7e1144558aa0b9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_d3089a57ff243ba17451161e",
+      "type": "Place",
+      "title": "Maltsinov Cemetery",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_90fcde52bb54e3e6d9519594",
+      "type": "Person",
+      "title": "Benjamin",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

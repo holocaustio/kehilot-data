@@ -2,15 +2,14 @@
   "id": "mention_00aee20f2007cd7b0d74a09e",
   "type": "Person",
   "title": "Aharon Ichenberg",
-  "summary": "Worked at the same labor site, caring for horses in a stable.",
+  "summary": "Worked near the narrator at a soldiers’ home and helped support their families.",
   "originalName": "אהרון איחענבערג",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 416,
   "printedPage": "412",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The OCR spelling may be uncertain.",
   "evidenceRefs": [
     {
       "passageId": "passage_c408cb4eb4596c70e5b75c37",
@@ -20,12 +19,12 @@
       "printedPage": "412",
       "passageCharStart": 961,
       "passageCharEnd": 977,
-      "normalizedPassageCharStart": 825,
-      "normalizedPassageCharEnd": 840,
+      "normalizedPassageCharStart": 961,
+      "normalizedPassageCharEnd": 977,
       "pageCharStart": 961,
       "pageCharEnd": 977,
       "quote": "אהרו ן איחענבערג",
-      "normalizedQuote": "אהרון איחענבערג",
+      "normalizedQuote": "אהרו ן איחענבערג",
       "modelQuote": "אהרון איחענבערג",
       "bbox": {
         "left": 794,
@@ -38,21 +37,19 @@
       "passageChecksum": "aa6bafc1d5a9767867b4d89999764a39f64a2c32eba5f66e498c92a83170c354",
       "normalizedPassageChecksum": "8adefbf55d91c530046891021b6a2bdf016f195ea907c631c9de44ebf0789a76",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_d244b77de9545d3e160ed16d",
+      "id": "claim_candidate_382232dde759b645720f4cfb",
       "predicate": "Worked At",
       "subjectTitle": "Aharon Ichenberg",
-      "objectTitle": "Soldiers' Home",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The shared workplace is stated, but the soldiers' home is not repeated in this sentence.",
+      "objectTitle": "Soldiers’ Home",
+      "confidence": "HIGH",
       "qualifiers": {
-        "location": "stable",
-        "task": "cared for horses"
+        "detail": "worked in the stable near pigs"
       },
       "evidence": {
         "passageId": "passage_c408cb4eb4596c70e5b75c37",
@@ -60,18 +57,18 @@
         "scanIndex": 416,
         "leafNumber": 415,
         "printedPage": "412",
-        "passageCharStart": 912,
-        "passageCharEnd": 1045,
-        "normalizedPassageCharStart": 782,
-        "normalizedPassageCharEnd": 896,
-        "pageCharStart": 912,
-        "pageCharEnd": 1045,
-        "quote": "צו מי ץ ארבעטם־פלא ץ אי ז איי ך געװא ח צוגעטײל ט אהרו ן איחענבערג . ע ר הא ט\nנישט געארבע ט אי ן קיך ׳ נא ר אי ן שטא ל ב ײ ד י חזרים .",
-        "normalizedQuote": "צו מיץ ארבעטם־פלאץ איז אייך געװאח צוגעטײלט אהרון איחענבערג. ער האט נישט געארבעט אין קיך׳ נאר אין שטאל בײ די חזרים.",
-        "modelQuote": "צו מיץ ארבעטם־פלאץ איז אייך געװאח צוגעטײלט אהרון איחענבערג. ער האט נישט געארבעט אין קיך׳ נאר אין שטאל בײ די חזרים.",
+        "passageCharStart": 961,
+        "passageCharEnd": 1029,
+        "normalizedPassageCharStart": 961,
+        "normalizedPassageCharEnd": 1029,
+        "pageCharStart": 961,
+        "pageCharEnd": 1029,
+        "quote": "אהרו ן איחענבערג . ע ר הא ט\nנישט געארבע ט אי ן קיך ׳ נא ר אי ן שטא ל",
+        "normalizedQuote": "אהרו ן איחענבערג . ע ר הא ט\nנישט געארבע ט אי ן קיך ׳ נא ר אי ן שטא ל",
+        "modelQuote": "אהרון איחענבערג. ער האט נישט געארבעט אין קיך׳ נאר אין שטאל",
         "bbox": {
           "left": 478,
-          "top": 4339,
+          "top": 4357,
           "right": 3054,
           "bottom": 4525
         },
@@ -80,7 +77,7 @@
         "passageChecksum": "aa6bafc1d5a9767867b4d89999764a39f64a2c32eba5f66e498c92a83170c354",
         "normalizedPassageChecksum": "8adefbf55d91c530046891021b6a2bdf016f195ea907c631c9de44ebf0789a76",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -88,19 +85,19 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_e1f7bb2af69efa6de60bcf1e",
-      "type": "Institution",
-      "title": "Soldiers' Home",
+      "id": "mention_7590493b4535147745f18829",
+      "type": "Place",
+      "title": "Soldiers’ Home",
       "relation": "Worked At"
     },
     {
-      "id": "mention_672461443fff6b8ecd1c7c85",
+      "id": "mention_66e4844e3daf812ac5ad72b9",
       "type": "Person",
-      "title": "Elke Geret-Tikatski",
+      "title": "Elke Gerecht-Tikatski",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
       "title": "Łuków",
       "relation": "Appears in same passage"
@@ -112,9 +109,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e1f7bb2af69efa6de60bcf1e",
-      "type": "Institution",
-      "title": "Soldiers' Home",
+      "id": "mention_7590493b4535147745f18829",
+      "type": "Place",
+      "title": "Soldiers’ Home",
       "relation": "Appears in same passage"
     }
   ],

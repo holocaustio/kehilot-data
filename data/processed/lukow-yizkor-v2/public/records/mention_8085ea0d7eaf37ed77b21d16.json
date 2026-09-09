@@ -2,16 +2,15 @@
   "id": "mention_8085ea0d7eaf37ed77b21d16",
   "type": "Person",
   "title": "Lichtenberg",
-  "summary": "Player criticized for excessive declamation.",
+  "summary": "Lichtenberg was among performers criticized for declaiming strongly.",
   "originalName": "ליכטענבערג",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 272,
   "printedPage": "268",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "performer",
-  "uncertaintyNote": "OCR may affect the title and transliteration.",
+  "subtype": "theater performer",
   "evidenceRefs": [
     {
       "passageId": "passage_f64361dbf284b071e674a734",
@@ -21,12 +20,12 @@
       "printedPage": "268",
       "passageCharStart": 724,
       "passageCharEnd": 740,
-      "normalizedPassageCharStart": 624,
-      "normalizedPassageCharEnd": 639,
+      "normalizedPassageCharStart": 724,
+      "normalizedPassageCharEnd": 740,
       "pageCharStart": 724,
       "pageCharEnd": 740,
       "quote": "פרל . ליכטענבערג",
-      "normalizedQuote": "פרל. ליכטענבערג",
+      "normalizedQuote": "פרל . ליכטענבערג",
       "modelQuote": "פרל. ליכטענבערג",
       "bbox": {
         "left": 1319,
@@ -39,12 +38,64 @@
       "passageChecksum": "e7843d6fcc2519b3bc1ece5d9b8bb9885d3b18a9f269aba17e0819b10a675c10",
       "normalizedPassageChecksum": "c57c86b5bbead22c193eff608d7eef451aed9d0ebf18c7ffad808ab4372f315d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
-  "connections": [],
+  "events": [
+    {
+      "id": "event_candidate_cbcf0fc5f28fdcc07924783d",
+      "type": "Theatrical Review",
+      "title": "Theatrical production reviewed",
+      "summary": "A theatrical production was reviewed, with comments on performers, acting, and staging.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage is a theatrical critique; the exact production and event date are not stated.",
+      "evidence": {
+        "passageId": "passage_edab6f6b2ed9bc3dfc671582",
+        "pageId": "page_nybc301551_0271",
+        "scanIndex": 271,
+        "leafNumber": 270,
+        "printedPage": "267",
+        "passageCharStart": 400,
+        "passageCharEnd": 439,
+        "normalizedPassageCharStart": 400,
+        "normalizedPassageCharEnd": 439,
+        "pageCharStart": 1246,
+        "pageCharEnd": 1285,
+        "quote": "ניש ט שלעכ ט האב ן\nגעשפילט ה ׳ בורשטי ן",
+        "normalizedQuote": "ניש ט שלעכ ט האב ן\nגעשפילט ה ׳ בורשטי ן",
+        "modelQuote": "נישט שלעכט האבן געשפילט ה׳ בורשטין",
+        "bbox": {
+          "left": 490,
+          "top": 3815,
+          "right": 2912,
+          "bottom": 4001
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n270/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "e86596de013065f2024ea1e7a037f74b6f29dcd6bacc3dc71523f9fca4c1415c",
+        "normalizedPassageChecksum": "ce816010f1f6c3cb9cb7abf5f70bd6a934eba58f76ddc13bfb990bc4a7352960",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_cbcf0fc5f28fdcc07924783d",
+      "type": "Event",
+      "title": "Theatrical production reviewed",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_cfd78f8b8f7022bce2b8c637",
+      "type": "Institution",
+      "title": "Y.S.A.",
+      "relation": "Appears in same passage"
+    }
+  ],
   "publicationEligible": false
 }

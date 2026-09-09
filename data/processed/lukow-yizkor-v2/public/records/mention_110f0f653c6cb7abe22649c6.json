@@ -1,17 +1,17 @@
 {
   "id": "mention_110f0f653c6cb7abe22649c6",
   "type": "Person",
-  "title": "Chmielnicki",
-  "summary": "Chmielnicki is said to have burned a synagogue.",
+  "title": "Bohdan Khmelnytsky",
+  "summary": "Khmelnytsky is said to have burned a synagogue in Łuków.",
   "originalName": "כמיעלניצקי",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 21,
   "printedPage": "17",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "Historical figure",
-  "uncertaintyNote": "The OCR rendering of the name is imperfect.",
+  "subtype": "historical leader",
+  "uncertaintyNote": "The OCR transliteration is imperfect.",
   "evidenceRefs": [
     {
       "passageId": "passage_138f3f61660e2d0ab836ba2b",
@@ -21,12 +21,12 @@
       "printedPage": "17",
       "passageCharStart": 33,
       "passageCharEnd": 64,
-      "normalizedPassageCharStart": 28,
-      "normalizedPassageCharEnd": 56,
+      "normalizedPassageCharStart": 33,
+      "normalizedPassageCharEnd": 64,
       "pageCharStart": 2272,
       "pageCharEnd": 2303,
       "quote": "ווא ס כמיעלניצק י הא ט פארברענט",
-      "normalizedQuote": "וואס כמיעלניצקי האט פארברענט",
+      "normalizedQuote": "ווא ס כמיעלניצק י הא ט פארברענט",
       "modelQuote": "וואס כמיעלניצקי האט פארברענט",
       "bbox": {
         "left": 1029,
@@ -39,19 +39,19 @@
       "passageChecksum": "afe148828940309c795cd329b858206e48738e35302d302ecd0857bdf8d728e8",
       "normalizedPassageChecksum": "f6b0e858bed0754b712b78365327a6bb195542d274cd635ecf059423188687b5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_f0d8782732202b5a67bbc904",
+      "id": "event_candidate_31e165ece1447628b2515872",
       "type": "Fire",
-      "title": "Synagogue burned by Chmielnicki",
-      "summary": "Chmielnicki burned a synagogue, but the source says it was not the first; leave the specific victim and event location unspecified.",
+      "title": "Burning of a Łuków synagogue",
+      "summary": "Khmelnytsky burned a synagogue described as not Łuków’s first.",
       "confidence": "MEDIUM",
-      "uncertaintyNote": "The passage does not explicitly identify the burned synagogue as located in Lukow.",
+      "uncertaintyNote": "The passage does not provide a date, and the synagogue’s exact identification is uncertain.",
       "evidence": {
         "passageId": "passage_138f3f61660e2d0ab836ba2b",
         "pageId": "page_nybc301551_0021",
@@ -60,12 +60,12 @@
         "printedPage": "17",
         "passageCharStart": 33,
         "passageCharEnd": 64,
-        "normalizedPassageCharStart": 28,
-        "normalizedPassageCharEnd": 56,
+        "normalizedPassageCharStart": 33,
+        "normalizedPassageCharEnd": 64,
         "pageCharStart": 2272,
         "pageCharEnd": 2303,
         "quote": "ווא ס כמיעלניצק י הא ט פארברענט",
-        "normalizedQuote": "וואס כמיעלניצקי האט פארברענט",
+        "normalizedQuote": "ווא ס כמיעלניצק י הא ט פארברענט",
         "modelQuote": "וואס כמיעלניצקי האט פארברענט",
         "bbox": {
           "left": 1029,
@@ -78,35 +78,35 @@
         "passageChecksum": "afe148828940309c795cd329b858206e48738e35302d302ecd0857bdf8d728e8",
         "normalizedPassageChecksum": "f6b0e858bed0754b712b78365327a6bb195542d274cd635ecf059423188687b5",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_f0d8782732202b5a67bbc904",
+      "id": "event_candidate_31e165ece1447628b2515872",
       "type": "Event",
-      "title": "Synagogue burned by Chmielnicki",
+      "title": "Burning of a Łuków synagogue",
       "relation": "Participated In",
       "role": "Perpetrator"
     },
     {
-      "id": "mention_66df5f1594ada7e5aaedd1fc",
+      "id": "mention_4ef4309d299e1dd6cfea5def",
       "type": "Community",
-      "title": "Lukow Jewish community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e7fbee3182be73611b643143",
-      "type": "Place",
-      "title": "Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4fcd93030556def5508561d1",
+      "id": "mention_f1e06ab8f3d0cc9f77771a62",
       "type": "Institution",
-      "title": "First synagogue in Lukow",
+      "title": "Łuków synagogue",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     }
   ],

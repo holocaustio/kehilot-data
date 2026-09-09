@@ -2,15 +2,14 @@
   "id": "mention_235bf586babbda1737e64635",
   "type": "Person",
   "title": "Shlomo Walman",
-  "summary": "Chayele’s father worked in Brody and was connected to the narrator’s rescuers.",
+  "summary": "Father of a daughter named Chayele; worked in Brody.",
   "originalName": "שלמה װאלמאן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 189,
   "printedPage": "185",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "father of Chayele",
   "evidenceRefs": [
     {
       "passageId": "passage_5becfcaace9b17094c90be86",
@@ -20,12 +19,12 @@
       "printedPage": "185",
       "passageCharStart": 1077,
       "passageCharEnd": 1089,
-      "normalizedPassageCharStart": 917,
-      "normalizedPassageCharEnd": 928,
+      "normalizedPassageCharStart": 1077,
+      "normalizedPassageCharEnd": 1089,
       "pageCharStart": 1797,
       "pageCharEnd": 1809,
       "quote": "שלמ ה װאלמאן",
-      "normalizedQuote": "שלמה װאלמאן",
+      "normalizedQuote": "שלמ ה װאלמאן",
       "modelQuote": "שלמה װאלמאן",
       "bbox": {
         "left": 627,
@@ -38,45 +37,44 @@
       "passageChecksum": "110a0a95d71fb5c9f2f708ab122db45eb39ae02bd176388a39222b6b0b411ae8",
       "normalizedPassageChecksum": "b9af645fbd874186b39b5198e732fd3f098ad4d9794c1017bbd857265c9d84a2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_5120b14ad2b1acff93edae4a",
-      "predicate": "Worked At",
-      "subjectTitle": "Shlomo Walman",
-      "objectTitle": "Brody",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The OCR place reading is uncertain.",
+      "id": "claim_candidate_fd29d1e536f72fce1a0f3349",
+      "predicate": "Child Of",
+      "subjectTitle": "Chayele",
+      "objectTitle": "Shlomo Walman",
+      "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_5becfcaace9b17094c90be86",
         "pageId": "page_nybc301551_0189",
         "scanIndex": 189,
         "leafNumber": 188,
         "printedPage": "185",
-        "passageCharStart": 1002,
-        "passageCharEnd": 1030,
-        "normalizedPassageCharStart": 854,
-        "normalizedPassageCharEnd": 879,
-        "pageCharStart": 1722,
-        "pageCharEnd": 1750,
-        "quote": "אי ר פאטע ר\nארבעט אי ן ברויז",
-        "normalizedQuote": "איר פאטער ארבעט אין ברויז",
-        "modelQuote": "איר פאטער ארבעט אין ברויז",
+        "passageCharStart": 1121,
+        "passageCharEnd": 1140,
+        "normalizedPassageCharStart": 1121,
+        "normalizedPassageCharEnd": 1140,
+        "pageCharStart": 1841,
+        "pageCharEnd": 1860,
+        "quote": "זײ ן טאכטער ׳ חיהלע",
+        "normalizedQuote": "זײ ן טאכטער ׳ חיהלע",
+        "modelQuote": "זײן טאכטער׳ חיהלע",
         "bbox": {
-          "left": 465,
-          "top": 3178,
-          "right": 2943,
-          "bottom": 3358
+          "left": 1619,
+          "top": 3378,
+          "right": 2355,
+          "bottom": 3460
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n188/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "110a0a95d71fb5c9f2f708ab122db45eb39ae02bd176388a39222b6b0b411ae8",
         "normalizedPassageChecksum": "b9af645fbd874186b39b5198e732fd3f098ad4d9794c1017bbd857265c9d84a2",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -84,31 +82,25 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_d3918d3ee01d481a8103d577",
-      "type": "Place",
-      "title": "Brody",
-      "relation": "Worked At"
-    },
-    {
-      "id": "mention_d6e4cd826c1508ebc977dc86",
+      "id": "mention_2e461bbf184e267e276a31d0",
       "type": "Person",
-      "title": "Unnamed young man",
+      "title": "Chayele",
+      "relation": "Child Of"
+    },
+    {
+      "id": "mention_2e461bbf184e267e276a31d0",
+      "type": "Person",
+      "title": "Chayele",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
-      "type": "Place",
-      "title": "Łuków",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d3918d3ee01d481a8103d577",
-      "type": "Place",
-      "title": "Brody",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_9eaf6b96c0fc9080b917f970",
+      "id": "mention_6cef8b7922be05c5370ea8c7",
       "type": "Institution",
       "title": "Hospital",
       "relation": "Appears in same passage"

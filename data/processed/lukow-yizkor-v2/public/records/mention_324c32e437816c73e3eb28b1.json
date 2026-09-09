@@ -2,15 +2,14 @@
   "id": "mention_324c32e437816c73e3eb28b1",
   "type": "Person",
   "title": "Sarah Goldstein",
-  "summary": "The librarian of the Jewish People's Library.",
+  "summary": "The librarian of the Jewish public library.",
   "originalName": "שרה גולדשטין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 78,
   "printedPage": "74",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "librarian",
   "evidenceRefs": [
     {
       "passageId": "passage_9c5c456efd28178619433c8a",
@@ -20,12 +19,12 @@
       "printedPage": "74",
       "passageCharStart": 211,
       "passageCharEnd": 239,
-      "normalizedPassageCharStart": 184,
-      "normalizedPassageCharEnd": 209,
+      "normalizedPassageCharStart": 211,
+      "normalizedPassageCharEnd": 239,
       "pageCharStart": 1580,
       "pageCharEnd": 1608,
       "quote": "הםפרני ת הית ה שר ה גולדשטין",
-      "normalizedQuote": "הםפרנית היתה שרה גולדשטין",
+      "normalizedQuote": "הםפרני ת הית ה שר ה גולדשטין",
       "modelQuote": "הםפרנית היתה שרה גולדשטין",
       "bbox": {
         "left": 478,
@@ -38,17 +37,20 @@
       "passageChecksum": "b0d5173bb9bc3f2b8b528aeebeb7eafb93c36beada7fda868bcde1861009b3a1",
       "normalizedPassageChecksum": "b4ceed23ad7ec4f53e4b8b5d6bd44292391eb1a3e20cc8863cfcf44f664e8c6f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_5e115d17f0a872c029929ae1",
+      "id": "claim_candidate_d99d9d7a8acbc2df5d8fb7e2",
       "predicate": "Worked At",
       "subjectTitle": "Sarah Goldstein",
-      "objectTitle": "Jewish People's Library",
+      "objectTitle": "Jewish Public Library",
       "confidence": "HIGH",
+      "qualifiers": {
+        "role": "librarian"
+      },
       "evidence": {
         "passageId": "passage_9c5c456efd28178619433c8a",
         "pageId": "page_nybc301551_0078",
@@ -57,12 +59,12 @@
         "printedPage": "74",
         "passageCharStart": 211,
         "passageCharEnd": 239,
-        "normalizedPassageCharStart": 184,
-        "normalizedPassageCharEnd": 209,
+        "normalizedPassageCharStart": 211,
+        "normalizedPassageCharEnd": 239,
         "pageCharStart": 1580,
         "pageCharEnd": 1608,
         "quote": "הםפרני ת הית ה שר ה גולדשטין",
-        "normalizedQuote": "הםפרנית היתה שרה גולדשטין",
+        "normalizedQuote": "הםפרני ת הית ה שר ה גולדשטין",
         "modelQuote": "הםפרנית היתה שרה גולדשטין",
         "bbox": {
           "left": 478,
@@ -75,7 +77,7 @@
         "passageChecksum": "b0d5173bb9bc3f2b8b528aeebeb7eafb93c36beada7fda868bcde1861009b3a1",
         "normalizedPassageChecksum": "b4ceed23ad7ec4f53e4b8b5d6bd44292391eb1a3e20cc8863cfcf44f664e8c6f",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -83,21 +85,15 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_3d995b107530cb83d944de5c",
+      "id": "mention_80e76260c698cfd0932106df",
       "type": "Institution",
-      "title": "Jewish People's Library",
+      "title": "Jewish Public Library",
       "relation": "Worked At"
     },
     {
-      "id": "mention_87890fe45352fe83680cda98",
-      "type": "Community",
-      "title": "Lukow Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3d995b107530cb83d944de5c",
+      "id": "mention_80e76260c698cfd0932106df",
       "type": "Institution",
-      "title": "Jewish People's Library",
+      "title": "Jewish Public Library",
       "relation": "Appears in same passage"
     }
   ],

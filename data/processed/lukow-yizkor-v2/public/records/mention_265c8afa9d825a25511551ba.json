@@ -2,16 +2,15 @@
   "id": "mention_265c8afa9d825a25511551ba",
   "type": "Place",
   "title": "Zazheche",
-  "summary": "A village 100 kilometers away where the narrator sought shelter for the mother.",
+  "summary": "A village approximately 100 kilometers away, where the mother had stayed in 1942.",
   "originalName": "זאזשעטשע",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 407,
   "printedPage": "403",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "village",
-  "uncertaintyNote": "The transliteration is approximate because of OCR and Yiddish spelling.",
   "evidenceRefs": [
     {
       "passageId": "passage_5cc46e2774a1d66024791cce",
@@ -21,12 +20,12 @@
       "printedPage": "403",
       "passageCharStart": 196,
       "passageCharEnd": 227,
-      "normalizedPassageCharStart": 165,
-      "normalizedPassageCharEnd": 192,
+      "normalizedPassageCharStart": 196,
+      "normalizedPassageCharEnd": 227,
       "pageCharStart": 1011,
       "pageCharEnd": 1042,
       "quote": "אי ן א ן אנדע ר דארף , זאזשעטשע",
-      "normalizedQuote": "אין אן אנדער דארף, זאזשעטשע",
+      "normalizedQuote": "אי ן א ן אנדע ר דארף , זאזשעטשע",
       "modelQuote": "אין אן אנדער דארף, זאזשעטשע",
       "bbox": {
         "left": 997,
@@ -39,35 +38,75 @@
       "passageChecksum": "a84061952485775f6436ad55f0fe985c9465e114e32e84a5eca4ab4388e4af98",
       "normalizedPassageChecksum": "dc9d1e6c4e01b36aad1f5079777ab215c4f90974b223a1439ae078463fddbb38",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_a1158fbde7988c25bae44691",
+      "predicate": "Lived At",
+      "subjectTitle": "the narrator's mother",
+      "objectTitle": "Zazheche",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "year": "1942"
+      },
+      "evidence": {
+        "passageId": "passage_5cc46e2774a1d66024791cce",
+        "pageId": "page_nybc301551_0407",
+        "scanIndex": 407,
+        "leafNumber": 406,
+        "printedPage": "403",
+        "passageCharStart": 232,
+        "passageCharEnd": 283,
+        "normalizedPassageCharStart": 232,
+        "normalizedPassageCharEnd": 283,
+        "pageCharStart": 1047,
+        "pageCharEnd": 1098,
+        "quote": "װ ד י מוטע ר\nאיז שוי ן געהא ט געװע ן אי ן יא ר 1942",
+        "normalizedQuote": "װ ד י מוטע ר\nאיז שוי ן געהא ט געװע ן אי ן יא ר 1942",
+        "modelQuote": "װ די מוטער איז שוין געהאט געװען אין יאר 1942",
+        "bbox": {
+          "left": 455,
+          "top": 2346,
+          "right": 3071,
+          "bottom": 2524
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n406/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "a84061952485775f6436ad55f0fe985c9465e114e32e84a5eca4ab4388e4af98",
+        "normalizedPassageChecksum": "dc9d1e6c4e01b36aad1f5079777ab215c4f90974b223a1439ae078463fddbb38",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_37403c56e6fa21f70e9cf5c8",
-      "type": "Place",
-      "title": "Radzyn",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_fa88c337f01b96aefc5bdb10",
-      "type": "Place",
-      "title": "Zamkowice",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e461acab222f1cea6378d5e8",
+      "id": "mention_34b0d2574a063598a3e74cfa",
       "type": "Person",
-      "title": "the peasant woman",
+      "title": "the narrator's mother",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_d8b93c1d8f2cdf783032e0aa",
+      "type": "Place",
+      "title": "Radzin",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5692526cdbeaf59506b09da8",
-      "type": "Organization",
-      "title": "Gestapo",
+      "id": "mention_a793daf69db24281c8c48dec",
+      "type": "Place",
+      "title": "Zamkovitse",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a05ff084b2e023363b03ead6",
+      "type": "Person",
+      "title": "a peasant woman",
       "relation": "Appears in same passage"
     }
   ],

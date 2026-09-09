@@ -1,11 +1,11 @@
 {
   "id": "mention_4cf842ecb3af5f5c53a47082",
   "type": "Community",
-  "title": "Young people of Lukow",
-  "summary": "A group of Lukow youths encountered armed Poles.",
-  "originalName": "קבוצה של צעירי לוקוב",
+  "title": "Youth of Lukow",
+  "summary": "Young people from Lukow who encountered armed Poles.",
+  "originalName": "צעירי לוקוב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 330,
   "printedPage": "326",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -21,11 +21,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 23,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 20,
+      "normalizedPassageCharEnd": 23,
       "pageCharStart": 1367,
       "pageCharEnd": 1390,
       "quote": "קבוצה ש ל צעיר י לוקו ב",
-      "normalizedQuote": "קבוצה של צעירי לוקוב",
+      "normalizedQuote": "קבוצה ש ל צעיר י לוקו ב",
       "modelQuote": "קבוצה של צעירי לוקוב",
       "bbox": {
         "left": 2122,
@@ -38,17 +38,17 @@
       "passageChecksum": "0c5203f3d7998a526a0796c5b0b3f7a7741c6d9ad83f235a78695631a5b7355e",
       "normalizedPassageChecksum": "a68dea3b7ad21285e2e3833490aeb1ab5f84e41ad86a9a8b92315643237ec44a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_c78bfcec52505d913aa5639a",
+      "id": "event_candidate_3c169dd57e71bdd0870144d4",
       "type": "Murder",
-      "title": "Murder of Lukow youths by armed Poles",
-      "summary": "Armed Poles murdered Jewish youths while they slept; two youths escaped.",
+      "title": "Murder of Jewish youths by Poles",
+      "summary": "Armed Poles murdered Jewish youths who accepted an offer to fight Germans together.",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_3316e87aef8a403c1b7dd787",
@@ -57,72 +57,108 @@
         "leafNumber": 329,
         "printedPage": "326",
         "passageCharStart": 193,
-        "passageCharEnd": 294,
-        "normalizedPassageCharStart": 170,
-        "normalizedPassageCharEnd": 258,
+        "passageCharEnd": 237,
+        "normalizedPassageCharStart": 193,
+        "normalizedPassageCharEnd": 237,
         "pageCharStart": 1560,
-        "pageCharEnd": 1661,
-        "quote": "בלילה , כשהצעירי ם ישנ ו רצח ו אות ם הפולנים . ר ק 2 מה ם\nראובן ויםבוי ם ונוט ה קרסיק , הצליח ו להמלט",
-        "normalizedQuote": "בלילה, כשהצעירים ישנו רצחו אותם הפולנים. רק2 מהם ראובן ויםבוים ונוטה קרסיק, הצליחו להמלט",
-        "modelQuote": "בלילה, כשהצעירים ישנו רצחו אותם הפולנים. רק2 מהם ראובן ויםבוים ונוטה קרסיק, הצליחו להמלט",
+        "pageCharEnd": 1604,
+        "quote": "בלילה , כשהצעירי ם ישנ ו רצח ו אות ם הפולנים",
+        "normalizedQuote": "בלילה , כשהצעירי ם ישנ ו רצח ו אות ם הפולנים",
+        "modelQuote": "בלילה, כשהצעירים ישנו רצחו אותם הפולנים",
         "bbox": {
-          "left": 480,
+          "left": 876,
           "top": 3064,
-          "right": 3008,
-          "bottom": 3246
+          "right": 2370,
+          "bottom": 3138
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n329/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "0c5203f3d7998a526a0796c5b0b3f7a7741c6d9ad83f235a78695631a5b7355e",
         "normalizedPassageChecksum": "a68dea3b7ad21285e2e3833490aeb1ab5f84e41ad86a9a8b92315643237ec44a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_c78bfcec52505d913aa5639a",
+      "id": "event_candidate_3c169dd57e71bdd0870144d4",
       "type": "Event",
-      "title": "Murder of Lukow youths by armed Poles",
+      "title": "Murder of Jewish youths by Poles",
       "relation": "Participated In",
       "role": "Victim"
     },
     {
-      "id": "mention_a63ff3b1c27470d36abef248",
+      "id": "mention_2e7fb5773100390b4b9b75db",
       "type": "Person",
-      "title": "Nuta Karsik",
+      "title": "Reuven Wisnboim",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2f467013548d41eb39565543",
+      "id": "mention_62753d2b0c14ba8d3cf2addb",
       "type": "Person",
-      "title": "Aharle Frangler",
+      "title": "Nuta Krasik",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_fe1d9c4aa2ce6ade1c878ef8",
+      "id": "mention_bb175ecea76f3d0d5d29f48d",
       "type": "Person",
-      "title": "David Frangler",
+      "title": "Yahiel Hentshtok",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_284c2e86ae8aefe0e5869aaf",
-      "type": "Family",
-      "title": "Frangler family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b91a53620a2d8592bd3cb1d4",
+      "id": "mention_9fbdb13868df6c73e0343e7b",
       "type": "Person",
-      "title": "Yuzhek the chimney sweeper",
+      "title": "Mochniak",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e7fbee3182be73611b643143",
+      "id": "mention_c2ce34a97b4b14308b95e9f6",
       "type": "Place",
-      "title": "Lukow",
+      "title": "Glinkut",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_86d86b213fcbee0d71859e3d",
+      "type": "Place",
+      "title": "Luzi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2a6d5f3365898df5dcb0fd14",
+      "type": "Person",
+      "title": "Aharele Franglar",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d59653e3daf4a3a4389f1c54",
+      "type": "Person",
+      "title": "David Franglar",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e9dde8f750226db9eb53d546",
+      "type": "Family",
+      "title": "Franglar family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a9ca4a9c9c8ef496a3f85cc6",
+      "type": "Institution",
+      "title": "Brick workshop",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6ba32a785b4f4c666cce24be",
+      "type": "Person",
+      "title": "Stanislava",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f58894aef398f770b82256fe",
+      "type": "Person",
+      "title": "Juzek the chimney sweep",
       "relation": "Appears in same passage"
     }
   ],

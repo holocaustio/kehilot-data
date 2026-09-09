@@ -1,0 +1,124 @@
+{
+  "id": "mention_39e3c9085ef7bfbd3c12659f",
+  "type": "Place",
+  "title": "Mikhran",
+  "summary": "Place where Bertshe hid and where Shейndl was present.",
+  "originalName": "״םכראן״",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 431,
+  "printedPage": "427",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "shelter",
+  "uncertaintyNote": "The OCR rendering of the place name is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6df015745c02d38a58f60959",
+      "pageId": "page_nybc301551_0431",
+      "scanIndex": 431,
+      "leafNumber": 430,
+      "printedPage": "427",
+      "passageCharStart": 95,
+      "passageCharEnd": 102,
+      "normalizedPassageCharStart": 95,
+      "normalizedPassageCharEnd": 102,
+      "pageCharStart": 1163,
+      "pageCharEnd": 1170,
+      "quote": "״םכראן״",
+      "normalizedQuote": "״םכראן״",
+      "modelQuote": "״םכראן״",
+      "bbox": {
+        "left": 2243,
+        "top": 2449,
+        "right": 2543,
+        "bottom": 2513
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n430/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "49bbc8f4e220ce59b19f1d4ae9eeaf5d72f6d4d71534eb1ca284712569378ac6",
+      "normalizedPassageChecksum": "1428c92257312ba8722dbd532ddda107efdab631cdb41aa29162b3e979075677",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_2b3e0a17ff73167a9ebc7d5a",
+      "type": "Murder",
+      "title": "Bertshe and his father shot",
+      "summary": "Neuman shot Bertshe after Bertshe tried to rescue his father.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6df015745c02d38a58f60959",
+        "pageId": "page_nybc301551_0431",
+        "scanIndex": 431,
+        "leafNumber": 430,
+        "printedPage": "427",
+        "passageCharStart": 178,
+        "passageCharEnd": 234,
+        "normalizedPassageCharStart": 178,
+        "normalizedPassageCharEnd": 234,
+        "pageCharStart": 1246,
+        "pageCharEnd": 1302,
+        "quote": "נוימא ן הא ט אנגעהויב ן רעד ן צ ו אי ם כלומרש ט פרײנדלעך",
+        "normalizedQuote": "נוימא ן הא ט אנגעהויב ן רעד ן צ ו אי ם כלומרש ט פרײנדלעך",
+        "modelQuote": "נוימאן האט אנגעהויבן רעדן צו אים כלומרשט פרײנדלעך",
+        "bbox": {
+          "left": 873,
+          "top": 2551,
+          "right": 2697,
+          "bottom": 2629
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n430/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "49bbc8f4e220ce59b19f1d4ae9eeaf5d72f6d4d71534eb1ca284712569378ac6",
+        "normalizedPassageChecksum": "1428c92257312ba8722dbd532ddda107efdab631cdb41aa29162b3e979075677",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_2b3e0a17ff73167a9ebc7d5a",
+      "type": "Event",
+      "title": "Bertshe and his father shot",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_57a499fe19933aaa261e0566",
+      "type": "Person",
+      "title": "Bertshe",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a620cc091eac4f20a1d6fe84",
+      "type": "Person",
+      "title": "Neuman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6d57013b644355d3b17e60db",
+      "type": "Person",
+      "title": "Aba Dishel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b1c866ddff2f330afefa194",
+      "type": "Person",
+      "title": "Sheyndl",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_18e3c8c1750837d592b015ed",
+      "type": "Family",
+      "title": "Zukedman family",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,17 +1,16 @@
 {
   "id": "mention_e37438d8320797b9ab41a63f",
   "type": "Organization",
-  "title": "Professional movement",
-  "summary": "Movement in which Nahum Goldzak was active.",
+  "title": "Professional Movement",
+  "summary": "A professional movement in which Nahum Goldzak became active.",
   "originalName": "פראפ. באוועגונג",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 600,
   "printedPage": "596",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "movement",
-  "uncertaintyNote": "The abbreviation is not expanded in the text.",
+  "subtype": "labor movement",
   "evidenceRefs": [
     {
       "passageId": "passage_78c4aaca221e5d088e16b717",
@@ -21,12 +20,12 @@
       "printedPage": "596",
       "passageCharStart": 606,
       "passageCharEnd": 637,
-      "normalizedPassageCharStart": 526,
-      "normalizedPassageCharEnd": 553,
+      "normalizedPassageCharStart": 606,
+      "normalizedPassageCharEnd": 637,
       "pageCharStart": 606,
       "pageCharEnd": 637,
       "quote": "או ן אי ן דע ר פראפ . באוועגונג",
-      "normalizedQuote": "און אין דער פראפ. באוועגונג",
+      "normalizedQuote": "או ן אי ן דע ר פראפ . באוועגונג",
       "modelQuote": "און אין דער פראפ. באוועגונג",
       "bbox": {
         "left": 1135,
@@ -39,16 +38,16 @@
       "passageChecksum": "670906bd2c8f0576de3af27dc8aff31215be976fd4e9833dd7b661b86e6ee1da",
       "normalizedPassageChecksum": "d6ba35b62d5876303db10f9b235872dd6b1b6ff3bba5776c8019a92d09836a01",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_d39066584082351e0ec00d10",
+      "id": "claim_candidate_136c31185b331d229dd85b38",
       "predicate": "Member Of",
       "subjectTitle": "Nahum Goldzak",
-      "objectTitle": "Professional movement",
+      "objectTitle": "Professional Movement",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_78c4aaca221e5d088e16b717",
@@ -58,12 +57,12 @@
         "printedPage": "596",
         "passageCharStart": 611,
         "passageCharEnd": 637,
-        "normalizedPassageCharStart": 530,
-        "normalizedPassageCharEnd": 553,
+        "normalizedPassageCharStart": 611,
+        "normalizedPassageCharEnd": 637,
         "pageCharStart": 611,
         "pageCharEnd": 637,
         "quote": "אי ן דע ר פראפ . באוועגונג",
-        "normalizedQuote": "אין דער פראפ. באוועגונג",
+        "normalizedQuote": "אי ן דע ר פראפ . באוועגונג",
         "modelQuote": "אין דער פראפ. באוועגונג",
         "bbox": {
           "left": 1135,
@@ -76,7 +75,7 @@
         "passageChecksum": "670906bd2c8f0576de3af27dc8aff31215be976fd4e9833dd7b661b86e6ee1da",
         "normalizedPassageChecksum": "d6ba35b62d5876303db10f9b235872dd6b1b6ff3bba5776c8019a92d09836a01",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -84,13 +83,13 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_9dcc8ca3b7c415c7111eca09",
+      "id": "mention_68d1d776d83d743c841894d3",
       "type": "Person",
       "title": "Nahum Goldzak",
       "relation": "Member Of"
     },
     {
-      "id": "mention_9dcc8ca3b7c415c7111eca09",
+      "id": "mention_68d1d776d83d743c841894d3",
       "type": "Person",
       "title": "Nahum Goldzak",
       "relation": "Appears in same passage"
@@ -102,21 +101,33 @@
       "relation": "Appears in same passage"
     },
     {
+      "id": "mention_89868f00c5f9f0f6a59080e2",
+      "type": "Person",
+      "title": "Shlomo Rubinstein",
+      "relation": "Appears in same passage"
+    },
+    {
       "id": "mention_7fdcc7d0e69c7f7f8007cb93",
       "type": "Person",
       "title": "Sarah Grinboim",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_eefaac961818ed528ea68f4d",
-      "type": "Community",
-      "title": "Lukow",
+      "id": "mention_b614f46ee33031a1df84cb03",
+      "type": "Person",
+      "title": "Hersh Smolyar",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9f97f12a71cbbdf5457d99ed",
+      "id": "mention_05e0eb59c2d0871551149029",
       "type": "Place",
       "title": "Minsk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3604fec3c0408fe22236b7d3",
+      "type": "Institution",
+      "title": "Powshekhner School",
       "relation": "Appears in same passage"
     },
     {
@@ -126,39 +137,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bebbbb84244da88bc3ec7251",
+      "id": "mention_02b9b4dcbc9fdfabfb161a87",
       "type": "Organization",
-      "title": "Communist youth",
+      "title": "Communist Youth",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7b1f8a15f7fe2992ec8c177b",
-      "type": "Person",
-      "title": "Shlomo Rubinstein",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5d40977bb8a8783860d3eb9e",
-      "type": "Person",
-      "title": "Hersh Smolar",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e51648d95160fcd38cad2050",
+      "id": "mention_d140b93e6012a77791d5c30d",
       "type": "Organization",
-      "title": "Minsk underground antifascist movement",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5f50954cc4efda414b29b0b9",
-      "type": "Place",
-      "title": "Minsk Ghetto",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d8b6da447ca95c612d76cbb6",
-      "type": "Organization",
-      "title": "Red Army",
+      "title": "Minsk Underground Antifascist Movement",
       "relation": "Appears in same passage"
     }
   ],

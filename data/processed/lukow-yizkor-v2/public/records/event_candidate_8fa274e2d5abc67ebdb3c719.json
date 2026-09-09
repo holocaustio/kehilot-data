@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_8fa274e2d5abc67ebdb3c719",
+  "type": "Event",
+  "title": "Murder of Rabbi Aharon Neta Freiberg and his community",
+  "summary": "Rabbi Aharon Neta Freiberg was murdered with his community in German gas chambers.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 55,
+  "printedPage": "51",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4b0b68e286726eefac55150e",
+      "pageId": "page_nybc301551_0055",
+      "scanIndex": 55,
+      "leafNumber": 54,
+      "printedPage": "51",
+      "passageCharStart": 393,
+      "passageCharEnd": 456,
+      "normalizedPassageCharStart": 393,
+      "normalizedPassageCharEnd": 456,
+      "pageCharStart": 1778,
+      "pageCharEnd": 1841,
+      "quote": "הו א נרצ ח יח ד ע ם עדת ו\nעל קידו ש הש ם בתנור י הגזי ם הגרמנײם",
+      "normalizedQuote": "הו א נרצ ח יח ד ע ם עדת ו\nעל קידו ש הש ם בתנור י הגזי ם הגרמנײם",
+      "modelQuote": "הוא נרצח יחד עם עדתו על קידוש השם בתנורי הגזים הגרמנײם",
+      "bbox": {
+        "left": 466,
+        "top": 4436,
+        "right": 3090,
+        "bottom": 4614
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n54/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "7690810e7e3728bc2c7fb96b49ee8ba845fd70baebc4c2db074d6b41a28fb3d0",
+      "normalizedPassageChecksum": "0af9f6f707b5e6cb61b002c09f7d45d36595687e1122168e4c99557b52523812",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6c354aea59ee81bb2c7a467d",
+      "type": "Place",
+      "title": "German gas chambers",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c4c4e41191c1f4138c12aad1",
+      "type": "Person",
+      "title": "Aharon Neta Freiberg",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_4ef4309d299e1dd6cfea5def",
+      "type": "Community",
+      "title": "Łuków Jewish community",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

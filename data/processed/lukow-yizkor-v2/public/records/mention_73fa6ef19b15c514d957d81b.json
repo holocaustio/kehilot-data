@@ -1,0 +1,118 @@
+{
+  "id": "mention_73fa6ef19b15c514d957d81b",
+  "type": "Organization",
+  "title": "Burial Society Workers",
+  "summary": "Burial society workers killed at the cemetery.",
+  "originalName": "חברה־קדישא־לײט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 445,
+  "printedPage": "441",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "burial society",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_388bb0122c62b4c57d109ebb",
+      "pageId": "page_nybc301551_0445",
+      "scanIndex": 445,
+      "leafNumber": 444,
+      "printedPage": "441",
+      "passageCharStart": 1036,
+      "passageCharEnd": 1059,
+      "normalizedPassageCharStart": 1036,
+      "normalizedPassageCharEnd": 1059,
+      "pageCharStart": 2350,
+      "pageCharEnd": 2373,
+      "quote": "מי ט ד י חברה־קדישא־לײט",
+      "normalizedQuote": "מי ט ד י חברה־קדישא־לײט",
+      "modelQuote": "מיט די חברה־קדישא־לײט",
+      "bbox": {
+        "left": 2069,
+        "top": 4551,
+        "right": 2929,
+        "bottom": 4631
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n444/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "2b8c17fd3db5f5cca6e0b0a62753ed65c7490fc7151f8cb0360ce215554bd537",
+      "normalizedPassageChecksum": "a6d87f66efc8e6c821299d58595bbe45e442dc181696b6b0707c8a91c43aa29b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_01ad6aa0b6c68db4bc2c3360",
+      "type": "Murder",
+      "title": "Shooting of adults at the cemetery",
+      "summary": "Adults were taken to the cemetery in Maltsenov and shot with burial society workers.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_388bb0122c62b4c57d109ebb",
+        "pageId": "page_nybc301551_0445",
+        "scanIndex": 445,
+        "leafNumber": 444,
+        "printedPage": "441",
+        "passageCharStart": 947,
+        "passageCharEnd": 1004,
+        "normalizedPassageCharStart": 947,
+        "normalizedPassageCharEnd": 1004,
+        "pageCharStart": 2261,
+        "pageCharEnd": 2318,
+        "quote": "די דערװאקםענ ע ארויםגעפיר ט צו ם בית־עול ם אי ן מאלצענא װ",
+        "normalizedQuote": "די דערװאקםענ ע ארויםגעפיר ט צו ם בית־עול ם אי ן מאלצענא װ",
+        "modelQuote": "די דערװאקםענע ארויםגעפירט צום בית־עולם אין מאלצענאװ",
+        "bbox": {
+          "left": 1145,
+          "top": 4445,
+          "right": 3101,
+          "bottom": 4523
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n444/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "2b8c17fd3db5f5cca6e0b0a62753ed65c7490fc7151f8cb0360ce215554bd537",
+        "normalizedPassageChecksum": "a6d87f66efc8e6c821299d58595bbe45e442dc181696b6b0707c8a91c43aa29b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_01ad6aa0b6c68db4bc2c3360",
+      "type": "Event",
+      "title": "Shooting of adults at the cemetery",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_7ed2cb15c725843bdcd6d0b7",
+      "type": "Place",
+      "title": "Yatke Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f62b099aee8b7e3f64253974",
+      "type": "Place",
+      "title": "Yatkov and Kanalova",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1cc5bccbb5eb0c513ee88404",
+      "type": "Place",
+      "title": "Cemetery in Maltsenov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_219ab38009b45d9de52dbbac",
+      "type": "Organization",
+      "title": "Burial Society",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

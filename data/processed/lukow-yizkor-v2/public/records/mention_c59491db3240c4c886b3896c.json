@@ -1,0 +1,103 @@
+{
+  "id": "mention_c59491db3240c4c886b3896c",
+  "type": "Organization",
+  "title": "German bandits",
+  "summary": "German forces engaged in combat with the partisan detachment.",
+  "originalName": "דײטשישע באנדיטן",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 503,
+  "printedPage": "499",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "German forces",
+  "uncertaintyNote": "The passage uses a partisan characterization of the German forces.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f270788b73399d6e8d2ad95e",
+      "pageId": "page_nybc301551_0503",
+      "scanIndex": 503,
+      "leafNumber": 502,
+      "printedPage": "499",
+      "passageCharStart": 475,
+      "passageCharEnd": 491,
+      "normalizedPassageCharStart": 475,
+      "normalizedPassageCharEnd": 491,
+      "pageCharStart": 1759,
+      "pageCharEnd": 1775,
+      "quote": "דײטשיש ע\nבאנדיטן",
+      "normalizedQuote": "דײטשיש ע\nבאנדיטן",
+      "modelQuote": "דײטשישע באנדיטן",
+      "bbox": {
+        "left": 461,
+        "top": 3080,
+        "right": 2901,
+        "bottom": 3228
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n502/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "f2de4094b24662b97b6747607a52ecbc7146bb7fdebb9b8adcd87a4f76d9938a",
+      "normalizedPassageChecksum": "9d07eec5fc60cf45afeb1da092057e330a84431b08ff719403b367624167dc09",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_9e82e376ba0fedbf4beeee5d",
+      "type": "Aktion Or Raid",
+      "title": "Partisan sabotage and combat operations",
+      "summary": "The detachment destroyed railway echelons, bridges, telephone lines, and fought German forces.",
+      "dateStart": "1944-02",
+      "dateEnd": "1944-07",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_f270788b73399d6e8d2ad95e",
+        "pageId": "page_nybc301551_0503",
+        "scanIndex": 503,
+        "leafNumber": 502,
+        "printedPage": "499",
+        "passageCharStart": 277,
+        "passageCharEnd": 465,
+        "normalizedPassageCharStart": 277,
+        "normalizedPassageCharEnd": 465,
+        "pageCharStart": 1561,
+        "pageCharEnd": 1749,
+        "quote": "פו ן פעברוא ר בי ז ױל י 1944 הא ט אונדזע ר אטריא ד\nאויפגעריםן 11 עשאלאנען ׳ עטלעכ ע בריקן ׳ צעשטער ט צענדליקע ר קילאמעטע ר טעלע ־\nפאן־פארבינדונגען׳ או ן אדורכגעפיר ט א ם ך עפנטלעכ ע קאמפ ן",
+        "normalizedQuote": "פו ן פעברוא ר בי ז ױל י 1944 הא ט אונדזע ר אטריא ד\nאויפגעריםן 11 עשאלאנען ׳ עטלעכ ע בריקן ׳ צעשטער ט צענדליקע ר קילאמעטע ר טעלע ־\nפאן־פארבינדונגען׳ או ן אדורכגעפיר ט א ם ך עפנטלעכ ע קאמפ ן",
+        "modelQuote": "פון פעברואר ביז ױלי1944 האט אונדזער אטריאד אויפגעריםן11 עשאלאנען׳ עטלעכע בריקן׳ צעשטערט צענדליקער קילאמעטער טעלע־ פאן־פארבינדונגען׳ און אדורכגעפירטא םך עפנטלעכע קאמפן",
+        "bbox": {
+          "left": 459,
+          "top": 2850,
+          "right": 2833,
+          "bottom": 3138
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n502/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "f2de4094b24662b97b6747607a52ecbc7146bb7fdebb9b8adcd87a4f76d9938a",
+        "normalizedPassageChecksum": "9d07eec5fc60cf45afeb1da092057e330a84431b08ff719403b367624167dc09",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_9e82e376ba0fedbf4beeee5d",
+      "type": "Event",
+      "title": "Partisan sabotage and combat operations",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_364feab287fd4e32974a21b7",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

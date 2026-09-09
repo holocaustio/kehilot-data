@@ -2,10 +2,10 @@
   "id": "mention_51c5d1b2511e03fed2a3bc35",
   "type": "Person",
   "title": "John Casimir",
-  "summary": "The king is named as granting or confirming legal rights to Jews settled in Lukow.",
+  "summary": "The king named as granting a privilege to Jews settled in Łuków.",
   "originalName": "יאן קזימיר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 47,
   "printedPage": "43",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "43",
       "passageCharStart": 554,
       "passageCharEnd": 571,
-      "normalizedPassageCharStart": 478,
-      "normalizedPassageCharEnd": 493,
+      "normalizedPassageCharStart": 554,
+      "normalizedPassageCharEnd": 571,
       "pageCharStart": 554,
       "pageCharEnd": 571,
       "quote": "המל ך\nיאן קזימי ר",
-      "normalizedQuote": "המלך יאן קזימיר",
+      "normalizedQuote": "המל ך\nיאן קזימי ר",
       "modelQuote": "המלך יאן קזימיר",
       "bbox": {
         "left": 465,
@@ -38,33 +38,115 @@
       "passageChecksum": "6c902960a45e983153f5c46acfe852e130a8513bc6f059e788dc84dd28d1bff3",
       "normalizedPassageChecksum": "185cddc6afafe4ffb1d2d763837fc92cc60aebe0cde7646d6bdc5cb0af8bc24b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_d6df4764f3a556417318e4a1",
+      "predicate": "Mentioned In",
+      "subjectTitle": "John Casimir",
+      "objectTitle": "Łuków Jewish community",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_8520086f5a1b76af96ca62e4",
+        "pageId": "page_nybc301551_0047",
+        "scanIndex": 47,
+        "leafNumber": 46,
+        "printedPage": "43",
+        "passageCharStart": 554,
+        "passageCharEnd": 571,
+        "normalizedPassageCharStart": 554,
+        "normalizedPassageCharEnd": 571,
+        "pageCharStart": 554,
+        "pageCharEnd": 571,
+        "quote": "המל ך\nיאן קזימי ר",
+        "normalizedQuote": "המל ך\nיאן קזימי ר",
+        "modelQuote": "המלך יאן קזימיר",
+        "bbox": {
+          "left": 465,
+          "top": 1802,
+          "right": 3059,
+          "bottom": 1981
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n46/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "6c902960a45e983153f5c46acfe852e130a8513bc6f059e788dc84dd28d1bff3",
+        "normalizedPassageChecksum": "185cddc6afafe4ffb1d2d763837fc92cc60aebe0cde7646d6bdc5cb0af8bc24b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_a567d8cec20cabfa43ad0a49",
+      "type": "Migration",
+      "title": "Settlement of Jews in Łuków",
+      "summary": "Jews settled in Łuków under a legal privilege granted by King John Casimir or earlier rulers.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage does not establish which ruler granted the privilege.",
+      "evidence": {
+        "passageId": "passage_8520086f5a1b76af96ca62e4",
+        "pageId": "page_nybc301551_0047",
+        "scanIndex": 47,
+        "leafNumber": 46,
+        "printedPage": "43",
+        "passageCharStart": 599,
+        "passageCharEnd": 622,
+        "normalizedPassageCharStart": 599,
+        "normalizedPassageCharEnd": 622,
+        "pageCharStart": 599,
+        "pageCharEnd": 622,
+        "quote": "יהודי ם שהתישב ו בלוקוב",
+        "normalizedQuote": "יהודי ם שהתישב ו בלוקוב",
+        "modelQuote": "יהודים שהתישבו בלוקוב",
+        "bbox": {
+          "left": 1273,
+          "top": 1909,
+          "right": 2105,
+          "bottom": 1981
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n46/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "6c902960a45e983153f5c46acfe852e130a8513bc6f059e788dc84dd28d1bff3",
+        "normalizedPassageChecksum": "185cddc6afafe4ffb1d2d763837fc92cc60aebe0cde7646d6bdc5cb0af8bc24b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_f583a98d3acd4627139e225b",
+      "id": "mention_f24bb37493b0a89d690f2483",
       "type": "Community",
-      "title": "Jewish Community of Łuków",
+      "title": "Łuków Jewish community",
+      "relation": "Mentioned In"
+    },
+    {
+      "id": "event_candidate_a567d8cec20cabfa43ad0a49",
+      "type": "Event",
+      "title": "Settlement of Jews in Łuków",
+      "relation": "Participated In",
+      "role": "Author"
+    },
+    {
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7715a6fb37d33cdf76cae38b",
-      "type": "Institution",
-      "title": "First synagogue of the Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_9b1b7f9a8a99676e8261cba0",
+      "id": "mention_9a981bca02533d2227cefb1f",
       "type": "Place",
-      "title": "Christian area",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f1dc0b99bbad0557db0fe945",
+      "id": "mention_e011e7b3c2f468ae4f153a0b",
       "type": "Place",
       "title": "Polish area",
       "relation": "Appears in same passage"

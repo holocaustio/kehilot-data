@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_fd3f56b946b0fde8f7ef5f48",
+  "type": "Event",
+  "title": "Murder of Atchepalin Jewish family",
+  "summary": "The Jewish family was taken into the forest and murdered to the last person.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 363,
+  "printedPage": "359",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The final phrase contains OCR corruption, but explicitly describes the family's murder.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_728f58b877d8b4592f4e41ee",
+      "pageId": "page_nybc301551_0363",
+      "scanIndex": 363,
+      "leafNumber": 362,
+      "printedPage": "359",
+      "passageCharStart": 942,
+      "passageCharEnd": 1016,
+      "normalizedPassageCharStart": 942,
+      "normalizedPassageCharEnd": 1016,
+      "pageCharStart": 942,
+      "pageCharEnd": 1016,
+      "quote": "מע ן הא ט ד י משפח ה\nארויסגעפירט אי ן װאל ד א מ בי ז צו ם לעצט ן דערד,רגעט",
+      "normalizedQuote": "מע ן הא ט ד י משפח ה\nארויסגעפירט אי ן װאל ד א מ בי ז צו ם לעצט ן דערד,רגעט",
+      "modelQuote": "מען האט די משפחה ארויסגעפירט אין װאלד אמ ביז צום לעצטן דערד,רגעט",
+      "bbox": {
+        "left": 461,
+        "top": 2067,
+        "right": 2779,
+        "bottom": 2237
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n362/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "87d03ca719c0e43d293d58e410acba79dda6c011d9f3f7daf417226669bc7218",
+      "normalizedPassageChecksum": "e2d21e20460b66f0a3b518b0a7ad20331e8830e962adc75a5d638c9e4945cc74",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9dc34f0ee5f7f2231967d42a",
+      "type": "Place",
+      "title": "Atchepalin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_8008930f5b3bb971860519dd",
+      "type": "Family",
+      "title": "Jewish family in Atchepalin",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

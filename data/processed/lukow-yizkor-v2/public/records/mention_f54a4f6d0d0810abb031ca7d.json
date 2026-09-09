@@ -2,10 +2,10 @@
   "id": "mention_f54a4f6d0d0810abb031ca7d",
   "type": "Organization",
   "title": "Ringelblum Archive",
-  "summary": "Archive containing a description of Lipe Kestin's murder.",
+  "summary": "Archive containing the described account of Lipe Kestin’s murder.",
   "originalName": "רינגלבלום־ארכיװ",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 432,
   "printedPage": "428",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "428",
       "passageCharStart": 610,
       "passageCharEnd": 675,
-      "normalizedPassageCharStart": 530,
-      "normalizedPassageCharEnd": 588,
+      "normalizedPassageCharStart": 610,
+      "normalizedPassageCharEnd": 675,
       "pageCharStart": 2595,
       "pageCharEnd": 2660,
       "quote": "די שילדערונ ג געסינ ט זי ך אי ן ערשט ן ט״י ל סו ן רינגלבלום־ארכיװ",
-      "normalizedQuote": "די שילדערונג געסינט זיך אין ערשטן ט״יל סון רינגלבלום־ארכיװ",
+      "normalizedQuote": "די שילדערונ ג געסינ ט זי ך אי ן ערשט ן ט״י ל סו ן רינגלבלום־ארכיװ",
       "modelQuote": "די שילדערונג געסינט זיך אין ערשטן ט״יל סון רינגלבלום־ארכיװ",
       "bbox": {
         "left": 1208,
@@ -38,53 +38,87 @@
       "passageChecksum": "c4acf68cc8530332612ccf5a0f040e4a271e43b73ec1100b0b19ce78675fab36",
       "normalizedPassageChecksum": "8d4828006a73645f58d91e347aa6935706cd376b2c71e1db636a7abdc2652cf5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_85bf4ddde972c004aaf41907",
+      "predicate": "Transcribed By",
+      "subjectTitle": "W. H. Ivan",
+      "objectTitle": "Ringelblum Archive",
+      "confidence": "MEDIUM",
+      "qualifiers": {
+        "role": "transcriber"
+      },
+      "evidence": {
+        "passageId": "passage_38a75edd0db7cb378fdf6b1e",
+        "pageId": "page_nybc301551_0432",
+        "scanIndex": 432,
+        "leafNumber": 431,
+        "printedPage": "428",
+        "passageCharStart": 679,
+        "passageCharEnd": 712,
+        "normalizedPassageCharStart": 679,
+        "normalizedPassageCharEnd": 712,
+        "pageCharStart": 2664,
+        "pageCharEnd": 2697,
+        "quote": "איבערגעשריבן דור ך װ ♦ ה ♦ איװא ן",
+        "normalizedQuote": "איבערגעשריבן דור ך װ ♦ ה ♦ איװא ן",
+        "modelQuote": "איבערגעשריבן דורך װ♦ ה♦ איװאן",
+        "bbox": {
+          "left": 455,
+          "top": 4493,
+          "right": 1095,
+          "bottom": 4567
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n431/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "c4acf68cc8530332612ccf5a0f040e4a271e43b73ec1100b0b19ce78675fab36",
+        "normalizedPassageChecksum": "8d4828006a73645f58d91e347aa6935706cd376b2c71e1db636a7abdc2652cf5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_019ee48c17ef907bb89f89bf",
+      "id": "mention_aaffe1b9337d3ec36c010739",
+      "type": "Person",
+      "title": "W. H. Ivan",
+      "relation": "Transcribed By"
+    },
+    {
+      "id": "mention_c5a9ac3dc1826b70b5ff3c9e",
+      "type": "Person",
+      "title": "Orche Gakhalnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9d7d6594dec59f03807fb84c",
       "type": "Person",
       "title": "Lipe Kestin",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bff25947b56b8829e7eebaf8",
-      "type": "Person",
-      "title": "Orke Gachalik",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e7fbee3182be73611b643143",
-      "type": "Place",
-      "title": "Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9cd9d351dc2c2c088d4776ed",
-      "type": "Place",
-      "title": "Otwock",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_463d1b5fc81f2453833af42c",
-      "type": "Organization",
-      "title": "Warsaw Ghetto Archive",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_34ec2a58bb487c977ca85e8a",
+      "id": "mention_aaffe1b9337d3ec36c010739",
       "type": "Person",
-      "title": "V. H. Ivan",
+      "title": "W. H. Ivan",
       "relation": "Appears in same passage"
     }
   ],

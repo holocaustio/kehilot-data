@@ -1,0 +1,105 @@
+{
+  "id": "mention_5090beaf98ef053cd96fdb73",
+  "type": "Institution",
+  "title": "Great Synagogue (Shulhof)",
+  "summary": "Fires during the bombing were concentrated mainly around the Great Synagogue.",
+  "originalName": "ביהכנ״ם הגדול (שול־הוף)",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 86,
+  "printedPage": "82",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "synagogue",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_82a11a1ba8fbd2e75f3406b4",
+      "pageId": "page_nybc301551_0086",
+      "scanIndex": 86,
+      "leafNumber": 85,
+      "printedPage": "82",
+      "passageCharStart": 240,
+      "passageCharEnd": 279,
+      "normalizedPassageCharStart": 240,
+      "normalizedPassageCharEnd": 279,
+      "pageCharStart": 240,
+      "pageCharEnd": 279,
+      "quote": "בעיק ר בםביב ת\nביהכנ״ם הגדו ל (שול־הוף)",
+      "normalizedQuote": "בעיק ר בםביב ת\nביהכנ״ם הגדו ל (שול־הוף)",
+      "modelQuote": "בעיקר בםביבת ביהכנ״ם הגדול (שול־הוף)",
+      "bbox": {
+        "left": 413,
+        "top": 924,
+        "right": 2959,
+        "bottom": 1094
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n85/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "d86ed62243ece0e2d6440be79dd2443fb54056e4194b398d2d6330832f0a4e60",
+      "normalizedPassageChecksum": "2b5c7359dab887fb279c256f28e5b50a64336e037742fc760f6e869a9421b7cd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_5fe5eec8110a05f28703dc24",
+      "type": "Fire",
+      "title": "Fires around the Great Synagogue",
+      "summary": "Fires burned mainly around the Great Synagogue during the bombing aftermath.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_82a11a1ba8fbd2e75f3406b4",
+        "pageId": "page_nybc301551_0086",
+        "scanIndex": 86,
+        "leafNumber": 85,
+        "printedPage": "82",
+        "passageCharStart": 235,
+        "passageCharEnd": 269,
+        "normalizedPassageCharStart": 235,
+        "normalizedPassageCharEnd": 269,
+        "pageCharStart": 235,
+        "pageCharEnd": 269,
+        "quote": "שה ױ בעיק ר בםביב ת\nביהכנ״ם הגדו ל",
+        "normalizedQuote": "שה ױ בעיק ר בםביב ת\nביהכנ״ם הגדו ל",
+        "modelQuote": "שהױ בעיקר בםביבת ביהכנ״ם הגדול",
+        "bbox": {
+          "left": 413,
+          "top": 924,
+          "right": 2959,
+          "bottom": 1094
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n85/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "d86ed62243ece0e2d6440be79dd2443fb54056e4194b398d2d6330832f0a4e60",
+        "normalizedPassageChecksum": "2b5c7359dab887fb279c256f28e5b50a64336e037742fc760f6e869a9421b7cd",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_5fe5eec8110a05f28703dc24",
+      "type": "Event",
+      "title": "Fires around the Great Synagogue",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_561dd2e107d3444f2cd446f5",
+      "type": "Place",
+      "title": "Surrounding villages",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0a1390378f99f5eca7c6c9a6",
+      "type": "Institution",
+      "title": "Beth Jacob School in Łuków",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

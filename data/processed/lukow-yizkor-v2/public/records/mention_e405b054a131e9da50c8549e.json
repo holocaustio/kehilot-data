@@ -2,15 +2,15 @@
   "id": "mention_e405b054a131e9da50c8549e",
   "type": "Place",
   "title": "French-occupied territory",
-  "summary": "Territory under French occupation transferred to the duchy.",
+  "summary": "Territory occupied by France and transferred to the principality.",
   "originalName": "פרײםיש־אקופירטן געביט",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 40,
   "printedPage": "36",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "occupied territory",
+  "subtype": "territory",
   "evidenceRefs": [
     {
       "passageId": "passage_aee2dbbe6a734c1b458c1a61",
@@ -20,12 +20,12 @@
       "printedPage": "36",
       "passageCharStart": 281,
       "passageCharEnd": 303,
-      "normalizedPassageCharStart": 235,
-      "normalizedPassageCharEnd": 256,
+      "normalizedPassageCharStart": 281,
+      "normalizedPassageCharEnd": 303,
       "pageCharStart": 281,
       "pageCharEnd": 303,
       "quote": "פרײםיש־אקופירט ן געביט",
-      "normalizedQuote": "פרײםיש־אקופירטן געביט",
+      "normalizedQuote": "פרײםיש־אקופירט ן געביט",
       "modelQuote": "פרײםיש־אקופירטן געביט",
       "bbox": {
         "left": 1587,
@@ -38,35 +38,80 @@
       "passageChecksum": "a711419b40af87186c0bd74f76d1b210a0214aa3afd347fe104b231f0ef2ea41",
       "normalizedPassageChecksum": "bf8260d4e96a8d9acb1aaed4616a4f247987822425233a6ed604d94f76b37ece",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_13e794c1406489eac0af7ee1",
+      "type": "Organization Founding",
+      "title": "Publication of an equal-rights law",
+      "summary": "A law granting equal rights was published on 22 July 1807.",
+      "dateStart": "1807-07-22",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include law publication; classified provisionally.",
+      "evidence": {
+        "passageId": "passage_aee2dbbe6a734c1b458c1a61",
+        "pageId": "page_nybc301551_0040",
+        "scanIndex": 40,
+        "leafNumber": 39,
+        "printedPage": "36",
+        "passageCharStart": 181,
+        "passageCharEnd": 248,
+        "normalizedPassageCharStart": 181,
+        "normalizedPassageCharEnd": 248,
+        "pageCharStart": 181,
+        "pageCharEnd": 248,
+        "quote": "דעם 22םט ן יול י 1807 אי ז װירקלע ך פארעפנטלעכ ט געװאר ן אז א געזעץ",
+        "normalizedQuote": "דעם 22םט ן יול י 1807 אי ז װירקלע ך פארעפנטלעכ ט געװאר ן אז א געזעץ",
+        "modelQuote": "דעם 22םטן יולי1807 איז װירקלעך פארעפנטלעכט געװארן אזא געזעץ",
+        "bbox": {
+          "left": 609,
+          "top": 1056,
+          "right": 2911,
+          "bottom": 1134
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n39/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "a711419b40af87186c0bd74f76d1b210a0214aa3afd347fe104b231f0ef2ea41",
+        "normalizedPassageChecksum": "bf8260d4e96a8d9acb1aaed4616a4f247987822425233a6ed604d94f76b37ece",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_e9a06a919e3617000c45739e",
+      "id": "event_candidate_13e794c1406489eac0af7ee1",
+      "type": "Event",
+      "title": "Publication of an equal-rights law",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_46be150ea568d2e7ff68cb44",
       "type": "Place",
-      "title": "Duchy",
+      "title": "the principality",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_33352e3dba5c4a9c4460df1f",
-      "type": "Person",
-      "title": "Napoleon",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0436bb056473c6b721997035",
+      "id": "mention_2ccb5fcec373beefd4088c29",
       "type": "Place",
       "title": "Austria",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e6dc32fdd83d82499d7e8971",
+      "id": "mention_878dfd287aee1cc9b54f6d39",
       "type": "Place",
       "title": "Russia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a42a31fcd355d32541a52644",
+      "type": "Community",
+      "title": "Jews",
       "relation": "Appears in same passage"
     }
   ],

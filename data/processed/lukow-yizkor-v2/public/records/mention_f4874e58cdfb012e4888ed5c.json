@@ -2,15 +2,15 @@
   "id": "mention_f4874e58cdfb012e4888ed5c",
   "type": "Person",
   "title": "Moshe Eidelman",
-  "summary": "Named among murdered parents commemorated in a memorial inscription.",
+  "summary": "Named in a memorial dedication.",
   "originalName": "משה",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 643,
   "printedPage": "639",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "OCR appears unclear in the surname or given-name transcription.",
+  "uncertaintyNote": "OCR and spelling are uncertain.",
   "evidenceRefs": [
     {
       "passageId": "passage_41a0b35a1f9ee48feb322f10",
@@ -20,12 +20,12 @@
       "printedPage": "639",
       "passageCharStart": 41,
       "passageCharEnd": 70,
-      "normalizedPassageCharStart": 37,
-      "normalizedPassageCharEnd": 63,
+      "normalizedPassageCharStart": 41,
+      "normalizedPassageCharEnd": 70,
       "pageCharStart": 41,
       "pageCharEnd": 70,
       "quote": "משה או ן אםתר־מלכ ה אײדעלמא ן",
-      "normalizedQuote": "משה און אםתר־מלכה אײדעלמאן",
+      "normalizedQuote": "משה או ן אםתר־מלכ ה אײדעלמא ן",
       "modelQuote": "משה און אםתר־מלכה אײדעלמאן",
       "bbox": {
         "left": 1207,
@@ -38,7 +38,7 @@
       "passageChecksum": "a301f51bc106ab03b946b3ba0597f208e7dba89f38f26ed88ad766fa885aa82a",
       "normalizedPassageChecksum": "f7bfa777ec05d8d850cf0a20f6d79e4952e0057ee49eade9312616fa677eb23e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,21 +46,15 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_9b1fb9def3f31082781dbf37",
+      "id": "mention_05358d1077e2bcb435b43f8f",
       "type": "Person",
-      "title": "Ester-Malka Eidelman",
+      "title": "Ester-Malke Eidelman",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_1a6a994c99caab0e998e6796",
       "type": "Person",
       "title": "Shaul Eidelman",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_23f09ccdf6c79ec0bf555505",
-      "type": "Place",
-      "title": "Holon",
       "relation": "Appears in same passage"
     },
     {
@@ -76,31 +70,31 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f129bcf88188e25780070bf0",
+      "id": "mention_602dcdf2155417a4b554e3ae",
       "type": "Person",
       "title": "Yehezkel Wanker",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d5c805f3c4a9e69fac5c6803",
+      "id": "mention_97b91150cd547594b106869b",
       "type": "Person",
       "title": "Moshe Wanker",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_59d7b874a2d31b721ab3239f",
+      "id": "mention_e816eab3d480a323c66bbbae",
       "type": "Person",
       "title": "Leah Wanker",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_910243a224230e652219794b",
+      "id": "mention_86e63c7075241ad94293f706",
       "type": "Person",
       "title": "Tsirl Wanker",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_49990d310589342132df9c72",
+      "id": "mention_f33c01dbf5868b10b823179d",
       "type": "Person",
       "title": "Sheindl Wanker",
       "relation": "Appears in same passage"
@@ -112,9 +106,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4483d52b1431629a2c160738",
-      "type": "Family",
-      "title": "Hershl and Peige-Leah",
+      "id": "mention_4b0789d164b09da4e4a4730a",
+      "type": "Person",
+      "title": "Hershel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bd09f878d0543681e4e62ba1",
+      "type": "Person",
+      "title": "Feige-Leah",
       "relation": "Appears in same passage"
     }
   ],

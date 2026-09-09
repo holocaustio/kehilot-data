@@ -2,10 +2,10 @@
   "id": "mention_0f6af7b69104760cb9a10f0d",
   "type": "Organization",
   "title": "Agniva Society",
-  "summary": "Society in Lukow addressed by a letter and associated with a people’s house.",
+  "summary": "Society addressed by a letter concerning cultural activities in Łuków.",
   "originalName": "״אגניווא״",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 256,
   "printedPage": "252",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "252",
       "passageCharStart": 1064,
       "passageCharEnd": 1097,
-      "normalizedPassageCharStart": 926,
-      "normalizedPassageCharEnd": 955,
+      "normalizedPassageCharStart": 1064,
+      "normalizedPassageCharEnd": 1097,
       "pageCharStart": 1064,
       "pageCharEnd": 1097,
       "quote": "געזעלשאפ ט ״אגניווא ״ אי ן לוקא װ",
-      "normalizedQuote": "געזעלשאפט ״אגניווא״ אין לוקאװ",
+      "normalizedQuote": "געזעלשאפ ט ״אגניווא ״ אי ן לוקא װ",
       "modelQuote": "געזעלשאפט ״אגניווא״ אין לוקאװ",
       "bbox": {
         "left": 854,
@@ -38,33 +38,70 @@
       "passageChecksum": "9ad26599ad1b94513cef2d1b643d6d2a5464318ac6ce3fd10557c012375b2725",
       "normalizedPassageChecksum": "e6032b8cfd75e6b682ef016fa71a6c262a8dfb05ff76155459a31d3630f44cbe",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_d255ff5cb5b3bd3d1c3e8b8b",
+      "predicate": "Located In",
+      "subjectTitle": "Agniva Society",
+      "objectTitle": "Łuków",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_61ae891c36a0819fb0976a6e",
+        "pageId": "page_nybc301551_0256",
+        "scanIndex": 256,
+        "leafNumber": 255,
+        "printedPage": "252",
+        "passageCharStart": 1075,
+        "passageCharEnd": 1097,
+        "normalizedPassageCharStart": 1075,
+        "normalizedPassageCharEnd": 1097,
+        "pageCharStart": 1075,
+        "pageCharEnd": 1097,
+        "quote": "״אגניווא ״ אי ן לוקא װ",
+        "normalizedQuote": "״אגניווא ״ אי ן לוקא װ",
+        "modelQuote": "״אגניווא״ אין לוקאװ",
+        "bbox": {
+          "left": 854,
+          "top": 3600,
+          "right": 1722,
+          "bottom": 3686
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n255/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "9ad26599ad1b94513cef2d1b643d6d2a5464318ac6ce3fd10557c012375b2725",
+        "normalizedPassageChecksum": "e6032b8cfd75e6b682ef016fa71a6c262a8dfb05ff76155459a31d3630f44cbe",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_66df5f1594ada7e5aaedd1fc",
+      "id": "mention_f24bb37493b0a89d690f2483",
       "type": "Community",
-      "title": "Lukow Jewish community",
+      "title": "Łuków Jewish community",
       "relation": "Located In"
     },
     {
-      "id": "mention_93af6c250ce838fdf88b3b70",
+      "id": "mention_05b310f19b0bd437c49fc7ff",
       "type": "Person",
-      "title": "H. D. Namberg",
+      "title": "Lichtensthim",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_66df5f1594ada7e5aaedd1fc",
+      "id": "mention_f24bb37493b0a89d690f2483",
       "type": "Community",
-      "title": "Lukow Jewish community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3d995b107530cb83d944de5c",
+      "id": "mention_08c19583f51d030dbd5c75e8",
       "type": "Institution",
       "title": "Jewish Peoples Library",
       "relation": "Appears in same passage"
@@ -72,13 +109,13 @@
     {
       "id": "mention_a39e33044726771e4798d2ed",
       "type": "Organization",
-      "title": "Jewish Writers Union in Warsaw",
+      "title": "Jewish Writers Association in Warsaw",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_540e22cadb8976b23f52cc2e",
+      "id": "mention_09ec4f69322b4c6009a182d4",
       "type": "Publication",
-      "title": "The Lukow Word",
+      "title": "The Łuków Word",
       "relation": "Appears in same passage"
     }
   ],

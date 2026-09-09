@@ -1,11 +1,11 @@
 {
   "id": "mention_69fc60e01fb719a937edc778",
   "type": "Person",
-  "title": "Rabbi Akiva Meir",
-  "summary": "The youngest son of Rabbi Yissachar Berish HaKohen of Wolbórz.",
+  "title": "Akiva Meir",
+  "summary": "Rabbi Akiva Meir, the Miechów Rebbe and youngest son of Yissachar Berish HaKohen.",
   "originalName": "רבי עקיבא מאיר",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 36,
   "printedPage": "32",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "32",
       "passageCharStart": 953,
       "passageCharEnd": 968,
-      "normalizedPassageCharStart": 811,
-      "normalizedPassageCharEnd": 825,
+      "normalizedPassageCharStart": 953,
+      "normalizedPassageCharEnd": 968,
       "pageCharStart": 2104,
       "pageCharEnd": 2119,
       "quote": "רבי עקיב א מאיר",
-      "normalizedQuote": "רבי עקיבא מאיר",
+      "normalizedQuote": "רבי עקיב א מאיר",
       "modelQuote": "רבי עקיבא מאיר",
       "bbox": {
         "left": 2489,
@@ -38,20 +38,54 @@
       "passageChecksum": "78ad3a30e6731526465f1e91d5468663cfae319453817caf051ee889b7e3d58b",
       "normalizedPassageChecksum": "03a46d1ce3984b982d33d00a70255e25b64720527d1ef05ad7967bc48db7a9eb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_3f38fcc0abf9974ce14c63db",
+      "id": "claim_candidate_414a42bc02de1e0fcd5311bb",
+      "predicate": "Led By",
+      "subjectTitle": "Akiva Meir",
+      "objectTitle": "Miechów Hasidic Court",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage says the court was led by the Miechów Rebbe; it does not explicitly state the leader was Akiva Meir.",
+      "evidence": {
+        "passageId": "passage_4aab3ead93b608cf9be38f40",
+        "pageId": "page_nybc301551_0036",
+        "scanIndex": 36,
+        "leafNumber": 35,
+        "printedPage": "32",
+        "passageCharStart": 971,
+        "passageCharEnd": 989,
+        "normalizedPassageCharStart": 971,
+        "normalizedPassageCharEnd": 989,
+        "pageCharStart": 2122,
+        "pageCharEnd": 2140,
+        "quote": "דע ר מיעכאװע ר רבי",
+        "normalizedQuote": "דע ר מיעכאװע ר רבי",
+        "modelQuote": "דער מיעכאװער רבי",
+        "bbox": {
+          "left": 1819,
+          "top": 4120,
+          "right": 2485,
+          "bottom": 4180
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n35/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "78ad3a30e6731526465f1e91d5468663cfae319453817caf051ee889b7e3d58b",
+        "normalizedPassageChecksum": "03a46d1ce3984b982d33d00a70255e25b64720527d1ef05ad7967bc48db7a9eb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_729dd86e59a0aaad789f7366",
       "predicate": "Child Of",
-      "subjectTitle": "Rabbi Akiva Meir",
-      "objectTitle": "Rabbi Yissachar Berish HaKohen",
+      "subjectTitle": "Akiva Meir",
+      "objectTitle": "Yissachar Berish HaKohen",
       "confidence": "HIGH",
-      "qualifiers": {
-        "birth_order": "youngest son"
-      },
       "evidence": {
         "passageId": "passage_4aab3ead93b608cf9be38f40",
         "pageId": "page_nybc301551_0036",
@@ -60,12 +94,12 @@
         "printedPage": "32",
         "passageCharStart": 1004,
         "passageCharEnd": 1072,
-        "normalizedPassageCharStart": 855,
-        "normalizedPassageCharEnd": 912,
+        "normalizedPassageCharStart": 1004,
+        "normalizedPassageCharEnd": 1072,
         "pageCharStart": 2155,
         "pageCharEnd": 2223,
         "quote": "דע ר ײנגםטע ר זו ן פו ן דע ם בא •\nקאנטן רבי ן ר ׳ ישכ ר בערי ש הכה ן",
-        "normalizedQuote": "דער ײנגםטער זון פון דעם בא• קאנטן רבין ר׳ ישכר בעריש הכהן",
+        "normalizedQuote": "דע ר ײנגםטע ר זו ן פו ן דע ם בא •\nקאנטן רבי ן ר ׳ ישכ ר בערי ש הכה ן",
         "modelQuote": "דער ײנגםטער זון פון דעם בא• קאנטן רבין ר׳ ישכר בעריש הכהן",
         "bbox": {
           "left": 459,
@@ -78,7 +112,43 @@
         "passageChecksum": "78ad3a30e6731526465f1e91d5468663cfae319453817caf051ee889b7e3d58b",
         "normalizedPassageChecksum": "03a46d1ce3984b982d33d00a70255e25b64720527d1ef05ad7967bc48db7a9eb",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_9bc5b721a97325cc085eab1c",
+      "predicate": "Authored By",
+      "subjectTitle": "Divrei Ha’am",
+      "objectTitle": "Akiva Meir",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_06a63b76bd15dfc3da043c2b",
+        "pageId": "page_nybc301551_0036",
+        "scanIndex": 36,
+        "leafNumber": 35,
+        "printedPage": "32",
+        "passageCharStart": 200,
+        "passageCharEnd": 246,
+        "normalizedPassageCharStart": 200,
+        "normalizedPassageCharEnd": 246,
+        "pageCharStart": 2462,
+        "pageCharEnd": 2508,
+        "quote": "ע ר הא ט מחב ר געװע ן דע ם פירו ש ״דבר י העם ״",
+        "normalizedQuote": "ע ר הא ט מחב ר געװע ן דע ם פירו ש ״דבר י העם ״",
+        "modelQuote": "ער האט מחבר געװען דעם פירוש ״דברי העם״",
+        "bbox": {
+          "left": 765,
+          "top": 4554,
+          "right": 2429,
+          "bottom": 4616
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n35/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "d7258b189a83ac3d1ed61627b2d55fd416cf08f2c463984950b00cae09fcb4fa",
+        "normalizedPassageChecksum": "ec3a68dd2f10421323a3a3019892255c186d172f85a9a80c79b17a4f3c80f62f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -86,75 +156,93 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_c128a754b5bd42e4fdc8ef8b",
+      "id": "mention_596f2c2a09d7a2242b661994",
+      "type": "Organization",
+      "title": "Miechów Hasidic Court",
+      "relation": "Led By"
+    },
+    {
+      "id": "mention_a4f23f71ac17a7dab9674765",
       "type": "Person",
-      "title": "Rabbi Yissachar Berish HaKohen",
+      "title": "Yissachar Berish HaKohen",
       "relation": "Child Of"
     },
     {
-      "id": "mention_f1a68c6d2b5e397d8d282e58",
+      "id": "mention_de40c64e195ebab5c12a2676",
+      "type": "Work",
+      "title": "Divrei Ha’am",
+      "relation": "Authored By"
+    },
+    {
+      "id": "mention_a6622d3d68a591edde58b013",
       "type": "Person",
-      "title": "Rabbi Israel Pilower",
+      "title": "Israel Filaver",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_7810576f0a2bcd9472f12af0",
       "type": "Person",
-      "title": "Rabbi Mendele Kotsker",
+      "title": "Mendele Kotsker",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_da8d468584bbc4160fc238a2",
+      "id": "mention_e55a499307785b45b5d83a30",
       "type": "Person",
-      "title": "Rabbi Hershele",
+      "title": "Joseph Aaron",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e3aef4fc3f826e2c0beb6f87",
+      "id": "mention_a4f23f71ac17a7dab9674765",
       "type": "Person",
-      "title": "Rabbi Joseph Aaron",
+      "title": "Yissachar Berish HaKohen",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c128a754b5bd42e4fdc8ef8b",
-      "type": "Person",
-      "title": "Rabbi Yissachar Berish HaKohen",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e7fbee3182be73611b643143",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
-      "title": "Lukow",
+      "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f0be032e93225c92bb3361d3",
+      "id": "mention_4954ef72c04e3cccc046848c",
       "type": "Place",
       "title": "Grabowe",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f6eb18f6d013e3dd565fe931",
+      "id": "mention_341cde962ed05e9502e8aa34",
       "type": "Place",
-      "title": "Wlodowa",
+      "title": "Włodawa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2f159a92bc5d57c93b3e1aad",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7f22bff202ea4d0584500fff",
       "type": "Place",
       "title": "Wolbórz",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0cb61dc37a2c4138c15d52bb",
+      "id": "mention_1858a222217c529ebca3f596",
       "type": "Place",
       "title": "Piotrków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_54b36cdd5c7e9e53a0eb4e94",
-      "type": "Institution",
-      "title": "Pilower Hasidic Court",
+      "id": "mention_ed91d051a20dc9bfdb6e9d38",
+      "type": "Organization",
+      "title": "Filaver Hasidic Court",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_596f2c2a09d7a2242b661994",
+      "type": "Organization",
+      "title": "Miechów Hasidic Court",
       "relation": "Appears in same passage"
     }
   ],

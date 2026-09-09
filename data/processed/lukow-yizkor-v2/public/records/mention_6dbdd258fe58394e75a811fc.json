@@ -1,0 +1,118 @@
+{
+  "id": "mention_6dbdd258fe58394e75a811fc",
+  "type": "Person",
+  "title": "Abraham of Katzk",
+  "summary": "Family member who returned and witnessed the massacre.",
+  "originalName": "אברהם",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 325,
+  "printedPage": "321",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "The OCR wording around the name is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f30c430b61ffaedd3110035e",
+      "pageId": "page_nybc301551_0325",
+      "scanIndex": 325,
+      "leafNumber": 324,
+      "printedPage": "321",
+      "passageCharStart": 691,
+      "passageCharEnd": 696,
+      "normalizedPassageCharStart": 691,
+      "normalizedPassageCharEnd": 696,
+      "pageCharStart": 691,
+      "pageCharEnd": 696,
+      "quote": "אברהם",
+      "normalizedQuote": "אברהם",
+      "modelQuote": "אברהם",
+      "bbox": {
+        "left": 2735,
+        "top": 1692,
+        "right": 2923,
+        "bottom": 1750
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n324/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "86375fde1249e50eb8c4f7a091f2c51ef2c725999e515acbc29fc35a2402ff9b",
+      "normalizedPassageChecksum": "e4bb041cc207f8c9c520ee76a7b73b976637011f6f8d2b647a1373af93e4d911",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_c590687f32c27da71174775e",
+      "predicate": "Member Of Family",
+      "subjectTitle": "Abraham of Katzk",
+      "objectTitle": "Sender Rendl family",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR obscures the wording connecting Abraham to the family.",
+      "evidence": {
+        "passageId": "passage_f30c430b61ffaedd3110035e",
+        "pageId": "page_nybc301551_0325",
+        "scanIndex": 325,
+        "leafNumber": 324,
+        "printedPage": "321",
+        "passageCharStart": 607,
+        "passageCharEnd": 696,
+        "normalizedPassageCharStart": 607,
+        "normalizedPassageCharEnd": 696,
+        "pageCharStart": 607,
+        "pageCharEnd": 696,
+        "quote": "די צװ ײ פו ן דע ר פאמיליע ״ װא ס זענע ן אװעק , דו ד רענד ל מי ט א קװי ן פו ן קאצק -\nאברהם",
+        "normalizedQuote": "די צװ ײ פו ן דע ר פאמיליע ״ װא ס זענע ן אװעק , דו ד רענד ל מי ט א קװי ן פו ן קאצק -\nאברהם",
+        "modelQuote": "די צװײ פון דער פאמיליע״ װאס זענען אװעק, דוד רענדל מיטא קװין פון קאצק- אברהם",
+        "bbox": {
+          "left": 473,
+          "top": 1568,
+          "right": 3083,
+          "bottom": 1750
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n324/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "86375fde1249e50eb8c4f7a091f2c51ef2c725999e515acbc29fc35a2402ff9b",
+        "normalizedPassageChecksum": "e4bb041cc207f8c9c520ee76a7b73b976637011f6f8d2b647a1373af93e4d911",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_96a484603628a7e136cb617c",
+      "type": "Family",
+      "title": "Sender Rendl family",
+      "relation": "Member Of Family"
+    },
+    {
+      "id": "mention_96a484603628a7e136cb617c",
+      "type": "Family",
+      "title": "Sender Rendl family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_24ecf666875b038077703580",
+      "type": "Person",
+      "title": "David Rendl",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2485b72ded8f2600a0d82fa0",
+      "type": "Place",
+      "title": "Katzk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_666bdcd68d2d5000e866b591",
+      "type": "Place",
+      "title": "Forest",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

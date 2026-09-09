@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_3412306f6a63c116e2cfec0b",
+  "type": "Event",
+  "title": "Murder of a Domanski brother",
+  "summary": "A Domanski brother was beaten to death by Armia Krajowa; the individual is not separately named.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 329,
+  "printedPage": "325",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The victim is referred to as the second Domanski brother, not named individually.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0e977c0c46c153a2e50025f6",
+      "pageId": "page_nybc301551_0329",
+      "scanIndex": 329,
+      "leafNumber": 328,
+      "printedPage": "325",
+      "passageCharStart": 1351,
+      "passageCharEnd": 1382,
+      "normalizedPassageCharStart": 1351,
+      "normalizedPassageCharEnd": 1382,
+      "pageCharStart": 2597,
+      "pageCharEnd": 2628,
+      "quote": "הא.ק . הרג ו אות ו במכו ת יבשות",
+      "normalizedQuote": "הא.ק . הרג ו אות ו במכו ת יבשות",
+      "modelQuote": "הא.ק. הרגו אותו במכות יבשות",
+      "bbox": {
+        "left": 1579,
+        "top": 4665,
+        "right": 2591,
+        "bottom": 4739
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n328/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "a3554ffc0770827a36ce39999d752599b9b96576bbcdbb5667717cf4ca1c67f6",
+      "normalizedPassageChecksum": "5f6a54930de4b087e2beebf999076f968b5d80f601992299075784fcd396e572",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6ec3c5ba112a8752ead19ec1",
+      "type": "Family",
+      "title": "Domanski family",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_99070f33e607c3ca15183cf4",
+      "type": "Organization",
+      "title": "Armia Krajowa",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

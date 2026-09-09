@@ -1,0 +1,57 @@
+{
+  "id": "event_candidate_5c7181124fb6c0095340d325",
+  "type": "Event",
+  "title": "Factory bankruptcy",
+  "summary": "The family factory became bankrupt after the children operated it.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 193,
+  "printedPage": "189",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "The allowed event types do not include bankruptcy; this event is retained only as the closest business-related category.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a106a31c51e03230e58e234c",
+      "pageId": "page_nybc301551_0193",
+      "scanIndex": 193,
+      "leafNumber": 192,
+      "printedPage": "189",
+      "passageCharStart": 617,
+      "passageCharEnd": 643,
+      "normalizedPassageCharStart": 617,
+      "normalizedPassageCharEnd": 643,
+      "pageCharStart": 1932,
+      "pageCharEnd": 1958,
+      "quote": "די פאברי ק הא ט באנקראטירט",
+      "normalizedQuote": "די פאברי ק הא ט באנקראטירט",
+      "modelQuote": "די פאבריק האט באנקראטירט",
+      "bbox": {
+        "left": 2068,
+        "top": 3384,
+        "right": 2940,
+        "bottom": 3452
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n192/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "441a158dab30111bbe683685128ee098aab2eb0145e3ee95c8f5d4348b1d3b70",
+      "normalizedPassageChecksum": "e6f9bf6bbba14b63028edf92b721232a231e095641ec9b230f5f9f28c50d0dd2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1029ef20e80ef89a22f7d93b",
+      "type": "Business",
+      "title": "Family factory",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

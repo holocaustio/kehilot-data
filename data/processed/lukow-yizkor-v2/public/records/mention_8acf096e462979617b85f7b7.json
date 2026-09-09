@@ -2,15 +2,15 @@
   "id": "mention_8acf096e462979617b85f7b7",
   "type": "Person",
   "title": "Shlomo Frengler",
-  "summary": "Named author or narrator of the passage.",
+  "summary": "Named author of the account about the destruction of Łuków Jewry.",
   "originalName": "שלמה פרענגלער",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 433,
   "printedPage": "429",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "author_or_narrator",
+  "subtype": "author",
   "evidenceRefs": [
     {
       "passageId": "passage_4839b8a3d33dca4b7549902f",
@@ -21,11 +21,11 @@
       "passageCharStart": 0,
       "passageCharEnd": 14,
       "normalizedPassageCharStart": 0,
-      "normalizedPassageCharEnd": 13,
+      "normalizedPassageCharEnd": 14,
       "pageCharStart": 0,
       "pageCharEnd": 14,
       "quote": "שלמה פרענגלע ר",
-      "normalizedQuote": "שלמה פרענגלער",
+      "normalizedQuote": "שלמה פרענגלע ר",
       "modelQuote": "שלמה פרענגלער",
       "bbox": {
         "left": 2478,
@@ -38,35 +38,118 @@
       "passageChecksum": "7df33f440de69c3670786d7777957a25a857f49799c87c16fc9ca5175a4cbfed",
       "normalizedPassageChecksum": "46b1e25cd7c4d6e04cb253737e23c05d0a11f5d35f6867c8a13d850b41a57703",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_e40baa07854d1256aa1c9fba",
+      "pageId": "page_nybc301551_0644",
+      "scanIndex": 644,
+      "leafNumber": 643,
+      "printedPage": "640",
+      "passageCharStart": 349,
+      "passageCharEnd": 382,
+      "normalizedPassageCharStart": 349,
+      "normalizedPassageCharEnd": 382,
+      "pageCharStart": 349,
+      "pageCharEnd": 382,
+      "quote": "שלמה פרענגלע ר מי ט דע ר פאמילי ע",
+      "normalizedQuote": "שלמה פרענגלע ר מי ט דע ר פאמילי ע",
+      "modelQuote": "שלמה פרענגלער מיט דער פאמיליע",
+      "bbox": {
+        "left": 496,
+        "top": 2526,
+        "right": 1598,
+        "bottom": 2616
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n643/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "78de142e84121eceb0490ee309506bb52df7f6d34f4546d33f7d86adf92cb6d0",
+      "normalizedPassageChecksum": "d5acf1d263cf8ec991d451b4b804461ccbc4df6b84eaeee25641b002af3251d4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_e7e40efb0b7687e78c1c8d46",
+      "pageId": "page_nybc301551_0659",
+      "scanIndex": 659,
+      "leafNumber": 658,
+      "printedPage": null,
+      "passageCharStart": 326,
+      "passageCharEnd": 341,
+      "normalizedPassageCharStart": 326,
+      "normalizedPassageCharEnd": 341,
+      "pageCharStart": 326,
+      "pageCharEnd": 341,
+      "quote": "שלמ ה פרענגלע ר",
+      "normalizedQuote": "שלמ ה פרענגלע ר",
+      "modelQuote": "שלמה פרענגלער",
+      "bbox": {
+        "left": 1448,
+        "top": 1231,
+        "right": 2120,
+        "bottom": 1313
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n658/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "e91aa5800db780c427c968d35c9807e23738c3065f3c6faf9c414baf0cc2dc4a",
+      "normalizedPassageChecksum": "72af9d90951e15728632a1189ca03e526eabc6de23dc4380578391cae295b4ad",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_edc12593a5ef77407ffeecdc",
+      "predicate": "Member Of Family",
+      "subjectTitle": "Solomon Frengler",
+      "objectTitle": "Solomon Frengler’s family",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e40baa07854d1256aa1c9fba",
+        "pageId": "page_nybc301551_0644",
+        "scanIndex": 644,
+        "leafNumber": 643,
+        "printedPage": "640",
+        "passageCharStart": 349,
+        "passageCharEnd": 382,
+        "normalizedPassageCharStart": 349,
+        "normalizedPassageCharEnd": 382,
+        "pageCharStart": 349,
+        "pageCharEnd": 382,
+        "quote": "שלמה פרענגלע ר מי ט דע ר פאמילי ע",
+        "normalizedQuote": "שלמה פרענגלע ר מי ט דע ר פאמילי ע",
+        "modelQuote": "שלמה פרענגלער מיט דער פאמיליע",
+        "bbox": {
+          "left": 496,
+          "top": 2526,
+          "right": 1598,
+          "bottom": 2616
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n643/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "78de142e84121eceb0490ee309506bb52df7f6d34f4546d33f7d86adf92cb6d0",
+        "normalizedPassageChecksum": "d5acf1d263cf8ec991d451b4b804461ccbc4df6b84eaeee25641b002af3251d4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_eefaac961818ed528ea68f4d",
+      "id": "mention_f24bb37493b0a89d690f2483",
       "type": "Community",
-      "title": "Lukow",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7410948e8694462a19014b45",
+      "id": "mention_01cf7caf138553e6cf946f34",
       "type": "Place",
-      "title": "Lukow railway station",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b55a01e736019602324030b5",
-      "type": "Place",
-      "title": "Dentist Klimecka's basement",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_2f246244246bfd6da3c691b3",
-      "type": "Person",
-      "title": "Klimecka",
+      "title": "Łuków railway station",
       "relation": "Appears in same passage"
     },
     {
@@ -82,21 +165,153 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_71be466c104970e1fe0e2152",
+      "id": "mention_7ef9a7b15ef8c4d3f70547ac",
       "type": "Person",
-      "title": "Unnamed narrator",
+      "title": "Klimetzka",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_26c4cfd3d10b69b72706c879",
-      "type": "Family",
-      "title": "Narrator's family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_18356b78947373d5d43f7fa7",
+      "id": "mention_852148722b797680de3d3f91",
       "type": "Place",
       "title": "Wolke Damaszewski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5613f7bc7011cbe3a5756161",
+      "type": "Family",
+      "title": "Solomon Frengler’s family",
+      "relation": "Member Of Family"
+    },
+    {
+      "id": "mention_ed7c2c0f407a757b76282abd",
+      "type": "Person",
+      "title": "David Isaiah Frengler",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f566ab4272691ed1406e569b",
+      "type": "Family",
+      "title": "Bracha’s two children",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fb82d69350daaf73fe653544",
+      "type": "Person",
+      "title": "Nate",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_644f0e6c6bf6738d7e75ccfa",
+      "type": "Family",
+      "title": "Nate’s family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2d64cebd9df06e007a612f8c",
+      "type": "Person",
+      "title": "Abraham",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6763a6ffe005f3600a4f36a4",
+      "type": "Family",
+      "title": "Abraham and Trishele’s family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bad3c287aa1c836f2763bd38",
+      "type": "Person",
+      "title": "Hannah Goldstein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ca32ed4404e8c4c3e91e0c10",
+      "type": "Person",
+      "title": "Abraham Goldstein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b38cf49cd4764d9cac8cd8a9",
+      "type": "Person",
+      "title": "Isaac Frengler",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ba875f24ddbe923a260569dd",
+      "type": "Family",
+      "title": "Frengler family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5613f7bc7011cbe3a5756161",
+      "type": "Family",
+      "title": "Solomon Frengler’s family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_97e6074b4375d59f536129cd",
+      "type": "Person",
+      "title": "Eliyahu Radziniak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fbed85a1da78469e4970f4ff",
+      "type": "Person",
+      "title": "Eliyahu Rodziniak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_66e4844e3daf812ac5ad72b9",
+      "type": "Person",
+      "title": "Elke Gerecht-Tikatzki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5aeda559e775c1aebc928481",
+      "type": "Person",
+      "title": "Leib Shliterman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6d57013b644355d3b17e60db",
+      "type": "Person",
+      "title": "Abba Dishel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aaffe1b9337d3ec36c010739",
+      "type": "Person",
+      "title": "V. H. Ivan",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ef8cddb4d1de8d63258535b",
+      "type": "Person",
+      "title": "N. H.",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f430df97829d8879d257d243",
+      "type": "Person",
+      "title": "Anshel Katz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_21e766db2773e20ba416d40c",
+      "type": "Person",
+      "title": "Isaiah Cohen",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b9835e224b4d35e30fee06f3",
+      "type": "Person",
+      "title": "Jacob Keselbrener",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7511e78bbf7acf2ab44ad819",
+      "type": "Person",
+      "title": "Noah Zhelaza",
       "relation": "Appears in same passage"
     }
   ],

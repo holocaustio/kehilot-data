@@ -2,15 +2,16 @@
   "id": "mention_a54a40117e90f064ece844c6",
   "type": "Person",
   "title": "Hersh Mendl",
-  "summary": "A cantor or prayer leader from Mizrahi.",
+  "summary": "A cantor or prayer leader associated with Mizrahi.",
   "originalName": "הערש מענדל",
-  "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 217,
   "printedPage": "213",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "cantor or prayer leader",
+  "subtype": "cantor_or_prayer_leader",
+  "uncertaintyNote": "The OCR contains an uncertain preposition before Mizrahi.",
   "evidenceRefs": [
     {
       "passageId": "passage_038dafa4e660190d2008f7d6",
@@ -20,12 +21,12 @@
       "printedPage": "213",
       "passageCharStart": 569,
       "passageCharEnd": 593,
-      "normalizedPassageCharStart": 488,
-      "normalizedPassageCharEnd": 509,
+      "normalizedPassageCharStart": 569,
+      "normalizedPassageCharEnd": 593,
       "pageCharStart": 569,
       "pageCharEnd": 593,
       "quote": "הער ש מענד ל פ װ ״מזרחי״",
-      "normalizedQuote": "הערש מענדל פװ ״מזרחי״",
+      "normalizedQuote": "הער ש מענד ל פ װ ״מזרחי״",
       "modelQuote": "הערש מענדל פװ ״מזרחי״",
       "bbox": {
         "left": 1630,
@@ -38,126 +39,83 @@
       "passageChecksum": "ded0778b06c38da4e366ee9f3aa3d29eb70e00d017b0ce23fbed9341136d4ffe",
       "normalizedPassageChecksum": "aef88ebc550abce1f5fe68d467ab987075049a35280a6103537ae2fb20fc7ba9",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_0406ac27d248ab98bc436d12",
-      "predicate": "Affiliated With",
-      "subjectTitle": "Hersh Mendl",
-      "objectTitle": "Mizrahi",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_038dafa4e660190d2008f7d6",
-        "pageId": "page_nybc301551_0217",
-        "scanIndex": 217,
-        "leafNumber": 216,
-        "printedPage": "213",
-        "passageCharStart": 569,
-        "passageCharEnd": 593,
-        "normalizedPassageCharStart": 488,
-        "normalizedPassageCharEnd": 509,
-        "pageCharStart": 569,
-        "pageCharEnd": 593,
-        "quote": "הער ש מענד ל פ װ ״מזרחי״",
-        "normalizedQuote": "הערש מענדל פװ ״מזרחי״",
-        "modelQuote": "הערש מענדל פװ ״מזרחי״",
-        "bbox": {
-          "left": 1630,
-          "top": 2364,
-          "right": 2532,
-          "bottom": 2440
-        },
-        "scanUrl": "https://archive.org/details/nybc301551/page/n216/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-        "passageChecksum": "ded0778b06c38da4e366ee9f3aa3d29eb70e00d017b0ce23fbed9341136d4ffe",
-        "normalizedPassageChecksum": "aef88ebc550abce1f5fe68d467ab987075049a35280a6103537ae2fb20fc7ba9",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
     {
-      "id": "mention_85fdc42aead7f45c6b83f0ea",
-      "type": "Organization",
-      "title": "Mizrachi",
-      "relation": "Affiliated With"
-    },
-    {
-      "id": "mention_74cc5ae863a6648662b0794c",
+      "id": "mention_176ac1d036aac80dc5696a61",
       "type": "Person",
-      "title": "Efraim Mezritsher",
+      "title": "Ephraim Mezritcher",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_de61f2a36fa88c53af90dc07",
-      "type": "Institution",
-      "title": "Old Study House",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_c68f47c1502820f1d563885b",
+      "id": "mention_e8953abb1988b4d7dce5b5e3",
       "type": "Person",
-      "title": "Gershon Plug",
+      "title": "Gershon Flug",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ce45e30c32abe34bbc6b9a62",
+      "id": "mention_8f35816c536eb15085b2f756",
       "type": "Person",
-      "title": "Moshe Aharon Lisibiker",
+      "title": "Moshe Aaron Lisibiker",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a8ae886fa6b387156445d28c",
-      "type": "Institution",
-      "title": "Chok-Bet Study House",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bae4348c900aba4e93e3681c",
+      "id": "mention_0e9888f8bf1a8dc2afa02a37",
       "type": "Person",
-      "title": "Meir Moshe Yitzhaks",
+      "title": "Meir Moshe Itzhaks",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1c7622213052845ef5206810",
-      "type": "Institution",
-      "title": "Chaya Sarah's Study House",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_07ccaa30c2613ff2fbf80fa9",
-      "type": "Institution",
-      "title": "Ger Study House",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bb356f2728fb68836da4839e",
+      "id": "mention_24aadbacd4b13376a3c2255b",
       "type": "Person",
       "title": "Shlomo Mendl",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9233c8161d297eb7b108d93f",
-      "type": "Institution",
-      "title": "Alexander Study House",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_9d91d90a480a2bea2674b4a0",
+      "id": "mention_63abda41662b33e75b5cdec5",
       "type": "Person",
-      "title": "Mordechai Mechl",
+      "title": "Mordechai Mechel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_596d01a1f15de059c73e1ed5",
+      "id": "mention_0e4d475f62066578f1bb4fea",
+      "type": "Person",
+      "title": "Berl Yisrael Itzhaks",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_884d905edfe7573abb044f6c",
+      "type": "Person",
+      "title": "Moshe the Water Carrier",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_509cb7451d47c2b669d18dfc",
       "type": "Institution",
-      "title": "Porzhever Study House",
+      "title": "Old Beth Midrash",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_232532fef435559d092ce0fa",
+      "type": "Institution",
+      "title": "Chuk Beth Midrash",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7232d7340bdc862a4bbdfa30",
+      "type": "Institution",
+      "title": "Chaya Sarah’s Beth Midrash",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cce8b4b592272a187c998ed4",
+      "type": "Institution",
+      "title": "Gerer Shtibl",
       "relation": "Appears in same passage"
     }
   ],

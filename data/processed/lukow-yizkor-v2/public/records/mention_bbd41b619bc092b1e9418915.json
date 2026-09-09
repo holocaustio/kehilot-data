@@ -1,0 +1,103 @@
+{
+  "id": "mention_bbd41b619bc092b1e9418915",
+  "type": "Person",
+  "title": "Unnamed condemned murderer",
+  "summary": "A female prisoner accused of murdering and dismembering a person.",
+  "originalName": "מערדערין",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 122,
+  "printedPage": "118",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "unnamed prisoner",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_65c2de2c22e88280a21b53d9",
+      "pageId": "page_nybc301551_0122",
+      "scanIndex": 122,
+      "leafNumber": 121,
+      "printedPage": "118",
+      "passageCharStart": 973,
+      "passageCharEnd": 988,
+      "normalizedPassageCharStart": 973,
+      "normalizedPassageCharEnd": 988,
+      "pageCharStart": 1857,
+      "pageCharEnd": 1872,
+      "quote": "מי ט א מערדערין",
+      "normalizedQuote": "מי ט א מערדערין",
+      "modelQuote": "מיטא מערדערין",
+      "bbox": {
+        "left": 1878,
+        "top": 3289,
+        "right": 2514,
+        "bottom": 3351
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n121/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "a3cb088782a302f70b334ccc30c84dff08f34c00f52c99aa6ad05fbac35ac12d",
+      "normalizedPassageChecksum": "78ba5b80af2d2078fad9e60d2734022c9dd8ff08258ebc7449c5b5245177f573",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_4b347530e46deaa370309204",
+      "predicate": "Murdered At",
+      "subjectTitle": "Unnamed condemned murderer",
+      "objectTitle": "Prison",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage reports that other prisoners said she murdered someone; the narrator later says it was true.",
+      "qualifiers": {
+        "alleged": true
+      },
+      "evidence": {
+        "passageId": "passage_65c2de2c22e88280a21b53d9",
+        "pageId": "page_nybc301551_0122",
+        "scanIndex": 122,
+        "leafNumber": 121,
+        "printedPage": "118",
+        "passageCharStart": 1017,
+        "passageCharEnd": 1034,
+        "normalizedPassageCharStart": 1017,
+        "normalizedPassageCharEnd": 1034,
+        "pageCharStart": 1901,
+        "pageCharEnd": 1918,
+        "quote": "דערהרגע ט א\nמענטש",
+        "normalizedQuote": "דערהרגע ט א\nמענטש",
+        "modelQuote": "דערהרגעטא מענטש",
+        "bbox": {
+          "left": 464,
+          "top": 3273,
+          "right": 3002,
+          "bottom": 3453
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n121/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "a3cb088782a302f70b334ccc30c84dff08f34c00f52c99aa6ad05fbac35ac12d",
+        "normalizedPassageChecksum": "78ba5b80af2d2078fad9e60d2734022c9dd8ff08258ebc7449c5b5245177f573",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_5421aefe813b200116d445d7",
+      "type": "Place",
+      "title": "Prison",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "mention_5421aefe813b200116d445d7",
+      "type": "Place",
+      "title": "Prison",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

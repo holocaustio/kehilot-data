@@ -2,10 +2,10 @@
   "id": "mention_4623de1a56b97457d372e888",
   "type": "Person",
   "title": "Rabbi Shlomo Braun",
-  "summary": "A rabbi who lived in the first house near the salt shop.",
-  "originalName": "ר׳ שלמה בראון",
+  "summary": "A rabbi who lived in the first house on the market square.",
+  "originalName": "ר׳ שלמה בראון ז״ל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 290,
   "printedPage": "286",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "286",
       "passageCharStart": 306,
       "passageCharEnd": 334,
-      "normalizedPassageCharStart": 263,
-      "normalizedPassageCharEnd": 287,
+      "normalizedPassageCharStart": 306,
+      "normalizedPassageCharEnd": 334,
       "pageCharStart": 2040,
       "pageCharEnd": 2068,
       "quote": "דע ר ר ב ר ׳ שלמ ה\nבראון ז״ל",
-      "normalizedQuote": "דער רב ר׳ שלמה בראון ז״ל",
+      "normalizedQuote": "דע ר ר ב ר ׳ שלמ ה\nבראון ז״ל",
       "modelQuote": "דער רב ר׳ שלמה בראון ז״ל",
       "bbox": {
         "left": 466,
@@ -38,7 +38,7 @@
       "passageChecksum": "83c54f8f33ad69098cddb6e5f5cf80463b0a82dc688b171cb139c47e7d0c17ee",
       "normalizedPassageChecksum": "012f5d637194d6e8fb88cb683e814cadefa7532b6ea4b083fa05b2416efffb4b",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,21 +46,21 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_3bf743e7b05e0ba8476dfa40",
+      "id": "mention_c5c9c47f61b785c8a792cca0",
+      "type": "Institution",
+      "title": "Beth Din House",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_659f51084d11aee539c6bb01",
       "type": "Place",
       "title": "Market Square",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_669110e7c5ab9adcd55fdc19",
+      "id": "mention_2f34bda5fe17fb24cc3dac2b",
       "type": "Place",
       "title": "Warsaw Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_2fb6284e53a78e37524e5056",
-      "type": "Institution",
-      "title": "Rabbinical Court House",
       "relation": "Appears in same passage"
     },
     {

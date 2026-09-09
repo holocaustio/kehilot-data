@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_53d50e55ec44414034d98ca0",
+  "type": "Event",
+  "title": "Money sent to Piotrków",
+  "summary": "Nakh sent Regina with money to Piotrków.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 125,
+  "printedPage": "121",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "This is an explicitly described journey or dispatch, but the controlled event types do not include sending aid; MIGRATION is only an approximate classification.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f5669d48549a2309dabcff20",
+      "pageId": "page_nybc301551_0125",
+      "scanIndex": 125,
+      "leafNumber": 124,
+      "printedPage": "121",
+      "passageCharStart": 56,
+      "passageCharEnd": 128,
+      "normalizedPassageCharStart": 56,
+      "normalizedPassageCharEnd": 128,
+      "pageCharStart": 876,
+      "pageCharEnd": 948,
+      "quote": "חב ר נ ח הא ט געשיק ט\nקיץ פיאטרקא װ ד י חברט ע רעגינ ע מי ט א ביס ל געלט",
+      "normalizedQuote": "חב ר נ ח הא ט געשיק ט\nקיץ פיאטרקא װ ד י חברט ע רעגינ ע מי ט א ביס ל געלט",
+      "modelQuote": "חבר נח האט געשיקט קיץ פיאטרקאװ די חברטע רעגינע מיטא ביסל געלט",
+      "bbox": {
+        "left": 470,
+        "top": 1987,
+        "right": 3066,
+        "bottom": 2143
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n124/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "b9fb3277bd4feadef7947b6822644a8a2bf75757b2777e034bf2b2a3ad8902f7",
+      "normalizedPassageChecksum": "26728f2929d3f05e9e8f5733dff839103907be4e6dfada1a61024d8a1d9316c5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_425e12c7f09d4685127c0533",
+      "type": "Place",
+      "title": "Piotrków prison",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_e671fd539d7594ebb2fa836b",
+      "type": "Person",
+      "title": "Nakh",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_76cc6850e60ad9be83b5720b",
+      "type": "Person",
+      "title": "Regina",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -2,10 +2,10 @@
   "id": "mention_a5937185b4707a915ed93a01",
   "type": "Person",
   "title": "Tadeusz Kościuszko",
-  "summary": "Leader of the 1794 Polish nationalist uprising.",
+  "summary": "Leader of the first Polish nationalist revolt against the partition of Poland in 1794.",
   "originalName": "טדאוש קושצ׳ױשקו",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 56,
   "printedPage": "52",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "52",
       "passageCharStart": 104,
       "passageCharEnd": 131,
-      "normalizedPassageCharStart": 91,
-      "normalizedPassageCharEnd": 116,
+      "normalizedPassageCharStart": 104,
+      "normalizedPassageCharEnd": 131,
       "pageCharStart": 1517,
       "pageCharEnd": 1544,
       "quote": "בראש ו\nעמד טדאו ש קושצ׳ױשקו",
-      "normalizedQuote": "בראשו עמד טדאוש קושצ׳ױשקו",
+      "normalizedQuote": "בראש ו\nעמד טדאו ש קושצ׳ױשקו",
       "modelQuote": "בראשו עמד טדאוש קושצ׳ױשקו",
       "bbox": {
         "left": 455,
@@ -38,20 +38,21 @@
       "passageChecksum": "005c521e9095fabce65b6aed9a51ccf7d61161a199d7d920250251bd37705812",
       "normalizedPassageChecksum": "c39aad5482907abf446933c9bbd3fc186903910e09ea55dc22ce1a46285dff16",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_179bf0280a1b8f77d7a2372f",
-      "type": "Uprising",
-      "title": "1794 Polish nationalist uprising",
-      "summary": "Polish nationalists launched an uprising against the partitions of Poland.",
+      "id": "event_candidate_1a5a35ae6b481fc468b34da0",
+      "type": "Arrest",
+      "title": "First Polish nationalist revolt",
+      "summary": "The first Polish nationalist revolt began against the partition of Poland in 1794.",
       "dateStart": "1794",
       "dateEnd": "1794",
       "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include revolt; ARREST is not an exact fit.",
       "evidence": {
         "passageId": "passage_6514a7c11d4622ac0ce63aad",
         "pageId": "page_nybc301551_0056",
@@ -59,17 +60,17 @@
         "leafNumber": 55,
         "printedPage": "52",
         "passageCharStart": 34,
-        "passageCharEnd": 101,
-        "normalizedPassageCharStart": 30,
-        "normalizedPassageCharEnd": 89,
+        "passageCharEnd": 82,
+        "normalizedPassageCharStart": 34,
+        "normalizedPassageCharEnd": 82,
         "pageCharStart": 1447,
-        "pageCharEnd": 1514,
-        "quote": "ב״1794 פר ץ המר ד הראשו ן ש ל הלאומני ם הפולנײ ם כנג ד חלוק ת פולין",
-        "normalizedQuote": "ב״1794 פרץ המרד הראשון של הלאומנים הפולנײם כנגד חלוקת פולין",
-        "modelQuote": "ב״1794 פרץ המרד הראשון של הלאומנים הפולנײם כנגד חלוקת פולין",
+        "pageCharEnd": 1495,
+        "quote": "ב״1794 פר ץ המר ד הראשו ן ש ל הלאומני ם הפולנײ ם",
+        "normalizedQuote": "ב״1794 פר ץ המר ד הראשו ן ש ל הלאומני ם הפולנײ ם",
+        "modelQuote": "ב״1794 פרץ המרד הראשון של הלאומנים הפולנײם",
         "bbox": {
-          "left": 727,
-          "top": 3555,
+          "left": 1217,
+          "top": 3557,
           "right": 2931,
           "bottom": 3637
         },
@@ -78,29 +79,23 @@
         "passageChecksum": "005c521e9095fabce65b6aed9a51ccf7d61161a199d7d920250251bd37705812",
         "normalizedPassageChecksum": "c39aad5482907abf446933c9bbd3fc186903910e09ea55dc22ce1a46285dff16",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_179bf0280a1b8f77d7a2372f",
+      "id": "event_candidate_1a5a35ae6b481fc468b34da0",
       "type": "Event",
-      "title": "1794 Polish nationalist uprising",
+      "title": "First Polish nationalist revolt",
       "relation": "Participated In",
       "role": "Organizer"
     },
     {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
+      "id": "mention_7ca71124bc72c51d21d076aa",
       "type": "Place",
-      "title": "Łuków",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7a520b4b56320af5bf661c6c",
-      "type": "Place",
-      "title": "Poland",
+      "title": "Łuków and its district",
       "relation": "Appears in same passage"
     }
   ],

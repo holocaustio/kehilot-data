@@ -1,0 +1,106 @@
+{
+  "id": "mention_a5a13620ad9a3d808d76c28e",
+  "type": "Institution",
+  "title": "Kashtshal",
+  "summary": "An institution located near the gymnasium and a fruit orchard.",
+  "originalName": "קאשטשאל",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 215,
+  "printedPage": "211",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "school",
+  "uncertaintyNote": "The institution type is uncertain from the OCR wording.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_86b897bf6086dfe3b3a689bd",
+      "pageId": "page_nybc301551_0215",
+      "scanIndex": 215,
+      "leafNumber": 214,
+      "printedPage": "211",
+      "passageCharStart": 171,
+      "passageCharEnd": 199,
+      "normalizedPassageCharStart": 171,
+      "normalizedPassageCharEnd": 199,
+      "pageCharStart": 171,
+      "pageCharEnd": 199,
+      "quote": "אי ז געשטאנע ן דע ר קאשטשא ל",
+      "normalizedQuote": "אי ז געשטאנע ן דע ר קאשטשא ל",
+      "modelQuote": "איז געשטאנען דער קאשטשאל",
+      "bbox": {
+        "left": 1274,
+        "top": 1064,
+        "right": 2394,
+        "bottom": 1138
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n214/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "d6b7715e15ced70032ff24be48fd04c945e02bf77744d94af3257f6808dfb19f",
+      "normalizedPassageChecksum": "ee66e21d8d251c5b45ce0840e47108b554883aa3d8be6be061b4caa2b6d2ebc3",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_f4bb2e190e009960d84d1c6e",
+      "predicate": "Near",
+      "subjectTitle": "Kashtshal",
+      "objectTitle": "Gymnasium",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_86b897bf6086dfe3b3a689bd",
+        "pageId": "page_nybc301551_0215",
+        "scanIndex": 215,
+        "leafNumber": 214,
+        "printedPage": "211",
+        "passageCharStart": 186,
+        "passageCharEnd": 217,
+        "normalizedPassageCharStart": 186,
+        "normalizedPassageCharEnd": 217,
+        "pageCharStart": 186,
+        "pageCharEnd": 217,
+        "quote": "דע ר קאשטשא ל או ן ד י גימנאזיע",
+        "normalizedQuote": "דע ר קאשטשא ל או ן ד י גימנאזיע",
+        "modelQuote": "דער קאשטשאל און די גימנאזיע",
+        "bbox": {
+          "left": 844,
+          "top": 1064,
+          "right": 1900,
+          "bottom": 1138
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n214/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "d6b7715e15ced70032ff24be48fd04c945e02bf77744d94af3257f6808dfb19f",
+        "normalizedPassageChecksum": "ee66e21d8d251c5b45ce0840e47108b554883aa3d8be6be061b4caa2b6d2ebc3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_4016cdc9edbf3a1d5d17e67d",
+      "type": "Institution",
+      "title": "Gymnasium",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_006158f83e253850c4796f30",
+      "type": "Person",
+      "title": "Menger",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4016cdc9edbf3a1d5d17e67d",
+      "type": "Institution",
+      "title": "Gymnasium",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

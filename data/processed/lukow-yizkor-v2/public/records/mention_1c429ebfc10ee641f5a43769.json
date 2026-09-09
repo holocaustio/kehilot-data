@@ -2,10 +2,10 @@
   "id": "mention_1c429ebfc10ee641f5a43769",
   "type": "Document",
   "title": "Golden Book",
-  "summary": "A register recording observant kosher women.",
+  "summary": "A special book recorded pious kosher women.",
   "originalName": "״גאלדענעם בוך״",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 247,
   "printedPage": "243",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "243",
       "passageCharStart": 207,
       "passageCharEnd": 222,
-      "normalizedPassageCharStart": 179,
-      "normalizedPassageCharEnd": 193,
+      "normalizedPassageCharStart": 207,
+      "normalizedPassageCharEnd": 222,
       "pageCharStart": 1472,
       "pageCharEnd": 1487,
       "quote": "״גאלדענע ם בוך״",
-      "normalizedQuote": "״גאלדענעם בוך״",
+      "normalizedQuote": "״גאלדענע ם בוך״",
       "modelQuote": "״גאלדענעם בוך״",
       "bbox": {
         "left": 1091,
@@ -38,7 +38,7 @@
       "passageChecksum": "7b31fc106e11b41352397d2fa7856ce6cf9c0c79686a636a35faca720beff02b",
       "normalizedPassageChecksum": "47c33a706891f52dcc8eca73e7c554d6e587b9da7fd43b2b762ca615229f7a82",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,21 +46,33 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_71862d4b7f8f37cd37515913",
-      "type": "Organization",
-      "title": "Local Women’s Charity Association",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_807210db34bbba3ff36d418d",
       "type": "Institution",
-      "title": "Yeshiva",
+      "title": "yeshiva",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dd51cb1d0f1c5a8973db2fd2",
+      "id": "mention_ed7edbb615c430cf0eed0122",
       "type": "Institution",
       "title": "Talmud Torah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3d39ed55feff8b7302e29dd7",
+      "type": "Institution",
+      "title": "Beit Yaakov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_15e5b55c01d52f494fa347f3",
+      "type": "Organization",
+      "title": "Association of Local Righteous Women",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7aa1eb749a869561aec5d66c",
+      "type": "Organization",
+      "title": "Shomrei Shabbatnikes",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,121 @@
+{
+  "id": "mention_1802410ec00448b9543c1a2f",
+  "type": "Place",
+  "title": "Uruguay",
+  "summary": "Uruguay was among the countries visited by Mr. Zarbbel.",
+  "originalName": "אורוגװיי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 259,
+  "printedPage": "255",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "country",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f0e078d96198b2e2ca50dd81",
+      "pageId": "page_nybc301551_0259",
+      "scanIndex": 259,
+      "leafNumber": 258,
+      "printedPage": "255",
+      "passageCharStart": 223,
+      "passageCharEnd": 232,
+      "normalizedPassageCharStart": 223,
+      "normalizedPassageCharEnd": 232,
+      "pageCharStart": 1364,
+      "pageCharEnd": 1373,
+      "quote": "אורוגװי י",
+      "normalizedQuote": "אורוגװי י",
+      "modelQuote": "אורוגװיי",
+      "bbox": {
+        "left": 960,
+        "top": 3183,
+        "right": 1412,
+        "bottom": 3241
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n258/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "80b54c7857dd0b40288f7248f3761a36845182efe42cefe2601ae32735ef1369",
+      "normalizedPassageChecksum": "c964ef5160bd51174b64c89f4702dfac25482a6f0c3de080e6a11ffef775d2e0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_d8b4e53789f95d734d849aac",
+      "predicate": "Traveled To",
+      "subjectTitle": "Mr. Zarbbel",
+      "objectTitle": "Uruguay",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text describes travel and return, not permanent migration.",
+      "qualifiers": {
+        "journey": "returned from a trip"
+      },
+      "evidence": {
+        "passageId": "passage_f0e078d96198b2e2ca50dd81",
+        "pageId": "page_nybc301551_0259",
+        "scanIndex": 259,
+        "leafNumber": 258,
+        "printedPage": "255",
+        "passageCharStart": 200,
+        "passageCharEnd": 232,
+        "normalizedPassageCharStart": 200,
+        "normalizedPassageCharEnd": 232,
+        "pageCharStart": 1341,
+        "pageCharEnd": 1373,
+        "quote": "ארגענטינע , בראזיליע , אורוגװי י",
+        "normalizedQuote": "ארגענטינע , בראזיליע , אורוגװי י",
+        "modelQuote": "ארגענטינע, בראזיליע, אורוגװיי",
+        "bbox": {
+          "left": 960,
+          "top": 3175,
+          "right": 2120,
+          "bottom": 3255
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n258/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "80b54c7857dd0b40288f7248f3761a36845182efe42cefe2601ae32735ef1369",
+        "normalizedPassageChecksum": "c964ef5160bd51174b64c89f4702dfac25482a6f0c3de080e6a11ffef775d2e0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_a6bb82c1cf9b20c2c101fd84",
+      "type": "Person",
+      "title": "Mr. Zarbbel",
+      "relation": "Traveled To"
+    },
+    {
+      "id": "mention_ea65d0c831dadfabe2400533",
+      "type": "Organization",
+      "title": "Avnt-Kursn Society",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a6bb82c1cf9b20c2c101fd84",
+      "type": "Person",
+      "title": "Mr. Zarbbel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ca1d2d3dfa1fdd46ff6a279a",
+      "type": "Place",
+      "title": "Argentina",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ca63ec0f58c196f99c050f48",
+      "type": "Place",
+      "title": "Brazil",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

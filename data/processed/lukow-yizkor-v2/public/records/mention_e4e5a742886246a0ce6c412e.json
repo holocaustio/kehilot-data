@@ -1,0 +1,100 @@
+{
+  "id": "mention_e4e5a742886246a0ce6c412e",
+  "type": "Organization",
+  "title": "Police",
+  "summary": "Police participated in the searches and killings.",
+  "originalName": "פאליצײ",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 511,
+  "printedPage": "507",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f3c6aa7ae04194a26e220e7b",
+      "pageId": "page_nybc301551_0511",
+      "scanIndex": 511,
+      "leafNumber": 510,
+      "printedPage": "507",
+      "passageCharStart": 195,
+      "passageCharEnd": 201,
+      "normalizedPassageCharStart": 195,
+      "normalizedPassageCharEnd": 201,
+      "pageCharStart": 2459,
+      "pageCharEnd": 2465,
+      "quote": "פאליצײ",
+      "normalizedQuote": "פאליצײ",
+      "modelQuote": "פאליצײ",
+      "bbox": {
+        "left": 2217,
+        "top": 4209,
+        "right": 2507,
+        "bottom": 4287
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n510/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "7d0321a34ea865faa4d713e0ee4f98f57cbe709fe2bb6d27bb9100097938f8b1",
+      "normalizedPassageChecksum": "5c8f065c2817d3f718b3149ac0381d67f18b0192ba58833b21f9ca51a379a5b7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b4ef24de01923ba909288afa",
+      "type": "Murder",
+      "title": "Killings at the market",
+      "summary": "Jews were ordered to lie face down, and selected elderly people were shot.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_f3c6aa7ae04194a26e220e7b",
+        "pageId": "page_nybc301551_0511",
+        "scanIndex": 511,
+        "leafNumber": 510,
+        "printedPage": "507",
+        "passageCharStart": 451,
+        "passageCharEnd": 541,
+        "normalizedPassageCharStart": 451,
+        "normalizedPassageCharEnd": 541,
+        "pageCharStart": 2715,
+        "pageCharEnd": 2805,
+        "quote": "מע ן הא ט אויםגע ־\nקליבן צװיש ן ױ י ד י אלט ע לײט , אפגעפיר ט אי ן א זײ ט או ן ז ײ דערשאםן",
+        "normalizedQuote": "מע ן הא ט אויםגע ־\nקליבן צװיש ן ױ י ד י אלט ע לײט , אפגעפיר ט אי ן א זײ ט או ן ז ײ דערשאםן",
+        "modelQuote": "מען האט אויםגע־ קליבן צװישן ױי די אלטע לײט, אפגעפירט איןא זײט און זײ דערשאםן",
+        "bbox": {
+          "left": 455,
+          "top": 4551,
+          "right": 2999,
+          "bottom": 4729
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n510/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "7d0321a34ea865faa4d713e0ee4f98f57cbe709fe2bb6d27bb9100097938f8b1",
+        "normalizedPassageChecksum": "5c8f065c2817d3f718b3149ac0381d67f18b0192ba58833b21f9ca51a379a5b7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b4ef24de01923ba909288afa",
+      "type": "Event",
+      "title": "Killings at the market",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_e85e991997a406699940cbf8",
+      "type": "Organization",
+      "title": "Firefighters",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_ec2e6d60e10ef683e1e42dcf",
+  "type": "Event",
+  "title": "Murder of the Kesselbrener family",
+  "summary": "The Kesselbrener family was murdered after being hidden in Domina.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 329,
+  "printedPage": "325",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_52c7cff29ffdbba330c3c685",
+      "pageId": "page_nybc301551_0329",
+      "scanIndex": 329,
+      "leafNumber": 328,
+      "printedPage": "325",
+      "passageCharStart": 1218,
+      "passageCharEnd": 1242,
+      "normalizedPassageCharStart": 1218,
+      "normalizedPassageCharEnd": 1242,
+      "pageCharStart": 1218,
+      "pageCharEnd": 1242,
+      "quote": "כ ל משםח ת\nקסלברנר נרצחה",
+      "normalizedQuote": "כ ל משםח ת\nקסלברנר נרצחה",
+      "modelQuote": "כל משםחת קסלברנר נרצחה",
+      "bbox": {
+        "left": 475,
+        "top": 2751,
+        "right": 2909,
+        "bottom": 2923
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n328/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "2f95a1792fb50c54ca9d03db25898efd7fed3501de445df62aaf82307f38606d",
+      "normalizedPassageChecksum": "2d3b1f0039e4d467ec0538b635f26f157f3db265db00cc7d239e8302145f2936",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_bb2b6ef6c10c5e201cde71ad",
+      "type": "Place",
+      "title": "Domina",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_cadccf2ba27b8bdf88169d74",
+      "type": "Family",
+      "title": "Kesselbrener family",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_99070f33e607c3ca15183cf4",
+      "type": "Organization",
+      "title": "Armia Krajowa",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

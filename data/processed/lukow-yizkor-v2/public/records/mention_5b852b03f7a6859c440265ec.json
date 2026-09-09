@@ -1,17 +1,16 @@
 {
   "id": "mention_5b852b03f7a6859c440265ec",
   "type": "Institution",
-  "title": "First-Class Public School",
-  "summary": "School founded at the Culture Association but later closed for lack of funds.",
+  "title": "Public School",
+  "summary": "First-grade public school established at the Culture Association.",
   "originalName": "1טע קלאם פאלקםשול",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 64,
   "printedPage": "60",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "public school",
-  "uncertaintyNote": "The class designation is OCR-uncertain.",
   "evidenceRefs": [
     {
       "passageId": "passage_a0fae6fc3ed18e43f21401e4",
@@ -21,12 +20,12 @@
       "printedPage": "60",
       "passageCharStart": 905,
       "passageCharEnd": 928,
-      "normalizedPassageCharStart": 784,
-      "normalizedPassageCharEnd": 804,
+      "normalizedPassageCharStart": 905,
+      "normalizedPassageCharEnd": 928,
       "pageCharStart": 2046,
       "pageCharEnd": 2069,
       "quote": "א ן 1ט ע קלא ם פאלקםשול",
-      "normalizedQuote": "אן 1טע קלאם פאלקםשול",
+      "normalizedQuote": "א ן 1ט ע קלא ם פאלקםשול",
       "modelQuote": "אן 1טע קלאם פאלקםשול",
       "bbox": {
         "left": 477,
@@ -39,13 +38,98 @@
       "passageChecksum": "d8f6eca9c5f4ddcf14b2cf9a64ed270e05324aab36fb42a688d6ceeba91afee7",
       "normalizedPassageChecksum": "0af9a7e8737d3c502ed70757b42963428ba1f301549c5277c6d7c861788c4d3a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_958e4667dd7ba586a7ebef44",
+      "predicate": "Located In",
+      "subjectTitle": "Public School",
+      "objectTitle": "Culture Association",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "pageId": "page_nybc301551_0064",
+        "scanIndex": 64,
+        "leafNumber": 63,
+        "printedPage": "60",
+        "passageCharStart": 831,
+        "passageCharEnd": 854,
+        "normalizedPassageCharStart": 831,
+        "normalizedPassageCharEnd": 854,
+        "pageCharStart": 1972,
+        "pageCharEnd": 1995,
+        "quote": "בײ ם /׳קולטור ־\nפאראײן״",
+        "normalizedQuote": "בײ ם /׳קולטור ־\nפאראײן״",
+        "modelQuote": "בײם /׳קולטור־ פאראײן״",
+        "bbox": {
+          "left": 463,
+          "top": 3495,
+          "right": 2921,
+          "bottom": 3661
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n63/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "d8f6eca9c5f4ddcf14b2cf9a64ed270e05324aab36fb42a688d6ceeba91afee7",
+        "normalizedPassageChecksum": "0af9a7e8737d3c502ed70757b42963428ba1f301549c5277c6d7c861788c4d3a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_21ecc41a3a6c6e363560e3ed",
+      "predicate": "Taught At",
+      "subjectTitle": "Teacher Kan",
+      "objectTitle": "Public School",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a0fae6fc3ed18e43f21401e4",
+        "pageId": "page_nybc301551_0064",
+        "scanIndex": 64,
+        "leafNumber": 63,
+        "printedPage": "60",
+        "passageCharStart": 1001,
+        "passageCharEnd": 1032,
+        "normalizedPassageCharStart": 1001,
+        "normalizedPassageCharEnd": 1032,
+        "pageCharStart": 2142,
+        "pageCharEnd": 2173,
+        "quote": "ד י שו ל —\nדורך דע ם לערע ר קאן",
+        "normalizedQuote": "ד י שו ל —\nדורך דע ם לערע ר קאן",
+        "modelQuote": "די שול— דורך דעם לערער קאן",
+        "bbox": {
+          "left": 457,
+          "top": 3705,
+          "right": 3045,
+          "bottom": 3887
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n63/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "d8f6eca9c5f4ddcf14b2cf9a64ed270e05324aab36fb42a688d6ceeba91afee7",
+        "normalizedPassageChecksum": "0af9a7e8737d3c502ed70757b42963428ba1f301549c5277c6d7c861788c4d3a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_b21a90d0d47c58f5373a6149",
+      "type": "Organization",
+      "title": "Culture Association",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_c954ac2cb94595d59b7c16cc",
+      "type": "Person",
+      "title": "Teacher Kan",
+      "relation": "Taught At"
+    },
     {
       "id": "mention_94ef4e79b9a77f1b27df71ce",
       "type": "Person",
@@ -61,35 +145,35 @@
     {
       "id": "mention_c0a1a2215841c95df812cda8",
       "type": "Person",
-      "title": "Motel Feldman",
+      "title": "Motl Feldman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_fc2cf496ec2d30f4e1e9ae73",
-      "type": "Place",
-      "title": "New York",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5664cbc9c9cf06df11663cf5",
+      "id": "mention_6bf288b6510644925ba11d9b",
       "type": "Person",
       "title": "Hershl Zilberstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b5cd959cdbec3eb77079ec89",
+      "id": "mention_dc79582c0c1fc0e9b8c9a3c0",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b21a90d0d47c58f5373a6149",
       "type": "Organization",
       "title": "Culture Association",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_82590bce1037dfb5e2871fa0",
+      "id": "mention_b6efcedf8b4d716ed71bfd29",
       "type": "Institution",
       "title": "Jewish Library",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a8ad39ed3f909b91ef2e5fce",
+      "id": "mention_7520296188eae4eabf7be673",
       "type": "Institution",
       "title": "Kindergarten",
       "relation": "Appears in same passage"
@@ -101,13 +185,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_304477a65e895be1a11ae235",
+      "id": "mention_c954ac2cb94595d59b7c16cc",
       "type": "Person",
-      "title": "Kahn",
+      "title": "Teacher Kan",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Appears in same passage"

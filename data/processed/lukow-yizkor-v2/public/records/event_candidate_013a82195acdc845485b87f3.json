@@ -1,0 +1,83 @@
+{
+  "id": "event_candidate_013a82195acdc845485b87f3",
+  "type": "Event",
+  "title": "Gestapo raid on Warsaw Street",
+  "summary": "The Gestapo destroyed a tavern and shops and assaulted people.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 434,
+  "printedPage": "430",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_661a6253665cc8997fad5011",
+      "pageId": "page_nybc301551_0434",
+      "scanIndex": 434,
+      "leafNumber": 433,
+      "printedPage": "430",
+      "passageCharStart": 0,
+      "passageCharEnd": 72,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 72,
+      "pageCharStart": 1103,
+      "pageCharEnd": 1175,
+      "quote": "דעם 15ט ן נאװעמבער , מיטװאך , אי ז ד י געשטאפ א אנגעקומע ן פו ן ראדזין .",
+      "normalizedQuote": "דעם 15ט ן נאװעמבער , מיטװאך , אי ז ד י געשטאפ א אנגעקומע ן פו ן ראדזין .",
+      "modelQuote": "דעם 15טן נאװעמבער, מיטװאך, איז די געשטאפא אנגעקומען פון ראדזין.",
+      "bbox": {
+        "left": 699,
+        "top": 2331,
+        "right": 2915,
+        "bottom": 2395
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n433/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "f56dea2713879ecb7b225974220f27e73bbdbaef2cd9f1288fe2e7461e1bda49",
+      "normalizedPassageChecksum": "dabe79c560e084ceeac50451fbc83c0926317ed02120d62b08c74cd9e4f8f881",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_2f34bda5fe17fb24cc3dac2b",
+      "type": "Place",
+      "title": "Warsaw Street",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1fa3a8939e5a906c54bfa501",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_a2ddbf248df643f8e43b5dcc",
+      "type": "Person",
+      "title": "David Lichtenstein",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_e8953abb1988b4d7dce5b5e3",
+      "type": "Person",
+      "title": "Gershon Flug",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_d4a2b80650aa5d667f0ddf9b",
+      "type": "Person",
+      "title": "Mendl Weinberg",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

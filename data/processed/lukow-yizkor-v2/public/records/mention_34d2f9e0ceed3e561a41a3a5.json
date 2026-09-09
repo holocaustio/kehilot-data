@@ -2,10 +2,10 @@
   "id": "mention_34d2f9e0ceed3e561a41a3a5",
   "type": "Person",
   "title": "Eliezer Wachsman",
-  "summary": "Wealthy householder associated with Chaya Sarah Beth Midrash.",
+  "summary": "Wealthy householder associated with the study house.",
   "originalName": "ר׳ אליעזר װאקסמאן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 72,
   "printedPage": "68",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "68",
       "passageCharStart": 1151,
       "passageCharEnd": 1171,
-      "normalizedPassageCharStart": 986,
-      "normalizedPassageCharEnd": 1003,
+      "normalizedPassageCharStart": 1151,
+      "normalizedPassageCharEnd": 1171,
       "pageCharStart": 1151,
       "pageCharEnd": 1171,
       "quote": "ר ׳ אליעז ר װאקסמא ן",
-      "normalizedQuote": "ר׳ אליעזר װאקסמאן",
+      "normalizedQuote": "ר ׳ אליעז ר װאקסמא ן",
       "modelQuote": "ר׳ אליעזר װאקסמאן",
       "bbox": {
         "left": 1989,
@@ -38,20 +38,17 @@
       "passageChecksum": "c3992355fd9444c15a84dd32f5b6a1adc96d4eba4c4c18b6f1ce7259201421ad",
       "normalizedPassageChecksum": "ab7bddfc0c636385af4c14ff2bc830819b8007554a2a64ce05967d7824587ec0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_f3c7fd410f2daf76b490e566",
+      "id": "claim_candidate_5d8ec835d867093f58ff1e11",
       "predicate": "Member Of",
       "subjectTitle": "Eliezer Wachsman",
-      "objectTitle": "Chaya Sarah Beth Midrash",
+      "objectTitle": "Chaya Sarah Study House",
       "confidence": "HIGH",
-      "qualifiers": {
-        "role": "worshipper"
-      },
       "evidence": {
         "passageId": "passage_fa9fbda2086924e4a4e437b2",
         "pageId": "page_nybc301551_0072",
@@ -60,12 +57,12 @@
         "printedPage": "68",
         "passageCharStart": 1151,
         "passageCharEnd": 1171,
-        "normalizedPassageCharStart": 986,
-        "normalizedPassageCharEnd": 1003,
+        "normalizedPassageCharStart": 1151,
+        "normalizedPassageCharEnd": 1171,
         "pageCharStart": 1151,
         "pageCharEnd": 1171,
         "quote": "ר ׳ אליעז ר װאקסמא ן",
-        "normalizedQuote": "ר׳ אליעזר װאקסמאן",
+        "normalizedQuote": "ר ׳ אליעז ר װאקסמא ן",
         "modelQuote": "ר׳ אליעזר װאקסמאן",
         "bbox": {
           "left": 1989,
@@ -78,7 +75,7 @@
         "passageChecksum": "c3992355fd9444c15a84dd32f5b6a1adc96d4eba4c4c18b6f1ce7259201421ad",
         "normalizedPassageChecksum": "ab7bddfc0c636385af4c14ff2bc830819b8007554a2a64ce05967d7824587ec0",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -86,10 +83,16 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_0c89c9f9dfd604dc0a2a575a",
+      "id": "mention_a10fbb57c56691566da3b4f4",
       "type": "Institution",
-      "title": "Chaya Sarah Beth Midrash",
+      "title": "Chaya Sarah Study House",
       "relation": "Member Of"
+    },
+    {
+      "id": "mention_e0eb1dbc391387851d8dbc93",
+      "type": "Institution",
+      "title": "Great Synagogue of Łuków",
+      "relation": "Appears in same passage"
     },
     {
       "id": "mention_c13eeebab08bfa49bf6e8f3b",
@@ -98,21 +101,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a5909b65f80c87f11a0b4c3d",
+      "id": "mention_e1fb8e3df434f4d04bd8d72a",
       "type": "Person",
-      "title": "Chaim Motem Mandelbaum",
+      "title": "Chaim Mates Mandelbaum",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9e51b543c31f0cea7c8790f2",
+      "id": "mention_c025ad13d434c3725b45a8e7",
       "type": "Institution",
-      "title": "Small Beth Midrash",
+      "title": "Small Study House",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_320a22e95f0c9b60e2fe7203",
-      "type": "Organization",
-      "title": "Chevra Mikra",
+      "id": "mention_e3f7b1e5ddba174948c5225c",
+      "type": "Person",
+      "title": "Aaron Mikra-Rabbi",
       "relation": "Appears in same passage"
     },
     {
@@ -122,15 +125,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dd51cb1d0f1c5a8973db2fd2",
+      "id": "mention_60847054f967b6b12b36c3d6",
+      "type": "Event",
+      "title": "Debate among Hasidim in Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ed7edbb615c430cf0eed0122",
       "type": "Institution",
       "title": "Talmud Torah",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0c89c9f9dfd604dc0a2a575a",
+      "id": "mention_a10fbb57c56691566da3b4f4",
       "type": "Institution",
-      "title": "Chaya Sarah Beth Midrash",
+      "title": "Chaya Sarah Study House",
       "relation": "Appears in same passage"
     },
     {
@@ -140,15 +149,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3e5d1752f611c424078255fd",
+      "id": "mention_7bd427277d6dcbaac3c33e55",
       "type": "Person",
-      "title": "Moshe Lichtenstitz",
+      "title": "Moses Lichtenstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b2e75971eec5da8de02e569d",
+      "id": "mention_2f5e90dbeff26643bf646b91",
       "type": "Person",
-      "title": "Moshe Barnstitz",
+      "title": "Moses Barnstein",
       "relation": "Appears in same passage"
     }
   ],

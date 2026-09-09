@@ -2,10 +2,10 @@
   "id": "mention_6c1e7c289e0c459afbce8671",
   "type": "Institution",
   "title": "Municipal Yeshiva",
-  "summary": "Yeshiva where students from diverse local social groups studied.",
+  "summary": "Yeshiva attended by students from all sectors of the town.",
   "originalName": "הישיבה העירונית",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 84,
   "printedPage": "80",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "80",
       "passageCharStart": 365,
       "passageCharEnd": 389,
-      "normalizedPassageCharStart": 314,
-      "normalizedPassageCharEnd": 336,
+      "normalizedPassageCharStart": 365,
+      "normalizedPassageCharEnd": 389,
       "pageCharStart": 365,
       "pageCharEnd": 389,
       "quote": "התקײמ ה הישיב ה\nהעירונית",
-      "normalizedQuote": "התקײמה הישיבה העירונית",
+      "normalizedQuote": "התקײמ ה הישיב ה\nהעירונית",
       "modelQuote": "התקײמה הישיבה העירונית",
       "bbox": {
         "left": 459,
@@ -38,15 +38,51 @@
       "passageChecksum": "b67829bb63b41c1cc1c399f7ba00106d73a3d64a50e8a89b3323c065e3496da9",
       "normalizedPassageChecksum": "7673340d25e38057de77f199a957d6c8b0fa0639b4f162176f942e3f4dcce8fd",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_1ad8510185537d2c35e988e5",
+      "id": "claim_candidate_dcd2f6949af517996c0f48b3",
+      "predicate": "Located In",
+      "subjectTitle": "Municipal Yeshiva",
+      "objectTitle": "Chok Beit Midrash",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6036f17d4dd168f38940fa1f",
+        "pageId": "page_nybc301551_0084",
+        "scanIndex": 84,
+        "leafNumber": 83,
+        "printedPage": "80",
+        "passageCharStart": 298,
+        "passageCharEnd": 389,
+        "normalizedPassageCharStart": 298,
+        "normalizedPassageCharEnd": 389,
+        "pageCharStart": 298,
+        "pageCharEnd": 389,
+        "quote": "ב״חוק״, בי ת מדר ש ע״ ש חו ק לישראל , שלמד ו שמ ה מד י יום־ביומו , התקײמ ה הישיב ה\nהעירונית",
+        "normalizedQuote": "ב״חוק״, בי ת מדר ש ע״ ש חו ק לישראל , שלמד ו שמ ה מד י יום־ביומו , התקײמ ה הישיב ה\nהעירונית",
+        "modelQuote": "ב״חוק״, בית מדרש ע״ש חוק לישראל, שלמדו שמה מדי יום־ביומו, התקײמה הישיבה העירונית",
+        "bbox": {
+          "left": 459,
+          "top": 1264,
+          "right": 2871,
+          "bottom": 1434
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n83/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b67829bb63b41c1cc1c399f7ba00106d73a3d64a50e8a89b3323c065e3496da9",
+        "normalizedPassageChecksum": "7673340d25e38057de77f199a957d6c8b0fa0639b4f162176f942e3f4dcce8fd",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_a92f31311ec8a29e7adb88b5",
       "predicate": "Taught At",
-      "subjectTitle": "Rabbi Velvil",
+      "subjectTitle": "Rabbi Velvel",
       "objectTitle": "Municipal Yeshiva",
       "confidence": "HIGH",
       "evidence": {
@@ -55,18 +91,18 @@
         "scanIndex": 84,
         "leafNumber": 83,
         "printedPage": "80",
-        "passageCharStart": 552,
+        "passageCharStart": 537,
         "passageCharEnd": 602,
-        "normalizedPassageCharStart": 475,
-        "normalizedPassageCharEnd": 519,
-        "pageCharStart": 552,
+        "normalizedPassageCharStart": 537,
+        "normalizedPassageCharEnd": 602,
+        "pageCharStart": 537,
         "pageCharEnd": 602,
-        "quote": "ר׳ װעלװי ל ור ׳ בן־ציו ן ועוד , שלימד ו בישיב ה זו",
-        "normalizedQuote": "ר׳ װעלװיל ור׳ בן־ציון ועוד, שלימדו בישיבה זו",
-        "modelQuote": "ר׳ װעלװיל ור׳ בן־ציון ועוד, שלימדו בישיבה זו",
+        "quote": "דר ך המלמדים ,\nר׳ װעלװי ל ור ׳ בן־ציו ן ועוד , שלימד ו בישיב ה זו",
+        "normalizedQuote": "דר ך המלמדים ,\nר׳ װעלװי ל ור ׳ בן־ציו ן ועוד , שלימד ו בישיב ה זו",
+        "modelQuote": "דרך המלמדים, ר׳ װעלװיל ור׳ בן־ציון ועוד, שלימדו בישיבה זו",
         "bbox": {
-          "left": 1615,
-          "top": 1580,
+          "left": 459,
+          "top": 1478,
           "right": 3105,
           "bottom": 1656
         },
@@ -75,12 +111,12 @@
         "passageChecksum": "b67829bb63b41c1cc1c399f7ba00106d73a3d64a50e8a89b3323c065e3496da9",
         "normalizedPassageChecksum": "7673340d25e38057de77f199a957d6c8b0fa0639b4f162176f942e3f4dcce8fd",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "claim_candidate_3153c7c51daa5ec52af8266c",
+      "id": "claim_candidate_8aa25cada447843880c4926b",
       "predicate": "Taught At",
       "subjectTitle": "Rabbi Ben-Zion",
       "objectTitle": "Municipal Yeshiva",
@@ -93,12 +129,12 @@
         "printedPage": "80",
         "passageCharStart": 552,
         "passageCharEnd": 602,
-        "normalizedPassageCharStart": 475,
-        "normalizedPassageCharEnd": 519,
+        "normalizedPassageCharStart": 552,
+        "normalizedPassageCharEnd": 602,
         "pageCharStart": 552,
         "pageCharEnd": 602,
         "quote": "ר׳ װעלװי ל ור ׳ בן־ציו ן ועוד , שלימד ו בישיב ה זו",
-        "normalizedQuote": "ר׳ װעלװיל ור׳ בן־ציון ועוד, שלימדו בישיבה זו",
+        "normalizedQuote": "ר׳ װעלװי ל ור ׳ בן־ציו ן ועוד , שלימד ו בישיב ה זו",
         "modelQuote": "ר׳ װעלװיל ור׳ בן־ציון ועוד, שלימדו בישיבה זו",
         "bbox": {
           "left": 1615,
@@ -111,19 +147,16 @@
         "passageChecksum": "b67829bb63b41c1cc1c399f7ba00106d73a3d64a50e8a89b3323c065e3496da9",
         "normalizedPassageChecksum": "7673340d25e38057de77f199a957d6c8b0fa0639b4f162176f942e3f4dcce8fd",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "claim_candidate_ff60ef4ba3e7b3b267b87535",
+      "id": "claim_candidate_cb0fee5a2e3906f916320ad0",
       "predicate": "Led By",
       "subjectTitle": "Rabbi Gatzil Lampiter",
       "objectTitle": "Municipal Yeshiva",
       "confidence": "HIGH",
-      "qualifiers": {
-        "role": "spiritual leader"
-      },
       "evidence": {
         "passageId": "passage_6036f17d4dd168f38940fa1f",
         "pageId": "page_nybc301551_0084",
@@ -132,12 +165,12 @@
         "printedPage": "80",
         "passageCharStart": 678,
         "passageCharEnd": 739,
-        "normalizedPassageCharStart": 584,
-        "normalizedPassageCharEnd": 636,
+        "normalizedPassageCharStart": 678,
+        "normalizedPassageCharEnd": 739,
         "pageCharStart": 678,
         "pageCharEnd": 739,
         "quote": "המנהי ג הרוחנ י ורו ח החײ ם ש ל הישיב ה הי ה\nר׳ גצי ל למפיט ר",
-        "normalizedQuote": "המנהיג הרוחני ורוח החײם של הישיבה היה ר׳ גציל למפיטר",
+        "normalizedQuote": "המנהי ג הרוחנ י ורו ח החײ ם ש ל הישיב ה הי ה\nר׳ גצי ל למפיט ר",
         "modelQuote": "המנהיג הרוחני ורוח החײם של הישיבה היה ר׳ גציל למפיטר",
         "bbox": {
           "left": 459,
@@ -150,7 +183,7 @@
         "passageChecksum": "b67829bb63b41c1cc1c399f7ba00106d73a3d64a50e8a89b3323c065e3496da9",
         "normalizedPassageChecksum": "7673340d25e38057de77f199a957d6c8b0fa0639b4f162176f942e3f4dcce8fd",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -158,13 +191,19 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_dd2b1daa4fe0b9f965a65e6c",
+      "id": "mention_bcb541ecd4f076cf4ee956de",
+      "type": "Institution",
+      "title": "Chok Beit Midrash",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_6649609f3aae6734efa7315f",
       "type": "Person",
-      "title": "Rabbi Velvil",
+      "title": "Rabbi Velvel",
       "relation": "Taught At"
     },
     {
-      "id": "mention_4e9d71306f3daa0949cd6316",
+      "id": "mention_671be639984731e9a0d8135e",
       "type": "Person",
       "title": "Rabbi Ben-Zion",
       "relation": "Taught At"
@@ -176,19 +215,19 @@
       "relation": "Led By"
     },
     {
-      "id": "mention_0c22e4b4bf1933b21469a609",
+      "id": "mention_bcb541ecd4f076cf4ee956de",
       "type": "Institution",
       "title": "Chok Beit Midrash",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dd2b1daa4fe0b9f965a65e6c",
+      "id": "mention_6649609f3aae6734efa7315f",
       "type": "Person",
-      "title": "Rabbi Velvil",
+      "title": "Rabbi Velvel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4e9d71306f3daa0949cd6316",
+      "id": "mention_671be639984731e9a0d8135e",
       "type": "Person",
       "title": "Rabbi Ben-Zion",
       "relation": "Appears in same passage"
@@ -208,7 +247,7 @@
     {
       "id": "mention_7223361e204d65ec08800060",
       "type": "Person",
-      "title": "Author's grandfather",
+      "title": "Narrator’s grandfather",
       "relation": "Appears in same passage"
     }
   ],

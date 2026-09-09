@@ -2,16 +2,16 @@
   "id": "mention_14a0bb63c6238dd324878e51",
   "type": "Person",
   "title": "Rabbi Shmuel Shlomo Braun",
-  "summary": "Rabbi of Lukow who served there until his death.",
-  "originalName": "הרב הבלכמובי רבי שמואל שלמה בראון",
+  "summary": "Rabbi of Łuków until his death and an effective public speaker.",
+  "originalName": "רבי שמואל שלמה בראון",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 79,
   "printedPage": "75",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "rabbi",
-  "uncertaintyNote": "The descriptor before the name is OCR-distorted.",
+  "uncertaintyNote": "The surrounding rabbinic title contains OCR corruption.",
   "evidenceRefs": [
     {
       "passageId": "passage_dfb0e7ed50483133bf51d1a4",
@@ -21,12 +21,12 @@
       "printedPage": "75",
       "passageCharStart": 1135,
       "passageCharEnd": 1206,
-      "normalizedPassageCharStart": 979,
-      "normalizedPassageCharEnd": 1040,
+      "normalizedPassageCharStart": 1135,
+      "normalizedPassageCharEnd": 1206,
       "pageCharStart": 1135,
       "pageCharEnd": 1206,
       "quote": "הר ב הבלכמוב י רב י שמוא ל שלמ ה בראון ׳ שהי ה\nרב בלוקו ב ע ד יו ם מותו",
-      "normalizedQuote": "הרב הבלכמובי רבי שמואל שלמה בראון׳ שהיה רב בלוקוב עד יום מותו",
+      "normalizedQuote": "הר ב הבלכמוב י רב י שמוא ל שלמ ה בראון ׳ שהי ה\nרב בלוקו ב ע ד יו ם מותו",
       "modelQuote": "הרב הבלכמובי רבי שמואל שלמה בראון׳ שהיה רב בלוקוב עד יום מותו",
       "bbox": {
         "left": 463,
@@ -39,16 +39,16 @@
       "passageChecksum": "dcbe47e0d2cd001a4ff5ca25530dd985209c40a539cf01369d417d45b3eb4b7b",
       "normalizedPassageChecksum": "b6a0cbd28b127cc7498cb78655f0a4d2198753c4fe1db28acb0aeb1a6670aba3",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_53137565dcb801f0fb730376",
-      "predicate": "Rabbi Of",
+      "id": "claim_candidate_39197a7d643255c8c029b7d2",
+      "predicate": "Led By",
       "subjectTitle": "Rabbi Shmuel Shlomo Braun",
-      "objectTitle": "Lukow Jewish community",
+      "objectTitle": "Łuków",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_dfb0e7ed50483133bf51d1a4",
@@ -58,12 +58,12 @@
         "printedPage": "75",
         "passageCharStart": 1176,
         "passageCharEnd": 1206,
-        "normalizedPassageCharStart": 1014,
-        "normalizedPassageCharEnd": 1040,
+        "normalizedPassageCharStart": 1176,
+        "normalizedPassageCharEnd": 1206,
         "pageCharStart": 1176,
         "pageCharEnd": 1206,
         "quote": "שהי ה\nרב בלוקו ב ע ד יו ם מותו",
-        "normalizedQuote": "שהיה רב בלוקוב עד יום מותו",
+        "normalizedQuote": "שהי ה\nרב בלוקו ב ע ד יו ם מותו",
         "modelQuote": "שהיה רב בלוקוב עד יום מותו",
         "bbox": {
           "left": 463,
@@ -76,18 +76,64 @@
         "passageChecksum": "dcbe47e0d2cd001a4ff5ca25530dd985209c40a539cf01369d417d45b3eb4b7b",
         "normalizedPassageChecksum": "b6a0cbd28b127cc7498cb78655f0a4d2198753c4fe1db28acb0aeb1a6670aba3",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_08d6d055046a0628ce189f0c",
+      "type": "Death",
+      "title": "Death of Rabbi Shmuel Shlomo Braun",
+      "summary": "Rabbi Shmuel Shlomo Braun died in 1934.",
+      "dateStart": "1934",
+      "dateEnd": "1934",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_16084f3b84127dd28843a4ac",
+        "pageId": "page_nybc301551_0079",
+        "scanIndex": 79,
+        "leafNumber": 78,
+        "printedPage": "75",
+        "passageCharStart": 0,
+        "passageCharEnd": 37,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 37,
+        "pageCharStart": 1357,
+        "pageCharEnd": 1394,
+        "quote": "בשנת 1934 מ ת הר ב שמוא ל שלמ ה בראון",
+        "normalizedQuote": "בשנת 1934 מ ת הר ב שמוא ל שלמ ה בראון",
+        "modelQuote": "בשנת1934 מת הרב שמואל שלמה בראון",
+        "bbox": {
+          "left": 1687,
+          "top": 2761,
+          "right": 2863,
+          "bottom": 2837
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n78/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "c1a2c413035cbf12430ddd70d9e8cd26fc93f32ddd76f737ae152deed69b2582",
+        "normalizedPassageChecksum": "bffc35b8ab1bb0c66ade0734cc2dc9390b2a3e0e852ee376fcde639a18052d91",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_87890fe45352fe83680cda98",
+      "id": "mention_7a72afda1e5352d9745e4738",
       "type": "Community",
-      "title": "Lukow Jewish community",
-      "relation": "Rabbi Of"
+      "title": "Łuków",
+      "relation": "Led By"
+    },
+    {
+      "id": "event_candidate_08d6d055046a0628ce189f0c",
+      "type": "Event",
+      "title": "Death of Rabbi Shmuel Shlomo Braun",
+      "relation": "Participated In",
+      "role": "Subject"
     },
     {
       "id": "mention_1691ab8ee55b78e983c950ad",
@@ -96,13 +142,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b654db31b4a78d7c43e260aa",
+      "id": "mention_c8b49835d771772869b372c1",
       "type": "Person",
-      "title": "Chaim Meir Heyblum",
+      "title": "Haim Meir Heiblum",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a8ba6a524f06f351f9c69f48",
+      "id": "mention_fced8a903fc4c2f2762578b1",
       "type": "Person",
       "title": "Shimon Shinberg",
       "relation": "Appears in same passage"
@@ -114,21 +160,39 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_05fbd899f5b6b13d0c5b9b2e",
+      "id": "mention_62aecc06dd8dad7dcf9fe7bd",
+      "type": "Person",
+      "title": "Ben-Zion Skorka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f4626383e277f9f656e6ef56",
       "type": "Person",
       "title": "Motel Feldman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_cbaf735ea40918bdca9d0e3a",
-      "type": "Publication",
-      "title": "The Lukower Vort",
+      "id": "mention_91f4536e2b8c482943fcd06d",
+      "type": "Person",
+      "title": "Robinstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_87890fe45352fe83680cda98",
+      "id": "mention_e97350dee1010a9660b944b1",
+      "type": "Publication",
+      "title": "The Lukower Wort",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7a72afda1e5352d9745e4738",
       "type": "Community",
-      "title": "Lukow Jewish community",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ba12c3d08dbf16d519666059",
+      "type": "Institution",
+      "title": "Łuków Great Old Study House",
       "relation": "Appears in same passage"
     },
     {
@@ -138,9 +202,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_75b32052970e586dcb3b23f5",
-      "type": "Institution",
-      "title": "Great Old Study House",
+      "id": "mention_84eb9a8e4b38657a1131fa13",
+      "type": "Person",
+      "title": "Rabbi Mwliya",
       "relation": "Appears in same passage"
     }
   ],

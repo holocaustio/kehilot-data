@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_3d8a3909fca152ec9da777a7",
+  "type": "Event",
+  "title": "Capture of Jewish man after train escape",
+  "summary": "A Jewish man escaped from a moving train and was captured by a Pole.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 410,
+  "printedPage": "406",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Arrest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4690662b889cb7df1fab6b87",
+      "pageId": "page_nybc301551_0410",
+      "scanIndex": 410,
+      "leafNumber": 409,
+      "printedPage": "406",
+      "passageCharStart": 322,
+      "passageCharEnd": 359,
+      "normalizedPassageCharStart": 322,
+      "normalizedPassageCharEnd": 359,
+      "pageCharStart": 1684,
+      "pageCharEnd": 1721,
+      "quote": "יהוד י קפ ץ מרכב ת נוסעת .\nפולני תפסו",
+      "normalizedQuote": "יהוד י קפ ץ מרכב ת נוסעת .\nפולני תפסו",
+      "modelQuote": "יהודי קפץ מרכבת נוסעת. פולני תפסו",
+      "bbox": {
+        "left": 464,
+        "top": 4089,
+        "right": 3030,
+        "bottom": 4243
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n409/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "6f28f6bd7415eddfb54b72dc558060898f4661189f03fd3707edf18c6059a16c",
+      "normalizedPassageChecksum": "227d6c542a13e79411f66bb754323c19b387dbe3bef70ea1c68009318a16a876",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_41be35f1663553877cfacffa",
+      "type": "Place",
+      "title": "Village near the railway tracks",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_389301a66a05b61faae59bcb",
+      "type": "Person",
+      "title": "Jewish man",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_26606abd9bc7de403bd8244b",
+      "type": "Person",
+      "title": "Pole",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

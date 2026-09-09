@@ -1,0 +1,107 @@
+{
+  "id": "mention_0702be7c8c9caabbb5fad502",
+  "type": "Place",
+  "title": "Akszef",
+  "summary": "A place where Jewish people were taken out and about ninety were shot.",
+  "originalName": "אקזשעפ",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 366,
+  "printedPage": "362",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "uncertaintyNote": "The place name is affected by OCR transliteration.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ad49fadac5823926d14230e3",
+      "pageId": "page_nybc301551_0366",
+      "scanIndex": 366,
+      "leafNumber": 365,
+      "printedPage": "362",
+      "passageCharStart": 350,
+      "passageCharEnd": 361,
+      "normalizedPassageCharStart": 350,
+      "normalizedPassageCharEnd": 361,
+      "pageCharStart": 1400,
+      "pageCharEnd": 1411,
+      "quote": "אין אקזשע פ",
+      "normalizedQuote": "אין אקזשע פ",
+      "modelQuote": "אין אקזשעפ",
+      "bbox": {
+        "left": 2412,
+        "top": 2774,
+        "right": 2938,
+        "bottom": 2838
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n365/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "f78104a59fd7537a6af34cfb61dc266e17601beb6907b5cc3459b7510fb4cd6f",
+      "normalizedPassageChecksum": "5f5feb9ad6b62a7922b3fde1e63189ce7edae216356845717ac9c62868a94f6c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_37288b549b45ffb51f8f8da3",
+      "type": "Murder",
+      "title": "Shooting of approximately ninety Jewish people",
+      "summary": "Approximately ninety Jewish people were shot in Akszef.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR states approximately ninety persons were shot; their identities are not given.",
+      "evidence": {
+        "passageId": "passage_ad49fadac5823926d14230e3",
+        "pageId": "page_nybc301551_0366",
+        "scanIndex": 366,
+        "leafNumber": 365,
+        "printedPage": "362",
+        "passageCharStart": 724,
+        "passageCharEnd": 757,
+        "normalizedPassageCharStart": 724,
+        "normalizedPassageCharEnd": 757,
+        "pageCharStart": 1774,
+        "pageCharEnd": 1807,
+        "quote": "מע ן הא ט דא ן דערשאם ן 90 פערזאן",
+        "normalizedQuote": "מע ן הא ט דא ן דערשאם ן 90 פערזאן",
+        "modelQuote": "מען האט דאן דערשאםן90 פערזאן",
+        "bbox": {
+          "left": 688,
+          "top": 3194,
+          "right": 1880,
+          "bottom": 3258
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n365/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "f78104a59fd7537a6af34cfb61dc266e17601beb6907b5cc3459b7510fb4cd6f",
+        "normalizedPassageChecksum": "5f5feb9ad6b62a7922b3fde1e63189ce7edae216356845717ac9c62868a94f6c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_37288b549b45ffb51f8f8da3",
+      "type": "Event",
+      "title": "Shooting of approximately ninety Jewish people",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_115ef2dc09d46f3996e4df6f",
+      "type": "Place",
+      "title": "market",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aa511b19093b27d4927add66",
+      "type": "Place",
+      "title": "castle",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

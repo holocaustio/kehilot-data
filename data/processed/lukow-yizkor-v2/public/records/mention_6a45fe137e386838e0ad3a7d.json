@@ -2,15 +2,16 @@
   "id": "mention_6a45fe137e386838e0ad3a7d",
   "type": "Person",
   "title": "Sigismund I the Old",
-  "summary": "Polish king who stayed in Łuków while traveling to Lithuania.",
+  "summary": "Polish king who stopped overnight in Łuków while traveling to Lithuania.",
   "originalName": "זיגמונט אויגוםט דער ערשטער",
-  "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 20,
   "printedPage": "16",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "monarch",
+  "subtype": "king",
+  "uncertaintyNote": "OCR spelling is irregular.",
   "evidenceRefs": [
     {
       "passageId": "passage_80cbeee0de9ec79341550f5c",
@@ -20,12 +21,12 @@
       "printedPage": "16",
       "passageCharStart": 96,
       "passageCharEnd": 125,
-      "normalizedPassageCharStart": 84,
-      "normalizedPassageCharEnd": 110,
+      "normalizedPassageCharStart": 96,
+      "normalizedPassageCharEnd": 125,
       "pageCharStart": 96,
       "pageCharEnd": 125,
       "quote": "זיגמונט אויגום ט דע ר ערשטע ר",
-      "normalizedQuote": "זיגמונט אויגוםט דער ערשטער",
+      "normalizedQuote": "זיגמונט אויגום ט דע ר ערשטע ר",
       "modelQuote": "זיגמונט אויגוםט דער ערשטער",
       "bbox": {
         "left": 2129,
@@ -38,7 +39,7 @@
       "passageChecksum": "646fefd96030fe150d41333c44f442177d7468bc20874cf8132ee637c2c49584",
       "normalizedPassageChecksum": "edcdfdb0111c3eb2fca53c6ad8ccc458364a409af3cc2d7fb828e2283cfde9c4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,27 +47,21 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_46540b441b15594f9a683494",
+      "id": "mention_0e9f9fc1417960c7d2b88c37",
       "type": "Person",
       "title": "John II Casimir",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
-      "type": "Place",
-      "title": "Łuków",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e8dffbe1b4788d97216c851d",
+      "id": "mention_e35a82a4bdac4c3d56ffc900",
       "type": "Community",
-      "title": "Jews of Łuków",
+      "title": "Jewish community of Łuków",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_0be2937202e38e978f401060",
-      "type": "Publication",
-      "title": "Polish chronicles",
+      "type": "Organization",
+      "title": "Polish chroniclers",
       "relation": "Appears in same passage"
     }
   ],

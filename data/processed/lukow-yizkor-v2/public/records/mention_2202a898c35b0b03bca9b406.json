@@ -2,10 +2,10 @@
   "id": "mention_2202a898c35b0b03bca9b406",
   "type": "Person",
   "title": "Filipek",
-  "summary": "Prisoner identified in connection with the court.",
+  "summary": "A court worker imprisoned with other detainees.",
   "originalName": "פיליפעק",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 434,
   "printedPage": "430",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "430",
       "passageCharStart": 287,
       "passageCharEnd": 307,
-      "normalizedPassageCharStart": 248,
-      "normalizedPassageCharEnd": 266,
+      "normalizedPassageCharStart": 287,
+      "normalizedPassageCharEnd": 307,
       "pageCharStart": 2490,
       "pageCharEnd": 2510,
       "quote": "פיליפע ק פו ן געריכט",
-      "normalizedQuote": "פיליפעק פון געריכט",
+      "normalizedQuote": "פיליפע ק פו ן געריכט",
       "modelQuote": "פיליפעק פון געריכט",
       "bbox": {
         "left": 945,
@@ -37,62 +37,68 @@
       "passageChecksum": "c0e344994fedd8f9d6bbfa28054f213be33edf16932afdd964a719e04c37cf38",
       "normalizedPassageChecksum": "5947a8547aebc2dd22a4854b3aaf7040ddaba5874a957389d0a576e7f0ce452a",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_19267a3be530a0c57515668c",
-      "type": "Imprisonment",
-      "title": "Imprisonment in cooperative cash office",
-      "summary": "The narrator was beaten, registered, and locked with other prisoners.",
-      "confidence": "HIGH",
-      "uncertaintyNote": "The narrator is unnamed; named prisoners are explicitly said to have been locked there.",
+      "id": "event_candidate_b03ad730f3a3ae415a66abba",
+      "type": "Arrest",
+      "title": "Detention of local residents",
+      "summary": "The narrator and named local residents were detained by Gestapo personnel and a Polish policeman.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR contains an unclear character and the passage lists detainees without a fully explicit arrest narrative.",
       "evidence": {
         "passageId": "passage_fc9eba90ee98cdd9d4bce71e",
         "pageId": "page_nybc301551_0434",
         "scanIndex": 434,
         "leafNumber": 433,
         "printedPage": "430",
-        "passageCharStart": 77,
-        "passageCharEnd": 140,
-        "normalizedPassageCharStart": 67,
-        "normalizedPassageCharEnd": 121,
-        "pageCharStart": 2280,
-        "pageCharEnd": 2343,
-        "quote": "דארט הא ט מע ן מי ך געשלאג ן בײ ם פארשרײב ן מי ך או ן פארשפאר ט",
-        "normalizedQuote": "דארט האט מען מיך געשלאגן בײם פארשרײבן מיך און פארשפארט",
-        "modelQuote": "דארט האט מען מיך געשלאגן בײם פארשרײבן מיך און פארשפארט",
+        "passageCharStart": 198,
+        "passageCharEnd": 246,
+        "normalizedPassageCharStart": 198,
+        "normalizedPassageCharEnd": 246,
+        "pageCharStart": 2401,
+        "pageCharEnd": 2449,
+        "quote": "פארשפאר ט 8 לוקאװע ר גלחים ׳ דע ר אדװאקא ט\nיאקוב",
+        "normalizedQuote": "פארשפאר ט 8 לוקאװע ר גלחים ׳ דע ר אדװאקא ט\nיאקוב",
+        "modelQuote": "פארשפארט8 לוקאװער גלחים׳ דער אדװאקאט יאקוב",
         "bbox": {
-          "left": 969,
-          "top": 3889,
-          "right": 3033,
-          "bottom": 3967
+          "left": 461,
+          "top": 3995,
+          "right": 2981,
+          "bottom": 4181
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n433/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "c0e344994fedd8f9d6bbfa28054f213be33edf16932afdd964a719e04c37cf38",
         "normalizedPassageChecksum": "5947a8547aebc2dd22a4854b3aaf7040ddaba5874a957389d0a576e7f0ce452a",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
   "connections": [
     {
-      "id": "event_candidate_19267a3be530a0c57515668c",
+      "id": "event_candidate_b03ad730f3a3ae415a66abba",
       "type": "Event",
-      "title": "Imprisonment in cooperative cash office",
+      "title": "Detention of local residents",
       "relation": "Participated In",
       "role": "Victim"
     },
     {
-      "id": "mention_7f2da00f60448f981065cfe1",
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3dd4da223ac14bab87b4fe4",
       "type": "Person",
-      "title": "Yakub",
+      "title": "Jakub",
       "relation": "Appears in same passage"
     },
     {
@@ -102,33 +108,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_04d05c54ef3d0a8ff49793ff",
+      "id": "mention_6885c05e5190e9fb8ff3b5db",
       "type": "Person",
-      "title": "Menashe Spilfoigl",
+      "title": "Simha Lender",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e1695365516e0bfde0289d46",
-      "type": "Person",
-      "title": "Simcha Lender",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_c4e0486ca8fddb0752b3b95b",
+      "id": "mention_61bd44002f4b07a90128863a",
       "type": "Institution",
-      "title": "Cooperative Cash Office",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_cdbae3befe0f32b7bf971d42",
-      "type": "Institution",
-      "title": "Starostwo",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_ef8d59755f5d16b3dee5b7dc",
-      "type": "Person",
-      "title": "Hersh Leizer Lender",
+      "title": "Cooperative Cashier at the Starostwo",
       "relation": "Appears in same passage"
     }
   ],

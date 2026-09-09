@@ -5,13 +5,13 @@
   "summary": "Direction in which the injured woman flees.",
   "originalName": "קארמעליצקע",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 311,
   "printedPage": "307",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "street or locality",
-  "uncertaintyNote": "The text does not clarify whether this is a street or locality.",
+  "subtype": "street or direction",
+  "uncertaintyNote": "The OCR may represent a street or place name.",
   "evidenceRefs": [
     {
       "passageId": "passage_3e57e6a233b10bb9b5e5dc2f",
@@ -21,12 +21,12 @@
       "printedPage": "307",
       "passageCharStart": 966,
       "passageCharEnd": 1010,
-      "normalizedPassageCharStart": 824,
-      "normalizedPassageCharEnd": 863,
+      "normalizedPassageCharStart": 966,
+      "normalizedPassageCharEnd": 1010,
       "pageCharStart": 2118,
       "pageCharEnd": 2162,
       "quote": "אנטלויפ ט אי ן דע ר\nריכטומ פו ן קארמעליצקע .",
-      "normalizedQuote": "אנטלויפט אין דער ריכטומ פון קארמעליצקע.",
+      "normalizedQuote": "אנטלויפ ט אי ן דע ר\nריכטומ פו ן קארמעליצקע .",
       "modelQuote": "אנטלויפט אין דער ריכטומ פון קארמעליצקע.",
       "bbox": {
         "left": 467,
@@ -39,7 +39,7 @@
       "passageChecksum": "84f3b97155d0e33c4ef576546fce487210b7cc01c7fe9dfcd74b45b9fa4cf54d",
       "normalizedPassageChecksum": "b22c27901dd7bfb99a927cb983fc29ea71719623108617ff57293c9b8f348aac",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,7 +47,7 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_7bd88b321d4bab9c00440870",
+      "id": "mention_7555c9d72e98f17ecf09cec5",
       "type": "Person",
       "title": "Tulie",
       "relation": "Appears in same passage"

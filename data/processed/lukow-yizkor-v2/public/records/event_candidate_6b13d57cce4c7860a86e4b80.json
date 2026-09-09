@@ -1,0 +1,72 @@
+{
+  "id": "event_candidate_6b13d57cce4c7860a86e4b80",
+  "type": "Event",
+  "title": "Occupation of Łuków by Swedish and Polish forces",
+  "summary": "Swedish and Polish forces occupied Łuków and caused extensive damage.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 24,
+  "printedPage": "20",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The event type is not exact: the text describes occupation, but occupation is not an allowed event type.",
+  "dateStart": "1700",
+  "dateEnd": "1799",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4a65c36bc9edd093758e4d46",
+      "pageId": "page_nybc301551_0024",
+      "scanIndex": 24,
+      "leafNumber": 23,
+      "printedPage": "20",
+      "passageCharStart": 905,
+      "passageCharEnd": 954,
+      "normalizedPassageCharStart": 905,
+      "normalizedPassageCharEnd": 954,
+      "pageCharStart": 905,
+      "pageCharEnd": 954,
+      "quote": "פארנומע ן לוקא װ או ן גור ם געװע ן גרוים ע הזיקות",
+      "normalizedQuote": "פארנומע ן לוקא װ או ן גור ם געװע ן גרוים ע הזיקות",
+      "modelQuote": "פארנומען לוקאװ און גורם געװען גרויםע הזיקות",
+      "bbox": {
+        "left": 1103,
+        "top": 2011,
+        "right": 2741,
+        "bottom": 2083
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n23/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "4a742e2cc3ae09378b9d64c6cbb3ef9e65ca3e0981e873fa9d21ff236cb3afe8",
+      "normalizedPassageChecksum": "6aee5f7661187fcd7c6abffd8357774db45848fc05ee1dd0aa4a24418a83ef38",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ca76fb70fb74a5b82984b0ec",
+      "type": "Organization",
+      "title": "Swedish forces",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_2e7c199d361726e68446d44e",
+      "type": "Organization",
+      "title": "Polish forces",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

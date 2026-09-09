@@ -1,0 +1,124 @@
+{
+  "id": "mention_e6ac6b174efbde180ea626fb",
+  "type": "Place",
+  "title": "Radzyn road",
+  "summary": "Road beside a dense forest where the attackers waited.",
+  "originalName": "ראדזינער שאםײ",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 394,
+  "printedPage": "390",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "road",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9f0a669b509192605962055b",
+      "pageId": "page_nybc301551_0394",
+      "scanIndex": 394,
+      "leafNumber": 393,
+      "printedPage": "390",
+      "passageCharStart": 447,
+      "passageCharEnd": 469,
+      "normalizedPassageCharStart": 447,
+      "normalizedPassageCharEnd": 469,
+      "pageCharStart": 1843,
+      "pageCharEnd": 1865,
+      "quote": "אויפ ן ראדזינע ר שאם ײ",
+      "normalizedQuote": "אויפ ן ראדזינע ר שאם ײ",
+      "modelQuote": "אויפן ראדזינער שאםײ",
+      "bbox": {
+        "left": 1662,
+        "top": 3480,
+        "right": 2520,
+        "bottom": 3556
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n393/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "17acd3bc39a04e3dc87cd8f85894a00d1c457bda49c347f0e0bb5ed0db890390",
+      "normalizedPassageChecksum": "534f1418fb99070959c74eede50b520bb5cc871fa2a06f39cd6b7d5fa0bf1bd6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_14c4bfa3ec19ed9593080790",
+      "type": "Aktion Or Raid",
+      "title": "Attack on German forces near Radzyn",
+      "summary": "Jewish fighters attacked a German group traveling from Lazi toward Radzyn.",
+      "dateStart": "1942-06-08",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9f0a669b509192605962055b",
+        "pageId": "page_nybc301551_0394",
+        "scanIndex": 394,
+        "leafNumber": 393,
+        "printedPage": "390",
+        "passageCharStart": 138,
+        "passageCharEnd": 211,
+        "normalizedPassageCharStart": 138,
+        "normalizedPassageCharEnd": 211,
+        "pageCharStart": 1534,
+        "pageCharEnd": 1607,
+        "quote": "אונדזע ר אנפירע ר הא ט\nאויםגעארבעט דע ם פלא ן פו ן אנפא ל אוי ף ד י דײטשן",
+        "normalizedQuote": "אונדזע ר אנפירע ר הא ט\nאויםגעארבעט דע ם פלא ן פו ן אנפא ל אוי ף ד י דײטשן",
+        "modelQuote": "אונדזער אנפירער האט אויםגעארבעט דעם פלאן פון אנפאל אויף די דײטשן",
+        "bbox": {
+          "left": 454,
+          "top": 3036,
+          "right": 2770,
+          "bottom": 3242
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n393/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "17acd3bc39a04e3dc87cd8f85894a00d1c457bda49c347f0e0bb5ed0db890390",
+        "normalizedPassageChecksum": "534f1418fb99070959c74eede50b520bb5cc871fa2a06f39cd6b7d5fa0bf1bd6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_14c4bfa3ec19ed9593080790",
+      "type": "Event",
+      "title": "Attack on German forces near Radzyn",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_38c5138886a80ab7d928df48",
+      "type": "Place",
+      "title": "Lazi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_16a85307ba2caebc6e679f00",
+      "type": "Place",
+      "title": "Radzyn",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ccfecfb01f8436fb7bf199eb",
+      "type": "Place",
+      "title": "Bunker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_666bdcd68d2d5000e866b591",
+      "type": "Place",
+      "title": "Forest",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6976ee6296d4700e563ade61",
+      "type": "Organization",
+      "title": "Jewish avengers",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

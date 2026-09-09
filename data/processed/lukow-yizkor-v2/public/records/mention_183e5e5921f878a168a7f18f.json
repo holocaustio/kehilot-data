@@ -5,7 +5,7 @@
   "summary": "City mentioned in the poem as a place of fear.",
   "originalName": "קאװנע",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 319,
   "printedPage": "315",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "315",
       "passageCharStart": 112,
       "passageCharEnd": 122,
-      "normalizedPassageCharStart": 99,
-      "normalizedPassageCharEnd": 108,
+      "normalizedPassageCharStart": 112,
+      "normalizedPassageCharEnd": 122,
       "pageCharStart": 112,
       "pageCharEnd": 122,
       "quote": "אין קאװנ ע",
-      "normalizedQuote": "אין קאװנע",
+      "normalizedQuote": "אין קאװנ ע",
       "modelQuote": "אין קאװנע",
       "bbox": {
         "left": 2048,
@@ -38,7 +38,7 @@
       "passageChecksum": "928c67d70417e3d3a66330fc84a28d82c493acf780398660b100dc63fab09e89",
       "normalizedPassageChecksum": "4cc8629423f5cfe9fd569312d99cfd93cc6375e2d509b75b9a0daa928995c80e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,9 +46,9 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_cbefccd860d80587cdfefb00",
+      "id": "mention_848e949662a11ac4cf66e8ab",
       "type": "Person",
-      "title": "Z. Segalovich",
+      "title": "Z. Segalovitch",
       "relation": "Appears in same passage"
     },
     {
@@ -58,7 +58,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
       "relation": "Appears in same passage"
@@ -67,12 +67,6 @@
       "id": "mention_15c11cbba4089ebb95d2265b",
       "type": "Place",
       "title": "Rovno",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
-      "type": "Place",
-      "title": "Łuków",
       "relation": "Appears in same passage"
     }
   ],

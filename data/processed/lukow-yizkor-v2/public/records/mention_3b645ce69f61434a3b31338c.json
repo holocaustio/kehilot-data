@@ -1,0 +1,102 @@
+{
+  "id": "mention_3b645ce69f61434a3b31338c",
+  "type": "Organization",
+  "title": "Jewish fighters",
+  "summary": "Fighters who attacked German forces and hid afterward.",
+  "originalName": "יידישע קעמפער",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 395,
+  "printedPage": "391",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish fighters",
+  "uncertaintyNote": "A collective description, not necessarily a formal organization.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bee0e6f98232b1615ae09155",
+      "pageId": "page_nybc301551_0395",
+      "scanIndex": 395,
+      "leafNumber": 394,
+      "printedPage": "391",
+      "passageCharStart": 187,
+      "passageCharEnd": 212,
+      "normalizedPassageCharStart": 187,
+      "normalizedPassageCharEnd": 212,
+      "pageCharStart": 187,
+      "pageCharEnd": 212,
+      "quote": "צװישן ד י יידיש ע קעמפע ר",
+      "normalizedQuote": "צװישן ד י יידיש ע קעמפע ר",
+      "modelQuote": "צװישן די יידישע קעמפער",
+      "bbox": {
+        "left": 2061,
+        "top": 1070,
+        "right": 2823,
+        "bottom": 1130
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n394/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "4395c57b1c802728422785f5e6a8441247a693a145393fea6c092cb0e1dc90ac",
+      "normalizedPassageChecksum": "5d97d99433c28dc3ecf172cd0bcdde950de1c81cbdf97d544bf4c7fc9c6d778b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_14c4bfa3ec19ed9593080790",
+      "type": "Aktion Or Raid",
+      "title": "Attack on German forces near Radzyn",
+      "summary": "Jewish fighters attacked a German group traveling from Lazi toward Radzyn.",
+      "dateStart": "1942-06-08",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9f0a669b509192605962055b",
+        "pageId": "page_nybc301551_0394",
+        "scanIndex": 394,
+        "leafNumber": 393,
+        "printedPage": "390",
+        "passageCharStart": 138,
+        "passageCharEnd": 211,
+        "normalizedPassageCharStart": 138,
+        "normalizedPassageCharEnd": 211,
+        "pageCharStart": 1534,
+        "pageCharEnd": 1607,
+        "quote": "אונדזע ר אנפירע ר הא ט\nאויםגעארבעט דע ם פלא ן פו ן אנפא ל אוי ף ד י דײטשן",
+        "normalizedQuote": "אונדזע ר אנפירע ר הא ט\nאויםגעארבעט דע ם פלא ן פו ן אנפא ל אוי ף ד י דײטשן",
+        "modelQuote": "אונדזער אנפירער האט אויםגעארבעט דעם פלאן פון אנפאל אויף די דײטשן",
+        "bbox": {
+          "left": 454,
+          "top": 3036,
+          "right": 2770,
+          "bottom": 3242
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n393/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "17acd3bc39a04e3dc87cd8f85894a00d1c457bda49c347f0e0bb5ed0db890390",
+        "normalizedPassageChecksum": "534f1418fb99070959c74eede50b520bb5cc871fa2a06f39cd6b7d5fa0bf1bd6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_14c4bfa3ec19ed9593080790",
+      "type": "Event",
+      "title": "Attack on German forces near Radzyn",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_07196e7ddb7f0746622bc86b",
+      "type": "Place",
+      "title": "Cornfield",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

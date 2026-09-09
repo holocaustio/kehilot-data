@@ -1,0 +1,117 @@
+{
+  "id": "mention_80fa25196eff400288c07ca1",
+  "type": "Community",
+  "title": "Warsaw Jewish Community",
+  "summary": "The large Jewish community in Warsaw where Yona Noy died.",
+  "originalName": "גרויסער יידישער קהילה װארשע",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 226,
+  "printedPage": "222",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish community",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_641ae5bb5e2dd50f0829e81f",
+      "pageId": "page_nybc301551_0226",
+      "scanIndex": 226,
+      "leafNumber": 225,
+      "printedPage": "222",
+      "passageCharStart": 1273,
+      "passageCharEnd": 1312,
+      "normalizedPassageCharStart": 1273,
+      "normalizedPassageCharEnd": 1312,
+      "pageCharStart": 2503,
+      "pageCharEnd": 2542,
+      "quote": "אין דע ר גרויסע ר יידישע ר קהיל ה װארשע",
+      "normalizedQuote": "אין דע ר גרויסע ר יידישע ר קהיל ה װארשע",
+      "modelQuote": "אין דער גרויסער יידישער קהילה װארשע",
+      "bbox": {
+        "left": 1884,
+        "top": 4308,
+        "right": 3088,
+        "bottom": 4386
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n225/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "fb678cd85b7cbb4d016e626cb6517677909a192402757ac2ee7ba90328f81c46",
+      "normalizedPassageChecksum": "cdcd872386133e73ba3f2ae604e16442a50427abc49d273fb2ba220213945b41",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f05b2ad7f228605a64c1567e",
+      "type": "Death",
+      "title": "Death of Yona Noy",
+      "summary": "Yona Noy died during the destruction of European Jewry in Warsaw.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_641ae5bb5e2dd50f0829e81f",
+        "pageId": "page_nybc301551_0226",
+        "scanIndex": 226,
+        "leafNumber": 225,
+        "printedPage": "222",
+        "passageCharStart": 1184,
+        "passageCharEnd": 1206,
+        "normalizedPassageCharStart": 1184,
+        "normalizedPassageCharEnd": 1206,
+        "pageCharStart": 2414,
+        "pageCharEnd": 2436,
+        "quote": "ר׳ ױנ ה נו י קומ ט אום",
+        "normalizedQuote": "ר׳ ױנ ה נו י קומ ט אום",
+        "modelQuote": "ר׳ ױנה נוי קומט אום",
+        "bbox": {
+          "left": 2370,
+          "top": 4212,
+          "right": 2970,
+          "bottom": 4276
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n225/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "fb678cd85b7cbb4d016e626cb6517677909a192402757ac2ee7ba90328f81c46",
+        "normalizedPassageChecksum": "cdcd872386133e73ba3f2ae604e16442a50427abc49d273fb2ba220213945b41",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f05b2ad7f228605a64c1567e",
+      "type": "Event",
+      "title": "Death of Yona Noy",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_bb0ca3e8afe802c3536de3b8",
+      "type": "Organization",
+      "title": "Agudah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fff202d4bf8cd194c3b82664",
+      "type": "Institution",
+      "title": "Agudah House",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_831e09eceb47c0ff7543a371",
+      "type": "Place",
+      "title": "Cienzkawizne",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3172401faf90e49f631315be",
+      "type": "Organization",
+      "title": "Zeirei Agudah",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

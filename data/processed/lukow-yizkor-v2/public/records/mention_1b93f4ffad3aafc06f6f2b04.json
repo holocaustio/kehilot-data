@@ -2,15 +2,15 @@
   "id": "mention_1b93f4ffad3aafc06f6f2b04",
   "type": "Person",
   "title": "Israel-Yitzhak",
-  "summary": "A deceased grandfather described as an honest Jewish baker.",
+  "summary": "A deceased baker whose grave is identified by Berl.",
   "originalName": "ר׳ ישראל־יצחק",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 303,
   "printedPage": "299",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "OCR makes the kinship wording unclear.",
+  "uncertaintyNote": "OCR is unclear around the phrase preceding the name.",
   "evidenceRefs": [
     {
       "passageId": "passage_df3e3f9cd16823b712a24066",
@@ -20,12 +20,12 @@
       "printedPage": "299",
       "passageCharStart": 120,
       "passageCharEnd": 171,
-      "normalizedPassageCharStart": 104,
-      "normalizedPassageCharEnd": 146,
+      "normalizedPassageCharStart": 120,
+      "normalizedPassageCharEnd": 171,
       "pageCharStart": 120,
       "pageCharEnd": 171,
       "quote": "דא ם אי ז דע ר קב ר פו ן די ץ דיד ן ר ׳ ישראל־יצח ק",
-      "normalizedQuote": "דאם איז דער קבר פון דיץ דידן ר׳ ישראל־יצחק",
+      "normalizedQuote": "דא ם אי ז דע ר קב ר פו ן די ץ דיד ן ר ׳ ישראל־יצח ק",
       "modelQuote": "דאם איז דער קבר פון דיץ דידן ר׳ ישראל־יצחק",
       "bbox": {
         "left": 1482,
@@ -38,15 +38,58 @@
       "passageChecksum": "fdc8106aec089156677e7d631325e311be1058b5ec1ee98e6b6d407282a53590",
       "normalizedPassageChecksum": "574654a2d2a5ee2cdd2136b318be9a339f031dd7e88a1cc5df9c87a903de32da",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_322028410073f09bafc376ab",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Berl",
+      "objectTitle": "Israel-Yitzhak",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_df3e3f9cd16823b712a24066",
+        "pageId": "page_nybc301551_0303",
+        "scanIndex": 303,
+        "leafNumber": 302,
+        "printedPage": "299",
+        "passageCharStart": 56,
+        "passageCharEnd": 85,
+        "normalizedPassageCharStart": 56,
+        "normalizedPassageCharEnd": 85,
+        "pageCharStart": 56,
+        "pageCharEnd": 85,
+        "quote": "ר ׳ בער ל הא ט זי ך אפגעשטעלט",
+        "normalizedQuote": "ר ׳ בער ל הא ט זי ך אפגעשטעלט",
+        "modelQuote": "ר׳ בערל האט זיך אפגעשטעלט",
+        "bbox": {
+          "left": 1078,
+          "top": 853,
+          "right": 2038,
+          "bottom": 929
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n302/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "fdc8106aec089156677e7d631325e311be1058b5ec1ee98e6b6d407282a53590",
+        "normalizedPassageChecksum": "574654a2d2a5ee2cdd2136b318be9a339f031dd7e88a1cc5df9c87a903de32da",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_673c707dfd15c97c32c2cea2",
+      "id": "mention_0870724e52d28eee826639e5",
+      "type": "Person",
+      "title": "Berl",
+      "relation": "Mentioned In"
+    },
+    {
+      "id": "mention_0870724e52d28eee826639e5",
       "type": "Person",
       "title": "Berl",
       "relation": "Appears in same passage"
@@ -58,21 +101,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_632ea5955a6fa62750fa2a83",
-      "type": "Place",
-      "title": "The city",
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ad4f90d4c4c5c600f34cbdf8",
+      "id": "mention_b70a8c0919237bbe6d4d6a65",
       "type": "Institution",
-      "title": "Beth Din",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_2cb7e2926b278b647778e7ea",
-      "type": "Institution",
-      "title": "Beth Midrash",
+      "title": "Study house",
       "relation": "Appears in same passage"
     }
   ],

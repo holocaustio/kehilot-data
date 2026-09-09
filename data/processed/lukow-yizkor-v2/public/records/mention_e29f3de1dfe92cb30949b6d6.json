@@ -2,10 +2,10 @@
   "id": "mention_e29f3de1dfe92cb30949b6d6",
   "type": "Place",
   "title": "Dnieper River",
-  "summary": "River location near which the narrator was wounded.",
+  "summary": "River beside which the narrator was wounded.",
   "originalName": "דניעפער",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 189,
   "printedPage": "185",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "185",
       "passageCharStart": 361,
       "passageCharEnd": 373,
-      "normalizedPassageCharStart": 312,
-      "normalizedPassageCharEnd": 323,
+      "normalizedPassageCharStart": 361,
+      "normalizedPassageCharEnd": 373,
       "pageCharStart": 361,
       "pageCharEnd": 373,
       "quote": "בײ ם\nדניעפער",
-      "normalizedQuote": "בײם דניעפער",
+      "normalizedQuote": "בײ ם\nדניעפער",
       "modelQuote": "בײם דניעפער",
       "bbox": {
         "left": 473,
@@ -38,7 +38,7 @@
       "passageChecksum": "a370dcd90e640cf0d330329ab94db14b8322a5ddcc3a947d451fea36e31bbe2b",
       "normalizedPassageChecksum": "1fc8130d9d91fb903b1de5e122a6d08effd7cb72043788bca16e80e06fbcb08f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,15 +46,27 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_44a372c26f1123474701775d",
+      "id": "mention_82f3131a8858b99b63537b72",
       "type": "Place",
-      "title": "Kolenkovitse",
+      "title": "Kalinkavichy",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b7e1d65aec86b04fd0dd554d",
+      "id": "mention_a42a31fcd355d32541a52644",
+      "type": "Community",
+      "title": "Jews",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_94a8bf4527e34250d8e19a03",
       "type": "Place",
-      "title": "Yablone",
+      "title": "Camp near Yablone",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f8728b0b0b3e4a3cafc252ce",
+      "type": "Place",
+      "title": "Kiev",
       "relation": "Appears in same passage"
     },
     {

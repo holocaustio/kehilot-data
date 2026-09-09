@@ -2,15 +2,14 @@
   "id": "mention_a8f23e63ff294e5288ce97bd",
   "type": "Person",
   "title": "Huberman",
-  "summary": "A companion who remained and was searched by soldiers.",
+  "summary": "A companion who remained with the narrator during the search.",
   "originalName": "הובערמאן",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 121,
   "printedPage": "117",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "A full given name appears later, but the passage does not explicitly prove both references are the same person.",
   "evidenceRefs": [
     {
       "passageId": "passage_f2bed6c33ecb92a74214a669",
@@ -20,12 +19,12 @@
       "printedPage": "117",
       "passageCharStart": 50,
       "passageCharEnd": 83,
-      "normalizedPassageCharStart": 45,
-      "normalizedPassageCharEnd": 74,
+      "normalizedPassageCharStart": 50,
+      "normalizedPassageCharEnd": 83,
       "pageCharStart": 50,
       "pageCharEnd": 83,
       "quote": "דע ר חב ר הובערמא ן אי ז פארבליבן",
-      "normalizedQuote": "דער חבר הובערמאן איז פארבליבן",
+      "normalizedQuote": "דע ר חב ר הובערמא ן אי ז פארבליבן",
       "modelQuote": "דער חבר הובערמאן איז פארבליבן",
       "bbox": {
         "left": 1013,
@@ -38,13 +37,58 @@
       "passageChecksum": "beae72a4758c0e177b304804e4ecfde13addf14d958e850dab49700cd3ab8485",
       "normalizedPassageChecksum": "c20e2fb2b412192aa3d903150cee8e4c9dbc08ec5b486176d5e9ff322eec4d3c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_fa9adfcdabb1271c28581046",
+      "type": "Arrest",
+      "title": "Search by the town commandant",
+      "summary": "The town commandant and ten soldiers entered and searched the residence.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage describes a search, but the event type is limited to the closest permitted category.",
+      "evidence": {
+        "passageId": "passage_f2bed6c33ecb92a74214a669",
+        "pageId": "page_nybc301551_0121",
+        "scanIndex": 121,
+        "leafNumber": 120,
+        "printedPage": "117",
+        "passageCharStart": 249,
+        "passageCharEnd": 345,
+        "normalizedPassageCharStart": 249,
+        "normalizedPassageCharEnd": 345,
+        "pageCharStart": 249,
+        "pageCharEnd": 345,
+        "quote": "ע ס קומע ן ארײ ן דע ר שטאט ־\nקאמענדאנט לאפוטסק י מי ט 10 םאלדאט ן או ן הײב ן א ן מאכ ן א רעװיזיע",
+        "normalizedQuote": "ע ס קומע ן ארײ ן דע ר שטאט ־\nקאמענדאנט לאפוטסק י מי ט 10 םאלדאט ן או ן הײב ן א ן מאכ ן א רעװיזיע",
+        "modelQuote": "עס קומען ארײן דער שטאט־ קאמענדאנט לאפוטסקי מיט10 םאלדאטן און הײבן אן מאכןא רעװיזיע",
+        "bbox": {
+          "left": 475,
+          "top": 1194,
+          "right": 2833,
+          "bottom": 1362
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n120/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "beae72a4758c0e177b304804e4ecfde13addf14d958e850dab49700cd3ab8485",
+        "normalizedPassageChecksum": "c20e2fb2b412192aa3d903150cee8e4c9dbc08ec5b486176d5e9ff322eec4d3c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_fa9adfcdabb1271c28581046",
+      "type": "Event",
+      "title": "Search by the town commandant",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_899387a7567e38b771dcf979",
       "type": "Person",
@@ -52,7 +96,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_aa2984dc1461c0672e58fcba",
+      "id": "mention_70822b2a37e600c56db91179",
       "type": "Person",
       "title": "Moshe Huberman",
       "relation": "Appears in same passage"

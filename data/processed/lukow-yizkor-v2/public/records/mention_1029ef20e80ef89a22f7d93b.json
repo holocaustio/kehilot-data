@@ -1,0 +1,174 @@
+{
+  "id": "mention_1029ef20e80ef89a22f7d93b",
+  "type": "Business",
+  "title": "Family factory",
+  "summary": "Factory operated by the owner’s children after his death and later went bankrupt.",
+  "originalName": "פאבריק",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 193,
+  "printedPage": "189",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "factory",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a106a31c51e03230e58e234c",
+      "pageId": "page_nybc301551_0193",
+      "scanIndex": 193,
+      "leafNumber": 192,
+      "printedPage": "189",
+      "passageCharStart": 617,
+      "passageCharEnd": 643,
+      "normalizedPassageCharStart": 617,
+      "normalizedPassageCharEnd": 643,
+      "pageCharStart": 1932,
+      "pageCharEnd": 1958,
+      "quote": "די פאברי ק הא ט באנקראטירט",
+      "normalizedQuote": "די פאברי ק הא ט באנקראטירט",
+      "modelQuote": "די פאבריק האט באנקראטירט",
+      "bbox": {
+        "left": 2068,
+        "top": 3384,
+        "right": 2940,
+        "bottom": 3452
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n192/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "441a158dab30111bbe683685128ee098aab2eb0145e3ee95c8f5d4348b1d3b70",
+      "normalizedPassageChecksum": "e6f9bf6bbba14b63028edf92b721232a231e095641ec9b230f5f9f28c50d0dd2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_697773cac4ad084425170bd5",
+      "predicate": "Worked At",
+      "subjectTitle": "Judah",
+      "objectTitle": "Family factory",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a106a31c51e03230e58e234c",
+        "pageId": "page_nybc301551_0193",
+        "scanIndex": 193,
+        "leafNumber": 192,
+        "printedPage": "189",
+        "passageCharStart": 265,
+        "passageCharEnd": 301,
+        "normalizedPassageCharStart": 265,
+        "normalizedPassageCharEnd": 301,
+        "pageCharStart": 1580,
+        "pageCharEnd": 1616,
+        "quote": "דע ר אדמיניםטראצי ע פו ן דע ר פאבריק",
+        "normalizedQuote": "דע ר אדמיניםטראצי ע פו ן דע ר פאבריק",
+        "modelQuote": "דער אדמיניםטראציע פון דער פאבריק",
+        "bbox": {
+          "left": 1756,
+          "top": 2856,
+          "right": 3056,
+          "bottom": 2924
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n192/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "441a158dab30111bbe683685128ee098aab2eb0145e3ee95c8f5d4348b1d3b70",
+        "normalizedPassageChecksum": "e6f9bf6bbba14b63028edf92b721232a231e095641ec9b230f5f9f28c50d0dd2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_5c7181124fb6c0095340d325",
+      "type": "Business Opening",
+      "title": "Factory bankruptcy",
+      "summary": "The family factory became bankrupt after the children operated it.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include bankruptcy; this event is retained only as the closest business-related category.",
+      "evidence": {
+        "passageId": "passage_a106a31c51e03230e58e234c",
+        "pageId": "page_nybc301551_0193",
+        "scanIndex": 193,
+        "leafNumber": 192,
+        "printedPage": "189",
+        "passageCharStart": 617,
+        "passageCharEnd": 643,
+        "normalizedPassageCharStart": 617,
+        "normalizedPassageCharEnd": 643,
+        "pageCharStart": 1932,
+        "pageCharEnd": 1958,
+        "quote": "די פאברי ק הא ט באנקראטירט",
+        "normalizedQuote": "די פאברי ק הא ט באנקראטירט",
+        "modelQuote": "די פאבריק האט באנקראטירט",
+        "bbox": {
+          "left": 2068,
+          "top": 3384,
+          "right": 2940,
+          "bottom": 3452
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n192/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "441a158dab30111bbe683685128ee098aab2eb0145e3ee95c8f5d4348b1d3b70",
+        "normalizedPassageChecksum": "e6f9bf6bbba14b63028edf92b721232a231e095641ec9b230f5f9f28c50d0dd2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_cf10d167dfe4dc75f8ad6728",
+      "type": "Person",
+      "title": "Judah",
+      "relation": "Worked At"
+    },
+    {
+      "id": "event_candidate_5c7181124fb6c0095340d325",
+      "type": "Event",
+      "title": "Factory bankruptcy",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_a8b49f889afec6c15c9a70d1",
+      "type": "Person",
+      "title": "Berl",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cf10d167dfe4dc75f8ad6728",
+      "type": "Person",
+      "title": "Judah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8d33d8efd65d22d83b7d5b7b",
+      "type": "Person",
+      "title": "Joseph",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e474a2eb6ce857cf932d3297",
+      "type": "Person",
+      "title": "Levi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_816c301a9595dd5f56c18fe0",
+      "type": "Person",
+      "title": "Benjamin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3f0f808b6eeed7dada9c9e73",
+      "type": "Family",
+      "title": "Gastman family",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

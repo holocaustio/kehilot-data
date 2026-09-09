@@ -2,15 +2,15 @@
   "id": "mention_929d0a54e844f831e14690b2",
   "type": "Person",
   "title": "Reuben",
-  "summary": "The narrator’s brother, reported absent and presumed dead by Elke.",
+  "summary": "The narrator’s brother, who was considered dead after not arriving.",
   "originalName": "ראובן",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 420,
   "printedPage": "416",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The OCR is noisy; the kinship wording is partially corrupted.",
+  "uncertaintyNote": "The surrounding OCR is unclear.",
   "evidenceRefs": [
     {
       "passageId": "passage_d8791f5cd41965412f077673",
@@ -20,12 +20,12 @@
       "printedPage": "416",
       "passageCharStart": 441,
       "passageCharEnd": 460,
-      "normalizedPassageCharStart": 378,
-      "normalizedPassageCharEnd": 394,
+      "normalizedPassageCharStart": 441,
+      "normalizedPassageCharEnd": 460,
       "pageCharStart": 2495,
       "pageCharEnd": 2514,
       "quote": "מי מ ברודע ר ראוב ן",
-      "normalizedQuote": "מימ ברודער ראובן",
+      "normalizedQuote": "מי מ ברודע ר ראוב ן",
       "modelQuote": "מימ ברודער ראובן",
       "bbox": {
         "left": 1157,
@@ -38,7 +38,7 @@
       "passageChecksum": "8a0c9fde920a40b837744d5d9dfffc740c12b296dc1030022b9f161eb4c3bded",
       "normalizedPassageChecksum": "67647c60704abe37d664fd7de5a4a965280795b2ad43f871ea83bacbc1815d82",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,13 +46,13 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_2b773f2a9860bcbd6cb76250",
+      "id": "mention_839d6006e3a9a95aee63122f",
       "type": "Person",
-      "title": "Elke Montschachs",
+      "title": "Elke Mantshachs",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e303197d641dd484652d4b1f",
+      "id": "mention_5104bfe8e1ddeaa66164e1dc",
       "type": "Place",
       "title": "Mezritch ghetto",
       "relation": "Appears in same passage"

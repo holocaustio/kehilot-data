@@ -2,16 +2,15 @@
   "id": "mention_ca32ed4404e8c4c3e91e0c10",
   "type": "Person",
   "title": "Abraham Goldstein",
-  "summary": "Hannah Goldstein's husband is named among the remembered victims.",
+  "summary": "Named as Hannah Goldstein’s husband among remembered victims.",
   "originalName": "אברהם",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 644,
   "printedPage": "640",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "husband",
-  "uncertaintyNote": "The surname is not explicitly attached to Abraham in the text.",
+  "uncertaintyNote": "Surname is supplied by association with Hannah, not stated separately.",
   "evidenceRefs": [
     {
       "passageId": "passage_e40baa07854d1256aa1c9fba",
@@ -21,12 +20,12 @@
       "printedPage": "640",
       "passageCharStart": 252,
       "passageCharEnd": 274,
-      "normalizedPassageCharStart": 222,
-      "normalizedPassageCharEnd": 240,
+      "normalizedPassageCharStart": 252,
+      "normalizedPassageCharEnd": 274,
       "pageCharStart": 252,
       "pageCharEnd": 274,
       "quote": "מי ט אי ר מא ן אברהם ׳",
-      "normalizedQuote": "מיט איר מאן אברהם׳",
+      "normalizedQuote": "מי ט אי ר מא ן אברהם ׳",
       "modelQuote": "מיט איר מאן אברהם׳",
       "bbox": {
         "left": 812,
@@ -39,13 +38,13 @@
       "passageChecksum": "78de142e84121eceb0490ee309506bb52df7f6d34f4546d33f7d86adf92cb6d0",
       "normalizedPassageChecksum": "d5acf1d263cf8ec991d451b4b804461ccbc4df6b84eaeee25641b002af3251d4",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_0e47b5dd142e548327e72188",
+      "id": "claim_candidate_d1d8c8a7bcce850a947076d5",
       "predicate": "Spouse Of",
       "subjectTitle": "Hannah Goldstein",
       "objectTitle": "Abraham Goldstein",
@@ -58,12 +57,12 @@
         "printedPage": "640",
         "passageCharStart": 237,
         "passageCharEnd": 274,
-        "normalizedPassageCharStart": 209,
-        "normalizedPassageCharEnd": 240,
+        "normalizedPassageCharStart": 237,
+        "normalizedPassageCharEnd": 274,
         "pageCharStart": 237,
         "pageCharEnd": 274,
         "quote": "חנ ה גאלדשטײ ן מי ט אי ר מא ן אברהם ׳",
-        "normalizedQuote": "חנה גאלדשטײן מיט איר מאן אברהם׳",
+        "normalizedQuote": "חנ ה גאלדשטײ ן מי ט אי ר מא ן אברהם ׳",
         "modelQuote": "חנה גאלדשטײן מיט איר מאן אברהם׳",
         "bbox": {
           "left": 812,
@@ -76,7 +75,7 @@
         "passageChecksum": "78de142e84121eceb0490ee309506bb52df7f6d34f4546d33f7d86adf92cb6d0",
         "normalizedPassageChecksum": "d5acf1d263cf8ec991d451b4b804461ccbc4df6b84eaeee25641b002af3251d4",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -90,39 +89,39 @@
       "relation": "Spouse Of"
     },
     {
-      "id": "mention_ba875f24ddbe923a260569dd",
-      "type": "Family",
-      "title": "Frengler family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4696b74be9be988d0cccbc50",
-      "type": "Family",
-      "title": "Wife's family",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_ed7c2c0f407a757b76282abd",
       "type": "Person",
       "title": "David Isaiah Frengler",
       "relation": "Appears in same passage"
     },
     {
+      "id": "mention_f566ab4272691ed1406e569b",
+      "type": "Family",
+      "title": "Bracha’s two children",
+      "relation": "Appears in same passage"
+    },
+    {
       "id": "mention_fb82d69350daaf73fe653544",
       "type": "Person",
-      "title": "Nate Frengler",
+      "title": "Nate",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_644f0e6c6bf6738d7e75ccfa",
+      "type": "Family",
+      "title": "Nate’s family",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_2d64cebd9df06e007a612f8c",
       "type": "Person",
-      "title": "Abraham Frengler",
+      "title": "Abraham",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_da3fe4c2abc6ee5c47880394",
-      "type": "Person",
-      "title": "Trishele Frengler",
+      "id": "mention_6763a6ffe005f3600a4f36a4",
+      "type": "Family",
+      "title": "Abraham and Trishele’s family",
       "relation": "Appears in same passage"
     },
     {
@@ -132,15 +131,27 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_23bf7a314fd884ffb7496c61",
+      "id": "mention_b38cf49cd4764d9cac8cd8a9",
       "type": "Person",
-      "title": "Izik Frengler",
+      "title": "Isaac Frengler",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_664c266a53e0173bf3a1b338",
+      "id": "mention_ba875f24ddbe923a260569dd",
+      "type": "Family",
+      "title": "Frengler family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8acf096e462979617b85f7b7",
       "type": "Person",
-      "title": "Shlomo Frengler",
+      "title": "Solomon Frengler",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5613f7bc7011cbe3a5756161",
+      "type": "Family",
+      "title": "Solomon Frengler’s family",
       "relation": "Appears in same passage"
     }
   ],

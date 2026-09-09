@@ -2,10 +2,10 @@
   "id": "mention_fdb48c11c50ef23b4830a261",
   "type": "Person",
   "title": "Leybish Barn",
-  "summary": "A Jewish person encountered after leaving the ghetto.",
+  "summary": "A person encountered after escaping the ghetto.",
   "originalName": "לײביש בארן",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 323,
   "printedPage": "319",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "319",
       "passageCharStart": 617,
       "passageCharEnd": 628,
-      "normalizedPassageCharStart": 531,
-      "normalizedPassageCharEnd": 541,
+      "normalizedPassageCharStart": 617,
+      "normalizedPassageCharEnd": 628,
       "pageCharStart": 617,
       "pageCharEnd": 628,
       "quote": "לײבי ש בארן",
-      "normalizedQuote": "לײביש בארן",
+      "normalizedQuote": "לײבי ש בארן",
       "modelQuote": "לײביש בארן",
       "bbox": {
         "left": 1174,
@@ -37,7 +37,7 @@
       "passageChecksum": "7362558f24319961dac210d56f3cd8a576bf1600b92f6b0a126413803c761d91",
       "normalizedPassageChecksum": "5f953a473bea3c369da9cc360b8baa78ea5b44dc06f5a9ca52fbf4ad00b1b2da",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -46,19 +46,19 @@
       "scanIndex": 450,
       "leafNumber": 449,
       "printedPage": "446",
-      "passageCharStart": 1200,
+      "passageCharStart": 1211,
       "passageCharEnd": 1223,
-      "normalizedPassageCharStart": 1020,
-      "normalizedPassageCharEnd": 1039,
-      "pageCharStart": 2243,
+      "normalizedPassageCharStart": 1211,
+      "normalizedPassageCharEnd": 1223,
+      "pageCharStart": 2254,
       "pageCharEnd": 2266,
-      "quote": "צװיש ן ז ײ לײבי ש באר ן",
-      "normalizedQuote": "צװישן זײ לײביש בארן",
-      "modelQuote": "צװישן זײ לײביש בארן",
+      "quote": "לײבי ש באר ן",
+      "normalizedQuote": "לײבי ש באר ן",
+      "modelQuote": "לײביש בארן",
       "bbox": {
         "left": 1184,
         "top": 4012,
-        "right": 2040,
+        "right": 1748,
         "bottom": 4090
       },
       "scanUrl": "https://archive.org/details/nybc301551/page/n449/mode/1up",
@@ -66,47 +66,78 @@
       "passageChecksum": "ec3af3ae7a634482dad0b8b1e19e809f13df4af32280a6b06b78d3f37257c3cd",
       "normalizedPassageChecksum": "25d92ff58a92a75acbb2b80012d57459e2bbf6b09a7576c7578160e51815d502",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_d33d6d1ac774e32ce0328169",
+      "predicate": "Mentioned In",
+      "subjectTitle": "Leibish Barn",
+      "objectTitle": "Group of sixteen people",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_87c5f2d8499a0f2a530271c3",
+        "pageId": "page_nybc301551_0450",
+        "scanIndex": 450,
+        "leafNumber": 449,
+        "printedPage": "446",
+        "passageCharStart": 1200,
+        "passageCharEnd": 1223,
+        "normalizedPassageCharStart": 1200,
+        "normalizedPassageCharEnd": 1223,
+        "pageCharStart": 2243,
+        "pageCharEnd": 2266,
+        "quote": "צװיש ן ז ײ לײבי ש באר ן",
+        "normalizedQuote": "צװיש ן ז ײ לײבי ש באר ן",
+        "modelQuote": "צװישן זײ לײביש בארן",
+        "bbox": {
+          "left": 1184,
+          "top": 4012,
+          "right": 2040,
+          "bottom": 4090
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n449/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "ec3af3ae7a634482dad0b8b1e19e809f13df4af32280a6b06b78d3f37257c3cd",
+        "normalizedPassageChecksum": "25d92ff58a92a75acbb2b80012d57459e2bbf6b09a7576c7578160e51815d502",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_6a6b0bf8f853539b50213c1b",
-      "type": "Place",
-      "title": "Treblinka",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5044f3b820afe4ebc494fa72",
+      "id": "mention_117a0f29d43a93ff3897ac2f",
       "type": "Person",
       "title": "Mordechai Rabak",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0f3e1f7b99f5238804dcdb5a",
+      "id": "mention_4587cd86ffbcc75a4b16e65e",
       "type": "Person",
       "title": "Leibl Goldwasser",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a0ba22afe62c1f396d9f05b2",
+      "id": "mention_24f04bf1f97294cc0f5d5482",
       "type": "Person",
       "title": "Gadl Rabak",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_cfec06dd57653a3d72033648",
+      "id": "mention_2ed171316960db00188d81b6",
       "type": "Person",
-      "title": "Isaiah Beckerman",
+      "title": "Isaiah Bekerman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_22b66825bb76d2d0c5cb8e16",
+      "id": "mention_335cd98dbfc577f83e4e79a1",
       "type": "Person",
-      "title": "Hirsch Hasner",
+      "title": "Hirsh Hasner",
       "relation": "Appears in same passage"
     },
     {
@@ -116,51 +147,57 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_60ef447dada51ceb726055de",
+      "id": "mention_f337798e1206c0d0a48a77d3",
       "type": "Person",
       "title": "Limer Vishnie",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_344219c4b0684f6822dba0ea",
+      "id": "mention_e0b70a637417eedd58e63370",
       "type": "Person",
-      "title": "Itshe Meir Farber",
+      "title": "Itsche Meir Farber",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bfad7b30821055dcab0b93f8",
+      "id": "mention_29f5e862dbad114937b15a58",
       "type": "Person",
-      "title": "Schigelski",
+      "title": "Shtshigelski",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_120b6dbc583e4eccc9576a00",
+      "id": "mention_d0cc1f39b4d42e016c7b5345",
       "type": "Place",
-      "title": "Forest bunker",
+      "title": "Treblinka",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_cb138a7c841b1c2335bf2468",
+      "id": "mention_30347ef16b4fb0ee6bf0a396",
       "type": "Place",
-      "title": "Cornfield",
+      "title": "Slaughterhouse",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2d9f59f572c1ded0999a5dde",
+      "id": "mention_1e828eb5a489a5fb2b1f5273",
+      "type": "Place",
+      "title": "Fields and forests",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_85e5bb815d24a0d1f7569b15",
+      "type": "Community",
+      "title": "Group of sixteen people",
+      "relation": "Mentioned In"
+    },
+    {
+      "id": "mention_d67da1b529ef7d17daa91252",
       "type": "Person",
-      "title": "Daniel, Watenmacher's son",
+      "title": "Daniel Wattenmacher's son",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7230df793c50a2fa3fbbd81e",
-      "type": "Organization",
-      "title": "Polish police",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_1c718b51d57b2cdd309a07ab",
-      "type": "Person",
-      "title": "Unnamed farmer",
+      "id": "mention_ccfecfb01f8436fb7bf199eb",
+      "type": "Place",
+      "title": "Bunker",
       "relation": "Appears in same passage"
     }
   ],

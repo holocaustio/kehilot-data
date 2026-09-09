@@ -1,0 +1,112 @@
+{
+  "id": "mention_ad2564b80bd9b01e2924ab6f",
+  "type": "Place",
+  "title": "Lakhi area",
+  "summary": "The massacre occurred in the Lakhi area.",
+  "originalName": "לחי",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 331,
+  "printedPage": "327",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "area",
+  "uncertaintyNote": "The place name may be OCR-distorted.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cb5a1772196a77c94618b082",
+      "pageId": "page_nybc301551_0331",
+      "scanIndex": 331,
+      "leafNumber": 330,
+      "printedPage": "327",
+      "passageCharStart": 436,
+      "passageCharEnd": 457,
+      "normalizedPassageCharStart": 436,
+      "normalizedPassageCharEnd": 457,
+      "pageCharStart": 1457,
+      "pageCharEnd": 1478,
+      "quote": "הרצ ח הי ה באזו ר לחי",
+      "normalizedQuote": "הרצ ח הי ה באזו ר לחי",
+      "modelQuote": "הרצח היה באזור לחי",
+      "bbox": {
+        "left": 2134,
+        "top": 2861,
+        "right": 2850,
+        "bottom": 2927
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n330/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "b62688308adfe8fa3514e86194cba077ce0b2f60867be3c76de17319f4a03910",
+      "normalizedPassageChecksum": "cac2b70895f94f5c092b1721094468302d1c17bd10738783f20a05068d83a8b2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_95fc67d0a60b1fec7187dd41",
+      "type": "Murder",
+      "title": "Jews killed near the Lakhi area",
+      "summary": "Jews were killed during a fight with Germans after a householder's son summoned the Gestapo.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cb5a1772196a77c94618b082",
+        "pageId": "page_nybc301551_0331",
+        "scanIndex": 331,
+        "leafNumber": 330,
+        "printedPage": "327",
+        "passageCharStart": 277,
+        "passageCharEnd": 332,
+        "normalizedPassageCharStart": 277,
+        "normalizedPassageCharEnd": 332,
+        "pageCharStart": 1298,
+        "pageCharEnd": 1353,
+        "quote": "אחר י מלחמ ה קש ה ע ם הגרמני ם נפל ו כ ל היהודי ם במקום",
+        "normalizedQuote": "אחר י מלחמ ה קש ה ע ם הגרמני ם נפל ו כ ל היהודי ם במקום",
+        "modelQuote": "אחרי מלחמה קשה עם הגרמנים נפלו כל היהודים במקום",
+        "bbox": {
+          "left": 490,
+          "top": 2645,
+          "right": 2402,
+          "bottom": 2727
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n330/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b62688308adfe8fa3514e86194cba077ce0b2f60867be3c76de17319f4a03910",
+        "normalizedPassageChecksum": "cac2b70895f94f5c092b1721094468302d1c17bd10738783f20a05068d83a8b2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_95fc67d0a60b1fec7187dd41",
+      "type": "Event",
+      "title": "Jews killed near the Lakhi area",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9e518e27a2978d80277fa84b",
+      "type": "Person",
+      "title": "Yosef Liezer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_532c0c893fce93bdfb407148",
+      "type": "Person",
+      "title": "M. Kornshtein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fa3a8939e5a906c54bfa501",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

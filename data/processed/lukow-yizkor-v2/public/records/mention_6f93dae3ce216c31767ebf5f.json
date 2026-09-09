@@ -1,0 +1,118 @@
+{
+  "id": "mention_6f93dae3ce216c31767ebf5f",
+  "type": "Place",
+  "title": "Zaporvienie Forest",
+  "summary": "Site of a May Day gathering attended by approximately sixty people.",
+  "originalName": "זאפאװיעניקער װאלד",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 110,
+  "printedPage": "106",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "forest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_db608cd6a217a70d89f7c005",
+      "pageId": "page_nybc301551_0110",
+      "scanIndex": 110,
+      "leafNumber": 109,
+      "printedPage": "106",
+      "passageCharStart": 143,
+      "passageCharEnd": 166,
+      "normalizedPassageCharStart": 143,
+      "normalizedPassageCharEnd": 166,
+      "pageCharStart": 143,
+      "pageCharEnd": 166,
+      "quote": "אי ן זאפאװיעניקע ר װאלד",
+      "normalizedQuote": "אי ן זאפאװיעניקע ר װאלד",
+      "modelQuote": "אין זאפאװיעניקער װאלד",
+      "bbox": {
+        "left": 1054,
+        "top": 956,
+        "right": 1894,
+        "bottom": 1030
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n109/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "4f29549710713bc7c8392fcf54eb00e1634b14771b910c8010412401000d8135",
+      "normalizedPassageChecksum": "a36662e01df9b49b60d33a84ac37736eb1b6cbe6cef1560f55c2ec77e2526613",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f34d17f8d148955ba2403236",
+      "type": "Meeting Or Gathering",
+      "title": "May Day gathering in Zaporvienie Forest",
+      "summary": "Approximately sixty people gathered for a May Day meeting in Zaporvienie Forest; Mordechai Perkal helped prepare it, and Szalko Abramovitch and Gershon Zibert spoke.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event type is approximated because the schema has no meeting or rally event type; speaker roles are not encoded by the available role enum.",
+      "evidence": {
+        "passageId": "passage_db608cd6a217a70d89f7c005",
+        "pageId": "page_nybc301551_0110",
+        "scanIndex": 110,
+        "leafNumber": 109,
+        "printedPage": "106",
+        "passageCharStart": 118,
+        "passageCharEnd": 216,
+        "normalizedPassageCharStart": 118,
+        "normalizedPassageCharEnd": 216,
+        "pageCharStart": 118,
+        "pageCharEnd": 216,
+        "quote": "ד י 1ט ע מאי־פארזאמלונ ג אי ן זאפאװיעניקע ר װאלד ׳ ו װ ע ם האב ן זי ך\nצונויפגעקליבן ב ײ ס 6 פערזאן",
+        "normalizedQuote": "ד י 1ט ע מאי־פארזאמלונ ג אי ן זאפאװיעניקע ר װאלד ׳ ו װ ע ם האב ן זי ך\nצונויפגעקליבן ב ײ ס 6 פערזאן",
+        "modelQuote": "די 1טע מאי־פארזאמלונג אין זאפאװיעניקער װאלד׳ וװ עם האבן זיך צונויפגעקליבן בײ ס6 פערזאן",
+        "bbox": {
+          "left": 462,
+          "top": 954,
+          "right": 2746,
+          "bottom": 1136
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n109/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "4f29549710713bc7c8392fcf54eb00e1634b14771b910c8010412401000d8135",
+        "normalizedPassageChecksum": "a36662e01df9b49b60d33a84ac37736eb1b6cbe6cef1560f55c2ec77e2526613",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f34d17f8d148955ba2403236",
+      "type": "Event",
+      "title": "May Day gathering in Zaporvienie Forest",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_b8509e98629d74e936628c30",
+      "type": "Person",
+      "title": "Mordechai Perkal",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_912ebfbdffd5c0ebd0a55700",
+      "type": "Person",
+      "title": "Szalko Abramovitch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eac628c3b5dd22c69cd62d77",
+      "type": "Place",
+      "title": "Siedlce",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_54d434b7a00cf56a14c6e0d5",
+      "type": "Person",
+      "title": "Gershon Zibert",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

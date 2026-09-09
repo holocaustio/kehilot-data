@@ -2,10 +2,10 @@
   "id": "mention_7313f23aec6c6a35f89ebadb",
   "type": "Institution",
   "title": "People's Library",
-  "summary": "Library where friends listened to radio news.",
+  "summary": "Library where friends listened to radio reports during the war.",
   "originalName": "פאלקס־ביבליאטעק",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 346,
   "printedPage": "342",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "342",
       "passageCharStart": 152,
       "passageCharEnd": 178,
-      "normalizedPassageCharStart": 133,
-      "normalizedPassageCharEnd": 156,
+      "normalizedPassageCharStart": 152,
+      "normalizedPassageCharEnd": 178,
       "pageCharStart": 152,
       "pageCharEnd": 178,
       "quote": "אי ן דע ר פאלקס־ביבליאטע ק",
-      "normalizedQuote": "אין דער פאלקס־ביבליאטעק",
+      "normalizedQuote": "אי ן דע ר פאלקס־ביבליאטע ק",
       "modelQuote": "אין דער פאלקס־ביבליאטעק",
       "bbox": {
         "left": 1123,
@@ -38,7 +38,7 @@
       "passageChecksum": "38c39aff24bcaf9a78dd4d2fb015971201e918e1db9175a69e573fae25648d72",
       "normalizedPassageChecksum": "22067abdc56896f9e896ad3e1f55f19f3be3c920b171a102f20c988e1bc78fdb",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -46,15 +46,21 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_ea7e0556e4663f452840fb02",
+      "id": "mention_c65632f40a11791b870f5f2a",
       "type": "Person",
       "title": "Shlomo Rubinshteyn",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_75185d6b46a0736ca4b94d1c",
-      "type": "Publication",
-      "title": "Warsaw Folk Newspaper",
+      "id": "mention_46b62a8dd374732efc841dbc",
+      "type": "Work",
+      "title": "My Mother's Tears",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
+      "type": "Place",
+      "title": "Warsaw",
       "relation": "Appears in same passage"
     },
     {
@@ -64,9 +70,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2f246244246bfd6da3c691b3",
+      "id": "mention_2840071373b1ea8040c01d25",
       "type": "Person",
-      "title": "Dr. Klimeczka",
+      "title": "Dr. Klimecka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6f54192286f20d77dc1e74b4",
+      "type": "Publication",
+      "title": "Warsaw Folkzeitung",
       "relation": "Appears in same passage"
     }
   ],

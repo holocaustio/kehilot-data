@@ -1,0 +1,131 @@
+{
+  "id": "mention_5e584d7b297c71447f3c9dce",
+  "type": "Place",
+  "title": "Fani Cinema",
+  "summary": "Cinema located near the Kominski House.",
+  "originalName": "״פאני״",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 195,
+  "printedPage": "191",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cinema",
+  "uncertaintyNote": "OCR may distort the surrounding wording.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_47c058ebcdb474ae664be91b",
+      "pageId": "page_nybc301551_0195",
+      "scanIndex": 195,
+      "leafNumber": 194,
+      "printedPage": "191",
+      "passageCharStart": 103,
+      "passageCharEnd": 115,
+      "normalizedPassageCharStart": 103,
+      "normalizedPassageCharEnd": 115,
+      "pageCharStart": 103,
+      "pageCharEnd": 115,
+      "quote": "קינ א ״פאני״",
+      "normalizedQuote": "קינ א ״פאני״",
+      "modelQuote": "קינא ״פאני״",
+      "bbox": {
+        "left": 2521,
+        "top": 965,
+        "right": 2995,
+        "bottom": 1031
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n194/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "61b61e851840e94fb069a86695476d70935014167750d76763cda2fd04a04e25",
+      "normalizedPassageChecksum": "496ba98bc10670bb2f9747d0bf66e0d68bd0ae77572acf16acda418bfec055de",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_b032dbcc87eb7e97f57ba5d9",
+      "predicate": "Near",
+      "subjectTitle": "Kominski House",
+      "objectTitle": "Fani Cinema",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR contains an unclear word before the cinema name.",
+      "evidence": {
+        "passageId": "passage_47c058ebcdb474ae664be91b",
+        "pageId": "page_nybc301551_0195",
+        "scanIndex": 195,
+        "leafNumber": 194,
+        "printedPage": "191",
+        "passageCharStart": 97,
+        "passageCharEnd": 116,
+        "normalizedPassageCharStart": 97,
+        "normalizedPassageCharEnd": 116,
+        "pageCharStart": 97,
+        "pageCharEnd": 116,
+        "quote": "(לעבן קינ א ״פאני״)",
+        "normalizedQuote": "(לעבן קינ א ״פאני״)",
+        "modelQuote": "(לעבן קינא ״פאני״)",
+        "bbox": {
+          "left": 2521,
+          "top": 965,
+          "right": 2995,
+          "bottom": 1031
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n194/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "61b61e851840e94fb069a86695476d70935014167750d76763cda2fd04a04e25",
+        "normalizedPassageChecksum": "496ba98bc10670bb2f9747d0bf66e0d68bd0ae77572acf16acda418bfec055de",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_a80b7fd84720ce1603f662d0",
+      "type": "Place",
+      "title": "Kominski House",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_53dca3ecb7a53f99f06c1ce7",
+      "type": "Person",
+      "title": "Chaim Meir Heiblum",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a80b7fd84720ce1603f662d0",
+      "type": "Place",
+      "title": "Kominski House",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_80e76260c698cfd0932106df",
+      "type": "Institution",
+      "title": "Jewish Public Library",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ffc97755921bebca406f43a1",
+      "type": "Place",
+      "title": "Animal Market",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_79a9e232d8e8a78a2804a61f",
+      "type": "Place",
+      "title": "Navashelmski House",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

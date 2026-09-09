@@ -2,10 +2,10 @@
   "id": "mention_bf5701ed03ec7eb09041a54b",
   "type": "Place",
   "title": "Minsk Mazowiecki",
-  "summary": "A place where Judenrat leader Moshe Kramazh addressed deportees.",
+  "summary": "A nearby town where a Judenrat leader addressed people before deportation.",
   "originalName": "מינסק־ מאזאװיעצק",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 441,
   "printedPage": "437",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "437",
       "passageCharStart": 738,
       "passageCharEnd": 760,
-      "normalizedPassageCharStart": 630,
-      "normalizedPassageCharEnd": 650,
+      "normalizedPassageCharStart": 738,
+      "normalizedPassageCharEnd": 760,
       "pageCharStart": 738,
       "pageCharEnd": 760,
       "quote": "אי ן מינסק ־\nמאזאװיעצק",
-      "normalizedQuote": "אין מינסק־ מאזאװיעצק",
+      "normalizedQuote": "אי ן מינסק ־\nמאזאװיעצק",
       "modelQuote": "אין מינסק־ מאזאװיעצק",
       "bbox": {
         "left": 458,
@@ -38,7 +38,7 @@
       "passageChecksum": "65c290697767159538168d8443542c27d590720c21ebaacbedb9f66b765d9a42",
       "normalizedPassageChecksum": "dd6eecb9723706fd5f2fe00fe2d16ad4a1aaf16064e92be143c5986c6029946c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     },
     {
@@ -47,19 +47,19 @@
       "scanIndex": 516,
       "leafNumber": 515,
       "printedPage": "512",
-      "passageCharStart": 18,
+      "passageCharStart": 51,
       "passageCharEnd": 71,
-      "normalizedPassageCharStart": 17,
-      "normalizedPassageCharEnd": 65,
-      "pageCharStart": 18,
+      "normalizedPassageCharStart": 51,
+      "normalizedPassageCharEnd": 71,
+      "pageCharStart": 51,
       "pageCharEnd": 71,
-      "quote": "אין אװנ ט זענע ן מי ר אנגעקומע ן קײ ן מינםק־מאזאמיעצק",
-      "normalizedQuote": "אין אװנט זענען מיר אנגעקומען קײן מינםק־מאזאמיעצק",
-      "modelQuote": "אין אװנט זענען מיר אנגעקומען קײן מינםק־מאזאמיעצק",
+      "quote": "קײ ן מינםק־מאזאמיעצק",
+      "normalizedQuote": "קײ ן מינםק־מאזאמיעצק",
+      "modelQuote": "קײן מינםק־מאזאמיעצק",
       "bbox": {
         "left": 1291,
-        "top": 856,
-        "right": 2931,
+        "top": 858,
+        "right": 2045,
         "bottom": 924
       },
       "scanUrl": "https://archive.org/details/nybc301551/page/n515/mode/1up",
@@ -67,95 +67,114 @@
       "passageChecksum": "f34d5aed267c1c4a5eb3604aae557cee0f388127e4b7baa295eae4392e163260",
       "normalizedPassageChecksum": "6d9edafb04392bc73324638dd2a4e1c115611b08169678fc853971ab58703aa6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_6550b41d87b3b21dad847f2f",
+      "type": "Aktion Or Raid",
+      "title": "German aerial attacks on refugees",
+      "summary": "German aircraft fired on civilian refugees along the road near Minsk Mazowiecki and Kalushyn.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_394c2dcbe7c5787529be79cc",
+        "pageId": "page_nybc301551_0516",
+        "scanIndex": 516,
+        "leafNumber": 515,
+        "printedPage": "512",
+        "passageCharStart": 274,
+        "passageCharEnd": 373,
+        "normalizedPassageCharStart": 274,
+        "normalizedPassageCharEnd": 373,
+        "pageCharStart": 274,
+        "pageCharEnd": 373,
+        "quote": "די דײטש ע אעראפלאנע ן זענע ן געפלויג ן נידערי ק איבע ר ד י װעג ז א ץ געשאם ן אי ן ד י\nצױוילע פליטים",
+        "normalizedQuote": "די דײטש ע אעראפלאנע ן זענע ן געפלויג ן נידערי ק איבע ר ד י װעג ז א ץ געשאם ן אי ן ד י\nצױוילע פליטים",
+        "modelQuote": "די דײטשע אעראפלאנען זענען געפלויגן נידעריק איבער די װעגז אץ געשאםן אין די צױוילע פליטים",
+        "bbox": {
+          "left": 461,
+          "top": 1154,
+          "right": 3103,
+          "bottom": 1336
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n515/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "f34d5aed267c1c4a5eb3604aae557cee0f388127e4b7baa295eae4392e163260",
+        "normalizedPassageChecksum": "6d9edafb04392bc73324638dd2a4e1c115611b08169678fc853971ab58703aa6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_4ff50d81dcd6217b3cbbe30e",
+      "id": "mention_4f54af01b02102b49cc3c512",
       "type": "Person",
-      "title": "Rabbi Aaron Nata Freiberg",
+      "title": "Rabbi Aharon Neta Freiberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_92b1f8e8a5654046ad771c43",
+      "id": "mention_d9b7e2b5d579d332546db8a9",
       "type": "Person",
       "title": "Rabbi Pesach Rozen",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_976375e67be3bfc9337308b2",
+      "id": "mention_b1650539bc80d619d9a4ca62",
       "type": "Person",
-      "title": "Gershom Plug",
+      "title": "Gershon Flug",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_005f6121266dbf8a51af54c2",
-      "type": "Person",
-      "title": "Leibter Walinsky",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7ff68222f949fa2594441ca7",
-      "type": "Community",
-      "title": "Nashelsk",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_27181319ba8896fef22e3a06",
-      "type": "Community",
-      "title": "Sieradz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0311e9f03d1b51f5fe14e2bf",
-      "type": "Community",
-      "title": "Suwalki",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_51a824b941d72082c0db496e",
-      "type": "Community",
-      "title": "Radzyn",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_9ec21d88c48537e10ed5c88b",
-      "type": "Community",
-      "title": "Slovakia",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_1d98289e8830e940cf4bf3d8",
+      "id": "mention_ae5788ba73a139771f8990fb",
       "type": "Person",
       "title": "Moshe Kramazh",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_69af95bccbf1c401bf3dfdd6",
+      "id": "mention_f2eac7b9a2e3a86982ac98e4",
+      "type": "Institution",
+      "title": "Łuków synagogues and prayer houses",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "event_candidate_6550b41d87b3b21dad847f2f",
+      "type": "Event",
+      "title": "German aerial attacks on refugees",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_0092e880b72543e46c368010",
       "type": "Place",
-      "title": "Kalushin",
+      "title": "Kalushyn",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e215c18c552976aca8c0338f",
-      "type": "Place",
-      "title": "Cemetery in Kalushin",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_eefaac961818ed528ea68f4d",
-      "type": "Community",
-      "title": "Lukow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7a515fbb99b26141aff285e6",
+      "id": "mention_7d84cb3ae4a8f708717e7ef4",
       "type": "Place",
       "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_70c441b43b5a70c659e1d416",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1151ea17f53179ec4318b467",
+      "type": "Place",
+      "title": "Kalushyn cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f3b0f9c5f7236ec3532f514f",
+      "type": "Organization",
+      "title": "German aircraft",
       "relation": "Appears in same passage"
     }
   ],

@@ -2,16 +2,15 @@
   "id": "mention_c94d1b2aacb19f64a3b069ce",
   "type": "Person",
   "title": "Yushchinsky",
-  "summary": "A murdered person whose body was found near the brickworks kilns.",
+  "summary": "Murdered person whose body was found in a nearby cave.",
   "originalName": "יושצ׳ינםקי",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 298,
   "printedPage": "294",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "victim",
-  "uncertaintyNote": "The surname and grammatical form are uncertain in OCR.",
+  "subtype": "murder victim",
   "evidenceRefs": [
     {
       "passageId": "passage_d87b363f43b5f8ae2f2d3179",
@@ -21,12 +20,12 @@
       "printedPage": "294",
       "passageCharStart": 881,
       "passageCharEnd": 903,
-      "normalizedPassageCharStart": 771,
-      "normalizedPassageCharEnd": 792,
+      "normalizedPassageCharStart": 881,
+      "normalizedPassageCharEnd": 903,
       "pageCharStart": 2001,
       "pageCharEnd": 2023,
       "quote": "גװי ת\nיושצ׳ינםקי המומת",
-      "normalizedQuote": "גװית יושצ׳ינםקי המומת",
+      "normalizedQuote": "גװי ת\nיושצ׳ינםקי המומת",
       "modelQuote": "גװית יושצ׳ינםקי המומת",
       "bbox": {
         "left": 469,
@@ -39,20 +38,19 @@
       "passageChecksum": "5df8bff1e55a091e0973bd5b215a73a2f782345ee05e86070a2c107baec1f886",
       "normalizedPassageChecksum": "c423b1643a685d36fa4a214dfe4deaf70016950234272583341544742f1b0f4e",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_d08f3eff61760129c7112e36",
-      "predicate": "Body Found At",
+      "id": "claim_candidate_bfbfe04e7529f23e7dffe41c",
+      "predicate": "Murdered At",
       "subjectTitle": "Yushchinsky",
-      "objectTitle": "The cave adjacent to Zaitsev's brickworks kilns",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The text states that the body was found there, but does not explicitly describe the killing location.",
+      "objectTitle": "Brick kilns of Zeytsiv",
+      "confidence": "HIGH",
       "qualifiers": {
-        "body_found_nearby": true
+        "discovery_site": "nearby cave"
       },
       "evidence": {
         "passageId": "passage_d87b363f43b5f8ae2f2d3179",
@@ -62,12 +60,12 @@
         "printedPage": "294",
         "passageCharStart": 828,
         "passageCharEnd": 903,
-        "normalizedPassageCharStart": 725,
-        "normalizedPassageCharEnd": 792,
+        "normalizedPassageCharStart": 828,
+        "normalizedPassageCharEnd": 903,
         "pageCharStart": 1948,
         "pageCharEnd": 2023,
         "quote": "במער ה הסמוכ ה למשרפות־הלבני ם ש ל זײצב , ב ה נמצא ה גװי ת\nיושצ׳ינםקי המומת",
-        "normalizedQuote": "במערה הסמוכה למשרפות־הלבנים של זײצב, בה נמצאה גװית יושצ׳ינםקי המומת",
+        "normalizedQuote": "במער ה הסמוכ ה למשרפות־הלבני ם ש ל זײצב , ב ה נמצא ה גװי ת\nיושצ׳ינםקי המומת",
         "modelQuote": "במערה הסמוכה למשרפות־הלבנים של זײצב, בה נמצאה גװית יושצ׳ינםקי המומת",
         "bbox": {
           "left": 469,
@@ -80,17 +78,79 @@
         "passageChecksum": "5df8bff1e55a091e0973bd5b215a73a2f782345ee05e86070a2c107baec1f886",
         "normalizedPassageChecksum": "c423b1643a685d36fa4a214dfe4deaf70016950234272583341544742f1b0f4e",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_8c723433ef915cb9acc6dee6",
+      "type": "Murder",
+      "title": "Murder of Yushchinsky",
+      "summary": "Yushchinsky was murdered; the body was found in a cave near Zeytsiv’s brick kilns.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_d87b363f43b5f8ae2f2d3179",
+        "pageId": "page_nybc301551_0298",
+        "scanIndex": 298,
+        "leafNumber": 297,
+        "printedPage": "294",
+        "passageCharStart": 881,
+        "passageCharEnd": 903,
+        "normalizedPassageCharStart": 881,
+        "normalizedPassageCharEnd": 903,
+        "pageCharStart": 2001,
+        "pageCharEnd": 2023,
+        "quote": "גװי ת\nיושצ׳ינםקי המומת",
+        "normalizedQuote": "גװי ת\nיושצ׳ינםקי המומת",
+        "modelQuote": "גװית יושצ׳ינםקי המומת",
+        "bbox": {
+          "left": 469,
+          "top": 3815,
+          "right": 2859,
+          "bottom": 3977
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n297/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "5df8bff1e55a091e0973bd5b215a73a2f782345ee05e86070a2c107baec1f886",
+        "normalizedPassageChecksum": "c423b1643a685d36fa4a214dfe4deaf70016950234272583341544742f1b0f4e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_fa21d3ff4f9cc20f291e6c8d",
+      "id": "mention_c01376f26b6e48ff4150aaee",
+      "type": "Place",
+      "title": "Brick kilns of Zeytsiv",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "event_candidate_8c723433ef915cb9acc6dee6",
+      "type": "Event",
+      "title": "Murder of Yushchinsky",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_3e5a9194bbe97c1ccf0b2a31",
+      "type": "Institution",
+      "title": "Old study house",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_da005a14bae7fa963cedd5bf",
       "type": "Institution",
       "title": "Synagogues",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c01376f26b6e48ff4150aaee",
+      "type": "Place",
+      "title": "Brick kilns of Zeytsiv",
       "relation": "Appears in same passage"
     }
   ],

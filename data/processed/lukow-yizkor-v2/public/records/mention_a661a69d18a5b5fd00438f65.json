@@ -2,10 +2,10 @@
   "id": "mention_a661a69d18a5b5fd00438f65",
   "type": "Person",
   "title": "Yitzhak Rozenblum",
-  "summary": "Man who came to consult about what to do.",
+  "summary": "Came to consult about what to do during the attack.",
   "originalName": "יצחק רוזנבלום",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 483,
   "printedPage": "479",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -19,12 +19,12 @@
       "printedPage": "479",
       "passageCharStart": 489,
       "passageCharEnd": 503,
-      "normalizedPassageCharStart": 424,
-      "normalizedPassageCharEnd": 437,
+      "normalizedPassageCharStart": 489,
+      "normalizedPassageCharEnd": 503,
       "pageCharStart": 1848,
       "pageCharEnd": 1862,
       "quote": "יצח ק רוזנבלום",
-      "normalizedQuote": "יצחק רוזנבלום",
+      "normalizedQuote": "יצח ק רוזנבלום",
       "modelQuote": "יצחק רוזנבלום",
       "bbox": {
         "left": 1786,
@@ -37,47 +37,103 @@
       "passageChecksum": "7fde72a6c933ad4d240490a47c377d583fc51821aaa63c197ab373138e794722",
       "normalizedPassageChecksum": "80c49ae898ebdc2acc59792c427def965337ee9bdf70cc162051b6d8a81d9993",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c1c5fb29f7af536b2562064c",
+      "predicate": "Sibling Of",
+      "subjectTitle": "Yitzhak Rozenblum",
+      "objectTitle": "Shmuel Rozenblum",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The wording indicates a sibling relationship, but the exact sibling direction is not explicit.",
+      "evidence": {
+        "passageId": "passage_36f1e6cdc037d381de975556",
+        "pageId": "page_nybc301551_0483",
+        "scanIndex": 483,
+        "leafNumber": 482,
+        "printedPage": "479",
+        "passageCharStart": 472,
+        "passageCharEnd": 503,
+        "normalizedPassageCharStart": 472,
+        "normalizedPassageCharEnd": 503,
+        "pageCharStart": 1831,
+        "pageCharEnd": 1862,
+        "quote": "אח ױ ש ל שמואל ׳ יצח ק רוזנבלום",
+        "normalizedQuote": "אח ױ ש ל שמואל ׳ יצח ק רוזנבלום",
+        "modelQuote": "אחױ של שמואל׳ יצחק רוזנבלום",
+        "bbox": {
+          "left": 1786,
+          "top": 3275,
+          "right": 2860,
+          "bottom": 3353
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n482/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "7fde72a6c933ad4d240490a47c377d583fc51821aaa63c197ab373138e794722",
+        "normalizedPassageChecksum": "80c49ae898ebdc2acc59792c427def965337ee9bdf70cc162051b6d8a81d9993",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_0a76f33d8e030038d7d75fc2",
+      "id": "mention_74aa6f3d3edaaed681dc4e81",
       "type": "Person",
-      "title": "Motel Tabakman",
+      "title": "Shmuel Rozenblum",
+      "relation": "Sibling Of"
+    },
+    {
+      "id": "mention_73847cbf046ef849059e2c85",
+      "type": "Person",
+      "title": "Yaakov Dagerman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8fbb3b6df63273bc62369a0f",
+      "id": "mention_319c0c59e4c13dbd0f10a028",
+      "type": "Person",
+      "title": "Motel Tabkman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aa8cf9ed52d55e2bcc1cf4ff",
       "type": "Family",
       "title": "Rozenblum family",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_91c379b82c8c35bb83a3f881",
-      "type": "Person",
-      "title": "Leybush Baron",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_afa768ffdff52f2406dfb047",
-      "type": "Person",
-      "title": "Bronkowicz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_c8bf814bf85febdc50904533",
-      "type": "Organization",
-      "title": "Polish partisans",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b7b2c9233a3993e0b498c5e5",
+      "id": "mention_ccfecfb01f8436fb7bf199eb",
       "type": "Place",
       "title": "Bunker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_968f7bdd58aac6aad26eb786",
+      "type": "Person",
+      "title": "Bronkovitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_74aa6f3d3edaaed681dc4e81",
+      "type": "Person",
+      "title": "Shmuel Rozenblum",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6add9598e632ba85521520dc",
+      "type": "Person",
+      "title": "Leibush Baron",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f20fe3395399e64628875e20",
+      "type": "Person",
+      "title": "Polish partisans",
       "relation": "Appears in same passage"
     }
   ],

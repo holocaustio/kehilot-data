@@ -1,11 +1,11 @@
 {
   "id": "mention_a8bbf23cd5d471cf25ec9f18",
   "type": "Organization",
-  "title": "Pithiviers aid committee",
-  "summary": "Committee established to assist needy camp members.",
+  "title": "Pithiviers Aid Committee",
+  "summary": "Committee established to help needy camp inmates.",
   "originalName": "ועד־עזרה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 530,
   "printedPage": "526",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "526",
       "passageCharStart": 305,
       "passageCharEnd": 319,
-      "normalizedPassageCharStart": 268,
-      "normalizedPassageCharEnd": 281,
+      "normalizedPassageCharStart": 305,
+      "normalizedPassageCharEnd": 319,
       "pageCharStart": 305,
       "pageCharEnd": 319,
       "quote": "הוקם ועד־עזר ה",
-      "normalizedQuote": "הוקם ועד־עזרה",
+      "normalizedQuote": "הוקם ועד־עזר ה",
       "modelQuote": "הוקם ועד־עזרה",
       "bbox": {
         "left": 2354,
@@ -38,18 +38,17 @@
       "passageChecksum": "ace44225421d731af8d1c90a3ebaf290f9f9a1e30117cca22c8544211d50d567",
       "normalizedPassageChecksum": "4676e41c90edfb8a5c0fe495aa9f56b29221b45dbe8427fddb2632d42ae1f3b0",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_7bb964318ef25ff8aaaf0fbe",
+      "id": "claim_candidate_f578e3296013ed1e8b539b7a",
       "predicate": "Located In",
-      "subjectTitle": "Pithiviers aid committee",
+      "subjectTitle": "Pithiviers Aid Committee",
       "objectTitle": "Pithiviers camp",
-      "confidence": "MEDIUM",
-      "uncertaintyNote": "The OCR is corrupted, but the committee is described in the Pithiviers camp.",
+      "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_b5e5ae778f818cf2143820f0",
         "pageId": "page_nybc301551_0530",
@@ -57,26 +56,26 @@
         "leafNumber": 529,
         "printedPage": "526",
         "passageCharStart": 270,
-        "passageCharEnd": 301,
-        "normalizedPassageCharStart": 238,
-        "normalizedPassageCharEnd": 265,
+        "passageCharEnd": 319,
+        "normalizedPassageCharStart": 270,
+        "normalizedPassageCharEnd": 319,
         "pageCharStart": 270,
-        "pageCharEnd": 301,
-        "quote": "במחנ ה פטיביה ׳ מקו ם המצא י אז",
-        "normalizedQuote": "במחנה פטיביה׳ מקום המצאי אז",
-        "modelQuote": "במחנה פטיביה׳ מקום המצאי אז",
+        "pageCharEnd": 319,
+        "quote": "במחנ ה פטיביה ׳ מקו ם המצא י אז ,\n\nהוקם ועד־עזר ה",
+        "normalizedQuote": "במחנ ה פטיביה ׳ מקו ם המצא י אז ,\n\nהוקם ועד־עזר ה",
+        "modelQuote": "במחנה פטיביה׳ מקום המצאי אז,\n\nהוקם ועד־עזרה",
         "bbox": {
-          "left": 472,
+          "left": 452,
           "top": 2067,
-          "right": 1606,
-          "bottom": 2129
+          "right": 3036,
+          "bottom": 2237
         },
         "scanUrl": "https://archive.org/details/nybc301551/page/n529/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
         "passageChecksum": "ace44225421d731af8d1c90a3ebaf290f9f9a1e30117cca22c8544211d50d567",
         "normalizedPassageChecksum": "4676e41c90edfb8a5c0fe495aa9f56b29221b45dbe8427fddb2632d42ae1f3b0",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
@@ -84,7 +83,7 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_3fdfe377e142a075cd7c6ba2",
+      "id": "mention_0cfe0893136c82646b30cf2c",
       "type": "Place",
       "title": "Pithiviers camp",
       "relation": "Located In"
@@ -96,69 +95,45 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_32b30d7e8b922d56a9139816",
+      "id": "mention_8beab1ae7f7f37a9680893a4",
+      "type": "Place",
+      "title": "Beaune-la-Rolande",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_477e107cef90415e2957eeb3",
       "type": "Work",
       "title": "Song of the Valley",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9be736bf9c8a3e73185c3621",
-      "type": "Place",
-      "title": "France",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3fdfe377e142a075cd7c6ba2",
-      "type": "Place",
-      "title": "Pithiviers camp",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_2ea6cdbebbcf64941bad05eb",
-      "type": "Place",
-      "title": "Bonne-la-Rolande camp",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_922c6665ff0f7b3b2a7f000c",
+      "id": "mention_726f1e871edfc941525aeee8",
       "type": "Organization",
-      "title": "Cultural committee",
+      "title": "Pithiviers Cultural Committee",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5e5552bde05c2c50693c778a",
+      "id": "mention_0f5b8e32a4e8a2a135aa47ec",
+      "type": "Institution",
+      "title": "Pithiviers camp canteen",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6ac83a6f521aaed33dd6c1fc",
       "type": "Organization",
-      "title": "Gardening department",
+      "title": "Jewish doctors' group",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d56bcfff1d2dc04dd0e098c7",
-      "type": "Organization",
-      "title": "Group of Jewish doctors",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_bb16f0fb5e7ae042f21f9e3e",
+      "id": "mention_c7b7d67f35a81b7744d4cd96",
       "type": "Work",
       "title": "At Night in the Old Market",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8118001d86c746ec53102f01",
-      "type": "Person",
-      "title": "Peretz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_050ee2f51724670e801883fb",
+      "id": "mention_ca7eaec0be850382eb0af475",
       "type": "Work",
-      "title": "Tuvia the Milkman",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_ea4084d983e21e98e48e2e95",
-      "type": "Person",
-      "title": "Sholem Aleichem",
+      "title": "Tevye the Milkman",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_a58f995e6412b34697bd24b6",
+  "type": "Event",
+  "title": "Murder of the Keslbrener family",
+  "summary": "The AK discovered and killed the Keslbrener family while it was hidden.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 323,
+  "printedPage": "319",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The text attributes the killing to the AK in the immediately preceding sentence.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c0c85f64378edb55511b2005",
+      "pageId": "page_nybc301551_0323",
+      "scanIndex": 323,
+      "leafNumber": 322,
+      "printedPage": "319",
+      "passageCharStart": 120,
+      "passageCharEnd": 149,
+      "normalizedPassageCharStart": 120,
+      "normalizedPassageCharEnd": 149,
+      "pageCharStart": 2618,
+      "pageCharEnd": 2647,
+      "quote": "ד י גאנצ ע משפח ה אויםגעהרגעט",
+      "normalizedQuote": "ד י גאנצ ע משפח ה אויםגעהרגעט",
+      "modelQuote": "די גאנצע משפחה אויםגעהרגעט",
+      "bbox": {
+        "left": 722,
+        "top": 4447,
+        "right": 1760,
+        "bottom": 4511
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n322/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "a678a7b00fe9d531f1ae7d0ffb65bce9db575540187ac7a8459085dcf50eceeb",
+      "normalizedPassageChecksum": "6818605e1098ada2da55890c9aff5fb4bf7af656a244109de86dd3286eba26f5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_8009c029081801f5ddafc3ed",
+      "type": "Family",
+      "title": "Keslbrener family",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_99070f33e607c3ca15183cf4",
+      "type": "Organization",
+      "title": "Armia Krajowa",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

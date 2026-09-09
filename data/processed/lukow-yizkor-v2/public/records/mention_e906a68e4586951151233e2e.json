@@ -1,0 +1,106 @@
+{
+  "id": "mention_e906a68e4586951151233e2e",
+  "type": "Place",
+  "title": "Shed",
+  "summary": "A shed where Zalman lodged overnight with his group.",
+  "originalName": "שײער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 239,
+  "printedPage": "235",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "shed",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2d88fc0fbe64ed623c3d9b51",
+      "pageId": "page_nybc301551_0239",
+      "scanIndex": 239,
+      "leafNumber": 238,
+      "printedPage": "235",
+      "passageCharStart": 258,
+      "passageCharEnd": 300,
+      "normalizedPassageCharStart": 258,
+      "normalizedPassageCharEnd": 300,
+      "pageCharStart": 977,
+      "pageCharEnd": 1019,
+      "quote": "אװעק נעכטיק ן מי ט זײ ן קאפעלי ע אי ן שײער",
+      "normalizedQuote": "אװעק נעכטיק ן מי ט זײ ן קאפעלי ע אי ן שײער",
+      "modelQuote": "אװעק נעכטיקן מיט זײן קאפעליע אין שײער",
+      "bbox": {
+        "left": 1734,
+        "top": 2115,
+        "right": 3006,
+        "bottom": 2197
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n238/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "90808d3a2db5ca35252bd7b20ac0b9bec39efedae2c0156395b50951868e43a6",
+      "normalizedPassageChecksum": "ea431405469f710f63a7f5d68ca08716c947cc7f5775f21afb86a2dddaf20bd6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_cc173999a56b6d96a08af492",
+      "type": "Employment",
+      "title": "Zalman completes a sewing job",
+      "summary": "Zalman completed work and returned home with several guilders.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The exact occupation and work setting are described narratively rather than as a formal employment event.",
+      "evidence": {
+        "passageId": "passage_2d88fc0fbe64ed623c3d9b51",
+        "pageId": "page_nybc301551_0239",
+        "scanIndex": 239,
+        "leafNumber": 238,
+        "printedPage": "235",
+        "passageCharStart": 1195,
+        "passageCharEnd": 1251,
+        "normalizedPassageCharStart": 1195,
+        "normalizedPassageCharEnd": 1251,
+        "pageCharStart": 1914,
+        "pageCharEnd": 1970,
+        "quote": "ר ׳ זלמ ן אי ז אהײמגעפאר ן מי ט א פא ר\nגילדן אי ן קעשענע",
+        "normalizedQuote": "ר ׳ זלמ ן אי ז אהײמגעפאר ן מי ט א פא ר\nגילדן אי ן קעשענע",
+        "modelQuote": "ר׳ זלמן איז אהײמגעפארן מיטא פאר גילדן אין קעשענע",
+        "bbox": {
+          "left": 476,
+          "top": 3269,
+          "right": 3000,
+          "bottom": 3461
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n238/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "90808d3a2db5ca35252bd7b20ac0b9bec39efedae2c0156395b50951868e43a6",
+        "normalizedPassageChecksum": "ea431405469f710f63a7f5d68ca08716c947cc7f5775f21afb86a2dddaf20bd6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_cc173999a56b6d96a08af492",
+      "type": "Event",
+      "title": "Zalman completes a sewing job",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4948375bf3deaaae72993706",
+      "type": "Person",
+      "title": "Rabbi Zalman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_333acc82fc648a972e540c51",
+      "type": "Community",
+      "title": "Poor yeshiva students",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

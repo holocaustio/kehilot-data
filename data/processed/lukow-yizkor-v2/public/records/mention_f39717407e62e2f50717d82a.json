@@ -2,15 +2,14 @@
   "id": "mention_f39717407e62e2f50717d82a",
   "type": "Person",
   "title": "Levi",
-  "summary": "A teacher at the Lukow yeshiva.",
+  "summary": "A teacher at the Łuków Yeshiva.",
   "originalName": "ר׳ לוי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 229,
   "printedPage": "225",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "Only a given name is supplied.",
   "evidenceRefs": [
     {
       "passageId": "passage_2fbc7f6f0f6a6e2380049c63",
@@ -20,12 +19,12 @@
       "printedPage": "225",
       "passageCharStart": 555,
       "passageCharEnd": 562,
-      "normalizedPassageCharStart": 476,
-      "normalizedPassageCharEnd": 482,
+      "normalizedPassageCharStart": 555,
+      "normalizedPassageCharEnd": 562,
       "pageCharStart": 555,
       "pageCharEnd": 562,
       "quote": "ר ׳ לוי",
-      "normalizedQuote": "ר׳ לוי",
+      "normalizedQuote": "ר ׳ לוי",
       "modelQuote": "ר׳ לוי",
       "bbox": {
         "left": 829,
@@ -38,45 +37,88 @@
       "passageChecksum": "418f632b92825cf2bb52739cb39141b715b3930e7ba303c425ce8604d97d36e2",
       "normalizedPassageChecksum": "f27b291579c44f010da0fc163e260f8b361e64ebf09aaa1bfb375b832bd6585c",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c3ed2d8e4b1321aaeb0810fc",
+      "predicate": "Taught At",
+      "subjectTitle": "Levi",
+      "objectTitle": "Łuków Yeshiva",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2fbc7f6f0f6a6e2380049c63",
+        "pageId": "page_nybc301551_0229",
+        "scanIndex": 229,
+        "leafNumber": 228,
+        "printedPage": "225",
+        "passageCharStart": 555,
+        "passageCharEnd": 562,
+        "normalizedPassageCharStart": 555,
+        "normalizedPassageCharEnd": 562,
+        "pageCharStart": 555,
+        "pageCharEnd": 562,
+        "quote": "ר ׳ לוי",
+        "normalizedQuote": "ר ׳ לוי",
+        "modelQuote": "ר׳ לוי",
+        "bbox": {
+          "left": 829,
+          "top": 1614,
+          "right": 1067,
+          "bottom": 1686
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n228/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "418f632b92825cf2bb52739cb39141b715b3930e7ba303c425ce8604d97d36e2",
+        "normalizedPassageChecksum": "f27b291579c44f010da0fc163e260f8b361e64ebf09aaa1bfb375b832bd6585c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_db0357343352b3a4ab295d19",
+      "id": "mention_faae04234b5a29afdeed18a0",
+      "type": "Institution",
+      "title": "Łuków Yeshiva",
+      "relation": "Taught At"
+    },
+    {
+      "id": "mention_132a6a81fcb4149e9510ada5",
       "type": "Person",
       "title": "Getzel Manishem",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_52fb5158c443213aa0e1bbe8",
+      "id": "mention_faae04234b5a29afdeed18a0",
+      "type": "Institution",
+      "title": "Łuków Yeshiva",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_879e796df6b6f388db8b8aee",
       "type": "Person",
       "title": "Velvel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a87394020fe835a8f2027f60",
+      "id": "mention_69f0327a649bd5ce0880c697",
       "type": "Person",
       "title": "Benzion",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b5d5ffddfd0d82ebfb8a7e4c",
+      "id": "mention_565ef54c5e2fa58b3d3949e0",
       "type": "Person",
-      "title": "Chaim Yidl",
+      "title": "Chaim Yidel",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b6a6b9daf61fd187c596672a",
-      "type": "Person",
-      "title": "Hershl Lerman",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a7b5641d59d623675cc6fc90",
+      "id": "mention_bb0ca3e8afe802c3536de3b8",
       "type": "Organization",
       "title": "Agudah",
       "relation": "Appears in same passage"

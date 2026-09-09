@@ -1,0 +1,100 @@
+{
+  "id": "mention_2aae2933f34e5e8bc07f25b7",
+  "type": "Place",
+  "title": "Unnamed village",
+  "summary": "Village where the narrator worked before fleeing.",
+  "originalName": "בכפר",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 411,
+  "printedPage": "407",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "village",
+  "uncertaintyNote": "The village is unnamed.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f904502e039137699f4afec2",
+      "pageId": "page_nybc301551_0411",
+      "scanIndex": 411,
+      "leafNumber": 410,
+      "printedPage": "407",
+      "passageCharStart": 131,
+      "passageCharEnd": 155,
+      "normalizedPassageCharStart": 131,
+      "normalizedPassageCharEnd": 155,
+      "pageCharStart": 2622,
+      "pageCharEnd": 2646,
+      "quote": "להשא ר בכפ ר ל א יכולת ױ",
+      "normalizedQuote": "להשא ר בכפ ר ל א יכולת ױ",
+      "modelQuote": "להשאר בכפר לא יכולתױ",
+      "bbox": {
+        "left": 717,
+        "top": 4672,
+        "right": 1759,
+        "bottom": 4742
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n410/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "8867b8b239c636b926c90fa4d843d0ea1525102351a06162891162e8ab00923c",
+      "normalizedPassageChecksum": "8df2117296f4c29eb7a5fe0744e89bde81a2d4c5c33b6fb2dd1148dd144cdaf7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d00fb685fc91cb45ac05a437",
+      "type": "Migration",
+      "title": "Narrator flees the village",
+      "summary": "The narrator left the village at night after abandoning fieldwork.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_f904502e039137699f4afec2",
+        "pageId": "page_nybc301551_0411",
+        "scanIndex": 411,
+        "leafNumber": 410,
+        "printedPage": "407",
+        "passageCharStart": 156,
+        "passageCharEnd": 169,
+        "normalizedPassageCharStart": 156,
+        "normalizedPassageCharEnd": 169,
+        "pageCharStart": 2647,
+        "pageCharEnd": 2660,
+        "quote": "בליל ה יצאת י",
+        "normalizedQuote": "בליל ה יצאת י",
+        "modelQuote": "בלילה יצאתי",
+        "bbox": {
+          "left": 455,
+          "top": 4672,
+          "right": 947,
+          "bottom": 4742
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n410/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "8867b8b239c636b926c90fa4d843d0ea1525102351a06162891162e8ab00923c",
+        "normalizedPassageChecksum": "8df2117296f4c29eb7a5fe0744e89bde81a2d4c5c33b6fb2dd1148dd144cdaf7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d00fb685fc91cb45ac05a437",
+      "type": "Event",
+      "title": "Narrator flees the village",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ed7f33af5e32f487e3886a66",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

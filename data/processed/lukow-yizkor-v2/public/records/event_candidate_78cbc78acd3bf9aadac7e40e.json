@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_78cbc78acd3bf9aadac7e40e",
+  "type": "Event",
+  "title": "Fire at Łuków synagogue",
+  "summary": "A synagogue fire led Łuków Jews to consult Maharam of Lublin.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 52,
+  "printedPage": "48",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Fire",
+  "uncertaintyNote": "The OCR is corrupted and does not clearly state the fire date or Maharam's direct participation.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_39b6203d7c4e9f837e95408a",
+      "pageId": "page_nybc301551_0052",
+      "scanIndex": 52,
+      "leafNumber": 51,
+      "printedPage": "48",
+      "passageCharStart": 181,
+      "passageCharEnd": 209,
+      "normalizedPassageCharStart": 181,
+      "normalizedPassageCharEnd": 209,
+      "pageCharStart": 2300,
+      "pageCharEnd": 2328,
+      "quote": "בי ת הכנם ת ן תשוב ת המהר״ ם",
+      "normalizedQuote": "בי ת הכנם ת ן תשוב ת המהר״ ם",
+      "modelQuote": "בית הכנםתן תשובת המהר״ם",
+      "bbox": {
+        "left": 1564,
+        "top": 4038,
+        "right": 2636,
+        "bottom": 4100
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n51/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "c638587c97d2e2a653f9c343b9aa4c6a60db7ffd0b0f2ceb5df5620fa5210a7f",
+      "normalizedPassageChecksum": "a0b9af63c4b27fadc5094969dd5e22cd1e5f485bfa3dec94c63ed3e4845e4e5f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9a981bca02533d2227cefb1f",
+      "type": "Place",
+      "title": "Łuków",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_8201f51b5d0e060bab3eedfa",
+      "type": "Person",
+      "title": "Maharam of Lublin",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

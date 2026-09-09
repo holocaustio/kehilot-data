@@ -1,0 +1,113 @@
+{
+  "id": "mention_e17a81b0b963715435cf7dc1",
+  "type": "Person",
+  "title": "Ratman Lichtenstein",
+  "summary": "A council member who proposed a condolence statement and coal purchase.",
+  "originalName": "ראטמאן ליכטענשטיק",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 309,
+  "printedPage": "305",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "The surname appears with varying OCR forms in the passage.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4c304d99563659c0c9e62200",
+      "pageId": "page_nybc301551_0309",
+      "scanIndex": 309,
+      "leafNumber": 308,
+      "printedPage": "305",
+      "passageCharStart": 51,
+      "passageCharEnd": 84,
+      "normalizedPassageCharStart": 51,
+      "normalizedPassageCharEnd": 84,
+      "pageCharStart": 51,
+      "pageCharEnd": 84,
+      "quote": "נעמ ט א װאר ט ראטמא ן ליכטענשטי ק",
+      "normalizedQuote": "נעמ ט א װאר ט ראטמא ן ליכטענשטי ק",
+      "modelQuote": "נעמטא װארט ראטמאן ליכטענשטיק",
+      "bbox": {
+        "left": 851,
+        "top": 897,
+        "right": 2113,
+        "bottom": 975
+      },
+      "scanUrl": "https://archive.org/details/nybc301551/page/n308/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+      "passageChecksum": "ac191842599dca49fd3c2eedb39f0ddcaa5dccb54301b476c21c5d5f93998318",
+      "normalizedPassageChecksum": "c36696690a42995b2fe2a3a3fee98c3381a54e3b056d3fbf8807908c4a985009",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_60e10240953ea127a38b5adc",
+      "type": "Death",
+      "title": "Death of H. D. Namberg",
+      "summary": "H. D. Namberg died, prompting a municipal condolence statement.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The date is incomplete and the surname differs from an earlier OCR rendering.",
+      "evidence": {
+        "passageId": "passage_4c304d99563659c0c9e62200",
+        "pageId": "page_nybc301551_0309",
+        "scanIndex": 309,
+        "leafNumber": 308,
+        "printedPage": "305",
+        "passageCharStart": 808,
+        "passageCharEnd": 905,
+        "normalizedPassageCharStart": 808,
+        "normalizedPassageCharEnd": 905,
+        "pageCharStart": 808,
+        "pageCharEnd": 905,
+        "quote": "דע ם 21םט ן ד . ח . אי ז געשטארב ן דע ר באוװםטע ר ײדישע ר ליטערא ט או ן\nפובליציםט ה . ד . נאמצערג",
+        "normalizedQuote": "דע ם 21םט ן ד . ח . אי ז געשטארב ן דע ר באוװםטע ר ײדישע ר ליטערא ט או ן\nפובליציםט ה . ד . נאמצערג",
+        "modelQuote": "דעם 21םטן ד. ח. איז געשטארבן דער באוװםטער ײדישער ליטעראט און פובליציםט ה. ד. נאמצערג",
+        "bbox": {
+          "left": 477,
+          "top": 2233,
+          "right": 2999,
+          "bottom": 2421
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n308/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "ac191842599dca49fd3c2eedb39f0ddcaa5dccb54301b476c21c5d5f93998318",
+        "normalizedPassageChecksum": "c36696690a42995b2fe2a3a3fee98c3381a54e3b056d3fbf8807908c4a985009",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_60e10240953ea127a38b5adc",
+      "type": "Event",
+      "title": "Death of H. D. Namberg",
+      "relation": "Participated In",
+      "role": "Author"
+    },
+    {
+      "id": "mention_14151943119fada9b999b2c6",
+      "type": "Person",
+      "title": "H. D. Namberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e5b26a692419ce7ab1c22717",
+      "type": "Institution",
+      "title": "Łuków municipal council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_481ee4b50e1e1cc6d68d2b2e",
+      "type": "Community",
+      "title": "Poor urban population",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

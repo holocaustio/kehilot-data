@@ -2,15 +2,16 @@
   "id": "mention_65b662670cc34bc54b95e48b",
   "type": "Person",
   "title": "Deputy Dibua",
-  "summary": "Represented the P.P.S. at the May Day event.",
+  "summary": "Representative who spoke on behalf of P.P.S.",
   "originalName": "דעפוטאט דיבוא",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 143,
   "printedPage": "139",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The OCR preserves the surname as Dibua; exact spelling is uncertain.",
+  "subtype": "deputy",
+  "uncertaintyNote": "The OCR rendering of the surname is unclear.",
   "evidenceRefs": [
     {
       "passageId": "passage_1d1e10e8e7c2854112f249b9",
@@ -20,12 +21,12 @@
       "printedPage": "139",
       "passageCharStart": 1165,
       "passageCharEnd": 1214,
-      "normalizedPassageCharStart": 1007,
-      "normalizedPassageCharEnd": 1051,
+      "normalizedPassageCharStart": 1165,
+      "normalizedPassageCharEnd": 1214,
       "pageCharStart": 1165,
       "pageCharEnd": 1214,
       "quote": "מצ ד\nדי פ.פ.ם . אי ז ארויסגעטראט ן דעפוטא ט דיבוא",
-      "normalizedQuote": "מצד די פ.פ.ם. איז ארויסגעטראטן דעפוטאט דיבוא",
+      "normalizedQuote": "מצ ד\nדי פ.פ.ם . אי ז ארויסגעטראט ן דעפוטא ט דיבוא",
       "modelQuote": "מצד די פ.פ.ם. איז ארויסגעטראטן דעפוטאט דיבוא",
       "bbox": {
         "left": 431,
@@ -38,13 +39,58 @@
       "passageChecksum": "72e3d0dc821959f7aa79e13b7f1c170cf97cfa89d4ec135ba8045e3ba0960e8e",
       "normalizedPassageChecksum": "550fb73c63157f7ab3c024f130b11706c0e5e982c5a539a49f6b0744aec88168",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_1aa8a17be24fac5ff5f7bfe5",
+      "type": "Aktion Or Raid",
+      "title": "May Day demonstration in Łuków",
+      "summary": "Polish and Jewish workers marched together under shared slogans on May Day.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The controlled event vocabulary has no general demonstration type; AKTION_OR_RAID is used only as the closest available public-action category.",
+      "evidence": {
+        "passageId": "passage_1d1e10e8e7c2854112f249b9",
+        "pageId": "page_nybc301551_0143",
+        "scanIndex": 143,
+        "leafNumber": 142,
+        "printedPage": "139",
+        "passageCharStart": 599,
+        "passageCharEnd": 706,
+        "normalizedPassageCharStart": 599,
+        "normalizedPassageCharEnd": 706,
+        "pageCharStart": 599,
+        "pageCharEnd": 706,
+        "quote": "צו ם ערשט ן מא ל אי ן דע ר געשיכט ע\nפון לוקא װ האב ן האנ ט ב ײ האנ ט מארשיר ט פויליש ע או ן ײדיש ע ארבעטע ר",
+        "normalizedQuote": "צו ם ערשט ן מא ל אי ן דע ר געשיכט ע\nפון לוקא װ האב ן האנ ט ב ײ האנ ט מארשיר ט פויליש ע או ן ײדיש ע ארבעטע ר",
+        "modelQuote": "צום ערשטן מאל אין דער געשיכטע פון לוקאװ האבן האנט בײ האנט מארשירט פוילישע און ײדישע ארבעטער",
+        "bbox": {
+          "left": 427,
+          "top": 3480,
+          "right": 3113,
+          "bottom": 3666
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n142/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "72e3d0dc821959f7aa79e13b7f1c170cf97cfa89d4ec135ba8045e3ba0960e8e",
+        "normalizedPassageChecksum": "550fb73c63157f7ab3c024f130b11706c0e5e982c5a539a49f6b0744aec88168",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
+    {
+      "id": "event_candidate_1aa8a17be24fac5ff5f7bfe5",
+      "type": "Event",
+      "title": "May Day demonstration in Łuków",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
     {
       "id": "mention_2787224b663e28fd67674bab",
       "type": "Person",
@@ -52,19 +98,13 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a9c14b3d76433f3d1e88eeb3",
-      "type": "Person",
-      "title": "Dr. Yekhiel Halpern",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0cf060ee62ca87fd83e49c41",
+      "id": "mention_70c441b43b5a70c659e1d416",
       "type": "Place",
       "title": "Łuków",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8d691a77c7aa3912afb82805",
+      "id": "mention_bba2f673b3c79169a41e395d",
       "type": "Place",
       "title": "Israel",
       "relation": "Appears in same passage"
@@ -82,13 +122,19 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_12919f07b5e1d5585dbf7d29",
+      "id": "mention_f74fc16e9b51b44c0de02097",
       "type": "Organization",
       "title": "Freedom Youth Committee",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6de49a992a210fd4743d8159",
+      "id": "mention_a9c14b3d76433f3d1e88eeb3",
+      "type": "Person",
+      "title": "Dr. Yekhiel Halpern",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_811a8cda85d7ff1757c52f69",
       "type": "Place",
       "title": "Land of Israel",
       "relation": "Appears in same passage"

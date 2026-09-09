@@ -2,16 +2,14 @@
   "id": "mention_39167670409c3bfed41aa4b1",
   "type": "Person",
   "title": "Ida Faler",
-  "summary": "Ida Faler hosted a wartime gathering at her workshop.",
+  "summary": "A seamstress whose workshop hosted a clandestine gathering.",
   "originalName": "אידא פאלער",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 497,
   "printedPage": "493",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "seamstress",
-  "uncertaintyNote": "The OCR spelling of the surname is uncertain.",
   "evidenceRefs": [
     {
       "passageId": "passage_39d76b00bc17bbb7f07f5233",
@@ -21,12 +19,12 @@
       "printedPage": "493",
       "passageCharStart": 590,
       "passageCharEnd": 621,
-      "normalizedPassageCharStart": 509,
-      "normalizedPassageCharEnd": 535,
+      "normalizedPassageCharStart": 590,
+      "normalizedPassageCharEnd": 621,
       "pageCharStart": 1914,
       "pageCharEnd": 1945,
       "quote": "ב ײ דע ר שנײדערי ן איד א פאלע ר",
-      "normalizedQuote": "בײ דער שנײדערין אידא פאלער",
+      "normalizedQuote": "ב ײ דע ר שנײדערי ן איד א פאלע ר",
       "modelQuote": "בײ דער שנײדערין אידא פאלער",
       "bbox": {
         "left": 1201,
@@ -39,7 +37,7 @@
       "passageChecksum": "de2ef2d1edc5271b3dedbeb232321a7faacaf4223b0149b1b10a26679530fba1",
       "normalizedPassageChecksum": "ef639d846584e5fa94103714d11f9aeeb6a0571f5425c0603589e6d58fed26a2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -47,27 +45,51 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_f0b7385e6692631dcf1b2ded",
-      "type": "Place",
-      "title": "Ghetto",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_31ae8a590d949917cba97e0c",
       "type": "Person",
-      "title": "Reuben Heiblum",
+      "title": "Reuven Heyblum",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5c9bb75de06693e59dd8bafe",
+      "id": "mention_57a2f13d4f4c212d0ba37cac",
       "type": "Person",
-      "title": "Moses Shlakovitch",
+      "title": "Moshe Shlakavitch",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9dcc8ca3b7c415c7111eca09",
+      "id": "mention_bc8953773708d9f31e92f5c1",
       "type": "Person",
-      "title": "Nahum Goldzak",
+      "title": "Hersh Smalyar",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_68d1d776d83d743c841894d3",
+      "type": "Person",
+      "title": "Nakhum Galdzak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1fa3a8939e5a906c54bfa501",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_76f3993922c8d8d83c39aba1",
+      "type": "Organization",
+      "title": "SS",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5384191bff35d443b0b41bd0",
+      "type": "Community",
+      "title": "Jews of the Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1efb5f7e9f627c20f064a49e",
+      "type": "Event",
+      "title": "Great October Revolution",
       "relation": "Appears in same passage"
     }
   ],

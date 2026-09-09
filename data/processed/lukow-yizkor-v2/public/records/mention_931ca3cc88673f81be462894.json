@@ -2,15 +2,16 @@
   "id": "mention_931ca3cc88673f81be462894",
   "type": "Person",
   "title": "Kapele",
-  "summary": "A twelve-year-old boy trapped beneath a beam.",
+  "summary": "Twelve-year-old boy trapped under a beam and killed with his father.",
   "originalName": "קאפעלע",
-  "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 429,
   "printedPage": "425",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "boy",
+  "subtype": "child",
+  "uncertaintyNote": "Name and wording contain OCR uncertainty.",
   "evidenceRefs": [
     {
       "passageId": "passage_45f025614074563253a685e1",
@@ -20,12 +21,12 @@
       "printedPage": "425",
       "passageCharStart": 444,
       "passageCharEnd": 467,
-      "normalizedPassageCharStart": 382,
-      "normalizedPassageCharEnd": 402,
+      "normalizedPassageCharStart": 444,
+      "normalizedPassageCharEnd": 467,
       "pageCharStart": 962,
       "pageCharEnd": 985,
       "quote": "ע ר הא ט געהײם ן קאפעלע",
-      "normalizedQuote": "ער האט געהײםן קאפעלע",
+      "normalizedQuote": "ע ר הא ט געהײם ן קאפעלע",
       "modelQuote": "ער האט געהײםן קאפעלע",
       "bbox": {
         "left": 1980,
@@ -38,17 +39,18 @@
       "passageChecksum": "7d82e4eec509af3073a320c6cc8e67700684ae0bb24a49c959a3344f0715e028",
       "normalizedPassageChecksum": "ea60a77624abc69c6e280549b4816326102a330ff4922e14deef4fd3652dae4f",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_c76099e272229c11703c6e28",
+      "id": "claim_candidate_f1c49158d849f1d949195b00",
       "predicate": "Child Of",
       "subjectTitle": "Kapele",
       "objectTitle": "Pesach",
-      "confidence": "HIGH",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage explicitly identifies Pesach as the father.",
       "evidence": {
         "passageId": "passage_45f025614074563253a685e1",
         "pageId": "page_nybc301551_0429",
@@ -57,12 +59,12 @@
         "printedPage": "425",
         "passageCharStart": 470,
         "passageCharEnd": 505,
-        "normalizedPassageCharStart": 404,
-        "normalizedPassageCharEnd": 434,
+        "normalizedPassageCharStart": 470,
+        "normalizedPassageCharEnd": 505,
         "pageCharStart": 988,
         "pageCharEnd": 1023,
         "quote": "זי ץ פאטער ם נאמע ן אי ז געװע ן פםח",
-        "normalizedQuote": "זיץ פאטערם נאמען איז געװען פםח",
+        "normalizedQuote": "זי ץ פאטער ם נאמע ן אי ז געװע ן פםח",
         "modelQuote": "זיץ פאטערם נאמען איז געװען פםח",
         "bbox": {
           "left": 762,
@@ -75,34 +77,35 @@
         "passageChecksum": "7d82e4eec509af3073a320c6cc8e67700684ae0bb24a49c959a3344f0715e028",
         "normalizedPassageChecksum": "ea60a77624abc69c6e280549b4816326102a330ff4922e14deef4fd3652dae4f",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     },
     {
-      "id": "claim_candidate_a0e5c732fecae2b20d841425",
+      "id": "claim_candidate_df77bd66c91abd9667eb38c6",
       "predicate": "Child Of",
       "subjectTitle": "Kapele",
-      "objectTitle": "Pesach's wife, Feshe Gitl",
-      "confidence": "HIGH",
+      "objectTitle": "Peshe Gitl",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage identifies Peshe Gitl as the mother.",
       "evidence": {
         "passageId": "passage_45f025614074563253a685e1",
         "pageId": "page_nybc301551_0429",
         "scanIndex": 429,
         "leafNumber": 428,
         "printedPage": "425",
-        "passageCharStart": 508,
+        "passageCharStart": 513,
         "passageCharEnd": 536,
-        "normalizedPassageCharStart": 436,
-        "normalizedPassageCharEnd": 460,
-        "pageCharStart": 1026,
+        "normalizedPassageCharStart": 513,
+        "normalizedPassageCharEnd": 536,
+        "pageCharStart": 1031,
         "pageCharEnd": 1054,
-        "quote": "או ן זי ץ\nמאמעם — פעש ע גיטל",
-        "normalizedQuote": "און זיץ מאמעם— פעשע גיטל",
-        "modelQuote": "און זיץ מאמעם— פעשע גיטל",
+        "quote": "זי ץ\nמאמעם — פעש ע גיטל",
+        "normalizedQuote": "זי ץ\nמאמעם — פעש ע גיטל",
+        "modelQuote": "זיץ מאמעם— פעשע גיטל",
         "bbox": {
           "left": 466,
-          "top": 2023,
+          "top": 2025,
           "right": 2976,
           "bottom": 2185
         },
@@ -111,12 +114,49 @@
         "passageChecksum": "7d82e4eec509af3073a320c6cc8e67700684ae0bb24a49c959a3344f0715e028",
         "normalizedPassageChecksum": "ea60a77624abc69c6e280549b4816326102a330ff4922e14deef4fd3652dae4f",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_2d879e017dc7c8eebcb727eb",
+      "type": "Death",
+      "title": "Deaths of Kapele and his father",
+      "summary": "A collapsed beam killed Kapele and his father during rescue efforts.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_45f025614074563253a685e1",
+        "pageId": "page_nybc301551_0429",
+        "scanIndex": 429,
+        "leafNumber": 428,
+        "printedPage": "425",
+        "passageCharStart": 771,
+        "passageCharEnd": 817,
+        "normalizedPassageCharStart": 771,
+        "normalizedPassageCharEnd": 817,
+        "pageCharStart": 1289,
+        "pageCharEnd": 1335,
+        "quote": "הא ט ז י צונויפגעדריק ט בײדע , פאטע ר או ן זון",
+        "normalizedQuote": "הא ט ז י צונויפגעדריק ט בײדע , פאטע ר או ן זון",
+        "modelQuote": "האט זי צונויפגעדריקט בײדע, פאטער און זון",
+        "bbox": {
+          "left": 1440,
+          "top": 2439,
+          "right": 2946,
+          "bottom": 2509
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n428/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "7d82e4eec509af3073a320c6cc8e67700684ae0bb24a49c959a3344f0715e028",
+        "normalizedPassageChecksum": "ea60a77624abc69c6e280549b4816326102a330ff4922e14deef4fd3652dae4f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
       "id": "mention_698bc4ceeee7bae90b824a54",
@@ -125,10 +165,17 @@
       "relation": "Child Of"
     },
     {
-      "id": "mention_c61c27d5e27891a989a213e0",
+      "id": "mention_4bdf95f39c5f3f0d8e79cbf8",
       "type": "Person",
-      "title": "Pesach's wife, Feshe Gitl",
+      "title": "Peshe Gitl",
       "relation": "Child Of"
+    },
+    {
+      "id": "event_candidate_2d879e017dc7c8eebcb727eb",
+      "type": "Event",
+      "title": "Deaths of Kapele and his father",
+      "relation": "Participated In",
+      "role": "Victim"
     },
     {
       "id": "mention_698bc4ceeee7bae90b824a54",
@@ -137,27 +184,27 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c61c27d5e27891a989a213e0",
+      "id": "mention_4bdf95f39c5f3f0d8e79cbf8",
       "type": "Person",
-      "title": "Pesach's wife, Feshe Gitl",
+      "title": "Peshe Gitl",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d2b62327a4184bad53e8003e",
+      "id": "mention_f34ebfd212179920452a41f9",
       "type": "Person",
-      "title": "Lipe Zeifenzider",
+      "title": "Lipe Zeifensider",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_52da585ad0cfeb470fc97857",
+      "id": "mention_c9ee759b300edcdf77067f60",
       "type": "Person",
-      "title": "Yosele Naterman",
+      "title": "Yossele Naterman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5ca5330afc6c60ee845ad407",
-      "type": "Organization",
-      "title": "Rescue group",
+      "id": "mention_6c9f03f9fcc09ee414f3d48d",
+      "type": "Place",
+      "title": "Lipe Zeifensider’s house",
       "relation": "Appears in same passage"
     }
   ],

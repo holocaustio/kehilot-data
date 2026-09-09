@@ -1,11 +1,11 @@
 {
   "id": "mention_d0862d4c855a83aa5848416d",
   "type": "Institution",
-  "title": "Rabbinical court",
-  "summary": "A rabbinical court existed beside the Council of the Four Lands.",
-  "originalName": "רבנישער בית־דין",
+  "title": "Rabbinical court of the Council of the Four Lands",
+  "summary": "Rabbinical court that addressed disputes among communities.",
+  "originalName": "דער רבנישער בית־דין",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 28,
   "printedPage": "24",
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,12 +20,12 @@
       "printedPage": "24",
       "passageCharStart": 1128,
       "passageCharEnd": 1149,
-      "normalizedPassageCharStart": 982,
-      "normalizedPassageCharEnd": 1001,
+      "normalizedPassageCharStart": 1128,
+      "normalizedPassageCharEnd": 1149,
       "pageCharStart": 2466,
       "pageCharEnd": 2487,
       "quote": "דע ר רבנישע ר בית־דין",
-      "normalizedQuote": "דער רבנישער בית־דין",
+      "normalizedQuote": "דע ר רבנישע ר בית־דין",
       "modelQuote": "דער רבנישער בית־דין",
       "bbox": {
         "left": 1607,
@@ -38,88 +38,75 @@
       "passageChecksum": "b46daf9c29c3ad7f268cecad8cbf68ed4e4d2249ebcb61e5dd0ff39e2398b605",
       "normalizedPassageChecksum": "01242c09ba7e1c50aefc9ac4abaefe754bf556314a67387745319de04ba0a0a2",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
-      "alignmentScore": 1
-    },
-    {
-      "passageId": "passage_488cbf502447ca205cd4f6f1",
-      "pageId": "page_nybc301551_0051",
-      "scanIndex": 51,
-      "leafNumber": 50,
-      "printedPage": "47",
-      "passageCharStart": 1117,
-      "passageCharEnd": 1152,
-      "normalizedPassageCharStart": 962,
-      "normalizedPassageCharEnd": 991,
-      "pageCharStart": 1117,
-      "pageCharEnd": 1152,
-      "quote": "ובי ת הדי ן הרבנ י שהי ה קײ ם ליד ו",
-      "normalizedQuote": "ובית הדין הרבני שהיה קײם לידו",
-      "modelQuote": "ובית הדין הרבני שהיה קײם לידו",
-      "bbox": {
-        "left": 472,
-        "top": 2422,
-        "right": 1592,
-        "bottom": 2496
-      },
-      "scanUrl": "https://archive.org/details/nybc301551/page/n50/mode/1up",
-      "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
-      "passageChecksum": "468a28b469e8c477e361f0ad913e5b09b3c49c7a1ee01ea741da9a28ca251fe0",
-      "normalizedPassageChecksum": "d45abc370854a68c0cbaf28704a5a5452ca830cb33a3f725f7ecbce3066dee11",
-      "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_15fd04b82f6b98e2a73d872f",
+      "predicate": "Affiliated With",
+      "subjectTitle": "Council of the Four Lands",
+      "objectTitle": "Rabbinical court of the Council of the Four Lands",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "text": "the rabbinical court existed by the Council of the Four Lands"
+      },
+      "evidence": {
+        "passageId": "passage_5b23029d73f0f37c391c2b6d",
+        "pageId": "page_nybc301551_0028",
+        "scanIndex": 28,
+        "leafNumber": 27,
+        "printedPage": "24",
+        "passageCharStart": 1128,
+        "passageCharEnd": 1192,
+        "normalizedPassageCharStart": 1128,
+        "normalizedPassageCharEnd": 1192,
+        "pageCharStart": 2466,
+        "pageCharEnd": 2530,
+        "quote": "דע ר רבנישע ר בית־דין , װא ם הא ט עקזיסטיר ט בײ ם וע ד ד ׳\nארצות",
+        "normalizedQuote": "דע ר רבנישע ר בית־דין , װא ם הא ט עקזיסטיר ט בײ ם וע ד ד ׳\nארצות",
+        "modelQuote": "דער רבנישער בית־דין, װאם האט עקזיסטירט בײם ועד ד׳ ארצות",
+        "bbox": {
+          "left": 471,
+          "top": 4350,
+          "right": 2961,
+          "bottom": 4510
+        },
+        "scanUrl": "https://archive.org/details/nybc301551/page/n27/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc301551/nybc301551.pdf",
+        "passageChecksum": "b46daf9c29c3ad7f268cecad8cbf68ed4e4d2249ebcb61e5dd0ff39e2398b605",
+        "normalizedPassageChecksum": "01242c09ba7e1c50aefc9ac4abaefe754bf556314a67387745319de04ba0a0a2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_d0e1fa6d8e0c96f61983000d",
-      "type": "Community",
-      "title": "Mezritch Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_99b0d53f448b8f624d879a47",
+      "id": "mention_18840c3f37e07ffc7a5ada7a",
       "type": "Organization",
       "title": "Council of the Four Lands",
+      "relation": "Affiliated With"
+    },
+    {
+      "id": "mention_f24bb37493b0a89d690f2483",
+      "type": "Community",
+      "title": "Łuków Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_55da9be86bac74a0052e25e5",
+      "id": "mention_6a835e77b21a39ed8b9cbf7c",
       "type": "Community",
-      "title": "Lublin Region Jewish Communities",
+      "title": "Mezritch",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2aed05877f9fe7c3ec09cee8",
-      "type": "Community",
-      "title": "Siedlce",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8dce0829d35717a5a072cea2",
-      "type": "Community",
-      "title": "Krasnik",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_43fadc5eb94d2801efed5a29",
-      "type": "Community",
-      "title": "Radzin",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_c99208dd30932c41f296e583",
-      "type": "Community",
-      "title": "Lubartow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_eefaac961818ed528ea68f4d",
-      "type": "Community",
-      "title": "Lukow",
+      "id": "mention_18840c3f37e07ffc7a5ada7a",
+      "type": "Organization",
+      "title": "Council of the Four Lands",
       "relation": "Appears in same passage"
     }
   ],
