@@ -1,0 +1,104 @@
+{
+  "id": "mention_62b3a040ab13d59b9f031348",
+  "type": "Place",
+  "title": "London",
+  "summary": "A destination to which Seander Kundansky reportedly migrated.",
+  "originalName": "לאנדאן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 57,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5e622304cc40713c56dccf4d",
+      "pageId": "page_nybc314005_0057",
+      "scanIndex": 57,
+      "leafNumber": 56,
+      "printedPage": null,
+      "passageCharStart": 103,
+      "passageCharEnd": 109,
+      "normalizedPassageCharStart": 103,
+      "normalizedPassageCharEnd": 109,
+      "pageCharStart": 2361,
+      "pageCharEnd": 2367,
+      "quote": "לאנדאן",
+      "normalizedQuote": "לאנדאן",
+      "modelQuote": "לאנדאן",
+      "bbox": {
+        "left": 2164,
+        "top": 3179,
+        "right": 2376,
+        "bottom": 3257
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n56/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "e751ff9fedc4fdb3dc14b2c96594b87b7dfc6847df01b8ad5fe40c2de1a51f4b",
+      "normalizedPassageChecksum": "1904acd2fa77e52397eed7d0ccefe3bc7c98ddb42e371f4c6600e93ef279e76b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_3e924701a2fef7061e254655",
+      "predicate": "Migrated To",
+      "subjectTitle": "Seander Kundansky",
+      "objectTitle": "London",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5e622304cc40713c56dccf4d",
+        "pageId": "page_nybc314005_0057",
+        "scanIndex": 57,
+        "leafNumber": 56,
+        "printedPage": null,
+        "passageCharStart": 84,
+        "passageCharEnd": 109,
+        "normalizedPassageCharStart": 84,
+        "normalizedPassageCharEnd": 109,
+        "pageCharStart": 2342,
+        "pageCharEnd": 2367,
+        "quote": "הרחי ק נדו ד לעי ר\nלאנדאן",
+        "normalizedQuote": "הרחי ק נדו ד לעי ר\nלאנדאן",
+        "modelQuote": "הרחי ק נדו ד לעי ר לאנדאן",
+        "bbox": {
+          "left": 724,
+          "top": 3057,
+          "right": 2376,
+          "bottom": 3257
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n56/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "e751ff9fedc4fdb3dc14b2c96594b87b7dfc6847df01b8ad5fe40c2de1a51f4b",
+        "normalizedPassageChecksum": "1904acd2fa77e52397eed7d0ccefe3bc7c98ddb42e371f4c6600e93ef279e76b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_595cd21e0383b75de6d45d54",
+      "type": "Person",
+      "title": "Seander Kundansky",
+      "relation": "Migrated To"
+    },
+    {
+      "id": "mention_595cd21e0383b75de6d45d54",
+      "type": "Person",
+      "title": "Seander Kundansky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9e05fa6a4afeb5bf567d5018",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

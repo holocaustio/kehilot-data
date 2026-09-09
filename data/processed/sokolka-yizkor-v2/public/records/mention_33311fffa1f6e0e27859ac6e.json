@@ -1,0 +1,121 @@
+{
+  "id": "mention_33311fffa1f6e0e27859ac6e",
+  "type": "Community",
+  "title": "Jewish residents of Sokolka",
+  "summary": "German authorities ordered a complete list of Jewish residents.",
+  "originalName": "התושבים היד,ודיים בעיר",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 186,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "population group",
+  "uncertaintyNote": "OCR corrupts the Hebrew word for Jewish.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0cbb4fd9f9524e10ad2e5c76",
+      "pageId": "page_nybc314005_0186",
+      "scanIndex": 186,
+      "leafNumber": 185,
+      "printedPage": null,
+      "passageCharStart": 707,
+      "passageCharEnd": 740,
+      "normalizedPassageCharStart": 707,
+      "normalizedPassageCharEnd": 740,
+      "pageCharStart": 707,
+      "pageCharEnd": 740,
+      "quote": "ש ל כ ל התושבי ם הי ד,ודיי ם בעיר",
+      "normalizedQuote": "ש ל כ ל התושבי ם הי ד,ודיי ם בעיר",
+      "modelQuote": "של כל התושבים היד,ודיים בעיר",
+      "bbox": {
+        "left": 3082,
+        "top": 2402,
+        "right": 4050,
+        "bottom": 2474
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n185/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "8eb8fbd55ca750b4dc081006336392dd11116c5ec040b5c4277af60dc0450a87",
+      "normalizedPassageChecksum": "b58f24c8cd2b11293061392ac0c3b80048df854fec0198d5bfbced203ad19228",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b1a7d1143d44053e98921912",
+      "type": "Aktion Or Raid",
+      "title": "German entry and persecution in Sokolka",
+      "summary": "German forces entered the town and began persecuting Jews in June 1941.",
+      "dateStart": "1941-06-23",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text says Germany declared war on June 22 and describes entry the following morning.",
+      "evidence": {
+        "passageId": "passage_0cbb4fd9f9524e10ad2e5c76",
+        "pageId": "page_nybc314005_0186",
+        "scanIndex": 186,
+        "leafNumber": 185,
+        "printedPage": null,
+        "passageCharStart": 161,
+        "passageCharEnd": 206,
+        "normalizedPassageCharStart": 161,
+        "normalizedPassageCharEnd": 206,
+        "pageCharStart": 161,
+        "pageCharEnd": 206,
+        "quote": "ב ־ 22.6.41 הכריז ה גרמני ה מלחמ ה ע ל רוסי ה",
+        "normalizedQuote": "ב ־ 22.6.41 הכריז ה גרמני ה מלחמ ה ע ל רוסי ה",
+        "modelQuote": "ב־22.6.41 הכריזה גרמניה מלחמה על רוסיה",
+        "bbox": {
+          "left": 2570,
+          "top": 1186,
+          "right": 3936,
+          "bottom": 1262
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n185/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "8eb8fbd55ca750b4dc081006336392dd11116c5ec040b5c4277af60dc0450a87",
+        "normalizedPassageChecksum": "b58f24c8cd2b11293061392ac0c3b80048df854fec0198d5bfbced203ad19228",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b1a7d1143d44053e98921912",
+      "type": "Event",
+      "title": "German entry and persecution in Sokolka",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_d4def3de9941367f1b9aacb2",
+      "type": "Community",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ec616c57a4099f93bd83bb0",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b519eb65a78e4544481f264c",
+      "type": "Institution",
+      "title": "New Beit Midrash",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_afae7383e208481fd7e93fe7",
+      "type": "Institution",
+      "title": "Karlin Hasidic House",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

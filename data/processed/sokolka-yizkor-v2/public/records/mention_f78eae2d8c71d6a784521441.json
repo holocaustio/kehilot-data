@@ -5,12 +5,12 @@
   "summary": "A veteran Zionist activist invited to help establish the Kadima youth organization.",
   "originalName": "ריז׳י",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 105,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The OCR supplies only this short name.",
+  "uncertaintyNote": "The OCR provides only a short, potentially incomplete name.",
   "evidenceRefs": [
     {
       "passageId": "passage_529730ee97376c10f4c9d5b7",
@@ -20,114 +20,165 @@
       "printedPage": null,
       "passageCharStart": 211,
       "passageCharEnd": 216,
-      "normalizedPassageCharStart": 159,
-      "normalizedPassageCharEnd": 164,
+      "normalizedPassageCharStart": 211,
+      "normalizedPassageCharEnd": 216,
       "pageCharStart": 2195,
       "pageCharEnd": 2200,
       "quote": "ריז׳י",
       "normalizedQuote": "ריז׳י",
       "modelQuote": "ריז׳י",
-      "bbox": null,
+      "bbox": {
+        "left": 2216,
+        "top": 1375,
+        "right": 2342,
+        "bottom": 1421
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n104/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "82f4544bbbceb3ca5db896a2c65f4e86f7b4599192bb3dc99a96d13448ccc58f",
       "normalizedPassageChecksum": "66c2238849e9242203e8af1cb19b1ef1b87f673988bff234f8220ce30b5b7e48",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
   "claims": [
     {
-      "id": "claim_candidate_dc7d28e16ab00d8a33e6a1f6",
-      "predicate": "Member Of",
+      "id": "claim_candidate_6eb69fc7bccc83a9f7b045ec",
+      "predicate": "Participated In",
       "subjectTitle": "Rizi",
       "objectTitle": "Kadima",
-      "confidence": "HIGH",
-      "qualifiers": {
-        "role": "veteran Zionist activist"
-      },
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage says the narrator and the invited activists decided together to establish Kadima, but does not specify each person's individual role.",
       "evidence": {
         "passageId": "passage_529730ee97376c10f4c9d5b7",
         "pageId": "page_nybc314005_0105",
         "scanIndex": 105,
         "leafNumber": 104,
         "printedPage": null,
-        "passageCharStart": 110,
-        "passageCharEnd": 216,
-        "normalizedPassageCharStart": 84,
-        "normalizedPassageCharEnd": 164,
-        "pageCharStart": 2094,
-        "pageCharEnd": 2200,
-        "quote": "הזמנ ו עסקני ם ציוני ם ותיקים , שהי ו פעילי ם\nבמחתר ת בזמ ן המשט ר הרוסי , כגון : ר ׳ ישרא ל ליפצר ,\nריז׳י",
-        "normalizedQuote": "הזמנועסקניםציוניםותיקים,שהיופעילים במחתרתבזמןהמשטרהרוסי,כגון:ר׳ישראלליפצר, ריז׳י",
-        "modelQuote": "הזמנועסקניםציוניםותיקים,שהיופעילים במחתרתבזמןהמשטרהרוסי,כגון:ר׳ישראלליפצר, ריז׳י",
-        "bbox": null,
+        "passageCharStart": 282,
+        "passageCharEnd": 339,
+        "normalizedPassageCharStart": 282,
+        "normalizedPassageCharEnd": 339,
+        "pageCharStart": 2266,
+        "pageCharEnd": 2323,
+        "quote": "יח ד עמ ם החלטנ ו להקי ם ארגו ן נוע ר\nציונ י בש ם \"קדימה\"",
+        "normalizedQuote": "יח ד עמ ם החלטנ ו להקי ם ארגו ן נוע ר\nציונ י בש ם \"קדימה\"",
+        "modelQuote": "יחד עמם החלטנו להקים ארגון נוער\nציוני בשם \"קדימה\"",
+        "bbox": {
+          "left": 726,
+          "top": 1475,
+          "right": 2346,
+          "bottom": 1669
+        },
         "scanUrl": "https://archive.org/details/nybc314005/page/n104/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
         "passageChecksum": "82f4544bbbceb3ca5db896a2c65f4e86f7b4599192bb3dc99a96d13448ccc58f",
         "normalizedPassageChecksum": "66c2238849e9242203e8af1cb19b1ef1b87f673988bff234f8220ce30b5b7e48",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_c460aea0b78c40096ce36104",
+      "type": "Organization Founding",
+      "title": "Establishment of Kadima",
+      "summary": "Veteran Zionist activists and the narrator decided to establish the Kadima youth organization.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_529730ee97376c10f4c9d5b7",
+        "pageId": "page_nybc314005_0105",
+        "scanIndex": 105,
+        "leafNumber": 104,
+        "printedPage": null,
+        "passageCharStart": 282,
+        "passageCharEnd": 339,
+        "normalizedPassageCharStart": 282,
+        "normalizedPassageCharEnd": 339,
+        "pageCharStart": 2266,
+        "pageCharEnd": 2323,
+        "quote": "יח ד עמ ם החלטנ ו להקי ם ארגו ן נוע ר\nציונ י בש ם \"קדימה\"",
+        "normalizedQuote": "יח ד עמ ם החלטנ ו להקי ם ארגו ן נוע ר\nציונ י בש ם \"קדימה\"",
+        "modelQuote": "יחד עמם החלטנו להקים ארגון נוער\nציוני בשם \"קדימה\"",
+        "bbox": {
+          "left": 726,
+          "top": 1475,
+          "right": 2346,
+          "bottom": 1669
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n104/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "82f4544bbbceb3ca5db896a2c65f4e86f7b4599192bb3dc99a96d13448ccc58f",
+        "normalizedPassageChecksum": "66c2238849e9242203e8af1cb19b1ef1b87f673988bff234f8220ce30b5b7e48",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_e7c21e810655daba71c18d73",
+      "id": "mention_d6894767ba6705d292ae15c4",
       "type": "Organization",
       "title": "Kadima",
-      "relation": "Member Of"
+      "relation": "Participated In"
     },
     {
-      "id": "event_candidate_d8c24d5256cfdad3689c9595",
+      "id": "event_candidate_c460aea0b78c40096ce36104",
       "type": "Event",
-      "title": "Founding of Kadima",
+      "title": "Establishment of Kadima",
       "relation": "Participated In",
       "role": "Organizer"
     },
     {
-      "id": "mention_cae602f753d5b68ac7916c26",
+      "id": "mention_d1fee587cc3f9557712839b5",
       "type": "Person",
       "title": "Israel Lipzer",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_80fa225d431fa4ce79624b2e",
+      "id": "mention_25f9ddea84da380895719f02",
       "type": "Person",
       "title": "Zvi Yudovsky",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e7c21e810655daba71c18d73",
+      "id": "mention_d6894767ba6705d292ae15c4",
       "type": "Organization",
       "title": "Kadima",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6fa798ef2f3df3a6cff8455d",
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
       "type": "Place",
       "title": "Sokolka",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_05dca0f6d1ef6cf7640f5fa5",
-      "type": "Place",
-      "title": "Mandatory Palestine",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_720765d73b3611502f6b89d3",
+      "id": "mention_925449b0df358b2c245dfe4e",
       "type": "Institution",
-      "title": "Land of Israel Office",
+      "title": "Land of Israel Office in Sokolka",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4583e896c35dc7655bebb048",
+      "id": "mention_262862447b8efa8dc8a48e1f",
       "type": "Person",
-      "title": "Menahem Zaroni",
+      "title": "Menachem Zaharoni",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0310e186787a9241dddc62b0",
+      "type": "Place",
+      "title": "Krinki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c13e9a79d5bfb0f49c8755a6",
+      "type": "Place",
+      "title": "Road from Krinki to Sokolka",
       "relation": "Appears in same passage"
     }
   ],

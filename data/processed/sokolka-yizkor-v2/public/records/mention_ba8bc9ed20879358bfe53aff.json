@@ -1,0 +1,107 @@
+{
+  "id": "mention_ba8bc9ed20879358bfe53aff",
+  "type": "Person",
+  "title": "Zrakovitz",
+  "summary": "Police officer described as harassing workers known as revolutionaries.",
+  "originalName": "זרכביץ",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 100,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police officer",
+  "uncertaintyNote": "The OCR transliteration may be imperfect.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_06384da7d6aee64b0760b862",
+      "pageId": "page_nybc314005_0100",
+      "scanIndex": 100,
+      "leafNumber": 99,
+      "printedPage": null,
+      "passageCharStart": 659,
+      "passageCharEnd": 677,
+      "normalizedPassageCharStart": 659,
+      "normalizedPassageCharEnd": 677,
+      "pageCharStart": 1967,
+      "pageCharEnd": 1985,
+      "quote": "שוט ר אחד , זרכביץ",
+      "normalizedQuote": "שוט ר אחד , זרכביץ",
+      "modelQuote": "שוטר אחד, זרכביץ",
+      "bbox": {
+        "left": 877,
+        "top": 1451,
+        "right": 1465,
+        "bottom": 1511
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n99/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "7fc77d15b4344e39cb71842b22977864798435c5ed0270cf59800b26627ed51e",
+      "normalizedPassageChecksum": "add5ecbeb068a8c5df48280b165c2a4596aed036f4742a0cf956c2732ccbc912",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f7484c9b107801cf267bc0b8",
+      "type": "Murder",
+      "title": "Shooting and death of police officer Zrakovitz",
+      "summary": "Zrakovitz was shot after returning home and died several hours later from his wounds.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_06384da7d6aee64b0760b862",
+        "pageId": "page_nybc314005_0100",
+        "scanIndex": 100,
+        "leafNumber": 99,
+        "printedPage": null,
+        "passageCharStart": 816,
+        "passageCharEnd": 855,
+        "normalizedPassageCharStart": 816,
+        "normalizedPassageCharEnd": 855,
+        "pageCharStart": 2124,
+        "pageCharEnd": 2163,
+        "quote": "יר ו בו , וכעבו ר כמ ה שעו ת מ ת\nמפצעיו",
+        "normalizedQuote": "יר ו בו , וכעבו ר כמ ה שעו ת מ ת\nמפצעיו",
+        "modelQuote": "ירו בו, וכעבור כמה שעות מת מפצעיו",
+        "bbox": {
+          "left": 709,
+          "top": 1809,
+          "right": 2367,
+          "bottom": 1987
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n99/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "7fc77d15b4344e39cb71842b22977864798435c5ed0270cf59800b26627ed51e",
+        "normalizedPassageChecksum": "add5ecbeb068a8c5df48280b165c2a4596aed036f4742a0cf956c2732ccbc912",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f7484c9b107801cf267bc0b8",
+      "type": "Event",
+      "title": "Shooting and death of police officer Zrakovitz",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_119e0e7eb30263c71e3bad3a",
+      "type": "Person",
+      "title": "Benjamin Yitzhak Even",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ceb18f051ee8a260f04f8cd1",
+      "type": "Place",
+      "title": "Pine Grove Outside the Town",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

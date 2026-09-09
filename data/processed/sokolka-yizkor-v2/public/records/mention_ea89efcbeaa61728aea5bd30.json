@@ -1,0 +1,136 @@
+{
+  "id": "mention_ea89efcbeaa61728aea5bd30",
+  "type": "Place",
+  "title": "Army camp on the road to Krynki",
+  "summary": "Military camp whose stores were attacked by Polish peasants.",
+  "originalName": "במחנה־הצבא בדרך לקרינקי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 84,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5b5351f8b128193dca89b66d",
+      "pageId": "page_nybc314005_0084",
+      "scanIndex": 84,
+      "leafNumber": 83,
+      "printedPage": null,
+      "passageCharStart": 887,
+      "passageCharEnd": 912,
+      "normalizedPassageCharStart": 887,
+      "normalizedPassageCharEnd": 912,
+      "pageCharStart": 887,
+      "pageCharEnd": 912,
+      "quote": "במחנה־הצב א\nבדר ך לקרינקי",
+      "normalizedQuote": "במחנה־הצב א\nבדר ך לקרינקי",
+      "modelQuote": "במחנה־הצבא\nבדרך לקרינקי",
+      "bbox": {
+        "left": 2572,
+        "top": 2636,
+        "right": 4288,
+        "bottom": 2824
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n83/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "927619c715d083d06c495254e5936c57136b7031720d52544295b715d0d87712",
+      "normalizedPassageChecksum": "4b255ac04809582ed2619ad014158c07a76d6fc7dea68244d72d73b76faeb699",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_43bc52ba5b2bc2b0e8891f4a",
+      "type": "Aktion Or Raid",
+      "title": "Attack on German military stores",
+      "summary": "Polish peasants from nearby villages attacked military stores near Krynki.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5b5351f8b128193dca89b66d",
+        "pageId": "page_nybc314005_0084",
+        "scanIndex": 84,
+        "leafNumber": 83,
+        "printedPage": null,
+        "passageCharStart": 818,
+        "passageCharEnd": 880,
+        "normalizedPassageCharStart": 818,
+        "normalizedPassageCharEnd": 880,
+        "pageCharStart": 818,
+        "pageCharEnd": 880,
+        "quote": "התנפל ו האכרי ם הפולני ם מ ן\nהכפרי ם הסמוכי ם ע ל מחסנ י הצב א",
+        "normalizedQuote": "התנפל ו האכרי ם הפולני ם מ ן\nהכפרי ם הסמוכי ם ע ל מחסנ י הצב א",
+        "modelQuote": "התנפלו האכרים הפולנים מן\nהכפרים הסמוכים על מחסני הצבא",
+        "bbox": {
+          "left": 2570,
+          "top": 2490,
+          "right": 4288,
+          "bottom": 2686
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n83/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "927619c715d083d06c495254e5936c57136b7031720d52544295b715d0d87712",
+        "normalizedPassageChecksum": "4b255ac04809582ed2619ad014158c07a76d6fc7dea68244d72d73b76faeb699",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_43bc52ba5b2bc2b0e8891f4a",
+      "type": "Event",
+      "title": "Attack on German military stores",
+      "relation": "Occurred At",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_8d056bf05e0914a2ab8774ac",
+      "type": "Person",
+      "title": "David Yardeni",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_903cace7b9d25d890d10798d",
+      "type": "Place",
+      "title": "Kurilily",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bef555e7da2ac18e58826b79",
+      "type": "Organization",
+      "title": "Community Committee",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_288b6cc4068c648e49910e2c",
+      "type": "Organization",
+      "title": "Polish Police",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_79f83bc9dcb1c2cf29bfc9e1",
+      "type": "Person",
+      "title": "Straz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2459fa61cac07bbbacdee3f3",
+      "type": "Place",
+      "title": "Krynki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f235829b068dc3ff4494f314",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

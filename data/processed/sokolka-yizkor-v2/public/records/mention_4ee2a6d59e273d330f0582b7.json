@@ -5,7 +5,7 @@
   "summary": "One of nine towns in the district.",
   "originalName": "נובי־דבור",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 33,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,20 +20,25 @@
       "printedPage": null,
       "passageCharStart": 782,
       "passageCharEnd": 791,
-      "normalizedPassageCharStart": 591,
-      "normalizedPassageCharEnd": 600,
+      "normalizedPassageCharStart": 782,
+      "normalizedPassageCharEnd": 791,
       "pageCharStart": 2968,
       "pageCharEnd": 2977,
       "quote": "נובי־דבור",
       "normalizedQuote": "נובי־דבור",
       "modelQuote": "נובי־דבור",
-      "bbox": null,
+      "bbox": {
+        "left": 969,
+        "top": 3189,
+        "right": 1257,
+        "bottom": 3239
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n32/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "4e806268e17ac2b700e97f32646502f693c37bebf47e50818bd73ff65b5d3868",
       "normalizedPassageChecksum": "5eb893bb72faf4f61e396c7fd960095d9aafd9c889884c51a05a9a716ce791d5",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -41,9 +46,9 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_7dadfa0e7203a57b5c27fad8",
-      "type": "Community",
-      "title": "Sokolka District",
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
       "relation": "Appears in same passage"
     },
     {
@@ -53,45 +58,39 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_fbc3339d0984d27fd71efe67",
+      "id": "mention_4c5289e0e4be4dd4ee9bf600",
       "type": "Place",
-      "title": "Janov",
+      "title": "Yanov",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6c5ef82b36eb768b976d8826",
+      "id": "mention_0008106ff20e0034bcd34ea4",
       "type": "Place",
-      "title": "Kuritzin",
+      "title": "Kuritsin",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_513e5b19597cc91e7cb3d1c2",
       "type": "Place",
-      "title": "Kuzhnitsa",
+      "title": "Kozhnitsa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9aceca2aeb6cb0e7130077aa",
+      "id": "mention_65d68ceba956a9a8c4c15739",
       "type": "Place",
-      "title": "Odelsk",
+      "title": "Sidera",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b812a372dc625674a61fd49d",
+      "id": "mention_77124a6145f5cdbe63dbe66b",
       "type": "Place",
-      "title": "Sidra",
+      "title": "Vasilkov",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dca0134c71fc907ee094ae93",
+      "id": "mention_7bd704fd7b22022dcfc18696",
       "type": "Place",
-      "title": "Silkovo",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_1263e829b043755f0a9f2207",
-      "type": "Place",
-      "title": "Sokhuvolya",
+      "title": "Sukhovoliya",
       "relation": "Appears in same passage"
     }
   ],

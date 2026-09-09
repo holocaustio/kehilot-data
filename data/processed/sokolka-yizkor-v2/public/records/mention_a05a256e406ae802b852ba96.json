@@ -1,0 +1,106 @@
+{
+  "id": "mention_a05a256e406ae802b852ba96",
+  "type": "Person",
+  "title": "Rabbi Slodzinsky",
+  "summary": "Rabbi mentioned in a 1930 reception caption in Smorgon.",
+  "originalName": "רב סלודזינסקי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 51,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "rabbi",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_821c878342db8cf3a3755797",
+      "pageId": "page_nybc314005_0051",
+      "scanIndex": 51,
+      "leafNumber": 50,
+      "printedPage": null,
+      "passageCharStart": 219,
+      "passageCharEnd": 247,
+      "normalizedPassageCharStart": 219,
+      "normalizedPassageCharEnd": 247,
+      "pageCharStart": 1531,
+      "pageCharEnd": 1559,
+      "quote": "קבל ת פני ם לר ב סלודזינסק י",
+      "normalizedQuote": "קבל ת פני ם לר ב סלודזינסק י",
+      "modelQuote": "קבלת פנים לרב סלודזינסקי",
+      "bbox": {
+        "left": 2990,
+        "top": 5483,
+        "right": 3720,
+        "bottom": 5547
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n50/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "f32b398f5bc356dd80f79f5127ee5e245c14630fe9bf5c33e8b255c38231226f",
+      "normalizedPassageChecksum": "ae16e7235b417551589b104605870aba9eee9748cd01bbf1cb705408a0aeb9b4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_e2596c8acd72d873f54f8c5e",
+      "predicate": "Spouse Of",
+      "subjectTitle": "Rabbi Slodzinsky",
+      "objectTitle": "Rabbi Shuster",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The caption states that Rabbi Shuster is the father-in-law, not spouse.",
+      "evidence": {
+        "passageId": "passage_821c878342db8cf3a3755797",
+        "pageId": "page_nybc314005_0051",
+        "scanIndex": 51,
+        "leafNumber": 50,
+        "printedPage": null,
+        "passageCharStart": 248,
+        "passageCharEnd": 271,
+        "normalizedPassageCharStart": 248,
+        "normalizedPassageCharEnd": 271,
+        "pageCharStart": 1560,
+        "pageCharEnd": 1583,
+        "quote": "(חתנ ו ש ל הר ב שוסטר )",
+        "normalizedQuote": "(חתנ ו ש ל הר ב שוסטר )",
+        "modelQuote": "(חתנו של הרב שוסטר)",
+        "bbox": {
+          "left": 2350,
+          "top": 5479,
+          "right": 2956,
+          "bottom": 5541
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n50/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "f32b398f5bc356dd80f79f5127ee5e245c14630fe9bf5c33e8b255c38231226f",
+        "normalizedPassageChecksum": "ae16e7235b417551589b104605870aba9eee9748cd01bbf1cb705408a0aeb9b4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_97a290b69c2dcb7a92141b6f",
+      "type": "Person",
+      "title": "Rabbi Shuster",
+      "relation": "Spouse Of"
+    },
+    {
+      "id": "mention_97a290b69c2dcb7a92141b6f",
+      "type": "Person",
+      "title": "Rabbi Shuster",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_544c6bdb69dc67f3fef07141",
+      "type": "Place",
+      "title": "Smorgon",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

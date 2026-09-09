@@ -1,0 +1,185 @@
+{
+  "id": "mention_9b2e219933c20cf36b100fb8",
+  "type": "Person",
+  "title": "Tuvia",
+  "summary": "Brother said to have sacrificed his life in a blood libel four centuries earlier.",
+  "originalName": "טוביה",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 197,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3dd00eb177644ac9b00d116a",
+      "pageId": "page_nybc314005_0197",
+      "scanIndex": 197,
+      "leafNumber": 196,
+      "printedPage": null,
+      "passageCharStart": 600,
+      "passageCharEnd": 606,
+      "normalizedPassageCharStart": 600,
+      "normalizedPassageCharEnd": 606,
+      "pageCharStart": 600,
+      "pageCharEnd": 606,
+      "quote": "וטוביה",
+      "normalizedQuote": "וטוביה",
+      "modelQuote": "וטוביה",
+      "bbox": {
+        "left": 4047,
+        "top": 5531,
+        "right": 4233,
+        "bottom": 5581
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n196/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "7be1082a4e8301369401f26e151d309127772f97d4e105ecaf713332c75afc83",
+      "normalizedPassageChecksum": "57342e24eda8f930ef0c3c68333e80907a0e6ea992b522758801c398356364ea",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_aa404f8330ff3b746bd57c45",
+      "predicate": "Sibling Of",
+      "subjectTitle": "Israel",
+      "objectTitle": "Tuvia",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_3dd00eb177644ac9b00d116a",
+        "pageId": "page_nybc314005_0197",
+        "scanIndex": 197,
+        "leafNumber": 196,
+        "printedPage": null,
+        "passageCharStart": 581,
+        "passageCharEnd": 606,
+        "normalizedPassageCharStart": 581,
+        "normalizedPassageCharEnd": 606,
+        "pageCharStart": 581,
+        "pageCharEnd": 606,
+        "quote": "שנ י האחי ם ישרא ל\nוטוביה",
+        "normalizedQuote": "שנ י האחי ם ישרא ל\nוטוביה",
+        "modelQuote": "שני האחים ישראל\nוטוביה",
+        "bbox": {
+          "left": 2613,
+          "top": 5391,
+          "right": 4233,
+          "bottom": 5581
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n196/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "7be1082a4e8301369401f26e151d309127772f97d4e105ecaf713332c75afc83",
+        "normalizedPassageChecksum": "57342e24eda8f930ef0c3c68333e80907a0e6ea992b522758801c398356364ea",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_aad2d8302ef85ca0036f08fe",
+      "type": "Death",
+      "title": "Death of Israel and Tuvia in an alleged blood libel",
+      "summary": "Israel and Tuvia reportedly sacrificed their lives for the sanctification of God's name in a blood-libel incident four centuries earlier, according to family tradition.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage is a family tradition and does not explicitly state a murder.",
+      "evidence": {
+        "passageId": "passage_3dd00eb177644ac9b00d116a",
+        "pageId": "page_nybc314005_0197",
+        "scanIndex": 197,
+        "leafNumber": 196,
+        "printedPage": null,
+        "passageCharStart": 609,
+        "passageCharEnd": 652,
+        "normalizedPassageCharStart": 609,
+        "normalizedPassageCharEnd": 652,
+        "pageCharStart": 609,
+        "pageCharEnd": 652,
+        "quote": "אש ר מסר ו נפש ם ע ל קדו ש השם , בעלילת־הדם",
+        "normalizedQuote": "אש ר מסר ו נפש ם ע ל קדו ש השם , בעלילת־הדם",
+        "modelQuote": "אשר מסרו נפשם על קדוש השם, בעלילת־הדם",
+        "bbox": {
+          "left": 2631,
+          "top": 5507,
+          "right": 3993,
+          "bottom": 5589
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n196/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "7be1082a4e8301369401f26e151d309127772f97d4e105ecaf713332c75afc83",
+        "normalizedPassageChecksum": "57342e24eda8f930ef0c3c68333e80907a0e6ea992b522758801c398356364ea",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1a651c496466f312106717a7",
+      "type": "Person",
+      "title": "Israel",
+      "relation": "Sibling Of"
+    },
+    {
+      "id": "event_candidate_aad2d8302ef85ca0036f08fe",
+      "type": "Event",
+      "title": "Death of Israel and Tuvia in an alleged blood libel",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_be0100990d643d7127b44c20",
+      "type": "Person",
+      "title": "Tzafra Hyman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6f1980b6db92a816a63abd9c",
+      "type": "Person",
+      "title": "Rabbi Betzalel Zakaheim",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_feeef012fea33efe159ee9dc",
+      "type": "Place",
+      "title": "Rizhinoy",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d83bbfd9453ba81e6be79189",
+      "type": "Family",
+      "title": "Zakaheim family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1a651c496466f312106717a7",
+      "type": "Person",
+      "title": "Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d1763ec7519c0a9295649d70",
+      "type": "Person",
+      "title": "Rabbi Yohanan the Sandalmaker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d80d07f18f9193fb8752aa88",
+      "type": "Person",
+      "title": "King David",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

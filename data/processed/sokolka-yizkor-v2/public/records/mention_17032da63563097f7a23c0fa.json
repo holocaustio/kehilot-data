@@ -1,0 +1,113 @@
+{
+  "id": "mention_17032da63563097f7a23c0fa",
+  "type": "Place",
+  "title": "Tilsit",
+  "summary": "Site of the peace conference associated with the 1807 territorial division.",
+  "originalName": "טילזיט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 29,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bf050b59e334426ed1dd18d5",
+      "pageId": "page_nybc314005_0029",
+      "scanIndex": 29,
+      "leafNumber": 28,
+      "printedPage": null,
+      "passageCharStart": 339,
+      "passageCharEnd": 360,
+      "normalizedPassageCharStart": 339,
+      "normalizedPassageCharEnd": 360,
+      "pageCharStart": 339,
+      "pageCharEnd": 360,
+      "quote": "בטילזי ט ועיד ת השלום",
+      "normalizedQuote": "בטילזי ט ועיד ת השלום",
+      "modelQuote": "בטילזיט ועידת השלום",
+      "bbox": {
+        "left": 3532,
+        "top": 1583,
+        "right": 4202,
+        "bottom": 1659
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n28/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "f1ff807a3008c4c58a3ccb8e67760fbe162fcd88c4f692a7007b4881a5f6ae1e",
+      "normalizedPassageChecksum": "b8bc3c795af61df7d27262f572b0aa3e758ee656ef0b951cc1df1fc6bcc24190",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_12a9c7303ee1a24a3a3509e0",
+      "type": "Migration",
+      "title": "Treaty of Tilsit territorial transfer",
+      "summary": "The treaty transferred Lithuania to Russia and divided the former Białystok region.",
+      "dateStart": "1807-07-07",
+      "confidence": "HIGH",
+      "uncertaintyNote": "This is a territorial transfer, not migration, and no dedicated treaty event type is available.",
+      "evidence": {
+        "passageId": "passage_bf050b59e334426ed1dd18d5",
+        "pageId": "page_nybc314005_0029",
+        "scanIndex": 29,
+        "leafNumber": 28,
+        "printedPage": null,
+        "passageCharStart": 394,
+        "passageCharEnd": 446,
+        "normalizedPassageCharStart": 394,
+        "normalizedPassageCharEnd": 446,
+        "pageCharStart": 394,
+        "pageCharEnd": 446,
+        "quote": "שנחת ם ב־ 7 ליול י 1807 נמס ר כ ל חב ל ליט א לרוסי ה",
+        "normalizedQuote": "שנחת ם ב־ 7 ליול י 1807 נמס ר כ ל חב ל ליט א לרוסי ה",
+        "modelQuote": "שנחתם ב־7 ליולי 1807 נמסר כל חבל ליטא לרוסיה",
+        "bbox": {
+          "left": 2578,
+          "top": 1703,
+          "right": 4206,
+          "bottom": 1779
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n28/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "f1ff807a3008c4c58a3ccb8e67760fbe162fcd88c4f692a7007b4881a5f6ae1e",
+        "normalizedPassageChecksum": "b8bc3c795af61df7d27262f572b0aa3e758ee656ef0b951cc1df1fc6bcc24190",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_12a9c7303ee1a24a3a3509e0",
+      "type": "Event",
+      "title": "Treaty of Tilsit territorial transfer",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c3d05018dc3486fffe4b0544",
+      "type": "Place",
+      "title": "Białystok District",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_26c2be6821bbedd1f30b1eff",
+      "type": "Place",
+      "title": "Drohiczyn District",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_96ec8ea134514a4567da0ae2",
+      "type": "Person",
+      "title": "Alexander I",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

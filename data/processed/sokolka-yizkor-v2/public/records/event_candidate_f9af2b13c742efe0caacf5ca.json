@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_f9af2b13c742efe0caacf5ca",
+  "type": "Event",
+  "title": "Opening of two German schools",
+  "summary": "Two German schools opened in Sokolka, one for Jewish children and one for Christians.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 77,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "The event type is approximated because the schema lacks a school-opening event type.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c3b33cf163e6f343543eacf5",
+      "pageId": "page_nybc314005_0077",
+      "scanIndex": 77,
+      "leafNumber": 76,
+      "printedPage": null,
+      "passageCharStart": 980,
+      "passageCharEnd": 1007,
+      "normalizedPassageCharStart": 980,
+      "normalizedPassageCharEnd": 1007,
+      "pageCharStart": 3530,
+      "pageCharEnd": 3557,
+      "quote": "נפתח ו שנ י בתי-ספ ר גרמנים",
+      "normalizedQuote": "נפתח ו שנ י בתי-ספ ר גרמנים",
+      "modelQuote": "נפתחו שני בתי-ספר גרמנים",
+      "bbox": {
+        "left": 1402,
+        "top": 4575,
+        "right": 2298,
+        "bottom": 4627
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n76/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "628a0b6bad9c12ca87e3ee8999ac2101146f035e3865029f94be981f35e07036",
+      "normalizedPassageChecksum": "2950af2caea71bf327b43b2bd3933438f8b161239b336ce01b680943587f4169",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ef7bc5d64765e9212e4b9ec7",
+      "type": "Organization",
+      "title": "German authorities",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_3c0a36cbaf41036a27d2939b",
+      "type": "Institution",
+      "title": "German schools",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

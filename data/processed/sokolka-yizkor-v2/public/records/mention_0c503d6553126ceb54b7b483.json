@@ -1,0 +1,138 @@
+{
+  "id": "mention_0c503d6553126ceb54b7b483",
+  "type": "Person",
+  "title": "Military commander of Grodno",
+  "summary": "Military commander who authorized the narrator to cross the border.",
+  "originalName": "המפקד הצבאי של העיר גרודנד,",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 191,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military commander",
+  "uncertaintyNote": "The commander is unnamed.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0df856ee6842f7486162a509",
+      "pageId": "page_nybc314005_0191",
+      "scanIndex": 191,
+      "leafNumber": 190,
+      "printedPage": null,
+      "passageCharStart": 526,
+      "passageCharEnd": 548,
+      "normalizedPassageCharStart": 526,
+      "normalizedPassageCharEnd": 548,
+      "pageCharStart": 2660,
+      "pageCharEnd": 2682,
+      "quote": "המפק ד נט ל א ת נירותי",
+      "normalizedQuote": "המפק ד נט ל א ת נירותי",
+      "modelQuote": "המפקד נטל את נירותי",
+      "bbox": {
+        "left": 760,
+        "top": 1943,
+        "right": 1462,
+        "bottom": 2021
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n190/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "704e5e17999cdeb4fb123a14f158ab4688792ea20a4fa280075f78c163eb1201",
+      "normalizedPassageChecksum": "ad0469da31420d521afc76f6f1a0504248397d1d5d136786281f55c03fa8db3e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_0a94e0cd1ceb1c42ac3f942a",
+      "type": "Migration",
+      "title": "Border-crossing authorization",
+      "summary": "Grodno’s military commander authorized the narrator to cross the border toward Sokółka.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The narrator is unnamed.",
+      "evidence": {
+        "passageId": "passage_0df856ee6842f7486162a509",
+        "pageId": "page_nybc314005_0191",
+        "scanIndex": 191,
+        "leafNumber": 190,
+        "printedPage": null,
+        "passageCharStart": 605,
+        "passageCharEnd": 623,
+        "normalizedPassageCharStart": 605,
+        "normalizedPassageCharEnd": 623,
+        "pageCharStart": 2739,
+        "pageCharEnd": 2757,
+        "quote": "להתי ר מעב ר הגבול",
+        "normalizedQuote": "להתי ר מעב ר הגבול",
+        "modelQuote": "להתיר מעבר הגבול",
+        "bbox": {
+          "left": 1758,
+          "top": 2181,
+          "right": 2348,
+          "bottom": 2247
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n190/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "704e5e17999cdeb4fb123a14f158ab4688792ea20a4fa280075f78c163eb1201",
+        "normalizedPassageChecksum": "ad0469da31420d521afc76f6f1a0504248397d1d5d136786281f55c03fa8db3e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1e7ccce3d6546f2a8bcff778",
+      "type": "Place",
+      "title": "Grodno",
+      "relation": "Authorized Crossing"
+    },
+    {
+      "id": "event_candidate_0a94e0cd1ceb1c42ac3f942a",
+      "type": "Event",
+      "title": "Border-crossing authorization",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_005508216a121e5ae1d79f7e",
+      "type": "Place",
+      "title": "Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fadb2281dcca72530133a0a0",
+      "type": "Place",
+      "title": "Białystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9ed47882a5bf62598b99dadd",
+      "type": "Place",
+      "title": "Sokółka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1e7ccce3d6546f2a8bcff778",
+      "type": "Place",
+      "title": "Grodno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6ec21c4b6d9f7d6e9215311b",
+      "type": "Place",
+      "title": "Border",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a67640ae8f936a6e1c239f9e",
+      "type": "Organization",
+      "title": "Military personnel",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

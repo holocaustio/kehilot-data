@@ -1,0 +1,111 @@
+{
+  "id": "mention_f5136f6716b16072e5431cf3",
+  "type": "Institution",
+  "title": "Białystok Yeshiva",
+  "summary": "Yeshiva where Mohilever and Orliansky studied in their youth.",
+  "originalName": "ישיבת ביאליסטוק",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 45,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "yeshiva",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_851f102ec6552e43a9749523",
+      "pageId": "page_nybc314005_0045",
+      "scanIndex": 45,
+      "leafNumber": 44,
+      "printedPage": null,
+      "passageCharStart": 417,
+      "passageCharEnd": 434,
+      "normalizedPassageCharStart": 417,
+      "normalizedPassageCharEnd": 434,
+      "pageCharStart": 417,
+      "pageCharEnd": 434,
+      "quote": "בישיב ת ביאליסטוק",
+      "normalizedQuote": "בישיב ת ביאליסטוק",
+      "modelQuote": "בישיבת ביאליסטוק",
+      "bbox": {
+        "left": 3361,
+        "top": 1674,
+        "right": 3917,
+        "bottom": 1754
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n44/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "6c0a76c6afd383e707ff82b442642424120d6e0b27977d5db902a257804cb7ac",
+      "normalizedPassageChecksum": "8622d5998f8fce97b12898bf96c38b773164df2a4ec6a50915723a6639073854",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_dc1a4682c6a4b0a2d0de9920",
+      "predicate": "Studied At",
+      "subjectTitle": "Shmuel Mohilever",
+      "objectTitle": "Białystok Yeshiva",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_851f102ec6552e43a9749523",
+        "pageId": "page_nybc314005_0045",
+        "scanIndex": 45,
+        "leafNumber": 44,
+        "printedPage": null,
+        "passageCharStart": 399,
+        "passageCharEnd": 434,
+        "normalizedPassageCharStart": 399,
+        "normalizedPassageCharEnd": 434,
+        "pageCharStart": 399,
+        "pageCharEnd": 434,
+        "quote": "מתקופ ת\nלימודיה ם בישיב ת ביאליסטוק",
+        "normalizedQuote": "מתקופ ת\nלימודיה ם בישיב ת ביאליסטוק",
+        "modelQuote": "מתקופת\nלימודיהם בישיבת ביאליסטוק",
+        "bbox": {
+          "left": 2585,
+          "top": 1576,
+          "right": 4207,
+          "bottom": 1754
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n44/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "6c0a76c6afd383e707ff82b442642424120d6e0b27977d5db902a257804cb7ac",
+        "normalizedPassageChecksum": "8622d5998f8fce97b12898bf96c38b773164df2a4ec6a50915723a6639073854",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_99dcc6e654913132a6331759",
+      "type": "Person",
+      "title": "Shmuel Mohilever",
+      "relation": "Studied At"
+    },
+    {
+      "id": "mention_99dcc6e654913132a6331759",
+      "type": "Person",
+      "title": "Shmuel Mohilever",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fadb2281dcca72530133a0a0",
+      "type": "Place",
+      "title": "Białystok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3a12a4e0889ada8dfce7b265",
+      "type": "Place",
+      "title": "Petah Tikva",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

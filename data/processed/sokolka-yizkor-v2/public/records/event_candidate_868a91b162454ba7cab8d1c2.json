@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_868a91b162454ba7cab8d1c2",
+  "type": "Event",
+  "title": "Murder of Baruch Tzvi",
+  "summary": "Baruch Tzvi was murdered by Nazis in the Bialystok Ghetto.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 199,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_85b343e68629181f6f44ec25",
+      "pageId": "page_nybc314005_0199",
+      "scanIndex": 199,
+      "leafNumber": 198,
+      "printedPage": null,
+      "passageCharStart": 397,
+      "passageCharEnd": 436,
+      "normalizedPassageCharStart": 397,
+      "normalizedPassageCharEnd": 436,
+      "pageCharStart": 3083,
+      "pageCharEnd": 3122,
+      "quote": "ביד י הנאצי ם הארורי ם בגיט ו ביאליסטוק",
+      "normalizedQuote": "ביד י הנאצי ם הארורי ם בגיט ו ביאליסטוק",
+      "modelQuote": "בידי הנאצים הארורים בגיטו ביאליסטוק",
+      "bbox": {
+        "left": 913,
+        "top": 3768,
+        "right": 2047,
+        "bottom": 3842
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n198/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "cf3811242a76e4a64cb938dc3e41300ea5dadeafb455ac3da744b1e637e68afa",
+      "normalizedPassageChecksum": "86b8a6eb672c40da221f301c9af034d7c860bb57d55e68a0316c822a7533a52e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_472c2103ad26db82b373fc68",
+      "type": "Place",
+      "title": "Bialystok Ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_737fd0e2a533cd2c6c0f7d11",
+      "type": "Person",
+      "title": "Baruch Tzvi son of Shalom Ha-Levi",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

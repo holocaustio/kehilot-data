@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_c63b30f8c2139138e9612169",
+  "type": "Event",
+  "title": "German capture of Sokolka",
+  "summary": "German forces entered and captured Sokolka in 1915.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 75,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The event is military occupation; MIGRATION is the closest available event type.",
+  "dateStart": "1915",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_aff68d3638cbf672c45da641",
+      "pageId": "page_nybc314005_0075",
+      "scanIndex": 75,
+      "leafNumber": 74,
+      "printedPage": null,
+      "passageCharStart": 42,
+      "passageCharEnd": 85,
+      "normalizedPassageCharStart": 42,
+      "normalizedPassageCharEnd": 85,
+      "pageCharStart": 3763,
+      "pageCharEnd": 3806,
+      "quote": "ב- 1915 נכבש ה סוקולק ה ביד י הצב א הגרמנ י",
+      "normalizedQuote": "ב- 1915 נכבש ה סוקולק ה ביד י הצב א הגרמנ י",
+      "modelQuote": "ב-1915 נכבשה סוקולקה בידי הצבא הגרמני",
+      "bbox": {
+        "left": 1015,
+        "top": 5110,
+        "right": 2371,
+        "bottom": 5190
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n74/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "b3ed8287eb4add661b0865a6de60ac1e9c3b121f03acfbdc8a90b5906a7463f9",
+      "normalizedPassageChecksum": "31d5364957d25f3168dae7dba9ba336822f6e2129c639305cfdef378815e6b95",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_8a7a14afc75d4f7ce679e361",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_616ec5dd224296af61ace832",
+      "type": "Organization",
+      "title": "German army",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_8a7a14afc75d4f7ce679e361",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

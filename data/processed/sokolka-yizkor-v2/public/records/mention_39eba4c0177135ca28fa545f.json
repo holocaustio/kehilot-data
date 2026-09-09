@@ -2,7 +2,7 @@
   "id": "mention_39eba4c0177135ca28fa545f",
   "type": "Place",
   "title": "Synagogue area",
-  "summary": "An area of synagogues crossed on the way home.",
+  "summary": "An area containing synagogues on the route between the city and the suburb.",
   "originalName": "שטח בתי־הכנסת",
   "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
@@ -20,14 +20,19 @@
       "printedPage": null,
       "passageCharStart": 467,
       "passageCharEnd": 483,
-      "normalizedPassageCharStart": 337,
-      "normalizedPassageCharEnd": 350,
+      "normalizedPassageCharStart": 467,
+      "normalizedPassageCharEnd": 483,
       "pageCharStart": 467,
       "pageCharEnd": 483,
       "quote": "שט ח בתי ־\nהכנסת",
-      "normalizedQuote": "שטחבתי־ הכנסת",
+      "normalizedQuote": "שט ח בתי ־\nהכנסת",
       "modelQuote": "שטח בתי־הכנסת",
-      "bbox": null,
+      "bbox": {
+        "left": 2577,
+        "top": 1974,
+        "right": 4227,
+        "bottom": 2152
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n121/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "f1ed0235d7f96ae8ec01642a7181d8713c926fb72c99f7b2ad5831e85b9de013",
@@ -41,33 +46,33 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_faddb99e35619382a5258ef5",
-      "type": "Community",
-      "title": "Sokolka",
+      "id": "mention_6464f819780890efbcb06bed",
+      "type": "Person",
+      "title": "Tzipora Schmidt-Viscol",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5e033dca122d3c5124880024",
+      "id": "mention_f6d0bb99f7870d34c83283cd",
+      "type": "Place",
+      "title": "The Suburb",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4f22ce881971ac2e113159b7",
       "type": "Place",
       "title": "Bialystok Street",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9dc7c2f83daed3a91dbf78ee",
+      "id": "mention_1e152aff7db598cd6dc16a70",
       "type": "Place",
       "title": "Railway tracks",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a46e990bdeacf3638628df7a",
+      "id": "mention_c1cd9edc4dc4d82db32c78a2",
       "type": "Place",
-      "title": "The second house",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5002e35d7b4d1a0f1d7c0737",
-      "type": "Person",
-      "title": "Tziporah Schmidt-Viscol",
+      "title": "Second house on the hill",
       "relation": "Appears in same passage"
     }
   ],

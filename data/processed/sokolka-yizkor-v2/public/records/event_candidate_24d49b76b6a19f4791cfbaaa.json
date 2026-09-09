@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_24d49b76b6a19f4791cfbaaa",
+  "type": "Event",
+  "title": "Death of Yitzhak Kotler's family at Auschwitz",
+  "summary": "The testimony states that the speaker's entire family perished in Auschwitz.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 278,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e515e534583bba13394c853c",
+      "pageId": "page_nybc314005_0278",
+      "scanIndex": 278,
+      "leafNumber": 277,
+      "printedPage": null,
+      "passageCharStart": 27,
+      "passageCharEnd": 78,
+      "normalizedPassageCharStart": 27,
+      "normalizedPassageCharEnd": 78,
+      "pageCharStart": 27,
+      "pageCharEnd": 78,
+      "quote": "מיי ן גאנצ ע משפח ה אי ז אומגעקומע ן אי ן אושוויץ .",
+      "normalizedQuote": "מיי ן גאנצ ע משפח ה אי ז אומגעקומע ן אי ן אושוויץ .",
+      "modelQuote": "מיין גאנצע משפחה איז אומגעקומען אין אושוויץ.",
+      "bbox": {
+        "left": 2684,
+        "top": 1807,
+        "right": 4256,
+        "bottom": 1869
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n277/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "d1a68ae6e176c650054a0d5903e891c986190dc7ee1aad41dba3b00343c291b0",
+      "normalizedPassageChecksum": "bb22dae5c4101e1e322670fa1c41c736024fc8784a14b956d57c4f72010c917e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_fd6d37624f20acfc67a74a2c",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_762079a581e588f2e4b534e9",
+      "type": "Family",
+      "title": "Yitzhak Kotler's family",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_acd15c1f58aa765c9a5debe9",
+      "type": "Person",
+      "title": "Yitzhak Kotler",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

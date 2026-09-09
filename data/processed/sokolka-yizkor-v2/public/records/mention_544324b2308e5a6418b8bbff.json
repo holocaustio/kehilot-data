@@ -1,0 +1,107 @@
+{
+  "id": "mention_544324b2308e5a6418b8bbff",
+  "type": "Place",
+  "title": "Kurilli",
+  "summary": "Place the narrator expected to visit with the uncle.",
+  "originalName": "קוריללי",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 257,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "place",
+  "uncertaintyNote": "Place identification is based on OCR transliteration.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b12eaa43e2145c1dda4c1370",
+      "pageId": "page_nybc314005_0257",
+      "scanIndex": 257,
+      "leafNumber": 256,
+      "printedPage": null,
+      "passageCharStart": 267,
+      "passageCharEnd": 279,
+      "normalizedPassageCharStart": 267,
+      "normalizedPassageCharEnd": 279,
+      "pageCharStart": 2841,
+      "pageCharEnd": 2853,
+      "quote": "אי ן קוריללי",
+      "normalizedQuote": "אי ן קוריללי",
+      "modelQuote": "אי ן קוריללי",
+      "bbox": {
+        "left": 792,
+        "top": 4287,
+        "right": 1142,
+        "bottom": 4367
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n256/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "275128a7680a7ce106461a16e32f80fae29e3227ec4de0dc5cc5547e577034b6",
+      "normalizedPassageChecksum": "25647fba4cf0bf172c65fa2747f95511ce485a0b4029f7c8b0c84d49b41d7b3b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_4a563d8c519f4f00170fdfc3",
+      "predicate": "Intended Travel To",
+      "subjectTitle": "Uncle Moshe-Chaim",
+      "objectTitle": "Kurilli",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text expresses an intended trip; the destination reading is OCR-uncertain.",
+      "evidence": {
+        "passageId": "passage_b12eaa43e2145c1dda4c1370",
+        "pageId": "page_nybc314005_0257",
+        "scanIndex": 257,
+        "leafNumber": 256,
+        "printedPage": null,
+        "passageCharStart": 246,
+        "passageCharEnd": 279,
+        "normalizedPassageCharStart": 246,
+        "normalizedPassageCharEnd": 279,
+        "pageCharStart": 2820,
+        "pageCharEnd": 2853,
+        "quote": "זאה ל מי ר מיטנעמע ן אי ן קוריללי",
+        "normalizedQuote": "זאה ל מי ר מיטנעמע ן אי ן קוריללי",
+        "modelQuote": "זאה ל מי ר מיטנעמע ן אי ן קוריללי",
+        "bbox": {
+          "left": 792,
+          "top": 4287,
+          "right": 1782,
+          "bottom": 4375
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n256/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "275128a7680a7ce106461a16e32f80fae29e3227ec4de0dc5cc5547e577034b6",
+        "normalizedPassageChecksum": "25647fba4cf0bf172c65fa2747f95511ce485a0b4029f7c8b0c84d49b41d7b3b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_d06beec66dde778d5203becc",
+      "type": "Person",
+      "title": "Uncle Moshe-Chaim",
+      "relation": "Intended Travel To"
+    },
+    {
+      "id": "mention_d06beec66dde778d5203becc",
+      "type": "Person",
+      "title": "Uncle Moshe-Chaim",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_082f9c108320a277c056ac5d",
+      "type": "Object",
+      "title": "Small horse",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

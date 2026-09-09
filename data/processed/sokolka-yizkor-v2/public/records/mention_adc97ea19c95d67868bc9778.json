@@ -2,7 +2,7 @@
   "id": "mention_adc97ea19c95d67868bc9778",
   "type": "Place",
   "title": "Sokolka–Krynki road",
-  "summary": "Road cleared of snow by Jewish forced laborers.",
+  "summary": "Jewish residents were forced to clear snow from this road.",
   "originalName": "הכביש סוקולקה־קרינקי",
   "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
@@ -20,14 +20,19 @@
       "printedPage": null,
       "passageCharStart": 777,
       "passageCharEnd": 799,
-      "normalizedPassageCharStart": 557,
-      "normalizedPassageCharEnd": 576,
+      "normalizedPassageCharStart": 777,
+      "normalizedPassageCharEnd": 799,
       "pageCharStart": 1670,
       "pageCharEnd": 1692,
       "quote": "הכבי ש סוקולקה־קרינק י",
-      "normalizedQuote": "הכבישסוקולקה־קרינקי",
+      "normalizedQuote": "הכבי ש סוקולקה־קרינק י",
       "modelQuote": "הכביש סוקולקה־קרינקי",
-      "bbox": null,
+      "bbox": {
+        "left": 2583,
+        "top": 4561,
+        "right": 3287,
+        "bottom": 4639
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n186/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "8bceaaff50c22d862efd6b0c14806196a6a97073a96856d10d8fd79886a1a22e",
@@ -40,10 +45,10 @@
   "claims": [],
   "events": [
     {
-      "id": "event_candidate_6904c2328a27d1d66d0b592f",
+      "id": "event_candidate_32db272f20697f0f326e226c",
       "type": "Employment",
-      "title": "Forced snow-clearing labor",
-      "summary": "Jews, including Jewish women, were required to clear snow from the Sokolka–Krynki road.",
+      "title": "Forced snow clearing on the Sokolka–Krynki road",
+      "summary": "Jewish residents, including women, were compelled to clear snow from the road.",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_f96b4405ef363ce113610ce8",
@@ -51,16 +56,21 @@
         "scanIndex": 187,
         "leafNumber": 186,
         "printedPage": null,
-        "passageCharStart": 805,
+        "passageCharStart": 800,
         "passageCharEnd": 828,
-        "normalizedPassageCharStart": 580,
-        "normalizedPassageCharEnd": 599,
-        "pageCharStart": 1698,
+        "normalizedPassageCharStart": 800,
+        "normalizedPassageCharEnd": 828,
+        "pageCharStart": 1693,
         "pageCharEnd": 1721,
-        "quote": "היהודי ם צריכי ם לנקותו",
-        "normalizedQuote": "היהודיםצריכיםלנקותו",
-        "modelQuote": "היהודים צריכים לנקותו",
-        "bbox": null,
+        "quote": "הי ו היהודי ם צריכי ם לנקותו",
+        "normalizedQuote": "הי ו היהודי ם צריכי ם לנקותו",
+        "modelQuote": "היו היהודים צריכים לנקותו",
+        "bbox": {
+          "left": 3411,
+          "top": 4681,
+          "right": 4205,
+          "bottom": 4761
+        },
         "scanUrl": "https://archive.org/details/nybc314005/page/n186/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
         "passageChecksum": "8bceaaff50c22d862efd6b0c14806196a6a97073a96856d10d8fd79886a1a22e",
@@ -73,33 +83,33 @@
   ],
   "connections": [
     {
-      "id": "event_candidate_6904c2328a27d1d66d0b592f",
+      "id": "event_candidate_32db272f20697f0f326e226c",
       "type": "Event",
-      "title": "Forced snow-clearing labor",
+      "title": "Forced snow clearing on the Sokolka–Krynki road",
       "relation": "Occurred At"
     },
     {
-      "id": "mention_6fa798ef2f3df3a6cff8455d",
-      "type": "Place",
-      "title": "Sokolka",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b386c308700fc9246300c6b7",
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
       "type": "Community",
-      "title": "Jewish community of Sokolka",
+      "title": "Sokółka Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b991aa365e56d25bbe0b6b1d",
+      "id": "mention_c4dea90b4e351ae312201180",
       "type": "Place",
-      "title": "Bialystok ghetto",
+      "title": "Sokolka ghetto",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_90205ba6ff3d49c97921f432",
+      "id": "mention_e3467e94b9039cb404d33649",
+      "type": "Organization",
+      "title": "Jewish militia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5fa187309cbebbf7e793cec3",
       "type": "Place",
-      "title": "Jewish cemetery",
+      "title": "Sokolka Jewish cemetery",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,72 @@
+{
+  "id": "event_candidate_90ac90909b6be06d406e57b2",
+  "type": "Event",
+  "title": "Publication of Margaliyot HaYam",
+  "summary": "Margaliyot HaYam was printed in Warsaw in 1933.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 42,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "BUSINESS_OPENING is the closest available event type, although the text describes publication.",
+  "dateStart": "1933",
+  "dateEnd": "1933",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3a46c89c51240cb972be7623",
+      "pageId": "page_nybc314005_0042",
+      "scanIndex": 42,
+      "leafNumber": 41,
+      "printedPage": null,
+      "passageCharStart": 378,
+      "passageCharEnd": 406,
+      "normalizedPassageCharStart": 378,
+      "normalizedPassageCharEnd": 406,
+      "pageCharStart": 3716,
+      "pageCharEnd": 3744,
+      "quote": "שנדפ ס בשנ ת תרצ״ ג בווארש ה",
+      "normalizedQuote": "שנדפ ס בשנ ת תרצ״ ג בווארש ה",
+      "modelQuote": "שנדפס בשנת תרצ״ג בווארשה",
+      "bbox": {
+        "left": 856,
+        "top": 4928,
+        "right": 1842,
+        "bottom": 5005
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n41/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "cd5ff22a0841f982b494264e6e06e117e8f7e93b3ca82f7a72ce1a8116ca0a55",
+      "normalizedPassageChecksum": "4546e9e9a844614e104ecd95e46058564716250b51529ccd958181ed57828ebe",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f235829b068dc3ff4494f314",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_68ca04b1a60ab563077834c5",
+      "type": "Work",
+      "title": "Margaliyot HaYam",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_af6a001f76319cdfeace3dc1",
+      "type": "Person",
+      "title": "Hayyim Yehonatan Margolin",
+      "relation": "Participant",
+      "role": "Parent"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

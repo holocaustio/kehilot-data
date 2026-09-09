@@ -1,0 +1,111 @@
+{
+  "id": "mention_9a77a2d06abacf0b722d979b",
+  "type": "Place",
+  "title": "Area near the railway station",
+  "summary": "Place where Shar ultimately fell and was buried.",
+  "originalName": "באן־הויף",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 276,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "railway station area",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9fbb7d70ecf48c4529011282",
+      "pageId": "page_nybc314005_0276",
+      "scanIndex": 276,
+      "leafNumber": 275,
+      "printedPage": null,
+      "passageCharStart": 1032,
+      "passageCharEnd": 1058,
+      "normalizedPassageCharStart": 1032,
+      "normalizedPassageCharEnd": 1058,
+      "pageCharStart": 2032,
+      "pageCharEnd": 2058,
+      "quote": "ניש ט וויי ט פו ן באן־הויף",
+      "normalizedQuote": "ניש ט וויי ט פו ן באן־הויף",
+      "modelQuote": "נישט ווייט פון באן־הויף",
+      "bbox": {
+        "left": 2841,
+        "top": 5593,
+        "right": 3641,
+        "bottom": 5663
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n275/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "1c9b44591f12abcd2699eb16a801fd0dc07d2cdc880769cbe9811fb8fefcdb20",
+      "normalizedPassageChecksum": "7624094d0b1cf88640e0cfed94a0f7ff66e49a1355c7c52c7e92773d6a7bfc02",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_9457487e7deed71830bb2069",
+      "type": "Murder",
+      "title": "Murder of Shar",
+      "summary": "Shar was tortured by Germans and Poles and died after being thrown from rooftops and telephone wires.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9fbb7d70ecf48c4529011282",
+        "pageId": "page_nybc314005_0276",
+        "scanIndex": 276,
+        "leafNumber": 275,
+        "printedPage": null,
+        "passageCharStart": 900,
+        "passageCharEnd": 935,
+        "normalizedPassageCharStart": 900,
+        "normalizedPassageCharEnd": 935,
+        "pageCharStart": 1900,
+        "pageCharEnd": 1935,
+        "quote": "בי ז ע ר הא ט אויסגעהויכ ט ד י נשמה",
+        "normalizedQuote": "בי ז ע ר הא ט אויסגעהויכ ט ד י נשמה",
+        "modelQuote": "ביז ער האט אויסגעהויכט די נשמה",
+        "bbox": {
+          "left": 3155,
+          "top": 5339,
+          "right": 4305,
+          "bottom": 5403
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n275/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "1c9b44591f12abcd2699eb16a801fd0dc07d2cdc880769cbe9811fb8fefcdb20",
+        "normalizedPassageChecksum": "7624094d0b1cf88640e0cfed94a0f7ff66e49a1355c7c52c7e92773d6a7bfc02",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_9457487e7deed71830bb2069",
+      "type": "Event",
+      "title": "Murder of Shar",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_3f56e17ccfa0705a121ee507",
+      "type": "Person",
+      "title": "Shar",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f7ff295522fadbdd7256a288",
+      "type": "Person",
+      "title": "Moshe Stutzinski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bb2c9f2f9de8c15bbaefde16",
+      "type": "Place",
+      "title": "Krinker Street",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

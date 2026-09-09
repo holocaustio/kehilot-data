@@ -1,0 +1,131 @@
+{
+  "id": "mention_cb8e788fa909774cd34df292",
+  "type": "Institution",
+  "title": "Cheder",
+  "summary": "A religious school where children of the colony studied in groups.",
+  "originalName": "חדר",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 301,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish religious school",
+  "uncertaintyNote": "OCR spacing is irregular.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cbf9a48f135bc1e85dea5ed8",
+      "pageId": "page_nybc314005_0301",
+      "scanIndex": 301,
+      "leafNumber": 300,
+      "printedPage": null,
+      "passageCharStart": 28,
+      "passageCharEnd": 50,
+      "normalizedPassageCharStart": 28,
+      "normalizedPassageCharEnd": 50,
+      "pageCharStart": 1255,
+      "pageCharEnd": 1277,
+      "quote": "\"חדר\" , וו ו מי ר אל ע",
+      "normalizedQuote": "\"חדר\" , וו ו מי ר אל ע",
+      "modelQuote": "\"חדר\", וו ו מי ר אל ע",
+      "bbox": {
+        "left": 2579,
+        "top": 4670,
+        "right": 3223,
+        "bottom": 4750
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n300/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "8023f90a861fdd5837cb3bb22e4348e4b8adbe93b1b22e18a0c478fd4a3cb0da",
+      "normalizedPassageChecksum": "fc8b3f4a03b168ea67e0648db397c02ab0e0d2c7be33e37d61894e251144463c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_88824812348ce95fe53298e2",
+      "predicate": "Taught At",
+      "subjectTitle": "Konsh",
+      "objectTitle": "Cheder",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR does not clearly delimit the teacher list.",
+      "evidence": {
+        "passageId": "passage_cbf9a48f135bc1e85dea5ed8",
+        "pageId": "page_nybc314005_0301",
+        "scanIndex": 301,
+        "leafNumber": 300,
+        "printedPage": null,
+        "passageCharStart": 140,
+        "passageCharEnd": 172,
+        "normalizedPassageCharStart": 140,
+        "normalizedPassageCharEnd": 172,
+        "pageCharStart": 1367,
+        "pageCharEnd": 1399,
+        "quote": "קונש ט פו ן סאקאלקע ,\nנחו ם לוין",
+        "normalizedQuote": "קונש ט פו ן סאקאלקע ,\nנחו ם לוין",
+        "modelQuote": "קונש ט פו ן סאקאלקע,\nנחו ם לוין",
+        "bbox": {
+          "left": 2579,
+          "top": 4908,
+          "right": 4211,
+          "bottom": 5116
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n300/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "8023f90a861fdd5837cb3bb22e4348e4b8adbe93b1b22e18a0c478fd4a3cb0da",
+        "normalizedPassageChecksum": "fc8b3f4a03b168ea67e0648db397c02ab0e0d2c7be33e37d61894e251144463c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_de7162deb245ef07cdeded24",
+      "type": "Person",
+      "title": "Konsh",
+      "relation": "Taught At"
+    },
+    {
+      "id": "mention_de7162deb245ef07cdeded24",
+      "type": "Person",
+      "title": "Konsh",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9aed56da968f330a47237830",
+      "type": "Person",
+      "title": "Nahum Levin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0b861ea34ad191d314d7d4f0",
+      "type": "Person",
+      "title": "Kaminsky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_291c8a56f856fbc48168d989",
+      "type": "Family",
+      "title": "Kaminsky family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ca64f37564ade133944f4ce",
+      "type": "Person",
+      "title": "Khemil Sokhanitsky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7cccccdc70a21824bae9ba78",
+      "type": "Person",
+      "title": "Moshele Knishoytsky",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

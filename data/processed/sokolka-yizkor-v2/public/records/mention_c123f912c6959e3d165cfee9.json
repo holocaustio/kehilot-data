@@ -1,0 +1,131 @@
+{
+  "id": "mention_c123f912c6959e3d165cfee9",
+  "type": "Place",
+  "title": "Podlasia",
+  "summary": "Region transferred to Prussian rule after the Third Partition of Poland.",
+  "originalName": "פודלסיה",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 28,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "region",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9d3b30fe4bf90fa707bb7bc1",
+      "pageId": "page_nybc314005_0028",
+      "scanIndex": 28,
+      "leafNumber": 27,
+      "printedPage": null,
+      "passageCharStart": 646,
+      "passageCharEnd": 679,
+      "normalizedPassageCharStart": 646,
+      "normalizedPassageCharEnd": 679,
+      "pageCharStart": 646,
+      "pageCharEnd": 679,
+      "quote": "עבר ה כ ל פודלסי ה לשלטו ן פרוסיה",
+      "normalizedQuote": "עבר ה כ ל פודלסי ה לשלטו ן פרוסיה",
+      "modelQuote": "עברה כל פודלסיה לשלטון פרוסיה",
+      "bbox": {
+        "left": 2970,
+        "top": 2348,
+        "right": 4038,
+        "bottom": 2428
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n27/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "d9c29779a2fb6b8af7452352a585aba492a355294a3aa4cf7f8a1b33b719a078",
+      "normalizedPassageChecksum": "383b4a66963ba1a1b4cb70d4c5aa7b5252fa850ffdf568854b7b4c52b2460801",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f1d928b3ff3ac2c9386b7e7e",
+      "type": "Migration",
+      "title": "Third Partition of Poland",
+      "summary": "Podlasia passed under Prussian rule after the Third Partition of Poland in 1795.",
+      "dateStart": "1795",
+      "confidence": "HIGH",
+      "uncertaintyNote": "This is a political territorial transfer, not migration; no suitable event type exists.",
+      "evidence": {
+        "passageId": "passage_9d3b30fe4bf90fa707bb7bc1",
+        "pageId": "page_nybc314005_0028",
+        "scanIndex": 28,
+        "leafNumber": 27,
+        "printedPage": null,
+        "passageCharStart": 586,
+        "passageCharEnd": 643,
+        "normalizedPassageCharStart": 586,
+        "normalizedPassageCharEnd": 643,
+        "pageCharStart": 586,
+        "pageCharEnd": 643,
+        "quote": "ע ם החלוק ה השלישי ת ש ל פולי ן ביד י שכנותי ה בשנ ת\n1795",
+        "normalizedQuote": "ע ם החלוק ה השלישי ת ש ל פולי ן ביד י שכנותי ה בשנ ת\n1795",
+        "modelQuote": "עם החלוקה השלישית של פולין בידי שכנותיה בשנת\n1795",
+        "bbox": {
+          "left": 2582,
+          "top": 2224,
+          "right": 4240,
+          "bottom": 2416
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n27/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "d9c29779a2fb6b8af7452352a585aba492a355294a3aa4cf7f8a1b33b719a078",
+        "normalizedPassageChecksum": "383b4a66963ba1a1b4cb70d4c5aa7b5252fa850ffdf568854b7b4c52b2460801",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f1d928b3ff3ac2c9386b7e7e",
+      "type": "Event",
+      "title": "Third Partition of Poland",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1e7ccce3d6546f2a8bcff778",
+      "type": "Place",
+      "title": "Grodno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f4781017272d6923e23080b4",
+      "type": "Place",
+      "title": "Sokolka River",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ba38a3d00d2363ef32e7bc14",
+      "type": "Place",
+      "title": "Supraśl River",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a582c7d0cc473b3e592ebfe3",
+      "type": "Place",
+      "title": "Prussia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_deef20ae879f8cf4dd175062",
+      "type": "Place",
+      "title": "New East Prussia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ddfdc2802d3ed9da93ac3d0e",
+      "type": "Event",
+      "title": "Peace of Tilsit",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

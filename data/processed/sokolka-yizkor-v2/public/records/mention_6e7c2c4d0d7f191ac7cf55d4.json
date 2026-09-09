@@ -2,10 +2,10 @@
   "id": "mention_6e7c2c4d0d7f191ac7cf55d4",
   "type": "Place",
   "title": "Brazil",
-  "summary": "Brazil is associated with Moshe'l Kremer in the text.",
+  "summary": "Country associated with Moshele Kremer.",
   "originalName": "בראזיל",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 251,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,20 +20,25 @@
       "printedPage": null,
       "passageCharStart": 16,
       "passageCharEnd": 22,
-      "normalizedPassageCharStart": 12,
-      "normalizedPassageCharEnd": 18,
+      "normalizedPassageCharStart": 16,
+      "normalizedPassageCharEnd": 22,
       "pageCharStart": 16,
       "pageCharEnd": 22,
       "quote": "בראזיל",
       "normalizedQuote": "בראזיל",
       "modelQuote": "בראזיל",
-      "bbox": null,
+      "bbox": {
+        "left": 3283,
+        "top": 1232,
+        "right": 3561,
+        "bottom": 1320
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n250/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "c34e5e090ad3ad246764d715fd743b60635e8dc043c0cc7718b1b55991f0296d",
       "normalizedPassageChecksum": "8441709b0ec20ba996e3947e7a07b969f6594c6ea432cab9c8f482bdbc2e843d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -41,14 +46,14 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_f1401e75f5159384386d5ad5",
+      "id": "mention_f8872bc32c02a0c4f1a1bd71",
       "type": "Person",
-      "title": "Moshe'l Kremer",
+      "title": "Moshele Kremer",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1d3d8e43a2e0463b3c168ced",
-      "type": "Community",
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
       "title": "Sokolka",
       "relation": "Appears in same passage"
     }

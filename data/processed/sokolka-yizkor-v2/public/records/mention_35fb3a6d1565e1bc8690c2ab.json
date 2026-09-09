@@ -2,7 +2,7 @@
   "id": "mention_35fb3a6d1565e1bc8690c2ab",
   "type": "Place",
   "title": "Warsaw Street",
-  "summary": "Street identified as the location of the Markus courtyard.",
+  "summary": "The new ghetto cemetery was located on Warsaw Street.",
   "originalName": "רחוב וארשה",
   "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
@@ -20,14 +20,19 @@
       "printedPage": null,
       "passageCharStart": 39,
       "passageCharEnd": 50,
-      "normalizedPassageCharStart": 27,
-      "normalizedPassageCharEnd": 36,
+      "normalizedPassageCharStart": 39,
+      "normalizedPassageCharEnd": 50,
       "pageCharStart": 2198,
       "pageCharEnd": 2209,
       "quote": "רחו ב וארשה",
-      "normalizedQuote": "רחובוארשה",
+      "normalizedQuote": "רחו ב וארשה",
       "modelQuote": "רחוב וארשה",
-      "bbox": null,
+      "bbox": {
+        "left": 769,
+        "top": 894,
+        "right": 1139,
+        "bottom": 944
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n186/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "f5d419d4df3b21d0ffc5c894b6307350377915153e02e90cf78ac54d88c2c327",
@@ -42,22 +47,56 @@
       "scanIndex": 187,
       "leafNumber": 186,
       "printedPage": null,
-      "passageCharStart": 829,
+      "passageCharStart": 855,
       "passageCharEnd": 868,
-      "normalizedPassageCharStart": 602,
-      "normalizedPassageCharEnd": 631,
-      "pageCharStart": 829,
+      "normalizedPassageCharStart": 855,
+      "normalizedPassageCharEnd": 868,
+      "pageCharStart": 855,
       "pageCharEnd": 868,
-      "quote": "השע ר הראש י לגיט ו הוק ם ברחו ב\nוארש ה",
-      "normalizedQuote": "השערהראשילגיטוהוקםברחוב וארשה",
-      "modelQuote": "השערהראשילגיטוהוקםברחוב וארשה",
-      "bbox": null,
+      "quote": "ברחו ב\nוארש ה",
+      "normalizedQuote": "ברחו ב\nוארש ה",
+      "modelQuote": "ברחוב\nוארשה",
+      "bbox": {
+        "left": 2575,
+        "top": 2673,
+        "right": 4193,
+        "bottom": 2843
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n186/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "cfd2618a4bc84703555811a2849dae6aa712e43130c9ae8c02735301727e6832",
       "normalizedPassageChecksum": "d95d2b77186264d2af58404bb49628c36ed6516a13a16dc91c6f376e2ce127a3",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_80d36b2e3f759c3cd2be89e9",
+      "pageId": "page_nybc314005_0188",
+      "scanIndex": 188,
+      "leafNumber": 187,
+      "printedPage": null,
+      "passageCharStart": 102,
+      "passageCharEnd": 127,
+      "normalizedPassageCharStart": 102,
+      "normalizedPassageCharEnd": 127,
+      "pageCharStart": 102,
+      "pageCharEnd": 127,
+      "quote": "הובא ו כול ם לרחו ב וארשה",
+      "normalizedQuote": "הובא ו כול ם לרחו ב וארשה",
+      "modelQuote": "הובאו כולם לרחוב וארשה",
+      "bbox": {
+        "left": 2759,
+        "top": 905,
+        "right": 3621,
+        "bottom": 975
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n187/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "354c76504ecc127edb46e983c28f627bc672eb447772fafe0f0809f45134c8e3",
+      "normalizedPassageChecksum": "c830b83f0403c9f022245f3e215193b8edcb57a83f30931f494d191dcbfacd65",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -65,99 +104,93 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_4b0ac6e18336c0a10dba8239",
-      "type": "Place",
-      "title": "New cemetery in the ghetto",
+      "id": "mention_3ab5aa3a8bed5c7808e86d15",
+      "type": "Institution",
+      "title": "Talmud Torah building",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_803a1c27bc63e3f32deb96c9",
-      "type": "Place",
-      "title": "Markus courtyard",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_022582e95d6b3713dc8d17ec",
+      "id": "mention_d8718fe65ad63d7cb5372b82",
       "type": "Institution",
       "title": "Ghetto hospital",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_87b56bd222b6ece3141c41b0",
+      "id": "mention_d72ae161c8ad40ab17e70384",
       "type": "Community",
-      "title": "Jewish children",
+      "title": "Jewish children in the ghetto",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c6c8bae481a7f9da4dc2ee0f",
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
       "type": "Community",
-      "title": "Affluent people",
+      "title": "Sokółka Jewish community",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a78a09198e342d6eafc5c202",
-      "type": "Community",
-      "title": "Christians",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_02da46fedacf56a9d3d08cf6",
-      "type": "Place",
-      "title": "Sokolka ghetto",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d16e96192f2866f72e727d16",
+      "id": "mention_d8548cd10e614f159d066316",
       "type": "Place",
       "title": "3 May Street",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_15a7cc9e36e26f7992553656",
+      "id": "mention_4f22ce881971ac2e113159b7",
+      "type": "Place",
+      "title": "Bialystok Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_62f882107a324865fe36712b",
+      "type": "Place",
+      "title": "Street leading to the bathhouse",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_db6b7f6ab4833c6115426ec8",
       "type": "Person",
       "title": "Alter the butcher",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_437d44f73bd0a70bafda92d0",
-      "type": "Person",
-      "title": "Muli the baker",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_cba102ac6cab08f2bec944cf",
-      "type": "Person",
-      "title": "Yankevitz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_20a8f59b9eb3e99705955bb1",
-      "type": "Person",
-      "title": "Shaya the carpenter",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_60def5136f6ac329903cb539",
+      "id": "mention_58c3382ec4b7c43de0f6af74",
       "type": "Place",
-      "title": "Tikotsinsky houses",
+      "title": "Tikoczynski houses",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b67afca421a214a01d251f05",
+      "id": "mention_3c1505accdbf71029b3986ae",
       "type": "Institution",
       "title": "Synagogues",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_55e213ca865be4cb0275111c",
+      "id": "mention_7a367e4de7a821e20ac4b9e0",
       "type": "Place",
       "title": "Podol neighborhood",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6dcaf2ba1b3ebdbe537e60ce",
+      "id": "mention_bb72a25e2b3cecd4e5d0dd53",
       "type": "Place",
-      "title": "Railway station",
+      "title": "Winkevitz house",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ad2dfb7930e0fc29c6c6647a",
+      "type": "Person",
+      "title": "Shaya the carpenter",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "event_candidate_35a493186002122d29ac967f",
+      "type": "Event",
+      "title": "Forced assembly on Warsaw Street",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_7ec616c57a4099f93bd83bb0",
+      "type": "Organization",
+      "title": "Germans",
       "relation": "Appears in same passage"
     }
   ],

@@ -1,0 +1,166 @@
+{
+  "id": "mention_ef7bc5d64765e9212e4b9ec7",
+  "type": "Organization",
+  "title": "German authorities",
+  "summary": "Authorities that imposed German schools and confiscated educational equipment.",
+  "originalName": "השלטון הגרמני",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 77,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "occupying authorities",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c3b33cf163e6f343543eacf5",
+      "pageId": "page_nybc314005_0077",
+      "scanIndex": 77,
+      "leafNumber": 76,
+      "printedPage": null,
+      "passageCharStart": 746,
+      "passageCharEnd": 781,
+      "normalizedPassageCharStart": 746,
+      "normalizedPassageCharEnd": 781,
+      "pageCharStart": 3296,
+      "pageCharEnd": 3331,
+      "quote": "השלטו ן הגרמנ י החרי ם עו ד א ת כ ל",
+      "normalizedQuote": "השלטו ן הגרמנ י החרי ם עו ד א ת כ ל",
+      "modelQuote": "השלטון הגרמני החרים עוד את כל",
+      "bbox": {
+        "left": 718,
+        "top": 3897,
+        "right": 1856,
+        "bottom": 3979
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n76/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "628a0b6bad9c12ca87e3ee8999ac2101146f035e3865029f94be981f35e07036",
+      "normalizedPassageChecksum": "2950af2caea71bf327b43b2bd3933438f8b161239b336ce01b680943587f4169",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_6387b6a7664e55e75468eb37",
+      "pageId": "page_nybc314005_0184",
+      "scanIndex": 184,
+      "leafNumber": 183,
+      "printedPage": null,
+      "passageCharStart": 250,
+      "passageCharEnd": 258,
+      "normalizedPassageCharStart": 250,
+      "normalizedPassageCharEnd": 258,
+      "pageCharStart": 3573,
+      "pageCharEnd": 3581,
+      "quote": "הגרמני ם",
+      "normalizedQuote": "הגרמני ם",
+      "modelQuote": "הגרמנים",
+      "bbox": {
+        "left": 818,
+        "top": 5269,
+        "right": 1070,
+        "bottom": 5323
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n183/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "de21d0808ae51d21e085597df23cc2c9bbc6ec8fd3ee649b25ecac9fd0f5fa49",
+      "normalizedPassageChecksum": "a82ff725cd696b4b2158e038735547e3841f63a28093f1d4a2761220f3e28abd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f9af2b13c742efe0caacf5ca",
+      "type": "Business Opening",
+      "title": "Opening of two German schools",
+      "summary": "Two German schools opened in Sokolka, one for Jewish children and one for Christians.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event type is approximated because the schema lacks a school-opening event type.",
+      "evidence": {
+        "passageId": "passage_c3b33cf163e6f343543eacf5",
+        "pageId": "page_nybc314005_0077",
+        "scanIndex": 77,
+        "leafNumber": 76,
+        "printedPage": null,
+        "passageCharStart": 980,
+        "passageCharEnd": 1007,
+        "normalizedPassageCharStart": 980,
+        "normalizedPassageCharEnd": 1007,
+        "pageCharStart": 3530,
+        "pageCharEnd": 3557,
+        "quote": "נפתח ו שנ י בתי-ספ ר גרמנים",
+        "normalizedQuote": "נפתח ו שנ י בתי-ספ ר גרמנים",
+        "modelQuote": "נפתחו שני בתי-ספר גרמנים",
+        "bbox": {
+          "left": 1402,
+          "top": 4575,
+          "right": 2298,
+          "bottom": 4627
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n76/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "628a0b6bad9c12ca87e3ee8999ac2101146f035e3865029f94be981f35e07036",
+        "normalizedPassageChecksum": "2950af2caea71bf327b43b2bd3933438f8b161239b336ce01b680943587f4169",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f9af2b13c742efe0caacf5ca",
+      "type": "Event",
+      "title": "Opening of two German schools",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_0310e186787a9241dddc62b0",
+      "type": "Place",
+      "title": "Krinki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3c0a36cbaf41036a27d2939b",
+      "type": "Institution",
+      "title": "German schools",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2a4d97da4281f2972a377569",
+      "type": "Institution",
+      "title": "German school for Jewish children",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f55e1ac9956617ad9f0e0a28",
+      "type": "Institution",
+      "title": "German school for Christian children",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cd25fc28a8b582295bc935d0",
+      "type": "Person",
+      "title": "Meir Bubrik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a9d34d6c1c406d8446f56fad",
+      "type": "Place",
+      "title": "Russian military camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_288b6cc4068c648e49910e2c",
+      "type": "Organization",
+      "title": "Polish police",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

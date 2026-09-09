@@ -1,0 +1,76 @@
+{
+  "id": "event_candidate_5f23b2a72f43b67f22831d19",
+  "type": "Event",
+  "title": "Russian withdrawal from Sokolka",
+  "summary": "Russian forces withdrew from Sokolka and returned to Grodno.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 75,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_098faeb9139d8cc715cc9392",
+      "pageId": "page_nybc314005_0075",
+      "scanIndex": 75,
+      "leafNumber": 74,
+      "printedPage": null,
+      "passageCharStart": 560,
+      "passageCharEnd": 577,
+      "normalizedPassageCharStart": 560,
+      "normalizedPassageCharEnd": 577,
+      "pageCharStart": 2772,
+      "pageCharEnd": 2789,
+      "quote": "הצב א הרוס י נסוג",
+      "normalizedQuote": "הצב א הרוס י נסוג",
+      "modelQuote": "הצבא הרוסי נסוג",
+      "bbox": {
+        "left": 1147,
+        "top": 2608,
+        "right": 1709,
+        "bottom": 2660
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n74/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "cd50f9d388b9a05dbde1babc59bfa1181c8348b7ff03f0c5b063005189d6bd83",
+      "normalizedPassageChecksum": "bfd812c42592543cd72ef37f781418a78c41bfbdcc73cf0c267a3272bb2ac6a1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_8a7a14afc75d4f7ce679e361",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_28f76a9a6d01e70c4e0fd421",
+      "type": "Organization",
+      "title": "Russian army",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_8a7a14afc75d4f7ce679e361",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_1e7ccce3d6546f2a8bcff778",
+      "type": "Place",
+      "title": "Grodno",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,111 @@
+{
+  "id": "mention_876f7a0bcba8ef1c289170b7",
+  "type": "Place",
+  "title": "The city",
+  "summary": "A city where farmers came to exchange produce.",
+  "originalName": "שטא ט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 271,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7cb8f624b5f0ce5f1fc18724",
+      "pageId": "page_nybc314005_0271",
+      "scanIndex": 271,
+      "leafNumber": 270,
+      "printedPage": null,
+      "passageCharStart": 415,
+      "passageCharEnd": 425,
+      "normalizedPassageCharStart": 415,
+      "normalizedPassageCharEnd": 425,
+      "pageCharStart": 3666,
+      "pageCharEnd": 3676,
+      "quote": "אי ן שטא ט",
+      "normalizedQuote": "אי ן שטא ט",
+      "modelQuote": "אי ן שטא ט",
+      "bbox": {
+        "left": 1268,
+        "top": 5060,
+        "right": 1554,
+        "bottom": 5120
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n270/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "b1b29b5f27fbc4b703c6dbc934223a944bd1f061cc4c61785f76f18280a538d0",
+      "normalizedPassageChecksum": "24f1fe1b827d3ac828aa3f13e3f554085671754e9b367510c24afb0372123cc6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3b253383dd204fd6efed4f4c",
+      "type": "Business Opening",
+      "title": "Illegal exchange trade",
+      "summary": "Farmers exchanged produce for various articles held by Jews, involving Christians.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7cb8f624b5f0ce5f1fc18724",
+        "pageId": "page_nybc314005_0271",
+        "scanIndex": 271,
+        "leafNumber": 270,
+        "printedPage": null,
+        "passageCharStart": 536,
+        "passageCharEnd": 610,
+        "normalizedPassageCharStart": 536,
+        "normalizedPassageCharEnd": 610,
+        "pageCharStart": 3787,
+        "pageCharEnd": 3861,
+        "quote": "אזו י הא ט זי ך אנגעהויב ן דע ר אזו י גערופענע ר\nאונלעגאלע ר \"טויש־האנדל \"",
+        "normalizedQuote": "אזו י הא ט זי ך אנגעהויב ן דע ר אזו י גערופענע ר\nאונלעגאלע ר \"טויש־האנדל \"",
+        "modelQuote": "אזו י הא ט זי ך אנגעהויב ן דע ר אזו י גערופענע ר\nאונלעגאלע ר \"טויש־האנדל\"",
+        "bbox": {
+          "left": 774,
+          "top": 5424,
+          "right": 2372,
+          "bottom": 5610
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n270/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "b1b29b5f27fbc4b703c6dbc934223a944bd1f061cc4c61785f76f18280a538d0",
+        "normalizedPassageChecksum": "24f1fe1b827d3ac828aa3f13e3f554085671754e9b367510c24afb0372123cc6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3b253383dd204fd6efed4f4c",
+      "type": "Event",
+      "title": "Illegal exchange trade",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_dcd03534c99c604256fb9bec",
+      "type": "Community",
+      "title": "Jews",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1dfd46e100ddd9021d883f0d",
+      "type": "Community",
+      "title": "Christians",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aa59b3e733183f8e56a2de28",
+      "type": "Person",
+      "title": "Farmers",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

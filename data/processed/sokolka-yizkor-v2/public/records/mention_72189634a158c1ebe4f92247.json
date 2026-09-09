@@ -2,15 +2,14 @@
   "id": "mention_72189634a158c1ebe4f92247",
   "type": "Place",
   "title": "Druzgenik",
-  "summary": "City where a regional Zionist conference was held.",
+  "summary": "Site associated with the Zionist regional congress.",
   "originalName": "דרוזגניק",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 38,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "city",
   "evidenceRefs": [
     {
       "passageId": "passage_977d6cf211aa27602d66960c",
@@ -20,20 +19,54 @@
       "printedPage": null,
       "passageCharStart": 925,
       "passageCharEnd": 935,
-      "normalizedPassageCharStart": 707,
-      "normalizedPassageCharEnd": 716,
+      "normalizedPassageCharStart": 925,
+      "normalizedPassageCharEnd": 935,
       "pageCharStart": 925,
       "pageCharEnd": 935,
       "quote": "בדרוזגני ק",
-      "normalizedQuote": "בדרוזגניק",
+      "normalizedQuote": "בדרוזגני ק",
       "modelQuote": "בדרוזגניק",
-      "bbox": null,
+      "bbox": {
+        "left": 2595,
+        "top": 2949,
+        "right": 2877,
+        "bottom": 3011
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n37/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "a0655b7f4193906d0241e51d4e93de4d83141126cb25dfa64b2ff99fd7179826",
       "normalizedPassageChecksum": "517e90097360e35b4c0a1ec989cd4c925e0f5fa507479087ea416c70697ac7cc",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_5e8b428d22d66ebe5abcd566",
+      "pageId": "page_nybc314005_0175",
+      "scanIndex": 175,
+      "leafNumber": 174,
+      "printedPage": null,
+      "passageCharStart": 225,
+      "passageCharEnd": 235,
+      "normalizedPassageCharStart": 225,
+      "normalizedPassageCharEnd": 235,
+      "pageCharStart": 1597,
+      "pageCharEnd": 1607,
+      "quote": "בדרוזגני ק",
+      "normalizedQuote": "בדרוזגני ק",
+      "modelQuote": "בדרוזגניק",
+      "bbox": {
+        "left": 1717,
+        "top": 2883,
+        "right": 1993,
+        "bottom": 2941
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n174/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "d20cb97a232a9e5a34476c34b01d67a2e4942b0fea3e5e273aaa61161347ea26",
+      "normalizedPassageChecksum": "ac1f5f1db29e20c48648f91775da011ff0dfeb25dd549c251b48d861a68ea82b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
@@ -41,31 +74,67 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_d63361e2adf67b64abf688c1",
-      "type": "Person",
-      "title": "M. Gashuri",
+      "id": "mention_1a6d6a190313c8c8d7cac4b6",
+      "type": "Place",
+      "title": "Odessa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3304769ea576087ab8017f30",
+      "id": "mention_64bbcb9dab93bdd3a07fda9f",
+      "type": "Place",
+      "title": "Russia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f2f7479a64c7ace8e76cc0b8",
+      "type": "Place",
+      "title": "Lithuania",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff4b3560e63741bbc29ea4c7",
+      "type": "Place",
+      "title": "United States",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1c3a8ea66a78b4085ca518c7",
+      "type": "Organization",
+      "title": "General Zionist Organization",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8746043018e4cb3b33e2d7d3",
       "type": "Organization",
       "title": "Young Zion",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d07769cb8a416b04cfaba33d",
+      "id": "mention_7f9b936ae2e1c54f3c3fe795",
+      "type": "Event",
+      "title": "Russian Revolution of 1905",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1e7ccce3d6546f2a8bcff778",
       "type": "Place",
       "title": "Grodno",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a27f91b73b4852383e8edfb3",
+      "id": "mention_f19fa262e3d446566a240656",
       "type": "Place",
       "title": "Bialystok",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ac169ebe126530117ab5d36b",
+      "id": "mention_7f4ed7f9d1550d3aab766a09",
       "type": "Place",
       "title": "Brest",
       "relation": "Appears in same passage"
@@ -77,39 +146,45 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6fa798ef2f3df3a6cff8455d",
-      "type": "Place",
-      "title": "Sokolka",
+      "id": "mention_6d9544c502b22272b96d32a8",
+      "type": "Organization",
+      "title": "Kishinev Center",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_0c7e4564c2e654734788f5da",
+      "id": "mention_1c357f8439649fc1ac669696",
       "type": "Place",
-      "title": "Skidel",
+      "title": "Kishinev",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e58362e051a14fbe935d0743",
-      "type": "Place",
-      "title": "Lunna",
+      "id": "mention_8d825d74048860cf1b0b3dbf",
+      "type": "Person",
+      "title": "Jacob Goldstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_78586b4e6666d04ec1c090a7",
-      "type": "Place",
-      "title": "Volkovysk",
+      "id": "mention_92cf95624d678b96a4f36e1d",
+      "type": "Person",
+      "title": "Joseph Goldstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_482fac608b2f46dd916f48aa",
-      "type": "Place",
-      "title": "Horodok",
+      "id": "mention_03c2239c350a82aff60aa98c",
+      "type": "Person",
+      "title": "Meir Goldstein",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4d69a153e957eed9bb49ec31",
-      "type": "Place",
-      "title": "Bielsk",
+      "id": "mention_27b76f720342df22baa06e1d",
+      "type": "Organization",
+      "title": "Vilna District Zionists",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_673ac560db4fe9735bafec47",
+      "type": "Photograph",
+      "title": "Photograph of the 1900 Vilna District Zionist Conference",
       "relation": "Appears in same passage"
     }
   ],

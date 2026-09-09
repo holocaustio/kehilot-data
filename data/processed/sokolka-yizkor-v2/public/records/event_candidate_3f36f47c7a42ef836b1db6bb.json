@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_3f36f47c7a42ef836b1db6bb",
+  "type": "Event",
+  "title": "Battle near Jena",
+  "summary": "Napoleon defeated Prussian forces near Jena and subsequently captured Berlin.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 28,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Battle",
+  "uncertaintyNote": "The available event types do not include battles; classified as military service provisionally.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6d250d8ab93bd60a0fb6c3c5",
+      "pageId": "page_nybc314005_0028",
+      "scanIndex": 28,
+      "leafNumber": 27,
+      "printedPage": null,
+      "passageCharStart": 453,
+      "passageCharEnd": 507,
+      "normalizedPassageCharStart": 453,
+      "normalizedPassageCharEnd": 507,
+      "pageCharStart": 3588,
+      "pageCharEnd": 3642,
+      "quote": "שבקר ב לי ד יינ ה (גרמניה ) הבי ס א ת גייסו ת הפרוסי ם",
+      "normalizedQuote": "שבקר ב לי ד יינ ה (גרמניה ) הבי ס א ת גייסו ת הפרוסי ם",
+      "modelQuote": "שבקרב ליד יינה (גרמניה) הביס את גייסות הפרוסים",
+      "bbox": {
+        "left": 727,
+        "top": 4807,
+        "right": 2389,
+        "bottom": 4887
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n27/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "ee9f7098774e872d1c3a1b17dcc7889d7f11f6d9848402cb01be1ae82f3ad598",
+      "normalizedPassageChecksum": "2bbe89f1aed709389a1f4d88afb80dc1a523cccc2da2357d7d7c9404b6543097",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1d51df901aeb9d7fd22b50d3",
+      "type": "Place",
+      "title": "Jena",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_20b214bf2051b221b598ac33",
+      "type": "Person",
+      "title": "Napoleon Bonaparte",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

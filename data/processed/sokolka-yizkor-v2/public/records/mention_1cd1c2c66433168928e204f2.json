@@ -1,0 +1,107 @@
+{
+  "id": "mention_1cd1c2c66433168928e204f2",
+  "type": "Place",
+  "title": "ghetto square",
+  "summary": "The gathering place where ghetto residents assembled before deportation.",
+  "originalName": "געטא־פלאץ",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 277,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "square",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_062167f59720bca4a97dff3c",
+      "pageId": "page_nybc314005_0277",
+      "scanIndex": 277,
+      "leafNumber": 276,
+      "printedPage": null,
+      "passageCharStart": 390,
+      "passageCharEnd": 407,
+      "normalizedPassageCharStart": 390,
+      "normalizedPassageCharEnd": 407,
+      "pageCharStart": 1147,
+      "pageCharEnd": 1164,
+      "quote": "אויפ ן\nגעטא־פלא ץ",
+      "normalizedQuote": "אויפ ן\nגעטא־פלא ץ",
+      "modelQuote": "אויפן געטא־פלאץ",
+      "bbox": {
+        "left": 2561,
+        "top": 3248,
+        "right": 4179,
+        "bottom": 3430
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n276/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "aa742858d4460196aa1f8a6e6dbb778ce214f67cbfbf2536e93d3299b85dbd97",
+      "normalizedPassageChecksum": "ffcb7e2c24366db4b238d8102b45ab4083371c9f2f204ee3f8926e640cefbdcf",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d9c904241c42748ec3a914f9",
+      "type": "Deportation",
+      "title": "Ghetto evacuation and deportation",
+      "summary": "Most ghetto residents were removed after a selection in mid-October 1942.",
+      "dateStart": "1942-10",
+      "dateEnd": "1942-10",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_062167f59720bca4a97dff3c",
+        "pageId": "page_nybc314005_0277",
+        "scanIndex": 277,
+        "leafNumber": 276,
+        "printedPage": null,
+        "passageCharStart": 236,
+        "passageCharEnd": 278,
+        "normalizedPassageCharStart": 236,
+        "normalizedPassageCharEnd": 278,
+        "pageCharStart": 993,
+        "pageCharEnd": 1035,
+        "quote": "געווע ן אי ז דא ס אי ן מיט ן אקטאבע ר 1942",
+        "normalizedQuote": "געווע ן אי ז דא ס אי ן מיט ן אקטאבע ר 1942",
+        "modelQuote": "געווען איז דאס אין מיטן אקטאבער 1942",
+        "bbox": {
+          "left": 2761,
+          "top": 3006,
+          "right": 4029,
+          "bottom": 3072
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n276/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "aa742858d4460196aa1f8a6e6dbb778ce214f67cbfbf2536e93d3299b85dbd97",
+        "normalizedPassageChecksum": "ffcb7e2c24366db4b238d8102b45ab4083371c9f2f204ee3f8926e640cefbdcf",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d9c904241c42748ec3a914f9",
+      "type": "Event",
+      "title": "Ghetto evacuation and deportation",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_e3467e94b9039cb404d33649",
+      "type": "Organization",
+      "title": "Jewish militia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4a12fcad38ae6111f425287e",
+      "type": "Organization",
+      "title": "Jewish Council",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

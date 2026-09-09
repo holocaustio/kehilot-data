@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_ca78e305f22c46161e2c0fe3",
+  "type": "Event",
+  "title": "Nazi invasion of Sokółka",
+  "summary": "The Nazis invaded Sokółka on a September morning and entered Jewish homes and businesses.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 183,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_81c9eee9477b6fc7f523cf87",
+      "pageId": "page_nybc314005_0183",
+      "scanIndex": 183,
+      "leafNumber": 182,
+      "printedPage": null,
+      "passageCharStart": 270,
+      "passageCharEnd": 313,
+      "normalizedPassageCharStart": 270,
+      "normalizedPassageCharEnd": 313,
+      "pageCharStart": 1592,
+      "pageCharEnd": 1635,
+      "quote": "באח ד מימ י\nספטמבר , פלש ו הנאצי ם לסוקולקה",
+      "normalizedQuote": "באח ד מימ י\nספטמבר , פלש ו הנאצי ם לסוקולקה",
+      "modelQuote": "באחד מימי ספטמבר, פלשו הנאצים לסוקולקה",
+      "bbox": {
+        "left": 778,
+        "top": 2800,
+        "right": 2386,
+        "bottom": 2978
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n182/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "0ded648e2acbba55c667423e83749658d9ca3d0c289b37ec52f2b7a24823ca8d",
+      "normalizedPassageChecksum": "8d0941134c25a7ff1d562d9e3cde7abc108de1f76dbdbdd639cf2f6253f5c3fb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6fee94808f8163ae348e153f",
+      "type": "Organization",
+      "title": "Nazis",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

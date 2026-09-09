@@ -1,0 +1,100 @@
+{
+  "id": "mention_21e4979982ac3b0ffcfe170a",
+  "type": "Place",
+  "title": "The forest",
+  "summary": "Forest visited during a Lag BaOmer excursion.",
+  "originalName": "היער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 173,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "forest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1435c4da47108f1816605d6a",
+      "pageId": "page_nybc314005_0173",
+      "scanIndex": 173,
+      "leafNumber": 172,
+      "printedPage": null,
+      "passageCharStart": 675,
+      "passageCharEnd": 702,
+      "normalizedPassageCharStart": 675,
+      "normalizedPassageCharEnd": 702,
+      "pageCharStart": 3458,
+      "pageCharEnd": 3485,
+      "quote": "טיו ל ל״ ג בעומ ר א ל\nהיע ר",
+      "normalizedQuote": "טיו ל ל״ ג בעומ ר א ל\nהיע ר",
+      "modelQuote": "טיול ל״ג בעומר אל\nהיער",
+      "bbox": {
+        "left": 758,
+        "top": 4097,
+        "right": 2368,
+        "bottom": 4279
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n172/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "d51cef7852274dcc2b6c971c8bd492dea26cf98ab278cbe94a1931e57145c998",
+      "normalizedPassageChecksum": "a153185647b02ba64913d23494c5be849af8792ae969c0d666961fb013caa573",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e834626005142c06d037577d",
+      "type": "Migration",
+      "title": "Lag BaOmer excursion to the forest",
+      "summary": "Youth traveled outside town to the forest for a full-day Lag BaOmer outing.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The controlled event vocabulary lacks an excursion type; migration is only an approximate classification.",
+      "evidence": {
+        "passageId": "passage_1435c4da47108f1816605d6a",
+        "pageId": "page_nybc314005_0173",
+        "scanIndex": 173,
+        "leafNumber": 172,
+        "printedPage": null,
+        "passageCharStart": 675,
+        "passageCharEnd": 702,
+        "normalizedPassageCharStart": 675,
+        "normalizedPassageCharEnd": 702,
+        "pageCharStart": 3458,
+        "pageCharEnd": 3485,
+        "quote": "טיו ל ל״ ג בעומ ר א ל\nהיע ר",
+        "normalizedQuote": "טיו ל ל״ ג בעומ ר א ל\nהיע ר",
+        "modelQuote": "טיול ל״ג בעומר אל\nהיער",
+        "bbox": {
+          "left": 758,
+          "top": 4097,
+          "right": 2368,
+          "bottom": 4279
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n172/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "d51cef7852274dcc2b6c971c8bd492dea26cf98ab278cbe94a1931e57145c998",
+        "normalizedPassageChecksum": "a153185647b02ba64913d23494c5be849af8792ae969c0d666961fb013caa573",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e834626005142c06d037577d",
+      "type": "Event",
+      "title": "Lag BaOmer excursion to the forest",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d4def3de9941367f1b9aacb2",
+      "type": "Community",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

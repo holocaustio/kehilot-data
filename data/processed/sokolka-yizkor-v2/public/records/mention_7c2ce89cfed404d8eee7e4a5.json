@@ -2,10 +2,10 @@
   "id": "mention_7c2ce89cfed404d8eee7e4a5",
   "type": "Place",
   "title": "Biklimishovka",
-  "summary": "Locality mentioned along the journey.",
+  "summary": "A locality whose forests the narrator recognizes.",
   "originalName": "ביקלימישובקה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 192,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,20 +20,25 @@
       "printedPage": null,
       "passageCharStart": 82,
       "passageCharEnd": 94,
-      "normalizedPassageCharStart": 64,
-      "normalizedPassageCharEnd": 76,
+      "normalizedPassageCharStart": 82,
+      "normalizedPassageCharEnd": 94,
       "pageCharStart": 82,
       "pageCharEnd": 94,
       "quote": "ביקלימישובקה",
       "normalizedQuote": "ביקלימישובקה",
       "modelQuote": "ביקלימישובקה",
-      "bbox": null,
+      "bbox": {
+        "left": 3776,
+        "top": 925,
+        "right": 4228,
+        "bottom": 1005
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n191/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "15b2b85b723aeea5dfe8ab755b2faf60574a036f794db681a59531826fa177da",
       "normalizedPassageChecksum": "7c16d2807f6f6e1792127a101618d30aaf0412d95d73178d8254d0cfb2f54602",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -41,37 +46,49 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_846b2b0346951b4c728dae3e",
-      "type": "Person",
-      "title": "Leib Naydus",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_42ff75bcc9d65c85074b26ba",
       "type": "Place",
       "title": "Litvinovka",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_85ed6f053c35240114cf9c75",
-      "type": "Place",
-      "title": "Kuznica",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d0eea8dc23338300ad82b556",
-      "type": "Place",
-      "title": "Khriptovzid",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_0dbf0c9e6ff0db96da680c3e",
+      "id": "mention_aa44e2d4e363b41188cc0071",
       "type": "Family",
-      "title": "Naydus family",
+      "title": "Amiel family",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c4bfb4111a83a7f1001b6914",
+      "id": "mention_e94a94668674ae87d0b7dc85",
+      "type": "Person",
+      "title": "Leib Naydus",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ea902717f7a1eaa7ac1f714",
+      "type": "Family",
+      "title": "Gubinsky family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8e6638b213c1b0ec1ee64155",
+      "type": "Place",
+      "title": "Koznitsa",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_998558066c1c6b0c4589c593",
+      "type": "Place",
+      "title": "Khriftopazid",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_77bc3685258d9e666e1bb483",
       "type": "Organization",
       "title": "Hashomer Hatzair",
       "relation": "Appears in same passage"

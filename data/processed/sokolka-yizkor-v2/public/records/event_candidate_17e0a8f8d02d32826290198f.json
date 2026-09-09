@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_17e0a8f8d02d32826290198f",
+  "type": "Event",
+  "title": "Polish Army departure from Sokolka",
+  "summary": "The Polish Army fled Sokolka before the firefighters extinguished the fires.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 85,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The event is military withdrawal, but no dedicated event type exists.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2732ddd3ff0c80aead7c812e",
+      "pageId": "page_nybc314005_0085",
+      "scanIndex": 85,
+      "leafNumber": 84,
+      "printedPage": null,
+      "passageCharStart": 547,
+      "passageCharEnd": 581,
+      "normalizedPassageCharStart": 547,
+      "normalizedPassageCharEnd": 581,
+      "pageCharStart": 2750,
+      "pageCharEnd": 2784,
+      "quote": "אחר י שהצב א הפולנ י בר ח מסוקולקה",
+      "normalizedQuote": "אחר י שהצב א הפולנ י בר ח מסוקולקה",
+      "modelQuote": "אחרי שהצבא הפולני ברח מסוקולקה",
+      "bbox": {
+        "left": 1157,
+        "top": 2384,
+        "right": 2309,
+        "bottom": 2464
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n84/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "0e3dffdf773a48fc7c5300da4a9f56c317dcee9d934879aacead94b8723c5147",
+      "normalizedPassageChecksum": "da5fe1d2f1138abb2248130f02884a9a8bf6521c3c0de0da8c1541d0bb9b65bd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a135e96b137ecafc3e7dee03",
+      "type": "Organization",
+      "title": "Polish Army",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

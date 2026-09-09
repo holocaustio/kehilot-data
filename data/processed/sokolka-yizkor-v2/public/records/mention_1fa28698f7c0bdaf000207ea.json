@@ -1,0 +1,118 @@
+{
+  "id": "mention_1fa28698f7c0bdaf000207ea",
+  "type": "Organization",
+  "title": "Hakhshara kibbutz",
+  "summary": "A training kibbutz established during an economic downturn.",
+  "originalName": "הכשרה קיבוץ",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 223,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "training kibbutz",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3239ddfadfbdc74491fb37b2",
+      "pageId": "page_nybc314005_0223",
+      "scanIndex": 223,
+      "leafNumber": 222,
+      "printedPage": null,
+      "passageCharStart": 1024,
+      "passageCharEnd": 1079,
+      "normalizedPassageCharStart": 1024,
+      "normalizedPassageCharEnd": 1079,
+      "pageCharStart": 2234,
+      "pageCharEnd": 2289,
+      "quote": "גרוי ס אי ז געווע ן דע ר אנזע ן פו ן הכשר ה קיבו ץ אי ן",
+      "normalizedQuote": "גרוי ס אי ז געווע ן דע ר אנזע ן פו ן הכשר ה קיבו ץ אי ן",
+      "modelQuote": "גרויס איז געווען דער אנזען פון הכשרה קיבוץ אין",
+      "bbox": {
+        "left": 775,
+        "top": 3309,
+        "right": 2309,
+        "bottom": 3369
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n222/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "4ff0cf026fb7df7a31585fbd142dfeeab2fd255cfa8792e2439626195992b7c7",
+      "normalizedPassageChecksum": "6f222b90b46c8abe4160958957faeb8cf55d222a27482d74fd6522a27b654e3f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_faed7e3350ff631a2d2dad8f",
+      "predicate": "Located In",
+      "subjectTitle": "Hakhshara kibbutz",
+      "objectTitle": "Sokolka",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1b342943319b08f440e0ff94",
+        "pageId": "page_nybc314005_0224",
+        "scanIndex": 224,
+        "leafNumber": 223,
+        "printedPage": null,
+        "passageCharStart": 217,
+        "passageCharEnd": 258,
+        "normalizedPassageCharStart": 217,
+        "normalizedPassageCharEnd": 258,
+        "pageCharStart": 217,
+        "pageCharEnd": 258,
+        "quote": "דע ר קיבו ץ הא ט עקזיסטיר ט\nאי ן סאקאלק ע",
+        "normalizedQuote": "דע ר קיבו ץ הא ט עקזיסטיר ט\nאי ן סאקאלק ע",
+        "modelQuote": "דער קיבוץ האט עקזיסטירט אין סאקאלקע",
+        "bbox": {
+          "left": 2551,
+          "top": 1280,
+          "right": 4219,
+          "bottom": 1468
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n223/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "4a5d129740f888132b314a81a37690ad7e04df7373cf31b2b17e25b5362361b1",
+        "normalizedPassageChecksum": "e7a505d2464beba9a303d2fc7bd1f428609289172d468c845bbb7cbb05c10992",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Located In"
+    },
+    {
+      "id": "event_candidate_03e00c59ea7909799378871a",
+      "type": "Event",
+      "title": "Establishment of the training kibbutz",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eddf4a4b356f08d00863d3f8",
+      "type": "Place",
+      "title": "Land of Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ca7d431765a96b99b2386919",
+      "type": "Institution",
+      "title": "Middle school in Sokolka",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

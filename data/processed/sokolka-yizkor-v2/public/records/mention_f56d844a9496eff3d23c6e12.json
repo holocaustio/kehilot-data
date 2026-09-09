@@ -2,10 +2,10 @@
   "id": "mention_f56d844a9496eff3d23c6e12",
   "type": "Place",
   "title": "Kartuz-Bereza",
-  "summary": "City where Yosele served as rabbi.",
+  "summary": "City where Yossi Leh served as rabbi.",
   "originalName": "קרטוז־ברזה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 31,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,20 +20,25 @@
       "printedPage": null,
       "passageCharStart": 310,
       "passageCharEnd": 320,
-      "normalizedPassageCharStart": 223,
-      "normalizedPassageCharEnd": 233,
+      "normalizedPassageCharStart": 310,
+      "normalizedPassageCharEnd": 320,
       "pageCharStart": 2928,
       "pageCharEnd": 2938,
       "quote": "קרטוז־ברזה",
       "normalizedQuote": "קרטוז־ברזה",
       "modelQuote": "קרטוז־ברזה",
-      "bbox": null,
+      "bbox": {
+        "left": 946,
+        "top": 2952,
+        "right": 1290,
+        "bottom": 3012
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n30/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "4cb0c9cce0500149efccc48d31731df9a295108510a2dbf7fc935c8398b0e3b7",
       "normalizedPassageChecksum": "40787fd5bd8a6888050e27091ed1ec984f40e1e7f6b602ae9540e4670a5ff695",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -41,21 +46,33 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_7003613739c270516148d21e",
+      "id": "mention_b15c7b81de6b52585472af6b",
       "type": "Person",
-      "title": "David of Mir",
+      "title": "Yossi Leh",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f956f469bbb0705b5c66776f",
+      "id": "mention_6ce455d9ef6271fdd8076617",
+      "type": "Person",
+      "title": "Davidel of Mir",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_913a4bacfbbe2d65ec5247e2",
       "type": "Person",
       "title": "Yitzhak Elhanan Spector",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4f3547f654e47a7b18dad46b",
+      "id": "mention_8e29d098d281ebf9cee20372",
       "type": "Place",
-      "title": "Forshtot",
+      "title": "Kovno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_243fe0f462805af417cb1c05",
+      "type": "Place",
+      "title": "Furshtut",
       "relation": "Appears in same passage"
     },
     {
@@ -71,33 +88,21 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_21c3d2fefd2cfab9664c8571",
+      "id": "mention_c8f68544dd48fddb21c94850",
       "type": "Place",
-      "title": "Old Cemetery in Zabludov",
+      "title": "Old cemetery in Zabludov",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_deecb8f3d9861ebcbf92a36c",
+      "id": "mention_998272fa9a6ed8386adf9526",
       "type": "Person",
-      "title": "Moses Judah Rabinowitz",
+      "title": "Moshe Yehuda Rabinowitz",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_08ea0a59d203eaeaceb59cfd",
-      "type": "Place",
-      "title": "Suwalki",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_807596aec345a65f4315f502",
+      "id": "mention_9fcdf1aabe3943a81dadefbd",
       "type": "Person",
-      "title": "Moses Bezalel Luria",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d07769cb8a416b04cfaba33d",
-      "type": "Place",
-      "title": "Grodno",
+      "title": "Moshe Betzalel Luria",
       "relation": "Appears in same passage"
     }
   ],

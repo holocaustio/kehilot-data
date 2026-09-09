@@ -2,15 +2,14 @@
   "id": "mention_650a63119faefca75971f3bd",
   "type": "Place",
   "title": "Slonim",
-  "summary": "City represented at a regional Zionist conference.",
+  "summary": "One of eleven cities represented at a Zionist regional congress.",
   "originalName": "סלונים",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 38,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "city",
   "evidenceRefs": [
     {
       "passageId": "passage_977d6cf211aa27602d66960c",
@@ -20,60 +19,202 @@
       "printedPage": null,
       "passageCharStart": 997,
       "passageCharEnd": 1003,
-      "normalizedPassageCharStart": 763,
-      "normalizedPassageCharEnd": 769,
+      "normalizedPassageCharStart": 997,
+      "normalizedPassageCharEnd": 1003,
       "pageCharStart": 997,
       "pageCharEnd": 1003,
       "quote": "סלונים",
       "normalizedQuote": "סלונים",
       "modelQuote": "סלונים",
-      "bbox": null,
+      "bbox": {
+        "left": 3785,
+        "top": 3157,
+        "right": 3973,
+        "bottom": 3223
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n37/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "a0655b7f4193906d0241e51d4e93de4d83141126cb25dfa64b2ff99fd7179826",
       "normalizedPassageChecksum": "517e90097360e35b4c0a1ec989cd4c925e0f5fa507479087ea416c70697ac7cc",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_85809bd7ed4441596f599bd9",
+      "pageId": "page_nybc314005_0043",
+      "scanIndex": 43,
+      "leafNumber": 42,
+      "printedPage": null,
+      "passageCharStart": 276,
+      "passageCharEnd": 295,
+      "normalizedPassageCharStart": 276,
+      "normalizedPassageCharEnd": 295,
+      "pageCharStart": 3934,
+      "pageCharEnd": 3953,
+      "quote": "מגי ד דמת א בסלונים",
+      "normalizedQuote": "מגי ד דמת א בסלונים",
+      "modelQuote": "מגיד דמתא בסלונים",
+      "bbox": {
+        "left": 1708,
+        "top": 5417,
+        "right": 2390,
+        "bottom": 5489
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n42/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "4ee24e6cf247d661e03d8ef2abd6b3a546aeb1375fba39a48b493c3d28b5ea79",
+      "normalizedPassageChecksum": "b8c7eb775dc68faa5a878e5284724a2a80ba5739beb01a762e2bd1f925d28e8e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c047ed7acd4946e6baff6778",
+      "predicate": "Worked At",
+      "subjectTitle": "Rabbi Hayyim Yaakov",
+      "objectTitle": "Slonim",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "communal preacher",
+        "period": "late in life"
+      },
+      "evidence": {
+        "passageId": "passage_85809bd7ed4441596f599bd9",
+        "pageId": "page_nybc314005_0043",
+        "scanIndex": 43,
+        "leafNumber": 42,
+        "printedPage": null,
+        "passageCharStart": 246,
+        "passageCharEnd": 296,
+        "normalizedPassageCharStart": 246,
+        "normalizedPassageCharEnd": 296,
+        "pageCharStart": 3904,
+        "pageCharEnd": 3954,
+        "quote": "בסו ף ימי ו מיל א תפקי ד ש ל\n\"מגי ד דמת א בסלונים\"",
+        "normalizedQuote": "בסו ף ימי ו מיל א תפקי ד ש ל\n\"מגי ד דמת א בסלונים\"",
+        "modelQuote": "בסוף ימיו מילא תפקיד של\n\"מגיד דמתא בסלונים\"",
+        "bbox": {
+          "left": 764,
+          "top": 5293,
+          "right": 2390,
+          "bottom": 5489
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n42/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "4ee24e6cf247d661e03d8ef2abd6b3a546aeb1375fba39a48b493c3d28b5ea79",
+        "normalizedPassageChecksum": "b8c7eb775dc68faa5a878e5284724a2a80ba5739beb01a762e2bd1f925d28e8e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_2121dff9befd3afb58ad6bdb",
+      "type": "Employment",
+      "title": "Rabbi Hayyim Yaakov served as communal preacher in Slonim",
+      "summary": "Late in life, Rabbi Hayyim Yaakov served as Slonim’s communal preacher.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_85809bd7ed4441596f599bd9",
+        "pageId": "page_nybc314005_0043",
+        "scanIndex": 43,
+        "leafNumber": 42,
+        "printedPage": null,
+        "passageCharStart": 276,
+        "passageCharEnd": 295,
+        "normalizedPassageCharStart": 276,
+        "normalizedPassageCharEnd": 295,
+        "pageCharStart": 3934,
+        "pageCharEnd": 3953,
+        "quote": "מגי ד דמת א בסלונים",
+        "normalizedQuote": "מגי ד דמת א בסלונים",
+        "modelQuote": "מגיד דמתא בסלונים",
+        "bbox": {
+          "left": 1708,
+          "top": 5417,
+          "right": 2390,
+          "bottom": 5489
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n42/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "4ee24e6cf247d661e03d8ef2abd6b3a546aeb1375fba39a48b493c3d28b5ea79",
+        "normalizedPassageChecksum": "b8c7eb775dc68faa5a878e5284724a2a80ba5739beb01a762e2bd1f925d28e8e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_d63361e2adf67b64abf688c1",
-      "type": "Person",
-      "title": "M. Gashuri",
+      "id": "mention_1a6d6a190313c8c8d7cac4b6",
+      "type": "Place",
+      "title": "Odessa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3304769ea576087ab8017f30",
+      "id": "mention_64bbcb9dab93bdd3a07fda9f",
+      "type": "Place",
+      "title": "Russia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f2f7479a64c7ace8e76cc0b8",
+      "type": "Place",
+      "title": "Lithuania",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff4b3560e63741bbc29ea4c7",
+      "type": "Place",
+      "title": "United States",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1c3a8ea66a78b4085ca518c7",
+      "type": "Organization",
+      "title": "General Zionist Organization",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8746043018e4cb3b33e2d7d3",
       "type": "Organization",
       "title": "Young Zion",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d07769cb8a416b04cfaba33d",
+      "id": "mention_7f9b936ae2e1c54f3c3fe795",
+      "type": "Event",
+      "title": "Russian Revolution of 1905",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1e7ccce3d6546f2a8bcff778",
       "type": "Place",
       "title": "Grodno",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a27f91b73b4852383e8edfb3",
+      "id": "mention_f19fa262e3d446566a240656",
       "type": "Place",
       "title": "Bialystok",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ac169ebe126530117ab5d36b",
+      "id": "mention_7f4ed7f9d1550d3aab766a09",
       "type": "Place",
       "title": "Brest",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_6fa798ef2f3df3a6cff8455d",
-      "type": "Place",
-      "title": "Sokolka",
       "relation": "Appears in same passage"
     },
     {
@@ -83,33 +224,45 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_e58362e051a14fbe935d0743",
-      "type": "Place",
-      "title": "Lunna",
+      "id": "mention_88b60f850ffe706f054d59bf",
+      "type": "Person",
+      "title": "Rabbi Hayyim Yaakov",
+      "relation": "Worked At"
+    },
+    {
+      "id": "event_candidate_2121dff9befd3afb58ad6bdb",
+      "type": "Event",
+      "title": "Rabbi Hayyim Yaakov served as communal preacher in Slonim",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c2d42a9a1727f699afd9ed91",
+      "type": "Person",
+      "title": "Rabbi Fayvli",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_78586b4e6666d04ec1c090a7",
-      "type": "Place",
-      "title": "Volkovysk",
+      "id": "mention_88b60f850ffe706f054d59bf",
+      "type": "Person",
+      "title": "Rabbi Hayyim Yaakov",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_482fac608b2f46dd916f48aa",
+      "id": "mention_1e6345a5fb17c8d33d7fcc0d",
       "type": "Place",
       "title": "Horodok",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4d69a153e957eed9bb49ec31",
-      "type": "Place",
-      "title": "Bielsk",
+      "id": "mention_a1a685faf4a7b3f2cba6e936",
+      "type": "Organization",
+      "title": "Lithuanian yeshivas",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_72189634a158c1ebe4f92247",
-      "type": "Place",
-      "title": "Druzgenik",
+      "id": "mention_906d69d7bf59cf9a0bdc944f",
+      "type": "Person",
+      "title": "Rabbi Mordechai",
       "relation": "Appears in same passage"
     }
   ],

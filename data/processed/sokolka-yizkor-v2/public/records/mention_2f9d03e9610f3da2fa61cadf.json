@@ -1,0 +1,118 @@
+{
+  "id": "mention_2f9d03e9610f3da2fa61cadf",
+  "type": "Organization",
+  "title": "Communist Army",
+  "summary": "Army that retreated before the Polish advance and later pursued it.",
+  "originalName": "הצבא הקומוניסטי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 85,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "army",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_55b4446a1ae5ab403fb09082",
+      "pageId": "page_nybc314005_0085",
+      "scanIndex": 85,
+      "leafNumber": 84,
+      "printedPage": null,
+      "passageCharStart": 230,
+      "passageCharEnd": 252,
+      "normalizedPassageCharStart": 230,
+      "normalizedPassageCharEnd": 252,
+      "pageCharStart": 608,
+      "pageCharEnd": 630,
+      "quote": "הצב א הקומוניסט י נסוג",
+      "normalizedQuote": "הצב א הקומוניסט י נסוג",
+      "modelQuote": "הצבא הקומוניסטי נסוג",
+      "bbox": {
+        "left": 2614,
+        "top": 2226,
+        "right": 3344,
+        "bottom": 2288
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n84/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "5a63a0d816a582f530114db4154c8acb49e1bc447b193a2b084b3ec025989e61",
+      "normalizedPassageChecksum": "17c4d606165d65a3951fb8627a2ca62fd70d4fa82367014c8f10c0c272a6748f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_cd1e628ad1e261f33ade827a",
+      "type": "Military Service",
+      "title": "Polish advance into Ukrainian territory",
+      "summary": "The Polish Army advanced into Ukrainian territory against the Communist Army.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_55b4446a1ae5ab403fb09082",
+        "pageId": "page_nybc314005_0085",
+        "scanIndex": 85,
+        "leafNumber": 84,
+        "printedPage": null,
+        "passageCharStart": 160,
+        "passageCharEnd": 227,
+        "normalizedPassageCharStart": 160,
+        "normalizedPassageCharEnd": 227,
+        "pageCharStart": 538,
+        "pageCharEnd": 605,
+        "quote": "הצב א הפולנ י ניצ ל א ת שע ת הכוש ר והתחי ל\nלהתקד ם לשטח י אוקראינה",
+        "normalizedQuote": "הצב א הפולנ י ניצ ל א ת שע ת הכוש ר והתחי ל\nלהתקד ם לשטח י אוקראינה",
+        "modelQuote": "הצבא הפולני ניצל את שעת הכושר והתחיל\nלהתקדם לשטחי אוקראינה",
+        "bbox": {
+          "left": 2596,
+          "top": 2086,
+          "right": 4246,
+          "bottom": 2290
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n84/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "5a63a0d816a582f530114db4154c8acb49e1bc447b193a2b084b3ec025989e61",
+        "normalizedPassageChecksum": "17c4d606165d65a3951fb8627a2ca62fd70d4fa82367014c8f10c0c272a6748f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_cd1e628ad1e261f33ade827a",
+      "type": "Event",
+      "title": "Polish advance into Ukrainian territory",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_611e49d43267243075e1376d",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_772b5392455fb947ac6b885c",
+      "type": "Place",
+      "title": "Kyiv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a135e96b137ecafc3e7dee03",
+      "type": "Organization",
+      "title": "Polish Army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_001d689156ed68f9fa6aaa03",
+      "type": "Person",
+      "title": "Marshal Budyonny",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -2,10 +2,10 @@
   "id": "mention_23bdffcb188ccf20486c526e",
   "type": "Place",
   "title": "Makoblany",
-  "summary": "Village assigned administratively to Kuzhnitsa.",
+  "summary": "Village assigned to the Kozhnitsa administrative area.",
   "originalName": "מקובלאני",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 33,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,36 +20,78 @@
       "printedPage": null,
       "passageCharStart": 401,
       "passageCharEnd": 409,
-      "normalizedPassageCharStart": 300,
-      "normalizedPassageCharEnd": 308,
+      "normalizedPassageCharStart": 401,
+      "normalizedPassageCharEnd": 409,
       "pageCharStart": 3854,
       "pageCharEnd": 3862,
       "quote": "מקובלאני",
       "normalizedQuote": "מקובלאני",
       "modelQuote": "מקובלאני",
-      "bbox": null,
+      "bbox": {
+        "left": 1079,
+        "top": 5193,
+        "right": 1357,
+        "bottom": 5271
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n32/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "167b5a0600bcf90c35502de95313f161ac7c0243695e4c09f0eda84d989fbbf3",
       "normalizedPassageChecksum": "76546cf24f298f5ce6e9685685859d73f06055a6b4744800166c2eac67206096",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_f92862237074901b271f6c08",
+      "predicate": "Located In",
+      "subjectTitle": "Makoblany",
+      "objectTitle": "Kozhnitsa",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c452bd0c983eedf38a9c604f",
+        "pageId": "page_nybc314005_0033",
+        "scanIndex": 33,
+        "leafNumber": 32,
+        "printedPage": null,
+        "passageCharStart": 347,
+        "passageCharEnd": 409,
+        "normalizedPassageCharStart": 347,
+        "normalizedPassageCharEnd": 409,
+        "pageCharStart": 3800,
+        "pageCharEnd": 3862,
+        "quote": "לקוז׳ניצ ה השתייכ ו\nהעדו ת (א ו הכפרים ) : קרוגלאני , מקובלאני",
+        "normalizedQuote": "לקוז׳ניצ ה השתייכ ו\nהעדו ת (א ו הכפרים ) : קרוגלאני , מקובלאני",
+        "modelQuote": "לקוז׳ניצ ה השתייכ ו העדו ת (א ו הכפרים): קרוגלאני, מקובלאני",
+        "bbox": {
+          "left": 761,
+          "top": 5075,
+          "right": 2395,
+          "bottom": 5271
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n32/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "167b5a0600bcf90c35502de95313f161ac7c0243695e4c09f0eda84d989fbbf3",
+        "normalizedPassageChecksum": "76546cf24f298f5ce6e9685685859d73f06055a6b4744800166c2eac67206096",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_513e5b19597cc91e7cb3d1c2",
+      "type": "Place",
+      "title": "Kozhnitsa",
+      "relation": "Located In"
+    },
     {
       "id": "mention_c28694351b2eb3fc56c66ddf",
       "type": "Place",
       "title": "Kruglany",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d29879d3df9e78b8460fcb2f",
-      "type": "Place",
-      "title": "Gzhibiniya",
       "relation": "Appears in same passage"
     },
     {
@@ -77,12 +119,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6693c72c5a3df2430fb7b169",
-      "type": "Place",
-      "title": "Nova-Vola",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_b16b809db2cda070b9ddf142",
       "type": "Place",
       "title": "Romanovka",
@@ -101,15 +137,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b0d61fffee3411ecdc1e04e6",
+      "id": "mention_3b964f82a1a49c161cf2c82d",
       "type": "Place",
-      "title": "Kamionka",
+      "title": "Zaborzhitsa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_14edb5739cb2a4dfd2c29dfd",
+      "id": "mention_f235829b068dc3ff4494f314",
       "type": "Place",
-      "title": "Zborzhitsa",
+      "title": "Warsaw",
       "relation": "Appears in same passage"
     }
   ],

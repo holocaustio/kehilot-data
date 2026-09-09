@@ -2,15 +2,15 @@
   "id": "mention_27263ce7f60a1e760d63ddde",
   "type": "Family",
   "title": "Grotberg family",
-  "summary": "One of four families represented in the AGEP company name.",
+  "summary": "Family name represented in the Agef company acronym.",
   "originalName": "גראטבערג",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 274,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "family name",
+  "subtype": "surname group",
   "evidenceRefs": [
     {
       "passageId": "passage_80fcdd27266f977d71a685d1",
@@ -20,20 +20,25 @@
       "printedPage": null,
       "passageCharStart": 1038,
       "passageCharEnd": 1046,
-      "normalizedPassageCharStart": 743,
-      "normalizedPassageCharEnd": 751,
+      "normalizedPassageCharStart": 1038,
+      "normalizedPassageCharEnd": 1046,
       "pageCharStart": 2394,
       "pageCharEnd": 2402,
       "quote": "גראטבערג",
       "normalizedQuote": "גראטבערג",
       "modelQuote": "גראטבערג",
-      "bbox": null,
+      "bbox": {
+        "left": 1357,
+        "top": 5145,
+        "right": 1669,
+        "bottom": 5209
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n273/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "a1e7128cce23bab1f98f5f92bbfb4c95315267c7eb865700ccff203c9567b50e",
       "normalizedPassageChecksum": "2f643a8dab1dc99e91c1ee83a0b5eb308638d9177c5d78a50777119b820a7928",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -41,61 +46,67 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_bcabbc80f5c43514fb95ae3c",
+      "id": "mention_33f68bb00ba5f6715a18f4d7",
       "type": "Person",
-      "title": "Friedberg",
+      "title": "Fridberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_3a74bbc788e146ac069610de",
+      "id": "mention_a51867e9b07fd59a33952f76",
       "type": "Person",
-      "title": "Friedberg’s wife",
+      "title": "Israel's daughter",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8520c9f242052ab502b6f1cb",
-      "type": "Person",
-      "title": "Israel’s daughter",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4225ebd7a5598e8b58dfa797",
+      "id": "mention_6d10291862a8ba7eeee936a5",
       "type": "Person",
       "title": "Gazantki",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4532654b0dd937ab2177aa4f",
+      "id": "mention_1e7ccce3d6546f2a8bcff778",
+      "type": "Place",
+      "title": "Grodno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_edbbe39f26ad45416d90ea7c",
+      "type": "Place",
+      "title": "Janowe",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7d9777932d8b59452af945d3",
       "type": "Person",
       "title": "Rinzler",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_5a76a49ebaa8605bb29ceed1",
+      "id": "mention_4716b043d27f398570c1209f",
       "type": "Place",
-      "title": "Labor camp",
+      "title": "Wood near the camp",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_adfc3d2a73f7297c7b5420fc",
+      "id": "mention_85ee4b6b75d7cf41cc341269",
       "type": "Person",
       "title": "Eisen",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1d3d8e43a2e0463b3c168ced",
+      "id": "mention_09451ab0b9f280569f0a343a",
       "type": "Community",
-      "title": "Sokolka",
+      "title": "Takalke",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a631c4d3d2f9d92d8c025c37",
+      "id": "mention_fc848a5c4490f3f54d2c807a",
       "type": "Business",
-      "title": "AGEP food company",
+      "title": "Agef",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_c350a00ad60f8dd83a44dc74",
+      "id": "mention_59fb4ce455a611df8b4ddcc6",
       "type": "Family",
       "title": "Eisen family",
       "relation": "Appears in same passage"
@@ -104,12 +115,6 @@
       "id": "mention_3065ab58f7117ea4cb0b1a62",
       "type": "Family",
       "title": "Epstein family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_536c287b9b4eeec12e3e3544",
-      "type": "Family",
-      "title": "Pucht family",
       "relation": "Appears in same passage"
     }
   ],

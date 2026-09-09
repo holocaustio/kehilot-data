@@ -2,15 +2,14 @@
   "id": "mention_ea7e593d104ba645cdd2c58f",
   "type": "Person",
   "title": "Bonim",
-  "summary": "Person selected for the organization’s committee.",
+  "summary": "Selected committee member of the Sokolka organization.",
   "originalName": "בונים",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 296,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "May represent a surname or given name.",
   "evidenceRefs": [
     {
       "passageId": "passage_3a955d621dfb6af31c1aa731",
@@ -20,30 +19,34 @@
       "printedPage": null,
       "passageCharStart": 546,
       "passageCharEnd": 551,
-      "normalizedPassageCharStart": 399,
-      "normalizedPassageCharEnd": 404,
+      "normalizedPassageCharStart": 546,
+      "normalizedPassageCharEnd": 551,
       "pageCharStart": 546,
       "pageCharEnd": 551,
       "quote": "בונים",
       "normalizedQuote": "בונים",
       "modelQuote": "בונים",
-      "bbox": null,
+      "bbox": {
+        "left": 3727,
+        "top": 4280,
+        "right": 3887,
+        "bottom": 4334
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n295/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "04c5d5fade36e44b0d7b2bf0f3931bab974736642a0511c92990c0140318b80b",
       "normalizedPassageChecksum": "3a295cf6252a136e22de7d2cb67f8862912367c28accf6ad8ba0ef3a1c2b442d",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [
+  "claims": [
     {
-      "id": "event_candidate_63894f06d5400b0ffd2ff6e9",
-      "type": "Organization Founding",
-      "title": "Founding of the Organization of Sokolka Jews in Israel",
-      "summary": "Sokolka landsleit founded an organization and selected its committee.",
+      "id": "claim_candidate_e1a003ceb876b5806fb27d55",
+      "predicate": "Member Of",
+      "subjectTitle": "Bonim",
+      "objectTitle": "Sokolka Organization in Israel",
       "confidence": "HIGH",
       "evidence": {
         "passageId": "passage_3a955d621dfb6af31c1aa731",
@@ -51,44 +54,56 @@
         "scanIndex": 296,
         "leafNumber": 295,
         "printedPage": null,
-        "passageCharStart": 413,
-        "passageCharEnd": 495,
-        "normalizedPassageCharStart": 295,
-        "normalizedPassageCharEnd": 357,
-        "pageCharStart": 413,
-        "pageCharEnd": 495,
-        "quote": "געשאפ ט דע ם\n\"ארגו ן מצא י סוקולק ה בישראל \" או ן אויסגעקליב ן ד י\nחברי ם צו ם ועד",
-        "normalizedQuote": "געשאפטדעם \"ארגוןמצאיסוקולקהבישראל\"אוןאויסגעקליבןדי חבריםצוםועד",
-        "modelQuote": "געשאפטדעם \"ארגוןמצאיסוקולקהבישראל\"אוןאויסגעקליבןדי חבריםצוםועד",
-        "bbox": null,
+        "passageCharStart": 546,
+        "passageCharEnd": 551,
+        "normalizedPassageCharStart": 546,
+        "normalizedPassageCharEnd": 551,
+        "pageCharStart": 546,
+        "pageCharEnd": 551,
+        "quote": "בונים",
+        "normalizedQuote": "בונים",
+        "modelQuote": "בונים",
+        "bbox": {
+          "left": 3727,
+          "top": 4280,
+          "right": 3887,
+          "bottom": 4334
+        },
         "scanUrl": "https://archive.org/details/nybc314005/page/n295/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
         "passageChecksum": "04c5d5fade36e44b0d7b2bf0f3931bab974736642a0511c92990c0140318b80b",
         "normalizedPassageChecksum": "3a295cf6252a136e22de7d2cb67f8862912367c28accf6ad8ba0ef3a1c2b442d",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "EXACT_RAW_OCR",
         "alignmentScore": 1
       }
     }
   ],
+  "events": [],
   "connections": [
     {
-      "id": "event_candidate_63894f06d5400b0ffd2ff6e9",
+      "id": "mention_84e6e01eeb5de79f0c484ed6",
+      "type": "Organization",
+      "title": "Sokolka Organization in Israel",
+      "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_6c15cf587a3f2239846ebccb",
       "type": "Event",
-      "title": "Founding of the Organization of Sokolka Jews in Israel",
+      "title": "Formation of the Sokolka organization in Israel",
       "relation": "Participated In",
       "role": "Participant"
     },
     {
-      "id": "mention_c0e640519a87345449235acc",
+      "id": "mention_55d1141fb6675831db73ab8e",
       "type": "Person",
-      "title": "Yitzhak Chinski",
+      "title": "Chinski",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_1c9d42bd9f27b2b05ed06bf2",
+      "id": "mention_84e6e01eeb5de79f0c484ed6",
       "type": "Organization",
-      "title": "Organization of Sokolka Natives in Israel",
+      "title": "Sokolka Organization in Israel",
       "relation": "Appears in same passage"
     },
     {
@@ -98,9 +113,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_389dd1ba1f95c150c0ad6886",
+      "id": "mention_a8af22ef0b811119a7cb802d",
       "type": "Person",
-      "title": "Kowalski",
+      "title": "Kowalsky",
       "relation": "Appears in same passage"
     },
     {
@@ -110,15 +125,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_45cec92ef1889bdf87330809",
+      "id": "mention_c4212d616a32506403afdf2e",
       "type": "Person",
-      "title": "Tikotsinsky",
+      "title": "Tikatsinsky",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_2de3d9c1eea80bdc376a8e07",
+      "id": "mention_42fa148fae037a40fe430f53",
       "type": "Person",
-      "title": "Shapira",
+      "title": "Shapiro",
       "relation": "Appears in same passage"
     },
     {
@@ -146,7 +161,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_809dde62be3e1f80facd1841",
+      "id": "mention_d15adc4422bb584d0a84ef07",
       "type": "Organization",
       "title": "Sokolka Aid Society in America",
       "relation": "Appears in same passage"

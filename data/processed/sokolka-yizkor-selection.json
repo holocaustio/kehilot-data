@@ -1,13 +1,13 @@
 {
   "schemaVersion": "kehilot-yizkor-selected-release-v1",
   "selectedVersion": "sokolka-yizkor-v2",
-  "selectedAt": "2026-09-04T20:12:27.194Z",
+  "selectedAt": "2026-09-09T04:38:14.369Z",
   "community": "sokolka",
   "bookId": "book_nybc314005",
   "publicGraphPath": "data/processed/sokolka-yizkor-v2/adjudication/resolved-graph.json",
   "sourcePassagesPath": "data/processed/sokolka-yizkor-v1/source/passages.jsonl",
-  "graphSha256": "c49c85005fa9b4a6fc2f2c0dc7b458b40e892480e8de7fa37566dcfca2d68e67",
-  "sourceSha256": "de6eb527911441e87b865e940fd1375d0d62d67d82d032769a61bdb4d1baac8e",
+  "graphSha256": "24cb0e3ddea48607191722782eef37474053b847508b3fdd7b690f12399cb430",
+  "sourceSha256": "9b388d897594821884c24d4d6cb58c64de00547f86b71b2fbb3808204ba7e623",
   "checks": {
     "allStagesCompleted": true,
     "structuralValidationPassed": true,
@@ -16,18 +16,18 @@
   },
   "allowedIncompleteStages": [],
   "provenance": {
-    "observations": 6480,
+    "observations": 6845,
     "missingEvidence": 0,
     "invalidRawRanges": 0
   },
   "counts": {
     "passages": 822,
-    "mentions": 4945,
-    "claims": 1159,
-    "events": 376,
-    "quarantinedAtExtraction": 419,
-    "adjudicationReviewQueue": 190,
-    "publicSourceLinkedObservations": 5242
+    "mentions": 5042,
+    "claims": 1322,
+    "events": 481,
+    "quarantinedAtExtraction": 277,
+    "adjudicationReviewQueue": 73,
+    "publicSourceLinkedObservations": 5516
   },
   "models": {
     "inventory": {
@@ -40,8 +40,8 @@
       "model": "gpt-5.6-luna",
       "serviceTier": "flex",
       "reasoningEffort": "none",
-      "promptVersion": "yizkor-extraction-prompt-v5",
-      "validatorVersion": "yizkor-provenance-validator-v4"
+      "promptVersion": "yizkor-extraction-prompt-v6",
+      "validatorVersion": "yizkor-provenance-validator-v5"
     },
     "luna": {
       "model": "gpt-5.6-luna",
@@ -52,16 +52,16 @@
     "terra": {
       "model": "gpt-5.6-terra",
       "serviceTier": "flex",
-      "reasoningEffort": "high",
+      "reasoningEffort": "medium",
       "promptVersion": "yizkor-adjudication-prompt-v1"
     }
   },
   "costsUsd": {
     "inventory": 0.065877,
-    "extraction": 0.549977,
-    "luna": 0.141339,
-    "terra": 1.583197,
-    "total": 2.34039
+    "extraction": 0.581942,
+    "luna": 0.227741,
+    "terra": 0.181934,
+    "total": 1.057494
   },
   "publicationPolicy": {
     "humanReviewComplete": false,

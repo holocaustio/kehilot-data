@@ -1,0 +1,112 @@
+{
+  "id": "mention_887ffa79a7dba96d2054fc4f",
+  "type": "Organization",
+  "title": "Nazi perpetrators",
+  "summary": "Nazi perpetrators first encountered Jews of Sokolka during the occupation.",
+  "originalName": "נאצישע רוצחים",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 270,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "perpetrator group",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6f215315cecd80231e1f5c20",
+      "pageId": "page_nybc314005_0270",
+      "scanIndex": 270,
+      "leafNumber": 269,
+      "printedPage": null,
+      "passageCharStart": 1063,
+      "passageCharEnd": 1081,
+      "normalizedPassageCharStart": 1063,
+      "normalizedPassageCharEnd": 1081,
+      "pageCharStart": 2429,
+      "pageCharEnd": 2447,
+      "quote": "ד י נאציש ע רוצחים",
+      "normalizedQuote": "ד י נאציש ע רוצחים",
+      "modelQuote": "די נאצישע רוצחים",
+      "bbox": {
+        "left": 1061,
+        "top": 1294,
+        "right": 1667,
+        "bottom": 1352
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n269/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "88baae3fc89f06314a766e4a7712eb33ecb1cc4f7af3a8fc9d1edee790e8cd5a",
+      "normalizedPassageChecksum": "c6ad122d12f037412095d2fc19704796b78ebbb0c3335abd84190c4d663fb0d2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3edab2ae39ac2a3225cf1fac",
+      "type": "Aktion Or Raid",
+      "title": "First encounter between Sokolka Jews and Nazi perpetrators",
+      "summary": "The first encounter between Sokolka Jews and Nazi perpetrators occurred during the occupation.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6f215315cecd80231e1f5c20",
+        "pageId": "page_nybc314005_0270",
+        "scanIndex": 270,
+        "leafNumber": 269,
+        "printedPage": null,
+        "passageCharStart": 1012,
+        "passageCharEnd": 1081,
+        "normalizedPassageCharStart": 1012,
+        "normalizedPassageCharEnd": 1081,
+        "pageCharStart": 2378,
+        "pageCharEnd": 2447,
+        "quote": "ד י ערשט ע באגעגעני ש צוויש ן\nסאקאלקע ר ייד ן או ן ד י נאציש ע רוצחים",
+        "normalizedQuote": "ד י ערשט ע באגעגעני ש צוויש ן\nסאקאלקע ר ייד ן או ן ד י נאציש ע רוצחים",
+        "modelQuote": "די ערשטע באגעגעניש צווישן\nסאקאלקער יידן און די נאצישע רוצחים",
+        "bbox": {
+          "left": 645,
+          "top": 1172,
+          "right": 2341,
+          "bottom": 1356
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n269/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "88baae3fc89f06314a766e4a7712eb33ecb1cc4f7af3a8fc9d1edee790e8cd5a",
+        "normalizedPassageChecksum": "c6ad122d12f037412095d2fc19704796b78ebbb0c3335abd84190c4d663fb0d2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3edab2ae39ac2a3225cf1fac",
+      "type": "Event",
+      "title": "First encounter between Sokolka Jews and Nazi perpetrators",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b519eb65a78e4544481f264c",
+      "type": "Institution",
+      "title": "New Beit Midrash",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

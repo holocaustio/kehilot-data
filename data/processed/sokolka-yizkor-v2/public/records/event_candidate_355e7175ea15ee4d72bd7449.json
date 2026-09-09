@@ -1,0 +1,76 @@
+{
+  "id": "event_candidate_355e7175ea15ee4d72bd7449",
+  "type": "Event",
+  "title": "Forced labor imposed on Jews",
+  "summary": "Polish forces compelled captured Jewish residents to perform unpaid hard labor.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 86,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Employment",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0d3a29141f8bf89124347e9d",
+      "pageId": "page_nybc314005_0086",
+      "scanIndex": 86,
+      "leafNumber": 85,
+      "printedPage": null,
+      "passageCharStart": 1024,
+      "passageCharEnd": 1056,
+      "normalizedPassageCharStart": 1024,
+      "normalizedPassageCharEnd": 1056,
+      "pageCharStart": 2100,
+      "pageCharEnd": 2132,
+      "quote": "הית ה זא ת עבוד ת פר ך ולל א שכר",
+      "normalizedQuote": "הית ה זא ת עבוד ת פר ך ולל א שכר",
+      "modelQuote": "היתה זאת עבודת פרך וללא שכר",
+      "bbox": {
+        "left": 995,
+        "top": 827,
+        "right": 2047,
+        "bottom": 903
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n85/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "50b394f0e8fb867f9a6c5b92b17110621595b65e0a98c9230a18fc77fcdd909f",
+      "normalizedPassageChecksum": "e3731c00f97bc07458371f13f51ac67bdc47da3e07e0db36ee19dd90d5a3d4e3",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_bd76166bb8afe3bd04eb6331",
+      "type": "Community",
+      "title": "Jewish community of Sokolka",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_a135e96b137ecafc3e7dee03",
+      "type": "Organization",
+      "title": "Polish army",
+      "relation": "Participant",
+      "role": "Employer"
+    },
+    {
+      "id": "mention_e40c472def901ebb917b1746",
+      "type": "Organization",
+      "title": "Military gendarmerie",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

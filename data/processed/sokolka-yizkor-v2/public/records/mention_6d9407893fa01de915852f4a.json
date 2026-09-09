@@ -1,0 +1,118 @@
+{
+  "id": "mention_6d9407893fa01de915852f4a",
+  "type": "Community",
+  "title": "Group of Seventy",
+  "summary": "The group left the ghetto for agricultural work at an estate in Cherniakow.",
+  "originalName": "קבוצה של 70 איש",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 160,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "work group",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2675ece6e8916d0844f9e9e8",
+      "pageId": "page_nybc314005_0160",
+      "scanIndex": 160,
+      "leafNumber": 159,
+      "printedPage": null,
+      "passageCharStart": 361,
+      "passageCharEnd": 379,
+      "normalizedPassageCharStart": 361,
+      "normalizedPassageCharEnd": 379,
+      "pageCharStart": 2846,
+      "pageCharEnd": 2864,
+      "quote": "קבוצ ה ש ל 70 אי ש",
+      "normalizedQuote": "קבוצ ה ש ל 70 אי ש",
+      "modelQuote": "קבוצה של 70 איש",
+      "bbox": {
+        "left": 1529,
+        "top": 4759,
+        "right": 2183,
+        "bottom": 4837
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n159/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "c00584921890468b524e23ea88eb6432b834a563f4c5b6e8245ab34a5c95817f",
+      "normalizedPassageChecksum": "2c1f026958ddb2f1555cb791ff7c93edcabcaa2d54300cd0a6455f356457b8b1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_cd6646718f945b639b471e3c",
+      "predicate": "Worked At",
+      "subjectTitle": "Group of Seventy",
+      "objectTitle": "Estate of an Estate Owner",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2675ece6e8916d0844f9e9e8",
+        "pageId": "page_nybc314005_0160",
+        "scanIndex": 160,
+        "leafNumber": 159,
+        "printedPage": null,
+        "passageCharStart": 361,
+        "passageCharEnd": 431,
+        "normalizedPassageCharStart": 361,
+        "normalizedPassageCharEnd": 431,
+        "pageCharStart": 2846,
+        "pageCharEnd": 2916,
+        "quote": "קבוצ ה ש ל 70 אי ש שיצא ה לעבודר . חקלאי ת\nאצ ל בע ל אחוז ה בצ׳רניאקוב",
+        "normalizedQuote": "קבוצ ה ש ל 70 אי ש שיצא ה לעבודר . חקלאי ת\nאצ ל בע ל אחוז ה בצ׳רניאקוב",
+        "modelQuote": "קבוצה של 70 איש שיצאה לעבודר. חקלאית\nאצל בעל אחוזה בצ׳רניאקוב",
+        "bbox": {
+          "left": 719,
+          "top": 4759,
+          "right": 2407,
+          "bottom": 4965
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n159/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "c00584921890468b524e23ea88eb6432b834a563f4c5b6e8245ab34a5c95817f",
+        "normalizedPassageChecksum": "2c1f026958ddb2f1555cb791ff7c93edcabcaa2d54300cd0a6455f356457b8b1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_d72da22665dec4b040ad3189",
+      "type": "Place",
+      "title": "Estate of an Estate Owner",
+      "relation": "Worked At"
+    },
+    {
+      "id": "event_candidate_77434f5e1125a1f188df6df3",
+      "type": "Event",
+      "title": "Agricultural work in Cherniakow",
+      "relation": "Participated In",
+      "role": "Employee"
+    },
+    {
+      "id": "mention_4cbc05b9885eced656edcb82",
+      "type": "Place",
+      "title": "Cherniakow",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_49e78945bb27ba8599b6bb1d",
+      "type": "Organization",
+      "title": "HeHalutz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d72da22665dec4b040ad3189",
+      "type": "Place",
+      "title": "Estate of an Estate Owner",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

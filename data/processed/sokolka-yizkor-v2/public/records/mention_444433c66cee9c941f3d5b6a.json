@@ -2,10 +2,10 @@
   "id": "mention_444433c66cee9c941f3d5b6a",
   "type": "Place",
   "title": "Charna-Vish",
-  "summary": "Village assigned administratively to Silkovo.",
+  "summary": "Village assigned to the Vasilkov administrative area.",
   "originalName": "צ׳ארנה־וויש",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 33,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,50 +20,74 @@
       "printedPage": null,
       "passageCharStart": 534,
       "passageCharEnd": 545,
-      "normalizedPassageCharStart": 410,
-      "normalizedPassageCharEnd": 421,
+      "normalizedPassageCharStart": 534,
+      "normalizedPassageCharEnd": 545,
       "pageCharStart": 3987,
       "pageCharEnd": 3998,
       "quote": "צ׳ארנה־וויש",
       "normalizedQuote": "צ׳ארנה־וויש",
       "modelQuote": "צ׳ארנה־וויש",
-      "bbox": null,
+      "bbox": {
+        "left": 1883,
+        "top": 5567,
+        "right": 2245,
+        "bottom": 5615
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n32/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "167b5a0600bcf90c35502de95313f161ac7c0243695e4c09f0eda84d989fbbf3",
       "normalizedPassageChecksum": "76546cf24f298f5ce6e9685685859d73f06055a6b4744800166c2eac67206096",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
-      "alignmentScore": 1
-    },
-    {
-      "passageId": "passage_21af70e36bf26997a57ce357",
-      "pageId": "page_nybc314005_0034",
-      "scanIndex": 34,
-      "leafNumber": 33,
-      "printedPage": null,
-      "passageCharStart": 82,
-      "passageCharEnd": 123,
-      "normalizedPassageCharStart": 64,
-      "normalizedPassageCharEnd": 99,
-      "pageCharStart": 82,
-      "pageCharEnd": 123,
-      "quote": "התחנות : צ׳ארנה־וויש , סוקולק ה וקוז׳ניצה",
-      "normalizedQuote": "התחנות:צ׳ארנה־וויש,סוקולקהוקוז׳ניצה",
-      "modelQuote": "התחנות:צ׳ארנה־וויש,סוקולקהוקוז׳ניצה",
-      "bbox": null,
-      "scanUrl": "https://archive.org/details/nybc314005/page/n33/mode/1up",
-      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
-      "passageChecksum": "55ca64324647b1ccaaa73aaa13762bc9da2264de51a7fc67c8f5ca04d7d88258",
-      "normalizedPassageChecksum": "53410515233cd8b67b46e717991b3f8bbb9b70b337320d76763ea43fcfc1ca5f",
-      "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_792d7ce512eb632e9c629b74",
+      "predicate": "Located In",
+      "subjectTitle": "Charna-Vish",
+      "objectTitle": "Vasilkov",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c452bd0c983eedf38a9c604f",
+        "pageId": "page_nybc314005_0033",
+        "scanIndex": 33,
+        "leafNumber": 32,
+        "printedPage": null,
+        "passageCharStart": 511,
+        "passageCharEnd": 545,
+        "normalizedPassageCharStart": 511,
+        "normalizedPassageCharEnd": 545,
+        "pageCharStart": 3964,
+        "pageCharEnd": 3998,
+        "quote": "לואסילקוב : הכפ -\nרי ם צ׳ארנה־וויש",
+        "normalizedQuote": "לואסילקוב : הכפ -\nרי ם צ׳ארנה־וויש",
+        "modelQuote": "לואסילקוב: הכפ - רי ם צ׳ארנה־וויש",
+        "bbox": {
+          "left": 767,
+          "top": 5429,
+          "right": 2391,
+          "bottom": 5615
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n32/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "167b5a0600bcf90c35502de95313f161ac7c0243695e4c09f0eda84d989fbbf3",
+        "normalizedPassageChecksum": "76546cf24f298f5ce6e9685685859d73f06055a6b4744800166c2eac67206096",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_77124a6145f5cdbe63dbe66b",
+      "type": "Place",
+      "title": "Vasilkov",
+      "relation": "Located In"
+    },
     {
       "id": "mention_c28694351b2eb3fc56c66ddf",
       "type": "Place",
@@ -74,12 +98,6 @@
       "id": "mention_23bdffcb188ccf20486c526e",
       "type": "Place",
       "title": "Makoblany",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d29879d3df9e78b8460fcb2f",
-      "type": "Place",
-      "title": "Gzhibiniya",
       "relation": "Appears in same passage"
     },
     {
@@ -107,12 +125,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6693c72c5a3df2430fb7b169",
-      "type": "Place",
-      "title": "Nova-Vola",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_b16b809db2cda070b9ddf142",
       "type": "Place",
       "title": "Romanovka",
@@ -125,81 +137,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b0d61fffee3411ecdc1e04e6",
+      "id": "mention_3b964f82a1a49c161cf2c82d",
       "type": "Place",
-      "title": "Kamionka",
+      "title": "Zaborzhitsa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_14edb5739cb2a4dfd2c29dfd",
+      "id": "mention_f235829b068dc3ff4494f314",
       "type": "Place",
-      "title": "Zborzhitsa",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d63361e2adf67b64abf688c1",
-      "type": "Person",
-      "title": "M. S. Gshuri",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_faddb99e35619382a5258ef5",
-      "type": "Community",
-      "title": "Sokolka",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_513e5b19597cc91e7cb3d1c2",
-      "type": "Place",
-      "title": "Kuzhnitsa",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d07769cb8a416b04cfaba33d",
-      "type": "Place",
-      "title": "Grodno",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_a27f91b73b4852383e8edfb3",
-      "type": "Place",
-      "title": "Bialystok",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_36df5e6c62415dc433f72dd8",
-      "type": "Family",
-      "title": "Zawis-Tobsky family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_85217eeb3e8307251a7dade5",
-      "type": "Family",
-      "title": "Dubnarovich family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_e884984789cb4f2d680a627e",
-      "type": "Family",
-      "title": "Bakrhover family",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_b68ec3f47837d4f3c4fb2bfd",
-      "type": "Community",
-      "title": "Grodno Jewish community",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_5c6f4e71e7fad24082572ee7",
-      "type": "Event",
-      "title": "Grodno fire of 1885",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_6a34825015ebc5fe974f5b29",
-      "type": "Place",
-      "title": "Sokolka district",
+      "title": "Warsaw",
       "relation": "Appears in same passage"
     }
   ],

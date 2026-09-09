@@ -1,0 +1,117 @@
+{
+  "id": "mention_aaa7a98ed1a04354fd83e70a",
+  "type": "Place",
+  "title": "Birkenau",
+  "summary": "Destination of deportation transports where selections occurred.",
+  "originalName": "בירקנאו",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 185,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4a961ceb5a753af322aebcae",
+      "pageId": "page_nybc314005_0185",
+      "scanIndex": 185,
+      "leafNumber": 184,
+      "printedPage": null,
+      "passageCharStart": 884,
+      "passageCharEnd": 902,
+      "normalizedPassageCharStart": 884,
+      "normalizedPassageCharEnd": 902,
+      "pageCharStart": 2911,
+      "pageCharEnd": 2929,
+      "quote": "והובילו ם לבירקנאו",
+      "normalizedQuote": "והובילו ם לבירקנאו",
+      "modelQuote": "והובילום לבירקנאו",
+      "bbox": {
+        "left": 1630,
+        "top": 2895,
+        "right": 2180,
+        "bottom": 2973
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n184/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "b8da91207789a0063ac7b9d06d5d6e6db5cad31134efa48cd5721cbd0be4552c",
+      "normalizedPassageChecksum": "179a55bcc5a4aeec93d6e66d5d8556451ac3c5f5ba06c58e28991d9ba0bff29f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c9138758510555989e72eed1",
+      "type": "Deportation",
+      "title": "Deportation to Birkenau",
+      "summary": "Transports from Kolbason carried Jewish prisoners to Birkenau.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4a961ceb5a753af322aebcae",
+        "pageId": "page_nybc314005_0185",
+        "scanIndex": 185,
+        "leafNumber": 184,
+        "printedPage": null,
+        "passageCharStart": 885,
+        "passageCharEnd": 902,
+        "normalizedPassageCharStart": 885,
+        "normalizedPassageCharEnd": 902,
+        "pageCharStart": 2912,
+        "pageCharEnd": 2929,
+        "quote": "הובילו ם לבירקנאו",
+        "normalizedQuote": "הובילו ם לבירקנאו",
+        "modelQuote": "הובילום לבירקנאו",
+        "bbox": {
+          "left": 1630,
+          "top": 2895,
+          "right": 2180,
+          "bottom": 2973
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n184/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "b8da91207789a0063ac7b9d06d5d6e6db5cad31134efa48cd5721cbd0be4552c",
+        "normalizedPassageChecksum": "179a55bcc5a4aeec93d6e66d5d8556451ac3c5f5ba06c58e28991d9ba0bff29f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c9138758510555989e72eed1",
+      "type": "Event",
+      "title": "Deportation to Birkenau",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_7eb87e994e79ae972d929eae",
+      "type": "Person",
+      "title": "Friedberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fd6d37624f20acfc67a74a2c",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2527f05f1bb6e88fd0828edb",
+      "type": "Person",
+      "title": "Esther Mishkinsky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5ab3a12e4c1ea9fd175c2149",
+      "type": "Person",
+      "title": "Zvi Nefacha-Kowalski",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

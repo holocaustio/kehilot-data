@@ -1,0 +1,101 @@
+{
+  "id": "mention_6dcc7ff496a54cd5fe69785d",
+  "type": "Person",
+  "title": "Grunopol",
+  "summary": "Named as a leader during the German army attack on Polish peasants.",
+  "originalName": "גרונופול",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 84,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military commander",
+  "uncertaintyNote": "Role as military commander is inferred from leadership context.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_320555577ed795537e22ba3f",
+      "pageId": "page_nybc314005_0084",
+      "scanIndex": 84,
+      "leafNumber": 83,
+      "printedPage": null,
+      "passageCharStart": 342,
+      "passageCharEnd": 371,
+      "normalizedPassageCharStart": 342,
+      "normalizedPassageCharEnd": 371,
+      "pageCharStart": 1672,
+      "pageCharEnd": 1701,
+      "quote": "ע ם גרונופו ל ולשצינסק י בראש",
+      "normalizedQuote": "ע ם גרונופו ל ולשצינסק י בראש",
+      "modelQuote": "עם גרונופול ולשצינסקי בראש",
+      "bbox": {
+        "left": 2864,
+        "top": 4526,
+        "right": 3846,
+        "bottom": 4610
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n83/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "dabdec7916ebff6d3da12e5eb764ae882a48f7d36586b38d66ec03aabc7a2586",
+      "normalizedPassageChecksum": "c0dc5682022ec1a96003dfb8c3a012dcb4e9dc0343c05bf23c2749ef605a95d3",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_9b30dd481bc3c9149a8e560d",
+      "type": "Aktion Or Raid",
+      "title": "German army attack on Polish peasants",
+      "summary": "German forces attacked Polish peasants in Sokolka streets after reported looting and abuse.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_320555577ed795537e22ba3f",
+        "pageId": "page_nybc314005_0084",
+        "scanIndex": 84,
+        "leafNumber": 83,
+        "printedPage": null,
+        "passageCharStart": 374,
+        "passageCharEnd": 427,
+        "normalizedPassageCharStart": 374,
+        "normalizedPassageCharEnd": 427,
+        "pageCharStart": 1704,
+        "pageCharEnd": 1757,
+        "quote": "התנפל ו\nע ל האכרי ם הפולני ם ברחובותיד , ש ל סוקולק ה",
+        "normalizedQuote": "התנפל ו\nע ל האכרי ם הפולני ם ברחובותיד , ש ל סוקולק ה",
+        "modelQuote": "התנפלו\nעל האכרים הפולנים ברחובותיד, של סוקולקה",
+        "bbox": {
+          "left": 2570,
+          "top": 4534,
+          "right": 4290,
+          "bottom": 4740
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n83/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "dabdec7916ebff6d3da12e5eb764ae882a48f7d36586b38d66ec03aabc7a2586",
+        "normalizedPassageChecksum": "c0dc5682022ec1a96003dfb8c3a012dcb4e9dc0343c05bf23c2749ef605a95d3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_9b30dd481bc3c9149a8e560d",
+      "type": "Event",
+      "title": "German army attack on Polish peasants",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_5d734150dcfcae7e109e6b40",
+      "type": "Person",
+      "title": "Lashchinsky",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

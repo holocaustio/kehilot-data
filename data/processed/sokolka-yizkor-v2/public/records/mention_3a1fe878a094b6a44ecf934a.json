@@ -1,17 +1,17 @@
 {
   "id": "mention_3a1fe878a094b6a44ecf934a",
   "type": "Place",
-  "title": "Kaliejave Street",
-  "summary": "One of three streets designated for the ghetto.",
+  "title": "Kaliejave",
+  "summary": "Street designated within the Sokółka ghetto.",
   "originalName": "קאליעיאווע",
   "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 276,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "street",
-  "uncertaintyNote": "Street-name transliteration is uncertain.",
+  "uncertaintyNote": "OCR spacing and place-name transliteration are uncertain.",
   "evidenceRefs": [
     {
       "passageId": "passage_ce09e931c0cfb148569ce3de",
@@ -21,80 +21,41 @@
       "printedPage": null,
       "passageCharStart": 149,
       "passageCharEnd": 159,
-      "normalizedPassageCharStart": 110,
-      "normalizedPassageCharEnd": 120,
+      "normalizedPassageCharStart": 149,
+      "normalizedPassageCharEnd": 159,
       "pageCharStart": 3652,
       "pageCharEnd": 3662,
       "quote": "קאליעיאווע",
       "normalizedQuote": "קאליעיאווע",
       "modelQuote": "קאליעיאווע",
-      "bbox": null,
+      "bbox": {
+        "left": 698,
+        "top": 4474,
+        "right": 1050,
+        "bottom": 4556
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n275/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "0aafa2f9fde1a2c3b4a600ce39ff51792b259cfcf3ded3d0b39259a25a42ea9b",
       "normalizedPassageChecksum": "2875fe841f875dbf88646a8f9959744060a79e6b02a2d720e2060efb1c551655",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [
-    {
-      "id": "claim_candidate_900ddf705f529102e38d6934",
-      "predicate": "Part Of",
-      "subjectTitle": "Kaliejave Street",
-      "objectTitle": "Sokolka ghetto",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_ce09e931c0cfb148569ce3de",
-        "pageId": "page_nybc314005_0276",
-        "scanIndex": 276,
-        "leafNumber": 275,
-        "printedPage": null,
-        "passageCharStart": 94,
-        "passageCharEnd": 159,
-        "normalizedPassageCharStart": 69,
-        "normalizedPassageCharEnd": 120,
-        "pageCharStart": 3597,
-        "pageCharEnd": 3662,
-        "quote": "פאר ן געט א\nזענע ן באשטימ ט געוואר ן פאלגענד ע גאס ן : קאליעיאווע",
-        "normalizedQuote": "פארןגעטא זענעןבאשטימטגעווארןפאלגענדעגאסן:קאליעיאווע",
-        "modelQuote": "פארןגעטא זענעןבאשטימטגעווארןפאלגענדעגאסן:קאליעיאווע",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc314005/page/n275/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
-        "passageChecksum": "0aafa2f9fde1a2c3b4a600ce39ff51792b259cfcf3ded3d0b39259a25a42ea9b",
-        "normalizedPassageChecksum": "2875fe841f875dbf88646a8f9959744060a79e6b02a2d720e2060efb1c551655",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "claims": [],
   "events": [],
   "connections": [
     {
-      "id": "mention_02da46fedacf56a9d3d08cf6",
+      "id": "mention_6aa02d4d771a50b52003b00c",
       "type": "Place",
-      "title": "Sokolka ghetto",
-      "relation": "Part Of"
-    },
-    {
-      "id": "mention_02da46fedacf56a9d3d08cf6",
-      "type": "Place",
-      "title": "Sokolka ghetto",
+      "title": "Ziemieslnica",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_cae7108e95c66684b970c517",
+      "id": "mention_20b407af50fc14f0c7955a12",
       "type": "Place",
-      "title": "Ziemieslnica Street",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3d56a8e8a34af35085f974a1",
-      "type": "Place",
-      "title": "Schoolyard",
+      "title": "Synagogue courtyard",
       "relation": "Appears in same passage"
     },
     {

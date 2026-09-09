@@ -2,10 +2,10 @@
   "id": "mention_c84eaf223b6d3d37850f44a5",
   "type": "Place",
   "title": "Ostrov",
-  "summary": "Village assigned administratively to Silkovo.",
+  "summary": "Village assigned to the Vasilkov administrative area.",
   "originalName": "אוסטרוב",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 33,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,26 +20,74 @@
       "printedPage": null,
       "passageCharStart": 548,
       "passageCharEnd": 555,
-      "normalizedPassageCharStart": 422,
-      "normalizedPassageCharEnd": 429,
+      "normalizedPassageCharStart": 548,
+      "normalizedPassageCharEnd": 555,
       "pageCharStart": 4001,
       "pageCharEnd": 4008,
       "quote": "אוסטרוב",
       "normalizedQuote": "אוסטרוב",
       "modelQuote": "אוסטרוב",
-      "bbox": null,
+      "bbox": {
+        "left": 1577,
+        "top": 5565,
+        "right": 1821,
+        "bottom": 5615
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n32/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "167b5a0600bcf90c35502de95313f161ac7c0243695e4c09f0eda84d989fbbf3",
       "normalizedPassageChecksum": "76546cf24f298f5ce6e9685685859d73f06055a6b4744800166c2eac67206096",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_3510c74a9a7f2425f85483b3",
+      "predicate": "Located In",
+      "subjectTitle": "Ostrov",
+      "objectTitle": "Vasilkov",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c452bd0c983eedf38a9c604f",
+        "pageId": "page_nybc314005_0033",
+        "scanIndex": 33,
+        "leafNumber": 32,
+        "printedPage": null,
+        "passageCharStart": 548,
+        "passageCharEnd": 555,
+        "normalizedPassageCharStart": 548,
+        "normalizedPassageCharEnd": 555,
+        "pageCharStart": 4001,
+        "pageCharEnd": 4008,
+        "quote": "אוסטרוב",
+        "normalizedQuote": "אוסטרוב",
+        "modelQuote": "אוסטרוב",
+        "bbox": {
+          "left": 1577,
+          "top": 5565,
+          "right": 1821,
+          "bottom": 5615
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n32/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "167b5a0600bcf90c35502de95313f161ac7c0243695e4c09f0eda84d989fbbf3",
+        "normalizedPassageChecksum": "76546cf24f298f5ce6e9685685859d73f06055a6b4744800166c2eac67206096",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_77124a6145f5cdbe63dbe66b",
+      "type": "Place",
+      "title": "Vasilkov",
+      "relation": "Located In"
+    },
     {
       "id": "mention_c28694351b2eb3fc56c66ddf",
       "type": "Place",
@@ -50,12 +98,6 @@
       "id": "mention_23bdffcb188ccf20486c526e",
       "type": "Place",
       "title": "Makoblany",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d29879d3df9e78b8460fcb2f",
-      "type": "Place",
-      "title": "Gzhibiniya",
       "relation": "Appears in same passage"
     },
     {
@@ -83,12 +125,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6693c72c5a3df2430fb7b169",
-      "type": "Place",
-      "title": "Nova-Vola",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_b16b809db2cda070b9ddf142",
       "type": "Place",
       "title": "Romanovka",
@@ -101,15 +137,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b0d61fffee3411ecdc1e04e6",
+      "id": "mention_3b964f82a1a49c161cf2c82d",
       "type": "Place",
-      "title": "Kamionka",
+      "title": "Zaborzhitsa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_14edb5739cb2a4dfd2c29dfd",
+      "id": "mention_f235829b068dc3ff4494f314",
       "type": "Place",
-      "title": "Zborzhitsa",
+      "title": "Warsaw",
       "relation": "Appears in same passage"
     }
   ],

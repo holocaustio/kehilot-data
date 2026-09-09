@@ -2,10 +2,10 @@
   "id": "mention_6ed4b1e24eeec3750f3d933d",
   "type": "Place",
   "title": "Bagna",
-  "summary": "Village assigned administratively to Sokhuvolya.",
+  "summary": "Village assigned to the Sukhovoliya administrative area.",
   "originalName": "באגנה",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 33,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
@@ -20,26 +20,74 @@
       "printedPage": null,
       "passageCharStart": 454,
       "passageCharEnd": 459,
-      "normalizedPassageCharStart": 344,
-      "normalizedPassageCharEnd": 349,
+      "normalizedPassageCharStart": 454,
+      "normalizedPassageCharEnd": 459,
       "pageCharStart": 3907,
       "pageCharEnd": 3912,
       "quote": "באגנה",
       "normalizedQuote": "באגנה",
       "modelQuote": "באגנה",
-      "bbox": null,
+      "bbox": {
+        "left": 1201,
+        "top": 5329,
+        "right": 1379,
+        "bottom": 5379
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n32/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "167b5a0600bcf90c35502de95313f161ac7c0243695e4c09f0eda84d989fbbf3",
       "normalizedPassageChecksum": "76546cf24f298f5ce6e9685685859d73f06055a6b4744800166c2eac67206096",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_ec24cd01a281941de325a8e6",
+      "predicate": "Located In",
+      "subjectTitle": "Bagna",
+      "objectTitle": "Sukhovoliya",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c452bd0c983eedf38a9c604f",
+        "pageId": "page_nybc314005_0033",
+        "scanIndex": 33,
+        "leafNumber": 32,
+        "printedPage": null,
+        "passageCharStart": 434,
+        "passageCharEnd": 459,
+        "normalizedPassageCharStart": 434,
+        "normalizedPassageCharEnd": 459,
+        "pageCharStart": 3887,
+        "pageCharEnd": 3912,
+        "quote": "לסוכובולה : הכפרי ם באגנה",
+        "normalizedQuote": "לסוכובולה : הכפרי ם באגנה",
+        "modelQuote": "לסוכובולה: הכפרי ם באגנה",
+        "bbox": {
+          "left": 1201,
+          "top": 5311,
+          "right": 2041,
+          "bottom": 5381
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n32/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "167b5a0600bcf90c35502de95313f161ac7c0243695e4c09f0eda84d989fbbf3",
+        "normalizedPassageChecksum": "76546cf24f298f5ce6e9685685859d73f06055a6b4744800166c2eac67206096",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_7bd704fd7b22022dcfc18696",
+      "type": "Place",
+      "title": "Sukhovoliya",
+      "relation": "Located In"
+    },
     {
       "id": "mention_c28694351b2eb3fc56c66ddf",
       "type": "Place",
@@ -50,12 +98,6 @@
       "id": "mention_23bdffcb188ccf20486c526e",
       "type": "Place",
       "title": "Makoblany",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d29879d3df9e78b8460fcb2f",
-      "type": "Place",
-      "title": "Gzhibiniya",
       "relation": "Appears in same passage"
     },
     {
@@ -77,12 +119,6 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6693c72c5a3df2430fb7b169",
-      "type": "Place",
-      "title": "Nova-Vola",
-      "relation": "Appears in same passage"
-    },
-    {
       "id": "mention_b16b809db2cda070b9ddf142",
       "type": "Place",
       "title": "Romanovka",
@@ -101,15 +137,15 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b0d61fffee3411ecdc1e04e6",
+      "id": "mention_3b964f82a1a49c161cf2c82d",
       "type": "Place",
-      "title": "Kamionka",
+      "title": "Zaborzhitsa",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_14edb5739cb2a4dfd2c29dfd",
+      "id": "mention_f235829b068dc3ff4494f314",
       "type": "Place",
-      "title": "Zborzhitsa",
+      "title": "Warsaw",
       "relation": "Appears in same passage"
     }
   ],

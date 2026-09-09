@@ -2,16 +2,15 @@
   "id": "mention_b06298441249d3f8a645b60d",
   "type": "Place",
   "title": "Dunajec",
-  "summary": "A river crossed during the group’s movement toward the front.",
+  "summary": "River crossed by the group during its movement toward the front.",
   "originalName": "דונאאיעץ",
-  "confidence": "MEDIUM",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
   "scanIndex": 283,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "river",
-  "uncertaintyNote": "OCR transliteration is uncertain.",
   "evidenceRefs": [
     {
       "passageId": "passage_f8fdaafe2b774d08d25f578a",
@@ -21,20 +20,25 @@
       "printedPage": null,
       "passageCharStart": 441,
       "passageCharEnd": 449,
-      "normalizedPassageCharStart": 317,
-      "normalizedPassageCharEnd": 325,
+      "normalizedPassageCharStart": 441,
+      "normalizedPassageCharEnd": 449,
       "pageCharStart": 3668,
       "pageCharEnd": 3676,
       "quote": "דונאאיעץ",
       "normalizedQuote": "דונאאיעץ",
       "modelQuote": "דונאאיעץ",
-      "bbox": null,
+      "bbox": {
+        "left": 1368,
+        "top": 4076,
+        "right": 1648,
+        "bottom": 4136
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n282/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "04dac027e406c7779200cc6d7ac13d584db6bb75fc7ff61827c26d79009d65f5",
       "normalizedPassageChecksum": "633be389055de56999db9f502c8eca3d628a3b9e859243d1cc09cfef54164365",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "EXACT_RAW_OCR",
       "alignmentScore": 1
     }
   ],
@@ -42,39 +46,63 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_89d15eb2a08f71571bc8a554",
+      "id": "mention_005508216a121e5ae1d79f7e",
       "type": "Place",
       "title": "Poland",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_8d969c456eeb5b1d29e7c80e",
+      "id": "mention_ff6695d01751dd5938b38996",
       "type": "Place",
-      "title": "Tadeskova",
+      "title": "Tydeskava",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_7ba03d8556d5fe10502df69b",
+      "id": "mention_7ecf8f3df0fc384f7bf348a4",
       "type": "Place",
       "title": "Prishtak",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d6f7df7ef9d46b32ba816b66",
+      "id": "mention_51aebf629ba44b57b5a1eecc",
       "type": "Place",
-      "title": "Vislavk",
+      "title": "Vistula",
       "relation": "Appears in same passage"
     },
     {
       "id": "mention_10e1411b82038d83e7e5f4f7",
       "type": "Place",
-      "title": "Visloka",
+      "title": "Wisłoka",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_201647aaa27ac1933c5228cc",
-      "type": "Institution",
-      "title": "Synagogue",
+      "id": "mention_e8cd418ffedbd680c17c96eb",
+      "type": "Place",
+      "title": "Gidova",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e28d9de24913a4d307e3131e",
+      "type": "Place",
+      "title": "Rzeszów",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_92c554a91f66053203c4b7da",
+      "type": "Place",
+      "title": "Forest",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f25e4af58b52a7bfcfe06fcb",
+      "type": "Community",
+      "title": "Russian group",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3798f4a4d070dad156ef2bac",
+      "type": "Community",
+      "title": "Germans",
       "relation": "Appears in same passage"
     }
   ],

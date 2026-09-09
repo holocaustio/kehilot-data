@@ -2,15 +2,16 @@
   "id": "mention_96442d72991f33fd6979492a",
   "type": "Place",
   "title": "Kazakhstan",
-  "summary": "A distant region from which refugees had traveled.",
+  "summary": "Distant region from which refugees arrived.",
   "originalName": "קזכסטן",
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 191,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "country_or_region",
+  "subtype": "country",
+  "uncertaintyNote": "OCR spelling differs from the standard transliteration.",
   "evidenceRefs": [
     {
       "passageId": "passage_f6b49a6032e637fe2e1e67d0",
@@ -20,14 +21,19 @@
       "printedPage": null,
       "passageCharStart": 151,
       "passageCharEnd": 173,
-      "normalizedPassageCharStart": 119,
-      "normalizedPassageCharEnd": 137,
+      "normalizedPassageCharStart": 151,
+      "normalizedPassageCharEnd": 173,
       "pageCharStart": 151,
       "pageCharEnd": 173,
       "quote": "מערבו ת קזכסט ן הרחוקה",
-      "normalizedQuote": "מערבותקזכסטןהרחוקה",
+      "normalizedQuote": "מערבו ת קזכסט ן הרחוקה",
       "modelQuote": "מערבות קזכסטן הרחוקה",
-      "bbox": null,
+      "bbox": {
+        "left": 2780,
+        "top": 1138,
+        "right": 3506,
+        "bottom": 1198
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n190/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "b402b54c7532ec891e0e934f1c3e9a1693fd6944c418a4087d3b65101de92de0",
@@ -41,39 +47,27 @@
   "events": [],
   "connections": [
     {
-      "id": "mention_c61f837d973f0dd60e0c2aa4",
+      "id": "mention_4d24e3ff64742b0dc22cbb36",
       "type": "Place",
       "title": "Vilna",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_eb8a437008c13181547f69f1",
-      "type": "Organization",
-      "title": "Partisans",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3a7559cf4bb07837ae114f27",
-      "type": "Place",
-      "title": "Tashkent",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_8943de71aa74d8235a013aa6",
-      "type": "Place",
-      "title": "Karaganda",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_d07769cb8a416b04cfaba33d",
-      "type": "Place",
+      "id": "mention_0cf5268a8824119d6de35320",
+      "type": "Community",
       "title": "Grodno",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_da1354170a52951f747751af",
+      "id": "mention_038fe6e593edfcbd60a198d6",
       "type": "Institution",
       "title": "University",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e01544b606e9d76bea4b4dcd",
+      "type": "Place",
+      "title": "Moscow",
       "relation": "Appears in same passage"
     }
   ],

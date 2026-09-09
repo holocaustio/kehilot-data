@@ -1,0 +1,133 @@
+{
+  "id": "mention_4f2ab91fff2fa718b4587992",
+  "type": "Person",
+  "title": "Farber",
+  "summary": "Farber was among four Jews killed before the Polish Army left Sokolka.",
+  "originalName": "פארבער",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 85,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "victim",
+  "uncertaintyNote": "The text gives a surname and nickname-like description, but no given name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2732ddd3ff0c80aead7c812e",
+      "pageId": "page_nybc314005_0085",
+      "scanIndex": 85,
+      "leafNumber": 84,
+      "printedPage": null,
+      "passageCharStart": 762,
+      "passageCharEnd": 774,
+      "normalizedPassageCharStart": 762,
+      "normalizedPassageCharEnd": 774,
+      "pageCharStart": 2965,
+      "pageCharEnd": 2977,
+      "quote": "ה״ ה פארבע ר",
+      "normalizedQuote": "ה״ ה פארבע ר",
+      "modelQuote": "ה״ה פארבער",
+      "bbox": {
+        "left": 1783,
+        "top": 2884,
+        "right": 2163,
+        "bottom": 2934
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n84/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "0e3dffdf773a48fc7c5300da4a9f56c317dcee9d934879aacead94b8723c5147",
+      "normalizedPassageChecksum": "da5fe1d2f1138abb2248130f02884a9a8bf6521c3c0de0da8c1541d0bb9b65bd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_e0562ce7a40dc55e78d709a4",
+      "predicate": "Murdered At",
+      "subjectTitle": "Farber",
+      "objectTitle": "Sokolka",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "countContext": "one of four Jews"
+      },
+      "evidence": {
+        "passageId": "passage_2732ddd3ff0c80aead7c812e",
+        "pageId": "page_nybc314005_0085",
+        "scanIndex": 85,
+        "leafNumber": 84,
+        "printedPage": null,
+        "passageCharStart": 717,
+        "passageCharEnd": 745,
+        "normalizedPassageCharStart": 717,
+        "normalizedPassageCharEnd": 745,
+        "pageCharStart": 2920,
+        "pageCharEnd": 2948,
+        "quote": "עו ד הספיק ו להרו ג 4 יהודים",
+        "normalizedQuote": "עו ד הספיק ו להרו ג 4 יהודים",
+        "modelQuote": "עוד הספיקו להרוג 4 יהודים",
+        "bbox": {
+          "left": 943,
+          "top": 2746,
+          "right": 1811,
+          "bottom": 2824
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n84/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "0e3dffdf773a48fc7c5300da4a9f56c317dcee9d934879aacead94b8723c5147",
+        "normalizedPassageChecksum": "da5fe1d2f1138abb2248130f02884a9a8bf6521c3c0de0da8c1541d0bb9b65bd",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b26af012e5b47045675a590f",
+      "type": "Person",
+      "title": "Aharonovski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e118c2af87680754cff2595c",
+      "type": "Person",
+      "title": "Valianski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f88d3d87d416155cac8b4e99",
+      "type": "Person",
+      "title": "Jewish soldier from outside the town",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a135e96b137ecafc3e7dee03",
+      "type": "Organization",
+      "title": "Polish Army",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

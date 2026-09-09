@@ -1,0 +1,114 @@
+{
+  "id": "mention_96ec8ea134514a4567da0ae2",
+  "type": "Person",
+  "title": "Alexander I",
+  "summary": "Russian ruler who issued a proclamation to Lithuania in October 1807.",
+  "originalName": "אלכסנדר הראשון",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 29,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "monarch",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bf050b59e334426ed1dd18d5",
+      "pageId": "page_nybc314005_0029",
+      "scanIndex": 29,
+      "leafNumber": 28,
+      "printedPage": null,
+      "passageCharStart": 1002,
+      "passageCharEnd": 1036,
+      "normalizedPassageCharStart": 1002,
+      "normalizedPassageCharEnd": 1036,
+      "pageCharStart": 1002,
+      "pageCharEnd": 1036,
+      "quote": "הוצי א אלכסנד ר הראשו ן א ת המנש ר",
+      "normalizedQuote": "הוצי א אלכסנד ר הראשו ן א ת המנש ר",
+      "modelQuote": "הוציא אלכסנדר הראשון את המנשר",
+      "bbox": {
+        "left": 2584,
+        "top": 3203,
+        "right": 3698,
+        "bottom": 3277
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n28/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "f1ff807a3008c4c58a3ccb8e67760fbe162fcd88c4f692a7007b4881a5f6ae1e",
+      "normalizedPassageChecksum": "b8bc3c795af61df7d27262f572b0aa3e758ee656ef0b951cc1df1fc6bcc24190",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_1728f1b0c88802fe4536cd7b",
+      "type": "Employment",
+      "title": "Alexander I issued a proclamation",
+      "summary": "Alexander I issued a Russian and Polish proclamation promising residents retained rights.",
+      "dateStart": "1807-10-27",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The available event types do not include proclamation issuance; classified provisionally.",
+      "evidence": {
+        "passageId": "passage_bf050b59e334426ed1dd18d5",
+        "pageId": "page_nybc314005_0029",
+        "scanIndex": 29,
+        "leafNumber": 28,
+        "printedPage": null,
+        "passageCharStart": 981,
+        "passageCharEnd": 1036,
+        "normalizedPassageCharStart": 981,
+        "normalizedPassageCharEnd": 1036,
+        "pageCharStart": 981,
+        "pageCharEnd": 1036,
+        "quote": "ב־ 27\nבאוקטוב ר 1807 הוצי א אלכסנד ר הראשו ן א ת המנש ר",
+        "normalizedQuote": "ב־ 27\nבאוקטוב ר 1807 הוצי א אלכסנד ר הראשו ן א ת המנש ר",
+        "modelQuote": "ב־27\nבאוקטובר 1807 הוציא אלכסנדר הראשון את המנשר",
+        "bbox": {
+          "left": 2582,
+          "top": 3095,
+          "right": 4208,
+          "bottom": 3285
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n28/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "f1ff807a3008c4c58a3ccb8e67760fbe162fcd88c4f692a7007b4881a5f6ae1e",
+        "normalizedPassageChecksum": "b8bc3c795af61df7d27262f572b0aa3e758ee656ef0b951cc1df1fc6bcc24190",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_1728f1b0c88802fe4536cd7b",
+      "type": "Event",
+      "title": "Alexander I issued a proclamation",
+      "relation": "Participated In",
+      "role": "Author"
+    },
+    {
+      "id": "mention_c3d05018dc3486fffe4b0544",
+      "type": "Place",
+      "title": "Białystok District",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_26c2be6821bbedd1f30b1eff",
+      "type": "Place",
+      "title": "Drohiczyn District",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_17032da63563097f7a23c0fa",
+      "type": "Place",
+      "title": "Tilsit",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

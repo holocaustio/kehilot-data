@@ -1,0 +1,173 @@
+{
+  "id": "mention_51503eb8bf5f6e94be0b66f6",
+  "type": "Person",
+  "title": "Dr. Landa",
+  "summary": "A Jewish doctor who moved from Sokolka to Lodz.",
+  "originalName": "ד״ ר לנדא",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 54,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "doctor",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a746448d36b89827f3b88f95",
+      "pageId": "page_nybc314005_0054",
+      "scanIndex": 54,
+      "leafNumber": 53,
+      "printedPage": null,
+      "passageCharStart": 364,
+      "passageCharEnd": 380,
+      "normalizedPassageCharStart": 364,
+      "normalizedPassageCharEnd": 380,
+      "pageCharStart": 364,
+      "pageCharEnd": 380,
+      "quote": "הרופ א ד״ ר לנדא",
+      "normalizedQuote": "הרופ א ד״ ר לנדא",
+      "modelQuote": "הרופ א ד״ ר לנדא",
+      "bbox": {
+        "left": 3677,
+        "top": 1647,
+        "right": 4245,
+        "bottom": 1723
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n53/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "8d98fe4bac4596c58e4daa912ca141f0d397f5816191648e8148ff1539eef574",
+      "normalizedPassageChecksum": "29d91fb6edff29cc61554ea08b66f22d10db5eed53a14988beb64f7d8c43d56d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_f1dfc2c30f183dfb43fd073e",
+      "predicate": "Migrated To",
+      "subjectTitle": "Dr. Landa",
+      "objectTitle": "Lodz",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a746448d36b89827f3b88f95",
+        "pageId": "page_nybc314005_0054",
+        "scanIndex": 54,
+        "leafNumber": 53,
+        "printedPage": null,
+        "passageCharStart": 111,
+        "passageCharEnd": 133,
+        "normalizedPassageCharStart": 111,
+        "normalizedPassageCharEnd": 133,
+        "pageCharStart": 111,
+        "pageCharEnd": 133,
+        "quote": "העוב ר מסוקולק ה ללודז",
+        "normalizedQuote": "העוב ר מסוקולק ה ללודז",
+        "modelQuote": "העובר מסוקולק ה ללודז",
+        "bbox": {
+          "left": 2573,
+          "top": 863,
+          "right": 3289,
+          "bottom": 945
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n53/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "8d98fe4bac4596c58e4daa912ca141f0d397f5816191648e8148ff1539eef574",
+        "normalizedPassageChecksum": "29d91fb6edff29cc61554ea08b66f22d10db5eed53a14988beb64f7d8c43d56d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_27f1796d11c175d29a43bfa9",
+      "type": "Migration",
+      "title": "Dr. Landa’s move from Sokolka to Lodz",
+      "summary": "A Jewish doctor moved from Sokolka to Lodz, prompting a farewell gathering.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a746448d36b89827f3b88f95",
+        "pageId": "page_nybc314005_0054",
+        "scanIndex": 54,
+        "leafNumber": 53,
+        "printedPage": null,
+        "passageCharStart": 111,
+        "passageCharEnd": 133,
+        "normalizedPassageCharStart": 111,
+        "normalizedPassageCharEnd": 133,
+        "pageCharStart": 111,
+        "pageCharEnd": 133,
+        "quote": "העוב ר מסוקולק ה ללודז",
+        "normalizedQuote": "העוב ר מסוקולק ה ללודז",
+        "modelQuote": "העובר מסוקולק ה ללודז",
+        "bbox": {
+          "left": 2573,
+          "top": 863,
+          "right": 3289,
+          "bottom": 945
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n53/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "8d98fe4bac4596c58e4daa912ca141f0d397f5816191648e8148ff1539eef574",
+        "normalizedPassageChecksum": "29d91fb6edff29cc61554ea08b66f22d10db5eed53a14988beb64f7d8c43d56d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b2fcae9c093a956d1c723b0d",
+      "type": "Place",
+      "title": "Lodz",
+      "relation": "Migrated To"
+    },
+    {
+      "id": "event_candidate_27f1796d11c175d29a43bfa9",
+      "type": "Event",
+      "title": "Dr. Landa’s move from Sokolka to Lodz",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_b2fcae9c093a956d1c723b0d",
+      "type": "Place",
+      "title": "Lodz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6efe39aad53486baab2c5397",
+      "type": "Person",
+      "title": "Zvi-Hirsch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ba21c52c4c978b08c431c68d",
+      "type": "Person",
+      "title": "Rabbi of Sokolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7d3f4ef249a9b523710b0400",
+      "type": "Community",
+      "title": "Isakava",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3ffd79b445cabc3dffd24646",
+      "type": "Community",
+      "title": "Palestina",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

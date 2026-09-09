@@ -1,0 +1,99 @@
+{
+  "id": "mention_8ca147a453c66e617912d305",
+  "type": "Place",
+  "title": "Grodinski Street",
+  "summary": "A street through which the car passes while approaching central Sokolka.",
+  "originalName": "רחוב גרודינסקי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 192,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_942f5c2d9ef2baed6c3cc160",
+      "pageId": "page_nybc314005_0192",
+      "scanIndex": 192,
+      "leafNumber": 191,
+      "printedPage": null,
+      "passageCharStart": 882,
+      "passageCharEnd": 914,
+      "normalizedPassageCharStart": 882,
+      "normalizedPassageCharEnd": 914,
+      "pageCharStart": 1561,
+      "pageCharEnd": 1593,
+      "quote": "המכוני ת עובר ת ברחו ב גרודינסקי",
+      "normalizedQuote": "המכוני ת עובר ת ברחו ב גרודינסקי",
+      "modelQuote": "המכונית עוברת ברחוב גרודינסקי",
+      "bbox": {
+        "left": 3220,
+        "top": 4481,
+        "right": 4284,
+        "bottom": 4553
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n191/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "c60e5202e79cc08e00f7f4dafde1451da62982b6560848ca4fc5f3dd1773e91c",
+      "normalizedPassageChecksum": "667e9903bc315c6dfd0e0e84eec22c0e53d9606c02c622cd725b4509f3acc440",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_c09bd3911247a114cfba818a",
+      "predicate": "Contains",
+      "subjectTitle": "Sokolka",
+      "objectTitle": "Grodinski Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_942f5c2d9ef2baed6c3cc160",
+        "pageId": "page_nybc314005_0192",
+        "scanIndex": 192,
+        "leafNumber": 191,
+        "printedPage": null,
+        "passageCharStart": 882,
+        "passageCharEnd": 914,
+        "normalizedPassageCharStart": 882,
+        "normalizedPassageCharEnd": 914,
+        "pageCharStart": 1561,
+        "pageCharEnd": 1593,
+        "quote": "המכוני ת עובר ת ברחו ב גרודינסקי",
+        "normalizedQuote": "המכוני ת עובר ת ברחו ב גרודינסקי",
+        "modelQuote": "המכונית עוברת ברחוב גרודינסקי",
+        "bbox": {
+          "left": 3220,
+          "top": 4481,
+          "right": 4284,
+          "bottom": 4553
+        },
+        "scanUrl": "https://archive.org/details/nybc314005/page/n191/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+        "passageChecksum": "c60e5202e79cc08e00f7f4dafde1451da62982b6560848ca4fc5f3dd1773e91c",
+        "normalizedPassageChecksum": "667e9903bc315c6dfd0e0e84eec22c0e53d9606c02c622cd725b4509f3acc440",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Contains"
+    },
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

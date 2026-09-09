@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_6c0786c8e451fc8c0e6ee848",
+  "type": "Event",
+  "title": "Polish forces reach Kyiv",
+  "summary": "Polish forces advanced to the gates of Kyiv during their war with Russian forces.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 142,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Military Advance",
+  "uncertaintyNote": "This is a military advance, not ordinary migration; no allowed event type precisely represents it.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7eb90e31cadc2e52fbbe5013",
+      "pageId": "page_nybc314005_0142",
+      "scanIndex": 142,
+      "leafNumber": 141,
+      "printedPage": null,
+      "passageCharStart": 546,
+      "passageCharEnd": 567,
+      "normalizedPassageCharStart": 546,
+      "normalizedPassageCharEnd": 567,
+      "pageCharStart": 2337,
+      "pageCharEnd": 2358,
+      "quote": "הגיע ו ע ד שער י קיוב",
+      "normalizedQuote": "הגיע ו ע ד שער י קיוב",
+      "modelQuote": "הגיעו עד שערי קיוב",
+      "bbox": {
+        "left": 1240,
+        "top": 1185,
+        "right": 1908,
+        "bottom": 1247
+      },
+      "scanUrl": "https://archive.org/details/nybc314005/page/n141/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
+      "passageChecksum": "1c0d7c8d0078f78911307146570b36896596e35b99ec6f3692ed07d60359e023",
+      "normalizedPassageChecksum": "167ebbe0c0452ef2968d057d3ca9a90e317f97ce765b57c5586fd1a11dd24f74",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_772b5392455fb947ac6b885c",
+      "type": "Place",
+      "title": "Kyiv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_005508216a121e5ae1d79f7e",
+      "type": "Place",
+      "title": "Poland",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_772b5392455fb947ac6b885c",
+      "type": "Place",
+      "title": "Kyiv",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,15 +1,16 @@
 {
   "id": "mention_e118c2af87680754cff2595c",
   "type": "Person",
-  "title": "Valiansky",
-  "summary": "Jewish victim killed before the Polish army left Sokolka.",
+  "title": "Valianski",
+  "summary": "Valianski was among four Jews killed before the Polish Army left Sokolka.",
   "originalName": "וואליאנסקי",
   "confidence": "HIGH",
-  "validation": "EXACT_NORMALIZED_OCR",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 85,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
+  "subtype": "victim",
   "evidenceRefs": [
     {
       "passageId": "passage_2732ddd3ff0c80aead7c812e",
@@ -19,31 +20,38 @@
       "printedPage": null,
       "passageCharStart": 810,
       "passageCharEnd": 821,
-      "normalizedPassageCharStart": 590,
-      "normalizedPassageCharEnd": 600,
+      "normalizedPassageCharStart": 810,
+      "normalizedPassageCharEnd": 821,
       "pageCharStart": 3013,
       "pageCharEnd": 3024,
       "quote": "וואליאנסק י",
-      "normalizedQuote": "וואליאנסקי",
+      "normalizedQuote": "וואליאנסק י",
       "modelQuote": "וואליאנסקי",
-      "bbox": null,
+      "bbox": {
+        "left": 2049,
+        "top": 2990,
+        "right": 2373,
+        "bottom": 3066
+      },
       "scanUrl": "https://archive.org/details/nybc314005/page/n84/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
       "passageChecksum": "0e3dffdf773a48fc7c5300da4a9f56c317dcee9d934879aacead94b8723c5147",
       "normalizedPassageChecksum": "da5fe1d2f1138abb2248130f02884a9a8bf6521c3c0de0da8c1541d0bb9b65bd",
       "normalizationVersion": "ocr-layout-normalizer-v1",
-      "validation": "EXACT_NORMALIZED_OCR",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [
+  "claims": [
     {
-      "id": "event_candidate_99f9428c0d454e772145e0ac",
-      "type": "Murder",
-      "title": "Killing of four Jews before the Polish army’s departure",
-      "summary": "Four Jews were killed before the Polish army left Sokolka.",
+      "id": "claim_candidate_af83b152ac0292265074275b",
+      "predicate": "Murdered At",
+      "subjectTitle": "Valianski",
+      "objectTitle": "Sokolka",
       "confidence": "HIGH",
+      "qualifiers": {
+        "countContext": "one of four Jews"
+      },
       "evidence": {
         "passageId": "passage_2732ddd3ff0c80aead7c812e",
         "pageId": "page_nybc314005_0085",
@@ -52,34 +60,51 @@
         "printedPage": null,
         "passageCharStart": 717,
         "passageCharEnd": 745,
-        "normalizedPassageCharStart": 521,
-        "normalizedPassageCharEnd": 542,
+        "normalizedPassageCharStart": 717,
+        "normalizedPassageCharEnd": 745,
         "pageCharStart": 2920,
         "pageCharEnd": 2948,
         "quote": "עו ד הספיק ו להרו ג 4 יהודים",
-        "normalizedQuote": "עודהספיקולהרוג4יהודים",
-        "modelQuote": "עודהספיקולהרוג4יהודים",
-        "bbox": null,
+        "normalizedQuote": "עו ד הספיק ו להרו ג 4 יהודים",
+        "modelQuote": "עוד הספיקו להרוג 4 יהודים",
+        "bbox": {
+          "left": 943,
+          "top": 2746,
+          "right": 1811,
+          "bottom": 2824
+        },
         "scanUrl": "https://archive.org/details/nybc314005/page/n84/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc314005/nybc314005.pdf",
         "passageChecksum": "0e3dffdf773a48fc7c5300da4a9f56c317dcee9d934879aacead94b8723c5147",
         "normalizedPassageChecksum": "da5fe1d2f1138abb2248130f02884a9a8bf6521c3c0de0da8c1541d0bb9b65bd",
         "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "EXACT_NORMALIZED_OCR",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
+  "events": [],
   "connections": [
     {
-      "id": "event_candidate_99f9428c0d454e772145e0ac",
-      "type": "Event",
-      "title": "Killing of four Jews before the Polish army’s departure",
-      "relation": "Participated In",
-      "role": "Victim"
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Murdered At"
     },
     {
-      "id": "mention_5f2dad76ca0c5ff316fe4a2e",
+      "id": "mention_7ff6fd2ae75c09a88e55a665",
+      "type": "Community",
+      "title": "Sokółka Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6126f8b97a3c38e1ce5bd628",
+      "type": "Place",
+      "title": "Sokolka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4f2ab91fff2fa718b4587992",
       "type": "Person",
       "title": "Farber",
       "relation": "Appears in same passage"
@@ -87,31 +112,19 @@
     {
       "id": "mention_b26af012e5b47045675a590f",
       "type": "Person",
-      "title": "Aharonovsky",
+      "title": "Aharonovski",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d08bd6fe50998ab37d454252",
+      "id": "mention_f88d3d87d416155cac8b4e99",
       "type": "Person",
-      "title": "Jewish soldier from Laman",
+      "title": "Jewish soldier from outside the town",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6fa798ef2f3df3a6cff8455d",
-      "type": "Place",
-      "title": "Sokolka",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_932053dbd796d14b992940d7",
+      "id": "mention_a135e96b137ecafc3e7dee03",
       "type": "Organization",
-      "title": "Communist Russian army",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_30a5d7f26be018b43ed27d9d",
-      "type": "Organization",
-      "title": "Polish army",
+      "title": "Polish Army",
       "relation": "Appears in same passage"
     }
   ],
