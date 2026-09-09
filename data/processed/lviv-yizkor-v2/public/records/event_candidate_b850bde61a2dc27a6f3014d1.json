@@ -1,0 +1,78 @@
+{
+  "id": "event_candidate_b850bde61a2dc27a6f3014d1",
+  "type": "Event",
+  "title": "Commercial contract with Jews announced",
+  "summary": "A city councilor announced that the municipality had concluded a contract with Jews.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 39,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "The event type is only an approximate fit because the text describes a contract announcement rather than a business opening.",
+  "dateStart": "1601-11-26",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ca9c28b7040e64cc6f3a05b8",
+      "pageId": "page_nybc313875_0039",
+      "scanIndex": 39,
+      "leafNumber": 38,
+      "printedPage": null,
+      "passageCharStart": 720,
+      "passageCharEnd": 746,
+      "normalizedPassageCharStart": 720,
+      "normalizedPassageCharEnd": 746,
+      "pageCharStart": 2878,
+      "pageCharEnd": 2904,
+      "quote": "ב־ 26\nבנובמב ר 1601 הודי ע",
+      "normalizedQuote": "ב־ 26\nבנובמב ר 1601 הודי ע",
+      "modelQuote": "ב־ 26\nבנובמבר 1601 הודיע",
+      "bbox": {
+        "left": 460,
+        "top": 1521,
+        "right": 1574,
+        "bottom": 1639
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n38/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "583b3999ac99a4676a17cc92a211848dea882f1cd2a4b60bdba836dd5dc068e7",
+      "normalizedPassageChecksum": "e6a3b018c99163e952d3260f79f9f7972c9ba946f2bcd3ce04baa4a52d72910a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_b0b430e71a523e04483f313c",
+      "type": "Person",
+      "title": "Andrzej Dombrowski",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_0e4e8a1e0a0cd063e34bd3cd",
+      "type": "Institution",
+      "title": "Lviv Municipality",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_4aea7e28d688490f426dbba7",
+      "type": "Community",
+      "title": "Jewish Community of Lviv",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

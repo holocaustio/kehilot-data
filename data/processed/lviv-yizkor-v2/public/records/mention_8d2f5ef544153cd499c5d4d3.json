@@ -1,0 +1,132 @@
+{
+  "id": "mention_8d2f5ef544153cd499c5d4d3",
+  "type": "Institution",
+  "title": "Krakow Tribunal",
+  "summary": "Tribunal that issued a 1605 ruling on the disputed properties.",
+  "originalName": "הטריבונל בקרקא",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 33,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "tribunal",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d9bc73623668eeb7b37003a1",
+      "pageId": "page_nybc313875_0033",
+      "scanIndex": 33,
+      "leafNumber": 32,
+      "printedPage": null,
+      "passageCharStart": 322,
+      "passageCharEnd": 344,
+      "normalizedPassageCharStart": 322,
+      "normalizedPassageCharEnd": 344,
+      "pageCharStart": 2953,
+      "pageCharEnd": 2975,
+      "quote": "הדיו ן בטריבונ ל\nבקרקא",
+      "normalizedQuote": "הדיו ן בטריבונ ל\nבקרקא",
+      "modelQuote": "הדיון בטריבונל בקרקא",
+      "bbox": {
+        "left": 461,
+        "top": 1763,
+        "right": 1572,
+        "bottom": 1897
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n32/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "c061b925e4b815d95f402384f6860d7f115ca5558209fe94b7af07de104b2fa6",
+      "normalizedPassageChecksum": "60297205a10c985f1b97358ab5e96cc8a6e548f8a3cc24683f492ca678ab3c73",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8137a5b679f92546da51c92e",
+      "type": "Liberation",
+      "title": "Tribunal ruling on disputed properties",
+      "summary": "The tribunal ordered the city to repurchase Jewish properties and address the synagogue building.",
+      "dateStart": "1605-01-03",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The ruling is not directly represented by an allowed event type.",
+      "evidence": {
+        "passageId": "passage_d9bc73623668eeb7b37003a1",
+        "pageId": "page_nybc313875_0033",
+        "scanIndex": 33,
+        "leafNumber": 32,
+        "printedPage": null,
+        "passageCharStart": 647,
+        "passageCharEnd": 704,
+        "normalizedPassageCharStart": 647,
+        "normalizedPassageCharEnd": 704,
+        "pageCharStart": 3278,
+        "pageCharEnd": 3335,
+        "quote": "למרו ת הכ ל הוצי א הטריבונל , ב־ 3 בינוא ר 1605 ,\nפסק־דין",
+        "normalizedQuote": "למרו ת הכ ל הוצי א הטריבונל , ב־ 3 בינוא ר 1605 ,\nפסק־דין",
+        "modelQuote": "למרות הכל הוציא הטריבונל, ב־3 בינואר 1605,\nפסק־דין",
+        "bbox": {
+          "left": 460,
+          "top": 2428,
+          "right": 1575,
+          "bottom": 2568
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n32/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "c061b925e4b815d95f402384f6860d7f115ca5558209fe94b7af07de104b2fa6",
+        "normalizedPassageChecksum": "60297205a10c985f1b97358ab5e96cc8a6e548f8a3cc24683f492ca678ab3c73",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_8137a5b679f92546da51c92e",
+      "type": "Event",
+      "title": "Tribunal ruling on disputed properties",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_d92e1826aca7898f9510368e",
+      "type": "Organization",
+      "title": "Jesuits",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bdb1c96a47fa8be7cbae0fcc",
+      "type": "Person",
+      "title": "Mikolaj Witkowski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_37e5f35f4923de1807cb6740",
+      "type": "Person",
+      "title": "Pshvorksky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_35265e594768a8131dce5424",
+      "type": "Place",
+      "title": "Lublin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ce53f398e527e4deb481e8ae",
+      "type": "Person",
+      "title": "Moses Doktorovich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7ca6d6a4def1252cd8871cd6",
+      "type": "Institution",
+      "title": "Synagogue",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

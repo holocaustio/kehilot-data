@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_d3bd538bfd7843196c278eff",
+  "type": "Event",
+  "title": "Frank arrived in Lviv",
+  "summary": "Frank arrived in Lviv in December 1755 and was welcomed by supporters.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 72,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The OCR reads לבובה rather than the passage’s usual spelling לבוב.",
+  "dateStart": "1755-12",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8399dbe9ad903dffb10eb7ae",
+      "pageId": "page_nybc313875_0072",
+      "scanIndex": 72,
+      "leafNumber": 71,
+      "printedPage": null,
+      "passageCharStart": 227,
+      "passageCharEnd": 253,
+      "normalizedPassageCharStart": 227,
+      "normalizedPassageCharEnd": 253,
+      "pageCharStart": 2510,
+      "pageCharEnd": 2536,
+      "quote": "כשהגי ע בדצמב ר 1755 לבובה",
+      "normalizedQuote": "כשהגי ע בדצמב ר 1755 לבובה",
+      "modelQuote": "כשהגיע בדצמבר 1755 לבובה",
+      "bbox": {
+        "left": 466,
+        "top": 1290,
+        "right": 1092,
+        "bottom": 1339
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n71/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "a31a9e46fda8190f1eeab83744efcb72eda0c30bbeb91bfd86e2affab2fb7f79",
+      "normalizedPassageChecksum": "88cca2497e73deb308c09d35353e125ad1809bc7071ead325157311f31d11254",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9775c53b8fab84c63f157f08",
+      "type": "Person",
+      "title": "Yaakov Frank",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

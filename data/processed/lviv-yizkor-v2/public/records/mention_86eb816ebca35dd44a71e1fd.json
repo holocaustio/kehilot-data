@@ -1,0 +1,105 @@
+{
+  "id": "mention_86eb816ebca35dd44a71e1fd",
+  "type": "Institution",
+  "title": "Police",
+  "summary": "The police cooperated with the municipality in implementing residence measures.",
+  "originalName": "המשטרה",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 117,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2f4e813358e9f1cb57975de3",
+      "pageId": "page_nybc313875_0117",
+      "scanIndex": 117,
+      "leafNumber": 116,
+      "printedPage": null,
+      "passageCharStart": 297,
+      "passageCharEnd": 315,
+      "normalizedPassageCharStart": 297,
+      "normalizedPassageCharEnd": 315,
+      "pageCharStart": 297,
+      "pageCharEnd": 315,
+      "quote": "בהסכ ם ע ם המשטר ה",
+      "normalizedQuote": "בהסכ ם ע ם המשטר ה",
+      "modelQuote": "בהסכם עם המשטרה",
+      "bbox": {
+        "left": 2236,
+        "top": 857,
+        "right": 2669,
+        "bottom": 891
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n116/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "7202567a2171f74f6ac481cb4dcbee1f35d80610f7e63cd2e7518f94ae9d3de9",
+      "normalizedPassageChecksum": "a990b3f5b16780370f3709ae622195c37ccfff22a540612b1a532b343ce52775",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_3a3d803db6521821147f42ba",
+      "predicate": "Affiliated With",
+      "subjectTitle": "Lviv municipality",
+      "objectTitle": "Police",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2f4e813358e9f1cb57975de3",
+        "pageId": "page_nybc313875_0117",
+        "scanIndex": 117,
+        "leafNumber": 116,
+        "printedPage": null,
+        "passageCharStart": 289,
+        "passageCharEnd": 315,
+        "normalizedPassageCharStart": 289,
+        "normalizedPassageCharEnd": 315,
+        "pageCharStart": 289,
+        "pageCharEnd": 315,
+        "quote": "העירי ה בהסכ ם ע ם המשטר ה",
+        "normalizedQuote": "העירי ה בהסכ ם ע ם המשטר ה",
+        "modelQuote": "העיריה בהסכם עם המשטרה",
+        "bbox": {
+          "left": 2236,
+          "top": 857,
+          "right": 2848,
+          "bottom": 891
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n116/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "7202567a2171f74f6ac481cb4dcbee1f35d80610f7e63cd2e7518f94ae9d3de9",
+        "normalizedPassageChecksum": "a990b3f5b16780370f3709ae622195c37ccfff22a540612b1a532b343ce52775",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_0e4e8a1e0a0cd063e34bd3cd",
+      "type": "Institution",
+      "title": "Lviv municipality",
+      "relation": "Affiliated With"
+    },
+    {
+      "id": "mention_0e4e8a1e0a0cd063e34bd3cd",
+      "type": "Institution",
+      "title": "Lviv municipality",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

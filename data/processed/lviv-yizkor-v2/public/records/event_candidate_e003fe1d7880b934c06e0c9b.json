@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_e003fe1d7880b934c06e0c9b",
+  "type": "Event",
+  "title": "Arrest of Dr. Wasser",
+  "summary": "Dr. Wasser was arrested after accompanying the officer during the search.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 223,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Arrest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_058490cab72fe1ab16d13407",
+      "pageId": "page_nybc313875_0223",
+      "scanIndex": 223,
+      "leafNumber": 222,
+      "printedPage": null,
+      "passageCharStart": 970,
+      "passageCharEnd": 1022,
+      "normalizedPassageCharStart": 970,
+      "normalizedPassageCharEnd": 1022,
+      "pageCharStart": 4391,
+      "pageCharEnd": 4443,
+      "quote": "וכאש ר גמ ר הקצי ן א ת מלאכתו , אס ר א ת ד״ ר ואסס ר",
+      "normalizedQuote": "וכאש ר גמ ר הקצי ן א ת מלאכתו , אס ר א ת ד״ ר ואסס ר",
+      "modelQuote": "וכאשר גמר הקצין את מלאכתו, אסר את ד״ר ואססר",
+      "bbox": {
+        "left": 471,
+        "top": 4000,
+        "right": 1587,
+        "bottom": 4054
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n222/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "7558e57dd7e80ad4162d056d2fc1f7a0485913cbc933cab92c677c1f5057c0a0",
+      "normalizedPassageChecksum": "ad93a5a5bf87bd7e0181296f1f610d0275c2b75ac61f46354b9c4e01be2aef5d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_24e6e323cec5d2468beeb6b0",
+      "type": "Institution",
+      "title": "Heichal",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d051ccfad3619e6deff3818e",
+      "type": "Person",
+      "title": "Dr. Wasser",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_bb3e088dff34170b1e3635a1",
+      "type": "Person",
+      "title": "Officer Lush",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

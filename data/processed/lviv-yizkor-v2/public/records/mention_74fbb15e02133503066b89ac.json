@@ -1,0 +1,132 @@
+{
+  "id": "mention_74fbb15e02133503066b89ac",
+  "type": "Place",
+  "title": "Liverpool",
+  "summary": "The English city where Schneider lived after deportation.",
+  "originalName": "ליברפול",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 253,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fd777229236aa77160f09549",
+      "pageId": "page_nybc313875_0253",
+      "scanIndex": 253,
+      "leafNumber": 252,
+      "printedPage": null,
+      "passageCharStart": 229,
+      "passageCharEnd": 251,
+      "normalizedPassageCharStart": 229,
+      "normalizedPassageCharEnd": 251,
+      "pageCharStart": 3072,
+      "pageCharEnd": 3094,
+      "quote": "עב ר לליברפול , אנגליה",
+      "normalizedQuote": "עב ר לליברפול , אנגליה",
+      "modelQuote": "עבר לליברפול, אנגליה",
+      "bbox": {
+        "left": 484,
+        "top": 2563,
+        "right": 960,
+        "bottom": 2613
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n252/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "850982ef2603872fae64873176b484df00a5e61fdd2e42806fc04774e91cea0d",
+      "normalizedPassageChecksum": "d5b1b5bf0b3722dca357b9219c571a32cd14b3d7a0e88222faf81abf3d85c331",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_54c0b7c76fde559d81a66f9d",
+      "predicate": "Migrated To",
+      "subjectTitle": "Azriel Shmuel Schneider",
+      "objectTitle": "Liverpool",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "reason": "deportation order"
+      },
+      "evidence": {
+        "passageId": "passage_fd777229236aa77160f09549",
+        "pageId": "page_nybc313875_0253",
+        "scanIndex": 253,
+        "leafNumber": 252,
+        "printedPage": null,
+        "passageCharStart": 203,
+        "passageCharEnd": 251,
+        "normalizedPassageCharStart": 203,
+        "normalizedPassageCharEnd": 251,
+        "pageCharStart": 3046,
+        "pageCharEnd": 3094,
+        "quote": "פקודת־גירו ש מטע ם הרשו ת עב ר לליברפול , אנגליה",
+        "normalizedQuote": "פקודת־גירו ש מטע ם הרשו ת עב ר לליברפול , אנגליה",
+        "modelQuote": "פקודת־גירוש מטעם הרשות עבר לליברפול, אנגליה",
+        "bbox": {
+          "left": 484,
+          "top": 2563,
+          "right": 1585,
+          "bottom": 2619
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n252/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "850982ef2603872fae64873176b484df00a5e61fdd2e42806fc04774e91cea0d",
+        "normalizedPassageChecksum": "d5b1b5bf0b3722dca357b9219c571a32cd14b3d7a0e88222faf81abf3d85c331",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_6a615682b70248251c4d1b3e",
+      "type": "Person",
+      "title": "Azriel Shmuel Schneider",
+      "relation": "Migrated To"
+    },
+    {
+      "id": "mention_6a615682b70248251c4d1b3e",
+      "type": "Person",
+      "title": "Azriel Shmuel Schneider",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_efae4742fd9e851177905d7c",
+      "type": "Place",
+      "title": "Budapest",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eccf377950f5fbb03bd75a6e",
+      "type": "Institution",
+      "title": "Rombach Synagogue",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_baf274ed387a389c94860616",
+      "type": "Person",
+      "title": "Eliyahu Karner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0cadc158172c3a7b0c62945a",
+      "type": "Institution",
+      "title": "Heichal Synagogue in Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_73cf4099f29a1f603c920737",
+      "type": "Person",
+      "title": "Mendil Shein",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

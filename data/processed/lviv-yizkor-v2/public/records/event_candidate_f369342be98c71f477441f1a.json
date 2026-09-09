@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_f369342be98c71f477441f1a",
+  "type": "Event",
+  "title": "Public auction of the synagogue lot",
+  "summary": "Libkowitz attended a Yom Kippur auction and won the contested lot.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 228,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "The event type is not directly represented by the available controlled vocabulary.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8c63c0dc3602a787cf00762c",
+      "pageId": "page_nybc313875_0228",
+      "scanIndex": 228,
+      "leafNumber": 227,
+      "printedPage": null,
+      "passageCharStart": 733,
+      "passageCharEnd": 757,
+      "normalizedPassageCharStart": 733,
+      "normalizedPassageCharEnd": 757,
+      "pageCharStart": 3934,
+      "pageCharEnd": 3958,
+      "quote": "והשתת ף במכיר ה וזכ ה בה",
+      "normalizedQuote": "והשתת ף במכיר ה וזכ ה בה",
+      "modelQuote": "והשתתף במכירה וזכה בה",
+      "bbox": {
+        "left": 620,
+        "top": 3179,
+        "right": 1157,
+        "bottom": 3223
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n227/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "6902559e5fe1db75615a44dcdaf83b4a4a0e36b1cfe4878b356e749118f1e6bd",
+      "normalizedPassageChecksum": "956e269398a9c45dca266436e2c6ca17f6e70306f4949d7c965e53e724751d07",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_737d2758cb6b4edaba82c94b",
+      "type": "Place",
+      "title": "Synagogue lot",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_94e3d645428e7a82c3bd3ef6",
+      "type": "Person",
+      "title": "Libkowitz",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

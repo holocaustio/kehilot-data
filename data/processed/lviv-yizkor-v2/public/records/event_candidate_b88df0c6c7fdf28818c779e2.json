@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_b88df0c6c7fdf28818c779e2",
+  "type": "Event",
+  "title": "Jewish refugee migration from Germany",
+  "summary": "Refugees fleeing Germany increased Lviv’s Jewish population.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 18,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b8b2d4bdc479e345ae69667c",
+      "pageId": "page_nybc313875_0018",
+      "scanIndex": 18,
+      "leafNumber": 17,
+      "printedPage": null,
+      "passageCharStart": 282,
+      "passageCharEnd": 310,
+      "normalizedPassageCharStart": 282,
+      "normalizedPassageCharEnd": 310,
+      "pageCharStart": 282,
+      "pageCharEnd": 310,
+      "quote": "זר ם פליטי ם שנמלט ו מגרמניה",
+      "normalizedQuote": "זר ם פליטי ם שנמלט ו מגרמניה",
+      "modelQuote": "זרם פליטים שנמלטו מגרמניה",
+      "bbox": {
+        "left": 2226,
+        "top": 812,
+        "right": 2890,
+        "bottom": 861
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n17/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "badd097972960c0e39a14e6fb89878a052748ba1f45f959c911a25bbcdd40ebe",
+      "normalizedPassageChecksum": "c3ee601f4be214e990f6cb213eef0f9f6d64a7f5726146200acf4d5884c1b614",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_2715949a5cd357727e27e6f5",
+      "type": "Place",
+      "title": "Germany",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

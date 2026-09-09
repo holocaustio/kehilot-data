@@ -2,7 +2,7 @@
   "id": "mention_5c0c9480df5742e20ad5f518",
   "type": "Person",
   "title": "Theodor Wurzel",
-  "summary": "A lawyer and doctor named among the memorial book’s initiators.",
+  "summary": "A lawyer and doctor thanked as an initiator of the book.",
   "originalName": "תיאודור וורצל",
   "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
@@ -27,7 +27,12 @@
       "quote": "עו״ ד ד״ ר תיאודו ר\nוורצל",
       "normalizedQuote": "עו״ ד ד״ ר תיאודו ר\nוורצל",
       "modelQuote": "עו״ד ד״ר תיאודור וורצל",
-      "bbox": null,
+      "bbox": {
+        "left": 517,
+        "top": 2436,
+        "right": 2778,
+        "bottom": 2554
+      },
       "scanUrl": "https://archive.org/details/nybc313875/page/n8/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
       "passageChecksum": "931349d6540cc2aee475fc6f853faa5c71afd600ee8782c0de2014bbe3d62ecb",
@@ -37,37 +42,74 @@
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_b07156fc485806aa776bf660",
+      "predicate": "Member Of",
+      "subjectTitle": "Theodor Wurzel",
+      "objectTitle": "Committee for Commemorating Galician Jewry",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e7a737035acbdfa5b7901ddd",
+        "pageId": "page_nybc313875_0009",
+        "scanIndex": 9,
+        "leafNumber": 8,
+        "printedPage": null,
+        "passageCharStart": 738,
+        "passageCharEnd": 763,
+        "normalizedPassageCharStart": 738,
+        "normalizedPassageCharEnd": 763,
+        "pageCharStart": 2020,
+        "pageCharEnd": 2045,
+        "quote": "עו״ ד ד״ ר תיאודו ר\nוורצל",
+        "normalizedQuote": "עו״ ד ד״ ר תיאודו ר\nוורצל",
+        "modelQuote": "עו״ד ד״ר תיאודור וורצל",
+        "bbox": {
+          "left": 517,
+          "top": 2436,
+          "right": 2778,
+          "bottom": 2554
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n8/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "931349d6540cc2aee475fc6f853faa5c71afd600ee8782c0de2014bbe3d62ecb",
+        "normalizedPassageChecksum": "75897f617312168ee5bc7925eec7b22be3aecf69a56c5ed11fcac6cde404cdcb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
     {
-      "id": "mention_fc861f3c0af9a45cef2b4ae1",
+      "id": "mention_e201da6b05f77f502d2f2fb1",
       "type": "Organization",
-      "title": "Committee for the Commemoration of Galician Jewry",
-      "relation": "Appears in same passage"
+      "title": "Committee for Commemorating Galician Jewry",
+      "relation": "Member Of"
     },
     {
-      "id": "mention_07eaa7f7965d79cd91734169",
+      "id": "mention_e201da6b05f77f502d2f2fb1",
       "type": "Organization",
-      "title": "Association of Lviv Emigrants in Israel",
+      "title": "Committee for Commemorating Galician Jewry",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9c10b05d490091aa1775deef",
+      "id": "mention_c0bd155c579a96b5a609d50c",
       "type": "Person",
-      "title": "I. Virklich",
+      "title": "J. Wirklich",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bedff0e5a87a3fc2c8004436",
+      "id": "mention_582ff9c31769f22f2b99edb8",
       "type": "Person",
-      "title": "Tzvi Levanon",
+      "title": "Zvi Lebanon",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_25b64ff888be43ac74f03a20",
-      "type": "Person",
-      "title": "Zeev Zohar",
+      "id": "mention_d71d960bd8673c43a8e38860",
+      "type": "Organization",
+      "title": "Association of Lviv Expatriates in Israel",
       "relation": "Appears in same passage"
     },
     {
@@ -83,9 +125,9 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a928dc20fda81da610975ca0",
+      "id": "mention_f30e49130aa7f71e17c7a041",
       "type": "Person",
-      "title": "Avraham Adler",
+      "title": "Abraham Adler",
       "relation": "Appears in same passage"
     }
   ],

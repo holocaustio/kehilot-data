@@ -1,0 +1,110 @@
+{
+  "id": "mention_7209ded06c60cd9879f4b922",
+  "type": "Organization",
+  "title": "Court Committee for Education",
+  "summary": "Committee that approved the community’s school plan on 16 April 1844.",
+  "originalName": "ועדת״החצ ר לענינ י חינו ך (שטודיען־האף־קאמיסיאן)",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 119,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "education committee",
+  "uncertaintyNote": "OCR spacing is irregular.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c728f7806ce987616d3774a7",
+      "pageId": "page_nybc313875_0119",
+      "scanIndex": 119,
+      "leafNumber": 118,
+      "printedPage": null,
+      "passageCharStart": 740,
+      "passageCharEnd": 765,
+      "normalizedPassageCharStart": 740,
+      "normalizedPassageCharEnd": 765,
+      "pageCharStart": 3947,
+      "pageCharEnd": 3972,
+      "quote": "ועדת״החצ ר לענינ י חינו ך",
+      "normalizedQuote": "ועדת״החצ ר לענינ י חינו ך",
+      "modelQuote": "ועדת״החצ ר לענינ י חינו ך",
+      "bbox": {
+        "left": 432,
+        "top": 3584,
+        "right": 978,
+        "bottom": 3638
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n118/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "fc3e9e88d042f15ced23707c2144e056a9e114ce9947b01c2019d81046ff3bb2",
+      "normalizedPassageChecksum": "e1c0791d223c3f8c5e4b9f12282711b5469bbf6893c24603a251ee4e12b6fa62",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c79f0a0223e93601efc5d110",
+      "type": "Plan Approval",
+      "title": "Approval of German-Jewish school plan",
+      "summary": "The Court Committee for Education approved the community’s school plan on 16 April 1844.",
+      "dateStart": "1844-04-16",
+      "dateEnd": "1844-04-16",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR spacing is irregular; event type reflects school-plan approval rather than confirmed founding.",
+      "evidence": {
+        "passageId": "passage_c728f7806ce987616d3774a7",
+        "pageId": "page_nybc313875_0119",
+        "scanIndex": 119,
+        "leafNumber": 118,
+        "printedPage": null,
+        "passageCharStart": 790,
+        "passageCharEnd": 843,
+        "normalizedPassageCharStart": 790,
+        "normalizedPassageCharEnd": 843,
+        "pageCharStart": 3997,
+        "pageCharEnd": 4050,
+        "quote": "שהחליטה , ב־ 16 באפרי ל\n1844 , לאש ר א ת תכני ת הקהלה",
+        "normalizedQuote": "שהחליטה , ב־ 16 באפרי ל\n1844 , לאש ר א ת תכני ת הקהלה",
+        "modelQuote": "שהחליטה, ב־16 באפרי ל\n1844, לאש ר א ת תכני ת הקהלה",
+        "bbox": {
+          "left": 431,
+          "top": 3667,
+          "right": 1548,
+          "bottom": 3807
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n118/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "fc3e9e88d042f15ced23707c2144e056a9e114ce9947b01c2019d81046ff3bb2",
+        "normalizedPassageChecksum": "e1c0791d223c3f8c5e4b9f12282711b5469bbf6893c24603a251ee4e12b6fa62",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c79f0a0223e93601efc5d110",
+      "type": "Event",
+      "title": "Approval of German-Jewish school plan",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_a5bb25226967a59ac351a3f5",
+      "type": "Institution",
+      "title": "German-Jewish primary school",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5ff16b6ffcc679045c549472",
+      "type": "Place",
+      "title": "Ternopil",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

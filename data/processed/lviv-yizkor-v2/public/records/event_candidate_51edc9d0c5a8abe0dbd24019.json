@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_51edc9d0c5a8abe0dbd24019",
+  "type": "Event",
+  "title": "Khmelnytsky withdraws toward Zolkiew",
+  "summary": "Khmelnytsky withdrew toward Zolkiew after receiving the promised payment.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 54,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The allowed event types do not include negotiation or withdrawal; migration is only an approximation.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7bece18cf980ad0d689fb2da",
+      "pageId": "page_nybc313875_0054",
+      "scanIndex": 54,
+      "leafNumber": 53,
+      "printedPage": null,
+      "passageCharStart": 36,
+      "passageCharEnd": 54,
+      "normalizedPassageCharStart": 36,
+      "normalizedPassageCharEnd": 54,
+      "pageCharStart": 2535,
+      "pageCharEnd": 2553,
+      "quote": "נסו ג לעב ר\nזולקיב",
+      "normalizedQuote": "נסו ג לעב ר\nזולקיב",
+      "modelQuote": "נסוג לעבר\nזולקיב",
+      "bbox": {
+        "left": 461,
+        "top": 854,
+        "right": 1582,
+        "bottom": 997
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n53/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "68af59c3b591a9cd2f60f250521633e004e226430588abf3f8bf706b87a37b3f",
+      "normalizedPassageChecksum": "51ddd46b170cfe9ede5beda22671a71d25b25680da293e60d601de1c9507f66f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c2c0b6cc0f885fabc06e3879",
+      "type": "Place",
+      "title": "Zolkiew",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_444e5201ae6f41cf4a965cd6",
+      "type": "Person",
+      "title": "Bohdan Khmelnytsky",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

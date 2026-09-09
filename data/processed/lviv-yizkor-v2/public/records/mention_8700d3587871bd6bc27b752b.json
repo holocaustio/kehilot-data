@@ -1,0 +1,113 @@
+{
+  "id": "mention_8700d3587871bd6bc27b752b",
+  "type": "Person",
+  "title": "Kitzian",
+  "summary": "A court adviser sent from Vienna to organize Galicia’s administration in May 1773.",
+  "originalName": "קיציאן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 88,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Court adviser",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0e29d359e13dc8e3c4adbd36",
+      "pageId": "page_nybc313875_0088",
+      "scanIndex": 88,
+      "leafNumber": 87,
+      "printedPage": null,
+      "passageCharStart": 11,
+      "passageCharEnd": 43,
+      "normalizedPassageCharStart": 11,
+      "normalizedPassageCharEnd": 43,
+      "pageCharStart": 3359,
+      "pageCharEnd": 3391,
+      "quote": "נשל ח מוינ ה יוע ץ החצ ר קיציא ן",
+      "normalizedQuote": "נשל ח מוינ ה יוע ץ החצ ר קיציא ן",
+      "modelQuote": "נשלח מוינה יועץ החצר קיציאן",
+      "bbox": {
+        "left": 445,
+        "top": 2584,
+        "right": 1181,
+        "bottom": 2641
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n87/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "d4cd4ae5ec7afaaeabd81f8b9ef56299c8d2e99b203c0b7ad6a64fbcfed6362d",
+      "normalizedPassageChecksum": "12cb9341942ed2a979cc2f8996dfd5a68beb282622b93c1b6ea02c69f5a2f215",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_bae73a97cdd9d219d6bb4ed1",
+      "type": "Employment",
+      "title": "Kitzian’s administrative mission in Galicia",
+      "summary": "Kitzian was sent from Vienna to organize Galicia’s administration in May 1773.",
+      "dateStart": "1773-05",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_0e29d359e13dc8e3c4adbd36",
+        "pageId": "page_nybc313875_0088",
+        "scanIndex": 88,
+        "leafNumber": 87,
+        "printedPage": null,
+        "passageCharStart": 0,
+        "passageCharEnd": 70,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 70,
+        "pageCharStart": 3348,
+        "pageCharEnd": 3418,
+        "quote": "במא י 1773 נשל ח מוינ ה יוע ץ החצ ר קיציא ן\nלארג ן א ת המנה ל בגליצי ה",
+        "normalizedQuote": "במא י 1773 נשל ח מוינ ה יוע ץ החצ ר קיציא ן\nלארג ן א ת המנה ל בגליצי ה",
+        "modelQuote": "במאי 1773 נשלח מוינה יועץ החצר קיציאן לארגן את המנהל בגליציה",
+        "bbox": {
+          "left": 445,
+          "top": 2584,
+          "right": 1563,
+          "bottom": 2721
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n87/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d4cd4ae5ec7afaaeabd81f8b9ef56299c8d2e99b203c0b7ad6a64fbcfed6362d",
+        "normalizedPassageChecksum": "12cb9341942ed2a979cc2f8996dfd5a68beb282622b93c1b6ea02c69f5a2f215",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_bae73a97cdd9d219d6bb4ed1",
+      "type": "Event",
+      "title": "Kitzian’s administrative mission in Galicia",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_5e3ca9a7d5514ed2d29a0cef",
+      "type": "Place",
+      "title": "Vienna",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_657459cd23cdccdc9599ca16",
+      "type": "Community",
+      "title": "Galicia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_96159e86a7238584defb22fb",
+      "type": "Organization",
+      "title": "Austrian administration",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,130 @@
+{
+  "id": "mention_25cc0879ece4e29e5b9d1267",
+  "type": "Institution",
+  "title": "Emmanuel Synagogue",
+  "summary": "Dr. Adler was invited as rabbi at Emmanuel Synagogue in New York.",
+  "originalName": "בית־הכנסת\"עמנואל\"",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 192,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "synagogue",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9f2eb76cb965280616e33f78",
+      "pageId": "page_nybc313875_0192",
+      "scanIndex": 192,
+      "leafNumber": 191,
+      "printedPage": null,
+      "passageCharStart": 3010,
+      "passageCharEnd": 3030,
+      "normalizedPassageCharStart": 3010,
+      "normalizedPassageCharEnd": 3030,
+      "pageCharStart": 3010,
+      "pageCharEnd": 3030,
+      "quote": "בית־הכנס ת \"עמנואל \"",
+      "normalizedQuote": "בית־הכנס ת \"עמנואל \"",
+      "modelQuote": "בית־הכנסת\"עמנואל\"",
+      "bbox": {
+        "left": 1925,
+        "top": 3369,
+        "right": 2345,
+        "bottom": 3410
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n191/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "21e799500bf5e2b23c7c1c3ae74b63887240fc154d0ddf75f18ceb93fb8cda4b",
+      "normalizedPassageChecksum": "14c1101b7bb8189118d054f6eed1aaf40b07a30e485532d8a2fe8eeabd876f0c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_ada4aec3e19a7ae432d6c3a9",
+      "predicate": "Located In",
+      "subjectTitle": "Emmanuel Synagogue",
+      "objectTitle": "New York",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9f2eb76cb965280616e33f78",
+        "pageId": "page_nybc313875_0192",
+        "scanIndex": 192,
+        "leafNumber": 191,
+        "printedPage": null,
+        "passageCharStart": 3021,
+        "passageCharEnd": 3040,
+        "normalizedPassageCharStart": 3021,
+        "normalizedPassageCharEnd": 3040,
+        "pageCharStart": 3021,
+        "pageCharEnd": 3040,
+        "quote": "\"עמנואל \" בניו־יורק",
+        "normalizedQuote": "\"עמנואל \" בניו־יורק",
+        "modelQuote": "\"עמנואל\" בניו־יורק",
+        "bbox": {
+          "left": 1728,
+          "top": 3376,
+          "right": 2093,
+          "bottom": 3422
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n191/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "21e799500bf5e2b23c7c1c3ae74b63887240fc154d0ddf75f18ceb93fb8cda4b",
+        "normalizedPassageChecksum": "14c1101b7bb8189118d054f6eed1aaf40b07a30e485532d8a2fe8eeabd876f0c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_98d967bb7c749db126dd65c3",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Located In"
+    },
+    {
+      "id": "event_candidate_c8663f9f12b50f7f8678a9ba",
+      "type": "Event",
+      "title": "Adler invited to New York synagogue",
+      "relation": "Participated In",
+      "role": "Employer"
+    },
+    {
+      "id": "mention_dbb89716f785e73db05abbfe",
+      "type": "Person",
+      "title": "Dr. Adler",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_98d967bb7c749db126dd65c3",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_74e97ec9b833241f6228679b",
+      "type": "Person",
+      "title": "Dr. Shimon Shuabacher",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a60619aee2d593ecc36282fb",
+      "type": "Place",
+      "title": "Ushvintzim-Vadovitz",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

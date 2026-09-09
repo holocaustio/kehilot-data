@@ -1,0 +1,124 @@
+{
+  "id": "mention_c5807d8604ddbdb65a93ba40",
+  "type": "Place",
+  "title": "Kazimir Street",
+  "summary": "Street where Brigidki Prison was located.",
+  "originalName": "קאזימיר",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 303,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "OCR contains adjacent unreadable characters.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_09e169ac8a2409d574338222",
+      "pageId": "page_nybc313875_0303",
+      "scanIndex": 303,
+      "leafNumber": 302,
+      "printedPage": null,
+      "passageCharStart": 414,
+      "passageCharEnd": 434,
+      "normalizedPassageCharStart": 414,
+      "normalizedPassageCharEnd": 434,
+      "pageCharStart": 2898,
+      "pageCharEnd": 2918,
+      "quote": "אש ר ברחו ב\nקאזימי ר",
+      "normalizedQuote": "אש ר ברחו ב\nקאזימי ר",
+      "modelQuote": "אשר ברחוב\nקאזימיר",
+      "bbox": {
+        "left": 454,
+        "top": 1015,
+        "right": 1572,
+        "bottom": 1139
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n302/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "7fe7ee049e502f5d7043a3cb5a049eec39a37c79cd3d3e79ecf2cdb185a20e67",
+      "normalizedPassageChecksum": "1e957874afe3475bad1affc766fe6a93a376bf6229b0c7b48d0c1b1cff378643",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_98676f9ab48477aa30f81bc4",
+      "predicate": "Located In",
+      "subjectTitle": "Brigidki Prison",
+      "objectTitle": "Kazimir Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_09e169ac8a2409d574338222",
+        "pageId": "page_nybc313875_0303",
+        "scanIndex": 303,
+        "leafNumber": 302,
+        "printedPage": null,
+        "passageCharStart": 402,
+        "passageCharEnd": 434,
+        "normalizedPassageCharStart": 402,
+        "normalizedPassageCharEnd": 434,
+        "pageCharStart": 2886,
+        "pageCharEnd": 2918,
+        "quote": "\"בריגידקי \" אש ר ברחו ב\nקאזימי ר",
+        "normalizedQuote": "\"בריגידקי \" אש ר ברחו ב\nקאזימי ר",
+        "modelQuote": "\"בריגידקי\" אשר ברחוב\nקאזימיר",
+        "bbox": {
+          "left": 454,
+          "top": 1014,
+          "right": 1572,
+          "bottom": 1139
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n302/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "7fe7ee049e502f5d7043a3cb5a049eec39a37c79cd3d3e79ecf2cdb185a20e67",
+        "normalizedPassageChecksum": "1e957874afe3475bad1affc766fe6a93a376bf6229b0c7b48d0c1b1cff378643",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b0de96890f8cb905b4424df5",
+      "type": "Place",
+      "title": "Brigidki Prison",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_78a1cc8f4dec096e7cdd65d8",
+      "type": "Place",
+      "title": "Zamarstynovska Street 3",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6fb5a2a8f9923473b246f4ea",
+      "type": "Place",
+      "title": "Lontsky Prison",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b0de96890f8cb905b4424df5",
+      "type": "Place",
+      "title": "Brigidki Prison",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c4ff73a328fa6fd45ed93042",
+      "type": "Place",
+      "title": "Platsinska Street 59",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3cf26a0c3a689770cf4d2175",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

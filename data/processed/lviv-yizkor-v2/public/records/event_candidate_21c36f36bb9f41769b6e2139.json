@@ -1,0 +1,66 @@
+{
+  "id": "event_candidate_21c36f36bb9f41769b6e2139",
+  "type": "Event",
+  "title": "Levko purchased Poltovich’s house",
+  "summary": "Levko purchased Jan Baptist Poltovich’s house in 1618 after leaving the Jewish quarter.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 51,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Property Purchase",
+  "uncertaintyNote": "The event type is an imperfect fit because the schema lacks a property-purchase event.",
+  "dateStart": "1618",
+  "dateEnd": "1618",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_64858ea8f89f9aa4dd3ab99c",
+      "pageId": "page_nybc313875_0051",
+      "scanIndex": 51,
+      "leafNumber": 50,
+      "printedPage": null,
+      "passageCharStart": 574,
+      "passageCharEnd": 599,
+      "normalizedPassageCharStart": 574,
+      "normalizedPassageCharEnd": 599,
+      "pageCharStart": 574,
+      "pageCharEnd": 599,
+      "quote": "קנ ה בשנ ת 1618\nא ת בית ו",
+      "normalizedQuote": "קנ ה בשנ ת 1618\nא ת בית ו",
+      "modelQuote": "קנה בשנת 1618\nאת ביתו",
+      "bbox": {
+        "left": 1729,
+        "top": 1275,
+        "right": 2846,
+        "bottom": 1395
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "2fe995ca64413ee376f2f9e4e76d4049b4ad27d9afa120e4886c03d38f3ba67d",
+      "normalizedPassageChecksum": "612902101e51576df35d16c75a2ab004b8c6042579469ea297282e2435960168",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b2f27ad426799aa648e940dc",
+      "type": "Person",
+      "title": "Levko (Levi)",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_50fddb1d86443c99533612cd",
+      "type": "Person",
+      "title": "Jan Baptist Poltovich",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

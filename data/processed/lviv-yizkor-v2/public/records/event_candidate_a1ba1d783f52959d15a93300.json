@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_a1ba1d783f52959d15a93300",
+  "type": "Event",
+  "title": "Removal of Jewish cemetery stones",
+  "summary": "German authorities removed cemetery stones for roads and employed abducted Jewish workers.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 307,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Employment",
+  "uncertaintyNote": "The passage describes forced labor but does not specify an allowed forced-labor event type.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ab3d0894780130577500a02c",
+      "pageId": "page_nybc313875_0307",
+      "scanIndex": 307,
+      "leafNumber": 306,
+      "printedPage": null,
+      "passageCharStart": 731,
+      "passageCharEnd": 781,
+      "normalizedPassageCharStart": 731,
+      "normalizedPassageCharEnd": 781,
+      "pageCharStart": 731,
+      "pageCharEnd": 781,
+      "quote": "הועסק ו פועלי ם\nיהודי ם אש ר נחטפ ו ביד י הגרמני ם",
+      "normalizedQuote": "הועסק ו פועלי ם\nיהודי ם אש ר נחטפ ו ביד י הגרמני ם",
+      "modelQuote": "הועסקו פועלים\nיהודים אשר נחטפו בידי הגרמנים",
+      "bbox": {
+        "left": 465,
+        "top": 862,
+        "right": 1582,
+        "bottom": 995
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n306/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "3d6f30cec8539106718b83011569ac4ac2b8343a50072717e93550b36ef67b91",
+      "normalizedPassageChecksum": "399775b3c8490bee5f5c80974ec7fe7148865b166b2dac8c6bf45dcd75d39b6d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_846376a02d0abef00e779f76",
+      "type": "Organization",
+      "title": "Nazi Germany",
+      "relation": "Participant",
+      "role": "Employer"
+    },
+    {
+      "id": "mention_4aea7e28d688490f426dbba7",
+      "type": "Community",
+      "title": "Jewish Community of Lviv",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

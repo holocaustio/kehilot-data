@@ -1,0 +1,120 @@
+{
+  "id": "mention_727d3e586cdb7d51ffc5275f",
+  "type": "Person",
+  "title": "Lipka",
+  "summary": "Woman said to have donated a curtain to an out-of-town synagogue.",
+  "originalName": "ליפקה",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 179,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fd572a0903fbcb3281379feb",
+      "pageId": "page_nybc313875_0179",
+      "scanIndex": 179,
+      "leafNumber": 178,
+      "printedPage": null,
+      "passageCharStart": 1509,
+      "passageCharEnd": 1527,
+      "normalizedPassageCharStart": 1509,
+      "normalizedPassageCharEnd": 1527,
+      "pageCharStart": 4911,
+      "pageCharEnd": 4929,
+      "quote": "שאמ ה ליפק ה נדב ה",
+      "normalizedQuote": "שאמ ה ליפק ה נדב ה",
+      "modelQuote": "שאמה ליפקה נדבה",
+      "bbox": {
+        "left": 456,
+        "top": 3574,
+        "right": 808,
+        "bottom": 3614
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n178/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "30186bb259e902d8cae1acd41d4643134d7546241685dbdd231547c109177482",
+      "normalizedPassageChecksum": "0a4312055fbe9b3a9486edaf9a868e5d7db33ebb55377c8e62ae3e6941c4d7a7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_92f545e78a96a5d257a7c3df",
+      "predicate": "Donated To",
+      "subjectTitle": "Lipka",
+      "objectTitle": "Out-of-town synagogue",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says she donated to the synagogue; ownership is not established.",
+      "qualifiers": {
+        "action": "donated curtain"
+      },
+      "evidence": {
+        "passageId": "passage_fd572a0903fbcb3281379feb",
+        "pageId": "page_nybc313875_0179",
+        "scanIndex": 179,
+        "leafNumber": 178,
+        "printedPage": null,
+        "passageCharStart": 1515,
+        "passageCharEnd": 1550,
+        "normalizedPassageCharStart": 1515,
+        "normalizedPassageCharEnd": 1550,
+        "pageCharStart": 4917,
+        "pageCharEnd": 4952,
+        "quote": "ליפק ה נדב ה\nלבית־הכנס ת בחוץ־לעי ר",
+        "normalizedQuote": "ליפק ה נדב ה\nלבית־הכנס ת בחוץ־לעי ר",
+        "modelQuote": "ליפקה נדבה לבית־הכנסת בחוץ־לעיר",
+        "bbox": {
+          "left": 456,
+          "top": 3574,
+          "right": 1584,
+          "bottom": 3675
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n178/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "30186bb259e902d8cae1acd41d4643134d7546241685dbdd231547c109177482",
+        "normalizedPassageChecksum": "0a4312055fbe9b3a9486edaf9a868e5d7db33ebb55377c8e62ae3e6941c4d7a7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b12eee02470402ad1db55074",
+      "type": "Institution",
+      "title": "Out-of-town synagogue",
+      "relation": "Donated To"
+    },
+    {
+      "id": "mention_55f7c1ce4ecf7b60393b8624",
+      "type": "Person",
+      "title": "Moses Hagiz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_52877e7120cc0e918880e621",
+      "type": "Person",
+      "title": "Joshua, author of Pnei Yehoshua",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cadf79dcaffe3ddb46d7b6dd",
+      "type": "Person",
+      "title": "Isaac Halevi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b12eee02470402ad1db55074",
+      "type": "Institution",
+      "title": "Out-of-town synagogue",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

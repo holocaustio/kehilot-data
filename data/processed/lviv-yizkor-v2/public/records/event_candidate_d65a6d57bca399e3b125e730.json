@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_d65a6d57bca399e3b125e730",
+  "type": "Event",
+  "title": "Killings in Lviv before Soviet withdrawal",
+  "summary": "Several Lviv residents were killed before Russian forces withdrew.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 303,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The passage does not explicitly identify all victims as Jewish.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2e88a516093116b58fd262f3",
+      "pageId": "page_nybc313875_0303",
+      "scanIndex": 303,
+      "leafNumber": 302,
+      "printedPage": null,
+      "passageCharStart": 124,
+      "passageCharEnd": 179,
+      "normalizedPassageCharStart": 124,
+      "normalizedPassageCharEnd": 179,
+      "pageCharStart": 1283,
+      "pageCharEnd": 1338,
+      "quote": "מספ ר תושב י לבו ב נהרג ו לפנ י נסיג ת הצבאו ת הרוסיי ם",
+      "normalizedQuote": "מספ ר תושב י לבו ב נהרג ו לפנ י נסיג ת הצבאו ת הרוסיי ם",
+      "modelQuote": "מספר תושבי לבוב נהרגו לפני נסיגת הצבאות הרוסיים",
+      "bbox": {
+        "left": 1724,
+        "top": 2317,
+        "right": 2839,
+        "bottom": 2353
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n302/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "ceb3db2f1b2db35d2871770869d220bf5d9ed59dd700f77c208c525397c22e5a",
+      "normalizedPassageChecksum": "3db91b9fe3969ecb4c50fbd6888c1915643a3531b8503f7fcd361c132c78671e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c0c4314bdc3c8ccb65589016",
+      "type": "Community",
+      "title": "Jews of Lviv",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

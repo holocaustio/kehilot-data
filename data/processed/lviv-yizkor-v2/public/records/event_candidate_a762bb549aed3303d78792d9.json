@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_a762bb549aed3303d78792d9",
+  "type": "Event",
+  "title": "Arrests and detention of Jews in Lviv",
+  "summary": "Thousands of Jews were seized and taken to prisons and the Gestapo.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 303,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Arrest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_09e169ac8a2409d574338222",
+      "pageId": "page_nybc313875_0303",
+      "scanIndex": 303,
+      "leafNumber": 302,
+      "printedPage": null,
+      "passageCharStart": 251,
+      "passageCharEnd": 295,
+      "normalizedPassageCharStart": 251,
+      "normalizedPassageCharEnd": 295,
+      "pageCharStart": 2735,
+      "pageCharEnd": 2779,
+      "quote": "אלפ י\nיהודי ם נתפס ו והובל ו א ל בת י הסוה ר",
+      "normalizedQuote": "אלפ י\nיהודי ם נתפס ו והובל ו א ל בת י הסוה ר",
+      "modelQuote": "אלפי\nיהודים נתפסו והובלו אל בתי הסוהר",
+      "bbox": {
+        "left": 460,
+        "top": 748,
+        "right": 1578,
+        "bottom": 880
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n302/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "7fe7ee049e502f5d7043a3cb5a049eec39a37c79cd3d3e79ecf2cdb185a20e67",
+      "normalizedPassageChecksum": "1e957874afe3475bad1affc766fe6a93a376bf6229b0c7b48d0c1b1cff378643",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c0c4314bdc3c8ccb65589016",
+      "type": "Community",
+      "title": "Jews of Lviv",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_3cf26a0c3a689770cf4d2175",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

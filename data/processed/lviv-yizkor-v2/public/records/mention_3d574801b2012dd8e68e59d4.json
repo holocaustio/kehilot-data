@@ -1,0 +1,143 @@
+{
+  "id": "mention_3d574801b2012dd8e68e59d4",
+  "type": "Person",
+  "title": "Bierman",
+  "summary": "Named SS police officer involved in hospital censuses.",
+  "originalName": "בירמן",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 359,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "SS police officer",
+  "uncertaintyNote": "Role as an individual officer is suggested by the list of SS policemen.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2c855893a0dc087db0afc772",
+      "pageId": "page_nybc313875_0359",
+      "scanIndex": 359,
+      "leafNumber": 358,
+      "printedPage": null,
+      "passageCharStart": 1047,
+      "passageCharEnd": 1053,
+      "normalizedPassageCharStart": 1047,
+      "normalizedPassageCharEnd": 1053,
+      "pageCharStart": 4022,
+      "pageCharEnd": 4028,
+      "quote": "בירמ ן",
+      "normalizedQuote": "בירמ ן",
+      "modelQuote": "בירמן",
+      "bbox": {
+        "left": 579,
+        "top": 3557,
+        "right": 709,
+        "bottom": 3597
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n358/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "731c77da07719a861766dc71a4704c728dc2a2c44dddd38b8bab675b5ee7a099",
+      "normalizedPassageChecksum": "397cd494cd4d57fe8cc95f61a68341d7576524a22e58be1a3e983068e129855f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f4e881ef7146513cf607a795",
+      "type": "Aktion Or Raid",
+      "title": "Hospital Census and Patient Selection",
+      "summary": "SS police conducted hospital censuses and selected seriously ill patients for execution.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2c855893a0dc087db0afc772",
+        "pageId": "page_nybc313875_0359",
+        "scanIndex": 359,
+        "leafNumber": 358,
+        "printedPage": null,
+        "passageCharStart": 985,
+        "passageCharEnd": 1053,
+        "normalizedPassageCharStart": 985,
+        "normalizedPassageCharEnd": 1053,
+        "pageCharStart": 3960,
+        "pageCharEnd": 4028,
+        "quote": "פעמיי ם בחוד ש התפרצ ו\nלבית־החולי ם שוטר י הס.ס . ברומבויא ר ובירמ ן",
+        "normalizedQuote": "פעמיי ם בחוד ש התפרצ ו\nלבית־החולי ם שוטר י הס.ס . ברומבויא ר ובירמ ן",
+        "modelQuote": "פעמיים בחודש התפרצו\nלבית־החולים שוטרי הס.ס. ברומבויאר ובירמן",
+        "bbox": {
+          "left": 451,
+          "top": 3474,
+          "right": 1573,
+          "bottom": 3597
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n358/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "731c77da07719a861766dc71a4704c728dc2a2c44dddd38b8bab675b5ee7a099",
+        "normalizedPassageChecksum": "397cd494cd4d57fe8cc95f61a68341d7576524a22e58be1a3e983068e129855f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_249f403e543e3a75633c9cfb",
+      "type": "Organization",
+      "title": "SS Police",
+      "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_f4e881ef7146513cf607a795",
+      "type": "Event",
+      "title": "Hospital Census and Patient Selection",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_9e922dff2073b7753c7d1791",
+      "type": "Organization",
+      "title": "Jewish Council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_034a6790275fbb67b6267119",
+      "type": "Organization",
+      "title": "Committee for Assistance to Camp Prisoners",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_58883398b96b56ee8ec5e6b7",
+      "type": "Place",
+      "title": "Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8b3831b71e4d860eaabbacf2",
+      "type": "Organization",
+      "title": "German Authorities",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_249f403e543e3a75633c9cfb",
+      "type": "Organization",
+      "title": "SS Police",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4cc5819a5b672196db48a410",
+      "type": "Person",
+      "title": "Bromboyar",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_149228ae9b885d927558483c",
+      "type": "Institution",
+      "title": "Jewish Historical Institute in Warsaw",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

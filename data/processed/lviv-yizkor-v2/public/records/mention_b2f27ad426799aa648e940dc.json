@@ -1,0 +1,211 @@
+{
+  "id": "mention_b2f27ad426799aa648e940dc",
+  "type": "Person",
+  "title": "Levko (Levi)",
+  "summary": "Nachmanovich’s son who bought Jan Baptist Poltovich’s house in 1618.",
+  "originalName": "לבקו (לוי)",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 51,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_64858ea8f89f9aa4dd3ab99c",
+      "pageId": "page_nybc313875_0051",
+      "scanIndex": 51,
+      "leafNumber": 50,
+      "printedPage": null,
+      "passageCharStart": 560,
+      "passageCharEnd": 571,
+      "normalizedPassageCharStart": 560,
+      "normalizedPassageCharEnd": 571,
+      "pageCharStart": 560,
+      "pageCharEnd": 571,
+      "quote": "לבק ו (לוי)",
+      "normalizedQuote": "לבק ו (לוי)",
+      "modelQuote": "לבקו (לוי)",
+      "bbox": {
+        "left": 2117,
+        "top": 1263,
+        "right": 2340,
+        "bottom": 1318
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "2fe995ca64413ee376f2f9e4e76d4049b4ad27d9afa120e4886c03d38f3ba67d",
+      "normalizedPassageChecksum": "612902101e51576df35d16c75a2ab004b8c6042579469ea297282e2435960168",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_8a30ea6247fe2f59d4ad68cf",
+      "predicate": "Child Of",
+      "subjectTitle": "Levko (Levi)",
+      "objectTitle": "Nachmanovich",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_64858ea8f89f9aa4dd3ab99c",
+        "pageId": "page_nybc313875_0051",
+        "scanIndex": 51,
+        "leafNumber": 50,
+        "printedPage": null,
+        "passageCharStart": 554,
+        "passageCharEnd": 571,
+        "normalizedPassageCharStart": 554,
+        "normalizedPassageCharEnd": 571,
+        "pageCharStart": 554,
+        "pageCharEnd": 571,
+        "quote": "בנו , לבק ו (לוי)",
+        "normalizedQuote": "בנו , לבק ו (לוי)",
+        "modelQuote": "בנו, לבקו (לוי)",
+        "bbox": {
+          "left": 2117,
+          "top": 1263,
+          "right": 2449,
+          "bottom": 1318
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "2fe995ca64413ee376f2f9e4e76d4049b4ad27d9afa120e4886c03d38f3ba67d",
+        "normalizedPassageChecksum": "612902101e51576df35d16c75a2ab004b8c6042579469ea297282e2435960168",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_21c36f36bb9f41769b6e2139",
+      "type": "Property Purchase",
+      "title": "Levko purchased Poltovich’s house",
+      "summary": "Levko purchased Jan Baptist Poltovich’s house in 1618 after leaving the Jewish quarter.",
+      "dateStart": "1618",
+      "dateEnd": "1618",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event type is an imperfect fit because the schema lacks a property-purchase event.",
+      "evidence": {
+        "passageId": "passage_64858ea8f89f9aa4dd3ab99c",
+        "pageId": "page_nybc313875_0051",
+        "scanIndex": 51,
+        "leafNumber": 50,
+        "printedPage": null,
+        "passageCharStart": 574,
+        "passageCharEnd": 599,
+        "normalizedPassageCharStart": 574,
+        "normalizedPassageCharEnd": 599,
+        "pageCharStart": 574,
+        "pageCharEnd": 599,
+        "quote": "קנ ה בשנ ת 1618\nא ת בית ו",
+        "normalizedQuote": "קנ ה בשנ ת 1618\nא ת בית ו",
+        "modelQuote": "קנה בשנת 1618\nאת ביתו",
+        "bbox": {
+          "left": 1729,
+          "top": 1275,
+          "right": 2846,
+          "bottom": 1395
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "2fe995ca64413ee376f2f9e4e76d4049b4ad27d9afa120e4886c03d38f3ba67d",
+        "normalizedPassageChecksum": "612902101e51576df35d16c75a2ab004b8c6042579469ea297282e2435960168",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_d3261ce6440ebd56137855c1",
+      "type": "Person",
+      "title": "Nachmanovich",
+      "relation": "Child Of"
+    },
+    {
+      "id": "event_candidate_21c36f36bb9f41769b6e2139",
+      "type": "Event",
+      "title": "Levko purchased Poltovich’s house",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_d3261ce6440ebd56137855c1",
+      "type": "Person",
+      "title": "Nachmanovich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8014e26cb6ede79846fd7f77",
+      "type": "Place",
+      "title": "Chelm",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f422105db881b37dd6d0b97b",
+      "type": "Place",
+      "title": "Krasnystav",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c94cf170abff854452bed897",
+      "type": "Place",
+      "title": "Potilitch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_acee822aef0d1c99510fa59c",
+      "type": "Person",
+      "title": "Sebastian Vogt",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_06768e6a7932f878168ee630",
+      "type": "Place",
+      "title": "Danzig",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1aba0c3162edfbafb95682e5",
+      "type": "Person",
+      "title": "Jan",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1dee2608b85f81b9e0f69ad6",
+      "type": "Person",
+      "title": "Abraham",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_50fddb1d86443c99533612cd",
+      "type": "Person",
+      "title": "Jan Baptist Poltovich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4f1a6ccb28266631e80fa467",
+      "type": "Person",
+      "title": "Isaac son of Samuel Halevi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_41a046bd2122d434c716da27",
+      "type": "Person",
+      "title": "David son of Samuel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d933921b18cc08f687aba4cb",
+      "type": "Work",
+      "title": "Turei Zahav",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,156 @@
+{
+  "id": "mention_7f193a9c33c27b6e57bd77f9",
+  "type": "Person",
+  "title": "Rakhishl Vitkov",
+  "summary": "Writer and journalist associated with Tagblatt-Morgen in Lviv.",
+  "originalName": "ויטקוב רפישל",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 379,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "writer_and_journalist",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_83e2bf61775547a573a274ed",
+      "pageId": "page_nybc313875_0379",
+      "scanIndex": 379,
+      "leafNumber": 378,
+      "printedPage": null,
+      "passageCharStart": 5,
+      "passageCharEnd": 18,
+      "normalizedPassageCharStart": 5,
+      "normalizedPassageCharEnd": 18,
+      "pageCharStart": 1417,
+      "pageCharEnd": 1430,
+      "quote": "ויטקוב ר פישל",
+      "normalizedQuote": "ויטקוב ר פישל",
+      "modelQuote": "ויטקוב רפישל",
+      "bbox": {
+        "left": 3362,
+        "top": 5239,
+        "right": 3966,
+        "bottom": 5341
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n378/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "7bd9d76abcdfc0b0bd9a275d6810f684897a9a46914fb8817b47e2d060f2575f",
+      "normalizedPassageChecksum": "fb6fdc139625b0bc28b01edab0e14957bc64a00b234cc945bdc6b7e4d071b2e0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2f702ef7e19f7faca62429b3",
+      "predicate": "Born In",
+      "subjectTitle": "Rakhishl Vitkov",
+      "objectTitle": "Krystynopol",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_83e2bf61775547a573a274ed",
+        "pageId": "page_nybc313875_0379",
+        "scanIndex": 379,
+        "leafNumber": 378,
+        "printedPage": null,
+        "passageCharStart": 21,
+        "passageCharEnd": 38,
+        "normalizedPassageCharStart": 21,
+        "normalizedPassageCharEnd": 38,
+        "pageCharStart": 1433,
+        "pageCharEnd": 1450,
+        "quote": "ילי ד קריסטינופול",
+        "normalizedQuote": "ילי ד קריסטינופול",
+        "modelQuote": "יליד קריסטינופול",
+        "bbox": {
+          "left": 2606,
+          "top": 5255,
+          "right": 3222,
+          "bottom": 5339
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n378/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "7bd9d76abcdfc0b0bd9a275d6810f684897a9a46914fb8817b47e2d060f2575f",
+        "normalizedPassageChecksum": "fb6fdc139625b0bc28b01edab0e14957bc64a00b234cc945bdc6b7e4d071b2e0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_bd7c204add6e1b5ce00ca267",
+      "type": "Death",
+      "title": "Death of Rakhishl Vitkov",
+      "summary": "Rakhishl Vitkov died of hunger in late 1942.",
+      "dateStart": "1942",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_83e2bf61775547a573a274ed",
+        "pageId": "page_nybc313875_0379",
+        "scanIndex": 379,
+        "leafNumber": 378,
+        "printedPage": null,
+        "passageCharStart": 158,
+        "passageCharEnd": 178,
+        "normalizedPassageCharStart": 158,
+        "normalizedPassageCharEnd": 178,
+        "pageCharStart": 1570,
+        "pageCharEnd": 1590,
+        "quote": "מ ת ברע ב בסו ף 1942",
+        "normalizedQuote": "מ ת ברע ב בסו ף 1942",
+        "modelQuote": "מת ברעב בסוף 1942",
+        "bbox": {
+          "left": 3248,
+          "top": 5649,
+          "right": 3948,
+          "bottom": 5715
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n378/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "7bd9d76abcdfc0b0bd9a275d6810f684897a9a46914fb8817b47e2d060f2575f",
+        "normalizedPassageChecksum": "fb6fdc139625b0bc28b01edab0e14957bc64a00b234cc945bdc6b7e4d071b2e0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_3e7ebc3298607e73559ad10c",
+      "type": "Place",
+      "title": "Krystynopol",
+      "relation": "Born In"
+    },
+    {
+      "id": "event_candidate_bd7c204add6e1b5ce00ca267",
+      "type": "Event",
+      "title": "Death of Rakhishl Vitkov",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_3e7ebc3298607e73559ad10c",
+      "type": "Place",
+      "title": "Krystynopol",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_46a437f7a49c4941204152fb",
+      "type": "Institution",
+      "title": "Lviv Bar Association",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_836dfcca090c83ef27de6f3c",
+      "type": "Person",
+      "title": "Yehoshua Tilman",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,172 @@
+{
+  "id": "mention_d22119ba643912f66888baaf",
+  "type": "Person",
+  "title": "Dr. Taft",
+  "summary": "Physician listed among victims.",
+  "originalName": "ד״ר טפט",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 333,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "physician",
+  "uncertaintyNote": "The surname is OCR-uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c5e747aefee87eede2534cd1",
+      "pageId": "page_nybc313875_0333",
+      "scanIndex": 333,
+      "leafNumber": 332,
+      "printedPage": null,
+      "passageCharStart": 288,
+      "passageCharEnd": 304,
+      "normalizedPassageCharStart": 288,
+      "normalizedPassageCharEnd": 304,
+      "pageCharStart": 288,
+      "pageCharEnd": 304,
+      "quote": "הרופ א ד״ ר טפ ט",
+      "normalizedQuote": "הרופ א ד״ ר טפ ט",
+      "modelQuote": "הרופא ד״ר טפט",
+      "bbox": {
+        "left": 2464,
+        "top": 848,
+        "right": 2852,
+        "bottom": 884
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n332/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "109daf74813f461364fd579aee2cc58096fd556b1102068b564286ed260e3021",
+      "normalizedPassageChecksum": "40162b211d6cde83670e335dd4a4d9aa6d89e85e9109fb92050588778aa56531",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_7d33149cc9566d3d703e0ff3",
+      "predicate": "Murdered At",
+      "subjectTitle": "Dr. Taft",
+      "objectTitle": "Lviv",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage lists him among victims, but the exact circumstances are unclear.",
+      "qualifiers": {
+        "status": "listed among victims"
+      },
+      "evidence": {
+        "passageId": "passage_c5e747aefee87eede2534cd1",
+        "pageId": "page_nybc313875_0333",
+        "scanIndex": 333,
+        "leafNumber": 332,
+        "printedPage": null,
+        "passageCharStart": 288,
+        "passageCharEnd": 304,
+        "normalizedPassageCharStart": 288,
+        "normalizedPassageCharEnd": 304,
+        "pageCharStart": 288,
+        "pageCharEnd": 304,
+        "quote": "הרופ א ד״ ר טפ ט",
+        "normalizedQuote": "הרופ א ד״ ר טפ ט",
+        "modelQuote": "הרופא ד״ר טפט",
+        "bbox": {
+          "left": 2464,
+          "top": 848,
+          "right": 2852,
+          "bottom": 884
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n332/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "109daf74813f461364fd579aee2cc58096fd556b1102068b564286ed260e3021",
+        "normalizedPassageChecksum": "40162b211d6cde83670e335dd4a4d9aa6d89e85e9109fb92050588778aa56531",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_546acdb27f4726ead3e1768e",
+      "type": "Murder",
+      "title": "Hanging of Jewish victims",
+      "summary": "German forces hanged Jewish victims, including named community figures.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c5e747aefee87eede2534cd1",
+        "pageId": "page_nybc313875_0333",
+        "scanIndex": 333,
+        "leafNumber": 332,
+        "printedPage": null,
+        "passageCharStart": 494,
+        "passageCharEnd": 538,
+        "normalizedPassageCharStart": 494,
+        "normalizedPassageCharEnd": 538,
+        "pageCharStart": 494,
+        "pageCharEnd": 538,
+        "quote": "שא ר הקרבנו ת ניתל ו ע ל גזוזטראו ת הדיוטה ־",
+        "normalizedQuote": "שא ר הקרבנו ת ניתל ו ע ל גזוזטראו ת הדיוטה ־",
+        "modelQuote": "שא ר הקרבנות ניתלו על גזוזטראות הדיוטה־",
+        "bbox": {
+          "left": 1734,
+          "top": 1169,
+          "right": 2710,
+          "bottom": 1225
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n332/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "109daf74813f461364fd579aee2cc58096fd556b1102068b564286ed260e3021",
+        "normalizedPassageChecksum": "40162b211d6cde83670e335dd4a4d9aa6d89e85e9109fb92050588778aa56531",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "event_candidate_546acdb27f4726ead3e1768e",
+      "type": "Event",
+      "title": "Hanging of Jewish victims",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_9f05bc031337359770a0d76f",
+      "type": "Person",
+      "title": "Ludwig Rath",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9dedbf400995bcda1f9ff910",
+      "type": "Person",
+      "title": "Dr. Tunis",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d391583f82c6f2d5c635cbd2",
+      "type": "Person",
+      "title": "Dr. Landsberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d6f128cfb03c930058e014a4",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,107 @@
+{
+  "id": "mention_a9247bda1d8bf36e28bd80eb",
+  "type": "Place",
+  "title": "Yelovova Street",
+  "summary": "Street area where Christians rioted after a false report.",
+  "originalName": "רחוב יואלובה",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 149,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5f44ae457640ecacf7661263",
+      "pageId": "page_nybc313875_0149",
+      "scanIndex": 149,
+      "leafNumber": 148,
+      "printedPage": null,
+      "passageCharStart": 174,
+      "passageCharEnd": 195,
+      "normalizedPassageCharStart": 174,
+      "normalizedPassageCharEnd": 195,
+      "pageCharStart": 3583,
+      "pageCharEnd": 3604,
+      "quote": "בסביב ת רחו ב\nיואלובה",
+      "normalizedQuote": "בסביב ת רחו ב\nיואלובה",
+      "modelQuote": "בסביבת רחוב\nיואלובה",
+      "bbox": {
+        "left": 445,
+        "top": 2690,
+        "right": 1567,
+        "bottom": 2808
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n148/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "7e9df67bee740f5fe8b77577afb1fd101c4e9e59329636375b85723936db2792",
+      "normalizedPassageChecksum": "db7c9f11f6a821a6f7e7f0e0a6435f55a86159fa74b1a8d6d650b50d8a4f0acd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_19e52ff0f9b2208b0a9b921d",
+      "type": "Aktion Or Raid",
+      "title": "Christian riot near Yelovova Street",
+      "summary": "Christians rioted after a false report about a Christian apprentice killed in the Jewish quarter.",
+      "dateStart": "1863-07-26",
+      "dateEnd": "1863-07-26",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5f44ae457640ecacf7661263",
+        "pageId": "page_nybc313875_0149",
+        "scanIndex": 149,
+        "leafNumber": 148,
+        "printedPage": null,
+        "passageCharStart": 143,
+        "passageCharEnd": 195,
+        "normalizedPassageCharStart": 143,
+        "normalizedPassageCharEnd": 195,
+        "pageCharStart": 3552,
+        "pageCharEnd": 3604,
+        "quote": "להתנפלו ת ש ל נוצרי ם שהתפרע ו בסביב ת רחו ב\nיואלובה",
+        "normalizedQuote": "להתנפלו ת ש ל נוצרי ם שהתפרע ו בסביב ת רחו ב\nיואלובה",
+        "modelQuote": "להתנפלות של נוצרים שהתפרעו בסביבת רחוב\nיואלובה",
+        "bbox": {
+          "left": 445,
+          "top": 2679,
+          "right": 1567,
+          "bottom": 2808
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n148/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "7e9df67bee740f5fe8b77577afb1fd101c4e9e59329636375b85723936db2792",
+        "normalizedPassageChecksum": "db7c9f11f6a821a6f7e7f0e0a6435f55a86159fa74b1a8d6d650b50d8a4f0acd",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_19e52ff0f9b2208b0a9b921d",
+      "type": "Event",
+      "title": "Christian riot near Yelovova Street",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d4ec703bf909721a77e8c7b4",
+      "type": "Publication",
+      "title": "Gonitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_657459cd23cdccdc9599ca16",
+      "type": "Community",
+      "title": "Galicia",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

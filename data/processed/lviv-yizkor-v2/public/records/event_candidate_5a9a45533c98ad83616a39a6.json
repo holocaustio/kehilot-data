@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_5a9a45533c98ad83616a39a6",
+  "type": "Event",
+  "title": "Nazi forces enter Lviv",
+  "summary": "The first Nazi army units entered Lviv on June 30, 1941.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 226,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "dateStart": "1941-06-30",
+  "dateEnd": "1941-06-30",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_225ebf227e66ea1df1884f8a",
+      "pageId": "page_nybc313875_0226",
+      "scanIndex": 226,
+      "leafNumber": 225,
+      "printedPage": null,
+      "passageCharStart": 141,
+      "passageCharEnd": 207,
+      "normalizedPassageCharStart": 141,
+      "normalizedPassageCharEnd": 207,
+      "pageCharStart": 141,
+      "pageCharEnd": 207,
+      "quote": "ב־ 30 ביונ י 1941 נכנס ו הגדודי ם הראשוני ם ש ל\nהצב א הנאצ י ללבוב",
+      "normalizedQuote": "ב־ 30 ביונ י 1941 נכנס ו הגדודי ם הראשוני ם ש ל\nהצב א הנאצ י ללבוב",
+      "modelQuote": "ב־30 ביוני 1941 נכנסו הגדודים הראשונים של\nהצבא הנאצי ללבוב",
+      "bbox": {
+        "left": 2588,
+        "top": 2334,
+        "right": 4258,
+        "bottom": 2530
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n225/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "18b238b32472eff728cf5ba9453fef526c60d260c3843c6f1023fd9017c4ef44",
+      "normalizedPassageChecksum": "bfb194623b8d297abd81a7fd9ed748dc547051936bd817fdd7a477f1f6df345a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d333919298dab8011f36ebb0",
+      "type": "Organization",
+      "title": "Nazi army",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

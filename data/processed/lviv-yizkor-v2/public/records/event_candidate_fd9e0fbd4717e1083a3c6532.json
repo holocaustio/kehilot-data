@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_fd9e0fbd4717e1083a3c6532",
+  "type": "Event",
+  "title": "Agnor Goluchowski heads the Austrian government",
+  "summary": "Agnor Goluchowski served as head of the Austrian government from October 1859 to December 1860.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 146,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Employment",
+  "dateStart": "1859-10-20",
+  "dateEnd": "1860-12-15",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fed00825f9cfeaee01081cbf",
+      "pageId": "page_nybc313875_0146",
+      "scanIndex": 146,
+      "leafNumber": 145,
+      "printedPage": null,
+      "passageCharStart": 318,
+      "passageCharEnd": 361,
+      "normalizedPassageCharStart": 318,
+      "normalizedPassageCharEnd": 361,
+      "pageCharStart": 1271,
+      "pageCharEnd": 1314,
+      "quote": "בראש־הממשל ה בוינ ה עמ ד\nאגנו ר גולוחובסק י",
+      "normalizedQuote": "בראש־הממשל ה בוינ ה עמ ד\nאגנו ר גולוחובסק י",
+      "modelQuote": "בראש־הממשלה בוינה עמד\nאגנור גולוחובסקי",
+      "bbox": {
+        "left": 1714,
+        "top": 2506,
+        "right": 2840,
+        "bottom": 2644
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n145/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "da1b2c298555492efce64402b13dbee83fe6efc745428d50d4649adc5432f8db",
+      "normalizedPassageChecksum": "f49965634b9feb1ee9bb85374a277ea7c4549c4a1e8a281228bbfbd60450f641",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5e3ca9a7d5514ed2d29a0cef",
+      "type": "Place",
+      "title": "Vienna",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ff41df91795d95da0707e829",
+      "type": "Person",
+      "title": "Agnor Goluchowski",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_ef815d0b8028135d889d19f4",
+      "type": "Organization",
+      "title": "Austrian government",
+      "relation": "Participant",
+      "role": "Employer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

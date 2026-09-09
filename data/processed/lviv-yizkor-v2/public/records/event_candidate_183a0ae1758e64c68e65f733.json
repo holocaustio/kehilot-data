@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_183a0ae1758e64c68e65f733",
+  "type": "Event",
+  "title": "Anti-Jewish violence after German entry",
+  "summary": "German soldiers and Ukrainian nationalists attacked, detained, and abused Jews in Lviv.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 303,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2e88a516093116b58fd262f3",
+      "pageId": "page_nybc313875_0303",
+      "scanIndex": 303,
+      "leafNumber": 302,
+      "printedPage": null,
+      "passageCharStart": 1240,
+      "passageCharEnd": 1301,
+      "normalizedPassageCharStart": 1240,
+      "normalizedPassageCharEnd": 1301,
+      "pageCharStart": 2399,
+      "pageCharEnd": 2460,
+      "quote": "פרעו ת ונגישו ת ביהודי ם החל ו\nמי ד אחר י כניס ת הצב א הגרמני",
+      "normalizedQuote": "פרעו ת ונגישו ת ביהודי ם החל ו\nמי ד אחר י כניס ת הצב א הגרמני",
+      "modelQuote": "פרעות ונגישות ביהודים החלו\nמיד אחרי כניסת הצבא הגרמני",
+      "bbox": {
+        "left": 1722,
+        "top": 3882,
+        "right": 2840,
+        "bottom": 4016
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n302/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "ceb3db2f1b2db35d2871770869d220bf5d9ed59dd700f77c208c525397c22e5a",
+      "normalizedPassageChecksum": "3db91b9fe3969ecb4c50fbd6888c1915643a3531b8503f7fcd361c132c78671e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c0c4314bdc3c8ccb65589016",
+      "type": "Community",
+      "title": "Jews of Lviv",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_967ed3a0e67108c88fdcb670",
+      "type": "Organization",
+      "title": "Local Ukrainian militia",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

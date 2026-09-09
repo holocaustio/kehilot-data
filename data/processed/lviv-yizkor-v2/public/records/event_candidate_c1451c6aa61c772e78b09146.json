@@ -1,0 +1,65 @@
+{
+  "id": "event_candidate_c1451c6aa61c772e78b09146",
+  "type": "Event",
+  "title": "Lviv ghetto closure deadline",
+  "summary": "The scheduled ghetto closure date passed without an incident.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 316,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The text states the deadline passed without an event; DEPORTATION is only a broad approximation.",
+  "dateStart": "1941-12-15",
+  "dateEnd": "1941-12-15",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1a0477928a55eb4ec5f3d276",
+      "pageId": "page_nybc313875_0316",
+      "scanIndex": 316,
+      "leafNumber": 315,
+      "printedPage": null,
+      "passageCharStart": 253,
+      "passageCharEnd": 268,
+      "normalizedPassageCharStart": 253,
+      "normalizedPassageCharEnd": 268,
+      "pageCharStart": 2835,
+      "pageCharEnd": 2850,
+      "quote": "15 בדצמב ר 1941",
+      "normalizedQuote": "15 בדצמב ר 1941",
+      "modelQuote": "15 בדצמבר 1941",
+      "bbox": {
+        "left": 1811,
+        "top": 4512,
+        "right": 2361,
+        "bottom": 4568
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n315/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "2e5774e16488d0700f2fdfe4f4ec9a0325f06faa1930fce06709ad328cb8ef1b",
+      "normalizedPassageChecksum": "b03f45e2771a17edddb25a31873e1e2ae346c205b01bf451e7785bebc70badb2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d6f128cfb03c930058e014a4",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

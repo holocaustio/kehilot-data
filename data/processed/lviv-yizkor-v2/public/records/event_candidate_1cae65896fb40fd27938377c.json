@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_1cae65896fb40fd27938377c",
+  "type": "Event",
+  "title": "Arrest of Dr. Landsberg",
+  "summary": "Dr. Landsberg was reportedly arrested and held in the Lunetsky Street prison.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 332,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Arrest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_247bf5a6fb034df69c439d3b",
+      "pageId": "page_nybc313875_0332",
+      "scanIndex": 332,
+      "leafNumber": 331,
+      "printedPage": null,
+      "passageCharStart": 804,
+      "passageCharEnd": 824,
+      "normalizedPassageCharStart": 804,
+      "normalizedPassageCharEnd": 824,
+      "pageCharStart": 3010,
+      "pageCharEnd": 3030,
+      "quote": "שד״ ר לנדסבר ג נאס ר",
+      "normalizedQuote": "שד״ ר לנדסבר ג נאס ר",
+      "modelQuote": "שד״ר לנדסברג נאסר",
+      "bbox": {
+        "left": 459,
+        "top": 2377,
+        "right": 914,
+        "bottom": 2424
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n331/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "257db184a07f79bfa85f2091e72835a75f84f1fd0c1d79eab99f7759dd3b2ab4",
+      "normalizedPassageChecksum": "2fc23ffc4c6fad7014989ec760ad267edd6a18873d8a72eecd58fb4d391097eb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f5098a75a75c203e18dc125b",
+      "type": "Place",
+      "title": "Lunetsky Street prison",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d391583f82c6f2d5c635cbd2",
+      "type": "Person",
+      "title": "Dr. Landsberg",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

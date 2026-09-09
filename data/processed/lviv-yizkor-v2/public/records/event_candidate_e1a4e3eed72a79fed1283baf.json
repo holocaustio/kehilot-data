@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_e1a4e3eed72a79fed1283baf",
+  "type": "Event",
+  "title": "Laszczynski attack on Lviv",
+  "summary": "The Lutsk starosta and his men attacked Lviv residents and were partly captured.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 58,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_00759ca47cb8387acabd9295",
+      "pageId": "page_nybc313875_0058",
+      "scanIndex": 58,
+      "leafNumber": 57,
+      "printedPage": null,
+      "passageCharStart": 587,
+      "passageCharEnd": 609,
+      "normalizedPassageCharStart": 587,
+      "normalizedPassageCharEnd": 609,
+      "pageCharStart": 587,
+      "pageCharEnd": 609,
+      "quote": "התנפ ל ע ל אזרח י\nהעיר",
+      "normalizedQuote": "התנפ ל ע ל אזרח י\nהעיר",
+      "modelQuote": "התנפל על אזרחי העיר",
+      "bbox": {
+        "left": 1736,
+        "top": 1242,
+        "right": 2854,
+        "bottom": 1374
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n57/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "fb06bcbe76f9c80169ef806896630a8cb4981adf726263f8bd611d68e0b502ae",
+      "normalizedPassageChecksum": "7d31b4e9594e96c18306b9e7cd9866dae117f1bdc079d6c2579afcda6e8bc07f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_f57180ed94da6f1ea55e157b",
+      "type": "Person",
+      "title": "Laszczynski",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_4aea7e28d688490f426dbba7",
+      "type": "Community",
+      "title": "Jewish Community of Lviv",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

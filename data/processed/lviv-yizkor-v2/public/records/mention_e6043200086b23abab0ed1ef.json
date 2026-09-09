@@ -1,0 +1,121 @@
+{
+  "id": "mention_e6043200086b23abab0ed1ef",
+  "type": "Community",
+  "title": "Jews in Galicia",
+  "summary": "Jewish residents of Galicia targeted by the 1787 distillery decision.",
+  "originalName": "היהודים בגליציה",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 90,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish community",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f2cd58a15c6cada50b7a4488",
+      "pageId": "page_nybc313875_0090",
+      "scanIndex": 90,
+      "leafNumber": 89,
+      "printedPage": null,
+      "passageCharStart": 807,
+      "passageCharEnd": 830,
+      "normalizedPassageCharStart": 807,
+      "normalizedPassageCharEnd": 830,
+      "pageCharStart": 2893,
+      "pageCharEnd": 2916,
+      "quote": "מיד י היהודי ם בגליצי ה",
+      "normalizedQuote": "מיד י היהודי ם בגליצי ה",
+      "modelQuote": "מידי היהודים בגליציה",
+      "bbox": {
+        "left": 846,
+        "top": 1770,
+        "right": 1355,
+        "bottom": 1818
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n89/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "2642b207c156d5cb7a93172e1479f5e7896fa23e0a7ccd108c116acc8571f993",
+      "normalizedPassageChecksum": "8f87b1259b168dde0fa1f36d67ddad21c4d7515e58d1c8ac74cc083708f95805",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_751dc12067b5fed5d4a379cd",
+      "type": "Organization Founding",
+      "title": "Order to remove distilleries from Galician Jews",
+      "summary": "Emperor Joseph II ordered immediate removal of distilleries from Jews in Galicia.",
+      "dateStart": "1787-01-29",
+      "dateEnd": "1787-01-29",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event is a government prohibition, which has no direct allowed event type.",
+      "evidence": {
+        "passageId": "passage_f2cd58a15c6cada50b7a4488",
+        "pageId": "page_nybc313875_0090",
+        "scanIndex": 90,
+        "leafNumber": 89,
+        "printedPage": null,
+        "passageCharStart": 746,
+        "passageCharEnd": 797,
+        "normalizedPassageCharStart": 746,
+        "normalizedPassageCharEnd": 797,
+        "pageCharStart": 2832,
+        "pageCharEnd": 2883,
+        "quote": "ב־ 29\nבינוא ר 1787 מס ר הקיס ר יוס ף 11 א ת ההחלט ה",
+        "normalizedQuote": "ב־ 29\nבינוא ר 1787 מס ר הקיס ר יוס ף 11 א ת ההחלט ה",
+        "modelQuote": "ב־29 בינואר 1787 מסר הקיסר יוסף 11 את ההחלטה",
+        "bbox": {
+          "left": 449,
+          "top": 1615,
+          "right": 1567,
+          "bottom": 1742
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n89/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "2642b207c156d5cb7a93172e1479f5e7896fa23e0a7ccd108c116acc8571f993",
+        "normalizedPassageChecksum": "8f87b1259b168dde0fa1f36d67ddad21c4d7515e58d1c8ac74cc083708f95805",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_751dc12067b5fed5d4a379cd",
+      "type": "Event",
+      "title": "Order to remove distilleries from Galician Jews",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_b01e425d533603283f2f5819",
+      "type": "Organization",
+      "title": "Central authorities in Vienna",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cc8b823affea7a5ca56df6e7",
+      "type": "Person",
+      "title": "Emperor Joseph II",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5e3ca9a7d5514ed2d29a0cef",
+      "type": "Place",
+      "title": "Vienna",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d459d8c261b24c41b2ca4764",
+      "type": "Place",
+      "title": "Galicia",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

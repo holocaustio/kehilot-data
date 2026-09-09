@@ -1,0 +1,79 @@
+{
+  "id": "event_candidate_c996fd46ffe5534d33fc8d64",
+  "type": "Event",
+  "title": "1879 Vienna parliamentary elections",
+  "summary": "Parliamentary elections were held in Vienna in 1879, involving Jewish and Polish electoral cooperation.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 161,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The event is an election, but no election-specific event type is available; classified as MIGRATION only as a schema compromise.",
+  "dateStart": "1879",
+  "dateEnd": "1879",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c1f1aabcf476bbc36cf5ef09",
+      "pageId": "page_nybc313875_0161",
+      "scanIndex": 161,
+      "leafNumber": 160,
+      "printedPage": null,
+      "passageCharStart": 721,
+      "passageCharEnd": 775,
+      "normalizedPassageCharStart": 721,
+      "normalizedPassageCharEnd": 775,
+      "pageCharStart": 1549,
+      "pageCharEnd": 1603,
+      "quote": "ב ה בשנ ה — 1879 — התקיימ ו ג ם בחירו ת\nלפרלמנ ט בוינה",
+      "normalizedQuote": "ב ה בשנ ה — 1879 — התקיימ ו ג ם בחירו ת\nלפרלמנ ט בוינה",
+      "modelQuote": "בה בשנה — 1879 — התקיימו גם בחירות\nלפרלמנט בוינה",
+      "bbox": {
+        "left": 1723,
+        "top": 3018,
+        "right": 2842,
+        "bottom": 3139
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n160/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "327846c480b55777fd4086eacf5945f304e8c99005fd7709719a9120bf129954",
+      "normalizedPassageChecksum": "2a54b9f35aed3c08591ee1f979a5d26cb484f0a022962cc1013198a5f011057b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5e3ca9a7d5514ed2d29a0cef",
+      "type": "Place",
+      "title": "Vienna",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_7456e27c187408241b6709bb",
+      "type": "Organization",
+      "title": "Shomer Yisrael",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_eefa19e637dc5c456c09dcce",
+      "type": "Organization",
+      "title": "Central Electoral Committee of the Poles in Eastern Galicia",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_6bc4c34cec0ef48eb8f74078",
+      "type": "Organization",
+      "title": "Polish faction",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

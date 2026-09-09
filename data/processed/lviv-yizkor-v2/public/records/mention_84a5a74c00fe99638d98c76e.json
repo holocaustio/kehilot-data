@@ -2,7 +2,7 @@
   "id": "mention_84a5a74c00fe99638d98c76e",
   "type": "Place",
   "title": "Ostroh",
-  "summary": "Town mentioned in connection with rabbinical offices.",
+  "summary": "City mentioned as a place of rabbinical service.",
   "originalName": "אוסטראה",
   "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
@@ -10,7 +10,7 @@
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "town",
+  "subtype": "city",
   "evidenceRefs": [
     {
       "passageId": "passage_afd281d8d6682c04b0aa7bd5",
@@ -27,7 +27,12 @@
       "quote": "ובאוסטרא ה",
       "normalizedQuote": "ובאוסטרא ה",
       "modelQuote": "ובאוסטראה",
-      "bbox": null,
+      "bbox": {
+        "left": 1852,
+        "top": 1558,
+        "right": 2040,
+        "bottom": 1586
+      },
       "scanUrl": "https://archive.org/details/nybc313875/page/n181/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
       "passageChecksum": "9d599b3c4a953ebdd61636c03b01aa0f261cd1beee5f332d2f72aa44fd962c41",
@@ -37,25 +42,59 @@
       "alignmentScore": 1
     },
     {
-      "passageId": "passage_9ad207e24cd42c3550bd0ba4",
+      "passageId": "passage_5fcf425d5d13eaf05ee1bd38",
+      "pageId": "page_nybc313875_0203",
+      "scanIndex": 203,
+      "leafNumber": 202,
+      "printedPage": null,
+      "passageCharStart": 291,
+      "passageCharEnd": 311,
+      "normalizedPassageCharStart": 291,
+      "normalizedPassageCharEnd": 311,
+      "pageCharStart": 1752,
+      "pageCharEnd": 1772,
+      "quote": "אב״ ד ור״ מ באוסטרהא",
+      "normalizedQuote": "אב״ ד ור״ מ באוסטרהא",
+      "modelQuote": "אב״ד ור״מ באוסטרהא",
+      "bbox": {
+        "left": 1861,
+        "top": 3503,
+        "right": 2351,
+        "bottom": 3538
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n202/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "ba841c055309a3455616e6f9cd5b5dfa4d9675c7c5ef1158e6214b1ff4bf6372",
+      "normalizedPassageChecksum": "7d959f91acc02749308acf8afbce055be0626391fd1edca423e9b42f2a775b1c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_f0f5be862ace2d664ec8558d",
       "pageId": "page_nybc313875_0204",
       "scanIndex": 204,
       "leafNumber": 203,
       "printedPage": null,
-      "passageCharStart": 382,
-      "passageCharEnd": 391,
-      "normalizedPassageCharStart": 382,
-      "normalizedPassageCharEnd": 391,
-      "pageCharStart": 4095,
-      "pageCharEnd": 4104,
-      "quote": "באוסטרה א",
-      "normalizedQuote": "באוסטרה א",
-      "modelQuote": "באוסטרהא",
-      "bbox": null,
+      "passageCharStart": 679,
+      "passageCharEnd": 692,
+      "normalizedPassageCharStart": 679,
+      "normalizedPassageCharEnd": 692,
+      "pageCharStart": 679,
+      "pageCharEnd": 692,
+      "quote": "לר ב באוסטרהא",
+      "normalizedQuote": "לר ב באוסטרהא",
+      "modelQuote": "לרב באוסטרהא",
+      "bbox": {
+        "left": 2213,
+        "top": 1500,
+        "right": 2540,
+        "bottom": 1545
+      },
       "scanUrl": "https://archive.org/details/nybc313875/page/n203/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-      "passageChecksum": "81388db39560daab4e0e398934299d34b928e46c97f9565a1e3fdb8ca4079963",
-      "normalizedPassageChecksum": "9e0a29a049353d2370523eefa2b05b7c232e9c23f70aaae51af76f160e1f0230",
+      "passageChecksum": "1f41173320fb56edc3cad58db745e0a2dd0e488b41a847d374ac96b5e238d5de",
+      "normalizedPassageChecksum": "aa6dc6c9cd477f98a0761f284042315f4e269df768368474f612a7dd61ea41a6",
       "normalizationVersion": "ocr-layout-normalizer-v1",
       "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
@@ -63,166 +102,201 @@
   ],
   "claims": [
     {
-      "id": "claim_candidate_958efa7e92ed0e873e181aad",
-      "predicate": "Died In",
-      "subjectTitle": "Joel son of Isaac Isaac Heilpern",
+      "id": "claim_candidate_c67e3a8fac12177906e4526b",
+      "predicate": "Worked At",
+      "subjectTitle": "David ben Aryeh Leib of Lida",
       "objectTitle": "Ostroh",
       "confidence": "HIGH",
+      "qualifiers": {
+        "role": "rabbi"
+      },
       "evidence": {
-        "passageId": "passage_9ad207e24cd42c3550bd0ba4",
+        "passageId": "passage_f0f5be862ace2d664ec8558d",
         "pageId": "page_nybc313875_0204",
         "scanIndex": 204,
         "leafNumber": 203,
         "printedPage": null,
-        "passageCharStart": 371,
-        "passageCharEnd": 391,
-        "normalizedPassageCharStart": 371,
-        "normalizedPassageCharEnd": 391,
-        "pageCharStart": 4084,
-        "pageCharEnd": 4104,
-        "quote": "נ ח נפשי ה באוסטרה א",
-        "normalizedQuote": "נ ח נפשי ה באוסטרה א",
-        "modelQuote": "נחנפשיהבאוסטרהא",
-        "bbox": null,
+        "passageCharStart": 667,
+        "passageCharEnd": 692,
+        "normalizedPassageCharStart": 667,
+        "normalizedPassageCharEnd": 692,
+        "pageCharStart": 667,
+        "pageCharEnd": 692,
+        "quote": "מש ם נתמנ ה לר ב באוסטרהא",
+        "normalizedQuote": "מש ם נתמנ ה לר ב באוסטרהא",
+        "modelQuote": "משם נתמנה לרב באוסטרהא",
+        "bbox": {
+          "left": 2213,
+          "top": 1500,
+          "right": 2838,
+          "bottom": 1546
+        },
         "scanUrl": "https://archive.org/details/nybc313875/page/n203/mode/1up",
         "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "81388db39560daab4e0e398934299d34b928e46c97f9565a1e3fdb8ca4079963",
-        "normalizedPassageChecksum": "9e0a29a049353d2370523eefa2b05b7c232e9c23f70aaae51af76f160e1f0230",
+        "passageChecksum": "1f41173320fb56edc3cad58db745e0a2dd0e488b41a847d374ac96b5e238d5de",
+        "normalizedPassageChecksum": "aa6dc6c9cd477f98a0761f284042315f4e269df768368474f612a7dd61ea41a6",
         "normalizationVersion": "ocr-layout-normalizer-v1",
         "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
         "alignmentScore": 1
       }
     }
   ],
-  "events": [
-    {
-      "id": "event_candidate_d935efd55442dc523f34dbf3",
-      "type": "Death",
-      "title": "Death of Joel Heilpern",
-      "summary": "Joel Heilpern died in Ostroh before taking up residence in Lviv.",
-      "dateStart": "1714",
-      "confidence": "HIGH",
-      "evidence": {
-        "passageId": "passage_9ad207e24cd42c3550bd0ba4",
-        "pageId": "page_nybc313875_0204",
-        "scanIndex": 204,
-        "leafNumber": 203,
-        "printedPage": null,
-        "passageCharStart": 253,
-        "passageCharEnd": 406,
-        "normalizedPassageCharStart": 253,
-        "normalizedPassageCharEnd": 406,
-        "pageCharStart": 3966,
-        "pageCharEnd": 4119,
-        "quote": "ובשנ ת\nתע״ ב אחר י מות ו ש ל הר ב ר ׳ נפתל י היר ץ אשכנז י\nנתקב ל לאב״ ד ור״ מ בלבוב , אול ם טר ם בוא ו\nלשכו ן בלבו ב נ ח נפשי ה באוסטרה א ד ׳ תשר י תע״ד",
-        "normalizedQuote": "ובשנ ת\nתע״ ב אחר י מות ו ש ל הר ב ר ׳ נפתל י היר ץ אשכנז י\nנתקב ל לאב״ ד ור״ מ בלבוב , אול ם טר ם בוא ו\nלשכו ן בלבו ב נ ח נפשי ה באוסטרה א ד ׳ תשר י תע״ד",
-        "modelQuote": "ובשנת תע״באחרימותושלהרבר׳נפתליהירץאשכנזי נתקבללאב״דור״מבלבוב,אולםטרםבואו לשכוןבלבובנחנפשיהבאוסטרהאד׳תשריתע״ד",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n203/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "81388db39560daab4e0e398934299d34b928e46c97f9565a1e3fdb8ca4079963",
-        "normalizedPassageChecksum": "9e0a29a049353d2370523eefa2b05b7c232e9c23f70aaae51af76f160e1f0230",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "events": [],
   "connections": [
     {
-      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "id": "mention_13c288289ae43386483701e4",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d954cd4dd1e03499d7be9276",
+      "id": "mention_5c0010827860815df72005c7",
       "type": "Person",
-      "title": "Israel Hillel Perrin",
+      "title": "Israel Heilperin",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_00084356b4ab2cac8c096965",
+      "id": "mention_c1b58959210543bbe3c6f3b9",
       "type": "Organization",
-      "title": "Council of the Four Lands",
+      "title": "Council of Four Lands",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ff93701c70e4d37c6fc363b1",
+      "id": "mention_b979084b816c94e1c5a3d62c",
+      "type": "Work",
+      "title": "Klilat Yofi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9063bcf7ce24aed6d30a4d59",
+      "type": "Person",
+      "title": "Kaipinski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3a8068247c251ebac1efa94",
+      "type": "Place",
+      "title": "Salonika",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff078c16fe314afc974e8200",
       "type": "Place",
       "title": "Brody",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_4ce477c030f8912d0a53eaa4",
+      "id": "mention_92eaf1cb703536e473b6b04b",
       "type": "Place",
       "title": "Dubno",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_31abbbb1c719526fda44bfe5",
-      "type": "Place",
-      "title": "Pilitz",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_88ae0af60983559d43031f79",
-      "type": "Place",
-      "title": "Vienna",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_df3a6bc4f8a6a02fa55c89d5",
-      "type": "Institution",
-      "title": "Vienna Ministry of the Interior Archive",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_3eff549ce901a5a2f31be5de",
+      "id": "mention_a63234043bbe99d4ae04e5c8",
       "type": "Person",
-      "title": "Joel son of Isaac Isaac Heilpern",
-      "relation": "Died In"
+      "title": "David ben Shmuel Halevi",
+      "relation": "Appears in same passage"
     },
     {
-      "id": "event_candidate_d935efd55442dc523f34dbf3",
-      "type": "Event",
-      "title": "Death of Joel Heilpern",
-      "relation": "Occurred At"
-    },
-    {
-      "id": "mention_3eff549ce901a5a2f31be5de",
+      "id": "mention_ab8610832057aa2a691416a3",
       "type": "Person",
-      "title": "Joel son of Isaac Isaac Heilpern",
+      "title": "Yoel Sirkis",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a17a2325d832ca90bd90a125",
+      "id": "mention_d68a0bb3dee6edccb5328c1e",
       "type": "Place",
-      "title": "Lutsk",
+      "title": "Ludmir",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_b7a7d91f470efe8eef214cb2",
+      "id": "mention_1ef49371d5c15de67a75b97b",
       "type": "Place",
-      "title": "Pinsk",
+      "title": "Volhynia",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_daa824072cafd0d0d71cf3d9",
+      "id": "mention_ba556b051424a050760b77b8",
+      "type": "Place",
+      "title": "Potelych",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ea55847edf567ad2bcd0a767",
+      "type": "Place",
+      "title": "Krakow",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c2e284a5e3fd07735974e94d",
       "type": "Place",
       "title": "Poznan",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_dc12498fa5b9e4c2b7711578",
-      "type": "Person",
-      "title": "Menachem Mendel son of Asher Patiker",
+      "id": "mention_7a44e248d1284ddc080e0e09",
+      "type": "Place",
+      "title": "Moravia",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_67725931c19734f6e55b672f",
+      "id": "mention_4409836acca80661ca194747",
       "type": "Place",
-      "title": "Barzan",
+      "title": "Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d7eb0e07e28fa8077b79ba49",
+      "type": "Person",
+      "title": "Yosef ben Elikim Getz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4a7631318f09f7a7604b643d",
+      "type": "Work",
+      "title": "Divrei David",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_31da96eb71379197a78c25ee",
+      "type": "Person",
+      "title": "David ben Aryeh Leib of Lida",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_31da96eb71379197a78c25ee",
+      "type": "Person",
+      "title": "David ben Aryeh Leib of Lida",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6a87941e4cb1668bb0705328",
+      "type": "Place",
+      "title": "Lida",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff24541d13dd5eccdbd57281",
+      "type": "Place",
+      "title": "Mainz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_704eab064f7d2453e7c93f9b",
+      "type": "Place",
+      "title": "Amsterdam",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1d310c12d52ef469bee5389b",
+      "type": "Community",
+      "title": "Ashkenazi community of Amsterdam",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_68a8f211baeb3ffa6aaf91d6",
+      "type": "Institution",
+      "title": "Ashkenazi community of Amsterdam",
       "relation": "Appears in same passage"
     }
   ],

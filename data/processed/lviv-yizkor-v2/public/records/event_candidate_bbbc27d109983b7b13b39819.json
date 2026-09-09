@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_bbbc27d109983b7b13b39819",
+  "type": "Event",
+  "title": "Execution of Dr. Frans",
+  "summary": "Dr. Frans was shot in the prison courtyard by the Germans.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 308,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b5886fea67a1aa12145420ca",
+      "pageId": "page_nybc313875_0308",
+      "scanIndex": 308,
+      "leafNumber": 307,
+      "printedPage": null,
+      "passageCharStart": 309,
+      "passageCharEnd": 346,
+      "normalizedPassageCharStart": 309,
+      "normalizedPassageCharEnd": 346,
+      "pageCharStart": 2217,
+      "pageCharEnd": 2254,
+      "quote": "לונצק י והומ ת בירי ה בחצ ר בית־הסוהר",
+      "normalizedQuote": "לונצק י והומ ת בירי ה בחצ ר בית־הסוהר",
+      "modelQuote": "לונצקי והומת ביריה בחצר בית־הסוהר",
+      "bbox": {
+        "left": 728,
+        "top": 1193,
+        "right": 1574,
+        "bottom": 1247
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n307/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "e672399352f3dfc78c2892f8cd3ad56eeef7c704bac427143ab149bc7e77a728",
+      "normalizedPassageChecksum": "ef514e2377fae37e136b37a1db1aadb29988319b97084169c0bb8a5076324661",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f5098a75a75c203e18dc125b",
+      "type": "Place",
+      "title": "Lunetsky Street Prison",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_acbf7c1b37f768224461abbb",
+      "type": "Person",
+      "title": "Dr. Frans",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

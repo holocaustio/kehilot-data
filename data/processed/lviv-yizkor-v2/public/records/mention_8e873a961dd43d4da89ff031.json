@@ -1,0 +1,69 @@
+{
+  "id": "mention_8e873a961dd43d4da89ff031",
+  "type": "Institution",
+  "title": "Orphanages",
+  "summary": "Orphanages targeted during a violent Aktion.",
+  "originalName": "בתי־היתומים",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 329,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "orphanages",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_230c5ce6d601968ed318d7da",
+      "pageId": "page_nybc313875_0329",
+      "scanIndex": 329,
+      "leafNumber": 328,
+      "printedPage": null,
+      "passageCharStart": 49,
+      "passageCharEnd": 60,
+      "normalizedPassageCharStart": 49,
+      "normalizedPassageCharEnd": 60,
+      "pageCharStart": 2719,
+      "pageCharEnd": 2730,
+      "quote": "בתי־היתומים",
+      "normalizedQuote": "בתי־היתומים",
+      "modelQuote": "בתי־היתומים",
+      "bbox": {
+        "left": 1902,
+        "top": 5137,
+        "right": 2358,
+        "bottom": 5191
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n328/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "3bd351fed17252951a7af5a5951359a6170f91b4cfd5837c8a7aab45bd40e0ef",
+      "normalizedPassageChecksum": "ca2c8feef83ab900a587a05755c02159155980f44a6a4e9049b3a116ad7c1605",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "connections": [
+    {
+      "id": "event_candidate_f3ca8826f4635074d6cfb6d2",
+      "type": "Event",
+      "title": "Aktion against hospitals and orphanages",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_f4b512eed52aa2813dbc4561",
+      "type": "Institution",
+      "title": "Hospitals",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8822490a977a55f20a6c471c",
+      "type": "Place",
+      "title": "Yanovyi camp",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

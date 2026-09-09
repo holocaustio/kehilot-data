@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_2d979643d920e2f5aac63fe8",
+  "type": "Event",
+  "title": "Anti-Jewish riots in Lviv",
+  "summary": "Ukrainians rioted against Jews the day after Nazi forces entered Lviv.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 226,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_225ebf227e66ea1df1884f8a",
+      "pageId": "page_nybc313875_0226",
+      "scanIndex": 226,
+      "leafNumber": 225,
+      "printedPage": null,
+      "passageCharStart": 210,
+      "passageCharEnd": 249,
+      "normalizedPassageCharStart": 210,
+      "normalizedPassageCharEnd": 249,
+      "pageCharStart": 210,
+      "pageCharEnd": 249,
+      "quote": "למחר ת פרע ו האוקראיני ם פרעו ת\nביהודים",
+      "normalizedQuote": "למחר ת פרע ו האוקראיני ם פרעו ת\nביהודים",
+      "modelQuote": "למחרת פרעו האוקראינים פרעות\nביהודים",
+      "bbox": {
+        "left": 2588,
+        "top": 2458,
+        "right": 4256,
+        "bottom": 2654
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n225/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "18b238b32472eff728cf5ba9453fef526c60d260c3843c6f1023fd9017c4ef44",
+      "normalizedPassageChecksum": "bfb194623b8d297abd81a7fd9ed748dc547051936bd817fdd7a477f1f6df345a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_e61802802f248895112ca477",
+      "type": "Community",
+      "title": "Ukrainians",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,131 @@
+{
+  "id": "mention_d5d5a96bfa11a3518416d66f",
+  "type": "Place",
+  "title": "Bibrka",
+  "summary": "Site of a 1753 session that changed Lviv's tax arrangement.",
+  "originalName": "בוברקה",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 81,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7df2fc9701dc0ec995cfbd77",
+      "pageId": "page_nybc313875_0081",
+      "scanIndex": 81,
+      "leafNumber": 80,
+      "printedPage": null,
+      "passageCharStart": 581,
+      "passageCharEnd": 595,
+      "normalizedPassageCharStart": 581,
+      "normalizedPassageCharEnd": 595,
+      "pageCharStart": 2720,
+      "pageCharEnd": 2734,
+      "quote": "במוש ב בוברק ה",
+      "normalizedQuote": "במוש ב בוברק ה",
+      "modelQuote": "במושב בוברקה",
+      "bbox": {
+        "left": 1268,
+        "top": 1354,
+        "right": 1584,
+        "bottom": 1396
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n80/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "3aa4b860324c492f78e919e8f37df94686ca57ebfe49632159b1e28b40c07d87",
+      "normalizedPassageChecksum": "92a92a74f9b303aadfbb0118915443897e7dceaf5560df87f6175f75020dc1db",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_ccbedfb797d79bb0b62deca7",
+      "type": "Governance Change",
+      "title": "Bobrka session changes Lviv's tax arrangement",
+      "summary": "A session at Bibrka on 20 July 1753 changed Lviv's tax assessment procedure and related communal governance provisions.",
+      "dateStart": "1753-07-20",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include a general policy or session-change category.",
+      "evidence": {
+        "passageId": "passage_7df2fc9701dc0ec995cfbd77",
+        "pageId": "page_nybc313875_0081",
+        "scanIndex": 81,
+        "leafNumber": 80,
+        "printedPage": null,
+        "passageCharStart": 565,
+        "passageCharEnd": 613,
+        "normalizedPassageCharStart": 565,
+        "normalizedPassageCharEnd": 613,
+        "pageCharStart": 2704,
+        "pageCharEnd": 2752,
+        "quote": "סעי ף ז ה שונ ה\nבמוש ב בוברק ה ב־ 20 ביול י 1753",
+        "normalizedQuote": "סעי ף ז ה שונ ה\nבמוש ב בוברק ה ב־ 20 ביול י 1753",
+        "modelQuote": "סעיף זה שונה\nבמושב בוברקה ב־20 ביולי 1753",
+        "bbox": {
+          "left": 470,
+          "top": 1271,
+          "right": 1584,
+          "bottom": 1396
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n80/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "3aa4b860324c492f78e919e8f37df94686ca57ebfe49632159b1e28b40c07d87",
+        "normalizedPassageChecksum": "92a92a74f9b303aadfbb0118915443897e7dceaf5560df87f6175f75020dc1db",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_ccbedfb797d79bb0b62deca7",
+      "type": "Event",
+      "title": "Bobrka session changes Lviv's tax arrangement",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4aea7e28d688490f426dbba7",
+      "type": "Community",
+      "title": "Jewish Community of Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6cb533ea605395af8e330078",
+      "type": "Community",
+      "title": "Raysin region",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a8e4642e9729e8dd52a1820c",
+      "type": "Place",
+      "title": "Yaroslav",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c1b58959210543bbe3c6f3b9",
+      "type": "Organization",
+      "title": "Council of Four Lands",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff078c16fe314afc974e8200",
+      "type": "Place",
+      "title": "Brody",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c2c0b6cc0f885fabc06e3879",
+      "type": "Place",
+      "title": "Zolkiew",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

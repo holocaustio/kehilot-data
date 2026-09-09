@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_b027f004702224e2586fcace",
+  "type": "Event",
+  "title": "Mordechai Rabinowitz murdered at Janowska",
+  "summary": "Mordechai Rabinowitz was murdered at Janowska camp in summer 1943.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 382,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "dateStart": "1943-06",
+  "dateEnd": "1943-08",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c5dd49b2f91414cad3de9c23",
+      "pageId": "page_nybc313875_0382",
+      "scanIndex": 382,
+      "leafNumber": 381,
+      "printedPage": null,
+      "passageCharStart": 328,
+      "passageCharEnd": 362,
+      "normalizedPassageCharStart": 328,
+      "normalizedPassageCharEnd": 362,
+      "pageCharStart": 2496,
+      "pageCharEnd": 2530,
+      "quote": "נרצ ח במחנ ה יאנובסקה . בקי ץ 1943",
+      "normalizedQuote": "נרצ ח במחנ ה יאנובסקה . בקי ץ 1943",
+      "modelQuote": "נרצח במחנה יאנובסקה. בקיץ 1943",
+      "bbox": {
+        "left": 723,
+        "top": 1397,
+        "right": 1799,
+        "bottom": 1463
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n381/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "55154e816281d56c925a3162ef1c97940723fb4240d8ec3a5aebbb73678b656d",
+      "normalizedPassageChecksum": "33d9ed5482038348cf492a552f878e9df7cd54f309e4d8188c12e10b52fc5e7c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_bce1477af2526c752c180d16",
+      "type": "Place",
+      "title": "Janowska camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1aa9398dc8b769391b4ddddc",
+      "type": "Person",
+      "title": "Mordechai Rabinowitz",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

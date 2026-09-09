@@ -1,0 +1,119 @@
+{
+  "id": "mention_a1755f47755ff76e72a7bccc",
+  "type": "Place",
+  "title": "New Jewish cemetery",
+  "summary": "The municipality sought compensation from the community for land used for a new Jewish cemetery.",
+  "originalName": "בית־הקברות היהודי החדש",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 143,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish cemetery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4166911995b0ec0eccc37a8a",
+      "pageId": "page_nybc313875_0143",
+      "scanIndex": 143,
+      "leafNumber": 142,
+      "printedPage": null,
+      "passageCharStart": 610,
+      "passageCharEnd": 640,
+      "normalizedPassageCharStart": 610,
+      "normalizedPassageCharEnd": 640,
+      "pageCharStart": 610,
+      "pageCharEnd": 640,
+      "quote": "אדמ ת\nבית־הקברו ת היהוד י החדש",
+      "normalizedQuote": "אדמ ת\nבית־הקברו ת היהוד י החדש",
+      "modelQuote": "אדמת בית־הקברות היהודי החדש",
+      "bbox": {
+        "left": 1728,
+        "top": 1442,
+        "right": 2845,
+        "bottom": 1568
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n142/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "fec970b78f76f18b8d919abbcea0e1446141a1e643c5be617c78408cbd055cec",
+      "normalizedPassageChecksum": "e01848ebca694d4a5430b26c1d6d4ae5c5c3f776e8ff0647778074df81a42e6a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_59156cb9de674a46e7fb5f25",
+      "type": "Death",
+      "title": "Jewish community cemetery responsibility",
+      "summary": "The commissioner ruled that the Jewish community must bear expenses for establishing the cemetery.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "This is a cemetery-establishment ruling, not a death event; no allowed event type directly fits.",
+      "evidence": {
+        "passageId": "passage_4166911995b0ec0eccc37a8a",
+        "pageId": "page_nybc313875_0143",
+        "scanIndex": 143,
+        "leafNumber": 142,
+        "printedPage": null,
+        "passageCharStart": 977,
+        "passageCharEnd": 1034,
+        "normalizedPassageCharStart": 977,
+        "normalizedPassageCharEnd": 1034,
+        "pageCharStart": 977,
+        "pageCharEnd": 1034,
+        "quote": "ע ל הקהל ה לשא ת בכ ל ההוצאו ת הקשורו ת\nבהקמ ת בית־העלמין",
+        "normalizedQuote": "ע ל הקהל ה לשא ת בכ ל ההוצאו ת הקשורו ת\nבהקמ ת בית־העלמין",
+        "modelQuote": "על הקהלה לשאת בכל ההוצאות הקשורות בהקמת בית־העלמין",
+        "bbox": {
+          "left": 1722,
+          "top": 2091,
+          "right": 2838,
+          "bottom": 2231
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n142/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "fec970b78f76f18b8d919abbcea0e1446141a1e643c5be617c78408cbd055cec",
+        "normalizedPassageChecksum": "e01848ebca694d4a5430b26c1d6d4ae5c5c3f776e8ff0647778074df81a42e6a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_59156cb9de674a46e7fb5f25",
+      "type": "Event",
+      "title": "Jewish community cemetery responsibility",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_6a79fd809a44ac45e88fcd8b",
+      "type": "Person",
+      "title": "N. M. Gelber",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d6f128cfb03c930058e014a4",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1d706da8664a15b3e9f117d3",
+      "type": "Organization",
+      "title": "Galicia commission",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

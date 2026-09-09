@@ -1,0 +1,57 @@
+{
+  "id": "event_candidate_e0f2c904143d767055d23c06",
+  "type": "Event",
+  "title": "Royal commission visit to Lviv",
+  "summary": "The commission arrived in Lviv, inspected properties, and held a secret session.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 33,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Employment",
+  "uncertaintyNote": "The event is classified under the available employment enum because no commission-inquiry event type exists.",
+  "dateStart": "1604-02-03",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dd0463e40faf5572d61b311e",
+      "pageId": "page_nybc313875_0033",
+      "scanIndex": 33,
+      "leafNumber": 32,
+      "printedPage": null,
+      "passageCharStart": 334,
+      "passageCharEnd": 372,
+      "normalizedPassageCharStart": 334,
+      "normalizedPassageCharEnd": 372,
+      "pageCharStart": 1608,
+      "pageCharEnd": 1646,
+      "quote": "ב־ 3 בפברוא ר 1604 הגיע ה\nהועד ה ללבוב",
+      "normalizedQuote": "ב־ 3 בפברוא ר 1604 הגיע ה\nהועד ה ללבוב",
+      "modelQuote": "ב־3 בפברואר 1604 הגיעה\nהועדה ללבוב",
+      "bbox": {
+        "left": 1726,
+        "top": 3108,
+        "right": 2846,
+        "bottom": 3233
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n32/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "e8c91b6b26d66aa58cbe98588f76d9ec6333c975147c3699b8a5caea6c829a7c",
+      "normalizedPassageChecksum": "893a71c60f48b3508043986d346860ad9c197992b656d64e43595e8677357fef",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,33 +1,35 @@
 {
   "schemaVersion": "kehilot-yizkor-selected-release-v1",
   "selectedVersion": "lviv-yizkor-v2",
-  "selectedAt": "2026-09-08T18:21:30.477Z",
+  "selectedAt": "2026-09-08T23:14:14.193Z",
   "community": "lviv",
   "bookId": "book_nybc313875",
   "publicGraphPath": "data/processed/lviv-yizkor-v2/adjudication/resolved-graph.json",
   "sourcePassagesPath": "data/processed/lviv-yizkor-v1/source/passages.jsonl",
-  "graphSha256": "bf0e39aea1d5afca66431745415d2a6487c1d43de9150608da9888fd3f8ac0d5",
-  "sourceSha256": "11a6bde88e2244ee1eb12744c452bb0875b4cdde148f2fcc390b5e54cf7f654d",
+  "graphSha256": "0680d9e17286b436fbd262e95a937a163b8b4b48de3ba07b343ac1bf5c4c4a1d",
+  "sourceSha256": "34d148a178617b70dceb33190a891b18b490db3b820746ab3d6565915777fc19",
   "checks": {
-    "allStagesCompleted": true,
+    "allStagesCompleted": false,
     "structuralValidationPassed": true,
     "provenanceValidationPassed": true,
     "resolutionComplete": true
   },
-  "allowedIncompleteStages": [],
+  "allowedIncompleteStages": [
+    "extraction"
+  ],
   "provenance": {
-    "observations": 13796,
+    "observations": 14148,
     "missingEvidence": 0,
     "invalidRawRanges": 0
   },
   "counts": {
     "passages": 1233,
-    "mentions": 9643,
-    "claims": 2892,
-    "events": 1261,
-    "quarantinedAtExtraction": 515,
-    "adjudicationReviewQueue": 131,
-    "publicSourceLinkedObservations": 11856
+    "mentions": 9726,
+    "claims": 3059,
+    "events": 1363,
+    "quarantinedAtExtraction": 669,
+    "adjudicationReviewQueue": 148,
+    "publicSourceLinkedObservations": 12046
   },
   "models": {
     "inventory": {
@@ -40,7 +42,7 @@
       "model": "gpt-5.6-luna",
       "serviceTier": "flex",
       "reasoningEffort": "none",
-      "promptVersion": "yizkor-extraction-prompt-v5",
+      "promptVersion": "yizkor-extraction-prompt-v6",
       "validatorVersion": "yizkor-provenance-validator-v5"
     },
     "luna": {
@@ -58,10 +60,10 @@
   },
   "costsUsd": {
     "inventory": 0.10455,
-    "extraction": 1.109533,
-    "luna": 0.448169,
-    "terra": 0.359898,
-    "total": 2.02215
+    "extraction": 1.132216,
+    "luna": 0.477389,
+    "terra": 0.401949,
+    "total": 2.116104
   },
   "publicationPolicy": {
     "humanReviewComplete": false,

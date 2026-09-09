@@ -3,8 +3,8 @@
   "type": "Person",
   "title": "Paul Mendelssohn",
   "summary": "A Jew from Lviv reportedly granted permission to move outside the Jewish quarter.",
-  "originalName": "פאולמנדלסזוהן",
-  "confidence": "MEDIUM",
+  "originalName": "פאול\n\nמנדלסזוהן",
+  "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 103,
   "printedPage": null,
@@ -26,7 +26,12 @@
       "quote": "פאו ל\n\nמנדלסזוהן",
       "normalizedQuote": "פאו ל\n\nמנדלסזוהן",
       "modelQuote": "פאול\n\nמנדלסזוהן",
-      "bbox": null,
+      "bbox": {
+        "left": 458,
+        "top": 2931,
+        "right": 1568,
+        "bottom": 3068
+      },
       "scanUrl": "https://archive.org/details/nybc313875/page/n102/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
       "passageChecksum": "efdd2bb078965d9b3014e3e211df5491ce22003f0876576c30f6554df10335fc",
@@ -37,54 +42,98 @@
     }
   ],
   "claims": [],
-  "events": [],
+  "events": [
+    {
+      "id": "event_candidate_0cce30ea71eabea18c4f66a3",
+      "type": "Migration",
+      "title": "Lviv Jews received permission to move outside the Jewish quarter",
+      "summary": "Johann Seligman, Paul Mendelssohn, and Tzadok Hirsch Goldberg were cited as precedents.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c4d2c84e764a502b16e8ef3e",
+        "pageId": "page_nybc313875_0103",
+        "scanIndex": 103,
+        "leafNumber": 102,
+        "printedPage": null,
+        "passageCharStart": 963,
+        "passageCharEnd": 1057,
+        "normalizedPassageCharStart": 963,
+        "normalizedPassageCharEnd": 1057,
+        "pageCharStart": 3608,
+        "pageCharEnd": 3702,
+        "quote": "יוהא ן זליגמן , פאו ל\n\nמנדלסזוהן , צדו ק היר ש גולדברג , יהודי ם מלבו ב כב ר\nקבל ו רשיון־העברה",
+        "normalizedQuote": "יוהא ן זליגמן , פאו ל\n\nמנדלסזוהן , צדו ק היר ש גולדברג , יהודי ם מלבו ב כב ר\nקבל ו רשיון־העברה",
+        "modelQuote": "יוהאן זליגמן, פאול\n\nמנדלסזוהן, צדוק הירש גולדברג, יהודים מלבוב כבר\nקבלו רשיון־העברה",
+        "bbox": {
+          "left": 454,
+          "top": 2930,
+          "right": 1568,
+          "bottom": 3152
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n102/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "efdd2bb078965d9b3014e3e211df5491ce22003f0876576c30f6554df10335fc",
+        "normalizedPassageChecksum": "e3e776ab339f2640be17ed1512d179c5117bf273f0645ef194c8e072c2c6b170",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_e5abdf6480758eabcc25e019",
+      "id": "event_candidate_0cce30ea71eabea18c4f66a3",
+      "type": "Event",
+      "title": "Lviv Jews received permission to move outside the Jewish quarter",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_424a14a3092e4d5908af5f1e",
       "type": "Person",
-      "title": "Yosef Shwamberger",
+      "title": "Yosef Schwamberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_908b64494727ab9328b27ea1",
+      "id": "mention_e0479dacfdbc77ec659d4c6b",
       "type": "Person",
-      "title": "Karl Shwamberger",
+      "title": "Yitzhak Schwamberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_45813130482900ebc4d82d5d",
+      "id": "mention_3c0b42e8c42606ae04bfe694",
+      "type": "Person",
+      "title": "Karl Schwamberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aaf0bd07d91bca39254a96a0",
+      "type": "Institution",
+      "title": "School of the Benedictine Nuns",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5a32197416c987353d551913",
       "type": "Person",
       "title": "Johann Seligman",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_aa68782ce8608835385e0048",
+      "id": "mention_1fd05144e5b6d87b7ba5035d",
       "type": "Person",
-      "title": "Zadok Hirsch Goldberg",
+      "title": "Tzadok Hirsch Goldberg",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_a0be5d4d8b41acc9587c7ed3",
+      "id": "mention_13c288289ae43386483701e4",
       "type": "Place",
       "title": "Lviv",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_cdc39f78ee713b6b278e4749",
-      "type": "Institution",
-      "title": "University of Vienna",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_88ae0af60983559d43031f79",
+      "id": "mention_5e3ca9a7d5514ed2d29a0cef",
       "type": "Place",
       "title": "Vienna",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_7e7c2fdb113324f50e2dccbe",
-      "type": "Institution",
-      "title": "School of the Benedictine Nuns",
       "relation": "Appears in same passage"
     }
   ],

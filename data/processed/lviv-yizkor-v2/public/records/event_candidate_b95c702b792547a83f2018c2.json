@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_b95c702b792547a83f2018c2",
+  "type": "Event",
+  "title": "Siege of Lviv",
+  "summary": "Khmelnytskyi’s army, reinforced by Tatars, besieged Lviv in September 1648.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 53,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "dateStart": "1648-09",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d9760bc3342dad5082999e43",
+      "pageId": "page_nybc313875_0053",
+      "scanIndex": 53,
+      "leafNumber": 52,
+      "printedPage": null,
+      "passageCharStart": 0,
+      "passageCharEnd": 33,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 33,
+      "pageCharStart": 2233,
+      "pageCharEnd": 2266,
+      "quote": "בספטמב ר 1648 הגי ע צב א כמלניצקי",
+      "normalizedQuote": "בספטמב ר 1648 הגי ע צב א כמלניצקי",
+      "modelQuote": "בספטמבר 1648 הגיע צבא כמלניצקי",
+      "bbox": {
+        "left": 679,
+        "top": 1701,
+        "right": 1492,
+        "bottom": 1755
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n52/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "8fe53b9a43cadfe3c2836f662b650a3857c6b2e4ec18455d7d2a5c909929c09c",
+      "normalizedPassageChecksum": "a13d69f7ccbb410dfb6172aa74f3b3098a8b984fb0fea02a95843960f072f50c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9e7581ccd2ca93857895ad07",
+      "type": "Person",
+      "title": "Tukay Bey",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_d6f128cfb03c930058e014a4",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

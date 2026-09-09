@@ -1,0 +1,114 @@
+{
+  "id": "mention_357f2e1dd10c6235d4750f15",
+  "type": "Organization",
+  "title": "National Council",
+  "summary": "Addressed Jewish support for the Poles in May 1848.",
+  "originalName": "המועצה הלאומית",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 128,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "council",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c616465402cdb3076b04c4b0",
+      "pageId": "page_nybc313875_0128",
+      "scanIndex": 128,
+      "leafNumber": 127,
+      "printedPage": null,
+      "passageCharStart": 0,
+      "passageCharEnd": 16,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 16,
+      "pageCharStart": 3913,
+      "pageCharEnd": 3929,
+      "quote": "המועצ ה הלאומי ת",
+      "normalizedQuote": "המועצ ה הלאומי ת",
+      "modelQuote": "המועצה הלאומית",
+      "bbox": {
+        "left": 1127,
+        "top": 3532,
+        "right": 1493,
+        "bottom": 3581
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n127/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "d5823b13ebaca17b60d3029f99ad1f5a7c3d0d01e7d31d36d4e742c1445489a6",
+      "normalizedPassageChecksum": "f1bc388af5b1e5dec6b1f08f0032401ed59217fef3ada34c9aa2f268e373a09d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_64d5eb6e5ebd8edecbe1b6f5",
+      "type": "Organization Founding",
+      "title": "National Council proclamation to Jews",
+      "summary": "The National Council issued a special proclamation to Jews on 13 May 1848.",
+      "dateStart": "1848-05-13",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include issuing a proclamation; classified conservatively as organization founding is not semantically exact.",
+      "evidence": {
+        "passageId": "passage_c616465402cdb3076b04c4b0",
+        "pageId": "page_nybc313875_0128",
+        "scanIndex": 128,
+        "leafNumber": 127,
+        "printedPage": null,
+        "passageCharStart": 79,
+        "passageCharEnd": 121,
+        "normalizedPassageCharStart": 79,
+        "normalizedPassageCharEnd": 121,
+        "pageCharStart": 3992,
+        "pageCharEnd": 4034,
+        "quote": "ב־ 13 במא י 1848\nבכרו ז מיוח ד א ל היהודים",
+        "normalizedQuote": "ב־ 13 במא י 1848\nבכרו ז מיוח ד א ל היהודים",
+        "modelQuote": "ב־13 במאי 1848\nבכרוז מיוחד אל היהודים",
+        "bbox": {
+          "left": 469,
+          "top": 3627,
+          "right": 1585,
+          "bottom": 3748
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n127/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "d5823b13ebaca17b60d3029f99ad1f5a7c3d0d01e7d31d36d4e742c1445489a6",
+        "normalizedPassageChecksum": "f1bc388af5b1e5dec6b1f08f0032401ed59217fef3ada34c9aa2f268e373a09d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_64d5eb6e5ebd8edecbe1b6f5",
+      "type": "Event",
+      "title": "National Council proclamation to Jews",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_d3354069b6768ae091e6def3",
+      "type": "Community",
+      "title": "Jews",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e13a46dfd84fb73055aeba93",
+      "type": "Community",
+      "title": "Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2715949a5cd357727e27e6f5",
+      "type": "Place",
+      "title": "Germany",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_ea7accc555ca01e8ce3d8115",
+  "type": "Event",
+  "title": "Frans family moved to Lviv",
+  "summary": "The Frans family moved to Lviv after leaving Podolia.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 266,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5125f425d71f8f4c43fb15f5",
+      "pageId": "page_nybc313875_0266",
+      "scanIndex": 266,
+      "leafNumber": 265,
+      "printedPage": null,
+      "passageCharStart": 580,
+      "passageCharEnd": 611,
+      "normalizedPassageCharStart": 580,
+      "normalizedPassageCharEnd": 611,
+      "pageCharStart": 1809,
+      "pageCharEnd": 1840,
+      "quote": "עזב ו א ת פודולי ה ועבר ו\nללבוב",
+      "normalizedQuote": "עזב ו א ת פודולי ה ועבר ו\nללבוב",
+      "modelQuote": "עזבו את פודוליה ועברו\nללבוב",
+      "bbox": {
+        "left": 694,
+        "top": 1664,
+        "right": 2366,
+        "bottom": 1858
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n265/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "bfa9fff32f9d8e5d1b588bf65218b965feddcfd069417cad65a6981daa99035b",
+      "normalizedPassageChecksum": "06cf19cc95634ec1666b5b9aba116467b091d40e5b545bb6be1f5df370707442",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_518caebd89900b2e42bed107",
+      "type": "Family",
+      "title": "Frans family",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_66d1d9a68cbd0d2b0f9717f2",
+  "type": "Event",
+  "title": "German bombing of Lviv",
+  "summary": "German aircraft bombed Lviv before dawn on 22 June 1941.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 302,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "dateStart": "1941-06-22",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_eb6dfe058b3d0b05dad9b926",
+      "pageId": "page_nybc313875_0302",
+      "scanIndex": 302,
+      "leafNumber": 301,
+      "printedPage": null,
+      "passageCharStart": 183,
+      "passageCharEnd": 218,
+      "normalizedPassageCharStart": 183,
+      "normalizedPassageCharEnd": 218,
+      "pageCharStart": 183,
+      "pageCharEnd": 218,
+      "quote": "האוירוני ם הגרמני ם ע ל העי ר השקטה",
+      "normalizedQuote": "האוירוני ם הגרמני ם ע ל העי ר השקטה",
+      "modelQuote": "האוירונים הגרמנים על העיר השקטה",
+      "bbox": {
+        "left": 2011,
+        "top": 1345,
+        "right": 2848,
+        "bottom": 1398
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n301/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "5db6a5ca0676a3e1c5771bccbd2992e6a0843925ccc4a9aa2ccddd2a03a0d31b",
+      "normalizedPassageChecksum": "1047e67fb5061619137f3e0c35662198c35b7ffc42bc54c7ddd36da985a78a1c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_6ebece3c076b9018a2dde905",
+      "type": "Organization",
+      "title": "Germany",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

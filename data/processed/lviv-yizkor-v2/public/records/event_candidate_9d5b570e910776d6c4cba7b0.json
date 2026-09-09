@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_9d5b570e910776d6c4cba7b0",
+  "type": "Event",
+  "title": "Royal court hearing on the Jewish property claim",
+  "summary": "The Jewish claim was heard before the king on 15 January 1604.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 33,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Arrest",
+  "uncertaintyNote": "The event is a court session, but no allowed event type directly represents a hearing; omitted.",
+  "dateStart": "1604-01-15",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3d4199f9c6263c4eeeea4177",
+      "pageId": "page_nybc313875_0033",
+      "scanIndex": 33,
+      "leafNumber": 32,
+      "printedPage": null,
+      "passageCharStart": 733,
+      "passageCharEnd": 775,
+      "normalizedPassageCharStart": 733,
+      "normalizedPassageCharEnd": 775,
+      "pageCharStart": 733,
+      "pageCharEnd": 775,
+      "quote": "ב־ 15 בינוא ר 1604 התקיי ם מוש ב בית-הדי ן",
+      "normalizedQuote": "ב־ 15 בינוא ר 1604 התקיי ם מוש ב בית-הדי ן",
+      "modelQuote": "ב־ 15 בינואר 1604 התקיים מושב בית-הדין",
+      "bbox": {
+        "left": 1724,
+        "top": 1689,
+        "right": 2751,
+        "bottom": 1734
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n32/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "2e2beb9bcfe516d957b525f7078996210fd54ce239906ee49165102d7d4e9e18",
+      "normalizedPassageChecksum": "242fa78f70d926d4bf99a9f2fd99324d97df407837583d1a29de6cd794fa76fc",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_ea55847edf567ad2bcd0a767",
+      "type": "Place",
+      "title": "Krakow",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d6f128cfb03c930058e014a4",
+      "type": "Community",
+      "title": "Jewish community of Lviv",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_e6c794e8854f9d7fa2f67c5b",
+      "type": "Institution",
+      "title": "Royal court",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

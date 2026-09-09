@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_d66d99608a0d3a5fb32dceef",
+  "type": "Event",
+  "title": "Opening of the Lviv Stock Exchange",
+  "summary": "The Lviv stock exchange opened on 1 January 1867.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 155,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Organization Founding",
+  "dateStart": "1867-01-01",
+  "dateEnd": "1867-01-01",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a5ecbd52d31f9b8c03a8e249",
+      "pageId": "page_nybc313875_0155",
+      "scanIndex": 155,
+      "leafNumber": 154,
+      "printedPage": null,
+      "passageCharStart": 910,
+      "passageCharEnd": 949,
+      "normalizedPassageCharStart": 910,
+      "normalizedPassageCharEnd": 949,
+      "pageCharStart": 3188,
+      "pageCharEnd": 3227,
+      "quote": "פתיח ת הבורס ה בלבו ב ב־ 1 בינוא ר 1867",
+      "normalizedQuote": "פתיח ת הבורס ה בלבו ב ב־ 1 בינוא ר 1867",
+      "modelQuote": "פתיחת\nהבורסה בלבוב ב־1 בינואר 1867",
+      "bbox": {
+        "left": 624,
+        "top": 2309,
+        "right": 1487,
+        "bottom": 2357
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n154/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "8ceaac52cf1fe15e7a4be81af8ee3afe3b01d0385314be62ff771265eb7fd6e0",
+      "normalizedPassageChecksum": "04bf2642079cd2edb5625bd91cafbadb5f19172326af1cc7d3e605c75fae7e3c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6b61b43f9217e80ecbc0376f",
+      "type": "Institution",
+      "title": "Lviv Stock Exchange",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,179 @@
+{
+  "id": "mention_0ab2300eee32788ea90e9b35",
+  "type": "Place",
+  "title": "Sokolniki",
+  "summary": "Town near Lviv where a large labor camp existed.",
+  "originalName": "סוקולניקי",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 315,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_11633b7cb595895ea3f67c9c",
+      "pageId": "page_nybc313875_0315",
+      "scanIndex": 315,
+      "leafNumber": 314,
+      "printedPage": null,
+      "passageCharStart": 585,
+      "passageCharEnd": 594,
+      "normalizedPassageCharStart": 585,
+      "normalizedPassageCharEnd": 594,
+      "pageCharStart": 1744,
+      "pageCharEnd": 1753,
+      "quote": "סוקולניקי",
+      "normalizedQuote": "סוקולניקי",
+      "modelQuote": "סוקולניקי",
+      "bbox": {
+        "left": 2655,
+        "top": 3195,
+        "right": 2846,
+        "bottom": 3251
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n314/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "3924f9dd6b9b240bb345cee56d2b724934d8b9764c5c3a35136def25c205cb34",
+      "normalizedPassageChecksum": "add7537b6667eb6744b920fd8642fc8ee24f54a412eb69988d3a57a866dce3e5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f4f573f5a4e3098520112cd3",
+      "type": "Organization Founding",
+      "title": "Organization of Sokolniki labor camp",
+      "summary": "The Sokolniki labor camp was organized in mid-July 1941.",
+      "dateStart": "1941-07",
+      "dateEnd": "1941-07",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_11633b7cb595895ea3f67c9c",
+        "pageId": "page_nybc313875_0315",
+        "scanIndex": 315,
+        "leafNumber": 314,
+        "printedPage": null,
+        "passageCharStart": 645,
+        "passageCharEnd": 678,
+        "normalizedPassageCharStart": 645,
+        "normalizedPassageCharEnd": 678,
+        "pageCharStart": 1804,
+        "pageCharEnd": 1837,
+        "quote": "המחנ ה התארג ן במחצי ת יול י 1941",
+        "normalizedQuote": "המחנ ה התארג ן במחצי ת יול י 1941",
+        "modelQuote": "המחנה התארגן במחצית יולי 1941",
+        "bbox": {
+          "left": 1930,
+          "top": 3280,
+          "right": 2693,
+          "bottom": 3333
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n314/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "3924f9dd6b9b240bb345cee56d2b724934d8b9764c5c3a35136def25c205cb34",
+        "normalizedPassageChecksum": "add7537b6667eb6744b920fd8642fc8ee24f54a412eb69988d3a57a866dce3e5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_d5a49f5b4d3199382ec04f08",
+      "type": "Employment",
+      "title": "Forced labor at Sokolniki camp",
+      "summary": "Jewish workers performed forced labor in marshes and ponds under harsh conditions.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e281d54dfc3daa9b0cfad2a6",
+        "pageId": "page_nybc313875_0315",
+        "scanIndex": 315,
+        "leafNumber": 314,
+        "printedPage": null,
+        "passageCharStart": 125,
+        "passageCharEnd": 150,
+        "normalizedPassageCharStart": 125,
+        "normalizedPassageCharEnd": 150,
+        "pageCharStart": 2080,
+        "pageCharEnd": 2105,
+        "quote": "הפועלי ם היהודי ם הוכרח ו",
+        "normalizedQuote": "הפועלי ם היהודי ם הוכרח ו",
+        "modelQuote": "הפועלים היהודים הוכרחו",
+        "bbox": {
+          "left": 464,
+          "top": 584,
+          "right": 1018,
+          "bottom": 631
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n314/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "336145da93264ae280882c637a423ac40f84c305c2b42a538e903104f9eaf44c",
+        "normalizedPassageChecksum": "8123a3c71ea72475aeff18f8bd6bf9290cee84947d4c95637aca0d6a3273798d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f4f573f5a4e3098520112cd3",
+      "type": "Event",
+      "title": "Organization of Sokolniki labor camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "event_candidate_d5a49f5b4d3199382ec04f08",
+      "type": "Event",
+      "title": "Forced labor at Sokolniki camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4aea7e28d688490f426dbba7",
+      "type": "Community",
+      "title": "Jewish Community of Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_137e91513e8866ac25b66593",
+      "type": "Place",
+      "title": "Harbutov Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0ca011ffdd90ce03ac8474b4",
+      "type": "Institution",
+      "title": "Harbutov labor camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_73b77f09753388c15dc4d467",
+      "type": "Institution",
+      "title": "Sokolniki labor camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8b3831b71e4d860eaabbacf2",
+      "type": "Organization",
+      "title": "German authorities",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7fec30b714ce268bc2462f30",
+      "type": "Person",
+      "title": "Katzmann",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_86bf3a071abd551f6edb0be5",
+      "type": "Organization",
+      "title": "General Government",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

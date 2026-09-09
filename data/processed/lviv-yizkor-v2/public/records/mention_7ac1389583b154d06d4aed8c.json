@@ -2,15 +2,14 @@
   "id": "mention_7ac1389583b154d06d4aed8c",
   "type": "Person",
   "title": "Stanisław Stadnicki",
-  "summary": "Member associated with the commission.",
+  "summary": "Member of the royal commission.",
   "originalName": "סטניסלב סטאדניצקי",
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 31,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "uncertaintyNote": "The OCR around the list of commission members is corrupted.",
   "evidenceRefs": [
     {
       "passageId": "passage_e2f22b760a32a7ea50230df9",
@@ -27,7 +26,12 @@
       "quote": "סטניסל ב\nסטאדניצק י",
       "normalizedQuote": "סטניסל ב\nסטאדניצק י",
       "modelQuote": "סטניסלב סטאדניצקי",
-      "bbox": null,
+      "bbox": {
+        "left": 701,
+        "top": 4267,
+        "right": 2365,
+        "bottom": 4467
+      },
       "scanUrl": "https://archive.org/details/nybc313875/page/n30/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
       "passageChecksum": "cf2d5215dd258dfbb34b6f84ea72003b8681c1f033dec612c149f83a45f03fc1",
@@ -38,95 +42,55 @@
     }
   ],
   "claims": [],
-  "events": [
-    {
-      "id": "event_candidate_5e2b4872304898d866a51a55",
-      "type": "Migration",
-      "title": "Commission members arrived in Lviv",
-      "summary": "Two commission members arrived in Lviv on 10 October 1603.",
-      "dateStart": "1603-10-10",
-      "confidence": "HIGH",
-      "uncertaintyNote": "The passage describes arrival, but the event is not clearly migration.",
-      "evidence": {
-        "passageId": "passage_e2f22b760a32a7ea50230df9",
-        "pageId": "page_nybc313875_0031",
-        "scanIndex": 31,
-        "leafNumber": 30,
-        "printedPage": null,
-        "passageCharStart": 438,
-        "passageCharEnd": 489,
-        "normalizedPassageCharStart": 438,
-        "normalizedPassageCharEnd": 489,
-        "pageCharStart": 2762,
-        "pageCharEnd": 2813,
-        "quote": "ב* 10 באוקטוב ר 1603 הגיע ו לבוב ה שנ י חבר י הועדה",
-        "normalizedQuote": "ב* 10 באוקטוב ר 1603 הגיע ו לבוב ה שנ י חבר י הועדה",
-        "modelQuote": "ב*10באוקטובר1603הגיעולבובהשניחבריהועדה",
-        "bbox": null,
-        "scanUrl": "https://archive.org/details/nybc313875/page/n30/mode/1up",
-        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
-        "passageChecksum": "cf2d5215dd258dfbb34b6f84ea72003b8681c1f033dec612c149f83a45f03fc1",
-        "normalizedPassageChecksum": "3b7f15ce64ea0a01c5767dba2960c33b07d045cc5a1bda58830424d216cad6e2",
-        "normalizationVersion": "ocr-layout-normalizer-v1",
-        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
-        "alignmentScore": 1
-      }
-    }
-  ],
+  "events": [],
   "connections": [
     {
-      "id": "event_candidate_5e2b4872304898d866a51a55",
+      "id": "event_candidate_83fddd3dfe14d572b28225f5",
       "type": "Event",
       "title": "Commission members arrived in Lviv",
       "relation": "Participated In",
       "role": "Participant"
     },
     {
-      "id": "mention_2004eaef83e87e674a804c8a",
+      "id": "mention_f5243bf4d2c94394a1fe277d",
       "type": "Person",
-      "title": "Jan Dymitr Solikowski",
+      "title": "Jan Dymitr Sulikowski",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_6654d5c56fc4dc142f809506",
+      "id": "mention_468d016007f5f8a376fc1450",
       "type": "Person",
       "title": "Jan Zamoyski",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_d0cd906227d2e8771bf9e28d",
+      "id": "mention_03f2af925e10cbbf5e9e5693",
       "type": "Person",
       "title": "Adam Stadnicki",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_21f7a3d625e80223d35d60a7",
+      "id": "mention_3c82bc085de31a0c604e691f",
+      "type": "Person",
+      "title": "Jan Świętosławski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c75f42429a60772558721cee",
       "type": "Person",
       "title": "Stanisław Żółkiewski",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ebb22c7aec6ccde0771de4df",
+      "id": "mention_5eca036ff3c58f1e8b879790",
       "type": "Place",
       "title": "Przemyśl",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_913da5f3c4f783d7d9d5b235",
-      "type": "Place",
-      "title": "Poznań",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_02f723f1a22975a97e0e1cb5",
-      "type": "Place",
-      "title": "Krakow",
-      "relation": "Appears in same passage"
-    },
-    {
-      "id": "mention_4aec002392d32802b8dd58a4",
+      "id": "mention_86a10c8f04af95215fa84918",
       "type": "Community",
-      "title": "Ruthenian lands",
+      "title": "Ruthenian region",
       "relation": "Appears in same passage"
     }
   ],

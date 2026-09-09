@@ -1,0 +1,114 @@
+{
+  "id": "mention_178bb4939a68d03e19259605",
+  "type": "Place",
+  "title": "Lviv Jewish residential area",
+  "summary": "After ghetto liquidation, the former Jewish residential area became a wasteland of ruins.",
+  "originalName": "שטח מגורי היהודים",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 351,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "urban area",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cc33e0f4779d964cc629df74",
+      "pageId": "page_nybc313875_0351",
+      "scanIndex": 351,
+      "leafNumber": 350,
+      "printedPage": null,
+      "passageCharStart": 76,
+      "passageCharEnd": 108,
+      "normalizedPassageCharStart": 76,
+      "normalizedPassageCharEnd": 108,
+      "pageCharStart": 76,
+      "pageCharEnd": 108,
+      "quote": "שט ח מגור י היהודי ם\nלמדב ר שממה",
+      "normalizedQuote": "שט ח מגור י היהודי ם\nלמדב ר שממה",
+      "modelQuote": "שטח מגורי היהודים\nלמדבר שממה",
+      "bbox": {
+        "left": 1740,
+        "top": 841,
+        "right": 2853,
+        "bottom": 964
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n350/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "2872dbf089e04592422d658cd13bb4efaea0548ce2a3b4571153d4d325b72367",
+      "normalizedPassageChecksum": "481b892a82d1dfcafe48c2bce8c790730f26004d13e4a2eb60b2a8e5bd9d3141",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_e896be0344006745d7cf3b65",
+      "predicate": "Lived At",
+      "subjectTitle": "Jews hiding in Lviv",
+      "objectTitle": "Lviv Jewish residential area",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "status": "illegal"
+      },
+      "evidence": {
+        "passageId": "passage_cc33e0f4779d964cc629df74",
+        "pageId": "page_nybc313875_0351",
+        "scanIndex": 351,
+        "leafNumber": 350,
+        "printedPage": null,
+        "passageCharStart": 459,
+        "passageCharEnd": 516,
+        "normalizedPassageCharStart": 459,
+        "normalizedPassageCharEnd": 516,
+        "pageCharStart": 459,
+        "pageCharEnd": 516,
+        "quote": "בלבו ב התגורר ו עו ד באופ ן בלתי־חוק י כמ ה אלפ י\nיהודי ם",
+        "normalizedQuote": "בלבו ב התגורר ו עו ד באופ ן בלתי־חוק י כמ ה אלפ י\nיהודי ם",
+        "modelQuote": "בלבוב התגוררו עוד באופן בלתי־חוקי כמה אלפי יהודים",
+        "bbox": {
+          "left": 1734,
+          "top": 1516,
+          "right": 2851,
+          "bottom": 1645
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n350/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "2872dbf089e04592422d658cd13bb4efaea0548ce2a3b4571153d4d325b72367",
+        "normalizedPassageChecksum": "481b892a82d1dfcafe48c2bce8c790730f26004d13e4a2eb60b2a8e5bd9d3141",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b290a2936d43b9cc0b2d6c41",
+      "type": "Community",
+      "title": "Jews hiding in Lviv",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_7f49fd100f5c8f4711b1ef69",
+      "type": "Community",
+      "title": "Jews remaining in Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b290a2936d43b9cc0b2d6c41",
+      "type": "Community",
+      "title": "Jews hiding in Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ae6aad047673d6259adfbf9",
+      "type": "Community",
+      "title": "Christian families",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

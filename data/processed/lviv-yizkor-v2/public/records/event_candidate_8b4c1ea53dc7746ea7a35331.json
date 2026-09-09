@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_8b4c1ea53dc7746ea7a35331",
+  "type": "Event",
+  "title": "Synagogue burnings in Lviv",
+  "summary": "German authorities systematically burned synagogues in Lviv.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 306,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Fire",
+  "dateEnd": "1942-06-30",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3c3a9e70e5dd35a78d852044",
+      "pageId": "page_nybc313875_0306",
+      "scanIndex": 306,
+      "leafNumber": 305,
+      "printedPage": null,
+      "passageCharStart": 750,
+      "passageCharEnd": 797,
+      "normalizedPassageCharStart": 750,
+      "normalizedPassageCharEnd": 797,
+      "pageCharStart": 3394,
+      "pageCharEnd": 3441,
+      "quote": "באופ ן שיטת י התחיל ו הגרמני ם\nלהבעי ר בתי־כנסת",
+      "normalizedQuote": "באופ ן שיטת י התחיל ו הגרמני ם\nלהבעי ר בתי־כנסת",
+      "modelQuote": "באופן שיטתי התחילו הגרמנים\nלהבעיר בתי־כנסת",
+      "bbox": {
+        "left": 447,
+        "top": 3405,
+        "right": 1565,
+        "bottom": 3535
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n305/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "2f8988655f58498f9f4d24fd483b1bd7ad0de3c6cd854e74345c467b5ac58d2e",
+      "normalizedPassageChecksum": "e87794a51c217ddf103f3f13fa499548b5f2efdcfebb77cca7fcb5e9cc5b7793",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_846376a02d0abef00e779f76",
+      "type": "Organization",
+      "title": "Nazi Germany",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_e3452c026fba608fff3bd764",
+      "type": "Institution",
+      "title": "Old Turei Zahav Synagogue",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_ee4b6879641e78e67f1ff668",
+      "type": "Institution",
+      "title": "Temple synagogue",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

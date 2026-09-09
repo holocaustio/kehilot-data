@@ -1,0 +1,112 @@
+{
+  "id": "mention_eb44901dfbbd00f9af1a92b6",
+  "type": "Organization",
+  "title": "German and Ukrainian police groups",
+  "summary": "Small groups that entered Jewish homes and took hostages.",
+  "originalName": "שוטר •ם גרמנים ואוקראינים",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 306,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fba3f9026132cee444034f80",
+      "pageId": "page_nybc313875_0306",
+      "scanIndex": 306,
+      "leafNumber": 305,
+      "printedPage": null,
+      "passageCharStart": 625,
+      "passageCharEnd": 679,
+      "normalizedPassageCharStart": 625,
+      "normalizedPassageCharEnd": 679,
+      "pageCharStart": 1999,
+      "pageCharEnd": 2053,
+      "quote": "נכנס ו קבוצו ת קטנו ת ש ל שוטר • ם גרמני ם ואוקראיני ם",
+      "normalizedQuote": "נכנס ו קבוצו ת קטנו ת ש ל שוטר • ם גרמני ם ואוקראיני ם",
+      "modelQuote": "נכנסו קבוצות קטנות של שוטר •ם גרמנים ואוקראינים",
+      "bbox": {
+        "left": 466,
+        "top": 1052,
+        "right": 1578,
+        "bottom": 1108
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n305/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "6c884756f61f0447649041ad772ccbffb645749e409fe728de28c84657fee7e3",
+      "normalizedPassageChecksum": "8e75e965f2f95deaa6007d33393bc5c71d24f9e42658ea7e0926cc2caf1dfdfd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_19ef7af3d8c6dc050553ce0e",
+      "type": "Arrest",
+      "title": "Arrests of Jewish hostages",
+      "summary": "German and Ukrainian police arrested more than one thousand Jews as hostages.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_fba3f9026132cee444034f80",
+        "pageId": "page_nybc313875_0306",
+        "scanIndex": 306,
+        "leafNumber": 305,
+        "printedPage": null,
+        "passageCharStart": 916,
+        "passageCharEnd": 950,
+        "normalizedPassageCharStart": 916,
+        "normalizedPassageCharEnd": 950,
+        "pageCharStart": 2290,
+        "pageCharEnd": 2324,
+        "quote": "בדר ך ז ו נעצר ו למעל ה מאל ף אי ש",
+        "normalizedQuote": "בדר ך ז ו נעצר ו למעל ה מאל ף אי ש",
+        "modelQuote": "בדרך זו נעצרו למעלה מאלף איש",
+        "bbox": {
+          "left": 462,
+          "top": 1471,
+          "right": 1174,
+          "bottom": 1525
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n305/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "6c884756f61f0447649041ad772ccbffb645749e409fe728de28c84657fee7e3",
+        "normalizedPassageChecksum": "8e75e965f2f95deaa6007d33393bc5c71d24f9e42658ea7e0926cc2caf1dfdfd",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_19ef7af3d8c6dc050553ce0e",
+      "type": "Event",
+      "title": "Arrests of Jewish hostages",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_e2e0c5ec2da751dd5a16a6aa",
+      "type": "Organization",
+      "title": "Civil committees",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3354069b6768ae091e6def3",
+      "type": "Community",
+      "title": "Jews",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_887b56496040967478aaa419",
+      "type": "Community",
+      "title": "Christian Poles",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

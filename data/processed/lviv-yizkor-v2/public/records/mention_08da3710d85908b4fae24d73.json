@@ -1,17 +1,16 @@
 {
   "id": "mention_08da3710d85908b4fae24d73",
   "type": "Person",
-  "title": "Rabbi Tzvi",
-  "summary": "Father of Isaac Landa’s father, according to the passage.",
+  "title": "Tzvi",
+  "summary": "Rabbi identified as Yitzhak Landau’s father.",
   "originalName": "ר׳ צבי",
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
   "scanIndex": 82,
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
   "subtype": "rabbi",
-  "uncertaintyNote": "The exact genealogical relation is unclear in the OCR.",
   "evidenceRefs": [
     {
       "passageId": "passage_9151ca997c574969bfd2ebf7",
@@ -28,7 +27,12 @@
       "quote": "אבי ו\nר ׳ צבי",
       "normalizedQuote": "אבי ו\nר ׳ צבי",
       "modelQuote": "אביו ר׳ צבי",
-      "bbox": null,
+      "bbox": {
+        "left": 1714,
+        "top": 3765,
+        "right": 2837,
+        "bottom": 3885
+      },
       "scanUrl": "https://archive.org/details/nybc313875/page/n81/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
       "passageChecksum": "e553fdfde492ac76ebac8f419571b6bebf8c835bc26e369824b285fe452e4261",
@@ -38,9 +42,52 @@
       "alignmentScore": 1
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "id": "claim_candidate_c3556207920411061623427b",
+      "predicate": "Child Of",
+      "subjectTitle": "Yitzhak ben Tzvi Landau",
+      "objectTitle": "Tzvi",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9151ca997c574969bfd2ebf7",
+        "pageId": "page_nybc313875_0082",
+        "scanIndex": 82,
+        "leafNumber": 81,
+        "printedPage": null,
+        "passageCharStart": 739,
+        "passageCharEnd": 752,
+        "normalizedPassageCharStart": 739,
+        "normalizedPassageCharEnd": 752,
+        "pageCharStart": 2029,
+        "pageCharEnd": 2042,
+        "quote": "אבי ו\nר ׳ צבי",
+        "normalizedQuote": "אבי ו\nר ׳ צבי",
+        "modelQuote": "אביו ר׳ צבי",
+        "bbox": {
+          "left": 1714,
+          "top": 3765,
+          "right": 2837,
+          "bottom": 3885
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n81/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "e553fdfde492ac76ebac8f419571b6bebf8c835bc26e369824b285fe452e4261",
+        "normalizedPassageChecksum": "8eb77e0dd7a0a0cac04a7ef6042dd5d776fcbbd3ec843f356a5327d7f496034e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "events": [],
   "connections": [
+    {
+      "id": "mention_5759c0eeef71aa551aa829d0",
+      "type": "Person",
+      "title": "Yitzhak ben Tzvi Landau",
+      "relation": "Child Of"
+    },
     {
       "id": "mention_2eb9b5c1f533c251cce0d66d",
       "type": "Person",
@@ -48,7 +95,7 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_555bc2c650dae4838615c6e8",
+      "id": "mention_640fc3e427e91c25417dd0ba",
       "type": "Person",
       "title": "Aryeh Leib ben Shaul",
       "relation": "Appears in same passage"
@@ -56,7 +103,7 @@
     {
       "id": "mention_1acb3b23ee3bf43e3666d6b8",
       "type": "Person",
-      "title": "King Augustus III",
+      "title": "King August III",
       "relation": "Appears in same passage"
     },
     {
@@ -66,21 +113,33 @@
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_f2bdec935e8acbe9986b098b",
+      "id": "mention_5759c0eeef71aa551aa829d0",
       "type": "Person",
-      "title": "Isaac ben Tzvi Landa",
+      "title": "Yitzhak ben Tzvi Landau",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_ea14ecfd78a2cb772cf09145",
-      "type": "Community",
+      "id": "mention_38187bad5643be9f526d7d8a",
+      "type": "Person",
+      "title": "Emanuel di Yona",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_42ce05ebb4cf9eab20af1cd0",
+      "type": "Place",
+      "title": "Austopov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e5d1a4bb07b2b166f65bbc6d",
+      "type": "Place",
       "title": "Zolkiew",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_bace7c6bd2959221f5a510a6",
-      "type": "Person",
-      "title": "Dr. Emmanuel di Yona",
+      "id": "mention_bfbe030f027772fd4978e8af",
+      "type": "Place",
+      "title": "Glogau",
       "relation": "Appears in same passage"
     }
   ],

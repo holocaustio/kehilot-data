@@ -2,7 +2,7 @@
   "id": "mention_bb16a5d5dc2e2143ae15c818",
   "type": "Person",
   "title": "Prince Metternich",
-  "summary": "Metternich wrote about Galicia’s natural wealth and transportation problems in 1823.",
+  "summary": "He stayed in Lviv in 1823 and described Galicia's economic conditions.",
   "originalName": "הנסיך מטרניך",
   "confidence": "HIGH",
   "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
@@ -10,7 +10,7 @@
   "printedPage": null,
   "reviewStatus": "SOURCE_LINKED_EXTRACTION",
   "kind": "mention",
-  "subtype": "Statesman",
+  "subtype": "Prince",
   "evidenceRefs": [
     {
       "passageId": "passage_c355c328fd6841ca475bc9c5",
@@ -27,7 +27,12 @@
       "quote": "הנסי ך\nמטרניך",
       "normalizedQuote": "הנסי ך\nמטרניך",
       "modelQuote": "הנסיך מטרניך",
-      "bbox": null,
+      "bbox": {
+        "left": 1721,
+        "top": 3534,
+        "right": 2840,
+        "bottom": 3656
+      },
       "scanUrl": "https://archive.org/details/nybc313875/page/n105/mode/1up",
       "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
       "passageChecksum": "a851b8e908cf8a940fa6eea2161f26a72a38f5835fd96c1d61f7d2c5ad8db34f",
@@ -35,27 +40,216 @@
       "normalizationVersion": "ocr-layout-normalizer-v1",
       "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
       "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_69703f996b25336aadc57fe2",
+      "pageId": "page_nybc313875_0116",
+      "scanIndex": 116,
+      "leafNumber": 115,
+      "printedPage": null,
+      "passageCharStart": 569,
+      "passageCharEnd": 592,
+      "normalizedPassageCharStart": 569,
+      "normalizedPassageCharEnd": 592,
+      "pageCharStart": 569,
+      "pageCharEnd": 592,
+      "quote": "הקאנצל ר הנסי ך מטרני ך",
+      "normalizedQuote": "הקאנצל ר הנסי ך מטרני ך",
+      "modelQuote": "הקאנצלר הנסיך מטרניך",
+      "bbox": {
+        "left": 1715,
+        "top": 1253,
+        "right": 2220,
+        "bottom": 1308
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n115/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "b42d661010f10eb210ea9f9468d71e2e60999319fcf48de8a984514fcf8f9019",
+      "normalizedPassageChecksum": "c8d4ab9064f62ffa7319be8cbd0f80336dafaf1b3eff062de93e6a49ea013711",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
     }
   ],
-  "claims": [],
-  "events": [],
+  "claims": [
+    {
+      "id": "claim_candidate_e4bc9792ae819fb36e6e49a8",
+      "predicate": "Lived At",
+      "subjectTitle": "Prince Metternich",
+      "objectTitle": "Lviv",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "date": "1823",
+        "duration": "ממושך"
+      },
+      "evidence": {
+        "passageId": "passage_c355c328fd6841ca475bc9c5",
+        "pageId": "page_nybc313875_0106",
+        "scanIndex": 106,
+        "leafNumber": 105,
+        "printedPage": null,
+        "passageCharStart": 401,
+        "passageCharEnd": 436,
+        "normalizedPassageCharStart": 401,
+        "normalizedPassageCharEnd": 436,
+        "pageCharStart": 1754,
+        "pageCharEnd": 1789,
+        "quote": "שהי ה זמ ן ממוש ך בלבו ב בשנ ת 1823",
+        "normalizedQuote": "שהי ה זמ ן ממוש ך בלבו ב בשנ ת 1823",
+        "modelQuote": "שהיה זמן ממושך בלבוב בשנת 1823",
+        "bbox": {
+          "left": 1854,
+          "top": 3605,
+          "right": 2646,
+          "bottom": 3658
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n105/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a851b8e908cf8a940fa6eea2161f26a72a38f5835fd96c1d61f7d2c5ad8db34f",
+        "normalizedPassageChecksum": "486fd40b8220835cf8377cce32c13ee07bb13663fa917d36b7fa900a01b14a98",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_24b44c85a673c95c2e08b803",
+      "type": "Migration",
+      "title": "Prince Metternich stayed in Lviv",
+      "summary": "Prince Metternich stayed in Lviv for an extended period in 1823 because of sudden illness.",
+      "dateStart": "1823",
+      "dateEnd": "1823",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage states an extended stay, but not migration; the event type is only an approximate schema fit.",
+      "evidence": {
+        "passageId": "passage_c355c328fd6841ca475bc9c5",
+        "pageId": "page_nybc313875_0106",
+        "scanIndex": 106,
+        "leafNumber": 105,
+        "printedPage": null,
+        "passageCharStart": 401,
+        "passageCharEnd": 458,
+        "normalizedPassageCharStart": 401,
+        "normalizedPassageCharEnd": 458,
+        "pageCharStart": 1754,
+        "pageCharEnd": 1811,
+        "quote": "שהי ה זמ ן ממוש ך בלבו ב בשנ ת 1823 בגל ל\nמחלת ו הפתאומית",
+        "normalizedQuote": "שהי ה זמ ן ממוש ך בלבו ב בשנ ת 1823 בגל ל\nמחלת ו הפתאומית",
+        "modelQuote": "שהיה זמן ממושך בלבוב בשנת 1823 בגלל מחלתו הפתאומית",
+        "bbox": {
+          "left": 1720,
+          "top": 3605,
+          "right": 2840,
+          "bottom": 3734
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n105/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "a851b8e908cf8a940fa6eea2161f26a72a38f5835fd96c1d61f7d2c5ad8db34f",
+        "normalizedPassageChecksum": "486fd40b8220835cf8377cce32c13ee07bb13663fa917d36b7fa900a01b14a98",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
   "connections": [
     {
-      "id": "mention_14d65ca16fc8565199af0187",
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Lived At"
+    },
+    {
+      "id": "event_candidate_24b44c85a673c95c2e08b803",
+      "type": "Event",
+      "title": "Prince Metternich stayed in Lviv",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_96ef2059d71fbe0765522026",
+      "type": "Community",
+      "title": "Jews of Galicia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d459d8c261b24c41b2ca4764",
       "type": "Place",
       "title": "Galicia",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_88ae0af60983559d43031f79",
+      "id": "mention_5e3ca9a7d5514ed2d29a0cef",
       "type": "Place",
       "title": "Vienna",
       "relation": "Appears in same passage"
     },
     {
-      "id": "mention_9deb5a056056ac6a7521b087",
+      "id": "mention_06768e6a7932f878168ee630",
+      "type": "Place",
+      "title": "Danzig",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3ff91fb728f1f72d7398fd00",
       "type": "Person",
-      "title": "Prince Lubkovich",
+      "title": "Prince Lubkowicz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e41c00d724c0d3307e3912af",
+      "type": "Person",
+      "title": "Jacob Rappaport",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4751ad045bc85f2575708b5e",
+      "type": "Person",
+      "title": "D. Epstein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0c9e3f3f1815729fffba1429",
+      "type": "Person",
+      "title": "Nathan Kalischer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a61b3709d143e584c73649fd",
+      "type": "Person",
+      "title": "Dr. Kalischer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_64bf9301cb32e452c3372897",
+      "type": "Person",
+      "title": "Hirsch Ettinger",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8bd5262ce9f5dc71796df18c",
+      "type": "Person",
+      "title": "Markus Margoliot",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0ad0fa7a2d32c1e5bbf7e291",
+      "type": "Person",
+      "title": "Emperor Franz I",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_459acc82de430780207b9994",
+      "type": "Person",
+      "title": "Prince Lubomirski",
       "relation": "Appears in same passage"
     }
   ],

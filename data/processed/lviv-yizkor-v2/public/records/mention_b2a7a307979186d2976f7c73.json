@@ -1,0 +1,166 @@
+{
+  "id": "mention_b2a7a307979186d2976f7c73",
+  "type": "Community",
+  "title": "Jewish population of Lviv",
+  "summary": "Lviv’s Jewish population changed as individuals arrived from newly incorporated territories.",
+  "originalName": "האוכלוסייה הייודית",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 101,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish population",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5af334e672aba7197941eff8",
+      "pageId": "page_nybc313875_0101",
+      "scanIndex": 101,
+      "leafNumber": 100,
+      "printedPage": null,
+      "passageCharStart": 50,
+      "passageCharEnd": 77,
+      "normalizedPassageCharStart": 50,
+      "normalizedPassageCharEnd": 77,
+      "pageCharStart": 3536,
+      "pageCharEnd": 3563,
+      "quote": "בהרכ ב האוכלוסיי ה הייודי ת",
+      "normalizedQuote": "בהרכ ב האוכלוסיי ה הייודי ת",
+      "modelQuote": "בהרכב האוכלוסייה הייודית",
+      "bbox": {
+        "left": 995,
+        "top": 3522,
+        "right": 1578,
+        "bottom": 3569
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n100/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "efa7d2b7a0920959b2548d518e52567960d0cef982dcc62acce7a38830ab6a1e",
+      "normalizedPassageChecksum": "b7198cc84ee2baacdcf2eda763453aaa02109d9d9e4f64bd1f3e45badfcd82a5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_d8681a63c2b11cc09b320202",
+      "pageId": "page_nybc313875_0102",
+      "scanIndex": 102,
+      "leafNumber": 101,
+      "printedPage": null,
+      "passageCharStart": 389,
+      "passageCharEnd": 434,
+      "normalizedPassageCharStart": 389,
+      "normalizedPassageCharEnd": 434,
+      "pageCharStart": 1732,
+      "pageCharEnd": 1777,
+      "quote": "הי ו 14.371 יהודי ם בי ן 43.614 תושבי ם\nבלבוב",
+      "normalizedQuote": "הי ו 14.371 יהודי ם בי ן 43.614 תושבי ם\nבלבוב",
+      "modelQuote": "היו 14.371 יהודים בין 43.614 תושבים בלבוב",
+      "bbox": {
+        "left": 1730,
+        "top": 3691,
+        "right": 2851,
+        "bottom": 3812
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n101/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "7637c2669840c4e0e1f2e218afdaea0aa6dfe493bb63b1f33f9d3826f65ec7bc",
+      "normalizedPassageChecksum": "4183a397ed4b79a80bff8bc608c3aa10385fd63a6fb3fc0d06986c302bed3e15",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_52c07da9b97d915435aedd50",
+      "type": "Migration",
+      "title": "Migration to Lviv",
+      "summary": "Individuals and young people arrived in Lviv from newly incorporated territories seeking better opportunities.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage describes migration generally, without naming individual migrants.",
+      "evidence": {
+        "passageId": "passage_5af334e672aba7197941eff8",
+        "pageId": "page_nybc313875_0101",
+        "scanIndex": 101,
+        "leafNumber": 100,
+        "printedPage": null,
+        "passageCharStart": 94,
+        "passageCharEnd": 121,
+        "normalizedPassageCharStart": 94,
+        "normalizedPassageCharEnd": 121,
+        "pageCharStart": 3580,
+        "pageCharEnd": 3607,
+        "quote": "יחידי ם\nמ ן השטחי ם החדשי ם",
+        "normalizedQuote": "יחידי ם\nמ ן השטחי ם החדשי ם",
+        "modelQuote": "יחידים\nמן השטחים החדשים",
+        "bbox": {
+          "left": 463,
+          "top": 3534,
+          "right": 1577,
+          "bottom": 3659
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n100/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "efa7d2b7a0920959b2548d518e52567960d0cef982dcc62acce7a38830ab6a1e",
+        "normalizedPassageChecksum": "b7198cc84ee2baacdcf2eda763453aaa02109d9d9e4f64bd1f3e45badfcd82a5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_52c07da9b97d915435aedd50",
+      "type": "Event",
+      "title": "Migration to Lviv",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_13c288289ae43386483701e4",
+      "type": "Place",
+      "title": "Lviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d459d8c261b24c41b2ca4764",
+      "type": "Place",
+      "title": "Galicia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff078c16fe314afc974e8200",
+      "type": "Place",
+      "title": "Brody",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8813b17d1cee4f4fb634d289",
+      "type": "Place",
+      "title": "Halych",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7d6fdabe6b433006c3ccd7fd",
+      "type": "Place",
+      "title": "Krakow suburb",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2a76dc0bc8cabba03bb04021",
+      "type": "Institution",
+      "title": "Jewish schools",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3b87071b798f05f7045c2095",
+      "type": "Place",
+      "title": "Lviv district",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

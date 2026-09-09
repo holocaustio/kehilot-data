@@ -1,0 +1,101 @@
+{
+  "id": "mention_b10ef5f3b4ae19ccd2a20a0a",
+  "type": "Institution",
+  "title": "Suburban Synagogue",
+  "summary": "Community center located near several streets and the city walls.",
+  "originalName": "בית־הכנסת מחוץ־לעיר (די פארשטעטישע שוהל)",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 260,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "synagogue",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_85f5246873c4dcb8354adf44",
+      "pageId": "page_nybc313875_0260",
+      "scanIndex": 260,
+      "leafNumber": 259,
+      "printedPage": null,
+      "passageCharStart": 256,
+      "passageCharEnd": 326,
+      "normalizedPassageCharStart": 256,
+      "normalizedPassageCharEnd": 326,
+      "pageCharStart": 3660,
+      "pageCharEnd": 3730,
+      "quote": "מרכז ה ש ל הקהל ה הי ה בית־הכנס ת מחוץ ־\nלעי ר (ד י פארשטעטיש ע שוהל )",
+      "normalizedQuote": "מרכז ה ש ל הקהל ה הי ה בית־הכנס ת מחוץ ־\nלעי ר (ד י פארשטעטיש ע שוהל )",
+      "modelQuote": "מרכזה של הקהלה היה בית־הכנסת מחוץ־לעיר (די פארשטעטישע שוהל)",
+      "bbox": {
+        "left": 449,
+        "top": 3258,
+        "right": 1567,
+        "bottom": 3395
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n259/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "98bffa21a757f2182d7883b7cb1f0419f79d04dddc93baf8c6f818b309665a84",
+      "normalizedPassageChecksum": "d9cbd7b7f423300d3acc1daab78536b2fb39f55d58a49c041ab16397905c278a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_671fa4f56c112904e651f3e1",
+      "type": "Fire",
+      "title": "Great fire of 1623",
+      "summary": "A fire destroyed the synagogue and 1,200 houses, including all Jewish homes.",
+      "dateStart": "1623",
+      "dateEnd": "1623",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_008c5e9736f9a29d72131299",
+        "pageId": "page_nybc313875_0261",
+        "scanIndex": 261,
+        "leafNumber": 260,
+        "printedPage": null,
+        "passageCharStart": 64,
+        "passageCharEnd": 115,
+        "normalizedPassageCharStart": 64,
+        "normalizedPassageCharEnd": 115,
+        "pageCharStart": 64,
+        "pageCharEnd": 115,
+        "quote": "אחר י השריפ ה\nהגדול ה שפרצ ה בשב ת 1623 בבית־הכנס ת",
+        "normalizedQuote": "אחר י השריפ ה\nהגדול ה שפרצ ה בשב ת 1623 בבית־הכנס ת",
+        "modelQuote": "אחרי השריפה\nהגדולה שפרצה בשבת 1623 בבית־הכנסת",
+        "bbox": {
+          "left": 1736,
+          "top": 461,
+          "right": 2845,
+          "bottom": 577
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n260/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "60bbed39aba4e7fafb45c224a8835b4f6dd6913c647418324b7f44fe3a89c7f9",
+        "normalizedPassageChecksum": "6be9f84022f085928482fea16087f69bb903fc37165b2b74cd07227f7dbd976b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_671fa4f56c112904e651f3e1",
+      "type": "Event",
+      "title": "Great fire of 1623",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_e77ef25d7507fc6d65168fe6",
+      "type": "Family",
+      "title": "Unidentified Jewish family",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

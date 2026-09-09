@@ -1,0 +1,95 @@
+{
+  "id": "mention_056b7d6dfe4e84f91620d634",
+  "type": "Institution",
+  "title": "New Hospital",
+  "summary": "Hospital built with Lazarus’s funding and expanded in 1902.",
+  "originalName": "בית־החולים החדש",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 165,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "hospital",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d0b2941c38661e9fe6caa32d",
+      "pageId": "page_nybc313875_0165",
+      "scanIndex": 165,
+      "leafNumber": 164,
+      "printedPage": null,
+      "passageCharStart": 64,
+      "passageCharEnd": 80,
+      "normalizedPassageCharStart": 64,
+      "normalizedPassageCharEnd": 80,
+      "pageCharStart": 3999,
+      "pageCharEnd": 4015,
+      "quote": "בית־החולי ם החדש",
+      "normalizedQuote": "בית־החולי ם החדש",
+      "modelQuote": "בית־החולים החדש",
+      "bbox": {
+        "left": 1016,
+        "top": 3651,
+        "right": 1408,
+        "bottom": 3701
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n164/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "db754e6f0cb7de94bc0d570207c512c446b1154fcc9a8747a71cf3b7a6c1c9d7",
+      "normalizedPassageChecksum": "737050fc51dd4acceaef8cb053255db77787ea42def64cf61c0eb9ad56709b60",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d44d788a035aa02261d94cb2",
+      "type": "Business Opening",
+      "title": "Hospital expansion",
+      "summary": "The hospital was expanded and enlarged in 1902 at Lazarus’s expense.",
+      "dateStart": "1902",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_d0b2941c38661e9fe6caa32d",
+        "pageId": "page_nybc313875_0165",
+        "scanIndex": 165,
+        "leafNumber": 164,
+        "printedPage": null,
+        "passageCharStart": 100,
+        "passageCharEnd": 139,
+        "normalizedPassageCharStart": 100,
+        "normalizedPassageCharEnd": 139,
+        "pageCharStart": 4035,
+        "pageCharEnd": 4074,
+        "quote": "בית ־\nהחולי ם הורח ב והוגד ל בשנ ת 1902",
+        "normalizedQuote": "בית ־\nהחולי ם הורח ב והוגד ל בשנ ת 1902",
+        "modelQuote": "בית־\nהחולים הורחב והוגדל בשנת 1902",
+        "bbox": {
+          "left": 439,
+          "top": 3658,
+          "right": 1560,
+          "bottom": 3785
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n164/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "db754e6f0cb7de94bc0d570207c512c446b1154fcc9a8747a71cf3b7a6c1c9d7",
+        "normalizedPassageChecksum": "737050fc51dd4acceaef8cb053255db77787ea42def64cf61c0eb9ad56709b60",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d44d788a035aa02261d94cb2",
+      "type": "Event",
+      "title": "Hospital expansion",
+      "relation": "Participated In",
+      "role": "Participant"
+    }
+  ],
+  "publicationEligible": false
+}

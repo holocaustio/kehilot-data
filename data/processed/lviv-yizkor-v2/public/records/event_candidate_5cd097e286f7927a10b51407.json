@@ -1,0 +1,72 @@
+{
+  "id": "event_candidate_5cd097e286f7927a10b51407",
+  "type": "Event",
+  "title": "Murder of Nachmanovich",
+  "summary": "Nachmanovich was killed and robbed by his coachman Jan and servant Abraham in 1607.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 51,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "dateStart": "1607",
+  "dateEnd": "1607",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_64858ea8f89f9aa4dd3ab99c",
+      "pageId": "page_nybc313875_0051",
+      "scanIndex": 51,
+      "leafNumber": 50,
+      "printedPage": null,
+      "passageCharStart": 453,
+      "passageCharEnd": 485,
+      "normalizedPassageCharStart": 453,
+      "normalizedPassageCharEnd": 485,
+      "pageCharStart": 453,
+      "pageCharEnd": 485,
+      "quote": "בשנ ת 1607 התנפל ו עלי ו העגלו ן",
+      "normalizedQuote": "בשנ ת 1607 התנפל ו עלי ו העגלו ן",
+      "modelQuote": "בשנת 1607 התנפלו עליו העגלון",
+      "bbox": {
+        "left": 1728,
+        "top": 1098,
+        "right": 2428,
+        "bottom": 1153
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n50/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "2fe995ca64413ee376f2f9e4e76d4049b4ad27d9afa120e4886c03d38f3ba67d",
+      "normalizedPassageChecksum": "612902101e51576df35d16c75a2ab004b8c6042579469ea297282e2435960168",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_d3261ce6440ebd56137855c1",
+      "type": "Person",
+      "title": "Nachmanovich",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_1aba0c3162edfbafb95682e5",
+      "type": "Person",
+      "title": "Jan",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_1dee2608b85f81b9e0f69ad6",
+      "type": "Person",
+      "title": "Abraham",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

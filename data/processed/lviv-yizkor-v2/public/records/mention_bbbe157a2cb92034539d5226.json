@@ -1,0 +1,120 @@
+{
+  "id": "mention_bbbe157a2cb92034539d5226",
+  "type": "Person",
+  "title": "Emperor Ferdinand",
+  "summary": "Emperor who approved the Court Chamber's position on retaining the candle tax.",
+  "originalName": "הקיסר פרדיננד",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 119,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "emperor",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_31d187cc1c3ff70ce7b3259b",
+      "pageId": "page_nybc313875_0119",
+      "scanIndex": 119,
+      "leafNumber": 118,
+      "printedPage": null,
+      "passageCharStart": 435,
+      "passageCharEnd": 450,
+      "normalizedPassageCharStart": 435,
+      "normalizedPassageCharEnd": 450,
+      "pageCharStart": 1634,
+      "pageCharEnd": 1649,
+      "quote": "הקיס ר פרדיננ ד",
+      "normalizedQuote": "הקיס ר פרדיננ ד",
+      "modelQuote": "הקיסר פרדיננד",
+      "bbox": {
+        "left": 1807,
+        "top": 3101,
+        "right": 2140,
+        "bottom": 3144
+      },
+      "scanUrl": "https://archive.org/details/nybc313875/page/n118/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+      "passageChecksum": "72a43645609ecff96528a79b813a653c2461accb714296376a138ca42aa523b7",
+      "normalizedPassageChecksum": "ac97b6e0e38f1681b6c2a59fb07c8838f1f287c7448d706975537c7ee8296c10",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_afb976ef47a9cece0c53fb38",
+      "type": "Migration",
+      "title": "Imperial approval of candle-tax decision",
+      "summary": "Emperor Ferdinand approved the Court Chamber's demand to retain the candle tax until replacement revenue was found.",
+      "dateStart": "1843-05-19",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The controlled event types do not include governmental approval; this is represented only as a candidate event.",
+      "evidence": {
+        "passageId": "passage_31d187cc1c3ff70ce7b3259b",
+        "pageId": "page_nybc313875_0119",
+        "scanIndex": 119,
+        "leafNumber": 118,
+        "printedPage": null,
+        "passageCharStart": 413,
+        "passageCharEnd": 462,
+        "normalizedPassageCharStart": 413,
+        "normalizedPassageCharEnd": 462,
+        "pageCharStart": 1612,
+        "pageCharEnd": 1661,
+        "quote": "ב״ 19 במא י 1843 נת ן הקיס ר פרדיננ ד א ת\nהסכמת ו",
+        "normalizedQuote": "ב״ 19 במא י 1843 נת ן הקיס ר פרדיננ ד א ת\nהסכמת ו",
+        "modelQuote": "ב״19 במאי 1843 נתן הקיסר פרדיננד את הסכמתו",
+        "bbox": {
+          "left": 1703,
+          "top": 3099,
+          "right": 2820,
+          "bottom": 3221
+        },
+        "scanUrl": "https://archive.org/details/nybc313875/page/n118/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313875/nybc313875.pdf",
+        "passageChecksum": "72a43645609ecff96528a79b813a653c2461accb714296376a138ca42aa523b7",
+        "normalizedPassageChecksum": "ac97b6e0e38f1681b6c2a59fb07c8838f1f287c7448d706975537c7ee8296c10",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_afb976ef47a9cece0c53fb38",
+      "type": "Event",
+      "title": "Imperial approval of candle-tax decision",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_f31ce6be54f96a27e2de1f1e",
+      "type": "Person",
+      "title": "Dr. Blumenfeld",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_188142beea7811bf7657ebcd",
+      "type": "Person",
+      "title": "Hersh Zipper",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_452d1b1b74e9129a098c3d38",
+      "type": "Institution",
+      "title": "Talmud Torah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2b3cf26cd428d75bdcf01b68",
+      "type": "Institution",
+      "title": "Orphanage",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}
