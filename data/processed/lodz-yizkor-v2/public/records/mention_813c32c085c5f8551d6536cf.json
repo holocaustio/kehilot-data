@@ -1,0 +1,119 @@
+{
+  "id": "mention_813c32c085c5f8551d6536cf",
+  "type": "Place",
+  "title": "Shrednie Street",
+  "summary": "Street where Yitzhak-Hirsh Radoshitsky had a barber shop.",
+  "originalName": "שרעדניע גאַס",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 49,
+  "printedPage": "45",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "Street name and business wording contain OCR uncertainty.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2ad9676d82c5f081d62000eb",
+      "pageId": "page_nybc313080_0049",
+      "scanIndex": 49,
+      "leafNumber": 48,
+      "printedPage": "45",
+      "passageCharStart": 596,
+      "passageCharEnd": 628,
+      "normalizedPassageCharStart": 596,
+      "normalizedPassageCharEnd": 628,
+      "pageCharStart": 2649,
+      "pageCharEnd": 2681,
+      "quote": "א ראַזיר-דשטוב אויף שרעדניע\nגאַס",
+      "normalizedQuote": "א ראַזיר-דשטוב אויף שרעדניע\nגאַס",
+      "modelQuote": "א ראַזיר-דשטוב אויף שרעדניע גאַס",
+      "bbox": {
+        "left": 361,
+        "top": 1607,
+        "right": 2354,
+        "bottom": 1757
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n48/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "8e55f31352827daee5ab8f1c1add3d0bb4a45c0fb23d1cd748a0330e34e081f3",
+      "normalizedPassageChecksum": "a8ca1257661425fe2f2dc6e90daab707d245fe19d54e162daea0d71026973432",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_bd632ad31b8b103166b8fe5e",
+      "predicate": "Had Barber Shop At",
+      "subjectTitle": "Yitzhak-Hirsh Radoshitsky",
+      "objectTitle": "Shrednie Street",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text places his barber shop on the street, not necessarily his residence.",
+      "evidence": {
+        "passageId": "passage_2ad9676d82c5f081d62000eb",
+        "pageId": "page_nybc313080_0049",
+        "scanIndex": 49,
+        "leafNumber": 48,
+        "printedPage": "45",
+        "passageCharStart": 596,
+        "passageCharEnd": 628,
+        "normalizedPassageCharStart": 596,
+        "normalizedPassageCharEnd": 628,
+        "pageCharStart": 2649,
+        "pageCharEnd": 2681,
+        "quote": "א ראַזיר-דשטוב אויף שרעדניע\nגאַס",
+        "normalizedQuote": "א ראַזיר-דשטוב אויף שרעדניע\nגאַס",
+        "modelQuote": "א ראַזיר-דשטוב אויף שרעדניע גאַס",
+        "bbox": {
+          "left": 361,
+          "top": 1607,
+          "right": 2354,
+          "bottom": 1757
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n48/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "8e55f31352827daee5ab8f1c1add3d0bb4a45c0fb23d1cd748a0330e34e081f3",
+        "normalizedPassageChecksum": "a8ca1257661425fe2f2dc6e90daab707d245fe19d54e162daea0d71026973432",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_2573ad388b16270673543164",
+      "type": "Person",
+      "title": "Yitzhak-Hirsh Radoshitsky",
+      "relation": "Had Barber Shop At"
+    },
+    {
+      "id": "mention_3111ea1558818dd5df45431c",
+      "type": "Person",
+      "title": "Chaim Krul",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2573ad388b16270673543164",
+      "type": "Person",
+      "title": "Yitzhak-Hirsh Radoshitsky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3640bd8730e3860514485294",
+      "type": "Person",
+      "title": "Yitzhak Berliner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_951bc07d41a87f4a642471d6",
+      "type": "Person",
+      "title": "Hershele Danielevitsh",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

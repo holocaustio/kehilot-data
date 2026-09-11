@@ -1,0 +1,113 @@
+{
+  "id": "mention_04f5168ec3ff058c37ae0046",
+  "type": "Person",
+  "title": "child",
+  "summary": "A 19-year-old boy abducted and killed by a Nazi.",
+  "originalName": "א יינגעלע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 155,
+  "printedPage": "151",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "child",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ea20b16dbc15dadcfb25772a",
+      "pageId": "page_nybc313080_0155",
+      "scanIndex": 155,
+      "leafNumber": 154,
+      "printedPage": "151",
+      "passageCharStart": 165,
+      "passageCharEnd": 176,
+      "normalizedPassageCharStart": 165,
+      "normalizedPassageCharEnd": 176,
+      "pageCharStart": 1011,
+      "pageCharEnd": 1022,
+      "quote": "פון 19 יאָר",
+      "normalizedQuote": "פון 19 יאָר",
+      "modelQuote": "פון 19 יאָר",
+      "bbox": {
+        "left": 4219,
+        "top": 2554,
+        "right": 4622,
+        "bottom": 2628
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n154/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "363e6f00f695a83828bf3e1f9853941c9207d437150ef2a69231c9fedd731124",
+      "normalizedPassageChecksum": "5a01686f28a837365b8a7661bff513030f95628983ec810d95f3c7e89a0ea84d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d5225300e0da4fec1b99d673",
+      "type": "Murder",
+      "title": "Killing of a 19-year-old boy",
+      "summary": "A Nazi killed a 19-year-old boy while he attempted to escape.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR is unclear, but the text explicitly states the child's life ended.",
+      "evidence": {
+        "passageId": "passage_ea20b16dbc15dadcfb25772a",
+        "pageId": "page_nybc313080_0155",
+        "scanIndex": 155,
+        "leafNumber": 154,
+        "printedPage": "151",
+        "passageCharStart": 301,
+        "passageCharEnd": 346,
+        "normalizedPassageCharStart": 301,
+        "normalizedPassageCharEnd": 346,
+        "pageCharStart": 1147,
+        "pageCharEnd": 1192,
+        "quote": "א קוי? אין קאָפּ פארענדיקט דאָס לעבן\nפון קינד",
+        "normalizedQuote": "א קוי? אין קאָפּ פארענדיקט דאָס לעבן\nפון קינד",
+        "modelQuote": "א קוי? אין קאָפּ פארענדיקט דאָס לעבן פון קינד",
+        "bbox": {
+          "left": 2592,
+          "top": 2756,
+          "right": 4624,
+          "bottom": 2939
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n154/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "363e6f00f695a83828bf3e1f9853941c9207d437150ef2a69231c9fedd731124",
+        "normalizedPassageChecksum": "5a01686f28a837365b8a7661bff513030f95628983ec810d95f3c7e89a0ea84d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d5225300e0da4fec1b99d673",
+      "type": "Event",
+      "title": "Killing of a 19-year-old boy",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_d832a643a8f456186e68b56f",
+      "type": "Person",
+      "title": "mother",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bb12351e82da9a8eb8ea9af9",
+      "type": "Person",
+      "title": "the Blockova",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_34e26f9f82f3c17535d56e4a",
+      "type": "Organization",
+      "title": "Nazis",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

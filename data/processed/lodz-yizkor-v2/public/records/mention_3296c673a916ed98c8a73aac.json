@@ -1,0 +1,130 @@
+{
+  "id": "mention_3296c673a916ed98c8a73aac",
+  "type": "Place",
+  "title": "Bełchatów",
+  "summary": "Nearby town from which Polish Jews were transported into the ghetto.",
+  "originalName": "בעלכאַטאָו",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 120,
+  "printedPage": "116",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a20e06ce88da64545ede5ee2",
+      "pageId": "page_nybc313080_0120",
+      "scanIndex": 120,
+      "leafNumber": 119,
+      "printedPage": "116",
+      "passageCharStart": 659,
+      "passageCharEnd": 669,
+      "normalizedPassageCharStart": 659,
+      "normalizedPassageCharEnd": 669,
+      "pageCharStart": 659,
+      "pageCharEnd": 669,
+      "quote": "בעלכאַטאָו",
+      "normalizedQuote": "בעלכאַטאָו",
+      "modelQuote": "בעלכאַטאָו",
+      "bbox": {
+        "left": 3279,
+        "top": 3525,
+        "right": 3630,
+        "bottom": 3600
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n119/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "60b4b1f9840585b8f1671307f3d041f635b3aef511a2d3678c6feaa4126c7c7c",
+      "normalizedPassageChecksum": "79e5ebd53e94f50d4a5bfd0e9f4f642e2320e3ea6a2c26881c06cce44be15c94",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8c7e6e9932529953550d463d",
+      "type": "Migration",
+      "title": "Transport of Polish Jews into the ghetto",
+      "summary": "Polish Jews from nearby towns were transported into the ghetto after deportations stopped.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a20e06ce88da64545ede5ee2",
+        "pageId": "page_nybc313080_0120",
+        "scanIndex": 120,
+        "leafNumber": 119,
+        "printedPage": "116",
+        "passageCharStart": 543,
+        "passageCharEnd": 602,
+        "normalizedPassageCharStart": 543,
+        "normalizedPassageCharEnd": 602,
+        "pageCharStart": 543,
+        "pageCharEnd": 602,
+        "quote": "דאָס מאָל זענען עס געווען פּוילישע\nיידן פון די ארומיקע שטעט",
+        "normalizedQuote": "דאָס מאָל זענען עס געווען פּוילישע\nיידן פון די ארומיקע שטעט",
+        "modelQuote": "דאָס מאָל זענען עס געווען פּוילישע יידן פון די ארומיקע שטעט",
+        "bbox": {
+          "left": 2576,
+          "top": 3317,
+          "right": 4598,
+          "bottom": 3499
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n119/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "60b4b1f9840585b8f1671307f3d041f635b3aef511a2d3678c6feaa4126c7c7c",
+        "normalizedPassageChecksum": "79e5ebd53e94f50d4a5bfd0e9f4f642e2320e3ea6a2c26881c06cce44be15c94",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_8c7e6e9932529953550d463d",
+      "type": "Event",
+      "title": "Transport of Polish Jews into the ghetto",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_074c40b6adc69bb6905b7222",
+      "type": "Person",
+      "title": "Abraham Tsikert",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b926a6d4375f96926450c6b9",
+      "type": "Community",
+      "title": "Lodz Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5f115aab9927db3e659b878d",
+      "type": "Place",
+      "title": "Pabianice",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_51ce26a850b5b67c927ef8a1",
+      "type": "Place",
+      "title": "Wieluń",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cb96b66fcf1c5c9a0f0160e9",
+      "type": "Place",
+      "title": "Piotrków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e5aa7ae30a2975a0689f6f31",
+      "type": "Place",
+      "title": "Zduńska Wola",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

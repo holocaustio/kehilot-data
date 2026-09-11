@@ -1,0 +1,105 @@
+{
+  "id": "mention_f3eef8256191ed5b6416aeac",
+  "type": "Place",
+  "title": "11 Mlynarske Street",
+  "summary": "The final address where Tafel was arrested.",
+  "originalName": "מלינאַרסקע 11",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 140,
+  "printedPage": "136",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "address",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_984f29c47c834d16cb3446a0",
+      "pageId": "page_nybc313080_0140",
+      "scanIndex": 140,
+      "leafNumber": 139,
+      "printedPage": "136",
+      "passageCharStart": 561,
+      "passageCharEnd": 574,
+      "normalizedPassageCharStart": 561,
+      "normalizedPassageCharEnd": 574,
+      "pageCharStart": 3790,
+      "pageCharEnd": 3803,
+      "quote": "מלינאַרסקע 11",
+      "normalizedQuote": "מלינאַרסקע 11",
+      "modelQuote": "מלינאַרסקע 11",
+      "bbox": {
+        "left": 765,
+        "top": 5608,
+        "right": 1255,
+        "bottom": 5679
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n139/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "6b7f9ca16b523f56f66535c262bea4b38febf093e5ec8b3892314218e7565531",
+      "normalizedPassageChecksum": "29bc2044cb2e39cd95cd31e1140cbedf6e4ed44e7eef25909da887484d96081c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_342d695af3e06925838d105a",
+      "type": "Arrest",
+      "title": "Moshe Tafel arrested at 11 Mlynarske Street",
+      "summary": "Moshe Tafel was arrested at his final radio-installation address.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_984f29c47c834d16cb3446a0",
+        "pageId": "page_nybc313080_0140",
+        "scanIndex": 140,
+        "leafNumber": 139,
+        "printedPage": "136",
+        "passageCharStart": 561,
+        "passageCharEnd": 603,
+        "normalizedPassageCharStart": 561,
+        "normalizedPassageCharEnd": 603,
+        "pageCharStart": 3790,
+        "pageCharEnd": 3832,
+        "quote": "מלינאַרסקע 11 -- װוּ מען\nהאָט אים ארעסטירט",
+        "normalizedQuote": "מלינאַרסקע 11 -- װוּ מען\nהאָט אים ארעסטירט",
+        "modelQuote": "מלינאַרסקע 11 -- װוּ מען האָט אים ארעסטירט",
+        "bbox": {
+          "left": 337,
+          "top": 5608,
+          "right": 2373,
+          "bottom": 5776
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n139/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "6b7f9ca16b523f56f66535c262bea4b38febf093e5ec8b3892314218e7565531",
+        "normalizedPassageChecksum": "29bc2044cb2e39cd95cd31e1140cbedf6e4ed44e7eef25909da887484d96081c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_342d695af3e06925838d105a",
+      "type": "Event",
+      "title": "Moshe Tafel arrested at 11 Mlynarske Street",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1a8594479250c0fa220c4b96",
+      "type": "Place",
+      "title": "13 Bazarne Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_40d41cd75df4ddeb357ca7de",
+      "type": "Place",
+      "title": "82 Bzheziner Street",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

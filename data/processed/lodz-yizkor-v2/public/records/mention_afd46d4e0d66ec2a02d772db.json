@@ -1,0 +1,105 @@
+{
+  "id": "mention_afd46d4e0d66ec2a02d772db",
+  "type": "Institution",
+  "title": "Cheder",
+  "summary": "A religious school where Chaim Krol studied as a boy.",
+  "originalName": "חדר",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 48,
+  "printedPage": "44",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "religious school",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8ae296d9c1850bf0a8092def",
+      "pageId": "page_nybc313080_0048",
+      "scanIndex": 48,
+      "leafNumber": 47,
+      "printedPage": "44",
+      "passageCharStart": 529,
+      "passageCharEnd": 536,
+      "normalizedPassageCharStart": 529,
+      "normalizedPassageCharEnd": 536,
+      "pageCharStart": 5412,
+      "pageCharEnd": 5419,
+      "quote": "אין חדר",
+      "normalizedQuote": "אין חדר",
+      "modelQuote": "אין חדר",
+      "bbox": {
+        "left": 889,
+        "top": 5940,
+        "right": 1195,
+        "bottom": 6006
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n47/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "9202f7af213ce62268f259dfcd241e5e7cf678bd11977eaf033cbbe7c99d1fc4",
+      "normalizedPassageChecksum": "ebfe0a2dee95a2727c419b36405635ff4c1408d0f5ce4292f1667ab27a71b710",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_7af98a3bc22f4e914e95423b",
+      "predicate": "Studied At",
+      "subjectTitle": "Chaim Krol",
+      "objectTitle": "Cheder",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_8ae296d9c1850bf0a8092def",
+        "pageId": "page_nybc313080_0048",
+        "scanIndex": 48,
+        "leafNumber": 47,
+        "printedPage": "44",
+        "passageCharStart": 529,
+        "passageCharEnd": 536,
+        "normalizedPassageCharStart": 529,
+        "normalizedPassageCharEnd": 536,
+        "pageCharStart": 5412,
+        "pageCharEnd": 5419,
+        "quote": "אין חדר",
+        "normalizedQuote": "אין חדר",
+        "modelQuote": "אין חדר",
+        "bbox": {
+          "left": 889,
+          "top": 5940,
+          "right": 1195,
+          "bottom": 6006
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n47/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "9202f7af213ce62268f259dfcd241e5e7cf678bd11977eaf033cbbe7c99d1fc4",
+        "normalizedPassageChecksum": "ebfe0a2dee95a2727c419b36405635ff4c1408d0f5ce4292f1667ab27a71b710",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_d98c257303547f584f6b8bb4",
+      "type": "Person",
+      "title": "Chaim Krol",
+      "relation": "Studied At"
+    },
+    {
+      "id": "mention_d98c257303547f584f6b8bb4",
+      "type": "Person",
+      "title": "Chaim Krol",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8879cf255e876cff4f87b000",
+      "type": "Institution",
+      "title": "Beit Midrash",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

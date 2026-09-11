@@ -1,0 +1,113 @@
+{
+  "id": "mention_01cb41562780f4c839489389",
+  "type": "Organization",
+  "title": "Russian military",
+  "summary": "Russian forces arrived and supplied food after the workers lost supervision.",
+  "originalName": "דאָס רוסישע מיליטער",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 162,
+  "printedPage": "158",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_daa2f41a1ffcfe16dd53acbb",
+      "pageId": "page_nybc313080_0162",
+      "scanIndex": 162,
+      "leafNumber": 161,
+      "printedPage": "158",
+      "passageCharStart": 436,
+      "passageCharEnd": 470,
+      "normalizedPassageCharStart": 436,
+      "normalizedPassageCharEnd": 470,
+      "pageCharStart": 4329,
+      "pageCharEnd": 4363,
+      "quote": "איז אָנגעקומען דאָס רוסישע מיליטער",
+      "normalizedQuote": "איז אָנגעקומען דאָס רוסישע מיליטער",
+      "modelQuote": "איז אָנגעקומען דאָס רוסישע מיליטער",
+      "bbox": {
+        "left": 1123,
+        "top": 3693,
+        "right": 2400,
+        "bottom": 3768
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n161/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "c663d9556b3454b2036b206f128b2df2b978f8c4f017e4bf93879d01c85ee7cd",
+      "normalizedPassageChecksum": "15db30fe16826206417984489db11694615ac732339fcf3936c0607d10c14ba0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_798af294e6ceafc6ba4ab7c2",
+      "type": "Arrival",
+      "title": "Arrival of the Russian military",
+      "summary": "On May 8, the Russian military arrived while the narrator and others were working and provided food.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR contains unclear wording around the loss of supervision and arrival.",
+      "evidence": {
+        "passageId": "passage_daa2f41a1ffcfe16dd53acbb",
+        "pageId": "page_nybc313080_0162",
+        "scanIndex": 162,
+        "leafNumber": 161,
+        "printedPage": "158",
+        "passageCharStart": 333,
+        "passageCharEnd": 470,
+        "normalizedPassageCharStart": 333,
+        "normalizedPassageCharEnd": 470,
+        "pageCharStart": 4226,
+        "pageCharEnd": 4363,
+        "quote": "דעם 8טן מאי האָבן מיר נאָך געארבעט. ערשט ביינאכט\nהאָבן מיר באמערקט, אז סיר זענען אָן אויפזיכט. פארטאָנ\nאיז אָנגעקומען דאָס רוסישע מיליטער",
+        "normalizedQuote": "דעם 8טן מאי האָבן מיר נאָך געארבעט. ערשט ביינאכט\nהאָבן מיר באמערקט, אז סיר זענען אָן אויפזיכט. פארטאָנ\nאיז אָנגעקומען דאָס רוסישע מיליטער",
+        "modelQuote": "דעם 8טן מאי האָבן מיר נאָך געארבעט. ערשט ביינאכט\nהאָבן מיר באמערקט, אז סיר זענען אָן אויפזיכט. פארטאָנ\nאיז אָנגעקומען דאָס רוסישע מיליטער",
+        "bbox": {
+          "left": 391,
+          "top": 3494,
+          "right": 2400,
+          "bottom": 3768
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n161/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "c663d9556b3454b2036b206f128b2df2b978f8c4f017e4bf93879d01c85ee7cd",
+        "normalizedPassageChecksum": "15db30fe16826206417984489db11694615ac732339fcf3936c0607d10c14ba0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_798af294e6ceafc6ba4ab7c2",
+      "type": "Event",
+      "title": "Arrival of the Russian military",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_22aad4a6d2a2ae04d9ef618d",
+      "type": "Place",
+      "title": "Friedland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_18b709e56d3d67c6bb93a552",
+      "type": "Community",
+      "title": "Lodz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4c3c33fea0b2edaed50b74ed",
+      "type": "Organization",
+      "title": "French people",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

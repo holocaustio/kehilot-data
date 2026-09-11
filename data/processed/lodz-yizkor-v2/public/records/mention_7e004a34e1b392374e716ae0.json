@@ -1,0 +1,118 @@
+{
+  "id": "mention_7e004a34e1b392374e716ae0",
+  "type": "Person",
+  "title": "Yanek Tsinyan",
+  "summary": "Underground figure associated with the Auschwitz crematoria.",
+  "originalName": "יאַנעק ‏ צינאַן",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 145,
+  "printedPage": "141",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "Transliteration is uncertain because of OCR.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f9ce8c4b82782c26e7189614",
+      "pageId": "page_nybc313080_0145",
+      "scanIndex": 145,
+      "leafNumber": 144,
+      "printedPage": "141",
+      "passageCharStart": 128,
+      "passageCharEnd": 143,
+      "normalizedPassageCharStart": 128,
+      "normalizedPassageCharEnd": 143,
+      "pageCharStart": 4324,
+      "pageCharEnd": 4339,
+      "quote": "יאַנעק ‏ צינאַן",
+      "normalizedQuote": "יאַנעק ‏ צינאַן",
+      "modelQuote": "יאַנעק ‏ צינאַן",
+      "bbox": {
+        "left": 1178,
+        "top": 3868,
+        "right": 1655,
+        "bottom": 3943
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n144/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "014bce174005f2ce4f9dfe3750c6f36c818225f6133f13937205e9320f8aed39",
+      "normalizedPassageChecksum": "72131114df1dc44f046a48cf45940248a7df320684edcbd1b720892e81f1e8b6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_41454a29da6c703b469a7dd3",
+      "type": "Migration",
+      "title": "Nighttime visit to Auschwitz crematoria",
+      "summary": "Mashal Hasid and Yanek Tsinyan took the narrator to see Auschwitz crematoria.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_f9ce8c4b82782c26e7189614",
+        "pageId": "page_nybc313080_0145",
+        "scanIndex": 145,
+        "leafNumber": 144,
+        "printedPage": "141",
+        "passageCharStart": 391,
+        "passageCharEnd": 450,
+        "normalizedPassageCharStart": 391,
+        "normalizedPassageCharEnd": 450,
+        "pageCharStart": 4587,
+        "pageCharEnd": 4646,
+        "quote": "ביינאַכט זענען זיי געקומען און מיטגענומען מיך קיין\nאוישוויץ",
+        "normalizedQuote": "ביינאַכט זענען זיי געקומען און מיטגענומען מיך קיין\nאוישוויץ",
+        "modelQuote": "ביינאַכט זענען זיי געקומען און מיטגענומען מיך קיין אוישוויץ",
+        "bbox": {
+          "left": 344,
+          "top": 4384,
+          "right": 2345,
+          "bottom": 4555
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n144/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "014bce174005f2ce4f9dfe3750c6f36c818225f6133f13937205e9320f8aed39",
+        "normalizedPassageChecksum": "72131114df1dc44f046a48cf45940248a7df320684edcbd1b720892e81f1e8b6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a05cee3fceb592703308ae46",
+      "type": "Place",
+      "title": "Auschwitz crematoria",
+      "relation": "Participated In"
+    },
+    {
+      "id": "event_candidate_41454a29da6c703b469a7dd3",
+      "type": "Event",
+      "title": "Nighttime visit to Auschwitz crematoria",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_5e36f205b8dccb0e7addddc5",
+      "type": "Person",
+      "title": "Mashal Hasid",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a05cee3fceb592703308ae46",
+      "type": "Place",
+      "title": "Auschwitz crematoria",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d0277cc01f9f631555873c86",
+      "type": "Person",
+      "title": "Narrator’s wife",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

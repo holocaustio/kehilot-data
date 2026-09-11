@@ -1,0 +1,120 @@
+{
+  "id": "mention_a306b58a71006fc244ba9a5d",
+  "type": "Place",
+  "title": "Poniatowa camp",
+  "summary": "Camp where Judith Kholodenko died in autumn 1943.",
+  "originalName": "פּאַניאַטאָווער לאַנער",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 180,
+  "printedPage": "176",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp",
+  "uncertaintyNote": "The OCR wording is unclear but identifies Poniatowa.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_34edb32213c5082e51346dda",
+      "pageId": "page_nybc313080_0180",
+      "scanIndex": 180,
+      "leafNumber": 179,
+      "printedPage": "176",
+      "passageCharStart": 1094,
+      "passageCharEnd": 1120,
+      "normalizedPassageCharStart": 1094,
+      "normalizedPassageCharEnd": 1120,
+      "pageCharStart": 4215,
+      "pageCharEnd": 4241,
+      "quote": "אין פּאַניאַטאָווער לאַנער",
+      "normalizedQuote": "אין פּאַניאַטאָווער לאַנער",
+      "modelQuote": "אין פּאַניאַטאָווער לאַנער",
+      "bbox": {
+        "left": 451,
+        "top": 5418,
+        "right": 1276,
+        "bottom": 5495
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n179/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "b2c28fe002670e75da38f428399b62390debc6412f4a91273a4540e8d32ffac9",
+      "normalizedPassageChecksum": "4733e7b8db168d1e245c6801f7103ac333a235de7027bb2472b56888902c0ca1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_4f77db162a83be4288b48feb",
+      "type": "Death",
+      "title": "Judith Kholodenko died",
+      "summary": "Judith Kholodenko died in Poniatowa camp during autumn 1943.",
+      "dateStart": "1943-09-01",
+      "dateEnd": "1943-11-30",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_34edb32213c5082e51346dda",
+        "pageId": "page_nybc313080_0180",
+        "scanIndex": 180,
+        "leafNumber": 179,
+        "printedPage": "176",
+        "passageCharStart": 1066,
+        "passageCharEnd": 1120,
+        "normalizedPassageCharStart": 1066,
+        "normalizedPassageCharEnd": 1120,
+        "pageCharStart": 4187,
+        "pageCharEnd": 4241,
+        "quote": "אין האַרבסט 1943 אומגעקומען אין פּאַניאַטאָווער לאַנער",
+        "normalizedQuote": "אין האַרבסט 1943 אומגעקומען אין פּאַניאַטאָווער לאַנער",
+        "modelQuote": "אין האַרבסט 1943 אומגעקומען אין פּאַניאַטאָווער לאַנער",
+        "bbox": {
+          "left": 451,
+          "top": 5418,
+          "right": 2383,
+          "bottom": 5495
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n179/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "b2c28fe002670e75da38f428399b62390debc6412f4a91273a4540e8d32ffac9",
+        "normalizedPassageChecksum": "4733e7b8db168d1e245c6801f7103ac333a235de7027bb2472b56888902c0ca1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_4f77db162a83be4288b48feb",
+      "type": "Event",
+      "title": "Judith Kholodenko died",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1b22e6fbb063ae0104646b41",
+      "type": "Person",
+      "title": "Judith Kholodenko",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_13e4d909b72fa72cd52a4cc1",
+      "type": "Organization",
+      "title": "Kultur-Lige",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_42b6e4f1a90aab432f76c2d2",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_972d9f5bb0d086d9ca23d03c",
+      "type": "Place",
+      "title": "Bershter workshops courtyard",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,108 @@
+{
+  "id": "mention_323d660b0483c553e8d68d95",
+  "type": "Community",
+  "title": "the 08 girls",
+  "summary": "A group of girls remained together until quarantine dispersal.",
+  "originalName": "די 08 מיידלעך",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 149,
+  "printedPage": "145",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "group of girls",
+  "uncertaintyNote": "The OCR may render the group designation ambiguously.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4ec6ddfb2b0d974622b692b4",
+      "pageId": "page_nybc313080_0149",
+      "scanIndex": 149,
+      "leafNumber": 148,
+      "printedPage": "145",
+      "passageCharStart": 1028,
+      "passageCharEnd": 1063,
+      "normalizedPassageCharStart": 1028,
+      "normalizedPassageCharEnd": 1063,
+      "pageCharStart": 1028,
+      "pageCharEnd": 1063,
+      "quote": "די 08 מיידלעך זיך געהאַלטן\nצוזאַמען",
+      "normalizedQuote": "די 08 מיידלעך זיך געהאַלטן\nצוזאַמען",
+      "modelQuote": "די 08 מיידלעך זיך געהאַלטן צוזאַמען",
+      "bbox": {
+        "left": 2565,
+        "top": 2771,
+        "right": 4600,
+        "bottom": 2941
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n148/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "772254c0439fd371bb16c327bea48a19ccf7b1ea28170a7fc2af26b1b911986f",
+      "normalizedPassageChecksum": "b6a2c5d351c9c9ab71d78349a648ec4badf25bd3aeb958f565604fd14ecc0a02",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_39d096a7320e6a23b0a3fb8a",
+      "type": "Quarantine",
+      "title": "Six-week quarantine",
+      "summary": "The group was sent away for six weeks of quarantine and then dispersed among different barracks.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text describes quarantine in a camp context; the schema has no quarantine-specific event type.",
+      "evidence": {
+        "passageId": "passage_4ec6ddfb2b0d974622b692b4",
+        "pageId": "page_nybc313080_0149",
+        "scanIndex": 149,
+        "leafNumber": 148,
+        "printedPage": "145",
+        "passageCharStart": 951,
+        "passageCharEnd": 1000,
+        "normalizedPassageCharStart": 951,
+        "normalizedPassageCharEnd": 1000,
+        "pageCharStart": 951,
+        "pageCharEnd": 1000,
+        "quote": "פון דאָרט זענען מיר אוועק אויף 6 װאָכן קאַראַנטין",
+        "normalizedQuote": "פון דאָרט זענען מיר אוועק אויף 6 װאָכן קאַראַנטין",
+        "modelQuote": "פון דאָרט זענען מיר אוועק אויף 6 װאָכן קאַראַנטין",
+        "bbox": {
+          "left": 2561,
+          "top": 2669,
+          "right": 4428,
+          "bottom": 2749
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n148/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "772254c0439fd371bb16c327bea48a19ccf7b1ea28170a7fc2af26b1b911986f",
+        "normalizedPassageChecksum": "b6a2c5d351c9c9ab71d78349a648ec4badf25bd3aeb958f565604fd14ecc0a02",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_39d096a7320e6a23b0a3fb8a",
+      "type": "Event",
+      "title": "Six-week quarantine",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_0b13dec1e28fc5b4544a392d",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_88a9774220c2de4c9d838a19",
+      "type": "Place",
+      "title": "different barracks",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

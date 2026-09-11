@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_ee0d43088a77d45f5bc0c017",
+  "type": "Event",
+  "title": "Shooting of narrator’s wife",
+  "summary": "German perpetrators immediately shot the narrator’s wife after selecting her.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 159,
+  "printedPage": "155",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "Rahn selected her, but the text does not explicitly state that he personally fired.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f9cd500f0d88aeaf37ff48bd",
+      "pageId": "page_nybc313080_0159",
+      "scanIndex": 159,
+      "leafNumber": 158,
+      "printedPage": "155",
+      "passageCharStart": 829,
+      "passageCharEnd": 862,
+      "normalizedPassageCharStart": 829,
+      "normalizedPassageCharEnd": 862,
+      "pageCharStart": 4989,
+      "pageCharEnd": 5022,
+      "quote": "די רוצחים האָבן\nזי גלייך דערשאָסן",
+      "normalizedQuote": "די רוצחים האָבן\nזי גלייך דערשאָסן",
+      "modelQuote": "די רוצחים האָבן זי גלייך דערשאָסן",
+      "bbox": {
+        "left": 373,
+        "top": 4628,
+        "right": 2367,
+        "bottom": 4800
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n158/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "4b82e2c94d931cf0a4ebdf88b45ac8f1f49a696df147d960d1c3fd2babe17633",
+      "normalizedPassageChecksum": "82d0142725d8396d904e1ab86ba5d98d074e29cd4f10a12e9f2a516385a97961",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_d0277cc01f9f631555873c86",
+      "type": "Person",
+      "title": "Narrator’s wife",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_4bf61bce0f33ddf0c741495b",
+      "type": "Person",
+      "title": "Rahn",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

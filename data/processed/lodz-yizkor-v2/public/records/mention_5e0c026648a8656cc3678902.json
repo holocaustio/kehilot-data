@@ -1,0 +1,109 @@
+{
+  "id": "mention_5e0c026648a8656cc3678902",
+  "type": "Organization",
+  "title": "Roll Commandos",
+  "summary": "A unit identified in the ghetto as responsible for removing hospital patients.",
+  "originalName": "ראָל-קאָמאַנדע",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 120,
+  "printedPage": "116",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "killing unit",
+  "uncertaintyNote": "The passage describes the name as used in the ghetto; organizational identity is not otherwise specified.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ba2fc473b25c4c35231b2127",
+      "pageId": "page_nybc313080_0120",
+      "scanIndex": 120,
+      "leafNumber": 119,
+      "printedPage": "116",
+      "passageCharStart": 485,
+      "passageCharEnd": 506,
+      "normalizedPassageCharStart": 485,
+      "normalizedPassageCharEnd": 506,
+      "pageCharStart": 3837,
+      "pageCharEnd": 3858,
+      "quote": "אלס די\nראָל-קאָמאַנדע",
+      "normalizedQuote": "אלס די\nראָל-קאָמאַנדע",
+      "modelQuote": "אלס די ראָל-קאָמאַנדע",
+      "bbox": {
+        "left": 322,
+        "top": 3995,
+        "right": 2356,
+        "bottom": 4181
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n119/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "69b55b37313fab8b6b9df9e6c4677fa1beb8a890e37e7a7102e54241cca752a6",
+      "normalizedPassageChecksum": "16b1f11d6b1a9fffa8f23365f7565d4453b1705d628f7007bf7235cbb7014f36",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d948d13a6afd0fabc46dd42c",
+      "type": "Aktion Or Raid",
+      "title": "Killing operation at the hospital",
+      "summary": "German-uniformed forces entered the ghetto and removed sick patients from the hospital.",
+      "dateStart": "1942-08-21",
+      "dateEnd": "1942-09-01",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ba2fc473b25c4c35231b2127",
+        "pageId": "page_nybc313080_0120",
+        "scanIndex": 120,
+        "leafNumber": 119,
+        "printedPage": "116",
+        "passageCharStart": 387,
+        "passageCharEnd": 416,
+        "normalizedPassageCharStart": 387,
+        "normalizedPassageCharEnd": 416,
+        "pageCharStart": 3739,
+        "pageCharEnd": 3768,
+        "quote": "די רציחה האָט זיך אָננגעהויבן",
+        "normalizedQuote": "די רציחה האָט זיך אָננגעהויבן",
+        "modelQuote": "די רציחה האָט זיך אָננגעהויבן",
+        "bbox": {
+          "left": 869,
+          "top": 3904,
+          "right": 1865,
+          "bottom": 3970
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n119/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "69b55b37313fab8b6b9df9e6c4677fa1beb8a890e37e7a7102e54241cca752a6",
+        "normalizedPassageChecksum": "16b1f11d6b1a9fffa8f23365f7565d4453b1705d628f7007bf7235cbb7014f36",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d948d13a6afd0fabc46dd42c",
+      "type": "Event",
+      "title": "Killing operation at the hospital",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_08f6bb20f4ea7d0def1f031b",
+      "type": "Place",
+      "title": "Lodz Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e49ef833a2cd4fccba9b4093",
+      "type": "Place",
+      "title": "Baluty Square",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

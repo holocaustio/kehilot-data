@@ -1,0 +1,1703 @@
+{
+  "schemaVersion": "kehilot-yizkor-reading-paths-v1",
+  "pipelineVersion": "kehilot-yizkor-reading-paths-v1",
+  "promptVersion": "kehilot-yizkor-reading-paths-prompt-v1",
+  "generatedAt": "2026-09-11T17:44:18.045Z",
+  "community": {
+    "id": "community_lodz",
+    "displayName": "lodz",
+    "canonicalName": "lodz",
+    "country": "Poland"
+  },
+  "book": {
+    "id": "book_nybc313080",
+    "title": "Yidish Lodzsh : yizker bukh"
+  },
+  "source": {
+    "selectedVersion": "lodz-yizkor-v2",
+    "graphPath": "data/processed/lodz-yizkor-v2/adjudication/resolved-graph.json",
+    "graphSha256": "de66c64917707c30013ebf94b811cd6bfdaf9ae752c69c469ed5bd3362e9ca6f",
+    "candidateCount": 330
+  },
+  "model": {
+    "name": "gpt-5.6-luna",
+    "serviceTier": "flex",
+    "reasoningEffort": "medium"
+  },
+  "overview": {
+    "title": "Reading Jewish Łódź through its memorial book",
+    "summary": "Before the Holocaust, Łódź was home to a large, diverse Jewish community deeply involved in industry, commerce, medicine, education, religion, politics, and culture. The memorial book follows that community from ordinary family and institutional life through German occupation, ghetto confinement, forced labor, deportation, murder, resistance, and survival. It also shows how survivors rebuilt lives, organized communal institutions, and created commemorative records after the destruction. By following the paths below, readers can understand both the scale of the loss and the human relationships, choices, and cultural life that made Jewish Łódź a community."
+  },
+  "paths": [
+    {
+      "id": "path_beforewar_city",
+      "theme": "COMMUNITY_LIFE",
+      "title": "What kind of Jewish city was Łódź before the war?",
+      "description": "This path introduces Łódź as a major Jewish urban community shaped by work, migration, neighborhood life, and relationships with other populations. By the end, readers will see the city as a lived society rather than only the later site of a ghetto.",
+      "question": "How did Jewish life take shape in Łódź?",
+      "steps": [
+        {
+          "title": "A large and diverse community",
+          "summary": "The memorial book describes a Jewish community of nearly a quarter of a million people before 1939. It places Jews within a city also inhabited by Poles and Germans, with Jews and Germans together making up nearly 40 percent of the population in one account. [mention_359e7216d59a25e03734a45f, mention_f2a62067810201dbf446b7e5, mention_52c4993a757aa955cfb73afd]",
+          "recordIds": [
+            "mention_359e7216d59a25e03734a45f",
+            "mention_f2a62067810201dbf446b7e5",
+            "mention_52c4993a757aa955cfb73afd"
+          ],
+          "records": [
+            {
+              "recordId": "mention_359e7216d59a25e03734a45f",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Jewish community of Lodz",
+              "summary": "A nearly quarter-million-member Jewish community existed in Lodz before 1939.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 55,
+              "printedPage": "51",
+              "passageId": "passage_b7903cb46b8e3b6b970f5a8f",
+              "quote": "דער דאָזיקער, קרוב פערטל-מיליאָניקער יידישער קיבוץ"
+            },
+            {
+              "recordId": "mention_f2a62067810201dbf446b7e5",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Jews, Poles, and Germans",
+              "summary": "The city is described as inhabited by Jews, Poles, and Germans.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 59,
+              "printedPage": "55",
+              "passageId": "passage_ee22ca5cb317dcb5cb9f7d0f",
+              "quote": "באַװױנט פון יידן, פּאַליאַקן און דייטשן"
+            },
+            {
+              "recordId": "mention_52c4993a757aa955cfb73afd",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Jews",
+              "summary": "A major population involved in Lodz industry and commerce, with significant poverty.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 62,
+              "printedPage": "58",
+              "passageId": "passage_aee8d923d12537220ccdfa85",
+              "quote": "יידן און דייטשן האָבן אויס- געמאַכט קנאַפּע 40 פּראָצענט פון דער באַפעלקערונג"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Work, industry, and philanthropy",
+          "summary": "Jewish life was connected to Łódź’s industrial economy: Israel Poznanski is remembered as a major manufacturer who built housing for workers’ families and supported Jewish charities. The book also recalls Jewish businesses such as Yitzhak Weinberg’s restaurant and sausage shop, showing both large-scale industry and small enterprise. [mention_b6f2e4231f58cfd5cc5a7f90, event_candidate_788e8a7c0add6f558d6755ae, mention_bc1db5f38b5bdb8e407f9831]",
+          "recordIds": [
+            "mention_b6f2e4231f58cfd5cc5a7f90",
+            "event_candidate_788e8a7c0add6f558d6755ae",
+            "mention_bc1db5f38b5bdb8e407f9831"
+          ],
+          "records": [
+            {
+              "recordId": "mention_b6f2e4231f58cfd5cc5a7f90",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Israel Poznanski",
+              "summary": "A major Lodz manufacturer who built workers’ family housing and supported Jewish charities.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 28,
+              "printedPage": "24",
+              "passageId": "passage_8b3de7ed960adee52d17159f",
+              "quote": "ישראל קלמנס (קאַלמאַנאָװיטש אין רוסישן נוסח) פּאָזנאַנסקי"
+            },
+            {
+              "recordId": "event_candidate_788e8a7c0add6f558d6755ae",
+              "kind": "event",
+              "type": "BUSINESS_OPENING",
+              "title": "Opening of Weinberg’s restaurant",
+              "summary": "Weinberg opened his own restaurant at 64 Piotrkowska in 1928.",
+              "dateStart": "1928",
+              "dateEnd": "",
+              "scanIndex": 144,
+              "printedPage": "140",
+              "passageId": "passage_d8b41b88a6779fbf9fcefac4",
+              "quote": "אין 1928 צו עפענען אַן איינענעם רעסטאָ- ראַן אויף פּיעטריקאָװער 64"
+            },
+            {
+              "recordId": "mention_bc1db5f38b5bdb8e407f9831",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Weinberg’s sausage shop",
+              "summary": "Sausage shop later opened by Weinberg.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 144,
+              "printedPage": "140",
+              "passageId": "passage_d8b41b88a6779fbf9fcefac4",
+              "quote": "און שפּעטער אויך אַ װורשטן- געשעפט"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Neighborhoods, families, and movement",
+          "summary": "Personal recollections place family life in homes, streets, shops, schools, and cafés: one narrator arrived at the Łódź railway station to join many relatives, while another recalls a family home and a food business on Wschodnia Street. These memories make the city concrete and show how community life was built through households and local places. [mention_bc7f349d9ff2fcdc2afbaeac, mention_13d5b17f756c8fb17a9f8717, mention_41db2b21c02c3f5c870dc9fe, mention_fa6352f486cb4f775153db6c]",
+          "recordIds": [
+            "mention_bc7f349d9ff2fcdc2afbaeac",
+            "mention_13d5b17f756c8fb17a9f8717",
+            "mention_41db2b21c02c3f5c870dc9fe",
+            "mention_fa6352f486cb4f775153db6c"
+          ],
+          "records": [
+            {
+              "recordId": "mention_bc7f349d9ff2fcdc2afbaeac",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Narrator",
+              "summary": "First-person narrator arriving in Lodz with relatives there.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 69,
+              "printedPage": "65",
+              "passageId": "passage_7f22d4a5727fec79575169e8",
+              "quote": "כאָטש איך האָב געהאָט א סך משפּחה"
+            },
+            {
+              "recordId": "mention_13d5b17f756c8fb17a9f8717",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Lodz",
+              "summary": "City where the narrator had many relatives and arrived by train.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 69,
+              "printedPage": "65",
+              "passageId": "passage_7f22d4a5727fec79575169e8",
+              "quote": "אויף דער לאָדזשער באַןדסטאַציע"
+            },
+            {
+              "recordId": "mention_41db2b21c02c3f5c870dc9fe",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "House where the narrator lived",
+              "summary": "House where the narrator's family lived and employed a watchman.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 70,
+              "printedPage": "66",
+              "passageId": "passage_34c0d30aac396a02935cca80",
+              "quote": "הויז װוּ מיר האָבן געװווינט"
+            },
+            {
+              "recordId": "mention_fa6352f486cb4f775153db6c",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Wschodnia Street",
+              "summary": "Street where Etel’s family operated a food business.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 74,
+              "printedPage": "70",
+              "passageId": "passage_0f9800069f393f25d66d850d",
+              "quote": "אויף דער וװסכאָדניע גאַס"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Medicine and communal care",
+          "summary": "The book presents Jewish medicine as an important part of Łódź life, centered in Poznanski Hospital and supported by physicians serving the Jewish population. It also recalls children’s homes, eldercare, and other institutions created by Łódź Jews. [mention_ce10196aa03f373ed9deced6, mention_3dd5132b330843ade0b4bd6c, mention_f3cb15f27be5748231c78657, mention_6be10c1fb6fee297e30c697a]",
+          "recordIds": [
+            "mention_ce10196aa03f373ed9deced6",
+            "mention_3dd5132b330843ade0b4bd6c",
+            "mention_f3cb15f27be5748231c78657",
+            "mention_6be10c1fb6fee297e30c697a"
+          ],
+          "records": [
+            {
+              "recordId": "mention_ce10196aa03f373ed9deced6",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Pozuanski Hospital",
+              "summary": "A center of Jewish medical activity in Lodz with important research and physicians.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 51,
+              "printedPage": "47",
+              "passageId": "passage_81d1545811051d9c1ab654b7",
+              "quote": "אין צענטער פון דער יידישער מעדיצינישער טעטיקייט איז געשטאַנען פּאָזואַנסקיס שפּיטאָל"
+            },
+            {
+              "recordId": "mention_3dd5132b330843ade0b4bd6c",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Lodz",
+              "summary": "The Jewish community where Rozhaner practiced medicine and served the population.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 51,
+              "printedPage": "47",
+              "passageId": "passage_18c11d7dbd0909cb75d9435c",
+              "quote": "דער ײידישער באַפּעלקערונג פון לאָדזש"
+            },
+            {
+              "recordId": "mention_f3cb15f27be5748231c78657",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Jews of Lodz",
+              "summary": "The Jews of Lodz created exemplary educational, medical, eldercare, and childcare institutions.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 56,
+              "printedPage": "52",
+              "passageId": "passage_6b230dafeb3fe02a6d597b55",
+              "quote": "די יידן פון לאָרזש"
+            },
+            {
+              "recordId": "mention_6be10c1fb6fee297e30c697a",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Children's Homes in Lodz",
+              "summary": "Children's homes were among the institutions created by Lodz Jews.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 56,
+              "printedPage": "52",
+              "passageId": "passage_6b230dafeb3fe02a6d597b55",
+              "quote": "מושב זקנים, קינדערהיימען"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_ideas_institutions",
+      "theme": "EDUCATION_CULTURE",
+      "title": "How did Łódź Jews educate, worship, create, and organize?",
+      "description": "This path traces the institutions and debates that sustained Jewish identity across religious, educational, political, literary, theatrical, and sporting life. Readers will understand the community as internally varied, energetic, and culturally productive.",
+      "question": "What ideas and institutions shaped Jewish Łódź?",
+      "steps": [
+        {
+          "title": "Schools and learning",
+          "summary": "Jewish education ranged from a yeshiva and gymnasium education to vocational and girls’ secondary schools. The book names institutions such as the Jaroczynski Vocational School, the Second Gymnasium, Wolfson School, and Beit Ulpana Gymnasium, established by the Mizrahi organization. [mention_3fd8be7cd6753efdc55b897f, mention_9a13fd5c5498fc4f80684cd6, mention_118aa98f6e08c4c0cb2eb592, mention_e65e9b19d7a260823689df37, mention_9638120228af1a5275ed0ec4]",
+          "recordIds": [
+            "mention_3fd8be7cd6753efdc55b897f",
+            "mention_9a13fd5c5498fc4f80684cd6",
+            "mention_118aa98f6e08c4c0cb2eb592",
+            "mention_e65e9b19d7a260823689df37m?"
+          ],
+          "records": [
+            {
+              "recordId": "mention_3fd8be7cd6753efdc55b897f",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Yeshiva",
+              "summary": "The narrator used Yiddish at the yeshiva before entering gymnasium.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 70,
+              "printedPage": "66",
+              "passageId": "passage_a892b5d69f966cd12ab46eef",
+              "quote": "און אין דער ישבה"
+            },
+            {
+              "recordId": "mention_9a13fd5c5498fc4f80684cd6",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Second Gymnasium",
+              "summary": "The narrator attended a gymnasium called the Second Gymnasium.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 70,
+              "printedPage": "66",
+              "passageId": "passage_a892b5d69f966cd12ab46eef",
+              "quote": "אין אונדוער גימנאַזיע -- זי האָט זיך אָנגערופן ‏ די צווייטע נימנאַזיע"
+            },
+            {
+              "recordId": "mention_118aa98f6e08c4c0cb2eb592",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Jaroczynski Vocational School",
+              "summary": "Vocational school located opposite the grandmother’s residence.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 74,
+              "printedPage": "70",
+              "passageId": "passage_209307914419a4d37d16a8aa",
+              "quote": "קעגנאיבער יאַראָטשינסקי'ס פאַך-שולע"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Religious traditions and communal authority",
+          "summary": "Religious life included Hasidic dynasties and synagogues, including the Radoshitzer tradition and Poznanski’s synagogue. The memorial book also remembers an official ghetto synagogue where Moshe Tafel served as cantor, linking prewar religious structures to wartime experience. [mention_b2dad1d840688b2295810b8a, mention_7e648a0a20d46195dbecd961, mention_085bb60ef54e04a291065e59, mention_776b4773122b6e4e1751b852]",
+          "recordIds": [
+            "mention_b2dad1d840688b2295810b8a",
+            "mention_7e648a0a20d46195dbecd961",
+            "mention_085bb60ef54e04a291065e59",
+            "mention_776b4773122b6e4e1751b852"
+          ],
+          "records": [
+            {
+              "recordId": "mention_b2dad1d840688b2295810b8a",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Radoshitzer dynasty",
+              "summary": "A Hasidic dynasty founded by the first Radoshitzer Rebbe and known in Congress Poland.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 69,
+              "printedPage": "65",
+              "passageId": "passage_76896460ba4643d1125635f4",
+              "quote": "דער נאָמען פון דער ראַדאָשיצער דינאַסטיע"
+            },
+            {
+              "recordId": "mention_7e648a0a20d46195dbecd961",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Rabbi Yissachar Ber, the first Radoshitzer Rebbe",
+              "summary": "The first Radoshitzer Rebbe and founder of the Radoshitzer dynasty.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 69,
+              "printedPage": "65",
+              "passageId": "passage_76896460ba4643d1125635f4",
+              "quote": "פונעם ערשטן ראַדאָ- שיצער רבין, דעם סבא קדישא ר' ישכר בער"
+            },
+            {
+              "recordId": "mention_085bb60ef54e04a291065e59",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Wolbarske Street",
+              "summary": "The street where Poznanski’s synagogue was built in the old town.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 28,
+              "printedPage": "24",
+              "passageId": "passage_8b3de7ed960adee52d17159f",
+              "quote": "ענגער װאָלבאַרסקע גאָס"
+            },
+            {
+              "recordId": "mention_776b4773122b6e4e1751b852",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Ghetto synagogue on Brzeziner 22",
+              "summary": "Official ghetto synagogue where Tafel served as cantor.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 140,
+              "printedPage": "136",
+              "passageId": "passage_3c35317ced270e676f0dead7",
+              "quote": "דער אָפיציעלער געטאָדחזן אין דער שול אויף בזשעזשינער 22"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Politics and associations",
+          "summary": "Łódź Jews participated in competing political movements, including the Bund, Poale Zion, the Folkists, General Zionists, and Gordonia. These movements also shaped unions, libraries, youth activity, and elections, revealing disagreement alongside organized communal participation. [mention_a068fabfe02f2ba3c09c19f2, mention_a0bcd0efbdbc5e4f832dcc85, mention_07a237ebba216062e87d596f, mention_ce20b9e200e079f533530a06, mention_71661de3f2c323b28faa9459]",
+          "recordIds": [
+            "mention_a068fabfe02f2ba3c09c19f2",
+            "mention_a0bcd0efbdbc5e4f832dcc85",
+            "mention_07a237ebba216062e87d596f",
+            "mention_ce20b9e200e079f533530a06m?"
+          ],
+          "records": [
+            {
+              "recordId": "mention_a068fabfe02f2ba3c09c19f2",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Bund",
+              "summary": "A Jewish socialist organization David Kholodenko joined after returning to Lodz.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 180,
+              "printedPage": "176",
+              "passageId": "passage_f60fcdecc76213e801f82a51",
+              "quote": "ער טרעט דאָ אריין אין דער בונדישער אָרגאַניזאַציע"
+            },
+            {
+              "recordId": "mention_a0bcd0efbdbc5e4f832dcc85",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Poale Zion",
+              "summary": "A workers' Zionist political party active in Lodz.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 63,
+              "printedPage": "59",
+              "passageId": "passage_d809465076582ab4ac9ab37c",
+              "quote": "די פּועלי ציון"
+            },
+            {
+              "recordId": "mention_07a237ebba216062e87d596f",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Folkists",
+              "summary": "A political group competing for control of merchants' and craftsmen's associations.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 63,
+              "printedPage": "59",
+              "passageId": "passage_d695678fdc560f8c846d0bc3",
+              "quote": "צװישן די ציוניסטן, פאָלקיסטן"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Literature, theater, music, and sport",
+          "summary": "The book describes Łódź as a literary center with Yiddish and Hebrew writers, newspapers, libraries, theaters, and a first Hebrew theater troupe. Cultural life also included the Hakoah sports club and a Jewish Theater Studio, showing how language, performance, reading, and recreation connected people across the city. [mention_1727c20ce49710f0deb88a55, mention_2385fbcd1d630bc69aaed46e, mention_21085e3308f82935f8b3515c, event_candidate_951e6c11a0be33c4030b9d51, mention_89e7e22135cf1d6cc9e33911, mention_09f84bcb79b358d6669b00c6]",
+          "recordIds": [
+            "mention_1727c20ce49710f0deb88a55",
+            "mention_2385fbcd1d630bc69aaed46e",
+            "mention_21085e3308f82935f8b3515c",
+            "event_candidate_951e6c11a0be33c4030b9d51"
+          ],
+          "records": [
+            {
+              "recordId": "mention_1727c20ce49710f0deb88a55",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Lodz",
+              "summary": "Presented as a literary center through the journals’ activities.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 35,
+              "printedPage": "31",
+              "passageId": "passage_156244942b95265b509fa810",
+              "quote": "געמאַכט לאָדזש פאר א ליטערארישן צענטער"
+            },
+            {
+              "recordId": "mention_2385fbcd1d630bc69aaed46e",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Lodz Yiddish and Hebrew writers",
+              "summary": "A literary environment forming around Katzenelson in Lodz.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 36,
+              "printedPage": "32",
+              "passageId": "passage_0e8143ec5a181cfda04312e0",
+              "quote": "פון לאָדזשער סופרי יידיש וי עברית"
+            },
+            {
+              "recordId": "mention_21085e3308f82935f8b3515c",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Union of Writers, Journalists, and Artists",
+              "summary": "Described as the first such association founded in Poland.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 196,
+              "printedPage": "192",
+              "passageId": "passage_65069dadb6c1687f62c152c5",
+              "quote": "דער ערשטער שרייבער-, זשורנאַליסטן- און אַרטיסטן-פאַריין אין פּױלן"
+            },
+            {
+              "recordId": "event_candidate_951e6c11a0be33c4030b9d51",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Organization of the first Hebrew theater troupe",
+              "summary": "The first Hebrew theater troupe was organized in Lodz and later toured Russia.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 81,
+              "printedPage": "77",
+              "passageId": "passage_b13e883d2f984a158083d0c0",
+              "quote": "פון דאָ איז אָרגאניזירט געװאָרו די ערשטע העברעישע טרופע"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_ghetto_society",
+      "theme": "OCCUPATION_GHETTO",
+      "title": "How did occupation transform everyday life?",
+      "description": "This path follows the transition from invasion to confinement, hunger, forced labor, administrative control, and cultural survival. Readers will learn how the ghetto was both a system of persecution and a place where people continued to work, teach, create, and care for one another.",
+      "question": "How did German rule reshape Łódź Jewish life?",
+      "steps": [
+        {
+          "title": "Invasion and the tearing apart of families",
+          "summary": "The memorial book recalls Hitler’s army entering Łódź and young Jewish men fleeing toward Russia. It describes Jewish family life as rapidly torn apart by persecution, establishing the violent rupture between prewar life and occupation. [event_candidate_47edb3593260c946d0ba7b0f, mention_ea3c53dc97a60fa0714ccdeb]",
+          "recordIds": [
+            "event_candidate_47edb3593260c946d0ba7b0f",
+            "mention_ea3c53dc97a60fa0714ccdeb"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_47edb3593260c946d0ba7b0f",
+              "kind": "event",
+              "type": "MILITARY_SERVICE",
+              "title": "Hitler's army marches into Lodz",
+              "summary": "Hitler's army marched into Lodz, after which young Jewish men fled toward Russia.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 128,
+              "printedPage": "124",
+              "passageId": "passage_116493d1b30d4ec0500d1308",
+              "quote": "די היטלער-אַרמײ האָט אריינמאַרשירט קיין לאָדזש"
+            },
+            {
+              "recordId": "mention_ea3c53dc97a60fa0714ccdeb",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Jewish family",
+              "summary": "Jewish family life was rapidly separated and torn apart by persecution.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 128,
+              "printedPage": "124",
+              "passageId": "passage_116493d1b30d4ec0500d1308",
+              "quote": "צעריסן ייריש משפּחה-לעבן"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Confinement and imposed administration",
+          "summary": "By April 1940, Moshe Tafel had entered the Łódź ghetto, where access and communication were controlled and Jewish police were described as serving German power. The ghetto’s administration, including Rumkowski and the Jewish Order Service, became part of a coercive system that governed residents’ lives. [event_candidate_8ed6f5a3b491d2233705d959, mention_8e435081c21e60a50e8876c9, mention_e5bc6c228626d9a4dcc58c8e, mention_094aebbfd408c408ac700bb4]",
+          "recordIds": [
+            "event_candidate_8ed6f5a3b491d2233705d959",
+            "mention_8e435081c21e60a50e8876c9",
+            "mention_e5bc6c228626d9a4dcc58c8e",
+            "mention_094aebbfd408c408ac700bb4"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_8ed6f5a3b491d2233705d959",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Moshe Tafel enters the Łódź ghetto",
+              "summary": "Moshe Tafel entered the Łódź ghetto in April 1940; the wording about entering together with others is OCR-unclear.",
+              "dateStart": "1940-04",
+              "dateEnd": "",
+              "scanIndex": 140,
+              "printedPage": "136",
+              "passageId": "passage_3c35317ced270e676f0dead7",
+              "quote": "אין אפּריל 1940, איז ער גלייך מיט אלע גענאַנגען אין געטאָ"
+            },
+            {
+              "recordId": "mention_8e435081c21e60a50e8876c9",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Lodz Ghetto",
+              "summary": "Ghetto whose administration controlled access and communications.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 99,
+              "printedPage": "95",
+              "passageId": "passage_c99ec0a963d3fb99f5f4c0a7",
+              "quote": "די צייטונג, װאָס האָט טאַקע געהייסן: ,געטאָ- צייטונג\","
+            },
+            {
+              "recordId": "mention_e5bc6c228626d9a4dcc58c8e",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Jewish police",
+              "summary": "Jewish police described as serving the Germans.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 153,
+              "printedPage": "149",
+              "passageId": "passage_7e54f0a68719daab6680cf0f",
+              "quote": "די יידישע פּאַליצֵיי אין אַ ווערקצייג פון די דייטשן"
+            },
+            {
+              "recordId": "mention_094aebbfd408c408ac700bb4",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Jewish Order Service",
+              "summary": "Ghetto police expected to assist Rumkowski in carrying out the order.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 121,
+              "printedPage": "117",
+              "passageId": "passage_91501a92d68d1902ba12f1d1",
+              "quote": "מיט דער הילף פון דער יידישער אָרדנונגס-דינסט"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Labor as survival and control",
+          "summary": "Thousands of young people registered for work outside the ghetto, while workshops expanded into varied trades and began taking orders from the outside world. Work could provide a reason for survival, but German roundups and forced labor also exposed residents to assault and removal. [event_candidate_5cae91e5a7c9d4f6f17c002c, event_candidate_fd132d35212a28ea43370f3c, event_candidate_40969dfc8d44bf13707cd010]",
+          "recordIds": [
+            "event_candidate_5cae91e5a7c9d4f6f17c002c",
+            "event_candidate_fd132d35212a28ea43370f3c",
+            "event_candidate_40969dfc8d44bf13707cd010"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_5cae91e5a7c9d4f6f17c002c",
+              "kind": "event",
+              "type": "EMPLOYMENT",
+              "title": "Registration for work outside the ghetto",
+              "summary": "Thousands of young people registered for work outside the ghetto during the first winter.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 115,
+              "printedPage": "111",
+              "passageId": "passage_8644cbcbe522b5726b0c172e",
+              "quote": "טויזנטער יונגע מענטשן פאַרשריבן אויף אַרבעט מחוץ דעם געטאָ"
+            },
+            {
+              "recordId": "event_candidate_fd132d35212a28ea43370f3c",
+              "kind": "event",
+              "type": "BUSINESS_DEVELOPMENT",
+              "title": "Expansion of ghetto workshops",
+              "summary": "Ghetto workshops gradually began accepting work from the outside world and diversified into various trades.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 115,
+              "printedPage": "111",
+              "passageId": "passage_6c846448db9a477d615361a1",
+              "quote": "מיטן פריליננ איז אויך געקומען א פארבעסערונג אין דער לאַנע פון אַרבעט אין געטאָ"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Hunger, children, and deportation",
+          "summary": "The book identifies May through September 1942 as the ghetto’s hardest period because of severe hunger, while children and older people faced registration, searches, and removal. It also records deportations and the arrival of Jews from Germany, Austria, Czechia, and nearby Polish towns, showing the ghetto’s changing population and mounting danger. [event_candidate_e0e15c252f7b41add3dddfed, event_candidate_7b5da38c0faf06f0ebb46aa4, event_candidate_bd7c0a36736a7e7c391ef012, event_candidate_8c7e6e9932529953550d463d]",
+          "recordIds": [
+            "event_candidate_e0e15c252f7b41add3dddfed",
+            "event_candidate_7b5da38c0faf06f0ebb46aa4",
+            "event_candidate_bd7c0a36736a7e7c391ef012",
+            "event_candidate_8c7e6e9932529953550d463d"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_e0e15c252f7b41add3dddfed",
+              "kind": "event",
+              "type": "DEATH",
+              "title": "Hardest period in the Lodz ghetto",
+              "summary": "May through September 1942 was described as the ghetto’s hardest period because of severe hunger.",
+              "dateStart": "1942-05",
+              "dateEnd": "1942-09",
+              "scanIndex": 120,
+              "printedPage": "116",
+              "passageId": "passage_3caf671510e03f7c740e439f",
+              "quote": "דער פּעריאָד פון מאי ביז סעפּטעמבער 1942 איז אין לאָדזשער געטאָ געווען דער סאמע שװערסטער"
+            },
+            {
+              "recordId": "event_candidate_7b5da38c0faf06f0ebb46aa4",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Search operation and removal of vulnerable residents",
+              "summary": "Quarter sections were closed and systematically searched; children and elderly people were taken away.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 104,
+              "printedPage": "100",
+              "passageId": "passage_588613ee677ffab3e9f06f69",
+              "quote": "דאָס אָפּשליסן קװואַרטאַלן און זיי סיסטעמאַטיש דורכזוכן און צונעמען די קינדער אוֹן זקנים"
+            },
+            {
+              "recordId": "event_candidate_bd7c0a36736a7e7c391ef012",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Deportation of refugees to the ghetto",
+              "summary": "Refugees from Germany, Austria, and Czechia were sent to an industrial city and entered the ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 116,
+              "printedPage": "112",
+              "passageId": "passage_e00bada5dab1844b68341ac9",
+              "quote": "פון דייטשלאַנד, עסטרייך און טשעכיע זענען זיי פארשיקט"
+            },
+            {
+              "recordId": "event_candidate_8c7e6e9932529953550d463d",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Transport of Polish Jews into the ghetto",
+              "summary": "Polish Jews from nearby towns were transported into the ghetto after deportations stopped.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 120,
+              "printedPage": "116",
+              "passageId": "passage_a20e06ce88da64545ede5ee2",
+              "quote": "דאָס מאָל זענען עס געווען פּוילישע יידן פון די ארומיקע שטעט"
+            }
+          ],
+          "position": 4
+        },
+        {
+          "title": "Culture under confinement",
+          "summary": "Even under ghetto conditions, libraries, music, theater, and youth activities continued. The Zonenberg Library reportedly held 7,800 volumes and had 4,000 regular readers, while the Hazamir choir and orchestra lasted until deportations or German confiscation ended them. [mention_f5b17aae08f5beb113f04a8d, mention_b22c7605aadc6fdef4fcf24a, event_candidate_8a46da5fcfdbf0ec7aa7304b, event_candidate_8b723a9306f1200b4bcf33db]",
+          "recordIds": [
+            "mention_f5b17aae08f5beb113f04a8d",
+            "mention_b22c7605aadc6fdef4fcf24a",
+            "event_candidate_8a46da5fcfdbf0ec7aa7304b",
+            "event_candidate_8b723a9306f1200b4bcf33db"
+          ],
+          "records": [
+            {
+              "recordId": "mention_f5b17aae08f5beb113f04a8d",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Zonenberg Library",
+              "summary": "Ghetto library holding 7,800 volumes and serving 4,000 regular readers.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 138,
+              "printedPage": "134",
+              "passageId": "passage_8e336e7c3efc1ea5b9b92fc8",
+              "quote": "ביי דער זאָנענבערג ביבליאָטעק"
+            },
+            {
+              "recordId": "mention_b22c7605aadc6fdef4fcf24a",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Lodz Ghetto",
+              "summary": "Ghetto setting for musical institutions and cultural activity.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 137,
+              "printedPage": "133",
+              "passageId": "passage_ed0404b21443a47356d90da7",
+              "quote": "קולטור- לֶעבן אין געטאָ"
+            },
+            {
+              "recordId": "event_candidate_8a46da5fcfdbf0ec7aa7304b",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Children protest punishment over withheld lunch",
+              "summary": "Children refused lunch to protest a teacher withholding a girl's meal.",
+              "dateStart": "1943-11-24",
+              "dateEnd": "",
+              "scanIndex": 172,
+              "printedPage": "168",
+              "passageId": "passage_1ed49da1541b5d1d8b480420",
+              "quote": "די קינדער האָבן באַשלאָסן צו פּראָטעסטירן קעגן דעם"
+            },
+            {
+              "recordId": "event_candidate_8b723a9306f1200b4bcf33db",
+              "kind": "event",
+              "type": "DEATH",
+              "title": "Cessation of the ghetto orchestra",
+              "summary": "The orchestra ceased to exist after Germans confiscated all musical instruments in early 1944.",
+              "dateStart": "1944",
+              "dateEnd": "",
+              "scanIndex": 137,
+              "printedPage": "133",
+              "passageId": "passage_ed0404b21443a47356d90da7",
+              "quote": "דער אַרקעסטער האָט אויפגעהערט צו עקזיסטירן"
+            }
+          ],
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "path_destruction_resistance",
+      "theme": "DEPORTATION_MURDER",
+      "title": "How did destruction unfold, and how did people resist?",
+      "description": "This path moves from deportation transports and mass murder to individual acts of defiance, hiding, and rescue. It presents the memorial book’s testimony as a record of both organized destruction and people’s attempts to protect life and dignity.",
+      "question": "What happened to the ghetto’s people, and what forms of resistance were possible?",
+      "steps": [
+        {
+          "title": "The transports began",
+          "summary": "The book records a first transport to Chełmno from Radegast station on 16 January 1942 and a final transport numbered 80 on 2 April 1942. A letter remembered by Rabbi Silman reported that people were being killed at Chełmno, giving the transports a deadly meaning within the testimony. [event_candidate_ef9a382830d1e81483ff3cfe, event_candidate_3c108d9977067d6bac81e9aa, mention_2c34ecfa7c45761d21a7d3a5, event_candidate_bdb59e94ebd2aff16241d566]",
+          "recordIds": [
+            "event_candidate_ef9a382830d1e81483ff3cfe",
+            "event_candidate_3c108d9977067d6bac81e9aa",
+            "mention_2c34ecfa7c45761d21a7d3a5",
+            "event_candidate_bdb59e94ebd2aff16241d566"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_ef9a382830d1e81483ff3cfe",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "First transport to Chelmno",
+              "summary": "The first transport to Chelmno departed on 16 January 1942 from Radegast station.",
+              "dateStart": "1942-01-16",
+              "dateEnd": "1942-01-16",
+              "scanIndex": 101,
+              "printedPage": "97",
+              "passageId": "passage_4bf6fd06e1ce02c86d90d860",
+              "quote": "דער ערשטער טראַנספּאָרט קיין כעלמנאָ איז אָפּנעגאַנגען דעם 16 יאַנואַר 1942"
+            },
+            {
+              "recordId": "event_candidate_3c108d9977067d6bac81e9aa",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Final transport from the Lodz Ghetto",
+              "summary": "The final transport, numbered 80, departed the ghetto on 2 April 1942.",
+              "dateStart": "1942-04-02",
+              "dateEnd": "1942-04-02",
+              "scanIndex": 101,
+              "printedPage": "97",
+              "passageId": "passage_f25434e00fe2e7d2001959b5",
+              "quote": "דעם 2 אַפּרי? 1942 איז פון געטאָ אָפּנענאַנגען דער לעצטער טראנספּאָרט, נר. 80"
+            },
+            {
+              "recordId": "mention_2c34ecfa7c45761d21a7d3a5",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Rabbi Silman",
+              "summary": "A rabbi who sent a letter describing killings in Chelmno.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 103,
+              "printedPage": "99",
+              "passageId": "passage_cf21cbe6be6088f78c45cc09",
+              "quote": "דער רב סילמאַן האָט צו זיינעם א פריינד געשיקט א בריוול"
+            },
+            {
+              "recordId": "event_candidate_bdb59e94ebd2aff16241d566",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Killings at Chelmno",
+              "summary": "A letter reported that people were being killed in Chelmno village.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 103,
+              "printedPage": "99",
+              "passageId": "passage_cf21cbe6be6088f78c45cc09",
+              "quote": "אַז אין דאָרף כעלמנאָ ברענגט מען אום מענטשן"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Murder and evacuation",
+          "summary": "The memorial book reports that approximately 8,000 people, probably whole families, were secretly murdered and disappeared from the ghetto. It also records mass killing at Chełmno in June and July 1944 and the beginning of ghetto evacuation on 8 August 1944. [event_candidate_97863709c39687e712923a0c, event_candidate_3deb2247cfe4795a669dd15e, event_candidate_3ba16a9f6f6dc65d01dd4c61]",
+          "recordIds": [
+            "event_candidate_97863709c39687e712923a0c",
+            "event_candidate_3deb2247cfe4795a669dd15e",
+            "event_candidate_3ba16a9f6f6dc65d01dd4c61"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_97863709c39687e712923a0c",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Murder of an approximately 8,000-person group",
+              "summary": "Approximately 8,000 people, probably entire families, were secretly murdered and disappeared from the ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 118,
+              "printedPage": "114",
+              "passageId": "passage_ebb7b297c659857fde358315",
+              "quote": "שטילער- הייט זענען זיי אויסגעמאַרדעט געװאָרן"
+            },
+            {
+              "recordId": "event_candidate_3deb2247cfe4795a669dd15e",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Mass killing at Chełmno",
+              "summary": "7,176 Jews were killed at Chełmno from June 23 through July 14, 1944.",
+              "dateStart": "1944-06-23",
+              "dateEnd": "1944-07-14",
+              "scanIndex": 105,
+              "printedPage": "101",
+              "passageId": "passage_38492f429114de9944fd5d26",
+              "quote": "פון 23 יוני ביזן 14 יולי 1944, זענען 7.176 יידן אומגעבראכט געװאָרן אין בעלמנאָ"
+            },
+            {
+              "recordId": "event_candidate_3ba16a9f6f6dc65d01dd4c61",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Ghetto evacuation",
+              "summary": "The ghetto population was evacuated beginning August 8, 1944.",
+              "dateStart": "1944-08-08",
+              "dateEnd": "",
+              "scanIndex": 105,
+              "printedPage": "101",
+              "passageId": "passage_38492f429114de9944fd5d26",
+              "quote": "דעם 8 אויגוסט 1944 זענען אין געטאָ אריין , געשטאַפּאָ? און , שופּאַ\" אָנצופירן מיט דער עװאַקואַציע"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Defiance in the ghetto",
+          "summary": "Resistance included demonstrations against Rumkowski’s administration, a September 1940 tailors’ strike, and children’s collective protest over a withheld lunch. These episodes show that coercion did not eliminate disagreement, solidarity, or the capacity to act together. [event_candidate_1976358b4e30ef25ed1bfbdc, event_candidate_a8ce5bdd9ca20d8f58582d4a, event_candidate_8a46da5fcfdbf0ec7aa7304b]",
+          "recordIds": [
+            "event_candidate_1976358b4e30ef25ed1bfbdc",
+            "event_candidate_a8ce5bdd9ca20d8f58582d4a",
+            "event_candidate_8a46da5fcfdbf0ec7aa7304b"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_1976358b4e30ef25ed1bfbdc",
+              "kind": "event",
+              "type": "EMPLOYMENT",
+              "title": "Tailors’ workshop strike",
+              "summary": "A strike occurred at the tailors’ workshop in September 1940.",
+              "dateStart": "1940-09",
+              "dateEnd": "1940-09",
+              "scanIndex": 97,
+              "printedPage": "93",
+              "passageId": "passage_8191e6ed663c8e4ebeb0b98d",
+              "quote": "סעפּטעמבער 1940 -- זיץ- שטרייק פון שניידער-רעסאָרט"
+            },
+            {
+              "recordId": "event_candidate_a8ce5bdd9ca20d8f58582d4a",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "February 1941 ghetto demonstration",
+              "summary": "About 4,100 people demonstrated against Rumkowski’s administration; arrests followed.",
+              "dateStart": "1941-02",
+              "dateEnd": "1941-02",
+              "scanIndex": 97,
+              "printedPage": "93",
+              "passageId": "passage_8191e6ed663c8e4ebeb0b98d",
+              "quote": "א שטורמישע דעמאָנסטראציע פון ארום 4100 מענטשן"
+            },
+            {
+              "recordId": "event_candidate_8a46da5fcfdbf0ec7aa7304b",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Children protest punishment over withheld lunch",
+              "summary": "Children refused lunch to protest a teacher withholding a girl's meal.",
+              "dateStart": "1943-11-24",
+              "dateEnd": "",
+              "scanIndex": 172,
+              "printedPage": "168",
+              "passageId": "passage_1ed49da1541b5d1d8b480420",
+              "quote": "די קינדער האָבן באַשלאָסן צו פּראָטעסטירן קעגן דעם"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Hiding and rescue",
+          "summary": "Jakub Pazuanski, his wife, and daughter hid for ten weeks at Papir Resort, while Dr. Weisskopf hid in a bunker and attacked ghetto commandant Hans Bibow with his bare hands. The book also recalls efforts to save orphan children from deportation to the Chełmno gas chambers. [event_candidate_563a095a52d4fbd1783d94e6, event_candidate_03006de35cf24d736d1a2e26, mention_f85f2965f3ea71d443cd3781, mention_86493492c8cb02c4ed0ff122]",
+          "recordIds": [
+            "event_candidate_563a095a52d4fbd1783d94e6",
+            "event_candidate_03006de35cf24d736d1a2e26",
+            "mention_f85f2965f3ea71d443cd3781",
+            "mention_86493492c8cb02c4ed0ff122"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_563a095a52d4fbd1783d94e6",
+              "kind": "event",
+              "type": "HIDING",
+              "title": "Hiding of the Pazuanski family",
+              "summary": "Jakub Pazuanski, his wife, and daughter hid in a shelter at Papir Resort for ten weeks.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 174,
+              "printedPage": "170",
+              "passageId": "passage_c529f56e4b37b5769db2b5fb",
+              "quote": "10 װשָכן האָבן זײ זיך געפונען אין א באַהעלטעניש"
+            },
+            {
+              "recordId": "event_candidate_03006de35cf24d736d1a2e26",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Dr. Weisskopf attacks Bibow",
+              "summary": "Dr. Weisskopf attacked Bibow with bare hands during the bunker inspection.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 127,
+              "printedPage": "123",
+              "passageId": "passage_782a26cffb562130883d8a00",
+              "quote": "ד\"ר װײיסקאָפּ זיך געװאָרפן אויף ביבאָוון מיט ליידיקע הענט"
+            },
+            {
+              "recordId": "mention_f85f2965f3ea71d443cd3781",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Maryshiner Colony",
+              "summary": "A colony whose orphan children were reportedly rescued from deportation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 134,
+              "printedPage": "130",
+              "passageId": "passage_b82e6f9d8d8db1d5ebe3fb56",
+              "quote": "הונדערט יתומים- קינדער פון מאַרישינער קאַלאָניע"
+            },
+            {
+              "recordId": "mention_86493492c8cb02c4ed0ff122",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Chełmno gas chambers",
+              "summary": "The gas chambers to which orphan children were nearly sent.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 134,
+              "printedPage": "130",
+              "passageId": "passage_b82e6f9d8d8db1d5ebe3fb56",
+              "quote": "צו די כעלמנער גאַז- קאַמערן"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_survival_afterlife",
+      "theme": "SURVIVAL_AFTERLIFE",
+      "title": "What did survival and rebuilding look like after the destruction?",
+      "description": "This path follows liberation, displacement, migration, communal reconstruction, and the preservation of testimony. Readers will see that survival was not a single ending but a long process involving illness, family loss, new homes, institutions, and public memory.",
+      "question": "How did survivors rebuild lives and remember Łódź?",
+      "steps": [
+        {
+          "title": "Liberation amid loss",
+          "summary": "The memorial book describes people being liberated individually in the Łódź ghetto and another narrator being saved after a Russian advance guard caused German forces to flee. Other testimony records parents dying of hunger, showing that liberation came amid profound physical and family loss. [event_candidate_cde5c376c6951e98c772283d, event_candidate_908e3fbd9a4d0c0a9699f388, event_candidate_acf67891bc8bc4eceee4a30f]",
+          "recordIds": [
+            "event_candidate_cde5c376c6951e98c772283d",
+            "event_candidate_908e3fbd9a4d0c0a9699f388",
+            "event_candidate_acf67891bc8bc4eceee4a30f"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_cde5c376c6951e98c772283d",
+              "kind": "event",
+              "type": "LIBERATION",
+              "title": "Liberation of Lodz Ghetto",
+              "summary": "Jews were liberated in the Lodz Ghetto, mostly individually.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 127,
+              "printedPage": "123",
+              "passageId": "passage_d8354dc06e3447f25d40d7c8",
+              "quote": "אָט די יידן זענען באַפרייט געװאָרן ממש אין געטאָ"
+            },
+            {
+              "recordId": "event_candidate_908e3fbd9a4d0c0a9699f388",
+              "kind": "event",
+              "type": "LIBERATION",
+              "title": "Rescue after German flight",
+              "summary": "A Russian advance guard caused the Germans to flee, saving the remaining people.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 160,
+              "printedPage": "156",
+              "passageId": "passage_f28a7a0d573a516f1f817279",
+              "quote": "מיר זענען געראַטעװעט געװאָרן"
+            },
+            {
+              "recordId": "event_candidate_acf67891bc8bc4eceee4a30f",
+              "kind": "event",
+              "type": "DEATH",
+              "title": "Deaths of the narrator’s parents",
+              "summary": "The narrator’s parents died of hunger.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 161,
+              "printedPage": "157",
+              "passageId": "passage_471f6207342095188d832d43",
+              "quote": "מיינע עלטערן זענען געשטאָרבן פון הונגער."
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Displacement and new lives",
+          "summary": "Survivors moved through camps and countries: one account reaches liberation on 18 April 1948, while H. Rozhaner settled in Melbourne in 1952 and continued practicing medicine. These accounts show survival as both recovery from persecution and the creation of lives far from Łódź. [event_candidate_adb0dbff4b60305e6a0e4b2d, event_candidate_11c768e1ee86d431e94c6e6b, event_candidate_14ed52d6a0e529b6d24c8082]",
+          "recordIds": [
+            "event_candidate_adb0dbff4b60305e6a0e4b2d",
+            "event_candidate_11c768e1ee86d431e94c6e6b",
+            "event_candidate_14ed52d6a0e529b6d24c8082"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_adb0dbff4b60305e6a0e4b2d",
+              "kind": "event",
+              "type": "LIBERATION",
+              "title": "Liberation",
+              "summary": "The narrator and others were liberated on April 18, 1948.",
+              "dateStart": "1948-04-18",
+              "dateEnd": "",
+              "scanIndex": 156,
+              "printedPage": "152",
+              "passageId": "passage_2e71ff899e05856b3f2bcefe",
+              "quote": "דאָס האָט אזוי אָנגעהאַלטן ביז דעם 18טן אפּריל 1948, ווען מיר זענען באפרייט געװאָרן"
+            },
+            {
+              "recordId": "event_candidate_11c768e1ee86d431e94c6e6b",
+              "kind": "event",
+              "type": "ARRIVAL",
+              "title": "Arrival of English military",
+              "summary": "English military arrived in trucks after camp supervisors fled and returned.",
+              "dateStart": "1948-04-18",
+              "dateEnd": "",
+              "scanIndex": 157,
+              "printedPage": "153",
+              "passageId": "passage_dc4f31554a2a88fd92087f43",
+              "quote": "דעם 18טן אַפּריל?ל 1948 זענען אָנגעקומען לאַסט- אויטאָס מיט עננליש מיליטער."
+            },
+            {
+              "recordId": "event_candidate_14ed52d6a0e529b6d24c8082",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Rozhaner settles in Melbourne",
+              "summary": "Rozhaner settled in Melbourne in 1952 and continued working as a doctor.",
+              "dateStart": "1952",
+              "dateEnd": "",
+              "scanIndex": 51,
+              "printedPage": "47",
+              "passageId": "passage_18c11d7dbd0909cb75d9435c",
+              "quote": "אין יאָר 1952 האָט זיך דײר רוזשאַנער באַזעצט אין מעל' בורן"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Rebuilding communal institutions",
+          "summary": "After the war, Jewish committees registered residents, provided assistance, supervised children’s return from temporary foster families, and maintained a Jewish school. The Lodz Jewish Committee also participated in wider Jewish political and commemorative activity, demonstrating organized efforts to restore communal life. [mention_adee288c5b0375409115da23, mention_39f97c267d57b455d24153e6, mention_e0cd15e58cac1931a2ea777b, mention_15e71dc700451ce62a2ac9c8]",
+          "recordIds": [
+            "mention_adee288c5b0375409115da23",
+            "mention_39f97c267d57b455d24153e6",
+            "mention_e0cd15e58cac1931a2ea777b",
+            "mention_15e71dc700451ce62a2ac9c8"
+          ],
+          "records": [
+            {
+              "recordId": "mention_adee288c5b0375409115da23",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Jewish Committee",
+              "summary": "The Jewish Committee registered residents and provided assistance to eligible registrants.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 194,
+              "printedPage": "190",
+              "passageId": "passage_c90cd547dce5cbc3d3401292",
+              "quote": "זיך צו רעגיסטרירן אין יידישן קאָמיטעט"
+            },
+            {
+              "recordId": "mention_39f97c267d57b455d24153e6",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Jewish committees",
+              "summary": "Jewish committees supervised the return of children from temporary foster families.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 194,
+              "printedPage": "190",
+              "passageId": "passage_5b02e8d16bf30ab656d36244",
+              "quote": "אונטערן אויפזיכט פון די יירישע קאָמיטעטן"
+            },
+            {
+              "recordId": "mention_e0cd15e58cac1931a2ea777b",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Jewish Committee",
+              "summary": "Committee that maintained a Jewish school.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 194,
+              "printedPage": "190",
+              "passageId": "passage_484f35157437125ce8352093",
+              "quote": "דער יידישער קאָמיטעט האָט אויסגעהאַלטן"
+            },
+            {
+              "recordId": "mention_15e71dc700451ce62a2ac9c8",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Lodz Jewish Committee",
+              "summary": "Committee holding a plenary meeting to determine the delegation's composition.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 197,
+              "printedPage": "193",
+              "passageId": "passage_16a9a3541902df96e9f42d95",
+              "quote": "דער לאָדזשער יידישער קאָמיטעט"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Recording what happened",
+          "summary": "Two Łódź Jewish writers worked in ghetto archives, while the German ghetto administration archive and other publications became sources for reconstructing the past. The memorial book therefore preserves not only memories of individuals but also efforts to document a destroyed society. [mention_4ebb8a62344074252650c48a, mention_137adae58b19ba89440e4deb, mention_5203e73a713be5114b517271]",
+          "recordIds": [
+            "mention_4ebb8a62344074252650c48a",
+            "mention_137adae58b19ba89440e4deb",
+            "mention_5203e73a713be5114b517271"
+          ],
+          "records": [
+            {
+              "recordId": "mention_4ebb8a62344074252650c48a",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Ghetto archive work",
+              "summary": "Opoczynski and Zelkowicz worked in Warsaw and Lodz ghetto archives.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 169,
+              "printedPage": "165",
+              "passageId": "passage_4a3557d442e67a9d45e39548",
+              "quote": "אין דער געטאַ-תקופה האָבן ביידע נעאַרבעט אין געטאָ-אַרכיוון"
+            },
+            {
+              "recordId": "mention_137adae58b19ba89440e4deb",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Archive of the German Ghetto Administration",
+              "summary": "Archive of the German ghetto administration mentioned as a source.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 93,
+              "printedPage": "89",
+              "passageId": "passage_62aed5fb77430e3a467fa20a",
+              "quote": "דער אַרכיוו פון דער דייטשער געטאָ-פאַרװאַלטונג"
+            },
+            {
+              "recordId": "mention_5203e73a713be5114b517271",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Lodz Jewish writers",
+              "summary": "Two Jewish Lodz writers whose ghetto archival work produced valuable reportage and records.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 170,
+              "printedPage": "166",
+              "passageId": "passage_d02ba4046917cee344b91a03",
+              "quote": "ביידע יידישע לאָדזשער שרייבער"
+            }
+          ],
+          "position": 4
+        },
+        {
+          "title": "Public remembrance",
+          "summary": "The book recalls that the liquidation of the Łódź ghetto was not publicly commemorated by Łódź Jews in one period, while an annual Warsaw Ghetto Uprising commemoration served to express mourning for Łódź Jewry. A monument to the martyrs of Łódź was finally unveiled on 27 September 1989, making remembrance a visible public act. [mention_75cb0be5ce05b75202639959, mention_d31d4af9635c66dab8085c1f, event_candidate_b7f9e5bf11dc6c9ab1de73d7]",
+          "recordIds": [
+            "mention_75cb0be5ce05b75202639959",
+            "mention_d31d4af9635c66dab8085c1f",
+            "event_candidate_b7f9e5bf11dc6c9ab1de73d7"
+          ],
+          "records": [
+            {
+              "recordId": "mention_75cb0be5ce05b75202639959",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Lodz Ghetto",
+              "summary": "The ghetto whose liquidation was not publicly commemorated by Lodz Jews.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 196,
+              "printedPage": "192",
+              "passageId": "passage_d0c3c064482813e229e5f322",
+              "quote": "די ליקוידאציע פון לאָדזשער געטאָ"
+            },
+            {
+              "recordId": "mention_d31d4af9635c66dab8085c1f",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Warsaw Ghetto Uprising Anniversary",
+              "summary": "An annual commemoration used to express mourning for Lodz Jewry.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 196,
+              "printedPage": "192",
+              "passageId": "passage_d0c3c064482813e229e5f322",
+              "quote": "דער יאָרצייט פון װאַרשעװוער געטאָ-אױפשטאַנד"
+            },
+            {
+              "recordId": "event_candidate_b7f9e5bf11dc6c9ab1de73d7",
+              "kind": "event",
+              "type": "LIBERATION",
+              "title": "Unveiling of the Lodz martyrs monument",
+              "summary": "The monument commemorating Lodz martyrs was unveiled on 27 September 1989.",
+              "dateStart": "1989-09-27",
+              "dateEnd": "1989-09-27",
+              "scanIndex": 204,
+              "printedPage": "200",
+              "passageId": "passage_80f8aecca87bc3deb685dbd6",
+              "quote": "דעם 27טן פעפּטעמבער 1989 איז דער מאָנומענט לזכר די קדושים פון לאָדזש אַנטהילט געװאָרן"
+            }
+          ],
+          "position": 5
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "periodStart": "Before 1939",
+      "periodEnd": "Before 1939",
+      "dateLabel": "Before 1939",
+      "title": "A large Jewish community in Łódź",
+      "summary": "The memorial book describes nearly a quarter of a million Jews in Łódź before 1939, living in a multiethnic city and participating in industry, commerce, medicine, education, religion, and culture. [mention_359e7216d59a25e03734a45f, mention_52c4993a757aa955cfb73afd, mention_f3cb15f27be5748231c78657]",
+      "recordIds": [
+        "mention_359e7216d59a25e03734a45f",
+        "mention_52c4993a757aa955cfb73afd",
+        "mention_f3cb15f27be5748231c78657"
+      ],
+      "records": [
+        {
+          "recordId": "mention_359e7216d59a25e03734a45f",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jewish community of Lodz",
+          "summary": "A nearly quarter-million-member Jewish community existed in Lodz before 1939.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 55,
+          "printedPage": "51",
+          "passageId": "passage_b7903cb46b8e3b6b970f5a8f",
+          "quote": "דער דאָזיקער, קרוב פערטל-מיליאָניקער יידישער קיבוץ"
+        },
+        {
+          "recordId": "mention_52c4993a757aa955cfb73afd",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jews",
+          "summary": "A major population involved in Lodz industry and commerce, with significant poverty.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 62,
+          "printedPage": "58",
+          "passageId": "passage_aee8d923d12537220ccdfa85",
+          "quote": "יידן און דייטשן האָבן אויס- געמאַכט קנאַפּע 40 פּראָצענט פון דער באַפעלקערונג"
+        },
+        {
+          "recordId": "mention_f3cb15f27be5748231c78657",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jews of Lodz",
+          "summary": "The Jews of Lodz created exemplary educational, medical, eldercare, and childcare institutions.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 56,
+          "printedPage": "52",
+          "passageId": "passage_6b230dafeb3fe02a6d597b55",
+          "quote": "די יידן פון לאָרזש"
+        }
+      ],
+      "position": 1
+    },
+    {
+      "periodStart": "1939-09-01",
+      "periodEnd": "1939-09-01",
+      "dateLabel": "September 1939",
+      "title": "German invasion and the beginning of persecution",
+      "summary": "The book recalls Hitler’s army entering Łódź, after which young Jewish men fled toward Russia. It also records the hanging of eight people by Germans on 9 November 1939. [event_candidate_47edb3593260c946d0ba7b0f, event_candidate_ee02cc6015505c14b4072655]",
+      "recordIds": [
+        "event_candidate_47edb3593260c946d0ba7b0f",
+        "event_candidate_ee02cc6015505c14b4072655"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_47edb3593260c946d0ba7b0f",
+          "kind": "event",
+          "type": "MILITARY_SERVICE",
+          "title": "Hitler's army marches into Lodz",
+          "summary": "Hitler's army marched into Lodz, after which young Jewish men fled toward Russia.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 128,
+          "printedPage": "124",
+          "passageId": "passage_116493d1b30d4ec0500d1308",
+          "quote": "די היטלער-אַרמײ האָט אריינמאַרשירט קיין לאָדזש"
+        },
+        {
+          "recordId": "event_candidate_ee02cc6015505c14b4072655",
+          "kind": "event",
+          "type": "MURDER",
+          "title": "Hanging of eight people",
+          "summary": "Germans hanged eight people without stated reason on November 9, 1939.",
+          "dateStart": "1939-11-09",
+          "dateEnd": "",
+          "scanIndex": 94,
+          "printedPage": "90",
+          "passageId": "passage_b0e1104b2eaffb0f371ea755",
+          "quote": "דעם 9 נאַָוועמבער האָבן די דייטשן אויפגעהאָנגען אָן שום סיבה 8 פּערזאָן"
+        }
+      ],
+      "position": 2
+    },
+    {
+      "periodStart": "1940-04",
+      "periodEnd": "1940-04",
+      "dateLabel": "April 1940",
+      "title": "Entry into the Łódź ghetto",
+      "summary": "Moshe Tafel entered the Łódź ghetto in April 1940, as Jewish residents were confined under German-controlled conditions. [event_candidate_8ed6f5a3b491d2233705d959, mention_8e435081c21e60a50e8876c9]",
+      "recordIds": [
+        "event_candidate_8ed6f5a3b491d2233705d959",
+        "mention_8e435081c21e60a50e8876c9"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_8ed6f5a3b491d2233705d959",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Moshe Tafel enters the Łódź ghetto",
+          "summary": "Moshe Tafel entered the Łódź ghetto in April 1940; the wording about entering together with others is OCR-unclear.",
+          "dateStart": "1940-04",
+          "dateEnd": "",
+          "scanIndex": 140,
+          "printedPage": "136",
+          "passageId": "passage_3c35317ced270e676f0dead7",
+          "quote": "אין אפּריל 1940, איז ער גלייך מיט אלע גענאַנגען אין געטאָ"
+        },
+        {
+          "recordId": "mention_8e435081c21e60a50e8876c9",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Lodz Ghetto",
+          "summary": "Ghetto whose administration controlled access and communications.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 99,
+          "printedPage": "95",
+          "passageId": "passage_c99ec0a963d3fb99f5f4c0a7",
+          "quote": "די צייטונג, װאָס האָט טאַקע געהייסן: ,געטאָ- צייטונג\","
+        }
+      ],
+      "position": 3
+    },
+    {
+      "periodStart": "1940-09",
+      "periodEnd": "1941-03",
+      "dateLabel": "September 1940–March 1941",
+      "title": "Strikes, demonstrations, and cultural disruption",
+      "summary": "A tailors’ strike occurred in September 1940, followed by a February 1941 demonstration against Rumkowski’s administration. The Hazamir choir ended in March 1941 when many members were deported. [event_candidate_1976358b4e30ef25ed1bfbdc, event_candidate_a8ce5bdd9ca20d8f58582d4a, event_candidate_8a46da5fcfdbf0ec7aa7304b]",
+      "recordIds": [
+        "event_candidate_1976358b4e30ef25ed1bfbdc",
+        "event_candidate_a8ce5bdd9ca20d8f58582d4a",
+        "event_candidate_8a46da5fcfdbf0ec7aa7304b"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_1976358b4e30ef25ed1bfbdc",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Tailors’ workshop strike",
+          "summary": "A strike occurred at the tailors’ workshop in September 1940.",
+          "dateStart": "1940-09",
+          "dateEnd": "1940-09",
+          "scanIndex": 97,
+          "printedPage": "93",
+          "passageId": "passage_8191e6ed663c8e4ebeb0b98d",
+          "quote": "סעפּטעמבער 1940 -- זיץ- שטרייק פון שניידער-רעסאָרט"
+        },
+        {
+          "recordId": "event_candidate_a8ce5bdd9ca20d8f58582d4a",
+          "kind": "event",
+          "type": "AKTION_OR_RAID",
+          "title": "February 1941 ghetto demonstration",
+          "summary": "About 4,100 people demonstrated against Rumkowski’s administration; arrests followed.",
+          "dateStart": "1941-02",
+          "dateEnd": "1941-02",
+          "scanIndex": 97,
+          "printedPage": "93",
+          "passageId": "passage_8191e6ed663c8e4ebeb0b98d",
+          "quote": "א שטורמישע דעמאָנסטראציע פון ארום 4100 מענטשן"
+        },
+        {
+          "recordId": "event_candidate_8a46da5fcfdbf0ec7aa7304b",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Children protest punishment over withheld lunch",
+          "summary": "Children refused lunch to protest a teacher withholding a girl's meal.",
+          "dateStart": "1943-11-24",
+          "dateEnd": "",
+          "scanIndex": 172,
+          "printedPage": "168",
+          "passageId": "passage_1ed49da1541b5d1d8b480420",
+          "quote": "די קינדער האָבן באַשלאָסן צו פּראָטעסטירן קעגן דעם"
+        }
+      ],
+      "position": 4
+    },
+    {
+      "periodStart": "1942-01-16",
+      "periodEnd": "1942-04-02",
+      "dateLabel": "January–April 1942",
+      "title": "Transports to Chełmno",
+      "summary": "The first transport to Chełmno departed from Radegast station on 16 January 1942, and the final transport, numbered 80, left on 2 April 1942. [event_candidate_ef9a382830d1e81483ff3cfe, event_candidate_3c108d9977067d6bac81e9aa]",
+      "recordIds": [
+        "event_candidate_ef9a382830d1e81483ff3cfe",
+        "event_candidate_3c108d9977067d6bac81e9aa"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_ef9a382830d1e81483ff3cfe",
+          "kind": "event",
+          "type": "DEPORTATION",
+          "title": "First transport to Chelmno",
+          "summary": "The first transport to Chelmno departed on 16 January 1942 from Radegast station.",
+          "dateStart": "1942-01-16",
+          "dateEnd": "1942-01-16",
+          "scanIndex": 101,
+          "printedPage": "97",
+          "passageId": "passage_4bf6fd06e1ce02c86d90d860",
+          "quote": "דער ערשטער טראַנספּאָרט קיין כעלמנאָ איז אָפּנעגאַנגען דעם 16 יאַנואַר 1942"
+        },
+        {
+          "recordId": "event_candidate_3c108d9977067d6bac81e9aa",
+          "kind": "event",
+          "type": "DEPORTATION",
+          "title": "Final transport from the Lodz Ghetto",
+          "summary": "The final transport, numbered 80, departed the ghetto on 2 April 1942.",
+          "dateStart": "1942-04-02",
+          "dateEnd": "1942-04-02",
+          "scanIndex": 101,
+          "printedPage": "97",
+          "passageId": "passage_f25434e00fe2e7d2001959b5",
+          "quote": "דעם 2 אַפּרי? 1942 איז פון געטאָ אָפּנענאַנגען דער לעצטער טראנספּאָרט, נר. 80"
+        }
+      ],
+      "position": 5
+    },
+    {
+      "periodStart": "1942-05",
+      "periodEnd": "1942-09",
+      "dateLabel": "May–September 1942",
+      "title": "The ghetto’s hardest period",
+      "summary": "The memorial testimony identifies May through September 1942 as the ghetto’s hardest period because of severe hunger. [event_candidate_e0e15c252f7b41add3dddfed]",
+      "recordIds": [
+        "event_candidate_e0e15c252f7b41add3dddfed"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_e0e15c252f7b41add3dddfed",
+          "kind": "event",
+          "type": "DEATH",
+          "title": "Hardest period in the Lodz ghetto",
+          "summary": "May through September 1942 was described as the ghetto’s hardest period because of severe hunger.",
+          "dateStart": "1942-05",
+          "dateEnd": "1942-09",
+          "scanIndex": 120,
+          "printedPage": "116",
+          "passageId": "passage_3caf671510e03f7c740e439f",
+          "quote": "דער פּעריאָד פון מאי ביז סעפּטעמבער 1942 איז אין לאָדזשער געטאָ געווען דער סאמע שװערסטער"
+        }
+      ],
+      "position": 6
+    },
+    {
+      "periodStart": "1944-06-23",
+      "periodEnd": "1944-08-08",
+      "dateLabel": "June–August 1944",
+      "title": "Mass killing and evacuation",
+      "summary": "The book reports that 7,176 Jews were killed at Chełmno from 23 June through 14 July 1944, followed by the beginning of ghetto evacuation on 8 August 1944. [event_candidate_3deb2247cfe4795a669dd15e, event_candidate_3ba16a9f6f6dc65d01dd4c61]",
+      "recordIds": [
+        "event_candidate_3deb2247cfe4795a669dd15e",
+        "event_candidate_3ba16a9f6f6dc65d01dd4c61"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_3deb2247cfe4795a669dd15e",
+          "kind": "event",
+          "type": "MURDER",
+          "title": "Mass killing at Chełmno",
+          "summary": "7,176 Jews were killed at Chełmno from June 23 through July 14, 1944.",
+          "dateStart": "1944-06-23",
+          "dateEnd": "1944-07-14",
+          "scanIndex": 105,
+          "printedPage": "101",
+          "passageId": "passage_38492f429114de9944fd5d26",
+          "quote": "פון 23 יוני ביזן 14 יולי 1944, זענען 7.176 יידן אומגעבראכט געװאָרן אין בעלמנאָ"
+        },
+        {
+          "recordId": "event_candidate_3ba16a9f6f6dc65d01dd4c61",
+          "kind": "event",
+          "type": "DEPORTATION",
+          "title": "Ghetto evacuation",
+          "summary": "The ghetto population was evacuated beginning August 8, 1944.",
+          "dateStart": "1944-08-08",
+          "dateEnd": "",
+          "scanIndex": 105,
+          "printedPage": "101",
+          "passageId": "passage_38492f429114de9944fd5d26",
+          "quote": "דעם 8 אויגוסט 1944 זענען אין געטאָ אריין , געשטאַפּאָ? און , שופּאַ\" אָנצופירן מיט דער עװאַקואַציע"
+        }
+      ],
+      "position": 7
+    },
+    {
+      "periodStart": "1948-04-18",
+      "periodEnd": "1948-04-18",
+      "dateLabel": "18 April 1948",
+      "title": "Liberation and the possibility of rebuilding",
+      "summary": "One survivor’s account dates liberation to 18 April 1948, when English military arrived after camp supervisors fled and returned. [event_candidate_adb0dbff4b60305e6a0e4b2d, event_candidate_11c768e1ee86d431e94c6e6b]",
+      "recordIds": [
+        "event_candidate_adb0dbff4b60305e6a0e4b2d",
+        "event_candidate_11c768e1ee86d431e94c6e6b"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_adb0dbff4b60305e6a0e4b2d",
+          "kind": "event",
+          "type": "LIBERATION",
+          "title": "Liberation",
+          "summary": "The narrator and others were liberated on April 18, 1948.",
+          "dateStart": "1948-04-18",
+          "dateEnd": "",
+          "scanIndex": 156,
+          "printedPage": "152",
+          "passageId": "passage_2e71ff899e05856b3f2bcefe",
+          "quote": "דאָס האָט אזוי אָנגעהאַלטן ביז דעם 18טן אפּריל 1948, ווען מיר זענען באפרייט געװאָרן"
+        },
+        {
+          "recordId": "event_candidate_11c768e1ee86d431e94c6e6b",
+          "kind": "event",
+          "type": "ARRIVAL",
+          "title": "Arrival of English military",
+          "summary": "English military arrived in trucks after camp supervisors fled and returned.",
+          "dateStart": "1948-04-18",
+          "dateEnd": "",
+          "scanIndex": 157,
+          "printedPage": "153",
+          "passageId": "passage_dc4f31554a2a88fd92087f43",
+          "quote": "דעם 18טן אַפּריל?ל 1948 זענען אָנגעקומען לאַסט- אויטאָס מיט עננליש מיליטער."
+        }
+      ],
+      "position": 8
+    },
+    {
+      "periodStart": "1952",
+      "periodEnd": "1952",
+      "dateLabel": "1952",
+      "title": "A survivor establishes a new life in Melbourne",
+      "summary": "H. Rozhaner settled in Melbourne in 1952 and continued working as a doctor, one example of postwar survival and professional rebuilding outside Łódź. [event_candidate_14ed52d6a0e529b6d24c8082]",
+      "recordIds": [
+        "event_candidate_14ed52d6a0e529b6d24c8082"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_14ed52d6a0e529b6d24c8082",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Rozhaner settles in Melbourne",
+          "summary": "Rozhaner settled in Melbourne in 1952 and continued working as a doctor.",
+          "dateStart": "1952",
+          "dateEnd": "",
+          "scanIndex": 51,
+          "printedPage": "47",
+          "passageId": "passage_18c11d7dbd0909cb75d9435c",
+          "quote": "אין יאָר 1952 האָט זיך דײר רוזשאַנער באַזעצט אין מעל' בורן"
+        }
+      ],
+      "position": 9
+    },
+    {
+      "periodStart": "1989-09-27",
+      "periodEnd": "1989-09-27",
+      "dateLabel": "27 September 1989",
+      "title": "Monument to the martyrs of Łódź",
+      "summary": "A monument commemorating the martyrs of Łódź was unveiled on 27 September 1989. [event_candidate_b7f9e5bf11dc6c9ab1de73d7]",
+      "recordIds": [
+        "event_candidate_b7f9e5bf11dc6c9ab1de73d7"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_b7f9e5bf11dc6c9ab1de73d7",
+          "kind": "event",
+          "type": "LIBERATION",
+          "title": "Unveiling of the Lodz martyrs monument",
+          "summary": "The monument commemorating Lodz martyrs was unveiled on 27 September 1989.",
+          "dateStart": "1989-09-27",
+          "dateEnd": "1989-09-27",
+          "scanIndex": 204,
+          "printedPage": "200",
+          "passageId": "passage_80f8aecca87bc3deb685dbd6",
+          "quote": "דעם 27טן פעפּטעמבער 1989 איז דער מאָנומענט לזכר די קדושים פון לאָדזש אַנטהילט געװאָרן"
+        }
+      ],
+      "position": 10
+    }
+  ]
+}

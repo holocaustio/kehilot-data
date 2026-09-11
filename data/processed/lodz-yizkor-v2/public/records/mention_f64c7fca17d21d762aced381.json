@@ -1,0 +1,106 @@
+{
+  "id": "mention_f64c7fca17d21d762aced381",
+  "type": "Organization",
+  "title": "German Gendarmerie",
+  "summary": "German gendarmes searched the house while Tafel was listening to London radio broadcasts.",
+  "originalName": "דייטשע זשאַנדאַרמען",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 141,
+  "printedPage": "137",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police force",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_388c93e19f082dd4128795dc",
+      "pageId": "page_nybc313080_0141",
+      "scanIndex": 141,
+      "leafNumber": 140,
+      "printedPage": "137",
+      "passageCharStart": 555,
+      "passageCharEnd": 578,
+      "normalizedPassageCharStart": 555,
+      "normalizedPassageCharEnd": 578,
+      "pageCharStart": 555,
+      "pageCharEnd": 578,
+      "quote": "צוויי דייטשע זשאנדארמען",
+      "normalizedQuote": "צוויי דייטשע זשאנדארמען",
+      "modelQuote": "צוויי דייטשע זשאנדארמען",
+      "bbox": {
+        "left": 2768,
+        "top": 1417,
+        "right": 3663,
+        "bottom": 1485
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n140/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "74a886a695c274027b9113518e992cb5d7cff79d9dc30cd01f6859ae9e434666",
+      "normalizedPassageChecksum": "0f745d115b15ba37b5bf26dc51afa54222a223167c4b2bd772b8b71ba9090318",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_342d695af3e06925838d105a",
+      "type": "Arrest",
+      "title": "Moshe Tafel arrested at 11 Mlynarske Street",
+      "summary": "Moshe Tafel was arrested at his final radio-installation address.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_984f29c47c834d16cb3446a0",
+        "pageId": "page_nybc313080_0140",
+        "scanIndex": 140,
+        "leafNumber": 139,
+        "printedPage": "136",
+        "passageCharStart": 561,
+        "passageCharEnd": 603,
+        "normalizedPassageCharStart": 561,
+        "normalizedPassageCharEnd": 603,
+        "pageCharStart": 3790,
+        "pageCharEnd": 3832,
+        "quote": "מלינאַרסקע 11 -- װוּ מען\nהאָט אים ארעסטירט",
+        "normalizedQuote": "מלינאַרסקע 11 -- װוּ מען\nהאָט אים ארעסטירט",
+        "modelQuote": "מלינאַרסקע 11 -- װוּ מען האָט אים ארעסטירט",
+        "bbox": {
+          "left": 337,
+          "top": 5608,
+          "right": 2373,
+          "bottom": 5776
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n139/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "6b7f9ca16b523f56f66535c262bea4b38febf093e5ec8b3892314218e7565531",
+        "normalizedPassageChecksum": "29bc2044cb2e39cd95cd31e1140cbedf6e4ed44e7eef25909da887484d96081c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_342d695af3e06925838d105a",
+      "type": "Event",
+      "title": "Moshe Tafel arrested at 11 Mlynarske Street",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_1f832a6921f387f71dd3c326",
+      "type": "Person",
+      "title": "Moshe Tafel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d667c16ab591597b280ee4d5",
+      "type": "Place",
+      "title": "London",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

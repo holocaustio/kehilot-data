@@ -1,0 +1,117 @@
+{
+  "id": "mention_6da05f2149baff7eb87b8cc1",
+  "type": "Place",
+  "title": "10 Brzeziner Street",
+  "summary": "Location assigned for the ghetto printing house.",
+  "originalName": "בזשעזשינער 10",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 83,
+  "printedPage": "79",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "address",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_53d5a3824d5c335599bbc960",
+      "pageId": "page_nybc313080_0083",
+      "scanIndex": 83,
+      "leafNumber": 82,
+      "printedPage": "79",
+      "passageCharStart": 400,
+      "passageCharEnd": 413,
+      "normalizedPassageCharStart": 400,
+      "normalizedPassageCharEnd": 413,
+      "pageCharStart": 2111,
+      "pageCharEnd": 2124,
+      "quote": "בזשעזשינער 10",
+      "normalizedQuote": "בזשעזשינער 10",
+      "modelQuote": "בזשעזשינער 10",
+      "bbox": {
+        "left": 3690,
+        "top": 5069,
+        "right": 4227,
+        "bottom": 5140
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n82/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "e9e51b1d68cd4d850713439aedbfafd6b2919d042e0a4312558ff946780cf695",
+      "normalizedPassageChecksum": "ae908d6794f7abbc2b9e7400c43f11b83098fe23ff30ec263827fbf195cd72de",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_41355d64bd4c1ced2729d55c",
+      "type": "Business Opening",
+      "title": "Ghetto printing house established",
+      "summary": "A Jewish printing house was established in the ghetto after Rumkowski assigned premises.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_53d5a3824d5c335599bbc960",
+        "pageId": "page_nybc313080_0083",
+        "scanIndex": 83,
+        "leafNumber": 82,
+        "printedPage": "79",
+        "passageCharStart": 355,
+        "passageCharEnd": 413,
+        "normalizedPassageCharStart": 355,
+        "normalizedPassageCharEnd": 413,
+        "pageCharStart": 2066,
+        "pageCharEnd": 2124,
+        "quote": "ער האָט די דרוקער אַװעקגעגעבן א\nלאָקאַל אויף בזשעזשינער 10",
+        "normalizedQuote": "ער האָט די דרוקער אַװעקגעגעבן א\nלאָקאַל אויף בזשעזשינער 10",
+        "modelQuote": "ער האָט די דרוקער אַװעקגעגעבן א\nלאָקאַל אויף בזשעזשינער 10",
+        "bbox": {
+          "left": 2627,
+          "top": 4961,
+          "right": 4666,
+          "bottom": 5163
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n82/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "e9e51b1d68cd4d850713439aedbfafd6b2919d042e0a4312558ff946780cf695",
+        "normalizedPassageChecksum": "ae908d6794f7abbc2b9e7400c43f11b83098fe23ff30ec263827fbf195cd72de",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1b0ea839c219e4a9e8ce83f0",
+      "type": "Institution",
+      "title": "Ghetto Jewish printing house",
+      "relation": "Located In"
+    },
+    {
+      "id": "event_candidate_41355d64bd4c1ced2729d55c",
+      "type": "Event",
+      "title": "Ghetto printing house established",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_65eafdc10651f1b41e8a7e82",
+      "type": "Person",
+      "title": "Rumkowski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_08f6bb20f4ea7d0def1f031b",
+      "type": "Place",
+      "title": "Lodz ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1b0ea839c219e4a9e8ce83f0",
+      "type": "Institution",
+      "title": "Ghetto Jewish printing house",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

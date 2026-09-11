@@ -1,0 +1,148 @@
+{
+  "id": "mention_ec1a004a52a672ef73fcfb27",
+  "type": "Person",
+  "title": "Adolf Hitler",
+  "summary": "Adolf Hitler's rise to power worsened conditions for Jews in Poland.",
+  "originalName": "היטלערן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 66,
+  "printedPage": "62",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "politician",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a27fdf9505b53c743dd68c24",
+      "pageId": "page_nybc313080_0066",
+      "scanIndex": 66,
+      "leafNumber": 65,
+      "printedPage": "62",
+      "passageCharStart": 432,
+      "passageCharEnd": 467,
+      "normalizedPassageCharStart": 432,
+      "normalizedPassageCharEnd": 467,
+      "pageCharStart": 4167,
+      "pageCharEnd": 4202,
+      "quote": "דאָס קומען פון היטלערן צו דער מאַכט",
+      "normalizedQuote": "דאָס קומען פון היטלערן צו דער מאַכט",
+      "modelQuote": "דאָס קומען פון היטלערן צו דער מאַכט",
+      "bbox": {
+        "left": 922,
+        "top": 3239,
+        "right": 2220,
+        "bottom": 3315
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n65/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "b90208f2664f960cd8fdc9b8d35fb710e078ee19f71dc9867bed2f58d7972147",
+      "normalizedPassageChecksum": "645cd951f860922806294d8354eb769cf7211056138c2da727f81c5c14075522",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_916c6c81ccbc121ef2fbac0f",
+      "pageId": "page_nybc313080_0204",
+      "scanIndex": 204,
+      "leafNumber": 203,
+      "printedPage": "200",
+      "passageCharStart": 313,
+      "passageCharEnd": 329,
+      "normalizedPassageCharStart": 313,
+      "normalizedPassageCharEnd": 329,
+      "pageCharStart": 2215,
+      "pageCharEnd": 2231,
+      "quote": "קרבן\nפון היטלערן",
+      "normalizedQuote": "קרבן\nפון היטלערן",
+      "modelQuote": "קרבן פון היטלערן",
+      "bbox": {
+        "left": 291,
+        "top": 1213,
+        "right": 2318,
+        "bottom": 1380
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n203/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "bd88e1a05c675dccf34a6d70137c4e90335700eedcfdd9ccea4691e97a48ce65",
+      "normalizedPassageChecksum": "d5997d0171f5cdfc64ef74d01077711fc226386aefa28dd708961c1848545a7b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_aeab5b655e18c17a94b3ebf1",
+      "type": "Rise To Power",
+      "title": "Hitler came to power in Germany",
+      "summary": "Hitler's rise to power in Germany worsened conditions for Jews in Poland.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event does not fit an available rise-to-power event type; retained as a low-confidence candidate under the closest enum.",
+      "evidence": {
+        "passageId": "passage_a27fdf9505b53c743dd68c24",
+        "pageId": "page_nybc313080_0066",
+        "scanIndex": 66,
+        "leafNumber": 65,
+        "printedPage": "62",
+        "passageCharStart": 432,
+        "passageCharEnd": 482,
+        "normalizedPassageCharStart": 432,
+        "normalizedPassageCharEnd": 482,
+        "pageCharStart": 4167,
+        "pageCharEnd": 4217,
+        "quote": "דאָס קומען פון היטלערן צו דער מאַכט אין דייטשלאַנר",
+        "normalizedQuote": "דאָס קומען פון היטלערן צו דער מאַכט אין דייטשלאַנר",
+        "modelQuote": "דאָס קומען פון היטלערן צו דער מאַכט אין דייטשלאַנר",
+        "bbox": {
+          "left": 372,
+          "top": 3238,
+          "right": 2220,
+          "bottom": 3315
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n65/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "b90208f2664f960cd8fdc9b8d35fb710e078ee19f71dc9867bed2f58d7972147",
+        "normalizedPassageChecksum": "645cd951f860922806294d8354eb769cf7211056138c2da727f81c5c14075522",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_aeab5b655e18c17a94b3ebf1",
+      "type": "Event",
+      "title": "Hitler came to power in Germany",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_18b709e56d3d67c6bb93a552",
+      "type": "Community",
+      "title": "Lodz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e2841966e790d1a0db335204",
+      "type": "Place",
+      "title": "Germany",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b793950244c36f55eb9528a0",
+      "type": "Institution",
+      "title": "Polish higher schools",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9417e8735791e54631d154d0",
+      "type": "Person",
+      "title": "Simon Dubnow",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

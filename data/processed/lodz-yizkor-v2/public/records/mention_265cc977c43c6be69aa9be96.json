@@ -1,0 +1,115 @@
+{
+  "id": "mention_265cc977c43c6be69aa9be96",
+  "type": "Community",
+  "title": "Lodz martyrs",
+  "summary": "The monument commemorates the martyrs of Lodz.",
+  "originalName": "די קדושים פון לאָדזש",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 204,
+  "printedPage": "200",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Lodz martyrs",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_80f8aecca87bc3deb685dbd6",
+      "pageId": "page_nybc313080_0204",
+      "scanIndex": 204,
+      "leafNumber": 203,
+      "printedPage": "200",
+      "passageCharStart": 1011,
+      "passageCharEnd": 1036,
+      "normalizedPassageCharStart": 1011,
+      "normalizedPassageCharEnd": 1036,
+      "pageCharStart": 1782,
+      "pageCharEnd": 1807,
+      "quote": "לזכר\nדי קדושים פון לאָדזש",
+      "normalizedQuote": "לזכר\nדי קדושים פון לאָדזש",
+      "modelQuote": "לזכר די קדושים פון לאָדזש",
+      "bbox": {
+        "left": 2551,
+        "top": 3652,
+        "right": 4564,
+        "bottom": 3828
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n203/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "47b7f1f1c6900bad986e5a0c6947399d3c069fb9382a6d5cd1d0143c915eeffe",
+      "normalizedPassageChecksum": "e01ca5dd500c1710d37055f51308de4b1fa383691edb88902a8844b73f13bba2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b7f9e5bf11dc6c9ab1de73d7",
+      "type": "Liberation",
+      "title": "Unveiling of the Lodz martyrs monument",
+      "summary": "The monument commemorating Lodz martyrs was unveiled on 27 September 1989.",
+      "dateStart": "1989-09-27",
+      "dateEnd": "1989-09-27",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The schema lacks a dedicated monument-unveiling event type; LIBERATION is used as the closest available category.",
+      "evidence": {
+        "passageId": "passage_80f8aecca87bc3deb685dbd6",
+        "pageId": "page_nybc313080_0204",
+        "scanIndex": 204,
+        "leafNumber": 203,
+        "printedPage": "200",
+        "passageCharStart": 968,
+        "passageCharEnd": 1053,
+        "normalizedPassageCharStart": 968,
+        "normalizedPassageCharEnd": 1053,
+        "pageCharStart": 1739,
+        "pageCharEnd": 1824,
+        "quote": "דעם 27טן פעפּטעמבער 1989 איז דער מאָנומענט לזכר\nדי קדושים פון לאָדזש אַנטהילט געװאָרן",
+        "normalizedQuote": "דעם 27טן פעפּטעמבער 1989 איז דער מאָנומענט לזכר\nדי קדושים פון לאָדזש אַנטהילט געװאָרן",
+        "modelQuote": "דעם 27טן פעפּטעמבער 1989 איז דער מאָנומענט לזכר די קדושים פון לאָדזש אַנטהילט געװאָרן",
+        "bbox": {
+          "left": 2551,
+          "top": 3652,
+          "right": 4564,
+          "bottom": 3830
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n203/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "47b7f1f1c6900bad986e5a0c6947399d3c069fb9382a6d5cd1d0143c915eeffe",
+        "normalizedPassageChecksum": "e01ca5dd500c1710d37055f51308de4b1fa383691edb88902a8844b73f13bba2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b7f9e5bf11dc6c9ab1de73d7",
+      "type": "Event",
+      "title": "Unveiling of the Lodz martyrs monument",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_6ee34ab338faf396bc65d696",
+      "type": "Organization",
+      "title": "Joint",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7cb6d5cd9fbfb28b5c595b49",
+      "type": "Place",
+      "title": "Lodz Jewish cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f3b4bf6a705f844d8eb5c6ba",
+      "type": "Place",
+      "title": "Łódź",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

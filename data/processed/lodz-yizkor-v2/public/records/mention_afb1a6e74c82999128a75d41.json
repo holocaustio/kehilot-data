@@ -1,0 +1,113 @@
+{
+  "id": "mention_afb1a6e74c82999128a75d41",
+  "type": "Person",
+  "title": "Unnamed friend",
+  "summary": "A fleeing friend was shot and killed by a soldier.",
+  "originalName": "א חבר",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 146,
+  "printedPage": "142",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "friend",
+  "uncertaintyNote": "The friend is unnamed.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_49a1c927185a59558303e881",
+      "pageId": "page_nybc313080_0146",
+      "scanIndex": 146,
+      "leafNumber": 145,
+      "printedPage": "142",
+      "passageCharStart": 589,
+      "passageCharEnd": 627,
+      "normalizedPassageCharStart": 589,
+      "normalizedPassageCharEnd": 627,
+      "pageCharStart": 2734,
+      "pageCharEnd": 2772,
+      "quote": "נעטאָן א חבר, וועלכער איז אויך נעלאָפן",
+      "normalizedQuote": "נעטאָן א חבר, וועלכער איז אויך נעלאָפן",
+      "modelQuote": "נעטאָן א חבר, וועלכער איז אויך נעלאָפן",
+      "bbox": {
+        "left": 544,
+        "top": 517,
+        "right": 1898,
+        "bottom": 601
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n145/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "75daa51b734b0809fba358de8ad0017869bebd670a43c3abb9b4ca2b5d1ffdb7",
+      "normalizedPassageChecksum": "be39979d0266c38ac59cb5ec95e680fdf8daf39cc23bf26835d30e73831c62a6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_615cfa28f4aa76b2f739d8a7",
+      "type": "Murder",
+      "title": "Friend shot during flight",
+      "summary": "A soldier shot and killed the narrator’s fleeing friend; the evidence does not establish that the soldier was German or that the killing occurred in the forest.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_49a1c927185a59558303e881",
+        "pageId": "page_nybc313080_0146",
+        "scanIndex": 146,
+        "leafNumber": 145,
+        "printedPage": "142",
+        "passageCharStart": 635,
+        "passageCharEnd": 679,
+        "normalizedPassageCharStart": 635,
+        "normalizedPassageCharEnd": 679,
+        "pageCharStart": 2780,
+        "pageCharEnd": 2824,
+        "quote": "אים האָט דער זעלנער נאָכגעשאָסן און דערהרנעט",
+        "normalizedQuote": "אים האָט דער זעלנער נאָכגעשאָסן און דערהרנעט",
+        "modelQuote": "אים האָט דער זעלנער נאָכגעשאָסן און דערהרנעט",
+        "bbox": {
+          "left": 654,
+          "top": 626,
+          "right": 2383,
+          "bottom": 708
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n145/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "75daa51b734b0809fba358de8ad0017869bebd670a43c3abb9b4ca2b5d1ffdb7",
+        "normalizedPassageChecksum": "be39979d0266c38ac59cb5ec95e680fdf8daf39cc23bf26835d30e73831c62a6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_615cfa28f4aa76b2f739d8a7",
+      "type": "Event",
+      "title": "Friend shot during flight",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_8a1443316406356fbe4c859d",
+      "type": "Place",
+      "title": "Farmer's yard",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_879f9389f8a8c3a18beb545c",
+      "type": "Place",
+      "title": "Forest",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d4871a9425cdb157df00ba18",
+      "type": "Place",
+      "title": "Pit",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

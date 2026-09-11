@@ -1,0 +1,121 @@
+{
+  "id": "mention_d8328207ae1e4f770ae027d5",
+  "type": "Institution",
+  "title": "Tailors’ workshop",
+  "summary": "Workshop where a strike occurred in September 1940.",
+  "originalName": "שניידער-רעסאָרט",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 97,
+  "printedPage": "93",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "workshop",
+  "uncertaintyNote": "OCR form may represent a workshop term.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8191e6ed663c8e4ebeb0b98d",
+      "pageId": "page_nybc313080_0097",
+      "scanIndex": 97,
+      "leafNumber": 96,
+      "printedPage": "93",
+      "passageCharStart": 167,
+      "passageCharEnd": 182,
+      "normalizedPassageCharStart": 167,
+      "normalizedPassageCharEnd": 182,
+      "pageCharStart": 3085,
+      "pageCharEnd": 3100,
+      "quote": "שניידער-רעסאָרט",
+      "normalizedQuote": "שניידער-רעסאָרט",
+      "modelQuote": "שניידער-רעסאָרט",
+      "bbox": {
+        "left": 1324,
+        "top": 1889,
+        "right": 1873,
+        "bottom": 1952
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n96/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "e5fc3c68b741a59c366844bbe8883f04cc8f7a433cbbcfa02b79edd2d5a2265d",
+      "normalizedPassageChecksum": "04014d5ec48bccb09d651659a2f8171d0b8224987bb829fef4faa8b2f0e13fa1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_1976358b4e30ef25ed1bfbdc",
+      "type": "Employment",
+      "title": "Tailors’ workshop strike",
+      "summary": "A strike occurred at the tailors’ workshop in September 1940.",
+      "dateStart": "1940-09",
+      "dateEnd": "1940-09",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_8191e6ed663c8e4ebeb0b98d",
+        "pageId": "page_nybc313080_0097",
+        "scanIndex": 97,
+        "leafNumber": 96,
+        "printedPage": "93",
+        "passageCharStart": 132,
+        "passageCharEnd": 182,
+        "normalizedPassageCharStart": 132,
+        "normalizedPassageCharEnd": 182,
+        "pageCharStart": 3050,
+        "pageCharEnd": 3100,
+        "quote": "סעפּטעמבער 1940 -- זיץ-\nשטרייק פון שניידער-רעסאָרט",
+        "normalizedQuote": "סעפּטעמבער 1940 -- זיץ-\nשטרייק פון שניידער-רעסאָרט",
+        "modelQuote": "סעפּטעמבער 1940 -- זיץ-שטרייק פון שניידער-רעסאָרט",
+        "bbox": {
+          "left": 361,
+          "top": 1780,
+          "right": 2362,
+          "bottom": 1952
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n96/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "e5fc3c68b741a59c366844bbe8883f04cc8f7a433cbbcfa02b79edd2d5a2265d",
+        "normalizedPassageChecksum": "04014d5ec48bccb09d651659a2f8171d0b8224987bb829fef4faa8b2f0e13fa1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_1976358b4e30ef25ed1bfbdc",
+      "type": "Event",
+      "title": "Tailors’ workshop strike",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_bae06e8223c191be100c532b",
+      "type": "Person",
+      "title": "Wolf Jasni",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f45bcb3eb208701b323f6d9d",
+      "type": "Place",
+      "title": "Litzmannstadt ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cf624640550e11c4fa990a92",
+      "type": "Work",
+      "title": "History of Jews in Lodz During the Years of German Occupation",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9cb7ad0da6a0ee8fa28408e4",
+      "type": "Institution",
+      "title": "Carpenters’ workshop",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

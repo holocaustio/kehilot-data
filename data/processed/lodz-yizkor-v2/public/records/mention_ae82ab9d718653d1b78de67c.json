@@ -1,0 +1,172 @@
+{
+  "id": "mention_ae82ab9d718653d1b78de67c",
+  "type": "Place",
+  "title": "Radegast railway station",
+  "summary": "The first transport to Chelmno departed from Radegast railway station.",
+  "originalName": "ראַדאָנאָשטש",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 101,
+  "printedPage": "97",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "railway station",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4bf6fd06e1ce02c86d90d860",
+      "pageId": "page_nybc313080_0101",
+      "scanIndex": 101,
+      "leafNumber": 100,
+      "printedPage": "97",
+      "passageCharStart": 948,
+      "passageCharEnd": 980,
+      "normalizedPassageCharStart": 948,
+      "normalizedPassageCharEnd": 980,
+      "pageCharStart": 4595,
+      "pageCharEnd": 4627,
+      "quote": "פון דער באַן-סטאציע ראַדאָנאָשטש",
+      "normalizedQuote": "פון דער באַן-סטאציע ראַדאָנאָשטש",
+      "modelQuote": "פון דער באַן-סטאציע ראַדאָנאָשטש",
+      "bbox": {
+        "left": 528,
+        "top": 4671,
+        "right": 1649,
+        "bottom": 4739
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n100/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "283f99e837326456091dc1da4633ba46ddeb5820d130888fd8f578baedb00967",
+      "normalizedPassageChecksum": "04c549ed4130bb8d99254abb76e0c5a7c6f2deecbda3cf79603e324bbe329fda",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_a10ff485845ea018f41e6a74",
+      "predicate": "Located In",
+      "subjectTitle": "Radegast railway station",
+      "objectTitle": "Lodz Ghetto",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4bf6fd06e1ce02c86d90d860",
+        "pageId": "page_nybc313080_0101",
+        "scanIndex": 101,
+        "leafNumber": 100,
+        "printedPage": "97",
+        "passageCharStart": 1024,
+        "passageCharEnd": 1045,
+        "normalizedPassageCharStart": 1024,
+        "normalizedPassageCharEnd": 1045,
+        "pageCharStart": 4671,
+        "pageCharEnd": 4692,
+        "quote": "אויפן ראַנד פון\nגעטאָ",
+        "normalizedQuote": "אויפן ראַנד פון\nגעטאָ",
+        "modelQuote": "אויפן ראַנד פון געטאָ",
+        "bbox": {
+          "left": 414,
+          "top": 4776,
+          "right": 2415,
+          "bottom": 4938
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n100/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "283f99e837326456091dc1da4633ba46ddeb5820d130888fd8f578baedb00967",
+        "normalizedPassageChecksum": "04c549ed4130bb8d99254abb76e0c5a7c6f2deecbda3cf79603e324bbe329fda",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_493802869ea8bc4a9a4abd0c",
+      "predicate": "Near",
+      "subjectTitle": "Radegast railway station",
+      "objectTitle": "Marysin",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The wording indicates location in Marysin, but the exact geographic relation is not explicit.",
+      "evidence": {
+        "passageId": "passage_4bf6fd06e1ce02c86d90d860",
+        "pageId": "page_nybc313080_0101",
+        "scanIndex": 101,
+        "leafNumber": 100,
+        "printedPage": "97",
+        "passageCharStart": 1047,
+        "passageCharEnd": 1059,
+        "normalizedPassageCharStart": 1047,
+        "normalizedPassageCharEnd": 1059,
+        "pageCharStart": 4694,
+        "pageCharEnd": 4706,
+        "quote": "אין מאַרישין",
+        "normalizedQuote": "אין מאַרישין",
+        "modelQuote": "אין מאַרישין",
+        "bbox": {
+          "left": 1746,
+          "top": 4874,
+          "right": 2186,
+          "bottom": 4939
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n100/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "283f99e837326456091dc1da4633ba46ddeb5820d130888fd8f578baedb00967",
+        "normalizedPassageChecksum": "04c549ed4130bb8d99254abb76e0c5a7c6f2deecbda3cf79603e324bbe329fda",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_64ff3d4392c1aaac689ee955",
+      "type": "Community",
+      "title": "Lodz Ghetto",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_eba62b9c33e4d8a91c513d30",
+      "type": "Place",
+      "title": "Marysin",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_64ff3d4392c1aaac689ee955",
+      "type": "Community",
+      "title": "Lodz Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5e2dbc350d3faa3562eae178",
+      "type": "Place",
+      "title": "Chelmno (Kulmhof)",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eba62b9c33e4d8a91c513d30",
+      "type": "Place",
+      "title": "Marysin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f3b4bf6a705f844d8eb5c6ba",
+      "type": "Place",
+      "title": "Łódź",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_22bf909e55454bd86d193acf",
+      "type": "Person",
+      "title": "Adolf Eichmann",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_47fba51d164a2145494cd208",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,108 @@
+{
+  "id": "mention_b94654cd09fdbb4ed0efc0f8",
+  "type": "Place",
+  "title": "Hall on Krawiecka",
+  "summary": "A hall on Krawiecka converted into a labor resort after the Sperre.",
+  "originalName": "זאָל אויף קראַװיעצקאַ",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 138,
+  "printedPage": "134",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "hall",
+  "uncertaintyNote": "The OCR word זאָל may refer to a hall or similar venue.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7f625a9c9f10de3672fcda2a",
+      "pageId": "page_nybc313080_0138",
+      "scanIndex": 138,
+      "leafNumber": 137,
+      "printedPage": "134",
+      "passageCharStart": 629,
+      "passageCharEnd": 654,
+      "normalizedPassageCharStart": 629,
+      "normalizedPassageCharEnd": 654,
+      "pageCharStart": 3542,
+      "pageCharEnd": 3567,
+      "quote": "דער זאָל אויף קראַװיעצקאַ",
+      "normalizedQuote": "דער זאָל אויף קראַװיעצקאַ",
+      "modelQuote": "דער זאָל אויף קראַװיעצקאַ",
+      "bbox": {
+        "left": 1104,
+        "top": 2756,
+        "right": 2037,
+        "bottom": 2827
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n137/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "92d899ee1150261e8850d3d686c77985a5002bf26ded2a525811ea7d8c3697a9",
+      "normalizedPassageChecksum": "d99dae1e10984e7eea7f35278b53ce7322bb35ba9d39c79ed961ee940f30c9a7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_487ea622b7b18b67044da04e",
+      "type": "Facility Conversion",
+      "title": "Hall converted into a labor resort",
+      "summary": "The hall on Krawiecka was converted into a labor resort after the Sperre.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The conversion and timing are stated in adjacent text, but the quoted span directly supports only performances moving to labor resorts.",
+      "evidence": {
+        "passageId": "passage_7f625a9c9f10de3672fcda2a",
+        "pageId": "page_nybc313080_0138",
+        "scanIndex": 138,
+        "leafNumber": 137,
+        "printedPage": "134",
+        "passageCharStart": 729,
+        "passageCharEnd": 800,
+        "normalizedPassageCharStart": 729,
+        "normalizedPassageCharEnd": 800,
+        "pageCharStart": 3642,
+        "pageCharEnd": 3713,
+        "quote": "האָבן זיך די טעאַטער פאָרשטעלונגען איבערגעטראָגן אין די\nארבעטס-רעסאָרטן",
+        "normalizedQuote": "האָבן זיך די טעאַטער פאָרשטעלונגען איבערגעטראָגן אין די\nארבעטס-רעסאָרטן",
+        "modelQuote": "האָבן זיך די טעאַטער פאָרשטעלונגען איבערגעטראָגן אין די\nארבעטס-רעסאָרטן",
+        "bbox": {
+          "left": 335,
+          "top": 2961,
+          "right": 2384,
+          "bottom": 3147
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n137/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "92d899ee1150261e8850d3d686c77985a5002bf26ded2a525811ea7d8c3697a9",
+        "normalizedPassageChecksum": "d99dae1e10984e7eea7f35278b53ce7322bb35ba9d39c79ed961ee940f30c9a7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_487ea622b7b18b67044da04e",
+      "type": "Event",
+      "title": "Hall converted into a labor resort",
+      "relation": "Occurred At",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_779acef25970e35d516576fe",
+      "type": "Institution",
+      "title": "Philharmonic Orchestra",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_89c59513955d0e07af821180",
+      "type": "Institution",
+      "title": "Theater",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

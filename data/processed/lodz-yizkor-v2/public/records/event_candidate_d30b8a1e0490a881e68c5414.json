@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_d30b8a1e0490a881e68c5414",
+  "type": "Event",
+  "title": "Jewish school maintained by the committee",
+  "summary": "The Jewish Committee maintained the first Jewish school in Lodz.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 20,
+  "printedPage": "16",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Institutional Maintenance",
+  "uncertaintyNote": "This is an institutional maintenance fact, not a school-attendance event.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7489de3a5b597265f50dad4f",
+      "pageId": "page_nybc313080_0020",
+      "scanIndex": 20,
+      "leafNumber": 19,
+      "printedPage": "16",
+      "passageCharStart": 498,
+      "passageCharEnd": 530,
+      "normalizedPassageCharStart": 498,
+      "normalizedPassageCharEnd": 530,
+      "pageCharStart": 4503,
+      "pageCharEnd": 4535,
+      "quote": "אויסגעהאַלטן פון יידישן קאָמיטעט",
+      "normalizedQuote": "אויסגעהאַלטן פון יידישן קאָמיטעט",
+      "modelQuote": "אויסגעהאַלטן פון יידישן קאָמיטעט",
+      "bbox": {
+        "left": 1106,
+        "top": 4475,
+        "right": 2336,
+        "bottom": 4552
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n19/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "b619350b2a7bcd04bd3250c72449eeeb56c0136b957be8aab14fa7d8b63d9dc9",
+      "normalizedPassageChecksum": "bc4c4802caab647b098babcd7125a36c553fcee0ad6a7587264aa4cdfa9cb779",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_7cf21187ba458875fe942af7",
+      "type": "Community",
+      "title": "Lodz Jewish community",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_43edff7ab64e502948088fcc",
+      "type": "Organization",
+      "title": "Jewish Committee",
+      "relation": "Participant",
+      "role": "Employer"
+    },
+    {
+      "id": "mention_bbd2205881769f240d5b65c5",
+      "type": "Institution",
+      "title": "First Jewish school in Lodz",
+      "relation": "Participant",
+      "role": "Student"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

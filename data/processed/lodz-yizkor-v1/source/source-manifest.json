@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "kehilot-yizkor-source-v2",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "ingestedAt": "2026-09-11T15:23:01.472Z",
+  "community": {
+    "id": "community_lodz",
+    "displayName": "lodz",
+    "canonicalName": "lodz",
+    "country": "Poland"
+  },
+  "book": {
+    "id": "book_nybc313080",
+    "communityId": "community_lodz",
+    "internetArchiveId": "nybc313080",
+    "title": "Yidish Lodzsh : yizker bukh",
+    "alternateTitle": null,
+    "authors": [],
+    "publication": "Melburn, Oysṭralye : Lodzsher tsenṭer in Melburn",
+    "language": "yi",
+    "pageProgression": "rl",
+    "sourceUrl": "https://archive.org/details/nybc313080",
+    "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+    "rightsStatus": "REVIEW_REQUIRED",
+    "attribution": "internet-archive",
+    "checksums": {
+      "metadata": "d1ac7106fd9f34133d2be93ffa7a0bd48558d2aaeed827feb8c26c74fe2739c7",
+      "djvuXml": "e21532970d62f514ba05f9dfff17b4e9e8655757007196a7e3f63d45ce9bb7b8",
+      "scandataXml": "6468b9408d5b1a69b5c7e67da4ea7a3b1f561ca4b51b6ac89e65771d72d37829",
+      "pdf": "9ddde829799d9c5c10f581f13d7cdbd7479c6c154af8314d4776ee837db8e15f"
+    }
+  },
+  "chapters": [],
+  "counts": {
+    "pages": 262,
+    "pagesWithText": 243,
+    "passages": 955,
+    "words": 137528,
+    "normalizationEdits": 132933,
+    "joinedFragments": 118208,
+    "softLineBreaks": 14725
+  },
+  "normalizationPolicy": {
+    "version": "ocr-layout-normalizer-v1",
+    "canonicalField": "text",
+    "derivedField": "normalizedText",
+    "reversible": true,
+    "changesCharacters": false,
+    "rules": [
+      "concatenate-djvu-word-runs",
+      "replace-soft-line-breaks"
+    ]
+  },
+  "passagePolicy": {
+    "pageBound": true,
+    "targetEstimatedTokens": 1100,
+    "maxEstimatedTokens": 1500,
+    "tokenEstimate": "hebrew_letters*1.15 + latin_letters/4 + digits/3 + punctuation/2"
+  }
+}

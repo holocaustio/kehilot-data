@@ -1,0 +1,76 @@
+{
+  "id": "event_candidate_bd7c0a36736a7e7c391ef012",
+  "type": "Event",
+  "title": "Deportation of refugees to the ghetto",
+  "summary": "Refugees from Germany, Austria, and Czechia were sent to an industrial city and entered the ghetto.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 116,
+  "printedPage": "112",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e00bada5dab1844b68341ac9",
+      "pageId": "page_nybc313080_0116",
+      "scanIndex": 116,
+      "leafNumber": 115,
+      "printedPage": "112",
+      "passageCharStart": 524,
+      "passageCharEnd": 576,
+      "normalizedPassageCharStart": 524,
+      "normalizedPassageCharEnd": 576,
+      "pageCharStart": 524,
+      "pageCharEnd": 576,
+      "quote": "פון דייטשלאַנד, עסטרייך און טשעכיע\nזענען זיי פארשיקט",
+      "normalizedQuote": "פון דייטשלאַנד, עסטרייך און טשעכיע\nזענען זיי פארשיקט",
+      "modelQuote": "פון דייטשלאַנד, עסטרייך און טשעכיע זענען זיי פארשיקט",
+      "bbox": {
+        "left": 2568,
+        "top": 1938,
+        "right": 4590,
+        "bottom": 2117
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n115/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "e24120e6ccee0d81064b4742d0a37c0f71e10ff88261bc362f3d4a5ad77c3929",
+      "normalizedPassageChecksum": "ea29e63b813aa4df157611b8a4d070e422218a1c4c5b670e5b87a041246d6a76",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_08f6bb20f4ea7d0def1f031b",
+      "type": "Place",
+      "title": "Lodz Ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9c708a28879703b3b2230079",
+      "type": "Place",
+      "title": "Germany",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_53a722a67d81986eb496f37b",
+      "type": "Place",
+      "title": "Austria",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_c8e0d93f669b53904958aec9",
+      "type": "Place",
+      "title": "Czechia",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

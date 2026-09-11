@@ -1,0 +1,133 @@
+{
+  "id": "mention_fd60ae7851016d5a8f92cca8",
+  "type": "Organization",
+  "title": "Hazamir Choir",
+  "summary": "Popular choir that functioned in the ghetto until March 1941.",
+  "originalName": "הזמיר",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 137,
+  "printedPage": "133",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "choir",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ed0404b21443a47356d90da7",
+      "pageId": "page_nybc313080_0137",
+      "scanIndex": 137,
+      "leafNumber": 136,
+      "printedPage": "133",
+      "passageCharStart": 649,
+      "passageCharEnd": 694,
+      "normalizedPassageCharStart": 649,
+      "normalizedPassageCharEnd": 694,
+      "pageCharStart": 4500,
+      "pageCharEnd": 4545,
+      "quote": "דער אַמאָליקער פּאָפּולערער כאָר פון , הזמיר\"",
+      "normalizedQuote": "דער אַמאָליקער פּאָפּולערער כאָר פון , הזמיר\"",
+      "modelQuote": "דער אַמאָליקער פּאָפּולערער כאָר פון , הזמיר\"",
+      "bbox": {
+        "left": 602,
+        "top": 5638,
+        "right": 2060,
+        "bottom": 5735
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n136/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "128c54b53b00d9bb7abe2a5f92f78966f2f85d9e6b84ecc2b1257aff5ff0aaa3",
+      "normalizedPassageChecksum": "c15a171e29d9a142e439174433317ea35f1685dfbf1e5742608bb9c0a12525ec",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8a3dec9e3fc5db04c9c21b3d",
+      "type": "Deportation",
+      "title": "Hazamir choir ceased after deportations",
+      "summary": "The choir dissolved in March 1941 when many members were deported.",
+      "dateStart": "1941-03",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text says a large part became deported, but does not identify individual deportees.",
+      "evidence": {
+        "passageId": "passage_ed0404b21443a47356d90da7",
+        "pageId": "page_nybc313080_0137",
+        "scanIndex": 137,
+        "leafNumber": 136,
+        "printedPage": "133",
+        "passageCharStart": 772,
+        "passageCharEnd": 830,
+        "normalizedPassageCharStart": 772,
+        "normalizedPassageCharEnd": 830,
+        "pageCharStart": 4623,
+        "pageCharEnd": 4681,
+        "quote": "דער כאָר האָט אָננעהאַלטן ביז מערץ 1941 און\nזיך ליקווידירט",
+        "normalizedQuote": "דער כאָר האָט אָננעהאַלטן ביז מערץ 1941 און\nזיך ליקווידירט",
+        "modelQuote": "דער כאָר האָט אָננעהאַלטן ביז מערץ 1941 און זיך ליקווידירט",
+        "bbox": {
+          "left": 337,
+          "top": 5844,
+          "right": 2339,
+          "bottom": 6048
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n136/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "128c54b53b00d9bb7abe2a5f92f78966f2f85d9e6b84ecc2b1257aff5ff0aaa3",
+        "normalizedPassageChecksum": "c15a171e29d9a142e439174433317ea35f1685dfbf1e5742608bb9c0a12525ec",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_60737a153ee7524f6a3836d9",
+      "type": "Person",
+      "title": "Dargozhansky",
+      "relation": "Led By"
+    },
+    {
+      "id": "event_candidate_5ae3deedb0633e846f853d71",
+      "type": "Event",
+      "title": "Hazamir choir activity begins",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "event_candidate_8a3dec9e3fc5db04c9c21b3d",
+      "type": "Event",
+      "title": "Hazamir choir ceased after deportations",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_03010136d9c9562b5c5cdee8",
+      "type": "Person",
+      "title": "Teodor Rider",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_60737a153ee7524f6a3836d9",
+      "type": "Person",
+      "title": "Dargozhansky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_83cdccb7f1369aa0005ab07c",
+      "type": "Organization",
+      "title": "Ghetto Philharmonic Orchestra",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_64ff3d4392c1aaac689ee955",
+      "type": "Community",
+      "title": "Lodz Ghetto",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,119 @@
+{
+  "id": "mention_972d9f5bb0d086d9ca23d03c",
+  "type": "Place",
+  "title": "Bershter workshops courtyard",
+  "summary": "Courtyard where David Kholodenko was killed during the January 1943 resistance.",
+  "originalName": "בערשטער-װאַרשטאַטן",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 180,
+  "printedPage": "176",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "workshops",
+  "uncertaintyNote": "The place name is partially unclear in OCR.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_34edb32213c5082e51346dda",
+      "pageId": "page_nybc313080_0180",
+      "scanIndex": 180,
+      "leafNumber": 179,
+      "printedPage": "176",
+      "passageCharStart": 926,
+      "passageCharEnd": 963,
+      "normalizedPassageCharStart": 926,
+      "normalizedPassageCharEnd": 963,
+      "pageCharStart": 4047,
+      "pageCharEnd": 4084,
+      "quote": "אויפן הויף פון די בערשטער-\nװאַרשטאַטן",
+      "normalizedQuote": "אויפן הויף פון די בערשטער-\nװאַרשטאַטן",
+      "modelQuote": "אויפן הויף פון די בערשטער-װאַרשטאַטן",
+      "bbox": {
+        "left": 362,
+        "top": 5123,
+        "right": 2380,
+        "bottom": 5289
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n179/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "b2c28fe002670e75da38f428399b62390debc6412f4a91273a4540e8d32ffac9",
+      "normalizedPassageChecksum": "4733e7b8db168d1e245c6801f7103ac333a235de7027bb2472b56888902c0ca1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_696f6153c296122a03ab5bb4",
+      "type": "Death",
+      "title": "David Kholodenko was killed",
+      "summary": "David Kholodenko fell during resistance to the January 1943 Nazi deportation operation.",
+      "dateStart": "1943-01-18",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_34edb32213c5082e51346dda",
+        "pageId": "page_nybc313080_0180",
+        "scanIndex": 180,
+        "leafNumber": 179,
+        "printedPage": "176",
+        "passageCharStart": 733,
+        "passageCharEnd": 755,
+        "normalizedPassageCharStart": 733,
+        "normalizedPassageCharEnd": 755,
+        "pageCharStart": 3854,
+        "pageCharEnd": 3876,
+        "quote": "דעם 18טן יאַנואַר 1943",
+        "normalizedQuote": "דעם 18טן יאַנואַר 1943",
+        "modelQuote": "דעם 18טן יאַנואַר 1943",
+        "bbox": {
+          "left": 1391,
+          "top": 4805,
+          "right": 2211,
+          "bottom": 4880
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n179/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "b2c28fe002670e75da38f428399b62390debc6412f4a91273a4540e8d32ffac9",
+        "normalizedPassageChecksum": "4733e7b8db168d1e245c6801f7103ac333a235de7027bb2472b56888902c0ca1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_696f6153c296122a03ab5bb4",
+      "type": "Event",
+      "title": "David Kholodenko was killed",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1b22e6fbb063ae0104646b41",
+      "type": "Person",
+      "title": "Judith Kholodenko",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_13e4d909b72fa72cd52a4cc1",
+      "type": "Organization",
+      "title": "Kultur-Lige",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_42b6e4f1a90aab432f76c2d2",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a306b58a71006fc244ba9a5d",
+      "type": "Place",
+      "title": "Poniatowa camp",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

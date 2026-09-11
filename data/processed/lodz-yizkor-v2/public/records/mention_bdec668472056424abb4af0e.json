@@ -1,0 +1,109 @@
+{
+  "id": "mention_bdec668472056424abb4af0e",
+  "type": "Person",
+  "title": "Ebelher",
+  "summary": "German police president who formulated the ghetto objective in a secret circular.",
+  "originalName": "איבעלהער",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 95,
+  "printedPage": "91",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "president of the German police",
+  "uncertaintyNote": "The OCR rendering of the surname is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b115b7d65bdef41a97b6f7cc",
+      "pageId": "page_nybc313080_0095",
+      "scanIndex": 95,
+      "leafNumber": 94,
+      "printedPage": "91",
+      "passageCharStart": 154,
+      "passageCharEnd": 209,
+      "normalizedPassageCharStart": 154,
+      "normalizedPassageCharEnd": 209,
+      "pageCharStart": 1907,
+      "pageCharEnd": 1962,
+      "quote": "דורך דעם פּרעזידענט פון דער דייטשער פּאַליציי, איבעלהער",
+      "normalizedQuote": "דורך דעם פּרעזידענט פון דער דייטשער פּאַליציי, איבעלהער",
+      "modelQuote": "דורך דעם פּרעזידענט פון דער דייטשער פּאַליציי, איבעלהער",
+      "bbox": {
+        "left": 2604,
+        "top": 4551,
+        "right": 4628,
+        "bottom": 4630
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n94/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "0c43df898960e02c7ce66fa6061172326b553f4a6d9c73b82d7c8aecfec0e521",
+      "normalizedPassageChecksum": "d8bdb55c875a37fc6e0be76f9bd16229403d9e502e6e17c72dc823e17b14f11e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8c76acd26654d03b370a3f85",
+      "type": "Administrative Decision",
+      "title": "Concentration of Łódź Jews",
+      "summary": "In December 1929, the Hitlerist authorities decided to concentrate all Łódź Jews in an enclosed urban area.",
+      "dateStart": "1929-12",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event type is a best-fit for an administrative decision establishing a ghetto.",
+      "evidence": {
+        "passageId": "passage_b115b7d65bdef41a97b6f7cc",
+        "pageId": "page_nybc313080_0095",
+        "scanIndex": 95,
+        "leafNumber": 94,
+        "printedPage": "91",
+        "passageCharStart": 0,
+        "passageCharEnd": 90,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 90,
+        "pageCharStart": 1753,
+        "pageCharEnd": 1843,
+        "quote": "אין דעצעמבער 1929 האָט די היטלעריסטישע מאַכט\nבאַשלאָסן צו קאָנצענטרירן אַלֶע לאָדזשער יידן",
+        "normalizedQuote": "אין דעצעמבער 1929 האָט די היטלעריסטישע מאַכט\nבאַשלאָסן צו קאָנצענטרירן אַלֶע לאָדזשער יידן",
+        "modelQuote": "אין דעצעמבער 1929 האָט די היטלעריסטישע מאַכט\nבאַשלאָסן צו קאָנצענטרירן אַלֶע לאָדזשער יידן",
+        "bbox": {
+          "left": 2597,
+          "top": 4242,
+          "right": 4630,
+          "bottom": 4425
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n94/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "0c43df898960e02c7ce66fa6061172326b553f4a6d9c73b82d7c8aecfec0e521",
+        "normalizedPassageChecksum": "d8bdb55c875a37fc6e0be76f9bd16229403d9e502e6e17c72dc823e17b14f11e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_8c76acd26654d03b370a3f85",
+      "type": "Event",
+      "title": "Concentration of Łódź Jews",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_f3b4bf6a705f844d8eb5c6ba",
+      "type": "Place",
+      "title": "Łódź",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_44de8fc7c39d32731c63119f",
+      "type": "Institution",
+      "title": "Great Synagogue",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

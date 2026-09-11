@@ -1,0 +1,103 @@
+{
+  "id": "mention_d3caf41c155970e8a15c63d3",
+  "type": "Person",
+  "title": "Mr. Schmidt",
+  "summary": "German official responsible for supervising the workers.",
+  "originalName": "שמידט",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 147,
+  "printedPage": "143",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "German overseer",
+  "uncertaintyNote": "OCR wording is unclear, but the passage names Schmidt as German and responsible for the workers.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_929c44b7b0a2ef5a029f5894",
+      "pageId": "page_nybc313080_0147",
+      "scanIndex": 147,
+      "leafNumber": 146,
+      "printedPage": "143",
+      "passageCharStart": 668,
+      "passageCharEnd": 683,
+      "normalizedPassageCharStart": 668,
+      "normalizedPassageCharEnd": 683,
+      "pageCharStart": 2665,
+      "pageCharEnd": 2680,
+      "quote": "דייטש\nהער שמידט",
+      "normalizedQuote": "דייטש\nהער שמידט",
+      "modelQuote": "דייטש\nהער שמידט",
+      "bbox": {
+        "left": 325,
+        "top": 3117,
+        "right": 2325,
+        "bottom": 3291
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n146/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "f016a8a8d8d4104401e78918e62645e4daf6d383019727ace38bcd35cc64e38a",
+      "normalizedPassageChecksum": "2a8382186c7431a5f5864761800a9f126c87142f2375afede1465b75f38086f5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_46ba0510bed5fdf2f0cd836d",
+      "type": "Threat Of Arrest",
+      "title": "Threatened arrest after a food strike",
+      "summary": "Police threatened to arrest the workers after their food strike; no arrest is recorded.",
+      "dateStart": "1941",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text records a threat of arrest, not a confirmed arrest.",
+      "evidence": {
+        "passageId": "passage_10a003ba824490ac0e19da02",
+        "pageId": "page_nybc313080_0147",
+        "scanIndex": 147,
+        "leafNumber": 146,
+        "printedPage": "143",
+        "passageCharStart": 334,
+        "passageCharEnd": 410,
+        "normalizedPassageCharStart": 334,
+        "normalizedPassageCharEnd": 410,
+        "pageCharStart": 3414,
+        "pageCharEnd": 3490,
+        "quote": "נאָך צוויי\nטעג איז געקומען פּאַליציי און געדראָט, אז מען װעט אונדן\nאַרעסטירן",
+        "normalizedQuote": "נאָך צוויי\nטעג איז געקומען פּאַליציי און געדראָט, אז מען װעט אונדן\nאַרעסטירן",
+        "modelQuote": "נאָך צוויי\nטעג איז געקומען פּאַליציי און געדראָט, אז מען װעט אונדן\nאַרעסטירן",
+        "bbox": {
+          "left": 315,
+          "top": 4723,
+          "right": 2318,
+          "bottom": 5006
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n146/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "ce4efd06897e93e2660b8f89474edc969ab667c98da479ed2b3194793b47e1b2",
+        "normalizedPassageChecksum": "37419caf82500237c11c1cf71506181d60a6fff931a1c80a54e610fd4938bf6f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_46ba0510bed5fdf2f0cd836d",
+      "type": "Event",
+      "title": "Threatened arrest after a food strike",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_665ecb7444990e617d2dd811",
+      "type": "Place",
+      "title": "Unspecified camp or labor site",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

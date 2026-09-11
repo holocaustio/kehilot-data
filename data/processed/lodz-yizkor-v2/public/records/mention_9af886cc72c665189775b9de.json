@@ -1,0 +1,103 @@
+{
+  "id": "mention_9af886cc72c665189775b9de",
+  "type": "Place",
+  "title": "Augsburg",
+  "summary": "City to which the group was transferred around 1942.",
+  "originalName": "אונסבורג",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 148,
+  "printedPage": "144",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "uncertaintyNote": "OCR rendering may affect the transliteration.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c9d8a53f089c939e9b142201",
+      "pageId": "page_nybc313080_0148",
+      "scanIndex": 148,
+      "leafNumber": 147,
+      "printedPage": "144",
+      "passageCharStart": 104,
+      "passageCharEnd": 129,
+      "normalizedPassageCharStart": 104,
+      "normalizedPassageCharEnd": 129,
+      "pageCharStart": 1260,
+      "pageCharEnd": 1285,
+      "quote": "איבערגעשיקט קיין אונסבורג",
+      "normalizedQuote": "איבערגעשיקט קיין אונסבורג",
+      "modelQuote": "איבערגעשיקט קיין אונסבורג",
+      "bbox": {
+        "left": 3633,
+        "top": 3585,
+        "right": 4643,
+        "bottom": 3651
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n147/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "217e4b88db4eb7fe08ed5d0ba0c07d5b3013f910ed142b317efd7c0ccb5f0382",
+      "normalizedPassageChecksum": "4dc62af25967b39efc2d73f8fb80ca86994a576e011673aab8c369cb555e0a98",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_2f6210c845dd7f6bf84f4b0d",
+      "type": "Migration",
+      "title": "Transfer to Augsburg",
+      "summary": "The group of girls was transferred to Augsburg around 1942 to work in an ammunition factory.",
+      "dateStart": "1942",
+      "dateEnd": "1942",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR gives the group size as “08,” which may represent 68.",
+      "evidence": {
+        "passageId": "passage_c9d8a53f089c939e9b142201",
+        "pageId": "page_nybc313080_0148",
+        "scanIndex": 148,
+        "leafNumber": 147,
+        "printedPage": "144",
+        "passageCharStart": 54,
+        "passageCharEnd": 129,
+        "normalizedPassageCharStart": 54,
+        "normalizedPassageCharEnd": 129,
+        "pageCharStart": 1210,
+        "pageCharEnd": 1285,
+        "quote": "ארום 1942, האָט מען אונדזער גרופּע פון 08 מיידלעך\nאיבערגעשיקט קיין אונסבורג",
+        "normalizedQuote": "ארום 1942, האָט מען אונדזער גרופּע פון 08 מיידלעך\nאיבערגעשיקט קיין אונסבורג",
+        "modelQuote": "ארום 1942, האָט מען אונדזער גרופּע פון 08 מיידלעך איבערגעשיקט קיין אונסבורג",
+        "bbox": {
+          "left": 2607,
+          "top": 3465,
+          "right": 4643,
+          "bottom": 3651
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n147/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "217e4b88db4eb7fe08ed5d0ba0c07d5b3013f910ed142b317efd7c0ccb5f0382",
+        "normalizedPassageChecksum": "4dc62af25967b39efc2d73f8fb80ca86994a576e011673aab8c369cb555e0a98",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_2f6210c845dd7f6bf84f4b0d",
+      "type": "Event",
+      "title": "Transfer to Augsburg",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9748c0ca51b31114b0fc9264",
+      "type": "Institution",
+      "title": "Ammunition factory in Augsburg",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

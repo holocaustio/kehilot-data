@@ -1,0 +1,108 @@
+{
+  "id": "mention_7522f935ca78e6a8836763b6",
+  "type": "Place",
+  "title": "Astoria Café",
+  "summary": "The Gestapo carried out a murderous raid at the Astoria café.",
+  "originalName": "קאַװיאַרניע ,אַסטאָריאַ",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 93,
+  "printedPage": "89",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cafe",
+  "uncertaintyNote": "OCR and punctuation make the venue name and wording somewhat uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b7ca242a49b33edf625021f8",
+      "pageId": "page_nybc313080_0093",
+      "scanIndex": 93,
+      "leafNumber": 92,
+      "printedPage": "89",
+      "passageCharStart": 334,
+      "passageCharEnd": 386,
+      "normalizedPassageCharStart": 334,
+      "normalizedPassageCharEnd": 386,
+      "pageCharStart": 3577,
+      "pageCharEnd": 3629,
+      "quote": "מערדערישן איבערפאַל אויף דער קאַװיאַרניע ,אַסטאָריאַ",
+      "normalizedQuote": "מערדערישן איבערפאַל אויף דער קאַװיאַרניע ,אַסטאָריאַ",
+      "modelQuote": "מערדערישן איבערפאַל אויף דער קאַװיאַרניע ,אַסטאָריאַ",
+      "bbox": {
+        "left": 336,
+        "top": 5266,
+        "right": 2338,
+        "bottom": 5356
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n92/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "e3fd9c3065f53e8416a8cf33eb3a47280a1ca44380ea49ee2741b8ffee2ba6e4",
+      "normalizedPassageChecksum": "034f6fe92bed04539cc984eaf0e19e13ed20fd522edb919f08841c219799c8d2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3c77c8e33e39f5f0346f1bd0",
+      "type": "Datestart",
+      "title": "Gestapo raid on Astoria Café",
+      "summary": "1939-11-01",
+      "dateStart": "1939-11-01",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR explicitly reads 1999, but the contextual footnote refers to 1939; the date is therefore uncertain.",
+      "evidence": {
+        "passageId": "passage_b7ca242a49b33edf625021f8",
+        "pageId": "page_nybc313080_0093",
+        "scanIndex": 93,
+        "leafNumber": 92,
+        "printedPage": "89",
+        "passageCharStart": 283,
+        "passageCharEnd": 332,
+        "normalizedPassageCharStart": 283,
+        "normalizedPassageCharEnd": 332,
+        "pageCharStart": 3526,
+        "pageCharEnd": 3575,
+        "quote": "דעם 1 נאַוועמבער 1999 פירט די געשטאַפּאָ דורך איר",
+        "normalizedQuote": "דעם 1 נאַוועמבער 1999 פירט די געשטאַפּאָ דורך איר",
+        "modelQuote": "דעם 1 נאַוועמבער 1999 פירט די געשטאַפּאָ דורך איר",
+        "bbox": {
+          "left": 334,
+          "top": 5173,
+          "right": 2167,
+          "bottom": 5254
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n92/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "e3fd9c3065f53e8416a8cf33eb3a47280a1ca44380ea49ee2741b8ffee2ba6e4",
+        "normalizedPassageChecksum": "034f6fe92bed04539cc984eaf0e19e13ed20fd522edb919f08841c219799c8d2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3c77c8e33e39f5f0346f1bd0",
+      "type": "Event",
+      "title": "Gestapo raid on Astoria Café",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ec154e358a8a4ac3ef04e242",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_47fba51d164a2145494cd208",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

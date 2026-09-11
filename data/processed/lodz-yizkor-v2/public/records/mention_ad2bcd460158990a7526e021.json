@@ -1,0 +1,113 @@
+{
+  "id": "mention_ad2bcd460158990a7526e021",
+  "type": "Place",
+  "title": "Halberstadt",
+  "summary": "A place containing an ammunition factory where workers were sent.",
+  "originalName": "האלבשטאט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 162,
+  "printedPage": "158",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9da3b01d3f2ccafe60186c0a",
+      "pageId": "page_nybc313080_0162",
+      "scanIndex": 162,
+      "leafNumber": 161,
+      "printedPage": "158",
+      "passageCharStart": 581,
+      "passageCharEnd": 617,
+      "normalizedPassageCharStart": 581,
+      "normalizedPassageCharEnd": 617,
+      "pageCharStart": 3400,
+      "pageCharEnd": 3436,
+      "quote": "אין האלבשטאט, אין אן אמוניציע-פאבריק",
+      "normalizedQuote": "אין האלבשטאט, אין אן אמוניציע-פאבריק",
+      "modelQuote": "אין האלבשטאט, אין אן אמוניציע-פאבריק",
+      "bbox": {
+        "left": 764,
+        "top": 1727,
+        "right": 2174,
+        "bottom": 1800
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n161/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "0ce20a9828543e6ad54661be75e60efcc1882a5f396c610aa48e273c46908741",
+      "normalizedPassageChecksum": "e9b7921f780409937348cb7c34747b1ac255f3c5a038168ce8b0ba7a089231ad",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_be712d333014bce1b7f12d05",
+      "type": "Deportation",
+      "title": "Transfer to an ammunition factory",
+      "summary": "Workers able to work were sent to Fodetenland, Halberstadt, and an ammunition factory.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The place name rendered as Fodertland is uncertain in OCR.",
+      "evidence": {
+        "passageId": "passage_9da3b01d3f2ccafe60186c0a",
+        "pageId": "page_nybc313080_0162",
+        "scanIndex": 162,
+        "leafNumber": 161,
+        "printedPage": "158",
+        "passageCharStart": 550,
+        "passageCharEnd": 617,
+        "normalizedPassageCharStart": 550,
+        "normalizedPassageCharEnd": 617,
+        "pageCharStart": 3369,
+        "pageCharEnd": 3436,
+        "quote": "אוועקנעשיקט אין פודעטן-\nלאַנד, אין האלבשטאט, אין אן אמוניציע-פאבריק",
+        "normalizedQuote": "אוועקנעשיקט אין פודעטן-\nלאַנד, אין האלבשטאט, אין אן אמוניציע-פאבריק",
+        "modelQuote": "אוועקנעשיקט אין פודעטן-\nלאַנד, אין האלבשטאט, אין אן אמוניציע-פאבריק",
+        "bbox": {
+          "left": 377,
+          "top": 1634,
+          "right": 2391,
+          "bottom": 1800
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n161/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "0ce20a9828543e6ad54661be75e60efcc1882a5f396c610aa48e273c46908741",
+        "normalizedPassageChecksum": "e9b7921f780409937348cb7c34747b1ac255f3c5a038168ce8b0ba7a089231ad",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_be712d333014bce1b7f12d05",
+      "type": "Event",
+      "title": "Transfer to an ammunition factory",
+      "relation": "Occurred At",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_695d588728b4b33bd4c96f4b",
+      "type": "Place",
+      "title": "Birkenau",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_add648bc533a6a8ed1917c7f",
+      "type": "Organization",
+      "title": "French laborers",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5b20b24041145cb1e9e14f67",
+      "type": "Person",
+      "title": "Jewish block elder",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

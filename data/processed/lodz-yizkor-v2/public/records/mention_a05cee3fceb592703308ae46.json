@@ -1,0 +1,124 @@
+{
+  "id": "mention_a05cee3fceb592703308ae46",
+  "type": "Place",
+  "title": "Auschwitz crematoria",
+  "summary": "Crematoria shown to the narrator during a nighttime visit.",
+  "originalName": "אויוונס",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 145,
+  "printedPage": "141",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "crematoria",
+  "uncertaintyNote": "The surrounding OCR is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f9ce8c4b82782c26e7189614",
+      "pageId": "page_nybc313080_0145",
+      "scanIndex": 145,
+      "leafNumber": 144,
+      "printedPage": "141",
+      "passageCharStart": 451,
+      "passageCharEnd": 499,
+      "normalizedPassageCharStart": 451,
+      "normalizedPassageCharEnd": 499,
+      "pageCharStart": 4647,
+      "pageCharEnd": 4695,
+      "quote": "און געוויזן די , ואַש\"-אַנשטאַלטן און די אויוונס",
+      "normalizedQuote": "און געוויזן די , ואַש\"-אַנשטאַלטן און די אויוונס",
+      "modelQuote": "און געוויזן די , ואַש\"-אַנשטאַלטן און די אויוונס",
+      "bbox": {
+        "left": 341,
+        "top": 4472,
+        "right": 2020,
+        "bottom": 4562
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n144/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "014bce174005f2ce4f9dfe3750c6f36c818225f6133f13937205e9320f8aed39",
+      "normalizedPassageChecksum": "72131114df1dc44f046a48cf45940248a7df320684edcbd1b720892e81f1e8b6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_41454a29da6c703b469a7dd3",
+      "type": "Migration",
+      "title": "Nighttime visit to Auschwitz crematoria",
+      "summary": "Mashal Hasid and Yanek Tsinyan took the narrator to see Auschwitz crematoria.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_f9ce8c4b82782c26e7189614",
+        "pageId": "page_nybc313080_0145",
+        "scanIndex": 145,
+        "leafNumber": 144,
+        "printedPage": "141",
+        "passageCharStart": 391,
+        "passageCharEnd": 450,
+        "normalizedPassageCharStart": 391,
+        "normalizedPassageCharEnd": 450,
+        "pageCharStart": 4587,
+        "pageCharEnd": 4646,
+        "quote": "ביינאַכט זענען זיי געקומען און מיטגענומען מיך קיין\nאוישוויץ",
+        "normalizedQuote": "ביינאַכט זענען זיי געקומען און מיטגענומען מיך קיין\nאוישוויץ",
+        "modelQuote": "ביינאַכט זענען זיי געקומען און מיטגענומען מיך קיין אוישוויץ",
+        "bbox": {
+          "left": 344,
+          "top": 4384,
+          "right": 2345,
+          "bottom": 4555
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n144/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "014bce174005f2ce4f9dfe3750c6f36c818225f6133f13937205e9320f8aed39",
+        "normalizedPassageChecksum": "72131114df1dc44f046a48cf45940248a7df320684edcbd1b720892e81f1e8b6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5e36f205b8dccb0e7addddc5",
+      "type": "Person",
+      "title": "Mashal Hasid",
+      "relation": "Escorted To"
+    },
+    {
+      "id": "mention_7e004a34e1b392374e716ae0",
+      "type": "Person",
+      "title": "Yanek Tsinyan",
+      "relation": "Participated In"
+    },
+    {
+      "id": "event_candidate_41454a29da6c703b469a7dd3",
+      "type": "Event",
+      "title": "Nighttime visit to Auschwitz crematoria",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5e36f205b8dccb0e7addddc5",
+      "type": "Person",
+      "title": "Mashal Hasid",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7e004a34e1b392374e716ae0",
+      "type": "Person",
+      "title": "Yanek Tsinyan",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d0277cc01f9f631555873c86",
+      "type": "Person",
+      "title": "Narrator’s wife",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

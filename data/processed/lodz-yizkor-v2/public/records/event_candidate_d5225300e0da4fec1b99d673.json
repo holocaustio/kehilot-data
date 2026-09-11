@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_d5225300e0da4fec1b99d673",
+  "type": "Event",
+  "title": "Killing of a 19-year-old boy",
+  "summary": "A Nazi killed a 19-year-old boy while he attempted to escape.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 155,
+  "printedPage": "151",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "OCR is unclear, but the text explicitly states the child's life ended.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ea20b16dbc15dadcfb25772a",
+      "pageId": "page_nybc313080_0155",
+      "scanIndex": 155,
+      "leafNumber": 154,
+      "printedPage": "151",
+      "passageCharStart": 301,
+      "passageCharEnd": 346,
+      "normalizedPassageCharStart": 301,
+      "normalizedPassageCharEnd": 346,
+      "pageCharStart": 1147,
+      "pageCharEnd": 1192,
+      "quote": "א קוי? אין קאָפּ פארענדיקט דאָס לעבן\nפון קינד",
+      "normalizedQuote": "א קוי? אין קאָפּ פארענדיקט דאָס לעבן\nפון קינד",
+      "modelQuote": "א קוי? אין קאָפּ פארענדיקט דאָס לעבן פון קינד",
+      "bbox": {
+        "left": 2592,
+        "top": 2756,
+        "right": 4624,
+        "bottom": 2939
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n154/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "363e6f00f695a83828bf3e1f9853941c9207d437150ef2a69231c9fedd731124",
+      "normalizedPassageChecksum": "5a01686f28a837365b8a7661bff513030f95628983ec810d95f3c7e89a0ea84d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_04f5168ec3ff058c37ae0046",
+      "type": "Person",
+      "title": "child",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_34e26f9f82f3c17535d56e4a",
+      "type": "Organization",
+      "title": "Nazis",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

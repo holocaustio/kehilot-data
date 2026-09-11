@@ -1,0 +1,109 @@
+{
+  "id": "mention_9773a9c793e6344fdddd87d0",
+  "type": "Organization",
+  "title": "English military",
+  "summary": "English military personnel who arrived in trucks and liberated the camp.",
+  "originalName": "עננליש מיליטער",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 157,
+  "printedPage": "153",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military",
+  "uncertaintyNote": "The OCR spelling is irregular.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dc4f31554a2a88fd92087f43",
+      "pageId": "page_nybc313080_0157",
+      "scanIndex": 157,
+      "leafNumber": 156,
+      "printedPage": "153",
+      "passageCharStart": 648,
+      "passageCharEnd": 682,
+      "normalizedPassageCharStart": 648,
+      "normalizedPassageCharEnd": 682,
+      "pageCharStart": 648,
+      "pageCharEnd": 682,
+      "quote": "לאַסט-\nאויטאָס מיט עננליש מיליטער.",
+      "normalizedQuote": "לאַסט-\nאויטאָס מיט עננליש מיליטער.",
+      "modelQuote": "לאַסט-אויטאָס מיט עננליש מיליטער.",
+      "bbox": {
+        "left": 2553,
+        "top": 1801,
+        "right": 4611,
+        "bottom": 1982
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n156/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "2cbf3665e2a47c878efcf50dc5fc34b44323c62c24133565ef82d416c0e504e5",
+      "normalizedPassageChecksum": "799063de0b80f1319be24b41dcfc335303b1ca223b9f9b7e683d2f02074abe15",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_11c768e1ee86d431e94c6e6b",
+      "type": "Arrival",
+      "title": "Arrival of English military",
+      "summary": "English military arrived in trucks after camp supervisors fled and returned.",
+      "dateStart": "1948-04-18",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The date contains an OCR anomaly, and the text implies but does not explicitly name a liberation event.",
+      "evidence": {
+        "passageId": "passage_dc4f31554a2a88fd92087f43",
+        "pageId": "page_nybc313080_0157",
+        "scanIndex": 157,
+        "leafNumber": 156,
+        "printedPage": "153",
+        "passageCharStart": 607,
+        "passageCharEnd": 682,
+        "normalizedPassageCharStart": 607,
+        "normalizedPassageCharEnd": 682,
+        "pageCharStart": 607,
+        "pageCharEnd": 682,
+        "quote": "דעם 18טן אַפּריל?ל 1948 זענען אָנגעקומען לאַסט-\nאויטאָס מיט עננליש מיליטער.",
+        "normalizedQuote": "דעם 18טן אַפּריל?ל 1948 זענען אָנגעקומען לאַסט-\nאויטאָס מיט עננליש מיליטער.",
+        "modelQuote": "דעם 18טן אַפּריל?ל 1948 זענען אָנגעקומען לאַסט-אויטאָס מיט עננליש מיליטער.",
+        "bbox": {
+          "left": 2553,
+          "top": 1801,
+          "right": 4611,
+          "bottom": 1982
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n156/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "2cbf3665e2a47c878efcf50dc5fc34b44323c62c24133565ef82d416c0e504e5",
+        "normalizedPassageChecksum": "799063de0b80f1319be24b41dcfc335303b1ca223b9f9b7e683d2f02074abe15",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_11c768e1ee86d431e94c6e6b",
+      "type": "Event",
+      "title": "Arrival of English military",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_a49fd5272290a6e7b20ce008",
+      "type": "Person",
+      "title": "Lube",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b5dc50bf959f6dd110faeec9",
+      "type": "Person",
+      "title": "Mala",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

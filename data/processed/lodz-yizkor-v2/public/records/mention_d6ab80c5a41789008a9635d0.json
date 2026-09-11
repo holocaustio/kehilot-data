@@ -1,0 +1,123 @@
+{
+  "id": "mention_d6ab80c5a41789008a9635d0",
+  "type": "Place",
+  "title": "Vegetable Market",
+  "summary": "Market gate where hundreds of Jews gathered and were shot.",
+  "originalName": "גרינצייג מאַרק",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 122,
+  "printedPage": "118",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "market",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_975a07caf1970ebba614abf4",
+      "pageId": "page_nybc313080_0122",
+      "scanIndex": 122,
+      "leafNumber": 121,
+      "printedPage": "118",
+      "passageCharStart": 1109,
+      "passageCharEnd": 1152,
+      "normalizedPassageCharStart": 1109,
+      "normalizedPassageCharEnd": 1152,
+      "pageCharStart": 4002,
+      "pageCharEnd": 4045,
+      "quote": "אין דער\nריי פּאַרן טויער פון גרינצייג מאַרק",
+      "normalizedQuote": "אין דער\nריי פּאַרן טויער פון גרינצייג מאַרק",
+      "modelQuote": "אין דער\nריי פּאַרן טויער פון גרינצייג מאַרק",
+      "bbox": {
+        "left": 364,
+        "top": 2539,
+        "right": 2406,
+        "bottom": 2703
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n121/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "f3a3b5974184197932baa83038d816e008cfce597ece8298883b291ac6add6be",
+      "normalizedPassageChecksum": "2cd3b6d0a4b4adbb99ad78e7c82731ea11b5fe4426afd9fdfd714d78e73e46c5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a33a29b73128ba8b255ad271",
+      "type": "Murder",
+      "title": "Shooting at the vegetable market",
+      "summary": "German murderers shot a queue at the vegetable market, killing dozens.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_975a07caf1970ebba614abf4",
+        "pageId": "page_nybc313080_0122",
+        "scanIndex": 122,
+        "leafNumber": 121,
+        "printedPage": "118",
+        "passageCharStart": 1203,
+        "passageCharEnd": 1261,
+        "normalizedPassageCharStart": 1203,
+        "normalizedPassageCharEnd": 1261,
+        "pageCharStart": 4096,
+        "pageCharEnd": 4154,
+        "quote": "האָבן באַשאָסן די רייע און נע-\nהרג'עט צענדליקער צווישן זיי",
+        "normalizedQuote": "האָבן באַשאָסן די רייע און נע-\nהרג'עט צענדליקער צווישן זיי",
+        "modelQuote": "האָבן באַשאָסן די רייע און נע-\nהרג'עט צענדליקער צווישן זיי",
+        "bbox": {
+          "left": 364,
+          "top": 2747,
+          "right": 2404,
+          "bottom": 2911
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n121/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "f3a3b5974184197932baa83038d816e008cfce597ece8298883b291ac6add6be",
+        "normalizedPassageChecksum": "2cd3b6d0a4b4adbb99ad78e7c82731ea11b5fe4426afd9fdfd714d78e73e46c5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a33a29b73128ba8b255ad271",
+      "type": "Event",
+      "title": "Shooting at the vegetable market",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4c0b123353e29c47ecc7dc12",
+      "type": "Person",
+      "title": "Sukhavolski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f3b4bf6a705f844d8eb5c6ba",
+      "type": "Place",
+      "title": "Łódź",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_597c98a1a7ea3a97aeb6532e",
+      "type": "Place",
+      "title": "42 Brzeziner Court",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b829b71bd4060ad51f0d0d28",
+      "type": "Institution",
+      "title": "Jewish Police",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_64ff3d4392c1aaac689ee955",
+      "type": "Community",
+      "title": "Lodz Ghetto",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

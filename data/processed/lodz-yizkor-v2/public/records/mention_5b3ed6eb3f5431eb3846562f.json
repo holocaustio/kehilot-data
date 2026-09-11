@@ -1,0 +1,106 @@
+{
+  "id": "mention_5b3ed6eb3f5431eb3846562f",
+  "type": "Place",
+  "title": "Kilinskiego Street",
+  "summary": "Street in Lodz where Bronkher was described as a neighbor.",
+  "originalName": "קילינסקעגאָ גאַס",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 62,
+  "printedPage": "58",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0a3eb0c362ebf7926d3d2c07",
+      "pageId": "page_nybc313080_0062",
+      "scanIndex": 62,
+      "leafNumber": 61,
+      "printedPage": "58",
+      "passageCharStart": 73,
+      "passageCharEnd": 105,
+      "normalizedPassageCharStart": 73,
+      "normalizedPassageCharEnd": 105,
+      "pageCharStart": 2866,
+      "pageCharEnd": 2898,
+      "quote": "אונדזער שכן פון קילינסקעגאָ גאַס",
+      "normalizedQuote": "אונדזער שכן פון קילינסקעגאָ גאַס",
+      "modelQuote": "אונדזער שכן פון קילינסקעגאָ גאַס",
+      "bbox": {
+        "left": 2620,
+        "top": 5824,
+        "right": 3869,
+        "bottom": 5904
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n61/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "55b04b0ae0f56254c953af423b36e327cf71684d5a3996ef5cc16092f01f8acb",
+      "normalizedPassageChecksum": "918dad5943697f162551a78fc961ee59da3fc59f6a2a061e516af91d1e83106e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_8866ec547403564a5b869e6e",
+      "predicate": "Neighbor Of",
+      "subjectTitle": "Bronkher",
+      "objectTitle": "Kilinskiego Street",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The wording identifies Bronkher as the narrator’s neighbor on the street, but does not explicitly state Bronkher’s residence.",
+      "evidence": {
+        "passageId": "passage_0a3eb0c362ebf7926d3d2c07",
+        "pageId": "page_nybc313080_0062",
+        "scanIndex": 62,
+        "leafNumber": 61,
+        "printedPage": "58",
+        "passageCharStart": 73,
+        "passageCharEnd": 105,
+        "normalizedPassageCharStart": 73,
+        "normalizedPassageCharEnd": 105,
+        "pageCharStart": 2866,
+        "pageCharEnd": 2898,
+        "quote": "אונדזער שכן פון קילינסקעגאָ גאַס",
+        "normalizedQuote": "אונדזער שכן פון קילינסקעגאָ גאַס",
+        "modelQuote": "אונדזער שכן פון קילינסקעגאָ גאַס",
+        "bbox": {
+          "left": 2620,
+          "top": 5824,
+          "right": 3869,
+          "bottom": 5904
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n61/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "55b04b0ae0f56254c953af423b36e327cf71684d5a3996ef5cc16092f01f8acb",
+        "normalizedPassageChecksum": "918dad5943697f162551a78fc961ee59da3fc59f6a2a061e516af91d1e83106e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_9d99e4f884fc71e5dc143659",
+      "type": "Person",
+      "title": "Bronkher",
+      "relation": "Neighbor Of"
+    },
+    {
+      "id": "mention_9d99e4f884fc71e5dc143659",
+      "type": "Person",
+      "title": "Bronkher",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_18b709e56d3d67c6bb93a552",
+      "type": "Community",
+      "title": "Lodz",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

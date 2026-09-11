@@ -1,0 +1,124 @@
+{
+  "id": "mention_9c0bfda23f816489ecd400a0",
+  "type": "Place",
+  "title": "18 Młynarska Street",
+  "summary": "An address where a Nazhitz family child became ill.",
+  "originalName": "מלינאַרסקע 18",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 123,
+  "printedPage": "119",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "address",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_06498e2c7ae7e3a4206af070",
+      "pageId": "page_nybc313080_0123",
+      "scanIndex": 123,
+      "leafNumber": 122,
+      "printedPage": "119",
+      "passageCharStart": 886,
+      "passageCharEnd": 899,
+      "normalizedPassageCharStart": 886,
+      "normalizedPassageCharEnd": 899,
+      "pageCharStart": 3802,
+      "pageCharEnd": 3815,
+      "quote": "מלינאַרסקע 18",
+      "normalizedQuote": "מלינאַרסקע 18",
+      "modelQuote": "מלינאַרסקע 18",
+      "bbox": {
+        "left": 364,
+        "top": 2547,
+        "right": 854,
+        "bottom": 2619
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n122/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "a05c2f1593dab69c687c5fe034705ef6933ade63494cb096b89bde77285be7b1",
+      "normalizedPassageChecksum": "56b9ece7f5ee1b48f345246c59f8afb93bd4fc0fed1a4cbc85ce5dbf94ab2a28",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e654f6c6d56e3216f371e46f",
+      "type": "Illness",
+      "title": "Child became ill",
+      "summary": "A Nazhitz family child became ill at 18 Młynarska Street and received medicine.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text states illness, not death; no suitable allowed event type applies.",
+      "evidence": {
+        "passageId": "passage_06498e2c7ae7e3a4206af070",
+        "pageId": "page_nybc313080_0123",
+        "scanIndex": 123,
+        "leafNumber": 122,
+        "printedPage": "119",
+        "passageCharStart": 848,
+        "passageCharEnd": 919,
+        "normalizedPassageCharStart": 848,
+        "normalizedPassageCharEnd": 919,
+        "pageCharStart": 3764,
+        "pageCharEnd": 3835,
+        "quote": "אַ קינד פון דער משפּחה נאַזשיצע, אויף מלינאַרסקע 18,\nאיז קראַנק געװאָרן",
+        "normalizedQuote": "אַ קינד פון דער משפּחה נאַזשיצע, אויף מלינאַרסקע 18,\nאיז קראַנק געװאָרן",
+        "modelQuote": "אַ קינד פון דער משפּחה נאַזשיצע, אויף מלינאַרסקע 18,\nאיז קראַנק געװאָרן",
+        "bbox": {
+          "left": 364,
+          "top": 2547,
+          "right": 2363,
+          "bottom": 2720
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n122/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "a05c2f1593dab69c687c5fe034705ef6933ade63494cb096b89bde77285be7b1",
+        "normalizedPassageChecksum": "56b9ece7f5ee1b48f345246c59f8afb93bd4fc0fed1a4cbc85ce5dbf94ab2a28",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e654f6c6d56e3216f371e46f",
+      "type": "Event",
+      "title": "Child became ill",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_87513e98665266270d86a91b",
+      "type": "Person",
+      "title": "Nazhitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_41b66da08caae7f18e79232e",
+      "type": "Family",
+      "title": "Nazhitz family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bb1da6ab51233cb70dec8041",
+      "type": "Place",
+      "title": "Smonove Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eb917eb40c1a9532fa690a0e",
+      "type": "Person",
+      "title": "German worker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e31aef8a0a3bbf65cbeff442",
+      "type": "Object",
+      "title": "Gold necklace with a pendant",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

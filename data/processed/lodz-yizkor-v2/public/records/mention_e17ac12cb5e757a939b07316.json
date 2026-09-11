@@ -1,0 +1,111 @@
+{
+  "id": "mention_e17ac12cb5e757a939b07316",
+  "type": "Place",
+  "title": "Denmark",
+  "summary": "Destination named in a Jewish exodus passage.",
+  "originalName": "דענעמאַרק",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 200,
+  "printedPage": "196",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "country",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d7cdc9a0e7f4c3e81ea03b49",
+      "pageId": "page_nybc313080_0200",
+      "scanIndex": 200,
+      "leafNumber": 199,
+      "printedPage": "196",
+      "passageCharStart": 39,
+      "passageCharEnd": 61,
+      "normalizedPassageCharStart": 39,
+      "normalizedPassageCharEnd": 61,
+      "pageCharStart": 3897,
+      "pageCharEnd": 3919,
+      "quote": "קיין ישראל..\nדענעמאַרק",
+      "normalizedQuote": "קיין ישראל..\nדענעמאַרק",
+      "modelQuote": "קיין ישראל..\nדענעמאַרק",
+      "bbox": {
+        "left": 347,
+        "top": 3920,
+        "right": 2381,
+        "bottom": 4093
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n199/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "390483cb76720e29d414e82c1d912aac9a02c8db44e60ed51bc5bfd38d3273cf",
+      "normalizedPassageChecksum": "e2918b98856d3766695f57af2d6be884453ba9214813ced499840936ca86295a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_fefab5731c1c2d72b92dc3b0",
+      "predicate": "Migrated To",
+      "subjectTitle": "Polish Jews",
+      "objectTitle": "Denmark",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_d7cdc9a0e7f4c3e81ea03b49",
+        "pageId": "page_nybc313080_0200",
+        "scanIndex": 200,
+        "leafNumber": 199,
+        "printedPage": "196",
+        "passageCharStart": 39,
+        "passageCharEnd": 71,
+        "normalizedPassageCharStart": 39,
+        "normalizedPassageCharEnd": 71,
+        "pageCharStart": 3897,
+        "pageCharEnd": 3929,
+        "quote": "קיין ישראל..\nדענעמאַרק,.. שוועדן",
+        "normalizedQuote": "קיין ישראל..\nדענעמאַרק,.. שוועדן",
+        "modelQuote": "קיין ישראל..\nדענעמאַרק,.. שוועדן",
+        "bbox": {
+          "left": 347,
+          "top": 3920,
+          "right": 2381,
+          "bottom": 4099
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n199/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "390483cb76720e29d414e82c1d912aac9a02c8db44e60ed51bc5bfd38d3273cf",
+        "normalizedPassageChecksum": "e2918b98856d3766695f57af2d6be884453ba9214813ced499840936ca86295a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_c0d6af8adb4b9aded31c8c4c",
+      "type": "Community",
+      "title": "Polish Jews",
+      "relation": "Migrated To"
+    },
+    {
+      "id": "mention_7cf21187ba458875fe942af7",
+      "type": "Community",
+      "title": "Lodz Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f3b4bf6a705f844d8eb5c6ba",
+      "type": "Place",
+      "title": "Łódź",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8d0c6bf68e300e555fa31a0b",
+      "type": "Place",
+      "title": "Sweden",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

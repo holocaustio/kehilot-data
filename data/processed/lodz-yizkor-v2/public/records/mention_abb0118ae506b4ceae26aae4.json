@@ -1,0 +1,249 @@
+{
+  "id": "mention_abb0118ae506b4ceae26aae4",
+  "type": "Place",
+  "title": "United States",
+  "summary": "Country where Israel Lichtenstein died according to the passage.",
+  "originalName": "פאַראייניסטע שטאַטן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 65,
+  "printedPage": "61",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "country",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bae38c8c566474b85e8f1548",
+      "pageId": "page_nybc313080_0065",
+      "scanIndex": 65,
+      "leafNumber": 64,
+      "printedPage": "61",
+      "passageCharStart": 981,
+      "passageCharEnd": 1007,
+      "normalizedPassageCharStart": 981,
+      "normalizedPassageCharEnd": 1007,
+      "pageCharStart": 2407,
+      "pageCharEnd": 2433,
+      "quote": "אין די פאַראייניסטע\nשטאַטן",
+      "normalizedQuote": "אין די פאַראייניסטע\nשטאַטן",
+      "modelQuote": "אין די פאַראייניסטע\nשטאַטן",
+      "bbox": {
+        "left": 2600,
+        "top": 5603,
+        "right": 4613,
+        "bottom": 5800
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n64/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "da1aba74b71eb94277bae8bc48a10e1216883f90da121b2e9e588492a9339a93",
+      "normalizedPassageChecksum": "86c76943526c998c615b6fcf9b3afade10cf8e16ad1c1283115c032b3630f81d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_5ca6b5e3c7ca6c94a40c2d01",
+      "pageId": "page_nybc313080_0242",
+      "scanIndex": 242,
+      "leafNumber": 241,
+      "printedPage": "238",
+      "passageCharStart": 480,
+      "passageCharEnd": 492,
+      "normalizedPassageCharStart": 480,
+      "normalizedPassageCharEnd": 492,
+      "pageCharStart": 480,
+      "pageCharEnd": 492,
+      "quote": "פאַר. שטאַטן",
+      "normalizedQuote": "פאַר. שטאַטן",
+      "modelQuote": "פאַר. שטאַטן",
+      "bbox": {
+        "left": 4012,
+        "top": 5891,
+        "right": 4424,
+        "bottom": 5954
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n241/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "30b49c2b45a6d7532b97a44b96dad7e68ae7cbaf586a02c8b1e6fdfa1c9a5642",
+      "normalizedPassageChecksum": "8c6a32849f5ceaf3515c790bf07dade4c512a7af69f674a9d10dd64d52e7b346",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_5e03485225664b1604940080",
+      "type": "Death",
+      "title": "Death of Israel Lichtenstein",
+      "summary": "Israel Lichtenstein died in the United States in the stated year.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR wording is slightly unclear, but the passage explicitly states death in 1983 in the United States.",
+      "evidence": {
+        "passageId": "passage_bae38c8c566474b85e8f1548",
+        "pageId": "page_nybc313080_0065",
+        "scanIndex": 65,
+        "leafNumber": 64,
+        "printedPage": "61",
+        "passageCharStart": 949,
+        "passageCharEnd": 1007,
+        "normalizedPassageCharStart": 949,
+        "normalizedPassageCharEnd": 1007,
+        "pageCharStart": 2375,
+        "pageCharEnd": 2433,
+        "quote": "ער איז נעשטאָרבן אין יאָר 1983, אין די פאַראייניסטע\nשטאַטן",
+        "normalizedQuote": "ער איז נעשטאָרבן אין יאָר 1983, אין די פאַראייניסטע\nשטאַטן",
+        "modelQuote": "ער איז נעשטאָרבן אין יאָר 1983, אין די פאַראייניסטע\nשטאַטן",
+        "bbox": {
+          "left": 2600,
+          "top": 5603,
+          "right": 4614,
+          "bottom": 5800
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n64/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "da1aba74b71eb94277bae8bc48a10e1216883f90da121b2e9e588492a9339a93",
+        "normalizedPassageChecksum": "86c76943526c998c615b6fcf9b3afade10cf8e16ad1c1283115c032b3630f81d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_5e03485225664b1604940080",
+      "type": "Event",
+      "title": "Death of Israel Lichtenstein",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a0d9f2d3fa61971b92eae564",
+      "type": "Organization",
+      "title": "Bund",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4723d6f985c9712a3279be8a",
+      "type": "Person",
+      "title": "Shmuel Milman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a8419d059a9fa4fa8ab82153",
+      "type": "Person",
+      "title": "Dr. Margolis",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ceb4018adc0975e92705f837",
+      "type": "Person",
+      "title": "Artur Zygelbojm",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9e5591e49429382044a82c52",
+      "type": "Person",
+      "title": "Chaim-Leib Poznanski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bd8ad1e370409cab5f87cf20",
+      "type": "Person",
+      "title": "Joseph Morgentaler",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_738c3f30b1c394d4814856ff",
+      "type": "Person",
+      "title": "Roza Eichner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f3b4bf6a705f844d8eb5c6ba",
+      "type": "Place",
+      "title": "Łódź",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c9c78021410da539df6a16c3",
+      "type": "Institution",
+      "title": "Tsisho Schools",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9cca4a68b119ccc8d6c58d4d",
+      "type": "Person",
+      "title": "Zoshe Hamburg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b3458f3292ccbe6b945a48a1",
+      "type": "Person",
+      "title": "Tuvia Schwartz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_51f276361f19ceceb144a740",
+      "type": "Person",
+      "title": "Samuel Schwiatowoy",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3925e61b72c76011820150d9",
+      "type": "Person",
+      "title": "A. Schwiderski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_22e09d1c8963bfae2a401c59",
+      "type": "Person",
+      "title": "Y. Maskowitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b0cc8130a76184091eaa65b9",
+      "type": "Person",
+      "title": "L. Freidkin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_057c73bf43ca6476716221d0",
+      "type": "Place",
+      "title": "Melbourne, Australia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b0e4a9930f6df1103e4a7aa9",
+      "type": "Person",
+      "title": "Nakhum Stern",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e86fa634e7220dec80e4dd71",
+      "type": "Person",
+      "title": "Asher Stern",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_53557cc1ad0397d3dcea8fe0",
+      "type": "Person",
+      "title": "Rusha Levukovich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2433ace92f8bcbb0719865de",
+      "type": "Person",
+      "title": "Pola Savitska",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_274ea9da47dc7f66c50de3bf",
+      "type": "Person",
+      "title": "Zosha Berkovich",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

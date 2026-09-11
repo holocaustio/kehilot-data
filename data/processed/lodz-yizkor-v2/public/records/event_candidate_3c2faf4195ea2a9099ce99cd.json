@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_3c2faf4195ea2a9099ce99cd",
+  "type": "Event",
+  "title": "Deportation of orphanage children",
+  "summary": "Rumkowski sent children from the ghetto orphanages in Marysin to certain death during the action; the destination is unspecified.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 123,
+  "printedPage": "119",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The excerpt describes sending the children to certain death but does not name a destination.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2cbe77b65dd96c234d13cb0d",
+      "pageId": "page_nybc313080_0123",
+      "scanIndex": 123,
+      "leafNumber": 122,
+      "printedPage": "119",
+      "passageCharStart": 733,
+      "passageCharEnd": 786,
+      "normalizedPassageCharStart": 733,
+      "normalizedPassageCharEnd": 786,
+      "pageCharStart": 733,
+      "pageCharEnd": 786,
+      "quote": "די קינדער פון די יתומים הייזער פון געטאָ אין מאַרישין",
+      "normalizedQuote": "די קינדער פון די יתומים הייזער פון געטאָ אין מאַרישין",
+      "modelQuote": "די קינדער פון די יתומים הייזער פון געטאָ אין מאַרישין",
+      "bbox": {
+        "left": 2584,
+        "top": 2035,
+        "right": 4622,
+        "bottom": 2108
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n122/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "160c45adcc0b6049ee606ac61d1f16814be4a983553005ca35f5e807bef2eda2",
+      "normalizedPassageChecksum": "41b8f186f2ff6b0d41c277b8980381b1a49cd72abf0d1959638b5ebd1bd93817",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_eba62b9c33e4d8a91c513d30",
+      "type": "Place",
+      "title": "Marysin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_3138406c6df4e5f697fb0988",
+      "type": "Person",
+      "title": "Rumkowski",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_49a3fbf7d16e7134929fc7e6",
+      "type": "Community",
+      "title": "Łódź Ghetto",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

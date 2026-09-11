@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_bdb59e94ebd2aff16241d566",
+  "type": "Event",
+  "title": "Killings at Chelmno",
+  "summary": "A letter reported that people were being killed in Chelmno village.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 103,
+  "printedPage": "99",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cf21cbe6be6088f78c45cc09",
+      "pageId": "page_nybc313080_0103",
+      "scanIndex": 103,
+      "leafNumber": 102,
+      "printedPage": "99",
+      "passageCharStart": 968,
+      "passageCharEnd": 1011,
+      "normalizedPassageCharStart": 968,
+      "normalizedPassageCharEnd": 1011,
+      "pageCharStart": 2976,
+      "pageCharEnd": 3019,
+      "quote": "אַז אין דאָרף כעלמנאָ ברענגט\nמען אום מענטשן",
+      "normalizedQuote": "אַז אין דאָרף כעלמנאָ ברענגט\nמען אום מענטשן",
+      "modelQuote": "אַז אין דאָרף כעלמנאָ ברענגט מען אום מענטשן",
+      "bbox": {
+        "left": 387,
+        "top": 1592,
+        "right": 2382,
+        "bottom": 1771
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n102/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "ab870cd210a95d8ad6af1181589568dc98f9f1d870181e8d6422b90f403c8acf",
+      "normalizedPassageChecksum": "994d40718e50eff797d87d1e100b10601ce3fb1a7e9789298c06823319f3ad98",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_667c2d4b29c5713a472044f6",
+      "type": "Place",
+      "title": "Chelmno",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_2c34ecfa7c45761d21a7d3a5",
+      "type": "Person",
+      "title": "Rabbi Silman",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,119 @@
+{
+  "id": "mention_53d5542b29f60fa6cc866f90",
+  "type": "Person",
+  "title": "Unnamed German soldier",
+  "summary": "A German soldier recognized the narrator as a barber and refused to shoot him.",
+  "originalName": "דער זעלנער",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 146,
+  "printedPage": "142",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "soldier",
+  "uncertaintyNote": "The soldier is unnamed.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7988ae818a09bde5a2b56b73",
+      "pageId": "page_nybc313080_0146",
+      "scanIndex": 146,
+      "leafNumber": 145,
+      "printedPage": "142",
+      "passageCharStart": 817,
+      "passageCharEnd": 846,
+      "normalizedPassageCharStart": 817,
+      "normalizedPassageCharEnd": 846,
+      "pageCharStart": 1879,
+      "pageCharEnd": 1908,
+      "quote": "דער זעלנער האָט מיך אָנגעקוקט",
+      "normalizedQuote": "דער זעלנער האָט מיך אָנגעקוקט",
+      "modelQuote": "דער זעלנער האָט מיך אָנגעקוקט",
+      "bbox": {
+        "left": 3018,
+        "top": 4318,
+        "right": 4118,
+        "bottom": 4393
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n145/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "8d2cb24bef565d94a8cfd8403a7587be5faa91429b952ec5c040a2310aaa3bb6",
+      "normalizedPassageChecksum": "a78255637a3bb7f64d999b6ee9738cc4bbab3afbeff4b0a50c6289ed1d13c150",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_615cfa28f4aa76b2f739d8a7",
+      "type": "Murder",
+      "title": "Friend shot during flight",
+      "summary": "A soldier shot and killed the narrator’s fleeing friend; the evidence does not establish that the soldier was German or that the killing occurred in the forest.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_49a1c927185a59558303e881",
+        "pageId": "page_nybc313080_0146",
+        "scanIndex": 146,
+        "leafNumber": 145,
+        "printedPage": "142",
+        "passageCharStart": 635,
+        "passageCharEnd": 679,
+        "normalizedPassageCharStart": 635,
+        "normalizedPassageCharEnd": 679,
+        "pageCharStart": 2780,
+        "pageCharEnd": 2824,
+        "quote": "אים האָט דער זעלנער נאָכגעשאָסן און דערהרנעט",
+        "normalizedQuote": "אים האָט דער זעלנער נאָכגעשאָסן און דערהרנעט",
+        "modelQuote": "אים האָט דער זעלנער נאָכגעשאָסן און דערהרנעט",
+        "bbox": {
+          "left": 654,
+          "top": 626,
+          "right": 2383,
+          "bottom": 708
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n145/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "75daa51b734b0809fba358de8ad0017869bebd670a43c3abb9b4ca2b5d1ffdb7",
+        "normalizedPassageChecksum": "be39979d0266c38ac59cb5ec95e680fdf8daf39cc23bf26835d30e73831c62a6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_615cfa28f4aa76b2f739d8a7",
+      "type": "Event",
+      "title": "Friend shot during flight",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_46b64083271eb6a16630f8ed",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_599e160def444ef75b5f9086",
+      "type": "Place",
+      "title": "Chemnitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c10895468b7084fe3cff25d8",
+      "type": "Place",
+      "title": "Pilsen, Czechia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cf0dddaa8d75db2cdf7520cc",
+      "type": "Person",
+      "title": "Emmerich",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

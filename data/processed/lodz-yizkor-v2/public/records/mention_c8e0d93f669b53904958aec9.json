@@ -1,0 +1,195 @@
+{
+  "id": "mention_c8e0d93f669b53904958aec9",
+  "type": "Place",
+  "title": "Czechia",
+  "summary": "Country from which refugees were deported.",
+  "originalName": "טשעכיע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 116,
+  "printedPage": "112",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "country",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e00bada5dab1844b68341ac9",
+      "pageId": "page_nybc313080_0116",
+      "scanIndex": 116,
+      "leafNumber": 115,
+      "printedPage": "112",
+      "passageCharStart": 552,
+      "passageCharEnd": 558,
+      "normalizedPassageCharStart": 552,
+      "normalizedPassageCharEnd": 558,
+      "pageCharStart": 552,
+      "pageCharEnd": 558,
+      "quote": "טשעכיע",
+      "normalizedQuote": "טשעכיע",
+      "modelQuote": "טשעכיע",
+      "bbox": {
+        "left": 2568,
+        "top": 1950,
+        "right": 2817,
+        "bottom": 2006
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n115/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "e24120e6ccee0d81064b4742d0a37c0f71e10ff88261bc362f3d4a5ad77c3929",
+      "normalizedPassageChecksum": "ea29e63b813aa4df157611b8a4d070e422218a1c4c5b670e5b87a041246d6a76",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_dd8510fa595c85523b132bc2",
+      "pageId": "page_nybc313080_0185",
+      "scanIndex": 185,
+      "leafNumber": 184,
+      "printedPage": "181",
+      "passageCharStart": 151,
+      "passageCharEnd": 165,
+      "normalizedPassageCharStart": 151,
+      "normalizedPassageCharEnd": 165,
+      "pageCharStart": 1051,
+      "pageCharEnd": 1065,
+      "quote": "מגרמניה וצ'כיה",
+      "normalizedQuote": "מגרמניה וצ'כיה",
+      "modelQuote": "מגרמניה וצ'כיה",
+      "bbox": {
+        "left": 4025,
+        "top": 3121,
+        "right": 4562,
+        "bottom": 3188
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n184/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "846b05409ac36d6930025e297e79bfeecfb6220ca91e53718a21ec458d5c7426",
+      "normalizedPassageChecksum": "7d787cf9ded01fc1bcdb1c597ef3c570a5d81d1c98e0c2ea908dd9214d17fb4f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_bd7c0a36736a7e7c391ef012",
+      "type": "Deportation",
+      "title": "Deportation of refugees to the ghetto",
+      "summary": "Refugees from Germany, Austria, and Czechia were sent to an industrial city and entered the ghetto.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e00bada5dab1844b68341ac9",
+        "pageId": "page_nybc313080_0116",
+        "scanIndex": 116,
+        "leafNumber": 115,
+        "printedPage": "112",
+        "passageCharStart": 524,
+        "passageCharEnd": 576,
+        "normalizedPassageCharStart": 524,
+        "normalizedPassageCharEnd": 576,
+        "pageCharStart": 524,
+        "pageCharEnd": 576,
+        "quote": "פון דייטשלאַנד, עסטרייך און טשעכיע\nזענען זיי פארשיקט",
+        "normalizedQuote": "פון דייטשלאַנד, עסטרייך און טשעכיע\nזענען זיי פארשיקט",
+        "modelQuote": "פון דייטשלאַנד, עסטרייך און טשעכיע זענען זיי פארשיקט",
+        "bbox": {
+          "left": 2568,
+          "top": 1938,
+          "right": 4590,
+          "bottom": 2117
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n115/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "e24120e6ccee0d81064b4742d0a37c0f71e10ff88261bc362f3d4a5ad77c3929",
+        "normalizedPassageChecksum": "ea29e63b813aa4df157611b8a4d070e422218a1c4c5b670e5b87a041246d6a76",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_bd7c0a36736a7e7c391ef012",
+      "type": "Event",
+      "title": "Deportation of refugees to the ghetto",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_074c40b6adc69bb6905b7222",
+      "type": "Person",
+      "title": "Abraham Tsikert",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_08f6bb20f4ea7d0def1f031b",
+      "type": "Place",
+      "title": "Lodz Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0ff9c449f8812cdad04d9dff",
+      "type": "Community",
+      "title": "Polish Jewry",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9c708a28879703b3b2230079",
+      "type": "Place",
+      "title": "Germany",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_53a722a67d81986eb496f37b",
+      "type": "Place",
+      "title": "Austria",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7832da2ea686030212522ec9",
+      "type": "Place",
+      "title": "Reich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_84bd37abf8c29f9f0dff32bb",
+      "type": "Person",
+      "title": "Raskin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b97908139e18f903de71bc57",
+      "type": "Institution",
+      "title": "Vilker Synagogue",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_199a29987e1b6daa2ec54c26",
+      "type": "Institution",
+      "title": "Education Department",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1f1e5ddb5bea1e947874880f",
+      "type": "Organization",
+      "title": "Vocational Guidance Committee",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eba62b9c33e4d8a91c513d30",
+      "type": "Place",
+      "title": "Marysin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e2841966e790d1a0db335204",
+      "type": "Place",
+      "title": "Germany",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

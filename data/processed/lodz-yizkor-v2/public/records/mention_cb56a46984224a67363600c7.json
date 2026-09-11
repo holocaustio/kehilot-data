@@ -1,0 +1,119 @@
+{
+  "id": "mention_cb56a46984224a67363600c7",
+  "type": "Place",
+  "title": "Klane",
+  "summary": "Place where Israel Raban was killed in 1914.",
+  "originalName": "קלאַנע",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 44,
+  "printedPage": "40",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "Place name is transliterated from OCR.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d4a6b317fdd63322d962edb3",
+      "pageId": "page_nybc313080_0044",
+      "scanIndex": 44,
+      "leafNumber": 43,
+      "printedPage": "40",
+      "passageCharStart": 62,
+      "passageCharEnd": 72,
+      "normalizedPassageCharStart": 62,
+      "normalizedPassageCharEnd": 72,
+      "pageCharStart": 2107,
+      "pageCharEnd": 2117,
+      "quote": "אין קלאַנע",
+      "normalizedQuote": "אין קלאַנע",
+      "modelQuote": "אין קלאַנע",
+      "bbox": {
+        "left": 393,
+        "top": 2362,
+        "right": 673,
+        "bottom": 2412
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n43/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "5ee2e4936d258577f11a026696847a4369df9c527224cf3793c3968497c7d077",
+      "normalizedPassageChecksum": "b02cb327dfaa780d3b416f3e90c6d9fbf386fd54f0b4624a2409762b03320d5b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_f9eef89d7fa3ff3fa3633805",
+      "type": "Death",
+      "title": "Death of Israel Raban",
+      "summary": "Israel Raban died in Klane in 1914.",
+      "dateStart": "1914",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text indicates death but the exact manner is unclear.",
+      "evidence": {
+        "passageId": "passage_d4a6b317fdd63322d962edb3",
+        "pageId": "page_nybc313080_0044",
+        "scanIndex": 44,
+        "leafNumber": 43,
+        "printedPage": "40",
+        "passageCharStart": 46,
+        "passageCharEnd": 72,
+        "normalizedPassageCharStart": 46,
+        "normalizedPassageCharEnd": 72,
+        "pageCharStart": 2091,
+        "pageCharEnd": 2117,
+        "quote": "אופגעקומען 1914 אין קלאַנע",
+        "normalizedQuote": "אופגעקומען 1914 אין קלאַנע",
+        "modelQuote": "אופגעקומען 1914 אין קלאַנע",
+        "bbox": {
+          "left": 393,
+          "top": 2361,
+          "right": 1171,
+          "bottom": 2412
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n43/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "5ee2e4936d258577f11a026696847a4369df9c527224cf3793c3968497c7d077",
+        "normalizedPassageChecksum": "b02cb327dfaa780d3b416f3e90c6d9fbf386fd54f0b4624a2409762b03320d5b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_f9eef89d7fa3ff3fa3633805",
+      "type": "Event",
+      "title": "Death of Israel Raban",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_86c76f4d3401d263017508dd",
+      "type": "Person",
+      "title": "Israel Raban",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_78aff51f934cbef7ec4b56e4",
+      "type": "Place",
+      "title": "Gavorotishchev",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ab42e987f1aa8eed49122b2",
+      "type": "Person",
+      "title": "Srulke",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ae1b2ca7a771e35a00da0ba4",
+      "type": "Person",
+      "title": "Rubinshe",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

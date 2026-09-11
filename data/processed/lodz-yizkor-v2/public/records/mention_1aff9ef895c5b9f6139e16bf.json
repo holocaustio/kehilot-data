@@ -1,0 +1,95 @@
+{
+  "id": "mention_1aff9ef895c5b9f6139e16bf",
+  "type": "Person",
+  "title": "a German guard",
+  "summary": "A German guard who killed an infant and threatened the policeman.",
+  "originalName": "דייטשן וועכטער",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 119,
+  "printedPage": "115",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "German guard",
+  "uncertaintyNote": "The guard is unnamed.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d65c4fae9b91ca54810d44b1",
+      "pageId": "page_nybc313080_0119",
+      "scanIndex": 119,
+      "leafNumber": 118,
+      "printedPage": "115",
+      "passageCharStart": 232,
+      "passageCharEnd": 250,
+      "normalizedPassageCharStart": 232,
+      "normalizedPassageCharEnd": 250,
+      "pageCharStart": 2870,
+      "pageCharEnd": 2888,
+      "quote": "צום דייטשן וועכטער",
+      "normalizedQuote": "צום דייטשן וועכטער",
+      "modelQuote": "צום דייטשן וועכטער",
+      "bbox": {
+        "left": 1442,
+        "top": 919,
+        "right": 2147,
+        "bottom": 983
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n118/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "4adf67a73df8973b18681e353c78bc47e9bb973f2afeb2228d2d28f6d8f3cebd",
+      "normalizedPassageChecksum": "224343364931310d5b8037add02b3cc541d594e68a2d4717361e79d5ad3137cb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_1ade578073f9d7fc2146411e",
+      "type": "Murder",
+      "title": "Killing of an infant",
+      "summary": "A German guard killed an infant found hidden inside a small suitcase.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_d65c4fae9b91ca54810d44b1",
+        "pageId": "page_nybc313080_0119",
+        "scanIndex": 119,
+        "leafNumber": 118,
+        "printedPage": "115",
+        "passageCharStart": 252,
+        "passageCharEnd": 288,
+        "normalizedPassageCharStart": 252,
+        "normalizedPassageCharEnd": 288,
+        "pageCharStart": 2890,
+        "pageCharEnd": 2926,
+        "quote": "דער וועכטער האָט דאָס קינד\nדערשטיפּט",
+        "normalizedQuote": "דער וועכטער האָט דאָס קינד\nדערשטיפּט",
+        "modelQuote": "דער וועכטער האָט דאָס קינד דערשטיפּט",
+        "bbox": {
+          "left": 413,
+          "top": 925,
+          "right": 2410,
+          "bottom": 1082
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n118/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "4adf67a73df8973b18681e353c78bc47e9bb973f2afeb2228d2d28f6d8f3cebd",
+        "normalizedPassageChecksum": "224343364931310d5b8037add02b3cc541d594e68a2d4717361e79d5ad3137cb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_1ade578073f9d7fc2146411e",
+      "type": "Event",
+      "title": "Killing of an infant",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    }
+  ],
+  "publicationEligible": false
+}

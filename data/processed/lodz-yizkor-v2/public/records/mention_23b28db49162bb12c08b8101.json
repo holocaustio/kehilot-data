@@ -1,0 +1,108 @@
+{
+  "id": "mention_23b28db49162bb12c08b8101",
+  "type": "Organization",
+  "title": "The Russians",
+  "summary": "The Russians liberated the narrator in May 1949.",
+  "originalName": "די רוסן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 149,
+  "printedPage": "145",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military force",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dd31a663dec433236835e530",
+      "pageId": "page_nybc313080_0149",
+      "scanIndex": 149,
+      "leafNumber": 148,
+      "printedPage": "145",
+      "passageCharStart": 721,
+      "passageCharEnd": 733,
+      "normalizedPassageCharStart": 721,
+      "normalizedPassageCharEnd": 733,
+      "pageCharStart": 4805,
+      "pageCharEnd": 4817,
+      "quote": "דורך די רוסן",
+      "normalizedQuote": "דורך די רוסן",
+      "modelQuote": "דורך די רוסן",
+      "bbox": {
+        "left": 525,
+        "top": 5373,
+        "right": 969,
+        "bottom": 5443
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n148/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "42e7252aa0ecbeef848ad04605e21e8cdf6ec91c47e8d6ad7f681ade326ce9ca",
+      "normalizedPassageChecksum": "2bf1a9b46308115ccf95efa26f8df2158ba7a721a6c35c7197136e1d13b7aa9f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_4af648f599fae2e1c4a641af",
+      "type": "Liberation",
+      "title": "Liberation near Ravensbrück",
+      "summary": "The narrator was liberated in Germany near Ravensbrück in May 1949 by the Russians.",
+      "dateStart": "1949-05",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage says the narrator was liberated in a country near Ravensbrück, not necessarily at Ravensbrück itself.",
+      "evidence": {
+        "passageId": "passage_dd31a663dec433236835e530",
+        "pageId": "page_nybc313080_0149",
+        "scanIndex": 149,
+        "leafNumber": 148,
+        "printedPage": "145",
+        "passageCharStart": 683,
+        "passageCharEnd": 733,
+        "normalizedPassageCharStart": 683,
+        "normalizedPassageCharEnd": 733,
+        "pageCharStart": 4767,
+        "pageCharEnd": 4817,
+        "quote": "בין איך באַפרייט נעװאָרן אין מאי 1949 דורך די רוסן",
+        "normalizedQuote": "בין איך באַפרייט נעװאָרן אין מאי 1949 דורך די רוסן",
+        "modelQuote": "בין איך באַפרייט נעװאָרן אין מאי 1949 דורך די רוסן",
+        "bbox": {
+          "left": 525,
+          "top": 5368,
+          "right": 2362,
+          "bottom": 5456
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n148/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "42e7252aa0ecbeef848ad04605e21e8cdf6ec91c47e8d6ad7f681ade326ce9ca",
+        "normalizedPassageChecksum": "2bf1a9b46308115ccf95efa26f8df2158ba7a721a6c35c7197136e1d13b7aa9f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_4af648f599fae2e1c4a641af",
+      "type": "Event",
+      "title": "Liberation near Ravensbrück",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_121f4840d003c65ebd617ffb",
+      "type": "Place",
+      "title": "Ravensbrück",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f3b4bf6a705f844d8eb5c6ba",
+      "type": "Place",
+      "title": "Łódź",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

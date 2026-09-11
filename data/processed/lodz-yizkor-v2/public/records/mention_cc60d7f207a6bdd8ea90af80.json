@@ -1,0 +1,116 @@
+{
+  "id": "mention_cc60d7f207a6bdd8ea90af80",
+  "type": "Person",
+  "title": "Reichert",
+  "summary": "Engineer and son of one of Reichert's Synagogue's founders or associated persons.",
+  "originalName": "רייכערט",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 58,
+  "printedPage": "54",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "engineer",
+  "uncertaintyNote": "The text identifies him as one of the synagogue's sons but does not specify whose son.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_949f07bbb92ba555ca4a9b57",
+      "pageId": "page_nybc313080_0058",
+      "scanIndex": 58,
+      "leafNumber": 57,
+      "printedPage": "54",
+      "passageCharStart": 254,
+      "passageCharEnd": 268,
+      "normalizedPassageCharStart": 254,
+      "normalizedPassageCharEnd": 268,
+      "pageCharStart": 254,
+      "pageCharEnd": 268,
+      "quote": "אינזש. רייכערט",
+      "normalizedQuote": "אינזש. רייכערט",
+      "modelQuote": "אינזש. רייכערט",
+      "bbox": {
+        "left": 3344,
+        "top": 976,
+        "right": 3866,
+        "bottom": 1030
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n57/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "6dec9e00dcde5fbc1cf6f5aa6cb02195607dd41e21751239ab3b94beadb9cd85",
+      "normalizedPassageChecksum": "f784e0e8ce4c99a99b91a54321383d56a49a6059d657fba41a537d4b219c87e9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_5f9535e3a20ceef6525d2b7a",
+      "type": "Restoration",
+      "title": "Restoration of Reichert's Synagogue",
+      "summary": "Reichert's Synagogue was restored in 1980 by engineer Reichert, one of its sons.",
+      "dateStart": "1980",
+      "dateEnd": "1980",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include restoration; this candidate is therefore not semantically well-fitted.",
+      "evidence": {
+        "passageId": "passage_949f07bbb92ba555ca4a9b57",
+        "pageId": "page_nybc313080_0058",
+        "scanIndex": 58,
+        "leafNumber": 57,
+        "printedPage": "54",
+        "passageCharStart": 203,
+        "passageCharEnd": 226,
+        "normalizedPassageCharStart": 203,
+        "normalizedPassageCharEnd": 226,
+        "pageCharStart": 203,
+        "pageCharEnd": 226,
+        "quote": "1980 רעסטאװרירט געװאָרן",
+        "normalizedQuote": "1980 רעסטאװרירט געװאָרן",
+        "modelQuote": "1980 רעסטאװרירט געװאָרן",
+        "bbox": {
+          "left": 2823,
+          "top": 864,
+          "right": 3762,
+          "bottom": 932
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n57/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "6dec9e00dcde5fbc1cf6f5aa6cb02195607dd41e21751239ab3b94beadb9cd85",
+        "normalizedPassageChecksum": "f784e0e8ce4c99a99b91a54321383d56a49a6059d657fba41a537d4b219c87e9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_5f9535e3a20ceef6525d2b7a",
+      "type": "Event",
+      "title": "Restoration of Reichert's Synagogue",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_64b6b4663deb0906bfaed5e8",
+      "type": "Institution",
+      "title": "Reichert's Synagogue",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aff15e93f2309e86f31d8bc9",
+      "type": "Place",
+      "title": "Paludniove Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_66d0744a6869996da387c50b",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

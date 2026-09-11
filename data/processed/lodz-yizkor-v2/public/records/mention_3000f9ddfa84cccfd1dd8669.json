@@ -1,0 +1,106 @@
+{
+  "id": "mention_3000f9ddfa84cccfd1dd8669",
+  "type": "Institution",
+  "title": "Government school",
+  "summary": "Government school attended in the narrator's town.",
+  "originalName": "רעגירונגדשולע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 69,
+  "printedPage": "65",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "school",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9e9173e16e2fb74976eea395",
+      "pageId": "page_nybc313080_0069",
+      "scanIndex": 69,
+      "leafNumber": 68,
+      "printedPage": "65",
+      "passageCharStart": 93,
+      "passageCharEnd": 118,
+      "normalizedPassageCharStart": 93,
+      "normalizedPassageCharEnd": 118,
+      "pageCharStart": 3930,
+      "pageCharEnd": 3955,
+      "quote": "געענדיקט די\nרעגירונגדשולע",
+      "normalizedQuote": "געענדיקט די\nרעגירונגדשולע",
+      "modelQuote": "געענדיקט די\nרעגירונגדשולע",
+      "bbox": {
+        "left": 386,
+        "top": 5499,
+        "right": 2363,
+        "bottom": 5672
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n68/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "194b586f4bef98231eaa4d95a5047527d429ae82ba1c224c55ce46dbfb511ced",
+      "normalizedPassageChecksum": "50e13927b6ce5783543e61a8996548c34499854e61b822ab98113df7cefe7798",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d1d4f207c723908d651cd102",
+      "type": "School Attendance",
+      "title": "Attendance at a government school",
+      "summary": "The narrator completed a government school in their town.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9e9173e16e2fb74976eea395",
+        "pageId": "page_nybc313080_0069",
+        "scanIndex": 69,
+        "leafNumber": 68,
+        "printedPage": "65",
+        "passageCharStart": 93,
+        "passageCharEnd": 118,
+        "normalizedPassageCharStart": 93,
+        "normalizedPassageCharEnd": 118,
+        "pageCharStart": 3930,
+        "pageCharEnd": 3955,
+        "quote": "געענדיקט די\nרעגירונגדשולע",
+        "normalizedQuote": "געענדיקט די\nרעגירונגדשולע",
+        "modelQuote": "געענדיקט די\nרעגירונגדשולע",
+        "bbox": {
+          "left": 386,
+          "top": 5499,
+          "right": 2363,
+          "bottom": 5672
+        },
+        "scanUrl": "https://archive.org/details/nybc313080/page/n68/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+        "passageChecksum": "194b586f4bef98231eaa4d95a5047527d429ae82ba1c224c55ce46dbfb511ced",
+        "normalizedPassageChecksum": "50e13927b6ce5783543e61a8996548c34499854e61b822ab98113df7cefe7798",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d1d4f207c723908d651cd102",
+      "type": "Event",
+      "title": "Attendance at a government school",
+      "relation": "Participated In",
+      "role": "Student"
+    },
+    {
+      "id": "mention_da35ec6589735a733ddf5f6d",
+      "type": "Business",
+      "title": "Parents' clothing shop",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c8b2319f97c8944c658b670b",
+      "type": "Family",
+      "title": "Narrator's parents",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

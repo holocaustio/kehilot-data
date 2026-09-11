@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_ec53d54262d76b54ad645548",
+  "type": "Event",
+  "title": "Murder of Dr. Aleksander Margolis",
+  "summary": "Dr. Aleksander Margolis was murdered after Germans occupied Lodz.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 65,
+  "printedPage": "61",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The OCR is grammatically damaged, but the passage clearly states he was murdered.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7a3a686e3095d40593b9c97b",
+      "pageId": "page_nybc313080_0065",
+      "scanIndex": 65,
+      "leafNumber": 64,
+      "printedPage": "61",
+      "passageCharStart": 314,
+      "passageCharEnd": 334,
+      "normalizedPassageCharStart": 314,
+      "normalizedPassageCharEnd": 334,
+      "pageCharStart": 2910,
+      "pageCharEnd": 2930,
+      "quote": "און אים דער\n\nמאָרדעט",
+      "normalizedQuote": "און אים דער\n\nמאָרדעט",
+      "modelQuote": "און אים דער\n\nמאָרדעט",
+      "bbox": {
+        "left": 1575,
+        "top": 1562,
+        "right": 2369,
+        "bottom": 1723
+      },
+      "scanUrl": "https://archive.org/details/nybc313080/page/n64/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313080/nybc313080.pdf",
+      "passageChecksum": "49a6094d6357902645737a745d05f4c4be097e464a4fb275e1fd0aceec6dd0df",
+      "normalizedPassageChecksum": "c8da614d1e471f04f67f03cb2fa75d0377aa41d335903f5caab14858a48e1662",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f3b4bf6a705f844d8eb5c6ba",
+      "type": "Place",
+      "title": "Łódź",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_b4c322feaafbcf3434a71fbd",
+      "type": "Person",
+      "title": "Dr. Aleksander Margolis",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}
