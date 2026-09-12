@@ -1,0 +1,105 @@
+{
+  "id": "mention_c69158ac0331d65b33876646",
+  "type": "Person",
+  "title": "Shmarya Meltzer",
+  "summary": "Recipient tasked with distributing aid among fire victims.",
+  "originalName": "שמריה מעלצער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 277,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_63f3a4e2f90a08ef1a627523",
+      "pageId": "page_nybc314226_0277",
+      "scanIndex": 277,
+      "leafNumber": 276,
+      "printedPage": null,
+      "passageCharStart": 410,
+      "passageCharEnd": 423,
+      "normalizedPassageCharStart": 410,
+      "normalizedPassageCharEnd": 423,
+      "pageCharStart": 1401,
+      "pageCharEnd": 1414,
+      "quote": "שמרי ה מעלצער",
+      "normalizedQuote": "שמרי ה מעלצער",
+      "modelQuote": "שמריה מעלצער",
+      "bbox": {
+        "left": 2175,
+        "top": 2495,
+        "right": 2651,
+        "bottom": 2563
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n276/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "66de9e856409a01f8d08ee8db79648c8ce2c09de5f753f2230576e6a2be4976c",
+      "normalizedPassageChecksum": "461d66b6ae4090bbb0f6bdbeb34d28d0ea07b71aeb353b60952d76889d1f2898",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_39b7696c0e47bfa22f605dea",
+      "type": "Fire",
+      "title": "Aid sent to fire victims",
+      "summary": "The Skala Association sent money to Shmarya Meltzer for distribution among fire victims.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_63f3a4e2f90a08ef1a627523",
+        "pageId": "page_nybc314226_0277",
+        "scanIndex": 277,
+        "leafNumber": 276,
+        "printedPage": null,
+        "passageCharStart": 311,
+        "passageCharEnd": 358,
+        "normalizedPassageCharStart": 311,
+        "normalizedPassageCharEnd": 358,
+        "pageCharStart": 1302,
+        "pageCharEnd": 1349,
+        "quote": "הא ט\nדע ר סקאלע ר פאריי ן געשיק ט א סומ ע געל ט",
+        "normalizedQuote": "הא ט\nדע ר סקאלע ר פאריי ן געשיק ט א סומ ע געל ט",
+        "modelQuote": "האט דער סקאלער פאריין געשיקט א סומע געל ט",
+        "bbox": {
+          "left": 605,
+          "top": 2311,
+          "right": 3001,
+          "bottom": 2481
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n276/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "66de9e856409a01f8d08ee8db79648c8ce2c09de5f753f2230576e6a2be4976c",
+        "normalizedPassageChecksum": "461d66b6ae4090bbb0f6bdbeb34d28d0ea07b71aeb353b60952d76889d1f2898",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_39b7696c0e47bfa22f605dea",
+      "type": "Event",
+      "title": "Aid sent to fire victims",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_4d24297290f1a4fed1e56c40",
+      "type": "Community",
+      "title": "Skala Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c1a51f8ab671d665ac8a1be8",
+      "type": "Organization",
+      "title": "Skala Association",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

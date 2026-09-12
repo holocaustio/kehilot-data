@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "kehilot-yizkor-source-v2",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "ingestedAt": "2026-09-12T13:09:39.547Z",
+  "community": {
+    "id": "community_skala",
+    "displayName": "skala",
+    "canonicalName": "skala",
+    "country": "Ukraine"
+  },
+  "book": {
+    "id": "book_nybc314226",
+    "communityId": "community_skala",
+    "internetArchiveId": "nybc314226",
+    "title": "Skala. Editorial board: Max Mermelstein (Weidenfeld) Chairman, Chaim Brettler ... [et al.]",
+    "alternateTitle": null,
+    "authors": [],
+    "publication": "New York, Skala Benevolent Society",
+    "language": "he-yi",
+    "pageProgression": "rl",
+    "sourceUrl": "https://archive.org/details/nybc314226",
+    "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+    "rightsStatus": "REVIEW_REQUIRED",
+    "attribution": "internet-archive",
+    "checksums": {
+      "metadata": "1664b4c5f5b53fc8b9df019d5d0e44a14e1ccdffae7fb8bf5c08daebf35879de",
+      "djvuXml": "2a7830383ad0024a9088c38b0afdf3f9689c5fbd14bea95a5abe32c1ea6580c7",
+      "scandataXml": "00b261cfc9e4ce917834f8043eb977187f98afaa6d8218b95aa6f9b9f4e7a020",
+      "pdf": "239814e933726fda47874d3de0d279394f7a495d1619fb3ff3da7c5b283ed263"
+    }
+  },
+  "chapters": [],
+  "counts": {
+    "pages": 394,
+    "pagesWithText": 378,
+    "passages": 721,
+    "words": 245801,
+    "normalizationEdits": 237309,
+    "joinedFragments": 227762,
+    "softLineBreaks": 9547
+  },
+  "normalizationPolicy": {
+    "version": "ocr-layout-normalizer-v1",
+    "canonicalField": "text",
+    "derivedField": "normalizedText",
+    "reversible": true,
+    "changesCharacters": false,
+    "rules": [
+      "concatenate-djvu-word-runs",
+      "replace-soft-line-breaks"
+    ]
+  },
+  "passagePolicy": {
+    "pageBound": true,
+    "targetEstimatedTokens": 1100,
+    "maxEstimatedTokens": 1500,
+    "tokenEstimate": "hebrew_letters*1.15 + latin_letters/4 + digits/3 + punctuation/2"
+  }
+}

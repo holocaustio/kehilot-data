@@ -1,0 +1,102 @@
+{
+  "id": "mention_2d9cc1fa3faf51e5d386799b",
+  "type": "Place",
+  "title": "Forest at the city’s edge",
+  "summary": "A forest where the group fled seeking concealment and survival.",
+  "originalName": "וואלד",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 116,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "forest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f35f0d9e3ed8d75d1ba57ee5",
+      "pageId": "page_nybc314226_0116",
+      "scanIndex": 116,
+      "leafNumber": 115,
+      "printedPage": null,
+      "passageCharStart": 618,
+      "passageCharEnd": 639,
+      "normalizedPassageCharStart": 618,
+      "normalizedPassageCharEnd": 639,
+      "pageCharStart": 618,
+      "pageCharEnd": 639,
+      "quote": "אנטלויפ ן אי ן וואל ד",
+      "normalizedQuote": "אנטלויפ ן אי ן וואל ד",
+      "modelQuote": "אנטלויפן אין וואלד",
+      "bbox": {
+        "left": 944,
+        "top": 1264,
+        "right": 1516,
+        "bottom": 1354
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n115/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "308b6f74998cd58c9015de9059187451312d3023df24b6070f8b9efb034bf859",
+      "normalizedPassageChecksum": "b60a388f9400f122dede44cf7ac21212fc70241bfc365f9645f2b84c02035046",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b3c28dc5aadd21b93118b040",
+      "type": "Migration",
+      "title": "Flight from Skala ruins to the forest",
+      "summary": "A group fled Skala’s ruins toward the forest at the city’s edge in late June 1943.",
+      "dateStart": "1943-06",
+      "dateEnd": "1943-06",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The OCR year appears as 943ו, likely 1943, but the original text is unclear.",
+      "evidence": {
+        "passageId": "passage_f35f0d9e3ed8d75d1ba57ee5",
+        "pageId": "page_nybc314226_0116",
+        "scanIndex": 116,
+        "leafNumber": 115,
+        "printedPage": null,
+        "passageCharStart": 567,
+        "passageCharEnd": 639,
+        "normalizedPassageCharStart": 567,
+        "normalizedPassageCharEnd": 639,
+        "pageCharStart": 567,
+        "pageCharEnd": 639,
+        "quote": "באשלאס ן צ ו פארלאז ן ד י סקאלע ר חורבו ת או ן צ ו אנטלויפ ן אי ן וואל ד",
+        "normalizedQuote": "באשלאס ן צ ו פארלאז ן ד י סקאלע ר חורבו ת או ן צ ו אנטלויפ ן אי ן וואל ד",
+        "modelQuote": "באשלאסן צו פארלאזן די סקאלער חורבות און צו אנטלויפן אין וואלד",
+        "bbox": {
+          "left": 944,
+          "top": 1264,
+          "right": 3000,
+          "bottom": 1356
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n115/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "308b6f74998cd58c9015de9059187451312d3023df24b6070f8b9efb034bf859",
+        "normalizedPassageChecksum": "b60a388f9400f122dede44cf7ac21212fc70241bfc365f9645f2b84c02035046",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b3c28dc5aadd21b93118b040",
+      "type": "Event",
+      "title": "Flight from Skala ruins to the forest",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4d24297290f1a4fed1e56c40",
+      "type": "Community",
+      "title": "Skala Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,113 @@
+{
+  "id": "mention_33b547e3234aa1550e36aa99",
+  "type": "Person",
+  "title": "the narrator",
+  "summary": "The narrator traveled through fields with a farmer and child.",
+  "originalName": "מיר",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 136,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "narrator",
+  "uncertaintyNote": "The narrator is not named.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_585fb211f8824333fa36a3c7",
+      "pageId": "page_nybc314226_0136",
+      "scanIndex": 136,
+      "leafNumber": 135,
+      "printedPage": null,
+      "passageCharStart": 154,
+      "passageCharEnd": 176,
+      "normalizedPassageCharStart": 154,
+      "normalizedPassageCharEnd": 176,
+      "pageCharStart": 2533,
+      "pageCharEnd": 2555,
+      "quote": "מי ר גייע ן מיט ן פעלד",
+      "normalizedQuote": "מי ר גייע ן מיט ן פעלד",
+      "modelQuote": "מיר גייען מיטן פעלד",
+      "bbox": {
+        "left": 1966,
+        "top": 3945,
+        "right": 2612,
+        "bottom": 4035
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n135/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "251e3cfc147a21aa2ee2ba4dde17a6fdd4a1338a54d5fcd019a4e5aad664e752",
+      "normalizedPassageChecksum": "785cc6e4fe29c13472414f6fba2f8641e10100a35e4a9aa811365e2c75b37984",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_8aff3471e567178199ddefb8",
+      "predicate": "Led By",
+      "subjectTitle": "the farmer",
+      "objectTitle": "the narrator",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_585fb211f8824333fa36a3c7",
+        "pageId": "page_nybc314226_0136",
+        "scanIndex": 136,
+        "leafNumber": 135,
+        "printedPage": null,
+        "passageCharStart": 154,
+        "passageCharEnd": 218,
+        "normalizedPassageCharStart": 154,
+        "normalizedPassageCharEnd": 218,
+        "pageCharStart": 2533,
+        "pageCharEnd": 2597,
+        "quote": "מי ר גייע ן מיט ן פעלד , מיי ן פויע ר פארוי ס או ן מי ר נא ך אים",
+        "normalizedQuote": "מי ר גייע ן מיט ן פעלד , מיי ן פויע ר פארוי ס או ן מי ר נא ך אים",
+        "modelQuote": "מיר גייען מיטן פעלד, מיין פויער פארויס און מיר נאך אים",
+        "bbox": {
+          "left": 790,
+          "top": 3945,
+          "right": 2612,
+          "bottom": 4035
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n135/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "251e3cfc147a21aa2ee2ba4dde17a6fdd4a1338a54d5fcd019a4e5aad664e752",
+        "normalizedPassageChecksum": "785cc6e4fe29c13472414f6fba2f8641e10100a35e4a9aa811365e2c75b37984",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_348e2e9c2c961c4148526fb6",
+      "type": "Person",
+      "title": "the farmer",
+      "relation": "Led By"
+    },
+    {
+      "id": "event_candidate_375adabe6d27f141609b436e",
+      "type": "Event",
+      "title": "Nighttime journey toward Skala",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_f2e2c05ecde1ed3675d18b56",
+      "type": "Organization",
+      "title": "German watchmen",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f2575753359ff5e248cb7f2a",
+      "type": "Place",
+      "title": "the border",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

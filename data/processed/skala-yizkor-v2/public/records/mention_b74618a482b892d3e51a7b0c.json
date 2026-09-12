@@ -1,0 +1,137 @@
+{
+  "id": "mention_b74618a482b892d3e51a7b0c",
+  "type": "Person",
+  "title": "Engel",
+  "summary": "The accused person discussed in a murder trial.",
+  "originalName": "ענגעל",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 172,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "accused person",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b8406e44afdaf668b8c52a17",
+      "pageId": "page_nybc314226_0172",
+      "scanIndex": 172,
+      "leafNumber": 171,
+      "printedPage": null,
+      "passageCharStart": 195,
+      "passageCharEnd": 203,
+      "normalizedPassageCharStart": 195,
+      "normalizedPassageCharEnd": 203,
+      "pageCharStart": 2106,
+      "pageCharEnd": 2114,
+      "quote": "ענגעל׳ ס",
+      "normalizedQuote": "ענגעל׳ ס",
+      "modelQuote": "ענגעל׳ס",
+      "bbox": {
+        "left": 1177,
+        "top": 3326,
+        "right": 1413,
+        "bottom": 3396
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n171/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "3a96062856979b19dedf492ca6a973ff45530d6dee4f12747d0e734288ce101c",
+      "normalizedPassageChecksum": "2647ced513d0da49323d0a4d4716fe2196a1aaa8bc859eae9f6ecb74c7f1fae8",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_b43e06b35d85e7a5171e007f",
+      "predicate": "Participated In",
+      "subjectTitle": "Engel",
+      "objectTitle": "Engel trial",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9ee8af06308c94579eb3c686",
+        "pageId": "page_nybc314226_0173",
+        "scanIndex": 173,
+        "leafNumber": 172,
+        "printedPage": null,
+        "passageCharStart": 605,
+        "passageCharEnd": 633,
+        "normalizedPassageCharStart": 605,
+        "normalizedPassageCharEnd": 633,
+        "pageCharStart": 605,
+        "pageCharEnd": 633,
+        "quote": "בי י דע ם פראצע ס פו ן ענגעל",
+        "normalizedQuote": "בי י דע ם פראצע ס פו ן ענגעל",
+        "modelQuote": "ביי דעם פראצעס פון ענגעל",
+        "bbox": {
+          "left": 1376,
+          "top": 1251,
+          "right": 2238,
+          "bottom": 1339
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n172/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "3a4faded64b1a638c29d7140078e8985ef91a215da0b66a5a7336c7e536236fd",
+        "normalizedPassageChecksum": "9590a93285e22211329b80d311febeda02ea0ee0c3b5c4891bbf74eed609c0ae",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_2765346c5310591c86b27351",
+      "type": "Murder",
+      "title": "Shooting of Hannah Schwarzbach",
+      "summary": "Engel reportedly shot Hannah Schwarzbach and was later acquitted.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9ee8af06308c94579eb3c686",
+        "pageId": "page_nybc314226_0173",
+        "scanIndex": 173,
+        "leafNumber": 172,
+        "printedPage": null,
+        "passageCharStart": 705,
+        "passageCharEnd": 747,
+        "normalizedPassageCharStart": 705,
+        "normalizedPassageCharEnd": 747,
+        "pageCharStart": 705,
+        "pageCharEnd": 747,
+        "quote": "מוד ה געווע ן אי ן דערשיס ן הנ א\nשווארצבאך",
+        "normalizedQuote": "מוד ה געווע ן אי ן דערשיס ן הנ א\nשווארצבאך",
+        "modelQuote": "מודה געווען אין דערשיסן הנא\nשווארצבאך",
+        "bbox": {
+          "left": 616,
+          "top": 1371,
+          "right": 3004,
+          "bottom": 1545
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n172/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "3a4faded64b1a638c29d7140078e8985ef91a215da0b66a5a7336c7e536236fd",
+        "normalizedPassageChecksum": "9590a93285e22211329b80d311febeda02ea0ee0c3b5c4891bbf74eed609c0ae",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_cfa023b5cc514921eabc3326",
+      "type": "Event",
+      "title": "Engel trial",
+      "relation": "Participated In"
+    },
+    {
+      "id": "event_candidate_2765346c5310591c86b27351",
+      "type": "Event",
+      "title": "Shooting of Hannah Schwarzbach",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    }
+  ],
+  "publicationEligible": false
+}

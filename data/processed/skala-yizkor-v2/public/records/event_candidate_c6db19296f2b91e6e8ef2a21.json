@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_c6db19296f2b91e6e8ef2a21",
+  "type": "Event",
+  "title": "Death of Yitzhak Mann",
+  "summary": "Yitzhak Mann reportedly died in Skaler Forest.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 102,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_23a91ced54f5b4b950dda0bc",
+      "pageId": "page_nybc314226_0102",
+      "scanIndex": 102,
+      "leafNumber": 101,
+      "printedPage": null,
+      "passageCharStart": 557,
+      "passageCharEnd": 587,
+      "normalizedPassageCharStart": 557,
+      "normalizedPassageCharEnd": 587,
+      "pageCharStart": 557,
+      "pageCharEnd": 587,
+      "quote": "אומגעקומע ן אי ן סקאלע ר\nוואלד",
+      "normalizedQuote": "אומגעקומע ן אי ן סקאלע ר\nוואלד",
+      "modelQuote": "אומגעקומען אין סקאלער\nוואלד",
+      "bbox": {
+        "left": 748,
+        "top": 1574,
+        "right": 2774,
+        "bottom": 1744
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n101/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "7d5ebf5de4ff140aafa8f275d80e156dbd05b8e56face7e9aff5c5b8fcc31f52",
+      "normalizedPassageChecksum": "8906b15981ded257ffc4d9032f33cb6d17698fe5eb55b86023bb1a21e60309bf",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_3fba8e5331f0c6590f2b2ad0",
+      "type": "Place",
+      "title": "Skaler Forest",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_43facdc1f8e494dcb3f694c9",
+      "type": "Person",
+      "title": "Yitzhak Mann",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

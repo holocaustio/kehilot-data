@@ -1,0 +1,123 @@
+{
+  "id": "mention_08800d590fb086d258e5f48e",
+  "type": "Place",
+  "title": "Tobacco Warehouse",
+  "summary": "Captured men were confined there before being sent to camps.",
+  "originalName": "טאבאק־מאגאזין",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 101,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "warehouse",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_680540404341ebb123bee381",
+      "pageId": "page_nybc314226_0101",
+      "scanIndex": 101,
+      "leafNumber": 100,
+      "printedPage": null,
+      "passageCharStart": 733,
+      "passageCharEnd": 752,
+      "normalizedPassageCharStart": 733,
+      "normalizedPassageCharEnd": 752,
+      "pageCharStart": 2662,
+      "pageCharEnd": 2681,
+      "quote": "צו ם טאבאק־מאגאזי ן",
+      "normalizedQuote": "צו ם טאבאק־מאגאזי ן",
+      "modelQuote": "צום טאבאק־מאגאזין",
+      "bbox": {
+        "left": 2369,
+        "top": 4058,
+        "right": 2993,
+        "bottom": 4130
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n100/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "7381aaa5f6901a7fe9d3ab4607839bc177105f318756dac4fdb18d01e7cde04d",
+      "normalizedPassageChecksum": "965f598d915476caf02817dc5689e2ddb5712d0530ef9521d9a4471aaf83136a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b6be540900b742009ff2f850",
+      "type": "Deportation",
+      "title": "Captured men sent to camps",
+      "summary": "Captured men were confined in a tobacco warehouse and sent to two camps.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_680540404341ebb123bee381",
+        "pageId": "page_nybc314226_0101",
+        "scanIndex": 101,
+        "leafNumber": 100,
+        "printedPage": null,
+        "passageCharStart": 694,
+        "passageCharEnd": 854,
+        "normalizedPassageCharStart": 694,
+        "normalizedPassageCharEnd": 854,
+        "pageCharStart": 2623,
+        "pageCharEnd": 2783,
+        "quote": "ד י איבעריק ע זענע ן געבראכ ט געוואר ן\nצו ם טאבאק־מאגאזי ן או ן דאר ט הא ט מע ן זי י פארשפאר ט בי ז צו ם אוועקשיק ן אי ן\nד י לאגער ן בארקי־וויעלקי ע או ן סטופקי",
+        "normalizedQuote": "ד י איבעריק ע זענע ן געבראכ ט געוואר ן\nצו ם טאבאק־מאגאזי ן או ן דאר ט הא ט מע ן זי י פארשפאר ט בי ז צו ם אוועקשיק ן אי ן\nד י לאגער ן בארקי־וויעלקי ע או ן סטופקי",
+        "modelQuote": "די איבעריקע זענען געבראכט געווארן\nצום טאבאק־מאגאזין און דארט האט מען זיי פארשפארט ביז צום אוועקשיקן אין\nדי לאגערן בארקי־וויעלקיע און סטופקי",
+        "bbox": {
+          "left": 595,
+          "top": 3958,
+          "right": 2995,
+          "bottom": 4234
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n100/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "7381aaa5f6901a7fe9d3ab4607839bc177105f318756dac4fdb18d01e7cde04d",
+        "normalizedPassageChecksum": "965f598d915476caf02817dc5689e2ddb5712d0530ef9521d9a4471aaf83136a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b6be540900b742009ff2f850",
+      "type": "Event",
+      "title": "Captured men sent to camps",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4d24297290f1a4fed1e56c40",
+      "type": "Community",
+      "title": "Skala Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e8ddcf086aeba164d0cd6a9a",
+      "type": "Place",
+      "title": "Former Starostvo",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e291bd120222003d7ae288a2",
+      "type": "Place",
+      "title": "Barki-Wielkie camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0b732841ef0a91e51c9233df",
+      "type": "Place",
+      "title": "Stupki camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d150d5c00e0696af09da835a",
+      "type": "Place",
+      "title": "German-occupied area",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

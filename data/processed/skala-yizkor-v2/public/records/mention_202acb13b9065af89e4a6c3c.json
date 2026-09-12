@@ -1,0 +1,123 @@
+{
+  "id": "mention_202acb13b9065af89e4a6c3c",
+  "type": "Place",
+  "title": "Prison",
+  "summary": "Prison where Jewish prisoners and Russian prisoners of war were held.",
+  "originalName": "בית הסוהר",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 79,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "prison",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_38f726fe879c5ae1e28e3544",
+      "pageId": "page_nybc314226_0079",
+      "scanIndex": 79,
+      "leafNumber": 78,
+      "printedPage": null,
+      "passageCharStart": 689,
+      "passageCharEnd": 738,
+      "normalizedPassageCharStart": 689,
+      "normalizedPassageCharEnd": 738,
+      "pageCharStart": 689,
+      "pageCharEnd": 738,
+      "quote": "בבי ת הסוה ר ישב ו\nג ם כ־ 120 שבויי־מלחמ ה רוסיים",
+      "normalizedQuote": "בבי ת הסוה ר ישב ו\nג ם כ־ 120 שבויי־מלחמ ה רוסיים",
+      "modelQuote": "בבית הסוהר ישבו גם כ־120 שבויי־מלחמה רוסיים",
+      "bbox": {
+        "left": 613,
+        "top": 1590,
+        "right": 3005,
+        "bottom": 1750
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n78/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "4191c413285b8047246011a8386b501318e45a18e654d32ee9d60b3b313441d0",
+      "normalizedPassageChecksum": "91823d0f642fd73fccd16347e54adfd69cf30253dc3e842b978bd4bc0ed60000",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_4cb3f671dc3577fbc52236b4",
+      "type": "Liberation",
+      "title": "Release of approximately thirty prisoners",
+      "summary": "The rabbi released approximately thirty prisoners and sent twenty to the Gestapo in Chortkiv.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_38f726fe879c5ae1e28e3544",
+        "pageId": "page_nybc314226_0079",
+        "scanIndex": 79,
+        "leafNumber": 78,
+        "printedPage": null,
+        "passageCharStart": 48,
+        "passageCharEnd": 80,
+        "normalizedPassageCharStart": 48,
+        "normalizedPassageCharEnd": 80,
+        "pageCharStart": 48,
+        "pageCharEnd": 80,
+        "quote": "שיחר ר כשלושי ם\nאי ש ושל ח עשרים",
+        "normalizedQuote": "שיחר ר כשלושי ם\nאי ש ושל ח עשרים",
+        "modelQuote": "שיחרר כשלושים איש ושלח עשרים",
+        "bbox": {
+          "left": 617,
+          "top": 566,
+          "right": 3007,
+          "bottom": 738
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n78/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "4191c413285b8047246011a8386b501318e45a18e654d32ee9d60b3b313441d0",
+        "normalizedPassageChecksum": "91823d0f642fd73fccd16347e54adfd69cf30253dc3e842b978bd4bc0ed60000",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_4cb3f671dc3577fbc52236b4",
+      "type": "Event",
+      "title": "Release of approximately thirty prisoners",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_08b932c030ea148bd823ec68",
+      "type": "Place",
+      "title": "Chortkiv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e639e505611939a5ea0d9855",
+      "type": "Organization",
+      "title": "SS",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d22bc3c45b503041322d06af",
+      "type": "Person",
+      "title": "Verber",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_858d60be9096cb52bd56b9bc",
+      "type": "Person",
+      "title": "Kochman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d49af6376d570027c1c36d21",
+      "type": "Object",
+      "title": "Bullo",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

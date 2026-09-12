@@ -1,0 +1,112 @@
+{
+  "id": "mention_c163ea543775dcf945806817",
+  "type": "Person",
+  "title": "Paretz",
+  "summary": "Counted houses during the fire and cited a rabbinic blessing.",
+  "originalName": "פרץ",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 261,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c90860d3ca5810629974bd42",
+      "pageId": "page_nybc314226_0261",
+      "scanIndex": 261,
+      "leafNumber": 260,
+      "printedPage": null,
+      "passageCharStart": 300,
+      "passageCharEnd": 321,
+      "normalizedPassageCharStart": 300,
+      "normalizedPassageCharEnd": 321,
+      "pageCharStart": 1733,
+      "pageCharEnd": 1754,
+      "quote": "אי ז זי ך פר ץ(אליה ו",
+      "normalizedQuote": "אי ז זי ך פר ץ(אליה ו",
+      "modelQuote": "איז זיך פרץ(אליהו",
+      "bbox": {
+        "left": 597,
+        "top": 3000,
+        "right": 1155,
+        "bottom": 3088
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n260/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "3485a2b4c73900ffb92a5903fe1d28d5b083a904463588febad22ea3240b55fb",
+      "normalizedPassageChecksum": "2dca1fed8ea776b3f87cc339381396dedeb567d557b82e1caad9721f4929d724",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_573df6465398f7140851e683",
+      "type": "Fire",
+      "title": "Great fire in Skala",
+      "summary": "A major fire in Skala reportedly began at Wolf Meir David's house and spread to other houses.",
+      "dateStart": "1899",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c90860d3ca5810629974bd42",
+        "pageId": "page_nybc314226_0261",
+        "scanIndex": 261,
+        "leafNumber": 260,
+        "printedPage": null,
+        "passageCharStart": 0,
+        "passageCharEnd": 43,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 43,
+        "pageCharStart": 1433,
+        "pageCharEnd": 1476,
+        "quote": "ווא ט הא ט פארצוק ט כמע ט דא ס גאנצ ע שטעטל",
+        "normalizedQuote": "ווא ט הא ט פארצוק ט כמע ט דא ס גאנצ ע שטעטל",
+        "modelQuote": "וואט האט פארצוקט כמעט דאס גאנצע שטעטל",
+        "bbox": {
+          "left": 1499,
+          "top": 2692,
+          "right": 2995,
+          "bottom": 2782
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n260/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "3485a2b4c73900ffb92a5903fe1d28d5b083a904463588febad22ea3240b55fb",
+        "normalizedPassageChecksum": "2dca1fed8ea776b3f87cc339381396dedeb567d557b82e1caad9721f4929d724",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_573df6465398f7140851e683",
+      "type": "Event",
+      "title": "Great fire in Skala",
+      "relation": "Participated In",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_1cdecbd54e83ed07a23d57ad",
+      "type": "Person",
+      "title": "Wolf Meir David",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_754900959cffe5728e367cf0",
+      "type": "Person",
+      "title": "Elijah Hersher",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6a099d7812f046944f45b850",
+      "type": "Place",
+      "title": "Wolf Meir David's house",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

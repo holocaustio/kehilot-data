@@ -1,0 +1,105 @@
+{
+  "id": "mention_952dde47776f42bdfc66ff6f",
+  "type": "Place",
+  "title": "Einshnit",
+  "summary": "A work site where Moshe Shtak was killed by a landslide.",
+  "originalName": "איינשניט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 98,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "work site",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4a87816d04e9b010f19a6400",
+      "pageId": "page_nybc314226_0098",
+      "scanIndex": 98,
+      "leafNumber": 97,
+      "printedPage": null,
+      "passageCharStart": 113,
+      "passageCharEnd": 130,
+      "normalizedPassageCharStart": 113,
+      "normalizedPassageCharEnd": 130,
+      "pageCharStart": 2100,
+      "pageCharEnd": 2117,
+      "quote": "ביי ם \"איינשניט \"",
+      "normalizedQuote": "ביי ם \"איינשניט \"",
+      "modelQuote": "ביים \"איינשניט\"",
+      "bbox": {
+        "left": 1171,
+        "top": 3855,
+        "right": 1693,
+        "bottom": 3907
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n97/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "a6b1b24478b78b3c48fc76e6cea4b74b3f050874f8229ec9b39d0d112c04b5c5",
+      "normalizedPassageChecksum": "71f7cffc55a7ab7ccf030981d69ff466001c8a97cbc49cb6116bb81e30ca6efa",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d83060b7e45a788ba0fa8494",
+      "type": "Death",
+      "title": "Death of Moshe Shtak",
+      "summary": "Moshe Shtak was killed when a mound of earth collapsed and buried him alive.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4a87816d04e9b010f19a6400",
+        "pageId": "page_nybc314226_0098",
+        "scanIndex": 98,
+        "leafNumber": 97,
+        "printedPage": null,
+        "passageCharStart": 136,
+        "passageCharEnd": 173,
+        "normalizedPassageCharStart": 136,
+        "normalizedPassageCharEnd": 173,
+        "pageCharStart": 2123,
+        "pageCharEnd": 2160,
+        "quote": "מש ה שטא ק\nפלוצלונ ג געהרגע ט געווארן",
+        "normalizedQuote": "מש ה שטא ק\nפלוצלונ ג געהרגע ט געווארן",
+        "modelQuote": "משה שטאק פלוצלונג געהרגעט געווארן",
+        "bbox": {
+          "left": 603,
+          "top": 3855,
+          "right": 2991,
+          "bottom": 4031
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n97/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "a6b1b24478b78b3c48fc76e6cea4b74b3f050874f8229ec9b39d0d112c04b5c5",
+        "normalizedPassageChecksum": "71f7cffc55a7ab7ccf030981d69ff466001c8a97cbc49cb6116bb81e30ca6efa",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d83060b7e45a788ba0fa8494",
+      "type": "Event",
+      "title": "Death of Moshe Shtak",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_564ff412675a9ac907d04be5",
+      "type": "Person",
+      "title": "Moshe Shtak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2201bfe4b1a9afd6832816aa",
+      "type": "Person",
+      "title": "Ekhiel",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

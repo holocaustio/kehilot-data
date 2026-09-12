@@ -1,0 +1,93 @@
+{
+  "id": "mention_552e8d235efa385dc48a8dba",
+  "type": "Place",
+  "title": "post office",
+  "summary": "A post office where people wait for the letter carrier and where an incident occurred.",
+  "originalName": "פאסט־אמט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 245,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "post office",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_efc8d50b75302fcc9d1ae17c",
+      "pageId": "page_nybc314226_0245",
+      "scanIndex": 245,
+      "leafNumber": 244,
+      "printedPage": null,
+      "passageCharStart": 687,
+      "passageCharEnd": 712,
+      "normalizedPassageCharStart": 687,
+      "normalizedPassageCharEnd": 712,
+      "pageCharStart": 687,
+      "pageCharEnd": 712,
+      "quote": "אריינגיי ן אי ן פאסט־אמ ט",
+      "normalizedQuote": "אריינגיי ן אי ן פאסט־אמ ט",
+      "modelQuote": "אריינגיי ן אי ן פאסט־אמ ט",
+      "bbox": {
+        "left": 835,
+        "top": 1788,
+        "right": 1596,
+        "bottom": 1860
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n244/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "2807dae6209740666c1a8476f79d4274906afbc9d5bd386238d53012b756560d",
+      "normalizedPassageChecksum": "bba7707ecc046608df93ea8d0922c30855abcbb0d6977f6c059e93838b70b8a1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_5487c67b00f5ac0350c97e65",
+      "type": "Arrest",
+      "title": "Slap at the post office",
+      "summary": "Nachman-Moshe once received a slap at the post office after insulting an anti-Zionist Jew.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9d28f90cf39dd89ac6e44fe3",
+        "pageId": "page_nybc314226_0245",
+        "scanIndex": 245,
+        "leafNumber": 244,
+        "printedPage": null,
+        "passageCharStart": 186,
+        "passageCharEnd": 229,
+        "normalizedPassageCharStart": 186,
+        "normalizedPassageCharEnd": 229,
+        "pageCharStart": 1618,
+        "pageCharEnd": 1661,
+        "quote": "הא ט אמא ל געקראג ן א\nפאט ש בי י דע ר פאס ט",
+        "normalizedQuote": "הא ט אמא ל געקראג ן א\nפאט ש בי י דע ר פאס ט",
+        "modelQuote": "האט אמאל געקראגן א\nפאטש ביי דער פאסט",
+        "bbox": {
+          "left": 604,
+          "top": 3505,
+          "right": 2998,
+          "bottom": 3679
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n244/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "c0dbafdceb995e6a6df55776f045447056854ee4f8f275279c0b8f5b09bf5acb",
+        "normalizedPassageChecksum": "a05d717db7d21b866214e2a452e5be105747d4bd16ea4853668f82f6ae276d16",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_5487c67b00f5ac0350c97e65",
+      "type": "Event",
+      "title": "Slap at the post office",
+      "relation": "Occurred At"
+    }
+  ],
+  "publicationEligible": false
+}

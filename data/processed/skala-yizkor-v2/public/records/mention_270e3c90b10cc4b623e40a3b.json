@@ -1,0 +1,157 @@
+{
+  "id": "mention_270e3c90b10cc4b623e40a3b",
+  "type": "Place",
+  "title": "Siberia",
+  "summary": "Region where the narrator's father was exiled during World War I.",
+  "originalName": "סיביר",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 206,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "exile_region",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_45c996b7b2ea24e8333cc2e5",
+      "pageId": "page_nybc314226_0206",
+      "scanIndex": 206,
+      "leafNumber": 205,
+      "printedPage": null,
+      "passageCharStart": 96,
+      "passageCharEnd": 114,
+      "normalizedPassageCharStart": 96,
+      "normalizedPassageCharEnd": 114,
+      "pageCharStart": 1258,
+      "pageCharEnd": 1276,
+      "quote": "אב א הוגל ה לסיביר",
+      "normalizedQuote": "אב א הוגל ה לסיביר",
+      "modelQuote": "אבא הוגלה לסיביר",
+      "bbox": {
+        "left": 748,
+        "top": 4153,
+        "right": 1456,
+        "bottom": 4223
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n205/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "48828698f720abc45e3842403cdd645489d3887c24a9b33365376abf1168f155",
+      "normalizedPassageChecksum": "e4d5e6c549a2970ebcd4eff7b81a1bb36f9bf6e54305caff9b1bf75a4d2b62a5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_34d500c3a07d60398a323180",
+      "predicate": "Deported To",
+      "subjectTitle": "The narrator's father",
+      "objectTitle": "Siberia",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "context": "World War I"
+      },
+      "evidence": {
+        "passageId": "passage_45c996b7b2ea24e8333cc2e5",
+        "pageId": "page_nybc314226_0206",
+        "scanIndex": 206,
+        "leafNumber": 205,
+        "printedPage": null,
+        "passageCharStart": 96,
+        "passageCharEnd": 114,
+        "normalizedPassageCharStart": 96,
+        "normalizedPassageCharEnd": 114,
+        "pageCharStart": 1258,
+        "pageCharEnd": 1276,
+        "quote": "אב א הוגל ה לסיביר",
+        "normalizedQuote": "אב א הוגל ה לסיביר",
+        "modelQuote": "אבא הוגלה לסיביר",
+        "bbox": {
+          "left": 748,
+          "top": 4153,
+          "right": 1456,
+          "bottom": 4223
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n205/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "48828698f720abc45e3842403cdd645489d3887c24a9b33365376abf1168f155",
+        "normalizedPassageChecksum": "e4d5e6c549a2970ebcd4eff7b81a1bb36f9bf6e54305caff9b1bf75a4d2b62a5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_7284575e7c60c181b0a4cce1",
+      "type": "Deportation",
+      "title": "Father's exile to Siberia",
+      "summary": "The narrator's father was exiled to Siberia during World War I.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_45c996b7b2ea24e8333cc2e5",
+        "pageId": "page_nybc314226_0206",
+        "scanIndex": 206,
+        "leafNumber": 205,
+        "printedPage": null,
+        "passageCharStart": 96,
+        "passageCharEnd": 114,
+        "normalizedPassageCharStart": 96,
+        "normalizedPassageCharEnd": 114,
+        "pageCharStart": 1258,
+        "pageCharEnd": 1276,
+        "quote": "אב א הוגל ה לסיביר",
+        "normalizedQuote": "אב א הוגל ה לסיביר",
+        "modelQuote": "אבא הוגלה לסיביר",
+        "bbox": {
+          "left": 748,
+          "top": 4153,
+          "right": 1456,
+          "bottom": 4223
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n205/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "48828698f720abc45e3842403cdd645489d3887c24a9b33365376abf1168f155",
+        "normalizedPassageChecksum": "e4d5e6c549a2970ebcd4eff7b81a1bb36f9bf6e54305caff9b1bf75a4d2b62a5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a6aa9c9948ece0651f6e1f67",
+      "type": "Person",
+      "title": "The narrator's father",
+      "relation": "Deported To"
+    },
+    {
+      "id": "event_candidate_7284575e7c60c181b0a4cce1",
+      "type": "Event",
+      "title": "Father's exile to Siberia",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_50940cccb152677acf103ef4",
+      "type": "Place",
+      "title": "Russia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c68cade706f17a004af4a11a",
+      "type": "Event",
+      "title": "World War I",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_372a92483baf8144e7c6feb2",
+      "type": "Event",
+      "title": "Bolshevik Revolution",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

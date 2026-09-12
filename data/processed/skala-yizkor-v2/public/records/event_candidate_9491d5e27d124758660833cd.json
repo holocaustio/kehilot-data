@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_9491d5e27d124758660833cd",
+  "type": "Event",
+  "title": "Donation to a health fund clinic",
+  "summary": "The Skala association in the United States made a substantial donation to a Netanya clinic.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 90,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "The schema lacks a donation event type; business opening is used only as a forced approximation.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2d99932459831831bda9090b",
+      "pageId": "page_nybc314226_0090",
+      "scanIndex": 90,
+      "leafNumber": 89,
+      "printedPage": null,
+      "passageCharStart": 182,
+      "passageCharEnd": 227,
+      "normalizedPassageCharStart": 182,
+      "normalizedPassageCharEnd": 227,
+      "pageCharStart": 946,
+      "pageCharEnd": 991,
+      "quote": "ארגו ן יוצא י\nסקאל ה בארה״ ב תר ם סכו ם נכב ד",
+      "normalizedQuote": "ארגו ן יוצא י\nסקאל ה בארה״ ב תר ם סכו ם נכב ד",
+      "modelQuote": "ארגון יוצאי\nסקאלה בארה״ב תרם סכום נכבד",
+      "bbox": {
+        "left": 599,
+        "top": 3220,
+        "right": 2991,
+        "bottom": 3388
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n89/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "8316282b7621de7e2492d2d08a82264b6258f671baaf18ba6f22b9af730afafc",
+      "normalizedPassageChecksum": "926b2dd6485a6ab15dea704e10d9aba79e71527f8bac0e3be0faf6282afdf740",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_2f2b07eb5cfd558ac23677ce",
+      "type": "Place",
+      "title": "Netanya",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5c899e372738d4c2620a4fdd",
+      "type": "Organization",
+      "title": "Skala Association in the United States",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_4d24297290f1a4fed1e56c40",
+      "type": "Community",
+      "title": "Skala Jewish community",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

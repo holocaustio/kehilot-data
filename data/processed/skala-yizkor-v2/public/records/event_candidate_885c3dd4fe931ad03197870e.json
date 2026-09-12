@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_885c3dd4fe931ad03197870e",
+  "type": "Event",
+  "title": "Arrests for forced labor",
+  "summary": "Ukrainian police and Ordnungdienst arrested Jews for forced labor.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 76,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Arrest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0d5f070b4b101e61cb68b5d4",
+      "pageId": "page_nybc314226_0076",
+      "scanIndex": 76,
+      "leafNumber": 75,
+      "printedPage": null,
+      "passageCharStart": 565,
+      "passageCharEnd": 594,
+      "normalizedPassageCharStart": 565,
+      "normalizedPassageCharEnd": 594,
+      "pageCharStart": 565,
+      "pageCharEnd": 594,
+      "quote": "ועצר ה קודם־כ ל מספ ר\nיהודי ם",
+      "normalizedQuote": "ועצר ה קודם־כ ל מספ ר\nיהודי ם",
+      "modelQuote": "ועצרה קודם־כל מספר יהודים",
+      "bbox": {
+        "left": 605,
+        "top": 1468,
+        "right": 2999,
+        "bottom": 1636
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n75/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "c6f5992aba42670691c8480f7ecbb0d7811d12dec6a42437f9aeed05fc9a22b9",
+      "normalizedPassageChecksum": "76fff31ec88c10d57ede2bc38e0594153cbdfa30398ed167fd0b138f0b9723be",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5651e24a0bb8d179eb2b32b2",
+      "type": "Place",
+      "title": "Borshchiv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c8faf86becb0afc0ecc02aa1",
+      "type": "Organization",
+      "title": "Ukrainian police",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_88047ccd6e84d39aaa96c4c7",
+      "type": "Organization",
+      "title": "Ordnungdienst",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

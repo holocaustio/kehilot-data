@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_6091256607947ff0606adaab",
+  "type": "Event",
+  "title": "Assembly, attempted escape, and detention at City Hall",
+  "summary": "Chaim Yaget was wounded while fleeing, and assembled people were detained at City Hall.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 78,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Arrest",
+  "uncertaintyNote": "The passage separately states that Chaim Yaget was shot and wounded; no allowed event type directly represents wounding.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_30a441154bd430e42682e001",
+      "pageId": "page_nybc314226_0078",
+      "scanIndex": 78,
+      "leafNumber": 77,
+      "printedPage": null,
+      "passageCharStart": 648,
+      "passageCharEnd": 671,
+      "normalizedPassageCharStart": 648,
+      "normalizedPassageCharEnd": 671,
+      "pageCharStart": 2042,
+      "pageCharEnd": 2065,
+      "quote": "נאסרנ ו באול ם העיריה .",
+      "normalizedQuote": "נאסרנ ו באול ם העיריה .",
+      "modelQuote": "נאסרנו באולם העיריה.",
+      "bbox": {
+        "left": 1455,
+        "top": 4517,
+        "right": 2367,
+        "bottom": 4593
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n77/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "5d159b443f036a6adb93e7d77330e5abb6c960af488f7bbaf42a247071ca386f",
+      "normalizedPassageChecksum": "afa555ea36db8fa78e575c1e819cdef73b5bef72197debd7104e9c4d575c8017",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a78428ec9ef72fb50eea08fb",
+      "type": "Place",
+      "title": "City Hall",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_cec7ba6ee47d83228d1b5bd4",
+      "type": "Person",
+      "title": "Chaim Yaget",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_4bd67b9e2bc6d9f4b30a4ef0",
+      "type": "Institution",
+      "title": "Judenrat",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_a78428ec9ef72fb50eea08fb",
+      "type": "Place",
+      "title": "City Hall",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

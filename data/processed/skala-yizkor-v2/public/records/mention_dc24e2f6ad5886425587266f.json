@@ -1,0 +1,112 @@
+{
+  "id": "mention_dc24e2f6ad5886425587266f",
+  "type": "Person",
+  "title": "Chaim Gatetfeld",
+  "summary": "A person who left a bunker toward the town with Nehemiah Shtok.",
+  "originalName": "חיים גאטעטפעלד",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 131,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a5b8a173752afef410facfa3",
+      "pageId": "page_nybc314226_0131",
+      "scanIndex": 131,
+      "leafNumber": 130,
+      "printedPage": null,
+      "passageCharStart": 772,
+      "passageCharEnd": 788,
+      "normalizedPassageCharStart": 772,
+      "normalizedPassageCharEnd": 788,
+      "pageCharStart": 2051,
+      "pageCharEnd": 2067,
+      "quote": "חיי ם גאטעטפעל ד",
+      "normalizedQuote": "חיי ם גאטעטפעל ד",
+      "modelQuote": "חיים גאטעטפעלד",
+      "bbox": {
+        "left": 1387,
+        "top": 3205,
+        "right": 1911,
+        "bottom": 3275
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n130/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "8f50d137fcd36a4f1290c98860c20ddc5b13f5135a2c39e65e14bbb24ff58ddf",
+      "normalizedPassageChecksum": "415d8e9ebf75bf13636d747292d44ae76ddbcbb790cb413b7cfabf694927f668",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8715505fc26c046ca8a16ad7",
+      "type": "Liberation",
+      "title": "Reported arrival of Soviet-Russian military",
+      "summary": "Two people returned reporting that Soviet-Russian military had reached the town.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event is described through a report; the OCR wording for the military is unclear.",
+      "evidence": {
+        "passageId": "passage_a5b8a173752afef410facfa3",
+        "pageId": "page_nybc314226_0131",
+        "scanIndex": 131,
+        "leafNumber": 130,
+        "printedPage": null,
+        "passageCharStart": 914,
+        "passageCharEnd": 978,
+        "normalizedPassageCharStart": 914,
+        "normalizedPassageCharEnd": 978,
+        "pageCharStart": 2193,
+        "pageCharEnd": 2257,
+        "quote": "מי ט דע ר בשור ה א ז טאודעט־רוטי ש מיליטע ר אי ז שוי ן אי ן שטאט",
+        "normalizedQuote": "מי ט דע ר בשור ה א ז טאודעט־רוטי ש מיליטע ר אי ז שוי ן אי ן שטאט",
+        "modelQuote": "מיט דער בשורה אז טאודעט־רוטיש מיליטער איז שוין אין שטאט",
+        "bbox": {
+          "left": 619,
+          "top": 3413,
+          "right": 2551,
+          "bottom": 3503
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n130/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "8f50d137fcd36a4f1290c98860c20ddc5b13f5135a2c39e65e14bbb24ff58ddf",
+        "normalizedPassageChecksum": "415d8e9ebf75bf13636d747292d44ae76ddbcbb790cb413b7cfabf694927f668",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_8715505fc26c046ca8a16ad7",
+      "type": "Event",
+      "title": "Reported arrival of Soviet-Russian military",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_aef975fea887996eae94bc00",
+      "type": "Person",
+      "title": "Nehemiah Shtok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5bb5e20878151424f6d9a505",
+      "type": "Place",
+      "title": "Bunkers",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eeef958d625a45675dd6c22d",
+      "type": "Place",
+      "title": "The town",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

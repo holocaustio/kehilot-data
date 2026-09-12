@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_a14029af0eed2fbc70b88aa7",
+  "type": "Event",
+  "title": "Court proceedings concerning murder",
+  "summary": "Witnesses attended German court proceedings concerning a murder.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 172,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The passage describes court attendance and a murder, but does not clearly identify the legal event type.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_aa67e5602c6d2d2de8891098",
+      "pageId": "page_nybc314226_0172",
+      "scanIndex": 172,
+      "leafNumber": 171,
+      "printedPage": null,
+      "passageCharStart": 0,
+      "passageCharEnd": 41,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 41,
+      "pageCharStart": 1005,
+      "pageCharEnd": 1046,
+      "quote": "צומארגענס , מיטוואך , דע ם 4 ט ן פעברוא ר",
+      "normalizedQuote": "צומארגענס , מיטוואך , דע ם 4 ט ן פעברוא ר",
+      "modelQuote": "צומארגענס, מיטוואך, דעם 4טן פעברואר",
+      "bbox": {
+        "left": 1311,
+        "top": 1906,
+        "right": 2607,
+        "bottom": 1978
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n171/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "1e45f36e9b0bb783db77a09091f9a7d1c102fd1b91c59bb5a1460d7d22de0779",
+      "normalizedPassageChecksum": "3d59a9323138d2fc0d5f64742980c03689bafc6ae271aaddc475c31b1e31ec6a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9e81fab443074efab0340f69",
+      "type": "Place",
+      "title": "German court",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_aef975fea887996eae94bc00",
+      "type": "Person",
+      "title": "Nehemiah Shtak",
+      "relation": "Participant",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_1a6e76111e38cb24d0e8e053",
+      "type": "Person",
+      "title": "Meir Blutshtein",
+      "relation": "Participant",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_ee734e3ef0616d6ed73a9e43",
+      "type": "Person",
+      "title": "Suzi Karpfen",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_b56da7d94221e379c600abec",
+  "type": "Event",
+  "title": "Delivery of a demanded gift",
+  "summary": "Nissan Olinger delivered a demanded gift to Kellner’s office in Chortkiv.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 80,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Employment",
+  "uncertaintyNote": "The event is a delivery, but no suitable delivery event type exists; EMPLOYMENT is not semantically exact.",
+  "dateStart": "1942-09-25",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8d30e9fdf38da674609ab631",
+      "pageId": "page_nybc314226_0080",
+      "scanIndex": 80,
+      "leafNumber": 79,
+      "printedPage": null,
+      "passageCharStart": 185,
+      "passageCharEnd": 233,
+      "normalizedPassageCharStart": 185,
+      "normalizedPassageCharEnd": 233,
+      "pageCharStart": 1575,
+      "pageCharEnd": 1623,
+      "quote": "ביו ם 25 בספטמב ר 1942 , הבי א ל ו ניס ן אולינגר",
+      "normalizedQuote": "ביו ם 25 בספטמב ר 1942 , הבי א ל ו ניס ן אולינגר",
+      "modelQuote": "ביום 25 בספטמבר 1942, הביא לו ניסן אולינגר",
+      "bbox": {
+        "left": 801,
+        "top": 3290,
+        "right": 2491,
+        "bottom": 3374
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n79/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "031ddbd8974d8a11acb8456081e46f4c3d8edff56c67ef006885d3eede27b802",
+      "normalizedPassageChecksum": "29fc788a7180612290bd2ac04274e445f290750c66bfae2ddb468804d45e460b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_08b932c030ea148bd823ec68",
+      "type": "Place",
+      "title": "Chortkiv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_318a736fd547ee8f02b9a21c",
+      "type": "Person",
+      "title": "Nissan Olinger",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_6470702d8cc27d3c9f6ac33b",
+      "type": "Person",
+      "title": "Kellner",
+      "relation": "Participant",
+      "role": "Employer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

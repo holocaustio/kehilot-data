@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_8704635b16327e2f79529335",
+  "type": "Event",
+  "title": "Chaim Roiz’s brother was murdered in Peltshin",
+  "summary": "An unnamed brother of Chaim Roiz was murdered in Peltshin by Petliurists.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 210,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0b005fb556952daf11e7e565",
+      "pageId": "page_nybc314226_0210",
+      "scanIndex": 210,
+      "leafNumber": 209,
+      "printedPage": null,
+      "passageCharStart": 1243,
+      "passageCharEnd": 1263,
+      "normalizedPassageCharStart": 1243,
+      "normalizedPassageCharEnd": 1263,
+      "pageCharStart": 1243,
+      "pageCharEnd": 1263,
+      "quote": "אחי ו נרצ ח בפלשטי ן",
+      "normalizedQuote": "אחי ו נרצ ח בפלשטי ן",
+      "modelQuote": "אחיו נרצח בפלשטין",
+      "bbox": {
+        "left": 2187,
+        "top": 4257,
+        "right": 2991,
+        "bottom": 4341
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n209/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "e8b459cc758bbcc9cc5c8bdecb5abe1a6682d2480db6fd102ce04f511e8a46d8",
+      "normalizedPassageChecksum": "4a64e30ee443ecfa625b30d96775be37dfaa388438f5995bcefbbf6d583efaf0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_e6b426aecbf7a5204b8cedee",
+      "type": "Place",
+      "title": "Peltshin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_b9de9a6bafa9b3e2a81761f1",
+      "type": "Person",
+      "title": "Chaim Roiz’s brother",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_420cf681423fa6ecffd2905f",
+      "type": "Organization",
+      "title": "Petliurists",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

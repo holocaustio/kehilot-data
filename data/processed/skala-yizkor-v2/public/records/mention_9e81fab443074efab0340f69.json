@@ -1,0 +1,94 @@
+{
+  "id": "mention_9e81fab443074efab0340f69",
+  "type": "Place",
+  "title": "German court",
+  "summary": "Court where the accused appeared with witnesses and defense colleagues.",
+  "originalName": "דייטשן געריכט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 172,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "court",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_aa67e5602c6d2d2de8891098",
+      "pageId": "page_nybc314226_0172",
+      "scanIndex": 172,
+      "leafNumber": 171,
+      "printedPage": null,
+      "passageCharStart": 686,
+      "passageCharEnd": 708,
+      "normalizedPassageCharStart": 686,
+      "normalizedPassageCharEnd": 708,
+      "pageCharStart": 1691,
+      "pageCharEnd": 1713,
+      "quote": "אי ן א דייטש ן געריכ ט",
+      "normalizedQuote": "אי ן א דייטש ן געריכ ט",
+      "modelQuote": "אין א דייטשן געריכט",
+      "bbox": {
+        "left": 975,
+        "top": 2728,
+        "right": 1639,
+        "bottom": 2798
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n171/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "1e45f36e9b0bb783db77a09091f9a7d1c102fd1b91c59bb5a1460d7d22de0779",
+      "normalizedPassageChecksum": "3d59a9323138d2fc0d5f64742980c03689bafc6ae271aaddc475c31b1e31ec6a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a14029af0eed2fbc70b88aa7",
+      "type": "Murder",
+      "title": "Court proceedings concerning murder",
+      "summary": "Witnesses attended German court proceedings concerning a murder.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage describes court attendance and a murder, but does not clearly identify the legal event type.",
+      "evidence": {
+        "passageId": "passage_aa67e5602c6d2d2de8891098",
+        "pageId": "page_nybc314226_0172",
+        "scanIndex": 172,
+        "leafNumber": 171,
+        "printedPage": null,
+        "passageCharStart": 0,
+        "passageCharEnd": 41,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 41,
+        "pageCharStart": 1005,
+        "pageCharEnd": 1046,
+        "quote": "צומארגענס , מיטוואך , דע ם 4 ט ן פעברוא ר",
+        "normalizedQuote": "צומארגענס , מיטוואך , דע ם 4 ט ן פעברוא ר",
+        "modelQuote": "צומארגענס, מיטוואך, דעם 4טן פעברואר",
+        "bbox": {
+          "left": 1311,
+          "top": 1906,
+          "right": 2607,
+          "bottom": 1978
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n171/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "1e45f36e9b0bb783db77a09091f9a7d1c102fd1b91c59bb5a1460d7d22de0779",
+        "normalizedPassageChecksum": "3d59a9323138d2fc0d5f64742980c03689bafc6ae271aaddc475c31b1e31ec6a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a14029af0eed2fbc70b88aa7",
+      "type": "Event",
+      "title": "Court proceedings concerning murder",
+      "relation": "Occurred At"
+    }
+  ],
+  "publicationEligible": false
+}

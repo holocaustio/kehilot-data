@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_2f06c5ad6db4bccf0752ef5f",
+  "type": "Event",
+  "title": "Morning prayer",
+  "summary": "Townsmen went to the synagogue for morning prayer.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 194,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "School Attendance",
+  "uncertaintyNote": "The event type is not directly represented by the available enum; this is a prayer gathering rather than school attendance.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_43dacdeb15ae77f2f3c37967",
+      "pageId": "page_nybc314226_0194",
+      "scanIndex": 194,
+      "leafNumber": 193,
+      "printedPage": null,
+      "passageCharStart": 417,
+      "passageCharEnd": 441,
+      "normalizedPassageCharStart": 417,
+      "normalizedPassageCharEnd": 441,
+      "pageCharStart": 1508,
+      "pageCharEnd": 1532,
+      "quote": "זמ ן תפיל ת שחרי ת הגי ע",
+      "normalizedQuote": "זמ ן תפיל ת שחרי ת הגי ע",
+      "modelQuote": "זמן תפילת שחרית הגיע",
+      "bbox": {
+        "left": 1819,
+        "top": 3211,
+        "right": 2689,
+        "bottom": 3295
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n193/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "6ab6456ddeabba522c6c507f0033fc75f4f0489d28a194845114f027b64b7f80",
+      "normalizedPassageChecksum": "3e80426f8703ddb89d53dbee5e70134be458265ed9321f75db2273df668d73c1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_e89c9c6269926d8ef3cea4c0",
+      "type": "Institution",
+      "title": "Synagogue",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_3e4a416bb7b039d7a324df7a",
+      "type": "Person",
+      "title": "Nahman Bretler",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_2a57c4ea5a0d2f6db13e0b08",
+      "type": "Person",
+      "title": "Benjamin Gotsman",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_acd55b149e91b9bfa879f836",
+      "type": "Person",
+      "title": "Yeruham Kasirer",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

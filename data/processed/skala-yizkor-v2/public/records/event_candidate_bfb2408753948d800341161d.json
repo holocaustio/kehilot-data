@@ -1,0 +1,65 @@
+{
+  "id": "event_candidate_bfb2408753948d800341161d",
+  "type": "Event",
+  "title": "Publication of Collected Stories",
+  "summary": "Fradel Shtak’s book was published by Naye Zayt in New York in 1919.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 235,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "The controlled event vocabulary lacks a general publication event; BUSINESS_OPENING is not an exact fit.",
+  "dateStart": "1919",
+  "dateEnd": "1919",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ca34c36c8307cb5cbb9adbbf",
+      "pageId": "page_nybc314226_0235",
+      "scanIndex": 235,
+      "leafNumber": 234,
+      "printedPage": null,
+      "passageCharStart": 722,
+      "passageCharEnd": 765,
+      "normalizedPassageCharStart": 722,
+      "normalizedPassageCharEnd": 765,
+      "pageCharStart": 722,
+      "pageCharEnd": 765,
+      "quote": "אי ן\nפארלא ג ״נייצייט ״ ניו־יאר ק אי ן 1919",
+      "normalizedQuote": "אי ן\nפארלא ג ״נייצייט ״ ניו־יאר ק אי ן 1919",
+      "modelQuote": "אין פארלאג ״נייצייט״ ניו־יארק אין 1919",
+      "bbox": {
+        "left": 604,
+        "top": 2184,
+        "right": 3000,
+        "bottom": 2354
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n234/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "d65814d957a3da8d973daa2a901584bbdc6be5d28c189b535ec4f3258828b7ef",
+      "normalizedPassageChecksum": "9d96a08d168cc096f694e6cc344b8177bca47dec96847845a857fdb06c58dd10",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9166962b2094ab769693f81a",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_13c09f5a244f6b05c06e3539",
+      "type": "Person",
+      "title": "Fradel Shtak",
+      "relation": "Participant",
+      "role": "Author"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

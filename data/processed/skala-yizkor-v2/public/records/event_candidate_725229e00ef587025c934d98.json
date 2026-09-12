@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_725229e00ef587025c934d98",
+  "type": "Event",
+  "title": "Mass murder of Chortkiv intellectuals",
+  "summary": "Gestapo-led mass shooting of dozens of Chortkiv intellectuals in a nearby forest.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 74,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4eb6b4717935ff6eda1f17f9",
+      "pageId": "page_nybc314226_0074",
+      "scanIndex": 74,
+      "leafNumber": 73,
+      "printedPage": null,
+      "passageCharStart": 471,
+      "passageCharEnd": 566,
+      "normalizedPassageCharStart": 471,
+      "normalizedPassageCharEnd": 566,
+      "pageCharStart": 1771,
+      "pageCharEnd": 1866,
+      "quote": "עשרו ת אנש י האינטליגנצי ה הצ׳ורטקובאית , שנאספ ו ע ל יד י\nהגסטאפו , הובל ו ליע ר הסמו ך ונור ו",
+      "normalizedQuote": "עשרו ת אנש י האינטליגנצי ה הצ׳ורטקובאית , שנאספ ו ע ל יד י\nהגסטאפו , הובל ו ליע ר הסמו ך ונור ו",
+      "modelQuote": "עשרות אנשי האינטליגנציה הצ׳ורטקובאית, שנאספו על ידי\nהגסטאפו, הובלו ליער הסמוך ונורו",
+      "bbox": {
+        "left": 598,
+        "top": 3899,
+        "right": 2992,
+        "bottom": 4087
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n73/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "a90305319476e4e22f5f299f000c964b45e990392c4f1c5423bc58eb493c8533",
+      "normalizedPassageChecksum": "503ec8443118b50bcb704c8440fc056a6b910c9de8ac0959da513e75e54d4738",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c201a69a17f891381a18608b",
+      "type": "Place",
+      "title": "Forest near Chortkiv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4bd00d5e234f86e420d9fcd9",
+      "type": "Event",
+      "title": "Mass murder of Chortkiv intellectuals",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_19005752d3f08a76732314fb",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

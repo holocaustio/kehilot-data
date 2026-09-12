@@ -1,0 +1,240 @@
+{
+  "id": "mention_7a8620acb26675db1f33ff4a",
+  "type": "Organization",
+  "title": "Red Army",
+  "summary": "The Red Army captured the area in 1920.",
+  "originalName": "הצבא האדום",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 35,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "army",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_018bd7446c89e91d81a9c646",
+      "pageId": "page_nybc314226_0035",
+      "scanIndex": 35,
+      "leafNumber": 34,
+      "printedPage": null,
+      "passageCharStart": 381,
+      "passageCharEnd": 425,
+      "normalizedPassageCharStart": 381,
+      "normalizedPassageCharEnd": 425,
+      "pageCharStart": 381,
+      "pageCharEnd": 425,
+      "quote": "בשנ ת 1920 נכב ש האזו ר ע ל יד י הצב א האדום",
+      "normalizedQuote": "בשנ ת 1920 נכב ש האזו ר ע ל יד י הצב א האדום",
+      "modelQuote": "בשנת 1920 נכבש האזור על ידי הצבא האדום",
+      "bbox": {
+        "left": 998,
+        "top": 1271,
+        "right": 2692,
+        "bottom": 1345
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n34/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "a76b8736370a96f9501b0c287bb704777ca80018b3bc17b31c2645126946d878",
+      "normalizedPassageChecksum": "1a3970ba18bb82af07bc9985f0dc19d76d553b12b18206d60d5b5084df148088",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_7d9cfd646402949a2740d82b",
+      "pageId": "page_nybc314226_0128",
+      "scanIndex": 128,
+      "leafNumber": 127,
+      "printedPage": null,
+      "passageCharStart": 71,
+      "passageCharEnd": 84,
+      "normalizedPassageCharStart": 71,
+      "normalizedPassageCharEnd": 84,
+      "pageCharStart": 2600,
+      "pageCharEnd": 2613,
+      "quote": "רויטע ר ארמיי",
+      "normalizedQuote": "רויטע ר ארמיי",
+      "modelQuote": "רויטער ארמיי",
+      "bbox": {
+        "left": 2581,
+        "top": 3938,
+        "right": 2999,
+        "bottom": 3988
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n127/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "ee146fb922eb9ef3004e09395b35b28cd1c6ca92b5248be90c918a9c9fa875ed",
+      "normalizedPassageChecksum": "23e2aa5bfb23a4aa6872e352326e4086e61c3d3f3761918ad14e734d52ab7d33",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_aa159b43f4bf212f9f209bfd",
+      "type": "Migration",
+      "title": "Red Army capture of the area",
+      "summary": "The Red Army captured the area in 1920.",
+      "dateStart": "1920",
+      "dateEnd": "1920",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The controlled event types do not include territorial capture.",
+      "evidence": {
+        "passageId": "passage_018bd7446c89e91d81a9c646",
+        "pageId": "page_nybc314226_0035",
+        "scanIndex": 35,
+        "leafNumber": 34,
+        "printedPage": null,
+        "passageCharStart": 381,
+        "passageCharEnd": 425,
+        "normalizedPassageCharStart": 381,
+        "normalizedPassageCharEnd": 425,
+        "pageCharStart": 381,
+        "pageCharEnd": 425,
+        "quote": "בשנ ת 1920 נכב ש האזו ר ע ל יד י הצב א האדום",
+        "normalizedQuote": "בשנ ת 1920 נכב ש האזו ר ע ל יד י הצב א האדום",
+        "modelQuote": "בשנת 1920 נכבש האזור על ידי הצבא האדום",
+        "bbox": {
+          "left": 998,
+          "top": 1271,
+          "right": 2692,
+          "bottom": 1345
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n34/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "a76b8736370a96f9501b0c287bb704777ca80018b3bc17b31c2645126946d878",
+        "normalizedPassageChecksum": "1a3970ba18bb82af07bc9985f0dc19d76d553b12b18206d60d5b5084df148088",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_aa159b43f4bf212f9f209bfd",
+      "type": "Event",
+      "title": "Red Army capture of the area",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_d23067dd9ae10b453467f1c7",
+      "type": "Place",
+      "title": "Drohobych–Boryslav",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9051f06b8989bc327afa3e9a",
+      "type": "Place",
+      "title": "Eastern Ukraine",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bf8b0fa51ffeefef91bc1aa0",
+      "type": "Institution",
+      "title": "Revolutionary Committee",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_59cf0c262779f645e9ca22d7",
+      "type": "Organization",
+      "title": "Bolsheviks",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_29a64d407bbb2e35b07d767d",
+      "type": "Place",
+      "title": "Zbruch River",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0bc7b9764d5b49325c5793a8",
+      "type": "Organization",
+      "title": "Polish Army",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b2409f56d8f0e346aad64fe6",
+      "type": "Person",
+      "title": "General Józef Haller",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_21d37093e4867c3b4cb4db76",
+      "type": "Person",
+      "title": "Abraham Grinberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_622a49227e25424accd55f03",
+      "type": "Person",
+      "title": "Henie Grinberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8424971bf597a0c6ee97af10",
+      "type": "Person",
+      "title": "Toibe Weisinger",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_97bac7707e22e7901e9e24a8",
+      "type": "Person",
+      "title": "Abraham (Bume) Weisinger",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_03d1aee47d5cac1a62f20a27",
+      "type": "Person",
+      "title": "Izie Galdstein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_86611a97fedebc132ac451e3",
+      "type": "Person",
+      "title": "Elke Feierstain",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5409402be994a1f97922fde7",
+      "type": "Person",
+      "title": "Moshele Valech",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_74def0f10cd99ccf1b6b8227",
+      "type": "Person",
+      "title": "Alter Razentsvayg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c19a1309397637ae06763636",
+      "type": "Person",
+      "title": "Nuske Razentsvayg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a4964435066efd716d4da9f6",
+      "type": "Person",
+      "title": "Natan Vaynruyb",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a4089dffc825966cd9614219",
+      "type": "Person",
+      "title": "Dina Shvartzvakh",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_13599f030f88160da1ae1a9d",
+      "type": "Place",
+      "title": "Gushtin",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

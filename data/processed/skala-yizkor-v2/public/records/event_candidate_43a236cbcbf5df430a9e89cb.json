@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_43a236cbcbf5df430a9e89cb",
+  "type": "Event",
+  "title": "Investigation of occupation-era murders",
+  "summary": "A Soviet officer investigated murders committed during the German occupation.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 160,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Investigation",
+  "uncertaintyNote": "This is an investigation event, but the controlled event types do not include investigation; ARREST is not directly supported.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_87b5fe32e8b16790c96385d2",
+      "pageId": "page_nybc314226_0160",
+      "scanIndex": 160,
+      "leafNumber": 159,
+      "printedPage": null,
+      "passageCharStart": 60,
+      "passageCharEnd": 150,
+      "normalizedPassageCharStart": 60,
+      "normalizedPassageCharEnd": 150,
+      "pageCharStart": 1510,
+      "pageCharEnd": 1600,
+      "quote": "סאוויעטישע ר אפיצי ר אויסצופארש ן ד י בעסטיאליש ע מערדערייע ן בשע ת דע ר\nדייטשע ר אקופאציע",
+      "normalizedQuote": "סאוויעטישע ר אפיצי ר אויסצופארש ן ד י בעסטיאליש ע מערדערייע ן בשע ת דע ר\nדייטשע ר אקופאציע",
+      "modelQuote": "סאוויעטישער אפיציר אויסצופארשן די בעסטיאלישע מערדערייען בשעת דער דייטשער אקופאציע",
+      "bbox": {
+        "left": 611,
+        "top": 2495,
+        "right": 3001,
+        "bottom": 2685
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n159/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "10ddd87227e476db9201aebe6b0bfafd85d6c8e29035ea74d29e8dbeb5a3aabb",
+      "normalizedPassageChecksum": "d1c9b7cf99553f0f51e9791924172f8b3194c6569dd311bc1bc037ddceacca9d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_e45df50311765e6716832a1b",
+      "type": "Place",
+      "title": "Skala",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_19a317f9b968c153a53d88da",
+      "type": "Person",
+      "title": "Derevenka",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_e9e039740dd8381514aa7346",
+      "type": "Organization",
+      "title": "Soviet authorities",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

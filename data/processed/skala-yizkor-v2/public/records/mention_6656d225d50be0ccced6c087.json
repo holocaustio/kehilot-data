@@ -1,0 +1,144 @@
+{
+  "id": "mention_6656d225d50be0ccced6c087",
+  "type": "Place",
+  "title": "Prussia",
+  "summary": "Prussia participated in the partition of Poland.",
+  "originalName": "פרייסן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 47,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "country",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dbe3e70ef4f78b0502d02a19",
+      "pageId": "page_nybc314226_0047",
+      "scanIndex": 47,
+      "leafNumber": 46,
+      "printedPage": null,
+      "passageCharStart": 150,
+      "passageCharEnd": 170,
+      "normalizedPassageCharStart": 150,
+      "normalizedPassageCharEnd": 170,
+      "pageCharStart": 1355,
+      "pageCharEnd": 1375,
+      "quote": "פרייס ן או ן עסטרייך",
+      "normalizedQuote": "פרייס ן או ן עסטרייך",
+      "modelQuote": "פרייסן און עסטרייך",
+      "bbox": {
+        "left": 2373,
+        "top": 2522,
+        "right": 2997,
+        "bottom": 2592
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n46/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "e34bf6860183da0229c70f6ef9b032d4d53970c5ea78de0e1d609ef3fc2dc36f",
+      "normalizedPassageChecksum": "1bf992186c2c2cc67421ac68a7ab020ff3cb20843939a3f0d5b4fb527ae685b3",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_fce8962e54cff8ecc021f720",
+      "type": "Migration",
+      "title": "Partition of Poland",
+      "summary": "In 1772, the Polish realm was divided among Russia, Prussia, and Austria.",
+      "dateStart": "1772",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include political partition; this is represented as migration only as a limited approximation.",
+      "evidence": {
+        "passageId": "passage_dbe3e70ef4f78b0502d02a19",
+        "pageId": "page_nybc314226_0047",
+        "scanIndex": 47,
+        "leafNumber": 46,
+        "printedPage": null,
+        "passageCharStart": 66,
+        "passageCharEnd": 149,
+        "normalizedPassageCharStart": 66,
+        "normalizedPassageCharEnd": 149,
+        "pageCharStart": 1271,
+        "pageCharEnd": 1354,
+        "quote": "אי ן יא ר 1772 , ווע ן ד י פויליש ע מלוכ ה אי ז צעטייל ט געוואר ן צוויש ן רוסלאנד ,",
+        "normalizedQuote": "אי ן יא ר 1772 , ווע ן ד י פויליש ע מלוכ ה אי ז צעטייל ט געוואר ן צוויש ן רוסלאנד ,",
+        "modelQuote": "אין יאר 1772, ווען די פוילישע מלוכה איז צעטיילט געווארן צווישן רוסלאנד,",
+        "bbox": {
+          "left": 613,
+          "top": 2400,
+          "right": 2997,
+          "bottom": 2492
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n46/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "e34bf6860183da0229c70f6ef9b032d4d53970c5ea78de0e1d609ef3fc2dc36f",
+        "normalizedPassageChecksum": "1bf992186c2c2cc67421ac68a7ab020ff3cb20843939a3f0d5b4fb527ae685b3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_fce8962e54cff8ecc021f720",
+      "type": "Event",
+      "title": "Partition of Poland",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_4d24297290f1a4fed1e56c40",
+      "type": "Community",
+      "title": "Skala Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8d2a29991339d525c839dbf9",
+      "type": "Place",
+      "title": "Galicia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bb0b4a6095189416a346ac60",
+      "type": "Place",
+      "title": "Podolia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_50940cccb152677acf103ef4",
+      "type": "Place",
+      "title": "Russia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ce23d676721333ef9609d780",
+      "type": "Place",
+      "title": "Austria",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_43f5ce5719aac24117a339af",
+      "type": "Person",
+      "title": "Maria Theresa",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_67047977ef6bbf82e0e2af04",
+      "type": "Community",
+      "title": "Jews of Austria",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fa3a33fc06ea6e2113905c16",
+      "type": "Community",
+      "title": "Jewish community of Skala",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

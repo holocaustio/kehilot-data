@@ -1,0 +1,106 @@
+{
+  "id": "mention_26f999e47b55974a086f0b9c",
+  "type": "Place",
+  "title": "Stopki labor camp",
+  "summary": "Labor camp from which two prisoners escaped.",
+  "originalName": "מחנה עבודה סטופקי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 77,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "labor camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9a05c7174281f8152f95af12",
+      "pageId": "page_nybc314226_0077",
+      "scanIndex": 77,
+      "leafNumber": 76,
+      "printedPage": null,
+      "passageCharStart": 840,
+      "passageCharEnd": 861,
+      "normalizedPassageCharStart": 840,
+      "normalizedPassageCharEnd": 861,
+      "pageCharStart": 2003,
+      "pageCharEnd": 2024,
+      "quote": "ממחנ ה עבוד ה סטופק י",
+      "normalizedQuote": "ממחנ ה עבוד ה סטופק י",
+      "modelQuote": "ממחנה עבודה סטופקי",
+      "bbox": {
+        "left": 752,
+        "top": 4341,
+        "right": 1604,
+        "bottom": 4413
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n76/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "2c71be35d4e0e9239d04c25dd4153f732f7bb7e2c7733770f28f13ca1947173f",
+      "normalizedPassageChecksum": "ced30be6ff6f93f523d1c4d508d75015a8462432ec873e8bc48fa866039eb09b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b7de323f178617f59bd0e319",
+      "type": "Migration",
+      "title": "Escape from Stopki labor camp",
+      "summary": "Two prisoners from Skala, a father and son, escaped from Stopki labor camp.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text identifies the prisoners as a father and son but does not name them.",
+      "evidence": {
+        "passageId": "passage_9a05c7174281f8152f95af12",
+        "pageId": "page_nybc314226_0077",
+        "scanIndex": 77,
+        "leafNumber": 76,
+        "printedPage": null,
+        "passageCharStart": 834,
+        "passageCharEnd": 874,
+        "normalizedPassageCharStart": 834,
+        "normalizedPassageCharEnd": 874,
+        "pageCharStart": 1997,
+        "pageCharEnd": 2037,
+        "quote": "ברח ו ממחנ ה עבוד ה סטופק י שנ י\nאסירי ם",
+        "normalizedQuote": "ברח ו ממחנ ה עבוד ה סטופק י שנ י\nאסירי ם",
+        "modelQuote": "ברחו ממחנה עבודה סטופקי שני אסירים",
+        "bbox": {
+          "left": 598,
+          "top": 4341,
+          "right": 2996,
+          "bottom": 4493
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n76/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "2c71be35d4e0e9239d04c25dd4153f732f7bb7e2c7733770f28f13ca1947173f",
+        "normalizedPassageChecksum": "ced30be6ff6f93f523d1c4d508d75015a8462432ec873e8bc48fa866039eb09b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b7de323f178617f59bd0e319",
+      "type": "Event",
+      "title": "Escape from Stopki labor camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_8f395d211739be71ef680281",
+      "type": "Person",
+      "title": "Chaim Brettler",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3dedc3e340b531fb3961c7d9",
+      "type": "Organization",
+      "title": "Judenrat",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

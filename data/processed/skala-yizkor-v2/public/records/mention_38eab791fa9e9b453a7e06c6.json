@@ -1,0 +1,118 @@
+{
+  "id": "mention_38eab791fa9e9b453a7e06c6",
+  "type": "Person",
+  "title": "Bartschneider",
+  "summary": "Gestapo driver who murdered Leib Shakhter.",
+  "originalName": "ברטשניידר",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 78,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Gestapo driver",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9df1a7afa998ff5a5cb0b6ac",
+      "pageId": "page_nybc314226_0078",
+      "scanIndex": 78,
+      "leafNumber": 77,
+      "printedPage": null,
+      "passageCharStart": 319,
+      "passageCharEnd": 328,
+      "normalizedPassageCharStart": 319,
+      "normalizedPassageCharEnd": 328,
+      "pageCharStart": 319,
+      "pageCharEnd": 328,
+      "quote": "ברטשניידר",
+      "normalizedQuote": "ברטשניידר",
+      "modelQuote": "ברטשניידר",
+      "bbox": {
+        "left": 1240,
+        "top": 1079,
+        "right": 1642,
+        "bottom": 1135
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n77/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "e4ead58802b3557af137e2c6a155110272f2cf1ea81d0abc2d7387acc6e1061e",
+      "normalizedPassageChecksum": "7c0a44314a0cc40c7811e6f60aadd3b138a2b34c626cc9f8f1797714e5f55c9d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_6e11351d906fdad8a541126b",
+      "type": "Murder",
+      "title": "Murder of Leib Shakhter",
+      "summary": "Bartschneider took Leib Shakhter to a grove and murdered him.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_9df1a7afa998ff5a5cb0b6ac",
+        "pageId": "page_nybc314226_0078",
+        "scanIndex": 78,
+        "leafNumber": 77,
+        "printedPage": null,
+        "passageCharStart": 389,
+        "passageCharEnd": 446,
+        "normalizedPassageCharStart": 389,
+        "normalizedPassageCharEnd": 446,
+        "pageCharStart": 389,
+        "pageCharEnd": 446,
+        "quote": "הוביל ו א ל חורש ת קבר י\nהרוזני ם גולוכובסקי , רצ ח אות ו",
+        "normalizedQuote": "הוביל ו א ל חורש ת קבר י\nהרוזני ם גולוכובסקי , רצ ח אות ו",
+        "modelQuote": "הובילו אל חורשת קברי הרוזנים גולוכובסקי, רצח אותו",
+        "bbox": {
+          "left": 606,
+          "top": 1167,
+          "right": 2994,
+          "bottom": 1353
+        },
+        "scanUrl": "https://archive.org/details/nybc314226/page/n77/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+        "passageChecksum": "e4ead58802b3557af137e2c6a155110272f2cf1ea81d0abc2d7387acc6e1061e",
+        "normalizedPassageChecksum": "7c0a44314a0cc40c7811e6f60aadd3b138a2b34c626cc9f8f1797714e5f55c9d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_6e11351d906fdad8a541126b",
+      "type": "Event",
+      "title": "Murder of Leib Shakhter",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_08b932c030ea148bd823ec68",
+      "type": "Place",
+      "title": "Chortkiv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_711386a9bfbe80e332b63b19",
+      "type": "Place",
+      "title": "Grove of the Holokhovsky counts' graves",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_88047ccd6e84d39aaa96c4c7",
+      "type": "Organization",
+      "title": "Ordnungdienst",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7dc032191f4dea9c2b17e138",
+      "type": "Place",
+      "title": "Mannheim",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

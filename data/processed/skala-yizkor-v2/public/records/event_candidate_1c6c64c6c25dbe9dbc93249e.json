@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_1c6c64c6c25dbe9dbc93249e",
+  "type": "Event",
+  "title": "Grenade attack at the Hersher house",
+  "summary": "A grenade thrown into Dudi Hersher’s house killed Roize and wounded his daughter.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 95,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The OCR wording around Roize and the daughter is partly unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4946d3438d59a6988d9eb0f1",
+      "pageId": "page_nybc314226_0095",
+      "scanIndex": 95,
+      "leafNumber": 94,
+      "printedPage": null,
+      "passageCharStart": 57,
+      "passageCharEnd": 109,
+      "normalizedPassageCharStart": 57,
+      "normalizedPassageCharEnd": 109,
+      "pageCharStart": 57,
+      "pageCharEnd": 109,
+      "quote": "אריינווארפ ן א\nגראנא ט אי ן הוי ז פו ן דוד י הערשע ר",
+      "normalizedQuote": "אריינווארפ ן א\nגראנא ט אי ן הוי ז פו ן דוד י הערשע ר",
+      "modelQuote": "אריינווארפן א גראנאט אין הויז פון דודי הערשער",
+      "bbox": {
+        "left": 613,
+        "top": 579,
+        "right": 3003,
+        "bottom": 747
+      },
+      "scanUrl": "https://archive.org/details/nybc314226/page/n94/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314226/nybc314226.pdf",
+      "passageChecksum": "80345783ab1588a96638ca3aceb4b3373595e4582052d35a5137c1ff999e4174",
+      "normalizedPassageChecksum": "731283232d51b734d5ccc50eaaf6865e150107374357b23334dc5a852756334c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c1b16e7bb98165a2383d587a",
+      "type": "Person",
+      "title": "Dudi Hersher",
+      "relation": "Participant",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_724588eacb4cfae04fef712b",
+      "type": "Person",
+      "title": "Roize",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_bae5fcb5f1f9322b99dd0c5f",
+      "type": "Person",
+      "title": "Hersher’s daughter",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}
