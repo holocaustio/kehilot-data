@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_3540e754fa8ade935f38d5e7",
+  "type": "Event",
+  "title": "Order to return",
+  "summary": "A sub-officer ordered the travelers to return to the town.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 92,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The text describes an order to travel back, but does not explicitly identify all travelers or destination.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1eec1c4a4980fe30750f3e31",
+      "pageId": "page_nybc313748_0092",
+      "scanIndex": 92,
+      "leafNumber": 91,
+      "printedPage": null,
+      "passageCharStart": 634,
+      "passageCharEnd": 708,
+      "normalizedPassageCharStart": 634,
+      "normalizedPassageCharEnd": 708,
+      "pageCharStart": 634,
+      "pageCharEnd": 708,
+      "quote": "אי ז געקומע ן דע ר אונטע ר אפיצי ר פו ן שטא ט או ן באפעל ן\nצ ו פאר ן צוריק",
+      "normalizedQuote": "אי ז געקומע ן דע ר אונטע ר אפיצי ר פו ן שטא ט או ן באפעל ן\nצ ו פאר ן צוריק",
+      "modelQuote": "איז געקומען דער אונטער אפיציר פון שטאט און באפעלן צו פארן צוריק",
+      "bbox": {
+        "left": 2580,
+        "top": 1867,
+        "right": 4462,
+        "bottom": 2045
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n91/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "39630af03619263f068651507d29769624f6c1e54dae7b985a515cce722c1e63",
+      "normalizedPassageChecksum": "6f9696b177ef0b27c863a0e4f04fc638b9eabb23fdf88c87d7f053f21a460e53",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9ddaf043b4ccbb651b788c48",
+      "type": "Place",
+      "title": "Drohichyn",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_765a34064c67d653f23f67fd",
+      "type": "Person",
+      "title": "Sub-officer",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

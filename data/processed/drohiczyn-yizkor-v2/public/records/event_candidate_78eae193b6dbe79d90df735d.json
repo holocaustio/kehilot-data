@@ -1,0 +1,65 @@
+{
+  "id": "event_candidate_78eae193b6dbe79d90df735d",
+  "type": "Event",
+  "title": "Polish soldiers assault Jews",
+  "summary": "Polish soldiers removed Jews from beds, beat them, and brought them to a wall to be shot.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 102,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "dateStart": "1919-02",
+  "dateEnd": "1919-02",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2281868ffc7323299fe5947d",
+      "pageId": "page_nybc313748_0102",
+      "scanIndex": 102,
+      "leafNumber": 101,
+      "printedPage": null,
+      "passageCharStart": 490,
+      "passageCharEnd": 508,
+      "normalizedPassageCharStart": 490,
+      "normalizedPassageCharEnd": 508,
+      "pageCharStart": 1511,
+      "pageCharEnd": 1529,
+      "quote": "אי ן פעברוא ר 1919",
+      "normalizedQuote": "אי ן פעברוא ר 1919",
+      "modelQuote": "אין פעברואר 1919",
+      "bbox": {
+        "left": 3120,
+        "top": 4030,
+        "right": 3686,
+        "bottom": 4096
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n101/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "c6ebe72a3b409b676ca53db3c833b598b1f0c2e1d59c926669322c773065619c",
+      "normalizedPassageChecksum": "a032ce4b7a5e139a2ccb6022b8480f3b0caa9d4e038a200e7fb5ea21d5de6d08",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_3df6ac1a8d00f861a8eaacee",
+      "type": "Organization",
+      "title": "Polish soldiers",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_4f8641979f11dd423859bfdc",
+      "type": "Community",
+      "title": "Jews",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

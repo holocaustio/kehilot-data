@@ -1,0 +1,95 @@
+{
+  "id": "mention_f093de6a177e7596df5fb4bb",
+  "type": "Person",
+  "title": "Shimon",
+  "summary": "A doctor who treated the injured boy and recommended treatment.",
+  "originalName": "שמעון",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 277,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "doctor",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3feba278095431916ec77ac2",
+      "pageId": "page_nybc313748_0277",
+      "scanIndex": 277,
+      "leafNumber": 276,
+      "printedPage": null,
+      "passageCharStart": 796,
+      "passageCharEnd": 813,
+      "normalizedPassageCharStart": 796,
+      "normalizedPassageCharEnd": 813,
+      "pageCharStart": 2099,
+      "pageCharEnd": 2116,
+      "quote": "שמעו ן דע ם רופ א",
+      "normalizedQuote": "שמעו ן דע ם רופ א",
+      "modelQuote": "שמעון דעם רופא",
+      "bbox": {
+        "left": 3933,
+        "top": 5624,
+        "right": 4467,
+        "bottom": 5688
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n276/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "c0d31882e4229b9a25d8efe1867c92a50ea06c597074c0010d2894132fbc809b",
+      "normalizedPassageChecksum": "6568d42cacd1ded0526c7465ab1f35bf0688b6eab157fbbd61d73895610d7451",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_05ac3fc34ce624f567ddba6e",
+      "type": "Liberation",
+      "title": "The boy recovered",
+      "summary": "The injured boy recovered after three days of wet-reed treatment and later married.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The allowed event types do not include recovery; LIBERATION is only an approximate classification.",
+      "evidence": {
+        "passageId": "passage_546089d0752efd26e477439c",
+        "pageId": "page_nybc313748_0277",
+        "scanIndex": 277,
+        "leafNumber": 276,
+        "printedPage": null,
+        "passageCharStart": 492,
+        "passageCharEnd": 523,
+        "normalizedPassageCharStart": 492,
+        "normalizedPassageCharEnd": 523,
+        "pageCharStart": 2775,
+        "pageCharEnd": 2806,
+        "quote": "דע ר בחו ר אי ז געזונ ט געװאר ן",
+        "normalizedQuote": "דע ר בחו ר אי ז געזונ ט געװאר ן",
+        "modelQuote": "דער בחור איז געזונט געװארן",
+        "bbox": {
+          "left": 955,
+          "top": 2812,
+          "right": 1963,
+          "bottom": 2874
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n276/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "a9c7e9024edf8fa57c1310f9b659863433fad9878ecc80191efaf5c4d2928793",
+        "normalizedPassageChecksum": "33cc4214497aa9fdcbd2153325aec16f666bf686d0bf91dd926b81d37057c9f5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_05ac3fc34ce624f567ddba6e",
+      "type": "Event",
+      "title": "The boy recovered",
+      "relation": "Participated In",
+      "role": "Teacher"
+    }
+  ],
+  "publicationEligible": false
+}

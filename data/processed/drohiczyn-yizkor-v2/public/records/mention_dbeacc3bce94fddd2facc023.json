@@ -1,0 +1,129 @@
+{
+  "id": "mention_dbeacc3bce94fddd2facc023",
+  "type": "Person",
+  "title": "David",
+  "summary": "A person who fled with Tsvia and died in the forest.",
+  "originalName": "דוד",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 337,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7caa8e529f2a95dc8ae7c870",
+      "pageId": "page_nybc313748_0337",
+      "scanIndex": 337,
+      "leafNumber": 336,
+      "printedPage": null,
+      "passageCharStart": 736,
+      "passageCharEnd": 757,
+      "normalizedPassageCharStart": 736,
+      "normalizedPassageCharEnd": 757,
+      "pageCharStart": 2927,
+      "pageCharEnd": 2948,
+      "quote": "דו ד אי ז אומגעקומע ן",
+      "normalizedQuote": "דו ד אי ז אומגעקומע ן",
+      "modelQuote": "דוד איז אומגעקומען",
+      "bbox": {
+        "left": 1357,
+        "top": 3647,
+        "right": 2007,
+        "bottom": 3711
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n336/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "155cef04e47285ec0ae78d1b54b36b8a4880c45b302d5579cbac07dd9519e100",
+      "normalizedPassageChecksum": "21c417b0c5c6439ed6de47ffae98327d4993af34ea2de39e1219ef6a511b0fda",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_af9a2546227fac8301fc0b73",
+      "type": "Death",
+      "title": "David died in the forest",
+      "summary": "David died after fleeing into the forest with Tsvia.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7caa8e529f2a95dc8ae7c870",
+        "pageId": "page_nybc313748_0337",
+        "scanIndex": 337,
+        "leafNumber": 336,
+        "printedPage": null,
+        "passageCharStart": 736,
+        "passageCharEnd": 757,
+        "normalizedPassageCharStart": 736,
+        "normalizedPassageCharEnd": 757,
+        "pageCharStart": 2927,
+        "pageCharEnd": 2948,
+        "quote": "דו ד אי ז אומגעקומע ן",
+        "normalizedQuote": "דו ד אי ז אומגעקומע ן",
+        "modelQuote": "דוד איז אומגעקומען",
+        "bbox": {
+          "left": 1357,
+          "top": 3647,
+          "right": 2007,
+          "bottom": 3711
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n336/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "155cef04e47285ec0ae78d1b54b36b8a4880c45b302d5579cbac07dd9519e100",
+        "normalizedPassageChecksum": "21c417b0c5c6439ed6de47ffae98327d4993af34ea2de39e1219ef6a511b0fda",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_af9a2546227fac8301fc0b73",
+      "type": "Event",
+      "title": "David died in the forest",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_072d3236c9ab485f0bf74512",
+      "type": "Person",
+      "title": "Tsvia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9df307103706074a647ef783",
+      "type": "Place",
+      "title": "Ghetto B",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f7feb6126071139274f541fa",
+      "type": "Place",
+      "title": "Ghetto A",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2685a7fa516e29824aa13ce5",
+      "type": "Person",
+      "title": "Moshe Levak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_296009cc4bc5aab8b212c51d",
+      "type": "Place",
+      "title": "Radomotove",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d2a28ed66b05bd2e9dbfc5f1",
+      "type": "Organization",
+      "title": "Malatov Detachment",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

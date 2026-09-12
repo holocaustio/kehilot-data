@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_52003843243727862452bbe4",
+  "type": "Event",
+  "title": "Occupation of Drohiczyn",
+  "summary": "German forces occupied Drohiczyn on June 25, 1941.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 352,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The schema lacks an occupation event type; DEPORTATION is used only as the closest controlled category.",
+  "dateStart": "1941-06-25",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6fedc311eb230f8954fad450",
+      "pageId": "page_nybc313748_0352",
+      "scanIndex": 352,
+      "leafNumber": 351,
+      "printedPage": null,
+      "passageCharStart": 1087,
+      "passageCharEnd": 1166,
+      "normalizedPassageCharStart": 1087,
+      "normalizedPassageCharEnd": 1166,
+      "pageCharStart": 2405,
+      "pageCharEnd": 2484,
+      "quote": "דראהיטשי ן אי ז אקןפיר ט געװאר ן פו ן\nד י דײטש ע רוצחי ם דע ם 25 ט ן ױני , 1941",
+      "normalizedQuote": "דראהיטשי ן אי ז אקןפיר ט געװאר ן פו ן\nד י דײטש ע רוצחי ם דע ם 25 ט ן ױני , 1941",
+      "modelQuote": "דראהיטשין איז אקןפירט געװארן פון די דײטשע רוצחים דעם 25טן ױני, 1941",
+      "bbox": {
+        "left": 2578,
+        "top": 5591,
+        "right": 4466,
+        "bottom": 5755
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n351/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "fe9cc0c7df0c5e549112ab76fd1000d2f070239cbcbd78fba4663d21339e992c",
+      "normalizedPassageChecksum": "2d8bf1b40c0992a0c47a0f65d11777a5f3b64985a1aea3091e0eb1d21638bf27",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c879d3b11cf5d86c0d9a2079",
+      "type": "Place",
+      "title": "Drohiczyn",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1ada949efd0d9c114bc3361d",
+      "type": "Organization",
+      "title": "German forces",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

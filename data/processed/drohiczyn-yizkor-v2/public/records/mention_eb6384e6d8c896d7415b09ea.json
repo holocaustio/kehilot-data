@@ -1,0 +1,108 @@
+{
+  "id": "mention_eb6384e6d8c896d7415b09ea",
+  "type": "Organization",
+  "title": "Ukrainian Bulbavtsy",
+  "summary": "Ukrainian nationalist bands that attacked partisans, Jews, peasants, and Poles in the forests.",
+  "originalName": "אוקראינער ׳״בולבאװצעם׳/",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 329,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "nationalist bands",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3a24130a0e5d145df53c9b35",
+      "pageId": "page_nybc313748_0329",
+      "scanIndex": 329,
+      "leafNumber": 328,
+      "printedPage": null,
+      "passageCharStart": 131,
+      "passageCharEnd": 156,
+      "normalizedPassageCharStart": 131,
+      "normalizedPassageCharEnd": 156,
+      "pageCharStart": 131,
+      "pageCharEnd": 156,
+      "quote": "אוקראינער ׳ ״בולבאװצעם׳ /",
+      "normalizedQuote": "אוקראינער ׳ ״בולבאװצעם׳ /",
+      "modelQuote": "אוקראינער ׳״בולבאװצעם׳/",
+      "bbox": {
+        "left": 3639,
+        "top": 1125,
+        "right": 4463,
+        "bottom": 1201
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n328/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "ed4c16ebc4fa13988de1a7ac6e79fc1733004d0dbda2c595a33ba2a78245e3f5",
+      "normalizedPassageChecksum": "f6c06cf56451a8ceffc02e1455faafdd743a646c8ca72594870e81bd6edce02e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_bd0aed17b7e5d4b7ce2dbe50",
+      "predicate": "Worked At",
+      "subjectTitle": "Melekh Bakalchuk",
+      "objectTitle": "Ukrainian Bulbavtsy",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The unit name is not clearly represented as a distinct organization in the OCR.",
+      "evidence": {
+        "passageId": "passage_2cacd5da98d1fe9626d65f44",
+        "pageId": "page_nybc313748_0328",
+        "scanIndex": 328,
+        "leafNumber": 327,
+        "printedPage": null,
+        "passageCharStart": 775,
+        "passageCharEnd": 820,
+        "normalizedPassageCharStart": 775,
+        "normalizedPassageCharEnd": 820,
+        "pageCharStart": 2880,
+        "pageCharEnd": 2925,
+        "quote": "דע ר\nראדיא־מא ן פו ן אטריאד , מל ך באקאלטשו ק",
+        "normalizedQuote": "דע ר\nראדיא־מא ן פו ן אטריאד , מל ך באקאלטשו ק",
+        "modelQuote": "דער ראדיא־מאן פון אטריאד, מלך באקאלטשוק",
+        "bbox": {
+          "left": 496,
+          "top": 5319,
+          "right": 2378,
+          "bottom": 5481
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n327/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "16fb68ff88a44b0086c7b3fe81b048ba05318580de707c75dc3c34fd71ea118c",
+        "normalizedPassageChecksum": "88141fe1a9f9ad8798d53bad206f5d8ae0a9237b3bd38adf9ce5665164f62f21",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_9c78f5193d8352da2c928799",
+      "type": "Person",
+      "title": "Melekh Bakalchuk",
+      "relation": "Worked At"
+    },
+    {
+      "id": "event_candidate_c6831c6e9a3a84220f2cbb77",
+      "type": "Event",
+      "title": "Ukrainian nationalist bands attacked partisans",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "event_candidate_7ef5efb6722befd52fdcc32b",
+      "type": "Event",
+      "title": "Jews were killed by Ukrainian bands",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    }
+  ],
+  "publicationEligible": false
+}

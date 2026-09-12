@@ -1,0 +1,108 @@
+{
+  "id": "mention_3430e2b7b87afd858e55c711",
+  "type": "Person",
+  "title": "Kesselring",
+  "summary": "Field marshal Kesselring was sentenced to death and later received a reduced sentence.",
+  "originalName": "קעסעלרינג",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 385,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military commander",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f8c75a431b3994f7d4644377",
+      "pageId": "page_nybc313748_0385",
+      "scanIndex": 385,
+      "leafNumber": 384,
+      "printedPage": null,
+      "passageCharStart": 763,
+      "passageCharEnd": 785,
+      "normalizedPassageCharStart": 763,
+      "normalizedPassageCharEnd": 785,
+      "pageCharStart": 2068,
+      "pageCharEnd": 2090,
+      "quote": "פעלד־מארשא ל קעסעלרינג",
+      "normalizedQuote": "פעלד־מארשא ל קעסעלרינג",
+      "modelQuote": "פעלד־מארשאל קעסעלרינג",
+      "bbox": {
+        "left": 3371,
+        "top": 5329,
+        "right": 4183,
+        "bottom": 5407
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n384/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "554e4a677dca2f2eab4fd331bafc6888fabc8892cea4c86cbf26369bf3f67e2c",
+      "normalizedPassageChecksum": "4e57279a46b428d9b21dd5335b4c2c6cdf15a3fbe6b36c4a5212231571e2507f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_1a44568d1d0a6757410c65a3",
+      "type": "Imprisonment",
+      "title": "Kesselring sentence and later release",
+      "summary": "Kesselring received a death sentence in 1947, later commuted, and was released after several years.",
+      "dateStart": "1947-05-06",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage states the death sentence was later commuted and that he was subsequently released.",
+      "evidence": {
+        "passageId": "passage_f8c75a431b3994f7d4644377",
+        "pageId": "page_nybc313748_0385",
+        "scanIndex": 385,
+        "leafNumber": 384,
+        "printedPage": null,
+        "passageCharStart": 801,
+        "passageCharEnd": 840,
+        "normalizedPassageCharStart": 801,
+        "normalizedPassageCharEnd": 840,
+        "pageCharStart": 2106,
+        "pageCharEnd": 2145,
+        "quote": "פאר׳משפ ט\nגעװאר ן צו ם טוי ט ( 6.5.47 )",
+        "normalizedQuote": "פאר׳משפ ט\nגעװאר ן צו ם טוי ט ( 6.5.47 )",
+        "modelQuote": "פאר׳משפט געװארן צום טויט (6.5.47)",
+        "bbox": {
+          "left": 2597,
+          "top": 5341,
+          "right": 4479,
+          "bottom": 5515
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n384/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "554e4a677dca2f2eab4fd331bafc6888fabc8892cea4c86cbf26369bf3f67e2c",
+        "normalizedPassageChecksum": "4e57279a46b428d9b21dd5335b4c2c6cdf15a3fbe6b36c4a5212231571e2507f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_1a44568d1d0a6757410c65a3",
+      "type": "Event",
+      "title": "Kesselring sentence and later release",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_55204ad9981bef76bdcb93c2",
+      "type": "Place",
+      "title": "London, England",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_330c6e4804d385b1dc3f1545",
+      "type": "Publication",
+      "title": "Loshon un Lebn",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

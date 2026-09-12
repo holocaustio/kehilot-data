@@ -1,0 +1,119 @@
+{
+  "id": "mention_be51e799c71735844893d95b",
+  "type": "Person",
+  "title": "Feige-Rokhl Katler",
+  "summary": "Katler family member reportedly murdered by Germans.",
+  "originalName": "פײג ע רח ל קאט ־\nלע ר",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 329,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "family member",
+  "uncertaintyNote": "OCR spacing and line breaks affect the name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_122390b159cdba54853ea366",
+      "pageId": "page_nybc313748_0329",
+      "scanIndex": 329,
+      "leafNumber": 328,
+      "printedPage": null,
+      "passageCharStart": 920,
+      "passageCharEnd": 941,
+      "normalizedPassageCharStart": 920,
+      "normalizedPassageCharEnd": 941,
+      "pageCharStart": 2903,
+      "pageCharEnd": 2924,
+      "quote": "פײג ע רח ל קאט ־\nלע ר",
+      "normalizedQuote": "פײג ע רח ל קאט ־\nלע ר",
+      "modelQuote": "פײג ע רח ל קאט ־\nלע ר",
+      "bbox": {
+        "left": 3631,
+        "top": 4014,
+        "right": 4481,
+        "bottom": 4184
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n328/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "d26b549a908354595ca84fea6e6c0a7cf885cca471da22a87ffc291a5ae3d53a",
+      "normalizedPassageChecksum": "d371da839125526d180dbfd8b94542b90ab004c3d2411df4a298ed3645fc653e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8083f99831a023c3157a5a51",
+      "type": "Murder",
+      "title": "Murder of Feige-Rokhl Katler",
+      "summary": "Feige-Rokhl Katler was handed over by non-Jews and murdered by Germans.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_122390b159cdba54853ea366",
+        "pageId": "page_nybc313748_0329",
+        "scanIndex": 329,
+        "leafNumber": 328,
+        "printedPage": null,
+        "passageCharStart": 1269,
+        "passageCharEnd": 1305,
+        "normalizedPassageCharStart": 1269,
+        "normalizedPassageCharEnd": 1305,
+        "pageCharStart": 3252,
+        "pageCharEnd": 3288,
+        "quote": "או ן ד י דײטש ן האב ן אי ר\nדערמארדעט",
+        "normalizedQuote": "או ן ד י דײטש ן האב ן אי ר\nדערמארדעט",
+        "modelQuote": "און ד י דײטש ן האב ן אי ר\nדערמארדעט",
+        "bbox": {
+          "left": 3641,
+          "top": 5464,
+          "right": 4483,
+          "bottom": 5626
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n328/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "d26b549a908354595ca84fea6e6c0a7cf885cca471da22a87ffc291a5ae3d53a",
+        "normalizedPassageChecksum": "d371da839125526d180dbfd8b94542b90ab004c3d2411df4a298ed3645fc653e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_67241a101fbfeca5841f2f0b",
+      "type": "Person",
+      "title": "Moshe bar Mordechai",
+      "relation": "Child Of"
+    },
+    {
+      "id": "event_candidate_8083f99831a023c3157a5a51",
+      "type": "Event",
+      "title": "Murder of Feige-Rokhl Katler",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_1eeee7f7804a55b583a53284",
+      "type": "Person",
+      "title": "Moyshe-Leizer Katler",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6cd2fd62e2ad3e882bd310ac",
+      "type": "Person",
+      "title": "Beyle Katler",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_67241a101fbfeca5841f2f0b",
+      "type": "Person",
+      "title": "Moshe bar Mordechai",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,115 @@
+{
+  "id": "mention_0c29c6bb54154731d8af7844",
+  "type": "Place",
+  "title": "Batei HaZikuk refinery site",
+  "summary": "Site in Haifa where Peretz was reportedly killed during an Arab attack.",
+  "originalName": "בתי הזקו ק",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 249,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "industrial_site",
+  "uncertaintyNote": "The OCR spelling is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b71ea407e8e83a04492ebbea",
+      "pageId": "page_nybc313748_0249",
+      "scanIndex": 249,
+      "leafNumber": 248,
+      "printedPage": null,
+      "passageCharStart": 371,
+      "passageCharEnd": 390,
+      "normalizedPassageCharStart": 371,
+      "normalizedPassageCharEnd": 390,
+      "pageCharStart": 3959,
+      "pageCharEnd": 3978,
+      "quote": "בבת י הזקו ק בחיפ ה",
+      "normalizedQuote": "בבת י הזקו ק בחיפ ה",
+      "modelQuote": "בבתי הזקו ק בחיפה",
+      "bbox": {
+        "left": 1211,
+        "top": 4912,
+        "right": 1672,
+        "bottom": 4950
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n248/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "98f801a41c8edd995637379fda3387bf1ab7670a3d459ee98a502f9b19eb61e4",
+      "normalizedPassageChecksum": "85c1751c255ddb78b30cce6a52902808fc6ee28f4af8d87b930cd76c0867ea9e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3dd20b56765120be075040b3",
+      "type": "Murder",
+      "title": "Death of Peretz Ben-Zahav in Haifa",
+      "summary": "Peretz Ben-Zahav was reportedly killed during an Arab attack in Haifa.",
+      "dateStart": "1947-12-30",
+      "dateEnd": "1947-12-30",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR contains errors, but the reported date and location are explicit.",
+      "evidence": {
+        "passageId": "passage_b71ea407e8e83a04492ebbea",
+        "pageId": "page_nybc313748_0249",
+        "scanIndex": 249,
+        "leafNumber": 248,
+        "printedPage": null,
+        "passageCharStart": 349,
+        "passageCharEnd": 407,
+        "normalizedPassageCharStart": 349,
+        "normalizedPassageCharEnd": 407,
+        "pageCharStart": 3937,
+        "pageCharEnd": 3995,
+        "quote": "נהר ג בהתקם ת הערבי ם בבת י הזקו ק בחיפ ה בתארי ך 30.12,47",
+        "normalizedQuote": "נהר ג בהתקם ת הערבי ם בבת י הזקו ק בחיפ ה בתארי ך 30.12,47",
+        "modelQuote": "נהרג בהתקםת הערבים בבתי הזקו ק בחיפה בתאריך 30.12,47",
+        "bbox": {
+          "left": 741,
+          "top": 4910,
+          "right": 2253,
+          "bottom": 4953
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n248/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "98f801a41c8edd995637379fda3387bf1ab7670a3d459ee98a502f9b19eb61e4",
+        "normalizedPassageChecksum": "85c1751c255ddb78b30cce6a52902808fc6ee28f4af8d87b930cd76c0867ea9e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3dd20b56765120be075040b3",
+      "type": "Event",
+      "title": "Death of Peretz Ben-Zahav in Haifa",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_48a19cdc1ea5892b06ceebd5",
+      "type": "Person",
+      "title": "Zehava",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b650202013699f30e055029e",
+      "type": "Place",
+      "title": "Haifa burial place",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8a3793ab19fdd70103d30d78",
+      "type": "Place",
+      "title": "Peace Street",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

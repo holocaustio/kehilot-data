@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_7c4368770c4ba43683c85c00",
+  "type": "Event",
+  "title": "Priest saves rabbi from Gestapo",
+  "summary": "A Russian priest intervened when Gestapo men abducted Rabbi Aitik Kalenkavitch, saving his life.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 302,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The event is described as an attempted killing, but the event schema lacks an attempted-murder type.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1d4b7eaaa62edfdc11ecb506",
+      "pageId": "page_nybc313748_0302",
+      "scanIndex": 302,
+      "leafNumber": 301,
+      "printedPage": null,
+      "passageCharStart": 538,
+      "passageCharEnd": 563,
+      "normalizedPassageCharStart": 538,
+      "normalizedPassageCharEnd": 563,
+      "pageCharStart": 1650,
+      "pageCharEnd": 1675,
+      "quote": "או ן געראטעװע ט זײ ן לעבן",
+      "normalizedQuote": "או ן געראטעװע ט זײ ן לעבן",
+      "modelQuote": "און געראטעװעט זײן לעבן",
+      "bbox": {
+        "left": 3098,
+        "top": 4112,
+        "right": 3926,
+        "bottom": 4190
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n301/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "5e3b376a726b32e42bdc4f16efef140a8ec4e7d419da56a4d0f265f911ca9ca5",
+      "normalizedPassageChecksum": "91aef8f2aea97dda8db24b4de0abd7e61257e2c2c5a83a4479719c878beb89e1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_39d23dc1ff780fc5e0705ad8",
+      "type": "Community",
+      "title": "Drohiczyn Jewish community",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ea2711228578cc8d1bab3baa",
+      "type": "Person",
+      "title": "Russian priest of the town",
+      "relation": "Participant",
+      "role": "Survivor"
+    },
+    {
+      "id": "mention_af64cc955ddfac33badb2e8a",
+      "type": "Person",
+      "title": "Rabbi Aitik Kalenkavitch",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_a72e24146f2079c6dcde2bf9",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

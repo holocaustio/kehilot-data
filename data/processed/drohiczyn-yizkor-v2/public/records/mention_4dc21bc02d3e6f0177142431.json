@@ -1,0 +1,101 @@
+{
+  "id": "mention_4dc21bc02d3e6f0177142431",
+  "type": "Business",
+  "title": "Narrator's pharmacy",
+  "summary": "Pharmacy repeatedly entered and looted by soldiers.",
+  "originalName": "אפטײק",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 86,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "pharmacy",
+  "uncertaintyNote": "The business term contains OCR corruption.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2464c07be5949899410fe1d1",
+      "pageId": "page_nybc313748_0086",
+      "scanIndex": 86,
+      "leafNumber": 85,
+      "printedPage": null,
+      "passageCharStart": 290,
+      "passageCharEnd": 324,
+      "normalizedPassageCharStart": 290,
+      "normalizedPassageCharEnd": 324,
+      "pageCharStart": 2839,
+      "pageCharEnd": 2873,
+      "quote": "פארבײ ־\nגײענדי ק מײ ן אפטײקךגעשעפט",
+      "normalizedQuote": "פארבײ ־\nגײענדי ק מײ ן אפטײקךגעשעפט",
+      "modelQuote": "פארבײ־\nגײענדיק מײן אפטײקךגעשעפט",
+      "bbox": {
+        "left": 478,
+        "top": 1250,
+        "right": 2364,
+        "bottom": 1418
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n85/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "d1ea8566d450f2b96f67e9a4536ea98cd4d450db11abbcbd0d741b2d95f19801",
+      "normalizedPassageChecksum": "d428865e7bbbae8f9c66a47f9ad93c994ee80cc4de264bfdb24599e7ff74dc74",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_705e8b0d2d49a7b2a43ef762",
+      "predicate": "Located In",
+      "subjectTitle": "Narrator's pharmacy",
+      "objectTitle": "Drohitchin",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The surrounding narrative places the pharmacy in town, but the quoted span does not name Drohitchin.",
+      "evidence": {
+        "passageId": "passage_2464c07be5949899410fe1d1",
+        "pageId": "page_nybc313748_0086",
+        "scanIndex": 86,
+        "leafNumber": 85,
+        "printedPage": null,
+        "passageCharStart": 290,
+        "passageCharEnd": 324,
+        "normalizedPassageCharStart": 290,
+        "normalizedPassageCharEnd": 324,
+        "pageCharStart": 2839,
+        "pageCharEnd": 2873,
+        "quote": "פארבײ ־\nגײענדי ק מײ ן אפטײקךגעשעפט",
+        "normalizedQuote": "פארבײ ־\nגײענדי ק מײ ן אפטײקךגעשעפט",
+        "modelQuote": "פארבײ־\nגײענדיק מײן אפטײקךגעשעפט",
+        "bbox": {
+          "left": 478,
+          "top": 1250,
+          "right": 2364,
+          "bottom": 1418
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n85/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "d1ea8566d450f2b96f67e9a4536ea98cd4d450db11abbcbd0d741b2d95f19801",
+        "normalizedPassageChecksum": "d428865e7bbbae8f9c66a47f9ad93c994ee80cc4de264bfdb24599e7ff74dc74",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_48344ca53a213b04a5995f0e",
+      "type": "Place",
+      "title": "Drohitchin",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_3754b755646a15b84d357d0e",
+      "type": "Organization",
+      "title": "Soldiers",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

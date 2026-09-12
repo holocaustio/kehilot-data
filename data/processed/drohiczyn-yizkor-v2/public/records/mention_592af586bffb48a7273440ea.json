@@ -1,0 +1,107 @@
+{
+  "id": "mention_592af586bffb48a7273440ea",
+  "type": "Organization",
+  "title": "Polish raiders",
+  "summary": "Armed Polish bands robbed, assaulted, and terrorized Jewish residents.",
+  "originalName": "פאליאקן",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 78,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "armed raiders",
+  "uncertaintyNote": "The OCR contains unclear characters before the phrase.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fa30b4e22d757cfb8ab49d5d",
+      "pageId": "page_nybc313748_0078",
+      "scanIndex": 78,
+      "leafNumber": 77,
+      "printedPage": null,
+      "passageCharStart": 410,
+      "passageCharEnd": 437,
+      "normalizedPassageCharStart": 410,
+      "normalizedPassageCharEnd": 437,
+      "pageCharStart": 433,
+      "pageCharEnd": 460,
+      "quote": "באנדע ם\nב/יואפנט ע פאליאק ן",
+      "normalizedQuote": "באנדע ם\nב/יואפנט ע פאליאק ן",
+      "modelQuote": "באנדעם ב/יואפנטע פאליאקן",
+      "bbox": {
+        "left": 2580,
+        "top": 1476,
+        "right": 4468,
+        "bottom": 1644
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n77/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "b4d57a202aff49df765374311f57acab1e30f348959f95ee1ee4e2dae6c26150",
+      "normalizedPassageChecksum": "fcc9fa86a79f511ed6895682542552b25c6a053ad6d85317707e8a21f7c1ab60",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_ad3c2ba40a91c43ffce58935",
+      "type": "Aktion Or Raid",
+      "title": "Polish raids in Drohichin",
+      "summary": "Polish bands robbed and assaulted Jewish residents for a week.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_fa30b4e22d757cfb8ab49d5d",
+        "pageId": "page_nybc313748_0078",
+        "scanIndex": 78,
+        "leafNumber": 77,
+        "printedPage": null,
+        "passageCharStart": 1332,
+        "passageCharEnd": 1411,
+        "normalizedPassageCharStart": 1332,
+        "normalizedPassageCharEnd": 1411,
+        "pageCharStart": 1355,
+        "pageCharEnd": 1434,
+        "quote": "דא ם\nרויבן , שלאגן , או ן שענד ן פו ן ד י פאליאק ן הא ט אנגעהאלט ן\nא גאנצ ע װאך",
+        "normalizedQuote": "דא ם\nרויבן , שלאגן , או ן שענד ן פו ן ד י פאליאק ן הא ט אנגעהאלט ן\nא גאנצ ע װאך",
+        "modelQuote": "דאם רויבן, שלאגן, און שענדן פון די פאליאקן האט אנגעהאלטן א גאנצע װאך",
+        "bbox": {
+          "left": 2592,
+          "top": 3014,
+          "right": 4478,
+          "bottom": 3280
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n77/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "b4d57a202aff49df765374311f57acab1e30f348959f95ee1ee4e2dae6c26150",
+        "normalizedPassageChecksum": "fcc9fa86a79f511ed6895682542552b25c6a053ad6d85317707e8a21f7c1ab60",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_ad3c2ba40a91c43ffce58935",
+      "type": "Event",
+      "title": "Polish raids in Drohichin",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_39d23dc1ff780fc5e0705ad8",
+      "type": "Community",
+      "title": "Drohiczyn Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_11f1fc98286693f62cb01d1f",
+      "type": "Place",
+      "title": "Anta-Polia",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

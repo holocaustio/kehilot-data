@@ -1,0 +1,110 @@
+{
+  "id": "mention_ab1b413187a4867ce3e11799",
+  "type": "Person",
+  "title": "Unnamed farmer",
+  "summary": "A farmer warned Jewish fugitives to leave and described police killings.",
+  "originalName": "פויער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 327,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "farmer",
+  "uncertaintyNote": "The person is unnamed.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3a9b50a4a851e59ccacb9679",
+      "pageId": "page_nybc313748_0327",
+      "scanIndex": 327,
+      "leafNumber": 326,
+      "printedPage": null,
+      "passageCharStart": 28,
+      "passageCharEnd": 39,
+      "normalizedPassageCharStart": 28,
+      "normalizedPassageCharEnd": 39,
+      "pageCharStart": 1375,
+      "pageCharEnd": 1386,
+      "quote": "דע ר פויע ר",
+      "normalizedQuote": "דע ר פויע ר",
+      "modelQuote": "דער פויער",
+      "bbox": {
+        "left": 2991,
+        "top": 3104,
+        "right": 3339,
+        "bottom": 3162
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n326/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "730a29541ca486abd0a69f86335726211b0af0a2419cdfbbb0f95625a39403ce",
+      "normalizedPassageChecksum": "c98caaefa90e4316d7443f52c1d8a92f4ff85679eda3ba11d08ec4e01b5ca5e0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_6a636f6d54d821f4133bdd13",
+      "predicate": "Participated In",
+      "subjectTitle": "Unnamed farmer",
+      "objectTitle": "Jews",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "helper"
+      },
+      "evidence": {
+        "passageId": "passage_3a9b50a4a851e59ccacb9679",
+        "pageId": "page_nybc313748_0327",
+        "scanIndex": 327,
+        "leafNumber": 326,
+        "printedPage": null,
+        "passageCharStart": 28,
+        "passageCharEnd": 82,
+        "normalizedPassageCharStart": 28,
+        "normalizedPassageCharEnd": 82,
+        "pageCharStart": 1375,
+        "pageCharEnd": 1429,
+        "quote": "דע ר פויע ר צולויפ ן או ן\nהײם ט אונד ז גײ ן פו ן דאנען",
+        "normalizedQuote": "דע ר פויע ר צולויפ ן או ן\nהײם ט אונד ז גײ ן פו ן דאנען",
+        "modelQuote": "דער פויער צולויפן און\nהײםט אונדז גײן פו ן דאנען",
+        "bbox": {
+          "left": 2571,
+          "top": 3092,
+          "right": 4455,
+          "bottom": 3272
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n326/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "730a29541ca486abd0a69f86335726211b0af0a2419cdfbbb0f95625a39403ce",
+        "normalizedPassageChecksum": "c98caaefa90e4316d7443f52c1d8a92f4ff85679eda3ba11d08ec4e01b5ca5e0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_4f8641979f11dd423859bfdc",
+      "type": "Community",
+      "title": "Jews",
+      "relation": "Participated In"
+    },
+    {
+      "id": "event_candidate_bcb65f4290f38275b3b0a4e6",
+      "type": "Event",
+      "title": "Night escape from the swamp",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_4f8641979f11dd423859bfdc",
+      "type": "Community",
+      "title": "Jews",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

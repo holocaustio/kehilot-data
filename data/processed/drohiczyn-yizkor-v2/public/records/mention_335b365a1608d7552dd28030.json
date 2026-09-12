@@ -1,0 +1,105 @@
+{
+  "id": "mention_335b365a1608d7552dd28030",
+  "type": "Place",
+  "title": "Haystacks",
+  "summary": "Haystacks where the fleeing group hid and slept.",
+  "originalName": "סטײגלעך הײ",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 342,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "haystacks",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ee5da2bdfcdd6555693ad102",
+      "pageId": "page_nybc313748_0342",
+      "scanIndex": 342,
+      "leafNumber": 341,
+      "printedPage": null,
+      "passageCharStart": 913,
+      "passageCharEnd": 924,
+      "normalizedPassageCharStart": 913,
+      "normalizedPassageCharEnd": 924,
+      "pageCharStart": 1984,
+      "pageCharEnd": 1995,
+      "quote": "סטײגלע ך הײ",
+      "normalizedQuote": "סטײגלע ך הײ",
+      "modelQuote": "סטײגלעך הײ",
+      "bbox": {
+        "left": 4057,
+        "top": 5562,
+        "right": 4471,
+        "bottom": 5640
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n341/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "b1d2d28c1d899aa1a81b70b90d8a9acd0fd0ac7694f530e60547e51144e43f45",
+      "normalizedPassageChecksum": "37db8cf10610b70440d1b55de22ccfc5b3f1d966861138b54400f8a4f15ed041",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_fd7528f222a17bc08c35d4ae",
+      "type": "Death",
+      "title": "Death of Zadok",
+      "summary": "Zadok died after suffering from hunger and cold while hiding with the group.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_2423eaa42fe5ad1d5bf1b07f",
+        "pageId": "page_nybc313748_0342",
+        "scanIndex": 342,
+        "leafNumber": 341,
+        "printedPage": null,
+        "passageCharStart": 799,
+        "passageCharEnd": 831,
+        "normalizedPassageCharStart": 799,
+        "normalizedPassageCharEnd": 831,
+        "pageCharStart": 3035,
+        "pageCharEnd": 3067,
+        "quote": "געשטארב ן פו ן הונגע ר או ן קעלט",
+        "normalizedQuote": "געשטארב ן פו ן הונגע ר או ן קעלט",
+        "modelQuote": "געשטארבן פון הונגער און קעלט",
+        "bbox": {
+          "left": 734,
+          "top": 2496,
+          "right": 1836,
+          "bottom": 2574
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n341/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "64a29194be82f7ab90e52f086adfbbc769b380fff353b1d37ae56b1d0d0aedc2",
+        "normalizedPassageChecksum": "36a21a87df72309cd6b0acdaed6146714e9dcdf8fcc5d557590c810f0e2d072a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_fd7528f222a17bc08c35d4ae",
+      "type": "Event",
+      "title": "Death of Zadok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_919a27a009d7d4870c06daf5",
+      "type": "Person",
+      "title": "Zadok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_05a8c0d444a967dfa998ac20",
+      "type": "Place",
+      "title": "Forest",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

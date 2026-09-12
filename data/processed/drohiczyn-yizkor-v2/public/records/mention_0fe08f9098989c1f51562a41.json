@@ -1,0 +1,121 @@
+{
+  "id": "mention_0fe08f9098989c1f51562a41",
+  "type": "Place",
+  "title": "Lechevitcher courtyard",
+  "summary": "Place where Aharon and his family lived during the war.",
+  "originalName": "לעכעזויטשער הויף",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 196,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "courtyard",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_87b268ec46d270dd2d0764e1",
+      "pageId": "page_nybc313748_0196",
+      "scanIndex": 196,
+      "leafNumber": 195,
+      "printedPage": null,
+      "passageCharStart": 462,
+      "passageCharEnd": 479,
+      "normalizedPassageCharStart": 462,
+      "normalizedPassageCharEnd": 479,
+      "pageCharStart": 3741,
+      "pageCharEnd": 3758,
+      "quote": "לעכעזויטשע ר הויף",
+      "normalizedQuote": "לעכעזויטשע ר הויף",
+      "modelQuote": "לעכעזויטשער הויף",
+      "bbox": {
+        "left": 1233,
+        "top": 4246,
+        "right": 1823,
+        "bottom": 4330
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n195/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "73f0459b65a749abcf1ae90c18a98cf8d177d9444aed1c7e5706b580f0ee6dde",
+      "normalizedPassageChecksum": "7a7b5f42a5436d3e2d267bb122a88e87bd2ac4987d819680480666257fd07d46",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_fbae39fc69fc56153d86458b",
+      "predicate": "Lived At",
+      "subjectTitle": "Aharon",
+      "objectTitle": "Lechevitcher courtyard",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR contains an apparent error in the family wording.",
+      "qualifiers": {
+        "period": "World War I"
+      },
+      "evidence": {
+        "passageId": "passage_87b268ec46d270dd2d0764e1",
+        "pageId": "page_nybc313748_0196",
+        "scanIndex": 196,
+        "leafNumber": 195,
+        "printedPage": null,
+        "passageCharStart": 388,
+        "passageCharEnd": 479,
+        "normalizedPassageCharStart": 388,
+        "normalizedPassageCharEnd": 479,
+        "pageCharStart": 3667,
+        "pageCharEnd": 3758,
+        "quote": "ד י יאר ן פו ן דע ר מלחמ ה הא ט אהר ן מי ט זי ץ פאמילי ע\nדורכגעלעב ט אי ן לעכעזויטשע ר הויף",
+        "normalizedQuote": "ד י יאר ן פו ן דע ר מלחמ ה הא ט אהר ן מי ט זי ץ פאמילי ע\nדורכגעלעב ט אי ן לעכעזויטשע ר הויף",
+        "modelQuote": "די יארן פון דער מלחמה האט אהרן מיט זיץ פאמיליע\nדורכגעלעבט אין לעכעזויטשער הויף",
+        "bbox": {
+          "left": 493,
+          "top": 4146,
+          "right": 2377,
+          "bottom": 4330
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n195/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "73f0459b65a749abcf1ae90c18a98cf8d177d9444aed1c7e5706b580f0ee6dde",
+        "normalizedPassageChecksum": "7a7b5f42a5436d3e2d267bb122a88e87bd2ac4987d819680480666257fd07d46",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_efd4790ecb8f234488e9860f",
+      "type": "Person",
+      "title": "Aharon",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_efd4790ecb8f234488e9860f",
+      "type": "Person",
+      "title": "Aharon",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_abc47436f194c899daee46ed",
+      "type": "Person",
+      "title": "Yitzhak Lechevitcher",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_65f5bad64f2d228795e14ee9",
+      "type": "Place",
+      "title": "America",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_87cfe8974156cc643626e3aa",
+      "type": "Place",
+      "title": "Hartford, Connecticut",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

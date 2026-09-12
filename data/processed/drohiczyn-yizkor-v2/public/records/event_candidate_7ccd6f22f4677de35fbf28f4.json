@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_7ccd6f22f4677de35fbf28f4",
+  "type": "Event",
+  "title": "Attendance at Volozhin Yeshiva",
+  "summary": "David Mordecai traveled to Volozhin Yeshiva despite lacking funds for expenses.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 132,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "School Attendance",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4c6adbc3571e2bf877c79c83",
+      "pageId": "page_nybc313748_0132",
+      "scanIndex": 132,
+      "leafNumber": 131,
+      "printedPage": null,
+      "passageCharStart": 862,
+      "passageCharEnd": 904,
+      "normalizedPassageCharStart": 862,
+      "normalizedPassageCharEnd": 904,
+      "pageCharStart": 862,
+      "pageCharEnd": 904,
+      "quote": "באשטימ ט צ ו פאר ן\nאי ן װאלאזשינע ר ישיב ה",
+      "normalizedQuote": "באשטימ ט צ ו פאר ן\nאי ן װאלאזשינע ר ישיב ה",
+      "modelQuote": "באשטימ ט צ ו פארן\nאי ן װאלאזשינע ר ישיב ה",
+      "bbox": {
+        "left": 2571,
+        "top": 5593,
+        "right": 4465,
+        "bottom": 5759
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n131/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "58afbf7cfd92a047030260237c1ab00214c8f6e2147b5f66bcfcb4ce1bb1f5fc",
+      "normalizedPassageChecksum": "cdf90b8b162929931ba6d0cca170a204fcc98dc458d6ed96d3cf1f77ce418683",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_aec5b65d98a2bd4ea84a8014",
+      "type": "Place",
+      "title": "Vilna",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_8e2f396d69961957c58d7a97",
+      "type": "Person",
+      "title": "Rabbi David Mordecai Yudovsky",
+      "relation": "Participant",
+      "role": "Student"
+    },
+    {
+      "id": "mention_1b3b727d470d2c8629eb2c9b",
+      "type": "Institution",
+      "title": "Volozhin Yeshiva",
+      "relation": "Participant",
+      "role": "Teacher"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

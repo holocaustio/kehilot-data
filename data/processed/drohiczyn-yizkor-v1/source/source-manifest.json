@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "kehilot-yizkor-source-v2",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "ingestedAt": "2026-09-12T09:39:34.853Z",
+  "community": {
+    "id": "community_drohiczyn",
+    "displayName": "drohiczyn",
+    "canonicalName": "drohiczyn",
+    "country": "Belarus"
+  },
+  "book": {
+    "id": "book_nybc313748",
+    "communityId": "community_drohiczyn",
+    "internetArchiveId": "nybc313748",
+    "title": "Drohiṭshin : finf hunderṭ yor Yidish-lebn",
+    "alternateTitle": null,
+    "authors": [
+      "1904-1983"
+    ],
+    "publication": "שיקאגע : בוך-קאָמיטעט \"דראָהיטשין\",- תשי\"ח 1958.",
+    "language": "he",
+    "pageProgression": "rl",
+    "sourceUrl": "https://archive.org/details/nybc313748",
+    "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+    "rightsStatus": "REVIEW_REQUIRED",
+    "attribution": "internet-archive",
+    "checksums": {
+      "metadata": "590d3abcd0dae7c2b8e9e3fd78228d02327de078cc96cc18e0823c77c0cc6e82",
+      "djvuXml": "58511e7a145bed7531d847f7b1ac06069f64a6a7bdfe479ebaa93b7bb41fc3e3",
+      "scandataXml": "e91871b589ae26f3bbf086090ee8ec1accfcd624082af4c1a3490d531fbd5f7c",
+      "pdf": "dc9a52a5c2bc4e19869ee60212521bdd014475e6a4b62efb0db9e2c9e5b784f6"
+    }
+  },
+  "chapters": [],
+  "counts": {
+    "pages": 430,
+    "pagesWithText": 421,
+    "passages": 1281,
+    "words": 401730,
+    "normalizationEdits": 392007,
+    "joinedFragments": 372257,
+    "softLineBreaks": 19750
+  },
+  "normalizationPolicy": {
+    "version": "ocr-layout-normalizer-v1",
+    "canonicalField": "text",
+    "derivedField": "normalizedText",
+    "reversible": true,
+    "changesCharacters": false,
+    "rules": [
+      "concatenate-djvu-word-runs",
+      "replace-soft-line-breaks"
+    ]
+  },
+  "passagePolicy": {
+    "pageBound": true,
+    "targetEstimatedTokens": 1100,
+    "maxEstimatedTokens": 1500,
+    "tokenEstimate": "hebrew_letters*1.15 + latin_letters/4 + digits/3 + punctuation/2"
+  }
+}

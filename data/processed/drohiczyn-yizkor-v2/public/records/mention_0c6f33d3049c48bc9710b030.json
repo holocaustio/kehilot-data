@@ -1,0 +1,125 @@
+{
+  "id": "mention_0c6f33d3049c48bc9710b030",
+  "type": "Community",
+  "title": "Returning peasants",
+  "summary": "Peasants returning from Russia demanded their houses back.",
+  "originalName": "צורי ק זײער ע היתער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 104,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "peasants",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_68f7916a12cf5c724b554a3f",
+      "pageId": "page_nybc313748_0104",
+      "scanIndex": 104,
+      "leafNumber": 103,
+      "printedPage": null,
+      "passageCharStart": 346,
+      "passageCharEnd": 373,
+      "normalizedPassageCharStart": 346,
+      "normalizedPassageCharEnd": 373,
+      "pageCharStart": 2737,
+      "pageCharEnd": 2764,
+      "quote": "ד י צוריקגעקומענ ע פויערי ם",
+      "normalizedQuote": "ד י צוריקגעקומענ ע פויערי ם",
+      "modelQuote": "די צוריקגעקומענ ע פויערי ם",
+      "bbox": {
+        "left": 1381,
+        "top": 846,
+        "right": 2247,
+        "bottom": 912
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n103/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "768d1d585b1285c7bdb3eb6b2983adf23e943d337c468ec4e89d77f875d7a923",
+      "normalizedPassageChecksum": "c1f3aea4ca31dc960df84d806b001cdc1c0cbe36cc694500a3fe6f77a6e83925",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_ed7e360aa65998941a15c6dd",
+      "type": "Migration",
+      "title": "Peasants return from Russia",
+      "summary": "Peasants from surrounding villages returned after fleeing to Russia.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ba78e95285d0433110478c5f",
+        "pageId": "page_nybc313748_0104",
+        "scanIndex": 104,
+        "leafNumber": 103,
+        "printedPage": null,
+        "passageCharStart": 898,
+        "passageCharEnd": 968,
+        "normalizedPassageCharStart": 898,
+        "normalizedPassageCharEnd": 968,
+        "pageCharStart": 2187,
+        "pageCharEnd": 2257,
+        "quote": "האב ן אנגעהויב ן אנקומע ן צורי ק ד י פויערי ם פו ן ד י\nארומיק ע דערפער",
+        "normalizedQuote": "האב ן אנגעהויב ן אנקומע ן צורי ק ד י פויערי ם פו ן ד י\nארומיק ע דערפער",
+        "modelQuote": "האב ן אנגעהויבן אנקומען צוריק די פויערים פון די\nארומיקע דערפער",
+        "bbox": {
+          "left": 2586,
+          "top": 4817,
+          "right": 4472,
+          "bottom": 4985
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n103/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "3b16a3acf8aa314fe0c92059b82160a813ce1eaa449e1d06080d3914828eb2a6",
+        "normalizedPassageChecksum": "c161fd55eee24007dcff53861a14378c23f0c4f8e81c37dcda392120790e4ea8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_3256516758841001c5c08d2c",
+      "type": "Person",
+      "title": "The landlord of Lasintsy",
+      "relation": "Incited"
+    },
+    {
+      "id": "event_candidate_ed7e360aa65998941a15c6dd",
+      "type": "Event",
+      "title": "Peasants return from Russia",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "event_candidate_6d59023d54f72ea8fa65abaa",
+      "type": "Event",
+      "title": "Incitement toward a pogrom",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_687b826041c42ca8e0addf6e",
+      "type": "Community",
+      "title": "Jews of the town",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3256516758841001c5c08d2c",
+      "type": "Person",
+      "title": "The landlord of Lasintsy",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_350b4b888ed8593e19aebafd",
+      "type": "Place",
+      "title": "Lasintsy",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

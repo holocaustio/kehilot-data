@@ -1,0 +1,112 @@
+{
+  "id": "mention_08b93c6e81f47efa0c16644a",
+  "type": "Organization",
+  "title": "Polish forces",
+  "summary": "Polish forces pushed the Bolsheviks back toward Warsaw.",
+  "originalName": "פאליאקן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 78,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military force",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_92952f4430abd831d1df1631",
+      "pageId": "page_nybc313748_0078",
+      "scanIndex": 78,
+      "leafNumber": 77,
+      "printedPage": null,
+      "passageCharStart": 85,
+      "passageCharEnd": 127,
+      "normalizedPassageCharStart": 85,
+      "normalizedPassageCharEnd": 127,
+      "pageCharStart": 2990,
+      "pageCharEnd": 3032,
+      "quote": "ד י פאליאק ן טרײב ן צורי ק ד י גאלשעװיקע ס",
+      "normalizedQuote": "ד י פאליאק ן טרײב ן צורי ק ד י גאלשעװיקע ס",
+      "modelQuote": "די פאליאקן טרײבן צוריק די גאלשעװיקעס",
+      "bbox": {
+        "left": 629,
+        "top": 1217,
+        "right": 2219,
+        "bottom": 1309
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n77/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "5ca1463eaad1f96249376f12cfabc812c1176172e669205222b95b6083310da9",
+      "normalizedPassageChecksum": "fd4fe9799fb856366a7096ece11e279e12ed3b5a1ce0d3a4074b361ee0c1a20a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3b2d95e7007412e695e91fce",
+      "type": "Military Service",
+      "title": "Polish–Bolshevik fighting near Warsaw",
+      "summary": "Polish forces pushed Bolshevik forces back toward Warsaw before the latter retreated.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_92952f4430abd831d1df1631",
+        "pageId": "page_nybc313748_0078",
+        "scanIndex": 78,
+        "leafNumber": 77,
+        "printedPage": null,
+        "passageCharStart": 85,
+        "passageCharEnd": 127,
+        "normalizedPassageCharStart": 85,
+        "normalizedPassageCharEnd": 127,
+        "pageCharStart": 2990,
+        "pageCharEnd": 3032,
+        "quote": "ד י פאליאק ן טרײב ן צורי ק ד י גאלשעװיקע ס",
+        "normalizedQuote": "ד י פאליאק ן טרײב ן צורי ק ד י גאלשעװיקע ס",
+        "modelQuote": "די פאליאקן טרײבן צוריק די גאלשעװיקעס",
+        "bbox": {
+          "left": 629,
+          "top": 1217,
+          "right": 2219,
+          "bottom": 1309
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n77/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "5ca1463eaad1f96249376f12cfabc812c1176172e669205222b95b6083310da9",
+        "normalizedPassageChecksum": "fd4fe9799fb856366a7096ece11e279e12ed3b5a1ce0d3a4074b361ee0c1a20a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_26d9514dc72236ac155204d1",
+      "type": "Organization",
+      "title": "Balakhovtsy",
+      "relation": "Affiliated With"
+    },
+    {
+      "id": "event_candidate_3b2d95e7007412e695e91fce",
+      "type": "Event",
+      "title": "Polish–Bolshevik fighting near Warsaw",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_0716271eb1dc3cd24cb018ed",
+      "type": "Community",
+      "title": "Drohiczyn",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_26d9514dc72236ac155204d1",
+      "type": "Organization",
+      "title": "Balakhovtsy",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

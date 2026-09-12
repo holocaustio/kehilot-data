@@ -1,0 +1,1545 @@
+{
+  "schemaVersion": "kehilot-yizkor-reading-paths-v1",
+  "pipelineVersion": "kehilot-yizkor-reading-paths-v1",
+  "promptVersion": "kehilot-yizkor-reading-paths-prompt-v1",
+  "generatedAt": "2026-09-12T11:59:49.329Z",
+  "community": {
+    "id": "community_drohiczyn",
+    "displayName": "drohiczyn",
+    "canonicalName": "drohiczyn",
+    "country": "Belarus"
+  },
+  "book": {
+    "id": "book_nybc313748",
+    "title": "Drohiṭshin : finf hunderṭ yor Yidish-lebn"
+  },
+  "source": {
+    "selectedVersion": "drohiczyn-yizkor-v2",
+    "graphPath": "data/processed/drohiczyn-yizkor-v2/adjudication/resolved-graph.json",
+    "graphSha256": "a36e5f752eb95bb4843530149ef62e6880a0ed092afc27dc1e17b4662b5406ea",
+    "candidateCount": 360
+  },
+  "model": {
+    "name": "gpt-5.6-luna",
+    "serviceTier": "flex",
+    "reasoningEffort": "medium"
+  },
+  "overview": {
+    "title": "Jewish Drohiczyn Through Its Memorial Book",
+    "summary": "Drohiczyn’s Jewish community was a place of religious learning, schools, family life, trade, culture, and political debate. The memorial book follows this life through periods of imperial rule, war, migration, German occupation, murder, hiding, and survival. It also shows how survivors and landsleit gathered names, photographs, testimonies, and documents after the destruction. Exploring these paths will help readers understand both the community that was lost and the work of remembrance that keeps its people present."
+  },
+  "paths": [
+    {
+      "id": "community_before_destruction",
+      "theme": "COMMUNITY_LIFE",
+      "title": "What made Jewish Drohiczyn a community?",
+      "description": "This path introduces the institutions, livelihoods, families, and everyday relationships that shaped Jewish life in Drohiczyn. By the end, readers will see the community as a living society rather than only as a place later destroyed.",
+      "question": "How did Jewish people study, worship, work, and build family life in Drohiczyn?",
+      "steps": [
+        {
+          "title": "Religious institutions and communal care",
+          "summary": "Before the First World War, Drohiczyn had four study houses and a Hasidic prayer house. The Chevra Kadisha also organized burial rites and cemetery care, showing how religious life involved both worship and communal responsibility.",
+          "recordIds": [
+            "mention_0759f1cb16fbfc7b7638412f",
+            "mention_dd9e72699cfe2123d86c83a0",
+            "mention_14d53faeebfc132cdfff83d8"
+          ],
+          "records": [
+            {
+              "recordId": "mention_0759f1cb16fbfc7b7638412f",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Drohitchin",
+              "summary": "Drohitchin had several synagogues and a Hasidic prayer house before World War I.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 44,
+              "printedPage": null,
+              "passageId": "passage_d5d37ea1d8278ff03dda4870",
+              "quote": "דראהיטשי ן פארמאג ט 4 בתי־מדרשים"
+            },
+            {
+              "recordId": "mention_dd9e72699cfe2123d86c83a0",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Chevra Kadisha",
+              "summary": "Burial society responsible for Jewish burial rites and cemetery care.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 255,
+              "printedPage": null,
+              "passageId": "passage_3e52a18ebf35bd8847ad5412",
+              "quote": "ד י חברה־קדישא־לײט"
+            },
+            {
+              "recordId": "mention_14d53faeebfc132cdfff83d8",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Chevra Kadisha",
+              "summary": "Well-organized burial society active in many matters in the town.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 209,
+              "printedPage": null,
+              "passageId": "passage_6dd90ca6b279f89c1597e881",
+              "quote": "דע ר חבר ה קדישא"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Schools and Jewish education",
+          "summary": "Jewish residents secured permission for a school in 1883, and it opened in 1885 with 52 boys and many girls. Later institutions included the Moriah and Yavne schools, linking Jewish education with both traditional and modern cultural goals.",
+          "recordIds": [
+            "event_candidate_baea6b6edf616f145ecd26cf",
+            "event_candidate_8c23414468eeea248c508a7f",
+            "mention_3402110e21280b3df03b6cfb",
+            "mention_6ca739bc06e6761a9b4659fc"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_baea6b6edf616f145ecd26cf",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Permission for a Jewish school",
+              "summary": "Isaac Rosenkrantz and Shlomo Shedrawitzky helped obtain permission for a Jewish school.",
+              "dateStart": "1883",
+              "dateEnd": "1883",
+              "scanIndex": 21,
+              "printedPage": null,
+              "passageId": "passage_e464fc79c3e6408d1fd405cb",
+              "quote": "אי ן 1883 , א דאנ ק יצח ק ראזענקראנ ץ"
+            },
+            {
+              "recordId": "event_candidate_8c23414468eeea248c508a7f",
+              "kind": "event",
+              "type": "SCHOOL_ATTENDANCE",
+              "title": "Jewish school opening",
+              "summary": "The Jewish school opened in 1885 with 52 boys and many girls.",
+              "dateStart": "1885",
+              "dateEnd": "1885",
+              "scanIndex": 21,
+              "printedPage": null,
+              "passageId": "passage_e464fc79c3e6408d1fd405cb",
+              "quote": "אי ן 1885 געעפנ ט געװאר ן ד י שול ע"
+            },
+            {
+              "recordId": "mention_3402110e21280b3df03b6cfb",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Moriah School",
+              "summary": "A Russian school for Jewish children that later closed.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 48,
+              "printedPage": null,
+              "passageId": "passage_ddeafc319a4cc9b943e64b1e",
+              "quote": "שול ע ״מוריה״"
+            },
+            {
+              "recordId": "mention_6ca739bc06e6761a9b4659fc",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Yavne School",
+              "summary": "A modern Hebrew school opened before World War I and later closed.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 48,
+              "printedPage": null,
+              "passageId": "passage_ddeafc319a4cc9b943e64b1e",
+              "quote": "שול ע א.נ . ״יבנה״"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Work, trade, and enterprise",
+          "summary": "Memorial-book accounts name Jewish businesses ranging from leather and iron shops to a flour mill, brickyard, sawmill, pharmacy, and matzo bakery. These examples show how Jewish residents participated in skilled trades, manufacturing, commerce, and services.",
+          "recordIds": [
+            "mention_77260623fed1cf893e9fd4e0",
+            "mention_1314f7e2406cf793942b1f9f",
+            "mention_b79e0f5b15e9da45bfe3a7bd",
+            "mention_e66ee8bba52e4f696bcfcad1"
+          ],
+          "records": [
+            {
+              "recordId": "mention_77260623fed1cf893e9fd4e0",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Leather shop",
+              "summary": "A leather shop opened by the narrator as a neutral business.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 67,
+              "printedPage": null,
+              "passageId": "passage_1be7e3eafc7e00c15957b2db",
+              "quote": "געעפנ ט ד י טי ר פו ן מײ ן לעדער־קראם"
+            },
+            {
+              "recordId": "mention_1314f7e2406cf793942b1f9f",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Iron shop",
+              "summary": "Shop opened by David Warsawsky in Drohiczyn.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 222,
+              "printedPage": null,
+              "passageId": "passage_2c0fb24726918b3da521eab5",
+              "quote": "אויפגעמאכ ט א ן אײזן־געשעפ ט"
+            },
+            {
+              "recordId": "mention_b79e0f5b15e9da45bfe3a7bd",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Milner flour mill",
+              "summary": "Large flour mill owned by Chaikel Milner and his brother-in-law.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 221,
+              "printedPage": null,
+              "passageId": "passage_48fabd1e930b9242632f6da0",
+              "quote": "אײגנטימע ר פו ן א גרויסע ר פאראװע ר מיל"
+            },
+            {
+              "recordId": "mention_e66ee8bba52e4f696bcfcad1",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Shmuel Leizer’s brickyard",
+              "summary": "Brickyard owned by Shmuel Leizer in Harbakhe.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 212,
+              "printedPage": null,
+              "passageId": "passage_b30564dd70633b9e6996a268",
+              "quote": "הא ט געהא ט א ציגל־פאברי ק"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Families, weddings, and mutual support",
+          "summary": "Family histories include marriages, children, household businesses, and weddings such as the Saratchik celebration in 1917. The testimony that poor residents visited Hershl for Sabbath meals also records practical bonds of care within the town.",
+          "recordIds": [
+            "mention_d3ee8a1233b7825705c367bb",
+            "mention_23f873367645cd7e9f354590",
+            "mention_26c944ed6b676730a6fd69ae"
+          ],
+          "records": [
+            {
+              "recordId": "mention_d3ee8a1233b7825705c367bb",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Saratchik family wedding",
+              "summary": "Wedding procession in Drohitchin during Nisan 1917.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 35,
+              "printedPage": null,
+              "passageId": "passage_3c1e70f277fe12481ceaea87",
+              "quote": "חתונ ה פר ן ד י סאראטשיק׳ם , ניסן , תרע״ז , 1917"
+            },
+            {
+              "recordId": "mention_23f873367645cd7e9f354590",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Drohitchin",
+              "summary": "The town whose poor residents visited Hershl for Sabbath meals.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 230,
+              "printedPage": null,
+              "passageId": "passage_22d848f3b375f3c900b6ecea",
+              "quote": "ד י דראהיטשינע ר ארעמעלײ ט"
+            },
+            {
+              "recordId": "mention_26c944ed6b676730a6fd69ae",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Saratchik family",
+              "summary": "Family associated with a wedding in 1917.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 35,
+              "printedPage": null,
+              "passageId": "passage_3c1e70f277fe12481ceaea87",
+              "quote": "חתונ ה פר ן ד י סאראטשיק׳ם , ניסן , תרע״ז , 1917"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "learning_politics_migration",
+      "theme": "EDUCATION_CULTURE",
+      "title": "How did Drohiczyn’s Jews respond to a changing world?",
+      "description": "This path follows cultural, political, and migratory changes from the late nineteenth century into the First World War. It shows how religious scholarship, libraries, Zionism, socialism, and emigration all became part of community life.",
+      "question": "How did education, politics, and migration reshape Jewish Drohiczyn?",
+      "steps": [
+        {
+          "title": "A culture of learning and books",
+          "summary": "Drohiczyn’s religious culture included a yeshiva founded in 1905 and traditions of commentary on works such as Mishnat Hasidim and Lehem Mishneh. The Workers’ Library, photographed in 1910, shows that communal learning also extended into organized secular culture.",
+          "recordIds": [
+            "event_candidate_86f039dd773f4e548b92112d",
+            "mention_78eeb8c8ec4aa2d00cec716b",
+            "mention_ba54ae6a8a0bfc307bbe8654",
+            "mention_d7979ed7550c43e0e9dc63f7"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_86f039dd773f4e548b92112d",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of a yeshiva in 1905",
+              "summary": "A yeshiva was founded in 1905 after preparations and student recruitment.",
+              "dateStart": "1905",
+              "dateEnd": "1905",
+              "scanIndex": 68,
+              "printedPage": null,
+              "passageId": "passage_c5969d5a85d954a9d58ffc2c",
+              "quote": "אי ן יא ר 1905 , אז א ישיב ה געגרינדעט"
+            },
+            {
+              "recordId": "mention_78eeb8c8ec4aa2d00cec716b",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Mishnat Hasidim",
+              "summary": "Kabbalistic work by Immanuel Ricchi on which Rabbi Moses wrote a commentary.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 117,
+              "printedPage": null,
+              "passageId": "passage_248921fa5389978a6dd5e67f",
+              "quote": "קבלה׳ש ן ספ ר ״משנ ת חסידים ״"
+            },
+            {
+              "recordId": "mention_ba54ae6a8a0bfc307bbe8654",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Lehem Mishneh",
+              "summary": "Work on Mishnah attributed to Rabbi Moses Ish Lipschitz.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 117,
+              "printedPage": null,
+              "passageId": "passage_248921fa5389978a6dd5e67f",
+              "quote": "דע ר מחב ר פו ן ״לח ם משנה ״"
+            },
+            {
+              "recordId": "mention_d7979ed7550c43e0e9dc63f7",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Workers' Library",
+              "summary": "Library shown in a photograph taken in 1910.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 259,
+              "printedPage": null,
+              "passageId": "passage_6466fac5f4cc64441ef94bac",
+              "quote": "דע ר ארבעטער ־ ביבליאטעק"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Political choices and public action",
+          "summary": "A Bund labor party was established in Drohiczyn in 1903, while Zionist associations began forming there around 1896. The 1905 workers’ demonstration and arrests of alleged political affiliates show that Jewish residents engaged actively with the political conflicts of the period.",
+          "recordIds": [
+            "event_candidate_331ae5d2cf9145f049f4c86d",
+            "event_candidate_9fccf2df8be2856a41ff947b",
+            "event_candidate_c43267e578c412c59b47efbe",
+            "event_candidate_fdbdb7c2fd2b2f2cb1b8f229"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_331ae5d2cf9145f049f4c86d",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Formation of a Bund labor party in Drohichyn",
+              "summary": "A Bund labor party was established in Drohichyn with assistance from Pinsk leaders.",
+              "dateStart": "1903",
+              "dateEnd": "1903",
+              "scanIndex": 276,
+              "printedPage": null,
+              "passageId": "passage_f5d6c3b858626e1377ff051b",
+              "quote": "אי ז געשאפ ן געװאר ן א בונדיש ע ארבעטע ר פארט ײ אי ן דראהיטשין"
+            },
+            {
+              "recordId": "event_candidate_9fccf2df8be2856a41ff947b",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Formation of Zionist associations",
+              "summary": "A movement to establish Zionist associations began in Drohiczyn and other towns around 1896.",
+              "dateStart": "1896",
+              "dateEnd": "",
+              "scanIndex": 267,
+              "printedPage": null,
+              "passageId": "passage_7db6a72f76f9efec1dfb1100",
+              "quote": "אי ן 1896 , װע ן ד״ ר זא ב הערצ ל"
+            },
+            {
+              "recordId": "event_candidate_c43267e578c412c59b47efbe",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Workers' demonstration on 1 May 1905",
+              "summary": "A large workers' demonstration took place in Drohiczyn on 1 May 1905.",
+              "dateStart": "1905-05-01",
+              "dateEnd": "1905-05-01",
+              "scanIndex": 276,
+              "printedPage": null,
+              "passageId": "passage_1f3d8bb2608083f888433f02",
+              "quote": "דע ם 1 ט ן מאי , 1905 , אי ז אי ן דראהיטשי ן אויפ ן מאר ק פארגעקומע ן א גרויס ע ארבעטע ר דעמאנםטראציע"
+            },
+            {
+              "recordId": "event_candidate_fdbdb7c2fd2b2f2cb1b8f229",
+              "kind": "event",
+              "type": "ARREST",
+              "title": "Arrests of three alleged political affiliates",
+              "summary": "Tsarist police arrested Jacob Goldberg, Abraham Isaac Lev, and David Goldstein in 1905.",
+              "dateStart": "1905",
+              "dateEnd": "1905",
+              "scanIndex": 209,
+              "printedPage": null,
+              "passageId": "passage_b6753519a6e05b6a80106c04",
+              "quote": "אי ן 1905 , װע ן ד י צאריש ע פאליצ ײ הא ט ארעסטיר ט יעק ב גאלדבערג"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Migration and transnational ties",
+          "summary": "Some Drohiczyn Jews left for America, while others moved toward the Land of Israel; Litman Eisenstein, for example, went to America in 1890 and later returned. These movements connected the town to New York, Palestine, and other Jewish communities without ending local family and communal ties.",
+          "recordIds": [
+            "event_candidate_fd120793a96823330aaf49a2",
+            "event_candidate_5477f3e9b29a6d0a8bc17cd0",
+            "event_candidate_f5f97da8d41ded2bfd4f2609",
+            "mention_a23f779518de4b79b4faa1c3"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_fd120793a96823330aaf49a2",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Litman Eisenstein travels to America",
+              "summary": "Litman Eisenstein went to America in 1890 and later returned to Drohiczyn.",
+              "dateStart": "1890",
+              "dateEnd": "",
+              "scanIndex": 246,
+              "printedPage": null,
+              "passageId": "passage_58af748af91f6cb18ab94cd7",
+              "quote": "אי ן 1890 אי ז אײזענשטײ ן געקומע ן קײ ן אמעריקע"
+            },
+            {
+              "recordId": "event_candidate_5477f3e9b29a6d0a8bc17cd0",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Rabbi Menachem Reichman moved to the Land of Israel",
+              "summary": "Rabbi Menachem Reichman departed for settlement in the Land of Israel in 1904.",
+              "dateStart": "1904",
+              "dateEnd": "",
+              "scanIndex": 126,
+              "printedPage": null,
+              "passageId": "passage_07a111c622d393296addff66",
+              "quote": "אי ן יא ר 1904 אי ז הר ב ר ׳ מנח ם רײכמא ן אװעקגעפאר ן קײ ן אר ץ ישרא ל להשתקע"
+            },
+            {
+              "recordId": "event_candidate_f5f97da8d41ded2bfd4f2609",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Emigration of Tzipora Rabin and her husband",
+              "summary": "Tzipora Rabin and her husband emigrated to America in 1901 and settled in New York.",
+              "dateStart": "1901",
+              "dateEnd": "",
+              "scanIndex": 193,
+              "printedPage": null,
+              "passageId": "passage_68e3a7dcdcf3f79c4bdd585c",
+              "quote": "אי ן יא ר 1901 הא ט צפור ה מי ט אי ר מא ן אויסגעוחאנדער ט קײ ן אמעריקע"
+            },
+            {
+              "recordId": "mention_a23f779518de4b79b4faa1c3",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "America",
+              "summary": "Destination of Eisenstein family migration.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 247,
+              "printedPage": null,
+              "passageId": "passage_5f4315afd473cde0de5eb49a",
+              "quote": "פאר ן קײ ן אמעריקע"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "War and changing authority",
+          "summary": "During the First World War, German forces entered Drohiczyn, and a Jewish committee is pictured presenting a gift to the German commandant in 1916. The book also records the 1921 Treaty of Riga as a political turning point after which the territory transferred to Poland.",
+          "recordIds": [
+            "mention_b16f579e36549a0fe1c0b3aa",
+            "mention_60325b1dced4c9099f94c394",
+            "mention_85eb6d81b5fe64726130da2e"
+          ],
+          "records": [
+            {
+              "recordId": "mention_b16f579e36549a0fe1c0b3aa",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "German forces",
+              "summary": "Forces that entered Drohichyn in 1915.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 232,
+              "printedPage": null,
+              "passageId": "passage_c4bb8632fc69700550152280",
+              "quote": "ד י דײטש ן"
+            },
+            {
+              "recordId": "mention_60325b1dced4c9099f94c394",
+              "kind": "mention",
+              "type": "PHOTOGRAPH",
+              "title": "Photograph of the Jewish Committee presenting a gift to the German commandant in 1916",
+              "summary": "Caption identifies people present at a 1916 presentation to the German commandant.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 75,
+              "printedPage": null,
+              "passageId": "passage_7ec6e7c0ffaf75058a67a218",
+              "quote": "ײדישע ר קאמיטע ט גי ט א מתנ ה דע ם דײטש ן קאמענדאנ ט אי ן 1916"
+            },
+            {
+              "recordId": "mention_85eb6d81b5fe64726130da2e",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Treaty of Riga",
+              "summary": "The 1921 treaty after which territory transferred to Poland.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 15,
+              "printedPage": null,
+              "passageId": "passage_cc500135c995e9a29970174a",
+              "quote": "נאכ ן ריגע ר טראקטא ט פו ן 1921"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "occupation_and_destruction",
+      "theme": "DEPORTATION_MURDER",
+      "title": "What happened to the community under occupation?",
+      "description": "This path moves from wartime control and coercion to ghettoization, murder, and the destruction of families. It emphasizes the memorial book as a collection of survivor accounts and documentary traces, not as an all-seeing independent narrative.",
+      "question": "How did German occupation transform Jewish life into persecution and mass murder?",
+      "steps": [
+        {
+          "title": "Occupation brought coercion and fear",
+          "summary": "The memorial book describes German authorities imposing demands through a Jewish Council and demanding gold and a large monetary contribution. Other accounts describe German soldiers forcing residents into labor and pursuing them, showing how occupation penetrated everyday life.",
+          "recordIds": [
+            "mention_3f42f2e6be5685ab7e09f435",
+            "mention_97206e5b70649a2877db2a29",
+            "mention_a888aca2bf9748fae11ac025"
+          ],
+          "records": [
+            {
+              "recordId": "mention_3f42f2e6be5685ab7e09f435",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "German authorities",
+              "summary": "Occupying authorities that created the Jewish Council and imposed demands.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 355,
+              "printedPage": null,
+              "passageId": "passage_860e9cbb2faea317f42738e6",
+              "quote": "דור ך ד י דײטשן"
+            },
+            {
+              "recordId": "mention_a888aca2bf9748fae11ac025",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Germans",
+              "summary": "German soldiers who forced residents into labor and pursued them.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 94,
+              "printedPage": null,
+              "passageId": "passage_147a4a1bcb79ad5691efcd70",
+              "quote": "ד י דײטש ן זײנע ן װא ס װײטע ר גע ־"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "The ghetto and communal endurance",
+          "summary": "Under German rule, the Burial Society continued to function in the ghetto and held annual meals. Its activity suggests that even under persecution, communal obligations and religious care remained important to those imprisoned there.",
+          "recordIds": [
+            "mention_3843d3447f638141e8596162",
+            "mention_14d4709d2b4a998a513c9be1"
+          ],
+          "records": [
+            {
+              "recordId": "mention_3843d3447f638141e8596162",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Burial Society",
+              "summary": "Held annual meals and functioned in the ghetto under German rule.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 256,
+              "printedPage": null,
+              "passageId": "passage_04a92992d3422a7f76abfb3d",
+              "quote": "חברה־קדיש א"
+            },
+            {
+              "recordId": "mention_14d4709d2b4a998a513c9be1",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Chevra Kadisha",
+              "summary": "A burial society associated with the charitable duty of burying the dead.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 255,
+              "printedPage": null,
+              "passageId": "passage_4756f28ed1e3e53765852829",
+              "quote": "דערפא ר ד י חבר ה אנגערופ ן מיט ן נאמע ן"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Murder of families and children",
+          "summary": "The book records families murdered or deported together, including Mendl and his family on July 25, 1942, and the Warszawski family. A Moriah school class and its teacher were also killed, making clear that destruction reached children, households, and communal institutions alike.",
+          "recordIds": [
+            "mention_ee05704b303d113b6c575c53",
+            "mention_4546cd197f27647ceec11cbe",
+            "mention_ad5bc7ddae2ad655dc314f40"
+          ],
+          "records": [
+            {
+              "recordId": "mention_ee05704b303d113b6c575c53",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Mendl's family",
+              "summary": "Mendl's family, murdered with him on July 25, 1942.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 355,
+              "printedPage": null,
+              "passageId": "passage_5570fabc1adcc66770e89b14",
+              "quote": "מענד ל מי ט זײ ן פאמיליע"
+            },
+            {
+              "recordId": "mention_4546cd197f27647ceec11cbe",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Warszawski family",
+              "summary": "Deported and murdered with Meir Warszawski.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 312,
+              "printedPage": null,
+              "passageId": "passage_f131b166ab1259b73c2a66a0",
+              "quote": "דע ר גאנצע ר פא ־ מיליע"
+            },
+            {
+              "recordId": "mention_ad5bc7ddae2ad655dc314f40",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Moriah School",
+              "summary": "School in Drohitchin whose class and teacher were killed.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 331,
+              "printedPage": null,
+              "passageId": "passage_0b2d4622cd71b7963a37f56b",
+              "quote": "שול ע ״מוריה ״"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Evidence of destruction",
+          "summary": "The memorial volume preserves documents concerning German actions, including records connected with the Pinsk massacre and movements recorded in October 1942. It also states that the Drohitchin ledger was no longer in existence after 1941, underscoring both the violence and the loss of communal records.",
+          "recordIds": [
+            "mention_342c7462cec99d69c90a6f14",
+            "mention_435e41efa1994f442c57054c",
+            "mention_75e0eb7a4eee98f65ff29b98"
+          ],
+          "records": [
+            {
+              "recordId": "mention_342c7462cec99d69c90a6f14",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Testimony document",
+              "summary": "A document described as evidence of perpetrators’ actions against Jews.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 388,
+              "printedPage": null,
+              "passageId": "passage_5e62e1dcb25a2fa52d21263d",
+              "quote": "א דאקומענ ט"
+            },
+            {
+              "recordId": "mention_435e41efa1994f442c57054c",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Document about the Pinsk massacre",
+              "summary": "A document found among police-regiment papers records movements in October 1942.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 385,
+              "printedPage": null,
+              "passageId": "passage_68a713b07553189067a4beae",
+              "quote": "דאקומענ ט פו ן דע ר פינסקע ר שחיטה"
+            },
+            {
+              "recordId": "mention_75e0eb7a4eee98f65ff29b98",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Pinkas-Drohitchin",
+              "summary": "Drohitchin ledger said no longer to exist after 1941.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 125,
+              "printedPage": null,
+              "passageId": "passage_b44d13472cb5bbb19234e3c6",
+              "quote": "דע ר ״פנקס־דראהיטשין״"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "survival_and_rebuilding",
+      "theme": "HIDING_ESCAPE_RESISTANCE",
+      "title": "How did people survive, resist, and begin again?",
+      "description": "This path follows individual and family strategies of survival, armed resistance, migration, and postwar organization. It shows that the story did not end with destruction, while also recognizing the immense losses carried by survivors.",
+      "question": "What forms did survival and rebuilding take after persecution?",
+      "steps": [
+        {
+          "title": "Hiding and protection",
+          "summary": "One account says that Petruk’s family was hanged for hiding Shimon Kravets. Another describes children hiding with the narrator in swamps, illustrating both the danger faced by rescuers and the desperate conditions in which some people sought refuge.",
+          "recordIds": [
+            "mention_380a692ae9cde1329068a6c3",
+            "mention_870a08418e6eb9139ae38825"
+          ],
+          "records": [
+            {
+              "recordId": "mention_380a692ae9cde1329068a6c3",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Petruk's family",
+              "summary": "Petruk's family was reportedly hanged for hiding Shimon Kravets.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 324,
+              "printedPage": null,
+              "passageId": "passage_be6192bd6c1e0688042bd36a",
+              "quote": "מי ט זײ ן פאמילי ע"
+            },
+            {
+              "recordId": "mention_870a08418e6eb9139ae38825",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Narrator's children",
+              "summary": "Children hiding with the narrator in swamps.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 326,
+              "printedPage": null,
+              "passageId": "passage_517db5cfc9f686fe65378ffb",
+              "quote": "מײנ ע קינדע ר"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Armed resistance and liberation",
+          "summary": "A survivor account states that the narrator’s children carried rifles, helped destroy enemy positions, and reached the Red Army. The testimony presents resistance and military participation as part of the varied ways Drohiczyn Jews confronted wartime danger.",
+          "recordIds": [
+            "mention_3e1f918d8de8870f9aff6bd0"
+          ],
+          "records": [
+            {
+              "recordId": "mention_3e1f918d8de8870f9aff6bd0",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Narrator’s children",
+              "summary": "The narrator’s children carried rifles, helped destroy enemy positions, and reached the Red Army.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 358,
+              "printedPage": null,
+              "passageId": "passage_47c531099af577c12f72929c",
+              "quote": "אי ך או ן מײנ ע קינדע ר האב ן גענומע ן ביקס ן אוי ף זי ך"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Return and displacement after liberation",
+          "summary": "After liberation, surviving Drohiczyn Jews returned to their hometowns, and nearly all survivors visited Drohiczyn. A displaced-persons photograph identifies Drohiczyn and Khamsk survivors together, recording both return and the continuing experience of displacement.",
+          "recordIds": [
+            "mention_a9a3e61a19265d086414baee",
+            "mention_8cf00edcf5cd5e1d261db440",
+            "mention_f33ae9cfb9d28051e0f5e93d"
+          ],
+          "records": [
+            {
+              "recordId": "mention_a9a3e61a19265d086414baee",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Drohiczyn Jewish community",
+              "summary": "Surviving Drohiczyn Jews returned to their hometowns after liberation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 307,
+              "printedPage": null,
+              "passageId": "passage_6bb2f1e6caae7b1d72ec4ea6",
+              "quote": "לעבן־געבליבענ ע דראהיטשינע ר"
+            },
+            {
+              "recordId": "mention_8cf00edcf5cd5e1d261db440",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Drohichin",
+              "summary": "The community visited by nearly all survivors after liberation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 307,
+              "printedPage": null,
+              "passageId": "passage_c522d8a4ffdb0ab8bae8420b",
+              "quote": "דראהיטשי ן"
+            },
+            {
+              "recordId": "mention_f33ae9cfb9d28051e0f5e93d",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Drohitchiner community",
+              "summary": "Community represented in a displaced persons group photograph.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 365,
+              "printedPage": null,
+              "passageId": "passage_17f7cb33ecd321ddb3d79381",
+              "quote": "דראהיטשינע ר או ן כאמסקע ר שארית־הפליטה"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Migration and organized aid",
+          "summary": "The narrator and children reached America and settled in New York in September 1946. In the postwar years, Drohiczyn landsleit in America helped rebuild an educational building and organized relief activities, turning survival into collective reconstruction.",
+          "recordIds": [
+            "mention_dff68eb790980512461c0efa",
+            "mention_d29bf808dac9e0f2028a11a6",
+            "mention_57f4dfa581d252edbbab0013"
+          ],
+          "records": [
+            {
+              "recordId": "mention_dff68eb790980512461c0efa",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Migration to America",
+              "summary": "The narrator and children arrived in America and settled in New York in September 1946.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 332,
+              "printedPage": null,
+              "passageId": "passage_00ddfbfd03f0367414532615",
+              "quote": "אי ן םעפטעמבער , 1946 , בי ן אי ך מי ט מײנ ע קינדע ר אנגעקומע ן קײ ן אמעריק ע"
+            },
+            {
+              "recordId": "mention_d29bf808dac9e0f2028a11a6",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Drohitchin",
+              "summary": "The Jewish community whose landsleit helped rebuild an educational building.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 48,
+              "printedPage": null,
+              "passageId": "passage_3783d76346ded55bd91bef65",
+              "quote": "דראהיטשינע ר לאנדסלײ ט אי ן אמעריקע"
+            },
+            {
+              "recordId": "mention_57f4dfa581d252edbbab0013",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Gadaliah Kaplan",
+              "summary": "Led the branch’s 1946 participation in a parcels campaign.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 397,
+              "printedPage": null,
+              "passageId": "passage_4b52468791a1bffe1413741a",
+              "quote": "אונטע ר דע ר אנפירונ ג פו ן גדלי ה קאפלאן"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "making_memory",
+      "theme": "MEMORY",
+      "title": "How did survivors preserve Drohiczyn?",
+      "description": "This path examines the memorial book as an act of testimony, collection, and communal responsibility. Readers will learn how names, photographs, documents, publications, and personal accounts were assembled to resist disappearance.",
+      "question": "How can a destroyed community be remembered through a memorial book?",
+      "steps": [
+        {
+          "title": "The yizkor book as a memorial project",
+          "summary": "The volume presents itself as a Drohitchin yizkor book and was assembled from collected raw material and photographs. Its purpose was to offer friends and readers a memorial to the community, combining remembrance with historical reconstruction.",
+          "recordIds": [
+            "mention_3cbcf19cd8665cbe6247edd4",
+            "mention_fbd6d9556b1e4040200caa50",
+            "mention_3db6f75755809a0b7564cd3e"
+          ],
+          "records": [
+            {
+              "recordId": "mention_3cbcf19cd8665cbe6247edd4",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Drohitchin Yizkor Book",
+              "summary": "Presented to friends and readers as a memorial for the community.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 11,
+              "printedPage": null,
+              "passageId": "passage_29b0dd90bee3f869d92538a5",
+              "quote": "דראהיטשינע ר ״יזכור-בוך׳"
+            },
+            {
+              "recordId": "mention_fbd6d9556b1e4040200caa50",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Gadlia Kaplan",
+              "summary": "Collected some raw material and pictures for the book.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 12,
+              "printedPage": null,
+              "passageId": "passage_1067e4c754826eaecb9505a3",
+              "quote": "גדלי ה קאפלאן"
+            },
+            {
+              "recordId": "mention_3db6f75755809a0b7564cd3e",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Five Hundred Years of Jewish Life",
+              "summary": "Yiddish title of the memorial volume.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 5,
+              "printedPage": null,
+              "passageId": "passage_c8223381837d7cab9b2d0aa3",
+              "quote": "פינ ף הונדער ט יא ר ײדיש־לעב ן"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Names restore individual presence",
+          "summary": "Memorial registers preserve family names such as Becher, Breyndel, Breyer, and Gottlieb, while other lists identify households and relatives. These entries matter because they return people to the historical record as members of families and a community, not only as anonymous victims.",
+          "recordIds": [
+            "mention_47bccd84d33913e6a5831f91",
+            "mention_500405c30a618fa6b919304f",
+            "mention_5e458ea3760cdcfd9d0ad878",
+            "mention_942edee6a624e85808b9bfc2"
+          ],
+          "records": [
+            {
+              "recordId": "mention_47bccd84d33913e6a5831f91",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Becher family",
+              "summary": "Family names listed in a memorial register.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 369,
+              "printedPage": null,
+              "passageId": "passage_32b3b13bd89d30c5641b3cb8",
+              "quote": "בעכער , יצח ק בעכער , עט ל בעכער , אבדה ם"
+            },
+            {
+              "recordId": "mention_500405c30a618fa6b919304f",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Breyndel family",
+              "summary": "Family names listed in a memorial register.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 369,
+              "printedPage": null,
+              "passageId": "passage_32b3b13bd89d30c5641b3cb8",
+              "quote": "ברײנדעל , שמוא ל ברײנדעל , נעכ ע ברײנדעל , בײל ע"
+            },
+            {
+              "recordId": "mention_5e458ea3760cdcfd9d0ad878",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Breyer family",
+              "summary": "Family named in a memorial list.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 369,
+              "printedPage": null,
+              "passageId": "passage_32b3b13bd89d30c5641b3cb8",
+              "quote": "ברײער , פאמילי ע"
+            },
+            {
+              "recordId": "mention_942edee6a624e85808b9bfc2",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Gottlieb family",
+              "summary": "Family names listed in a memorial register.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 369,
+              "printedPage": null,
+              "passageId": "passage_32b3b13bd89d30c5641b3cb8",
+              "quote": "גאטליב , מאי ר לײ ב גאטליב , דאבק ע גאטליב , הי ה איט ע"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Photographs and testimony as evidence",
+          "summary": "Photographs preserve scenes of school, weddings, streets, homes, and a railway station shortly before the war. Personal testimonies and documents add accounts of wartime destruction and survival, allowing the book to hold together ordinary life and catastrophe.",
+          "recordIds": [
+            "mention_606c7ae5deb80c629976a574",
+            "mention_8e80d499c23ba7c91c832acb",
+            "mention_d7655f5d4c2f82cd88bdc3a7",
+            "mention_342c7462cec99d69c90a6f14"
+          ],
+          "records": [
+            {
+              "recordId": "mention_606c7ae5deb80c629976a574",
+              "kind": "mention",
+              "type": "PHOTOGRAPH",
+              "title": "Railway-station photograph, 1939",
+              "summary": "Photograph caption identifying people at a railway station shortly before the war.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 55,
+              "printedPage": null,
+              "passageId": "passage_084e922ec5e7333b956ee62e",
+              "quote": "אי ן 1939 , קור ץ פא ר דע ר מלחמ ה"
+            },
+            {
+              "recordId": "mention_8e80d499c23ba7c91c832acb",
+              "kind": "mention",
+              "type": "PHOTOGRAPH",
+              "title": "Wedding of Asher and Dina",
+              "summary": "Captioned wedding photograph of Asher and Dina with relatives and musicians.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 114,
+              "printedPage": null,
+              "passageId": "passage_338ece9d2dcca699d2cfc367",
+              "quote": "ד י חתונ ה פו ן אש ר או ן דינ ה"
+            },
+            {
+              "recordId": "mention_d7655f5d4c2f82cd88bdc3a7",
+              "kind": "mention",
+              "type": "PHOTOGRAPH",
+              "title": "1932 photograph on Zand Street",
+              "summary": "Photograph showing four named people on Zand Street in 1932.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 305,
+              "printedPage": null,
+              "passageId": "passage_027bd4e78352bc6f5a957a5e",
+              "quote": "ביל ד גענומע ן 1932 אוי ף זאמ ד גאס"
+            },
+            {
+              "recordId": "mention_342c7462cec99d69c90a6f14",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Testimony document",
+              "summary": "A document described as evidence of perpetrators’ actions against Jews.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 388,
+              "printedPage": null,
+              "passageId": "passage_5e62e1dcb25a2fa52d21263d",
+              "quote": "א דאקומענ ט"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Memory continued through survivors",
+          "summary": "Survivors and contributors remained active in assembling names, transmitting accounts, and organizing commemorative events. The book therefore records not only what happened to Drohiczyn but also the continuing work of descendants and landsleit to remember it.",
+          "recordIds": [
+            "mention_329e037010c29572a1a9315e",
+            "mention_8676eb141f1a4aba5bb9120c",
+            "mention_dec9aed47864bf1e66b3d855"
+          ],
+          "records": [
+            {
+              "recordId": "mention_329e037010c29572a1a9315e",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Shlomo Zelig Goldman",
+              "summary": "Sent some names for the memorial list.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 367,
+              "printedPage": null,
+              "passageId": "passage_3e146965c886667ebd4c6d1e",
+              "quote": "שלמ ה זעלי ג גאלדמא ן"
+            },
+            {
+              "recordId": "mention_8676eb141f1a4aba5bb9120c",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Gdalia Kaplan",
+              "summary": "Person credited with transmitting the text.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 108,
+              "printedPage": null,
+              "passageId": "passage_bf048d050e2d8542c311b190",
+              "quote": "פו ן גדלי ה קאפלאן"
+            },
+            {
+              "recordId": "mention_dec9aed47864bf1e66b3d855",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Gdalia Kaplan",
+              "summary": "Member of the committee that organized the celebration.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 270,
+              "printedPage": null,
+              "passageId": "passage_4e50de3a156849fa88ca2b93",
+              "quote": "גדלי ה קאפלאן"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "periodStart": "1623",
+      "periodEnd": "1623",
+      "dateLabel": "1623",
+      "title": "Drohiczyn becomes a town",
+      "summary": "The memorial book dates Drohiczyn’s emergence as a town to 1623, providing a starting point for its long communal history.",
+      "recordIds": [
+        "event_candidate_7feec615d0bc10c3623e6fa2"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_7feec615d0bc10c3623e6fa2",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Drohichin becomes a town",
+          "summary": "Drohichin became a town in 1623.",
+          "dateStart": "1623",
+          "dateEnd": "1623",
+          "scanIndex": 16,
+          "printedPage": null,
+          "passageId": "passage_51f19f9e9e86f7e9e1ad4334",
+          "quote": "ערש ט אי ן 1623 װער ט דראהיטשי ן א שטעטל"
+        }
+      ],
+      "position": 1
+    },
+    {
+      "periodStart": "1883",
+      "periodEnd": "1885",
+      "dateLabel": "1883–1885",
+      "title": "Jewish schooling is established",
+      "summary": "Jewish residents obtained permission for a school in 1883, and it opened in 1885 with 52 boys and many girls.",
+      "recordIds": [
+        "event_candidate_baea6b6edf616f145ecd26cf",
+        "event_candidate_8c23414468eeea248c508a7f"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_baea6b6edf616f145ecd26cf",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Permission for a Jewish school",
+          "summary": "Isaac Rosenkrantz and Shlomo Shedrawitzky helped obtain permission for a Jewish school.",
+          "dateStart": "1883",
+          "dateEnd": "1883",
+          "scanIndex": 21,
+          "printedPage": null,
+          "passageId": "passage_e464fc79c3e6408d1fd405cb",
+          "quote": "אי ן 1883 , א דאנ ק יצח ק ראזענקראנ ץ"
+        },
+        {
+          "recordId": "event_candidate_8c23414468eeea248c508a7f",
+          "kind": "event",
+          "type": "SCHOOL_ATTENDANCE",
+          "title": "Jewish school opening",
+          "summary": "The Jewish school opened in 1885 with 52 boys and many girls.",
+          "dateStart": "1885",
+          "dateEnd": "1885",
+          "scanIndex": 21,
+          "printedPage": null,
+          "passageId": "passage_e464fc79c3e6408d1fd405cb",
+          "quote": "אי ן 1885 געעפנ ט געװאר ן ד י שול ע"
+        }
+      ],
+      "position": 2
+    },
+    {
+      "periodStart": "1896",
+      "periodEnd": "1905",
+      "dateLabel": "1896–1905",
+      "title": "Zionist and labor politics develop",
+      "summary": "Zionist associations began forming around 1896, a Bund labor party was established in 1903, and a large workers’ demonstration took place in 1905.",
+      "recordIds": [
+        "event_candidate_9fccf2df8be2856a41ff947b",
+        "event_candidate_331ae5d2cf9145f049f4c86d",
+        "event_candidate_c43267e578c412c59b47efbe"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_9fccf2df8be2856a41ff947b",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Formation of Zionist associations",
+          "summary": "A movement to establish Zionist associations began in Drohiczyn and other towns around 1896.",
+          "dateStart": "1896",
+          "dateEnd": "",
+          "scanIndex": 267,
+          "printedPage": null,
+          "passageId": "passage_7db6a72f76f9efec1dfb1100",
+          "quote": "אי ן 1896 , װע ן ד״ ר זא ב הערצ ל"
+        },
+        {
+          "recordId": "event_candidate_331ae5d2cf9145f049f4c86d",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Formation of a Bund labor party in Drohichyn",
+          "summary": "A Bund labor party was established in Drohichyn with assistance from Pinsk leaders.",
+          "dateStart": "1903",
+          "dateEnd": "1903",
+          "scanIndex": 276,
+          "printedPage": null,
+          "passageId": "passage_f5d6c3b858626e1377ff051b",
+          "quote": "אי ז געשאפ ן געװאר ן א בונדיש ע ארבעטע ר פארט ײ אי ן דראהיטשין"
+        },
+        {
+          "recordId": "event_candidate_c43267e578c412c59b47efbe",
+          "kind": "event",
+          "type": "AKTION_OR_RAID",
+          "title": "Workers' demonstration on 1 May 1905",
+          "summary": "A large workers' demonstration took place in Drohiczyn on 1 May 1905.",
+          "dateStart": "1905-05-01",
+          "dateEnd": "1905-05-01",
+          "scanIndex": 276,
+          "printedPage": null,
+          "passageId": "passage_1f3d8bb2608083f888433f02",
+          "quote": "דע ם 1 ט ן מאי , 1905 , אי ז אי ן דראהיטשי ן אויפ ן מאר ק פארגעקומע ן א גרויס ע ארבעטע ר דעמאנםטראציע"
+        }
+      ],
+      "position": 3
+    },
+    {
+      "periodStart": "1905",
+      "periodEnd": "1910",
+      "dateLabel": "1905–1910",
+      "title": "Institutions expand amid unrest",
+      "summary": "A yeshiva was founded in 1905, Drohiczyn Jews rebuilt a synagogue that year, and the Workers’ Library was photographed in 1910.",
+      "recordIds": [
+        "event_candidate_86f039dd773f4e548b92112d",
+        "event_candidate_49779cd38d5398d028580c44",
+        "mention_d7979ed7550c43e0e9dc63f7"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_86f039dd773f4e548b92112d",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Founding of a yeshiva in 1905",
+          "summary": "A yeshiva was founded in 1905 after preparations and student recruitment.",
+          "dateStart": "1905",
+          "dateEnd": "1905",
+          "scanIndex": 68,
+          "printedPage": null,
+          "passageId": "passage_c5969d5a85d954a9d58ffc2c",
+          "quote": "אי ן יא ר 1905 , אז א ישיב ה געגרינדעט"
+        },
+        {
+          "recordId": "event_candidate_49779cd38d5398d028580c44",
+          "kind": "event",
+          "type": "BUSINESS_OPENING",
+          "title": "Drohitchiners rebuilt a synagogue on Racine-Taylor",
+          "summary": "In 1905, the Drohitchiners acquired and rebuilt a church as a synagogue.",
+          "dateStart": "1905",
+          "dateEnd": "",
+          "scanIndex": 393,
+          "printedPage": null,
+          "passageId": "passage_baa66771d5547faa308af7d3",
+          "quote": "אי ן 1905 , װע ן ד י צא ל פו ן ד י נײ־געקומענ ע הא ט זי ך פארמערט , האב ן ד י דראהיטשינע ר אפגעקויפ ט אוי ף ראסין־טײלא ר א קלויסטע ר"
+        },
+        {
+          "recordId": "mention_d7979ed7550c43e0e9dc63f7",
+          "kind": "mention",
+          "type": "INSTITUTION",
+          "title": "Workers' Library",
+          "summary": "Library shown in a photograph taken in 1910.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 259,
+          "printedPage": null,
+          "passageId": "passage_6466fac5f4cc64441ef94bac",
+          "quote": "דע ר ארבעטער ־ ביבליאטעק"
+        }
+      ],
+      "position": 4
+    },
+    {
+      "periodStart": "1914",
+      "periodEnd": "1921",
+      "dateLabel": "First World War and its aftermath",
+      "title": "War and political change",
+      "summary": "The First World War brought hunger, epidemics, and killings according to the memorial-book account; German occupation is documented in 1916, and the Treaty of Riga marked a later transfer of territory to Poland.",
+      "recordIds": [
+        "mention_2d9706e58f00dc08ddc60e0b",
+        "mention_b38f458e2e2d33dd6fa8f94f",
+        "mention_85eb6d81b5fe64726130da2e"
+      ],
+      "records": [
+        {
+          "recordId": "mention_2d9706e58f00dc08ddc60e0b",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "First World War",
+          "summary": "The First World War broke out in 1914, bringing hunger, epidemics, and killings.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 325,
+          "printedPage": null,
+          "passageId": "passage_e33321a6bc3a13c09899dba9",
+          "quote": "ד י ערשט ע װעלט־מלחמ ה אי ן 1914"
+        },
+        {
+          "recordId": "mention_b38f458e2e2d33dd6fa8f94f",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "German occupation in 1916",
+          "summary": "German occupation is identified in a caption concerning Pinsk Street.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 27,
+          "printedPage": null,
+          "passageId": "passage_e7c526027f5a22a14b75de2d",
+          "quote": "אונטע ר דע ר דײטשע ר אקופאצי ע אי ן 1916"
+        },
+        {
+          "recordId": "mention_85eb6d81b5fe64726130da2e",
+          "kind": "mention",
+          "type": "DOCUMENT",
+          "title": "Treaty of Riga",
+          "summary": "The 1921 treaty after which territory transferred to Poland.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 15,
+          "printedPage": null,
+          "passageId": "passage_cc500135c995e9a29970174a",
+          "quote": "נאכ ן ריגע ר טראקטא ט פו ן 1921"
+        }
+      ],
+      "position": 5
+    },
+    {
+      "periodStart": "1939",
+      "periodEnd": "1939",
+      "dateLabel": "1939",
+      "title": "War breaks out",
+      "summary": "A survivor account dates the outbreak of war to 1939 and describes a husband being taken to the front.",
+      "recordIds": [
+        "mention_c1119052b30658054581ed47"
+      ],
+      "records": [
+        {
+          "recordId": "mention_c1119052b30658054581ed47",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "Outbreak of war in 1939",
+          "summary": "War broke out in 1939, and the narrator's husband was taken to the front.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 321,
+          "printedPage": null,
+          "passageId": "passage_c2d48662e714882fc1953d9f",
+          "quote": "אי ן יא ר 1939 אי ז אויסגעבראכ ן ד י מלחמ ה"
+        }
+      ],
+      "position": 6
+    },
+    {
+      "periodStart": "1941",
+      "periodEnd": "1942",
+      "dateLabel": "During German occupation",
+      "title": "Records disappear and families are murdered",
+      "summary": "The Drohitchin ledger was said no longer to exist after 1941, while the book records ghetto life, deportations, and the murder of families including Mendl’s family on July 25, 1942.",
+      "recordIds": [
+        "mention_75e0eb7a4eee98f65ff29b98",
+        "mention_3843d3447f638141e8596162",
+        "mention_ee05704b303d113b6c575c53"
+      ],
+      "records": [
+        {
+          "recordId": "mention_75e0eb7a4eee98f65ff29b98",
+          "kind": "mention",
+          "type": "DOCUMENT",
+          "title": "Pinkas-Drohitchin",
+          "summary": "Drohitchin ledger said no longer to exist after 1941.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 125,
+          "printedPage": null,
+          "passageId": "passage_b44d13472cb5bbb19234e3c6",
+          "quote": "דע ר ״פנקס־דראהיטשין״"
+        },
+        {
+          "recordId": "mention_3843d3447f638141e8596162",
+          "kind": "mention",
+          "type": "ORGANIZATION",
+          "title": "Burial Society",
+          "summary": "Held annual meals and functioned in the ghetto under German rule.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 256,
+          "printedPage": null,
+          "passageId": "passage_04a92992d3422a7f76abfb3d",
+          "quote": "חברה־קדיש א"
+        },
+        {
+          "recordId": "mention_ee05704b303d113b6c575c53",
+          "kind": "mention",
+          "type": "FAMILY",
+          "title": "Mendl's family",
+          "summary": "Mendl's family, murdered with him on July 25, 1942.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 355,
+          "printedPage": null,
+          "passageId": "passage_5570fabc1adcc66770e89b14",
+          "quote": "מענד ל מי ט זײ ן פאמיליע"
+        }
+      ],
+      "position": 7
+    },
+    {
+      "periodStart": "1946",
+      "periodEnd": "1947",
+      "dateLabel": "1946–1947",
+      "title": "Survivors rebuild community ties",
+      "summary": "The narrator and children reached America in September 1946, while postwar contributors organized relief and continued correspondence about survivors and the destroyed community.",
+      "recordIds": [
+        "mention_dff68eb790980512461c0efa",
+        "mention_57f4dfa581d252edbbab0013",
+        "mention_cd1a82e755eb2cad472cf00c"
+      ],
+      "records": [
+        {
+          "recordId": "mention_dff68eb790980512461c0efa",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "Migration to America",
+          "summary": "The narrator and children arrived in America and settled in New York in September 1946.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 332,
+          "printedPage": null,
+          "passageId": "passage_00ddfbfd03f0367414532615",
+          "quote": "אי ן םעפטעמבער , 1946 , בי ן אי ך מי ט מײנ ע קינדע ר אנגעקומע ן קײ ן אמעריק ע"
+        },
+        {
+          "recordId": "mention_57f4dfa581d252edbbab0013",
+          "kind": "mention",
+          "type": "PERSON",
+          "title": "Gadaliah Kaplan",
+          "summary": "Led the branch’s 1946 participation in a parcels campaign.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 397,
+          "printedPage": null,
+          "passageId": "passage_4b52468791a1bffe1413741a",
+          "quote": "אונטע ר דע ר אנפירונ ג פו ן גדלי ה קאפלאן"
+        },
+        {
+          "recordId": "mention_cd1a82e755eb2cad472cf00c",
+          "kind": "mention",
+          "type": "PERSON",
+          "title": "Gdalia Kaplan",
+          "summary": "Recipient of a March 1947 letter.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 359,
+          "printedPage": null,
+          "passageId": "passage_65cbcd78986752ba6a8de334",
+          "quote": "א ברי װ צ ו גדלי ה קאפלאן , מערץ , 1947"
+        }
+      ],
+      "position": 8
+    },
+    {
+      "periodStart": "1958",
+      "periodEnd": "1958",
+      "dateLabel": "1958",
+      "title": "The memorial volume is published",
+      "summary": "The Yiddish memorial volume, titled “Five Hundred Years of Jewish Life,” gathered the community’s histories, images, names, and testimonies for readers after the destruction.",
+      "recordIds": [
+        "mention_3db6f75755809a0b7564cd3e",
+        "mention_34577a9a221aff1e50e368f7",
+        "mention_3cbcf19cd8665cbe6247edd4"
+      ],
+      "records": [
+        {
+          "recordId": "mention_3db6f75755809a0b7564cd3e",
+          "kind": "mention",
+          "type": "WORK",
+          "title": "Five Hundred Years of Jewish Life",
+          "summary": "Yiddish title of the memorial volume.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 5,
+          "printedPage": null,
+          "passageId": "passage_c8223381837d7cab9b2d0aa3",
+          "quote": "פינ ף הונדער ט יא ר ײדיש־לעב ן"
+        },
+        {
+          "recordId": "mention_34577a9a221aff1e50e368f7",
+          "kind": "mention",
+          "type": "WORK",
+          "title": "Yizkor book",
+          "summary": "The book whose material was collected, edited, and published.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 12,
+          "printedPage": null,
+          "passageId": "passage_1067e4c754826eaecb9505a3",
+          "quote": "דאזיק ן ״יזכור־בוך״"
+        },
+        {
+          "recordId": "mention_3cbcf19cd8665cbe6247edd4",
+          "kind": "mention",
+          "type": "DOCUMENT",
+          "title": "Drohitchin Yizkor Book",
+          "summary": "Presented to friends and readers as a memorial for the community.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 11,
+          "printedPage": null,
+          "passageId": "passage_29b0dd90bee3f869d92538a5",
+          "quote": "דראהיטשינע ר ״יזכור-בוך׳"
+        }
+      ],
+      "position": 9
+    }
+  ]
+}

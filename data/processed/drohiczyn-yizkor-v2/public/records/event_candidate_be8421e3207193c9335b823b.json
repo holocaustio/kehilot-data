@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_be8421e3207193c9335b823b",
+  "type": "Event",
+  "title": "Grandfather traveled to Pinsk",
+  "summary": "The grandfather went to Pinsk to purchase flour and meat for the holiday.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 150,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "This is a shopping trip, not migration; no allowed event type directly fits, so this candidate is omitted.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a39a67067782c1ae42acd788",
+      "pageId": "page_nybc313748_0150",
+      "scanIndex": 150,
+      "leafNumber": 149,
+      "printedPage": null,
+      "passageCharStart": 227,
+      "passageCharEnd": 255,
+      "normalizedPassageCharStart": 227,
+      "normalizedPassageCharEnd": 255,
+      "pageCharStart": 3485,
+      "pageCharEnd": 3513,
+      "quote": "גײ ן קײ ן\nפינס ק אײנצוקויפ ן",
+      "normalizedQuote": "גײ ן קײ ן\nפינס ק אײנצוקויפ ן",
+      "modelQuote": "גײן קײן\nפינסק אײנצוקויפן",
+      "bbox": {
+        "left": 491,
+        "top": 4361,
+        "right": 2377,
+        "bottom": 4517
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n149/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "6eea7205a0b6345c24940c9abdab1794fd4b48cf2ccb62bf33c5d1d26fab1434",
+      "normalizedPassageChecksum": "f97f6b6017a3d7845ea24b35d209de3c1a5526d54716b0739524ed69daccc6c9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_cfc750e3dd555e9abc6d7413",
+      "type": "Place",
+      "title": "Pinsk",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6eaec12b03761aa5ceeba973",
+      "type": "Person",
+      "title": "Grandfather",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

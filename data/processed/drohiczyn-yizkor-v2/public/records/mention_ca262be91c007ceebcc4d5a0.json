@@ -1,0 +1,119 @@
+{
+  "id": "mention_ca262be91c007ceebcc4d5a0",
+  "type": "Organization",
+  "title": "Polish Legionnaires",
+  "summary": "Force that entered the region in March 1919.",
+  "originalName": "פוילישע לעגיאנערן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 17,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military force",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_403193174f73b1eb877031cf",
+      "pageId": "page_nybc313748_0017",
+      "scanIndex": 17,
+      "leafNumber": 16,
+      "printedPage": null,
+      "passageCharStart": 684,
+      "passageCharEnd": 707,
+      "normalizedPassageCharStart": 684,
+      "normalizedPassageCharEnd": 707,
+      "pageCharStart": 1950,
+      "pageCharEnd": 1973,
+      "quote": "ד י פויליש ע לעגיאנער ן",
+      "normalizedQuote": "ד י פויליש ע לעגיאנער ן",
+      "modelQuote": "די פוילישע לעגיאנערן",
+      "bbox": {
+        "left": 968,
+        "top": 1551,
+        "right": 1706,
+        "bottom": 1631
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n16/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "859ff9db18e0397944c66d5a43b347731d5eaf0cb8abaa6c8f1ec25150e89eff",
+      "normalizedPassageChecksum": "134c10dde5434ea123b30d1b83370c19237c1b961c82a2d892a64485d5c94970",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_501443982e6747c5261674e9",
+      "type": "Migration",
+      "title": "Polish Legionnaire entry",
+      "summary": "Polish Legionnaires entered the region in March 1919.",
+      "dateStart": "1919-03",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_403193174f73b1eb877031cf",
+        "pageId": "page_nybc313748_0017",
+        "scanIndex": 17,
+        "leafNumber": 16,
+        "printedPage": null,
+        "passageCharStart": 658,
+        "passageCharEnd": 719,
+        "normalizedPassageCharStart": 658,
+        "normalizedPassageCharEnd": 719,
+        "pageCharStart": 1924,
+        "pageCharEnd": 1985,
+        "quote": "אי ן\nמערץ , 1919 , זײנע ן ד י פויליש ע לעגיאנער ן ארײנגעקומען",
+        "normalizedQuote": "אי ן\nמערץ , 1919 , זײנע ן ד י פויליש ע לעגיאנער ן ארײנגעקומען",
+        "modelQuote": "אין מערץ, 1919, זײנען די פוילישע לעגיאנערן ארײנגעקומען",
+        "bbox": {
+          "left": 492,
+          "top": 1465,
+          "right": 2376,
+          "bottom": 1635
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n16/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "859ff9db18e0397944c66d5a43b347731d5eaf0cb8abaa6c8f1ec25150e89eff",
+        "normalizedPassageChecksum": "134c10dde5434ea123b30d1b83370c19237c1b961c82a2d892a64485d5c94970",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_501443982e6747c5261674e9",
+      "type": "Event",
+      "title": "Polish Legionnaire entry",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_810bbfe288b2702469aefccb",
+      "type": "Place",
+      "title": "Germany",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ade24bc5ac2e8bfd0c6e6ccf",
+      "type": "Organization",
+      "title": "Bolsheviks",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b200454cbf4e183ea607215e",
+      "type": "Event",
+      "title": "Polish-Soviet War",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_22f8a4b5da88edad69f1cd4b",
+      "type": "Organization",
+      "title": "White Guards",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

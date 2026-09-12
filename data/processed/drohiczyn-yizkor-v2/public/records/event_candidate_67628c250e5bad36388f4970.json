@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_67628c250e5bad36388f4970",
+  "type": "Event",
+  "title": "Police search of a house",
+  "summary": "Polish police searched the Mezhritcher Shumter's house for communist literature.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 53,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Arrest",
+  "uncertaintyNote": "The event is a police raid/search, not an arrest; no dedicated search event type exists.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2d871701bf4c707dcfedb037",
+      "pageId": "page_nybc313748_0053",
+      "scanIndex": 53,
+      "leafNumber": 52,
+      "printedPage": null,
+      "passageCharStart": 497,
+      "passageCharEnd": 567,
+      "normalizedPassageCharStart": 497,
+      "normalizedPassageCharEnd": 567,
+      "pageCharStart": 1827,
+      "pageCharEnd": 1897,
+      "quote": "ד י פויליש ע פאליצ ײ באפאל ן ד י הוי ז פו ן דע ם מעז ־\nריטשע ר שוםטע ר",
+      "normalizedQuote": "ד י פויליש ע פאליצ ײ באפאל ן ד י הוי ז פו ן דע ם מעז ־\nריטשע ר שוםטע ר",
+      "modelQuote": "די פוילישע פאליצײ באפאלן די הויז פון דעם מעז־\nריטשער שוםטער",
+      "bbox": {
+        "left": 503,
+        "top": 1030,
+        "right": 2385,
+        "bottom": 1210
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n52/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "cf2cf0969e781e9aa6b23ec0e79055b0534c03e4fc4edebf48421108c039dfe1",
+      "normalizedPassageChecksum": "b9b9b2eb3965e977e7c51276e6ef5c75e24688f421c5ed73ff3b2cab7dd6cbdd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_80aee26645e39069f5b87949",
+      "type": "Organization",
+      "title": "Polish Police",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_605ae98843e8ce4018beda24",
+      "type": "Person",
+      "title": "Mezhritcher Shumter",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

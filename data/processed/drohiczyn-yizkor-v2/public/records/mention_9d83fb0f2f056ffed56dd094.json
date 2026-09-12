@@ -1,0 +1,118 @@
+{
+  "id": "mention_9d83fb0f2f056ffed56dd094",
+  "type": "Person",
+  "title": "Vadka",
+  "summary": "A man in a Ukrainian uniform who claimed governmental representation.",
+  "originalName": "װאדקא",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 104,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bb9a2fa1624c5c93bb5f4444",
+      "pageId": "page_nybc313748_0104",
+      "scanIndex": 104,
+      "leafNumber": 103,
+      "printedPage": null,
+      "passageCharStart": 58,
+      "passageCharEnd": 72,
+      "normalizedPassageCharStart": 58,
+      "normalizedPassageCharEnd": 72,
+      "pageCharStart": 4685,
+      "pageCharEnd": 4699,
+      "quote": "געװיסע ר װאדקא",
+      "normalizedQuote": "געװיסע ר װאדקא",
+      "modelQuote": "געװיסער װאדקא",
+      "bbox": {
+        "left": 1849,
+        "top": 4440,
+        "right": 2375,
+        "bottom": 4502
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n103/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "b7f789d5b88423ec43ace0a26d46b630b0ae85102f1648671f84b0415cf8a4b9",
+      "normalizedPassageChecksum": "7c41a40aff00a5102ba93f541d87dc9d7589b2567666f00ce561c78c6d9e298a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_1770da545e9c2e3214b3eae2",
+      "type": "Disarming",
+      "title": "Vadka was disarmed by Jewish youths",
+      "summary": "Jewish youths led by David Eisenstein forcibly disarmed Vadka, took his revolver, and released him.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text describes forcible disarming, but does not clearly establish a formal arrest.",
+      "evidence": {
+        "passageId": "passage_bb9a2fa1624c5c93bb5f4444",
+        "pageId": "page_nybc313748_0104",
+        "scanIndex": 104,
+        "leafNumber": 103,
+        "printedPage": null,
+        "passageCharStart": 531,
+        "passageCharEnd": 623,
+        "normalizedPassageCharStart": 531,
+        "normalizedPassageCharEnd": 623,
+        "pageCharStart": 5158,
+        "pageCharEnd": 5250,
+        "quote": "מע ן הא ט אי ם אויםגעצויג ן אוי ף דע ר ערד ׳ ארוים ־\nגענומע ן פו ן זײנ ע הענ ט דע ם רעװאלװער",
+        "normalizedQuote": "מע ן הא ט אי ם אויםגעצויג ן אוי ף דע ר ערד ׳ ארוים ־\nגענומע ן פו ן זײנ ע הענ ט דע ם רעװאלװער",
+        "modelQuote": "מען האט אים אויםגעצויגן אויף דער ערד׳ ארוים־\nגענומען פון זײנע הענט דעם רעװאלװער",
+        "bbox": {
+          "left": 499,
+          "top": 5268,
+          "right": 2383,
+          "bottom": 5442
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n103/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "b7f789d5b88423ec43ace0a26d46b630b0ae85102f1648671f84b0415cf8a4b9",
+        "normalizedPassageChecksum": "7c41a40aff00a5102ba93f541d87dc9d7589b2567666f00ce561c78c6d9e298a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_740abbba2e6c8f5c07c388eb",
+      "type": "Organization",
+      "title": "Ukrainian government",
+      "relation": "Affiliated With"
+    },
+    {
+      "id": "event_candidate_1770da545e9c2e3214b3eae2",
+      "type": "Event",
+      "title": "Vadka was disarmed by Jewish youths",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_740abbba2e6c8f5c07c388eb",
+      "type": "Organization",
+      "title": "Ukrainian government",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_33798ee87e2b0fbf6f7546ea",
+      "type": "Person",
+      "title": "David Eisenstein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8814d66654616c332ce3e299",
+      "type": "Object",
+      "title": "revolver",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_c2e1e7f6544c250f2214906e",
+  "type": "Event",
+  "title": "Departure from the swamps",
+  "summary": "The narrator left the swampy taverns with the children during a dark, rainy night.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 326,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dfd3ee8c6e503527b99fd6a9",
+      "pageId": "page_nybc313748_0326",
+      "scanIndex": 326,
+      "leafNumber": 325,
+      "printedPage": null,
+      "passageCharStart": 455,
+      "passageCharEnd": 477,
+      "normalizedPassageCharStart": 455,
+      "normalizedPassageCharEnd": 477,
+      "pageCharStart": 2702,
+      "pageCharEnd": 2724,
+      "quote": "אי ן א פינצטערע ר נאכט",
+      "normalizedQuote": "אי ן א פינצטערע ר נאכט",
+      "modelQuote": "אין א פינצטערע ר נאכט",
+      "bbox": {
+        "left": 1366,
+        "top": 2378,
+        "right": 2216,
+        "bottom": 2442
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n325/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "fc4978385d8b492b45127e7e13043c864d8c943a5aa38cf7e4dfd39aa7f14ca3",
+      "normalizedPassageChecksum": "31150fdd1d9c254d22de4a7b8ce3c6bd50a5bd872a08f5a220be28813545ab6e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_67a943003c209cf82384d29c",
+      "type": "Place",
+      "title": "Swampy taverns",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_bbc90d7f26f3821a2da0c74d",
+      "type": "Person",
+      "title": "Narrator",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_870a08418e6eb9139ae38825",
+      "type": "Family",
+      "title": "Narrator's children",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

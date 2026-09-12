@@ -1,0 +1,113 @@
+{
+  "id": "mention_75078f72f8ce74b8d431c6ed",
+  "type": "Person",
+  "title": "Sexton",
+  "summary": "Sexton who rang a charity box during funerals.",
+  "originalName": "שמש",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 255,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "sexton",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3e52a18ebf35bd8847ad5412",
+      "pageId": "page_nybc313748_0255",
+      "scanIndex": 255,
+      "leafNumber": 254,
+      "printedPage": null,
+      "passageCharStart": 1235,
+      "passageCharEnd": 1260,
+      "normalizedPassageCharStart": 1235,
+      "normalizedPassageCharEnd": 1260,
+      "pageCharStart": 3874,
+      "pageCharEnd": 3899,
+      "quote": "דע ר שמ ש פלעג ט קלינגע ן",
+      "normalizedQuote": "דע ר שמ ש פלעג ט קלינגע ן",
+      "modelQuote": "דער שמש פלעגט קלינגען",
+      "bbox": {
+        "left": 1313,
+        "top": 4442,
+        "right": 2101,
+        "bottom": 4520
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n254/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "b667e56d55100167a053a38d0408db2f1e032e87e03d179817ba988f0cdb06ab",
+      "normalizedPassageChecksum": "0cdc64f85992e3affc3dae1d71231a8d4c580add89a36a099051ae194f422807",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_7ef3099caaaf4a9874b5bb44",
+      "type": "Charity Collection",
+      "title": "Funeral charity collection",
+      "summary": "The sexton rang a charity box and called for charity during a funeral.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR spacing interrupts the word for funeral.",
+      "evidence": {
+        "passageId": "passage_3e52a18ebf35bd8847ad5412",
+        "pageId": "page_nybc313748_0255",
+        "scanIndex": 255,
+        "leafNumber": 254,
+        "printedPage": null,
+        "passageCharStart": 1235,
+        "passageCharEnd": 1276,
+        "normalizedPassageCharStart": 1235,
+        "normalizedPassageCharEnd": 1276,
+        "pageCharStart": 3874,
+        "pageCharEnd": 3915,
+        "quote": "דע ר שמ ש פלעג ט קלינגע ן בע ת דע ר לוי ה",
+        "normalizedQuote": "דע ר שמ ש פלעג ט קלינגע ן בע ת דע ר לוי ה",
+        "modelQuote": "דער שמש פלעגט קלינגען בעת דער לוי ה",
+        "bbox": {
+          "left": 835,
+          "top": 4442,
+          "right": 2101,
+          "bottom": 4520
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n254/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "b667e56d55100167a053a38d0408db2f1e032e87e03d179817ba988f0cdb06ab",
+        "normalizedPassageChecksum": "0cdc64f85992e3affc3dae1d71231a8d4c580add89a36a099051ae194f422807",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_7ef3099caaaf4a9874b5bb44",
+      "type": "Event",
+      "title": "Funeral charity collection",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_f278cd72d53fd1af3e18684d",
+      "type": "Organization",
+      "title": "Chevra Kadisha",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ec7aa07c94d4ec483d788f87",
+      "type": "Place",
+      "title": "Cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3ba9df6b15dfd831d583f2de",
+      "type": "Place",
+      "title": "Deceased person's house",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

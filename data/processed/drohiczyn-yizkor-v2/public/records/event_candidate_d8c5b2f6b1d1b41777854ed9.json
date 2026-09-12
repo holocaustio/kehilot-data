@@ -1,0 +1,76 @@
+{
+  "id": "event_candidate_d8c5b2f6b1d1b41777854ed9",
+  "type": "Event",
+  "title": "Groom's death during wedding ceremony",
+  "summary": "Yakov Barukh's son collapsed and died during his wedding ceremony.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 68,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a9a62eba1723b3369f54495b",
+      "pageId": "page_nybc313748_0068",
+      "scanIndex": 68,
+      "leafNumber": 67,
+      "printedPage": null,
+      "passageCharStart": 832,
+      "passageCharEnd": 852,
+      "normalizedPassageCharStart": 832,
+      "normalizedPassageCharEnd": 852,
+      "pageCharStart": 832,
+      "pageCharEnd": 852,
+      "quote": "דע ר חת ן אי ז ■טויט",
+      "normalizedQuote": "דע ר חת ן אי ז ■טויט",
+      "modelQuote": "דער חתן איז ■טויט",
+      "bbox": {
+        "left": 3064,
+        "top": 2176,
+        "right": 3652,
+        "bottom": 2240
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n67/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "a51dc6c0e96641bc9b6e3894c8a97cfcd159f831dda94d3512058d884c368fe4",
+      "normalizedPassageChecksum": "818175cd949df360ffa8521c8b3496fe48831f40859c38f88b2f2472e174c060",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_ecc6286bcb515cf15141c97d",
+      "type": "Place",
+      "title": "Synagogue courtyard",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_27ed13cae65bed325754e491",
+      "type": "Person",
+      "title": "Yakov Barukh's son",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_f8847c9e8a18c52ab9c470a0",
+      "type": "Person",
+      "title": "Bride",
+      "relation": "Participant",
+      "role": "Spouse"
+    },
+    {
+      "id": "mention_5db226fde171e1d3fc75347a",
+      "type": "Person",
+      "title": "Doctor",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

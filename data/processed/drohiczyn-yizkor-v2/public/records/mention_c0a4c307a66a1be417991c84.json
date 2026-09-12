@@ -1,0 +1,118 @@
+{
+  "id": "mention_c0a4c307a66a1be417991c84",
+  "type": "Place",
+  "title": "Drohitchin Cemetery in New York",
+  "summary": "Cemetery in New York where Hayikl was buried.",
+  "originalName": "דראהיטשיינער בית־עולם אין נױ־יארק",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 217,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cemetery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5e4292afadba001166c0d4a2",
+      "pageId": "page_nybc313748_0217",
+      "scanIndex": 217,
+      "leafNumber": 216,
+      "printedPage": null,
+      "passageCharStart": 120,
+      "passageCharEnd": 161,
+      "normalizedPassageCharStart": 120,
+      "normalizedPassageCharEnd": 161,
+      "pageCharStart": 2797,
+      "pageCharEnd": 2838,
+      "quote": "דע ם דראהיטשיינע ר בית־עול ם אי ן נױ־יארק",
+      "normalizedQuote": "דע ם דראהיטשיינע ר בית־עול ם אי ן נױ־יארק",
+      "modelQuote": "דעם דראהיטשיינער בית־עולם אין נױ־יארק",
+      "bbox": {
+        "left": 997,
+        "top": 4758,
+        "right": 2383,
+        "bottom": 4838
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n216/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "4fe4fcb831d52f2f39bb47b5afdf369b1f3af24dfb252799c0a2b2e9fdd479cf",
+      "normalizedPassageChecksum": "96a7375d7609f710da4bb8c04dc7e47c7596f3621deb5372546aa96366767c32",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3748db5507f4f9e10cc7befa",
+      "type": "Death",
+      "title": "Death and burial of Hayikl",
+      "summary": "Hayikl died in 1906 and was buried in Drohitchin Cemetery in New York.",
+      "dateStart": "1906",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5e4292afadba001166c0d4a2",
+        "pageId": "page_nybc313748_0217",
+        "scanIndex": 217,
+        "leafNumber": 216,
+        "printedPage": null,
+        "passageCharStart": 59,
+        "passageCharEnd": 82,
+        "normalizedPassageCharStart": 59,
+        "normalizedPassageCharEnd": 82,
+        "pageCharStart": 2736,
+        "pageCharEnd": 2759,
+        "quote": "תרס״ו , 1906 , געשטארבן",
+        "normalizedQuote": "תרס״ו , 1906 , געשטארבן",
+        "modelQuote": "תרס״ו, 1906, געשטארבן",
+        "bbox": {
+          "left": 1601,
+          "top": 4670,
+          "right": 2383,
+          "bottom": 4734
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n216/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "4fe4fcb831d52f2f39bb47b5afdf369b1f3af24dfb252799c0a2b2e9fdd479cf",
+        "normalizedPassageChecksum": "96a7375d7609f710da4bb8c04dc7e47c7596f3621deb5372546aa96366767c32",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3748db5507f4f9e10cc7befa",
+      "type": "Event",
+      "title": "Death and burial of Hayikl",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9754c2f43b7eebb1831c842f",
+      "type": "Person",
+      "title": "Hayikl",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_288c36e4d51af393e653615c",
+      "type": "Person",
+      "title": "Abraham",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4eed2528fb17299fa79f7bea",
+      "type": "Person",
+      "title": "Yosef",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_955f46d1e42a9b1277e9107f",
+      "type": "Organization",
+      "title": "Agudat Achim Anshei Drohitchin Shul",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

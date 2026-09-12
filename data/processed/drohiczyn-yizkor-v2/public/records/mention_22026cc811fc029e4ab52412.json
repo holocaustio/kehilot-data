@@ -1,0 +1,106 @@
+{
+  "id": "mention_22026cc811fc029e4ab52412",
+  "type": "Organization",
+  "title": "German police",
+  "summary": "Police who marched into the ghetto during the night operation.",
+  "originalName": "דײטש ן או ן פאליצײ",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 314,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6c4de36bddd9408226552ee6",
+      "pageId": "page_nybc313748_0314",
+      "scanIndex": 314,
+      "leafNumber": 313,
+      "printedPage": null,
+      "passageCharStart": 1273,
+      "passageCharEnd": 1291,
+      "normalizedPassageCharStart": 1273,
+      "normalizedPassageCharEnd": 1291,
+      "pageCharStart": 3127,
+      "pageCharEnd": 3145,
+      "quote": "דײטש ן או ן פאליצײ",
+      "normalizedQuote": "דײטש ן או ן פאליצײ",
+      "modelQuote": "דײטש ן או ן פאליצײ",
+      "bbox": {
+        "left": 614,
+        "top": 4377,
+        "right": 1230,
+        "bottom": 4445
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n313/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "e1951b56d8e87807992577cd9b3b35dae6688f9d8dbc92d5e71a88d2b4518908",
+      "normalizedPassageChecksum": "572f4379b12b2f060b344982564f541684ca8c5dd80c77848e9c975aeb792e74",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_58042df2015b2309b1a1c485",
+      "type": "Aktion Or Raid",
+      "title": "Night operation in the ghetto",
+      "summary": "German forces and police entered the ghetto after residents awaited the inevitable.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6c4de36bddd9408226552ee6",
+        "pageId": "page_nybc313748_0314",
+        "scanIndex": 314,
+        "leafNumber": 313,
+        "printedPage": null,
+        "passageCharStart": 1226,
+        "passageCharEnd": 1291,
+        "normalizedPassageCharStart": 1226,
+        "normalizedPassageCharEnd": 1291,
+        "pageCharStart": 3080,
+        "pageCharEnd": 3145,
+        "quote": "גלײ ך האב ן\nאנגעהויב ן ארײנמארשיר ן אי ן געט א דײטש ן או ן פאליצײ",
+        "normalizedQuote": "גלײ ך האב ן\nאנגעהויב ן ארײנמארשיר ן אי ן געט א דײטש ן או ן פאליצײ",
+        "modelQuote": "גלײ ך האב ן אנגעהויב ן ארײנמארשיר ן אי ן געט א דײטש ן או ן פאליצײ",
+        "bbox": {
+          "left": 500,
+          "top": 4273,
+          "right": 2388,
+          "bottom": 4445
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n313/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "e1951b56d8e87807992577cd9b3b35dae6688f9d8dbc92d5e71a88d2b4518908",
+        "normalizedPassageChecksum": "572f4379b12b2f060b344982564f541684ca8c5dd80c77848e9c975aeb792e74",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_58042df2015b2309b1a1c485",
+      "type": "Event",
+      "title": "Night operation in the ghetto",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_f6a26b95b450da722dd272c8",
+      "type": "Person",
+      "title": "Dr. Shekhter",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_173bc0ac271d854d789b93b6",
+      "type": "Place",
+      "title": "Ghetto",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

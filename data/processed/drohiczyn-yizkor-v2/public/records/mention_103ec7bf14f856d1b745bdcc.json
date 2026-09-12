@@ -1,0 +1,99 @@
+{
+  "id": "mention_103ec7bf14f856d1b745bdcc",
+  "type": "Place",
+  "title": "Radastov Camp",
+  "summary": "The camp to which the writer was sent after being captured.",
+  "originalName": "לאגער ראדאסטאװ",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 300,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e4ce3d68c5681d81b63f0c50",
+      "pageId": "page_nybc313748_0300",
+      "scanIndex": 300,
+      "leafNumber": 299,
+      "printedPage": null,
+      "passageCharStart": 431,
+      "passageCharEnd": 460,
+      "normalizedPassageCharStart": 431,
+      "normalizedPassageCharEnd": 460,
+      "pageCharStart": 1418,
+      "pageCharEnd": 1447,
+      "quote": "פארשיק ט אי ן לאגע ר ראדאסטאװ",
+      "normalizedQuote": "פארשיק ט אי ן לאגע ר ראדאסטאװ",
+      "modelQuote": "פארשיקט אין לאגער ראדאסטאװ",
+      "bbox": {
+        "left": 3448,
+        "top": 3433,
+        "right": 4466,
+        "bottom": 3513
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n299/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "1b6d9e61c389a0697e20e30ebb848cbb7e822b80043578ffad0bef4cb9da7673",
+      "normalizedPassageChecksum": "28de825f39267191bc53d7df6bde706332d4200ac90f4c6c09e8229c04c27dab",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_0500ffe935cd77577e464ea7",
+      "type": "Deportation",
+      "title": "Writer sent to Radastov Camp",
+      "summary": "The writer was captured after hiding and sent to Radastov Camp.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e4ce3d68c5681d81b63f0c50",
+        "pageId": "page_nybc313748_0300",
+        "scanIndex": 300,
+        "leafNumber": 299,
+        "printedPage": null,
+        "passageCharStart": 401,
+        "passageCharEnd": 460,
+        "normalizedPassageCharStart": 401,
+        "normalizedPassageCharEnd": 460,
+        "pageCharStart": 1388,
+        "pageCharEnd": 1447,
+        "quote": "בי ז מ׳־א ט אי ם געכאפ ט או ן\nפארשיק ט אי ן לאגע ר ראדאסטאװ",
+        "normalizedQuote": "בי ז מ׳־א ט אי ם געכאפ ט או ן\nפארשיק ט אי ן לאגע ר ראדאסטאװ",
+        "modelQuote": "ביז מ׳־אט אים געכאפט און\nפארשיקט אין לאגער ראדאסטאװ",
+        "bbox": {
+          "left": 2578,
+          "top": 3339,
+          "right": 4466,
+          "bottom": 3513
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n299/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "1b6d9e61c389a0697e20e30ebb848cbb7e822b80043578ffad0bef4cb9da7673",
+        "normalizedPassageChecksum": "28de825f39267191bc53d7df6bde706332d4200ac90f4c6c09e8229c04c27dab",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_0500ffe935cd77577e464ea7",
+      "type": "Event",
+      "title": "Writer sent to Radastov Camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_638b0a4b8cb3c55bf0480114",
+      "type": "Place",
+      "title": "Raviner Forest",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

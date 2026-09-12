@@ -1,0 +1,107 @@
+{
+  "id": "mention_765a34064c67d653f23f67fd",
+  "type": "Person",
+  "title": "Sub-officer",
+  "summary": "A sub-officer from the town ordered the narrator to return.",
+  "originalName": "אונטער אפיציר פון שטאט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 92,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military officer",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1eec1c4a4980fe30750f3e31",
+      "pageId": "page_nybc313748_0092",
+      "scanIndex": 92,
+      "leafNumber": 91,
+      "printedPage": null,
+      "passageCharStart": 648,
+      "passageCharEnd": 679,
+      "normalizedPassageCharStart": 648,
+      "normalizedPassageCharEnd": 679,
+      "pageCharStart": 648,
+      "pageCharEnd": 679,
+      "quote": "דע ר אונטע ר אפיצי ר פו ן שטא ט",
+      "normalizedQuote": "דע ר אונטע ר אפיצי ר פו ן שטא ט",
+      "modelQuote": "דער אונטער אפיציר פון שטאט",
+      "bbox": {
+        "left": 2992,
+        "top": 1879,
+        "right": 4016,
+        "bottom": 1945
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n91/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "39630af03619263f068651507d29769624f6c1e54dae7b985a515cce722c1e63",
+      "normalizedPassageChecksum": "6f9696b177ef0b27c863a0e4f04fc638b9eabb23fdf88c87d7f053f21a460e53",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3540e754fa8ade935f38d5e7",
+      "type": "Migration",
+      "title": "Order to return",
+      "summary": "A sub-officer ordered the travelers to return to the town.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The text describes an order to travel back, but does not explicitly identify all travelers or destination.",
+      "evidence": {
+        "passageId": "passage_1eec1c4a4980fe30750f3e31",
+        "pageId": "page_nybc313748_0092",
+        "scanIndex": 92,
+        "leafNumber": 91,
+        "printedPage": null,
+        "passageCharStart": 634,
+        "passageCharEnd": 708,
+        "normalizedPassageCharStart": 634,
+        "normalizedPassageCharEnd": 708,
+        "pageCharStart": 634,
+        "pageCharEnd": 708,
+        "quote": "אי ז געקומע ן דע ר אונטע ר אפיצי ר פו ן שטא ט או ן באפעל ן\nצ ו פאר ן צוריק",
+        "normalizedQuote": "אי ז געקומע ן דע ר אונטע ר אפיצי ר פו ן שטא ט או ן באפעל ן\nצ ו פאר ן צוריק",
+        "modelQuote": "איז געקומען דער אונטער אפיציר פון שטאט און באפעלן צו פארן צוריק",
+        "bbox": {
+          "left": 2580,
+          "top": 1867,
+          "right": 4462,
+          "bottom": 2045
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n91/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "39630af03619263f068651507d29769624f6c1e54dae7b985a515cce722c1e63",
+        "normalizedPassageChecksum": "6f9696b177ef0b27c863a0e4f04fc638b9eabb23fdf88c87d7f053f21a460e53",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3540e754fa8ade935f38d5e7",
+      "type": "Event",
+      "title": "Order to return",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_c2ebbdd572bba796d1742791",
+      "type": "Person",
+      "title": "Lieutenant",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_571f8fa29eb39846c7b47bd0",
+      "type": "Person",
+      "title": "Secretary",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

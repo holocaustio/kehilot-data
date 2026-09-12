@@ -1,0 +1,113 @@
+{
+  "id": "mention_c953e79c604a68286fded9b9",
+  "type": "Person",
+  "title": "Harold",
+  "summary": "Son left by Matthew Schewinsky at his death.",
+  "originalName": "האראלד",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 410,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "son",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9f13a4a7d4e5796afc690962",
+      "pageId": "page_nybc313748_0410",
+      "scanIndex": 410,
+      "leafNumber": 409,
+      "printedPage": null,
+      "passageCharStart": 993,
+      "passageCharEnd": 1009,
+      "normalizedPassageCharStart": 993,
+      "normalizedPassageCharEnd": 1009,
+      "pageCharStart": 3682,
+      "pageCharEnd": 3698,
+      "quote": "או ן זו ן האראלד",
+      "normalizedQuote": "או ן זו ן האראלד",
+      "modelQuote": "און זון האראלד",
+      "bbox": {
+        "left": 522,
+        "top": 5773,
+        "right": 1004,
+        "bottom": 5851
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n409/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "a3f4ece549456d89dd79e575a556ed206d6013d9a4fe381a671082b82931acae",
+      "normalizedPassageChecksum": "37ce06c14e401b6f61fd4fd359055f5c6cca0cba92d90db7b31909bfa1b4cd05",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_77d8b6d8dfdbc443acb86e4c",
+      "type": "Death",
+      "title": "Death of Matthew Schewinsky",
+      "summary": "Death of Zelig on 12 Tishrei 5717, leaving daughter Margie and son Harold.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage uses both Matthew-like OCR forms and the name Zelig; identity is uncertain.",
+      "evidence": {
+        "passageId": "passage_9f13a4a7d4e5796afc690962",
+        "pageId": "page_nybc313748_0410",
+        "scanIndex": 410,
+        "leafNumber": 409,
+        "printedPage": null,
+        "passageCharStart": 918,
+        "passageCharEnd": 957,
+        "normalizedPassageCharStart": 918,
+        "normalizedPassageCharEnd": 957,
+        "pageCharStart": 3607,
+        "pageCharEnd": 3646,
+        "quote": "זעלי ג אי ז געשטארב ן י״ ב תשרי ,\nתשי״ז",
+        "normalizedQuote": "זעלי ג אי ז געשטארב ן י״ ב תשרי ,\nתשי״ז",
+        "modelQuote": "זעליג איז געשטארבן י״ב תשרי,\nתשי״ז",
+        "bbox": {
+          "left": 506,
+          "top": 5657,
+          "right": 2388,
+          "bottom": 5827
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n409/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "a3f4ece549456d89dd79e575a556ed206d6013d9a4fe381a671082b82931acae",
+        "normalizedPassageChecksum": "37ce06c14e401b6f61fd4fd359055f5c6cca0cba92d90db7b31909bfa1b4cd05",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_77d8b6d8dfdbc443acb86e4c",
+      "type": "Event",
+      "title": "Death of Matthew Schewinsky",
+      "relation": "Participated In",
+      "role": "Child"
+    },
+    {
+      "id": "mention_4efb6ace209f98ccd72ce306",
+      "type": "Organization",
+      "title": "Ahavat Zion Agudah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_844c0ddbf91e20f092a0db0f",
+      "type": "Organization",
+      "title": "Chicago Mizrachi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0d98c2a87d04e55585744946",
+      "type": "Place",
+      "title": "Miami Beach",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

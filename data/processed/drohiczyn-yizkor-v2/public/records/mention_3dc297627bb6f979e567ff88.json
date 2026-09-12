@@ -1,0 +1,142 @@
+{
+  "id": "mention_3dc297627bb6f979e567ff88",
+  "type": "Person",
+  "title": "Shimon",
+  "summary": "A Jewish man arrested and tortured after Petruk betrayed him.",
+  "originalName": "שמעון",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 320,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6b4b20805db79bf0ac359bf1",
+      "pageId": "page_nybc313748_0320",
+      "scanIndex": 320,
+      "leafNumber": 319,
+      "printedPage": null,
+      "passageCharStart": 576,
+      "passageCharEnd": 594,
+      "normalizedPassageCharStart": 576,
+      "normalizedPassageCharEnd": 594,
+      "pageCharStart": 1337,
+      "pageCharEnd": 1355,
+      "quote": "ארעסטיר ט שמעונ׳ען",
+      "normalizedQuote": "ארעסטיר ט שמעונ׳ען",
+      "modelQuote": "ארעסטיר ט שמעונ׳ען",
+      "bbox": {
+        "left": 2794,
+        "top": 4184,
+        "right": 3436,
+        "bottom": 4248
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n319/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "64326660838f5042ccd02b93217e6b221432021a3d0e7d595da4350aa2df5e5d",
+      "normalizedPassageChecksum": "d53f700a1b0e79a2758d4df691f363529dca07e3f2d16f5d1a165a33a0d3c7bb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_797067fe23159c6bf37cc5b8",
+      "type": "Arrest",
+      "title": "Arrest of Shimon",
+      "summary": "Police arrested Shimon after Petruk reported him as a hidden Jew.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6b4b20805db79bf0ac359bf1",
+        "pageId": "page_nybc313748_0320",
+        "scanIndex": 320,
+        "leafNumber": 319,
+        "printedPage": null,
+        "passageCharStart": 576,
+        "passageCharEnd": 594,
+        "normalizedPassageCharStart": 576,
+        "normalizedPassageCharEnd": 594,
+        "pageCharStart": 1337,
+        "pageCharEnd": 1355,
+        "quote": "ארעסטיר ט שמעונ׳ען",
+        "normalizedQuote": "ארעסטיר ט שמעונ׳ען",
+        "modelQuote": "ארעסטיר ט שמעונ׳ען",
+        "bbox": {
+          "left": 2794,
+          "top": 4184,
+          "right": 3436,
+          "bottom": 4248
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n319/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "64326660838f5042ccd02b93217e6b221432021a3d0e7d595da4350aa2df5e5d",
+        "normalizedPassageChecksum": "d53f700a1b0e79a2758d4df691f363529dca07e3f2d16f5d1a165a33a0d3c7bb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_f5ade29d5793783d6de04221",
+      "type": "Imprisonment",
+      "title": "Torture of Shimon",
+      "summary": "German murderers beat Shimon and forced him to reveal hidden Jews’ location.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6b4b20805db79bf0ac359bf1",
+        "pageId": "page_nybc313748_0320",
+        "scanIndex": 320,
+        "leafNumber": 319,
+        "printedPage": null,
+        "passageCharStart": 754,
+        "passageCharEnd": 773,
+        "normalizedPassageCharStart": 754,
+        "normalizedPassageCharEnd": 773,
+        "pageCharStart": 1515,
+        "pageCharEnd": 1534,
+        "quote": "מערדערלע ך\nגעשלאג ן",
+        "normalizedQuote": "מערדערלע ך\nגעשלאג ן",
+        "modelQuote": "מערדערלע ך געשלאג ן",
+        "bbox": {
+          "left": 2580,
+          "top": 4508,
+          "right": 4466,
+          "bottom": 4684
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n319/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "64326660838f5042ccd02b93217e6b221432021a3d0e7d595da4350aa2df5e5d",
+        "normalizedPassageChecksum": "d53f700a1b0e79a2758d4df691f363529dca07e3f2d16f5d1a165a33a0d3c7bb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_797067fe23159c6bf37cc5b8",
+      "type": "Event",
+      "title": "Arrest of Shimon",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "event_candidate_f5ade29d5793783d6de04221",
+      "type": "Event",
+      "title": "Torture of Shimon",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_a147d45e13c76e67b25909fd",
+      "type": "Place",
+      "title": "Zaritchke",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

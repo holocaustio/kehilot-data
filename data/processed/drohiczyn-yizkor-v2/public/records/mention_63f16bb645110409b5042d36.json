@@ -1,0 +1,119 @@
+{
+  "id": "mention_63f16bb645110409b5042d36",
+  "type": "Organization",
+  "title": "Ukrainian auxiliaries",
+  "summary": "Auxiliaries who participated in the attack on Ghetto A.",
+  "originalName": "די אזקראינער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 340,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "auxiliary forces",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a9e84e1762bcba423c105832",
+      "pageId": "page_nybc313748_0340",
+      "scanIndex": 340,
+      "leafNumber": 339,
+      "printedPage": null,
+      "passageCharStart": 999,
+      "passageCharEnd": 1013,
+      "normalizedPassageCharStart": 999,
+      "normalizedPassageCharEnd": 1013,
+      "pageCharStart": 999,
+      "pageCharEnd": 1013,
+      "quote": "ד י אזקראינע ר",
+      "normalizedQuote": "ד י אזקראינע ר",
+      "modelQuote": "די אזקראינער",
+      "bbox": {
+        "left": 2569,
+        "top": 3775,
+        "right": 2999,
+        "bottom": 3843
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n339/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "b7fbde6621a2fa858b10a1943241e479c412868485ad7f2c5c40aa59ee9951d0",
+      "normalizedPassageChecksum": "c4e24afa87dcc09ee491c50591cfac7b6dfde461f811dd2336a6b913048ac20f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b3c241591bf1b8f473dd09fa",
+      "type": "Aktion Or Raid",
+      "title": "Attack on Ghetto A",
+      "summary": "German and Ukrainian forces attacked Ghetto A and drove Jews toward slaughter.",
+      "dateStart": "1942-10-15",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_a9e84e1762bcba423c105832",
+        "pageId": "page_nybc313748_0340",
+        "scanIndex": 340,
+        "leafNumber": 339,
+        "printedPage": null,
+        "passageCharStart": 965,
+        "passageCharEnd": 1045,
+        "normalizedPassageCharStart": 965,
+        "normalizedPassageCharEnd": 1045,
+        "pageCharStart": 965,
+        "pageCharEnd": 1045,
+        "quote": "ד י דײטש ן מי ט זײער ע מיטהעלפע ר ד י אזקראינע ר\nזײנע ן איבערפאל ן ד י געט א א ׳",
+        "normalizedQuote": "ד י דײטש ן מי ט זײער ע מיטהעלפע ר ד י אזקראינע ר\nזײנע ן איבערפאל ן ד י געט א א ׳",
+        "modelQuote": "די דײטשן מיט זײערע מיטהעלפער די אזקראינער\nזײנען איבערפאלן די געטא א׳",
+        "bbox": {
+          "left": 2569,
+          "top": 3759,
+          "right": 4453,
+          "bottom": 3937
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n339/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "b7fbde6621a2fa858b10a1943241e479c412868485ad7f2c5c40aa59ee9951d0",
+        "normalizedPassageChecksum": "c4e24afa87dcc09ee491c50591cfac7b6dfde461f811dd2336a6b913048ac20f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b3c241591bf1b8f473dd09fa",
+      "type": "Event",
+      "title": "Attack on Ghetto A",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_9e4ef5150f3831df19599622",
+      "type": "Place",
+      "title": "Old Cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f7feb6126071139274f541fa",
+      "type": "Place",
+      "title": "Ghetto A",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1add80b87cdd8ceed712c259",
+      "type": "Place",
+      "title": "Slaughterhouse",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ada949efd0d9c114bc3361d",
+      "type": "Organization",
+      "title": "German forces",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

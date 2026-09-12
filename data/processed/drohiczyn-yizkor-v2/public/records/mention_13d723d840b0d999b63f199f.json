@@ -1,0 +1,114 @@
+{
+  "id": "mention_13d723d840b0d999b63f199f",
+  "type": "Organization",
+  "title": "Germans and police",
+  "summary": "Authorities conducting raids in swampy taverns and killing discovered Jewish fugitives.",
+  "originalName": "די דײטשן מיט פאליצײ",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 326,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "occupying authorities",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_517db5cfc9f686fe65378ffb",
+      "pageId": "page_nybc313748_0326",
+      "scanIndex": 326,
+      "leafNumber": 325,
+      "printedPage": null,
+      "passageCharStart": 260,
+      "passageCharEnd": 283,
+      "normalizedPassageCharStart": 260,
+      "normalizedPassageCharEnd": 283,
+      "pageCharStart": 1511,
+      "pageCharEnd": 1534,
+      "quote": "ד י דײטש ן מי ט פאליצ ײ",
+      "normalizedQuote": "ד י דײטש ן מי ט פאליצ ײ",
+      "modelQuote": "די דײטשן מיט פאליצײ",
+      "bbox": {
+        "left": 3099,
+        "top": 3603,
+        "right": 3853,
+        "bottom": 3671
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n325/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "93fafee5bfe670f17a1bc46df4224a0d360ec5fac9f05a947cf0f92ab9e5779e",
+      "normalizedPassageChecksum": "b0e36956e045e5d9a17fd4fc8ddd46564ba2b42e70bd81fbdc0a92eb8a40b19f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_ba280258ec1acdbfa4a5e7d3",
+      "type": "Death",
+      "title": "Killing of Jewish fugitives",
+      "summary": "German authorities and police killed Jews found hiding or fleeing in the swampy taverns.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR wording is unclear, but the passage describes killers shooting or killing them there.",
+      "evidence": {
+        "passageId": "passage_517db5cfc9f686fe65378ffb",
+        "pageId": "page_nybc313748_0326",
+        "scanIndex": 326,
+        "leafNumber": 325,
+        "printedPage": null,
+        "passageCharStart": 416,
+        "passageCharEnd": 441,
+        "normalizedPassageCharStart": 416,
+        "normalizedPassageCharEnd": 441,
+        "pageCharStart": 1667,
+        "pageCharEnd": 1692,
+        "quote": "מערדע ר ז ײ דאר ט דערשיםן",
+        "normalizedQuote": "מערדע ר ז ײ דאר ט דערשיםן",
+        "modelQuote": "מערדער זײ דארט דערשיםן",
+        "bbox": {
+          "left": 3615,
+          "top": 3905,
+          "right": 4457,
+          "bottom": 3975
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n325/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "93fafee5bfe670f17a1bc46df4224a0d360ec5fac9f05a947cf0f92ab9e5779e",
+        "normalizedPassageChecksum": "b0e36956e045e5d9a17fd4fc8ddd46564ba2b42e70bd81fbdc0a92eb8a40b19f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_121f58f3b65ccb612673cf2d",
+      "type": "Event",
+      "title": "Raids in swampy taverns",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "event_candidate_ba280258ec1acdbfa4a5e7d3",
+      "type": "Event",
+      "title": "Killing of Jewish fugitives",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_bbc90d7f26f3821a2da0c74d",
+      "type": "Person",
+      "title": "Narrator",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_870a08418e6eb9139ae38825",
+      "type": "Family",
+      "title": "Narrator's children",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

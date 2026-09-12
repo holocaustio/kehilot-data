@@ -1,0 +1,118 @@
+{
+  "id": "mention_dbfab6e8660e0b151ca30a87",
+  "type": "Organization",
+  "title": "Aid Society",
+  "summary": "The later name of the Support Association.",
+  "originalName": "״אײד־םאםײעטע״",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 401,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "aid society",
+  "uncertaintyNote": "The OCR rendering of the organization name is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_48cce4169d141a7b3a2d9178",
+      "pageId": "page_nybc313748_0401",
+      "scanIndex": 401,
+      "leafNumber": 400,
+      "printedPage": null,
+      "passageCharStart": 64,
+      "passageCharEnd": 77,
+      "normalizedPassageCharStart": 64,
+      "normalizedPassageCharEnd": 77,
+      "pageCharStart": 2288,
+      "pageCharEnd": 2301,
+      "quote": "״אײד־םאםײעטע״",
+      "normalizedQuote": "״אײד־םאםײעטע״",
+      "modelQuote": "״אײד־םאםײעטע״",
+      "bbox": {
+        "left": 3518,
+        "top": 5220,
+        "right": 4042,
+        "bottom": 5288
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n400/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "7465ec3b86a8a6585d60e62a78b91c90c394c92460e03c7136e0d50f9c936992",
+      "normalizedPassageChecksum": "63190372d3f9e3cf77a62210f7dc7e4daa5b170efb9df3e1b23ed063d9f90b5c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_c060ad15db5440689dd8d7b7",
+      "predicate": "Formerly Named",
+      "subjectTitle": "Support Association",
+      "objectTitle": "Aid Society",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_48cce4169d141a7b3a2d9178",
+        "pageId": "page_nybc313748_0401",
+        "scanIndex": 401,
+        "leafNumber": 400,
+        "printedPage": null,
+        "passageCharStart": 29,
+        "passageCharEnd": 77,
+        "normalizedPassageCharStart": 29,
+        "normalizedPassageCharEnd": 77,
+        "pageCharStart": 2253,
+        "pageCharEnd": 2301,
+        "quote": "שפעטע ר געטויש ט דע ם\nנאמע ן אוי ף ״אײד־םאםײעטע״",
+        "normalizedQuote": "שפעטע ר געטויש ט דע ם\nנאמע ן אוי ף ״אײד־םאםײעטע״",
+        "modelQuote": "שפעטער געטוישט דעם נאמען אויף ״אײד־םאםײעטע״",
+        "bbox": {
+          "left": 2588,
+          "top": 5116,
+          "right": 4468,
+          "bottom": 5292
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n400/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "7465ec3b86a8a6585d60e62a78b91c90c394c92460e03c7136e0d50f9c936992",
+        "normalizedPassageChecksum": "63190372d3f9e3cf77a62210f7dc7e4daa5b170efb9df3e1b23ed063d9f90b5c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_c1e9ee5c3f1f51894d281f3c",
+      "type": "Organization",
+      "title": "Support Association",
+      "relation": "Formerly Named"
+    },
+    {
+      "id": "mention_e330b9dd55d7fee89b3d321e",
+      "type": "Event",
+      "title": "Banquet for David Eisenstein",
+      "relation": "Organized"
+    },
+    {
+      "id": "mention_c1e9ee5c3f1f51894d281f3c",
+      "type": "Organization",
+      "title": "Support Association",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_20209ec953259683b74f4496",
+      "type": "Event",
+      "title": "Destruction of Drohiczyn",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e330b9dd55d7fee89b3d321e",
+      "type": "Event",
+      "title": "Banquet for David Eisenstein",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

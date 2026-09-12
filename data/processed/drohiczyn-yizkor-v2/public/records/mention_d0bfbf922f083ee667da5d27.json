@@ -1,0 +1,107 @@
+{
+  "id": "mention_d0bfbf922f083ee667da5d27",
+  "type": "Person",
+  "title": "Armed Germans",
+  "summary": "Armed Germans guarded women forced to stand at a bridge.",
+  "originalName": "באװאפנטע דײטשן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 75,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "soldiers or guards",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_88a5562c990a9d26767eac58",
+      "pageId": "page_nybc313748_0075",
+      "scanIndex": 75,
+      "leafNumber": 74,
+      "printedPage": null,
+      "passageCharStart": 208,
+      "passageCharEnd": 243,
+      "normalizedPassageCharStart": 208,
+      "normalizedPassageCharEnd": 243,
+      "pageCharStart": 2413,
+      "pageCharEnd": 2448,
+      "quote": "אונטע ר א װא ך פו ן באװאפנט ע דײטשן",
+      "normalizedQuote": "אונטע ר א װא ך פו ן באװאפנט ע דײטשן",
+      "modelQuote": "אונטער א װאך פון באװאפנטע דײטשן",
+      "bbox": {
+        "left": 492,
+        "top": 5479,
+        "right": 1660,
+        "bottom": 5543
+      },
+      "scanUrl": "https://archive.org/details/nybc313748/page/n74/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+      "passageChecksum": "c661dee0361cabf69d991140a187cd3490300d9977dab07c563cc35c7a5c1859",
+      "normalizedPassageChecksum": "abbbfe412536e0730e41e47e67c2c5809e5cda23fcc0e66a673ce1fc961869a9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e2f08ad841b804f924e466cb",
+      "type": "Forced Confinement Under Guard",
+      "title": "Women held under German guard",
+      "summary": "Women were marched to a bridge and forced to stand there for four consecutive hours under armed German guard as punishment.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text describes forced guarded confinement but does not explicitly identify imprisonment.",
+      "evidence": {
+        "passageId": "passage_88a5562c990a9d26767eac58",
+        "pageId": "page_nybc313748_0075",
+        "scanIndex": 75,
+        "leafNumber": 74,
+        "printedPage": null,
+        "passageCharStart": 195,
+        "passageCharEnd": 243,
+        "normalizedPassageCharStart": 195,
+        "normalizedPassageCharEnd": 243,
+        "pageCharStart": 2400,
+        "pageCharEnd": 2448,
+        "quote": "אפגעשטאנען , אונטע ר א װא ך פו ן באװאפנט ע דײטשן",
+        "normalizedQuote": "אפגעשטאנען , אונטע ר א װא ך פו ן באװאפנט ע דײטשן",
+        "modelQuote": "אפגעשטאנען, אונטער א װאך פון באװאפנטע דײטשן",
+        "bbox": {
+          "left": 492,
+          "top": 5479,
+          "right": 2100,
+          "bottom": 5545
+        },
+        "scanUrl": "https://archive.org/details/nybc313748/page/n74/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313748/nybc313748.pdf",
+        "passageChecksum": "c661dee0361cabf69d991140a187cd3490300d9977dab07c563cc35c7a5c1859",
+        "normalizedPassageChecksum": "abbbfe412536e0730e41e47e67c2c5809e5cda23fcc0e66a673ce1fc961869a9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e2f08ad841b804f924e466cb",
+      "type": "Event",
+      "title": "Women held under German guard",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_b259f0ac1cf8064a7157969f",
+      "type": "Place",
+      "title": "Market",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6fc3e2369d7474b462744ad3",
+      "type": "Place",
+      "title": "Bridge",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}
