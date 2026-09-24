@@ -1,0 +1,120 @@
+{
+  "id": "mention_badc2057ff3ba3e64ef68f2e",
+  "type": "Community",
+  "title": "Jews of Stolin",
+  "summary": "The Jewish population in Stolin reported killed on the eve of Rosh Hashanah in 1942.",
+  "originalName": "אלע",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 480,
+  "printedPage": "71",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish community",
+  "uncertaintyNote": "The text states that all present died but does not explicitly identify them as Jews in this exact sentence.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bfe2dfa8866c6baf15bff475",
+      "pageId": "page_nybc313739_0480",
+      "scanIndex": 480,
+      "leafNumber": 479,
+      "printedPage": "71",
+      "passageCharStart": 696,
+      "passageCharEnd": 760,
+      "normalizedPassageCharStart": 696,
+      "normalizedPassageCharEnd": 760,
+      "pageCharStart": 696,
+      "pageCharEnd": 760,
+      "quote": "7,000 נפשות\nזענען דאן געווען אין סטאלין און אלע זענען אומגעקומען",
+      "normalizedQuote": "7,000 נפשות\nזענען דאן געווען אין סטאלין און אלע זענען אומגעקומען",
+      "modelQuote": "7,000 נפשות זענען דאן געווען אין סטאלין און אלע זענען אומגעקומען",
+      "bbox": {
+        "left": 1056,
+        "top": 1942,
+        "right": 3919,
+        "bottom": 2112
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n479/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "f20d02d8600ca43f31bf64503938d6490821cc94730022d1813c5f7a6fd948cd",
+      "normalizedPassageChecksum": "f40d83d373e6d875899fdff47c5a603db695d96ba49245cef7ce9ba314ba4ff5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_2511cdfe808973d6daa780f9",
+      "type": "Murder",
+      "title": "Mass killing in Stolin",
+      "summary": "Seven thousand people in Stolin were killed on the eve of Rosh Hashanah in 1942.",
+      "dateStart": "1942",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_bfe2dfa8866c6baf15bff475",
+        "pageId": "page_nybc313739_0480",
+        "scanIndex": 480,
+        "leafNumber": 479,
+        "printedPage": "71",
+        "passageCharStart": 696,
+        "passageCharEnd": 760,
+        "normalizedPassageCharStart": 696,
+        "normalizedPassageCharEnd": 760,
+        "pageCharStart": 696,
+        "pageCharEnd": 760,
+        "quote": "7,000 נפשות\nזענען דאן געווען אין סטאלין און אלע זענען אומגעקומען",
+        "normalizedQuote": "7,000 נפשות\nזענען דאן געווען אין סטאלין און אלע זענען אומגעקומען",
+        "modelQuote": "7,000 נפשות זענען דאן געווען אין סטאלין און אלע זענען אומגעקומען",
+        "bbox": {
+          "left": 1056,
+          "top": 1942,
+          "right": 3919,
+          "bottom": 2112
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n479/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "f20d02d8600ca43f31bf64503938d6490821cc94730022d1813c5f7a6fd948cd",
+        "normalizedPassageChecksum": "f40d83d373e6d875899fdff47c5a603db695d96ba49245cef7ce9ba314ba4ff5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_2511cdfe808973d6daa780f9",
+      "type": "Event",
+      "title": "Mass killing in Stolin",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_b7d5e4adf6c23da0fc4ba866",
+      "type": "Person",
+      "title": "Michaelke",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_78495df0af0c0436e4227866",
+      "type": "Family",
+      "title": "Geniye and children",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a619470ea2d5ed89e6eb6b4f",
+      "type": "Place",
+      "title": "Stolin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9dbe314a18764fb9c522bf5d",
+      "type": "Place",
+      "title": "The ghetto",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

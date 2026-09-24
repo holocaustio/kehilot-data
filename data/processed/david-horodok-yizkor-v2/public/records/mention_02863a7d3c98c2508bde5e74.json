@@ -1,0 +1,99 @@
+{
+  "id": "mention_02863a7d3c98c2508bde5e74",
+  "type": "Place",
+  "title": "Mass graves near Olshan",
+  "summary": "Site where murdered people were buried in four large graves.",
+  "originalName": "קברים",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 236,
+  "printedPage": "229",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "mass grave site",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4bd4184cb49cf3ddf56350cc",
+      "pageId": "page_nybc313739_0236",
+      "scanIndex": 236,
+      "leafNumber": 235,
+      "printedPage": "229",
+      "passageCharStart": 227,
+      "passageCharEnd": 257,
+      "normalizedPassageCharStart": 227,
+      "normalizedPassageCharEnd": 257,
+      "pageCharStart": 227,
+      "pageCharEnd": 257,
+      "quote": "ב-4 קברים\nגדולים נטמנו הנרצחים",
+      "normalizedQuote": "ב-4 קברים\nגדולים נטמנו הנרצחים",
+      "modelQuote": "ב-4 קברים גדולים נטמנו הנרצחים",
+      "bbox": {
+        "left": 1061,
+        "top": 1197,
+        "right": 3916,
+        "bottom": 1350
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n235/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "e95e0afd7849eb9ca9d80ea37e78dafb9b6189566cdb35a7b9c4cff30e2d58dd",
+      "normalizedPassageChecksum": "97d78dd05d924b9d3829364e173be6bda49059e72076a9369bc4b442f14ea7e2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_87a94c3cbbbd236a17e9618b",
+      "type": "Murder",
+      "title": "Mass murder and burial near Olshan",
+      "summary": "Murdered people were buried in four large graves; wolves later exposed remains.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4bd4184cb49cf3ddf56350cc",
+        "pageId": "page_nybc313739_0236",
+        "scanIndex": 236,
+        "leafNumber": 235,
+        "printedPage": "229",
+        "passageCharStart": 227,
+        "passageCharEnd": 257,
+        "normalizedPassageCharStart": 227,
+        "normalizedPassageCharEnd": 257,
+        "pageCharStart": 227,
+        "pageCharEnd": 257,
+        "quote": "ב-4 קברים\nגדולים נטמנו הנרצחים",
+        "normalizedQuote": "ב-4 קברים\nגדולים נטמנו הנרצחים",
+        "modelQuote": "ב-4 קברים גדולים נטמנו הנרצחים",
+        "bbox": {
+          "left": 1061,
+          "top": 1197,
+          "right": 3916,
+          "bottom": 1350
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n235/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "e95e0afd7849eb9ca9d80ea37e78dafb9b6189566cdb35a7b9c4cff30e2d58dd",
+        "normalizedPassageChecksum": "97d78dd05d924b9d3829364e173be6bda49059e72076a9369bc4b442f14ea7e2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_87a94c3cbbbd236a17e9618b",
+      "type": "Event",
+      "title": "Mass murder and burial near Olshan",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d170995dd798374f696f162e",
+      "type": "Place",
+      "title": "Olshan",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

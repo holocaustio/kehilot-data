@@ -1,0 +1,109 @@
+{
+  "id": "mention_1cf1a91577d50e0c20820db5",
+  "type": "Institution",
+  "title": "modern Hebrew school",
+  "summary": "A modern Hebrew school established or renewed in 1924.",
+  "originalName": "בית-הספר העברי המודרני",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 154,
+  "printedPage": "147",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "school",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_74aa8c31ebcf1ba49d85c887",
+      "pageId": "page_nybc313739_0154",
+      "scanIndex": 154,
+      "leafNumber": 153,
+      "printedPage": "147",
+      "passageCharStart": 220,
+      "passageCharEnd": 242,
+      "normalizedPassageCharStart": 220,
+      "normalizedPassageCharEnd": 242,
+      "pageCharStart": 220,
+      "pageCharEnd": 242,
+      "quote": "בית-הספר העברי המודרני",
+      "normalizedQuote": "בית-הספר העברי המודרני",
+      "modelQuote": "בית-הספר העברי המודרני",
+      "bbox": {
+        "left": 1055,
+        "top": 1186,
+        "right": 1838,
+        "bottom": 1242
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n153/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "d05a3b789dd80480a4d5d2a5012803a1c6a0d2f73e1cc0d213f5892c2827f922",
+      "normalizedPassageChecksum": "d5f0136b487b3f6d5a43b321bf747cceee1f41d9e8f2b0b196acd8860945d076",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_90bf9a5ac052c9adf0bac545",
+      "predicate": "Worked At",
+      "subjectTitle": "Barentshuk",
+      "objectTitle": "modern Hebrew school",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The referent of \"he\" is understood from the preceding sentence but is not named there.",
+      "qualifiers": {
+        "role": "teacher"
+      },
+      "evidence": {
+        "passageId": "passage_74aa8c31ebcf1ba49d85c887",
+        "pageId": "page_nybc313739_0154",
+        "scanIndex": 154,
+        "leafNumber": 153,
+        "printedPage": "147",
+        "passageCharStart": 254,
+        "passageCharEnd": 276,
+        "normalizedPassageCharStart": 254,
+        "normalizedPassageCharEnd": 276,
+        "pageCharStart": 254,
+        "pageCharEnd": 276,
+        "quote": "שבו נתמנה גם הוא כמורה",
+        "normalizedQuote": "שבו נתמנה גם הוא כמורה",
+        "modelQuote": "שבו נתמנה גם הוא כמורה",
+        "bbox": {
+          "left": 2691,
+          "top": 1290,
+          "right": 3510,
+          "bottom": 1337
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n153/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "d05a3b789dd80480a4d5d2a5012803a1c6a0d2f73e1cc0d213f5892c2827f922",
+        "normalizedPassageChecksum": "d5f0136b487b3f6d5a43b321bf747cceee1f41d9e8f2b0b196acd8860945d076",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_3cd0b3d6a10d6e71964c50a0",
+      "type": "Person",
+      "title": "Barentshuk",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_1a97508a484264894df52fc1",
+      "type": "Institution",
+      "title": "reformed heder",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3cd0b3d6a10d6e71964c50a0",
+      "type": "Person",
+      "title": "Barentshuk",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

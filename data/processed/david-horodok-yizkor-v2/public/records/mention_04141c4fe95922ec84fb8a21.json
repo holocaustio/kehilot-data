@@ -1,0 +1,171 @@
+{
+  "id": "mention_04141c4fe95922ec84fb8a21",
+  "type": "Organization",
+  "title": "Nazi murderers",
+  "summary": "Nazi perpetrators described as murdering David-Horodok Jews.",
+  "originalName": "נאצישע רוצחים",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 336,
+  "printedPage": "7",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "perpetrator group",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1d1aa4e1daf8d679c34e9035",
+      "pageId": "page_nybc313739_0336",
+      "scanIndex": 336,
+      "leafNumber": 335,
+      "printedPage": "7",
+      "passageCharStart": 530,
+      "passageCharEnd": 543,
+      "normalizedPassageCharStart": 530,
+      "normalizedPassageCharEnd": 543,
+      "pageCharStart": 530,
+      "pageCharEnd": 543,
+      "quote": "נאצישע רוצחים",
+      "normalizedQuote": "נאצישע רוצחים",
+      "modelQuote": "נאצישע רוצחים",
+      "bbox": {
+        "left": 2971,
+        "top": 3104,
+        "right": 3454,
+        "bottom": 3161
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n335/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "9d6f8756b6c39561f2cb494868ac5e9e44741bbcce5da64f01a26e942169a9bc",
+      "normalizedPassageChecksum": "3000c17092bbdefd6ef6c9e6ef179012d6d28bc1bed4ababb076e7f7719ddb6c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_28f4ba6d77712467faadc7a5",
+      "pageId": "page_nybc313739_0441",
+      "scanIndex": 441,
+      "leafNumber": 440,
+      "printedPage": "102",
+      "passageCharStart": 259,
+      "passageCharEnd": 275,
+      "normalizedPassageCharStart": 259,
+      "normalizedPassageCharEnd": 275,
+      "pageCharStart": 1361,
+      "pageCharEnd": 1377,
+      "quote": "מערדערישע נאצישע",
+      "normalizedQuote": "מערדערישע נאצישע",
+      "modelQuote": "מערדערישע נאצישע",
+      "bbox": {
+        "left": 2501,
+        "top": 5009,
+        "right": 3122,
+        "bottom": 5069
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n440/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "61e3c5ccfa501d9c08db06ddf26529a424179a9e0e2228464734ca078a9d1218",
+      "normalizedPassageChecksum": "f53721b9a97d9c24967fa288f8661caeea3608c4d0dfb88e9a044e6525c1bd16",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_4aa6f495d29769c9a366c540",
+      "predicate": "Murdered At",
+      "subjectTitle": "Nazi murderers",
+      "objectTitle": "David-Horodok Jews",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The grammatical antecedent is the David-Horodok sisters and brothers; the quote does not explicitly state the Nazis as the grammatical subject of the killing.",
+      "evidence": {
+        "passageId": "passage_1d1aa4e1daf8d679c34e9035",
+        "pageId": "page_nybc313739_0336",
+        "scanIndex": 336,
+        "leafNumber": 335,
+        "printedPage": "7",
+        "passageCharStart": 463,
+        "passageCharEnd": 515,
+        "normalizedPassageCharStart": 463,
+        "normalizedPassageCharEnd": 515,
+        "pageCharStart": 463,
+        "pageCharEnd": 515,
+        "quote": "וועלכע זענען אומגעבראכט געווארן אויף אזא אכזריותדיקן",
+        "normalizedQuote": "וועלכע זענען אומגעבראכט געווארן אויף אזא אכזריותדיקן",
+        "modelQuote": "וועלכע זענען אומגעבראכט געווארן אויף אזא אכזריותדיקן",
+        "bbox": {
+          "left": 1049,
+          "top": 2984,
+          "right": 2790,
+          "bottom": 3059
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n335/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "9d6f8756b6c39561f2cb494868ac5e9e44741bbcce5da64f01a26e942169a9bc",
+        "normalizedPassageChecksum": "3000c17092bbdefd6ef6c9e6ef179012d6d28bc1bed4ababb076e7f7719ddb6c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_f62d1bc891492a6b1a51db36",
+      "type": "Community",
+      "title": "David-Horodok Jews",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "mention_5a6dc18f33deef31caaec3c3",
+      "type": "Person",
+      "title": "Chaim Nahman Bialik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8003c96fcf21b3bb96a86781",
+      "type": "Document",
+      "title": "Sefer zikaron David-Horodok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f62d1bc891492a6b1a51db36",
+      "type": "Community",
+      "title": "David-Horodok Jews",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e0917dc51ee97d8240ab7f93",
+      "type": "Person",
+      "title": "Jeremiah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_29d1f86da5c1b21e3a063182",
+      "type": "Community",
+      "title": "Persecuted Jewish people",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c578d75c62e1f3557cdfb92a",
+      "type": "Person",
+      "title": "Yeh Lifshitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cff08c2fff214f46c336cf1b",
+      "type": "Person",
+      "title": "Sh. Tsetsik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ac985d96c43a827313c2c41e",
+      "type": "Event",
+      "title": "Second World War",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

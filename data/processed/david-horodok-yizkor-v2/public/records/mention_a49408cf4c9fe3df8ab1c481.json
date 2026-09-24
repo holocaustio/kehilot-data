@@ -1,0 +1,118 @@
+{
+  "id": "mention_a49408cf4c9fe3df8ab1c481",
+  "type": "Place",
+  "title": "Auschwitz",
+  "summary": "Former extermination camp described as containing gas ovens and crematoria.",
+  "originalName": "אושוויץ",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 208,
+  "printedPage": "201",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "extermination camp",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_122500027628d5ec654b8ff4",
+      "pageId": "page_nybc313739_0208",
+      "scanIndex": 208,
+      "leafNumber": 207,
+      "printedPage": "201",
+      "passageCharStart": 751,
+      "passageCharEnd": 777,
+      "normalizedPassageCharStart": 751,
+      "normalizedPassageCharEnd": 777,
+      "pageCharStart": 751,
+      "pageCharEnd": 777,
+      "quote": "מחנה השמדה המפורסם אושוויץ",
+      "normalizedQuote": "מחנה השמדה המפורסם אושוויץ",
+      "modelQuote": "מחנה השמדה המפורסם אושוויץ",
+      "bbox": {
+        "left": 1381,
+        "top": 2126,
+        "right": 2325,
+        "bottom": 2187
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n207/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "e4c8381fcf099ad4f031eaf29564c259e39351508954d6ff8318be43d6cab69e",
+      "normalizedPassageChecksum": "f3dc595b294111c840108bc41addef353308b79ca9f0965b93805c6392b4689d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_93b3f0ab7cc30907344777f7",
+      "type": "Migration",
+      "title": "Moshe Moravchik's postwar journey to Poland and visit to Auschwitz",
+      "summary": "The narrator describes traveling through ruined Poland and standing at the former Auschwitz extermination camp.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage uses first-person narration but does not explicitly identify the narrator as Moshe Moravchik.",
+      "evidence": {
+        "passageId": "passage_122500027628d5ec654b8ff4",
+        "pageId": "page_nybc313739_0208",
+        "scanIndex": 208,
+        "leafNumber": 207,
+        "printedPage": "201",
+        "passageCharStart": 362,
+        "passageCharEnd": 412,
+        "normalizedPassageCharStart": 362,
+        "normalizedPassageCharEnd": 412,
+        "pageCharStart": 362,
+        "pageCharEnd": 412,
+        "quote": "את בואי לפולין החרבה לאחר השואה ואת המסע מעיר לעיר",
+        "normalizedQuote": "את בואי לפולין החרבה לאחר השואה ואת המסע מעיר לעיר",
+        "modelQuote": "את בואי לפולין החרבה לאחר השואה ואת המסע מעיר לעיר",
+        "bbox": {
+          "left": 1518,
+          "top": 1595,
+          "right": 3321,
+          "bottom": 1669
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n207/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "e4c8381fcf099ad4f031eaf29564c259e39351508954d6ff8318be43d6cab69e",
+        "normalizedPassageChecksum": "f3dc595b294111c840108bc41addef353308b79ca9f0965b93805c6392b4689d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_93b3f0ab7cc30907344777f7",
+      "type": "Event",
+      "title": "Moshe Moravchik's postwar journey to Poland and visit to Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_896d16687c5357c0afc49782",
+      "type": "Person",
+      "title": "Moshe Moravchik (Meiri)",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_398b37f58ab75376097a3029",
+      "type": "Person",
+      "title": "Haim Kluzhny",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3bf5eceb0604923b8dd9ff8f",
+      "type": "Place",
+      "title": "Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,123 @@
+{
+  "id": "mention_cece8decbfe4a8dcf0712184",
+  "type": "Place",
+  "title": "Forest near the village",
+  "summary": "A forest where Jewish residents sought refuge and where victims were found.",
+  "originalName": "היער",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 276,
+  "printedPage": "269",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Forest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b111d1a9c2b063e869ab5bc2",
+      "pageId": "page_nybc313739_0276",
+      "scanIndex": 276,
+      "leafNumber": 275,
+      "printedPage": "269",
+      "passageCharStart": 324,
+      "passageCharEnd": 347,
+      "normalizedPassageCharStart": 324,
+      "normalizedPassageCharEnd": 347,
+      "pageCharStart": 2618,
+      "pageCharEnd": 2641,
+      "quote": "הם חשו מפלט להם אל היער",
+      "normalizedQuote": "הם חשו מפלט להם אל היער",
+      "modelQuote": "הם חשו מפלט להם אל היער",
+      "bbox": {
+        "left": 3042,
+        "top": 4485,
+        "right": 3899,
+        "bottom": 4559
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n275/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "52403013448c693fc964f51ce76ed5812bf0a7fedce2346a75a22b8940c67a4c",
+      "normalizedPassageChecksum": "f9cd47ff0ded99fff9219e95a7939c81188b9620985dd9f6a0f82f7a2acef8fa",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c24d55c7ad346f5396123fe0",
+      "type": "Murder",
+      "title": "Killing of Arie Leib Bukov",
+      "summary": "Arie Leib Bukov was found in the forest and killed without warning.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_b111d1a9c2b063e869ab5bc2",
+        "pageId": "page_nybc313739_0276",
+        "scanIndex": 276,
+        "leafNumber": 275,
+        "printedPage": "269",
+        "passageCharStart": 749,
+        "passageCharEnd": 771,
+        "normalizedPassageCharStart": 749,
+        "normalizedPassageCharEnd": 771,
+        "pageCharStart": 3043,
+        "pageCharEnd": 3065,
+        "quote": "ומבלי לדבר דבר המיתוהו",
+        "normalizedQuote": "ומבלי לדבר דבר המיתוהו",
+        "modelQuote": "ומבלי לדבר דבר המיתוהו",
+        "bbox": {
+          "left": 1028,
+          "top": 4999,
+          "right": 1802,
+          "bottom": 5065
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n275/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "52403013448c693fc964f51ce76ed5812bf0a7fedce2346a75a22b8940c67a4c",
+        "normalizedPassageChecksum": "f9cd47ff0ded99fff9219e95a7939c81188b9620985dd9f6a0f82f7a2acef8fa",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c24d55c7ad346f5396123fe0",
+      "type": "Event",
+      "title": "Killing of Arie Leib Bukov",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70ddf47dab3327f5d8436ee6",
+      "type": "Place",
+      "title": "David-Horodok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a2bc19a12d7e6001bb576cd9",
+      "type": "Place",
+      "title": "Khotomla",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_12ac946560ecfa9af5994142",
+      "type": "Person",
+      "title": "Haim Cohen",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_500499f9e1f01c8bc95e32cb",
+      "type": "Person",
+      "title": "Arie Leib Bukov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_21cecdc4033175f450819b46",
+      "type": "Person",
+      "title": "Moshe Lapkin",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,118 @@
+{
+  "id": "mention_f75498fc1c162c9f7c9ae452",
+  "type": "Person",
+  "title": "Jacob",
+  "summary": "Jacob was among those killed in the village massacre.",
+  "originalName": "יעקב",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 217,
+  "printedPage": "210",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "victim",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bfa35013293f252f0fbcb2f2",
+      "pageId": "page_nybc313739_0217",
+      "scanIndex": 217,
+      "leafNumber": 216,
+      "printedPage": "210",
+      "passageCharStart": 191,
+      "passageCharEnd": 206,
+      "normalizedPassageCharStart": 191,
+      "normalizedPassageCharEnd": 206,
+      "pageCharStart": 191,
+      "pageCharEnd": 206,
+      "quote": "וגם יעקב ביניהם",
+      "normalizedQuote": "וגם יעקב ביניהם",
+      "modelQuote": "וגם יעקב ביניהם",
+      "bbox": {
+        "left": 2354,
+        "top": 1184,
+        "right": 2875,
+        "bottom": 1243
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n216/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "42092ecc1a6808f18c76e2055cb6da7d731a3561fb0405492bd54908b0d2110a",
+      "normalizedPassageChecksum": "d8a2d28dc3a0bf3c5acec0a5e4c334c1744033e67b201a50c8a1d095eea34966",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_2d6842805f3d0c5b04f87127",
+      "type": "Murder",
+      "title": "Village massacre",
+      "summary": "Fifty-three people were killed in the narrator's village, including Jacob and Motil Z.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_bfa35013293f252f0fbcb2f2",
+        "pageId": "page_nybc313739_0217",
+        "scanIndex": 217,
+        "leafNumber": 216,
+        "printedPage": "210",
+        "passageCharStart": 257,
+        "passageCharEnd": 276,
+        "normalizedPassageCharStart": 257,
+        "normalizedPassageCharEnd": 276,
+        "pageCharStart": 257,
+        "pageCharEnd": 276,
+        "quote": "53 איש נהרגו בכפרנו",
+        "normalizedQuote": "53 איש נהרגו בכפרנו",
+        "modelQuote": "53 איש נהרגו בכפרנו",
+        "bbox": {
+          "left": 2803,
+          "top": 1283,
+          "right": 3460,
+          "bottom": 1336
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n216/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "42092ecc1a6808f18c76e2055cb6da7d731a3561fb0405492bd54908b0d2110a",
+        "normalizedPassageChecksum": "d8a2d28dc3a0bf3c5acec0a5e4c334c1744033e67b201a50c8a1d095eea34966",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_2d6842805f3d0c5b04f87127",
+      "type": "Event",
+      "title": "Village massacre",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_a619470ea2d5ed89e6eb6b4f",
+      "type": "Place",
+      "title": "Stolin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_feb5e9bfeac3554725556f50",
+      "type": "Place",
+      "title": "Brovolya",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fe24572e57f178e84d964bc5",
+      "type": "Person",
+      "title": "Motil Z.",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

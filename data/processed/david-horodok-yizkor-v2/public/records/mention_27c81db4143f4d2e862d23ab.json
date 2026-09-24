@@ -1,0 +1,171 @@
+{
+  "id": "mention_27c81db4143f4d2e862d23ab",
+  "type": "Place",
+  "title": "Argentina",
+  "summary": "A destination of Jewish emigration.",
+  "originalName": "ארגנטינה",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 37,
+  "printedPage": "30",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "country",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7308f86c0ec6066e882aeeba",
+      "pageId": "page_nybc313739_0037",
+      "scanIndex": 37,
+      "leafNumber": 36,
+      "printedPage": "30",
+      "passageCharStart": 165,
+      "passageCharEnd": 174,
+      "normalizedPassageCharStart": 165,
+      "normalizedPassageCharEnd": 174,
+      "pageCharStart": 2315,
+      "pageCharEnd": 2324,
+      "quote": "לארגנטינה",
+      "normalizedQuote": "לארגנטינה",
+      "modelQuote": "לארגנטינה",
+      "bbox": {
+        "left": 3180,
+        "top": 4696,
+        "right": 3506,
+        "bottom": 4763
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n36/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "579d992142f6cca7c1568d677c2ac7e9f3485d742c1bf4703975096bf9719beb",
+      "normalizedPassageChecksum": "de4ab4bf3e087ed1ddaa17a2762c0197a22a47f2858de65698098bb2726f1cf4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_4ea3f423d20756c231e4cf68",
+      "pageId": "page_nybc313739_0371",
+      "scanIndex": 371,
+      "leafNumber": 370,
+      "printedPage": "32",
+      "passageCharStart": 759,
+      "passageCharEnd": 768,
+      "normalizedPassageCharStart": 759,
+      "normalizedPassageCharEnd": 768,
+      "pageCharStart": 759,
+      "pageCharEnd": 768,
+      "quote": "ארגענטינע",
+      "normalizedQuote": "ארגענטינע",
+      "modelQuote": "ארגענטינע",
+      "bbox": {
+        "left": 2102,
+        "top": 1916,
+        "right": 2432,
+        "bottom": 1971
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n370/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "c2d93cf6e8a9e1644888b10bfda8a874b8fb0d82f3a7c971c22d3e5f92782256",
+      "normalizedPassageChecksum": "e412a1c40502bde78d83436db91063116f70b9b8c07cb42174b0ea66ccc123b0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_8b0e9a4d49eaf4011a0e0573",
+      "type": "Migration",
+      "title": "Jewish emigration from David-Horodok",
+      "summary": "After wartime atrocities, Jews emigrated from David-Horodok to several countries.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7308f86c0ec6066e882aeeba",
+        "pageId": "page_nybc313739_0037",
+        "scanIndex": 37,
+        "leafNumber": 36,
+        "printedPage": "30",
+        "passageCharStart": 153,
+        "passageCharEnd": 186,
+        "normalizedPassageCharStart": 153,
+        "normalizedPassageCharEnd": 186,
+        "pageCharStart": 2303,
+        "pageCharEnd": 2336,
+        "quote": "נסעו יהודים לארגנטינה, קובה וקנדה",
+        "normalizedQuote": "נסעו יהודים לארגנטינה, קובה וקנדה",
+        "modelQuote": "נסעו יהודים לארגנטינה, קובה וקנדה",
+        "bbox": {
+          "left": 2784,
+          "top": 4696,
+          "right": 3910,
+          "bottom": 4773
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n36/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "579d992142f6cca7c1568d677c2ac7e9f3485d742c1bf4703975096bf9719beb",
+        "normalizedPassageChecksum": "de4ab4bf3e087ed1ddaa17a2762c0197a22a47f2858de65698098bb2726f1cf4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_8b0e9a4d49eaf4011a0e0573",
+      "type": "Event",
+      "title": "Jewish emigration from David-Horodok",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7edbc81ff5a407ad040ddc1d",
+      "type": "Place",
+      "title": "America",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9a8d18ae92e4f47159c85765",
+      "type": "Place",
+      "title": "Cuba",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2264f0040e3b019eb07ea63b",
+      "type": "Place",
+      "title": "Canada",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_527e7ec5b8d2f20a5fe92464",
+      "type": "Organization",
+      "title": "HeHalutz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_be96698fcf1de80a850bb54f",
+      "type": "Place",
+      "title": "Land of Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_895931a6c0d7cf35009c4ecc",
+      "type": "Organization",
+      "title": "Joint",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4464daa4b68412e65a85d4ac",
+      "type": "Organization",
+      "title": "Hehalutz group",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

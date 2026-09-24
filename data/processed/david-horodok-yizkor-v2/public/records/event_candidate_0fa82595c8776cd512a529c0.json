@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_0fa82595c8776cd512a529c0",
+  "type": "Event",
+  "title": "England and France declared war on Germany",
+  "summary": "England and France declared war on Germany on 3 September.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 58,
+  "printedPage": "51",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Declaration Of War",
+  "uncertaintyNote": "The declaration is explicit, but no directly matching event type is available.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cdc4d509e619180898b5d695",
+      "pageId": "page_nybc313739_0058",
+      "scanIndex": 58,
+      "leafNumber": 57,
+      "printedPage": "51",
+      "passageCharStart": 0,
+      "passageCharEnd": 48,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 48,
+      "pageCharStart": 2114,
+      "pageCharEnd": 2162,
+      "quote": "3 לספטמבר -- אנגליה וצרפת הכריזו מלחמה על גרמניה",
+      "normalizedQuote": "3 לספטמבר -- אנגליה וצרפת הכריזו מלחמה על גרמניה",
+      "modelQuote": "3 לספטמבר -- אנגליה וצרפת הכריזו מלחמה על גרמניה",
+      "bbox": {
+        "left": 2013,
+        "top": 4686,
+        "right": 3754,
+        "bottom": 4761
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n57/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "ec58d02b1146073ac5a38d90e31dfc8485cd7e8beb690ad144e218d33a01af44",
+      "normalizedPassageChecksum": "30bdb91995a90ab6c86a673cb79c58e28d8a166fa4bb1d281957c635a89b9c9d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_02250a5084c9d7814f9fc065",
+      "type": "Place",
+      "title": "England",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_734a7fb7bd70ed7a337c186a",
+      "type": "Place",
+      "title": "France",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_c94162f8a952f4aca56c6e2f",
+      "type": "Place",
+      "title": "Germany",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

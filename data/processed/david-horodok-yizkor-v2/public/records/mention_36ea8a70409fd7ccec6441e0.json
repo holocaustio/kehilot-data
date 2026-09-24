@@ -1,0 +1,113 @@
+{
+  "id": "mention_36ea8a70409fd7ccec6441e0",
+  "type": "Place",
+  "title": "Region east of the Horyn and Pripyat rivers",
+  "summary": "Region devastated by Tatars in 1240; inhabitants fled across the rivers.",
+  "originalName": "די גאנצע געגנט, וואס איז געלעגן אויף דער\nרעכטער זייט פון הארין און פריפיעט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 339,
+  "printedPage": "10",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "region",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cba0a0fbe287ab2be74845b4",
+      "pageId": "page_nybc313739_0339",
+      "scanIndex": 339,
+      "leafNumber": 338,
+      "printedPage": "10",
+      "passageCharStart": 245,
+      "passageCharEnd": 319,
+      "normalizedPassageCharStart": 245,
+      "normalizedPassageCharEnd": 319,
+      "pageCharStart": 2429,
+      "pageCharEnd": 2503,
+      "quote": "די גאנצע געגנט, וואס איז געלעגן אויף דער\nרעכטער זייט פון הארין און פריפיעט",
+      "normalizedQuote": "די גאנצע געגנט, וואס איז געלעגן אויף דער\nרעכטער זייט פון הארין און פריפיעט",
+      "modelQuote": "די גאנצע געגנט, וואס איז געלעגן אויף דער\nרעכטער זייט פון הארין און פריפיעט",
+      "bbox": {
+        "left": 1050,
+        "top": 4907,
+        "right": 3922,
+        "bottom": 5081
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n338/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "35d9bbea5048ae49d6c7fd0608df69f141b5578425f4b3d2076fbab6ce29fe6b",
+      "normalizedPassageChecksum": "2b556e8e1355be5f99fb0553597650e33f38a2b9211ea1e0b6a0af5642c3d20f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b25b106108a8ac7901bd15a4",
+      "type": "Destruction",
+      "title": "Tatar devastation of the region",
+      "summary": "In 1240, Tatars devastated the region east of the Horyn and Pripyat rivers; inhabitants fled across the rivers. Mikhail of Chernihiv is mentioned afterward as concentrating forces in Pinsk, not as a participant in the devastation.",
+      "dateStart": "1240",
+      "dateEnd": "1240",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cba0a0fbe287ab2be74845b4",
+        "pageId": "page_nybc313739_0339",
+        "scanIndex": 339,
+        "leafNumber": 338,
+        "printedPage": "10",
+        "passageCharStart": 212,
+        "passageCharEnd": 259,
+        "normalizedPassageCharStart": 212,
+        "normalizedPassageCharEnd": 259,
+        "pageCharStart": 2396,
+        "pageCharEnd": 2443,
+        "quote": "אין יאר 1240 מאכן די טאטארן חרוב די גאנצע געגנט",
+        "normalizedQuote": "אין יאר 1240 מאכן די טאטארן חרוב די גאנצע געגנט",
+        "modelQuote": "אין יאר 1240 מאכן די טאטארן חרוב די גאנצע געגנט",
+        "bbox": {
+          "left": 1947,
+          "top": 4913,
+          "right": 3700,
+          "bottom": 4978
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n338/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "35d9bbea5048ae49d6c7fd0608df69f141b5578425f4b3d2076fbab6ce29fe6b",
+        "normalizedPassageChecksum": "2b556e8e1355be5f99fb0553597650e33f38a2b9211ea1e0b6a0af5642c3d20f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b25b106108a8ac7901bd15a4",
+      "type": "Event",
+      "title": "Tatar devastation of the region",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5866d57bd43e230db95e6882",
+      "type": "Place",
+      "title": "Chernihiv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ef7b1c101c9aec0eb1b34933",
+      "type": "Person",
+      "title": "Mikhail of Chernihiv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7c94848a6bba5391baea7764",
+      "type": "Place",
+      "title": "Volhynian principality",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

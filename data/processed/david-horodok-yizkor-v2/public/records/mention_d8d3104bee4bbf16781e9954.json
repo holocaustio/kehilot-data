@@ -1,0 +1,120 @@
+{
+  "id": "mention_d8d3104bee4bbf16781e9954",
+  "type": "Organization",
+  "title": "Hussar Regiment",
+  "summary": "A Hussar regiment camped near the town and was invited to join the celebrations with its orchestra.",
+  "originalName": "גדוד ההוסארים",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 31,
+  "printedPage": "24",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military regiment",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_96ef9abfe66f37ff1074e95c",
+      "pageId": "page_nybc313739_0031",
+      "scanIndex": 31,
+      "leafNumber": 30,
+      "printedPage": "24",
+      "passageCharStart": 479,
+      "passageCharEnd": 511,
+      "normalizedPassageCharStart": 479,
+      "normalizedPassageCharEnd": 511,
+      "pageCharStart": 2703,
+      "pageCharEnd": 2735,
+      "quote": "אל גדוד ההוסארים שחנה בקרבת העיר",
+      "normalizedQuote": "אל גדוד ההוסארים שחנה בקרבת העיר",
+      "modelQuote": "אל גדוד ההוסארים שחנה בקרבת העיר",
+      "bbox": {
+        "left": 2196,
+        "top": 5113,
+        "right": 3422,
+        "bottom": 5189
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n30/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "794cb15e1d78020a05aaf95ec21f7550f39b03b519192fbebc4e3a0b592a2301",
+      "normalizedPassageChecksum": "07b5cfe65fa1b3c8fbe8ad4aa6ff273ee5a1668a86cc6de4bcf88c2870a25c82",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a8a1b62f86eeefe1d8b4861e",
+      "type": "Public Celebration",
+      "title": "May Day in David-Horodok, 1917",
+      "summary": "A May Day celebration was prepared in David-Horodok on May 1, 1917.",
+      "dateStart": "1917-05-01",
+      "dateEnd": "1917-05-01",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_96ef9abfe66f37ff1074e95c",
+        "pageId": "page_nybc313739_0031",
+        "scanIndex": 31,
+        "leafNumber": 30,
+        "printedPage": "24",
+        "passageCharStart": 359,
+        "passageCharEnd": 386,
+        "normalizedPassageCharStart": 359,
+        "normalizedPassageCharEnd": 386,
+        "pageCharStart": 2583,
+        "pageCharEnd": 2610,
+        "quote": "האחד במאי 1917 בדוד-הורודוק",
+        "normalizedQuote": "האחד במאי 1917 בדוד-הורודוק",
+        "modelQuote": "האחד במאי 1917 בדוד-הורודוק",
+        "bbox": {
+          "left": 1894,
+          "top": 4856,
+          "right": 3053,
+          "bottom": 4932
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n30/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "794cb15e1d78020a05aaf95ec21f7550f39b03b519192fbebc4e3a0b592a2301",
+        "normalizedPassageChecksum": "07b5cfe65fa1b3c8fbe8ad4aa6ff273ee5a1668a86cc6de4bcf88c2870a25c82",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a8a1b62f86eeefe1d8b4861e",
+      "type": "Event",
+      "title": "May Day in David-Horodok, 1917",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3968404cc6af27d8e363a97",
+      "type": "Organization",
+      "title": "Jewish-Christian Joint Committee",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e0b9c2100d5b1fddda2dc135",
+      "type": "Event",
+      "title": "Russian Revolution of 1917",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_558f258c2bbe3b1bf2c3a86b",
+      "type": "Event",
+      "title": "May Day in David-Horodok, 1917",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

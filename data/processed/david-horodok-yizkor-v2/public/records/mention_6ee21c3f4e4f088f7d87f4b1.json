@@ -1,0 +1,231 @@
+{
+  "id": "mention_6ee21c3f4e4f088f7d87f4b1",
+  "type": "Place",
+  "title": "Lublin",
+  "summary": "Place whose Jewish residents were ordered to leave their homes.",
+  "originalName": "לובלין",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 30,
+  "printedPage": "23",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_57a9691f4ec79093a5c0df77",
+      "pageId": "page_nybc313739_0030",
+      "scanIndex": 30,
+      "leafNumber": 29,
+      "printedPage": "23",
+      "passageCharStart": 229,
+      "passageCharEnd": 235,
+      "normalizedPassageCharStart": 229,
+      "normalizedPassageCharEnd": 235,
+      "pageCharStart": 2252,
+      "pageCharEnd": 2258,
+      "quote": "לובלין",
+      "normalizedQuote": "לובלין",
+      "modelQuote": "לובלין",
+      "bbox": {
+        "left": 1039,
+        "top": 4684,
+        "right": 1218,
+        "bottom": 4761
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n29/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "95b83bbf5f1b3c01b21bdabb8abfee6a4efb3b206a2e73033f9ec9d452229bc0",
+      "normalizedPassageChecksum": "8ff083dfac4dd2f32a37a95ae5b8005618d05b0c8e8fb541cd1bf06533c2a4d6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_edb34963b6a3aebec5611261",
+      "pageId": "page_nybc313739_0341",
+      "scanIndex": 341,
+      "leafNumber": 340,
+      "printedPage": "2",
+      "passageCharStart": 369,
+      "passageCharEnd": 402,
+      "normalizedPassageCharStart": 369,
+      "normalizedPassageCharEnd": 402,
+      "pageCharStart": 2360,
+      "pageCharEnd": 2393,
+      "quote": "אויף דער זיצונג פון לובלינער סיים",
+      "normalizedQuote": "אויף דער זיצונג פון לובלינער סיים",
+      "modelQuote": "אויף דער זיצונג פון לובלינער סיים",
+      "bbox": {
+        "left": 2185,
+        "top": 4475,
+        "right": 3275,
+        "bottom": 4549
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n340/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "95d14d76c0605616ec63dcfabfc71a55f79b15a0cd0e824427ecf1ed85d73636",
+      "normalizedPassageChecksum": "7350e6387cf4d5213b2612f1d707e3765c1ae0c23dd437c4533eb2cfdc40f88e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_33ff07b62f53edac463be896",
+      "predicate": "Part Of",
+      "subjectTitle": "Pinsk Principality",
+      "objectTitle": "Lublin",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The destination territories are named in the passage but are not represented as separate mentions here.",
+      "qualifiers": {
+        "status": "abolished and incorporated into other territories"
+      },
+      "evidence": {
+        "passageId": "passage_edb34963b6a3aebec5611261",
+        "pageId": "page_nybc313739_0341",
+        "scanIndex": 341,
+        "leafNumber": 340,
+        "printedPage": "2",
+        "passageCharStart": 129,
+        "passageCharEnd": 181,
+        "normalizedPassageCharStart": 129,
+        "normalizedPassageCharEnd": 181,
+        "pageCharStart": 2120,
+        "pageCharEnd": 2172,
+        "quote": "דאס פריערדיקע פינסקער פירשטנטום\nווערט דאן פאראייניקט",
+        "normalizedQuote": "דאס פריערדיקע פינסקער פירשטנטום\nווערט דאן פאראייניקט",
+        "modelQuote": "דאס פריערדיקע פינסקער פירשטנטום ווערט דאן פאראייניקט",
+        "bbox": {
+          "left": 1033,
+          "top": 4082,
+          "right": 3898,
+          "bottom": 4235
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n340/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "95d14d76c0605616ec63dcfabfc71a55f79b15a0cd0e824427ecf1ed85d73636",
+        "normalizedPassageChecksum": "7350e6387cf4d5213b2612f1d707e3765c1ae0c23dd437c4533eb2cfdc40f88e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_fc0129d7d02e3ec406253b25",
+      "type": "Political Union Formation",
+      "title": "Decision to create the Polish-Lithuanian political union",
+      "summary": "In 1569, the Lublin Sejm decided to create a close political union between Poland and Lithuania.",
+      "dateStart": "1569",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage describes a decision to create a political union; the available event types do not precisely represent union formation.",
+      "evidence": {
+        "passageId": "passage_edb34963b6a3aebec5611261",
+        "pageId": "page_nybc313739_0341",
+        "scanIndex": 341,
+        "leafNumber": 340,
+        "printedPage": "2",
+        "passageCharStart": 271,
+        "passageCharEnd": 308,
+        "normalizedPassageCharStart": 271,
+        "normalizedPassageCharEnd": 308,
+        "pageCharStart": 2262,
+        "pageCharEnd": 2299,
+        "quote": "אין יאר 1569 איז געשען א ווענדעדפונקט",
+        "normalizedQuote": "אין יאר 1569 איז געשען א ווענדעדפונקט",
+        "modelQuote": "אין יאר 1569 איז געשען א ווענדעדפונקט",
+        "bbox": {
+          "left": 2416,
+          "top": 4382,
+          "right": 3687,
+          "bottom": 4447
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n340/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "95d14d76c0605616ec63dcfabfc71a55f79b15a0cd0e824427ecf1ed85d73636",
+        "normalizedPassageChecksum": "7350e6387cf4d5213b2612f1d707e3765c1ae0c23dd437c4533eb2cfdc40f88e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_e730854c87d00ec1c01d901e",
+      "type": "Person",
+      "title": "Nikolai Nikolaevich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a5f8a5f083ba0dced852e8bc",
+      "type": "Place",
+      "title": "Sokółka District",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_52adcbffdc09d57554e7e37f",
+      "type": "Place",
+      "title": "Chełm",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aecb597914db01266b3d85bd",
+      "type": "Place",
+      "title": "Galicia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ba38d2541fc8ac18a470132c",
+      "type": "Institution",
+      "title": "Synagogues in David-Horodok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f8c42ccf6d5ef88f31b81ac4",
+      "type": "Place",
+      "title": "Pinsk Principality",
+      "relation": "Part Of"
+    },
+    {
+      "id": "event_candidate_fc0129d7d02e3ec406253b25",
+      "type": "Event",
+      "title": "Decision to create the Polish-Lithuanian political union",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c3368a29db0e6657f38c0567",
+      "type": "Person",
+      "title": "Sigismund Augustus",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f8c42ccf6d5ef88f31b81ac4",
+      "type": "Place",
+      "title": "Pinsk Principality",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c87b047eb3e8ba59b3a038d7",
+      "type": "Institution",
+      "title": "Lublin Sejm",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_40d47f2e70afd72877c8a3b0",
+      "type": "Person",
+      "title": "Sigismund III",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,143 @@
+{
+  "id": "mention_89d7b0e3e03a9052cbe1086d",
+  "type": "Person",
+  "title": "Young doctor",
+  "summary": "A young doctor briefly settled in the town and warned residents about disease.",
+  "originalName": "רופא צעיר",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 102,
+  "printedPage": "95",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "doctor",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cf596f5da55cf88cbb8a7bb4",
+      "pageId": "page_nybc313739_0102",
+      "scanIndex": 102,
+      "leafNumber": 101,
+      "printedPage": "95",
+      "passageCharStart": 17,
+      "passageCharEnd": 26,
+      "normalizedPassageCharStart": 17,
+      "normalizedPassageCharEnd": 26,
+      "pageCharStart": 2086,
+      "pageCharEnd": 2095,
+      "quote": "רופא צעיר",
+      "normalizedQuote": "רופא צעיר",
+      "modelQuote": "רופא צעיר",
+      "bbox": {
+        "left": 2857,
+        "top": 3942,
+        "right": 3195,
+        "bottom": 3999
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n101/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "b118021703e27f6857ada14fd5d89e1c6d7965611b471947c41cbdf18080d1a0",
+      "normalizedPassageChecksum": "a3b5f7b4581252ec01f558ba11bd367cd95cc1c42e2f10ba50d55ef55ff68eb9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d536b3ce4640a544ceed579e",
+      "type": "Migration",
+      "title": "Young doctor settles in the town",
+      "summary": "A young doctor came to settle, warned residents, then left the next day.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cf596f5da55cf88cbb8a7bb4",
+        "pageId": "page_nybc313739_0102",
+        "scanIndex": 102,
+        "leafNumber": 101,
+        "printedPage": "95",
+        "passageCharStart": 17,
+        "passageCharEnd": 48,
+        "normalizedPassageCharStart": 17,
+        "normalizedPassageCharEnd": 48,
+        "pageCharStart": 2086,
+        "pageCharEnd": 2117,
+        "quote": "רופא צעיר, בא יום אחד -- להשתקע",
+        "normalizedQuote": "רופא צעיר, בא יום אחד -- להשתקע",
+        "modelQuote": "רופא צעיר, בא יום אחד -- להשתקע",
+        "bbox": {
+          "left": 2027,
+          "top": 3927,
+          "right": 3195,
+          "bottom": 4005
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n101/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "b118021703e27f6857ada14fd5d89e1c6d7965611b471947c41cbdf18080d1a0",
+        "normalizedPassageChecksum": "a3b5f7b4581252ec01f558ba11bd367cd95cc1c42e2f10ba50d55ef55ff68eb9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_a016cfb28f331f058c8ddddd",
+      "type": "Migration",
+      "title": "Doctor leaves the town",
+      "summary": "The doctor packed his belongings and disappeared the day after the meeting.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cf596f5da55cf88cbb8a7bb4",
+        "pageId": "page_nybc313739_0102",
+        "scanIndex": 102,
+        "leafNumber": 101,
+        "printedPage": "95",
+        "passageCharStart": 473,
+        "passageCharEnd": 508,
+        "normalizedPassageCharStart": 473,
+        "normalizedPassageCharEnd": 508,
+        "pageCharStart": 2542,
+        "pageCharEnd": 2577,
+        "quote": "למחרת האסיפה, ארז את המטלטלין ונעלם",
+        "normalizedQuote": "למחרת האסיפה, ארז את המטלטלין ונעלם",
+        "modelQuote": "למחרת האסיפה, ארז את המטלטלין ונעלם",
+        "bbox": {
+          "left": 2603,
+          "top": 4544,
+          "right": 3906,
+          "bottom": 4621
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n101/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "b118021703e27f6857ada14fd5d89e1c6d7965611b471947c41cbdf18080d1a0",
+        "normalizedPassageChecksum": "a3b5f7b4581252ec01f558ba11bd367cd95cc1c42e2f10ba50d55ef55ff68eb9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d536b3ce4640a544ceed579e",
+      "type": "Event",
+      "title": "Young doctor settles in the town",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "event_candidate_a016cfb28f331f058c8ddddd",
+      "type": "Event",
+      "title": "Doctor leaves the town",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

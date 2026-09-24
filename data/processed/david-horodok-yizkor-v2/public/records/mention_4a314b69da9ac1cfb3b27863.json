@@ -1,0 +1,119 @@
+{
+  "id": "mention_4a314b69da9ac1cfb3b27863",
+  "type": "Institution",
+  "title": "English Consulate in Warsaw",
+  "summary": "Consulate where travelers received details and an order to leave Poland.",
+  "originalName": "ענגלישן קאנסולאט אין ווארשע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 444,
+  "printedPage": "105",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "consulate",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6ffad7549a7b29f2278a5eab",
+      "pageId": "page_nybc313739_0444",
+      "scanIndex": 444,
+      "leafNumber": 443,
+      "printedPage": "105",
+      "passageCharStart": 30,
+      "passageCharEnd": 61,
+      "normalizedPassageCharStart": 30,
+      "normalizedPassageCharEnd": 61,
+      "pageCharStart": 1023,
+      "pageCharEnd": 1054,
+      "quote": "אין ענגלישן קאנסולאט אין ווארשע",
+      "normalizedQuote": "אין ענגלישן קאנסולאט אין ווארשע",
+      "modelQuote": "אין ענגלישן קאנסולאט אין ווארשע",
+      "bbox": {
+        "left": 1496,
+        "top": 3246,
+        "right": 2578,
+        "bottom": 3325
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n443/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "38a656eaf2a37622c6a9e2fca282efea07fa090ae7d19f906a48873699aeb8ec",
+      "normalizedPassageChecksum": "7587bb97e11c9a0eb3969f3092357214b20e322c5411e7acd8c5b1e7fb976ad9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_aab17f7ee3db8b34af38445f",
+      "type": "Deportation",
+      "title": "Order to leave Poland",
+      "summary": "The English Consulate ordered travelers to leave Poland within 24 hours.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "This was an instruction, not necessarily an enforced deportation.",
+      "evidence": {
+        "passageId": "passage_6ffad7549a7b29f2278a5eab",
+        "pageId": "page_nybc313739_0444",
+        "scanIndex": 444,
+        "leafNumber": 443,
+        "printedPage": "105",
+        "passageCharStart": 116,
+        "passageCharEnd": 161,
+        "normalizedPassageCharStart": 116,
+        "normalizedPassageCharEnd": 161,
+        "pageCharStart": 1109,
+        "pageCharEnd": 1154,
+        "quote": "מיר זאלן אין פארלויף פון 24 שעה פארלאזן פוילן",
+        "normalizedQuote": "מיר זאלן אין פארלויף פון 24 שעה פארלאזן פוילן",
+        "modelQuote": "מיר זאלן אין פארלויף פון 24 שעה פארלאזן פוילן",
+        "bbox": {
+          "left": 1048,
+          "top": 3350,
+          "right": 2646,
+          "bottom": 3428
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n443/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "38a656eaf2a37622c6a9e2fca282efea07fa090ae7d19f906a48873699aeb8ec",
+        "normalizedPassageChecksum": "7587bb97e11c9a0eb3969f3092357214b20e322c5411e7acd8c5b1e7fb976ad9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_aab17f7ee3db8b34af38445f",
+      "type": "Event",
+      "title": "Order to leave Poland",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_0fbed82c0366c8a56430db01",
+      "type": "Place",
+      "title": "M. Rapafart’s parents’ home",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_35dd49f3546a35d8a2e95eec",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c245103ca266cff046ef7bcf",
+      "type": "Person",
+      "title": "M. Rapafart",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

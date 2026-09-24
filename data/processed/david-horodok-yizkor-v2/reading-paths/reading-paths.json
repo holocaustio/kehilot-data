@@ -1,0 +1,1915 @@
+{
+  "schemaVersion": "kehilot-yizkor-reading-paths-v1",
+  "pipelineVersion": "kehilot-yizkor-reading-paths-v1",
+  "promptVersion": "kehilot-yizkor-reading-paths-prompt-v1",
+  "generatedAt": "2026-09-24T13:54:26.121Z",
+  "community": {
+    "id": "community_david_horodok",
+    "displayName": "david-horodok",
+    "canonicalName": "david-horodok",
+    "country": "Belarus"
+  },
+  "book": {
+    "id": "book_nybc313739",
+    "title": "Sefer zikaron Daṿid-Horodoḳ"
+  },
+  "source": {
+    "selectedVersion": "david-horodok-yizkor-v2",
+    "graphPath": "data/processed/david-horodok-yizkor-v2/adjudication/resolved-graph.json",
+    "graphSha256": "9528a6b5c38afc9b5887ae542f5fc97d198b9610a8b23347e8e58bb43530a07a",
+    "candidateCount": 360
+  },
+  "model": {
+    "name": "gpt-5.6-luna",
+    "serviceTier": "flex",
+    "reasoningEffort": "medium"
+  },
+  "overview": {
+    "title": "Reading David-Horodok Through Its Memorial Book",
+    "summary": "David-Horodok was a Jewish community with religious institutions, schools, political movements, banks, trades, and organized communal life. The memorial book traces this world through changing rule and wartime upheaval, the German occupation, murder and deportation, and the efforts of individuals to hide, escape, fight, and survive. It also follows the community after destruction: survivors returned, rebuilt lives, pursued perpetrators, and preserved names and testimony. Exploring these paths will help readers see both the richness of prewar life and the human choices and losses recorded in its aftermath."
+  },
+  "paths": [
+    {
+      "id": "path_community_world",
+      "theme": "COMMUNITY_LIFE",
+      "title": "What kind of Jewish community was David-Horodok?",
+      "description": "This path introduces the institutions and everyday structures that made David-Horodok a functioning Jewish community. By the end, readers will see a town shaped by religious practice, education, economic cooperation, and mutual aid.",
+      "question": "How did communal life work before the destruction?",
+      "steps": [
+        {
+          "title": "A self-organized community",
+          "summary": "The memorial book describes David-Horodok as an organized Jewish settlement and says that its community became independent under tsarist rule. It also records a town administration elected every three years before Russian rule, showing that communal organization included civic as well as religious structures. [mention_aeca1dac65f285350a4e666c, mention_2896d732e9456d5f1c0b191a, mention_6ac54d8e2ccfa8e0edd9a0c8]",
+          "recordIds": [
+            "mention_aeca1dac65f285350a4e666c",
+            "mention_2896d732e9456d5f1c0b191a",
+            "mention_6ac54d8e2ccfa8e0edd9a0c8"
+          ],
+          "records": [
+            {
+              "recordId": "mention_aeca1dac65f285350a4e666c",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "David-Horodok",
+              "summary": "Jewish settlement and later organized community discussed in historical account.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 21,
+              "printedPage": "14",
+              "passageId": "passage_3e0971e4040aba67e1e9ecb4",
+              "quote": "קהילה יהודית מאורגנת בדוד-הורודוק"
+            },
+            {
+              "recordId": "mention_2896d732e9456d5f1c0b191a",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "David-Horodok community",
+              "summary": "The community became independent under tsarist rule, according to the passage.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 397,
+              "printedPage": "58",
+              "passageId": "passage_4e1a9a88dd1f82b50df3190b",
+              "quote": "ווען זי איז געווארן אונטער דער צארישער מאכט זעלבסטשטענדיק"
+            },
+            {
+              "recordId": "mention_6ac54d8e2ccfa8e0edd9a0c8",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "David-Horodok town administration",
+              "summary": "A town administration elected every three years before Russian rule.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 396,
+              "printedPage": "57",
+              "passageId": "passage_e66d7e7e5507db9c2921f439",
+              "quote": "א שטאט- פארוואלטונג"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Religious institutions and practice",
+          "summary": "The town had five houses of study, including one associated with Hasidim, and a community-supervised Chevra Kadisha with hereditary membership. Accounts of the Staliner shtibl, Sabbath life, and Passover prayer show religion as both institutional practice and shared communal culture. [mention_9d0122aa6bfc3711b0bc51ee, mention_09cffea528519cc5f6bb6084, mention_875e8e826984fbe87c5a86fc, event_candidate_3e2b1bf0f49ac019ccc521ae]",
+          "recordIds": [
+            "mention_9d0122aa6bfc3711b0bc51ee",
+            "mention_09cffea528519cc5f6bb6084",
+            "mention_875e8e826984fbe87c5a86fc",
+            "event_candidate_3e2b1bf0f49ac019ccc521ae"
+          ],
+          "records": [
+            {
+              "recordId": "mention_9d0122aa6bfc3711b0bc51ee",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "David-Horodok houses of study",
+              "summary": "Five city houses of study included one associated with Hasidim.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 23,
+              "printedPage": "16",
+              "passageId": "passage_9bf60a6c1674b2e472618e6b",
+              "quote": "בין 5 בחי\"המדרש שבעיר"
+            },
+            {
+              "recordId": "mention_09cffea528519cc5f6bb6084",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Chevra Kadisha",
+              "summary": "A community-supervised burial society with hereditary membership.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 397,
+              "printedPage": "58",
+              "passageId": "passage_4e1a9a88dd1f82b50df3190b",
+              "quote": "די חברה-קדישא, וועלכע איז געווען אונטער דער קהילה אויפזיכט"
+            },
+            {
+              "recordId": "mention_875e8e826984fbe87c5a86fc",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Staliner shtibl",
+              "summary": "Prayer house associated with singing and dancing.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 422,
+              "printedPage": "83",
+              "passageId": "passage_0713b84cd343dd9c23e074a8",
+              "quote": "אין סטאלינער ,שטיבל\" האט מען געהוליעט"
+            },
+            {
+              "recordId": "event_candidate_3e2b1bf0f49ac019ccc521ae",
+              "kind": "event",
+              "type": "RELIGIOUS_PRAYER",
+              "title": "Israel Yehuda Kula led Passover dew prayer",
+              "summary": "Rabbi Israel Yehuda Kula prayed the Passover dew prayer at the Stolin Hasidic synagogue; Rabbi David was among those present.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 170,
+              "printedPage": "163",
+              "passageId": "passage_6c13c2f037503095db9ecffa",
+              "quote": "בחג הפסח הראשון, בשעה שהתפלל ,תפילת טל\" בבית-הכנסת דחסידי סטולין"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Education, reading, and culture",
+          "summary": "Before 1905, a library for children and school youth was organized at S. Zagarodsky’s, and a reformed heder operated under teacher Barentshuk. The Tarbut school later became a source of communal pride; more than one hundred graduates continued in cultural institutions, including gymnasiums and seminaries. [mention_dab488115e2b3d35ee93d321, mention_0d67c2247e4d6f1b108b7faa, mention_ee181c2dd5e1eb18d28f26ce, event_candidate_1d481adac23334365e340273]",
+          "recordIds": [
+            "mention_dab488115e2b3d35ee93d321",
+            "mention_0d67c2247e4d6f1b108b7faa",
+            "mention_ee181c2dd5e1eb18d28f26ce",
+            "event_candidate_1d481adac23334365e340273"
+          ],
+          "records": [
+            {
+              "recordId": "mention_dab488115e2b3d35ee93d321",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Children and School Youth Library",
+              "summary": "A library organized at S. Zagarodsky’s before 1905.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 390,
+              "printedPage": "51",
+              "passageId": "passage_41aed7cab5bee65de207d898",
+              "quote": "א ביבליאטעק פאר קינדער און שולדיוגנט"
+            },
+            {
+              "recordId": "mention_0d67c2247e4d6f1b108b7faa",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "reformed heder",
+              "summary": "A reformed religious school operated by the teacher Barentshuk.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 154,
+              "printedPage": "147",
+              "passageId": "passage_74aa8c31ebcf1ba49d85c887",
+              "quote": "חדר מתוקן זה נתקיים על ידי המורה ברנצ'וק"
+            },
+            {
+              "recordId": "mention_ee181c2dd5e1eb18d28f26ce",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Hebrew public of the town",
+              "summary": "Community that took pride in the Tarbut school.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 147,
+              "printedPage": "140",
+              "passageId": "passage_422652042e0ff65e7c8fc2b8",
+              "quote": "של הציבור העברי בעיירתנו"
+            },
+            {
+              "recordId": "event_candidate_1d481adac23334365e340273",
+              "kind": "event",
+              "type": "SCHOOL_ATTENDANCE",
+              "title": "Graduates continued studies",
+              "summary": "More than one hundred graduates continued studies in cultural institutions, including gymnasiums and seminaries.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 150,
+              "printedPage": "143",
+              "passageId": "passage_4fd7c742d4fa64d918618e06",
+              "quote": "חלק רב מהם ממשיך את חוק למודיו במוסדות ,תרבות*"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Work and mutual economic support",
+          "summary": "Merchants founded a bank in 1909, another merchants’ bank is recorded under M. Kviernes in 1923, and a People’s Bank was founded in 1924 under Sh. Papish. A Gemilut Hasadim fund offered interest-free loans to small retailers and artisans, linking economic life with communal assistance. [event_candidate_f45726c1fa8c7aca42c82026, event_candidate_3b7bd64dfb6e190e00c95c1d, event_candidate_af80afa7e81ec09c6e077adc, mention_16fee6708ec6ee75c346663e]",
+          "recordIds": [
+            "event_candidate_f45726c1fa8c7aca42c82026",
+            "event_candidate_3b7bd64dfb6e190e00c95c1d",
+            "event_candidate_af80afa7e81ec09c6e077adc",
+            "mention_16fee6708ec6ee75c346663e"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_f45726c1fa8c7aca42c82026",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of the Merchants' Bank",
+              "summary": "The merchants' bank was founded in David-Horodok in 1909.",
+              "dateStart": "1909",
+              "dateEnd": "",
+              "scanIndex": 394,
+              "printedPage": "55",
+              "passageId": "passage_f53ea3d67793e81593d4970b",
+              "quote": "אין יאר 1909 איז לויט דער איניציאטיוו פון די גרעסערע סוחרים אין דאוויד\"האראדאק געגרינדעט געווארן א סוחרים באנק"
+            },
+            {
+              "recordId": "event_candidate_3b7bd64dfb6e190e00c95c1d",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of a Merchants' Bank",
+              "summary": "A merchants' bank was founded in 1923 under M. Kviernes's leadership.",
+              "dateStart": "1923",
+              "dateEnd": "",
+              "scanIndex": 394,
+              "printedPage": "55",
+              "passageId": "passage_f53ea3d67793e81593d4970b",
+              "quote": "אין יאר 1923 געגרינדעט געווארן אונטער דער לייטונג פון מ. קוויעטני די סוחרים באנק"
+            },
+            {
+              "recordId": "event_candidate_af80afa7e81ec09c6e077adc",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of the People's Bank",
+              "summary": "The people's bank was founded in 1924 under Sh. Papish's leadership.",
+              "dateStart": "1924",
+              "dateEnd": "",
+              "scanIndex": 394,
+              "printedPage": "55",
+              "passageId": "passage_f53ea3d67793e81593d4970b",
+              "quote": "אין יאר 1924 איז אונטער דער לייטונג פון ש. פאפיש געגרינדעט געווארן די פאלקס-באנק"
+            },
+            {
+              "recordId": "mention_16fee6708ec6ee75c346663e",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Gemilut Hasadim Fund",
+              "summary": "Provided interest-free loans to small retailers and artisans.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 394,
+              "printedPage": "55",
+              "passageId": "passage_5ba89f8c8018a14b9ca47039",
+              "quote": "א גמילות-חסדים-קאסע, וועלכע האט פאר קליינהענדלער און האנטווערקער געגעבן אן פראצענטיקע הלואות"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_politics_change",
+      "theme": "POLITICS",
+      "title": "How did politics and changing borders shape the town?",
+      "description": "This path follows socialist, Zionist, and communal political activity alongside the successive authorities that governed David-Horodok. It helps readers understand why political ideas, migration plans, and state power mattered so deeply to local lives.",
+      "question": "How did residents respond to political change before the Holocaust?",
+      "steps": [
+        {
+          "title": "Political movements take root",
+          "summary": "During the revolutionary period of 1905, a small Bund group was organized in David-Horodok, and Poale Zion also existed there. The memorial book thus presents political life as plural, with competing socialist and Zionist visions active in the town. [event_candidate_61032a7ea799c1d014ada76e, mention_749d32a48606275263727c6a]",
+          "recordIds": [
+            "event_candidate_61032a7ea799c1d014ada76e",
+            "mention_749d32a48606275263727c6a"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_61032a7ea799c1d014ada76e",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Organization of a Bund Group in 1905",
+              "summary": "A small Bund group was organized in David-Horodok under Helfant’s leadership.",
+              "dateStart": "1905",
+              "dateEnd": "1905",
+              "scanIndex": 384,
+              "printedPage": "45",
+              "passageId": "passage_a5b83bb66d6bfcce835d99bc",
+              "quote": "אין יאר 1905 איז אין דאוויד-האראדאק געווען ארגאניזירט א קליין גרופע פון ,בונד\""
+            },
+            {
+              "recordId": "mention_749d32a48606275263727c6a",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Poale Zion",
+              "summary": "The Poale Zion party also existed in David-Horodok at that time.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 384,
+              "printedPage": "45",
+              "passageId": "passage_a5b83bb66d6bfcce835d99bc",
+              "quote": "די פועלי- ציון פארטיי"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Zionist education and public activity",
+          "summary": "The town had a Zionist youth organization, a local Zionist committee, and a General Zionist organization active in Keren Hayesod. The book also recalls a torchlight demonstration before Zionist Congress elections, showing that Zionism was expressed through organizations, fundraising, education, and public ceremony. [mention_8603de48505a8769f8004659, mention_f7e9ea62733ea5fc4853710d, mention_d2f686145f5499f43f431131, event_candidate_e948b3840d9ba25bc9d69918]",
+          "recordIds": [
+            "mention_8603de48505a8769f8004659",
+            "mention_f7e9ea62733ea5fc4853710d",
+            "mention_d2f686145f5499f43f431131",
+            "event_candidate_e948b3840d9ba25bc9d69918"
+          ],
+          "records": [
+            {
+              "recordId": "mention_8603de48505a8769f8004659",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Zionist Youth Organization in David Horodok",
+              "summary": "Zionist youth organization named in David Horodok.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 376,
+              "printedPage": "37",
+              "passageId": "passage_2ef7923be0a06961f467eb24",
+              "quote": "קן הנער-הציוני בדויד גרודק"
+            },
+            {
+              "recordId": "mention_f7e9ea62733ea5fc4853710d",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Local Zionist committee",
+              "summary": "A local Zionist committee whose member Abraham Dortsin was elected.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 175,
+              "printedPage": "168",
+              "passageId": "passage_02fcb5ed4c5f55fd9f2c9c52",
+              "quote": "נבחר כחבר לועד הציוני המקומי"
+            },
+            {
+              "recordId": "mention_d2f686145f5499f43f431131",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Keren Hayesod",
+              "summary": "An organization in which the General Zionists were active.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 42,
+              "printedPage": "35",
+              "passageId": "passage_5cc0a5c5d61308b2e5775e18",
+              "quote": "קרן- היסוד"
+            },
+            {
+              "recordId": "event_candidate_e948b3840d9ba25bc9d69918",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Torchlight demonstration before Zionist Congress elections",
+              "summary": "A torchlight demonstration occurred on Saturday night before the Zionist Congress elections.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 139,
+              "printedPage": "132",
+              "passageId": "passage_87c7b692a416eeac793c3ae1",
+              "quote": "הפגנת הלפידים במוצאי שבת ערב הבחירות לקונגרס הציוני"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Elections and communal authority",
+          "summary": "Jewish community elections are recorded in 1928 and 1936, while municipal elections took place across Poland in 1928, including David-Horodok. These accounts show residents negotiating representation through both Jewish communal institutions and the wider political framework of Poland. [event_candidate_338cbe2271285d637c7f90c6, event_candidate_af966dbecfba85d507fb0aa1, event_candidate_f0a1ebe00540af1ee9e497b5]",
+          "recordIds": [
+            "event_candidate_338cbe2271285d637c7f90c6",
+            "event_candidate_af966dbecfba85d507fb0aa1",
+            "event_candidate_f0a1ebe00540af1ee9e497b5"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_338cbe2271285d637c7f90c6",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Jewish community elections",
+              "summary": "Jewish community elections were held in David-Horodok in 1928.",
+              "dateStart": "1928",
+              "dateEnd": "1928",
+              "scanIndex": 398,
+              "printedPage": "59",
+              "passageId": "passage_114f23f904bb7d4ff60502d2",
+              "quote": "איין מאל אין יאר 1928, ווען ס'איז אלס פרעזעס אויסגעוויילט געווארן מאיר מוראווטשיק"
+            },
+            {
+              "recordId": "event_candidate_af966dbecfba85d507fb0aa1",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Jewish community elections",
+              "summary": "Jewish community elections were held in David-Horodok in 1936.",
+              "dateStart": "1936",
+              "dateEnd": "1936",
+              "scanIndex": 398,
+              "printedPage": "59",
+              "passageId": "passage_114f23f904bb7d4ff60502d2",
+              "quote": "דאס צווייטע מאל אין יאר 1936. אלס פרעזעס איז דאן אויסגעוויילט געווארן קאפלינסקי."
+            },
+            {
+              "recordId": "event_candidate_f0a1ebe00540af1ee9e497b5",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Municipal elections in David-Horodok",
+              "summary": "Municipal elections were held throughout Poland, including David-Horodok, in 1928.",
+              "dateStart": "1928",
+              "dateEnd": "",
+              "scanIndex": 56,
+              "printedPage": "49",
+              "passageId": "passage_743675ce8fd199cbbed8a055",
+              "quote": "בשנה זאת נתקיימו בחירות לעיריות בכל רחבי פולין"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Borders close and power changes",
+          "summary": "The book records that David-Horodok belonged to Poland from 1920 until September 1939, when Red Army units entered after Polish forces withdrew. It also describes the closing of the route to the Land of Israel, a change that ended many young people’s immigration plans. [mention_4dc847133b7bbc3c1a4d1c48, event_candidate_e1df7af434b09ea87666cb5b, mention_be96698fcf1de80a850bb54f]",
+          "recordIds": [
+            "mention_4dc847133b7bbc3c1a4d1c48",
+            "event_candidate_e1df7af434b09ea87666cb5b",
+            "mention_be96698fcf1de80a850bb54f"
+          ],
+          "records": [
+            {
+              "recordId": "mention_4dc847133b7bbc3c1a4d1c48",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Poland",
+              "summary": "David-Horodok belonged to Poland from 1920 until September 1939.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 344,
+              "printedPage": "5",
+              "passageId": "passage_8bcab8f8067f4fc70ccef390",
+              "quote": "פון יאר 1920 ביז סעפטעמבער 1939 געהערט דאוויד-האראדאק צו פוילן"
+            },
+            {
+              "recordId": "event_candidate_e1df7af434b09ea87666cb5b",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Red Army entry into David-Horodok",
+              "summary": "Red Army assault units entered after Polish forces withdrew and crossed the river.",
+              "dateStart": "1939-09-19",
+              "dateEnd": "",
+              "scanIndex": 400,
+              "printedPage": "61",
+              "passageId": "passage_e32597eb80b3e1aeb54dca1e",
+              "quote": "גלייך נאך זיי קומען אֶן די שטורם-אפטיילונגען פון דער רויטער ארמיי"
+            },
+            {
+              "recordId": "mention_be96698fcf1de80a850bb54f",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Land of Israel",
+              "summary": "The route to the Land of Israel was closed, ending many youths’ plans for immigration.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 36,
+              "printedPage": "29",
+              "passageId": "passage_6b42b3f5ecb1413c587cab9f",
+              "quote": "נסגרה הדרך לארץ-ישראל"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_occupation_destruction",
+      "theme": "OCCUPATION_GHETTO",
+      "title": "How did occupation become persecution and mass murder?",
+      "description": "This path moves from military occupation and forced labor to roundups, ghettos, and killings. It shows how the memorial book records destruction through both collective events and individual victims.",
+      "question": "How was David-Horodok’s Jewish population persecuted and destroyed?",
+      "steps": [
+        {
+          "title": "Occupation and coercion",
+          "summary": "After German forces occupied the town, Jewish men were taken to work outside it, while women and children were ordered to leave within one hour. The book also records Jewish men being assembled at the market opposite the Catholic church for labor, illustrating how occupation entered ordinary public spaces. [event_candidate_69f31fb2912186171604778c, event_candidate_76016559c7a50207c9e5d29c, mention_ea655fdcc242a18799afa6d8]",
+          "recordIds": [
+            "event_candidate_69f31fb2912186171604778c",
+            "event_candidate_76016559c7a50207c9e5d29c",
+            "mention_ea655fdcc242a18799afa6d8"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_69f31fb2912186171604778c",
+              "kind": "event",
+              "type": "EMPLOYMENT",
+              "title": "Jewish men taken for labor",
+              "summary": "German authorities took Jewish men to work outside the town.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 225,
+              "printedPage": "218",
+              "passageId": "passage_d0d88253c84b02b10575d23c",
+              "quote": "הגברים נלקחו -- באותו יום -- לעבודה מחוץ לעיר"
+            },
+            {
+              "recordId": "event_candidate_76016559c7a50207c9e5d29c",
+              "kind": "event",
+              "type": "DEPORTATION",
+              "title": "Forced departure of women",
+              "summary": "All women and children were ordered to leave the city within one hour.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 64,
+              "printedPage": "57",
+              "passageId": "passage_c331fe56b07966d339ede9ab",
+              "quote": "כל הנשים, על טפן, נצטוו לעזוב את העיר במשך שעה אחת"
+            },
+            {
+              "recordId": "mention_ea655fdcc242a18799afa6d8",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Market opposite the Catholic church",
+              "summary": "Meeting place where Jewish men were ordered to assemble for work.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 407,
+              "printedPage": "68",
+              "passageId": "passage_5477ab966567fe0b25d9cb41",
+              "quote": "אויפן מארק קעגנאיבער דעם קאטוילישן קאשציאל"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "The first mass killings",
+          "summary": "A memorial-book account dates an atrocity in David-Horodok to 27 July 1941, when men were assembled under false pretenses and shot. Another account records fifty-three people murdered in 1941, including Jacob, Hannah’s father, and Gitl’s husband. [event_candidate_c63b4b0144bca152fd0b3c06, event_candidate_cc1d34d7625d3df01d76c935]",
+          "recordIds": [
+            "event_candidate_c63b4b0144bca152fd0b3c06",
+            "event_candidate_cc1d34d7625d3df01d76c935"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_c63b4b0144bca152fd0b3c06",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Mass killing of men in David Horodok",
+              "summary": "Men were assembled outside David Horodok under false pretenses and shot.",
+              "dateStart": "1941-07-27",
+              "dateEnd": "1941-07-27",
+              "scanIndex": 216,
+              "printedPage": "209",
+              "passageId": "passage_e17c6a78a6a477aec5f8bbdf",
+              "quote": "בשנת 1941, בשבוע אחר תשעה-באב, אני זוכר, זה היה ביום ראשון לשבוע, היתה השחיטה האיומה בדויד הורודוק."
+            },
+            {
+              "recordId": "event_candidate_cc1d34d7625d3df01d76c935",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "1941 David-Horodok massacre",
+              "summary": "Fifty-three people were murdered, including Jacob, Hannah's father, and Gitl's husband.",
+              "dateStart": "1941",
+              "dateEnd": "",
+              "scanIndex": 478,
+              "printedPage": "69",
+              "passageId": "passage_23667cf46ef0a0f5108b7723",
+              "quote": "פארוואס ? 53 קדושים זענען דאן דערמארדעט געווארן"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Roundups and ghettos",
+          "summary": "On 16 August 1941, Jewish quarters were surrounded and men and children were brought to a Catholic monastery courtyard. The book also records the establishment of the Sarny Ghetto and the existence of ghettos in Stalin and Visotsker, showing how persecution extended across the surrounding region. [event_candidate_1d8f640b02a6e4722e33a8cc, event_candidate_d9ab66c1ff37807132606515, mention_15235631087c338919cd90d5d5, mention_f636d704b566a8033e2e191c]",
+          "recordIds": [
+            "event_candidate_1d8f640b02a6e4722e33a8cc",
+            "event_candidate_d9ab66c1ff37807132606515",
+            "mention_15235631087c338919cd90d5d5",
+            "mention_f636d704b566a8033e2e191c"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_1d8f640b02a6e4722e33a8cc",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Roundup of Jewish quarters",
+              "summary": "Jewish quarters were surrounded and men and children were brought to a Catholic monastery courtyard.",
+              "dateStart": "1941-08-16",
+              "dateEnd": "",
+              "scanIndex": 450,
+              "printedPage": "111",
+              "passageId": "passage_80aaf13825a049100eedbb74",
+              "quote": "זענען ארומגערינגלט געווארן אלע יידישע קווארטאלן"
+            },
+            {
+              "recordId": "event_candidate_d9ab66c1ff37807132606515",
+              "kind": "event",
+              "type": "AKTION_OR_RAID",
+              "title": "Establishment of a Ghetto in Sarny",
+              "summary": "A ghetto was established in Sarny’s Jewish quarter.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 472,
+              "printedPage": "63",
+              "passageId": "passage_57224ff0042bb9a87c13ae50",
+              "quote": "אין יידישן קווארטאל אויפגעשטעלט א געטא"
+            },
+            {
+              "recordId": "mention_f636d704b566a8033e2e191c",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Visotsker Ghetto",
+              "summary": "Ghetto where some expelled people arrived and were liquidated.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 451,
+              "printedPage": "112",
+              "passageId": "passage_336e7cdccf4538f10b80812b",
+              "quote": "וויסאצקער געטאס"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Murder of a community",
+          "summary": "The testimony names local and German-aligned perpetrators, including Ivan Mareyka, and describes Jews murdered in hiding, at a bridge, and in mass graves near Olshan. These accounts matter because they preserve the circumstances of individual deaths while also documenting the organized destruction of the wider community. [mention_67979d3448b51b33bd909438, event_candidate_e3a08578571acfa188df738c, event_candidate_5a1cbfecc985981d16334fac, event_candidate_87a94c3cbbbd236a17e9618b, mention_02863a7d3c98c2508bde5e74]",
+          "recordIds": [
+            "mention_67979d3448b51b33bd909438",
+            "event_candidate_e3a08578571acfa188df738c",
+            "event_candidate_5a1cbfecc985981d16334fac",
+            "event_candidate_87a94c3cbbbd236a17e9618b5e74b6d3a5d77fd"
+          ],
+          "records": [
+            {
+              "recordId": "mention_67979d3448b51b33bd909438",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Ivan Mareyka",
+              "summary": "Identified as the principal culprit and murderer.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 484,
+              "printedPage": "75",
+              "passageId": "passage_5ec16a22fa09d6018529c674",
+              "quote": "דער פעלדשער איוואן מארייקא"
+            },
+            {
+              "recordId": "event_candidate_e3a08578571acfa188df738c",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Murder of Abraham Slutsky",
+              "summary": "Abraham Slutsky was discovered and immediately murdered.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 457,
+              "printedPage": "48",
+              "passageId": "passage_94f31fe389dd8c391b60d43d",
+              "quote": "דער ערשטער איז אנטדעקט געווארן אברהם סלוצקי דער בעל-עגלה"
+            },
+            {
+              "recordId": "event_candidate_5a1cbfecc985981d16334fac",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Women murdered at Alshaner Bridge",
+              "summary": "Feygele and Rivka were stripped, expelled to Alshaner Bridge, and murdered there.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 451,
+              "printedPage": "112",
+              "passageId": "passage_336e7cdccf4538f10b80812b",
+              "quote": "אוועקגעיאגט צום אלשאנער בריק און מ'האט זיי דארט דערמארדעט."
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_survival_resistance",
+      "theme": "HIDING_ESCAPE_RESISTANCE",
+      "title": "How did people resist, hide, and survive?",
+      "description": "This path follows the different possibilities recorded in the book: escape from ghettos, help from non-Jewish people, partisan warfare, and dangerous attempts to cross borders. It emphasizes survival as a series of individual acts under extreme constraint, not a single experience.",
+      "question": "What forms did survival and resistance take?",
+      "steps": [
+        {
+          "title": "Escape from the ghetto",
+          "summary": "Michael Nosentschuk escaped with help from a non-Jewish man and then joined a partisan unit. His account connects flight from confinement with armed resistance after leaving the ghetto. [event_candidate_13a4ac26b31cc98227656ab9, event_candidate_dcfc0cd97e2a75943ed05124, mention_cb9960fd6c7dd1b3bc4e0f77]",
+          "recordIds": [
+            "event_candidate_13a4ac26b31cc98227656ab9",
+            "event_candidate_dcfc0cd97e2a75943ed05124",
+            "mention_cb9960fd6c7dd1b3bc4e0f77"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_13a4ac26b31cc98227656ab9",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Michael Nosentschuk’s escape from the ghetto",
+              "summary": "Michael Nosentschuk escaped the ghetto with assistance from a non-Jewish man.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 218,
+              "printedPage": "211",
+              "passageId": "passage_ad041aeecedf730f9dc5a14b",
+              "quote": "והוא הוציאני מן הגיטו"
+            },
+            {
+              "recordId": "event_candidate_dcfc0cd97e2a75943ed05124",
+              "kind": "event",
+              "type": "MILITARY_SERVICE",
+              "title": "Michael Nosentschuk joined the partisans",
+              "summary": "After leaving the ghetto, Michael Nosentschuk joined a partisan unit.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 218,
+              "printedPage": "211",
+              "passageId": "passage_ad041aeecedf730f9dc5a14b",
+              "quote": "נכנסתי לפלוגת הפארטיזאנים"
+            },
+            {
+              "recordId": "mention_cb9960fd6c7dd1b3bc4e0f77",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Leader of the thieves in Stolin",
+              "summary": "A tall non-Jewish man who helped the narrator escape the ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 218,
+              "printedPage": "211",
+              "passageId": "passage_ad041aeecedf730f9dc5a14b",
+              "quote": "זה היה ראש הגנבים בסטולין"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Hiding and help",
+          "summary": "The memorial book records Brakha and Barukh escaping with non-Jewish help into the Dubinets Forest, and Yitzhak surviving because a Christian woman concealed him. It also names Kristin Aleksandra Agradzinska as a Christian woman said to have hidden a Jewish girl without reporting her. [mention_090840b333f13ec60c86acf0, event_candidate_155f919631ecb16222f21dcd, mention_1c70eaaaf899910788b0d4e7]",
+          "recordIds": [
+            "mention_090840b333f13ec60c86acf0",
+            "event_candidate_155f919631ecb16222f21dcd",
+            "mention_1c70eaaaf899910788b0d4e7"
+          ],
+          "records": [
+            {
+              "recordId": "mention_090840b333f13ec60c86acf0",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Dubinets Forest",
+              "summary": "Forest where Brakha and Barukh escaped with non-Jewish help.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 458,
+              "printedPage": "49",
+              "passageId": "passage_55aeb6ba788d861455898f07",
+              "quote": "אין דובינעצער וואלד"
+            },
+            {
+              "recordId": "event_candidate_155f919631ecb16222f21dcd",
+              "kind": "event",
+              "type": "LIBERATION",
+              "title": "Yitzhak survives through Christian woman's concealment",
+              "summary": "Yitzhak survived because a Christian woman hid him after he promised to marry her.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 451,
+              "printedPage": "112",
+              "passageId": "passage_e2c91d10ac0d3d705c725dcd",
+              "quote": "איז לעבנגעבליבן אדאנק א קריסטין וואס האט אים אויסבאהאלטן"
+            },
+            {
+              "recordId": "mention_1c70eaaaf899910788b0d4e7",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Kristin Aleksandra Agradzinska",
+              "summary": "A Christian woman said to have hidden a Jewish girl and not reported her.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 491,
+              "printedPage": "12",
+              "passageId": "passage_ce7a6662ae2dd14b15e1fa38",
+              "quote": "די קריסטין אלעקסאנדרא אגרא- דזינסקא"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Armed resistance",
+          "summary": "One survivor joined a partisan detachment, and another account says partisan units destroyed bridges and railways to hinder the German retreat. The book therefore preserves Jewish participation in resistance not only as escape, but also as organized military action. [event_candidate_e3950c91e4fa5606b26a3c6c, event_candidate_3f71479b18d2c4ad2a630b72]",
+          "recordIds": [
+            "event_candidate_e3950c91e4fa5606b26a3c6c",
+            "event_candidate_3f71479b18d2c4ad2a630b72"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_e3950c91e4fa5606b26a3c6c",
+              "kind": "event",
+              "type": "MILITARY_SERVICE",
+              "title": "Partisan service",
+              "summary": "The narrator joined a partisan unit during wartime.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 478,
+              "printedPage": "69",
+              "passageId": "passage_ebeabf7636cc4a89044a9244",
+              "quote": "אריינצוגיין אין פארטיזאנישן אטריאד"
+            },
+            {
+              "recordId": "event_candidate_3f71479b18d2c4ad2a630b72",
+              "kind": "event",
+              "type": "MILITARY_SERVICE",
+              "title": "Partisan destruction of bridges and railways",
+              "summary": "Partisan units destroyed bridges and railways to hinder the German retreat.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 230,
+              "printedPage": "223",
+              "passageId": "passage_67b215c3137d1b4a15dcb56e",
+              "quote": "כל הגשרים ומסילות הברזל נהרסו על ידינו ועל ידי פלוגות פרטיזנים אחרות"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Flight, borders, and impossible choices",
+          "summary": "Several accounts describe attempted departures toward Vilna or across a border, but guards returned or refused passage. Other survivors escaped an evacuation train or reached Soviet territory, showing how movement could offer hope while remaining dangerous and uncertain. [event_candidate_77286beb64c21cd8df6fdf72, event_candidate_76482a132ec3e938c9d62da7, event_candidate_ddd2bb780c82b0ffda7d432a, mention_738eab7184c36b969b784410]",
+          "recordIds": [
+            "event_candidate_77286beb64c21cd8df6fdf72",
+            "event_candidate_76482a132ec3e938c9d62da7",
+            "event_candidate_ddd2bb780c82b0ffda7d432a",
+            "mention_738eab7184c36b969b784410"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_77286beb64c21cd8df6fdf72",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Group attempted migration toward Vilna",
+              "summary": "The group reached Eishyshok, learned Vilna was returning arrivals, and returned.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 212,
+              "printedPage": "205",
+              "passageId": "passage_91aa8ac6ef1f3ef54efd1ee4",
+              "quote": "מוילנה מחזירים את הבאים למקומם וחזרנו"
+            },
+            {
+              "recordId": "event_candidate_76482a132ec3e938c9d62da7",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Attempted border crossing",
+              "summary": "A group attempted to cross the border but guards refused passage.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 447,
+              "printedPage": "108",
+              "passageId": "passage_9e9be5bbcaf661d22b81b3dd",
+              "quote": "אז מיר זענען געקומען צום גרענעץ האבן די וועכטער פאר קיין פאל אונז ניט געלאזט דורכגיין"
+            },
+            {
+              "recordId": "event_candidate_ddd2bb780c82b0ffda7d432a",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Yevgeny Yevplov and Lazer Rankin escape an evacuation train",
+              "summary": "They escaped while prisoners were evacuated deep into Russia during the German-Soviet war.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 490,
+              "printedPage": "11",
+              "passageId": "passage_6d2af62ba473728ab354954c",
+              "quote": "ער צוזאמען מיט לייזער ראנקין אנטלאפן פון עשאלאן"
+            },
+            {
+              "recordId": "mention_738eab7184c36b969b784410",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Soviet Russia",
+              "summary": "Territory reached at the end of the journey.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 211,
+              "printedPage": "204",
+              "passageId": "passage_752de0a594d6cd77fd175db8",
+              "quote": "על אדמת רוסיה הסוביטית"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_families_afterlife",
+      "theme": "SURVIVAL_AFTERLIFE",
+      "title": "What happened to families after the destruction?",
+      "description": "This path brings the story from wartime loss into liberation, return, rebuilding, and justice. It helps readers understand that survival involved fractured families, physical return to a devastated town, and the creation of new lives elsewhere.",
+      "question": "How did survivors carry family and community forward?",
+      "steps": [
+        {
+          "title": "Families under persecution",
+          "summary": "The book recalls families separated by arrest, deportation, and murder, including Golda Finkelstein and her mother Yentl in the Sarny Ghetto. Another narrator remembers being with parents during the final night in the ghetto, while recalling a wider family of a wife, four children, parents, siblings, and sisters. [mention_57ea468ae2cbc4593d4a34b6, mention_e31ead8de912229c1ea48219, mention_5b7f2036ccbced2a8866343c, mention_7c77167e6b1e72b26ab46d46]",
+          "recordIds": [
+            "mention_57ea468ae2cbc4593d4a34b6",
+            "mention_e31ead8de912229c1ea48219",
+            "mention_5b7f2036ccbced2a8866343c",
+            "mention_7c77167e6b1e72b26ab46d46"
+          ],
+          "records": [
+            {
+              "recordId": "mention_57ea468ae2cbc4593d4a34b6",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Golda Finkelstein",
+              "summary": "A David-Horodok resident who gave birth in Sarny ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 226,
+              "printedPage": "219",
+              "passageId": "passage_5885c5bc65ad8f4bd7638de3",
+              "quote": "מבני דוידהורודוק שהו אתנו בגיטו : גולדה פינקלשטין"
+            },
+            {
+              "recordId": "mention_e31ead8de912229c1ea48219",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Yentl Finkelstein",
+              "summary": "Golda Finkelstein’s mother, staying with her in the ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 226,
+              "printedPage": "219",
+              "passageId": "passage_5885c5bc65ad8f4bd7638de3",
+              "quote": "גולדה פינקלשטין עם אמה ינטל"
+            },
+            {
+              "recordId": "mention_5b7f2036ccbced2a8866343c",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Narrator's parents",
+              "summary": "The narrator's parents, who prepared for death in the ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 480,
+              "printedPage": "71",
+              "passageId": "passage_3d7fd18eb6462320c1d02b85",
+              "quote": "איך בין געווען צוזאמען מיט די עלטערן ביז דריי אזייגער ביינאכט"
+            },
+            {
+              "recordId": "mention_7c77167e6b1e72b26ab46d46",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Narrator's family",
+              "summary": "The narrator recalls a wife, four children, parents, brothers, and sisters.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 491,
+              "printedPage": "12",
+              "passageId": "passage_bb51bcf7a167a1fa0cf866c6",
+              "quote": "מיין גאנצער משפחה, אן מיין פרוי, מיינע 4 קינדערלאך, מיינע עלטערן, ברידער און שוועסטער"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Liberation and a burned town",
+          "summary": "After liberation, survivors visited David-Horodok and found the town burned. The account records return not as a simple restoration, but as an encounter with the physical remains of a destroyed community. [event_candidate_05ef01958d4a391b1775c3af]",
+          "recordIds": [
+            "event_candidate_05ef01958d4a391b1775c3af"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_05ef01958d4a391b1775c3af",
+              "kind": "event",
+              "type": "LIBERATION",
+              "title": "Post-liberation visit to David-Horodok",
+              "summary": "Several survivors visited David-Horodok after liberation and found the town burned.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 410,
+              "printedPage": "71",
+              "passageId": "passage_84209fd11da8adb88e074d82",
+              "quote": "נאך דער באפרייונג, באזוכנדיק דאוויד-האראדאק"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Survivors return and rebuild",
+          "summary": "Some survivors later returned to Horodok, including Zeev Shalom Lachovsky and Moshe ben Israel Reznik; Noah ben Betzalel Yudovich returned on crutches and received material and medical assistance. The memorial book also speaks of hundreds of surviving town families who lived active lives throughout Israel. [event_candidate_6b248574262a60daa0c7cc2f, event_candidate_202146fd03f3cc94dc188eab, mention_dc90234cf1cfcc6dc07a6308]",
+          "recordIds": [
+            "event_candidate_6b248574262a60daa0c7cc2f",
+            "event_candidate_202146fd03f3cc94dc188eab",
+            "mention_dc90234cf1cfcc6dc07a6308"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_6b248574262a60daa0c7cc2f",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Zeev Shalom Lachovsky and Moshe ben Israel Reznik returned",
+              "summary": "Zeev Shalom Lachovsky and Moshe ben Israel Reznik later returned to Horodok.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 236,
+              "printedPage": "229",
+              "passageId": "passage_5fcbcf4165c24e680d99e7d7",
+              "quote": "לאחר מכן חזרו להורודוק גם זאב שלום לחובסקי ומשה בן ישראל רזניק"
+            },
+            {
+              "recordId": "event_candidate_202146fd03f3cc94dc188eab",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "Noah ben Betzalel Yudovich returned to Horodok",
+              "summary": "Noah returned to Horodok on crutches and received material and medical assistance.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 236,
+              "printedPage": "229",
+              "passageId": "passage_5fcbcf4165c24e680d99e7d7",
+              "quote": "נוח בן בצלאל יודוביץ הוא שבא להורודוק על קביים"
+            },
+            {
+              "recordId": "mention_dc90234cf1cfcc6dc07a6308",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Families from the town in Israel",
+              "summary": "Hundreds of families who survived and lived active lives throughout Israel.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 210,
+              "printedPage": "203",
+              "passageId": "passage_48330ac1458226bebbef0b75",
+              "quote": "המאות הרבות של המשפחות בני העיר שניצלו"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Justice and continuation",
+          "summary": "The book credits Aharon Moravchik with efforts that helped bring local perpetrators to capture and imprisonment after the war. It also records the Joint founding an orphanage in David-Horodok, showing postwar responses that combined justice with care for children. [mention_928b962c4735132eb93270a9, event_candidate_5af6ccb457ef770aba673f89, event_candidate_608ea8a7971d2e2885b8174c]",
+          "recordIds": [
+            "mention_928b962c4735132eb93270a9",
+            "event_candidate_5af6ccb457ef770aba673f89",
+            "event_candidate_608ea8a7971d2e2885b8174c"
+          ],
+          "records": [
+            {
+              "recordId": "mention_928b962c4735132eb93270a9",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Aharon (Artzik) ben Dov Moravchik",
+              "summary": "Town native credited with efforts leading to local perpetrators’ capture and imprisonment.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 12,
+              "printedPage": null,
+              "passageId": "passage_89ab04fccb8e948766bdddf3",
+              "quote": "בן עירנו אהרן (ארצ'יק) בן דב מורבצ'יק"
+            },
+            {
+              "recordId": "event_candidate_5af6ccb457ef770aba673f89",
+              "kind": "event",
+              "type": "ARREST",
+              "title": "Postwar capture and imprisonment of local perpetrators",
+              "summary": "Local perpetrators were captured and imprisoned after the war, reportedly through Aharon Moravchik’s efforts.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 12,
+              "printedPage": null,
+              "passageId": "passage_89ab04fccb8e948766bdddf3",
+              "quote": "נתפסו אחרי המלחמה ונכלאו מאחורי בריח וסורג"
+            },
+            {
+              "recordId": "event_candidate_608ea8a7971d2e2885b8174c",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of the David-Horodok orphanage",
+              "summary": "The Joint founded an orphanage in David-Horodok.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 393,
+              "printedPage": "54",
+              "passageId": "passage_1e213b003e09a193c1f3bd92",
+              "quote": "האט אויך געגרינדעט אן אפטיילונג אין דאוויד-האראדאק. איינע פון די וויכטיקסטע אויפטוען פון ,דזשאינט\" אין שטעטל איז געווען דאס גרינדן דאס יתומים-הויז."
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "path_memory_testimony",
+      "theme": "MEMORY",
+      "title": "How does the memorial book remember David-Horodok?",
+      "description": "This path explores how testimony preserves names, family links, religious memory, survival accounts, and the pursuit of perpetrators. Readers will learn to approach the memorial book as a source of remembrance whose accounts must be read with attention to who is speaking and what is being preserved.",
+      "question": "What does the memorial book choose to remember?",
+      "steps": [
+        {
+          "title": "Names within a destroyed community",
+          "summary": "The book names victims such as Aharon Hershel Dorzin, Reuven Kaluzhny, Abraham Slutsky, and members of the Gloiberman family. These names restore individuality to people otherwise represented only within accounts of mass murder. [mention_37ec6542f311cddfe0183c2e, event_candidate_3fa4a8ac22d01f333860623e, event_candidate_e3a08578571acfa188df738c, mention_49787841f5f45bf73f530b87]",
+          "recordIds": [
+            "mention_37ec6542f311cddfe0183c2e",
+            "event_candidate_3fa4a8ac22d01f333860623e",
+            "event_candidate_e3a08578571acfa188df738c",
+            "mention_49787841f5f45bf73f530b87"
+          ],
+          "records": [
+            {
+              "recordId": "mention_37ec6542f311cddfe0183c2e",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Aharon Hershel Dorzin",
+              "summary": "Moshe Dorzin’s nephew, murdered in the synagogue corridor.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 251,
+              "printedPage": "244",
+              "passageId": "passage_2f67dd135c3ce058f5088e91",
+              "quote": "את אהרון הרשל דורצין"
+            },
+            {
+              "recordId": "event_candidate_3fa4a8ac22d01f333860623e",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Murder of Reuven Kaluzhny",
+              "summary": "Reuven Kaluzhny was murdered where he hid in a neighbor’s closet.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 457,
+              "printedPage": "48",
+              "passageId": "passage_94f31fe389dd8c391b60d43d",
+              "quote": "דארט אויפן פלאץ איז ער דערמארדעט געווארן"
+            },
+            {
+              "recordId": "event_candidate_e3a08578571acfa188df738c",
+              "kind": "event",
+              "type": "MURDER",
+              "title": "Murder of Abraham Slutsky",
+              "summary": "Abraham Slutsky was discovered and immediately murdered.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 457,
+              "printedPage": "48",
+              "passageId": "passage_94f31fe389dd8c391b60d43d",
+              "quote": "דער ערשטער איז אנטדעקט געווארן אברהם סלוצקי דער בעל-עגלה"
+            },
+            {
+              "recordId": "mention_49787841f5f45bf73f530b87",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Mosia Geyer-Gloiberman",
+              "summary": "A person listed among those murdered by the Nazis.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 499,
+              "printedPage": null,
+              "passageId": "passage_571f41e1c7037230005e322e",
+              "quote": "מוסיה גייער-גלויברמן"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Memory through religious and family traditions",
+          "summary": "A narrator’s grandmother is remembered recounting a custom of preparing a memorial candle, while other passages preserve synagogue practice, rabbis, and family relationships. The book therefore remembers David-Horodok not only through its destruction, but also through inherited rituals and stories. [mention_8be87030297d5c0333be4bba, mention_6d77c2b1298b075e68fb5569, mention_12f38060e9fa737f3d380e58]",
+          "recordIds": [
+            "mention_8be87030297d5c0333be4bba",
+            "mention_6d77c2b1298b075e68fb5569",
+            "mention_12f38060e9fa737f3d380e58"
+          ],
+          "records": [
+            {
+              "recordId": "mention_8be87030297d5c0333be4bba",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Narrator’s grandmother",
+              "summary": "The narrator’s grandmother recounted a memorial-candle preparation custom.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 90,
+              "printedPage": "83",
+              "passageId": "passage_a299969635adf6f5efe9f692",
+              "quote": "וכה סיפרה לי סבתא"
+            },
+            {
+              "recordId": "mention_6d77c2b1298b075e68fb5569",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Rabbi Israel Yosef's synagogue",
+              "summary": "Synagogue where Shlomo Leizer rested after Sabbath meals.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 164,
+              "printedPage": "157",
+              "passageId": "passage_5ae51e9c06030bfc54af81c9",
+              "quote": "בית-הכנסת של ר' ישראל יוסף"
+            },
+            {
+              "recordId": "mention_12f38060e9fa737f3d380e58",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Rabbi Joseph",
+              "summary": "Rabbi Joseph, David’s youngest son, succeeded him as rabbi after his death.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 181,
+              "printedPage": "174",
+              "passageId": "passage_86357525a8cb53a1faa04cd9",
+              "quote": "הצעיר בהם הרב ר' יוסף נתמנה אחרי מותו לרב במקומו"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Survivor testimony as historical evidence",
+          "summary": "The memorial book preserves first-person accounts of hiding, escape, partisan service, parents preparing for death, and return after liberation. Such testimony conveys lived experience and memory; it should be read as the account of the named witness or narrator, rather than as an assumption that every detail represents the whole community. [mention_850823aeb0422b71fde81ae9, mention_864075f2928fde6b382d68d2, event_candidate_352f0edd7088a295af7f82cc, event_candidate_e3950c91e4fa5606b26a3c6c]",
+          "recordIds": [
+            "mention_850823aeb0422b71fde81ae9",
+            "mention_864075f2928fde6b382d68d2",
+            "event_candidate_352f0edd7088a295af7f82cc",
+            "event_candidate_e3950c91e4fa5606b26a3c6c"
+          ],
+          "records": [
+            {
+              "recordId": "mention_850823aeb0422b71fde81ae9",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Israel Nahum",
+              "summary": "Witness who reported the events and hid near the synagogue.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 275,
+              "printedPage": "268",
+              "passageId": "passage_b2cd39462044271159b2027f",
+              "quote": "ישראל נחום (אחד מן השנים שספרו לי הכל)"
+            },
+            {
+              "recordId": "mention_864075f2928fde6b382d68d2",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Narrator's mother",
+              "summary": "The narrator's mother, who prepared for death and urged survival.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 480,
+              "printedPage": "71",
+              "passageId": "passage_3d7fd18eb6462320c1d02b85",
+              "quote": "די מוטער האט זיך איינגעוואשן, אנגעטאן ריינע וועש, זיך געגרייט צום טויט"
+            },
+            {
+              "recordId": "event_candidate_352f0edd7088a295af7f82cc",
+              "kind": "event",
+              "type": "DEATH",
+              "title": "Parents prepare for death",
+              "summary": "The narrator's parents prepared for death during the final night in the ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 480,
+              "printedPage": "71",
+              "passageId": "passage_3d7fd18eb6462320c1d02b85",
+              "quote": "די מוטער האט זיך איינגעוואשן, אנגעטאן ריינע וועש, זיך געגרייט צום טויט"
+            },
+            {
+              "recordId": "event_candidate_e3950c91e4fa5606b26a3c6c",
+              "kind": "event",
+              "type": "MILITARY_SERVICE",
+              "title": "Partisan service",
+              "summary": "The narrator joined a partisan unit during wartime.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 478,
+              "printedPage": "69",
+              "passageId": "passage_ebeabf7636cc4a89044a9244",
+              "quote": "אריינצוגיין אין פארטיזאנישן אטריאד"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Remembering responsibility",
+          "summary": "The book identifies local perpetrators and records their postwar capture and imprisonment, while naming Aharon Moravchik’s role in efforts toward that outcome. This keeps remembrance connected to responsibility and to the survivors’ demand that crimes and perpetrators not disappear from the record. [mention_13bb0d28ea6928c0597c80a4, event_candidate_5af6ccb457ef770aba673f89, mention_928b962c4735132eb93270a9]",
+          "recordIds": [
+            "mention_13bb0d28ea6928c0597c80a4",
+            "event_candidate_5af6ccb457ef770aba673f89",
+            "mention_928b962c4735132eb93270a9"
+          ],
+          "records": [
+            {
+              "recordId": "mention_13bb0d28ea6928c0597c80a4",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Local perpetrators and murderers",
+              "summary": "Local non-Jewish perpetrators described as having been captured and imprisoned after the war.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 12,
+              "printedPage": null,
+              "passageId": "passage_89ab04fccb8e948766bdddf3",
+              "quote": "ראשי מרצחיה ומשמידיה מתוך אנשי המקום הגוצריים"
+            },
+            {
+              "recordId": "event_candidate_5af6ccb457ef770aba673f89",
+              "kind": "event",
+              "type": "ARREST",
+              "title": "Postwar capture and imprisonment of local perpetrators",
+              "summary": "Local perpetrators were captured and imprisoned after the war, reportedly through Aharon Moravchik’s efforts.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 12,
+              "printedPage": null,
+              "passageId": "passage_89ab04fccb8e948766bdddf3",
+              "quote": "נתפסו אחרי המלחמה ונכלאו מאחורי בריח וסורג"
+            },
+            {
+              "recordId": "mention_928b962c4735132eb93270a9",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Aharon (Artzik) ben Dov Moravchik",
+              "summary": "Town native credited with efforts leading to local perpetrators’ capture and imprisonment.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 12,
+              "printedPage": null,
+              "passageId": "passage_89ab04fccb8e948766bdddf3",
+              "quote": "בן עירנו אהרן (ארצ'יק) בן דב מורבצ'יק"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "periodStart": "Before 1905",
+      "periodEnd": "Before 1905",
+      "dateLabel": "Before 1905",
+      "title": "Education and communal institutions develop",
+      "summary": "A library for children and school youth was organized before 1905, while David-Horodok is described as an organized Jewish settlement with communal institutions. [mention_dab488115e2b3d35ee93d321, mention_aeca1dac65f285350a4e666c]",
+      "recordIds": [
+        "mention_dab488115e2b3d35ee93d321",
+        "mention_aeca1dac65f285350a4e666c"
+      ],
+      "records": [
+        {
+          "recordId": "mention_dab488115e2b3d35ee93d321",
+          "kind": "mention",
+          "type": "INSTITUTION",
+          "title": "Children and School Youth Library",
+          "summary": "A library organized at S. Zagarodsky’s before 1905.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 390,
+          "printedPage": "51",
+          "passageId": "passage_41aed7cab5bee65de207d898",
+          "quote": "א ביבליאטעק פאר קינדער און שולדיוגנט"
+        },
+        {
+          "recordId": "mention_aeca1dac65f285350a4e666c",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "David-Horodok",
+          "summary": "Jewish settlement and later organized community discussed in historical account.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 21,
+          "printedPage": "14",
+          "passageId": "passage_3e0971e4040aba67e1e9ecb4",
+          "quote": "קהילה יהודית מאורגנת בדוד-הורודוק"
+        }
+      ],
+      "position": 1
+    },
+    {
+      "periodStart": "1905",
+      "periodEnd": "1905",
+      "dateLabel": "1905",
+      "title": "New political movements appear",
+      "summary": "A small Bund group was organized in David-Horodok during the revolutionary period, and Poale Zion is also recorded in the town. [event_candidate_61032a7ea799c1d014ada76e, mention_749d32a48606275263727c6a]",
+      "recordIds": [
+        "event_candidate_61032a7ea799c1d014ada76e",
+        "mention_749d32a48606275263727c6a"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_61032a7ea799c1d014ada76e",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Organization of a Bund Group in 1905",
+          "summary": "A small Bund group was organized in David-Horodok under Helfant’s leadership.",
+          "dateStart": "1905",
+          "dateEnd": "1905",
+          "scanIndex": 384,
+          "printedPage": "45",
+          "passageId": "passage_a5b83bb66d6bfcce835d99bc",
+          "quote": "אין יאר 1905 איז אין דאוויד-האראדאק געווען ארגאניזירט א קליין גרופע פון ,בונד\""
+        },
+        {
+          "recordId": "mention_749d32a48606275263727c6a",
+          "kind": "mention",
+          "type": "ORGANIZATION",
+          "title": "Poale Zion",
+          "summary": "The Poale Zion party also existed in David-Horodok at that time.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 384,
+          "printedPage": "45",
+          "passageId": "passage_a5b83bb66d6bfcce835d99bc",
+          "quote": "די פועלי- ציון פארטיי"
+        }
+      ],
+      "position": 2
+    },
+    {
+      "periodStart": "1909",
+      "periodEnd": "1909",
+      "dateLabel": "1909",
+      "title": "Merchants establish a bank",
+      "summary": "Larger merchants in David-Horodok founded a merchants’ bank, linking commercial activity with local economic organization. [event_candidate_f45726c1fa8c7aca42c82026]",
+      "recordIds": [
+        "event_candidate_f45726c1fa8c7aca42c82026"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_f45726c1fa8c7aca42c82026",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Founding of the Merchants' Bank",
+          "summary": "The merchants' bank was founded in David-Horodok in 1909.",
+          "dateStart": "1909",
+          "dateEnd": "",
+          "scanIndex": 394,
+          "printedPage": "55",
+          "passageId": "passage_f53ea3d67793e81593d4970b",
+          "quote": "אין יאר 1909 איז לויט דער איניציאטיוו פון די גרעסערע סוחרים אין דאוויד\"האראדאק געגרינדעט געווארן א סוחרים באנק"
+        }
+      ],
+      "position": 3
+    },
+    {
+      "periodStart": "1917-12",
+      "periodEnd": "1917-12",
+      "dateLabel": "December 1917",
+      "title": "Ber Borokhov dies",
+      "summary": "Ber Borokhov died in December 1917, and the memorial book records a meeting held in the town in his memory. [event_candidate_385d3de0601e1cbc688c48a0, mention_5828f6626efcb3f75e7e0543]",
+      "recordIds": [
+        "event_candidate_385d3de0601e1cbc688c48a0",
+        "mention_5828f6626efcb3f75e7e0543"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_385d3de0601e1cbc688c48a0",
+          "kind": "event",
+          "type": "DEATH",
+          "title": "Death of Ber Borokhov",
+          "summary": "Ber Borokhov died in December 1917.",
+          "dateStart": "1917-12",
+          "dateEnd": "1917-12",
+          "scanIndex": 124,
+          "printedPage": "117",
+          "passageId": "passage_f1a98d16a2c160ca3a10136c",
+          "quote": "בער בורכוב נפטר---דצמבר 1917"
+        },
+        {
+          "recordId": "mention_5828f6626efcb3f75e7e0543",
+          "kind": "mention",
+          "type": "PERSON",
+          "title": "Ber Borokhov",
+          "summary": "Zionist socialist leader whose death prompted a memorial meeting in the town.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 124,
+          "printedPage": "117",
+          "passageId": "passage_f1a98d16a2c160ca3a10136c",
+          "quote": "בער בורכוב נפטר"
+        }
+      ],
+      "position": 4
+    },
+    {
+      "periodStart": "1918",
+      "periodEnd": "1918",
+      "dateLabel": "1918",
+      "title": "Violence and Jewish education amid upheaval",
+      "summary": "Beytsl Yudovich was shot with two Christian townspeople during the 1918 Bolshevik Revolution, while Manivitz is recorded as directing the Tarbut school. [event_candidate_2d06251cf6b091cf3e195b27, event_candidate_105307ee99f37a12f4644bf6]",
+      "recordIds": [
+        "event_candidate_2d06251cf6b091cf3e195b27",
+        "event_candidate_105307ee99f37a12f4644bf6"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_2d06251cf6b091cf3e195b27",
+          "kind": "event",
+          "type": "MURDER",
+          "title": "Shooting of Beytsl Yudovich",
+          "summary": "Beytsl Yudovich was shot with two Christian townspeople during the 1918 Bolshevik Revolution.",
+          "dateStart": "1918",
+          "dateEnd": "1918",
+          "scanIndex": 404,
+          "printedPage": "65",
+          "passageId": "passage_271d3256a8b86b8ae1887977",
+          "quote": "צוזאמען מיט נאך 2 קריסטלעכע בירגער פון שטאט דורכן באלשעוויסטישן ,קאראטיעלנעם אטריאד\""
+        },
+        {
+          "recordId": "event_candidate_105307ee99f37a12f4644bf6",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Manivitz directed the Tarbut school",
+          "summary": "Manivitz served as director of the Tarbut school in 1918.",
+          "dateStart": "1918",
+          "dateEnd": "1918",
+          "scanIndex": 124,
+          "printedPage": "117",
+          "passageId": "passage_6aabd2aca2c32db4afc0268b",
+          "quote": "מניביץ -- שהיה מנהל ביה\"ס ,תרבות\" בשנת 1918"
+        }
+      ],
+      "position": 5
+    },
+    {
+      "periodStart": "1920",
+      "periodEnd": "1920",
+      "dateLabel": "1920",
+      "title": "Pogrom violence reaches the synagogue",
+      "summary": "The Bulakhovtsy gang murdered Aharon Hershel Dorzin and Shalom Boir during Simchat Torah in 1920. [event_candidate_a1f99d1eeab46608ebbf70f3]",
+      "recordIds": [
+        "event_candidate_a1f99d1eeab46608ebbf70f3"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_a1f99d1eeab46608ebbf70f3",
+          "kind": "event",
+          "type": "MURDER",
+          "title": "Double murder at the synagogue in 1920",
+          "summary": "The Bulakhovtsy gang murdered Aharon Hershel Dorzin and Shalom Boir during Simchat Torah.",
+          "dateStart": "1920",
+          "dateEnd": "1920",
+          "scanIndex": 251,
+          "printedPage": "244",
+          "passageId": "passage_2f67dd135c3ce058f5088e91",
+          "quote": "בית כנסת זה היה עד לרצח הכפול של כנופית המרצחים הבלחובצים ביום שמחת-תורה שנת 1920"
+        }
+      ],
+      "position": 6
+    },
+    {
+      "periodStart": "1923",
+      "periodEnd": "1924",
+      "dateLabel": "1923–1924",
+      "title": "Economic cooperation expands",
+      "summary": "A merchants’ bank was founded under M. Kviernes in 1923, followed by a People’s Bank under Sh. Papish in 1924. [event_candidate_3b7bd64dfb6e190e00c95c1d, event_candidate_af80afa7e81ec09c6e077adc]",
+      "recordIds": [
+        "event_candidate_3b7bd64dfb6e190e00c95c1d",
+        "event_candidate_af80afa7e81ec09c6e077adc"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_3b7bd64dfb6e190e00c95c1d",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Founding of a Merchants' Bank",
+          "summary": "A merchants' bank was founded in 1923 under M. Kviernes's leadership.",
+          "dateStart": "1923",
+          "dateEnd": "",
+          "scanIndex": 394,
+          "printedPage": "55",
+          "passageId": "passage_f53ea3d67793e81593d4970b",
+          "quote": "אין יאר 1923 געגרינדעט געווארן אונטער דער לייטונג פון מ. קוויעטני די סוחרים באנק"
+        },
+        {
+          "recordId": "event_candidate_af80afa7e81ec09c6e077adc",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Founding of the People's Bank",
+          "summary": "The people's bank was founded in 1924 under Sh. Papish's leadership.",
+          "dateStart": "1924",
+          "dateEnd": "",
+          "scanIndex": 394,
+          "printedPage": "55",
+          "passageId": "passage_f53ea3d67793e81593d4970b",
+          "quote": "אין יאר 1924 איז אונטער דער לייטונג פון ש. פאפיש געגרינדעט געווארן די פאלקס-באנק"
+        }
+      ],
+      "position": 7
+    },
+    {
+      "periodStart": "1928",
+      "periodEnd": "1936",
+      "dateLabel": "1928–1936",
+      "title": "Communal and municipal elections",
+      "summary": "Jewish community elections are recorded in 1928 and 1936, and municipal elections took place in David-Horodok in 1928. [event_candidate_338cbe2271285d637c7f90c6, event_candidate_af966dbecfba85d507fb0aa1, event_candidate_f0a1ebe00540af1ee9e497b5]",
+      "recordIds": [
+        "event_candidate_338cbe2271285d637c7f90c6",
+        "event_candidate_af966dbecfba85d507fb0aa1",
+        "event_candidate_f0a1ebe00540af1ee9e497b5"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_338cbe2271285d637c7f90c6",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Jewish community elections",
+          "summary": "Jewish community elections were held in David-Horodok in 1928.",
+          "dateStart": "1928",
+          "dateEnd": "1928",
+          "scanIndex": 398,
+          "printedPage": "59",
+          "passageId": "passage_114f23f904bb7d4ff60502d2",
+          "quote": "איין מאל אין יאר 1928, ווען ס'איז אלס פרעזעס אויסגעוויילט געווארן מאיר מוראווטשיק"
+        },
+        {
+          "recordId": "event_candidate_af966dbecfba85d507fb0aa1",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Jewish community elections",
+          "summary": "Jewish community elections were held in David-Horodok in 1936.",
+          "dateStart": "1936",
+          "dateEnd": "1936",
+          "scanIndex": 398,
+          "printedPage": "59",
+          "passageId": "passage_114f23f904bb7d4ff60502d2",
+          "quote": "דאס צווייטע מאל אין יאר 1936. אלס פרעזעס איז דאן אויסגעוויילט געווארן קאפלינסקי."
+        },
+        {
+          "recordId": "event_candidate_f0a1ebe00540af1ee9e497b5",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Municipal elections in David-Horodok",
+          "summary": "Municipal elections were held throughout Poland, including David-Horodok, in 1928.",
+          "dateStart": "1928",
+          "dateEnd": "",
+          "scanIndex": 56,
+          "printedPage": "49",
+          "passageId": "passage_743675ce8fd199cbbed8a055",
+          "quote": "בשנה זאת נתקיימו בחירות לעיריות בכל רחבי פולין"
+        }
+      ],
+      "position": 8
+    },
+    {
+      "periodStart": "1939-09-19",
+      "periodEnd": "1939-09-19",
+      "dateLabel": "19 September 1939",
+      "title": "Red Army enters David-Horodok",
+      "summary": "After Polish forces withdrew and crossed the river, Red Army assault units entered David-Horodok; Jewish and other residents came into the streets to welcome them. [event_candidate_e1df7af434b09ea87666cb5b, event_candidate_a7a45f36af6961a2897defe5]",
+      "recordIds": [
+        "event_candidate_e1df7af434b09ea87666cb5b",
+        "event_candidate_a7a45f36af6961a2897defe5"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_e1df7af434b09ea87666cb5b",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Red Army entry into David-Horodok",
+          "summary": "Red Army assault units entered after Polish forces withdrew and crossed the river.",
+          "dateStart": "1939-09-19",
+          "dateEnd": "",
+          "scanIndex": 400,
+          "printedPage": "61",
+          "passageId": "passage_e32597eb80b3e1aeb54dca1e",
+          "quote": "גלייך נאך זיי קומען אֶן די שטורם-אפטיילונגען פון דער רויטער ארמיי"
+        },
+        {
+          "recordId": "event_candidate_a7a45f36af6961a2897defe5",
+          "kind": "event",
+          "type": "LIBERATION",
+          "title": "Celebration of Red Army entry",
+          "summary": "Jewish and other residents welcomed the Red Army with public celebration and speeches.",
+          "dateStart": "1939-09-19",
+          "dateEnd": "",
+          "scanIndex": 59,
+          "printedPage": "52",
+          "passageId": "passage_f66eec1e513a7d82a358589a",
+          "quote": "החלה האוכלוסיה היהודית (ולא רק היהודית) לזרום לרחובות העיר"
+        }
+      ],
+      "position": 9
+    },
+    {
+      "periodStart": "1941-07-27",
+      "periodEnd": "1941-07-27",
+      "dateLabel": "27 July 1941",
+      "title": "Men are assembled and shot",
+      "summary": "A memorial-book testimony dates a mass killing to 27 July 1941, describing men assembled outside David-Horodok under false pretenses and shot. [event_candidate_c63b4b0144bca152fd0b3c06]",
+      "recordIds": [
+        "event_candidate_c63b4b0144bca152fd0b3c06"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_c63b4b0144bca152fd0b3c06",
+          "kind": "event",
+          "type": "MURDER",
+          "title": "Mass killing of men in David Horodok",
+          "summary": "Men were assembled outside David Horodok under false pretenses and shot.",
+          "dateStart": "1941-07-27",
+          "dateEnd": "1941-07-27",
+          "scanIndex": 216,
+          "printedPage": "209",
+          "passageId": "passage_e17c6a78a6a477aec5f8bbdf",
+          "quote": "בשנת 1941, בשבוע אחר תשעה-באב, אני זוכר, זה היה ביום ראשון לשבוע, היתה השחיטה האיומה בדויד הורודוק."
+        }
+      ],
+      "position": 10
+    },
+    {
+      "periodStart": "1941-08-16",
+      "periodEnd": "1941-08-16",
+      "dateLabel": "16 August 1941",
+      "title": "Jewish quarters are surrounded",
+      "summary": "Jewish quarters were surrounded, and men and children were brought to a Catholic monastery courtyard. [event_candidate_1d8f640b02a6e4722e33a8cc]",
+      "recordIds": [
+        "event_candidate_1d8f640b02a6e4722e33a8cc"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_1d8f640b02a6e4722e33a8cc",
+          "kind": "event",
+          "type": "AKTION_OR_RAID",
+          "title": "Roundup of Jewish quarters",
+          "summary": "Jewish quarters were surrounded and men and children were brought to a Catholic monastery courtyard.",
+          "dateStart": "1941-08-16",
+          "dateEnd": "",
+          "scanIndex": 450,
+          "printedPage": "111",
+          "passageId": "passage_80aaf13825a049100eedbb74",
+          "quote": "זענען ארומגערינגלט געווארן אלע יידישע קווארטאלן"
+        }
+      ],
+      "position": 11
+    },
+    {
+      "periodStart": "1942",
+      "periodEnd": "1942",
+      "dateLabel": "1942",
+      "title": "The destruction spreads across the region",
+      "summary": "The memorial book reports that 7,000 people in Stolin were killed on the eve of Rosh Hashanah in 1942, while other David-Horodok accounts describe ghettos, murder, and escape. [event_candidate_2511cdfe808973d6daa780f9, mention_badc2057ff3ba3e64ef68f2e]",
+      "recordIds": [
+        "event_candidate_2511cdfe808973d6daa780f9",
+        "mention_badc2057ff3ba3e64ef68f2e"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_2511cdfe808973d6daa780f9",
+          "kind": "event",
+          "type": "MURDER",
+          "title": "Mass killing in Stolin",
+          "summary": "Seven thousand people in Stolin were killed on the eve of Rosh Hashanah in 1942.",
+          "dateStart": "1942",
+          "dateEnd": "",
+          "scanIndex": 480,
+          "printedPage": "71",
+          "passageId": "passage_bfe2dfa8866c6baf15bff475",
+          "quote": "7,000 נפשות זענען דאן געווען אין סטאלין און אלע זענען אומגעקומען"
+        },
+        {
+          "recordId": "mention_badc2057ff3ba3e64ef68f2e",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Jews of Stolin",
+          "summary": "The Jewish population in Stolin reported killed on the eve of Rosh Hashanah in 1942.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 480,
+          "printedPage": "71",
+          "passageId": "passage_bfe2dfa8866c6baf15bff475",
+          "quote": "7,000 נפשות זענען דאן געווען אין סטאלין און אלע זענען אומגעקומען"
+        }
+      ],
+      "position": 12
+    },
+    {
+      "periodStart": "1943",
+      "periodEnd": "1943",
+      "dateLabel": "Later autumn 1943",
+      "title": "Wartime survival continues",
+      "summary": "One account places its events in later autumn, one month after Sukkot 1943, during the continuing wartime experiences recorded by survivors. [mention_5f10a22d4d602407cf324e43]",
+      "recordIds": [
+        "mention_5f10a22d4d602407cf324e43"
+      ],
+      "records": [
+        {
+          "recordId": "mention_5f10a22d4d602407cf324e43",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "Autumn 1943",
+          "summary": "The passage dates the events to later autumn, one month after Sukkot 1943.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 462,
+          "printedPage": "53",
+          "passageId": "passage_ec841837840637646cdef322",
+          "quote": "שפעטער הערבסט (א חודש נאך סוכות 1943)"
+        }
+      ],
+      "position": 13
+    },
+    {
+      "periodStart": "1946",
+      "periodEnd": "1946",
+      "dateLabel": "September 1946",
+      "title": "A survivor account is published",
+      "summary": "Yitzhak Nakhmanovich wrote his account in 1946, and it was published in September of that year. [event_candidate_941332eb48e44c003649ee3f]",
+      "recordIds": [
+        "event_candidate_941332eb48e44c003649ee3f"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_941332eb48e44c003649ee3f",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Publication of Yitzhak Nakhmanovich's account",
+          "summary": "Yitzhak Nakhmanovich wrote the account in 1946 and it was published in September 1946.",
+          "dateStart": "1946-09",
+          "dateEnd": "",
+          "scanIndex": 456,
+          "printedPage": "117",
+          "passageId": "passage_e372f08ae65a988ea5ae12ef",
+          "quote": "אין סעפטעמבער 1946 האט ער זי פארעפענטלאכט"
+        }
+      ],
+      "position": 14
+    },
+    {
+      "periodStart": "After 1945",
+      "periodEnd": "After 1945",
+      "dateLabel": "After the war",
+      "title": "Return, justice, and rebuilding",
+      "summary": "Survivors visited the burned town, some returned to Horodok, and local perpetrators were captured and imprisoned; the Joint also founded an orphanage in David-Horodok. [event_candidate_05ef01958d4a391b1775c3af, event_candidate_6b248574262a60daa0c7cc2f, event_candidate_5af6ccb457ef770aba673f89, event_candidate_608ea8a7971d2e2885b8174c]",
+      "recordIds": [
+        "event_candidate_05ef01958d4a391b1775c3af",
+        "event_candidate_6b248574262a60daa0c7cc2f",
+        "event_candidate_5af6ccb457ef770aba673f89",
+        "event_candidate_608ea8a7971d2e2885b8174c"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_05ef01958d4a391b1775c3af",
+          "kind": "event",
+          "type": "LIBERATION",
+          "title": "Post-liberation visit to David-Horodok",
+          "summary": "Several survivors visited David-Horodok after liberation and found the town burned.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 410,
+          "printedPage": "71",
+          "passageId": "passage_84209fd11da8adb88e074d82",
+          "quote": "נאך דער באפרייונג, באזוכנדיק דאוויד-האראדאק"
+        },
+        {
+          "recordId": "event_candidate_6b248574262a60daa0c7cc2f",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "Zeev Shalom Lachovsky and Moshe ben Israel Reznik returned",
+          "summary": "Zeev Shalom Lachovsky and Moshe ben Israel Reznik later returned to Horodok.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 236,
+          "printedPage": "229",
+          "passageId": "passage_5fcbcf4165c24e680d99e7d7",
+          "quote": "לאחר מכן חזרו להורודוק גם זאב שלום לחובסקי ומשה בן ישראל רזניק"
+        },
+        {
+          "recordId": "event_candidate_5af6ccb457ef770aba673f89",
+          "kind": "event",
+          "type": "ARREST",
+          "title": "Postwar capture and imprisonment of local perpetrators",
+          "summary": "Local perpetrators were captured and imprisoned after the war, reportedly through Aharon Moravchik’s efforts.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 12,
+          "printedPage": null,
+          "passageId": "passage_89ab04fccb8e948766bdddf3",
+          "quote": "נתפסו אחרי המלחמה ונכלאו מאחורי בריח וסורג"
+        },
+        {
+          "recordId": "event_candidate_608ea8a7971d2e2885b8174c",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Founding of the David-Horodok orphanage",
+          "summary": "The Joint founded an orphanage in David-Horodok.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 393,
+          "printedPage": "54",
+          "passageId": "passage_1e213b003e09a193c1f3bd92",
+          "quote": "האט אויך געגרינדעט אן אפטיילונג אין דאוויד-האראדאק. איינע פון די וויכטיקסטע אויפטוען פון ,דזשאינט\" אין שטעטל איז געווען דאס גרינדן דאס יתומים-הויז."
+        }
+      ],
+      "position": 15
+    }
+  ]
+}

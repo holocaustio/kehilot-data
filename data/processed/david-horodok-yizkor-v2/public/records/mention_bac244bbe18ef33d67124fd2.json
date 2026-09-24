@@ -1,0 +1,131 @@
+{
+  "id": "mention_bac244bbe18ef33d67124fd2",
+  "type": "Community",
+  "title": "Jewish young men in Pinsk",
+  "summary": "Thirty-five Jewish young men reportedly shot by Polish forces in Pinsk.",
+  "originalName": "35 יידישע יונגעלייט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 367,
+  "printedPage": "28",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish young men",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_41a0ec3232813a8180753e81",
+      "pageId": "page_nybc313739_0367",
+      "scanIndex": 367,
+      "leafNumber": 366,
+      "printedPage": "28",
+      "passageCharStart": 544,
+      "passageCharEnd": 564,
+      "normalizedPassageCharStart": 544,
+      "normalizedPassageCharEnd": 564,
+      "pageCharStart": 2705,
+      "pageCharEnd": 2725,
+      "quote": "35 יידישע יונגעלייט!",
+      "normalizedQuote": "35 יידישע יונגעלייט!",
+      "modelQuote": "35 יידישע יונגעלייט!",
+      "bbox": {
+        "left": 1539,
+        "top": 4809,
+        "right": 2199,
+        "bottom": 4884
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n366/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "8e1d37df306fd7a954f1db6f42cfd928def6b68e8417f380d86999c06bc48f9f",
+      "normalizedPassageChecksum": "a5774783e9f0d5cbd5ca569b719c6bde9b3dcaef0875e88a0b8d1a3cc379d1e1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b326432baa524e15df324624",
+      "type": "Murder",
+      "title": "Shooting of Jewish young men in Pinsk",
+      "summary": "Polish forces reportedly shot thirty-five Jewish young men in Pinsk.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR wording is unclear, but explicitly reports Polish shooting of 35 Jewish young men.",
+      "evidence": {
+        "passageId": "passage_41a0ec3232813a8180753e81",
+        "pageId": "page_nybc313739_0367",
+        "scanIndex": 367,
+        "leafNumber": 366,
+        "printedPage": "28",
+        "passageCharStart": 485,
+        "passageCharEnd": 564,
+        "normalizedPassageCharStart": 485,
+        "normalizedPassageCharEnd": 564,
+        "pageCharStart": 2646,
+        "pageCharEnd": 2725,
+        "quote": "אין פינסק\nהאבן די פאליאקן דערשאסן אֶן א גרונד און אֶן שולד 35 יידישע יונגעלייט!",
+        "normalizedQuote": "אין פינסק\nהאבן די פאליאקן דערשאסן אֶן א גרונד און אֶן שולד 35 יידישע יונגעלייט!",
+        "modelQuote": "אין פינסק האבן די פאליאקן דערשאסן אֶן א גרונד און אֶן שולד 35 יידישע יונגעלייט!",
+        "bbox": {
+          "left": 1047,
+          "top": 4726,
+          "right": 3909,
+          "bottom": 4884
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n366/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "8e1d37df306fd7a954f1db6f42cfd928def6b68e8417f380d86999c06bc48f9f",
+        "normalizedPassageChecksum": "a5774783e9f0d5cbd5ca569b719c6bde9b3dcaef0875e88a0b8d1a3cc379d1e1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b326432baa524e15df324624",
+      "type": "Event",
+      "title": "Shooting of Jewish young men in Pinsk",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_70ddf47dab3327f5d8436ee6",
+      "type": "Place",
+      "title": "David-Horodok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_40aa4ade479f3b6159e90819",
+      "type": "Organization",
+      "title": "Bolsheviks",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d5b701ebabd8a785fae5a708",
+      "type": "Organization",
+      "title": "Poles",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_99b0f4a5d0b06e04ed319a4e",
+      "type": "Place",
+      "title": "Lemberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1d6975bb34554314df0014ed",
+      "type": "Place",
+      "title": "Pinsk",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

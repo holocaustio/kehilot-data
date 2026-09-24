@@ -1,0 +1,76 @@
+{
+  "id": "event_candidate_8e6bd8ae02c9a96d15899aa9",
+  "type": "Event",
+  "title": "Murder of the Alshansky family",
+  "summary": "Abrasha Alshansky, his wife, and children were killed in Bialystok.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 389,
+  "printedPage": "50",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8fa4a7edd1e1e629922effe5",
+      "pageId": "page_nybc313739_0389",
+      "scanIndex": 389,
+      "leafNumber": 388,
+      "printedPage": "50",
+      "passageCharStart": 313,
+      "passageCharEnd": 372,
+      "normalizedPassageCharStart": 313,
+      "normalizedPassageCharEnd": 372,
+      "pageCharStart": 3173,
+      "pageCharEnd": 3232,
+      "quote": "אין ביאליסטאק איז ער מיט זיין פרוי און קינדערלאך אומגעקומען",
+      "normalizedQuote": "אין ביאליסטאק איז ער מיט זיין פרוי און קינדערלאך אומגעקומען",
+      "modelQuote": "אין ביאליסטאק איז ער מיט זיין פרוי און קינדערלאך אומגעקומען",
+      "bbox": {
+        "left": 1830,
+        "top": 5093,
+        "right": 3916,
+        "bottom": 5175
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n388/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "0377fb1d637f81c195583c1dff082981905802533d1aafe202c29b62ff99af1c",
+      "normalizedPassageChecksum": "73fec66ab8b2ad219c1fb4eda54c5c82d0c739bdd65bed97f81475f109d9a295",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_cb6c4831247d15193fcbe775",
+      "type": "Place",
+      "title": "Bialystok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_8788b9ebdade879146d9e7ac",
+      "type": "Person",
+      "title": "Abrasha Alshansky",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_7f4df666cba8fc3da5d78321",
+      "type": "Person",
+      "title": "Abrasha Alshansky's wife",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_f9890b6df253d14753aead01",
+      "type": "Family",
+      "title": "Alshansky family",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

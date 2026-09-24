@@ -1,0 +1,107 @@
+{
+  "id": "mention_0adba5bfb1b6b58720ad35be",
+  "type": "Place",
+  "title": "Orthodox church on the hill",
+  "summary": "Orthodox church burned in 1936 and was not rebuilt.",
+  "originalName": "הכנסיה הפרבוסלאוית",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 17,
+  "printedPage": "10",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Orthodox church",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_714f718e3b0237d404aa6b5c",
+      "pageId": "page_nybc313739_0017",
+      "scanIndex": 17,
+      "leafNumber": 16,
+      "printedPage": "10",
+      "passageCharStart": 17,
+      "passageCharEnd": 56,
+      "normalizedPassageCharStart": 17,
+      "normalizedPassageCharEnd": 56,
+      "pageCharStart": 1127,
+      "pageCharEnd": 1166,
+      "quote": "כאשר נשרפה הכנסיה הפרבוסלאוית בשנת 1936",
+      "normalizedQuote": "כאשר נשרפה הכנסיה הפרבוסלאוית בשנת 1936",
+      "modelQuote": "כאשר נשרפה הכנסיה הפרבוסלאוית בשנת 1936",
+      "bbox": {
+        "left": 1566,
+        "top": 2830,
+        "right": 3096,
+        "bottom": 2897
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n16/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "371e34ef22cdc820239c57081765ef54b7d12c5c11345a77ef5eab28e67bf2ff",
+      "normalizedPassageChecksum": "7a0983e6f912b3abca38336be226d0e340c014cfd3614ef4e048cc1422eb73ec",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_76a877d4c679327a2f7b355f",
+      "type": "Fire",
+      "title": "Burning of the Orthodox church",
+      "summary": "The Orthodox church burned in 1936 and Polish authorities did not permit reconstruction.",
+      "dateStart": "1936",
+      "dateEnd": "1936",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_714f718e3b0237d404aa6b5c",
+        "pageId": "page_nybc313739_0017",
+        "scanIndex": 17,
+        "leafNumber": 16,
+        "printedPage": "10",
+        "passageCharStart": 17,
+        "passageCharEnd": 56,
+        "normalizedPassageCharStart": 17,
+        "normalizedPassageCharEnd": 56,
+        "pageCharStart": 1127,
+        "pageCharEnd": 1166,
+        "quote": "כאשר נשרפה הכנסיה הפרבוסלאוית בשנת 1936",
+        "normalizedQuote": "כאשר נשרפה הכנסיה הפרבוסלאוית בשנת 1936",
+        "modelQuote": "כאשר נשרפה הכנסיה הפרבוסלאוית בשנת 1936",
+        "bbox": {
+          "left": 1566,
+          "top": 2830,
+          "right": 3096,
+          "bottom": 2897
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n16/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "371e34ef22cdc820239c57081765ef54b7d12c5c11345a77ef5eab28e67bf2ff",
+        "normalizedPassageChecksum": "7a0983e6f912b3abca38336be226d0e340c014cfd3614ef4e048cc1422eb73ec",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_76a877d4c679327a2f7b355f",
+      "type": "Event",
+      "title": "Burning of the Orthodox church",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_88154ac2a4fcfe5ecfcfba69",
+      "type": "Organization",
+      "title": "Polish authorities",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fad3e146384b65e986776f4b",
+      "type": "Person",
+      "title": "Bohdan Khmelnytsky",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

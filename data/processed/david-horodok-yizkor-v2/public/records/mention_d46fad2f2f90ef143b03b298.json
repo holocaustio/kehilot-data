@@ -1,0 +1,103 @@
+{
+  "id": "mention_d46fad2f2f90ef143b03b298",
+  "type": "Institution",
+  "title": "Tel Aviv Magistrate Court",
+  "summary": "Court where testimonies were collected in 1953.",
+  "originalName": "בית משפט השלום בתל-אביב",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 245,
+  "printedPage": "238",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "court",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ad87dfc4319aa0eb42850101",
+      "pageId": "page_nybc313739_0245",
+      "scanIndex": 245,
+      "leafNumber": 244,
+      "printedPage": "238",
+      "passageCharStart": 49,
+      "passageCharEnd": 72,
+      "normalizedPassageCharStart": 49,
+      "normalizedPassageCharEnd": 72,
+      "pageCharStart": 2402,
+      "pageCharEnd": 2425,
+      "quote": "בית משפט השלום בתל-אביב",
+      "normalizedQuote": "בית משפט השלום בתל-אביב",
+      "modelQuote": "בית משפט השלום בתל-אביב",
+      "bbox": {
+        "left": 1039,
+        "top": 4270,
+        "right": 1974,
+        "bottom": 4337
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n244/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "a76d75a3892e4b67d1b818e54f8e95dbfc7c263ece8b43328574ba186d4d2567",
+      "normalizedPassageChecksum": "2db50dfae3c5850aa0178e0863e237ab39e620fc92cf4e65b16f3383c0cb122d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_94df8bcfcc32f645997cb1bf",
+      "type": "Testimony Collection",
+      "title": "Testimonies were collected in Tel Aviv",
+      "summary": "Testimonies were collected at the Tel Aviv Magistrate Court in 1953 and forwarded to Warsaw.",
+      "dateStart": "1953",
+      "dateEnd": "1953",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event is testimony collection, which does not directly fit an allowed event type.",
+      "evidence": {
+        "passageId": "passage_ad87dfc4319aa0eb42850101",
+        "pageId": "page_nybc313739_0245",
+        "scanIndex": 245,
+        "leafNumber": 244,
+        "printedPage": "238",
+        "passageCharStart": 126,
+        "passageCharEnd": 168,
+        "normalizedPassageCharStart": 126,
+        "normalizedPassageCharEnd": 168,
+        "pageCharStart": 2479,
+        "pageCharEnd": 2521,
+        "quote": "בשנת 1953 נגבו העדויות\nבבית המשפט בתל-אביב",
+        "normalizedQuote": "בשנת 1953 נגבו העדויות\nבבית המשפט בתל-אביב",
+        "modelQuote": "בשנת 1953 נגבו העדויות\nבבית המשפט בתל-אביב",
+        "bbox": {
+          "left": 1038,
+          "top": 4389,
+          "right": 3905,
+          "bottom": 4550
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n244/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "a76d75a3892e4b67d1b818e54f8e95dbfc7c263ece8b43328574ba186d4d2567",
+        "normalizedPassageChecksum": "2db50dfae3c5850aa0178e0863e237ab39e620fc92cf4e65b16f3383c0cb122d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_94df8bcfcc32f645997cb1bf",
+      "type": "Event",
+      "title": "Testimonies were collected in Tel Aviv",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_2f1a85d02e4211ca5efd52b7",
+      "type": "Person",
+      "title": "Investigating judge in Warsaw",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

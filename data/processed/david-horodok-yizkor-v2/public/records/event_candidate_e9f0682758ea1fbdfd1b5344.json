@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_e9f0682758ea1fbdfd1b5344",
+  "type": "Event",
+  "title": "Hannah murdered",
+  "summary": "Hannah, wife of Yosef Broder, was murdered during the Balakhovtsy period.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 101,
+  "printedPage": "94",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4cb33e3da816ae9f01666126",
+      "pageId": "page_nybc313739_0101",
+      "scanIndex": 101,
+      "leafNumber": 100,
+      "printedPage": "94",
+      "passageCharStart": 635,
+      "passageCharEnd": 656,
+      "normalizedPassageCharStart": 635,
+      "normalizedPassageCharEnd": 656,
+      "pageCharStart": 1575,
+      "pageCharEnd": 1596,
+      "quote": "חנה -- אשת\nיוסף ברודר",
+      "normalizedQuote": "חנה -- אשת\nיוסף ברודר",
+      "modelQuote": "חנה -- אשת יוסף ברודר",
+      "bbox": {
+        "left": 1049,
+        "top": 3162,
+        "right": 3912,
+        "bottom": 3319
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n100/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "2684381fbe190725bc061acd4c8bdc7916d8f3f163f91e48625d5d73ad23f077",
+      "normalizedPassageChecksum": "7726e01d3190ca9b6095bb85644937f44412b953893faf6eec27de06254fee47",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9370bc654de0388777487f28",
+      "type": "Community",
+      "title": "David-Horodok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_131bc0b8f3157f960619e8eb",
+      "type": "Person",
+      "title": "Hannah, wife of Yosef Broder",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,118 @@
+{
+  "id": "mention_db9d2e33cbea284defc7649c",
+  "type": "Place",
+  "title": "Canals beneath the town",
+  "summary": "Forest canals where transported Jews were shot.",
+  "originalName": "קאנאלן אונטערן שטאט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 472,
+  "printedPage": "63",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "canals",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1397a5dbf8e42c576d0fcaf0",
+      "pageId": "page_nybc313739_0472",
+      "scanIndex": 472,
+      "leafNumber": 471,
+      "printedPage": "63",
+      "passageCharStart": 278,
+      "passageCharEnd": 303,
+      "normalizedPassageCharStart": 278,
+      "normalizedPassageCharEnd": 303,
+      "pageCharStart": 2405,
+      "pageCharEnd": 2430,
+      "quote": "צו די קאנאלן אונטערן שטאט",
+      "normalizedQuote": "צו די קאנאלן אונטערן שטאט",
+      "modelQuote": "צו די קאנאלן אונטערן שטאט",
+      "bbox": {
+        "left": 1632,
+        "top": 4378,
+        "right": 2535,
+        "bottom": 4452
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n471/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "99ea8b7a5390b0477c70b25c1bc764d557f8781c09eb07e1a8afca9e66933d00",
+      "normalizedPassageChecksum": "8e00ffba462154479ba3ecc292ceb1a16dce78aae757a7244e542a50fcba71b5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_2b4cb38aa3fb9b6a1db3ca80",
+      "type": "Murder",
+      "title": "Jews murdered at the canals",
+      "summary": "Five hundred men were transported daily to canals beneath the town, extending into the forest, and shot there.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1397a5dbf8e42c576d0fcaf0",
+        "pageId": "page_nybc313739_0472",
+        "scanIndex": 472,
+        "leafNumber": 471,
+        "printedPage": "63",
+        "passageCharStart": 346,
+        "passageCharEnd": 366,
+        "normalizedPassageCharStart": 346,
+        "normalizedPassageCharEnd": 366,
+        "pageCharStart": 2473,
+        "pageCharEnd": 2493,
+        "quote": "דארט דערשאסן געווארן",
+        "normalizedQuote": "דארט דערשאסן געווארן",
+        "modelQuote": "דארט דערשאסן געווארן",
+        "bbox": {
+          "left": 2321,
+          "top": 4493,
+          "right": 3077,
+          "bottom": 4555
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n471/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "99ea8b7a5390b0477c70b25c1bc764d557f8781c09eb07e1a8afca9e66933d00",
+        "normalizedPassageChecksum": "8e00ffba462154479ba3ecc292ceb1a16dce78aae757a7244e542a50fcba71b5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_2b4cb38aa3fb9b6a1db3ca80",
+      "type": "Event",
+      "title": "Jews murdered at the canals",
+      "relation": "Occurred At",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_a055a443ff7c2c03b3d994dd",
+      "type": "Person",
+      "title": "Feigele",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2faaeb243331959eb9b00814",
+      "type": "Place",
+      "title": "Dombrovitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f5dfb4e9a7e727595ef47daf",
+      "type": "Place",
+      "title": "Sarne",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_01ab8513e1e83af7ffd1e087",
+      "type": "Person",
+      "title": "The narrator's mother",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

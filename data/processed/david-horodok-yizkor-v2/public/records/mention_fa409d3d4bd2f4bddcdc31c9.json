@@ -1,0 +1,107 @@
+{
+  "id": "mention_fa409d3d4bd2f4bddcdc31c9",
+  "type": "Place",
+  "title": "Between Hinovsk and Olshan",
+  "summary": "Location of mass graves prepared for Jewish victims.",
+  "originalName": "בין חינובסק ואולשן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 240,
+  "printedPage": "233",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "route or geographic area",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c17889a016cbda8853998e89",
+      "pageId": "page_nybc313739_0240",
+      "scanIndex": 240,
+      "leafNumber": 239,
+      "printedPage": "233",
+      "passageCharStart": 158,
+      "passageCharEnd": 176,
+      "normalizedPassageCharStart": 158,
+      "normalizedPassageCharEnd": 176,
+      "pageCharStart": 2304,
+      "pageCharEnd": 2322,
+      "quote": "בין חינובסק ואולשן",
+      "normalizedQuote": "בין חינובסק ואולשן",
+      "modelQuote": "בין חינובסק ואולשן",
+      "bbox": {
+        "left": 3272,
+        "top": 4392,
+        "right": 3903,
+        "bottom": 4466
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n239/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "c87e4bf5184d5c2abd7d0f78a979238611b4a3cec08ff1d676a2594c0bfcb035",
+      "normalizedPassageChecksum": "0f0ac95c0ce1003a1fa125c7ffe592a23a23cc7a8878c5136bac80d35e3f3f4e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_6a0a6a667e5a08316b7de8a8",
+      "type": "Murder",
+      "title": "Mass murder of Jewish men",
+      "summary": "More than 3,000 Jewish men aged fourteen and older were murdered and buried in mass graves.",
+      "dateStart": "1941-08-14",
+      "dateEnd": "1941-08-14",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c17889a016cbda8853998e89",
+        "pageId": "page_nybc313739_0240",
+        "scanIndex": 240,
+        "leafNumber": 239,
+        "printedPage": "233",
+        "passageCharStart": 94,
+        "passageCharEnd": 129,
+        "normalizedPassageCharStart": 94,
+        "normalizedPassageCharEnd": 129,
+        "pageCharStart": 2240,
+        "pageCharEnd": 2275,
+        "quote": "14 אוגוסט 1941 ונקברו בקברות המונים",
+        "normalizedQuote": "14 אוגוסט 1941 ונקברו בקברות המונים",
+        "modelQuote": "14 אוגוסט 1941 ונקברו בקברות המונים",
+        "bbox": {
+          "left": 2065,
+          "top": 4302,
+          "right": 3285,
+          "bottom": 4366
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n239/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "c87e4bf5184d5c2abd7d0f78a979238611b4a3cec08ff1d676a2594c0bfcb035",
+        "normalizedPassageChecksum": "0f0ac95c0ce1003a1fa125c7ffe592a23a23cc7a8878c5136bac80d35e3f3f4e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_6a0a6a667e5a08316b7de8a8",
+      "type": "Event",
+      "title": "Mass murder of Jewish men",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ed5b5ca09edd122bd72ffdd8",
+      "type": "Person",
+      "title": "Ivan Marejka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_852d95f4deb73ec271cfbdbf",
+      "type": "Event",
+      "title": "Mass murder of David-Horodok Jews",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

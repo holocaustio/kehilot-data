@@ -1,0 +1,114 @@
+{
+  "id": "mention_649b059c9f664ca1afc635a9",
+  "type": "Institution",
+  "title": "Bnei-Yehuda school",
+  "summary": "School that switched instruction from Hebrew to Yiddish under Soviet rule.",
+  "originalName": "בית-ספר",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 389,
+  "printedPage": "50",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "school",
+  "uncertaintyNote": "The passage uses בית-ספר generically; its identification with the Bnei-Yehuda institution is contextual.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d9aabfc63e8f6ad180472579",
+      "pageId": "page_nybc313739_0389",
+      "scanIndex": 389,
+      "leafNumber": 388,
+      "printedPage": "50",
+      "passageCharStart": 594,
+      "passageCharEnd": 637,
+      "normalizedPassageCharStart": 594,
+      "normalizedPassageCharEnd": 637,
+      "pageCharStart": 2592,
+      "pageCharEnd": 2635,
+      "quote": "אין בית-ספר ניט לערנען מער עברית, נאר יידיש",
+      "normalizedQuote": "אין בית-ספר ניט לערנען מער עברית, נאר יידיש",
+      "modelQuote": "אין בית-ספר ניט לערנען מער עברית, נאר יידיש",
+      "bbox": {
+        "left": 1045,
+        "top": 4266,
+        "right": 2552,
+        "bottom": 4347
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n388/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "67005512ae0c3cfd161d86b9e2894b94fabd41fc4f14bcc05d9b2aa9470a3c2a",
+      "normalizedPassageChecksum": "84906c864ef9adc9f70b7c2bd6efadb6470d6123a8309f68c8ebd73a1aa71e49",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_023067c53b006f304d8f0f80",
+      "type": "Educational Policy Change",
+      "title": "Change of school language under Soviet rule",
+      "summary": "After the Soviets entered David-Horodok, instruction at the school changed from Hebrew to Yiddish.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "No allowed event type precisely represents a change in instructional language.",
+      "evidence": {
+        "passageId": "passage_d9aabfc63e8f6ad180472579",
+        "pageId": "page_nybc313739_0389",
+        "scanIndex": 389,
+        "leafNumber": 388,
+        "printedPage": "50",
+        "passageCharStart": 149,
+        "passageCharEnd": 228,
+        "normalizedPassageCharStart": 149,
+        "normalizedPassageCharEnd": 228,
+        "pageCharStart": 2147,
+        "pageCharEnd": 2226,
+        "quote": "באנייט דאס לערנען אין דער שולע, שוין ניט אין דער העברעאישער שפראך נאר אין יידיש",
+        "normalizedQuote": "באנייט דאס לערנען אין דער שולע, שוין ניט אין דער העברעאישער שפראך נאר אין יידיש",
+        "modelQuote": "באנייט דאס לערנען אין דער שולע, שוין ניט אין דער העברעאישער שפראך נאר אין יידיש",
+        "bbox": {
+          "left": 1219,
+          "top": 3750,
+          "right": 3913,
+          "bottom": 3832
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n388/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "67005512ae0c3cfd161d86b9e2894b94fabd41fc4f14bcc05d9b2aa9470a3c2a",
+        "normalizedPassageChecksum": "84906c864ef9adc9f70b7c2bd6efadb6470d6123a8309f68c8ebd73a1aa71e49",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_023067c53b006f304d8f0f80",
+      "type": "Event",
+      "title": "Change of school language under Soviet rule",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_8788b9ebdade879146d9e7ac",
+      "type": "Person",
+      "title": "Abrasha Alshansky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_da91d97dfcd046c768c71d29",
+      "type": "Organization",
+      "title": "Bnei-Yehuda movement",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

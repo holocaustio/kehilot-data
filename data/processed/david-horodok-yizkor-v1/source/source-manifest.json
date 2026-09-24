@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "kehilot-yizkor-source-v2",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "ingestedAt": "2026-09-24T13:06:45.784Z",
+  "community": {
+    "id": "community_david_horodok",
+    "displayName": "david-horodok",
+    "canonicalName": "david-horodok",
+    "country": "Belarus"
+  },
+  "book": {
+    "id": "book_nybc313739",
+    "communityId": "community_david_horodok",
+    "internetArchiveId": "nybc313739",
+    "title": "Sefer zikaron Daṿid-Horodoḳ",
+    "alternateTitle": null,
+    "authors": [
+      "Eidan, Yitsḥak",
+      "00עידן (זלדין), יצחק"
+    ],
+    "publication": "[Tel-Aviv?]",
+    "language": "he",
+    "pageProgression": "rl",
+    "sourceUrl": "https://archive.org/details/nybc313739",
+    "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+    "rightsStatus": "REVIEW_REQUIRED",
+    "attribution": "internet-archive",
+    "checksums": {
+      "metadata": "cd9ecfbc2527333a0e38545cfdaa8988fc046eaf0d9f7d245f52fc0bf2cd2436",
+      "djvuXml": "c04dd82f21dd25ebb853313078e1a8142ac8ff84de3cd0dc1e55e0418c88424c",
+      "scandataXml": "2a1f657fba0e6f41b9d30ad527c650d8bcb0ae7e403cad4bb8b23a3cd3656e56",
+      "pdf": "988a4a65ce0afe481ef856b691d0ddc1bac0b9067da14ff700e924643b5b60f5"
+    }
+  },
+  "chapters": [],
+  "counts": {
+    "pages": 507,
+    "pagesWithText": 475,
+    "passages": 1158,
+    "words": 165173,
+    "normalizationEdits": 159003,
+    "joinedFragments": 148343,
+    "softLineBreaks": 10660
+  },
+  "normalizationPolicy": {
+    "version": "ocr-layout-normalizer-v1",
+    "canonicalField": "text",
+    "derivedField": "normalizedText",
+    "reversible": true,
+    "changesCharacters": false,
+    "rules": [
+      "concatenate-djvu-word-runs",
+      "replace-soft-line-breaks"
+    ]
+  },
+  "passagePolicy": {
+    "pageBound": true,
+    "targetEstimatedTokens": 1100,
+    "maxEstimatedTokens": 1500,
+    "tokenEstimate": "hebrew_letters*1.15 + latin_letters/4 + digits/3 + punctuation/2"
+  }
+}

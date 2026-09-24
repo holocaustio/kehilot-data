@@ -1,0 +1,105 @@
+{
+  "id": "mention_91fe3164ca951bcb1f9807e3",
+  "type": "Institution",
+  "title": "Police station",
+  "summary": "The station where militia officers brought the narrator and the suspect for document checks.",
+  "originalName": "פאליציי-קאמיסאריאט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 486,
+  "printedPage": "7",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police station",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c69be92189032623ee0c7c4b",
+      "pageId": "page_nybc313739_0486",
+      "scanIndex": 486,
+      "leafNumber": 485,
+      "printedPage": "7",
+      "passageCharStart": 737,
+      "passageCharEnd": 759,
+      "normalizedPassageCharStart": 737,
+      "normalizedPassageCharEnd": 759,
+      "pageCharStart": 1817,
+      "pageCharEnd": 1839,
+      "quote": "אין פאליציי-קאמיסאריאט",
+      "normalizedQuote": "אין פאליציי-קאמיסאריאט",
+      "modelQuote": "אין פאליציי-קאמיסאריאט",
+      "bbox": {
+        "left": 3140,
+        "top": 3760,
+        "right": 3912,
+        "bottom": 3838
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n485/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "c4ab11b7bb41ca270f645cf213a790e8d873cc409914719b3af8b387677d418e",
+      "normalizedPassageChecksum": "61d447ff5b92c9778b10ff8a79ae4ff21a0d097897067cf78f5b9830bd13a478",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_4c44d5c672e0103d4af08388",
+      "type": "Arrest",
+      "title": "Detention of a suspected collaborator",
+      "summary": "Militia took the narrator and an unidentified man to the police station after an accusation of wartime collaboration.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c69be92189032623ee0c7c4b",
+        "pageId": "page_nybc313739_0486",
+        "scanIndex": 486,
+        "leafNumber": 485,
+        "printedPage": "7",
+        "passageCharStart": 711,
+        "passageCharEnd": 759,
+        "normalizedPassageCharStart": 711,
+        "normalizedPassageCharEnd": 759,
+        "pageCharStart": 1791,
+        "pageCharEnd": 1839,
+        "quote": "האט אונז ביידן מיטגענומען\nאין פאליציי-קאמיסאריאט",
+        "normalizedQuote": "האט אונז ביידן מיטגענומען\nאין פאליציי-קאמיסאריאט",
+        "modelQuote": "האט אונז ביידן מיטגענומען\nאין פאליציי-קאמיסאריאט",
+        "bbox": {
+          "left": 1044,
+          "top": 3672,
+          "right": 3912,
+          "bottom": 3838
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n485/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "c4ab11b7bb41ca270f645cf213a790e8d873cc409914719b3af8b387677d418e",
+        "normalizedPassageChecksum": "61d447ff5b92c9778b10ff8a79ae4ff21a0d097897067cf78f5b9830bd13a478",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_4c44d5c672e0103d4af08388",
+      "type": "Event",
+      "title": "Detention of a suspected collaborator",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_51fa515be077158a383f9820",
+      "type": "Person",
+      "title": "Unknown David-Horodok townsman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6749d9de2e7c61e3431da11f",
+      "type": "Organization",
+      "title": "Police militia",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

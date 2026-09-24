@@ -1,0 +1,124 @@
+{
+  "id": "mention_29f33a21087abd7691a2ada8",
+  "type": "Person",
+  "title": "Jacob",
+  "summary": "Man killed during the 1941 massacre.",
+  "originalName": "יעקב",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 478,
+  "printedPage": "69",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_23667cf46ef0a0f5108b7723",
+      "pageId": "page_nybc313739_0478",
+      "scanIndex": 478,
+      "leafNumber": 477,
+      "printedPage": "69",
+      "passageCharStart": 936,
+      "passageCharEnd": 962,
+      "normalizedPassageCharStart": 936,
+      "normalizedPassageCharEnd": 962,
+      "pageCharStart": 2088,
+      "pageCharEnd": 2114,
+      "quote": "יעקב אויך. אט, ערשט האט ער",
+      "normalizedQuote": "יעקב אויך. אט, ערשט האט ער",
+      "modelQuote": "יעקב אויך. אט, ערשט האט ער",
+      "bbox": {
+        "left": 1044,
+        "top": 3570,
+        "right": 2001,
+        "bottom": 3632
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n477/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "a90b3c44d929cb3a89e0e74c81df346759cb403201ff5983d7c497d0d702711a",
+      "normalizedPassageChecksum": "8a8c16394caa0a67acb06619fa34a95ad06084d9cb812f25530138f6ceba9344",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_cc1d34d7625d3df01d76c935",
+      "type": "Murder",
+      "title": "1941 David-Horodok massacre",
+      "summary": "Fifty-three people were murdered, including Jacob, Hannah's father, and Gitl's husband.",
+      "dateStart": "1941",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_23667cf46ef0a0f5108b7723",
+        "pageId": "page_nybc313739_0478",
+        "scanIndex": 478,
+        "leafNumber": 477,
+        "printedPage": "69",
+        "passageCharStart": 1007,
+        "passageCharEnd": 1054,
+        "normalizedPassageCharStart": 1007,
+        "normalizedPassageCharEnd": 1054,
+        "pageCharStart": 2159,
+        "pageCharEnd": 2206,
+        "quote": "פארוואס ? 53 קדושים זענען דאן דערמארדעט\nגעווארן",
+        "normalizedQuote": "פארוואס ? 53 קדושים זענען דאן דערמארדעט\nגעווארן",
+        "modelQuote": "פארוואס ? 53 קדושים זענען דאן דערמארדעט געווארן",
+        "bbox": {
+          "left": 1045,
+          "top": 3675,
+          "right": 3905,
+          "bottom": 3834
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n477/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "a90b3c44d929cb3a89e0e74c81df346759cb403201ff5983d7c497d0d702711a",
+        "normalizedPassageChecksum": "8a8c16394caa0a67acb06619fa34a95ad06084d9cb812f25530138f6ceba9344",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_cc1d34d7625d3df01d76c935",
+      "type": "Event",
+      "title": "1941 David-Horodok massacre",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7de692468bf2289452183808",
+      "type": "Place",
+      "title": "Rublie",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ca5563e9b3d06f16ee4962f9",
+      "type": "Person",
+      "title": "Marka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5e3a497c9bf78f8e1da22b7c",
+      "type": "Person",
+      "title": "Hannah's father",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1c137e86af23bd6902ecc959",
+      "type": "Person",
+      "title": "Gitl's husband",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

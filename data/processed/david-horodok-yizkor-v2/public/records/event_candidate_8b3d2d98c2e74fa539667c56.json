@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_8b3d2d98c2e74fa539667c56",
+  "type": "Event",
+  "title": "Death of Prince Fyodor",
+  "summary": "Prince Fyodor died in 1521, after which the Pinsk Principality changed hands.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 16,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Death",
+  "dateStart": "1521",
+  "dateEnd": "1521",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e32156f1354507a82e780771",
+      "pageId": "page_nybc313739_0016",
+      "scanIndex": 16,
+      "leafNumber": 15,
+      "printedPage": null,
+      "passageCharStart": 360,
+      "passageCharEnd": 385,
+      "normalizedPassageCharStart": 360,
+      "normalizedPassageCharEnd": 385,
+      "pageCharStart": 1313,
+      "pageCharEnd": 1338,
+      "quote": "בשנת 1521 מת הנסיך פיודור",
+      "normalizedQuote": "בשנת 1521 מת הנסיך פיודור",
+      "modelQuote": "בשנת 1521 מת הנסיך פיודור",
+      "bbox": {
+        "left": 2861,
+        "top": 2847,
+        "right": 3769,
+        "bottom": 2910
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n15/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "d1a43bc1adb7af44c2d2dfae687461d5a67f16c942ac2da7df49342b4a268d03",
+      "normalizedPassageChecksum": "0ca8f13c529789749b3d026c3d49ea6d2eaa0879ca359bf499a818f404196eff",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f8c42ccf6d5ef88f31b81ac4",
+      "type": "Place",
+      "title": "Pinsk Principality",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a78781b1be1b0dc963b8484e",
+      "type": "Person",
+      "title": "Fyodor",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

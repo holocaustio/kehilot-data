@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_d9b9aa69c74aee16bbba1f5c",
+  "type": "Event",
+  "title": "Misha married a Jewish woman in England",
+  "summary": "Misha married a Jewish woman while in England.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 242,
+  "printedPage": "235",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Marriage",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_581eb15c2b9e8afd78f09ed0",
+      "pageId": "page_nybc313739_0242",
+      "scanIndex": 242,
+      "leafNumber": 241,
+      "printedPage": "235",
+      "passageCharStart": 495,
+      "passageCharEnd": 530,
+      "normalizedPassageCharStart": 495,
+      "normalizedPassageCharEnd": 530,
+      "pageCharStart": 495,
+      "pageCharEnd": 530,
+      "quote": "אותה נשא לו לאשה עוד בהיותו באנגליה",
+      "normalizedQuote": "אותה נשא לו לאשה עוד בהיותו באנגליה",
+      "modelQuote": "אותה נשא לו לאשה עוד בהיותו באנגליה",
+      "bbox": {
+        "left": 2335,
+        "top": 1793,
+        "right": 3604,
+        "bottom": 1866
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n241/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "d878c6c74b46f43c1b96948fbc2f0ca82fbb47647de83ac695ac8a72fee6098b",
+      "normalizedPassageChecksum": "d740cd94bce8683e2cfe72081b631afcbcf486c0e1108287faf2146d60f3bf56",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_02250a5084c9d7814f9fc065",
+      "type": "Place",
+      "title": "England",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_92c9c05bc876b9ac62a76345",
+      "type": "Person",
+      "title": "Misha",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_ebf80fc5e188a80c81cab682",
+      "type": "Person",
+      "title": "Misha's Jewish wife",
+      "relation": "Participant",
+      "role": "Spouse"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

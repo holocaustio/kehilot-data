@@ -1,0 +1,108 @@
+{
+  "id": "mention_c306ee964b85e5ee02bea4f4",
+  "type": "Institution",
+  "title": "First savings and loan fund",
+  "summary": "A savings and loan fund opened in David-Horodok after similar institutions developed in Russia.",
+  "originalName": "אזא קאסע",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 394,
+  "printedPage": "55",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "savings and loan fund",
+  "uncertaintyNote": "The passage does not provide a formal name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a50771e609605b13ec662de1",
+      "pageId": "page_nybc313739_0394",
+      "scanIndex": 394,
+      "leafNumber": 393,
+      "printedPage": "55",
+      "passageCharStart": 1019,
+      "passageCharEnd": 1048,
+      "normalizedPassageCharStart": 1019,
+      "normalizedPassageCharEnd": 1048,
+      "pageCharStart": 1019,
+      "pageCharEnd": 1048,
+      "quote": "גלייך געעפנט געווארן אזא קאסע",
+      "normalizedQuote": "גלייך געעפנט געווארן אזא קאסע",
+      "modelQuote": "גלייך געעפנט געווארן אזא קאסע",
+      "bbox": {
+        "left": 2245,
+        "top": 2400,
+        "right": 3249,
+        "bottom": 2476
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n393/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "6510c492e98fd943540246e80255a8578a3c9532c9b9223c52322b6f2fac8e2f",
+      "normalizedPassageChecksum": "37f9a72e29c03813e89250bb938fa4a52dde9a0ecb3f7eb9d2fcaf5b21cd2c3c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c40230927ac589c3e97b0fb5",
+      "type": "Business Opening",
+      "title": "Opening of a savings and loan fund",
+      "summary": "A savings and loan fund opened in David-Horodok after similar funds developed in Russia.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR includes a variant spelling of David-Horodok, and the fund has no formal name.",
+      "evidence": {
+        "passageId": "passage_a50771e609605b13ec662de1",
+        "pageId": "page_nybc313739_0394",
+        "scanIndex": 394,
+        "leafNumber": 393,
+        "printedPage": "55",
+        "passageCharStart": 999,
+        "passageCharEnd": 1048,
+        "normalizedPassageCharStart": 999,
+        "normalizedPassageCharEnd": 1048,
+        "pageCharStart": 999,
+        "pageCharEnd": 1048,
+        "quote": "אין דאוויד\"-האראדאק גלייך געעפנט געווארן אזא קאסע",
+        "normalizedQuote": "אין דאוויד\"-האראדאק גלייך געעפנט געווארן אזא קאסע",
+        "modelQuote": "אין דאוויד\"-האראדאק גלייך געעפנט געווארן אזא קאסע",
+        "bbox": {
+          "left": 2245,
+          "top": 2400,
+          "right": 3913,
+          "bottom": 2476
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n393/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "6510c492e98fd943540246e80255a8578a3c9532c9b9223c52322b6f2fac8e2f",
+        "normalizedPassageChecksum": "37f9a72e29c03813e89250bb938fa4a52dde9a0ecb3f7eb9d2fcaf5b21cd2c3c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c40230927ac589c3e97b0fb5",
+      "type": "Event",
+      "title": "Opening of a savings and loan fund",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_70ddf47dab3327f5d8436ee6",
+      "type": "Place",
+      "title": "David-Horodok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fa19963ef5878215e09742f3",
+      "type": "Institution",
+      "title": "Second savings and loan fund",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

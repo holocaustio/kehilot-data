@@ -1,0 +1,117 @@
+{
+  "id": "mention_c8805c543ca5b5094a2a877a",
+  "type": "Place",
+  "title": "David-Horodok Market",
+  "summary": "The market where the monastery was built.",
+  "originalName": "דויד-הורודוק מארק",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 342,
+  "printedPage": "3",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "market",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b854ec5d62fb6c04b584e562",
+      "pageId": "page_nybc313739_0342",
+      "scanIndex": 342,
+      "leafNumber": 341,
+      "printedPage": "3",
+      "passageCharStart": 464,
+      "passageCharEnd": 481,
+      "normalizedPassageCharStart": 464,
+      "normalizedPassageCharEnd": 481,
+      "pageCharStart": 1557,
+      "pageCharEnd": 1574,
+      "quote": "דויד-הורודוק מארק",
+      "normalizedQuote": "דויד-הורודוק מארק",
+      "modelQuote": "דויד-הורודוק מארק",
+      "bbox": {
+        "left": 1395,
+        "top": 5125,
+        "right": 3824,
+        "bottom": 5178
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n341/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "82d20ab847adba9508e128acad794cb93f09aa5214acfb3b7d4c7b874627d341",
+      "normalizedPassageChecksum": "40a2cd5a66fb1f39e41892320f84b2655769874cfdfa7c0599abcfade9e3d15d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a2f6c84bae5426e98dbd4cad",
+      "type": "Organization Founding",
+      "title": "Monastery built in David-Horodok market",
+      "summary": "Yukhnievich built a monastery in the middle of the market.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_b854ec5d62fb6c04b584e562",
+        "pageId": "page_nybc313739_0342",
+        "scanIndex": 342,
+        "leafNumber": 341,
+        "printedPage": "3",
+        "passageCharStart": 352,
+        "passageCharEnd": 373,
+        "normalizedPassageCharStart": 352,
+        "normalizedPassageCharEnd": 373,
+        "pageCharStart": 1445,
+        "pageCharEnd": 1466,
+        "quote": "אויסגעבויט א קלויסטער",
+        "normalizedQuote": "אויסגעבויט א קלויסטער",
+        "modelQuote": "אויסגעבויט א קלויסטער",
+        "bbox": {
+          "left": 2312,
+          "top": 2929,
+          "right": 3051,
+          "bottom": 3005
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n341/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "82d20ab847adba9508e128acad794cb93f09aa5214acfb3b7d4c7b874627d341",
+        "normalizedPassageChecksum": "40a2cd5a66fb1f39e41892320f84b2655769874cfdfa7c0599abcfade9e3d15d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a2f6c84bae5426e98dbd4cad",
+      "type": "Event",
+      "title": "Monastery built in David-Horodok market",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_97c98a333406f7ec60c20126",
+      "type": "Person",
+      "title": "Yukhnievich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_518c222b7d3b58e5a7ca1b25",
+      "type": "Institution",
+      "title": "Orthodox Church",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_04aa0d44bcfe29b1b29c045d",
+      "type": "Institution",
+      "title": "Monastery",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,163 @@
+{
+  "id": "mention_b8c8cb0fbf0176a44fce833d",
+  "type": "Community",
+  "title": "Residents of David-Horodok",
+  "summary": "Townspeople who gathered to exchange news and discuss escape.",
+  "originalName": "בני עירנו",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 209,
+  "printedPage": "202",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town residents",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_47095ccfaffb199ab985e967",
+      "pageId": "page_nybc313739_0209",
+      "scanIndex": 209,
+      "leafNumber": 208,
+      "printedPage": "202",
+      "passageCharStart": 117,
+      "passageCharEnd": 130,
+      "normalizedPassageCharStart": 117,
+      "normalizedPassageCharEnd": 130,
+      "pageCharStart": 2281,
+      "pageCharEnd": 2294,
+      "quote": "לכל בני עירנו",
+      "normalizedQuote": "לכל בני עירנו",
+      "modelQuote": "לכל בני עירנו",
+      "bbox": {
+        "left": 2023,
+        "top": 4493,
+        "right": 2471,
+        "bottom": 4566
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n208/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "07f644db35309e57dc52d21f31959c4a612398d5cb045a46f423944498fe71ae",
+      "normalizedPassageChecksum": "696b3f264fb9437183b4b47f06f6736b88b10975a56b63af10627311fad8d783",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_1c0b3395164a6b57be914321",
+      "predicate": "Part Of",
+      "subjectTitle": "Residents of David-Horodok",
+      "objectTitle": "David-Horodok",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The town identity is supplied by the surrounding passage context.",
+      "evidence": {
+        "passageId": "passage_47095ccfaffb199ab985e967",
+        "pageId": "page_nybc313739_0209",
+        "scanIndex": 209,
+        "leafNumber": 208,
+        "printedPage": "202",
+        "passageCharStart": 117,
+        "passageCharEnd": 130,
+        "normalizedPassageCharStart": 117,
+        "normalizedPassageCharEnd": 130,
+        "pageCharStart": 2281,
+        "pageCharEnd": 2294,
+        "quote": "לכל בני עירנו",
+        "normalizedQuote": "לכל בני עירנו",
+        "modelQuote": "לכל בני עירנו",
+        "bbox": {
+          "left": 2023,
+          "top": 4493,
+          "right": 2471,
+          "bottom": 4566
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n208/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "07f644db35309e57dc52d21f31959c4a612398d5cb045a46f423944498fe71ae",
+        "normalizedPassageChecksum": "696b3f264fb9437183b4b47f06f6736b88b10975a56b63af10627311fad8d783",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_148073c9605a68cd5a76ae06",
+      "type": "Migration",
+      "title": "Brief visit to David-Horodok",
+      "summary": "The narrator arrived after dark, met townspeople, and left in the morning.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The narrator is unnamed.",
+      "evidence": {
+        "passageId": "passage_47095ccfaffb199ab985e967",
+        "pageId": "page_nybc313739_0209",
+        "scanIndex": 209,
+        "leafNumber": 208,
+        "printedPage": "202",
+        "passageCharStart": 0,
+        "passageCharEnd": 44,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 44,
+        "pageCharStart": 2164,
+        "pageCharEnd": 2208,
+        "quote": "עם חשיכה הגעתי לדויד-הורודוק ועם בוקר עזבתיה",
+        "normalizedQuote": "עם חשיכה הגעתי לדויד-הורודוק ועם בוקר עזבתיה",
+        "modelQuote": "עם חשיכה הגעתי לדויד-הורודוק ועם בוקר עזבתיה",
+        "bbox": {
+          "left": 2197,
+          "top": 4389,
+          "right": 3770,
+          "bottom": 4463
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n208/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "07f644db35309e57dc52d21f31959c4a612398d5cb045a46f423944498fe71ae",
+        "normalizedPassageChecksum": "696b3f264fb9437183b4b47f06f6736b88b10975a56b63af10627311fad8d783",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_70ddf47dab3327f5d8436ee6",
+      "type": "Place",
+      "title": "David-Horodok",
+      "relation": "Part Of"
+    },
+    {
+      "id": "event_candidate_148073c9605a68cd5a76ae06",
+      "type": "Event",
+      "title": "Brief visit to David-Horodok",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_70ddf47dab3327f5d8436ee6",
+      "type": "Place",
+      "title": "David-Horodok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_be96698fcf1de80a850bb54f",
+      "type": "Place",
+      "title": "Land of Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3f715effc55ece462418df05",
+      "type": "Place",
+      "title": "Homeland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cf9c4d14a62d9132f858eba8",
+      "type": "Place",
+      "title": "Parents’ home",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,106 @@
+{
+  "id": "mention_cb1d9ab43a058b6446a93448",
+  "type": "Organization",
+  "title": "Police",
+  "summary": "Police personnel accompany Yefreitar and discuss the operation.",
+  "originalName": "פאליציי",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 466,
+  "printedPage": "57",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c317547a8602d19ff00b0330",
+      "pageId": "page_nybc313739_0466",
+      "scanIndex": 466,
+      "leafNumber": 465,
+      "printedPage": "57",
+      "passageCharStart": 326,
+      "passageCharEnd": 338,
+      "normalizedPassageCharStart": 326,
+      "normalizedPassageCharEnd": 338,
+      "pageCharStart": 1445,
+      "pageCharEnd": 1457,
+      "quote": "פאליציי-לייט",
+      "normalizedQuote": "פאליציי-לייט",
+      "modelQuote": "פאליציי-לייט",
+      "bbox": {
+        "left": 1824,
+        "top": 3134,
+        "right": 2200,
+        "bottom": 3199
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n465/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "416543bff5d1d44e825373fbddffea79b4a8565d7b25b9bd4c2916eb1e1b88f0",
+      "normalizedPassageChecksum": "ae5912e1056e59ffb6dd4c620fe2ab9af2bb2aaa8673d1d7c779926acf5eeea1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_5fbb0b5a094a7bc75c229e63",
+      "type": "Aktion Or Raid",
+      "title": "Operation to capture Jews",
+      "summary": "Police and villagers prepare and depart for an operation to capture Jews.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c317547a8602d19ff00b0330",
+        "pageId": "page_nybc313739_0466",
+        "scanIndex": 466,
+        "leafNumber": 465,
+        "printedPage": "57",
+        "passageCharStart": 941,
+        "passageCharEnd": 956,
+        "normalizedPassageCharStart": 941,
+        "normalizedPassageCharEnd": 956,
+        "pageCharStart": 2060,
+        "pageCharEnd": 2075,
+        "quote": "ווי כאפן\nזשידעס",
+        "normalizedQuote": "ווי כאפן\nזשידעס",
+        "modelQuote": "ווי כאפן\nזשידעס",
+        "bbox": {
+          "left": 1036,
+          "top": 4187,
+          "right": 3900,
+          "bottom": 4344
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n465/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "416543bff5d1d44e825373fbddffea79b4a8565d7b25b9bd4c2916eb1e1b88f0",
+        "normalizedPassageChecksum": "ae5912e1056e59ffb6dd4c620fe2ab9af2bb2aaa8673d1d7c779926acf5eeea1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b1339ddcd8d7dc84579686b5",
+      "type": "Person",
+      "title": "Yefreitar",
+      "relation": "Led By"
+    },
+    {
+      "id": "event_candidate_5fbb0b5a094a7bc75c229e63",
+      "type": "Event",
+      "title": "Operation to capture Jews",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_b1339ddcd8d7dc84579686b5",
+      "type": "Person",
+      "title": "Yefreitar",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

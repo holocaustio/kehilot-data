@@ -1,0 +1,112 @@
+{
+  "id": "mention_d0af1b9249243bdee3b43bcd",
+  "type": "Organization",
+  "title": "Punitive company",
+  "summary": "A unit that entered the town, killed three civilians, and looted it.",
+  "originalName": "פלוגת העונשין",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 34,
+  "printedPage": "27",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military unit",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5e40aca3c2b5397949878b54",
+      "pageId": "page_nybc313739_0034",
+      "scanIndex": 34,
+      "leafNumber": 33,
+      "printedPage": "27",
+      "passageCharStart": 272,
+      "passageCharEnd": 285,
+      "normalizedPassageCharStart": 272,
+      "normalizedPassageCharEnd": 285,
+      "pageCharStart": 2348,
+      "pageCharEnd": 2361,
+      "quote": "פלוגת העונשין",
+      "normalizedQuote": "פלוגת העונשין",
+      "modelQuote": "פלוגת העונשין",
+      "bbox": {
+        "left": 2883,
+        "top": 4699,
+        "right": 3322,
+        "bottom": 4776
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n33/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "c933283ee4d27dc51300081e9d5172b06484711b365401f9cc68f54bc9a1cb86",
+      "normalizedPassageChecksum": "8c013bc65ca777970a09d8f995907bf74ee935193b197e265414abe84d3ac22c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_f725027d96e204049dd45102",
+      "predicate": "Sent To",
+      "subjectTitle": "Punitive company",
+      "objectTitle": "Luninets",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5e40aca3c2b5397949878b54",
+        "pageId": "page_nybc313739_0034",
+        "scanIndex": 34,
+        "leafNumber": 33,
+        "printedPage": "27",
+        "passageCharStart": 195,
+        "passageCharEnd": 218,
+        "normalizedPassageCharStart": 195,
+        "normalizedPassageCharEnd": 218,
+        "pageCharStart": 2271,
+        "pageCharEnd": 2294,
+        "quote": "לעיר נשלחה פלוגת עונשין",
+        "normalizedQuote": "לעיר נשלחה פלוגת עונשין",
+        "modelQuote": "לעיר נשלחה פלוגת עונשין",
+        "bbox": {
+          "left": 2197,
+          "top": 4599,
+          "right": 2984,
+          "bottom": 4674
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n33/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "c933283ee4d27dc51300081e9d5172b06484711b365401f9cc68f54bc9a1cb86",
+        "normalizedPassageChecksum": "8c013bc65ca777970a09d8f995907bf74ee935193b197e265414abe84d3ac22c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_cf1b9c6f0a309fcf095e77fe",
+      "type": "Place",
+      "title": "Luninets",
+      "relation": "Sent To"
+    },
+    {
+      "id": "event_candidate_add8e6503dd35688f732b74b",
+      "type": "Event",
+      "title": "Killings by the punitive company",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_cf1b9c6f0a309fcf095e77fe",
+      "type": "Place",
+      "title": "Luninets",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1745f4286abe7bbf761dedbc",
+      "type": "Person",
+      "title": "Beitzel Yudovich",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

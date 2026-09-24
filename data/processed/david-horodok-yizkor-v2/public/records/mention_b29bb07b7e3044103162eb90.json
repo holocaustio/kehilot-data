@@ -1,0 +1,100 @@
+{
+  "id": "mention_b29bb07b7e3044103162eb90",
+  "type": "Place",
+  "title": "Moscow region",
+  "summary": "Region from which the group departed by aircraft.",
+  "originalName": "מאסקווער געגנט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 463,
+  "printedPage": "54",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "region",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2e42f84bd068b8ff93da66f1",
+      "pageId": "page_nybc313739_0463",
+      "scanIndex": 463,
+      "leafNumber": 462,
+      "printedPage": "54",
+      "passageCharStart": 667,
+      "passageCharEnd": 685,
+      "normalizedPassageCharStart": 667,
+      "normalizedPassageCharEnd": 685,
+      "pageCharStart": 2551,
+      "pageCharEnd": 2569,
+      "quote": "אין מאסקווער געגנט",
+      "normalizedQuote": "אין מאסקווער געגנט",
+      "modelQuote": "אין מאסקווער געגנט",
+      "bbox": {
+        "left": 1872,
+        "top": 5026,
+        "right": 2483,
+        "bottom": 5088
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n462/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "65150db05cc3b4a6b746f92d3a55ac366461bd3aaef0dacb558b5ff3dd71ff5e",
+      "normalizedPassageChecksum": "d669d62dd57a7e80f5738361da91f06560bb30e02eb2a32e98204eb5fd99c5dd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_db068c8e097586a1111e8726",
+      "predicate": "Departed From",
+      "subjectTitle": "Partisan detachment",
+      "objectTitle": "Moscow region",
+      "confidence": "HIGH",
+      "uncertaintyNote": "This indicates departure or boarding in the region, not necessarily the detachment's location.",
+      "evidence": {
+        "passageId": "passage_2e42f84bd068b8ff93da66f1",
+        "pageId": "page_nybc313739_0463",
+        "scanIndex": 463,
+        "leafNumber": 462,
+        "printedPage": "54",
+        "passageCharStart": 667,
+        "passageCharEnd": 697,
+        "normalizedPassageCharStart": 667,
+        "normalizedPassageCharEnd": 697,
+        "pageCharStart": 2551,
+        "pageCharEnd": 2581,
+        "quote": "אין מאסקווער געגנט איינגעשטיגן",
+        "normalizedQuote": "אין מאסקווער געגנט איינגעשטיגן",
+        "modelQuote": "אין מאסקווער געגנט איינגעשטיגן",
+        "bbox": {
+          "left": 1482,
+          "top": 5026,
+          "right": 2483,
+          "bottom": 5090
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n462/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "65150db05cc3b4a6b746f92d3a55ac366461bd3aaef0dacb558b5ff3dd71ff5e",
+        "normalizedPassageChecksum": "d669d62dd57a7e80f5738361da91f06560bb30e02eb2a32e98204eb5fd99c5dd",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_8db7d9224ff7a4e35222e65f",
+      "type": "Organization",
+      "title": "Partisan detachment",
+      "relation": "Departed From"
+    },
+    {
+      "id": "mention_8db7d9224ff7a4e35222e65f",
+      "type": "Organization",
+      "title": "Partisan detachment",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

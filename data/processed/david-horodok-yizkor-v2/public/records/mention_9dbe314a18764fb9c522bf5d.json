@@ -1,0 +1,118 @@
+{
+  "id": "mention_9dbe314a18764fb9c522bf5d",
+  "type": "Place",
+  "title": "The ghetto",
+  "summary": "A ghetto where residents endured starvation and persecution.",
+  "originalName": "געטא",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 480,
+  "printedPage": "71",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "ghetto",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bfe2dfa8866c6baf15bff475",
+      "pageId": "page_nybc313739_0480",
+      "scanIndex": 480,
+      "leafNumber": 479,
+      "printedPage": "71",
+      "passageCharStart": 445,
+      "passageCharEnd": 462,
+      "normalizedPassageCharStart": 445,
+      "normalizedPassageCharEnd": 462,
+      "pageCharStart": 445,
+      "pageCharEnd": 462,
+      "quote": "אין געטא עסנווארג",
+      "normalizedQuote": "אין געטא עסנווארג",
+      "modelQuote": "אין געטא עסנווארג",
+      "bbox": {
+        "left": 2973,
+        "top": 1623,
+        "right": 3569,
+        "bottom": 1684
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n479/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "f20d02d8600ca43f31bf64503938d6490821cc94730022d1813c5f7a6fd948cd",
+      "normalizedPassageChecksum": "f40d83d373e6d875899fdff47c5a603db695d96ba49245cef7ce9ba314ba4ff5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_352f0edd7088a295af7f82cc",
+      "type": "Death",
+      "title": "Parents prepare for death",
+      "summary": "The narrator's parents prepared for death during the final night in the ghetto.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage describes preparation for death but does not explicitly state the parents' exact deaths in this excerpt.",
+      "evidence": {
+        "passageId": "passage_3d7fd18eb6462320c1d02b85",
+        "pageId": "page_nybc313739_0480",
+        "scanIndex": 480,
+        "leafNumber": 479,
+        "printedPage": "71",
+        "passageCharStart": 270,
+        "passageCharEnd": 340,
+        "normalizedPassageCharStart": 270,
+        "normalizedPassageCharEnd": 340,
+        "pageCharStart": 1149,
+        "pageCharEnd": 1219,
+        "quote": "די מוטער האט זיך איינגעוואשן, אנגעטאן ריינע וועש, זיך\nגעגרייט צום טויט",
+        "normalizedQuote": "די מוטער האט זיך איינגעוואשן, אנגעטאן ריינע וועש, זיך\nגעגרייט צום טויט",
+        "modelQuote": "די מוטער האט זיך איינגעוואשן, אנגעטאן ריינע וועש, זיך געגרייט צום טויט",
+        "bbox": {
+          "left": 1053,
+          "top": 2561,
+          "right": 3911,
+          "bottom": 2726
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n479/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "62ba680b5aaacd5557d097876b08b4d8e6536f91ee3f14ba596847f027670233",
+        "normalizedPassageChecksum": "fa22c6c38855ac7c327c41d87161c39fabc021890c83fc2e54b5ded3ca1b810f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_352f0edd7088a295af7f82cc",
+      "type": "Event",
+      "title": "Parents prepare for death",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_b7d5e4adf6c23da0fc4ba866",
+      "type": "Person",
+      "title": "Michaelke",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_78495df0af0c0436e4227866",
+      "type": "Family",
+      "title": "Geniye and children",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a619470ea2d5ed89e6eb6b4f",
+      "type": "Place",
+      "title": "Stolin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_badc2057ff3ba3e64ef68f2e",
+      "type": "Community",
+      "title": "Jews of Stolin",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

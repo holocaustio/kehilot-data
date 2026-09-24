@@ -1,0 +1,112 @@
+{
+  "id": "mention_fe1590c4cce57d4dcb3dc370",
+  "type": "Organization",
+  "title": "Balakhovtsy army",
+  "summary": "An army that voluntarily mobilized former Red Army soldiers seeking to return home.",
+  "originalName": "באלאכאוויטשעס ארמיי",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 369,
+  "printedPage": "30",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "army",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ef66b3ce0457df1e8fc1c7e4",
+      "pageId": "page_nybc313739_0369",
+      "scanIndex": 369,
+      "leafNumber": 368,
+      "printedPage": "30",
+      "passageCharStart": 772,
+      "passageCharEnd": 791,
+      "normalizedPassageCharStart": 772,
+      "normalizedPassageCharEnd": 791,
+      "pageCharStart": 2935,
+      "pageCharEnd": 2954,
+      "quote": "באלאכאוויטשעס ארמיי",
+      "normalizedQuote": "באלאכאוויטשעס ארמיי",
+      "modelQuote": "באלאכאוויטשעס ארמיי",
+      "bbox": {
+        "left": 2363,
+        "top": 5110,
+        "right": 3052,
+        "bottom": 5181
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n368/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "4b4e9e50782ff1201546ed59c3f8f7f5a1da7d9d306215397ea9118769211689",
+      "normalizedPassageChecksum": "940937937e790397ae353df91c2a4c9b541cbf4e06c71520ee750b1a352350ea",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_0c13f4b7892aa5dbc74244cb",
+      "type": "Aktion Or Raid",
+      "title": "Balakhovtsy violence in David-Horodok",
+      "summary": "Balakhovtsy forces beat Jews, raided homes, and seized valuables during several weeks in town.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_3f01f0a653eaa280d6dfa8fe",
+        "pageId": "page_nybc313739_0369",
+        "scanIndex": 369,
+        "leafNumber": 368,
+        "printedPage": "30",
+        "passageCharStart": 534,
+        "passageCharEnd": 595,
+        "normalizedPassageCharStart": 534,
+        "normalizedPassageCharEnd": 595,
+        "pageCharStart": 1655,
+        "pageCharEnd": 1716,
+        "quote": "דערנאך האבן זיי אנגעהויבן ראבירן די הייזער און שלאגן די יידן.",
+        "normalizedQuote": "דערנאך האבן זיי אנגעהויבן ראבירן די הייזער און שלאגן די יידן.",
+        "modelQuote": "דערנאך האבן זיי אנגעהויבן ראבירן די הייזער און שלאגן די יידן.",
+        "bbox": {
+          "left": 1858,
+          "top": 3338,
+          "right": 3910,
+          "bottom": 3418
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n368/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "17bcfba91fcf069d37b34973888aa5cffe8c3d33c3a4c928c6968dd6eeed50bf",
+        "normalizedPassageChecksum": "cefeb5b2414ad6adcaae5b6b730cfaef7ad6c91c69ce0add84a00982e0b1ba2f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_0c13f4b7892aa5dbc74244cb",
+      "type": "Event",
+      "title": "Balakhovtsy violence in David-Horodok",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e0977cf01837e306e9683995",
+      "type": "Organization",
+      "title": "Polish military force",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7e971784a01e307a8d9cfa86",
+      "type": "Organization",
+      "title": "Red Army",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

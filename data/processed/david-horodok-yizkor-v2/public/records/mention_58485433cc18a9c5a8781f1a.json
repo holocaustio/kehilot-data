@@ -1,0 +1,151 @@
+{
+  "id": "mention_58485433cc18a9c5a8781f1a",
+  "type": "Place",
+  "title": "Market of David-Horodok",
+  "summary": "The town market, formerly occupied by butcher stalls and later standing near a church.",
+  "originalName": "מארק",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 419,
+  "printedPage": "80",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "market",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1b1466946ba2020687f8c681",
+      "pageId": "page_nybc313739_0419",
+      "scanIndex": 419,
+      "leafNumber": 418,
+      "printedPage": "80",
+      "passageCharStart": 684,
+      "passageCharEnd": 697,
+      "normalizedPassageCharStart": 684,
+      "normalizedPassageCharEnd": 697,
+      "pageCharStart": 684,
+      "pageCharEnd": 697,
+      "quote": "אין מיטן מארק",
+      "normalizedQuote": "אין מיטן מארק",
+      "modelQuote": "אין מיטן מארק",
+      "bbox": {
+        "left": 1251,
+        "top": 2224,
+        "right": 1736,
+        "bottom": 2285
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n418/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "ca68150b621a8394d3c1d0c300bad282bf5f35f4c837369914ae8ef5ec5f8e65",
+      "normalizedPassageChecksum": "db6fab25012d87cf9456df50e1661a474b6a612ca8f066bba982b6ae53f81e81",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_6a228ae8f7c7fadb05774b86",
+      "predicate": "Located In",
+      "subjectTitle": "Market of David-Horodok",
+      "objectTitle": "David-Horodok",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage discusses the market in David-Horodok, but does not restate the town name in the same sentence.",
+      "evidence": {
+        "passageId": "passage_1b1466946ba2020687f8c681",
+        "pageId": "page_nybc313739_0419",
+        "scanIndex": 419,
+        "leafNumber": 418,
+        "printedPage": "80",
+        "passageCharStart": 684,
+        "passageCharEnd": 697,
+        "normalizedPassageCharStart": 684,
+        "normalizedPassageCharEnd": 697,
+        "pageCharStart": 684,
+        "pageCharEnd": 697,
+        "quote": "אין מיטן מארק",
+        "normalizedQuote": "אין מיטן מארק",
+        "modelQuote": "אין מיטן מארק",
+        "bbox": {
+          "left": 1251,
+          "top": 2224,
+          "right": 1736,
+          "bottom": 2285
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n418/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "ca68150b621a8394d3c1d0c300bad282bf5f35f4c837369914ae8ef5ec5f8e65",
+        "normalizedPassageChecksum": "db6fab25012d87cf9456df50e1661a474b6a612ca8f066bba982b6ae53f81e81",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_37c4f4c6abd91d0612350964",
+      "predicate": "Located In",
+      "subjectTitle": "Church",
+      "objectTitle": "Market of David-Horodok",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "historicalContext": "stood where butcher stalls formerly stood"
+      },
+      "evidence": {
+        "passageId": "passage_1b1466946ba2020687f8c681",
+        "pageId": "page_nybc313739_0419",
+        "scanIndex": 419,
+        "leafNumber": 418,
+        "printedPage": "80",
+        "passageCharStart": 699,
+        "passageCharEnd": 734,
+        "normalizedPassageCharStart": 699,
+        "normalizedPassageCharEnd": 734,
+        "pageCharStart": 699,
+        "pageCharEnd": 734,
+        "quote": "דארט\nוווּ ס'שטייט יעצט דער קלויסטער",
+        "normalizedQuote": "דארט\nוווּ ס'שטייט יעצט דער קלויסטער",
+        "modelQuote": "דארט וווּ ס'שטייט יעצט דער קלויסטער",
+        "bbox": {
+          "left": 1042,
+          "top": 2226,
+          "right": 3907,
+          "bottom": 2386
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n418/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "ca68150b621a8394d3c1d0c300bad282bf5f35f4c837369914ae8ef5ec5f8e65",
+        "normalizedPassageChecksum": "db6fab25012d87cf9456df50e1661a474b6a612ca8f066bba982b6ae53f81e81",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_3b1e6e0277cd22a5212766d4",
+      "type": "Institution",
+      "title": "Church",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_d5a4c537494551c0a01606d9",
+      "type": "Family",
+      "title": "Unnamed family of seven",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3b1e6e0277cd22a5212766d4",
+      "type": "Institution",
+      "title": "Church",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,209 @@
+{
+  "id": "mention_9a013127efd3413af97972e8",
+  "type": "Place",
+  "title": "Garbala Street",
+  "summary": "Street where Shimcha Mishlov was executed.",
+  "originalName": "רחוב הגרבלה",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 237,
+  "printedPage": "230",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "Street name may reflect OCR uncertainty.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b0c8de2703df2518f410ab3a",
+      "pageId": "page_nybc313739_0237",
+      "scanIndex": 237,
+      "leafNumber": 236,
+      "printedPage": "230",
+      "passageCharStart": 103,
+      "passageCharEnd": 115,
+      "normalizedPassageCharStart": 103,
+      "normalizedPassageCharEnd": 115,
+      "pageCharStart": 1011,
+      "pageCharEnd": 1023,
+      "quote": "ברחוב הגרבלה",
+      "normalizedQuote": "ברחוב הגרבלה",
+      "modelQuote": "ברחוב הגרבלה",
+      "bbox": {
+        "left": 2452,
+        "top": 2678,
+        "right": 2925,
+        "bottom": 2745
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n236/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "5289d465dcfdaa6499ab01d2066b54c4de98dc18011f0e8c4d6121fb3f71eeae",
+      "normalizedPassageChecksum": "34c80dfdfbf861de53caaa4ec0e539ae9884a20fe667ca8645137031cf3970fe",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_14a67b2e384092ac1d5dc8d6",
+      "predicate": "Murdered At",
+      "subjectTitle": "Shimcha Mishlov",
+      "objectTitle": "Garbala Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_b0c8de2703df2518f410ab3a",
+        "pageId": "page_nybc313739_0237",
+        "scanIndex": 237,
+        "leafNumber": 236,
+        "printedPage": "230",
+        "passageCharStart": 92,
+        "passageCharEnd": 115,
+        "normalizedPassageCharStart": 92,
+        "normalizedPassageCharEnd": 115,
+        "pageCharStart": 1000,
+        "pageCharEnd": 1023,
+        "quote": "הוצא להורג ברחוב הגרבלה",
+        "normalizedQuote": "הוצא להורג ברחוב הגרבלה",
+        "modelQuote": "הוצא להורג ברחוב הגרבלה",
+        "bbox": {
+          "left": 2452,
+          "top": 2678,
+          "right": 3354,
+          "bottom": 2745
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n236/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "5289d465dcfdaa6499ab01d2066b54c4de98dc18011f0e8c4d6121fb3f71eeae",
+        "normalizedPassageChecksum": "34c80dfdfbf861de53caaa4ec0e539ae9884a20fe667ca8645137031cf3970fe",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_2ea79de9c59862dc66db11cf",
+      "type": "Murder",
+      "title": "Execution of Shimcha Mishlov",
+      "summary": "Shimcha Mishlov was executed on Garbala Street.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_b0c8de2703df2518f410ab3a",
+        "pageId": "page_nybc313739_0237",
+        "scanIndex": 237,
+        "leafNumber": 236,
+        "printedPage": "230",
+        "passageCharStart": 92,
+        "passageCharEnd": 115,
+        "normalizedPassageCharStart": 92,
+        "normalizedPassageCharEnd": 115,
+        "pageCharStart": 1000,
+        "pageCharEnd": 1023,
+        "quote": "הוצא להורג ברחוב הגרבלה",
+        "normalizedQuote": "הוצא להורג ברחוב הגרבלה",
+        "modelQuote": "הוצא להורג ברחוב הגרבלה",
+        "bbox": {
+          "left": 2452,
+          "top": 2678,
+          "right": 3354,
+          "bottom": 2745
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n236/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "5289d465dcfdaa6499ab01d2066b54c4de98dc18011f0e8c4d6121fb3f71eeae",
+        "normalizedPassageChecksum": "34c80dfdfbf861de53caaa4ec0e539ae9884a20fe667ca8645137031cf3970fe",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6fcd7cf3b46264086b993a30",
+      "type": "Person",
+      "title": "Shimcha Mishlov",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "event_candidate_2ea79de9c59862dc66db11cf",
+      "type": "Event",
+      "title": "Execution of Shimcha Mishlov",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6fcd7cf3b46264086b993a30",
+      "type": "Person",
+      "title": "Shimcha Mishlov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c33a87ac1bbd939c6579d13f",
+      "type": "Person",
+      "title": "Bnei Matityahu Korman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_16e3f1f0af869a18f220d543",
+      "type": "Person",
+      "title": "Boris Seraheiko",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b085983007fcf174d53d0c9a",
+      "type": "Place",
+      "title": "Siberia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_213f393da07096c0e65776ea",
+      "type": "Person",
+      "title": "Rabbi Moshe Ginzberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d078d730452c77bcc512c0c8",
+      "type": "Person",
+      "title": "Yitzhak, son of Berl Shmitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cdea3cf627a1f0b76ae6fbe1",
+      "type": "Person",
+      "title": "Daughter of Rabbi Moshele",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f800298be3e028c836e13517",
+      "type": "Place",
+      "title": "Vysotsk forests",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8db92abe32e77665e331906b",
+      "type": "Family",
+      "title": "Rabbi Moshele's family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8b4406be350600f154907fdd",
+      "type": "Person",
+      "title": "Golda Rachel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_acfa0206ac8e22974224adac",
+      "type": "Person",
+      "title": "Meir Eliyahu",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

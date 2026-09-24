@@ -1,0 +1,78 @@
+{
+  "id": "event_candidate_a1f99d1eeab46608ebbf70f3",
+  "type": "Event",
+  "title": "Double murder at the synagogue in 1920",
+  "summary": "The Bulakhovtsy gang murdered Aharon Hershel Dorzin and Shalom Boir during Simchat Torah.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 251,
+  "printedPage": "244",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "dateStart": "1920",
+  "dateEnd": "1920",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2f67dd135c3ce058f5088e91",
+      "pageId": "page_nybc313739_0251",
+      "scanIndex": 251,
+      "leafNumber": 250,
+      "printedPage": "244",
+      "passageCharStart": 301,
+      "passageCharEnd": 382,
+      "normalizedPassageCharStart": 301,
+      "normalizedPassageCharEnd": 382,
+      "pageCharStart": 2491,
+      "pageCharEnd": 2572,
+      "quote": "בית כנסת זה היה עד לרצח הכפול של כנופית המרצחים הבלחובצים ביום שמחת-תורה\nשנת 1920",
+      "normalizedQuote": "בית כנסת זה היה עד לרצח הכפול של כנופית המרצחים הבלחובצים ביום שמחת-תורה\nשנת 1920",
+      "modelQuote": "בית כנסת זה היה עד לרצח הכפול של כנופית המרצחים הבלחובצים ביום שמחת-תורה שנת 1920",
+      "bbox": {
+        "left": 1038,
+        "top": 4691,
+        "right": 3906,
+        "bottom": 4864
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n250/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "1ba5a104b76401cea64b2dbb6363b87fb9cd52bf1728b0352ad053354f4e19e9",
+      "normalizedPassageChecksum": "21d29a91953b12e0c6bb8b638475faa3959753c7231573cc4a33c205bec98b80",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1527b54b2094f8ddf72aa4f6",
+      "type": "Institution",
+      "title": "Rovlaya Synagogue",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1f13f90f67cd08e6837ce38c",
+      "type": "Organization",
+      "title": "Bulakhovtsy Gang",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_37ec6542f311cddfe0183c2e",
+      "type": "Person",
+      "title": "Aharon Hershel Dorzin",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_5094f02cc40acf40f75c0ba9",
+      "type": "Person",
+      "title": "Shalom Boir",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

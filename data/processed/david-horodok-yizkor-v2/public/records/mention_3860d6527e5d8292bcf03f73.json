@@ -1,0 +1,199 @@
+{
+  "id": "mention_3860d6527e5d8292bcf03f73",
+  "type": "Place",
+  "title": "Turgel",
+  "summary": "Last town on the border, according to the account.",
+  "originalName": "טורגל",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 213,
+  "printedPage": "206",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4181aa6ebb0508d91a869485",
+      "pageId": "page_nybc313739_0213",
+      "scanIndex": 213,
+      "leafNumber": 212,
+      "printedPage": "206",
+      "passageCharStart": 76,
+      "passageCharEnd": 107,
+      "normalizedPassageCharStart": 76,
+      "normalizedPassageCharEnd": 107,
+      "pageCharStart": 822,
+      "pageCharEnd": 853,
+      "quote": "טורגל--העיירה האחרונה שעל הגבול",
+      "normalizedQuote": "טורגל--העיירה האחרונה שעל הגבול",
+      "modelQuote": "טורגל--העיירה האחרונה שעל הגבול",
+      "bbox": {
+        "left": 2761,
+        "top": 2163,
+        "right": 3908,
+        "bottom": 2239
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n212/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "ca5abf04a43f2bc526cd108225a9085fbe5a447dab8b0a7b770d085f7c3d0863",
+      "normalizedPassageChecksum": "6385a7e352fac18713af2a51c8e4081efa0ede11650d927684a60ba9a753a36d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_4912f6e5223a7d57d77fbe1e",
+      "predicate": "Crossed Border Near",
+      "subjectTitle": "Leibl Freiman",
+      "objectTitle": "Turgel",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "context": "crossed the border near Turgel"
+      },
+      "evidence": {
+        "passageId": "passage_4181aa6ebb0508d91a869485",
+        "pageId": "page_nybc313739_0213",
+        "scanIndex": 213,
+        "leafNumber": 212,
+        "printedPage": "206",
+        "passageCharStart": 180,
+        "passageCharEnd": 204,
+        "normalizedPassageCharStart": 180,
+        "normalizedPassageCharEnd": 204,
+        "pageCharStart": 926,
+        "pageCharEnd": 950,
+        "quote": "עלה בידנו לעבור את הגבול",
+        "normalizedQuote": "עלה בידנו לעבור את הגבול",
+        "modelQuote": "עלה בידנו לעבור את הגבול",
+        "bbox": {
+          "left": 2300,
+          "top": 2267,
+          "right": 3142,
+          "bottom": 2342
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n212/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "ca5abf04a43f2bc526cd108225a9085fbe5a447dab8b0a7b770d085f7c3d0863",
+        "normalizedPassageChecksum": "6385a7e352fac18713af2a51c8e4081efa0ede11650d927684a60ba9a753a36d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_705e4dd5fb7841ae0543396e",
+      "type": "Migration",
+      "title": "Border crossing near Turgel",
+      "summary": "The travelers crossed the border after a difficult journey through mud and snow.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4181aa6ebb0508d91a869485",
+        "pageId": "page_nybc313739_0213",
+        "scanIndex": 213,
+        "leafNumber": 212,
+        "printedPage": "206",
+        "passageCharStart": 180,
+        "passageCharEnd": 204,
+        "normalizedPassageCharStart": 180,
+        "normalizedPassageCharEnd": 204,
+        "pageCharStart": 926,
+        "pageCharEnd": 950,
+        "quote": "עלה בידנו לעבור את הגבול",
+        "normalizedQuote": "עלה בידנו לעבור את הגבול",
+        "modelQuote": "עלה בידנו לעבור את הגבול",
+        "bbox": {
+          "left": 2300,
+          "top": 2267,
+          "right": 3142,
+          "bottom": 2342
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n212/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "ca5abf04a43f2bc526cd108225a9085fbe5a447dab8b0a7b770d085f7c3d0863",
+        "normalizedPassageChecksum": "6385a7e352fac18713af2a51c8e4081efa0ede11650d927684a60ba9a753a36d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6b2870b172a46d741fb278f8",
+      "type": "Person",
+      "title": "Leibl Freiman",
+      "relation": "Crossed Border Near"
+    },
+    {
+      "id": "event_candidate_705e4dd5fb7841ae0543396e",
+      "type": "Event",
+      "title": "Border crossing near Turgel",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_85aa8eaee1d857e0a086a557",
+      "type": "Place",
+      "title": "Lida",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_842d401cce8b780f297196d0",
+      "type": "Person",
+      "title": "Rabbi Sorotzkin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bc08ebcfaa79ca865df305cc",
+      "type": "Place",
+      "title": "Vilna",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d9c04ff6c95d0ee8fb2e32bd",
+      "type": "Place",
+      "title": "Ponivezh",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0b036b314fac37f6592ac9ca",
+      "type": "Person",
+      "title": "Rebecca",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b954ce2f5a724407f4c1e4b3",
+      "type": "Person",
+      "title": "Yaakov Gluiberman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_91b5d77ffb33debc16f7c775",
+      "type": "Person",
+      "title": "Zeev Shper",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5bb7673a1e84ab9f326cf01d",
+      "type": "Place",
+      "title": "Kovno",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1d6975bb34554314df0014ed",
+      "type": "Place",
+      "title": "Pinsk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_24041edf8c27cc8ff575c66e",
+      "type": "Place",
+      "title": "Sarny",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,125 @@
+{
+  "id": "mention_4b8281eac8f6f8357501c288",
+  "type": "Place",
+  "title": "Boloto",
+  "summary": "A ghetto was established in the town around the Boloto area.",
+  "originalName": "הבולוטו",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 235,
+  "printedPage": "228",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "place",
+  "uncertaintyNote": "The OCR punctuation and wording are unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4013524857220e556b6f3d70",
+      "pageId": "page_nybc313739_0235",
+      "scanIndex": 235,
+      "leafNumber": 234,
+      "printedPage": "228",
+      "passageCharStart": 907,
+      "passageCharEnd": 924,
+      "normalizedPassageCharStart": 907,
+      "normalizedPassageCharEnd": 924,
+      "pageCharStart": 1782,
+      "pageCharEnd": 1799,
+      "quote": "בסביבות ,הבולוטו\"",
+      "normalizedQuote": "בסביבות ,הבולוטו\"",
+      "modelQuote": "בסביבות ,הבולוטו\"",
+      "bbox": {
+        "left": 2837,
+        "top": 3651,
+        "right": 3437,
+        "bottom": 3718
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n234/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "22622fdcefc4274fa6fd17daf5349e608ca09ed08e8d0e06bcb95bbc5da1116d",
+      "normalizedPassageChecksum": "b87b5d577d80df48c93bef2c7d953665afc869689a0d20b9290b60286f4e6aec",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c2c8d235370887e1f1033b0c",
+      "type": "Ghetto Establishment",
+      "title": "Ghetto established in David-Horodok",
+      "summary": "A ghetto was established in the town around the Boloto area, and the women were placed there.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage describes establishment of a ghetto but does not provide a formal institutional name.",
+      "evidence": {
+        "passageId": "passage_4013524857220e556b6f3d70",
+        "pageId": "page_nybc313739_0235",
+        "scanIndex": 235,
+        "leafNumber": 234,
+        "printedPage": "228",
+        "passageCharStart": 872,
+        "passageCharEnd": 892,
+        "normalizedPassageCharStart": 872,
+        "normalizedPassageCharEnd": 892,
+        "pageCharStart": 1747,
+        "pageCharEnd": 1767,
+        "quote": "אז הושלכו כולן לגיטו",
+        "normalizedQuote": "אז הושלכו כולן לגיטו",
+        "modelQuote": "אז הושלכו כולן לגיטו",
+        "bbox": {
+          "left": 1046,
+          "top": 3543,
+          "right": 1729,
+          "bottom": 3619
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n234/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "22622fdcefc4274fa6fd17daf5349e608ca09ed08e8d0e06bcb95bbc5da1116d",
+        "normalizedPassageChecksum": "b87b5d577d80df48c93bef2c7d953665afc869689a0d20b9290b60286f4e6aec",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c2c8d235370887e1f1033b0c",
+      "type": "Event",
+      "title": "Ghetto established in David-Horodok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_a1e216fe08c5815445b62fb4",
+      "type": "Person",
+      "title": "Jacob Gratsulin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3a3ef2a61c8121f696f938df",
+      "type": "Place",
+      "title": "Kosciuszko Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d170995dd798374f696f162e",
+      "type": "Place",
+      "title": "Olshan",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a619470ea2d5ed89e6eb6b4f",
+      "type": "Place",
+      "title": "Stolin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e2505d378a3fc033ed2f9ebd",
+      "type": "Place",
+      "title": "Lisovitz",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

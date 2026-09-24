@@ -1,0 +1,123 @@
+{
+  "id": "mention_a1e69020e075a354c5159337",
+  "type": "Place",
+  "title": "Ulshan Street",
+  "summary": "Street near the Fleischman house where Zeev ben Grona Kunda was murdered.",
+  "originalName": "רח' אולשן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 236,
+  "printedPage": "229",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_291e33ba1526727d4804e4f9",
+      "pageId": "page_nybc313739_0236",
+      "scanIndex": 236,
+      "leafNumber": 235,
+      "printedPage": "229",
+      "passageCharStart": 79,
+      "passageCharEnd": 89,
+      "normalizedPassageCharStart": 79,
+      "normalizedPassageCharEnd": 89,
+      "pageCharStart": 1780,
+      "pageCharEnd": 1790,
+      "quote": "ברח' אולשן",
+      "normalizedQuote": "ברח' אולשן",
+      "modelQuote": "ברח' אולשן",
+      "bbox": {
+        "left": 3279,
+        "top": 5003,
+        "right": 3662,
+        "bottom": 5078
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n235/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "75c86a4614c6489bbe378c78a3af31455fc4c83356231ac11cd5b1ee5989b0c9",
+      "normalizedPassageChecksum": "726d79042415a7f17d438251075fa656fc9b252db78a05e49a5e1b100f199b19",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_ffee340be8687af612aebddd",
+      "predicate": "Murdered At",
+      "subjectTitle": "Zeev ben Grona Kunda",
+      "objectTitle": "Ulshan Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_291e33ba1526727d4804e4f9",
+        "pageId": "page_nybc313739_0236",
+        "scanIndex": 236,
+        "leafNumber": 235,
+        "printedPage": "229",
+        "passageCharStart": 54,
+        "passageCharEnd": 89,
+        "normalizedPassageCharStart": 54,
+        "normalizedPassageCharEnd": 89,
+        "pageCharStart": 1755,
+        "pageCharEnd": 1790,
+        "quote": "נרצח זאב בן גרונה\nקונדה, ברח' אולשן",
+        "normalizedQuote": "נרצח זאב בן גרונה\nקונדה, ברח' אולשן",
+        "modelQuote": "נרצח זאב בן גרונה\nקונדה, ברח' אולשן",
+        "bbox": {
+          "left": 1037,
+          "top": 4912,
+          "right": 3903,
+          "bottom": 5078
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n235/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "75c86a4614c6489bbe378c78a3af31455fc4c83356231ac11cd5b1ee5989b0c9",
+        "normalizedPassageChecksum": "726d79042415a7f17d438251075fa656fc9b252db78a05e49a5e1b100f199b19",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_3dda6c380cb0184054793d06",
+      "type": "Person",
+      "title": "Zeev ben Grona Kunda",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "mention_3dda6c380cb0184054793d06",
+      "type": "Person",
+      "title": "Zeev ben Grona Kunda",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6d975f83b6c5d558f3e3d0dd",
+      "type": "Place",
+      "title": "Fleishman house",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8c772c9f92f960736d0e48d9",
+      "type": "Place",
+      "title": "Catholic church grounds",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7141321338883e3c84fcf022",
+      "type": "Place",
+      "title": "Chunoysk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4195147c50688e5cca87f88e",
+      "type": "Community",
+      "title": "Horodchuks",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

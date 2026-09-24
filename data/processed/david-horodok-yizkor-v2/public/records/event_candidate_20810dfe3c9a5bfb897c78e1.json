@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_20810dfe3c9a5bfb897c78e1",
+  "type": "Event",
+  "title": "Murder of Leizer Ronkin",
+  "summary": "Yibplov ordered the murder of Leizer Ronkin after they reached David-Horodok.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 243,
+  "printedPage": "236",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5ee2cf3dc6080736211f300c",
+      "pageId": "page_nybc313739_0243",
+      "scanIndex": 243,
+      "leafNumber": 242,
+      "printedPage": "236",
+      "passageCharStart": 321,
+      "passageCharEnd": 373,
+      "normalizedPassageCharStart": 321,
+      "normalizedPassageCharEnd": 373,
+      "pageCharStart": 1726,
+      "pageCharEnd": 1778,
+      "quote": "נרצח לייזר רונקין בפקודת ,אחיו\" לכלא --\nיבפלוב ימ\"ש.",
+      "normalizedQuote": "נרצח לייזר רונקין בפקודת ,אחיו\" לכלא --\nיבפלוב ימ\"ש.",
+      "modelQuote": "נרצח לייזר רונקין בפקודת ,אחיו\" לכלא --\nיבפלוב ימ\"ש.",
+      "bbox": {
+        "left": 1044,
+        "top": 5114,
+        "right": 3916,
+        "bottom": 5275
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n242/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "6110a68027f3121fa1db78d075b752984062243fdcc1cdf6d562aca10025ac91",
+      "normalizedPassageChecksum": "d2c1ec346ba6586d59375e7ea6f16014b62a7a3487d13411c87cf069034ca3d9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4c257fee7087a5900468f40b",
+      "type": "Person",
+      "title": "Leizer Ronkin",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_bb4b268f4e834e04bfd9e70a",
+      "type": "Person",
+      "title": "Yibplov",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

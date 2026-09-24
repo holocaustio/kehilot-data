@@ -1,0 +1,119 @@
+{
+  "id": "mention_6048db6ea75f95886f42fccd",
+  "type": "Organization",
+  "title": "Balakhowicz's army",
+  "summary": "Army that passed through David-Horodok and later withdrew.",
+  "originalName": "באלאכאוויטשעס ארמיי",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 370,
+  "printedPage": "31",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "army",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6c57bb89b196e29735f2ac51",
+      "pageId": "page_nybc313739_0370",
+      "scanIndex": 370,
+      "leafNumber": 369,
+      "printedPage": "31",
+      "passageCharStart": 42,
+      "passageCharEnd": 74,
+      "normalizedPassageCharStart": 42,
+      "normalizedPassageCharEnd": 74,
+      "pageCharStart": 42,
+      "pageCharEnd": 74,
+      "quote": "דער שטאב פון באלאכאוויטשעס ארמיי",
+      "normalizedQuote": "דער שטאב פון באלאכאוויטשעס ארמיי",
+      "modelQuote": "דער שטאב פון באלאכאוויטשעס ארמיי",
+      "bbox": {
+        "left": 1066,
+        "top": 969,
+        "right": 2254,
+        "bottom": 1048
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n369/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "28f4826569cb64490973a76e17acbcf110691eed26a1be85d8a1e3b76b532df4",
+      "normalizedPassageChecksum": "d1f7fa1623436bb09317532511f8191a7477120379c987e26c6ca416530a6e35",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_0a0338787d4f0c0dc3459e44",
+      "type": "Arrest",
+      "title": "Arrest of Rabbi Ravvinsky",
+      "summary": "A returning cavalry detachment arrested Rabbi Ravvinsky and a group of Jews.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6c57bb89b196e29735f2ac51",
+        "pageId": "page_nybc313739_0370",
+        "scanIndex": 370,
+        "leafNumber": 369,
+        "printedPage": "31",
+        "passageCharStart": 840,
+        "passageCharEnd": 882,
+        "normalizedPassageCharStart": 840,
+        "normalizedPassageCharEnd": 882,
+        "pageCharStart": 840,
+        "pageCharEnd": 882,
+        "quote": "אים, און צו אים\nנאך א גרופע יידן, ארעסטירט",
+        "normalizedQuote": "אים, און צו אים\nנאך א גרופע יידן, ארעסטירט",
+        "modelQuote": "אים, און צו אים נאך א גרופע יידן, ארעסטירט",
+        "bbox": {
+          "left": 1062,
+          "top": 2013,
+          "right": 3923,
+          "bottom": 2181
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n369/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "28f4826569cb64490973a76e17acbcf110691eed26a1be85d8a1e3b76b532df4",
+        "normalizedPassageChecksum": "d1f7fa1623436bb09317532511f8191a7477120379c987e26c6ca416530a6e35",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e069fa7038c46deab2d33c66",
+      "type": "Event",
+      "title": "Passage of Balakhowicz's army through David-Horodok",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "event_candidate_0a0338787d4f0c0dc3459e44",
+      "type": "Event",
+      "title": "Arrest of Rabbi Ravvinsky",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_e4787c19621888137ae956c7",
+      "type": "Community",
+      "title": "David-Horodok Jewish population",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_011ead729e3abc7f0fb05a92",
+      "type": "Person",
+      "title": "Rabbi Ravvinsky",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f767dc349f0065fd6ce16a51",
+      "type": "Organization",
+      "title": "Polish army",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

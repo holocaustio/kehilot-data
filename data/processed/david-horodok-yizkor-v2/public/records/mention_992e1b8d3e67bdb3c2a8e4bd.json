@@ -1,0 +1,109 @@
+{
+  "id": "mention_992e1b8d3e67bdb3c2a8e4bd",
+  "type": "Organization",
+  "title": "Cart drivers",
+  "summary": "Cart drivers transported goods and letters between David-Horodok and nearby cities.",
+  "originalName": "בעלי-עגלה",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 73,
+  "printedPage": "66",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "occupational group",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ffe8e7f9dd2d8f3b0a6de932",
+      "pageId": "page_nybc313739_0073",
+      "scanIndex": 73,
+      "leafNumber": 72,
+      "printedPage": "66",
+      "passageCharStart": 631,
+      "passageCharEnd": 666,
+      "normalizedPassageCharStart": 631,
+      "normalizedPassageCharEnd": 666,
+      "pageCharStart": 1649,
+      "pageCharEnd": 1684,
+      "quote": "בעלי-עגלה היו יוצאים ובאים מדי שבוע",
+      "normalizedQuote": "בעלי-עגלה היו יוצאים ובאים מדי שבוע",
+      "modelQuote": "בעלי-עגלה היו יוצאים ובאים מדי שבוע",
+      "bbox": {
+        "left": 2501,
+        "top": 3426,
+        "right": 3784,
+        "bottom": 3499
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n72/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "52fa9096fb6956ed02b29d9ab6aa43e7d4fa0ec4343d934737362969ec3e6868",
+      "normalizedPassageChecksum": "5c4305d9d484edae310b0f985a88b91d30c886f8cda4a9db1318557e99d27c85",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_512f8a8e13e813f316c20170",
+      "predicate": "Traveled From",
+      "subjectTitle": "Cart drivers",
+      "objectTitle": "David-Horodok",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "frequency": "weekly",
+        "destination": "nearby cities"
+      },
+      "evidence": {
+        "passageId": "passage_ffe8e7f9dd2d8f3b0a6de932",
+        "pageId": "page_nybc313739_0073",
+        "scanIndex": 73,
+        "leafNumber": 72,
+        "printedPage": "66",
+        "passageCharStart": 631,
+        "passageCharEnd": 690,
+        "normalizedPassageCharStart": 631,
+        "normalizedPassageCharEnd": 690,
+        "pageCharStart": 1649,
+        "pageCharEnd": 1708,
+        "quote": "בעלי-עגלה היו יוצאים ובאים מדי שבוע מעיר-דויד לערים הקרובות",
+        "normalizedQuote": "בעלי-עגלה היו יוצאים ובאים מדי שבוע מעיר-דויד לערים הקרובות",
+        "modelQuote": "בעלי-עגלה היו יוצאים ובאים מדי שבוע מעיר-דויד לערים הקרובות",
+        "bbox": {
+          "left": 1589,
+          "top": 3426,
+          "right": 3784,
+          "bottom": 3503
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n72/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "52fa9096fb6956ed02b29d9ab6aa43e7d4fa0ec4343d934737362969ec3e6868",
+        "normalizedPassageChecksum": "5c4305d9d484edae310b0f985a88b91d30c886f8cda4a9db1318557e99d27c85",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_9370bc654de0388777487f28",
+      "type": "Community",
+      "title": "David-Horodok",
+      "relation": "Traveled From"
+    },
+    {
+      "id": "mention_9370bc654de0388777487f28",
+      "type": "Community",
+      "title": "David-Horodok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4854cc122750156d355711f4",
+      "type": "Institution",
+      "title": "Cart drivers' special house of prayer",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

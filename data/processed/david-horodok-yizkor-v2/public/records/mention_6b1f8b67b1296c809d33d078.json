@@ -1,0 +1,144 @@
+{
+  "id": "mention_6b1f8b67b1296c809d33d078",
+  "type": "Organization",
+  "title": "First graduating class",
+  "summary": "The first cohort of students to complete the school's program.",
+  "originalName": "המחזור הראשון",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 149,
+  "printedPage": "142",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "graduating class",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fa676346062b4408a78aef4f",
+      "pageId": "page_nybc313739_0149",
+      "scanIndex": 149,
+      "leafNumber": 148,
+      "printedPage": "142",
+      "passageCharStart": 510,
+      "passageCharEnd": 523,
+      "normalizedPassageCharStart": 510,
+      "normalizedPassageCharEnd": 523,
+      "pageCharStart": 1605,
+      "pageCharEnd": 1618,
+      "quote": "המחזור הראשון",
+      "normalizedQuote": "המחזור הראשון",
+      "modelQuote": "המחזור הראשון",
+      "bbox": {
+        "left": 2019,
+        "top": 3363,
+        "right": 2510,
+        "bottom": 3424
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n148/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "ef8602445af4a1027921e22c6d424369c2aaba1256d9c28018c264ef6a6d05d2",
+      "normalizedPassageChecksum": "0573be699d4d956ff05be3e37a68b42d1d51f6aff5123388a5de3d6961c40e71",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_512615647be1ec0df70496f4",
+      "predicate": "Graduated First Class",
+      "subjectTitle": "Tarbut School",
+      "objectTitle": "First graduating class",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The graduating class completed the school's first cycle; the predicate is approximate.",
+      "evidence": {
+        "passageId": "passage_fa676346062b4408a78aef4f",
+        "pageId": "page_nybc313739_0149",
+        "scanIndex": 149,
+        "leafNumber": 148,
+        "printedPage": "142",
+        "passageCharStart": 510,
+        "passageCharEnd": 523,
+        "normalizedPassageCharStart": 510,
+        "normalizedPassageCharEnd": 523,
+        "pageCharStart": 1605,
+        "pageCharEnd": 1618,
+        "quote": "המחזור הראשון",
+        "normalizedQuote": "המחזור הראשון",
+        "modelQuote": "המחזור הראשון",
+        "bbox": {
+          "left": 2019,
+          "top": 3363,
+          "right": 2510,
+          "bottom": 3424
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n148/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "ef8602445af4a1027921e22c6d424369c2aaba1256d9c28018c264ef6a6d05d2",
+        "normalizedPassageChecksum": "0573be699d4d956ff05be3e37a68b42d1d51f6aff5123388a5de3d6961c40e71",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_4e5333a7f52dbdece3a856b2",
+      "type": "School Attendance",
+      "title": "Completion of the first graduating class",
+      "summary": "The narrator belonged to the school's first graduating class, celebrated at its completion.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_fa676346062b4408a78aef4f",
+        "pageId": "page_nybc313739_0149",
+        "scanIndex": 149,
+        "leafNumber": 148,
+        "printedPage": "142",
+        "passageCharStart": 620,
+        "passageCharEnd": 642,
+        "normalizedPassageCharStart": 620,
+        "normalizedPassageCharEnd": 642,
+        "pageCharStart": 1715,
+        "pageCharEnd": 1737,
+        "quote": "הסיום של\nהמחזור הראשון",
+        "normalizedQuote": "הסיום של\nהמחזור הראשון",
+        "modelQuote": "הסיום של\nהמחזור הראשון",
+        "bbox": {
+          "left": 1062,
+          "top": 3458,
+          "right": 3926,
+          "bottom": 3626
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n148/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "ef8602445af4a1027921e22c6d424369c2aaba1256d9c28018c264ef6a6d05d2",
+        "normalizedPassageChecksum": "0573be699d4d956ff05be3e37a68b42d1d51f6aff5123388a5de3d6961c40e71",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_677dbfdefa5a327e1ae002dd",
+      "type": "Institution",
+      "title": "Tarbut School",
+      "relation": "Graduated First Class"
+    },
+    {
+      "id": "event_candidate_4e5333a7f52dbdece3a856b2",
+      "type": "Event",
+      "title": "Completion of the first graduating class",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_677dbfdefa5a327e1ae002dd",
+      "type": "Institution",
+      "title": "Tarbut School",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

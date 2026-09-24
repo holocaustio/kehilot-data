@@ -1,0 +1,114 @@
+{
+  "id": "mention_43fb44da21a1db90bcb662f6",
+  "type": "Person",
+  "title": "Zelda",
+  "summary": "The named author of a recollection about visiting David-Horodok before World War II.",
+  "originalName": "זלדה",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 209,
+  "printedPage": "202",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "author",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3d80083c383a017bb159c7b8",
+      "pageId": "page_nybc313739_0209",
+      "scanIndex": 209,
+      "leafNumber": 208,
+      "printedPage": "202",
+      "passageCharStart": 137,
+      "passageCharEnd": 142,
+      "normalizedPassageCharStart": 137,
+      "normalizedPassageCharEnd": 142,
+      "pageCharStart": 1334,
+      "pageCharEnd": 1339,
+      "quote": "זלדה.",
+      "normalizedQuote": "זלדה.",
+      "modelQuote": "זלדה.",
+      "bbox": {
+        "left": 1187,
+        "top": 2885,
+        "right": 1340,
+        "bottom": 2950
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n208/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "19063299f49a348bb8d99b064590c9c907d13e1a695a71bda6254045347bca28",
+      "normalizedPassageChecksum": "c8e95cba63b65be06cb17c88066cd6d9dde7e2256f14d9bb8000dbf16d690c9c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_0df993c24f903f8d8ef9c7f5",
+      "type": "Visit",
+      "title": "Visit to David-Horodok before World War II",
+      "summary": "The author visited David-Horodok in late August 1939, shortly before World War II.",
+      "dateStart": "1939-08",
+      "dateEnd": "1939-08",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_3d80083c383a017bb159c7b8",
+        "pageId": "page_nybc313739_0209",
+        "scanIndex": 209,
+        "leafNumber": 208,
+        "printedPage": "202",
+        "passageCharStart": 379,
+        "passageCharEnd": 444,
+        "normalizedPassageCharStart": 379,
+        "normalizedPassageCharEnd": 444,
+        "pageCharStart": 1576,
+        "pageCharEnd": 1641,
+        "quote": "זכות זו נתגלגלה לי ערב פרוץ מלחמת-העולם השניה בשעת ביקורי בפולין.",
+        "normalizedQuote": "זכות זו נתגלגלה לי ערב פרוץ מלחמת-העולם השניה בשעת ביקורי בפולין.",
+        "modelQuote": "זכות זו נתגלגלה לי ערב פרוץ מלחמת-העולם השניה בשעת ביקורי בפולין.",
+        "bbox": {
+          "left": 1413,
+          "top": 3560,
+          "right": 3765,
+          "bottom": 3641
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n208/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "19063299f49a348bb8d99b064590c9c907d13e1a695a71bda6254045347bca28",
+        "normalizedPassageChecksum": "c8e95cba63b65be06cb17c88066cd6d9dde7e2256f14d9bb8000dbf16d690c9c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_0df993c24f903f8d8ef9c7f5",
+      "type": "Event",
+      "title": "Visit to David-Horodok before World War II",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_0039e103a5122acb0b490651",
+      "type": "Community",
+      "title": "Jews of Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_14ddd7c0647afd889b94bbd8",
+      "type": "Institution",
+      "title": "British Consulate in Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_35dd49f3546a35d8a2e95eec",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

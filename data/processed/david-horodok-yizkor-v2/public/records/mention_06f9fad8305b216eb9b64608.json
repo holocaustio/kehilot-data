@@ -1,0 +1,114 @@
+{
+  "id": "mention_06f9fad8305b216eb9b64608",
+  "type": "Place",
+  "title": "Christian neighborhood",
+  "summary": "A neighborhood with thatched roofs where a fire broke out in 1936.",
+  "originalName": "קריסטלעכער",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 395,
+  "printedPage": "56",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "neighborhood",
+  "uncertaintyNote": "The passage ends before the place name or fuller description is visible.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0972300cf603d51b4a429155",
+      "pageId": "page_nybc313739_0395",
+      "scanIndex": 395,
+      "leafNumber": 394,
+      "printedPage": "56",
+      "passageCharStart": 382,
+      "passageCharEnd": 412,
+      "normalizedPassageCharStart": 382,
+      "normalizedPassageCharEnd": 412,
+      "pageCharStart": 2917,
+      "pageCharEnd": 2947,
+      "quote": "אין א געגנט\nפון שטרויענע דעכער",
+      "normalizedQuote": "אין א געגנט\nפון שטרויענע דעכער",
+      "modelQuote": "אין א געגנט פון שטרויענע דעכער",
+      "bbox": {
+        "left": 1020,
+        "top": 4997,
+        "right": 3886,
+        "bottom": 5178
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n394/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "7f8834102f556af1a0395b4ffa8fba833c94cdae54da241b935e02da2b4adb37",
+      "normalizedPassageChecksum": "3daad95fc7555ebe7cb3c6b2ef3e14cdb7189a17f2f9ee398f79c32c643c91f1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3c739758dedce34023c25dde",
+      "type": "Fire",
+      "title": "Fire in 1936",
+      "summary": "A fire broke out in daylight in 1936 and could not be localized in windy conditions.",
+      "dateStart": "1936",
+      "dateEnd": "1936",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_0972300cf603d51b4a429155",
+        "pageId": "page_nybc313739_0395",
+        "scanIndex": 395,
+        "leafNumber": 394,
+        "printedPage": "56",
+        "passageCharStart": 470,
+        "passageCharEnd": 498,
+        "normalizedPassageCharStart": 470,
+        "normalizedPassageCharEnd": 498,
+        "pageCharStart": 3005,
+        "pageCharEnd": 3033,
+        "quote": "אזוי איז\nגעווען אין יאר 1936",
+        "normalizedQuote": "אזוי איז\nגעווען אין יאר 1936",
+        "modelQuote": "אזוי איז געווען אין יאר 1936",
+        "bbox": {
+          "left": 1019,
+          "top": 5099,
+          "right": 3885,
+          "bottom": 5284
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n394/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "7f8834102f556af1a0395b4ffa8fba833c94cdae54da241b935e02da2b4adb37",
+        "normalizedPassageChecksum": "3daad95fc7555ebe7cb3c6b2ef3e14cdb7189a17f2f9ee398f79c32c643c91f1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3c739758dedce34023c25dde",
+      "type": "Event",
+      "title": "Fire in 1936",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5e38f7f41ce4b7ffc6f2806c",
+      "type": "Organization",
+      "title": "Firefighters brigade",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6e3557147c932c433872723c",
+      "type": "Institution",
+      "title": "Town council",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1454352b25a1ac7383c40297",
+      "type": "Event",
+      "title": "First World War",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

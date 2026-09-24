@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_af8dde477bec10e87c768303",
+  "type": "Event",
+  "title": "Study in Berlin",
+  "summary": "A Katzman family son studied in Berlin.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 76,
+  "printedPage": "69",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "School Attendance",
+  "uncertaintyNote": "The passage first describes a Katzman son studying in Berlin, then names Gitzel in the courtship account; identity linkage is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c7b98e4c29ef344c330765d8",
+      "pageId": "page_nybc313739_0076",
+      "scanIndex": 76,
+      "leafNumber": 75,
+      "printedPage": "69",
+      "passageCharStart": 682,
+      "passageCharEnd": 695,
+      "normalizedPassageCharStart": 682,
+      "normalizedPassageCharEnd": 695,
+      "pageCharStart": 1698,
+      "pageCharEnd": 1711,
+      "quote": "סטודנט בברלין",
+      "normalizedQuote": "סטודנט בברלין",
+      "modelQuote": "סטודנט בברלין",
+      "bbox": {
+        "left": 1739,
+        "top": 3127,
+        "right": 2231,
+        "bottom": 3203
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n75/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "4387610d8f0fd38b8ebb323754ead58893934984b107404348e5ae53fa4fbed4",
+      "normalizedPassageChecksum": "6a950e5a6c128a2f48b13e2ab63a78d39644e57339091cd15679ca5ccd482717",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_ef225ef8c69f59e91c1587a8",
+      "type": "Place",
+      "title": "Berlin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70b5c6a1c3b05547060bd897",
+      "type": "Person",
+      "title": "Gitzel",
+      "relation": "Participant",
+      "role": "Student"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

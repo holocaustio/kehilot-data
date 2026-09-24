@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_dc0d06b161e45077c8eab86e",
+  "type": "Event",
+  "title": "Government school operated in Ze’ev Yudovich’s former hotel",
+  "summary": "Ze’ev Yudovich’s former hotel served as a government municipal school for all townspeople from 1909.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 100,
+  "printedPage": "93",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Building Repurposing",
+  "uncertaintyNote": "The allowed event vocabulary does not directly encode building conversion; classified as school attendance.",
+  "dateStart": "1909",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7b3f10411397fa779d7cf8d6",
+      "pageId": "page_nybc313739_0100",
+      "scanIndex": 100,
+      "leafNumber": 99,
+      "printedPage": "93",
+      "passageCharStart": 725,
+      "passageCharEnd": 769,
+      "normalizedPassageCharStart": 725,
+      "normalizedPassageCharEnd": 769,
+      "pageCharStart": 725,
+      "pageCharEnd": 769,
+      "quote": "משנת 1909\nשימש בית זה כבית-ספר עירוגי ממשלתי",
+      "normalizedQuote": "משנת 1909\nשימש בית זה כבית-ספר עירוגי ממשלתי",
+      "modelQuote": "משנת 1909\nשימש בית זה כבית-ספר עירוגי ממשלתי",
+      "bbox": {
+        "left": 2381,
+        "top": 2427,
+        "right": 3908,
+        "bottom": 2589
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n99/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "ebd97343532359bd73c800f7638a1cc8ce45386f557da18355177963754720fa",
+      "normalizedPassageChecksum": "fc70f623fd4bd38fb951e57258b29401b5971642b0151e16544120a1ee40a77b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_70ddf47dab3327f5d8436ee6",
+      "type": "Place",
+      "title": "David-Horodok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1077382033bc559596fbf545",
+      "type": "Institution",
+      "title": "Government Municipal School",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_b2533a253d76eb93cd7e475f",
+      "type": "Person",
+      "title": "Ze’ev Yudovich",
+      "relation": "Participant",
+      "role": "Parent"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

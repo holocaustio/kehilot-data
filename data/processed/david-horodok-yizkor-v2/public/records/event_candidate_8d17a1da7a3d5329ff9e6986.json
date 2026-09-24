@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_8d17a1da7a3d5329ff9e6986",
+  "type": "Event",
+  "title": "Roshka Moravchik murdered",
+  "summary": "Roshka, daughter of Dov Moravchik, was murdered during the Balakhovtsy period.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 101,
+  "printedPage": "94",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4cb33e3da816ae9f01666126",
+      "pageId": "page_nybc313739_0101",
+      "scanIndex": 101,
+      "leafNumber": 100,
+      "printedPage": "94",
+      "passageCharStart": 659,
+      "passageCharEnd": 687,
+      "normalizedPassageCharStart": 659,
+      "normalizedPassageCharEnd": 687,
+      "pageCharStart": 1599,
+      "pageCharEnd": 1627,
+      "quote": "הצעירה רושקה בת דוב מורבצ'יק",
+      "normalizedQuote": "הצעירה רושקה בת דוב מורבצ'יק",
+      "modelQuote": "הצעירה רושקה בת דוב מורבצ'יק",
+      "bbox": {
+        "left": 2471,
+        "top": 3259,
+        "right": 3518,
+        "bottom": 3321
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n100/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "2684381fbe190725bc061acd4c8bdc7916d8f3f163f91e48625d5d73ad23f077",
+      "normalizedPassageChecksum": "7726e01d3190ca9b6095bb85644937f44412b953893faf6eec27de06254fee47",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9370bc654de0388777487f28",
+      "type": "Community",
+      "title": "David-Horodok",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9aa1ecff4e98a38f6a28f477",
+      "type": "Person",
+      "title": "Roshka, daughter of Dov Moravchik",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

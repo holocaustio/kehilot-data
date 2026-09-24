@@ -1,0 +1,155 @@
+{
+  "id": "mention_580089a43f26dcf8f44c3816",
+  "type": "Person",
+  "title": "Narrator",
+  "summary": "A survivor who left the narrator's parents before their deaths.",
+  "originalName": "איך",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 480,
+  "printedPage": "71",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "narrator",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3d7fd18eb6462320c1d02b85",
+      "pageId": "page_nybc313739_0480",
+      "scanIndex": 480,
+      "leafNumber": 479,
+      "printedPage": "71",
+      "passageCharStart": 54,
+      "passageCharEnd": 76,
+      "normalizedPassageCharStart": 54,
+      "normalizedPassageCharEnd": 76,
+      "pageCharStart": 933,
+      "pageCharEnd": 955,
+      "quote": "איך בין געווען צוזאמען",
+      "normalizedQuote": "איך בין געווען צוזאמען",
+      "modelQuote": "איך בין געווען צוזאמען",
+      "bbox": {
+        "left": 1052,
+        "top": 2253,
+        "right": 1777,
+        "bottom": 2314
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n479/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "62ba680b5aaacd5557d097876b08b4d8e6536f91ee3f14ba596847f027670233",
+      "normalizedPassageChecksum": "fa22c6c38855ac7c327c41d87161c39fabc021890c83fc2e54b5ded3ca1b810f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2c5db913218041a70a1d7767",
+      "predicate": "Parent Of",
+      "subjectTitle": "Narrator's mother",
+      "objectTitle": "Narrator",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The relationship is explicit through the mother's speech, but the narrator's identity is not named.",
+      "evidence": {
+        "passageId": "passage_3d7fd18eb6462320c1d02b85",
+        "pageId": "page_nybc313739_0480",
+        "scanIndex": 480,
+        "leafNumber": 479,
+        "printedPage": "71",
+        "passageCharStart": 399,
+        "passageCharEnd": 417,
+        "normalizedPassageCharStart": 399,
+        "normalizedPassageCharEnd": 417,
+        "pageCharStart": 1278,
+        "pageCharEnd": 1296,
+        "quote": "דו וועסט איבערלעבן",
+        "normalizedQuote": "דו וועסט איבערלעבן",
+        "modelQuote": "דו וועסט איבערלעבן",
+        "bbox": {
+          "left": 2325,
+          "top": 2776,
+          "right": 2980,
+          "bottom": 2852
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n479/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "62ba680b5aaacd5557d097876b08b4d8e6536f91ee3f14ba596847f027670233",
+        "normalizedPassageChecksum": "fa22c6c38855ac7c327c41d87161c39fabc021890c83fc2e54b5ded3ca1b810f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_b82c2b615ba2136e9e755275",
+      "predicate": "Parent Of",
+      "subjectTitle": "Narrator's father",
+      "objectTitle": "Narrator",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The narrator explicitly identifies him as father, but the narrator's identity is not named.",
+      "evidence": {
+        "passageId": "passage_3d7fd18eb6462320c1d02b85",
+        "pageId": "page_nybc313739_0480",
+        "scanIndex": 480,
+        "leafNumber": 479,
+        "printedPage": "71",
+        "passageCharStart": 239,
+        "passageCharEnd": 248,
+        "normalizedPassageCharStart": 239,
+        "normalizedPassageCharEnd": 248,
+        "pageCharStart": 1118,
+        "pageCharEnd": 1127,
+        "quote": "דער\nפאטער",
+        "normalizedQuote": "דער\nפאטער",
+        "modelQuote": "דער פאטער",
+        "bbox": {
+          "left": 1053,
+          "top": 2460,
+          "right": 3915,
+          "bottom": 2626
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n479/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "62ba680b5aaacd5557d097876b08b4d8e6536f91ee3f14ba596847f027670233",
+        "normalizedPassageChecksum": "fa22c6c38855ac7c327c41d87161c39fabc021890c83fc2e54b5ded3ca1b810f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_864075f2928fde6b382d68d2",
+      "type": "Person",
+      "title": "Narrator's mother",
+      "relation": "Parent Of"
+    },
+    {
+      "id": "mention_77dfa722f4dbae240994b4f0",
+      "type": "Person",
+      "title": "Narrator's father",
+      "relation": "Parent Of"
+    },
+    {
+      "id": "mention_5b7f2036ccbced2a8866343c",
+      "type": "Family",
+      "title": "Narrator's parents",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_77dfa722f4dbae240994b4f0",
+      "type": "Person",
+      "title": "Narrator's father",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_864075f2928fde6b382d68d2",
+      "type": "Person",
+      "title": "Narrator's mother",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_d47bdf2b8e2824b58abbc510",
+  "type": "Event",
+  "title": "Police officers shot",
+  "summary": "German group members shot all police officers except Karp.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 224,
+  "printedPage": "217",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_17651d0b0a4e532532e404f0",
+      "pageId": "page_nybc313739_0224",
+      "scanIndex": 224,
+      "leafNumber": 223,
+      "printedPage": "217",
+      "passageCharStart": 947,
+      "passageCharEnd": 1014,
+      "normalizedPassageCharStart": 947,
+      "normalizedPassageCharEnd": 1014,
+      "pageCharStart": 2108,
+      "pageCharEnd": 2175,
+      "quote": "הגרמנים אוספים את הנשק ותוך שניות ספורות מחסלים ביריה את כל השוטרים",
+      "normalizedQuote": "הגרמנים אוספים את הנשק ותוך שניות ספורות מחסלים ביריה את כל השוטרים",
+      "modelQuote": "הגרמנים אוספים את הנשק ותוך שניות ספורות מחסלים ביריה את כל השוטרים",
+      "bbox": {
+        "left": 1486,
+        "top": 4069,
+        "right": 3908,
+        "bottom": 4144
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n223/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "bc2927da7f9ba3d34e869e9d08b8aa437e2bd7486bcdc39a1bdf5134f17aae0e",
+      "normalizedPassageChecksum": "39228a926f66db7257a631fd174cce739129ac8b9879f3ff23da41601dc88b8e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a4044cb00a2e9317b20c76f4",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_5b99a6531dec4c3f954df8ce",
+      "type": "Person",
+      "title": "Karp",
+      "relation": "Participant",
+      "role": "Survivor"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

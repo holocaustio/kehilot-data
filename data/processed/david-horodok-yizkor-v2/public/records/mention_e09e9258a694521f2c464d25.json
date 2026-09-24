@@ -1,0 +1,106 @@
+{
+  "id": "mention_e09e9258a694521f2c464d25",
+  "type": "Institution",
+  "title": "Central Synagogue of Shapira neighborhood",
+  "summary": "Synagogue whose worshippers invited Shimon Ronkin to serve there.",
+  "originalName": "בית הכנסת המרכזי בשכונת שפירא",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 188,
+  "printedPage": "181",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "synagogue",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b75878b7fc39adaa571f57f7",
+      "pageId": "page_nybc313739_0188",
+      "scanIndex": 188,
+      "leafNumber": 187,
+      "printedPage": "181",
+      "passageCharStart": 7,
+      "passageCharEnd": 36,
+      "normalizedPassageCharStart": 7,
+      "normalizedPassageCharEnd": 36,
+      "pageCharStart": 2139,
+      "pageCharEnd": 2168,
+      "quote": "בית הכנסת המרכזי בשכונת שפירא",
+      "normalizedQuote": "בית הכנסת המרכזי בשכונת שפירא",
+      "modelQuote": "בית הכנסת המרכזי בשכונת שפירא",
+      "bbox": {
+        "left": 2407,
+        "top": 4806,
+        "right": 3496,
+        "bottom": 4857
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n187/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "890f922f79f00645b49d24c159f2f800c8dfd3b7395267f265ddf15ed887451b",
+      "normalizedPassageChecksum": "023a2796edda4de50a19228e644dd39257808608bb93f7a2192bc9c6ce7be082",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_96675399b9b66d3381e5c588",
+      "predicate": "Served At",
+      "subjectTitle": "Shimon Ronkin",
+      "objectTitle": "Central Synagogue of Shapira neighborhood",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage states he was invited to serve there, but does not explicitly confirm that he taught there.",
+      "evidence": {
+        "passageId": "passage_b75878b7fc39adaa571f57f7",
+        "pageId": "page_nybc313739_0188",
+        "scanIndex": 188,
+        "leafNumber": 187,
+        "printedPage": "181",
+        "passageCharStart": 45,
+        "passageCharEnd": 67,
+        "normalizedPassageCharStart": 45,
+        "normalizedPassageCharEnd": 67,
+        "pageCharStart": 2177,
+        "pageCharEnd": 2199,
+        "quote": "הזמינוהו לשמש בקודש שם",
+        "normalizedQuote": "הזמינוהו לשמש בקודש שם",
+        "modelQuote": "הזמינוהו לשמש בקודש שם",
+        "bbox": {
+          "left": 1222,
+          "top": 4794,
+          "right": 2074,
+          "bottom": 4870
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n187/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "890f922f79f00645b49d24c159f2f800c8dfd3b7395267f265ddf15ed887451b",
+        "normalizedPassageChecksum": "023a2796edda4de50a19228e644dd39257808608bb93f7a2192bc9c6ce7be082",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_3610201627bedcf09972015f",
+      "type": "Person",
+      "title": "Shimon Ronkin",
+      "relation": "Served At"
+    },
+    {
+      "id": "mention_d9e4848f04e83f882efab993",
+      "type": "Community",
+      "title": "Worshippers of Shapira neighborhood and surroundings",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ce8b8a6840705095419134ea",
+      "type": "Person",
+      "title": "Rabbi Takhorush",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

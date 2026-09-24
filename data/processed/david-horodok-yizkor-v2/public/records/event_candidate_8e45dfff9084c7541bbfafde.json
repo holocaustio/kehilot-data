@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_8e45dfff9084c7541bbfafde",
+  "type": "Event",
+  "title": "Murder of Mandel Nosentshuk",
+  "summary": "Mandel Nosentshuk was killed during the Balkhovtsy raid.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 275,
+  "printedPage": "268",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b2cd39462044271159b2027f",
+      "pageId": "page_nybc313739_0275",
+      "scanIndex": 275,
+      "leafNumber": 274,
+      "printedPage": "268",
+      "passageCharStart": 385,
+      "passageCharEnd": 420,
+      "normalizedPassageCharStart": 385,
+      "normalizedPassageCharEnd": 420,
+      "pageCharStart": 1506,
+      "pageCharEnd": 1541,
+      "quote": "את מנדל\nנוסנצ'וק, זקן בן ששים, הרגו",
+      "normalizedQuote": "את מנדל\nנוסנצ'וק, זקן בן ששים, הרגו",
+      "modelQuote": "את מנדל נוסנצ'וק, זקן בן ששים, הרגו",
+      "bbox": {
+        "left": 1046,
+        "top": 3456,
+        "right": 3909,
+        "bottom": 3631
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n274/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "ca776a8ecda30f0369bc0ce39315e251b96a54f13e5d5372d18cbdabd55b6b04",
+      "normalizedPassageChecksum": "89f5bf9f65a90d3d45e4096765f4c6e8f42692e9784ba8ec84d914dab4394ee7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_0dbabf552698167e916ccc9d",
+      "type": "Person",
+      "title": "Mandel Nosentshuk",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_c78242887754bef9be59d61d",
+      "type": "Organization",
+      "title": "Balkhovtsy",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

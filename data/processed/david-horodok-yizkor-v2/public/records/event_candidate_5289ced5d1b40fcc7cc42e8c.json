@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_5289ced5d1b40fcc7cc42e8c",
+  "type": "Event",
+  "title": "Death of Rabbi Asher Berman",
+  "summary": "Rabbi Asher Berman was found dead near the town cemetery after disappearing.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 109,
+  "printedPage": "102",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Death",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bea7758302d80fe324f243e3",
+      "pageId": "page_nybc313739_0109",
+      "scanIndex": 109,
+      "leafNumber": 108,
+      "printedPage": "102",
+      "passageCharStart": 182,
+      "passageCharEnd": 218,
+      "normalizedPassageCharStart": 182,
+      "normalizedPassageCharEnd": 218,
+      "pageCharStart": 1353,
+      "pageCharEnd": 1389,
+      "quote": "מצא גוויית הרוג, שזוהתה כר' אשר ברמן",
+      "normalizedQuote": "מצא גוויית הרוג, שזוהתה כר' אשר ברמן",
+      "modelQuote": "מצא גוויית הרוג, שזוהתה כר' אשר ברמן",
+      "bbox": {
+        "left": 1710,
+        "top": 2930,
+        "right": 2983,
+        "bottom": 2993
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n108/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "f14347a14ee4c83a72931f1624eb2e3fb7206ad7f8b305367fc9d206a87ae2a8",
+      "normalizedPassageChecksum": "ed15f0e254367fcf939f9e807f70c0454dcaa5c7eb28578ef50b4ef61b8589ea",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_07b235283312b895507be083",
+      "type": "Place",
+      "title": "Town cemetery",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_afe8ff40fb42b73b42030bea",
+      "type": "Person",
+      "title": "Rabbi Asher Berman",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

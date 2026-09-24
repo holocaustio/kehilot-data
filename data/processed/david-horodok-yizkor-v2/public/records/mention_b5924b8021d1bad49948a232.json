@@ -1,0 +1,125 @@
+{
+  "id": "mention_b5924b8021d1bad49948a232",
+  "type": "Organization",
+  "title": "SS unit",
+  "summary": "Heavily armed unit that escorted gathered people to Khinavsk.",
+  "originalName": "ס.ס.-אפטיילונג",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 408,
+  "printedPage": "69",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "SS unit",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_08406b0704c6272cb68c881b",
+      "pageId": "page_nybc313739_0408",
+      "scanIndex": 408,
+      "leafNumber": 407,
+      "printedPage": "69",
+      "passageCharStart": 371,
+      "passageCharEnd": 396,
+      "normalizedPassageCharStart": 371,
+      "normalizedPassageCharEnd": 396,
+      "pageCharStart": 371,
+      "pageCharEnd": 396,
+      "quote": "באוואפנטער ס.ס.-אפטיילונג",
+      "normalizedQuote": "באוואפנטער ס.ס.-אפטיילונג",
+      "modelQuote": "באוואפנטער ס.ס.-אפטיילונג",
+      "bbox": {
+        "left": 2247,
+        "top": 1491,
+        "right": 3100,
+        "bottom": 1564
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n407/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "7ce3e21af9328e971bfdb67dbf8e4bc736bccdd45af035fdd2437067c3f279b1",
+      "normalizedPassageChecksum": "e888e080d30b51ca87799a6df14f09932e1b2933e0c7136b7783a10972ba82a2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_542c62b10465905ab7231e99",
+      "type": "Murder",
+      "title": "Mass shooting at Khinavsk",
+      "summary": "Gathered people were shot one by one at Khinavsk; the victims are collective and should not be represented by Khinavsk as a victim.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The victims are described collectively rather than individually.",
+      "evidence": {
+        "passageId": "passage_08406b0704c6272cb68c881b",
+        "pageId": "page_nybc313739_0408",
+        "scanIndex": 408,
+        "leafNumber": 407,
+        "printedPage": "69",
+        "passageCharStart": 623,
+        "passageCharEnd": 656,
+        "normalizedPassageCharStart": 623,
+        "normalizedPassageCharEnd": 656,
+        "pageCharStart": 623,
+        "pageCharEnd": 656,
+        "quote": "האט מען זיי ביז\nאיינעם אויסגעשאסן",
+        "normalizedQuote": "האט מען זיי ביז\nאיינעם אויסגעשאסן",
+        "modelQuote": "האט מען זיי ביז\nאיינעם אויסגעשאסן",
+        "bbox": {
+          "left": 1055,
+          "top": 1812,
+          "right": 3916,
+          "bottom": 1977
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n407/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "7ce3e21af9328e971bfdb67dbf8e4bc736bccdd45af035fdd2437067c3f279b1",
+        "normalizedPassageChecksum": "e888e080d30b51ca87799a6df14f09932e1b2933e0c7136b7783a10972ba82a2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_542c62b10465905ab7231e99",
+      "type": "Event",
+      "title": "Mass shooting at Khinavsk",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_97a6ad7b33f29fb80b730ab4",
+      "type": "Person",
+      "title": "Isr Gurvitch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_915c8c079189e12db5283ed3",
+      "type": "Person",
+      "title": "Hershl Gurvitch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aa6ec3ca11303be68777946a",
+      "type": "Organization",
+      "title": "Horadchukes",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b5c0082bce9bf52e77ba9870",
+      "type": "Place",
+      "title": "Khinavsk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

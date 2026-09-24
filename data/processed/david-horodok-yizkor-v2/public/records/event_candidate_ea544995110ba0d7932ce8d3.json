@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_ea544995110ba0d7932ce8d3",
+  "type": "Event",
+  "title": "Safliak attends synagogue",
+  "summary": "Safliak came to the synagogue on Shemini Atzeret and Simchat Torah.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 72,
+  "printedPage": "65",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "School Attendance",
+  "uncertaintyNote": "The available event types do not include religious attendance; classified conservatively as participation rather than an event.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1b486449f1dc7a7993e8649d",
+      "pageId": "page_nybc313739_0072",
+      "scanIndex": 72,
+      "leafNumber": 71,
+      "printedPage": "65",
+      "passageCharStart": 906,
+      "passageCharEnd": 946,
+      "normalizedPassageCharStart": 906,
+      "normalizedPassageCharEnd": 946,
+      "pageCharStart": 1169,
+      "pageCharEnd": 1209,
+      "quote": "בבואו בשמיני עצרת ובשמחת תורה\nלבית-הכנסת",
+      "normalizedQuote": "בבואו בשמיני עצרת ובשמחת תורה\nלבית-הכנסת",
+      "modelQuote": "בבואו בשמיני עצרת ובשמחת תורה לבית-הכנסת",
+      "bbox": {
+        "left": 1046,
+        "top": 2528,
+        "right": 3910,
+        "bottom": 2686
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n71/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "0949a62ae4724c7a7f7a74f696dbd251dfe5ced8534c439cf193bbeccec712ac",
+      "normalizedPassageChecksum": "f3dd849d5383f2338c959c866f045b78d07195b4377ba54af788bb1ae0619db0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b99750cc30bedf68376525d0",
+      "type": "Institution",
+      "title": "The synagogue",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_69ec91b29adda03dffa5ac5c",
+      "type": "Person",
+      "title": "Safliak",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

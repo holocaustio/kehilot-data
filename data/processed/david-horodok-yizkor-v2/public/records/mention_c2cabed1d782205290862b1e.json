@@ -1,0 +1,108 @@
+{
+  "id": "mention_c2cabed1d782205290862b1e",
+  "type": "Place",
+  "title": "Stockholm",
+  "summary": "City where World Union of Poalei Zion delegates convened.",
+  "originalName": "שטוקהולם",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 130,
+  "printedPage": "123",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cecec0d409f8eca195e1bc3c",
+      "pageId": "page_nybc313739_0130",
+      "scanIndex": 130,
+      "leafNumber": 129,
+      "printedPage": "123",
+      "passageCharStart": 938,
+      "passageCharEnd": 952,
+      "normalizedPassageCharStart": 938,
+      "normalizedPassageCharEnd": 952,
+      "pageCharStart": 938,
+      "pageCharEnd": 952,
+      "quote": "בשטוקהולם העיר",
+      "normalizedQuote": "בשטוקהולם העיר",
+      "modelQuote": "בשטוקהולם העיר",
+      "bbox": {
+        "left": 2217,
+        "top": 2473,
+        "right": 2743,
+        "bottom": 2548
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n129/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "f2b3750adf31cc3a98f434aba7363cbb548512add5e06fafcbea221ab6da5747",
+      "normalizedPassageChecksum": "512101abe7790ca0c9cd72b1ef379b3efae5397c62a1d781767c800d66d40e6a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_47f20982a716784951d6c571",
+      "type": "Meeting",
+      "title": "Poalei Zion council meeting in Stockholm",
+      "summary": "Poalei Zion council meeting in Stockholm; delegates decided to send a delegation to Palestine.",
+      "dateStart": "1918-07",
+      "dateEnd": "1918-09",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event is a council meeting; no dedicated council-meeting event type exists.",
+      "evidence": {
+        "passageId": "passage_cecec0d409f8eca195e1bc3c",
+        "pageId": "page_nybc313739_0130",
+        "scanIndex": 130,
+        "leafNumber": 129,
+        "printedPage": "123",
+        "passageCharStart": 910,
+        "passageCharEnd": 947,
+        "normalizedPassageCharStart": 910,
+        "normalizedPassageCharEnd": 947,
+        "pageCharStart": 910,
+        "pageCharEnd": 947,
+        "quote": "ביולי -- ספטמבר 1918 נתכנסו בשטוקהולם",
+        "normalizedQuote": "ביולי -- ספטמבר 1918 נתכנסו בשטוקהולם",
+        "modelQuote": "ביולי -- ספטמבר 1918 נתכנסו בשטוקהולם",
+        "bbox": {
+          "left": 2406,
+          "top": 2473,
+          "right": 3771,
+          "bottom": 2548
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n129/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "f2b3750adf31cc3a98f434aba7363cbb548512add5e06fafcbea221ab6da5747",
+        "normalizedPassageChecksum": "512101abe7790ca0c9cd72b1ef379b3efae5397c62a1d781767c800d66d40e6a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_47f20982a716784951d6c571",
+      "type": "Event",
+      "title": "Poalei Zion council meeting in Stockholm",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_b8c95d730bc2626a101eb55e",
+      "type": "Organization",
+      "title": "World Union of Poalei Zion",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_be96698fcf1de80a850bb54f",
+      "type": "Place",
+      "title": "Land of Israel",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

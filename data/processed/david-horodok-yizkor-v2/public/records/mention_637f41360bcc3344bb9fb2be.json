@@ -1,0 +1,165 @@
+{
+  "id": "mention_637f41360bcc3344bb9fb2be",
+  "type": "Person",
+  "title": "Krapivken",
+  "summary": "Jewish man who headed the town's professional union for the Bolsheviks.",
+  "originalName": "קראפיווקען",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 368,
+  "printedPage": "29",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "individual",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b92969d776686250d67aca1f",
+      "pageId": "page_nybc313739_0368",
+      "scanIndex": 368,
+      "leafNumber": 367,
+      "printedPage": "29",
+      "passageCharStart": 17,
+      "passageCharEnd": 34,
+      "normalizedPassageCharStart": 17,
+      "normalizedPassageCharEnd": 34,
+      "pageCharStart": 17,
+      "pageCharEnd": 34,
+      "quote": "קראפיווקען, א ייד",
+      "normalizedQuote": "קראפיווקען, א ייד",
+      "modelQuote": "קראפיווקען, א ייד",
+      "bbox": {
+        "left": 2742,
+        "top": 979,
+        "right": 3273,
+        "bottom": 1048
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n367/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "a918c357b3da0ce07c611d819d89d9f4070c95bb2020f624dc545b739de30c6f",
+      "normalizedPassageChecksum": "abf548d6a44994c59a2f42a18462f3dc120b6766914968f3814d2d0aa365638f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_adcffa98ba2c2b67949bd0ae",
+      "predicate": "Member Of",
+      "subjectTitle": "Krapivken",
+      "objectTitle": "Professional union in the town",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "head"
+      },
+      "evidence": {
+        "passageId": "passage_b92969d776686250d67aca1f",
+        "pageId": "page_nybc313739_0368",
+        "scanIndex": 368,
+        "leafNumber": 367,
+        "printedPage": "29",
+        "passageCharStart": 75,
+        "passageCharEnd": 111,
+        "normalizedPassageCharStart": 75,
+        "normalizedPassageCharEnd": 111,
+        "pageCharStart": 75,
+        "pageCharEnd": 111,
+        "quote": "אין שפיץ\nפון דעם פראפעסיאנעלן פאריין",
+        "normalizedQuote": "אין שפיץ\nפון דעם פראפעסיאנעלן פאריין",
+        "modelQuote": "אין שפיץ פון דעם פראפעסיאנעלן פאריין",
+        "bbox": {
+          "left": 1044,
+          "top": 989,
+          "right": 3905,
+          "bottom": 1150
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n367/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "a918c357b3da0ce07c611d819d89d9f4070c95bb2020f624dc545b739de30c6f",
+        "normalizedPassageChecksum": "abf548d6a44994c59a2f42a18462f3dc120b6766914968f3814d2d0aa365638f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_4c7685491d701058469ad2a4",
+      "type": "Sentencing",
+      "title": "Death sentence for Krapivken",
+      "summary": "Krapivken was sentenced to death.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event type cannot represent sentencing; arrest is not explicitly stated.",
+      "evidence": {
+        "passageId": "passage_b92969d776686250d67aca1f",
+        "pageId": "page_nybc313739_0368",
+        "scanIndex": 368,
+        "leafNumber": 367,
+        "printedPage": "29",
+        "passageCharStart": 0,
+        "passageCharEnd": 27,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 27,
+        "pageCharStart": 0,
+        "pageCharEnd": 27,
+        "quote": "פארמשפט צום טויט קראפיווקען",
+        "normalizedQuote": "פארמשפט צום טויט קראפיווקען",
+        "modelQuote": "פארמשפט צום טויט קראפיווקען",
+        "bbox": {
+          "left": 2930,
+          "top": 979,
+          "right": 3905,
+          "bottom": 1048
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n367/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "a918c357b3da0ce07c611d819d89d9f4070c95bb2020f624dc545b739de30c6f",
+        "normalizedPassageChecksum": "abf548d6a44994c59a2f42a18462f3dc120b6766914968f3814d2d0aa365638f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_dd9810555d967bff9cac0c71",
+      "type": "Organization",
+      "title": "Professional union in the town",
+      "relation": "Member Of"
+    },
+    {
+      "id": "event_candidate_4c7685491d701058469ad2a4",
+      "type": "Event",
+      "title": "Death sentence for Krapivken",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_dd9810555d967bff9cac0c71",
+      "type": "Organization",
+      "title": "Professional union in the town",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a611248956f4649eeef8e6d3",
+      "type": "Place",
+      "title": "Kiev",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7edbc81ff5a407ad040ddc1d",
+      "type": "Place",
+      "title": "America",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

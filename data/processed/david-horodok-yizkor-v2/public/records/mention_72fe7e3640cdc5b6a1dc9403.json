@@ -1,0 +1,118 @@
+{
+  "id": "mention_72fe7e3640cdc5b6a1dc9403",
+  "type": "Person",
+  "title": "Wolf Hillel Schachter",
+  "summary": "A newspaper seller who spent much of his time studying in the study hall.",
+  "originalName": "וולף הלל-ס שכטר",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 200,
+  "printedPage": "193",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "The OCR name includes an apparent stray or corrupted character.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c07ad5c163c2520b2ef88d6c",
+      "pageId": "page_nybc313739_0200",
+      "scanIndex": 200,
+      "leafNumber": 199,
+      "printedPage": "193",
+      "passageCharStart": 0,
+      "passageCharEnd": 15,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 15,
+      "pageCharStart": 0,
+      "pageCharEnd": 15,
+      "quote": "וולף הלל-ס שכטר",
+      "normalizedQuote": "וולף הלל-ס שכטר",
+      "modelQuote": "וולף הלל-ס שכטר",
+      "bbox": {
+        "left": 3464,
+        "top": 2330,
+        "right": 3911,
+        "bottom": 2390
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n199/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "b6975c364302d168c4dd322b315a77c391dd9211eb8dd049cb43061e1f4b5ba1",
+      "normalizedPassageChecksum": "dacbf2dbcb53b19239be0966893234470796e38cb802db1304ee3941db4e4e23",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_c0d6fa63f051b40303c57642",
+      "predicate": "Studied At",
+      "subjectTitle": "Wolf Hillel Schachter",
+      "objectTitle": "Great Study Hall",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says he devoted most of his time there, not that he was employed there.",
+      "evidence": {
+        "passageId": "passage_c07ad5c163c2520b2ef88d6c",
+        "pageId": "page_nybc313739_0200",
+        "scanIndex": 200,
+        "leafNumber": 199,
+        "printedPage": "193",
+        "passageCharStart": 160,
+        "passageCharEnd": 195,
+        "normalizedPassageCharStart": 160,
+        "normalizedPassageCharEnd": 195,
+        "pageCharStart": 160,
+        "pageCharEnd": 195,
+        "quote": "אבל את רוב\nזמנו הוא מוסר לבית המדרש",
+        "normalizedQuote": "אבל את רוב\nזמנו הוא מוסר לבית המדרש",
+        "modelQuote": "אבל את רוב\nזמנו הוא מוסר לבית המדרש",
+        "bbox": {
+          "left": 2276,
+          "top": 2601,
+          "right": 3909,
+          "bottom": 2727
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n199/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "b6975c364302d168c4dd322b315a77c391dd9211eb8dd049cb43061e1f4b5ba1",
+        "normalizedPassageChecksum": "dacbf2dbcb53b19239be0966893234470796e38cb802db1304ee3941db4e4e23",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_f064934b59d7c5512198cfda",
+      "type": "Institution",
+      "title": "Great Study Hall",
+      "relation": "Studied At"
+    },
+    {
+      "id": "mention_49586dee870f0d6ca1fcf011",
+      "type": "Person",
+      "title": "Sana the Butcher",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f064934b59d7c5512198cfda",
+      "type": "Institution",
+      "title": "Great Study Hall",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_18210b59c112bf95827cdc54",
+      "type": "Event",
+      "title": "Memorial remembrance of Sana the Butcher",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

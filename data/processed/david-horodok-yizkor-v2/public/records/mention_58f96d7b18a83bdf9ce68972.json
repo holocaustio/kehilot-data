@@ -1,0 +1,124 @@
+{
+  "id": "mention_58f96d7b18a83bdf9ce68972",
+  "type": "Place",
+  "title": "Courtyard of the Catholic Monastery",
+  "summary": "A courtyard where Jewish men and children were assembled before deportation.",
+  "originalName": "הויף פון קאטוילישן קלויסטער",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 450,
+  "printedPage": "111",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "monastery courtyard",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_80aaf13825a049100eedbb74",
+      "pageId": "page_nybc313739_0450",
+      "scanIndex": 450,
+      "leafNumber": 449,
+      "printedPage": "111",
+      "passageCharStart": 627,
+      "passageCharEnd": 660,
+      "normalizedPassageCharStart": 627,
+      "normalizedPassageCharEnd": 660,
+      "pageCharStart": 627,
+      "pageCharEnd": 660,
+      "quote": "אויפן הויף פון קאטוילישן קלויסטער",
+      "normalizedQuote": "אויפן הויף פון קאטוילישן קלויסטער",
+      "modelQuote": "אויפן הויף פון קאטוילישן קלויסטער",
+      "bbox": {
+        "left": 1302,
+        "top": 2366,
+        "right": 2424,
+        "bottom": 2443
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n449/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "4081fee76898a9d5e8a11ccdecb9177abcd7c1fd9c45815b290ca49777a0d662",
+      "normalizedPassageChecksum": "eac21c84d491a7e46ff2825eb344c0a51031f8a5092e1a8c3a8649d6c6e36b2c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_1d8f640b02a6e4722e33a8cc",
+      "type": "Aktion Or Raid",
+      "title": "Roundup of Jewish quarters",
+      "summary": "Jewish quarters were surrounded and men and children were brought to a Catholic monastery courtyard.",
+      "dateStart": "1941-08-16",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_80aaf13825a049100eedbb74",
+        "pageId": "page_nybc313739_0450",
+        "scanIndex": 450,
+        "leafNumber": 449,
+        "printedPage": "111",
+        "passageCharStart": 468,
+        "passageCharEnd": 515,
+        "normalizedPassageCharStart": 468,
+        "normalizedPassageCharEnd": 515,
+        "pageCharStart": 468,
+        "pageCharEnd": 515,
+        "quote": "זענען ארומגערינגלט געווארן אלע יידישע\nקווארטאלן",
+        "normalizedQuote": "זענען ארומגערינגלט געווארן אלע יידישע\nקווארטאלן",
+        "modelQuote": "זענען ארומגערינגלט געווארן אלע יידישע קווארטאלן",
+        "bbox": {
+          "left": 1060,
+          "top": 2160,
+          "right": 3915,
+          "bottom": 2343
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n449/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "4081fee76898a9d5e8a11ccdecb9177abcd7c1fd9c45815b290ca49777a0d662",
+        "normalizedPassageChecksum": "eac21c84d491a7e46ff2825eb344c0a51031f8a5092e1a8c3a8649d6c6e36b2c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_1d8f640b02a6e4722e33a8cc",
+      "type": "Event",
+      "title": "Roundup of Jewish quarters",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_e8b7510f8d6887e99b1b216b",
+      "type": "Person",
+      "title": "Jacob, son of Abba Gertzulins",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ed5b5ca09edd122bd72ffdd8",
+      "type": "Person",
+      "title": "Mareyka",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_42d545dcab428619c453e366",
+      "type": "Person",
+      "title": "Kulaga",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a72c82ee376ddcccf52fbb00",
+      "type": "Person",
+      "title": "Leton",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c54daf357bb9ca71ae7bafa7",
+      "type": "Place",
+      "title": "Two Brother Graves",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

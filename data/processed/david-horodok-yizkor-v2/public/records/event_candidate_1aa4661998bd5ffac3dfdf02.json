@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_1aa4661998bd5ffac3dfdf02",
+  "type": "Event",
+  "title": "Orthodox church construction",
+  "summary": "Priest Yokhnivitz built an Orthodox church in the middle of the market.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 17,
+  "printedPage": "10",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Church Construction",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f40d2e3b2c437cf782034491",
+      "pageId": "page_nybc313739_0017",
+      "scanIndex": 17,
+      "leafNumber": 16,
+      "printedPage": "10",
+      "passageCharStart": 469,
+      "passageCharEnd": 500,
+      "normalizedPassageCharStart": 469,
+      "normalizedPassageCharEnd": 500,
+      "pageCharStart": 469,
+      "pageCharEnd": 500,
+      "quote": "באמצע השוק בנה כנסיה פרבוסלאוית",
+      "normalizedQuote": "באמצע השוק בנה כנסיה פרבוסלאוית",
+      "modelQuote": "באמצע השוק בנה כנסיה פרבוסלאוית",
+      "bbox": {
+        "left": 2226,
+        "top": 1788,
+        "right": 3354,
+        "bottom": 1865
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n16/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "53057109c7c60032313f112fc6830c6b85e3157a02eef95f27aec172a994424c",
+      "normalizedPassageChecksum": "c42a2f6d658af0da26fb868b8abc9c5456088edd0219b28566eb0d95e162d771",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1ffa438353dc176e94f25c7d",
+      "type": "Community",
+      "title": "David-Horodok Jewish community",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_675209e658a3088938e41975",
+      "type": "Person",
+      "title": "Yokhnivitz",
+      "relation": "Participant",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_3a76d7564ac0edd1b9553a4c",
+      "type": "Institution",
+      "title": "Orthodox church in David-Horodok",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

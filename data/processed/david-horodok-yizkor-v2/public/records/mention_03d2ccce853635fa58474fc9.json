@@ -1,0 +1,102 @@
+{
+  "id": "mention_03d2ccce853635fa58474fc9",
+  "type": "Person",
+  "title": "Rabbi David",
+  "summary": "An elderly rabbi who attended Israel Yehuda Kula’s Passover prayer.",
+  "originalName": "הרב הישיש, רבי דוד\"ל ז\"ל",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 170,
+  "printedPage": "163",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "rabbi",
+  "uncertaintyNote": "The personal name is abbreviated or distorted in OCR.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6c13c2f037503095db9ecffa",
+      "pageId": "page_nybc313739_0170",
+      "scanIndex": 170,
+      "leafNumber": 169,
+      "printedPage": "163",
+      "passageCharStart": 542,
+      "passageCharEnd": 566,
+      "normalizedPassageCharStart": 542,
+      "normalizedPassageCharEnd": 566,
+      "pageCharStart": 1630,
+      "pageCharEnd": 1654,
+      "quote": "הרב הישיש, רבי דוד\"ל ז\"ל",
+      "normalizedQuote": "הרב הישיש, רבי דוד\"ל ז\"ל",
+      "modelQuote": "הרב הישיש, רבי דוד\"ל ז\"ל",
+      "bbox": {
+        "left": 1042,
+        "top": 3795,
+        "right": 1917,
+        "bottom": 3860
+      },
+      "scanUrl": "https://archive.org/details/nybc313739/page/n169/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+      "passageChecksum": "c169fcc749fd8691b1561cd6faf9250c85ce99392d317234e9bdd356d45f6b86",
+      "normalizedPassageChecksum": "d9eafe54ba8496159ad981f9a31286eebdab1241ff2011f6fe6489c5d0d7207c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3e2b1bf0f49ac019ccc521ae",
+      "type": "Religious Prayer",
+      "title": "Israel Yehuda Kula led Passover dew prayer",
+      "summary": "Rabbi Israel Yehuda Kula prayed the Passover dew prayer at the Stolin Hasidic synagogue; Rabbi David was among those present.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event type is approximate because the passage describes prayer rather than a controlled occupational event.",
+      "evidence": {
+        "passageId": "passage_6c13c2f037503095db9ecffa",
+        "pageId": "page_nybc313739_0170",
+        "scanIndex": 170,
+        "leafNumber": 169,
+        "printedPage": "163",
+        "passageCharStart": 397,
+        "passageCharEnd": 461,
+        "normalizedPassageCharStart": 397,
+        "normalizedPassageCharEnd": 461,
+        "pageCharStart": 1485,
+        "pageCharEnd": 1549,
+        "quote": "בחג הפסח\nהראשון, בשעה שהתפלל ,תפילת טל\" בבית-הכנסת דחסידי סטולין",
+        "normalizedQuote": "בחג הפסח\nהראשון, בשעה שהתפלל ,תפילת טל\" בבית-הכנסת דחסידי סטולין",
+        "modelQuote": "בחג הפסח הראשון, בשעה שהתפלל ,תפילת טל\" בבית-הכנסת דחסידי סטולין",
+        "bbox": {
+          "left": 1044,
+          "top": 3607,
+          "right": 3907,
+          "bottom": 3768
+        },
+        "scanUrl": "https://archive.org/details/nybc313739/page/n169/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313739/nybc313739.pdf",
+        "passageChecksum": "c169fcc749fd8691b1561cd6faf9250c85ce99392d317234e9bdd356d45f6b86",
+        "normalizedPassageChecksum": "d9eafe54ba8496159ad981f9a31286eebdab1241ff2011f6fe6489c5d0d7207c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3e2b1bf0f49ac019ccc521ae",
+      "type": "Event",
+      "title": "Israel Yehuda Kula led Passover dew prayer",
+      "relation": "Participated In",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_acf0b86bb0c4e62f357cbf9f",
+      "type": "Institution",
+      "title": "Stolin Hasidic Synagogue",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}
