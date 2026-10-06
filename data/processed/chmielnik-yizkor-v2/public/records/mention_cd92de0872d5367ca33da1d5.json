@@ -1,0 +1,102 @@
+{
+  "id": "mention_cd92de0872d5367ca33da1d5",
+  "type": "Place",
+  "title": "Town where the narrator sheltered",
+  "summary": "Unnamed town under Soviet bombing in January 1945.",
+  "originalName": "די שטאט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 411,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "uncertaintyNote": "The town is not identified in this passage.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_840446cc85b786a875bdf52c",
+      "pageId": "page_nybc314251_0411",
+      "scanIndex": 411,
+      "leafNumber": 410,
+      "printedPage": null,
+      "passageCharStart": 50,
+      "passageCharEnd": 58,
+      "normalizedPassageCharStart": 50,
+      "normalizedPassageCharEnd": 58,
+      "pageCharStart": 2389,
+      "pageCharEnd": 2397,
+      "quote": "דער שטאט",
+      "normalizedQuote": "דער שטאט",
+      "modelQuote": "דער שטאט",
+      "bbox": {
+        "left": 2512,
+        "top": 2823,
+        "right": 2887,
+        "bottom": 2885
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n410/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "21851f4dbaa22276f2a2251ef0fdccb062ba8c88a0ce1fc2810c45b8b23c532f",
+      "normalizedPassageChecksum": "c1cf197e98218dacabafdb0d19e48067478f754a64ce7430583acfe10cd8bc2b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_073647228eea74fc4db20051",
+      "type": "Event",
+      "title": "Soviet bombing and destruction",
+      "summary": "Russian bombs struck the town, and the narrator's shelter collapsed; the narrator and others emerged alive. The Soviet patrol appeared afterward.",
+      "dateStart": "1945-01-13",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text identifies Russian bombs and a Soviet patrol; it does not explicitly state that the patrol participated in the bombing.",
+      "evidence": {
+        "passageId": "passage_840446cc85b786a875bdf52c",
+        "pageId": "page_nybc314251_0411",
+        "scanIndex": 411,
+        "leafNumber": 410,
+        "printedPage": null,
+        "passageCharStart": 0,
+        "passageCharEnd": 38,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 38,
+        "pageCharStart": 2339,
+        "pageCharEnd": 2377,
+        "quote": "שבת אין דער פרי׳ דעם 13־טן יאנואר 1945",
+        "normalizedQuote": "שבת אין דער פרי׳ דעם 13־טן יאנואר 1945",
+        "modelQuote": "שבת אין דער פרי׳ דעם 13־טן יאנואר 1945",
+        "bbox": {
+          "left": 1346,
+          "top": 2689,
+          "right": 2815,
+          "bottom": 2757
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n410/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "21851f4dbaa22276f2a2251ef0fdccb062ba8c88a0ce1fc2810c45b8b23c532f",
+        "normalizedPassageChecksum": "c1cf197e98218dacabafdb0d19e48067478f754a64ce7430583acfe10cd8bc2b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_073647228eea74fc4db20051",
+      "type": "Event",
+      "title": "Soviet bombing and destruction",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_bef99e90792370ba2e5eb408",
+      "type": "Organization",
+      "title": "Soviet patrol",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

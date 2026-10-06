@@ -1,0 +1,105 @@
+{
+  "id": "mention_a72b068c638d1c69fe8fa83b",
+  "type": "Publication",
+  "title": "Der Shtern",
+  "summary": "Yiddish newspaper subscribed to and received daily.",
+  "originalName": "דער שטערן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 444,
+  "printedPage": "887",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "newspaper",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_71787d49c06cd45d756cecc3",
+      "pageId": "page_nybc314251_0444",
+      "scanIndex": 444,
+      "leafNumber": 443,
+      "printedPage": "887",
+      "passageCharStart": 809,
+      "passageCharEnd": 836,
+      "normalizedPassageCharStart": 809,
+      "normalizedPassageCharEnd": 836,
+      "pageCharStart": 2589,
+      "pageCharEnd": 2616,
+      "quote": "די ײדישע צײטונג ״דער\nשטערן״",
+      "normalizedQuote": "די ײדישע צײטונג ״דער\nשטערן״",
+      "modelQuote": "די ײדישע צײטונג ״דער שטערן״",
+      "bbox": {
+        "left": 973,
+        "top": 1277,
+        "right": 2877,
+        "bottom": 1493
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n443/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "d9ccc942f37d90b82469bb3824a79a52d8f6157693b67991fc6e80b96baf149d",
+      "normalizedPassageChecksum": "676e8e47ef46eba442578c7d4cf0d845306f5989992199e6e8d0e7d07badb518",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_7c74c895d462339ae0ad156a",
+      "predicate": "Published In",
+      "subjectTitle": "Der Shtern",
+      "objectTitle": "Kiev",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_71787d49c06cd45d756cecc3",
+        "pageId": "page_nybc314251_0444",
+        "scanIndex": 444,
+        "leafNumber": 443,
+        "printedPage": "887",
+        "passageCharStart": 825,
+        "passageCharEnd": 845,
+        "normalizedPassageCharStart": 825,
+        "normalizedPassageCharEnd": 845,
+        "pageCharStart": 2605,
+        "pageCharEnd": 2625,
+        "quote": "״דער\nשטערן״ פון קיעװ",
+        "normalizedQuote": "״דער\nשטערן״ פון קיעװ",
+        "modelQuote": "״דער שטערן״ פון קיעװ",
+        "bbox": {
+          "left": 973,
+          "top": 1277,
+          "right": 2877,
+          "bottom": 1493
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n443/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "d9ccc942f37d90b82469bb3824a79a52d8f6157693b67991fc6e80b96baf149d",
+        "normalizedPassageChecksum": "676e8e47ef46eba442578c7d4cf0d845306f5989992199e6e8d0e7d07badb518",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_e9bdc2351d9083d611463486",
+      "type": "Place",
+      "title": "Kiev",
+      "relation": "Published In"
+    },
+    {
+      "id": "mention_e9bdc2351d9083d611463486",
+      "type": "Place",
+      "title": "Kiev",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c4562bdf3beb05ad38b0ea41",
+      "type": "Place",
+      "title": "Buenos Aires",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

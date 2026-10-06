@@ -1,0 +1,136 @@
+{
+  "id": "mention_08be2f847592dedee97cc507",
+  "type": "Place",
+  "title": "The square by the church",
+  "summary": "The announced speech was to take place there on Sunday at noon.",
+  "originalName": "אויפן פלאץ׳ בײ דער קירכע",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 155,
+  "printedPage": "301",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Square",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3e66c7d0fb172a4c2e982639",
+      "pageId": "page_nybc314251_0155",
+      "scanIndex": 155,
+      "leafNumber": 154,
+      "printedPage": "301",
+      "passageCharStart": 190,
+      "passageCharEnd": 214,
+      "normalizedPassageCharStart": 190,
+      "normalizedPassageCharEnd": 214,
+      "pageCharStart": 1327,
+      "pageCharEnd": 1351,
+      "quote": "אויפן פלאץ׳ בײ\nדער קירכע",
+      "normalizedQuote": "אויפן פלאץ׳ בײ\nדער קירכע",
+      "modelQuote": "אויפן פלאץ׳ בײ דער קירכע",
+      "bbox": {
+        "left": 3125,
+        "top": 4733,
+        "right": 5031,
+        "bottom": 4937
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n154/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "9e34411da55d46cdce36123c92a01dc3ebe8e5edd0348a3d8d244889975a33e2",
+      "normalizedPassageChecksum": "e2e2d2875f40f83abb45937bda33f53c50772bc076b9a88bfac1d1c38358aaac",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a209c4b26db34a9754f4a405",
+      "type": "Announcement",
+      "title": "Deputy’s public speech",
+      "summary": "A Polish Sejm deputy was announced as scheduled to give a speech at the square by the church on Sunday at noon; the passage does not establish that the speech occurred.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage announces a planned speech; it does not establish that it occurred. Event type has no public-speech option.",
+      "evidence": {
+        "passageId": "passage_3e66c7d0fb172a4c2e982639",
+        "pageId": "page_nybc314251_0155",
+        "scanIndex": 155,
+        "leafNumber": 154,
+        "printedPage": "301",
+        "passageCharStart": 139,
+        "passageCharEnd": 188,
+        "normalizedPassageCharStart": 139,
+        "normalizedPassageCharEnd": 188,
+        "pageCharStart": 1276,
+        "pageCharEnd": 1325,
+        "quote": "קומט אין שטאט,\nװעט האלטן א רעדע זונטיק 12 א זײגער",
+        "normalizedQuote": "קומט אין שטאט,\nװעט האלטן א רעדע זונטיק 12 א זײגער",
+        "modelQuote": "קומט אין שטאט, װעט האלטן א רעדע זונטיק 12 א זײגער",
+        "bbox": {
+          "left": 3127,
+          "top": 4621,
+          "right": 5031,
+          "bottom": 4811
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n154/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "9e34411da55d46cdce36123c92a01dc3ebe8e5edd0348a3d8d244889975a33e2",
+        "normalizedPassageChecksum": "e2e2d2875f40f83abb45937bda33f53c50772bc076b9a88bfac1d1c38358aaac",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a209c4b26db34a9754f4a405",
+      "type": "Event",
+      "title": "Deputy’s public speech",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70bddd5c8e62ba41c2bcb63a",
+      "type": "Person",
+      "title": "Monteris",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e0358ba5204cac1fca05d107",
+      "type": "Organization",
+      "title": "Endeks",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d70d5c2bf82cf73d25b34f16",
+      "type": "Person",
+      "title": "Nach Prilutskin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f454434503c2028157d29c87",
+      "type": "Community",
+      "title": "Chmielnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b958f734737900f3c6ae542f",
+      "type": "Person",
+      "title": "Yosl Kleinert",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3b17c395f642fc1b5769ce61",
+      "type": "Place",
+      "title": "Eretz Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a05bef09b51f9e9749f09223",
+      "type": "Place",
+      "title": "Leshman’s sidewalk",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

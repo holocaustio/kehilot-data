@@ -1,0 +1,102 @@
+{
+  "id": "mention_c9e5499a936f3e866bee0128",
+  "type": "Institution",
+  "title": "Second temporary hospital",
+  "summary": "One of two large hospitals established temporarily in response to illness.",
+  "originalName": "שפיטאל",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 102,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "hospital",
+  "uncertaintyNote": "The text does not give either hospital an individual name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e530d5d32bebaedf10b4ad33",
+      "pageId": "page_nybc314251_0102",
+      "scanIndex": 102,
+      "leafNumber": 101,
+      "printedPage": null,
+      "passageCharStart": 707,
+      "passageCharEnd": 725,
+      "normalizedPassageCharStart": 707,
+      "normalizedPassageCharEnd": 725,
+      "pageCharStart": 707,
+      "pageCharEnd": 725,
+      "quote": "צװײ גרויםע\nשפיטאלן",
+      "normalizedQuote": "צװײ גרויםע\nשפיטאלן",
+      "modelQuote": "צװײ גרויםע\nשפיטאלן",
+      "bbox": {
+        "left": 3117,
+        "top": 2731,
+        "right": 5023,
+        "bottom": 2927
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n101/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "1fcd903eb41f8639c28a6d2c824151ac0490e2a8dcc123eb030804bb2a91f2aa",
+      "normalizedPassageChecksum": "e21796386b9a2c5bac364bb56f6676adafb9fc1680815d35e4042f1484f1843c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e9d2645fe667846e496dbbb9",
+      "type": "Institution Establishment",
+      "title": "Temporary hospitals established",
+      "summary": "Two large temporary hospitals were established after doctors warned that home visits risked spreading illness.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event type does not include hospital establishment; BUSINESS_OPENING is only an approximate fit.",
+      "evidence": {
+        "passageId": "passage_e530d5d32bebaedf10b4ad33",
+        "pageId": "page_nybc314251_0102",
+        "scanIndex": 102,
+        "leafNumber": 101,
+        "printedPage": null,
+        "passageCharStart": 679,
+        "passageCharEnd": 725,
+        "normalizedPassageCharStart": 679,
+        "normalizedPassageCharEnd": 725,
+        "pageCharStart": 679,
+        "pageCharEnd": 725,
+        "quote": "אויף מארגן זענען שוין געװען צװײ גרויםע\nשפיטאלן",
+        "normalizedQuote": "אויף מארגן זענען שוין געװען צװײ גרויםע\nשפיטאלן",
+        "modelQuote": "אויף מארגן זענען שוין געװען צװײ גרויםע\nשפיטאלן",
+        "bbox": {
+          "left": 3117,
+          "top": 2729,
+          "right": 5023,
+          "bottom": 2927
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n101/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "1fcd903eb41f8639c28a6d2c824151ac0490e2a8dcc123eb030804bb2a91f2aa",
+        "normalizedPassageChecksum": "e21796386b9a2c5bac364bb56f6676adafb9fc1680815d35e4042f1484f1843c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e9d2645fe667846e496dbbb9",
+      "type": "Event",
+      "title": "Temporary hospitals established",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_a58504da62e2256b028cdc0a",
+      "type": "Institution",
+      "title": "First temporary hospital",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

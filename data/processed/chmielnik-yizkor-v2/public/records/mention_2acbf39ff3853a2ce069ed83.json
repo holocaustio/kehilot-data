@@ -1,0 +1,121 @@
+{
+  "id": "mention_2acbf39ff3853a2ce069ed83",
+  "type": "Institution",
+  "title": "Krakow hospital",
+  "summary": "Hospital where the rabbi said he was ill forty years earlier.",
+  "originalName": "קראלאװער שפיטאל",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 84,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "hospital",
+  "uncertaintyNote": "The OCR wording indicates a Krakow hospital.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f832b414894a76efe29f5d90",
+      "pageId": "page_nybc314251_0084",
+      "scanIndex": 84,
+      "leafNumber": 83,
+      "printedPage": null,
+      "passageCharStart": 244,
+      "passageCharEnd": 259,
+      "normalizedPassageCharStart": 244,
+      "normalizedPassageCharEnd": 259,
+      "pageCharStart": 1413,
+      "pageCharEnd": 1428,
+      "quote": "קראלאװער\nשפיטאל",
+      "normalizedQuote": "קראלאװער\nשפיטאל",
+      "modelQuote": "קראלאװער שפיטאל",
+      "bbox": {
+        "left": 3119,
+        "top": 4557,
+        "right": 5027,
+        "bottom": 4741
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n83/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "a2496aecf362606322e22cb6501bd50c7bd4c536114a57257a5c8fd7ef22921f",
+      "normalizedPassageChecksum": "bdb05b9f9276488e38da78816c16c7e6a64df56fdc615e079da84896584febca",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_8622c0b2774fb6adc0608f45",
+      "predicate": "Lived At",
+      "subjectTitle": "The rabbi",
+      "objectTitle": "Krakow hospital",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "context": "Ill there forty years earlier"
+      },
+      "evidence": {
+        "passageId": "passage_f832b414894a76efe29f5d90",
+        "pageId": "page_nybc314251_0084",
+        "scanIndex": 84,
+        "leafNumber": 83,
+        "printedPage": null,
+        "passageCharStart": 197,
+        "passageCharEnd": 259,
+        "normalizedPassageCharStart": 197,
+        "normalizedPassageCharEnd": 259,
+        "pageCharStart": 1366,
+        "pageCharEnd": 1428,
+        "quote": "מיט\nפערציק יאר צוריק איז ער געלעגן קראנק אין א קראלאװער\nשפיטאל",
+        "normalizedQuote": "מיט\nפערציק יאר צוריק איז ער געלעגן קראנק אין א קראלאװער\nשפיטאל",
+        "modelQuote": "מיט פערציק יאר צוריק איז ער געלעגן קראנק אין א קראלאװער שפיטאל",
+        "bbox": {
+          "left": 3115,
+          "top": 4427,
+          "right": 5027,
+          "bottom": 4741
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n83/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "a2496aecf362606322e22cb6501bd50c7bd4c536114a57257a5c8fd7ef22921f",
+        "normalizedPassageChecksum": "bdb05b9f9276488e38da78816c16c7e6a64df56fdc615e079da84896584febca",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_15ee957f0a1c6e47ddff2d57",
+      "type": "Person",
+      "title": "The rabbi",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_15ee957f0a1c6e47ddff2d57",
+      "type": "Person",
+      "title": "The rabbi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_14cd5b646c31529c664783ba",
+      "type": "Work",
+      "title": "Benjamin Ze’ev",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1aed9d50a78908e65aa39d8b",
+      "type": "Person",
+      "title": "The Chmielnik genius",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

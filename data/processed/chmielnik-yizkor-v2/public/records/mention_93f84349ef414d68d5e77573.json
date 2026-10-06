@@ -1,0 +1,127 @@
+{
+  "id": "mention_93f84349ef414d68d5e77573",
+  "type": "Place",
+  "title": "Dora",
+  "summary": "Camp named in the evacuation route from Buchenwald.",
+  "originalName": "דארא׳",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 339,
+  "printedPage": "678",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp",
+  "uncertaintyNote": "The OCR-rendered camp name may have variant spelling.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ddd581784dd4c7d917341865",
+      "pageId": "page_nybc314251_0339",
+      "scanIndex": 339,
+      "leafNumber": 338,
+      "printedPage": "678",
+      "passageCharStart": 45,
+      "passageCharEnd": 54,
+      "normalizedPassageCharStart": 45,
+      "normalizedPassageCharEnd": 54,
+      "pageCharStart": 3315,
+      "pageCharEnd": 3324,
+      "quote": "קײן\nדארא׳",
+      "normalizedQuote": "קײן\nדארא׳",
+      "modelQuote": "קײן\nדארא׳",
+      "bbox": {
+        "left": 995,
+        "top": 3111,
+        "right": 2899,
+        "bottom": 3309
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n338/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "cecf21781bead96aae1a3d7850b8b50717d48d3fb90a75761c9893f20c554af0",
+      "normalizedPassageChecksum": "55ae00b0b602f11318cc6b95b75c981e82402fc80f6e5fdd85f16a2fbdf15c2f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b2aa7fe1a1d613eb46789abd",
+      "type": "Migration",
+      "title": "Evacuation from Buchenwald camps",
+      "summary": "Some Buchenwald prisoners were evacuated to Dora, then from there to Rutberode and Oranienburg. The passage places evacuation marches in spring 1945, but does not explicitly date this route.",
+      "dateStart": "1945-03-01",
+      "dateEnd": "1945-05-31",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage mentions spring 1945 for the evacuation-march period, not explicitly for this route.",
+      "evidence": {
+        "passageId": "passage_ddd581784dd4c7d917341865",
+        "pageId": "page_nybc314251_0339",
+        "scanIndex": 339,
+        "leafNumber": 338,
+        "printedPage": "678",
+        "passageCharStart": 0,
+        "passageCharEnd": 54,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 54,
+        "pageCharStart": 3270,
+        "pageCharEnd": 3324,
+        "quote": "א טײל אסירי בוכענװאלד זענען עװאקואירט געװארן קײן\nדארא׳",
+        "normalizedQuote": "א טײל אסירי בוכענװאלד זענען עװאקואירט געװארן קײן\nדארא׳",
+        "modelQuote": "א טײל אסירי בוכענװאלד זענען עװאקואירט געװארן קײן\nדארא׳",
+        "bbox": {
+          "left": 995,
+          "top": 3099,
+          "right": 2899,
+          "bottom": 3309
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n338/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "cecf21781bead96aae1a3d7850b8b50717d48d3fb90a75761c9893f20c554af0",
+        "normalizedPassageChecksum": "55ae00b0b602f11318cc6b95b75c981e82402fc80f6e5fdd85f16a2fbdf15c2f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b2aa7fe1a1d613eb46789abd",
+      "type": "Event",
+      "title": "Evacuation from Buchenwald camps",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9a2df8e0299b0c26d7d14bf9",
+      "type": "Place",
+      "title": "Oranienburg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2e51734f6e60be2dc4495968",
+      "type": "Person",
+      "title": "Israel Ehrlich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3cadfa1088db595c7c6258c1",
+      "type": "Place",
+      "title": "Schwerin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f30ee038d9ee5628d162d67d",
+      "type": "Organization",
+      "title": "Swedish Red Cross",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bc8a88c9c2738a6a0423d807",
+      "type": "Place",
+      "title": "Ghetto",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

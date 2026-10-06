@@ -1,0 +1,65 @@
+{
+  "id": "event_candidate_56ead791682100ffb7e84156",
+  "type": "Event",
+  "title": "Anti-Hitler demonstration participation decision",
+  "summary": "The society decided to join a demonstration against persecution of Jews in Germany.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 500,
+  "printedPage": "1000",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Demonstration Participation Decision",
+  "uncertaintyNote": "The event is a demonstration, for which the schema has no direct event type.",
+  "dateStart": "1933-05-10",
+  "dateEnd": "1933-05-10",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6af66a4042112f89a90d9e4a",
+      "pageId": "page_nybc314251_0500",
+      "scanIndex": 500,
+      "leafNumber": 499,
+      "printedPage": "1000",
+      "passageCharStart": 888,
+      "passageCharEnd": 912,
+      "normalizedPassageCharStart": 888,
+      "normalizedPassageCharEnd": 912,
+      "pageCharStart": 888,
+      "pageCharEnd": 912,
+      "quote": "אנטי־היטלער דעמאנסטראציע",
+      "normalizedQuote": "אנטי־היטלער דעמאנסטראציע",
+      "modelQuote": "אנטי־היטלער דעמאנסטראציע",
+      "bbox": {
+        "left": 4356,
+        "top": 3406,
+        "right": 5031,
+        "bottom": 3461
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n499/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "76e58dc99f04fd077e68703b653016bfb82b0c59f0e95fd9feecd3a79dd73c03",
+      "normalizedPassageChecksum": "d83789b18c04dd1506814cc4b60d4c40970580b3551c995a1a936ded48ebbc67",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_0fb125c7b5355cd7c45f8eaf",
+      "type": "Place",
+      "title": "Second Avenue and 17th Street",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_6b82334bdecef26cc55cc4f0",
+      "type": "Community",
+      "title": "Chmielnik landsmen’s society",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

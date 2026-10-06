@@ -1,0 +1,100 @@
+{
+  "id": "mention_ce44d1d2d37f294ec1ad8e02",
+  "type": "Person",
+  "title": "German gendarme",
+  "summary": "A German gendarme took a person outside the city and shot him.",
+  "originalName": "דײטשער זשאנדארם",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 362,
+  "printedPage": "723",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "gendarme",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_062cb35196390640231108f7",
+      "pageId": "page_nybc314251_0362",
+      "scanIndex": 362,
+      "leafNumber": 361,
+      "printedPage": "723",
+      "passageCharStart": 30,
+      "passageCharEnd": 51,
+      "normalizedPassageCharStart": 30,
+      "normalizedPassageCharEnd": 51,
+      "pageCharStart": 1040,
+      "pageCharEnd": 1061,
+      "quote": "איז א דײטשער זשאנדארם",
+      "normalizedQuote": "איז א דײטשער זשאנדארם",
+      "modelQuote": "איז א דײטשער זשאנדארם",
+      "bbox": {
+        "left": 987,
+        "top": 2019,
+        "right": 1817,
+        "bottom": 2083
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n361/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "9a4863b2a8c1de6bbe427796ca2cc6b5e5fc5764bd468005293f9d1841e367bb",
+      "normalizedPassageChecksum": "ab7744f81e7f60232a20e92a4067e6bf5f28eedc5b72a9c18e2e1a4d75f3ee4a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_64f56282576aa995fa50096f",
+      "type": "Murder",
+      "title": "German gendarme shoots unidentified person",
+      "summary": "A German gendarme shot the person he had taken outside the city.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_062cb35196390640231108f7",
+        "pageId": "page_nybc314251_0362",
+        "scanIndex": 362,
+        "leafNumber": 361,
+        "printedPage": "723",
+        "passageCharStart": 254,
+        "passageCharEnd": 275,
+        "normalizedPassageCharStart": 254,
+        "normalizedPassageCharEnd": 275,
+        "pageCharStart": 1264,
+        "pageCharEnd": 1285,
+        "quote": "דער זשאנדארם דערשאםן.",
+        "normalizedQuote": "דער זשאנדארם דערשאםן.",
+        "modelQuote": "דער זשאנדארם דערשאםן.",
+        "bbox": {
+          "left": 2081,
+          "top": 2671,
+          "right": 2887,
+          "bottom": 2739
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n361/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "9a4863b2a8c1de6bbe427796ca2cc6b5e5fc5764bd468005293f9d1841e367bb",
+        "normalizedPassageChecksum": "ab7744f81e7f60232a20e92a4067e6bf5f28eedc5b72a9c18e2e1a4d75f3ee4a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_64f56282576aa995fa50096f",
+      "type": "Event",
+      "title": "German gendarme shoots unidentified person",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_04b9a532363c2b1af15eb8f6",
+      "type": "Place",
+      "title": "Munich",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,150 @@
+{
+  "id": "mention_765430ef2f98065f4d24b44b",
+  "type": "Person",
+  "title": "Narrator",
+  "summary": "The first-person narrator escapes a train and searches for his wife in the forest.",
+  "originalName": "מײן",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 398,
+  "printedPage": "795",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "unnamed first-person narrator",
+  "uncertaintyNote": "The narrator is referred to only in the first person.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_51b7a640e04b6d1b880b18ca",
+      "pageId": "page_nybc314251_0398",
+      "scanIndex": 398,
+      "leafNumber": 397,
+      "printedPage": "795",
+      "passageCharStart": 355,
+      "passageCharEnd": 358,
+      "normalizedPassageCharStart": 355,
+      "normalizedPassageCharEnd": 358,
+      "pageCharStart": 3511,
+      "pageCharEnd": 3514,
+      "quote": "איך",
+      "normalizedQuote": "איך",
+      "modelQuote": "איך",
+      "bbox": {
+        "left": 2746,
+        "top": 3997,
+        "right": 2891,
+        "bottom": 4061
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n397/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "f559596ef615f084a4ab823d352b4d167b1432909c4a7b4bee4c7f02a7187552",
+      "normalizedPassageChecksum": "c63f41c6d977b9a9dbbec0ed844a535953488f88c02e8f56d8b90eb8655e13bb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_0252eb5898b5e82d1bb492b7",
+      "predicate": "Spouse Of",
+      "subjectTitle": "Narrator's wife",
+      "objectTitle": "Narrator",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_51b7a640e04b6d1b880b18ca",
+        "pageId": "page_nybc314251_0398",
+        "scanIndex": 398,
+        "leafNumber": 397,
+        "printedPage": "795",
+        "passageCharStart": 234,
+        "passageCharEnd": 242,
+        "normalizedPassageCharStart": 234,
+        "normalizedPassageCharEnd": 242,
+        "pageCharStart": 3390,
+        "pageCharEnd": 3398,
+        "quote": "מײן פרוי",
+        "normalizedQuote": "מײן פרוי",
+        "modelQuote": "מײן פרוי",
+        "bbox": {
+          "left": 1090,
+          "top": 3615,
+          "right": 1409,
+          "bottom": 3677
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n397/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "f559596ef615f084a4ab823d352b4d167b1432909c4a7b4bee4c7f02a7187552",
+        "normalizedPassageChecksum": "c63f41c6d977b9a9dbbec0ed844a535953488f88c02e8f56d8b90eb8655e13bb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_413a5677ec63eae32a569510",
+      "type": "Escape",
+      "title": "Narrator jumps from train",
+      "summary": "The narrator jumps quietly from the train and runs into the forest.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_51b7a640e04b6d1b880b18ca",
+        "pageId": "page_nybc314251_0398",
+        "scanIndex": 398,
+        "leafNumber": 397,
+        "printedPage": "795",
+        "passageCharStart": 451,
+        "passageCharEnd": 473,
+        "normalizedPassageCharStart": 451,
+        "normalizedPassageCharEnd": 473,
+        "pageCharStart": 3607,
+        "pageCharEnd": 3629,
+        "quote": "דער 15־ער\n— שפרינג איך",
+        "normalizedQuote": "דער 15־ער\n— שפרינג איך",
+        "modelQuote": "דער 15־ער\n— שפרינג איך",
+        "bbox": {
+          "left": 983,
+          "top": 4127,
+          "right": 2891,
+          "bottom": 4319
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n397/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "f559596ef615f084a4ab823d352b4d167b1432909c4a7b4bee4c7f02a7187552",
+        "normalizedPassageChecksum": "c63f41c6d977b9a9dbbec0ed844a535953488f88c02e8f56d8b90eb8655e13bb",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_79b469f57a54296e16faf194",
+      "type": "Person",
+      "title": "Narrator's wife",
+      "relation": "Spouse Of"
+    },
+    {
+      "id": "event_candidate_413a5677ec63eae32a569510",
+      "type": "Event",
+      "title": "Narrator jumps from train",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_79b469f57a54296e16faf194",
+      "type": "Person",
+      "title": "Narrator's wife",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_61b65e1d05bf1b01a57844d1",
+      "type": "Place",
+      "title": "Forest",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,106 @@
+{
+  "id": "mention_c7b18508acfc083f47b79dec",
+  "type": "Institution",
+  "title": "Ghetto hospital",
+  "summary": "A hospital established in the ghetto for typhus patients, unable to admit all the sick.",
+  "originalName": "געטא שפיטאל",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 333,
+  "printedPage": "666",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Hospital",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3b37171a13e58d780ec4a457",
+      "pageId": "page_nybc314251_0333",
+      "scanIndex": 333,
+      "leafNumber": 332,
+      "printedPage": "666",
+      "passageCharStart": 17,
+      "passageCharEnd": 28,
+      "normalizedPassageCharStart": 17,
+      "normalizedPassageCharEnd": 28,
+      "pageCharStart": 1794,
+      "pageCharEnd": 1805,
+      "quote": "געטא שפיטאל",
+      "normalizedQuote": "געטא שפיטאל",
+      "modelQuote": "געטא שפיטאל",
+      "bbox": {
+        "left": 3818,
+        "top": 5607,
+        "right": 4289,
+        "bottom": 5691
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n332/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "c0c7f46fb0552ee42276b44f6c6eb653cbc02fd104f9a45389d4a3bcf8158fea",
+      "normalizedPassageChecksum": "4d4618c1c9a48a2e8f787e8c9c3e6c6ffe7a87d1dd131617cb95121fb1859491",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_8178d12ab23d9d0964300b36",
+      "predicate": "Located In",
+      "subjectTitle": "Ghetto hospital",
+      "objectTitle": "Chmielnik Jewish community",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The hospital is described as being in a ghetto; this passage does not explicitly identify which town's ghetto.",
+      "evidence": {
+        "passageId": "passage_3b37171a13e58d780ec4a457",
+        "pageId": "page_nybc314251_0333",
+        "scanIndex": 333,
+        "leafNumber": 332,
+        "printedPage": "666",
+        "passageCharStart": 17,
+        "passageCharEnd": 21,
+        "normalizedPassageCharStart": 17,
+        "normalizedPassageCharEnd": 21,
+        "pageCharStart": 1794,
+        "pageCharEnd": 1798,
+        "quote": "געטא",
+        "normalizedQuote": "געטא",
+        "modelQuote": "געטא",
+        "bbox": {
+          "left": 4094,
+          "top": 5625,
+          "right": 4289,
+          "bottom": 5691
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n332/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "c0c7f46fb0552ee42276b44f6c6eb653cbc02fd104f9a45389d4a3bcf8158fea",
+        "normalizedPassageChecksum": "4d4618c1c9a48a2e8f787e8c9c3e6c6ffe7a87d1dd131617cb95121fb1859491",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_798f43061bac069aa7578dc7",
+      "type": "Community",
+      "title": "Chmielnik Jewish community",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_798f43061bac069aa7578dc7",
+      "type": "Community",
+      "title": "Chmielnik Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7681cb8557ab9546bd8f5d81",
+      "type": "Organization",
+      "title": "German gendarmerie",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

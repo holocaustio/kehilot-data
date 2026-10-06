@@ -1,0 +1,210 @@
+{
+  "id": "mention_5e9b882b5de3379b2d4a682c",
+  "type": "Person",
+  "title": "Narrator's wife",
+  "summary": "The narrator married in 1909; his wife helped him in his work.",
+  "originalName": "מײן פרוי",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 101,
+  "printedPage": "193",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "wife",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fe075d077f8719cd652384e2",
+      "pageId": "page_nybc314251_0101",
+      "scanIndex": 101,
+      "leafNumber": 100,
+      "printedPage": "193",
+      "passageCharStart": 766,
+      "passageCharEnd": 784,
+      "normalizedPassageCharStart": 766,
+      "normalizedPassageCharEnd": 784,
+      "pageCharStart": 766,
+      "pageCharEnd": 784,
+      "quote": "מײן פרוי העלפט מיר",
+      "normalizedQuote": "מײן פרוי העלפט מיר",
+      "modelQuote": "מײן פרוי העלפט מיר",
+      "bbox": {
+        "left": 4250,
+        "top": 3015,
+        "right": 5015,
+        "bottom": 3091
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n100/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "fb0259dd99468f5dd7c053abdd78e25a06e6f096eebf56b0ed8155ebc4404cd8",
+      "normalizedPassageChecksum": "6555f03a63cb7af88ae0aef2164c4a9180ec8e891e663613ad38d0afa1433ae2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_76361ed002a8ae9cf389127b",
+      "predicate": "Spouse Of",
+      "subjectTitle": "Moses Leyer Mintz",
+      "objectTitle": "Narrator's wife",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_fe075d077f8719cd652384e2",
+        "pageId": "page_nybc314251_0101",
+        "scanIndex": 101,
+        "leafNumber": 100,
+        "printedPage": "193",
+        "passageCharStart": 766,
+        "passageCharEnd": 774,
+        "normalizedPassageCharStart": 766,
+        "normalizedPassageCharEnd": 774,
+        "pageCharStart": 766,
+        "pageCharEnd": 774,
+        "quote": "מײן פרוי",
+        "normalizedQuote": "מײן פרוי",
+        "modelQuote": "מײן פרוי",
+        "bbox": {
+          "left": 4666,
+          "top": 3025,
+          "right": 5015,
+          "bottom": 3091
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n100/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "fb0259dd99468f5dd7c053abdd78e25a06e6f096eebf56b0ed8155ebc4404cd8",
+        "normalizedPassageChecksum": "6555f03a63cb7af88ae0aef2164c4a9180ec8e891e663613ad38d0afa1433ae2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_4565937779d5695bf38d82ae",
+      "type": "Marriage",
+      "title": "Narrator's marriage",
+      "summary": "The narrator married in 1909.",
+      "dateStart": "1909-08-13",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_fe075d077f8719cd652384e2",
+        "pageId": "page_nybc314251_0101",
+        "scanIndex": 101,
+        "leafNumber": 100,
+        "printedPage": "193",
+        "passageCharStart": 568,
+        "passageCharEnd": 624,
+        "normalizedPassageCharStart": 568,
+        "normalizedPassageCharEnd": 624,
+        "pageCharStart": 568,
+        "pageCharEnd": 624,
+        "quote": "אין יאר 1909, דעם 13־טן אויגוסט, האב איך מיט\nמזל געהײראט",
+        "normalizedQuote": "אין יאר 1909, דעם 13־טן אויגוסט, האב איך מיט\nמזל געהײראט",
+        "modelQuote": "אין יאר 1909, דעם 13־טן אויגוסט, האב איך מיט מזל געהײראט",
+        "bbox": {
+          "left": 3105,
+          "top": 2511,
+          "right": 5013,
+          "bottom": 2703
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n100/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "fb0259dd99468f5dd7c053abdd78e25a06e6f096eebf56b0ed8155ebc4404cd8",
+        "normalizedPassageChecksum": "6555f03a63cb7af88ae0aef2164c4a9180ec8e891e663613ad38d0afa1433ae2",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_766911f028e46973858a24d6",
+      "type": "Person",
+      "title": "Moses Leyer Mintz",
+      "relation": "Spouse Of"
+    },
+    {
+      "id": "event_candidate_4565937779d5695bf38d82ae",
+      "type": "Event",
+      "title": "Narrator's marriage",
+      "relation": "Participated In",
+      "role": "Spouse"
+    },
+    {
+      "id": "mention_9b63eb54576d8a94b2c0b73c",
+      "type": "Person",
+      "title": "Narrator's cousin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_30e96eda99ac5ff1564a6558",
+      "type": "Place",
+      "title": "Miskolc",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_766de696627f55c996c4e39a",
+      "type": "Place",
+      "title": "Hungary",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b861c264e837035c6d5efd03",
+      "type": "Place",
+      "title": "Hungarian border",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_42ffbc3edfa8cd79f7e9253a",
+      "type": "Person",
+      "title": "Narrator's brother",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1cdbd874c1da2861fc84fc32",
+      "type": "Person",
+      "title": "Narrator's sister-in-law",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ea5fc18d35428522b1376d0f",
+      "type": "Business",
+      "title": "One of Hungary's largest factories",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c86379c0b151cef98456b624",
+      "type": "Business",
+      "title": "Narrator's workshop",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_64cbb6462d35b265f519ea7c",
+      "type": "Organization",
+      "title": "Jewish Artisans' Association",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_62b170a6d24f5dfbbd37d44f",
+      "type": "Organization",
+      "title": "Masters' Association",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_766911f028e46973858a24d6",
+      "type": "Person",
+      "title": "Moses Leyer Mintz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5829fdf497e74eb0829c3bd7",
+      "type": "Place",
+      "title": "Main street",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

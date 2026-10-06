@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_7654f8c0b66df0ee8258e213",
+  "type": "Event",
+  "title": "Mass deportation from the town",
+  "summary": "About 11,000 people were assembled, robbed, driven to Khentshin, and transported to Treblinka.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 376,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_72f4e3448f57818c5c90477d",
+      "pageId": "page_nybc314251_0376",
+      "scanIndex": 376,
+      "leafNumber": 375,
+      "printedPage": null,
+      "passageCharStart": 958,
+      "passageCharEnd": 1018,
+      "normalizedPassageCharStart": 958,
+      "normalizedPassageCharEnd": 1018,
+      "pageCharStart": 3045,
+      "pageCharEnd": 3105,
+      "quote": "אין כענטשין האט מען די\nמענטשן פארלאדנט אין װאגאנעם פון בהמות",
+      "normalizedQuote": "אין כענטשין האט מען די\nמענטשן פארלאדנט אין װאגאנעם פון בהמות",
+      "modelQuote": "אין כענטשין האט מען די מענטשן פארלאדנט אין װאגאנעם פון בהמות",
+      "bbox": {
+        "left": 991,
+        "top": 4705,
+        "right": 2895,
+        "bottom": 4901
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n375/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "ec5b94ca0aeffc294ce59aa9a4cdc183c8b32709bbe24a2dbb621dc7f0f999fd",
+      "normalizedPassageChecksum": "534954cab8a1d4abda9b54073e58a6e96f1ce843b57ca929f4253cb8e50bc751",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_87a31612a75e40a90f3f998a",
+      "type": "Place",
+      "title": "Khentshin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_f454434503c2028157d29c87",
+      "type": "Community",
+      "title": "Chmielnik",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_a70c3b5c010800b60beb56fe",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

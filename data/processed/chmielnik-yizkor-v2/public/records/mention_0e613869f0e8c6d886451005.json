@@ -1,0 +1,115 @@
+{
+  "id": "mention_0e613869f0e8c6d886451005",
+  "type": "Institution",
+  "title": "The rabbi’s study hall",
+  "summary": "The study hall where the elderly man attended afternoon-evening prayers.",
+  "originalName": "רבם בית מדרש",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 119,
+  "printedPage": "229",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "study hall",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_454afadbaa61882958e2c17e",
+      "pageId": "page_nybc314251_0119",
+      "scanIndex": 119,
+      "leafNumber": 118,
+      "printedPage": "229",
+      "passageCharStart": 305,
+      "passageCharEnd": 317,
+      "normalizedPassageCharStart": 305,
+      "normalizedPassageCharEnd": 317,
+      "pageCharStart": 2815,
+      "pageCharEnd": 2827,
+      "quote": "רבם בית מדרש",
+      "normalizedQuote": "רבם בית מדרש",
+      "modelQuote": "רבם בית מדרש",
+      "bbox": {
+        "left": 983,
+        "top": 1705,
+        "right": 1499,
+        "bottom": 1757
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n118/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "f99dbd2d22e97b6cc7c22a9283635fc718880b231cb0baba09da9d194030d544",
+      "normalizedPassageChecksum": "28644e592269f6d0527b504cc6f15a02436a31191c816d206c8570f49b6fc4f1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_04db7344da55c84210801228",
+      "predicate": "Attended",
+      "subjectTitle": "Rabbi Israel Leib",
+      "objectTitle": "The rabbi’s study hall",
+      "confidence": "HIGH",
+      "uncertaintyNote": "Attendance is attributed to the father in the passage; identifying him as Israel Leib relies on nearby context.",
+      "qualifiers": {
+        "occasion": "afternoon-evening prayers"
+      },
+      "evidence": {
+        "passageId": "passage_454afadbaa61882958e2c17e",
+        "pageId": "page_nybc314251_0119",
+        "scanIndex": 119,
+        "leafNumber": 118,
+        "printedPage": "229",
+        "passageCharStart": 258,
+        "passageCharEnd": 317,
+        "normalizedPassageCharStart": 258,
+        "normalizedPassageCharEnd": 317,
+        "pageCharStart": 2768,
+        "pageCharEnd": 2827,
+        "quote": "דער טאטע\nאיז שטענדיק געקומען צו מנחה־מעריב אין רבם בית מדרש",
+        "normalizedQuote": "דער טאטע\nאיז שטענדיק געקומען צו מנחה־מעריב אין רבם בית מדרש",
+        "modelQuote": "דער טאטע\nאיז שטענדיק געקומען צו מנחה־מעריב אין רבם בית מדרש",
+        "bbox": {
+          "left": 983,
+          "top": 1579,
+          "right": 2893,
+          "bottom": 1771
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n118/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "f99dbd2d22e97b6cc7c22a9283635fc718880b231cb0baba09da9d194030d544",
+        "normalizedPassageChecksum": "28644e592269f6d0527b504cc6f15a02436a31191c816d206c8570f49b6fc4f1",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_5aa8dbe2c9ccb7f2297ee8d5",
+      "type": "Person",
+      "title": "Rabbi Israel Leib",
+      "relation": "Attended"
+    },
+    {
+      "id": "mention_5aa8dbe2c9ccb7f2297ee8d5",
+      "type": "Person",
+      "title": "Rabbi Israel Leib",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2ab3bdb35876c7f43bb098c7",
+      "type": "Person",
+      "title": "Israel Leib’s father",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5ecc4a227b9fe5c9a8a1311f",
+      "type": "Person",
+      "title": "The rabbi",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

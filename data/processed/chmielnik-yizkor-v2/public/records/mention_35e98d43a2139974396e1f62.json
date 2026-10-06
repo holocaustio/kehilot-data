@@ -1,0 +1,116 @@
+{
+  "id": "mention_35e98d43a2139974396e1f62",
+  "type": "Person",
+  "title": "Rabbi Itzik",
+  "summary": "A rabbi who teaches children in a study room and falls asleep while teaching.",
+  "originalName": "איציק",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 206,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "rabbi and teacher",
+  "uncertaintyNote": "The passage identifies him as Itzik, but does not provide a fuller name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_36af95f157c67b3774857ee9",
+      "pageId": "page_nybc314251_0206",
+      "scanIndex": 206,
+      "leafNumber": 205,
+      "printedPage": null,
+      "passageCharStart": 298,
+      "passageCharEnd": 304,
+      "normalizedPassageCharStart": 298,
+      "normalizedPassageCharEnd": 304,
+      "pageCharStart": 3663,
+      "pageCharEnd": 3669,
+      "quote": "איציק,",
+      "normalizedQuote": "איציק,",
+      "modelQuote": "איציק,",
+      "bbox": {
+        "left": 987,
+        "top": 6725,
+        "right": 1215,
+        "bottom": 6791
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n205/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "2f9680c2ac06dcbec7d5e0fa6689824cbef7db2923d2f3b7bfd28825cb2ed091",
+      "normalizedPassageChecksum": "96a3e3b1454a4075f4d90dce5163a65c458fa0bd29b8a40e22e0f7b33ef91021",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_f42901afdccfba2fc71cad59",
+      "predicate": "Participated In",
+      "subjectTitle": "Mandralo",
+      "objectTitle": "Rabbi Itzik",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The prankster is called Mandralo later in this passage; Itzik is named in the preceding passage, so identity as the same rabbi is uncertain.",
+      "qualifiers": {
+        "action": "tickling the sleeping rabbi's nose with straw"
+      },
+      "evidence": {
+        "passageId": "passage_e7821ae58ef1acd498083484",
+        "pageId": "page_nybc314251_0207",
+        "scanIndex": 207,
+        "leafNumber": 206,
+        "printedPage": "406",
+        "passageCharStart": 281,
+        "passageCharEnd": 337,
+        "normalizedPassageCharStart": 281,
+        "normalizedPassageCharEnd": 337,
+        "pageCharStart": 281,
+        "pageCharEnd": 337,
+        "quote": "הײבט מיט אים אן צו קיצלען דעם שלאפנדיקן\nרבין אין דער נאז",
+        "normalizedQuote": "הײבט מיט אים אן צו קיצלען דעם שלאפנדיקן\nרבין אין דער נאז",
+        "modelQuote": "הײבט מיט אים אן צו קיצלען דעם שלאפנדיקן רבין אין דער נאז",
+        "bbox": {
+          "left": 3119,
+          "top": 1669,
+          "right": 5021,
+          "bottom": 1877
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n206/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "87890d6fc4bfec4c8aa27e6f58c9204dc30f1cbf436d4e7b1f1edc3af486a174",
+        "normalizedPassageChecksum": "da171446721c37efebda3e259db0e14f9ceeb6216a1a36e65bc847cac1c08316",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_592cc4f01327f5cb095ef384",
+      "type": "Person",
+      "title": "Mandralo",
+      "relation": "Participated In"
+    },
+    {
+      "id": "mention_de3fe466689509b492cfa8f3",
+      "type": "Person",
+      "title": "Sarah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e70c17feefb8bf64d7746135",
+      "type": "Community",
+      "title": "Children studying in the cheder",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8dd8f79f94b41cf6a2237539",
+      "type": "Place",
+      "title": "Cheder",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

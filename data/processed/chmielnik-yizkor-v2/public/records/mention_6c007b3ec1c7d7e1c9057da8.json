@@ -1,0 +1,112 @@
+{
+  "id": "mention_6c007b3ec1c7d7e1c9057da8",
+  "type": "Place",
+  "title": "Beth Israel Cemetery",
+  "summary": "The society's cemetery, described as 22 miles outside New York.",
+  "originalName": "בית־ישראל",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 503,
+  "printedPage": "1006",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cemetery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ec39efe310d65589707d5d31",
+      "pageId": "page_nybc314251_0503",
+      "scanIndex": 503,
+      "leafNumber": 502,
+      "printedPage": "1006",
+      "passageCharStart": 969,
+      "passageCharEnd": 1006,
+      "normalizedPassageCharStart": 969,
+      "normalizedPassageCharEnd": 1006,
+      "pageCharStart": 2512,
+      "pageCharEnd": 2549,
+      "quote": "אונדזער בית־עולם רופט מען ״בית־ישראל״",
+      "normalizedQuote": "אונדזער בית־עולם רופט מען ״בית־ישראל״",
+      "modelQuote": "אונדזער בית־עולם רופט מען ״בית־ישראל״",
+      "bbox": {
+        "left": 1450,
+        "top": 3419,
+        "right": 2885,
+        "bottom": 3495
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n502/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "9bb462dffb6f4a7a189dd1d4a93344f2abc9e16a570df532383601724042249a",
+      "normalizedPassageChecksum": "a381342298509cf051c3d3c76edda7c89217e0ada597540c43df9ee74cf3f0d5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_bc15e721adbc3f0c915958ad",
+      "predicate": "Has Cemetery",
+      "subjectTitle": "Society",
+      "objectTitle": "Beth Israel Cemetery",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The passage identifies the named place as the society's cemetery, not its location.",
+      "evidence": {
+        "passageId": "passage_ec39efe310d65589707d5d31",
+        "pageId": "page_nybc314251_0503",
+        "scanIndex": 503,
+        "leafNumber": 502,
+        "printedPage": "1006",
+        "passageCharStart": 969,
+        "passageCharEnd": 1006,
+        "normalizedPassageCharStart": 969,
+        "normalizedPassageCharEnd": 1006,
+        "pageCharStart": 2512,
+        "pageCharEnd": 2549,
+        "quote": "אונדזער בית־עולם רופט מען ״בית־ישראל״",
+        "normalizedQuote": "אונדזער בית־עולם רופט מען ״בית־ישראל״",
+        "modelQuote": "אונדזער בית־עולם רופט מען ״בית־ישראל״",
+        "bbox": {
+          "left": 1450,
+          "top": 3419,
+          "right": 2885,
+          "bottom": 3495
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n502/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "9bb462dffb6f4a7a189dd1d4a93344f2abc9e16a570df532383601724042249a",
+        "normalizedPassageChecksum": "a381342298509cf051c3d3c76edda7c89217e0ada597540c43df9ee74cf3f0d5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_91f0cf26a94b519dc8fe4dca",
+      "type": "Organization",
+      "title": "Society",
+      "relation": "Has Cemetery"
+    },
+    {
+      "id": "mention_20498d4ea7858a4eb6149b63",
+      "type": "Person",
+      "title": "Yosef Lemeshnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_91f0cf26a94b519dc8fe4dca",
+      "type": "Organization",
+      "title": "Society",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ea8bdd657c6f92d43ed3bf11",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

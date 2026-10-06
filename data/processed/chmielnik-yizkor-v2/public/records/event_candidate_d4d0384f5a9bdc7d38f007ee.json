@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_d4d0384f5a9bdc7d38f007ee",
+  "type": "Event",
+  "title": "Flight from the wagon",
+  "summary": "Several passengers flee from the wagon toward a nearby forest during the journey toward Stopnica.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 412,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8e82082fdc851def71e45041",
+      "pageId": "page_nybc314251_0412",
+      "scanIndex": 412,
+      "leafNumber": 411,
+      "printedPage": null,
+      "passageCharStart": 648,
+      "passageCharEnd": 681,
+      "normalizedPassageCharStart": 648,
+      "normalizedPassageCharEnd": 681,
+      "pageCharStart": 3792,
+      "pageCharEnd": 3825,
+      "quote": "אלע\nאנטלויפן אין נאענטן װאלד ארײן",
+      "normalizedQuote": "אלע\nאנטלויפן אין נאענטן װאלד ארײן",
+      "modelQuote": "אלע אנטלויפן אין נאענטן װאלד ארײן",
+      "bbox": {
+        "left": 985,
+        "top": 6761,
+        "right": 2887,
+        "bottom": 6969
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n411/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "0a97c7b280750b4babd8731d26d94ba948e94f3afb426f722f983b44f766bece",
+      "normalizedPassageChecksum": "793782d5dfadc6d308dd66ef3bc14aad1eda35e7e1990ddf1357d85abc347431",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a9f18a465e5dafdf09cc6d9b",
+      "type": "Place",
+      "title": "Nearby forest",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_858659cdec2709c8a1884952",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

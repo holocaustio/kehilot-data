@@ -1,0 +1,160 @@
+{
+  "id": "mention_371b46f39aef228ea2483dc3",
+  "type": "Place",
+  "title": "Werk Be",
+  "summary": "A forest worksite where weakened workers were taken and shot.",
+  "originalName": "װערק ״בע״",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 423,
+  "printedPage": "846",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "labor camp or worksite",
+  "uncertaintyNote": "The OCR preserves the designation as “Be,” whose exact form is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_012d0831d89805181c3e26ad",
+      "pageId": "page_nybc314251_0423",
+      "scanIndex": 423,
+      "leafNumber": 422,
+      "printedPage": "846",
+      "passageCharStart": 390,
+      "passageCharEnd": 403,
+      "normalizedPassageCharStart": 390,
+      "normalizedPassageCharEnd": 403,
+      "pageCharStart": 2628,
+      "pageCharEnd": 2641,
+      "quote": "דאס װערק ״בע״",
+      "normalizedQuote": "דאס װערק ״בע״",
+      "modelQuote": "דאס װערק ״בע״",
+      "bbox": {
+        "left": 2262,
+        "top": 3969,
+        "right": 2811,
+        "bottom": 4035
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n422/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "61549d4ec9056aad6488ef330a68d7f4c148d9355fbfe0931e3f3010a609fe0d",
+      "normalizedPassageChecksum": "844866be3477d06f16ab41ddc129df7bc5274b4fbea12be475ff906fbfb8d295",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    },
+    {
+      "passageId": "passage_2572d6df7e26604699747115",
+      "pageId": "page_nybc314251_0424",
+      "scanIndex": 424,
+      "leafNumber": 423,
+      "printedPage": "847",
+      "passageCharStart": 36,
+      "passageCharEnd": 49,
+      "normalizedPassageCharStart": 36,
+      "normalizedPassageCharEnd": 49,
+      "pageCharStart": 3759,
+      "pageCharEnd": 3772,
+      "quote": "פון װערק\n״בע״",
+      "normalizedQuote": "פון װערק\n״בע״",
+      "modelQuote": "פון װערק\n״בע״",
+      "bbox": {
+        "left": 999,
+        "top": 4577,
+        "right": 2905,
+        "bottom": 4765
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n423/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "a0ff1c5e91d2b50656b8b94d22f5ed49fd25710d4647ff19a3271fda108b3931",
+      "normalizedPassageChecksum": "8a6c4344c5de28a5ba1cdefe645e514aeffabe85af0c3208f4a1ab13aa2051a7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d312eae70260e21e53a45dd6",
+      "type": "Murder",
+      "title": "Death of Naomi Apelzweig",
+      "summary": "Naomi Apelzweig was taken away and gunshots were heard shortly afterward.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The following sentence reports distant gunshots but does not explicitly confirm Naomi's death.",
+      "evidence": {
+        "passageId": "passage_012d0831d89805181c3e26ad",
+        "pageId": "page_nybc314251_0423",
+        "scanIndex": 423,
+        "leafNumber": 422,
+        "printedPage": "846",
+        "passageCharStart": 797,
+        "passageCharEnd": 863,
+        "normalizedPassageCharStart": 797,
+        "normalizedPassageCharEnd": 863,
+        "pageCharStart": 3035,
+        "pageCharEnd": 3101,
+        "quote": "האט פונקט געגעסן די לאגער־זופ װען די מערדער זעגען\nגעקומען זי נעמען",
+        "normalizedQuote": "האט פונקט געגעסן די לאגער־זופ װען די מערדער זעגען\nגעקומען זי נעמען",
+        "modelQuote": "האט פונקט געגעסן די לאגער־זופ װען די מערדער זעגען געקומען זי נעמען",
+        "bbox": {
+          "left": 985,
+          "top": 4977,
+          "right": 2895,
+          "bottom": 5187
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n422/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "61549d4ec9056aad6488ef330a68d7f4c148d9355fbfe0931e3f3010a609fe0d",
+        "normalizedPassageChecksum": "844866be3477d06f16ab41ddc129df7bc5274b4fbea12be475ff906fbfb8d295",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d312eae70260e21e53a45dd6",
+      "type": "Event",
+      "title": "Death of Naomi Apelzweig",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_fe981673b5e8558007054f09",
+      "type": "Person",
+      "title": "Yehiel Warszawski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e75cddb02e2cc5c783ded50c",
+      "type": "Person",
+      "title": "Heshel Apelzweig",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_30098ba24f547b70561ea1d5",
+      "type": "Person",
+      "title": "Naomi Apelzweig",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6cf6a8301e50f6d6af62446e",
+      "type": "Person",
+      "title": "Heniek Zukerman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff5a3bf907327ebc51cfbf7b",
+      "type": "Place",
+      "title": "Częstochowa",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

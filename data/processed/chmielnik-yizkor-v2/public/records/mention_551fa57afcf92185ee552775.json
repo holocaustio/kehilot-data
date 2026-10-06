@@ -1,0 +1,109 @@
+{
+  "id": "mention_551fa57afcf92185ee552775",
+  "type": "Place",
+  "title": "Slatkow forest",
+  "summary": "Forest near the road between Chmielnik and Busko.",
+  "originalName": "שלאט־\nקאװער װאלד",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 102,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "forest",
+  "uncertaintyNote": "OCR preserves a line-break hyphen in the forest name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_83b04a8cadd5d9f138a8acd7",
+      "pageId": "page_nybc314251_0102",
+      "scanIndex": 102,
+      "leafNumber": 101,
+      "printedPage": null,
+      "passageCharStart": 787,
+      "passageCharEnd": 816,
+      "normalizedPassageCharStart": 787,
+      "normalizedPassageCharEnd": 816,
+      "pageCharStart": 2132,
+      "pageCharEnd": 2161,
+      "quote": "דעם נאענטן ״שלאט־\nקאװער װאלד״",
+      "normalizedQuote": "דעם נאענטן ״שלאט־\nקאװער װאלד״",
+      "modelQuote": "דעם נאענטן ״שלאט־\nקאװער װאלד״",
+      "bbox": {
+        "left": 3121,
+        "top": 6521,
+        "right": 5025,
+        "bottom": 6739
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n101/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "b81f97cba09c89375e7a9269daa6c953014bcdbc6978ceee90718c752bdfbb24",
+      "normalizedPassageChecksum": "eac9bfa30c284b44b133757991d41e12827f5f92d858d75c8b06c3a05a65c0f3",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_3368a06356e2829534c5dbd2",
+      "predicate": "Located Near",
+      "subjectTitle": "Slatkow forest",
+      "objectTitle": "Chmielnik",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "relation": "near; between Chmielnik and Busko"
+      },
+      "evidence": {
+        "passageId": "passage_83b04a8cadd5d9f138a8acd7",
+        "pageId": "page_nybc314251_0102",
+        "scanIndex": 102,
+        "leafNumber": 101,
+        "printedPage": null,
+        "passageCharStart": 859,
+        "passageCharEnd": 882,
+        "normalizedPassageCharStart": 859,
+        "normalizedPassageCharEnd": 882,
+        "pageCharStart": 2204,
+        "pageCharEnd": 2227,
+        "quote": "צװישן כמיעלניק און בוםק",
+        "normalizedQuote": "צװישן כמיעלניק און בוםק",
+        "modelQuote": "צװישן כמיעלניק און בוםק",
+        "bbox": {
+          "left": 4007,
+          "top": 6785,
+          "right": 4865,
+          "bottom": 6867
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n101/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "b81f97cba09c89375e7a9269daa6c953014bcdbc6978ceee90718c752bdfbb24",
+        "normalizedPassageChecksum": "eac9bfa30c284b44b133757991d41e12827f5f92d858d75c8b06c3a05a65c0f3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Located Near"
+    },
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0399ff8356d901fa165c41d8",
+      "type": "Place",
+      "title": "Busko",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

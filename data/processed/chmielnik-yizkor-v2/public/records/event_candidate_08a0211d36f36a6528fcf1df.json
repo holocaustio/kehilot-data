@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_08a0211d36f36a6528fcf1df",
+  "type": "Event",
+  "title": "Mass shooting at Skarżysko camp",
+  "summary": "Hundreds of Jews were shot at the Skarżysko camp.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 338,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "Victims are collectively described; no individual victim entity is identified.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_82bcd9163648443e7407bfaf",
+      "pageId": "page_nybc314251_0338",
+      "scanIndex": 338,
+      "leafNumber": 337,
+      "printedPage": null,
+      "passageCharStart": 13,
+      "passageCharEnd": 80,
+      "normalizedPassageCharStart": 13,
+      "normalizedPassageCharEnd": 80,
+      "pageCharStart": 3997,
+      "pageCharEnd": 4064,
+      "quote": "אין סקארזשיםקער לאגער זענען דערשאסן\n*עװארן הונדערטער כמיעלגיקער ײדן",
+      "normalizedQuote": "אין סקארזשיםקער לאגער זענען דערשאסן\n*עװארן הונדערטער כמיעלגיקער ײדן",
+      "modelQuote": "אין סקארזשיםקער לאגער זענען דערשאסן *עװארן הונדערטער כמיעלגיקער ײדן",
+      "bbox": {
+        "left": 975,
+        "top": 5595,
+        "right": 2877,
+        "bottom": 5809
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n337/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "8f9bbff0260174af7826ca44fe2c79750629bcd9f55bc36047fe20fb0a60373d",
+      "normalizedPassageChecksum": "4d550df4cb973f203852a5711e814cc48d7df0aa0a8a8e447ab6e1512c2d9709",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_74bdf5a85582670c1ef1a67a",
+      "type": "Place",
+      "title": "Skarżysko camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_74bdf5a85582670c1ef1a67a",
+      "type": "Place",
+      "title": "Skarżysko camp",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

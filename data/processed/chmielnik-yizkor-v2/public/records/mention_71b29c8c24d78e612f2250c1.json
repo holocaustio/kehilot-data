@@ -1,0 +1,193 @@
+{
+  "id": "mention_71b29c8c24d78e612f2250c1",
+  "type": "Person",
+  "title": "Unnamed narrator",
+  "summary": "The narrator describes wartime flight and travel through Poland.",
+  "originalName": "אני",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 454,
+  "printedPage": "907",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "narrator",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5697f2da87572d104f0096b9",
+      "pageId": "page_nybc314251_0454",
+      "scanIndex": 454,
+      "leafNumber": 453,
+      "printedPage": "907",
+      "passageCharStart": 226,
+      "passageCharEnd": 243,
+      "normalizedPassageCharStart": 226,
+      "normalizedPassageCharEnd": 243,
+      "pageCharStart": 2830,
+      "pageCharEnd": 2847,
+      "quote": "המשכתי איפוא בגפי",
+      "normalizedQuote": "המשכתי איפוא בגפי",
+      "modelQuote": "המשכתי איפוא בגפי",
+      "bbox": {
+        "left": 2222,
+        "top": 4299,
+        "right": 2897,
+        "bottom": 4359
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n453/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "5d44aeae1db5166e1c484c74697842e44bac063353ebadae86153c2fd3bdbe16",
+      "normalizedPassageChecksum": "92ca29f4d1879e4105ad5618548c91ee4df291878180cc333a5eb29f96d224ad",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_cd6d089f3e167e9abd7e8c98",
+      "predicate": "Departed From",
+      "subjectTitle": "Unnamed narrator",
+      "objectTitle": "Krasnovodsk",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_14440b454d7520da0c121567",
+        "pageId": "page_nybc314251_0454",
+        "scanIndex": 454,
+        "leafNumber": 453,
+        "printedPage": "907",
+        "passageCharStart": 18,
+        "passageCharEnd": 41,
+        "normalizedPassageCharStart": 18,
+        "normalizedPassageCharEnd": 41,
+        "pageCharStart": 3690,
+        "pageCharEnd": 3713,
+        "quote": "עזבנו את נמל קרסנובודםק",
+        "normalizedQuote": "עזבנו את נמל קרסנובודםק",
+        "modelQuote": "עזבנו את נמל קרסנובודםק",
+        "bbox": {
+          "left": 1116,
+          "top": 6605,
+          "right": 2075,
+          "bottom": 6689
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n453/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "a3a5eac05a2db0d88ae3d2890a288390035c2c62e632669d1f9ed58303144cd5",
+        "normalizedPassageChecksum": "f647297531be40ca481bdbb01b8ae99271ed00de0427010dd287613587fe9bc5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_52ccb7678a5e885e969c1831",
+      "type": "Migration",
+      "title": "Departure from Krasnovodsk",
+      "summary": "The narrator departed Krasnovodsk harbor in 1942 with a Polish army transport.",
+      "dateStart": "1942",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The narrator is indicated by the plural 'we'; the transport's exact composition is unclear.",
+      "evidence": {
+        "passageId": "passage_14440b454d7520da0c121567",
+        "pageId": "page_nybc314251_0454",
+        "scanIndex": 454,
+        "leafNumber": 453,
+        "printedPage": "907",
+        "passageCharStart": 18,
+        "passageCharEnd": 41,
+        "normalizedPassageCharStart": 18,
+        "normalizedPassageCharEnd": 41,
+        "pageCharStart": 3690,
+        "pageCharEnd": 3713,
+        "quote": "עזבנו את נמל קרסנובודםק",
+        "normalizedQuote": "עזבנו את נמל קרסנובודםק",
+        "modelQuote": "עזבנו את נמל קרסנובודםק",
+        "bbox": {
+          "left": 1116,
+          "top": 6605,
+          "right": 2075,
+          "bottom": 6689
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n453/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "a3a5eac05a2db0d88ae3d2890a288390035c2c62e632669d1f9ed58303144cd5",
+        "normalizedPassageChecksum": "f647297531be40ca481bdbb01b8ae99271ed00de0427010dd287613587fe9bc5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6483390dea84c3f6178d5f21",
+      "type": "Place",
+      "title": "Krasnovodsk",
+      "relation": "Departed From"
+    },
+    {
+      "id": "event_candidate_52ccb7678a5e885e969c1831",
+      "type": "Event",
+      "title": "Departure from Krasnovodsk",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_dce737c3da47606748c0d585",
+      "type": "Place",
+      "title": "Krakow",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5dc5b242415559fd247961da",
+      "type": "Place",
+      "title": "Vistula",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8f74d196e8d7352bb3882d45",
+      "type": "Place",
+      "title": "Opatow",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9272a345b379c0c811d71381",
+      "type": "Person",
+      "title": "Unnamed brother",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9ca166b6155ad12122fa6f72",
+      "type": "Organization",
+      "title": "Warsaw Radio",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d076bd1742048f460e9e3598",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_126d573b3b15d4edd65adbcb",
+      "type": "Place",
+      "title": "Rozyszcze",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a7fe87a8f945da10bf87f77d",
+      "type": "Place",
+      "title": "Lutsk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f528899fc2bfe0901900f5ec",
+      "type": "Place",
+      "title": "Eastern Poland",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

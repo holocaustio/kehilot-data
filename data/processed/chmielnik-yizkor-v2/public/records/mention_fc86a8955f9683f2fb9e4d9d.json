@@ -1,0 +1,208 @@
+{
+  "id": "mention_fc86a8955f9683f2fb9e4d9d",
+  "type": "Person",
+  "title": "Samuel Weinberg",
+  "summary": "Said to have been murdered in Kielce in 1946.",
+  "originalName": "וינברג שמואל",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 563,
+  "printedPage": "1126",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "individual",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_182f400a087d86975d848301",
+      "pageId": "page_nybc314251_0563",
+      "scanIndex": 563,
+      "leafNumber": 562,
+      "printedPage": "1126",
+      "passageCharStart": 427,
+      "passageCharEnd": 439,
+      "normalizedPassageCharStart": 427,
+      "normalizedPassageCharEnd": 439,
+      "pageCharStart": 427,
+      "pageCharEnd": 439,
+      "quote": "וינברג שמואל",
+      "normalizedQuote": "וינברג שמואל",
+      "modelQuote": "וינברג שמואל",
+      "bbox": {
+        "left": 1437,
+        "top": 3795,
+        "right": 1859,
+        "bottom": 3863
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n562/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "6af2f81947f1fab1ef1d457a57ab4c66b7aa0afb905373a490caaad883a71edb",
+      "normalizedPassageChecksum": "747d8d15b27975aa898451338d414ea220153e11a1343f7a62ce3a3253c5eb1c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_3046d10d388b409994d6f19f",
+      "predicate": "Murdered At",
+      "subjectTitle": "Samuel Weinberg",
+      "objectTitle": "Kielce",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "year": "1946"
+      },
+      "evidence": {
+        "passageId": "passage_182f400a087d86975d848301",
+        "pageId": "page_nybc314251_0563",
+        "scanIndex": 563,
+        "leafNumber": 562,
+        "printedPage": "1126",
+        "passageCharStart": 441,
+        "passageCharEnd": 463,
+        "normalizedPassageCharStart": 441,
+        "normalizedPassageCharEnd": 463,
+        "pageCharStart": 441,
+        "pageCharEnd": 463,
+        "quote": "שנרצח בקילץ בשנת 1946.",
+        "normalizedQuote": "שנרצח בקילץ בשנת 1946.",
+        "modelQuote": "שנרצח בקילץ בשנת 1946.",
+        "bbox": {
+          "left": 1159,
+          "top": 3975,
+          "right": 1861,
+          "bottom": 4045
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n562/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "6af2f81947f1fab1ef1d457a57ab4c66b7aa0afb905373a490caaad883a71edb",
+        "normalizedPassageChecksum": "747d8d15b27975aa898451338d414ea220153e11a1343f7a62ce3a3253c5eb1c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_544bb663e46ee399b6bf1ebd",
+      "type": "Murder",
+      "title": "Murder of Samuel Weinberg",
+      "summary": "Samuel Weinberg was murdered in Kielce in 1946.",
+      "dateStart": "1946",
+      "dateEnd": "1946",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_182f400a087d86975d848301",
+        "pageId": "page_nybc314251_0563",
+        "scanIndex": 563,
+        "leafNumber": 562,
+        "printedPage": "1126",
+        "passageCharStart": 441,
+        "passageCharEnd": 463,
+        "normalizedPassageCharStart": 441,
+        "normalizedPassageCharEnd": 463,
+        "pageCharStart": 441,
+        "pageCharEnd": 463,
+        "quote": "שנרצח בקילץ בשנת 1946.",
+        "normalizedQuote": "שנרצח בקילץ בשנת 1946.",
+        "modelQuote": "שנרצח בקילץ בשנת 1946.",
+        "bbox": {
+          "left": 1159,
+          "top": 3975,
+          "right": 1861,
+          "bottom": 4045
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n562/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "6af2f81947f1fab1ef1d457a57ab4c66b7aa0afb905373a490caaad883a71edb",
+        "normalizedPassageChecksum": "747d8d15b27975aa898451338d414ea220153e11a1343f7a62ce3a3253c5eb1c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_86a3e0b74e5bb44cbefa0c14",
+      "type": "Place",
+      "title": "Kielce",
+      "relation": "Murdered At"
+    },
+    {
+      "id": "event_candidate_544bb663e46ee399b6bf1ebd",
+      "type": "Event",
+      "title": "Murder of Samuel Weinberg",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_c9324ce2ccff18b97144a660",
+      "type": "Person",
+      "title": "Jacob Weinberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_42d0e650383a0e807dcc5127",
+      "type": "Person",
+      "title": "Pearl Weinberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d26f1e2b2474208e9d7eddbd",
+      "type": "Person",
+      "title": "Ester Altman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0fbb83b9324802fa246b5fb6",
+      "type": "Person",
+      "title": "Mordecai Altman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_60843dbe44588970512d13a6",
+      "type": "Person",
+      "title": "Meir",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_41746577bb95573b148643c0",
+      "type": "Person",
+      "title": "Alter Weinberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b3b8da18f0822e2962b9a3bd",
+      "type": "Person",
+      "title": "Mordecai",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5bfc47e3f46982aa427f9545",
+      "type": "Person",
+      "title": "Unnamed child",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d0e89c1aeaf6039d489ba8e6",
+      "type": "Person",
+      "title": "Shoshana Blank",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c5450e4c5b78f3705b3d5e83",
+      "type": "Person",
+      "title": "Reuben Blank",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1298ab2fa7bc6e6a8a686756",
+      "type": "Person",
+      "title": "Pala",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

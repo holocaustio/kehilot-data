@@ -1,0 +1,117 @@
+{
+  "id": "mention_3819faf2ac48d7b138a0ccca",
+  "type": "Institution",
+  "title": "The Hekdesh",
+  "summary": "An institution behind the synagogue, opposite the old cemetery, that housed beggars.",
+  "originalName": "דער הקדש",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 120,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "HEKDISH",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3d0a0e82e8de5d2020a5e2be",
+      "pageId": "page_nybc314251_0120",
+      "scanIndex": 120,
+      "leafNumber": 119,
+      "printedPage": null,
+      "passageCharStart": 115,
+      "passageCharEnd": 133,
+      "normalizedPassageCharStart": 115,
+      "normalizedPassageCharEnd": 133,
+      "pageCharStart": 2179,
+      "pageCharEnd": 2197,
+      "quote": "דאם איז ״דער הקדש״",
+      "normalizedQuote": "דאם איז ״דער הקדש״",
+      "modelQuote": "דאם איז ״דער הקדש״",
+      "bbox": {
+        "left": 1808,
+        "top": 3443,
+        "right": 2535,
+        "bottom": 3511
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n119/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "d29bf7d45c894bc1d95c96d109219281ffc875be2c96aa37c2c4360ec00da284",
+      "normalizedPassageChecksum": "ba9beea3bcfe9f5f9e707bdf381485f06d43bf4f4ab77d4be00a5b35f81c473b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_148a860b01e58a22087a4825",
+      "predicate": "Located In",
+      "subjectTitle": "The Hekdesh",
+      "objectTitle": "Old cemetery",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_3d0a0e82e8de5d2020a5e2be",
+        "pageId": "page_nybc314251_0120",
+        "scanIndex": 120,
+        "leafNumber": 119,
+        "printedPage": null,
+        "passageCharStart": 70,
+        "passageCharEnd": 113,
+        "normalizedPassageCharStart": 70,
+        "normalizedPassageCharEnd": 113,
+        "pageCharStart": 2134,
+        "pageCharEnd": 2177,
+        "quote": "הינטער דער שול, קעגנאיבער דעם אלמן\nבית־עולם",
+        "normalizedQuote": "הינטער דער שול, קעגנאיבער דעם אלמן\nבית־עולם",
+        "modelQuote": "הינטער דער שול, קעגנאיבער דעם אלמן בית־עולם",
+        "bbox": {
+          "left": 977,
+          "top": 3287,
+          "right": 2885,
+          "bottom": 3507
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n119/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "d29bf7d45c894bc1d95c96d109219281ffc875be2c96aa37c2c4360ec00da284",
+        "normalizedPassageChecksum": "ba9beea3bcfe9f5f9e707bdf381485f06d43bf4f4ab77d4be00a5b35f81c473b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_1c727a8b49b5995f0e19aa05",
+      "type": "Place",
+      "title": "Old cemetery",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_1c727a8b49b5995f0e19aa05",
+      "type": "Place",
+      "title": "Old cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_efe4fb0423f410292933a42a",
+      "type": "Person",
+      "title": "Mendele",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_24aaa33eb6c98a973f254b93",
+      "type": "Work",
+      "title": "Fishke the Lame",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_798f43061bac069aa7578dc7",
+      "type": "Community",
+      "title": "Chmielnik Jewish community",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,131 @@
+{
+  "id": "mention_675c3deff0af442cb401fe6c",
+  "type": "Person",
+  "title": "Hering",
+  "summary": "Identified as a murderous master who beat victims to death.",
+  "originalName": "הערינג",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 423,
+  "printedPage": "846",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "person",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_76669f3e8f9ffbfbac9af0c0",
+      "pageId": "page_nybc314251_0423",
+      "scanIndex": 423,
+      "leafNumber": 422,
+      "printedPage": "846",
+      "passageCharStart": 436,
+      "passageCharEnd": 456,
+      "normalizedPassageCharStart": 436,
+      "normalizedPassageCharEnd": 456,
+      "pageCharStart": 1514,
+      "pageCharEnd": 1534,
+      "quote": "מערדער־מײסטער הערינג",
+      "normalizedQuote": "מערדער־מײסטער הערינג",
+      "modelQuote": "מערדער־מײסטער הערינג",
+      "bbox": {
+        "left": 2046,
+        "top": 969,
+        "right": 2867,
+        "bottom": 1033
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n422/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "498e4109ef4ddc157dcbaf70401a4f07176c54e55f013e3893828c25af830bdc",
+      "normalizedPassageChecksum": "da7c4811d24307031e1cc50bd5eb7326ba4e545917ca2c34a97a5b1cfa4ffd64",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3acb68f951d694c2f678a9a2",
+      "type": "Murder",
+      "title": "Death of Berech Garlicki",
+      "summary": "Berech Garlicki was killed by beating.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage links the death to the masters’ described beatings but does not specify the exact perpetrators for this victim.",
+      "evidence": {
+        "passageId": "passage_76669f3e8f9ffbfbac9af0c0",
+        "pageId": "page_nybc314251_0423",
+        "scanIndex": 423,
+        "leafNumber": 422,
+        "printedPage": "846",
+        "passageCharStart": 541,
+        "passageCharEnd": 599,
+        "normalizedPassageCharStart": 541,
+        "normalizedPassageCharEnd": 599,
+        "pageCharStart": 1619,
+        "pageCharEnd": 1677,
+        "quote": "איז אומגעקומען דער כמײלניקער פועלי־צױן עםקן בײרעך\nגארליצקי",
+        "normalizedQuote": "איז אומגעקומען דער כמײלניקער פועלי־צױן עםקן בײרעך\nגארליצקי",
+        "modelQuote": "איז אומגעקומען דער כמײלניקער פועלי־צױן עםקן בײרעך גארליצקי",
+        "bbox": {
+          "left": 961,
+          "top": 1215,
+          "right": 2873,
+          "bottom": 1417
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n422/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "498e4109ef4ddc157dcbaf70401a4f07176c54e55f013e3893828c25af830bdc",
+        "normalizedPassageChecksum": "da7c4811d24307031e1cc50bd5eb7326ba4e545917ca2c34a97a5b1cfa4ffd64",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3acb68f951d694c2f678a9a2",
+      "type": "Event",
+      "title": "Death of Berech Garlicki",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_0ebeec23e43fc066ac47a459",
+      "type": "Person",
+      "title": "Herczke Diamond",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_92adaf241a6213d3ee396066",
+      "type": "Person",
+      "title": "Pawlowski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3bba0e5be8b1a226fb95ca3d",
+      "type": "Person",
+      "title": "Berech Garlicki",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bfd946ef898d7977e5ba3aed",
+      "type": "Person",
+      "title": "Lala Mendelewitsch",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_30be6962d6f75d50eb41181a",
+      "type": "Person",
+      "title": "Tzife Silberstein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bbe5643313029d5944c2f5c9",
+      "type": "Person",
+      "title": "Polish female controller",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

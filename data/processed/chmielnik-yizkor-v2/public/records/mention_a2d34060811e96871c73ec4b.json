@@ -1,0 +1,106 @@
+{
+  "id": "mention_a2d34060811e96871c73ec4b",
+  "type": "Place",
+  "title": "Kinneret",
+  "summary": "Place where the group found Proika during training.",
+  "originalName": "כנרת",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 476,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "settlement",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_615ea9e730e37092136e61a7",
+      "pageId": "page_nybc314251_0476",
+      "scanIndex": 476,
+      "leafNumber": 475,
+      "printedPage": null,
+      "passageCharStart": 792,
+      "passageCharEnd": 806,
+      "normalizedPassageCharStart": 792,
+      "normalizedPassageCharEnd": 806,
+      "pageCharStart": 2082,
+      "pageCharEnd": 2096,
+      "quote": "בכנרת מצאנו בו",
+      "normalizedQuote": "בכנרת מצאנו בו",
+      "modelQuote": "בכנרת מצאנו בו",
+      "bbox": {
+        "left": 2348,
+        "top": 3200,
+        "right": 2813,
+        "bottom": 3244
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n475/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "2167d30934512aaa769d2c3a913c30bf1953d6fd88b5388aae25f33370d34eed",
+      "normalizedPassageChecksum": "70545ea4566aa000b461a84fe4bb248fa20d1491ac2542fa3387247e4527f341",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2ada6ecfa98851ae501f3a87",
+      "predicate": "Located In",
+      "subjectTitle": "Proika",
+      "objectTitle": "Kinneret",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage places him at Kinneret during training, but does not specify residence.",
+      "evidence": {
+        "passageId": "passage_615ea9e730e37092136e61a7",
+        "pageId": "page_nybc314251_0476",
+        "scanIndex": 476,
+        "leafNumber": 475,
+        "printedPage": null,
+        "passageCharStart": 792,
+        "passageCharEnd": 806,
+        "normalizedPassageCharStart": 792,
+        "normalizedPassageCharEnd": 806,
+        "pageCharStart": 2082,
+        "pageCharEnd": 2096,
+        "quote": "בכנרת מצאנו בו",
+        "normalizedQuote": "בכנרת מצאנו בו",
+        "modelQuote": "בכנרת מצאנו בו",
+        "bbox": {
+          "left": 2348,
+          "top": 3200,
+          "right": 2813,
+          "bottom": 3244
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n475/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "2167d30934512aaa769d2c3a913c30bf1953d6fd88b5388aae25f33370d34eed",
+        "normalizedPassageChecksum": "70545ea4566aa000b461a84fe4bb248fa20d1491ac2542fa3387247e4527f341",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_68cca38cefb279dc634eb292",
+      "type": "Person",
+      "title": "Proika",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_68cca38cefb279dc634eb292",
+      "type": "Person",
+      "title": "Proika",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f79e46d2f91e900b5a0fb834",
+      "type": "Organization",
+      "title": "Noar Oved",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

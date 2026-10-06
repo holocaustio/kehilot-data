@@ -1,0 +1,109 @@
+{
+  "id": "mention_f016152a9cf4248e7c7485f7",
+  "type": "Person",
+  "title": "Narrator's sister",
+  "summary": "Narrator hoped to reunite with her during the fighting.",
+  "originalName": "שװעסטער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 385,
+  "printedPage": "770",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "sister",
+  "uncertaintyNote": "No personal name is given.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3fd534acef97d46b14b592b1",
+      "pageId": "page_nybc314251_0385",
+      "scanIndex": 385,
+      "leafNumber": 384,
+      "printedPage": "770",
+      "passageCharStart": 703,
+      "passageCharEnd": 721,
+      "normalizedPassageCharStart": 703,
+      "normalizedPassageCharEnd": 721,
+      "pageCharStart": 2550,
+      "pageCharEnd": 2568,
+      "quote": "מײן\nטײערער שװעסטער",
+      "normalizedQuote": "מײן\nטײערער שװעסטער",
+      "modelQuote": "מײן טײערער שװעסטער",
+      "bbox": {
+        "left": 1007,
+        "top": 1303,
+        "right": 2913,
+        "bottom": 1495
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n384/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "235518b0089983e4db2ef52585d0923139e6fd43231c84530a03f09abc6d90a4",
+      "normalizedPassageChecksum": "ba0343e1618e3a2d806f5696dd5bded9ad421bea13640c4d8f7037486ab3b771",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e43781f1223e182f0cf40a22",
+      "type": "Aktion Or Raid",
+      "title": "Fighting at the small ghetto",
+      "summary": "The narrator saw Nazi armored vehicles enter the small ghetto, after which hundreds were killed.",
+      "dateStart": "1943-04-19",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The date is corrupted in the OCR; it is not safely recoverable.",
+      "evidence": {
+        "passageId": "passage_3fd534acef97d46b14b592b1",
+        "pageId": "page_nybc314251_0385",
+        "scanIndex": 385,
+        "leafNumber": 384,
+        "printedPage": "770",
+        "passageCharStart": 323,
+        "passageCharEnd": 388,
+        "normalizedPassageCharStart": 323,
+        "normalizedPassageCharEnd": 388,
+        "pageCharStart": 2170,
+        "pageCharEnd": 2235,
+        "quote": "צום קלײנעם געטא פארן א גאנצע ריי\nגעפאנצערטע אויטאם, פול מיט נאצים",
+        "normalizedQuote": "צום קלײנעם געטא פארן א גאנצע ריי\nגעפאנצערטע אויטאם, פול מיט נאצים",
+        "modelQuote": "צום קלײנעם געטא פארן א גאנצע ריי\nגעפאנצערטע אויטאם, פול מיט נאצים",
+        "bbox": {
+          "left": 3113,
+          "top": 6649,
+          "right": 5019,
+          "bottom": 6873
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n384/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "235518b0089983e4db2ef52585d0923139e6fd43231c84530a03f09abc6d90a4",
+        "normalizedPassageChecksum": "ba0343e1618e3a2d806f5696dd5bded9ad421bea13640c4d8f7037486ab3b771",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e43781f1223e182f0cf40a22",
+      "type": "Event",
+      "title": "Fighting at the small ghetto",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_548196b57b65b1bd5a9ce79d",
+      "type": "Place",
+      "title": "Warsaw Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4eaff5cd42edd98b6a1a82ca",
+      "type": "Place",
+      "title": "Żelazna Street",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

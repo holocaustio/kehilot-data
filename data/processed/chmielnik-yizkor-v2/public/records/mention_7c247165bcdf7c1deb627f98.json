@@ -1,0 +1,121 @@
+{
+  "id": "mention_7c247165bcdf7c1deb627f98",
+  "type": "Place",
+  "title": "Azarkov",
+  "summary": "Town identified as the Magid’s place of origin.",
+  "originalName": "אזארקאװ",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 221,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9df2917eae08a66d4c583d57",
+      "pageId": "page_nybc314251_0221",
+      "scanIndex": 221,
+      "leafNumber": 220,
+      "printedPage": null,
+      "passageCharStart": 91,
+      "passageCharEnd": 111,
+      "normalizedPassageCharStart": 91,
+      "normalizedPassageCharEnd": 111,
+      "pageCharStart": 91,
+      "pageCharEnd": 111,
+      "quote": "פון דער שטאט אזארקאװ",
+      "normalizedQuote": "פון דער שטאט אזארקאװ",
+      "modelQuote": "פון דער שטאט אזארקאװ",
+      "bbox": {
+        "left": 3998,
+        "top": 1973,
+        "right": 5031,
+        "bottom": 2045
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n220/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "682735d42cf419fe8e7e50561f680bf5e7387ba85bb6ec97bd603083d42bf0d8",
+      "normalizedPassageChecksum": "a25459d0b83ec2bbd63f32ed1d436058d84eb7b9b94e4325f45a4f24ecabe382",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_a1d66a4d6cf3edf2e93aef6b",
+      "predicate": "Originated In",
+      "subjectTitle": "The Magid",
+      "objectTitle": "Azarkov",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says he originated from this town; it does not explicitly say he was born there.",
+      "qualifiers": {
+        "near": "Warsaw"
+      },
+      "evidence": {
+        "passageId": "passage_9df2917eae08a66d4c583d57",
+        "pageId": "page_nybc314251_0221",
+        "scanIndex": 221,
+        "leafNumber": 220,
+        "printedPage": null,
+        "passageCharStart": 76,
+        "passageCharEnd": 124,
+        "normalizedPassageCharStart": 76,
+        "normalizedPassageCharEnd": 124,
+        "pageCharStart": 76,
+        "pageCharEnd": 124,
+        "quote": "געשטאמט האט ער\nפון דער שטאט אזארקאװ׳ נעבן יװארשע",
+        "normalizedQuote": "געשטאמט האט ער\nפון דער שטאט אזארקאװ׳ נעבן יװארשע",
+        "modelQuote": "געשטאמט האט ער פון דער שטאט אזארקאװ׳ נעבן יװארשע",
+        "bbox": {
+          "left": 3129,
+          "top": 1851,
+          "right": 5031,
+          "bottom": 2045
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n220/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "682735d42cf419fe8e7e50561f680bf5e7387ba85bb6ec97bd603083d42bf0d8",
+        "normalizedPassageChecksum": "a25459d0b83ec2bbd63f32ed1d436058d84eb7b9b94e4325f45a4f24ecabe382",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_62b07de4689f7fe688b4e67e",
+      "type": "Person",
+      "title": "The Magid",
+      "relation": "Originated In"
+    },
+    {
+      "id": "mention_a638595ad77763efe9229575",
+      "type": "Person",
+      "title": "Leibish Kwaszniewski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_62b07de4689f7fe688b4e67e",
+      "type": "Person",
+      "title": "The Magid",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7061feaee488af0635cc4a4a",
+      "type": "Place",
+      "title": "São Paulo",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d076bd1742048f460e9e3598",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

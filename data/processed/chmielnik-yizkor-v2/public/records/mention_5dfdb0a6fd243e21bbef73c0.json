@@ -1,0 +1,113 @@
+{
+  "id": "mention_5dfdb0a6fd243e21bbef73c0",
+  "type": "Person",
+  "title": "David Shelmekes",
+  "summary": "Town caretaker who called Jews to the synagogue to recite Psalms.",
+  "originalName": "דוד שעלמעקס",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 135,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town_caretaker",
+  "uncertaintyNote": "The surname transliteration follows the OCR spelling.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5c1a47c20371732b9c5d9bba",
+      "pageId": "page_nybc314251_0135",
+      "scanIndex": 135,
+      "leafNumber": 134,
+      "printedPage": null,
+      "passageCharStart": 20,
+      "passageCharEnd": 44,
+      "normalizedPassageCharStart": 20,
+      "normalizedPassageCharEnd": 44,
+      "pageCharStart": 3138,
+      "pageCharEnd": 3162,
+      "quote": "דער שטאט־שמש דוד שעלמעקס",
+      "normalizedQuote": "דער שטאט־שמש דוד שעלמעקס",
+      "modelQuote": "דער שטאט־שמש דוד שעלמעקס",
+      "bbox": {
+        "left": 991,
+        "top": 4647,
+        "right": 2051,
+        "bottom": 4727
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n134/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "81db338547bdd8e55a52b7d1e1e7b678d801e5034664f1a5f81ea39201613790",
+      "normalizedPassageChecksum": "1a3815ab02314e58ee676f6647edd776ab44876d75ff44b4c1900c1175f90e01",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_870a8694370edd9fc899c00d",
+      "predicate": "Participated In",
+      "subjectTitle": "David Shelmekes",
+      "objectTitle": "Chmielnik",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage describes a scene but does not explicitly state David Shelmekes's location in this specific clause.",
+      "evidence": {
+        "passageId": "passage_5c1a47c20371732b9c5d9bba",
+        "pageId": "page_nybc314251_0135",
+        "scanIndex": 135,
+        "leafNumber": 134,
+        "printedPage": null,
+        "passageCharStart": 590,
+        "passageCharEnd": 642,
+        "normalizedPassageCharStart": 590,
+        "normalizedPassageCharEnd": 642,
+        "pageCharStart": 3708,
+        "pageCharEnd": 3760,
+        "quote": "דער לעצטער\nדאנערשטיק אין כמיעלניק פארן קריג פון 1914",
+        "normalizedQuote": "דער לעצטער\nדאנערשטיק אין כמיעלניק פארן קריג פון 1914",
+        "modelQuote": "דער לעצטער דאנערשטיק אין כמיעלניק פארן קריג פון 1914",
+        "bbox": {
+          "left": 987,
+          "top": 6035,
+          "right": 2891,
+          "bottom": 6253
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n134/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "81db338547bdd8e55a52b7d1e1e7b678d801e5034664f1a5f81ea39201613790",
+        "normalizedPassageChecksum": "1a3815ab02314e58ee676f6647edd776ab44876d75ff44b4c1900c1175f90e01",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Participated In"
+    },
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9d3db02365bb9a1e60a74f48",
+      "type": "Institution",
+      "title": "Synagogue",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_353225efef5a8d7783f19680",
+      "type": "Institution",
+      "title": "Women's synagogue",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

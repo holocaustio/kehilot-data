@@ -1,0 +1,108 @@
+{
+  "id": "mention_9c708cfa5d49e96b8cbc348d",
+  "type": "Place",
+  "title": "Lokow",
+  "summary": "Town associated with Rabbi Tzvi Morgenstern.",
+  "originalName": "לוקוב",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 226,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0e9ed291598a915d26f718c8",
+      "pageId": "page_nybc314251_0226",
+      "scanIndex": 226,
+      "leafNumber": 225,
+      "printedPage": null,
+      "passageCharStart": 369,
+      "passageCharEnd": 375,
+      "normalizedPassageCharStart": 369,
+      "normalizedPassageCharEnd": 375,
+      "pageCharStart": 3901,
+      "pageCharEnd": 3907,
+      "quote": "מלוקוב",
+      "normalizedQuote": "מלוקוב",
+      "modelQuote": "מלוקוב",
+      "bbox": {
+        "left": 1680,
+        "top": 7135,
+        "right": 1973,
+        "bottom": 7209
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n225/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "f6fbb50cfd696b0f2d6b867d6fb6475d8026f205901eacee09efcd75d2585022",
+      "normalizedPassageChecksum": "28d7129ceaf4359b407244674af3d675b1f83a24920ebdd79a2b04cae18eb0e7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d658782bafdaf71f8328231f",
+      "type": "Marriage",
+      "title": "Jacob's marriage",
+      "summary": "Jacob married Rabbi Tzvi Morgenstern’s daughter in Hebrew year 5679 (1918–1919); exact Gregorian date is not stated.",
+      "dateStart": "1919",
+      "dateEnd": "1919",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The year is given as Hebrew year 5679; the OCR around the date phrase is unclear.",
+      "evidence": {
+        "passageId": "passage_0e9ed291598a915d26f718c8",
+        "pageId": "page_nybc314251_0226",
+        "scanIndex": 226,
+        "leafNumber": 225,
+        "printedPage": null,
+        "passageCharStart": 303,
+        "passageCharEnd": 340,
+        "normalizedPassageCharStart": 303,
+        "normalizedPassageCharEnd": 340,
+        "pageCharStart": 3835,
+        "pageCharEnd": 3872,
+        "quote": "בשנת תרע״ט, בראשיתד״ בא בברית הנשואין",
+        "normalizedQuote": "בשנת תרע״ט, בראשיתד״ בא בברית הנשואין",
+        "modelQuote": "בשנת תרע״ט, בראשיתד״ בא בברית הנשואין",
+        "bbox": {
+          "left": 1212,
+          "top": 7015,
+          "right": 2815,
+          "bottom": 7089
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n225/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "f6fbb50cfd696b0f2d6b867d6fb6475d8026f205901eacee09efcd75d2585022",
+        "normalizedPassageChecksum": "28d7129ceaf4359b407244674af3d675b1f83a24920ebdd79a2b04cae18eb0e7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d658782bafdaf71f8328231f",
+      "type": "Event",
+      "title": "Jacob's marriage",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_2e754fdf663bb789aa7cd828",
+      "type": "Person",
+      "title": "Jacob Silman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bd5cb188d6fae8c2bcf356f9",
+      "type": "Person",
+      "title": "Rabbi Tzvi Morgenstern",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

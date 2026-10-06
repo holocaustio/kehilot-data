@@ -1,0 +1,109 @@
+{
+  "id": "mention_e84c057494da2c5a16491e51",
+  "type": "Person",
+  "title": "Unnamed narrator",
+  "summary": "Recounts losing an apartment in Krakow and later returning to Chmielnik.",
+  "originalName": "בתי",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 353,
+  "printedPage": "706",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "unnamed narrator",
+  "uncertaintyNote": "The passage uses first-person narration but does not provide the narrator’s name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d92f0f637bb5c67c5d6c7dd8",
+      "pageId": "page_nybc314251_0353",
+      "scanIndex": 353,
+      "leafNumber": 352,
+      "printedPage": "706",
+      "passageCharStart": 58,
+      "passageCharEnd": 90,
+      "normalizedPassageCharStart": 58,
+      "normalizedPassageCharEnd": 90,
+      "pageCharStart": 2994,
+      "pageCharEnd": 3026,
+      "quote": "בתי םיפרה לו על מקרה החרמת הדירה",
+      "normalizedQuote": "בתי םיפרה לו על מקרה החרמת הדירה",
+      "modelQuote": "בתי םיפרה לו על מקרה החרמת הדירה",
+      "bbox": {
+        "left": 1334,
+        "top": 2649,
+        "right": 2625,
+        "bottom": 2727
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n352/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "bba7d97cc5225c318097ec18b7db73996921cb6140807edc9d2e74242b8d44e5",
+      "normalizedPassageChecksum": "541d5ae2c9a7508d8fc496714f785df7bbaec4c3e6ca0ed683ba27e244ed8b23",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_b0ddb5821fdbfa3d98a2c166",
+      "predicate": "Lived At",
+      "subjectTitle": "Unnamed narrator",
+      "objectTitle": "Krakow",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "context": "apartment"
+      },
+      "evidence": {
+        "passageId": "passage_d92f0f637bb5c67c5d6c7dd8",
+        "pageId": "page_nybc314251_0353",
+        "scanIndex": 353,
+        "leafNumber": 352,
+        "printedPage": "706",
+        "passageCharStart": 895,
+        "passageCharEnd": 920,
+        "normalizedPassageCharStart": 895,
+        "normalizedPassageCharEnd": 920,
+        "pageCharStart": 3831,
+        "pageCharEnd": 3856,
+        "quote": "נאלצתי לנטוש שוב את דירתי",
+        "normalizedQuote": "נאלצתי לנטוש שוב את דירתי",
+        "modelQuote": "נאלצתי לנטוש שוב את דירתי",
+        "bbox": {
+          "left": 1176,
+          "top": 4773,
+          "right": 2211,
+          "bottom": 4847
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n352/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "bba7d97cc5225c318097ec18b7db73996921cb6140807edc9d2e74242b8d44e5",
+        "normalizedPassageChecksum": "541d5ae2c9a7508d8fc496714f785df7bbaec4c3e6ca0ed683ba27e244ed8b23",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_dce737c3da47606748c0d585",
+      "type": "Place",
+      "title": "Krakow",
+      "relation": "Lived At"
+    },
+    {
+      "id": "mention_dce737c3da47606748c0d585",
+      "type": "Place",
+      "title": "Krakow",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4c3529efe6bbb8f01407dcc9",
+      "type": "Person",
+      "title": "Unnamed senior German official",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

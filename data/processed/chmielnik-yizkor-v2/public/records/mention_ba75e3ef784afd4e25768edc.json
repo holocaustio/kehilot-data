@@ -1,0 +1,157 @@
+{
+  "id": "mention_ba75e3ef784afd4e25768edc",
+  "type": "Person",
+  "title": "Kaufman",
+  "summary": "Sixteen-year-old boy who killed a Nazi during deportation and was immediately shot by Germans.",
+  "originalName": "קויפמאן",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 532,
+  "printedPage": "1052",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "victim",
+  "uncertaintyNote": "No given name is provided.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ef2775c247922dc9c71c396c",
+      "pageId": "page_nybc314251_0532",
+      "scanIndex": 532,
+      "leafNumber": 531,
+      "printedPage": "1052",
+      "passageCharStart": 63,
+      "passageCharEnd": 89,
+      "normalizedPassageCharStart": 63,
+      "normalizedPassageCharEnd": 89,
+      "pageCharStart": 1807,
+      "pageCharEnd": 1833,
+      "quote": "דעם 16־יאריקן ײנגל קויפמאן",
+      "normalizedQuote": "דעם 16־יאריקן ײנגל קויפמאן",
+      "modelQuote": "דעם 16־יאריקן ײנגל קויפמאן",
+      "bbox": {
+        "left": 1438,
+        "top": 5393,
+        "right": 2443,
+        "bottom": 5471
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n531/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "36a9703dd936797ce5f37014e04c3a8827bf42f55d02c1d6b9f3854dee1db142",
+      "normalizedPassageChecksum": "6a6f5c73239d8d46bfe152c30ed28c63d4b2ef0bc6ee108c75014e06081491ad",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_623c7a902a4ecd2784ef185a",
+      "type": "Deportation",
+      "title": "Deportation of Chmielnik Jews",
+      "summary": "The passage recounts deportation-day actions by Kaufman and Kanertzuker.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "No date or destination is provided.",
+      "evidence": {
+        "passageId": "passage_ef2775c247922dc9c71c396c",
+        "pageId": "page_nybc314251_0532",
+        "scanIndex": 532,
+        "leafNumber": 531,
+        "printedPage": "1052",
+        "passageCharStart": 102,
+        "passageCharEnd": 126,
+        "normalizedPassageCharStart": 102,
+        "normalizedPassageCharEnd": 126,
+        "pageCharStart": 1846,
+        "pageCharEnd": 1870,
+        "quote": "אינעם טאג פון דעפארטאציע",
+        "normalizedQuote": "אינעם טאג פון דעפארטאציע",
+        "modelQuote": "אינעם טאג פון דעפארטאציע",
+        "bbox": {
+          "left": 1952,
+          "top": 5529,
+          "right": 2931,
+          "bottom": 5597
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n531/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "36a9703dd936797ce5f37014e04c3a8827bf42f55d02c1d6b9f3854dee1db142",
+        "normalizedPassageChecksum": "6a6f5c73239d8d46bfe152c30ed28c63d4b2ef0bc6ee108c75014e06081491ad",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "event_candidate_51c1e5fa87cac27639431c7c",
+      "type": "Murder",
+      "title": "Kaufman shot by Germans",
+      "summary": "Germans immediately shot Kaufman after he killed a Nazi.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ef2775c247922dc9c71c396c",
+        "pageId": "page_nybc314251_0532",
+        "scanIndex": 532,
+        "leafNumber": 531,
+        "printedPage": "1052",
+        "passageCharStart": 151,
+        "passageCharEnd": 181,
+        "normalizedPassageCharStart": 151,
+        "normalizedPassageCharEnd": 181,
+        "pageCharStart": 1895,
+        "pageCharEnd": 1925,
+        "quote": "די דײטשן האבן אים תיכף דערשאסן",
+        "normalizedQuote": "די דײטשן האבן אים תיכף דערשאסן",
+        "modelQuote": "די דײטשן האבן אים תיכף דערשאסן",
+        "bbox": {
+          "left": 1773,
+          "top": 5657,
+          "right": 2931,
+          "bottom": 5725
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n531/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "36a9703dd936797ce5f37014e04c3a8827bf42f55d02c1d6b9f3854dee1db142",
+        "normalizedPassageChecksum": "6a6f5c73239d8d46bfe152c30ed28c63d4b2ef0bc6ee108c75014e06081491ad",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_623c7a902a4ecd2784ef185a",
+      "type": "Event",
+      "title": "Deportation of Chmielnik Jews",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "event_candidate_51c1e5fa87cac27639431c7c",
+      "type": "Event",
+      "title": "Kaufman shot by Germans",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_c83a90286e7a661719efe7e2",
+      "type": "Person",
+      "title": "Yissachar Kanertzuker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a70c3b5c010800b60beb56fe",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4d0f2d6ab4aa9942b772a951",
+      "type": "Person",
+      "title": "Nazi",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

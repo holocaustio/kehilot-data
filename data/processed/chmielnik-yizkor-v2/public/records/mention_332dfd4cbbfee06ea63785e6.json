@@ -1,0 +1,107 @@
+{
+  "id": "mention_332dfd4cbbfee06ea63785e6",
+  "type": "Organization",
+  "title": "Soviet airplanes",
+  "summary": "Soviet aircraft flew over the town and brought death and destruction.",
+  "originalName": "סאװיעטישע עראפלאנען",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 411,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "military aircraft",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4b3459f79b2f993c39f89a17",
+      "pageId": "page_nybc314251_0411",
+      "scanIndex": 411,
+      "leafNumber": 410,
+      "printedPage": null,
+      "passageCharStart": 348,
+      "passageCharEnd": 384,
+      "normalizedPassageCharStart": 348,
+      "normalizedPassageCharEnd": 384,
+      "pageCharStart": 2103,
+      "pageCharEnd": 2139,
+      "quote": "סאװיעטישע עראפלאנען זענען אנגעפלויגן",
+      "normalizedQuote": "סאװיעטישע עראפלאנען זענען אנגעפלויגן",
+      "modelQuote": "סאװיעטישע עראפלאנען זענען אנגעפלויגן",
+      "bbox": {
+        "left": 979,
+        "top": 2033,
+        "right": 2311,
+        "bottom": 2113
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n410/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "e850f9ba5332942c198e092b728a79ba870f21795a09ad0dcd1f6bba6dd330a4",
+      "normalizedPassageChecksum": "cdee916597c373e113c646fc6a62fc936a1cf0d55401c482d30b4723a3c9f2aa",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_76b77ad7afb5285b64a700a9",
+      "type": "Aktion Or Raid",
+      "title": "Soviet bombardment of the town",
+      "summary": "Soviet aircraft bombarded the town, causing death and destruction.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage describes bombardment but gives no date.",
+      "evidence": {
+        "passageId": "passage_4b3459f79b2f993c39f89a17",
+        "pageId": "page_nybc314251_0411",
+        "scanIndex": 411,
+        "leafNumber": 410,
+        "printedPage": null,
+        "passageCharStart": 348,
+        "passageCharEnd": 430,
+        "normalizedPassageCharStart": 348,
+        "normalizedPassageCharEnd": 430,
+        "pageCharStart": 2103,
+        "pageCharEnd": 2185,
+        "quote": "סאװיעטישע עראפלאנען זענען אנגעפלויגן\nאון געבראכט אויף דער שטאט טויט און צעשטערונג.",
+        "normalizedQuote": "סאװיעטישע עראפלאנען זענען אנגעפלויגן\nאון געבראכט אויף דער שטאט טויט און צעשטערונג.",
+        "modelQuote": "סאװיעטישע עראפלאנען זענען אנגעפלויגן און געבראכט אויף דער שטאט טויט און צעשטערונג.",
+        "bbox": {
+          "left": 979,
+          "top": 2033,
+          "right": 2889,
+          "bottom": 2241
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n410/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "e850f9ba5332942c198e092b728a79ba870f21795a09ad0dcd1f6bba6dd330a4",
+        "normalizedPassageChecksum": "cdee916597c373e113c646fc6a62fc936a1cf0d55401c482d30b4723a3c9f2aa",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_76b77ad7afb5285b64a700a9",
+      "type": "Event",
+      "title": "Soviet bombardment of the town",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_6c0246e5c98172864e7d6652",
+      "type": "Community",
+      "title": "Polish population",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d3e78d369f1920c963668cd3",
+      "type": "Place",
+      "title": "Kashtshal-Tumah",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

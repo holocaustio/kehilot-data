@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_e649a899c331bc5f5fd72464",
+  "type": "Event",
+  "title": "Assault on Aaron at the station",
+  "summary": "Polish soldiers surrounded and assaulted Aaron, pulling his beard and causing bleeding.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 153,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c2aa6b9cc89c78d1a1065c10",
+      "pageId": "page_nybc314251_0153",
+      "scanIndex": 153,
+      "leafNumber": 152,
+      "printedPage": null,
+      "passageCharStart": 750,
+      "passageCharEnd": 782,
+      "normalizedPassageCharStart": 750,
+      "normalizedPassageCharEnd": 782,
+      "pageCharStart": 1570,
+      "pageCharEnd": 1602,
+      "quote": "דער געלער\nאהרן שוין ארומגערינגלט",
+      "normalizedQuote": "דער געלער\nאהרן שוין ארומגערינגלט",
+      "modelQuote": "דער געלער אהרן שוין ארומגערינגלט",
+      "bbox": {
+        "left": 3115,
+        "top": 6015,
+        "right": 5021,
+        "bottom": 6231
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n152/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "e732d3206a0f5c6d2ab2477ec26b870c0d76c7018ff463b50ac4c2645993170f",
+      "normalizedPassageChecksum": "67cad6b88d68f9abb6ab4020963be23ef8817ed75d0e4e7f3b497488e055ddb6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_fc2326402683cfb9fb1a99b2",
+      "type": "Place",
+      "title": "Railway station",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_fb883dad28f839fb14f4f872",
+      "type": "Person",
+      "title": "Aaron",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_d5f05abc2d362718c4d35f0a",
+      "type": "Organization",
+      "title": "Polish soldiers",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

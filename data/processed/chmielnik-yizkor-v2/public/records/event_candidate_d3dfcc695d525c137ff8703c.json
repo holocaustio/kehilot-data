@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_d3dfcc695d525c137ff8703c",
+  "type": "Event",
+  "title": "Attempted crossing of the Russian border",
+  "summary": "The travelers reached the border and decided to cross after a soldier warned them they could not return.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 431,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5bd9a0a3727e4413d591f199",
+      "pageId": "page_nybc314251_0431",
+      "scanIndex": 431,
+      "leafNumber": 430,
+      "printedPage": null,
+      "passageCharStart": 868,
+      "passageCharEnd": 901,
+      "normalizedPassageCharStart": 868,
+      "normalizedPassageCharEnd": 901,
+      "pageCharStart": 2999,
+      "pageCharEnd": 3032,
+      "quote": "מיר האבן באשלאסן אריבער\nדי גרענעץ",
+      "normalizedQuote": "מיר האבן באשלאסן אריבער\nדי גרענעץ",
+      "modelQuote": "מיר האבן באשלאסן אריבער די גרענעץ",
+      "bbox": {
+        "left": 989,
+        "top": 4233,
+        "right": 2893,
+        "bottom": 4441
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n430/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "7f76c0ea61836048fc0fea89ed9a499938c24b4a5e5e8b15791c99a1fdf32cae",
+      "normalizedPassageChecksum": "8381eaddbd5decf23e67670aebeee4a56feb024e036f8ea638f6e4c5da54a4e4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a1b8cd842c2881e5ceabf35d",
+      "type": "Place",
+      "title": "Russian border",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ec4f184d0ba4f47f1d1bc74a",
+      "type": "Person",
+      "title": "Unnamed Ukrainian man",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_eef476fd553389c1025df2df",
+      "type": "Person",
+      "title": "Unnamed Russian soldier",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

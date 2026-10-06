@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_b9416edddc0e942b942feef6",
+  "type": "Event",
+  "title": "Death of a daughter and her family in Radom",
+  "summary": "An unnamed daughter, her husband, and children perished in Radom; the passage does not specify the cause.",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 517,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Death",
+  "uncertaintyNote": "The passage says they perished; it does not explicitly state how they died.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fc6232c5f89070634e221747",
+      "pageId": "page_nybc314251_0517",
+      "scanIndex": 517,
+      "leafNumber": 516,
+      "printedPage": null,
+      "passageCharStart": 51,
+      "passageCharEnd": 84,
+      "normalizedPassageCharStart": 51,
+      "normalizedPassageCharEnd": 84,
+      "pageCharStart": 1171,
+      "pageCharEnd": 1204,
+      "quote": "אומגעקומען מיט איר מאן און קינדער",
+      "normalizedQuote": "אומגעקומען מיט איר מאן און קינדער",
+      "modelQuote": "אומגעקומען מיט איר מאן און קינדער",
+      "bbox": {
+        "left": 1701,
+        "top": 4477,
+        "right": 2903,
+        "bottom": 4545
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n516/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "821178d2ddc791af380d5e7dad42d840dcb11a993fd4959fb5c0d28e621004df",
+      "normalizedPassageChecksum": "2f54698cfd42f04da439ae0247506937db2f04900d39e2bffd3782908f927fcb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f811304ea8b3f8c2607c1b2c",
+      "type": "Place",
+      "title": "Radom",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_0c2459873c29230d5255495e",
+      "type": "Person",
+      "title": "Unnamed daughter",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_022e0ba272d7a6bca88eeb12",
+      "type": "Person",
+      "title": "Unnamed husband",
+      "relation": "Participant",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_29b15ec7a8957cd8093f96c8",
+      "type": "Person",
+      "title": "Unnamed children",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

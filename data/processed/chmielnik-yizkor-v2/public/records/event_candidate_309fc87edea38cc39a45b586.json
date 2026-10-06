@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_309fc87edea38cc39a45b586",
+  "type": "Event",
+  "title": "Burial of victims in a mass grave",
+  "summary": "Narrator and others buried approximately 300 victims in a mass grave at the Jewish cemetery.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 355,
+  "printedPage": "710",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_649954ab824282859cdabddb",
+      "pageId": "page_nybc314251_0355",
+      "scanIndex": 355,
+      "leafNumber": 354,
+      "printedPage": "710",
+      "passageCharStart": 792,
+      "passageCharEnd": 827,
+      "normalizedPassageCharStart": 792,
+      "normalizedPassageCharEnd": 827,
+      "pageCharStart": 1883,
+      "pageCharEnd": 1918,
+      "quote": "300 יהודים הױ מונחים\nבקבר אחים גדול",
+      "normalizedQuote": "300 יהודים הױ מונחים\nבקבר אחים גדול",
+      "modelQuote": "300 יהודים הױ מונחים בקבר אחים גדול",
+      "bbox": {
+        "left": 3117,
+        "top": 5983,
+        "right": 5027,
+        "bottom": 6181
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n354/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "0bab4b6f1b234dc44a9e6f25d0527a7a9c92a37b81a9612574332bce1fe438b9",
+      "normalizedPassageChecksum": "64e4dd8e018fca37af767a89f38e87b267948a15a169f9815034fa2dd691f0b4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b6b1c7df579b5f3d197c9034",
+      "type": "Place",
+      "title": "Jewish cemetery",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_7ace703f911eec80d1a4a145",
+      "type": "Person",
+      "title": "Israel Segal",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_0a19b79ab1122d6e0bfc2042",
+      "type": "Community",
+      "title": "Chmielnik Jewish community",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

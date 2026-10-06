@@ -1,0 +1,99 @@
+{
+  "id": "mention_2f3ff05bb2cfb2c687bdac08",
+  "type": "Place",
+  "title": "Barn",
+  "summary": "People were carried into a barn after escaping through a hole.",
+  "originalName": "שטאל",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 417,
+  "printedPage": "833",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "barn",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7afe0d8c486621d3fc8afff2",
+      "pageId": "page_nybc314251_0417",
+      "scanIndex": 417,
+      "leafNumber": 416,
+      "printedPage": "833",
+      "passageCharStart": 240,
+      "passageCharEnd": 253,
+      "normalizedPassageCharStart": 240,
+      "normalizedPassageCharEnd": 253,
+      "pageCharStart": 3444,
+      "pageCharEnd": 3457,
+      "quote": "אין שטאל ארײן",
+      "normalizedQuote": "אין שטאל ארײן",
+      "modelQuote": "אין שטאל ארײן",
+      "bbox": {
+        "left": 2300,
+        "top": 5765,
+        "right": 2877,
+        "bottom": 5849
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n416/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "ef4915101dc5e8f36ea7a87899cde351cee82c148115aa56a23e62826ac7238c",
+      "normalizedPassageChecksum": "7af48313f8447adad27cf1d58b1407186034eb72b14b862b116fb310af7c858a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_931fa315a17a5bda1a369062",
+      "type": "Migration",
+      "title": "Escape from hiding place",
+      "summary": "Kashuba and her daughter pulled people through a hole and carried them to a barn.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_7afe0d8c486621d3fc8afff2",
+        "pageId": "page_nybc314251_0417",
+        "scanIndex": 417,
+        "leafNumber": 416,
+        "printedPage": "833",
+        "passageCharStart": 85,
+        "passageCharEnd": 138,
+        "normalizedPassageCharStart": 85,
+        "normalizedPassageCharEnd": 138,
+        "pageCharStart": 3289,
+        "pageCharEnd": 3342,
+        "quote": "זי\nמיט איר טאכטער האבן אונדז ארויםגעשלעפט פון דעם לאך",
+        "normalizedQuote": "זי\nמיט איר טאכטער האבן אונדז ארויםגעשלעפט פון דעם לאך",
+        "modelQuote": "זי מיט איר טאכטער האבן אונדז ארויםגעשלעפט פון דעם לאך",
+        "bbox": {
+          "left": 973,
+          "top": 5265,
+          "right": 2875,
+          "bottom": 5463
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n416/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "ef4915101dc5e8f36ea7a87899cde351cee82c148115aa56a23e62826ac7238c",
+        "normalizedPassageChecksum": "7af48313f8447adad27cf1d58b1407186034eb72b14b862b116fb310af7c858a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_931fa315a17a5bda1a369062",
+      "type": "Event",
+      "title": "Escape from hiding place",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_04c50e0fdd59bb2fdf21a661",
+      "type": "Person",
+      "title": "Kashuba's daughter",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

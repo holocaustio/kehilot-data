@@ -1,0 +1,106 @@
+{
+  "id": "mention_60b4b765ef5442bc0708277f",
+  "type": "Place",
+  "title": "Formanska Street",
+  "summary": "Street where Moshe Pasternak's Jewish house and shared kitchen were located.",
+  "originalName": "פורמאנםקא גאס",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 336,
+  "printedPage": "672",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "uncertaintyNote": "Street-name transliteration is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0b635aae4b420e9e687511df",
+      "pageId": "page_nybc314251_0336",
+      "scanIndex": 336,
+      "leafNumber": 335,
+      "printedPage": "672",
+      "passageCharStart": 274,
+      "passageCharEnd": 287,
+      "normalizedPassageCharStart": 274,
+      "normalizedPassageCharEnd": 287,
+      "pageCharStart": 3299,
+      "pageCharEnd": 3312,
+      "quote": "פורמאנםקא גאס",
+      "normalizedQuote": "פורמאנםקא גאס",
+      "modelQuote": "פורמאנםקא גאס",
+      "bbox": {
+        "left": 1510,
+        "top": 3455,
+        "right": 2047,
+        "bottom": 3523
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n335/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "51ac633f3c051580522905ca0728810072f5c89ae4077de52e4422deb8ccd5ec",
+      "normalizedPassageChecksum": "44f06c2137a6952583d058470f5807461a0f1a2a60b9317343f6cf4a89cdbf86",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2678f1f30d1829796110deb8",
+      "predicate": "Located In",
+      "subjectTitle": "Jewish House",
+      "objectTitle": "Formanska Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_0b635aae4b420e9e687511df",
+        "pageId": "page_nybc314251_0336",
+        "scanIndex": 336,
+        "leafNumber": 335,
+        "printedPage": "672",
+        "passageCharStart": 239,
+        "passageCharEnd": 287,
+        "normalizedPassageCharStart": 239,
+        "normalizedPassageCharEnd": 287,
+        "pageCharStart": 3264,
+        "pageCharEnd": 3312,
+        "quote": "״ױדן־הויז״\nפון משה פאסטערנאק׳ אויף פורמאנםקא גאס",
+        "normalizedQuote": "״ױדן־הויז״\nפון משה פאסטערנאק׳ אויף פורמאנםקא גאס",
+        "modelQuote": "״ױדן־הויז״\nפון משה פאסטערנאק׳ אויף פורמאנםקא גאס",
+        "bbox": {
+          "left": 991,
+          "top": 3315,
+          "right": 2897,
+          "bottom": 3535
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n335/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "51ac633f3c051580522905ca0728810072f5c89ae4077de52e4422deb8ccd5ec",
+        "normalizedPassageChecksum": "44f06c2137a6952583d058470f5807461a0f1a2a60b9317343f6cf4a89cdbf86",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_843694c2c0460802691709e3",
+      "type": "Institution",
+      "title": "Jewish House",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_8754d972b8e11a61c56421aa",
+      "type": "Person",
+      "title": "Moshe Pasternak",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_843694c2c0460802691709e3",
+      "type": "Institution",
+      "title": "Jewish House",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

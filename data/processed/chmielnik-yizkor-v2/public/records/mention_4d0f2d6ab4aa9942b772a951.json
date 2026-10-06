@@ -1,0 +1,114 @@
+{
+  "id": "mention_4d0f2d6ab4aa9942b772a951",
+  "type": "Person",
+  "title": "Nazi",
+  "summary": "A Nazi killed by Kaufman on deportation day.",
+  "originalName": "גאצי",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 532,
+  "printedPage": "1052",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "perpetrator",
+  "uncertaintyNote": "Unidentified individual.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ef2775c247922dc9c71c396c",
+      "pageId": "page_nybc314251_0532",
+      "scanIndex": 532,
+      "leafNumber": 531,
+      "printedPage": "1052",
+      "passageCharStart": 136,
+      "passageCharEnd": 142,
+      "normalizedPassageCharStart": 136,
+      "normalizedPassageCharEnd": 142,
+      "pageCharStart": 1880,
+      "pageCharEnd": 1886,
+      "quote": "א גאצי",
+      "normalizedQuote": "א גאצי",
+      "modelQuote": "א גאצי",
+      "bbox": {
+        "left": 1274,
+        "top": 5531,
+        "right": 1573,
+        "bottom": 5591
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n531/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "36a9703dd936797ce5f37014e04c3a8827bf42f55d02c1d6b9f3854dee1db142",
+      "normalizedPassageChecksum": "6a6f5c73239d8d46bfe152c30ed28c63d4b2ef0bc6ee108c75014e06081491ad",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_623c7a902a4ecd2784ef185a",
+      "type": "Deportation",
+      "title": "Deportation of Chmielnik Jews",
+      "summary": "The passage recounts deportation-day actions by Kaufman and Kanertzuker.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "No date or destination is provided.",
+      "evidence": {
+        "passageId": "passage_ef2775c247922dc9c71c396c",
+        "pageId": "page_nybc314251_0532",
+        "scanIndex": 532,
+        "leafNumber": 531,
+        "printedPage": "1052",
+        "passageCharStart": 102,
+        "passageCharEnd": 126,
+        "normalizedPassageCharStart": 102,
+        "normalizedPassageCharEnd": 126,
+        "pageCharStart": 1846,
+        "pageCharEnd": 1870,
+        "quote": "אינעם טאג פון דעפארטאציע",
+        "normalizedQuote": "אינעם טאג פון דעפארטאציע",
+        "modelQuote": "אינעם טאג פון דעפארטאציע",
+        "bbox": {
+          "left": 1952,
+          "top": 5529,
+          "right": 2931,
+          "bottom": 5597
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n531/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "36a9703dd936797ce5f37014e04c3a8827bf42f55d02c1d6b9f3854dee1db142",
+        "normalizedPassageChecksum": "6a6f5c73239d8d46bfe152c30ed28c63d4b2ef0bc6ee108c75014e06081491ad",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_623c7a902a4ecd2784ef185a",
+      "type": "Event",
+      "title": "Deportation of Chmielnik Jews",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_ba75e3ef784afd4e25768edc",
+      "type": "Person",
+      "title": "Kaufman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c83a90286e7a661719efe7e2",
+      "type": "Person",
+      "title": "Yissachar Kanertzuker",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a70c3b5c010800b60beb56fe",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

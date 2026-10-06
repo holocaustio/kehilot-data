@@ -1,0 +1,162 @@
+{
+  "id": "mention_e8a34fcf6ebc8f4e0f4589c3",
+  "type": "Person",
+  "title": "The narrator's grandmother",
+  "summary": "She announces she is going into the forest with her household.",
+  "originalName": "די באבע",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 403,
+  "printedPage": "806",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "grandmother",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cd24e7fe9780637f2e0d24ee",
+      "pageId": "page_nybc314251_0403",
+      "scanIndex": 403,
+      "leafNumber": 402,
+      "printedPage": "806",
+      "passageCharStart": 255,
+      "passageCharEnd": 274,
+      "normalizedPassageCharStart": 255,
+      "normalizedPassageCharEnd": 274,
+      "pageCharStart": 1250,
+      "pageCharEnd": 1269,
+      "quote": "די\nבאבע מעלדעט אונז",
+      "normalizedQuote": "די\nבאבע מעלדעט אונז",
+      "modelQuote": "די באבע מעלדעט אונז",
+      "bbox": {
+        "left": 3099,
+        "top": 4147,
+        "right": 5001,
+        "bottom": 4353
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n402/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "d2a2df87aa39877fc080b7d64002c0eaccfd2dc6e814837f5eb2c05e61ea6dbd",
+      "normalizedPassageChecksum": "986549dc15f119c3548d95af9ef60accac5f319f50961bafcf7328b397e76065",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_f07df0452345ed814e6d49fc",
+      "predicate": "Migrated To",
+      "subjectTitle": "The narrator's grandmother",
+      "objectTitle": "Forest",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cd24e7fe9780637f2e0d24ee",
+        "pageId": "page_nybc314251_0403",
+        "scanIndex": 403,
+        "leafNumber": 402,
+        "printedPage": "806",
+        "passageCharStart": 296,
+        "passageCharEnd": 334,
+        "normalizedPassageCharStart": 296,
+        "normalizedPassageCharEnd": 334,
+        "pageCharStart": 1291,
+        "pageCharEnd": 1329,
+        "quote": "זי גײט מיט\nאירע הויז־חױת אין װאלד ארײן",
+        "normalizedQuote": "זי גײט מיט\nאירע הויז־חױת אין װאלד ארײן",
+        "modelQuote": "זי גײט מיט אירע הויז־חױת אין װאלד ארײן",
+        "bbox": {
+          "left": 3099,
+          "top": 4277,
+          "right": 5003,
+          "bottom": 4479
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n402/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "d2a2df87aa39877fc080b7d64002c0eaccfd2dc6e814837f5eb2c05e61ea6dbd",
+        "normalizedPassageChecksum": "986549dc15f119c3548d95af9ef60accac5f319f50961bafcf7328b397e76065",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_e60de30631fa57f4b6912c19",
+      "type": "Migration",
+      "title": "Flight into the forest",
+      "summary": "The narrator and companions leave their dwelling and go into the forest as fighting approaches.",
+      "dateStart": "1944-08-03",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_cd24e7fe9780637f2e0d24ee",
+        "pageId": "page_nybc314251_0403",
+        "scanIndex": 403,
+        "leafNumber": 402,
+        "printedPage": "806",
+        "passageCharStart": 376,
+        "passageCharEnd": 389,
+        "normalizedPassageCharStart": 376,
+        "normalizedPassageCharEnd": 389,
+        "pageCharStart": 1371,
+        "pageCharEnd": 1384,
+        "quote": "מיר גײען אויך",
+        "normalizedQuote": "מיר גײען אויך",
+        "modelQuote": "מיר גײען אויך",
+        "bbox": {
+          "left": 3101,
+          "top": 4577,
+          "right": 3571,
+          "bottom": 4641
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n402/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "d2a2df87aa39877fc080b7d64002c0eaccfd2dc6e814837f5eb2c05e61ea6dbd",
+        "normalizedPassageChecksum": "986549dc15f119c3548d95af9ef60accac5f319f50961bafcf7328b397e76065",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_61b65e1d05bf1b01a57844d1",
+      "type": "Place",
+      "title": "Forest",
+      "relation": "Migrated To"
+    },
+    {
+      "id": "event_candidate_e60de30631fa57f4b6912c19",
+      "type": "Event",
+      "title": "Flight into the forest",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_eb1f38285d4c654a4661b167",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a70c3b5c010800b60beb56fe",
+      "type": "Organization",
+      "title": "Germans",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2cf92ce3828b9df23d573cd2",
+      "type": "Place",
+      "title": "Village",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_61b65e1d05bf1b01a57844d1",
+      "type": "Place",
+      "title": "Forest",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

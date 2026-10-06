@@ -1,0 +1,121 @@
+{
+  "id": "mention_85b3e1c539500a053277c688",
+  "type": "Institution",
+  "title": "Catholic church of Chmielnik",
+  "summary": "The Catholic church owned the plot on which the Jewish synagogue was built and leased it to the Jews.",
+  "originalName": "הכנםיה הקתולית",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 34,
+  "printedPage": "60",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Catholic church",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_a93185bb632799ef32779357",
+      "pageId": "page_nybc314251_0034",
+      "scanIndex": 34,
+      "leafNumber": 33,
+      "printedPage": "60",
+      "passageCharStart": 869,
+      "passageCharEnd": 888,
+      "normalizedPassageCharStart": 869,
+      "normalizedPassageCharEnd": 888,
+      "pageCharStart": 1603,
+      "pageCharEnd": 1622,
+      "quote": "מגרש הכנםיה\nהקתולית",
+      "normalizedQuote": "מגרש הכנםיה\nהקתולית",
+      "modelQuote": "מגרש הכנםיה הקתולית",
+      "bbox": {
+        "left": 3127,
+        "top": 5405,
+        "right": 5031,
+        "bottom": 5611
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n33/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "9ba2b9b0e379e773faa7a3460316f8eb98e8331afa2fbd34b455a814dc05c265",
+      "normalizedPassageChecksum": "6e3b918337725cdab592ae2f558b2cc739d946fc27c1c83f59c9fd7feea2a5fa",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_76abc6ab8dfeb95790f34a24",
+      "predicate": "Leased",
+      "subjectTitle": "Catholic church of Chmielnik",
+      "objectTitle": "Chmielnik synagogue",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says the church's plot was leased for the synagogue; ownership is inferred from the explicit possession of the plot.",
+      "qualifiers": {
+        "owned": "the synagogue plot"
+      },
+      "evidence": {
+        "passageId": "passage_a93185bb632799ef32779357",
+        "pageId": "page_nybc314251_0034",
+        "scanIndex": 34,
+        "leafNumber": 33,
+        "printedPage": "60",
+        "passageCharStart": 866,
+        "passageCharEnd": 888,
+        "normalizedPassageCharStart": 866,
+        "normalizedPassageCharEnd": 888,
+        "pageCharStart": 1600,
+        "pageCharEnd": 1622,
+        "quote": "על מגרש הכנםיה\nהקתולית",
+        "normalizedQuote": "על מגרש הכנםיה\nהקתולית",
+        "modelQuote": "על מגרש הכנםיה הקתולית",
+        "bbox": {
+          "left": 3127,
+          "top": 5393,
+          "right": 5031,
+          "bottom": 5611
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n33/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "9ba2b9b0e379e773faa7a3460316f8eb98e8331afa2fbd34b455a814dc05c265",
+        "normalizedPassageChecksum": "6e3b918337725cdab592ae2f558b2cc739d946fc27c1c83f59c9fd7feea2a5fa",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_6d0bb969ad50897474f54153",
+      "type": "Institution",
+      "title": "Chmielnik synagogue",
+      "relation": "Leased"
+    },
+    {
+      "id": "mention_0a19b79ab1122d6e0bfc2042",
+      "type": "Community",
+      "title": "Chmielnik Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_02f98ca5986dbc289f36c76b",
+      "type": "Place",
+      "title": "Chmielnik Jewish cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6d0bb969ad50897474f54153",
+      "type": "Institution",
+      "title": "Chmielnik synagogue",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7aa068caf08e577d1dfb3353",
+      "type": "Community",
+      "title": "Arians of Chmielnik",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

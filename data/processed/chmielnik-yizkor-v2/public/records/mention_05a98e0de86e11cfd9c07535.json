@@ -1,0 +1,144 @@
+{
+  "id": "mention_05a98e0de86e11cfd9c07535",
+  "type": "Organization",
+  "title": "Ukrainian and Polish police",
+  "summary": "Police forces named in the ghetto encirclement account.",
+  "originalName": "אוקראינער פוילישער םאליצײ",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 334,
+  "printedPage": "667",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police force",
+  "uncertaintyNote": "OCR spacing and the exact grouping of the police forces are unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e7f545fd21da8e3d2d32c940",
+      "pageId": "page_nybc314251_0334",
+      "scanIndex": 334,
+      "leafNumber": 333,
+      "printedPage": "667",
+      "passageCharStart": 202,
+      "passageCharEnd": 227,
+      "normalizedPassageCharStart": 202,
+      "normalizedPassageCharEnd": 227,
+      "pageCharStart": 1825,
+      "pageCharEnd": 1850,
+      "quote": "אוקראינער\nפוילישער םאליצײ",
+      "normalizedQuote": "אוקראינער\nפוילישער םאליצײ",
+      "modelQuote": "אוקראינער פוילישער םאליצײ",
+      "bbox": {
+        "left": 3137,
+        "top": 5781,
+        "right": 5025,
+        "bottom": 5985
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n333/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "a32734f48bb29642cfe604dff82f8cc0aaff97fd14d3eae21fe5042806453dff",
+      "normalizedPassageChecksum": "616fc3032e1d9aa90c6c5bcd434db8b8daab3008420633a86f92953010e0bc8e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_b21ff242b6f494c0ab2bcf47",
+      "type": "Aktion Or Raid",
+      "title": "Encirclement of the Chmielnik Ghetto",
+      "summary": "Gendarmerie and other forces surrounded the ghetto on October 5, 1942.",
+      "dateStart": "1942-10-05",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e7f545fd21da8e3d2d32c940",
+        "pageId": "page_nybc314251_0334",
+        "scanIndex": 334,
+        "leafNumber": 333,
+        "printedPage": "667",
+        "passageCharStart": 0,
+        "passageCharEnd": 16,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 16,
+        "pageCharStart": 1623,
+        "pageCharEnd": 1639,
+        "quote": "דעם 5־טן אקטאבער",
+        "normalizedQuote": "דעם 5־טן אקטאבער",
+        "modelQuote": "דעם 5־טן אקטאבער",
+        "bbox": {
+          "left": 4280,
+          "top": 5405,
+          "right": 4949,
+          "bottom": 5471
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n333/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "a32734f48bb29642cfe604dff82f8cc0aaff97fd14d3eae21fe5042806453dff",
+        "normalizedPassageChecksum": "616fc3032e1d9aa90c6c5bcd434db8b8daab3008420633a86f92953010e0bc8e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_b21ff242b6f494c0ab2bcf47",
+      "type": "Event",
+      "title": "Encirclement of the Chmielnik Ghetto",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_a34f3b9aa2e7d76d4dca53b8",
+      "type": "Place",
+      "title": "Chmielnik Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_11a9f585e702ba27b60cc408",
+      "type": "Organization",
+      "title": "Gendarmerie",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_366625e08a29a7efd9410f94",
+      "type": "Organization",
+      "title": "SS personnel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6ba4e3764f013da6334c5c2b",
+      "type": "Place",
+      "title": "Radom",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_63bd314dbc4139b4a86a2973",
+      "type": "Place",
+      "title": "Kielce",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0399ff8356d901fa165c41d8",
+      "type": "Place",
+      "title": "Busko",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_853e29d1ff7e7520c4797c09",
+      "type": "Place",
+      "title": "Livestock square (Targowisko)",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f54b0d8ec895bb84eaaef991",
+      "type": "Organization",
+      "title": "Firefighters",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,130 @@
+{
+  "id": "mention_72043048fdb34a1e65d83601",
+  "type": "Place",
+  "title": "Simferopol",
+  "summary": "City where Yendrek worked in a leather factory.",
+  "originalName": "סימפע•ראפאל",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 220,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "city",
+  "uncertaintyNote": "The city name is split by an OCR separator.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_c4380525d6518b6d220ce365",
+      "pageId": "page_nybc314251_0220",
+      "scanIndex": 220,
+      "leafNumber": 219,
+      "printedPage": null,
+      "passageCharStart": 192,
+      "passageCharEnd": 208,
+      "normalizedPassageCharStart": 192,
+      "normalizedPassageCharEnd": 208,
+      "pageCharStart": 2915,
+      "pageCharEnd": 2931,
+      "quote": "אין סימפע•\nראפאל",
+      "normalizedQuote": "אין סימפע•\nראפאל",
+      "modelQuote": "אין סימפע•\nראפאל",
+      "bbox": {
+        "left": 991,
+        "top": 4103,
+        "right": 2893,
+        "bottom": 4305
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n219/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "74b7748fb7f7bf3f8812e8b7828aa41f159c7334fc223b3ad9553b65b604ca10",
+      "normalizedPassageChecksum": "96561a8fdfd1816eeee8b655367961a7bafa0df3f147ece8cdd9503d57a0d07d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e9c402b3c182428330289b2d",
+      "type": "Employment",
+      "title": "Yendrek works in a leather factory",
+      "summary": "Yendrek worked as a machinist in a leather factory in Simferopol.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_c4380525d6518b6d220ce365",
+        "pageId": "page_nybc314251_0220",
+        "scanIndex": 220,
+        "leafNumber": 219,
+        "printedPage": null,
+        "passageCharStart": 152,
+        "passageCharEnd": 208,
+        "normalizedPassageCharStart": 152,
+        "normalizedPassageCharEnd": 208,
+        "pageCharStart": 2875,
+        "pageCharEnd": 2931,
+        "quote": "געארבעט אלס מאשיניםט אין א לעדער־פאבריק אין סימפע•\nראפאל",
+        "normalizedQuote": "געארבעט אלס מאשיניםט אין א לעדער־פאבריק אין סימפע•\nראפאל",
+        "modelQuote": "געארבעט אלס מאשיניםט אין א לעדער־פאבריק אין סימפע•\nראפאל",
+        "bbox": {
+          "left": 991,
+          "top": 4091,
+          "right": 2895,
+          "bottom": 4305
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n219/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "74b7748fb7f7bf3f8812e8b7828aa41f159c7334fc223b3ad9553b65b604ca10",
+        "normalizedPassageChecksum": "96561a8fdfd1816eeee8b655367961a7bafa0df3f147ece8cdd9503d57a0d07d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e9c402b3c182428330289b2d",
+      "type": "Event",
+      "title": "Yendrek works in a leather factory",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_7534d6c6f08c16768610cc54",
+      "type": "Person",
+      "title": "Yendrek",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fa5e6cd94441711dc85d4332",
+      "type": "Place",
+      "title": "Soviet-occupied territories",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a320babaead39743a3704a03",
+      "type": "Place",
+      "title": "Crimea",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_47d7c7a28543487739e6ee5d",
+      "type": "Business",
+      "title": "Leather factory",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b5d5693dcf598b5a685a1a80",
+      "type": "Place",
+      "title": "Jewish ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5244387f373b732f51eaae3c",
+      "type": "Organization",
+      "title": "Jewish partisan unit",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

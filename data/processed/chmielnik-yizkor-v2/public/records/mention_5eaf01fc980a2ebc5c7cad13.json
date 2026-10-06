@@ -1,0 +1,118 @@
+{
+  "id": "mention_5eaf01fc980a2ebc5c7cad13",
+  "type": "Place",
+  "title": "Villages around Lviv",
+  "summary": "Villages around Lviv where Eliezer-Lipa was the only one said not to kneel before the nobles.",
+  "originalName": "הכפרים שמםביב ללבוב",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 56,
+  "printedPage": "104",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "geographic area",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cc1ec1cc8bfc39035c8ab163",
+      "pageId": "page_nybc314251_0056",
+      "scanIndex": 56,
+      "leafNumber": 55,
+      "printedPage": "104",
+      "passageCharStart": 135,
+      "passageCharEnd": 154,
+      "normalizedPassageCharStart": 135,
+      "normalizedPassageCharEnd": 154,
+      "pageCharStart": 4337,
+      "pageCharEnd": 4356,
+      "quote": "הכפרים שמםביב ללבוב",
+      "normalizedQuote": "הכפרים שמםביב ללבוב",
+      "modelQuote": "הכפרים שמםביב ללבוב",
+      "bbox": {
+        "left": 997,
+        "top": 6481,
+        "right": 1731,
+        "bottom": 6549
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n55/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "55a25ddb02b63b3dc14729abe14e03d55df660279a5725ab3c977529b2ce92da",
+      "normalizedPassageChecksum": "ab229b5830ae3b9529d5564da8addd5fc2dd05daa2dd62b4459300f20d93b0d9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_6e76e48dbd99a69bba869429",
+      "predicate": "Did Not Bow Before",
+      "subjectTitle": "Eliezer-Lipa the tax farmer",
+      "objectTitle": "Villages around Lviv",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says he was the only one in the villages around Lviv not to kneel; it does not clearly establish residence.",
+      "evidence": {
+        "passageId": "passage_cc1ec1cc8bfc39035c8ab163",
+        "pageId": "page_nybc314251_0056",
+        "scanIndex": 56,
+        "leafNumber": 55,
+        "printedPage": "104",
+        "passageCharStart": 124,
+        "passageCharEnd": 154,
+        "normalizedPassageCharStart": 124,
+        "normalizedPassageCharEnd": 154,
+        "pageCharStart": 4326,
+        "pageCharEnd": 4356,
+        "quote": "היחידי בכל הכפרים שמםביב ללבוב",
+        "normalizedQuote": "היחידי בכל הכפרים שמםביב ללבוב",
+        "modelQuote": "היחידי בכל הכפרים שמםביב ללבוב",
+        "bbox": {
+          "left": 997,
+          "top": 6477,
+          "right": 2131,
+          "bottom": 6549
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n55/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "55a25ddb02b63b3dc14729abe14e03d55df660279a5725ab3c977529b2ce92da",
+        "normalizedPassageChecksum": "ab229b5830ae3b9529d5564da8addd5fc2dd05daa2dd62b4459300f20d93b0d9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_d30a42667944930315c58dca",
+      "type": "Person",
+      "title": "Eliezer-Lipa the tax farmer",
+      "relation": "Did Not Bow Before"
+    },
+    {
+      "id": "mention_d30a42667944930315c58dca",
+      "type": "Person",
+      "title": "Eliezer-Lipa the tax farmer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_de5445db883ebfae6b3b92a3",
+      "type": "Place",
+      "title": "Nearby village",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e241b67a5ea18aeb408a1e42",
+      "type": "Person",
+      "title": "Unnamed nobleman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1f65dbd4a5517c8245e450ef",
+      "type": "Person",
+      "title": "Unnamed noblewoman",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

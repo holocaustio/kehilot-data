@@ -1,0 +1,131 @@
+{
+  "id": "mention_54925c0e6347044bb42b2993",
+  "type": "Organization",
+  "title": "British police",
+  "summary": "Arrested the narrator after an Arab was shot and killed nearby.",
+  "originalName": "המשטרה הבריטית",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 485,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "police",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6b17e7f5c7102721850fb677",
+      "pageId": "page_nybc314251_0485",
+      "scanIndex": 485,
+      "leafNumber": 484,
+      "printedPage": null,
+      "passageCharStart": 627,
+      "passageCharEnd": 655,
+      "normalizedPassageCharStart": 627,
+      "normalizedPassageCharEnd": 655,
+      "pageCharStart": 1073,
+      "pageCharEnd": 1101,
+      "quote": "נאםרתי על ידי המשטרה\nהבריטית",
+      "normalizedQuote": "נאםרתי על ידי המשטרה\nהבריטית",
+      "modelQuote": "נאםרתי על ידי המשטרה הבריטית",
+      "bbox": {
+        "left": 3097,
+        "top": 5045,
+        "right": 5003,
+        "bottom": 5237
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n484/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "4ee77fc47193242960145c5c31b9a80a22ecf9935c9d56d11bdc737ca4a51d77",
+      "normalizedPassageChecksum": "36160692a2f8dbfa8e92bb47ba24341b00e08bd8dd444a7ab03754e990e9c8de",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_a718635ce4b6a1eb227defbf",
+      "type": "Arrest",
+      "title": "Narrator arrested by British police",
+      "summary": "The unnamed narrator says British police arrested him after an Arab was shot and killed near the orchards.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The narrator is not named in this passage; identifying him with Binyamin Shamhoni is unsupported.",
+      "evidence": {
+        "passageId": "passage_6b17e7f5c7102721850fb677",
+        "pageId": "page_nybc314251_0485",
+        "scanIndex": 485,
+        "leafNumber": 484,
+        "printedPage": null,
+        "passageCharStart": 597,
+        "passageCharEnd": 655,
+        "normalizedPassageCharStart": 597,
+        "normalizedPassageCharEnd": 655,
+        "pageCharStart": 1043,
+        "pageCharEnd": 1101,
+        "quote": "נורה ונהרג ערבי בסמוך לפרדסי, נאםרתי על ידי המשטרה\nהבריטית",
+        "normalizedQuote": "נורה ונהרג ערבי בסמוך לפרדסי, נאםרתי על ידי המשטרה\nהבריטית",
+        "modelQuote": "נורה ונהרג ערבי בסמוך לפרדסי, נאםרתי על ידי המשטרה הבריטית",
+        "bbox": {
+          "left": 3097,
+          "top": 5041,
+          "right": 5003,
+          "bottom": 5237
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n484/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "4ee77fc47193242960145c5c31b9a80a22ecf9935c9d56d11bdc737ca4a51d77",
+        "normalizedPassageChecksum": "36160692a2f8dbfa8e92bb47ba24341b00e08bd8dd444a7ab03754e990e9c8de",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_a718635ce4b6a1eb227defbf",
+      "type": "Event",
+      "title": "Narrator arrested by British police",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_518008c9d9b3fa7117ce2132",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3a0e4f9028a9d25b096f0abd",
+      "type": "Person",
+      "title": "Binyamin Shamhoni",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7696eaf9757d7003c68ca1af",
+      "type": "Place",
+      "title": "Petah Tikva",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_dcd6162802102016aaf5fdd6",
+      "type": "Place",
+      "title": "Jaffa prison",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_28704265a29fb3963968af20",
+      "type": "Institution",
+      "title": "Colony committee",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a28668a381aea8d78ae340d0",
+      "type": "Institution",
+      "title": "Security committee",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

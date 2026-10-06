@@ -1,0 +1,113 @@
+{
+  "id": "mention_8f1654ecaf8fa72fd67bb8c9",
+  "type": "Organization",
+  "title": "Polish hooligans",
+  "summary": "Group that attacked passengers on the Jewish train.",
+  "originalName": "פוילישע כוליגאנעם",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 343,
+  "printedPage": "685",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "group",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9fb472188b8bec9f2b7dd191",
+      "pageId": "page_nybc314251_0343",
+      "scanIndex": 343,
+      "leafNumber": 342,
+      "printedPage": "685",
+      "passageCharStart": 198,
+      "passageCharEnd": 215,
+      "normalizedPassageCharStart": 198,
+      "normalizedPassageCharEnd": 215,
+      "pageCharStart": 3078,
+      "pageCharEnd": 3095,
+      "quote": "פוילישע\nכוליגאנעם",
+      "normalizedQuote": "פוילישע\nכוליגאנעם",
+      "modelQuote": "פוילישע\nכוליגאנעם",
+      "bbox": {
+        "left": 975,
+        "top": 2671,
+        "right": 2881,
+        "bottom": 2869
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n342/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "4ee0012789d0b7bdf2b291926e6aed44b4bab6d7eabe35105ae24a8e0c2b69bc",
+      "normalizedPassageChecksum": "adf1da036c16c0977b0ff2f03a4bebca6e25ce19561991b098a5b944f5d26d3f",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_10426b11ec43a4db2fe0ca73",
+      "type": "Aktion Or Raid",
+      "title": "Attack on Jewish train passengers",
+      "summary": "Polish hooligans attacked and robbed Jewish train passengers at a route location.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The exact location sequence is unclear.",
+      "evidence": {
+        "passageId": "passage_9fb472188b8bec9f2b7dd191",
+        "pageId": "page_nybc314251_0343",
+        "scanIndex": 343,
+        "leafNumber": 342,
+        "printedPage": "685",
+        "passageCharStart": 179,
+        "passageCharEnd": 215,
+        "normalizedPassageCharStart": 179,
+        "normalizedPassageCharEnd": 215,
+        "pageCharStart": 3059,
+        "pageCharEnd": 3095,
+        "quote": "באפאלן געװארן דורד פוילישע\nכוליגאנעם",
+        "normalizedQuote": "באפאלן געװארן דורד פוילישע\nכוליגאנעם",
+        "modelQuote": "באפאלן געװארן דורד פוילישע\nכוליגאנעם",
+        "bbox": {
+          "left": 975,
+          "top": 2665,
+          "right": 2881,
+          "bottom": 2869
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n342/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "4ee0012789d0b7bdf2b291926e6aed44b4bab6d7eabe35105ae24a8e0c2b69bc",
+        "normalizedPassageChecksum": "adf1da036c16c0977b0ff2f03a4bebca6e25ce19561991b098a5b944f5d26d3f",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_10426b11ec43a4db2fe0ca73",
+      "type": "Event",
+      "title": "Attack on Jewish train passengers",
+      "relation": "Participated In",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_5323b0e5e55ba29e863b8c8c",
+      "type": "Place",
+      "title": "Raków",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_07d2581ec295b86a3867ac31",
+      "type": "Place",
+      "title": "Chmielnik railway station",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_12aab11a32c44c7b44867bb3",
+      "type": "Community",
+      "title": "Jewish train passengers",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

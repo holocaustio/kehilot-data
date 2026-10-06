@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_3efd13338854204b3d209da8",
+  "type": "Event",
+  "title": "Arrest and exile of Manie Ebers",
+  "summary": "Manie Ebers was arrested by the tsarist Okhrana, sentenced, and sent to Siberia.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 113,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Arrest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_358fdd0db80323b17e532c23",
+      "pageId": "page_nybc314251_0113",
+      "scanIndex": 113,
+      "leafNumber": 112,
+      "printedPage": null,
+      "passageCharStart": 981,
+      "passageCharEnd": 1022,
+      "normalizedPassageCharStart": 981,
+      "normalizedPassageCharEnd": 1022,
+      "pageCharStart": 1503,
+      "pageCharEnd": 1544,
+      "quote": "זי געװארן פארכאפט דורך דער\nצארישער אכראנע",
+      "normalizedQuote": "זי געװארן פארכאפט דורך דער\nצארישער אכראנע",
+      "modelQuote": "זי געװארן פארכאפט דורך דער צארישער אכראנע",
+      "bbox": {
+        "left": 3101,
+        "top": 5595,
+        "right": 5009,
+        "bottom": 5787
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n112/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "3e40296b989059d878afdd18851c532178a3b31683a18ad31d5c4b01dea03849",
+      "normalizedPassageChecksum": "c8d39d61b6b2456c1745c138ea37b114f594eaa055caad3d186557f49bfece9e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_30b3d1f797a64b722fd3f1df",
+      "type": "Place",
+      "title": "Siberia",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_01e7a53c6424c042272cea51",
+      "type": "Person",
+      "title": "Manie Ebers",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_ae1fcc5b41d134b947474473",
+      "type": "Organization",
+      "title": "Tsarist Okhrana",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

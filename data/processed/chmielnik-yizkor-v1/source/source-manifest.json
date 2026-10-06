@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "kehilot-yizkor-source-v2",
+  "pipelineVersion": "yizkor-pipeline-v2",
+  "ingestedAt": "2026-10-06T18:46:57.906Z",
+  "community": {
+    "id": "community_chmielnik",
+    "displayName": "chmielnik",
+    "canonicalName": "chmielnik",
+    "country": "Poland"
+  },
+  "book": {
+    "id": "book_nybc314251",
+    "communityId": "community_chmielnik",
+    "internetArchiveId": "nybc314251",
+    "title": "Pinḳes Khmielniḳ : yizker-bukh nokh der ḥorev-geṿorener Yidisher ḳehile",
+    "alternateTitle": null,
+    "authors": [
+      "03Shedletsḳi, Efrayim",
+      "03שדלצקי, אפרים"
+    ],
+    "publication": "Tel Aviv : Irgun yotseʾe Ḥmyelniḳ be-Yiśrẚel",
+    "language": "yi",
+    "pageProgression": "rl",
+    "sourceUrl": "https://archive.org/details/nybc314251",
+    "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+    "rightsStatus": "REVIEW_REQUIRED",
+    "attribution": "internet-archive",
+    "checksums": {
+      "metadata": "c62e63cf8df1653e506786ad6e95d9e9eba0614a700e7eeed9b1dfadd1e0c93a",
+      "djvuXml": "dcbb84aa94d626dbc87baf0210a030468d103e728fd8c91b1b9edada129e7486",
+      "scandataXml": "776a309d96248230ebf04d4faaae1815935965138a023770143da3d313f664d9",
+      "pdf": "b77af2fbaf328aaafcc42f337231812b65c79585c0c6092de72fd2242267f3db"
+    }
+  },
+  "chapters": [],
+  "counts": {
+    "pages": 664,
+    "pagesWithText": 651,
+    "passages": 2146,
+    "words": 324980,
+    "normalizationEdits": 315259,
+    "joinedFragments": 283468,
+    "softLineBreaks": 31791
+  },
+  "normalizationPolicy": {
+    "version": "ocr-layout-normalizer-v1",
+    "canonicalField": "text",
+    "derivedField": "normalizedText",
+    "reversible": true,
+    "changesCharacters": false,
+    "rules": [
+      "concatenate-djvu-word-runs",
+      "replace-soft-line-breaks"
+    ]
+  },
+  "passagePolicy": {
+    "pageBound": true,
+    "targetEstimatedTokens": 1100,
+    "maxEstimatedTokens": 1500,
+    "tokenEstimate": "hebrew_letters*1.15 + latin_letters/4 + digits/3 + punctuation/2"
+  }
+}

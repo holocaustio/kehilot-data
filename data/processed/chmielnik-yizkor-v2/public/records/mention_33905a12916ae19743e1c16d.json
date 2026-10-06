@@ -1,0 +1,143 @@
+{
+  "id": "mention_33905a12916ae19743e1c16d",
+  "type": "Community",
+  "title": "Jews of Paris",
+  "summary": "The passage refers to a deportation of Jews from Paris to Drancy.",
+  "originalName": "פאריזער ײדן",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 452,
+  "printedPage": "898",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Jewish community",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ddea1ce1fc9f83d761d41913",
+      "pageId": "page_nybc314251_0452",
+      "scanIndex": 452,
+      "leafNumber": 451,
+      "printedPage": "898",
+      "passageCharStart": 31,
+      "passageCharEnd": 42,
+      "normalizedPassageCharStart": 31,
+      "normalizedPassageCharEnd": 42,
+      "pageCharStart": 2828,
+      "pageCharEnd": 2839,
+      "quote": "פאריזער ײדן",
+      "normalizedQuote": "פאריזער ײדן",
+      "modelQuote": "פאריזער ײדן",
+      "bbox": {
+        "left": 1086,
+        "top": 6639,
+        "right": 1565,
+        "bottom": 6709
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n451/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "6716ad6be72722ed51219243764d990d1c83ddbc8df6e9109caf95e18e4801d2",
+      "normalizedPassageChecksum": "8261d93be77ca62ddabc6786ab552108706831542ff71cbd71696cad42806dda",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_3dd880038e32664c8f929fdf",
+      "predicate": "Deported To",
+      "subjectTitle": "Jews of Paris",
+      "objectTitle": "Drancy",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ddea1ce1fc9f83d761d41913",
+        "pageId": "page_nybc314251_0452",
+        "scanIndex": 452,
+        "leafNumber": 451,
+        "printedPage": "898",
+        "passageCharStart": 16,
+        "passageCharEnd": 53,
+        "normalizedPassageCharStart": 16,
+        "normalizedPassageCharEnd": 53,
+        "pageCharStart": 2813,
+        "pageCharEnd": 2850,
+        "quote": "דעפארטאציע פון פאריזער ײדן קײן\nדראנםי",
+        "normalizedQuote": "דעפארטאציע פון פאריזער ײדן קײן\nדראנםי",
+        "modelQuote": "דעפארטאציע פון פאריזער ײדן קײן דראנםי",
+        "bbox": {
+          "left": 977,
+          "top": 6637,
+          "right": 2881,
+          "bottom": 6823
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n451/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "6716ad6be72722ed51219243764d990d1c83ddbc8df6e9109caf95e18e4801d2",
+        "normalizedPassageChecksum": "8261d93be77ca62ddabc6786ab552108706831542ff71cbd71696cad42806dda",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_ef2baf00b13ab01d32b40c0a",
+      "type": "Deportation",
+      "title": "Deportation of Paris Jews to Drancy",
+      "summary": "A mass deportation of Paris Jews to Drancy is referenced; the narrator says he avoided it.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_ddea1ce1fc9f83d761d41913",
+        "pageId": "page_nybc314251_0452",
+        "scanIndex": 452,
+        "leafNumber": 451,
+        "printedPage": "898",
+        "passageCharStart": 16,
+        "passageCharEnd": 53,
+        "normalizedPassageCharStart": 16,
+        "normalizedPassageCharEnd": 53,
+        "pageCharStart": 2813,
+        "pageCharEnd": 2850,
+        "quote": "דעפארטאציע פון פאריזער ײדן קײן\nדראנםי",
+        "normalizedQuote": "דעפארטאציע פון פאריזער ײדן קײן\nדראנםי",
+        "modelQuote": "דעפארטאציע פון פאריזער ײדן קײן דראנםי",
+        "bbox": {
+          "left": 977,
+          "top": 6637,
+          "right": 2881,
+          "bottom": 6823
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n451/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "6716ad6be72722ed51219243764d990d1c83ddbc8df6e9109caf95e18e4801d2",
+        "normalizedPassageChecksum": "8261d93be77ca62ddabc6786ab552108706831542ff71cbd71696cad42806dda",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_a9d922987db29aff4cd8eec8",
+      "type": "Place",
+      "title": "Drancy",
+      "relation": "Deported To"
+    },
+    {
+      "id": "event_candidate_ef2baf00b13ab01d32b40c0a",
+      "type": "Event",
+      "title": "Deportation of Paris Jews to Drancy",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_a9d922987db29aff4cd8eec8",
+      "type": "Place",
+      "title": "Drancy",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

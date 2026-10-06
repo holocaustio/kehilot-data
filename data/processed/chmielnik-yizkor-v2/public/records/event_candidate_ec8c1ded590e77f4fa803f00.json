@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_ec8c1ded590e77f4fa803f00",
+  "type": "Event",
+  "title": "Narrator's family arrives in New York",
+  "summary": "The narrator's family arrived in New York in November 1926.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 101,
+  "printedPage": "193",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "dateStart": "1926-11",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2038cfd37a70070080d1efc1",
+      "pageId": "page_nybc314251_0101",
+      "scanIndex": 101,
+      "leafNumber": 100,
+      "printedPage": "193",
+      "passageCharStart": 1052,
+      "passageCharEnd": 1107,
+      "normalizedPassageCharStart": 1052,
+      "normalizedPassageCharEnd": 1107,
+      "pageCharStart": 2738,
+      "pageCharEnd": 2793,
+      "quote": "אין נאװעמבער 1926 איז\nמײן פאמיליע אגגעקומען קײן נױ־יארק",
+      "normalizedQuote": "אין נאװעמבער 1926 איז\nמײן פאמיליע אגגעקומען קײן נױ־יארק",
+      "modelQuote": "אין נאװעמבער 1926 איז מײן פאמיליע אגגעקומען קײן נױ־יארק",
+      "bbox": {
+        "left": 977,
+        "top": 2013,
+        "right": 2883,
+        "bottom": 2207
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n100/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "5dcf5df3a9cc61ec84d85585d260714541ec66752f6688de936d2991a90e87ec",
+      "normalizedPassageChecksum": "bc06577523f4fcbcd316b8d2276a9c2b34b9772c2fa976f54de85b8eebd9d36b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_ea8bdd657c6f92d43ed3bf11",
+      "type": "Place",
+      "title": "New York",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_3c19efe19e0841ee58f5af9d",
+      "type": "Family",
+      "title": "Narrator's family",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_8eb561c58b0499746b4fe77d",
+      "type": "Person",
+      "title": "Narrator's wife",
+      "relation": "Participant",
+      "role": "Spouse"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

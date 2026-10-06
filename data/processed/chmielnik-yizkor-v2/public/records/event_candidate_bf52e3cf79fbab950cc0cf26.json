@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_bf52e3cf79fbab950cc0cf26",
+  "type": "Event",
+  "title": "Burning of the book edition in Prague",
+  "summary": "Yekhezkel Landau bought the edition and burned it in Prague's public street.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 54,
+  "printedPage": "100",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Fire",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_713493aa6d7b4f2d5f827235",
+      "pageId": "page_nybc314251_0054",
+      "scanIndex": 54,
+      "leafNumber": 53,
+      "printedPage": "100",
+      "passageCharStart": 60,
+      "passageCharEnd": 100,
+      "normalizedPassageCharStart": 60,
+      "normalizedPassageCharEnd": 100,
+      "pageCharStart": 2382,
+      "pageCharEnd": 2422,
+      "quote": "וקנה את כל המהדורה ושרפה ברחוב העיר פראג",
+      "normalizedQuote": "וקנה את כל המהדורה ושרפה ברחוב העיר פראג",
+      "modelQuote": "וקנה את כל המהדורה ושרפה ברחוב העיר פראג",
+      "bbox": {
+        "left": 975,
+        "top": 1119,
+        "right": 2551,
+        "bottom": 1201
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n53/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "bfb90302c2468ed1e9d31e9a44a4b232ad8ecb488764d473276537c0af46f257",
+      "normalizedPassageChecksum": "c122c00f4834a6f26bafad420ee2c037419107a620bb6321f95adc8cf1a14bb8",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_2f0b566f3421048a47aa6215",
+      "type": "Place",
+      "title": "Prague",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5185b710326555b3d16887c6",
+      "type": "Person",
+      "title": "Yekhezkel Landau",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

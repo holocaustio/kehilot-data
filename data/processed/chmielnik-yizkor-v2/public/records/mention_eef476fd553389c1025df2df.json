@@ -1,0 +1,107 @@
+{
+  "id": "mention_eef476fd553389c1025df2df",
+  "type": "Person",
+  "title": "Unnamed Russian soldier",
+  "summary": "Guarded the border and ordered the travelers to stop.",
+  "originalName": "רוסישן םאלדאט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 431,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "individual",
+  "uncertaintyNote": "The soldier's name is not given.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5bd9a0a3727e4413d591f199",
+      "pageId": "page_nybc314251_0431",
+      "scanIndex": 431,
+      "leafNumber": 430,
+      "printedPage": null,
+      "passageCharStart": 478,
+      "passageCharEnd": 504,
+      "normalizedPassageCharStart": 478,
+      "normalizedPassageCharEnd": 504,
+      "pageCharStart": 2609,
+      "pageCharEnd": 2635,
+      "quote": "א רוסישן םאלדאט מיט א ביקס",
+      "normalizedQuote": "א רוסישן םאלדאט מיט א ביקס",
+      "modelQuote": "א רוסישן םאלדאט מיט א ביקס",
+      "bbox": {
+        "left": 1876,
+        "top": 3345,
+        "right": 2899,
+        "bottom": 3419
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n430/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "7f76c0ea61836048fc0fea89ed9a499938c24b4a5e5e8b15791c99a1fdf32cae",
+      "normalizedPassageChecksum": "8381eaddbd5decf23e67670aebeee4a56feb024e036f8ea638f6e4c5da54a4e4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d3dfcc695d525c137ff8703c",
+      "type": "Migration",
+      "title": "Attempted crossing of the Russian border",
+      "summary": "The travelers reached the border and decided to cross after a soldier warned them they could not return.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_5bd9a0a3727e4413d591f199",
+        "pageId": "page_nybc314251_0431",
+        "scanIndex": 431,
+        "leafNumber": 430,
+        "printedPage": null,
+        "passageCharStart": 868,
+        "passageCharEnd": 901,
+        "normalizedPassageCharStart": 868,
+        "normalizedPassageCharEnd": 901,
+        "pageCharStart": 2999,
+        "pageCharEnd": 3032,
+        "quote": "מיר האבן באשלאסן אריבער\nדי גרענעץ",
+        "normalizedQuote": "מיר האבן באשלאסן אריבער\nדי גרענעץ",
+        "modelQuote": "מיר האבן באשלאסן אריבער די גרענעץ",
+        "bbox": {
+          "left": 989,
+          "top": 4233,
+          "right": 2893,
+          "bottom": 4441
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n430/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "7f76c0ea61836048fc0fea89ed9a499938c24b4a5e5e8b15791c99a1fdf32cae",
+        "normalizedPassageChecksum": "8381eaddbd5decf23e67670aebeee4a56feb024e036f8ea638f6e4c5da54a4e4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d3dfcc695d525c137ff8703c",
+      "type": "Event",
+      "title": "Attempted crossing of the Russian border",
+      "relation": "Participated In",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_a1b8cd842c2881e5ceabf35d",
+      "type": "Place",
+      "title": "Russian border",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ec4f184d0ba4f47f1d1bc74a",
+      "type": "Person",
+      "title": "Unnamed Ukrainian man",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

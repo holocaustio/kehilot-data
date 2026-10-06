@@ -1,0 +1,118 @@
+{
+  "id": "mention_4e4183ebe5f6dff57d2e96b1",
+  "type": "Person",
+  "title": "Narrator’s mother",
+  "summary": "The narrator describes his mother as among his family members who were murdered.",
+  "originalName": "מאמע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 462,
+  "printedPage": "915",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "mother",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8733aca32d0eaf0cdf48e6f0",
+      "pageId": "page_nybc314251_0462",
+      "scanIndex": 462,
+      "leafNumber": 461,
+      "printedPage": "915",
+      "passageCharStart": 402,
+      "passageCharEnd": 424,
+      "normalizedPassageCharStart": 402,
+      "normalizedPassageCharEnd": 424,
+      "pageCharStart": 2873,
+      "pageCharEnd": 2895,
+      "quote": "מײן\nמײערע הארציקע מאמע",
+      "normalizedQuote": "מײן\nמײערע הארציקע מאמע",
+      "modelQuote": "מײן\nמײערע הארציקע מאמע",
+      "bbox": {
+        "left": 981,
+        "top": 1955,
+        "right": 2885,
+        "bottom": 2157
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n461/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "dc22b3eff64b3ae76c8e98b33975023ba9d5a133bc61684b079e045841384fe2",
+      "normalizedPassageChecksum": "f5b66fe32a0aee08842b1e90030a7917a628b1bddad1fe6ac62e173a8130ddb6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_d3132d5cb392684447b855c3",
+      "predicate": "Member Of Family",
+      "subjectTitle": "Narrator’s mother",
+      "objectTitle": "Narrator’s family",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_8733aca32d0eaf0cdf48e6f0",
+        "pageId": "page_nybc314251_0462",
+        "scanIndex": 462,
+        "leafNumber": 461,
+        "printedPage": "915",
+        "passageCharStart": 402,
+        "passageCharEnd": 424,
+        "normalizedPassageCharStart": 402,
+        "normalizedPassageCharEnd": 424,
+        "pageCharStart": 2873,
+        "pageCharEnd": 2895,
+        "quote": "מײן\nמײערע הארציקע מאמע",
+        "normalizedQuote": "מײן\nמײערע הארציקע מאמע",
+        "modelQuote": "מײן\nמײערע הארציקע מאמע",
+        "bbox": {
+          "left": 981,
+          "top": 1955,
+          "right": 2885,
+          "bottom": 2157
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n461/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "dc22b3eff64b3ae76c8e98b33975023ba9d5a133bc61684b079e045841384fe2",
+        "normalizedPassageChecksum": "f5b66fe32a0aee08842b1e90030a7917a628b1bddad1fe6ac62e173a8130ddb6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_171825e0973bfdbcd1741d2a",
+      "type": "Family",
+      "title": "Narrator’s family",
+      "relation": "Member Of Family"
+    },
+    {
+      "id": "event_candidate_4cb2e7c5298e259cdf7c4323",
+      "type": "Event",
+      "title": "Murder of the narrator’s loved ones",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_171825e0973bfdbcd1741d2a",
+      "type": "Family",
+      "title": "Narrator’s family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f19223e399e492b6748b0d25",
+      "type": "Person",
+      "title": "Narrator’s father",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1b067d3c9f6e3f643acc6d91",
+      "type": "Place",
+      "title": "Moshe Shiem’s house",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

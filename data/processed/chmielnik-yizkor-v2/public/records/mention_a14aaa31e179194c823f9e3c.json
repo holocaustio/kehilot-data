@@ -1,0 +1,120 @@
+{
+  "id": "mention_a14aaa31e179194c823f9e3c",
+  "type": "Place",
+  "title": "Summer colony",
+  "summary": "A summer colony about 30 kilometers from Chmielnik.",
+  "originalName": "קאלאניע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 220,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "summer colony",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d22001bd2a0126a16790137e",
+      "pageId": "page_nybc314251_0220",
+      "scanIndex": 220,
+      "leafNumber": 219,
+      "printedPage": null,
+      "passageCharStart": 655,
+      "passageCharEnd": 685,
+      "normalizedPassageCharStart": 655,
+      "normalizedPassageCharEnd": 685,
+      "pageCharStart": 1846,
+      "pageCharEnd": 1876,
+      "quote": "אין דער קאלאניע — 30 קילאמעטער",
+      "normalizedQuote": "אין דער קאלאניע — 30 קילאמעטער",
+      "modelQuote": "אין דער קאלאניע — 30 קילאמעטער",
+      "bbox": {
+        "left": 3109,
+        "top": 6697,
+        "right": 4309,
+        "bottom": 6785
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n219/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "4a3367246cca688b268d7fd328465cfc5d89bf5c2681f36517269f545dcc4e2d",
+      "normalizedPassageChecksum": "fdb7e63d9308c5315ab0e97ce2e28c15509f1530fcbcb9a5a0991d97cd2fe640",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_9ee6dfb21ddc041adba7ceff",
+      "predicate": "Near",
+      "subjectTitle": "Summer colony",
+      "objectTitle": "Chmielnik",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "distance": "30 kilometers"
+      },
+      "evidence": {
+        "passageId": "passage_d22001bd2a0126a16790137e",
+        "pageId": "page_nybc314251_0220",
+        "scanIndex": 220,
+        "leafNumber": 219,
+        "printedPage": null,
+        "passageCharStart": 655,
+        "passageCharEnd": 698,
+        "normalizedPassageCharStart": 655,
+        "normalizedPassageCharEnd": 698,
+        "pageCharStart": 1846,
+        "pageCharEnd": 1889,
+        "quote": "אין דער קאלאניע — 30 קילאמעטער\nפון כמיעלניק",
+        "normalizedQuote": "אין דער קאלאניע — 30 קילאמעטער\nפון כמיעלניק",
+        "modelQuote": "אין דער קאלאניע — 30 קילאמעטער פון כמיעלניק",
+        "bbox": {
+          "left": 3109,
+          "top": 6697,
+          "right": 5017,
+          "bottom": 6913
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n219/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "4a3367246cca688b268d7fd328465cfc5d89bf5c2681f36517269f545dcc4e2d",
+        "normalizedPassageChecksum": "fdb7e63d9308c5315ab0e97ce2e28c15509f1530fcbcb9a5a0991d97cd2fe640",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_93bd7d48b59a4b6ec016b271",
+      "type": "Organization",
+      "title": "Hashomer Hatzair",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7534d6c6f08c16768610cc54",
+      "type": "Person",
+      "title": "Yendrek",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_703b971f8de9f1a545bfa294",
+      "type": "Person",
+      "title": "Narrator",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

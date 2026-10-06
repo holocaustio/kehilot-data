@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_eb55c1583c486164da188891",
+  "type": "Event",
+  "title": "Planned departure from Chmielnik",
+  "summary": "The narrator planned to leave Chmielnik, pass through the cemetery, and continue to Kielce. Chmielnik is the departure place, not a participant.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 389,
+  "printedPage": "777",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The departure and route are planned; the OCR does not provide a date.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_60ff57be701dd2370e8ec209",
+      "pageId": "page_nybc314251_0389",
+      "scanIndex": 389,
+      "leafNumber": 388,
+      "printedPage": "777",
+      "passageCharStart": 632,
+      "passageCharEnd": 666,
+      "normalizedPassageCharStart": 632,
+      "normalizedPassageCharEnd": 666,
+      "pageCharStart": 4574,
+      "pageCharEnd": 4608,
+      "quote": "איך האב פלאנירט צו פארלאזן ד'\nשטאט",
+      "normalizedQuote": "איך האב פלאנירט צו פארלאזן ד'\nשטאט",
+      "modelQuote": "איך האב פלאנירט צו פארלאזן ד' שטאט",
+      "bbox": {
+        "left": 985,
+        "top": 6901,
+        "right": 2891,
+        "bottom": 7129
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n388/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "03bef773ebe095bf247eed545a6138e8938646eccf68fdbf3268c28033a2a22c",
+      "normalizedPassageChecksum": "851134d695765bb3eae1a9f4b20b0c7641826a51ab7b9ae712cb8333eaaa5b5e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

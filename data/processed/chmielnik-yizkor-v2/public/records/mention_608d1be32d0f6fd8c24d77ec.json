@@ -1,0 +1,119 @@
+{
+  "id": "mention_608d1be32d0f6fd8c24d77ec",
+  "type": "Place",
+  "title": "Irving Plaza",
+  "summary": "Venue for the January 1945 relief mass meeting.",
+  "originalName": "אוירװינג פלאזא",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 508,
+  "printedPage": "1015",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "venue",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_97221b4f1b1693999cd5e52d",
+      "pageId": "page_nybc314251_0508",
+      "scanIndex": 508,
+      "leafNumber": 507,
+      "printedPage": "1015",
+      "passageCharStart": 750,
+      "passageCharEnd": 768,
+      "normalizedPassageCharStart": 750,
+      "normalizedPassageCharEnd": 768,
+      "pageCharStart": 1586,
+      "pageCharEnd": 1604,
+      "quote": "אין אוירװינג\nפלאזא",
+      "normalizedQuote": "אין אוירװינג\nפלאזא",
+      "modelQuote": "אין אוירװינג\nפלאזא",
+      "bbox": {
+        "left": 3119,
+        "top": 5211,
+        "right": 5021,
+        "bottom": 5385
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n507/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "dbc1833693b0489992ae06f8b0027710052c19e5cd582ac60089f9a57e2d47b0",
+      "normalizedPassageChecksum": "5eeb62d8a71dbecd76fbd2363f42cd6958e4bbcf07d64544531f2752df60f932",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c5f8166499d0ea2df5243653",
+      "type": "Meeting",
+      "title": "Relief mass meeting",
+      "summary": "Mass meeting for relief work at Irving Plaza in January 1945.",
+      "dateStart": "1945-01",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The ordinal day is unclear in OCR, and the subsequent sentence gives another unclear ordinal.",
+      "evidence": {
+        "passageId": "passage_97221b4f1b1693999cd5e52d",
+        "pageId": "page_nybc314251_0508",
+        "scanIndex": 508,
+        "leafNumber": 507,
+        "printedPage": "1015",
+        "passageCharStart": 696,
+        "passageCharEnd": 768,
+        "normalizedPassageCharStart": 696,
+        "normalizedPassageCharEnd": 768,
+        "pageCharStart": 1532,
+        "pageCharEnd": 1604,
+        "quote": "מאסן־פארזאמלונג\nפאר הילפם־ארבעט דעם ד־טן יאנואר 1945, אין אוירװינג\nפלאזא",
+        "normalizedQuote": "מאסן־פארזאמלונג\nפאר הילפם־ארבעט דעם ד־טן יאנואר 1945, אין אוירװינג\nפלאזא",
+        "modelQuote": "מאסן־פארזאמלונג\nפאר הילפם־ארבעט דעם ד־טן יאנואר 1945, אין אוירװינג\nפלאזא",
+        "bbox": {
+          "left": 3117,
+          "top": 5069,
+          "right": 5023,
+          "bottom": 5385
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n507/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "dbc1833693b0489992ae06f8b0027710052c19e5cd582ac60089f9a57e2d47b0",
+        "normalizedPassageChecksum": "5eeb62d8a71dbecd76fbd2363f42cd6958e4bbcf07d64544531f2752df60f932",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c5f8166499d0ea2df5243653",
+      "type": "Event",
+      "title": "Relief mass meeting",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9ac92d7ff61ccc2e73a4a009",
+      "type": "Organization",
+      "title": "United Relief Organization for Chmielnik",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c7a0d2a2695f28a998352202",
+      "type": "Community",
+      "title": "Chmielnik landsmen in America",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fb3c6e35ed51999d5a8fd1ab",
+      "type": "Community",
+      "title": "Chmielnik landsmen in Toronto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_05a76e5aa7719f1e8fe8681f",
+      "type": "Place",
+      "title": "America",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

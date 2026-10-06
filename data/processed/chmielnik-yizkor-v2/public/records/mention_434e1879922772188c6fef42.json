@@ -1,0 +1,111 @@
+{
+  "id": "mention_434e1879922772188c6fef42",
+  "type": "Business",
+  "title": "Tebens",
+  "summary": "One of two large firms described as being liquidated.",
+  "originalName": "טעבענס",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 392,
+  "printedPage": "783",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Firm",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8ed105016fbe1a458827826f",
+      "pageId": "page_nybc314251_0392",
+      "scanIndex": 392,
+      "leafNumber": 391,
+      "printedPage": "783",
+      "passageCharStart": 223,
+      "passageCharEnd": 231,
+      "normalizedPassageCharStart": 223,
+      "normalizedPassageCharEnd": 231,
+      "pageCharStart": 3353,
+      "pageCharEnd": 3361,
+      "quote": "״טעבענס״",
+      "normalizedQuote": "״טעבענס״",
+      "modelQuote": "״טעבענס״",
+      "bbox": {
+        "left": 1574,
+        "top": 3561,
+        "right": 1943,
+        "bottom": 3623
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n391/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "e2405571be1bc92f50500316845cc46041b2631ed32c9a77c18b6fabe04c758c",
+      "normalizedPassageChecksum": "eab5fc4ca00ca6067b6597b8a9fdd41804bae4bc3592e223f89c80d5bad6314e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_394447077a9796337f8729d5",
+      "predicate": "Located In",
+      "subjectTitle": "Tebens",
+      "objectTitle": "Warsaw Ghetto",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_8ed105016fbe1a458827826f",
+        "pageId": "page_nybc314251_0392",
+        "scanIndex": 392,
+        "leafNumber": 391,
+        "printedPage": "783",
+        "passageCharStart": 185,
+        "passageCharEnd": 231,
+        "normalizedPassageCharStart": 185,
+        "normalizedPassageCharEnd": 231,
+        "pageCharStart": 3315,
+        "pageCharEnd": 3361,
+        "quote": "די לעצטע צװײ\nגרויסע פירמעם ״שולץ״ און ״טעבענס״",
+        "normalizedQuote": "די לעצטע צװײ\nגרויסע פירמעם ״שולץ״ און ״טעבענס״",
+        "modelQuote": "די לעצטע צװײ גרויסע פירמעם ״שולץ״ און ״טעבענס״",
+        "bbox": {
+          "left": 983,
+          "top": 3415,
+          "right": 2889,
+          "bottom": 3627
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n391/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "e2405571be1bc92f50500316845cc46041b2631ed32c9a77c18b6fabe04c758c",
+        "normalizedPassageChecksum": "eab5fc4ca00ca6067b6597b8a9fdd41804bae4bc3592e223f89c80d5bad6314e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_548196b57b65b1bd5a9ce79d",
+      "type": "Place",
+      "title": "Warsaw Ghetto",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_548196b57b65b1bd5a9ce79d",
+      "type": "Place",
+      "title": "Warsaw Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6c159bdffd63b824e899f0e6",
+      "type": "Business",
+      "title": "Schultz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a9887f0d7036593b00638598",
+      "type": "Person",
+      "title": "Mordechai Markovietsky",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

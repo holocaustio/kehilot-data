@@ -1,0 +1,121 @@
+{
+  "id": "mention_f8c8b370e8c21f13819823aa",
+  "type": "Institution",
+  "title": "Local Post Office",
+  "summary": "The post office where Rumiani reportedly worked as a letter carrier.",
+  "originalName": "לאקאלן פאסט־אמט",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 87,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "post office",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ec3e6915631c50a979ff2591",
+      "pageId": "page_nybc314251_0087",
+      "scanIndex": 87,
+      "leafNumber": 86,
+      "printedPage": null,
+      "passageCharStart": 367,
+      "passageCharEnd": 382,
+      "normalizedPassageCharStart": 367,
+      "normalizedPassageCharEnd": 382,
+      "pageCharStart": 2370,
+      "pageCharEnd": 2385,
+      "quote": "לאקאלן פאסט־אמט",
+      "normalizedQuote": "לאקאלן פאסט־אמט",
+      "modelQuote": "לאקאלן פאסט־אמט",
+      "bbox": {
+        "left": 1500,
+        "top": 2855,
+        "right": 2149,
+        "bottom": 2937
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n86/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "0bd8eb424f1fe96d7d05acb0ceb59ebe4cac3712664d5a49b7cf60a7ba37f862",
+      "normalizedPassageChecksum": "e52862859464974d8f15c9616c00f5c4414318a0107bf09b524fabdbec467621",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_32caae577732cac423a2aecc",
+      "predicate": "Worked At",
+      "subjectTitle": "Mordecai Rumiani",
+      "objectTitle": "Local Post Office",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "duration": "36 years",
+        "role": "letter carrier"
+      },
+      "evidence": {
+        "passageId": "passage_ec3e6915631c50a979ff2591",
+        "pageId": "page_nybc314251_0087",
+        "scanIndex": 87,
+        "leafNumber": 86,
+        "printedPage": null,
+        "passageCharStart": 327,
+        "passageCharEnd": 382,
+        "normalizedPassageCharStart": 327,
+        "normalizedPassageCharEnd": 382,
+        "pageCharStart": 2330,
+        "pageCharEnd": 2385,
+        "quote": "װעלכער ארבעט 36 יאר\nאלם ברױו־טרעגער פון לאקאלן פאסט־אמט",
+        "normalizedQuote": "װעלכער ארבעט 36 יאר\nאלם ברױו־טרעגער פון לאקאלן פאסט־אמט",
+        "modelQuote": "װעלכער ארבעט 36 יאר אלם ברױו־טרעגער פון לאקאלן פאסט־אמט",
+        "bbox": {
+          "left": 1011,
+          "top": 2729,
+          "right": 2917,
+          "bottom": 2937
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n86/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "0bd8eb424f1fe96d7d05acb0ceb59ebe4cac3712664d5a49b7cf60a7ba37f862",
+        "normalizedPassageChecksum": "e52862859464974d8f15c9616c00f5c4414318a0107bf09b524fabdbec467621",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_bd77f655029f5ec2c02f6ef6",
+      "type": "Person",
+      "title": "Mordecai Rumiani",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_8d12929f5a579fe5681311d1",
+      "type": "Person",
+      "title": "Mordecai Rumiani",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_5d34ecb055f95a85bd0196d0",
+      "type": "Institution",
+      "title": "Chmielnik Municipality",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a07861f8df93a470df35e1a1",
+      "type": "Person",
+      "title": "Wife of Mordecai Rumiani",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_33ae68e8658ffb73b2df721c",
+      "type": "Person",
+      "title": "Grandchild of Mordecai Rumiani",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,105 @@
+{
+  "id": "mention_9fd42cb15ace003f326452a1",
+  "type": "Place",
+  "title": "Town gate",
+  "summary": "Gate where the three Jewish men were hanged.",
+  "originalName": "טויער",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 138,
+  "printedPage": null,
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "gate",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_eecdfe37e8accce8ba86058f",
+      "pageId": "page_nybc314251_0138",
+      "scanIndex": 138,
+      "leafNumber": 137,
+      "printedPage": null,
+      "passageCharStart": 487,
+      "passageCharEnd": 501,
+      "normalizedPassageCharStart": 487,
+      "normalizedPassageCharEnd": 501,
+      "pageCharStart": 4056,
+      "pageCharEnd": 4070,
+      "quote": "אויף דעם טויער",
+      "normalizedQuote": "אויף דעם טויער",
+      "modelQuote": "אויף דעם טויער",
+      "bbox": {
+        "left": 1147,
+        "top": 6149,
+        "right": 1669,
+        "bottom": 6219
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n137/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "5c0b45376fd4f03d053e43eb1d71ff94f6dc0aae23da9793389cb623565626fc",
+      "normalizedPassageChecksum": "ed98da6b659cda69da0f35a344f8c7e942de0458ef9846ea1b042feff3d39ea0",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_6aa53d3077d9ac96be5cb459",
+      "predicate": "Hanged At",
+      "subjectTitle": "Three Jewish men",
+      "objectTitle": "Town gate",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_eecdfe37e8accce8ba86058f",
+        "pageId": "page_nybc314251_0138",
+        "scanIndex": 138,
+        "leafNumber": 137,
+        "printedPage": null,
+        "passageCharStart": 487,
+        "passageCharEnd": 501,
+        "normalizedPassageCharStart": 487,
+        "normalizedPassageCharEnd": 501,
+        "pageCharStart": 4056,
+        "pageCharEnd": 4070,
+        "quote": "אויף דעם טויער",
+        "normalizedQuote": "אויף דעם טויער",
+        "modelQuote": "אויף דעם טויער",
+        "bbox": {
+          "left": 1147,
+          "top": 6149,
+          "right": 1669,
+          "bottom": 6219
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n137/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "5c0b45376fd4f03d053e43eb1d71ff94f6dc0aae23da9793389cb623565626fc",
+        "normalizedPassageChecksum": "ed98da6b659cda69da0f35a344f8c7e942de0458ef9846ea1b042feff3d39ea0",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b6acd08d4575592001bc6b63",
+      "type": "Person",
+      "title": "Three Jewish men",
+      "relation": "Hanged At"
+    },
+    {
+      "id": "mention_0d4afcae88e371d052f26c6b",
+      "type": "Community",
+      "title": "Jews of the town",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

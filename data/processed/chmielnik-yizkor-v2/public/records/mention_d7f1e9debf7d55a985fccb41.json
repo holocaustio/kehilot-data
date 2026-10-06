@@ -1,0 +1,111 @@
+{
+  "id": "mention_d7f1e9debf7d55a985fccb41",
+  "type": "Place",
+  "title": "Schoolyard",
+  "summary": "The old cemetery bordered the schoolyard.",
+  "originalName": "שולהויף",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 103,
+  "printedPage": "198",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "schoolyard",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f6aadcbacdb6a59f5c9848db",
+      "pageId": "page_nybc314251_0103",
+      "scanIndex": 103,
+      "leafNumber": 102,
+      "printedPage": "198",
+      "passageCharStart": 441,
+      "passageCharEnd": 453,
+      "normalizedPassageCharStart": 441,
+      "normalizedPassageCharEnd": 453,
+      "pageCharStart": 1918,
+      "pageCharEnd": 1930,
+      "quote": "מיטן שולהויף",
+      "normalizedQuote": "מיטן שולהויף",
+      "modelQuote": "מיטן שולהויף",
+      "bbox": {
+        "left": 1080,
+        "top": 2503,
+        "right": 1589,
+        "bottom": 2581
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n102/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "545dbe381ed255264bc80ad943a2130b0e73d37918d4d746c18709be0b1b7618",
+      "normalizedPassageChecksum": "cde044c71d95ca0a74cf9fa37e3c72b477dd07f08c2c8217fdb3e07dc465fb85",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_30966f8751f7ac657324f9b7",
+      "predicate": "Near",
+      "subjectTitle": "Fruit tree at the old cemetery",
+      "objectTitle": "Schoolyard",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_bf713ec3afb96e4722b4d432",
+        "pageId": "page_nybc314251_0103",
+        "scanIndex": 103,
+        "leafNumber": 102,
+        "printedPage": "198",
+        "passageCharStart": 243,
+        "passageCharEnd": 284,
+        "normalizedPassageCharStart": 243,
+        "normalizedPassageCharEnd": 284,
+        "pageCharStart": 2486,
+        "pageCharEnd": 2527,
+        "quote": "בוים איז געשטאנען זײער נאענט צום שול־הויף",
+        "normalizedQuote": "בוים איז געשטאנען זײער נאענט צום שול־הויף",
+        "modelQuote": "בוים איז געשטאנען זײער נאענט צום שול־הויף",
+        "bbox": {
+          "left": 1346,
+          "top": 4061,
+          "right": 2903,
+          "bottom": 4139
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n102/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "c078f11daeacb2c4fb5c75fedf63746415d1f4f1f3a209182f041c7f130a453e",
+        "normalizedPassageChecksum": "8cca7ec17bb009bda6779e820c418461711b82505a741bb309c537cc868063e8",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_f06f2fd4c86ee806ab7b8333",
+      "type": "Place",
+      "title": "Fruit tree at the old cemetery",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_1c727a8b49b5995f0e19aa05",
+      "type": "Place",
+      "title": "Old Cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c2b95f07b456a4c701783179",
+      "type": "Place",
+      "title": "New Cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

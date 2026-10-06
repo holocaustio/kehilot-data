@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_a209c4b26db34a9754f4a405",
+  "type": "Event",
+  "title": "Deputy’s public speech",
+  "summary": "A Polish Sejm deputy was announced as scheduled to give a speech at the square by the church on Sunday at noon; the passage does not establish that the speech occurred.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 155,
+  "printedPage": "301",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Announcement",
+  "uncertaintyNote": "The passage announces a planned speech; it does not establish that it occurred. Event type has no public-speech option.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3e66c7d0fb172a4c2e982639",
+      "pageId": "page_nybc314251_0155",
+      "scanIndex": 155,
+      "leafNumber": 154,
+      "printedPage": "301",
+      "passageCharStart": 139,
+      "passageCharEnd": 188,
+      "normalizedPassageCharStart": 139,
+      "normalizedPassageCharEnd": 188,
+      "pageCharStart": 1276,
+      "pageCharEnd": 1325,
+      "quote": "קומט אין שטאט,\nװעט האלטן א רעדע זונטיק 12 א זײגער",
+      "normalizedQuote": "קומט אין שטאט,\nװעט האלטן א רעדע זונטיק 12 א זײגער",
+      "modelQuote": "קומט אין שטאט, װעט האלטן א רעדע זונטיק 12 א זײגער",
+      "bbox": {
+        "left": 3127,
+        "top": 4621,
+        "right": 5031,
+        "bottom": 4811
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n154/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "9e34411da55d46cdce36123c92a01dc3ebe8e5edd0348a3d8d244889975a33e2",
+      "normalizedPassageChecksum": "e2e2d2875f40f83abb45937bda33f53c50772bc076b9a88bfac1d1c38358aaac",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_08be2f847592dedee97cc507",
+      "type": "Place",
+      "title": "The square by the church",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70bddd5c8e62ba41c2bcb63a",
+      "type": "Person",
+      "title": "Monteris",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

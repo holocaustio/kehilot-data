@@ -1,0 +1,100 @@
+{
+  "id": "mention_4164152fde5eb8dbc8e5088b",
+  "type": "Place",
+  "title": "Hall",
+  "summary": "The hall from which Rabbi Lipa left.",
+  "originalName": "האולם",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 61,
+  "printedPage": "112",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Hall",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3a3ff0392b23c42abe679fae",
+      "pageId": "page_nybc314251_0061",
+      "scanIndex": 61,
+      "leafNumber": 60,
+      "printedPage": "112",
+      "passageCharStart": 619,
+      "passageCharEnd": 632,
+      "normalizedPassageCharStart": 619,
+      "normalizedPassageCharEnd": 632,
+      "pageCharStart": 619,
+      "pageCharEnd": 632,
+      "quote": "ויצא\nמן האולם",
+      "normalizedQuote": "ויצא\nמן האולם",
+      "modelQuote": "ויצא מן האולם",
+      "bbox": {
+        "left": 3123,
+        "top": 2483,
+        "right": 5033,
+        "bottom": 2665
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n60/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "0587684a09e1e4536e11d46ac5ef57417fe7d2a67700cbd95c4de980405c9ee7",
+      "normalizedPassageChecksum": "0f1059af947bda62dbfa52cab27a154482eaa5ff1525161b279dc1ab7907ee28",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3ee1a3812fae9af6c631e25b",
+      "type": "Migration",
+      "title": "Rabbi Lipa leaves the hall",
+      "summary": "Rabbi Lipa left the hall after taking offense at an allusion.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The departure is not an event type directly represented by the allowed event categories.",
+      "evidence": {
+        "passageId": "passage_3a3ff0392b23c42abe679fae",
+        "pageId": "page_nybc314251_0061",
+        "scanIndex": 61,
+        "leafNumber": 60,
+        "printedPage": "112",
+        "passageCharStart": 591,
+        "passageCharEnd": 633,
+        "normalizedPassageCharStart": 591,
+        "normalizedPassageCharEnd": 633,
+        "pageCharStart": 591,
+        "pageCharEnd": 633,
+        "quote": "רבי ליפא שהבין את הרמז נעלב ויצא\nמן האולם.",
+        "normalizedQuote": "רבי ליפא שהבין את הרמז נעלב ויצא\nמן האולם.",
+        "modelQuote": "רבי ליפא שהבין את הרמז נעלב ויצא מן האולם.",
+        "bbox": {
+          "left": 3123,
+          "top": 2469,
+          "right": 5033,
+          "bottom": 2665
+        },
+        "scanUrl": "https://archive.org/details/nybc314251/page/n60/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+        "passageChecksum": "0587684a09e1e4536e11d46ac5ef57417fe7d2a67700cbd95c4de980405c9ee7",
+        "normalizedPassageChecksum": "0f1059af947bda62dbfa52cab27a154482eaa5ff1525161b279dc1ab7907ee28",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3ee1a3812fae9af6c631e25b",
+      "type": "Event",
+      "title": "Rabbi Lipa leaves the hall",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c823ca6a7cc2d0573f55b76d",
+      "type": "Person",
+      "title": "Rabbi Lipa",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

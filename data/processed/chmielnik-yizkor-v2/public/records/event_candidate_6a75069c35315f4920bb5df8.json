@@ -1,0 +1,65 @@
+{
+  "id": "event_candidate_6a75069c35315f4920bb5df8",
+  "type": "Event",
+  "title": "Murder of Sara Lisper",
+  "summary": "Sara Lisper was murdered in Skarżysko in 1943.",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 316,
+  "printedPage": null,
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The surname is OCR-unclear.",
+  "dateStart": "1943",
+  "dateEnd": "1943",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_7977efafba810fcb1a111949",
+      "pageId": "page_nybc314251_0316",
+      "scanIndex": 316,
+      "leafNumber": 315,
+      "printedPage": null,
+      "passageCharStart": 579,
+      "passageCharEnd": 605,
+      "normalizedPassageCharStart": 579,
+      "normalizedPassageCharEnd": 605,
+      "pageCharStart": 3267,
+      "pageCharEnd": 3293,
+      "quote": "נרצחה בשנת 1943 בסקרז׳יסקו",
+      "normalizedQuote": "נרצחה בשנת 1943 בסקרז׳יסקו",
+      "modelQuote": "נרצחה בשנת 1943 בסקרז׳יסקו",
+      "bbox": {
+        "left": 2051,
+        "top": 7005,
+        "right": 2885,
+        "bottom": 7067
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n315/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "a657ae10bef36928b134fdceb1a67c355184b556d5614225d54a466b982cffae",
+      "normalizedPassageChecksum": "7dffd0febbbcb790f751fc3789500dccb8ad68b5553da07fde6a5097264370ec",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_190a0baf5ac6b43aaf2eff9c",
+      "type": "Place",
+      "title": "Skarżysko",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c2b9a291e1ea8f2a9b373cf9",
+      "type": "Person",
+      "title": "Sara Lisper",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

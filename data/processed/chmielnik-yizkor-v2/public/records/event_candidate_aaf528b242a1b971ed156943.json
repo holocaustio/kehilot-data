@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_aaf528b242a1b971ed156943",
+  "type": "Event",
+  "title": "Nazi entry into Chmielnik",
+  "summary": "The Nazis entered Chmielnik on September 5, 1939.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 279,
+  "printedPage": "549",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Aktion Or Raid",
+  "uncertaintyNote": "The town name in the event quote is OCR-corrupted.",
+  "dateStart": "1939-09-05",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_edb67a3cac6390a23b221c43",
+      "pageId": "page_nybc314251_0279",
+      "scanIndex": 279,
+      "leafNumber": 278,
+      "printedPage": "549",
+      "passageCharStart": 79,
+      "passageCharEnd": 111,
+      "normalizedPassageCharStart": 79,
+      "normalizedPassageCharEnd": 111,
+      "pageCharStart": 3187,
+      "pageCharEnd": 3219,
+      "quote": "די נאצים זענען ארײן קײן\nבמיעלגיק",
+      "normalizedQuote": "די נאצים זענען ארײן קײן\nבמיעלגיק",
+      "modelQuote": "די נאצים זענען ארײן קײן במיעלגיק",
+      "bbox": {
+        "left": 973,
+        "top": 4715,
+        "right": 2885,
+        "bottom": 4933
+      },
+      "scanUrl": "https://archive.org/details/nybc314251/page/n278/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc314251/nybc314251.pdf",
+      "passageChecksum": "dc7b3fad1767921f9e69ac9a62c5adfc59354dbf58242657691df8a4727347c9",
+      "normalizedPassageChecksum": "0e1f49528b8aaf01f4afc9b21732cea70581d1ab20b36b97f959f055398db7cb",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_87b66a3f8b1c367f8a792fd9",
+      "type": "Place",
+      "title": "Chmielnik",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_016c6aecb635ef801d2b3a31",
+      "type": "Organization",
+      "title": "Nazis",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}
