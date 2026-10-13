@@ -1,0 +1,77 @@
+{
+  "id": "event_candidate_dc6fcd6f25d75d8d551ef570",
+  "type": "Event",
+  "title": "Fundraising campaign",
+  "summary": "A campaign collected fifteen thousand dollars in the city.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 317,
+  "printedPage": "313",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "uncertaintyNote": "No allowed event type directly represents a fundraising campaign; this event is not a business opening.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_01ac26b9f4d8ea30225cb6ea",
+      "pageId": "page_nybc313684_0317",
+      "scanIndex": 317,
+      "leafNumber": 316,
+      "printedPage": "313",
+      "passageCharStart": 895,
+      "passageCharEnd": 942,
+      "normalizedPassageCharStart": 895,
+      "normalizedPassageCharEnd": 942,
+      "pageCharStart": 3088,
+      "pageCharEnd": 3135,
+      "quote": "בעי ר נאס ף א ז סכו ם ש ל חמיש ה עש ר אל ף דולר",
+      "normalizedQuote": "בעי ר נאס ף א ז סכו ם ש ל חמיש ה עש ר אל ף דולר",
+      "modelQuote": "בעיר נאסף אז סכום של חמישה עשר אלף דולר",
+      "bbox": {
+        "left": 469,
+        "top": 2975,
+        "right": 2135,
+        "bottom": 3061
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n316/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "0eaf2892071828226bf72c795a6aa26fe3c55c6b8cef0c8ee7cdb7e47ce35cfb",
+      "normalizedPassageChecksum": "92d72e8bd265d0fab80a4113113fb80f09892cbc121f48833fab6e15b9e87f14",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_92bff1e8e93443a685708da4",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9a582448c9c56cf2ba08ad8f",
+      "type": "Person",
+      "title": "Shimon Furstenberg",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_fe6a205246022e75bb438e2b",
+      "type": "Person",
+      "title": "Shimshon David Yerushalmi",
+      "relation": "Participant",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_9cb820deb045c48be81fe151",
+      "type": "Person",
+      "title": "Yaakov Gurali",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

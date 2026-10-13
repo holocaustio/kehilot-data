@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_b5ad1710de2b19b6739f7d6e",
+  "type": "Event",
+  "title": "Shlomo Yitzhak killed at Auschwitz",
+  "summary": "Shlomo Yitzhak and his family were killed in Auschwitz during the destruction of Będzin's Jewish community.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 337,
+  "printedPage": "333",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9d4ab0b229e8e19e25eff802",
+      "pageId": "page_nybc313684_0337",
+      "scanIndex": 337,
+      "leafNumber": 336,
+      "printedPage": "333",
+      "passageCharStart": 578,
+      "passageCharEnd": 631,
+      "normalizedPassageCharStart": 578,
+      "normalizedPassageCharEnd": 631,
+      "pageCharStart": 3081,
+      "pageCharEnd": 3134,
+      "quote": "יח ד ע ם בנ י משפחת ו על ה ע ל המוק ד בכבשנ י אושוויץ",
+      "normalizedQuote": "יח ד ע ם בנ י משפחת ו על ה ע ל המוק ד בכבשנ י אושוויץ",
+      "modelQuote": "יחד עם בני משפחתו עלה על המוקד בכבשני אושוויץ",
+      "bbox": {
+        "left": 456,
+        "top": 2793,
+        "right": 2218,
+        "bottom": 2877
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n336/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "4423c2e655c0189191c0c529f8f676fffa7887411fce28ba17ba142aea4314c3",
+      "normalizedPassageChecksum": "c43119f9833e23490af4728b862c2499ab483ae121faff15715ca5e3d82523a6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9dc745fe1155d6effdf2f189",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_490fcde3169ec8aaae9ae58d",
+      "type": "Person",
+      "title": "Shlomo Yitzhak",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_6b1f16e83f3820196aa34b5d",
+  "type": "Event",
+  "title": "Deportation of unnamed man and family to Auschwitz",
+  "summary": "He was deported with his family to Auschwitz on August 1, 1943, and died there that day.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 338,
+  "printedPage": "334",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "dateStart": "1943-08-01",
+  "dateEnd": "1943-08-01",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_285f3cabfb17954992ea4caf",
+      "pageId": "page_nybc313684_0338",
+      "scanIndex": 338,
+      "leafNumber": 337,
+      "printedPage": "334",
+      "passageCharStart": 161,
+      "passageCharEnd": 209,
+      "normalizedPassageCharStart": 161,
+      "normalizedPassageCharEnd": 209,
+      "pageCharStart": 2692,
+      "pageCharEnd": 2740,
+      "quote": "ב־ 1 באוגוס ט 1943 גור ש ע ם\nכל משפחת ו לאושוויץ",
+      "normalizedQuote": "ב־ 1 באוגוס ט 1943 גור ש ע ם\nכל משפחת ו לאושוויץ",
+      "modelQuote": "ב־1 באוגוסט1943 גורש עם כל משפחתו לאושוויץ",
+      "bbox": {
+        "left": 255,
+        "top": 2388,
+        "right": 2343,
+        "bottom": 2560
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n337/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "bf55a65104f54e774b17443512af5a5db694a499ba5515c9c76c9fdf2be283da",
+      "normalizedPassageChecksum": "1b8bbb22c709f9fa388223860414239596e861d69ae74fa51dd0cec9dca1fb96",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9dc745fe1155d6effdf2f189",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c8ef719b9a74a4f308023d99",
+      "type": "Person",
+      "title": "Unnamed man",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

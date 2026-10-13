@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_a1d88cc82aea90606fe790fd",
+  "type": "Event",
+  "title": "Death of Moshele Sandishev",
+  "summary": "Sandishev died when the vehicle he was traveling in overturned on the way to the Herzliya police station.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 381,
+  "printedPage": "377",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_bc984c690a29ec8991dfb523",
+      "pageId": "page_nybc313684_0381",
+      "scanIndex": 381,
+      "leafNumber": 380,
+      "printedPage": "377",
+      "passageCharStart": 500,
+      "passageCharEnd": 540,
+      "normalizedPassageCharStart": 500,
+      "normalizedPassageCharEnd": 540,
+      "pageCharStart": 4324,
+      "pageCharEnd": 4364,
+      "quote": "המכונ ה ב ה נס ע נהפכ ה\nוהוא נהר ג במקום",
+      "normalizedQuote": "המכונ ה ב ה נס ע נהפכ ה\nוהוא נהר ג במקום",
+      "modelQuote": "המכונה בה נסע נהפכה והוא נהרג במקום",
+      "bbox": {
+        "left": 246,
+        "top": 5777,
+        "right": 2286,
+        "bottom": 5949
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n380/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "82a633718a081c9017c8834705dc62e3c8a7f6be31ab05f37744bb299a6dd21e",
+      "normalizedPassageChecksum": "3a97b63717c14497deb1c58ce7088ae93585ab48c5182ad5fbebc0a3aded5bc7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_7366788925960b69986b9cf2",
+      "type": "Institution",
+      "title": "Herzliya police station",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ef4495c49009d5c7de0faa27",
+      "type": "Person",
+      "title": "Moshele Sandishev",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

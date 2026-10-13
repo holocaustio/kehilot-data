@@ -1,0 +1,101 @@
+{
+  "id": "mention_3f39057131eb58d1a8e360c3",
+  "type": "Organization",
+  "title": "French company",
+  "summary": "Company that acquired the cable factory and developed it into a major Polish factory.",
+  "originalName": "פראנ_צויזישע: געזעלשאפט",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 114,
+  "printedPage": "110",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "company",
+  "uncertaintyNote": "The company is unnamed; the OCR contains unusual punctuation.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fa1ff6f83c0491dc6889604c",
+      "pageId": "page_nybc313684_0114",
+      "scanIndex": 114,
+      "leafNumber": 113,
+      "printedPage": "110",
+      "passageCharStart": 950,
+      "passageCharEnd": 974,
+      "normalizedPassageCharStart": 950,
+      "normalizedPassageCharEnd": 974,
+      "pageCharStart": 4285,
+      "pageCharEnd": 4309,
+      "quote": "פראנ_צויזישע : געזעלשאפט",
+      "normalizedQuote": "פראנ_צויזישע : געזעלשאפט",
+      "modelQuote": "פראנ_צויזישע: געזעלשאפט",
+      "bbox": {
+        "left": 484,
+        "top": 2343,
+        "right": 1346,
+        "bottom": 2439
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n113/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "2154a7b5560358aedf19c9455758d2e709e3098708ca6f444e0e60e8f475d844",
+      "normalizedPassageChecksum": "8fe8b57ccf868d8bb18e677db530d444045b75284e700e407e180e1f98080c87",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_189d73112fa30d5126b9b76d",
+      "predicate": "Owned",
+      "subjectTitle": "Cable factory",
+      "objectTitle": "French company",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text says it passed to the company; exact legal status is unspecified.",
+      "evidence": {
+        "passageId": "passage_fa1ff6f83c0491dc6889604c",
+        "pageId": "page_nybc313684_0114",
+        "scanIndex": 114,
+        "leafNumber": 113,
+        "printedPage": "110",
+        "passageCharStart": 919,
+        "passageCharEnd": 974,
+        "normalizedPassageCharStart": 919,
+        "normalizedPassageCharEnd": 974,
+        "pageCharStart": 4254,
+        "pageCharEnd": 4309,
+        "quote": "אי ז ד י פאברי ק אריבע ר צ ו א פראנ_צויזישע : געזעלשאפט",
+        "normalizedQuote": "אי ז ד י פאברי ק אריבע ר צ ו א פראנ_צויזישע : געזעלשאפט",
+        "modelQuote": "איז די פאבריק אריבער צוא פראנ_צויזישע: געזעלשאפט",
+        "bbox": {
+          "left": 484,
+          "top": 2343,
+          "right": 2264,
+          "bottom": 2439
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n113/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "2154a7b5560358aedf19c9455758d2e709e3098708ca6f444e0e60e8f475d844",
+        "normalizedPassageChecksum": "8fe8b57ccf868d8bb18e677db530d444045b75284e700e407e180e1f98080c87",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_c1ba5904004a788ebd29ef6d",
+      "type": "Business",
+      "title": "Cable Factory",
+      "relation": "Owned"
+    },
+    {
+      "id": "mention_7be19801e694ad0cba017857",
+      "type": "Person",
+      "title": "Goldshtab",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

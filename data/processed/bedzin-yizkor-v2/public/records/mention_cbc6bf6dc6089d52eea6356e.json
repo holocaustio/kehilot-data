@@ -1,0 +1,118 @@
+{
+  "id": "mention_cbc6bf6dc6089d52eea6356e",
+  "type": "Place",
+  "title": "Mysłowice political prison",
+  "summary": "Political prison to which four detainees were deported.",
+  "originalName": "מיסלוביץ, לבית־הסוהר הפוליטי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 361,
+  "printedPage": "357",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Prison",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8dcdac74d67eaf63de9bcc88",
+      "pageId": "page_nybc313684_0361",
+      "scanIndex": 361,
+      "leafNumber": 360,
+      "printedPage": "357",
+      "passageCharStart": 976,
+      "passageCharEnd": 1006,
+      "normalizedPassageCharStart": 976,
+      "normalizedPassageCharEnd": 1006,
+      "pageCharStart": 5731,
+      "pageCharEnd": 5761,
+      "quote": "למיסלוביץ ,\nלבית־הסוהר הפוליטי",
+      "normalizedQuote": "למיסלוביץ ,\nלבית־הסוהר הפוליטי",
+      "modelQuote": "למיסלוביץ, לבית־הסוהר הפוליטי",
+      "bbox": {
+        "left": 241,
+        "top": 5586,
+        "right": 2035,
+        "bottom": 5770
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n360/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "522f07883baa2f451d7291ed53650bca036c7b745344e93c3bc843a94058355a",
+      "normalizedPassageChecksum": "04683ba8634e690f59ad1fa3883bf7a7de6eb29ecdff8640659701f1a1fc4ddf",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_e90b93fbc0cc1f5a45ea7fdb",
+      "type": "Imprisonment",
+      "title": "Imprisonment of four detainees",
+      "summary": "Four detainees were sent to Mysłowice political prison after being tortured.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR indicates four deported detainees, but their identities are not fully clear.",
+      "evidence": {
+        "passageId": "passage_8dcdac74d67eaf63de9bcc88",
+        "pageId": "page_nybc313684_0361",
+        "scanIndex": 361,
+        "leafNumber": 360,
+        "printedPage": "357",
+        "passageCharStart": 951,
+        "passageCharEnd": 1006,
+        "normalizedPassageCharStart": 951,
+        "normalizedPassageCharEnd": 1006,
+        "pageCharStart": 5706,
+        "pageCharEnd": 5761,
+        "quote": "אח ר ב ך גורש ו ׳ארבעת ם למיסלוביץ ,\nלבית־הסוהר הפוליטי",
+        "normalizedQuote": "אח ר ב ך גורש ו ׳ארבעת ם למיסלוביץ ,\nלבית־הסוהר הפוליטי",
+        "modelQuote": "אחר בך גורשו ׳ארבעתם למיסלוביץ, לבית־הסוהר הפוליטי",
+        "bbox": {
+          "left": 241,
+          "top": 5586,
+          "right": 2035,
+          "bottom": 5770
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n360/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "522f07883baa2f451d7291ed53650bca036c7b745344e93c3bc843a94058355a",
+        "normalizedPassageChecksum": "04683ba8634e690f59ad1fa3883bf7a7de6eb29ecdff8640659701f1a1fc4ddf",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_e90b93fbc0cc1f5a45ea7fdb",
+      "type": "Event",
+      "title": "Imprisonment of four detainees",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d4fceb3397973ddf56d60151",
+      "type": "Person",
+      "title": "Hela Shantzer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_dcf33a1cebc67bdbc4bf1264",
+      "type": "Person",
+      "title": "Zvi Donski",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_711bfe7c7895f6d667d217f7",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a164071e28a373d05e2f5f91",
+      "type": "Institution",
+      "title": "Będzin orphanage",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

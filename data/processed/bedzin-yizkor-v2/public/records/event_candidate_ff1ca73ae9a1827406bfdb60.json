@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_ff1ca73ae9a1827406bfdb60",
+  "type": "Event",
+  "title": "Ina's execution",
+  "summary": "Ina was arrested, handed to the Gestapo, and executed.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 368,
+  "printedPage": "364",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "uncertaintyNote": "The execution location is not explicitly stated.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_b29fa412f040b88faee62d46",
+      "pageId": "page_nybc313684_0368",
+      "scanIndex": 368,
+      "leafNumber": 367,
+      "printedPage": "364",
+      "passageCharStart": 828,
+      "passageCharEnd": 867,
+      "normalizedPassageCharStart": 828,
+      "normalizedPassageCharEnd": 867,
+      "pageCharStart": 4614,
+      "pageCharEnd": 4653,
+      "quote": "ומסרו ה ליד י הגסטאפו , שהוציאו ה להורג",
+      "normalizedQuote": "ומסרו ה ליד י הגסטאפו , שהוציאו ה להורג",
+      "modelQuote": "ומסרוה לידי הגסטאפו, שהוציאוה להורג",
+      "bbox": {
+        "left": 603,
+        "top": 4464,
+        "right": 2021,
+        "bottom": 4536
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n367/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "b4cd7a29562cdd7c47a9948860edb1e8f6089a08f1725db87adb3dff595804ab",
+      "normalizedPassageChecksum": "de331d4cf18824d7e9e15ec54a96129773291e3cd6a9779ee7a7d3f067a2ed46",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_b9a200956821396b999e9008",
+      "type": "Place",
+      "title": "Zawiercie",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_39b9f24bbc5e69bf7aceba65",
+      "type": "Person",
+      "title": "Ina Gal Bard",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

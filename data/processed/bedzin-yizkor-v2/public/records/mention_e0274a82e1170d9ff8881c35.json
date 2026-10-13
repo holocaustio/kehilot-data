@@ -1,0 +1,118 @@
+{
+  "id": "mention_e0274a82e1170d9ff8881c35",
+  "type": "Person",
+  "title": "Jonathan",
+  "summary": "Jewish driver who transported produce to besieged cities and was killed by an enemy bullet.",
+  "originalName": "יהונתן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 384,
+  "printedPage": "380",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "driver and transport worker",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4b3fe5f9b5c72c26f055f596",
+      "pageId": "page_nybc313684_0384",
+      "scanIndex": 384,
+      "leafNumber": 383,
+      "printedPage": "380",
+      "passageCharStart": 530,
+      "passageCharEnd": 544,
+      "normalizedPassageCharStart": 530,
+      "normalizedPassageCharEnd": 544,
+      "pageCharStart": 3086,
+      "pageCharEnd": 3100,
+      "quote": "ויהונת ן בתוכם",
+      "normalizedQuote": "ויהונת ן בתוכם",
+      "modelQuote": "ויהונתן בתוכם",
+      "bbox": {
+        "left": 433,
+        "top": 1659,
+        "right": 997,
+        "bottom": 1723
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n383/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "f56925c23f254ea32c7608e58358c9a413ce9aab79f60dc1c8337dba3f8ca9ee",
+      "normalizedPassageChecksum": "5bf66b333e1c40c3eec787d98244d17f1d97214db25a5d16854171faa3299416",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_3df11f7461274e89d6fd7095",
+      "type": "Death",
+      "title": "Jonathan killed by an enemy bullet",
+      "summary": "Jonathan was killed by an enemy bullet while transporting produce to besieged cities.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4b3fe5f9b5c72c26f055f596",
+        "pageId": "page_nybc313684_0384",
+        "scanIndex": 384,
+        "leafNumber": 383,
+        "printedPage": "380",
+        "passageCharStart": 615,
+        "passageCharEnd": 669,
+        "normalizedPassageCharStart": 615,
+        "normalizedPassageCharEnd": 669,
+        "pageCharStart": 3171,
+        "pageCharEnd": 3225,
+        "quote": "באחד הימי ם פיל ח כדו ר אוי ב לב ו ופתי ל חיי ו נותק .",
+        "normalizedQuote": "באחד הימי ם פיל ח כדו ר אוי ב לב ו ופתי ל חיי ו נותק .",
+        "modelQuote": "באחד הימים פילח כדור אויב לבו ופתיל חייו נותק.",
+        "bbox": {
+          "left": 559,
+          "top": 1859,
+          "right": 2081,
+          "bottom": 1941
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n383/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "f56925c23f254ea32c7608e58358c9a413ce9aab79f60dc1c8337dba3f8ca9ee",
+        "normalizedPassageChecksum": "5bf66b333e1c40c3eec787d98244d17f1d97214db25a5d16854171faa3299416",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_3df11f7461274e89d6fd7095",
+      "type": "Event",
+      "title": "Jonathan killed by an enemy bullet",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_33f0fa21c001abe2329662d9",
+      "type": "Person",
+      "title": "Y. Londner",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a7d72a0e960f5c15cd08737a",
+      "type": "Person",
+      "title": "Reuven Alboim",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1663b86892219e448b796a11",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2e5cc7af87004e966c0901a6",
+      "type": "Institution",
+      "title": "Tachkemoni School",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

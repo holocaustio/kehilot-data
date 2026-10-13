@@ -1,0 +1,115 @@
+{
+  "id": "mention_d2ab650e533b5206d577140a",
+  "type": "Person",
+  "title": "Bolesław Chrobry",
+  "summary": "King whose campaigns were joined by the knight named Benda.",
+  "originalName": "באלאק כראברי",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 34,
+  "printedPage": "30",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "king",
+  "uncertaintyNote": "The OCR spelling of the king's name is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f6f61be0d49209760a016fff",
+      "pageId": "page_nybc313684_0034",
+      "scanIndex": 34,
+      "leafNumber": 33,
+      "printedPage": "30",
+      "passageCharStart": 0,
+      "passageCharEnd": 34,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 34,
+      "pageCharStart": 1909,
+      "pageCharEnd": 1943,
+      "quote": "אין ד י צייט ן פו ן באלע ק כראבר י",
+      "normalizedQuote": "אין ד י צייט ן פו ן באלע ק כראבר י",
+      "modelQuote": "אין די צייטן פון באלעק כראברי",
+      "bbox": {
+        "left": 3424,
+        "top": 4007,
+        "right": 4490,
+        "bottom": 4089
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n33/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "4a9b40b46bcf9cd82a5def7d00dacc718a3038c060892a0dff42194625d27aff",
+      "normalizedPassageChecksum": "462fad9d692e93329e67620d70de0a2cc80bb95f91ec17e6ad8573901042c547",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_db41d5e2aefa15319662f7e5",
+      "predicate": "Member Of",
+      "subjectTitle": "Benda",
+      "objectTitle": "Bolesław Chrobry",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "close companion"
+      },
+      "evidence": {
+        "passageId": "passage_f6f61be0d49209760a016fff",
+        "pageId": "page_nybc313684_0034",
+        "scanIndex": 34,
+        "leafNumber": 33,
+        "printedPage": "30",
+        "passageCharStart": 97,
+        "passageCharEnd": 148,
+        "normalizedPassageCharStart": 97,
+        "normalizedPassageCharEnd": 148,
+        "pageCharStart": 2006,
+        "pageCharEnd": 2057,
+        "quote": "ע ר אי ז געווע ן א ן אומצעשיידבארע ר\nחבר פו ן קעניג",
+        "normalizedQuote": "ע ר אי ז געווע ן א ן אומצעשיידבארע ר\nחבר פו ן קעניג",
+        "modelQuote": "ער איז געווען אן אומצעשיידבארער חבר פון קעניג",
+        "bbox": {
+          "left": 2572,
+          "top": 4131,
+          "right": 4614,
+          "bottom": 4305
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n33/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "4a9b40b46bcf9cd82a5def7d00dacc718a3038c060892a0dff42194625d27aff",
+        "normalizedPassageChecksum": "462fad9d692e93329e67620d70de0a2cc80bb95f91ec17e6ad8573901042c547",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_cad7b4995cd69295f6aa806f",
+      "type": "Person",
+      "title": "Benda",
+      "relation": "Member Of"
+    },
+    {
+      "id": "mention_262dec6ecd7132068ab5474e",
+      "type": "Place",
+      "title": "Będzin Mountain",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c6b04f7c6faccbbb6d2d7833",
+      "type": "Place",
+      "title": "Black Przemsza",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cad7b4995cd69295f6aa806f",
+      "type": "Person",
+      "title": "Benda",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

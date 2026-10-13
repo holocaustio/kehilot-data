@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_789bd5d31fa23b180b2cad31",
+  "type": "Event",
+  "title": "Narrator arrives in Będzin",
+  "summary": "The narrator arrives at the crowded Będzin train station.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 307,
+  "printedPage": "303",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The arrival is explicit, but the narrator is not separately represented as a person mention.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2c8568035c15ad1787e820ae",
+      "pageId": "page_nybc313684_0307",
+      "scanIndex": 307,
+      "leafNumber": 306,
+      "printedPage": "303",
+      "passageCharStart": 392,
+      "passageCharEnd": 412,
+      "normalizedPassageCharStart": 392,
+      "normalizedPassageCharEnd": 412,
+      "pageCharStart": 392,
+      "pageCharEnd": 412,
+      "quote": "בתחנ ת בנדי ן ההומ ה",
+      "normalizedQuote": "בתחנ ת בנדי ן ההומ ה",
+      "modelQuote": "בתחנת בנדין ההומה",
+      "bbox": {
+        "left": 3418,
+        "top": 938,
+        "right": 4382,
+        "bottom": 1004
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n306/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "49ce4e201aca28ba03c246955e5926ba258f338cd99d5aea669051d1d2dcb858",
+      "normalizedPassageChecksum": "7b33a7cf11c2848ac6730f2ac37e12f52ff50e38f8cb245b017ac5607ee3d698",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1663b86892219e448b796a11",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_70ba25abd7219910e1fe1a1b",
+      "type": "Person",
+      "title": "Unnamed innkeeper",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

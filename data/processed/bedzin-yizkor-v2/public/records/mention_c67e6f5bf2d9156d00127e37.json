@@ -1,0 +1,121 @@
+{
+  "id": "mention_c67e6f5bf2d9156d00127e37",
+  "type": "Business",
+  "title": "Trassuyer and Shvaitser beer factory",
+  "summary": "Beer factory where the subject worked as an accountant.",
+  "originalName": "ביר״פאבריק פון טראסויער און שווייצער",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 177,
+  "printedPage": "173",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "brewery",
+  "uncertaintyNote": "The OCR-rendered owners’ names are uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4e1eaf142cb7f1a8c439851d",
+      "pageId": "page_nybc313684_0177",
+      "scanIndex": 177,
+      "leafNumber": 176,
+      "printedPage": "173",
+      "passageCharStart": 111,
+      "passageCharEnd": 150,
+      "normalizedPassageCharStart": 111,
+      "normalizedPassageCharEnd": 150,
+      "pageCharStart": 6035,
+      "pageCharEnd": 6074,
+      "quote": "ביר״פאברי ק פו ן טראסויע ר\nאון שווייצער",
+      "normalizedQuote": "ביר״פאברי ק פו ן טראסויע ר\nאון שווייצער",
+      "modelQuote": "ביר״פאבריק פון טראסויער און שווייצער",
+      "bbox": {
+        "left": 212,
+        "top": 5587,
+        "right": 2273,
+        "bottom": 5744
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n176/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "cf338885f1428b6e611b9e101e8501d3b69920ac2d62abaffa3fe58cbcbe1ffc",
+      "normalizedPassageChecksum": "9f97c7b7352caa6018889706a3d778988c84929569016ed093a90debe3c8c550",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_f5e159de6538786f74250e23",
+      "predicate": "Worked At",
+      "subjectTitle": "Unnamed businessman",
+      "objectTitle": "Trassuyer and Shvaitser beer factory",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "accountant"
+      },
+      "evidence": {
+        "passageId": "passage_4e1eaf142cb7f1a8c439851d",
+        "pageId": "page_nybc313684_0177",
+        "scanIndex": 177,
+        "leafNumber": 176,
+        "printedPage": "173",
+        "passageCharStart": 90,
+        "passageCharEnd": 150,
+        "normalizedPassageCharStart": 90,
+        "normalizedPassageCharEnd": 150,
+        "pageCharStart": 6014,
+        "pageCharEnd": 6074,
+        "quote": "בוכהאלטע ר אי ן דע ר ביר״פאברי ק פו ן טראסויע ר\nאון שווייצער",
+        "normalizedQuote": "בוכהאלטע ר אי ן דע ר ביר״פאברי ק פו ן טראסויע ר\nאון שווייצער",
+        "modelQuote": "בוכהאלטער אין דער ביר״פאבריק פון טראסויער און שווייצער",
+        "bbox": {
+          "left": 212,
+          "top": 5577,
+          "right": 2273,
+          "bottom": 5744
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n176/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "cf338885f1428b6e611b9e101e8501d3b69920ac2d62abaffa3fe58cbcbe1ffc",
+        "normalizedPassageChecksum": "9f97c7b7352caa6018889706a3d778988c84929569016ed093a90debe3c8c550",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_9963e4a09e7dfb8634fecb7b",
+      "type": "Person",
+      "title": "Unnamed businessman",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9963e4a09e7dfb8634fecb7b",
+      "type": "Person",
+      "title": "Unnamed businessman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ade11099ce7216065fb31df7",
+      "type": "Person",
+      "title": "Unnamed wife",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a5203f5869f0d6105631de1a",
+      "type": "Business",
+      "title": "Furniture and gramophone business",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

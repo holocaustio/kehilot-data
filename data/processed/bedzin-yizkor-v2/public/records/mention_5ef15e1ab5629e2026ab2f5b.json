@@ -1,0 +1,180 @@
+{
+  "id": "mention_5ef15e1ab5629e2026ab2f5b",
+  "type": "Person",
+  "title": "Unnamed wife",
+  "summary": "Narrator's wife who tried to give the child an apple.",
+  "originalName": "אשתי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 374,
+  "printedPage": "370",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "spouse",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_db9f8071b8d0d19ae356532a",
+      "pageId": "page_nybc313684_0374",
+      "scanIndex": 374,
+      "leafNumber": 373,
+      "printedPage": "370",
+      "passageCharStart": 229,
+      "passageCharEnd": 248,
+      "normalizedPassageCharStart": 229,
+      "normalizedPassageCharEnd": 248,
+      "pageCharStart": 4640,
+      "pageCharEnd": 4659,
+      "quote": "בקושי הספיק ה אשת י",
+      "normalizedQuote": "בקושי הספיק ה אשת י",
+      "modelQuote": "בקושי הספיקה אשתי",
+      "bbox": {
+        "left": 1302,
+        "top": 4378,
+        "right": 2080,
+        "bottom": 4460
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n373/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "335a6f125450e2ee674977a5c4fb4613c0d1fe042241ed86afa743c017d3daa9",
+      "normalizedPassageChecksum": "ce34e897ba505391ddd8f5ee67e27827b46714f81d0b586d4320de4ee9b0d61c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_d88386596fc1cdc7ed8ee11d",
+      "predicate": "Spouse Of",
+      "subjectTitle": "Unnamed wife",
+      "objectTitle": "Unnamed narrator",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_db9f8071b8d0d19ae356532a",
+        "pageId": "page_nybc313684_0374",
+        "scanIndex": 374,
+        "leafNumber": 373,
+        "printedPage": "370",
+        "passageCharStart": 243,
+        "passageCharEnd": 248,
+        "normalizedPassageCharStart": 243,
+        "normalizedPassageCharEnd": 248,
+        "pageCharStart": 4654,
+        "pageCharEnd": 4659,
+        "quote": "אשת י",
+        "normalizedQuote": "אשת י",
+        "modelQuote": "אשתי",
+        "bbox": {
+          "left": 1302,
+          "top": 4378,
+          "right": 1808,
+          "bottom": 4450
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n373/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "335a6f125450e2ee674977a5c4fb4613c0d1fe042241ed86afa743c017d3daa9",
+        "normalizedPassageChecksum": "ce34e897ba505391ddd8f5ee67e27827b46714f81d0b586d4320de4ee9b0d61c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_33ccb571f48463de0ac287f9",
+      "type": "Murder",
+      "title": "Killing of a young girl",
+      "summary": "An armed man kicked a young girl, causing her to fall through a window and die; the date of this killing is not stated in the excerpt.",
+      "dateStart": "1942",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_db9f8071b8d0d19ae356532a",
+        "pageId": "page_nybc313684_0374",
+        "scanIndex": 374,
+        "leafNumber": 373,
+        "printedPage": "370",
+        "passageCharStart": 503,
+        "passageCharEnd": 529,
+        "normalizedPassageCharStart": 503,
+        "normalizedPassageCharEnd": 529,
+        "pageCharStart": 4914,
+        "pageCharEnd": 4940,
+        "quote": "הילד ה נפח ה נשמת ה הטהורה",
+        "normalizedQuote": "הילד ה נפח ה נשמת ה הטהורה",
+        "modelQuote": "הילדה נפחה נשמתה הטהורה",
+        "bbox": {
+          "left": 814,
+          "top": 4806,
+          "right": 1804,
+          "bottom": 4878
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n373/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "335a6f125450e2ee674977a5c4fb4613c0d1fe042241ed86afa743c017d3daa9",
+        "normalizedPassageChecksum": "ce34e897ba505391ddd8f5ee67e27827b46714f81d0b586d4320de4ee9b0d61c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_f30f8ab097ad7e49733e9801",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Spouse Of"
+    },
+    {
+      "id": "event_candidate_33ccb571f48463de0ac287f9",
+      "type": "Event",
+      "title": "Killing of a young girl",
+      "relation": "Participated In",
+      "role": "Witness"
+    },
+    {
+      "id": "mention_f30f8ab097ad7e49733e9801",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_35512052e34fa9c0bab89492",
+      "type": "Person",
+      "title": "Joshua",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_917c18f4638b3c0bfea57b6e",
+      "type": "Organization",
+      "title": "Red Cross",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b265c78b6b36ff9fc212738",
+      "type": "Place",
+      "title": "Land of Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_eb0d07c4d60c62f9a235f928",
+      "type": "Person",
+      "title": "Unnamed mother",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_467e3cb8da0c9ce5db4002f7",
+      "type": "Person",
+      "title": "Unnamed daughter",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1663b86892219e448b796a11",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

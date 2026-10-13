@@ -1,0 +1,111 @@
+{
+  "id": "mention_2b2274d17c73221358e2d172",
+  "type": "Place",
+  "title": "Pilsudski Street",
+  "summary": "Street where Malach's house was located.",
+  "originalName": "פילסודסקי גאם",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 190,
+  "printedPage": "186",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0791b0032291e817c751d60d",
+      "pageId": "page_nybc313684_0190",
+      "scanIndex": 190,
+      "leafNumber": 189,
+      "printedPage": "186",
+      "passageCharStart": 333,
+      "passageCharEnd": 347,
+      "normalizedPassageCharStart": 333,
+      "normalizedPassageCharEnd": 347,
+      "pageCharStart": 1650,
+      "pageCharEnd": 1664,
+      "quote": "פילסודסק י גאם",
+      "normalizedQuote": "פילסודסק י גאם",
+      "modelQuote": "פילסודסקי גאם",
+      "bbox": {
+        "left": 3873,
+        "top": 2972,
+        "right": 4411,
+        "bottom": 3054
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n189/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "6604e697f1a3826af8fea339149123b66b237d24d18d937428a27a2e12d8f5ae",
+      "normalizedPassageChecksum": "6640420b3e61551ac9bb209f66fd8a6afe58ab8586c3542d11ba77f90245c6af",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_73fae9d9e9bf467b7c0255c0",
+      "predicate": "Located In",
+      "subjectTitle": "Malach's house",
+      "objectTitle": "Pilsudski Street",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_0791b0032291e817c751d60d",
+        "pageId": "page_nybc313684_0190",
+        "scanIndex": 190,
+        "leafNumber": 189,
+        "printedPage": "186",
+        "passageCharStart": 314,
+        "passageCharEnd": 347,
+        "normalizedPassageCharStart": 314,
+        "normalizedPassageCharEnd": 347,
+        "pageCharStart": 1631,
+        "pageCharEnd": 1664,
+        "quote": "מאלאכ ם\nהויז אוי ף פילסודסק י גאם",
+        "normalizedQuote": "מאלאכ ם\nהויז אוי ף פילסודסק י גאם",
+        "modelQuote": "מאלאכם הויז אויף פילסודסקי גאם",
+        "bbox": {
+          "left": 2551,
+          "top": 2870,
+          "right": 4567,
+          "bottom": 3054
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n189/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "6604e697f1a3826af8fea339149123b66b237d24d18d937428a27a2e12d8f5ae",
+        "normalizedPassageChecksum": "6640420b3e61551ac9bb209f66fd8a6afe58ab8586c3542d11ba77f90245c6af",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_49a8999d77bd6357741942a2",
+      "type": "Place",
+      "title": "Malach's house",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_49a8999d77bd6357741942a2",
+      "type": "Place",
+      "title": "Malach's house",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0411c13d3a42a4a35ecbb0c1",
+      "type": "Place",
+      "title": "Chieladz Cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2a218f154be1f8b511256a1e",
+      "type": "Place",
+      "title": "Polish cemetery",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

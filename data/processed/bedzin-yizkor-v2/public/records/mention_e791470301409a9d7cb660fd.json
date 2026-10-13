@@ -1,0 +1,147 @@
+{
+  "id": "mention_e791470301409a9d7cb660fd",
+  "type": "Person",
+  "title": "Zvi",
+  "summary": "A bunker occupant who ran from the Germans and was reported killed.",
+  "originalName": "צבי",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 369,
+  "printedPage": "365",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d2c489db8475a3d31dc6945b",
+      "pageId": "page_nybc313684_0369",
+      "scanIndex": 369,
+      "leafNumber": 368,
+      "printedPage": "365",
+      "passageCharStart": 1053,
+      "passageCharEnd": 1071,
+      "normalizedPassageCharStart": 1053,
+      "normalizedPassageCharEnd": 1071,
+      "pageCharStart": 4639,
+      "pageCharEnd": 4657,
+      "quote": "צב י שא ל א ת הרשל",
+      "normalizedQuote": "צב י שא ל א ת הרשל",
+      "modelQuote": "צבי שאל את הרשל",
+      "bbox": {
+        "left": 1525,
+        "top": 3658,
+        "right": 2205,
+        "bottom": 3732
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n368/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "693a5ad9437e6da9d5f45db51436828dc13bb30c8d653c0f79617c08a6bafa3b",
+      "normalizedPassageChecksum": "1df6ed744454a55fd17258adce755a526ab60d0c94c7c914c890137900ae533c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_be2dcb8330a1311942da68e3",
+      "type": "Killed",
+      "title": "Zvi was shot while fleeing",
+      "summary": "German soldiers pursued Zvi as he ran and later said, “We finished him off.”",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_d2c489db8475a3d31dc6945b",
+        "pageId": "page_nybc313684_0369",
+        "scanIndex": 369,
+        "leafNumber": 368,
+        "printedPage": "365",
+        "passageCharStart": 1251,
+        "passageCharEnd": 1262,
+        "normalizedPassageCharStart": 1251,
+        "normalizedPassageCharEnd": 1262,
+        "pageCharStart": 4837,
+        "pageCharEnd": 4848,
+        "quote": "חיסלנו אותו",
+        "normalizedQuote": "חיסלנו אותו",
+        "modelQuote": "חיסלנו אותו",
+        "bbox": {
+          "left": 1953,
+          "top": 4004,
+          "right": 2159,
+          "bottom": 4058
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n368/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "693a5ad9437e6da9d5f45db51436828dc13bb30c8d653c0f79617c08a6bafa3b",
+        "normalizedPassageChecksum": "1df6ed744454a55fd17258adce755a526ab60d0c94c7c914c890137900ae533c",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_be2dcb8330a1311942da68e3",
+      "type": "Event",
+      "title": "Zvi was shot while fleeing",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_bfd6987149eee072317c42ea",
+      "type": "Person",
+      "title": "Hershl Shpringar",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6e2e244360f65e1f750140b1",
+      "type": "Organization",
+      "title": "Freiheit",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ed0e9fcec20867777066395d",
+      "type": "Place",
+      "title": "Zaglembia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3fd94aa3d40d6005755667d7",
+      "type": "Place",
+      "title": "Slovakia",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8ad55c14ce9076e094fdb411",
+      "type": "Organization",
+      "title": "Jewish Fighting Organization in Bendin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1663b86892219e448b796a11",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8f80a5d8117a180dee0408ec",
+      "type": "Organization",
+      "title": "German police",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_711bfe7c7895f6d667d217f7",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_129e7bd7829942febdd05951",
+      "type": "Place",
+      "title": "The ghetto",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

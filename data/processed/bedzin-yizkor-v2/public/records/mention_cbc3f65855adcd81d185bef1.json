@@ -1,0 +1,125 @@
+{
+  "id": "mention_cbc3f65855adcd81d185bef1",
+  "type": "Place",
+  "title": "Tittmoning camp",
+  "summary": "Camp in Bavaria to which Dr. Natanek was transferred.",
+  "originalName": "מחנה טיטמוניק בבואריה",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 357,
+  "printedPage": "353",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "camp",
+  "uncertaintyNote": "The OCR-rendered camp name may be uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_880df3c0ad0fc9b60feffe1e",
+      "pageId": "page_nybc313684_0357",
+      "scanIndex": 357,
+      "leafNumber": 356,
+      "printedPage": "353",
+      "passageCharStart": 876,
+      "passageCharEnd": 899,
+      "normalizedPassageCharStart": 876,
+      "normalizedPassageCharEnd": 899,
+      "pageCharStart": 4923,
+      "pageCharEnd": 4946,
+      "quote": "למחנה טיטמוני ק בבואריה",
+      "normalizedQuote": "למחנה טיטמוני ק בבואריה",
+      "modelQuote": "למחנה טיטמוניק בבואריה",
+      "bbox": {
+        "left": 1548,
+        "top": 3520,
+        "right": 2218,
+        "bottom": 3584
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n356/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "f279e19532d11c99ea67e52b62c0f5aa454b8545041a2b4fc12566f8c74025bf",
+      "normalizedPassageChecksum": "10c9ec23cc05516d6f4893d1a8732017d9d3271d6c438cd516d297414cd991a3",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_c5644e2bc49068799aaa81a1",
+      "type": "Transfer",
+      "title": "Transfer to Tittmoning camp",
+      "summary": "Dr. Natanek was taken to the Judenrat and from there to a camp in Bavaria.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The event is described as transfer, not explicitly as deportation.",
+      "evidence": {
+        "passageId": "passage_880df3c0ad0fc9b60feffe1e",
+        "pageId": "page_nybc313684_0357",
+        "scanIndex": 357,
+        "leafNumber": 356,
+        "printedPage": "353",
+        "passageCharStart": 870,
+        "passageCharEnd": 899,
+        "normalizedPassageCharStart": 870,
+        "normalizedPassageCharEnd": 899,
+        "pageCharStart": 4917,
+        "pageCharEnd": 4946,
+        "quote": "ומש ם\nלמחנה טיטמוני ק בבואריה",
+        "normalizedQuote": "ומש ם\nלמחנה טיטמוני ק בבואריה",
+        "modelQuote": "ומשם למחנה טיטמוניק בבואריה",
+        "bbox": {
+          "left": 244,
+          "top": 3408,
+          "right": 2218,
+          "bottom": 3584
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n356/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "f279e19532d11c99ea67e52b62c0f5aa454b8545041a2b4fc12566f8c74025bf",
+        "normalizedPassageChecksum": "10c9ec23cc05516d6f4893d1a8732017d9d3271d6c438cd516d297414cd991a3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_c5644e2bc49068799aaa81a1",
+      "type": "Event",
+      "title": "Transfer to Tittmoning camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c7767feb6df26c0e1321cb9b",
+      "type": "Person",
+      "title": "Aharon Lewinstein",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f22ebdfa1b762a8677c75a3d",
+      "type": "Place",
+      "title": "Sosnowitz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7105d618beffa0f2565e2f7c",
+      "type": "Organization",
+      "title": "Center of the Judenrat Councils",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d06d83883ba32489d5147824",
+      "type": "Organization",
+      "title": "Jewish Order Police",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fcaa874c225d3bd75498d1de",
+      "type": "Institution",
+      "title": "Judenrat",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

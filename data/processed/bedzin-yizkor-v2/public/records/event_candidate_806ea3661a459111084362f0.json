@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_806ea3661a459111084362f0",
+  "type": "Event",
+  "title": "German army occupation",
+  "summary": "The German Army occupied the described part of Upper Silesia.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 204,
+  "printedPage": "200",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "Occupation is not directly represented by an allowed event type.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_097fa488ab72c439328d98fc",
+      "pageId": "page_nybc313684_0204",
+      "scanIndex": 204,
+      "leafNumber": 203,
+      "printedPage": "200",
+      "passageCharStart": 903,
+      "passageCharEnd": 936,
+      "normalizedPassageCharStart": 903,
+      "normalizedPassageCharEnd": 936,
+      "pageCharStart": 2191,
+      "pageCharEnd": 2224,
+      "quote": "ד י דייטש ע ארמי י הא ט פארנומע ן",
+      "normalizedQuote": "ד י דייטש ע ארמי י הא ט פארנומע ן",
+      "modelQuote": "די דייטשע ארמיי האט פארנומען",
+      "bbox": {
+        "left": 2529,
+        "top": 4400,
+        "right": 3757,
+        "bottom": 4466
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n203/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "3c708e054c905bae53efa4986d143cca48fa2fb5682463a4b766eb385d2ffbdb",
+      "normalizedPassageChecksum": "335e14386134c61cc4bd068327d1bc845d261a31ba61be5143220bfc9d901c7c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_4317ff284d64cb5d5deaf93a",
+      "type": "Place",
+      "title": "Upper Silesia",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_47ff411e23acee4d06dfc7f7",
+      "type": "Organization",
+      "title": "German Army",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

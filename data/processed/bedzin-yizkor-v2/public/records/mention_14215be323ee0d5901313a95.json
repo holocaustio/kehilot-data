@@ -1,0 +1,112 @@
+{
+  "id": "mention_14215be323ee0d5901313a95",
+  "type": "Institution",
+  "title": "Fürstenberg School",
+  "summary": "School where the German city administration established its seat.",
+  "originalName": "בית הספר על שם פירסטנברג",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 352,
+  "printedPage": "348",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "school",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d6e5dac4492089089181e484",
+      "pageId": "page_nybc313684_0352",
+      "scanIndex": 352,
+      "leafNumber": 351,
+      "printedPage": "348",
+      "passageCharStart": 822,
+      "passageCharEnd": 851,
+      "normalizedPassageCharStart": 822,
+      "normalizedPassageCharEnd": 851,
+      "pageCharStart": 5765,
+      "pageCharEnd": 5794,
+      "quote": "בבי ת הספ ר ע ל ש ם פירסטנברג",
+      "normalizedQuote": "בבי ת הספ ר ע ל ש ם פירסטנברג",
+      "modelQuote": "בבית הספר על שם פירסטנברג",
+      "bbox": {
+        "left": 473,
+        "top": 5771,
+        "right": 1635,
+        "bottom": 5845
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n351/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "e45b954778f131ee2b527d7380807c469b42275f2541af62fe2e4007969b080f",
+      "normalizedPassageChecksum": "fcbc96732129848e80d2ff1b3861bf9e328ed5279fdacd27491e1202aec99471",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_8bb8041e9f4a7da4f278898c",
+      "predicate": "Located In",
+      "subjectTitle": "Fürstenberg School",
+      "objectTitle": "Bendin",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The city context is Bendin; the school’s location is implied by narrative context.",
+      "evidence": {
+        "passageId": "passage_d6e5dac4492089089181e484",
+        "pageId": "page_nybc313684_0352",
+        "scanIndex": 352,
+        "leafNumber": 351,
+        "printedPage": "348",
+        "passageCharStart": 800,
+        "passageCharEnd": 851,
+        "normalizedPassageCharStart": 800,
+        "normalizedPassageCharEnd": 851,
+        "pageCharStart": 5743,
+        "pageCharEnd": 5794,
+        "quote": "קבעו א ת מקו ם מושב ם בבי ת הספ ר ע ל ש ם פירסטנברג",
+        "normalizedQuote": "קבעו א ת מקו ם מושב ם בבי ת הספ ר ע ל ש ם פירסטנברג",
+        "modelQuote": "קבעו את מקום מושבם בבית הספר על שם פירסטנברג",
+        "bbox": {
+          "left": 473,
+          "top": 5771,
+          "right": 2245,
+          "bottom": 5859
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n351/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "e45b954778f131ee2b527d7380807c469b42275f2541af62fe2e4007969b080f",
+        "normalizedPassageChecksum": "fcbc96732129848e80d2ff1b3861bf9e328ed5279fdacd27491e1202aec99471",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b606c537771fc6d8e709cd12",
+      "type": "Community",
+      "title": "Bendin",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_fcaa874c225d3bd75498d1de",
+      "type": "Institution",
+      "title": "Judenrat",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b606c537771fc6d8e709cd12",
+      "type": "Community",
+      "title": "Bendin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b9faed47fc8ab1c01e53aa16",
+      "type": "Organization",
+      "title": "German city administration",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

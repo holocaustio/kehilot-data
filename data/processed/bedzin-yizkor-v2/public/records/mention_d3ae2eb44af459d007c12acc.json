@@ -1,0 +1,201 @@
+{
+  "id": "mention_d3ae2eb44af459d007c12acc",
+  "type": "Place",
+  "title": "Przasnysz",
+  "summary": "Town where Roza was born.",
+  "originalName": "פראשניץ",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 182,
+  "printedPage": "178",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_2c4fb99a8f5c6fc7bf33748a",
+      "pageId": "page_nybc313684_0182",
+      "scanIndex": 182,
+      "leafNumber": 181,
+      "printedPage": "178",
+      "passageCharStart": 57,
+      "passageCharEnd": 64,
+      "normalizedPassageCharStart": 57,
+      "normalizedPassageCharEnd": 64,
+      "pageCharStart": 57,
+      "pageCharEnd": 64,
+      "quote": "פראשניץ",
+      "normalizedQuote": "פראשניץ",
+      "modelQuote": "פראשניץ",
+      "bbox": {
+        "left": 3276,
+        "top": 441,
+        "right": 3599,
+        "bottom": 506
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n181/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "22293602579d27d25008faced7ffc560bfc969426966d5f30399e3a846e63a2f",
+      "normalizedPassageChecksum": "6fa4ae4a27dfa4a5ed34e08d18078e82d37db70505c4873d3243787105d117b6",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_db78e161f0d7df17d20242a1",
+      "predicate": "Worked At",
+      "subjectTitle": "Issachar Berish Grubart",
+      "objectTitle": "Przasnysz",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "role": "rabbi"
+      },
+      "evidence": {
+        "passageId": "passage_2c4fb99a8f5c6fc7bf33748a",
+        "pageId": "page_nybc313684_0182",
+        "scanIndex": 182,
+        "leafNumber": 181,
+        "printedPage": "178",
+        "passageCharStart": 143,
+        "passageCharEnd": 158,
+        "normalizedPassageCharStart": 143,
+        "normalizedPassageCharEnd": 158,
+        "pageCharStart": 143,
+        "pageCharEnd": 158,
+        "quote": "אי ז געווע ן רב",
+        "normalizedQuote": "אי ז געווע ן רב",
+        "modelQuote": "איז געווען רב",
+        "bbox": {
+          "left": 2655,
+          "top": 551,
+          "right": 3152,
+          "bottom": 608
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n181/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "22293602579d27d25008faced7ffc560bfc969426966d5f30399e3a846e63a2f",
+        "normalizedPassageChecksum": "6fa4ae4a27dfa4a5ed34e08d18078e82d37db70505c4873d3243787105d117b6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_58d0a29076bdfa2b5946b7b9",
+      "type": "Birth",
+      "title": "Roza's birth",
+      "summary": "Roza was born in Przasnysz in 1889.",
+      "dateStart": "1889",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "Name text and surrounding OCR are corrupted.",
+      "evidence": {
+        "passageId": "passage_2c4fb99a8f5c6fc7bf33748a",
+        "pageId": "page_nybc313684_0182",
+        "scanIndex": 182,
+        "leafNumber": 181,
+        "printedPage": "178",
+        "passageCharStart": 20,
+        "passageCharEnd": 64,
+        "normalizedPassageCharStart": 20,
+        "normalizedPassageCharEnd": 64,
+        "pageCharStart": 20,
+        "pageCharEnd": 64,
+        "quote": "* עבויר ן 1889 אינ ם קליינע ם שטעט ל פראשניץ",
+        "normalizedQuote": "* עבויר ן 1889 אינ ם קליינע ם שטעט ל פראשניץ",
+        "modelQuote": "* עבוירן1889 אינם קליינעם שטעטל פראשניץ",
+        "bbox": {
+          "left": 3276,
+          "top": 441,
+          "right": 4729,
+          "bottom": 511
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n181/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "22293602579d27d25008faced7ffc560bfc969426966d5f30399e3a846e63a2f",
+        "normalizedPassageChecksum": "6fa4ae4a27dfa4a5ed34e08d18078e82d37db70505c4873d3243787105d117b6",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_930e90ada0975616fc7225a9",
+      "type": "Person",
+      "title": "Issachar Berish Grubart",
+      "relation": "Worked At"
+    },
+    {
+      "id": "event_candidate_58d0a29076bdfa2b5946b7b9",
+      "type": "Event",
+      "title": "Roza's birth",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_930e90ada0975616fc7225a9",
+      "type": "Person",
+      "title": "Issachar Berish Grubart",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bf8ea992ab8a598e8f594f41",
+      "type": "Place",
+      "title": "Płock Governorate",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b8548d93de1b10ed48004367",
+      "type": "Place",
+      "title": "Poland",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b116bbe90d6fc9916c50f7e5",
+      "type": "Place",
+      "title": "Siedlce",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_0e9882d9a61fb19ed313e67d",
+      "type": "Institution",
+      "title": "Russian school in Siedlce",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1c7e7b625cbbdf96cfca17c1",
+      "type": "Institution",
+      "title": "Polish school in Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b82f58ab00fd784a467fc199",
+      "type": "Person",
+      "title": "Mendele",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3a52b80d828e407ea1b84c69",
+      "type": "Person",
+      "title": "Peretz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_945bccfc70a95fb3ca8dc574",
+      "type": "Person",
+      "title": "Sholem Aleichem",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

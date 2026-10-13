@@ -1,0 +1,133 @@
+{
+  "id": "mention_2c8ee61633201a3ffe771779",
+  "type": "Person",
+  "title": "King Sigismund",
+  "summary": "The king granted a Polish family a privilege to sell books to Jews in the Krakow voivodeship.",
+  "originalName": "דער קעניג זיגמונט1",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 19,
+  "printedPage": "15",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "king",
+  "uncertaintyNote": "The OCR includes a numeral after the name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e26cc172affcbb0e178c60f1",
+      "pageId": "page_nybc313684_0019",
+      "scanIndex": 19,
+      "leafNumber": 18,
+      "printedPage": "15",
+      "passageCharStart": 517,
+      "passageCharEnd": 538,
+      "normalizedPassageCharStart": 517,
+      "normalizedPassageCharEnd": 538,
+      "pageCharStart": 517,
+      "pageCharEnd": 538,
+      "quote": "דע ר\nקעניג זיגמונ ט 1",
+      "normalizedQuote": "דע ר\nקעניג זיגמונ ט 1",
+      "modelQuote": "דער קעניג זיגמונט1",
+      "bbox": {
+        "left": 2563,
+        "top": 994,
+        "right": 4549,
+        "bottom": 1158
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n18/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "1f0c91fabd92c1506db68cc3855988ab81fb745646accc12bd92c0099f8a0b2b",
+      "normalizedPassageChecksum": "dd3a026da6741a08f4ed5a007c06241eb6c1cadb8021b90efc42c9803297f3ec",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_5cffcf5c44e017808fe40a6e",
+      "predicate": "Granted Privilege To",
+      "subjectTitle": "King Sigismund",
+      "objectTitle": "Unnamed Polish family",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "relationship": "granted the family a privilege"
+      },
+      "evidence": {
+        "passageId": "passage_e26cc172affcbb0e178c60f1",
+        "pageId": "page_nybc313684_0019",
+        "scanIndex": 19,
+        "leafNumber": 18,
+        "printedPage": "15",
+        "passageCharStart": 517,
+        "passageCharEnd": 618,
+        "normalizedPassageCharStart": 517,
+        "normalizedPassageCharEnd": 618,
+        "pageCharStart": 517,
+        "pageCharEnd": 618,
+        "quote": "דע ר\nקעניג זיגמונ ט 1 הא ט ארויסגעגעב ן ד י מיטגלידע ר פו ן א געוויסע ר\nפוילישער משפח ה א פריווילעגיע",
+        "normalizedQuote": "דע ר\nקעניג זיגמונ ט 1 הא ט ארויסגעגעב ן ד י מיטגלידע ר פו ן א געוויסע ר\nפוילישער משפח ה א פריווילעגיע",
+        "modelQuote": "דער קעניג זיגמונט1 האט ארויסגעגעבן די מיטגלידער פוןא געוויסער פוילישער משפחהא פריווילעגיע",
+        "bbox": {
+          "left": 2561,
+          "top": 994,
+          "right": 4549,
+          "bottom": 1266
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n18/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "1f0c91fabd92c1506db68cc3855988ab81fb745646accc12bd92c0099f8a0b2b",
+        "normalizedPassageChecksum": "dd3a026da6741a08f4ed5a007c06241eb6c1cadb8021b90efc42c9803297f3ec",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_3dbcbedd345b241a9ff04d09",
+      "type": "Family",
+      "title": "Unnamed Polish family",
+      "relation": "Granted Privilege To"
+    },
+    {
+      "id": "mention_381eb232a95aaba601a8b274",
+      "type": "Person",
+      "title": "Israel Salamanovich",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d5606eeff8bfaa60e877d3e0",
+      "type": "Family",
+      "title": "Israel Salamanovich's family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9efb3bc52c5ccb1275e98a78",
+      "type": "Community",
+      "title": "Będzin Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3dbcbedd345b241a9ff04d09",
+      "type": "Family",
+      "title": "Unnamed Polish family",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9a9e7accd2b65ee966abae36",
+      "type": "Organization",
+      "title": "Castle Garrison",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d58ed8d972bc3acb49a6a2e0",
+      "type": "Place",
+      "title": "Krakow Voivodeship",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

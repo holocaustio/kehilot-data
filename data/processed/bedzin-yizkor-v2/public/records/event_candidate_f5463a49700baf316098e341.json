@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_f5463a49700baf316098e341",
+  "type": "Event",
+  "title": "Zigler traveled to Paris",
+  "summary": "After the academy, Zigler went to Paris to continue his painting studies.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 111,
+  "printedPage": "107",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1850072f4e6bd7844cdf383b",
+      "pageId": "page_nybc313684_0111",
+      "scanIndex": 111,
+      "leafNumber": 110,
+      "printedPage": "107",
+      "passageCharStart": 1071,
+      "passageCharEnd": 1124,
+      "normalizedPassageCharStart": 1071,
+      "normalizedPassageCharEnd": 1124,
+      "pageCharStart": 1071,
+      "pageCharEnd": 1124,
+      "quote": "נאכן ענדיק ן ד י אקאדעמיע , פאר ט ציגלע ר קיי ן פאריז",
+      "normalizedQuote": "נאכן ענדיק ן ד י אקאדעמיע , פאר ט ציגלע ר קיי ן פאריז",
+      "modelQuote": "נאכן ענדיקן די אקאדעמיע, פארט ציגלער קיין פאריז",
+      "bbox": {
+        "left": 2808,
+        "top": 2706,
+        "right": 4416,
+        "bottom": 2794
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n110/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "172fea80031af9a60304a678d67378ad7e6105835f9484ec33ca22441460f86e",
+      "normalizedPassageChecksum": "b84b420e5e4d19743d48e988fc1c19f1fc378bf236996eab8b54e10340dd8769",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_feec367eb5547eb935d4d34c",
+      "type": "Place",
+      "title": "Paris",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d806cc72150f303bcc19447d",
+      "type": "Person",
+      "title": "Shmuel Zigler",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

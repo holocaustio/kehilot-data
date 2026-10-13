@@ -1,0 +1,125 @@
+{
+  "id": "mention_f88b20253e5aedee4c5fb223",
+  "type": "Person",
+  "title": "Zvi",
+  "summary": "A dead man whose body was taken from the field and buried at Kamionka.",
+  "originalName": "צבי",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 369,
+  "printedPage": "365",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "uncertaintyNote": "The passage does not explicitly connect this Zvi with the Zvi named in the preceding passage.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d6525319008b802ef8faae3b",
+      "pageId": "page_nybc313684_0369",
+      "scanIndex": 369,
+      "leafNumber": 368,
+      "printedPage": "365",
+      "passageCharStart": 193,
+      "passageCharEnd": 212,
+      "normalizedPassageCharStart": 193,
+      "normalizedPassageCharEnd": 212,
+      "pageCharStart": 5047,
+      "pageCharEnd": 5066,
+      "quote": "ושם ראינ ו א ת צב י",
+      "normalizedQuote": "ושם ראינ ו א ת צב י",
+      "modelQuote": "ושם ראינו את צבי",
+      "bbox": {
+        "left": 1517,
+        "top": 4470,
+        "right": 2297,
+        "bottom": 4524
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n368/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "0ed5d87b84afe250e6c5a82519d9fa2361ea78229b9b6e6a329f1a76eefaf7f7",
+      "normalizedPassageChecksum": "aca70f48bf81faebc3038d527a132085ac6338736af349f2008e9026f258405a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d503f706358ce08b6fa267aa",
+      "type": "Deportation",
+      "title": "Bodies transported to Auschwitz",
+      "summary": "Gestapo agents removed the dead from their graves and transported them to Auschwitz to burn them.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The plural refers to the dead; the number and identities are not specified.",
+      "evidence": {
+        "passageId": "passage_d6525319008b802ef8faae3b",
+        "pageId": "page_nybc313684_0369",
+        "scanIndex": 369,
+        "leafNumber": 368,
+        "printedPage": "365",
+        "passageCharStart": 602,
+        "passageCharEnd": 628,
+        "normalizedPassageCharStart": 602,
+        "normalizedPassageCharEnd": 628,
+        "pageCharStart": 5456,
+        "pageCharEnd": 5482,
+        "quote": "והובילו ם לאושוויץ , לשרפם",
+        "normalizedQuote": "והובילו ם לאושוויץ , לשרפם",
+        "modelQuote": "והובילום לאושוויץ, לשרפם",
+        "bbox": {
+          "left": 957,
+          "top": 5102,
+          "right": 1887,
+          "bottom": 5184
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n368/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "0ed5d87b84afe250e6c5a82519d9fa2361ea78229b9b6e6a329f1a76eefaf7f7",
+        "normalizedPassageChecksum": "aca70f48bf81faebc3038d527a132085ac6338736af349f2008e9026f258405a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_d503f706358ce08b6fa267aa",
+      "type": "Event",
+      "title": "Bodies transported to Auschwitz",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_711bfe7c7895f6d667d217f7",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_01e5208d6776182be2faa151",
+      "type": "Place",
+      "title": "The camp",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_88b2231ac77e859351f3302e",
+      "type": "Place",
+      "title": "Field",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ab3ab2b04d9fdc5b0ed0cbe1",
+      "type": "Object",
+      "title": "Wagon",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6e15a902a4afd48e693cae29",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

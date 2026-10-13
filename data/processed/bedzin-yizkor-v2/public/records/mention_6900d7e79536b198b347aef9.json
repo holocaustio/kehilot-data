@@ -1,0 +1,125 @@
+{
+  "id": "mention_6900d7e79536b198b347aef9",
+  "type": "Place",
+  "title": "Cuenca",
+  "summary": "A town described as an important military point in Spain.",
+  "originalName": "קוענקא",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 37,
+  "printedPage": "33",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "town",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5acb81bf79b9f11b9d0d9a5d",
+      "pageId": "page_nybc313684_0037",
+      "scanIndex": 37,
+      "leafNumber": 36,
+      "printedPage": "33",
+      "passageCharStart": 719,
+      "passageCharEnd": 732,
+      "normalizedPassageCharStart": 719,
+      "normalizedPassageCharEnd": 732,
+      "pageCharStart": 2085,
+      "pageCharEnd": 2098,
+      "quote": "שטעט ל קוענקא",
+      "normalizedQuote": "שטעט ל קוענקא",
+      "modelQuote": "שטעטל קוענקא",
+      "bbox": {
+        "left": 2610,
+        "top": 4104,
+        "right": 3158,
+        "bottom": 4184
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n36/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "3023bf45005c8f0d249b5198150ce05ea6a14f7b314a4f84327e149aa297c366",
+      "normalizedPassageChecksum": "b07af0727772ef9b60ee1f20bed6a016cd1fdf9dcd4fc32dbfa3698cde1b5c3b",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_27584c79d1d5ffb3e8323ff5",
+      "type": "Military Service",
+      "title": "Defense of Cuenca",
+      "summary": "Jakob Shpat commanded a defense against Spanish forces at Cuenca in 1808.",
+      "dateStart": "1808",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage continues across the next passage; details of the defense and its outcome are in passage passage_43a10e158b0c96b3b5b81afd.",
+      "evidence": {
+        "passageId": "passage_5acb81bf79b9f11b9d0d9a5d",
+        "pageId": "page_nybc313684_0037",
+        "scanIndex": 37,
+        "leafNumber": 36,
+        "printedPage": "33",
+        "passageCharStart": 608,
+        "passageCharEnd": 661,
+        "normalizedPassageCharStart": 608,
+        "normalizedPassageCharEnd": 661,
+        "pageCharStart": 1974,
+        "pageCharEnd": 2027,
+        "quote": "אי ן יאנוא ר פו ן 1808 אי ז ע ר ארויסגעשיק ט געוואר ן",
+        "normalizedQuote": "אי ן יאנוא ר פו ן 1808 אי ז ע ר ארויסגעשיק ט געוואר ן",
+        "modelQuote": "אין יאנואר פון1808 איז ער ארויסגעשיקט געווארן",
+        "bbox": {
+          "left": 2592,
+          "top": 4010,
+          "right": 4256,
+          "bottom": 4078
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n36/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "3023bf45005c8f0d249b5198150ce05ea6a14f7b314a4f84327e149aa297c366",
+        "normalizedPassageChecksum": "b07af0727772ef9b60ee1f20bed6a016cd1fdf9dcd4fc32dbfa3698cde1b5c3b",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_27584c79d1d5ffb3e8323ff5",
+      "type": "Event",
+      "title": "Defense of Cuenca",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_38075282edb0c71e7c9da4a5",
+      "type": "Person",
+      "title": "Jakob Shpat",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_af5013a297373c3a1f889157",
+      "type": "Place",
+      "title": "Spain",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bb3d12a5dbeb02067983bd48",
+      "type": "Place",
+      "title": "Saragossa",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1d840df9bce8ef75f9208a91",
+      "type": "Community",
+      "title": "French soldiers",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_26535906694f4e588b7fabfd",
+      "type": "Community",
+      "title": "Spaniards",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

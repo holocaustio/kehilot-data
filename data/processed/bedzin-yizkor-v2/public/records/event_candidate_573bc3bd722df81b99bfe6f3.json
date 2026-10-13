@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_573bc3bd722df81b99bfe6f3",
+  "type": "Event",
+  "title": "First London exhibition",
+  "summary": "Apelboym's first exhibition was held in London in 1918 under Dr. Max Nordau's patronage.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 105,
+  "printedPage": "101",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Exhibition",
+  "uncertaintyNote": "The event is an exhibition, which has no dedicated event type in the schema.",
+  "dateStart": "1918",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_789bf82b169a0ffc18a4358e",
+      "pageId": "page_nybc313684_0105",
+      "scanIndex": 105,
+      "leafNumber": 104,
+      "printedPage": "101",
+      "passageCharStart": 864,
+      "passageCharEnd": 972,
+      "normalizedPassageCharStart": 864,
+      "normalizedPassageCharEnd": 972,
+      "pageCharStart": 3044,
+      "pageCharEnd": 3152,
+      "quote": "אין יא ר 1918 קומ ט פא ר אי ן לאנדא ן זיי ן ערשט ע אויסשטעלונ ג\nאונטערן פראטעקטארא ט פו ן ד״ ר מאק ס נארדו י",
+      "normalizedQuote": "אין יא ר 1918 קומ ט פא ר אי ן לאנדא ן זיי ן ערשט ע אויסשטעלונ ג\nאונטערן פראטעקטארא ט פו ן ד״ ר מאק ס נארדו י",
+      "modelQuote": "אין יאר1918 קומט פאר אין לאנדאן זיין ערשטע אויסשטעלונג אונטערן פראטעקטאראט פון ד״ר מאקס נארדוי",
+      "bbox": {
+        "left": 2576,
+        "top": 4639,
+        "right": 4496,
+        "bottom": 4831
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n104/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "f08666fff56060ad195a5e3dad404b5ed412f4c2947546def5c41776054a086b",
+      "normalizedPassageChecksum": "54fecbb842b887d71ef1fd319a5345f745d619a195824999f390fea4e3f95812",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_22eb65a885d54b547c01e309",
+      "type": "Place",
+      "title": "London",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_7e61a6e1cfe74da211ceb11f",
+      "type": "Person",
+      "title": "Moshe Apelboym",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_3253781bc9a192c0a81497ba",
+      "type": "Person",
+      "title": "Dr. Max Nordau",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

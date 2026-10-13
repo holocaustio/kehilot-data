@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_aa238940b62a0e1b867784c3",
+  "type": "Event",
+  "title": "Murder of Nathan-Nahum in the Warsaw Ghetto",
+  "summary": "Nathan-Nahum was murdered by the Nazis during the destruction of the ghetto.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 245,
+  "printedPage": "241",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_23f3c363a21d60cec3335602",
+      "pageId": "page_nybc313684_0245",
+      "scanIndex": 245,
+      "leafNumber": 244,
+      "printedPage": "241",
+      "passageCharStart": 1059,
+      "passageCharEnd": 1095,
+      "normalizedPassageCharStart": 1059,
+      "normalizedPassageCharEnd": 1095,
+      "pageCharStart": 5832,
+      "pageCharEnd": 5868,
+      "quote": "נרצ ח ביד י הנאצי ם ע ם השמד ת הגיטו",
+      "normalizedQuote": "נרצ ח ביד י הנאצי ם ע ם השמד ת הגיטו",
+      "modelQuote": "נרצח בידי הנאצים עם השמדת הגיטו",
+      "bbox": {
+        "left": 592,
+        "top": 5979,
+        "right": 1884,
+        "bottom": 6039
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n244/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "b2d5b9dfa9e4cde1e22068b01257afcf9c796d45bb8a86cfb3a5aed195b053af",
+      "normalizedPassageChecksum": "e59ce56e509c6a8d206bae40c2f9560e15a354a086fafcdc113a9a5370d35847",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_3b8c2131b0cc237cc65601c9",
+      "type": "Place",
+      "title": "Warsaw Ghetto",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_9e2d2321fe6ecb7c035eb0be",
+      "type": "Person",
+      "title": "Nathan-Nahum",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

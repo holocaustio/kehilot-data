@@ -1,0 +1,160 @@
+{
+  "id": "mention_fcd57e59c9c4f67f768c8242",
+  "type": "Place",
+  "title": "Będzin city market",
+  "summary": "The Jewish guard was stationed in the city's market.",
+  "originalName": "שוק העיר",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 223,
+  "printedPage": "219",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "market",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1c64ee10e56df9bc6fb2c74f",
+      "pageId": "page_nybc313684_0223",
+      "scanIndex": 223,
+      "leafNumber": 222,
+      "printedPage": "219",
+      "passageCharStart": 270,
+      "passageCharEnd": 293,
+      "normalizedPassageCharStart": 270,
+      "normalizedPassageCharEnd": 293,
+      "pageCharStart": 4216,
+      "pageCharEnd": 4239,
+      "quote": "הוצ ב המשמ ר בשו ק העיר",
+      "normalizedQuote": "הוצ ב המשמ ר בשו ק העיר",
+      "modelQuote": "הוצב המשמר בשוק העיר",
+      "bbox": {
+        "left": 3646,
+        "top": 5603,
+        "right": 4538,
+        "bottom": 5677
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n222/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "74e8bfd2ccc5450477a356ab984f6e38697fc43bd6c77110e456b2199b915f67",
+      "normalizedPassageChecksum": "794800a367bc8f51917401a29a044400e15fe3eb8716f7468e2b340564813ad9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_b833d085b7f95d747849fa0a",
+      "predicate": "Traded In",
+      "subjectTitle": "Rabbi Anshel's wife",
+      "objectTitle": "Będzin city market",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text identifies her as a salt trader but does not specify where she traded.",
+      "evidence": {
+        "passageId": "passage_1c64ee10e56df9bc6fb2c74f",
+        "pageId": "page_nybc313684_0223",
+        "scanIndex": 223,
+        "leafNumber": 222,
+        "printedPage": "219",
+        "passageCharStart": 766,
+        "passageCharEnd": 789,
+        "normalizedPassageCharStart": 766,
+        "normalizedPassageCharEnd": 789,
+        "pageCharStart": 4712,
+        "pageCharEnd": 4735,
+        "quote": "אשת ו הית ה סוחר ת במלח",
+        "normalizedQuote": "אשת ו הית ה סוחר ת במלח",
+        "modelQuote": "אשתו היתה סוחרת במלח",
+        "bbox": {
+          "left": 459,
+          "top": 4982,
+          "right": 1371,
+          "bottom": 5058
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n222/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "74e8bfd2ccc5450477a356ab984f6e38697fc43bd6c77110e456b2199b915f67",
+        "normalizedPassageChecksum": "794800a367bc8f51917401a29a044400e15fe3eb8716f7468e2b340564813ad9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_757b0c31c546d9c53e50a446",
+      "predicate": "Located In",
+      "subjectTitle": "Będzin city market",
+      "objectTitle": "Będzin",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1c64ee10e56df9bc6fb2c74f",
+        "pageId": "page_nybc313684_0223",
+        "scanIndex": 223,
+        "leafNumber": 222,
+        "printedPage": "219",
+        "passageCharStart": 270,
+        "passageCharEnd": 293,
+        "normalizedPassageCharStart": 270,
+        "normalizedPassageCharEnd": 293,
+        "pageCharStart": 4216,
+        "pageCharEnd": 4239,
+        "quote": "הוצ ב המשמ ר בשו ק העיר",
+        "normalizedQuote": "הוצ ב המשמ ר בשו ק העיר",
+        "modelQuote": "הוצב המשמר בשוק העיר",
+        "bbox": {
+          "left": 3646,
+          "top": 5603,
+          "right": 4538,
+          "bottom": 5677
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n222/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "74e8bfd2ccc5450477a356ab984f6e38697fc43bd6c77110e456b2199b915f67",
+        "normalizedPassageChecksum": "794800a367bc8f51917401a29a044400e15fe3eb8716f7468e2b340564813ad9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_53f27947161732c62b5fc8cd",
+      "type": "Person",
+      "title": "Rabbi Anshel's wife",
+      "relation": "Traded In"
+    },
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b9b0c8706ce8c7c18e1158ba",
+      "type": "Family",
+      "title": "Jewish families of Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_42fbd0ba76aafefb9ab3b2a6",
+      "type": "Person",
+      "title": "Rabbi Anshel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_53f27947161732c62b5fc8cd",
+      "type": "Person",
+      "title": "Rabbi Anshel's wife",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

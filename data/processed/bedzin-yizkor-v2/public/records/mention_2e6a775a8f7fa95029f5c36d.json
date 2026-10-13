@@ -1,0 +1,108 @@
+{
+  "id": "mention_2e6a775a8f7fa95029f5c36d",
+  "type": "Person",
+  "title": "Baron Edmond Rothschild",
+  "summary": "A philanthropist approached by the Rabbi of Pilov for support.",
+  "originalName": "אדמונד רוטשילד",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 250,
+  "printedPage": "246",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Baron",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0a96d5cf1d7ce633fc94020a",
+      "pageId": "page_nybc313684_0250",
+      "scanIndex": 250,
+      "leafNumber": 249,
+      "printedPage": "246",
+      "passageCharStart": 51,
+      "passageCharEnd": 74,
+      "normalizedPassageCharStart": 51,
+      "normalizedPassageCharEnd": 74,
+      "pageCharStart": 5946,
+      "pageCharEnd": 5969,
+      "quote": "הבארו ן\nאדמונד רוטשיל ד",
+      "normalizedQuote": "הבארו ן\nאדמונד רוטשיל ד",
+      "modelQuote": "הבארון אדמונד רוטשילד",
+      "bbox": {
+        "left": 260,
+        "top": 5550,
+        "right": 2204,
+        "bottom": 5706
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n249/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "d98dab01dbd013de659711b8eea49f2aa38798ecb89574363bb9cd4393deddd6",
+      "normalizedPassageChecksum": "d74cbdae4949bac58a95114097c95af02f7272a698c3f37736b075dec76e862d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_35149727b8a13b9af09fd73c",
+      "predicate": "Owned",
+      "subjectTitle": "Baron Edmond Rothschild",
+      "objectTitle": "Land of Israel",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "relation": "had settlements in"
+      },
+      "evidence": {
+        "passageId": "passage_0a96d5cf1d7ce633fc94020a",
+        "pageId": "page_nybc313684_0250",
+        "scanIndex": 250,
+        "leafNumber": 249,
+        "printedPage": "246",
+        "passageCharStart": 280,
+        "passageCharEnd": 301,
+        "normalizedPassageCharStart": 280,
+        "normalizedPassageCharEnd": 301,
+        "pageCharStart": 6175,
+        "pageCharEnd": 6196,
+        "quote": "במושבותי ו בארץ־ישראל",
+        "normalizedQuote": "במושבותי ו בארץ־ישראל",
+        "modelQuote": "במושבותיו בארץ־ישראל",
+        "bbox": {
+          "left": 280,
+          "top": 5954,
+          "right": 1242,
+          "bottom": 6038
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n249/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "d98dab01dbd013de659711b8eea49f2aa38798ecb89574363bb9cd4393deddd6",
+        "normalizedPassageChecksum": "d74cbdae4949bac58a95114097c95af02f7272a698c3f37736b075dec76e862d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_4b265c78b6b36ff9fc212738",
+      "type": "Place",
+      "title": "Land of Israel",
+      "relation": "Owned"
+    },
+    {
+      "id": "mention_f7f6e2f86039342b73cc89bb",
+      "type": "Person",
+      "title": "Rabbi of Pilov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b265c78b6b36ff9fc212738",
+      "type": "Place",
+      "title": "Land of Israel",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

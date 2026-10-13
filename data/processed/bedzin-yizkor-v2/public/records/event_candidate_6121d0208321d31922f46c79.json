@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_6121d0208321d31922f46c79",
+  "type": "Event",
+  "title": "Death of Shmuel David Vardi",
+  "summary": "Vardi was shot and killed while traveling with two young men.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 382,
+  "printedPage": "378",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_42fab3ba6db762e1dbfee851",
+      "pageId": "page_nybc313684_0382",
+      "scanIndex": 382,
+      "leafNumber": 381,
+      "printedPage": "378",
+      "passageCharStart": 307,
+      "passageCharEnd": 336,
+      "normalizedPassageCharStart": 307,
+      "normalizedPassageCharEnd": 336,
+      "pageCharStart": 4231,
+      "pageCharEnd": 4260,
+      "quote": "ושמוא ל דו ד\nורדי נהר ג במקום",
+      "normalizedQuote": "ושמוא ל דו ד\nורדי נהר ג במקום",
+      "modelQuote": "ושמואל דוד ורדי נהרג במקום",
+      "bbox": {
+        "left": 233,
+        "top": 3807,
+        "right": 2263,
+        "bottom": 4003
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n381/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "2ce87a5163e70c9032bedd7e71cd7a296b490cae2a6013537965e2de7dbe48bd",
+      "normalizedPassageChecksum": "fb14a4eca50f46f23a430c2d97f538b48d296d1a5e6f5827ae9b58ef5e3fc859",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_ebf154c33e37f4f66efe3fa9",
+      "type": "Place",
+      "title": "Tel Aviv",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_aa93706ad1d98c1392794ce3",
+      "type": "Person",
+      "title": "Shmuel David Vardi (Rosenzweig)",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

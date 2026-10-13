@@ -1,0 +1,124 @@
+{
+  "id": "mention_602a13fde135e1636e67b33e",
+  "type": "Place",
+  "title": "Old Jewish Cemetery",
+  "summary": "Described as the oldest Jewish cemetery, with partly sunken gravestones.",
+  "originalName": "יידישער בית־עולם",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 132,
+  "printedPage": "128",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "cemetery",
+  "uncertaintyNote": "The OCR splits the word for oldest across a space.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_56f196687d85e638ffe6f4e5",
+      "pageId": "page_nybc313684_0132",
+      "scanIndex": 132,
+      "leafNumber": 131,
+      "printedPage": "128",
+      "passageCharStart": 676,
+      "passageCharEnd": 710,
+      "normalizedPassageCharStart": 676,
+      "normalizedPassageCharEnd": 710,
+      "pageCharStart": 2854,
+      "pageCharEnd": 2888,
+      "quote": "דע ר על ־\nטסטער יידישע ר בית־עול ם",
+      "normalizedQuote": "דע ר על ־\nטסטער יידישע ר בית־עול ם",
+      "modelQuote": "דער על־ טסטער יידישער בית־עולם",
+      "bbox": {
+        "left": 2628,
+        "top": 4869,
+        "right": 4580,
+        "bottom": 5039
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n131/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "18db2a4bdb6b4c1531f69107f04a7c6f15c20d4a7ce4354556711f2ee3606573",
+      "normalizedPassageChecksum": "65bd6790c3ac1c5ab260b0890650b62baa7ab14f852bc85465c0df67f95253fe",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_eee00c33062e9065b6054795",
+      "predicate": "Located In",
+      "subjectTitle": "Old Jewish Cemetery",
+      "objectTitle": "Góra Zamkowa",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_56f196687d85e638ffe6f4e5",
+        "pageId": "page_nybc313684_0132",
+        "scanIndex": 132,
+        "leafNumber": 131,
+        "printedPage": "128",
+        "passageCharStart": 627,
+        "passageCharEnd": 710,
+        "normalizedPassageCharStart": 627,
+        "normalizedPassageCharEnd": 710,
+        "pageCharStart": 2805,
+        "pageCharEnd": 2888,
+        "quote": "אונט ר דע ר \"גור א זאמקאווא \" הא ט זי ך געפונע ן דע ר על ־\nטסטער יידישע ר בית־עול ם",
+        "normalizedQuote": "אונט ר דע ר \"גור א זאמקאווא \" הא ט זי ך געפונע ן דע ר על ־\nטסטער יידישע ר בית־עול ם",
+        "modelQuote": "אונטר דער \"גורא זאמקאווא\" האט זיך געפונען דער על־ טסטער יידישער בית־עולם",
+        "bbox": {
+          "left": 2628,
+          "top": 4869,
+          "right": 4580,
+          "bottom": 5039
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n131/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "18db2a4bdb6b4c1531f69107f04a7c6f15c20d4a7ce4354556711f2ee3606573",
+        "normalizedPassageChecksum": "65bd6790c3ac1c5ab260b0890650b62baa7ab14f852bc85465c0df67f95253fe",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_bb5c454e6351d5d8c14cb58a",
+      "type": "Place",
+      "title": "Góra Zamkowa",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_9efb3bc52c5ccb1275e98a78",
+      "type": "Community",
+      "title": "Będzin Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bb5c454e6351d5d8c14cb58a",
+      "type": "Place",
+      "title": "Góra Zamkowa",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e17b35e7db52494712609645",
+      "type": "Institution",
+      "title": "Synagogue",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_41f97605c05a778b9ebb7dd2",
+      "type": "Institution",
+      "title": "Beit Midrash",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3d58d745fd65a75a43f3bde9",
+      "type": "Place",
+      "title": "Gurke",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

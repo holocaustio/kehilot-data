@@ -1,0 +1,107 @@
+{
+  "id": "mention_5a49bac212c93a4889213545",
+  "type": "Organization",
+  "title": "German Press Administration",
+  "summary": "German authority whose chief led a commission inspecting the newspaper's editorial office.",
+  "originalName": "דייטשער פרעסע־פארוואלטונג",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 70,
+  "printedPage": "66",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "press administration",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_64b83f6a880cd1cfb130f2d0",
+      "pageId": "page_nybc313684_0070",
+      "scanIndex": 70,
+      "leafNumber": 69,
+      "printedPage": "66",
+      "passageCharStart": 485,
+      "passageCharEnd": 517,
+      "normalizedPassageCharStart": 485,
+      "normalizedPassageCharEnd": 517,
+      "pageCharStart": 1930,
+      "pageCharEnd": 1962,
+      "quote": "דע ר דייטשע ר פרעסע־פארוואלטונ ג",
+      "normalizedQuote": "דע ר דייטשע ר פרעסע־פארוואלטונ ג",
+      "modelQuote": "דער דייטשער פרעסע־פארוואלטונג",
+      "bbox": {
+        "left": 2990,
+        "top": 3459,
+        "right": 4272,
+        "bottom": 3541
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n69/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "eb908138aaaa2dea23aa89fb4ae134070719f8aa8b5a6581dc5fcfde7c172310",
+      "normalizedPassageChecksum": "ce25fab848815d91bf15e92cea4fee72c77d7b936b182a9d315c247e241de381",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_491ac19321806698ab3d2153",
+      "type": "Business Opening",
+      "title": "Order to stop publication of Our Telephone",
+      "summary": "German authorities ordered the newspaper's publication stopped after an inspection of its editorial office.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event does not fit an allowed event type; omitted.",
+      "evidence": {
+        "passageId": "passage_64b83f6a880cd1cfb130f2d0",
+        "pageId": "page_nybc313684_0070",
+        "scanIndex": 70,
+        "leafNumber": 69,
+        "printedPage": "66",
+        "passageCharStart": 1113,
+        "passageCharEnd": 1171,
+        "normalizedPassageCharStart": 1113,
+        "normalizedPassageCharEnd": 1171,
+        "pageCharStart": 2558,
+        "pageCharEnd": 2616,
+        "quote": "מע ר האב ן זי י אונ ז ד י צייטונ ג ניש ט געלאז ט\nארויסגעבן",
+        "normalizedQuote": "מע ר האב ן זי י אונ ז ד י צייטונ ג ניש ט געלאז ט\nארויסגעבן",
+        "modelQuote": "מער האבן זיי אונז די צייטונג נישט געלאזט ארויסגעבן",
+        "bbox": {
+          "left": 2582,
+          "top": 4453,
+          "right": 4390,
+          "bottom": 4639
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n69/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "eb908138aaaa2dea23aa89fb4ae134070719f8aa8b5a6581dc5fcfde7c172310",
+        "normalizedPassageChecksum": "ce25fab848815d91bf15e92cea4fee72c77d7b936b182a9d315c247e241de381",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_491ac19321806698ab3d2153",
+      "type": "Event",
+      "title": "Order to stop publication of Our Telephone",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_61c3ef7b88cf333ddac1b85f",
+      "type": "Place",
+      "title": "Zagłębie",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d48e579e9b0121a2b8b63e76",
+      "type": "Organization",
+      "title": "Russian Government",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

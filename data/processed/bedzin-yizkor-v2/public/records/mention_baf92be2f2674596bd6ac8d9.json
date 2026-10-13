@@ -1,0 +1,111 @@
+{
+  "id": "mention_baf92be2f2674596bd6ac8d9",
+  "type": "Business",
+  "title": "Large Shoe Shop",
+  "summary": "Large shoe shop overlooking the market square, now described as empty.",
+  "originalName": "החנות הגדולה לנעליים",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 305,
+  "printedPage": "301",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "shoe shop",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_89f283c9425514fcc876b69c",
+      "pageId": "page_nybc313684_0305",
+      "scanIndex": 305,
+      "leafNumber": 304,
+      "printedPage": "301",
+      "passageCharStart": 655,
+      "passageCharEnd": 677,
+      "normalizedPassageCharStart": 655,
+      "normalizedPassageCharEnd": 677,
+      "pageCharStart": 1195,
+      "pageCharEnd": 1217,
+      "quote": "החנו ת הגדול ה לנעליים",
+      "normalizedQuote": "החנו ת הגדול ה לנעליים",
+      "modelQuote": "החנות הגדולה לנעליים",
+      "bbox": {
+        "left": 3495,
+        "top": 2307,
+        "right": 4319,
+        "bottom": 2381
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n304/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "33a67ce6fcbd6be33278856da3fe10d1af44c956580fd5e1b9423f1a590791a1",
+      "normalizedPassageChecksum": "8e87dea8f0e11271bf8bf020ad75aff306ec0e557941c0d23d428075f38b4c9a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_50cc9b7614c2c75653658af9",
+      "predicate": "Located In",
+      "subjectTitle": "Large Shoe Shop",
+      "objectTitle": "Market Square",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_89f283c9425514fcc876b69c",
+        "pageId": "page_nybc313684_0305",
+        "scanIndex": 305,
+        "leafNumber": 304,
+        "printedPage": "301",
+        "passageCharStart": 581,
+        "passageCharEnd": 677,
+        "normalizedPassageCharStart": 581,
+        "normalizedPassageCharEnd": 677,
+        "pageCharStart": 1121,
+        "pageCharEnd": 1217,
+        "quote": "בקר ן הזוית , בבי ת הגדול , הגבוה , הנשק ף ע ל פנ י כ ל ככ ר\nהשוק, פתוח ה החנו ת הגדול ה לנעליים",
+        "normalizedQuote": "בקר ן הזוית , בבי ת הגדול , הגבוה , הנשק ף ע ל פנ י כ ל ככ ר\nהשוק, פתוח ה החנו ת הגדול ה לנעליים",
+        "modelQuote": "בקרן הזוית, בבית הגדול, הגבוה, הנשקף על פני כל ככר השוק, פתוחה החנות הגדולה לנעליים",
+        "bbox": {
+          "left": 2575,
+          "top": 2195,
+          "right": 4559,
+          "bottom": 2381
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n304/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "33a67ce6fcbd6be33278856da3fe10d1af44c956580fd5e1b9423f1a590791a1",
+        "normalizedPassageChecksum": "8e87dea8f0e11271bf8bf020ad75aff306ec0e557941c0d23d428075f38b4c9a",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_7fa62c94b627df8c79c531c8",
+      "type": "Place",
+      "title": "Market Square",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_7fa62c94b627df8c79c531c8",
+      "type": "Place",
+      "title": "Market Square",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_743b09a34507148446cef44f",
+      "type": "Place",
+      "title": "River",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c1f6934c8233504f2857219b",
+      "type": "Place",
+      "title": "Bridge",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

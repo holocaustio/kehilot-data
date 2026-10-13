@@ -1,0 +1,126 @@
+{
+  "id": "mention_26dc132e872f388d8d531c6a",
+  "type": "Place",
+  "title": "Unspecified labor camp",
+  "summary": "Rothenberg was sent to an unnamed labor camp in 1942.",
+  "originalName": "ארבעטם־לאגער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 186,
+  "printedPage": "182",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "labor camp",
+  "uncertaintyNote": "The camp is not identified by name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8e9526be9ddc8d7758d335ce",
+      "pageId": "page_nybc313684_0186",
+      "scanIndex": 186,
+      "leafNumber": 185,
+      "printedPage": "182",
+      "passageCharStart": 702,
+      "passageCharEnd": 723,
+      "normalizedPassageCharStart": 702,
+      "normalizedPassageCharEnd": 723,
+      "pageCharStart": 4487,
+      "pageCharEnd": 4508,
+      "quote": "אי ן א ן ארבעטם־לאגער",
+      "normalizedQuote": "אי ן א ן ארבעטם־לאגער",
+      "modelQuote": "אין אן ארבעטם־לאגער",
+      "bbox": {
+        "left": 288,
+        "top": 5651,
+        "right": 1000,
+        "bottom": 5715
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n185/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "5b16f756d599f78e03a19c63a67f36939fc65361e278c34f7ecd80c50adf4a98",
+      "normalizedPassageChecksum": "243d300c23b46975d9103582a0e5a972a71a6fcc38a047e8d2701197111f82e5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_26c982fe08fa6e2c6860403a",
+      "type": "Deportation",
+      "title": "Sent to a labor camp",
+      "summary": "The Germans sent Rothenberg to an unnamed labor camp in 1942; he did not return.",
+      "dateStart": "1942",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR date reads 'איו1942'; the wording indicates he was sent, without identifying the camp.",
+      "evidence": {
+        "passageId": "passage_8e9526be9ddc8d7758d335ce",
+        "pageId": "page_nybc313684_0186",
+        "scanIndex": 186,
+        "leafNumber": 185,
+        "printedPage": "182",
+        "passageCharStart": 656,
+        "passageCharEnd": 723,
+        "normalizedPassageCharStart": 656,
+        "normalizedPassageCharEnd": 723,
+        "pageCharStart": 4441,
+        "pageCharEnd": 4508,
+        "quote": "איו 1942 ווער ט ע ר דור ך ד י דייטש ן געשיק ט אי ן א ן ארבעטם־לאגער",
+        "normalizedQuote": "איו 1942 ווער ט ע ר דור ך ד י דייטש ן געשיק ט אי ן א ן ארבעטם־לאגער",
+        "modelQuote": "איו1942 ווערט ער דורך די דייטשן געשיקט אין אן ארבעטם־לאגער",
+        "bbox": {
+          "left": 288,
+          "top": 5651,
+          "right": 2180,
+          "bottom": 5715
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n185/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "5b16f756d599f78e03a19c63a67f36939fc65361e278c34f7ecd80c50adf4a98",
+        "normalizedPassageChecksum": "243d300c23b46975d9103582a0e5a972a71a6fcc38a047e8d2701197111f82e5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_26c982fe08fa6e2c6860403a",
+      "type": "Event",
+      "title": "Sent to a labor camp",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1a6c3bf384107ef20ff063df",
+      "type": "Place",
+      "title": "Bendin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ebf154c33e37f4f66efe3fa9",
+      "type": "Place",
+      "title": "Tel Aviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b265c78b6b36ff9fc212738",
+      "type": "Place",
+      "title": "Land of Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_245d57e039356747dcea710b",
+      "type": "Institution",
+      "title": "Bendin Kehillah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bdf6c8a326d964802def4933",
+      "type": "Organization",
+      "title": "Muze Dramatic Society",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

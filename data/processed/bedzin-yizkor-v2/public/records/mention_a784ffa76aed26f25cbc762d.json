@@ -1,0 +1,127 @@
+{
+  "id": "mention_a784ffa76aed26f25cbc762d",
+  "type": "Institution",
+  "title": "Paris Art Academy",
+  "summary": "Art academy Goldberg attended before leaving to pursue his own artistic direction.",
+  "originalName": "פאריזער קוגסט־אקאדעמיע",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 106,
+  "printedPage": "102",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "art academy",
+  "uncertaintyNote": "The OCR reads קוגסט; intended spelling is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f85da69f9f4a056b88c69730",
+      "pageId": "page_nybc313684_0106",
+      "scanIndex": 106,
+      "leafNumber": 105,
+      "printedPage": "102",
+      "passageCharStart": 4,
+      "passageCharEnd": 37,
+      "normalizedPassageCharStart": 4,
+      "normalizedPassageCharEnd": 37,
+      "pageCharStart": 2306,
+      "pageCharEnd": 2339,
+      "quote": "אי ן דע ר פאריזע ר קוגסט־אקאדעמיע",
+      "normalizedQuote": "אי ן דע ר פאריזע ר קוגסט־אקאדעמיע",
+      "modelQuote": "אין דער פאריזער קוגסט־אקאדעמיע",
+      "bbox": {
+        "left": 1100,
+        "top": 463,
+        "right": 2274,
+        "bottom": 529
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n105/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "dc08a011c09ff20f15ed42e145f1db9c8b7124cd5a06ec78d516038104107d8c",
+      "normalizedPassageChecksum": "0a58bcc2fb1d8850953ff9f7f398ec78bd9325c529a2d747ffcc5fabe654233d",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_c33dd0a80a14b2d79490e04d",
+      "predicate": "Studied At",
+      "subjectTitle": "Abraham Goldberg",
+      "objectTitle": "Paris Art Academy",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "subject": "painting"
+      },
+      "evidence": {
+        "passageId": "passage_f85da69f9f4a056b88c69730",
+        "pageId": "page_nybc313684_0106",
+        "scanIndex": 106,
+        "leafNumber": 105,
+        "printedPage": "102",
+        "passageCharStart": 4,
+        "passageCharEnd": 37,
+        "normalizedPassageCharStart": 4,
+        "normalizedPassageCharEnd": 37,
+        "pageCharStart": 2306,
+        "pageCharEnd": 2339,
+        "quote": "אי ן דע ר פאריזע ר קוגסט־אקאדעמיע",
+        "normalizedQuote": "אי ן דע ר פאריזע ר קוגסט־אקאדעמיע",
+        "modelQuote": "אין דער פאריזער קוגסט־אקאדעמיע",
+        "bbox": {
+          "left": 1100,
+          "top": 463,
+          "right": 2274,
+          "bottom": 529
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n105/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "dc08a011c09ff20f15ed42e145f1db9c8b7124cd5a06ec78d516038104107d8c",
+        "normalizedPassageChecksum": "0a58bcc2fb1d8850953ff9f7f398ec78bd9325c529a2d747ffcc5fabe654233d",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b08d3121a52ba50e0620beb3",
+      "type": "Person",
+      "title": "Abraham Goldberg",
+      "relation": "Studied At"
+    },
+    {
+      "id": "mention_feec367eb5547eb935d4d34c",
+      "type": "Place",
+      "title": "Paris",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_acb9adef08628b6c8d28ea85",
+      "type": "Person",
+      "title": "Goldberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cbd0062cfd0973dfacd6c209",
+      "type": "Organization",
+      "title": "Triangle",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_46cd0cfcecf0eb4500e7dfb4",
+      "type": "Work",
+      "title": "Ten Drawings of Jewish Life",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_be4eb56c41118dd4f58f3e52",
+      "type": "Work",
+      "title": "Book of 56 Drawings of Jewish Life",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,1654 @@
+{
+  "schemaVersion": "kehilot-yizkor-reading-paths-v1",
+  "pipelineVersion": "kehilot-yizkor-reading-paths-v1",
+  "promptVersion": "kehilot-yizkor-reading-paths-prompt-v1",
+  "generatedAt": "2026-10-13T16:18:26.021Z",
+  "community": {
+    "id": "community_bedzin",
+    "displayName": "bedzin",
+    "canonicalName": "bedzin",
+    "country": "Poland"
+  },
+  "book": {
+    "id": "book_nybc313684",
+    "title": "Pinḳas Bendin"
+  },
+  "source": {
+    "selectedVersion": "bedzin-yizkor-v2",
+    "graphPath": "data/processed/bedzin-yizkor-v2/adjudication/resolved-graph.json",
+    "graphSha256": "410030b031e4da6b3fad3038ab755f783e10e9f38aa44cfae7696acafa9d501f",
+    "candidateCount": 360
+  },
+  "model": {
+    "name": "gpt-5.6-luna",
+    "serviceTier": "flex",
+    "reasoningEffort": "medium"
+  },
+  "overview": {
+    "title": "Reading Jewish Będzin through Pinkas Bendin",
+    "summary": "Będzin was home to a long-established Jewish community whose history included religious institutions, schools, political movements, newspapers, trades, and extended families. The memorial book traces this communal life from medieval privileges and nineteenth-century development through the Nazi invasion, ghetto persecution, deportations, murder, and the destruction of communal institutions. It also preserves accounts of resistance, escape, survival, migration, and postwar remembrance. Exploring these paths will help readers see Będzin not only as a site of catastrophe, but as a living Jewish society whose members built institutions, worked, worshipped, debated, created culture, and continued to shape memory after the war."
+  },
+  "paths": [
+    {
+      "id": "origins-and-community",
+      "theme": "COMMUNITY_LIFE",
+      "title": "How did Jewish Będzin take shape?",
+      "description": "This path follows the community from its earliest recorded presence and legal privileges to the institutions that organized Jewish life. By the end, readers will understand Będzin as a community with its own civic authority, religious leadership, records, and traditions.",
+      "question": "How did a Jewish community become established and organized in Będzin?",
+      "steps": [
+        {
+          "title": "Early presence and protection",
+          "summary": "The memorial book places Jewish presence in the Zagłębie area in 1226 and records the Kalisz privilege of 1264, which provided protections for Jews and communal property. Later records describe Będzin Jews seeking confirmation of their rights from successive rulers, showing how legal status shaped communal continuity.",
+          "recordIds": [
+            "event_candidate_22d5928cd17740cff84d5084",
+            "event_candidate_73e695b21f6e36335bffb146",
+            "mention_844e351987b04fe447a7d979",
+            "mention_06599c3cdcc866eb5550e754"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_22d5928cd17740cff84d5084",
+              "kind": "event",
+              "type": "MIGRATION",
+              "title": "First Jews appear in the Zagłębie area",
+              "summary": "The first Jews appeared in the Zagłębie area and mostly engaged in agriculture.",
+              "dateStart": "1226",
+              "dateEnd": "1226",
+              "scanIndex": 220,
+              "printedPage": "216",
+              "passageId": "passage_a190f35e3a544fa4fc163017",
+              "quote": "ראשוני היהודי ם הופיע ו בסביב ת זגלמבי ה בשנ ת 1226"
+            },
+            {
+              "recordId": "event_candidate_73e695b21f6e36335bffb146",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Issuance of the Kalisz privilege",
+              "summary": "Prince Bolesław the Pious issued the Kalisz privilege in 1264.",
+              "dateStart": "1264",
+              "dateEnd": "1264",
+              "scanIndex": 17,
+              "printedPage": "13",
+              "passageId": "passage_a35c6af1fd9dd587314bd7cc",
+              "quote": "ארויסגעגעב ן דורכ ן פירש ט באלעסלאו ו דעם פרומע ן אי ן יא ר 1264"
+            },
+            {
+              "recordId": "mention_844e351987b04fe447a7d979",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Kalisz privilege",
+              "summary": "Privilege issued in 1264 that provided protections for Jews and communal property.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 17,
+              "printedPage": "13",
+              "passageId": "passage_a35c6af1fd9dd587314bd7cc",
+              "quote": "ד י אזו י גערופענ ע \"קאלישער פריווילעגיע\""
+            },
+            {
+              "recordId": "mention_06599c3cdcc866eb5550e754",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Bedzin Jews",
+              "summary": "Sent delegations to successive Polish kings to confirm their rights.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 18,
+              "printedPage": "14",
+              "passageId": "passage_4e2ffb419cc0908ed49a7e8b",
+              "quote": "ד י בענדינע ר ייד ן"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "A town with Jewish civic life",
+          "summary": "The book records Jewish challenges to taxation and authority, as well as a 1666 uprising against the Council of Four Lands. These accounts present Będzin Jews as participants in public and communal governance, not merely as a population governed from outside.",
+          "recordIds": [
+            "event_candidate_1663b86892219e448b796a11",
+            "mention_21a5ae5077e5763965658412"
+          ],
+          "records": [
+            {
+              "recordId": "mention_21a5ae5077e5763965658412",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Jews of Będzin",
+              "summary": "Jewish residents of Będzin who challenged taxation and authority.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 18,
+              "printedPage": "14",
+              "passageId": "passage_94c4d53bc052a6ff94a2cd72",
+              "quote": "בענדינע ר ייד ן"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Religious leadership and institutions",
+          "summary": "Będzin maintained rabbis, a burial society, synagogues, and Hasidic prayer houses. The Great Synagogue was built in 1881, while the book also records the establishment of Sadigura and Krimolov Hasidic institutions, revealing varied religious affiliations within the community.",
+          "recordIds": [
+            "event_candidate_b42456aba094319dfb5b6280",
+            "event_candidate_b49d3231ee37177debdea97d",
+            "event_candidate_bf355db283e309d8a96f7abe",
+            "mention_aaf137649913b8082f566b86"
+          ],
+          "records": [
+            {
+              "recordId": "event_candidate_b42456aba094319dfb5b6280",
+              "kind": "event",
+              "type": "BUSINESS_OPENING",
+              "title": "Great Synagogue construction",
+              "summary": "The Great Synagogue was built in 1881.",
+              "dateStart": "1881",
+              "dateEnd": "",
+              "scanIndex": 140,
+              "printedPage": "136",
+              "passageId": "passage_44f879f6189a418ac9ad55f4",
+              "quote": "די שו ל אי ז געבוי ט געוואר ן אי ן יא ר 1881"
+            },
+            {
+              "recordId": "event_candidate_b49d3231ee37177debdea97d",
+              "kind": "event",
+              "type": "EMPLOYMENT",
+              "title": "Rebuilding of the synagogue",
+              "summary": "The wooden synagogue was dismantled and a stone-and-brick synagogue erected at the same site.",
+              "dateStart": "1881",
+              "dateEnd": "1881",
+              "scanIndex": 20,
+              "printedPage": "16",
+              "passageId": "passage_1224a11e145b666828def7b8",
+              "quote": "אין יא ר 1881 אי ז ז י פונאנדערגענומע ן געויאר ן או ן אוי ף דע ם זעלב ן ארט אי ז אויפגעשטעל ט געוואר ן ד י איצטיק ע שו ל פו ן שטיינע ר און ציגל"
+            },
+            {
+              "recordId": "event_candidate_bf355db283e309d8a96f7abe",
+              "kind": "event",
+              "type": "ORGANIZATION_FOUNDING",
+              "title": "Founding of the Sadigura kloiz in Będzin",
+              "summary": "A Sadigura Hasidic kloiz was founded in Będzin one year after the death of the tzaddik of Radomsk.",
+              "dateStart": "1870",
+              "dateEnd": "1870",
+              "scanIndex": 244,
+              "printedPage": "240",
+              "passageId": "passage_7359ccf71ab238fb2c3092bc",
+              "quote": "שנ ה אחר י פטיר ת הצדי ק מרדומסק, 1870 , נוס ד קלוי ז חסיד י סדיגור ה בבנדין"
+            },
+            {
+              "recordId": "mention_aaf137649913b8082f566b86",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Krimolov Hasidic Kloiz",
+              "summary": "Prayer house established in Będzin in the year Rabbi Natan-Nahum Rabinowitz began serving as a rebbe.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 245,
+              "printedPage": "241",
+              "passageId": "passage_d087d6a387926b13ecc7a4b7",
+              "quote": "הקלויז ש ל חסיד י קרימולו ב בבנדי ן נוס ד"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Records that preserved communal memory",
+          "summary": "Community registers documented events, agreements, regulations, legal decisions, residents, property, and burial-society activity. The book emphasizes both the importance of these records and the losses caused when registers disappeared or were lost.",
+          "recordIds": [
+            "mention_81accbfa84ed37a6162b5686",
+            "mention_f02a849dc9099b8f3a74e1bb",
+            "mention_bbe92f6b0c9997754a715b21",
+            "mention_3444bc248fd90c6e4fa442e3"
+          ],
+          "records": [
+            {
+              "recordId": "mention_81accbfa84ed37a6162b5686",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Community Register",
+              "summary": "A communal register recorded important events, agreements, regulations, and legal decisions; it was lost.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 57,
+              "printedPage": "53",
+              "passageId": "passage_bdf97d6ed1767dff2d64a5c5",
+              "quote": "א קה ל פנקס"
+            },
+            {
+              "recordId": "mention_f02a849dc9099b8f3a74e1bb",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Będzin Eternal Books",
+              "summary": "Records that document Jewish residents and property ownership.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 40,
+              "printedPage": "36",
+              "passageId": "passage_62a0beeebde4450da0724ed7",
+              "quote": "בענדינע ר אייביק ע ביכער"
+            },
+            {
+              "recordId": "mention_bbe92f6b0c9997754a715b21",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Register of the Men of True Kindness of Będzin",
+              "summary": "The oldest and most important source used for the study.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 41,
+              "printedPage": "37",
+              "passageId": "passage_953066016d09c8da9b691585",
+              "quote": "\"פנקס מאנש י חס ד ש ל אמ ת דפ ה בענדי ך"
+            },
+            {
+              "recordId": "mention_3444bc248fd90c6e4fa442e3",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Będzin burial society register",
+              "summary": "The burial society's register, reported lost for five years.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 43,
+              "printedPage": "39",
+              "passageId": "passage_b19f50b0564adbc16fd526ab",
+              "quote": "דא ס דאזיק ע בי ד (פנקס ) פו ן דע ר ח״ ק"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "learning-work-and-public-life",
+      "theme": "EDUCATION_CULTURE",
+      "title": "How did Będzin Jews learn, work, worship, and argue about the future?",
+      "description": "This path brings together schools, newspapers, businesses, political movements, and cultural organizations. It shows the range of social worlds through which Będzin Jews educated children, earned livelihoods, expressed identities, and participated in public life.",
+      "question": "What did everyday Jewish life in Będzin look like before the destruction?",
+      "steps": [
+        {
+          "title": "Schools for different educational visions",
+          "summary": "Będzin supported a Talmud Torah teaching Jewish religious texts, a gymnasium with public rights, commercial courses founded in 1918, and the Yavne school founded in 1920 by the Mizrahi movement. These institutions show that education combined traditional study, modern schooling, vocational preparation, and competing Jewish ideologies.",
+          "recordIds": [
+            "mention_466d1e77122e1f3a049624c2",
+            "mention_081db7293edbe0507c1d120f",
+            "mention_3f1a206b7b5c10069c187572",
+            "mention_b8ea7cf5024cba3a06401a78"
+          ],
+          "records": [
+            {
+              "recordId": "mention_466d1e77122e1f3a049624c2",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Talmud Torah",
+              "summary": "Będzin religious school offering instruction from the Hebrew alphabet through Talmud and Tosafot.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 84,
+              "printedPage": "80",
+              "passageId": "passage_3459c7719eff78482320880c",
+              "quote": "ד י ת״ ת"
+            },
+            {
+              "recordId": "mention_081db7293edbe0507c1d120f",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Gymnasium",
+              "summary": "School supported by Firstenberg and granted public rights.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 80,
+              "printedPage": "76",
+              "passageId": "passage_39bf86b0b68041b83b985afa",
+              "quote": "ד י גימנאזי ע הא ט באקומע ן עפנטלעכ ע רעכ ט"
+            },
+            {
+              "recordId": "mention_3f1a206b7b5c10069c187572",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Będzin Commercial Courses",
+              "summary": "Coeducational courses in commerce and administration, established in 1918.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 87,
+              "printedPage": "83",
+              "passageId": "passage_feccb3152cd9e689467ce815",
+              "quote": "ד י ערשט ע האנדלם־קורס ן אי ן בענדין"
+            },
+            {
+              "recordId": "mention_b8ea7cf5024cba3a06401a78",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Yavne School",
+              "summary": "A Mizrahi school founded in 1920, initially named Beit Sefer Mizrahi.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 82,
+              "printedPage": "78",
+              "passageId": "passage_4d3f6ae53f996ad077f74a2f",
+              "quote": "די \"מזרחי־שול \" \"יבנה \""
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Work, trade, and mutual support",
+          "summary": "The memorial book describes Jewish merchants trading iron and steel, textile and grocery businesses, factories, mills, shops, and banks that extended credit or supported artisans. These accounts show how family firms, wage work, and communal economic institutions connected Jewish livelihoods to Będzin’s wider economy.",
+          "recordIds": [
+            "mention_6af63411eb15c998d6dc863b",
+            "mention_8caf82f91c5a95f30b32402a",
+            "mention_ef81154e5e7b5206aa9fc020",
+            "mention_6ad6ae12a565360df75a3f00a8caf82f91c5a95f30b32402a"
+          ],
+          "records": [
+            {
+              "recordId": "mention_6af63411eb15c998d6dc863b",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Jews of Będzin",
+              "summary": "Local Jewish merchants who traded steel and iron across Poland.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 116,
+              "printedPage": "112",
+              "passageId": "passage_f30ea5ebfa1b05307b6078c3",
+              "quote": "בענדינע ר יידן"
+            },
+            {
+              "recordId": "mention_8caf82f91c5a95f30b32402a",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Jacob Gutman's firm",
+              "summary": "A major iron-trading firm and warehouse in Poland.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 116,
+              "printedPage": "112",
+              "passageId": "passage_0595abc64e535df850d93e5a",
+              "quote": "די פירמ ע פו ן יעק ב גוטמאן"
+            },
+            {
+              "recordId": "mention_ef81154e5e7b5206aa9fc020",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Koplowitz textile business",
+              "summary": "Large textile business in Będzin employing several workers and family members.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 259,
+              "printedPage": "255",
+              "passageId": "passage_283bb365a25f3369addc80fd",
+              "quote": "ניה ל עס ק גדו ל ש ל אריגים"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Political movements and civic participation",
+          "summary": "The Bund held meetings, conducted propaganda, participated in demonstrations, and won representation in Będzin’s municipal council. Jewish representatives also held a majority in the city council at one point, while elections and political conferences documented active debate over communal and public affairs.",
+          "recordIds": [
+            "mention_17ecb5d3c57c60a23e7c71fd",
+            "mention_a9e1d56e9e8f964cf7f7a37b",
+            "mention_ad376c11f493da82d120caf6",
+            "mention_2f0319ad20c0d106e40017c5"
+          ],
+          "records": [
+            {
+              "recordId": "mention_17ecb5d3c57c60a23e7c71fd",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "The Bund",
+              "summary": "Founded in Bendin and active in local cultural and professional associations.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 139,
+              "printedPage": "135",
+              "passageId": "passage_e7d7a681d0c3a4490c0dcf9e",
+              "quote": "גרינד ן אי ן בענדי ן דעם \"בונד\""
+            },
+            {
+              "recordId": "mention_a9e1d56e9e8f964cf7f7a37b",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Bund",
+              "summary": "A political movement whose members held meetings and conducted propaganda in Bendin.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 278,
+              "printedPage": "274",
+              "passageId": "passage_b0b212b20afda05cd5306df6",
+              "quote": "חברי \"בונד \""
+            },
+            {
+              "recordId": "mention_ad376c11f493da82d120caf6",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Bendin City Council",
+              "summary": "The Bund won a council seat for member Pszachjan in municipal elections.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 139,
+              "printedPage": "135",
+              "passageId": "passage_e7d7a681d0c3a4490c0dcf9e",
+              "quote": "בענדינע ר שטאט־ראט"
+            },
+            {
+              "recordId": "mention_2f0319ad20c0d106e40017c5",
+              "kind": "mention",
+              "type": "INSTITUTION",
+              "title": "Będzin City Council",
+              "summary": "City council in which Jewish representatives held a majority.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 173,
+              "printedPage": "169",
+              "passageId": "passage_d3a59ccbcafdda4963a62ce8",
+              "quote": "יידיש ע מערהייט אי ן שטאט־ראט"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Print, performance, and visual culture",
+          "summary": "Yiddish newspapers published in and around Będzin reported local affairs and connected readers across the Zagłębie region and abroad. Dramatic circles staged plays, while Moshe Apelboim painted and decorated communal spaces, demonstrating a vigorous cultural life alongside religious and political activity.",
+          "recordIds": [
+            "mention_f9e4da4389ecef6deb9d06b5",
+            "mention_f8a4cde95921ae3c6be2990a",
+            "mention_ee5e3d879c8809e5d8ee53be",
+            "mention_7e61a6e1cfe74da211ceb11f"
+          ],
+          "records": [
+            {
+              "recordId": "mention_f9e4da4389ecef6deb9d06b5",
+              "kind": "mention",
+              "type": "PUBLICATION",
+              "title": "Zaglembier Zeitung",
+              "summary": "A Yiddish newspaper whose first issue appeared on July 21, 1911.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 68,
+              "printedPage": "64",
+              "passageId": "passage_1ecb13b255eb13b0c63c4bdc",
+              "quote": "דע ר ערשטע ר נומע ר פון דע ר \"זאגלעמביע ר צייטונג\""
+            },
+            {
+              "recordId": "mention_f8a4cde95921ae3c6be2990a",
+              "kind": "mention",
+              "type": "PUBLICATION",
+              "title": "Zagłębie Newspaper",
+              "summary": "A newspaper that began publication on July 18, 1919, and was still appearing at the time of writing.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 70,
+              "printedPage": "66",
+              "passageId": "passage_1ed174eb8efe403e9b4b119e",
+              "quote": "ד י \"זאגלעמביע ר צייטונג\""
+            },
+            {
+              "recordId": "mention_ee5e3d879c8809e5d8ee53be",
+              "kind": "mention",
+              "type": "PHOTOGRAPH",
+              "title": "Dramatic Circle group photograph",
+              "summary": "Caption identifies a group from the dramatic circle and names people standing and seated.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 92,
+              "printedPage": "88",
+              "passageId": "passage_feac19ab77557afd16f7a031",
+              "quote": "דער דראמ.~קריי ז מיט ן בארימט ן רעזשיסע ר דו ד הערמא ן"
+            },
+            {
+              "recordId": "mention_7e61a6e1cfe74da211ceb11f",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Moses Opelboim",
+              "summary": "Artist-painter who decorated the synagogue in the years 1925–26.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 20,
+              "printedPage": "16",
+              "passageId": "passage_1224a11e145b666828def7b8",
+              "quote": "מש ה אפעלבוים"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "occupation-and-destruction",
+      "theme": "DEPORTATION_MURDER",
+      "title": "What happened to Będzin under Nazi occupation?",
+      "description": "This path moves from the burning of the synagogue to ghetto roundups, deportations, and murder. It teaches how the memorial book records the destruction of people, families, religious spaces, and the community’s physical world.",
+      "question": "How did Nazi persecution transform Będzin and destroy its Jewish community?",
+      "steps": [
+        {
+          "title": "The invasion and attack on communal life",
+          "summary": "The memorial book connects the Nazi invasion of Będzin with the burning of the Great Synagogue during the first days of occupation. The destruction of this central religious building marked an assault on the visible institutions of Jewish communal life.",
+          "recordIds": [
+            "mention_91c152d186b1459ef5f7a6d0",
+            "mention_77bfa222006365b90e781973",
+            "mention_607e970ab80fecb2137fff7"
+          ],
+          "records": [
+            {
+              "recordId": "mention_91c152d186b1459ef5f7a6d0",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Nazi invasion of Będzin",
+              "summary": "The synagogue burned during the Nazi invasion of Będzin.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 222,
+              "printedPage": "218",
+              "passageId": "passage_59ae77ec6822c5eea2a3cfde",
+              "quote": "ע ם פליש ת הנאצי ם לבנדי ן"
+            },
+            {
+              "recordId": "mention_77bfa222006365b90e781973",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Synagogue fire",
+              "summary": "A fire at the synagogue during the first days of the occupation.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 213,
+              "printedPage": "209",
+              "passageId": "passage_4725b4ec06618a1549132db4",
+              "quote": "בע ת דע ר שרפ ה פון דע ר שול"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "The ghetto and forced labor",
+          "summary": "Accounts identify a ghetto for Będzin Jews and describe deportations alongside labor camps. Other testimony records Jewish prisoners working for a German firm in the ghetto, showing how persecution combined confinement, exploitation, and the threat of deportation.",
+          "recordIds": [
+            "mention_869b3713361657bf5f896650",
+            "mention_7fed35c57c1d01ea48ff883e",
+            "mention_5786f8475513463abba6d8d2"
+          ],
+          "records": [
+            {
+              "recordId": "mention_869b3713361657bf5f896650",
+              "kind": "mention",
+              "type": "PLACE",
+              "title": "Będzin",
+              "summary": "City whose Jews are identified with the Kamionka ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 368,
+              "printedPage": "364",
+              "passageId": "passage_c5dafe0238ef2c71048707fd",
+              "quote": "הגיט ו ש ל יהוד י בנדין"
+            },
+            {
+              "recordId": "mention_7fed35c57c1d01ea48ff883e",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Jews of Będzin",
+              "summary": "Community whose deportations and labor camps are described.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 193,
+              "printedPage": "189",
+              "passageId": "passage_ab915fd203cd16b632997be7",
+              "quote": "בענדינע ר ייד ן"
+            },
+            {
+              "recordId": "mention_5786f8475513463abba6d8d2",
+              "kind": "mention",
+              "type": "BUSINESS",
+              "title": "Schulz Firm",
+              "summary": "A German firm where the rabbi worked for a time in the ghetto.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 234,
+              "printedPage": "230",
+              "passageId": "passage_0b3db8d9bc6acf1aacf38024",
+              "quote": "פירמה \"שולץ \" הגרמני ת"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Deportation actions",
+          "summary": "The book records a first deportation to Auschwitz in which about one thousand people reported with their belongings after receiving personal summonses. It also states that later deportations sent thousands directly to gas chambers and others to camps, revealing the escalating process described by survivors and witnesses.",
+          "recordIds": [
+            "mention_bc1a8b69f4cfb6e97d749d29",
+            "mention_86ca7a2e2303c455ad7f385c"
+          ],
+          "records": [
+            {
+              "recordId": "mention_bc1a8b69f4cfb6e97d749d29",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "First deportation to Auschwitz",
+              "summary": "About one thousand people were deported to Auschwitz after receiving personal summonses.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 354,
+              "printedPage": "350",
+              "passageId": "passage_e537f11cee02ab1aca1e4e6a",
+              "quote": "כאל ף אי ש ע ל מטענ ם התייצבו"
+            },
+            {
+              "recordId": "mention_86ca7a2e2303c455ad7f385c",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Deportations following the first two actions",
+              "summary": "The Judenrat continued deportations after the first two actions, with thousands sent to gas chambers and others to camps.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 354,
+              "printedPage": "350",
+              "passageId": "passage_d7c186d2027da06c9aafb2b9",
+              "quote": "שמונ ת אלפים אי ש נשלח ו יש ר לתא י הגזי ם"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "The final roundups",
+          "summary": "On June 22, 1943, German forces again attacked the ghetto and seized about four thousand Jews for deportation to Auschwitz. The account preserves the scale of the roundup as a decisive stage in the destruction of Będzin’s Jewish population.",
+          "recordIds": [
+            "mention_87b311e9ceecc7f5ee217db2"
+          ],
+          "records": [
+            {
+              "recordId": "mention_87b311e9ceecc7f5ee217db2",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "June 22, 1943 ghetto roundup and deportation",
+              "summary": "German forces rounded up Jews, deporting a group to Auschwitz; about four thousand were seized.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 196,
+              "printedPage": "192",
+              "passageId": "passage_5c3103e9074a50eea9b0d8f0",
+              "quote": "דעם 22 יונ י 1943 זענע ן ד י דייטש ן 5 פארטא ג ווידע ר באפאל ן דעם געטא"
+            }
+          ],
+          "position": 4
+        },
+        {
+          "title": "Families and individuals in the record of murder",
+          "summary": "The memorial book remembers named families and individuals, including Hershkowitz and his two sons, who were murdered together. Such accounts make clear that destruction reached across generations and family networks, not only anonymous population totals.",
+          "recordIds": [
+            "mention_86e89832ac7b89bcd9e3bc68",
+            "mention_b42e732de2a0c1f91dab7c23"
+          ],
+          "records": [
+            {
+              "recordId": "mention_86e89832ac7b89bcd9e3bc68",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Hershkowitz's two sons",
+              "summary": "Two sons of the carpenter Hershkowitz, murdered with their father.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 349,
+              "printedPage": "345",
+              "passageId": "passage_a3b13018ae8b692f17b0aba7",
+              "quote": "א ב ושנ י בני ו"
+            },
+            {
+              "recordId": "mention_b42e732de2a0c1f91dab7c23",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Nazi document about the execution of Jews from Bedzin",
+              "summary": "A document concerning the execution of Jews from Bedzin is listed.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 436,
+              "printedPage": null,
+              "passageId": "passage_0a9a6a3f5df85549867aba27",
+              "quote": "מיסמך נאצ י ע ל הוצאת ם להור ג ש ל יהוד י בנדי ן"
+            }
+          ],
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "resistance-and-survival",
+      "theme": "HIDING_ESCAPE_RESISTANCE",
+      "title": "How did people resist, escape, and survive?",
+      "description": "This path follows youth activism, resistance planning, forged documents, escape, migration, and postwar rebuilding. It presents survival as a range of efforts undertaken under extreme danger, while preserving the limits and perspective of memorial-book testimony.",
+      "question": "What forms of agency and survival appear in the memorial book?",
+      "steps": [
+        {
+          "title": "Youth movements before the war",
+          "summary": "Photographs and captions document Hashomer Hatzair, Tzeirei Zion, Gordonia, and other youth frameworks in Będzin and at pioneering farms. These movements linked education, collective identity, agricultural preparation, and hopes of emigration before the war.",
+          "recordIds": [
+            "mention_904274e1c60af32272f468fc",
+            "mention_9f7ec7bc5bc507474b56dc34",
+            "mention_631113bf5a4d94b8c574d013d",
+            "mention_bfc3726394ea5dce371ec507"
+          ],
+          "records": [
+            {
+              "recordId": "mention_904274e1c60af32272f468fc",
+              "kind": "mention",
+              "type": "PHOTOGRAPH",
+              "title": "Hashomer Hatzair initiators in Będzin, 1925",
+              "summary": "Caption identifies a group of Hashomer Hatzair initiators in Będzin in 1925.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 284,
+              "printedPage": "280",
+              "passageId": "passage_40ec8759f41de1ae040792d4",
+              "quote": "אגרופע אינציאטאר ן פו ן ״השומ ר הצעיר ״ אי ן בענדין , 1925"
+            },
+            {
+              "recordId": "mention_9f7ec7bc5bc507474b56dc34",
+              "kind": "mention",
+              "type": "PHOTOGRAPH",
+              "title": "Tzeirei Zion group at a Halutz farm",
+              "summary": "Caption identifies a group of Tzeirei Zion members at a Halutz agricultural farm, 1919.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 264,
+              "printedPage": "260",
+              "passageId": "passage_ef4d427e7557416bc58bd167",
+              "quote": "קבוצת חבר י צעירי־ציו ן בחוו ה חקלאי ת ש ל החלוץ , 1919"
+            },
+            {
+              "recordId": "mention_bfc3726394ea5dce371ec507",
+              "kind": "mention",
+              "type": "ORGANIZATION",
+              "title": "Gordonia",
+              "summary": "Będzin organization whose surviving youth gathered around Henka.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 341,
+              "printedPage": "337",
+              "passageId": "passage_fad6561f670a7d2059fe9096",
+              "quote": "מהסתדרו ת \"גורדוניה \" בבנדין"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Resistance preparations in 1942",
+          "summary": "In June 1942, Mordechai Anielewicz briefed representatives of youth movements and parties in Będzin about preparations for resistance. The account shows that political and youth networks continued to organize even as deportations threatened the community.",
+          "recordIds": [
+            "mention_98221bb527388df84e5ec776"
+          ],
+          "records": [
+            {
+              "recordId": "mention_98221bb527388df84e5ec776",
+              "kind": "mention",
+              "type": "EVENT",
+              "title": "Youth resistance consultation in Będzin",
+              "summary": "Anielewicz briefed representatives of youth movements and parties on resistance preparations.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 361,
+              "printedPage": "357",
+              "passageId": "passage_7066e965d08e8ae65c52f877",
+              "quote": "ביוני 1942 ב א מרדכ י אנילבי ץ לבנדין"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Escape plans and dangerous choices",
+          "summary": "A testimony describes discussions about helping young people escape with forged documents, while another account records a community manager risking the lives of his family. These episodes show that rescue and escape depended on secrecy, trust, and choices made under danger.",
+          "recordIds": [
+            "mention_2ea0a6fbe41e3429c980fd6f",
+            "mention_dd75001fda436817f5ef92e6"
+          ],
+          "records": [
+            {
+              "recordId": "mention_2ea0a6fbe41e3429c980fd6f",
+              "kind": "mention",
+              "type": "PERSON",
+              "title": "Marin",
+              "summary": "Received Geller and considered a proposal to help young people escape using forged documents.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 361,
+              "printedPage": "357",
+              "passageId": "passage_b15ad49bc458e1a06e8415fa",
+              "quote": "לפנ י מרין"
+            },
+            {
+              "recordId": "mention_dd75001fda436817f5ef92e6",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Moniek Materoz’s family",
+              "summary": "The community manager referred to risking his family’s lives.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 372,
+              "printedPage": "368",
+              "passageId": "passage_cddb2ecdb65f1a946d527a1c",
+              "quote": "א ת חי י בנ י משפחת י"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Survival after the catastrophe",
+          "summary": "The book records survivors and expatriates from Będzin organizing relief in Paris and estimates about two thousand Będzin Jews living in Israel. It also preserves individual postwar trajectories, including migration toward Israel and the interception of the ship Rebels of the Ghettos in 1946.",
+          "recordIds": [
+            "mention_7c227c4d39eed25c57079e7c",
+            "mention_8499f9754e39b075dc64a397",
+            "mention_33967bd00e49b61c4eb76924"
+          ],
+          "records": [
+            {
+              "recordId": "mention_7c227c4d39eed25c57079e7c",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Będzin Jews",
+              "summary": "Jewish survivors and expatriates from Będzin organized relief and support in Paris.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 398,
+              "printedPage": "394",
+              "passageId": "passage_dc2b24fafb738f86f600bdca",
+              "quote": "גרופ ע בענדינע ר ייד ן"
+            },
+            {
+              "recordId": "mention_8499f9754e39b075dc64a397",
+              "kind": "mention",
+              "type": "COMMUNITY",
+              "title": "Bendin Jews in Israel",
+              "summary": "Bendin Jews living across Israel; the passage estimates their number at about 2,000.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 391,
+              "printedPage": "387",
+              "passageId": "passage_20f6541922e348d14af866eb",
+              "quote": "2000 בענדינע ר יידן"
+            },
+            {
+              "recordId": "mention_33967bd00e49b61c4eb76924",
+              "kind": "mention",
+              "type": "OBJECT",
+              "title": "Rebels of the Ghettos",
+              "summary": "Immigrant ship carrying Baruch to Israel in 1946; British authorities intercepted it.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 390,
+              "printedPage": "386",
+              "passageId": "passage_7ad8f85289efc6a24f2cf7e7",
+              "quote": "באני ת המעפילי ם \"מורדי הגיטאות\""
+            }
+          ],
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "making-memory",
+      "theme": "MEMORY",
+      "title": "Why was Będzin’s history written and remembered?",
+      "description": "This path examines the memorial book as an act of reconstruction by survivors and descendants. Readers will see how documents, photographs, testimony, names, monuments, and diaspora organizations worked together to preserve a destroyed community.",
+      "question": "How does Pinkas Bendin create a record of a community that was destroyed?",
+      "steps": [
+        {
+          "title": "A book assembled from many kinds of evidence",
+          "summary": "The memorial book was planned as a history of the community and its destruction, assembled from documents, photographs, and testimony. It appeared in Yiddish and Hebrew editions, making preservation itself part of the community’s postwar work.",
+          "recordIds": [
+            "mention_14017463061390c085477b11",
+            "mention_84238b8d08bf7642e20f9fe7"
+          ],
+          "records": [
+            {
+              "recordId": "mention_14017463061390c085477b11",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Będzin Community Memorial Book",
+              "summary": "A planned written record of the community's history and destruction, assembled from documents, photographs, and testimony.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 11,
+              "printedPage": "7",
+              "passageId": "passage_cf14c11590e5af46c88c7b1f",
+              "quote": "ספ ר על קהילתנ ו הנכרתת"
+            },
+            {
+              "recordId": "mention_84238b8d08bf7642e20f9fe7",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Będzin memorial book",
+              "summary": "Memorial work issued in Yiddish and Hebrew editions.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 12,
+              "printedPage": "8",
+              "passageId": "passage_6104cd01d9155fd93fa393d7",
+              "quote": "דא ם בו ך"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "title": "Recovering what survived",
+          "summary": "The book describes an almanac recovered after the war from a former administrative collection, as well as older burial-society and communal registers. These surviving fragments helped reconstruct names, institutions, agreements, property, and religious life after the destruction of the community.",
+          "recordIds": [
+            "mention_975be3f76005bb7d37a433c2",
+            "mention_d93ba8f091bcb91d0ab29117",
+            "mention_f02a849dc9099b8f3a74e1bb"
+          ],
+          "records": [
+            {
+              "recordId": "mention_975be3f76005bb7d37a433c2",
+              "kind": "mention",
+              "type": "WORK",
+              "title": "Almanac",
+              "summary": "A book recovered after the war from the former starostwo collection.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 13,
+              "printedPage": "9",
+              "passageId": "passage_8ae24275c21ed869700111e2",
+              "quote": "דע ם פארלוירעבע ם \"אלמאנאך"
+            },
+            {
+              "recordId": "mention_d93ba8f091bcb91d0ab29117",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Bendin burial society register",
+              "summary": "A leather-bound register with numbered pages, described as belonging to the Bendin burial society.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 41,
+              "printedPage": "37",
+              "passageId": "passage_73a26f8be41d02ec09aff277",
+              "quote": "פנק ס דח״ ק מ״ ק בענדי ן מימי ם קדמונים"
+            },
+            {
+              "recordId": "mention_f02a849dc9099b8f3a74e1bb",
+              "kind": "mention",
+              "type": "DOCUMENT",
+              "title": "Będzin Eternal Books",
+              "summary": "Records that document Jewish residents and property ownership.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 40,
+              "printedPage": "36",
+              "passageId": "passage_62a0beeebde4450da0724ed7",
+              "quote": "בענדינע ר אייביק ע ביכער"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "title": "Names, photographs, and family memory",
+          "summary": "Memorial lists preserve family names, while photographs identify youth groups, cultural organizations, political activists, and visitors connected with Będzin. Together, these materials restore social relationships and identities that would otherwise be reduced to the fact of destruction.",
+          "recordIds": [
+            "mention_37360b6721264fc1b63c5930",
+            "mention_b46bacacd449395c6c6bd72d",
+            "mention_08f8a356c308e53cff5439aa",
+            "mention_4d244d5cba7cf9efcbc53a71"
+          ],
+          "records": [
+            {
+              "recordId": "mention_37360b6721264fc1b63c5930",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Klinman family",
+              "summary": "Family named in a memorial list.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 415,
+              "printedPage": "411",
+              "passageId": "passage_055ae6fa98b6b38c69945e2e",
+              "quote": "אליזע ר קלינמן"
+            },
+            {
+              "recordId": "mention_b46bacacd449395c6c6bd72d",
+              "kind": "mention",
+              "type": "FAMILY",
+              "title": "Gutman family",
+              "summary": "Named in a memorial list as Aharon and Batshe with their children.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 415,
+              "printedPage": "411",
+              "passageId": "passage_055ae6fa98b6b38c69945e2e",
+              "quote": "וילדיה ם גוטמן"
+            },
+            {
+              "recordId": "mention_08f8a356c308e53cff5439aa",
+              "kind": "mention",
+              "type": "PHOTOGRAPH",
+              "title": "1936 Youth Guard Group Photograph",
+              "summary": "Caption identifies members of the association's youth guard in 1936.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 273,
+              "printedPage": "269",
+              "passageId": "passage_4b4bad68e10d6606d0d8b009",
+              "quote": "משמרת צעיר ה ש ל ההתאחדות , 1936"
+            },
+            {
+              "recordId": "mention_4d244d5cba7cf9efcbc53a71",
+              "kind": "mention",
+              "type": "PHOTOGRAPH",
+              "title": "H. N. Bialik with men from Będzin",
+              "summary": "Photograph published for the first time in the book and delivered to the Bialik Archive and Museum.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 433,
+              "printedPage": "429",
+              "passageId": "passage_d5f1b71b30797e6542302949",
+              "quote": "הצילו ם ״ח . נ . ביאלי ק בצוות א ע ם אנש י בנדי ך"
+            }
+          ],
+          "position": 3
+        },
+        {
+          "title": "Memorials in the postwar world",
+          "summary": "Survivors and descendants created monuments naming destroyed Zagłębie communities and commemorating their dead. The memorial book therefore extends beyond historical narration: it is also an act of mourning, continuity, and responsibility to the people of Będzin.",
+          "recordIds": [
+            "mention_20e124d334738768b633e777",
+            "mention_7d3035c9460bc1ec6d97bd6f",
+            "mention_f9c9af6c01a708f0e6a8e42a"
+          ],
+          "records": [
+            {
+              "recordId": "mention_20e124d334738768b633e777",
+              "kind": "mention",
+              "type": "OBJECT",
+              "title": "Memorial to the Zaglembia communities",
+              "summary": "Memorial bearing the names of twelve destroyed Zaglembia communities.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 380,
+              "printedPage": "376",
+              "passageId": "passage_3ee577bcc461475882a4da9f",
+              "quote": "אנדרט ה לזכ ר פא ר יהדו ת זגלמביה"
+            },
+            {
+              "recordId": "mention_7d3035c9460bc1ec6d97bd6f",
+              "kind": "mention",
+              "type": "OBJECT",
+              "title": "Zaglembie memorial monument",
+              "summary": "Large monument erected over a grave containing ashes of the Zaglembie martyrs.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 393,
+              "printedPage": "389",
+              "passageId": "passage_be547a9f16578314efe68ca1",
+              "quote": "א הערלעכ ן מאנומענ ט"
+            },
+            {
+              "recordId": "mention_f9c9af6c01a708f0e6a8e42a",
+              "kind": "mention",
+              "type": "OBJECT",
+              "title": "Będzin community memorial monument",
+              "summary": "A monument commemorating twelve destroyed communities, erected at Nahalat Yitzhak Cemetery.",
+              "dateStart": "",
+              "dateEnd": "",
+              "scanIndex": 216,
+              "printedPage": "212",
+              "passageId": "passage_1520e9946f9d2da3c9574a11",
+              "quote": "אויף דע ר מצב ה זענע ן אויסגעקריצ ט"
+            }
+          ],
+          "position": 4
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "periodStart": "1226",
+      "periodEnd": "1226",
+      "dateLabel": "1226",
+      "title": "First recorded Jewish presence in the Zagłębie area",
+      "summary": "The memorial book places the first Jews in the Zagłębie area in 1226, describing them as mostly engaged in agriculture.",
+      "recordIds": [
+        "event_candidate_22d5928cd17740cff84d5084"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_22d5928cd17740cff84d5084",
+          "kind": "event",
+          "type": "MIGRATION",
+          "title": "First Jews appear in the Zagłębie area",
+          "summary": "The first Jews appeared in the Zagłębie area and mostly engaged in agriculture.",
+          "dateStart": "1226",
+          "dateEnd": "1226",
+          "scanIndex": 220,
+          "printedPage": "216",
+          "passageId": "passage_a190f35e3a544fa4fc163017",
+          "quote": "ראשוני היהודי ם הופיע ו בסביב ת זגלמבי ה בשנ ת 1226"
+        }
+      ],
+      "position": 1
+    },
+    {
+      "periodStart": "1264",
+      "periodEnd": "1264",
+      "dateLabel": "1264",
+      "title": "The Kalisz privilege",
+      "summary": "Prince Bolesław the Pious issued the Kalisz privilege, described as providing protections for Jews and communal property.",
+      "recordIds": [
+        "event_candidate_73e695b21f6e36335bffb146",
+        "mention_844e351987b04fe447a7d979"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_73e695b21f6e36335bffb146",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Issuance of the Kalisz privilege",
+          "summary": "Prince Bolesław the Pious issued the Kalisz privilege in 1264.",
+          "dateStart": "1264",
+          "dateEnd": "1264",
+          "scanIndex": 17,
+          "printedPage": "13",
+          "passageId": "passage_a35c6af1fd9dd587314bd7cc",
+          "quote": "ארויסגעגעב ן דורכ ן פירש ט באלעסלאו ו דעם פרומע ן אי ן יא ר 1264"
+        },
+        {
+          "recordId": "mention_844e351987b04fe447a7d979",
+          "kind": "mention",
+          "type": "DOCUMENT",
+          "title": "Kalisz privilege",
+          "summary": "Privilege issued in 1264 that provided protections for Jews and communal property.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 17,
+          "printedPage": "13",
+          "passageId": "passage_a35c6af1fd9dd587314bd7cc",
+          "quote": "ד י אזו י גערופענ ע \"קאלישער פריווילעגיע\""
+        }
+      ],
+      "position": 2
+    },
+    {
+      "periodStart": "1358",
+      "periodEnd": "1358",
+      "dateLabel": "Around 1358",
+      "title": "Będzin fortress and castle",
+      "summary": "The book records the construction of a substantial fortress or stone castle at Będzin under Casimir III.",
+      "recordIds": [
+        "event_candidate_471c449d19872e7ed2254c0c",
+        "event_candidate_e74e20c1b4ade6da8628e53f"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_471c449d19872e7ed2254c0c",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Construction of Będzin fortress",
+          "summary": "King Casimir III replaced the wooden fortress with a substantial fortress in 1358.",
+          "dateStart": "1358",
+          "dateEnd": "",
+          "scanIndex": 220,
+          "printedPage": "216",
+          "passageId": "passage_25eb06dc520f8ca29ea17c2f",
+          "quote": "הקים בשנ ת 1358 מבצ ר אדיר"
+        },
+        {
+          "recordId": "event_candidate_e74e20c1b4ade6da8628e53f",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Construction of Będzin Castle",
+          "summary": "Casimir III the Great established a large stone castle at Będzin around 1358.",
+          "dateStart": "1358",
+          "dateEnd": "1358",
+          "scanIndex": 14,
+          "printedPage": "10",
+          "passageId": "passage_612211a3d1698dfc629b1196",
+          "quote": "ארו ם דע ם יא ר 1358׳ א מעכטיק ן שטיינערנע ם שלאם"
+        }
+      ],
+      "position": 3
+    },
+    {
+      "periodStart": "1807",
+      "periodEnd": "1808",
+      "dateLabel": "1807–1808",
+      "title": "The Tailors’ Society",
+      "summary": "Jewish artisans established a Tailors’ Society in Będzin, and its rules and economic arrangements were recorded in 1807 and 1808.",
+      "recordIds": [
+        "event_candidate_8ef5db2cda806dc75a9a6702",
+        "event_candidate_fc8875f771621aad1060de75",
+        "event_candidate_ced02a5cf76b67392907fe01"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_8ef5db2cda806dc75a9a6702",
+          "kind": "event",
+          "type": "ORGANIZATION_FOUNDING",
+          "title": "Establishment of the Tailors’ Society",
+          "summary": "Artisans established a Tailors’ Society in Będzin; the source does not state that it was founded in 1807. That year dates Rabbi Rozanis’s introduction explaining the society and its aims.",
+          "dateStart": "1807",
+          "dateEnd": "1807",
+          "scanIndex": 45,
+          "printedPage": "41",
+          "passageId": "passage_096aea376e704c5f76a30a55",
+          "quote": "שאפ ו אי ו אונזע ר שטא ט א חבר ה חייטי ו"
+        },
+        {
+          "recordId": "event_candidate_fc8875f771621aad1060de75",
+          "kind": "event",
+          "type": "AGREEMENT_RECORDED",
+          "title": "Tailors' association agreement recorded",
+          "summary": "Tailors' Association rules and provisions were recorded as agreed in Będzin in 1807.",
+          "dateStart": "1807",
+          "dateEnd": "",
+          "scanIndex": 46,
+          "printedPage": "42",
+          "passageId": "passage_a538fb47c95e680e3c33dc96",
+          "quote": "דאס אי ז געמאכ ט געוואר ן היינט"
+        },
+        {
+          "recordId": "event_candidate_ced02a5cf76b67392907fe01",
+          "kind": "event",
+          "type": "AGREEMENT_SIGNING",
+          "title": "Society agreement recorded",
+          "summary": "An agreement concerning the society’s economic activity was signed by the contemporary rabbinical judge and treasurers in 1808.",
+          "dateStart": "1808",
+          "dateEnd": "",
+          "scanIndex": 46,
+          "printedPage": "42",
+          "passageId": "passage_cc9f17bfb4791f6392e96c07",
+          "quote": "א ץ יא ר תקס״ ח (1808)"
+        }
+      ],
+      "position": 4
+    },
+    {
+      "periodStart": "1881",
+      "periodEnd": "1881",
+      "dateLabel": "1881",
+      "title": "The Great Synagogue is built",
+      "summary": "The wooden synagogue was dismantled and replaced on the same site by a stone-and-brick synagogue, identified elsewhere in the book as the Great Synagogue.",
+      "recordIds": [
+        "event_candidate_b42456aba094319dfb5b6280",
+        "event_candidate_b49d3231ee37177debdea97d"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_b42456aba094319dfb5b6280",
+          "kind": "event",
+          "type": "BUSINESS_OPENING",
+          "title": "Great Synagogue construction",
+          "summary": "The Great Synagogue was built in 1881.",
+          "dateStart": "1881",
+          "dateEnd": "",
+          "scanIndex": 140,
+          "printedPage": "136",
+          "passageId": "passage_44f879f6189a418ac9ad55f4",
+          "quote": "די שו ל אי ז געבוי ט געוואר ן אי ן יא ר 1881"
+        },
+        {
+          "recordId": "event_candidate_b49d3231ee37177debdea97d",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Rebuilding of the synagogue",
+          "summary": "The wooden synagogue was dismantled and a stone-and-brick synagogue erected at the same site.",
+          "dateStart": "1881",
+          "dateEnd": "1881",
+          "scanIndex": 20,
+          "printedPage": "16",
+          "passageId": "passage_1224a11e145b666828def7b8",
+          "quote": "אין יא ר 1881 אי ז ז י פונאנדערגענומע ן געויאר ן או ן אוי ף דע ם זעלב ן ארט אי ז אויפגעשטעל ט געוואר ן ד י איצטיק ע שו ל פו ן שטיינע ר און ציגל"
+        }
+      ],
+      "position": 5
+    },
+    {
+      "periodStart": "1893",
+      "periodEnd": "1893",
+      "dateLabel": "1893",
+      "title": "Rabbi Grobart appointed in Będzin",
+      "summary": "Rabbi Yissachar Berish Grobart was appointed rabbi of Będzin in 1893.",
+      "recordIds": [
+        "event_candidate_094e25817ec4d65ffc53135f"
+      ],
+      "records": [
+        {
+          "recordId": "event_candidate_094e25817ec4d65ffc53135f",
+          "kind": "event",
+          "type": "EMPLOYMENT",
+          "title": "Appointment of Rabbi Grobart in Bendin",
+          "summary": "Rabbi Yissachar Berish Grobart was appointed rabbi of Bendin in 1893.",
+          "dateStart": "1893",
+          "dateEnd": "",
+          "scanIndex": 44,
+          "printedPage": "40",
+          "passageId": "passage_833243aad04aa7e03123448a",
+          "quote": "אי ן יא ר תרנ״ ג (1893)"
+        }
+      ],
+      "position": 6
+    },
+    {
+      "periodStart": "1911",
+      "periodEnd": "1911",
+      "dateLabel": "July 21, 1911",
+      "title": "The first issue of the Zagłębie Zeitung",
+      "summary": "The first issue of the Yiddish Zagłębie Zeitung appeared on July 21, 1911.",
+      "recordIds": [
+        "mention_f9e4da4389ecef6deb9d06b5"
+      ],
+      "records": [
+        {
+          "recordId": "mention_f9e4da4389ecef6deb9d06b5",
+          "kind": "mention",
+          "type": "PUBLICATION",
+          "title": "Zaglembier Zeitung",
+          "summary": "A Yiddish newspaper whose first issue appeared on July 21, 1911.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 68,
+          "printedPage": "64",
+          "passageId": "passage_1ecb13b255eb13b0c63c4bdc",
+          "quote": "דע ר ערשטע ר נומע ר פון דע ר \"זאגלעמביע ר צייטונג\""
+        }
+      ],
+      "position": 7
+    },
+    {
+      "periodStart": "1918",
+      "periodEnd": "1918",
+      "dateLabel": "1918",
+      "title": "Commercial courses established",
+      "summary": "Będzin established coeducational courses in commerce and administration.",
+      "recordIds": [
+        "mention_3f1a206b7b5c10069c187572"
+      ],
+      "records": [
+        {
+          "recordId": "mention_3f1a206b7b5c10069c187572",
+          "kind": "mention",
+          "type": "INSTITUTION",
+          "title": "Będzin Commercial Courses",
+          "summary": "Coeducational courses in commerce and administration, established in 1918.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 87,
+          "printedPage": "83",
+          "passageId": "passage_feccb3152cd9e689467ce815",
+          "quote": "ד י ערשט ע האנדלם־קורס ן אי ן בענדין"
+        }
+      ],
+      "position": 8
+    },
+    {
+      "periodStart": "1919",
+      "periodEnd": "1919",
+      "dateLabel": "July 18, 1919",
+      "title": "A new phase of the Zagłębie newspaper",
+      "summary": "The newspaper began publication under the name Zagłębie Zeitung on July 18, 1919, and continued under L. Spiegelman’s editorship.",
+      "recordIds": [
+        "mention_f8a4cde95921ae3c6be2990a"
+      ],
+      "records": [
+        {
+          "recordId": "mention_f8a4cde95921ae3c6be2990a",
+          "kind": "mention",
+          "type": "PUBLICATION",
+          "title": "Zagłębie Newspaper",
+          "summary": "A newspaper that began publication on July 18, 1919, and was still appearing at the time of writing.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 70,
+          "printedPage": "66",
+          "passageId": "passage_1ed174eb8efe403e9b4b119e",
+          "quote": "ד י \"זאגלעמביע ר צייטונג\""
+        }
+      ],
+      "position": 9
+    },
+    {
+      "periodStart": "1920",
+      "periodEnd": "1920",
+      "dateLabel": "1920",
+      "title": "The Yavne School is founded",
+      "summary": "The Mizrahi school later known as Yavne was founded in 1920, initially under the name Beit Sefer Mizrahi.",
+      "recordIds": [
+        "mention_b8ea7cf5024cba3a06401a78"
+      ],
+      "records": [
+        {
+          "recordId": "mention_b8ea7cf5024cba3a06401a78",
+          "kind": "mention",
+          "type": "INSTITUTION",
+          "title": "Yavne School",
+          "summary": "A Mizrahi school founded in 1920, initially named Beit Sefer Mizrahi.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 82,
+          "printedPage": "78",
+          "passageId": "passage_4d3f6ae53f996ad077f74a2f",
+          "quote": "די \"מזרחי־שול \" \"יבנה \""
+        }
+      ],
+      "position": 10
+    },
+    {
+      "periodStart": "1925",
+      "periodEnd": "1926",
+      "dateLabel": "1925–1926",
+      "title": "Political and artistic communal life",
+      "summary": "Dr. Weinzieher resigned as community chairman in 1925, while Moshe Apelboim decorated the synagogue in 1925–26.",
+      "recordIds": [
+        "mention_800f5ed9f7f4d101999d96fb",
+        "mention_7e61a6e1cfe74da211ceb11f"
+      ],
+      "records": [
+        {
+          "recordId": "mention_800f5ed9f7f4d101999d96fb",
+          "kind": "mention",
+          "type": "PERSON",
+          "title": "Dr. Weinzieher",
+          "summary": "Resigned as community chairman in 1925.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 75,
+          "printedPage": "71",
+          "passageId": "passage_bdb4fceec1e94921c8b3ecff",
+          "quote": "ד״ ר וויינציהער הא ט רעזיגניר ט"
+        },
+        {
+          "recordId": "mention_7e61a6e1cfe74da211ceb11f",
+          "kind": "mention",
+          "type": "PERSON",
+          "title": "Moses Opelboim",
+          "summary": "Artist-painter who decorated the synagogue in the years 1925–26.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 20,
+          "printedPage": "16",
+          "passageId": "passage_1224a11e145b666828def7b8",
+          "quote": "מש ה אפעלבוים"
+        }
+      ],
+      "position": 11
+    },
+    {
+      "periodStart": "1931",
+      "periodEnd": "1931",
+      "dateLabel": "1931",
+      "title": "Bialik visits the Yavne School",
+      "summary": "Chaim Nachman Bialik visited the Yavne School in Będzin and praised its educators and committee members.",
+      "recordIds": [
+        "mention_372e8a3ca43dcb5da74835fe"
+      ],
+      "records": [
+        {
+          "recordId": "mention_372e8a3ca43dcb5da74835fe",
+          "kind": "mention",
+          "type": "PERSON",
+          "title": "Chaim Nachman Bialik",
+          "summary": "Visited the Yavne School in Będzin in 1931 and praised its educators and committee members.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 82,
+          "printedPage": "78",
+          "passageId": "passage_1526811d453645d7c564fbe5",
+          "quote": "ח . נ . ביאלי ק"
+        }
+      ],
+      "position": 12
+    },
+    {
+      "periodStart": "1939",
+      "periodEnd": "1939",
+      "dateLabel": "1939",
+      "title": "The synagogue burns during the Nazi invasion",
+      "summary": "The memorial book connects the burning of Będzin’s synagogue with the Nazi invasion.",
+      "recordIds": [
+        "mention_91c152d186b1459ef5f7a6d0",
+        "mention_607e970ab80fecb2137fff7"
+      ],
+      "records": [
+        {
+          "recordId": "mention_91c152d186b1459ef5f7a6d0",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "Nazi invasion of Będzin",
+          "summary": "The synagogue burned during the Nazi invasion of Będzin.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 222,
+          "printedPage": "218",
+          "passageId": "passage_59ae77ec6822c5eea2a3cfde",
+          "quote": "ע ם פליש ת הנאצי ם לבנדי ן"
+        }
+      ],
+      "position": 13
+    },
+    {
+      "periodStart": "1942",
+      "periodEnd": "1942",
+      "dateLabel": "June 1942",
+      "title": "Youth resistance consultation",
+      "summary": "Mordechai Anielewicz briefed representatives of youth movements and parties in Będzin about preparations for resistance.",
+      "recordIds": [
+        "mention_98221bb527388df84e5ec776"
+      ],
+      "records": [
+        {
+          "recordId": "mention_98221bb527388df84e5ec776",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "Youth resistance consultation in Będzin",
+          "summary": "Anielewicz briefed representatives of youth movements and parties on resistance preparations.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 361,
+          "printedPage": "357",
+          "passageId": "passage_7066e965d08e8ae65c52f877",
+          "quote": "ביוני 1942 ב א מרדכ י אנילבי ץ לבנדין"
+        }
+      ],
+      "position": 14
+    },
+    {
+      "periodStart": "1943-06-22",
+      "periodEnd": "1943-06-22",
+      "dateLabel": "June 22, 1943",
+      "title": "Ghetto roundup and deportation",
+      "summary": "German forces again attacked the ghetto and seized about four thousand Jews for deportation to Auschwitz, according to the memorial-book account.",
+      "recordIds": [
+        "mention_87b311e9ceecc7f5ee217db2"
+      ],
+      "records": [
+        {
+          "recordId": "mention_87b311e9ceecc7f5ee217db2",
+          "kind": "mention",
+          "type": "EVENT",
+          "title": "June 22, 1943 ghetto roundup and deportation",
+          "summary": "German forces rounded up Jews, deporting a group to Auschwitz; about four thousand were seized.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 196,
+          "printedPage": "192",
+          "passageId": "passage_5c3103e9074a50eea9b0d8f0",
+          "quote": "דעם 22 יונ י 1943 זענע ן ד י דייטש ן 5 פארטא ג ווידע ר באפאל ן דעם געטא"
+        }
+      ],
+      "position": 15
+    },
+    {
+      "periodStart": "1946",
+      "periodEnd": "1946",
+      "dateLabel": "1946",
+      "title": "The ship Rebels of the Ghettos",
+      "summary": "A ship carrying Baruch toward Israel was intercepted by British authorities in 1946.",
+      "recordIds": [
+        "mention_33967bd00e49b61c4eb76924"
+      ],
+      "records": [
+        {
+          "recordId": "mention_33967bd00e49b61c4eb76924",
+          "kind": "mention",
+          "type": "OBJECT",
+          "title": "Rebels of the Ghettos",
+          "summary": "Immigrant ship carrying Baruch to Israel in 1946; British authorities intercepted it.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 390,
+          "printedPage": "386",
+          "passageId": "passage_7ad8f85289efc6a24f2cf7e7",
+          "quote": "באני ת המעפילי ם \"מורדי הגיטאות\""
+        }
+      ],
+      "position": 16
+    },
+    {
+      "periodStart": "1945",
+      "periodEnd": "1960",
+      "dateLabel": "After the war",
+      "title": "Rebuilding memory and community ties",
+      "summary": "Survivors and expatriates from Będzin organized relief in Paris, while memorials naming destroyed Zagłębie communities were erected and the Będzin memorial book was assembled in Yiddish and Hebrew.",
+      "recordIds": [
+        "mention_7c227c4d39eed25c57079e7c",
+        "mention_20e124d334738768b633e777",
+        "mention_84238b8d08bf7642e20f9fe7"
+      ],
+      "records": [
+        {
+          "recordId": "mention_7c227c4d39eed25c57079e7c",
+          "kind": "mention",
+          "type": "COMMUNITY",
+          "title": "Będzin Jews",
+          "summary": "Jewish survivors and expatriates from Będzin organized relief and support in Paris.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 398,
+          "printedPage": "394",
+          "passageId": "passage_dc2b24fafb738f86f600bdca",
+          "quote": "גרופ ע בענדינע ר ייד ן"
+        },
+        {
+          "recordId": "mention_20e124d334738768b633e777",
+          "kind": "mention",
+          "type": "OBJECT",
+          "title": "Memorial to the Zaglembia communities",
+          "summary": "Memorial bearing the names of twelve destroyed Zaglembia communities.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 380,
+          "printedPage": "376",
+          "passageId": "passage_3ee577bcc461475882a4da9f",
+          "quote": "אנדרט ה לזכ ר פא ר יהדו ת זגלמביה"
+        },
+        {
+          "recordId": "mention_84238b8d08bf7642e20f9fe7",
+          "kind": "mention",
+          "type": "WORK",
+          "title": "Będzin memorial book",
+          "summary": "Memorial work issued in Yiddish and Hebrew editions.",
+          "dateStart": "",
+          "dateEnd": "",
+          "scanIndex": 12,
+          "printedPage": "8",
+          "passageId": "passage_6104cd01d9155fd93fa393d7",
+          "quote": "דא ם בו ך"
+        }
+      ],
+      "position": 17
+    }
+  ]
+}

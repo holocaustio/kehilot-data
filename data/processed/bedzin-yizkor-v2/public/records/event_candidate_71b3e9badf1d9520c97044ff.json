@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_71b3e9badf1d9520c97044ff",
+  "type": "Event",
+  "title": "Visit to the Klaeapas coal mine",
+  "summary": "Ben-Zvi visited the mine and received an explanation from its chief engineer.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 321,
+  "printedPage": "317",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Employment",
+  "uncertaintyNote": "Event type has no mine-visit category; this is not employment.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d7b0ed6ffc25b9c859dd979c",
+      "pageId": "page_nybc313684_0321",
+      "scanIndex": 321,
+      "leafNumber": 320,
+      "printedPage": "317",
+      "passageCharStart": 92,
+      "passageCharEnd": 163,
+      "normalizedPassageCharStart": 92,
+      "normalizedPassageCharEnd": 163,
+      "pageCharStart": 92,
+      "pageCharEnd": 163,
+      "quote": "בן־צבי, בלווי ת כמ ה חברי ם ונציג י הכורים , הורד ו במעלי ת\nלנבכי האדמה",
+      "normalizedQuote": "בן־צבי, בלווי ת כמ ה חברי ם ונציג י הכורים , הורד ו במעלי ת\nלנבכי האדמה",
+      "modelQuote": "בן־צבי, בלווית כמה חברים ונציגי הכורים, הורדו במעלית לנבכי האדמה",
+      "bbox": {
+        "left": 2586,
+        "top": 484,
+        "right": 4558,
+        "bottom": 666
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n320/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "9ad207944d813e014be54555f18e53581f2a8b1babcf114f256c1cb919f002e3",
+      "normalizedPassageChecksum": "9df7599e80bd1150be6ca3ddc0fdeea16dd90b39057ccc34a7e88150495d0286",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_497bb0f0f791ffd9485e2116",
+      "type": "Place",
+      "title": "Klaeapas Mine",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_8d7a836ba757803503eb8676",
+      "type": "Person",
+      "title": "Ben-Zvi",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_1c8d18e466ac99a021dd952b",
+      "type": "Person",
+      "title": "Neiman",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

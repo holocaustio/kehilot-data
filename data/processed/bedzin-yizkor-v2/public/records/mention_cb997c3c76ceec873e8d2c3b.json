@@ -1,0 +1,209 @@
+{
+  "id": "mention_cb997c3c76ceec873e8d2c3b",
+  "type": "Place",
+  "title": "Lelów",
+  "summary": "Place where Yitzhak-Mendel remained after his father-in-law's departure.",
+  "originalName": "לילוב",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 236,
+  "printedPage": "232",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_e92297fa6097f22ebdc58dcf",
+      "pageId": "page_nybc313684_0236",
+      "scanIndex": 236,
+      "leafNumber": 235,
+      "printedPage": "232",
+      "passageCharStart": 78,
+      "passageCharEnd": 84,
+      "normalizedPassageCharStart": 78,
+      "normalizedPassageCharEnd": 84,
+      "pageCharStart": 4177,
+      "pageCharEnd": 4183,
+      "quote": "בלילוב",
+      "normalizedQuote": "בלילוב",
+      "modelQuote": "בלילוב",
+      "bbox": {
+        "left": 1614,
+        "top": 2508,
+        "right": 1886,
+        "bottom": 2580
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n235/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "b7e882aaf0688e6b3926a7e79d0c2d17312d761e60537c1a24de8428e12d922f",
+      "normalizedPassageChecksum": "586bbac34bb1871ef383ad6e5b539739983473af6ef9d6c03cbac697a32b4a24",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_578d59312435a6a1f7c99fe8",
+      "predicate": "Born In",
+      "subjectTitle": "Alter",
+      "objectTitle": "Lelów",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e92297fa6097f22ebdc58dcf",
+        "pageId": "page_nybc313684_0236",
+        "scanIndex": 236,
+        "leafNumber": 235,
+        "printedPage": "232",
+        "passageCharStart": 565,
+        "passageCharEnd": 578,
+        "normalizedPassageCharStart": 565,
+        "normalizedPassageCharEnd": 578,
+        "pageCharStart": 4664,
+        "pageCharEnd": 4677,
+        "quote": "נול ד בלילו ב",
+        "normalizedQuote": "נול ד בלילו ב",
+        "modelQuote": "נולד בלילוב",
+        "bbox": {
+          "left": 1212,
+          "top": 3386,
+          "right": 1852,
+          "bottom": 3458
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n235/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "b7e882aaf0688e6b3926a7e79d0c2d17312d761e60537c1a24de8428e12d922f",
+        "normalizedPassageChecksum": "586bbac34bb1871ef383ad6e5b539739983473af6ef9d6c03cbac697a32b4a24",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_de55711ea581918074c8b29e",
+      "type": "Birth",
+      "title": "Birth of Alter",
+      "summary": "Alter was born in Lelów in 1847.",
+      "dateStart": "1847",
+      "dateEnd": "1847",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_e92297fa6097f22ebdc58dcf",
+        "pageId": "page_nybc313684_0236",
+        "scanIndex": 236,
+        "leafNumber": 235,
+        "printedPage": "232",
+        "passageCharStart": 565,
+        "passageCharEnd": 589,
+        "normalizedPassageCharStart": 565,
+        "normalizedPassageCharEnd": 589,
+        "pageCharStart": 4664,
+        "pageCharEnd": 4688,
+        "quote": "נול ד בלילו ב בשנ ת תר״ז",
+        "normalizedQuote": "נול ד בלילו ב בשנ ת תר״ז",
+        "modelQuote": "נולד בלילוב בשנת תר״ז",
+        "bbox": {
+          "left": 976,
+          "top": 3386,
+          "right": 1852,
+          "bottom": 3460
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n235/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "b7e882aaf0688e6b3926a7e79d0c2d17312d761e60537c1a24de8428e12d922f",
+        "normalizedPassageChecksum": "586bbac34bb1871ef383ad6e5b539739983473af6ef9d6c03cbac697a32b4a24",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_2aa441eebd88fa1cb5d45713",
+      "type": "Person",
+      "title": "Alter",
+      "relation": "Born In"
+    },
+    {
+      "id": "event_candidate_de55711ea581918074c8b29e",
+      "type": "Event",
+      "title": "Birth of Alter",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_440779a9839508415d4c4226",
+      "type": "Person",
+      "title": "Yitzhak-Mendel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_03032231d6def7c753b04883",
+      "type": "Person",
+      "title": "Moshe the Righteous",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6b26136d97d255e70b643182",
+      "type": "Place",
+      "title": "Wolbrom",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_77f409cce115a7d2e6b9e116",
+      "type": "Place",
+      "title": "Wolbrom cemetery",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2aa441eebd88fa1cb5d45713",
+      "type": "Person",
+      "title": "Alter",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3aee19047ba1cbe24dff31e5",
+      "type": "Person",
+      "title": "Sara",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_27090a4f282aa6235f3b8b5f",
+      "type": "Person",
+      "title": "David the Righteous of Lelów",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1663b86892219e448b796a11",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3ec00c45d1333451b60ed56c",
+      "type": "Place",
+      "title": "Sosnowiec",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_9dc35f53b01f5d1d6663c8df",
+      "type": "Place",
+      "title": "Olkusz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_516068cee0cc3cdf15241bed",
+      "type": "Place",
+      "title": "Częstochowa",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7fc05346c74a8d23648f991f",
+      "type": "Place",
+      "title": "Dąbrowa",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

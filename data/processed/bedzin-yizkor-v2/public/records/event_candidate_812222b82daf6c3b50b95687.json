@@ -1,0 +1,69 @@
+{
+  "id": "event_candidate_812222b82daf6c3b50b95687",
+  "type": "Event",
+  "title": "Shirman attends a cantorial school",
+  "summary": "Shirman studied at Birnbaum's cantorial school in Częstochowa.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 254,
+  "printedPage": "250",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "School Attendance",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_16ef1cde19df4531c0f44aac",
+      "pageId": "page_nybc313684_0254",
+      "scanIndex": 254,
+      "leafNumber": 253,
+      "printedPage": "250",
+      "passageCharStart": 161,
+      "passageCharEnd": 171,
+      "normalizedPassageCharStart": 161,
+      "normalizedPassageCharEnd": 171,
+      "pageCharStart": 3908,
+      "pageCharEnd": 3918,
+      "quote": "למ ד אצל ו",
+      "normalizedQuote": "למ ד אצל ו",
+      "modelQuote": "למד אצלו",
+      "bbox": {
+        "left": 507,
+        "top": 3133,
+        "right": 1055,
+        "bottom": 3207
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n253/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "55a39aa525415cb2536804bb8f392582f8e5f334eb208d7880a04c6392af05de",
+      "normalizedPassageChecksum": "4fd428073ff67f41c93e8058640d062846caf18b5023852b308c1cfbe3c1f8bf",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_516068cee0cc3cdf15241bed",
+      "type": "Place",
+      "title": "Częstochowa",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c5ff651a5b99e533b0dae56e",
+      "type": "Person",
+      "title": "Abraham Isaac Shirman",
+      "relation": "Participant",
+      "role": "Student"
+    },
+    {
+      "id": "mention_80e7057c181e87cfd5773d47",
+      "type": "Person",
+      "title": "Abraham-Ber Birnbaum",
+      "relation": "Participant",
+      "role": "Teacher"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

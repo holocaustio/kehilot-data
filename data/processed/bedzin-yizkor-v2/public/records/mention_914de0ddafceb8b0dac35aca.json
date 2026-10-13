@@ -1,0 +1,143 @@
+{
+  "id": "mention_914de0ddafceb8b0dac35aca",
+  "type": "Business",
+  "title": "Harriman Concern",
+  "summary": "American concern identified as the owner of the mines.",
+  "originalName": "הארימן קונצרן",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 302,
+  "printedPage": "298",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "conglomerate",
+  "uncertaintyNote": "The OCR provides a parenthetical name but does not clearly establish whether this is the formal company name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_01b7fb38017e334bc0e9ecde",
+      "pageId": "page_nybc313684_0302",
+      "scanIndex": 302,
+      "leafNumber": 301,
+      "printedPage": "298",
+      "passageCharStart": 1271,
+      "passageCharEnd": 1287,
+      "normalizedPassageCharStart": 1271,
+      "normalizedPassageCharEnd": 1287,
+      "pageCharStart": 2700,
+      "pageCharEnd": 2716,
+      "quote": "(הארימ ן קונצרן)",
+      "normalizedQuote": "(הארימ ן קונצרן)",
+      "modelQuote": "(הארימן קונצרן)",
+      "bbox": {
+        "left": 1067,
+        "top": 3674,
+        "right": 1677,
+        "bottom": 3744
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n301/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "36fd4d673d010ec9ee3b9789f87617e2fa7ef4bec257c00db9d6c84a511551ac",
+      "normalizedPassageChecksum": "ff113d81a412d197c54c6cdf2786824a7981b1a86b0c8950c53cfe372b716163",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_86760988351f81d31fd1b4a2",
+      "predicate": "Same As",
+      "subjectTitle": "Harriman Concern",
+      "objectTitle": "American mining company",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The parenthetical wording may identify or characterize the American company; exact corporate identity is uncertain.",
+      "evidence": {
+        "passageId": "passage_01b7fb38017e334bc0e9ecde",
+        "pageId": "page_nybc313684_0302",
+        "scanIndex": 302,
+        "leafNumber": 301,
+        "printedPage": "298",
+        "passageCharStart": 1271,
+        "passageCharEnd": 1287,
+        "normalizedPassageCharStart": 1271,
+        "normalizedPassageCharEnd": 1287,
+        "pageCharStart": 2700,
+        "pageCharEnd": 2716,
+        "quote": "(הארימ ן קונצרן)",
+        "normalizedQuote": "(הארימ ן קונצרן)",
+        "modelQuote": "(הארימן קונצרן)",
+        "bbox": {
+          "left": 1067,
+          "top": 3674,
+          "right": 1677,
+          "bottom": 3744
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n301/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "36fd4d673d010ec9ee3b9789f87617e2fa7ef4bec257c00db9d6c84a511551ac",
+        "normalizedPassageChecksum": "ff113d81a412d197c54c6cdf2786824a7981b1a86b0c8950c53cfe372b716163",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b8cb64641ad345e8501ddcae",
+      "type": "Business",
+      "title": "American mining company",
+      "relation": "Same As"
+    },
+    {
+      "id": "mention_90e09b49b1b5f17ed3c75164",
+      "type": "Community",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_531ce2362b465efb55e852ae",
+      "type": "Place",
+      "title": "Katowice",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c3c469f9045282c9e838f009",
+      "type": "Place",
+      "title": "Coal mines near Katowice",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8fbc1f7fee3268f5ba153388",
+      "type": "Person",
+      "title": "Stanczyk",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2484110ee64a9c5f3ba169a4",
+      "type": "Institution",
+      "title": "Sejm",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_aab4e8b92c901d55c570bd57",
+      "type": "Institution",
+      "title": "Office of the Professional Associations",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b8cb64641ad345e8501ddcae",
+      "type": "Business",
+      "title": "American mining company",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8af1edbb2a954aae97995e23",
+      "type": "Place",
+      "title": "Main mining office",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

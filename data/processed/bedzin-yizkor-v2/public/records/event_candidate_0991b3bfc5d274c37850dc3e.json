@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_0991b3bfc5d274c37850dc3e",
+  "type": "Event",
+  "title": "Rabbi Mordechale's death in Kielce",
+  "summary": "The rabbi died while standing in prayer, wrapped in his tallit and tefillin.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 253,
+  "printedPage": "249",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_fe7a3f518d9b66396e17aff7",
+      "pageId": "page_nybc313684_0253",
+      "scanIndex": 253,
+      "leafNumber": 252,
+      "printedPage": "249",
+      "passageCharStart": 1027,
+      "passageCharEnd": 1053,
+      "normalizedPassageCharStart": 1027,
+      "normalizedPassageCharEnd": 1053,
+      "pageCharStart": 1027,
+      "pageCharEnd": 1053,
+      "quote": "נפט ר בעמד ו באמצ ע תפילתו",
+      "normalizedQuote": "נפט ר בעמד ו באמצ ע תפילתו",
+      "modelQuote": "נפטר בעמדו באמצע תפילתו",
+      "bbox": {
+        "left": 3084,
+        "top": 1959,
+        "right": 4094,
+        "bottom": 2045
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n252/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "c3c683d34cc2676664a4264e362363d6ca4d1928d1d0cc34416d73be62f65cf4",
+      "normalizedPassageChecksum": "cd6a83db41163b1a1b188e7ee2cafacc607d23bdfd5d23e905f5c4202c6a1721",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_e48829cfd057d88f2b441dd9",
+      "type": "Place",
+      "title": "Kielce",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_3ddfcdd4439c6d9680de570b",
+      "type": "Person",
+      "title": "Rabbi Mordechale",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

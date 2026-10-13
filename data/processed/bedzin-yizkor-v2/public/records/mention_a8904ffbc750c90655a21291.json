@@ -1,0 +1,184 @@
+{
+  "id": "mention_a8904ffbc750c90655a21291",
+  "type": "Organization",
+  "title": "Dvir",
+  "summary": "Publisher of Salamandra and House of Dolls.",
+  "originalName": "דביר",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 370,
+  "printedPage": "366",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "publisher",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_55c8ac2c191d672c6becd93a",
+      "pageId": "page_nybc313684_0370",
+      "scanIndex": 370,
+      "leafNumber": 369,
+      "printedPage": "366",
+      "passageCharStart": 126,
+      "passageCharEnd": 140,
+      "normalizedPassageCharStart": 126,
+      "normalizedPassageCharEnd": 140,
+      "pageCharStart": 1185,
+      "pageCharEnd": 1199,
+      "quote": "הוצא ת \"דביר \"",
+      "normalizedQuote": "הוצא ת \"דביר \"",
+      "modelQuote": "הוצאת \"דביר\"",
+      "bbox": {
+        "left": 2614,
+        "top": 3123,
+        "right": 3442,
+        "bottom": 3193
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n369/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "7c4966c636560bb5fd9ed6964a4932593de8d374458de9799ac0f16edfa2ec60",
+      "normalizedPassageChecksum": "36d7965f881f806ef1168f67118ba2ae8e6369b955bda8f8a316a2e155b9cf5e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_75e7116c3ebb4b0cab69d5ea",
+      "predicate": "Published In",
+      "subjectTitle": "Salamandra",
+      "objectTitle": "Dvir",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "publicationPlace": "Tel Aviv",
+        "publicationDate": "תש״ז"
+      },
+      "evidence": {
+        "passageId": "passage_55c8ac2c191d672c6becd93a",
+        "pageId": "page_nybc313684_0370",
+        "scanIndex": 370,
+        "leafNumber": 369,
+        "printedPage": "366",
+        "passageCharStart": 126,
+        "passageCharEnd": 151,
+        "normalizedPassageCharStart": 126,
+        "normalizedPassageCharEnd": 151,
+        "pageCharStart": 1185,
+        "pageCharEnd": 1210,
+        "quote": "הוצא ת \"דביר \" ת״א ,\nתש״ז",
+        "normalizedQuote": "הוצא ת \"דביר \" ת״א ,\nתש״ז",
+        "modelQuote": "הוצאת \"דביר\" ת״א, תש״ז",
+        "bbox": {
+          "left": 2594,
+          "top": 3123,
+          "right": 4214,
+          "bottom": 3295
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n369/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "7c4966c636560bb5fd9ed6964a4932593de8d374458de9799ac0f16edfa2ec60",
+        "normalizedPassageChecksum": "36d7965f881f806ef1168f67118ba2ae8e6369b955bda8f8a316a2e155b9cf5e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    },
+    {
+      "id": "claim_candidate_227595df8eb50065ddcf2d3d",
+      "predicate": "Published In",
+      "subjectTitle": "House of Dolls",
+      "objectTitle": "Dvir",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "publicationDate": "תשי״ג"
+      },
+      "evidence": {
+        "passageId": "passage_55c8ac2c191d672c6becd93a",
+        "pageId": "page_nybc313684_0370",
+        "scanIndex": 370,
+        "leafNumber": 369,
+        "printedPage": "366",
+        "passageCharStart": 597,
+        "passageCharEnd": 612,
+        "normalizedPassageCharStart": 597,
+        "normalizedPassageCharEnd": 612,
+        "pageCharStart": 1656,
+        "pageCharEnd": 1671,
+        "quote": "(\"דביר\", תשי״ג)",
+        "normalizedQuote": "(\"דביר\", תשי״ג)",
+        "modelQuote": "(\"דביר\", תשי״ג)",
+        "bbox": {
+          "left": 3858,
+          "top": 4217,
+          "right": 4156,
+          "bottom": 4287
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n369/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "7c4966c636560bb5fd9ed6964a4932593de8d374458de9799ac0f16edfa2ec60",
+        "normalizedPassageChecksum": "36d7965f881f806ef1168f67118ba2ae8e6369b955bda8f8a316a2e155b9cf5e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "EXACT_RAW_OCR",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_27f7be3d250d182167cc7306",
+      "type": "Work",
+      "title": "Salamandra",
+      "relation": "Published In"
+    },
+    {
+      "id": "mention_010bfb3e6015bb331f68bb77",
+      "type": "Work",
+      "title": "House of Dolls",
+      "relation": "Published In"
+    },
+    {
+      "id": "mention_27f7be3d250d182167cc7306",
+      "type": "Work",
+      "title": "Salamandra",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ebf154c33e37f4f66efe3fa9",
+      "type": "Place",
+      "title": "Tel Aviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_010bfb3e6015bb331f68bb77",
+      "type": "Work",
+      "title": "House of Dolls",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8fe5d07e63eb8f21698c721b",
+      "type": "Person",
+      "title": "Muniak Matroz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_884162e22d3ca2dc053547c5",
+      "type": "Person",
+      "title": "Felicia Schwartz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7719a50eaf92f542bfa0c687",
+      "type": "Person",
+      "title": "K. Tsetnik's sister",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff6a69d2d49a879efb7e3e71",
+      "type": "Person",
+      "title": "K. Tsetnik's father",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

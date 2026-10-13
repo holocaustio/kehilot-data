@@ -1,0 +1,119 @@
+{
+  "id": "mention_3bfb525e48e4899f08180822",
+  "type": "Family",
+  "title": "Benda's wife and children",
+  "summary": "The knight's wife and children, said to have died in a rockfall.",
+  "originalName": "זיין ווייב מיט אלע קינדער",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 34,
+  "printedPage": "30",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "family",
+  "uncertaintyNote": "The text does not name the family members.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0f62c86c7e41e3b032638420",
+      "pageId": "page_nybc313684_0034",
+      "scanIndex": 34,
+      "leafNumber": 33,
+      "printedPage": "30",
+      "passageCharStart": 1096,
+      "passageCharEnd": 1124,
+      "normalizedPassageCharStart": 1096,
+      "normalizedPassageCharEnd": 1124,
+      "pageCharStart": 4288,
+      "pageCharEnd": 4316,
+      "quote": "זיין וויי ב מי ט אל ע קינדער",
+      "normalizedQuote": "זיין וויי ב מי ט אל ע קינדער",
+      "modelQuote": "זיין ווייב מיט אלע קינדער",
+      "bbox": {
+        "left": 1467,
+        "top": 3778,
+        "right": 2281,
+        "bottom": 3862
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n33/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "94241ef13b7cbeac22d9427dfdd9d714eb7be75d513abef27df413d8193de4c0",
+      "normalizedPassageChecksum": "4afb2eacb45a1e2d45553b1451a7abe6fbc941dd26a054d62976c68701c40ffd",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_d371b24cb71cfb866e7304c7",
+      "type": "Death",
+      "title": "Death of the knight's wife and children",
+      "summary": "The knight lost his wife and children when a falling rock crushed them.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_0f62c86c7e41e3b032638420",
+        "pageId": "page_nybc313684_0034",
+        "scanIndex": 34,
+        "leafNumber": 33,
+        "printedPage": "30",
+        "passageCharStart": 1096,
+        "passageCharEnd": 1194,
+        "normalizedPassageCharStart": 1096,
+        "normalizedPassageCharEnd": 1194,
+        "pageCharStart": 4288,
+        "pageCharEnd": 4386,
+        "quote": "זיין וויי ב מי ט אל ע קינדער , וועלכ ע זענע ן צעשמעטער ט געוואר ן\nדורך א שטי ק אראפגעפאלענע ם פעלז",
+        "normalizedQuote": "זיין וויי ב מי ט אל ע קינדער , וועלכ ע זענע ן צעשמעטער ט געוואר ן\nדורך א שטי ק אראפגעפאלענע ם פעלז",
+        "modelQuote": "זיין ווייב מיט אלע קינדער, וועלכע זענען צעשמעטערט געווארן דורךא שטיק אראפגעפאלענעם פעלז",
+        "bbox": {
+          "left": 235,
+          "top": 3778,
+          "right": 2281,
+          "bottom": 3970
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n33/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "94241ef13b7cbeac22d9427dfdd9d714eb7be75d513abef27df413d8193de4c0",
+        "normalizedPassageChecksum": "4afb2eacb45a1e2d45553b1451a7abe6fbc941dd26a054d62976c68701c40ffd",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_cad7b4995cd69295f6aa806f",
+      "type": "Person",
+      "title": "Benda",
+      "relation": "Family Of"
+    },
+    {
+      "id": "event_candidate_d371b24cb71cfb866e7304c7",
+      "type": "Event",
+      "title": "Death of the knight's wife and children",
+      "relation": "Participated In",
+      "role": "Victim"
+    },
+    {
+      "id": "mention_9239b1009629eec42c88f183",
+      "type": "Place",
+      "title": "Old Cemetery on Zawale Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1f533fbe56aea94c15fc756a",
+      "type": "Place",
+      "title": "Old Cemetery on Zawald Street",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_661d4cd00105f397c4a1f735",
+      "type": "Place",
+      "title": "Fortified castle",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

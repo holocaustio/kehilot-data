@@ -1,0 +1,143 @@
+{
+  "id": "mention_5f5dad7bc10666550c7da968",
+  "type": "Institution",
+  "title": "Art School",
+  "summary": "Warsaw institution where Apelboym taught drawing.",
+  "originalName": "ארט־שול",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 105,
+  "printedPage": "101",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "art school",
+  "uncertaintyNote": "The passage gives no more specific institutional name.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_789bf82b169a0ffc18a4358e",
+      "pageId": "page_nybc313684_0105",
+      "scanIndex": 105,
+      "leafNumber": 104,
+      "printedPage": "101",
+      "passageCharStart": 1173,
+      "passageCharEnd": 1185,
+      "normalizedPassageCharStart": 1173,
+      "normalizedPassageCharEnd": 1185,
+      "pageCharStart": 3353,
+      "pageCharEnd": 3365,
+      "quote": "דער \"ארט־שול",
+      "normalizedQuote": "דער \"ארט־שול",
+      "modelQuote": "דער \"ארט־שול",
+      "bbox": {
+        "left": 4238,
+        "top": 5187,
+        "right": 4622,
+        "bottom": 5259
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n104/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "f08666fff56060ad195a5e3dad404b5ed412f4c2947546def5c41776054a086b",
+      "normalizedPassageChecksum": "54fecbb842b887d71ef1fd319a5345f745d619a195824999f390fea4e3f95812",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_d82fcb81c62e7783a5753369",
+      "predicate": "Taught At",
+      "subjectTitle": "Moshe Apelboym",
+      "objectTitle": "Art School",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The passage says he was a drawing teacher at the Art School.",
+      "evidence": {
+        "passageId": "passage_789bf82b169a0ffc18a4358e",
+        "pageId": "page_nybc313684_0105",
+        "scanIndex": 105,
+        "leafNumber": 104,
+        "printedPage": "101",
+        "passageCharStart": 1155,
+        "passageCharEnd": 1185,
+        "normalizedPassageCharStart": 1155,
+        "normalizedPassageCharEnd": 1185,
+        "pageCharStart": 3335,
+        "pageCharEnd": 3365,
+        "quote": "צייכן־לערע ר אי ן\nדער \"ארט־שול",
+        "normalizedQuote": "צייכן־לערע ר אי ן\nדער \"ארט־שול",
+        "modelQuote": "צייכן־לערער אין דער \"ארט־שול",
+        "bbox": {
+          "left": 2582,
+          "top": 5081,
+          "right": 4622,
+          "bottom": 5259
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n104/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "f08666fff56060ad195a5e3dad404b5ed412f4c2947546def5c41776054a086b",
+        "normalizedPassageChecksum": "54fecbb842b887d71ef1fd319a5345f745d619a195824999f390fea4e3f95812",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_7e61a6e1cfe74da211ceb11f",
+      "type": "Person",
+      "title": "Moshe Apelboym",
+      "relation": "Taught At"
+    },
+    {
+      "id": "mention_7e61a6e1cfe74da211ceb11f",
+      "type": "Person",
+      "title": "Moshe Apelboym",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_250391bc942013522277c3e6",
+      "type": "Place",
+      "title": "Amshinov",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ac6702c8a067149189f77b07",
+      "type": "Place",
+      "title": "Warsaw",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e34af11a07c9e02005197a49",
+      "type": "Institution",
+      "title": "Royal Academy of Arts, London",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_3253781bc9a192c0a81497ba",
+      "type": "Person",
+      "title": "Dr. Max Nordau",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_22eb65a885d54b547c01e309",
+      "type": "Place",
+      "title": "London",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_097c601fee9fcfc759b03880",
+      "type": "Place",
+      "title": "France",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_947d319ed5d4a7a843246edd",
+      "type": "Place",
+      "title": "Netherlands",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

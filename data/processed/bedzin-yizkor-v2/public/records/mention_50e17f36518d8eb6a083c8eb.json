@@ -1,0 +1,103 @@
+{
+  "id": "mention_50e17f36518d8eb6a083c8eb",
+  "type": "Place",
+  "title": "Private road between Bedzin and Sosnowiec",
+  "summary": "Road owned by the German count and used by Reuven Lyor.",
+  "originalName": "הדרך בין בנדין לסוסנוביץ",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 344,
+  "printedPage": "340",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "road",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_1b87a5d853a7c8d1a01e36c6",
+      "pageId": "page_nybc313684_0344",
+      "scanIndex": 344,
+      "leafNumber": 343,
+      "printedPage": "340",
+      "passageCharStart": 14,
+      "passageCharEnd": 42,
+      "normalizedPassageCharStart": 14,
+      "normalizedPassageCharEnd": 42,
+      "pageCharStart": 1018,
+      "pageCharEnd": 1046,
+      "quote": "הדר ך בי ן בנדי ן לסוסנובי ץ",
+      "normalizedQuote": "הדר ך בי ן בנדי ן לסוסנובי ץ",
+      "modelQuote": "הדרך בין בנדין לסוסנוביץ",
+      "bbox": {
+        "left": 3014,
+        "top": 2221,
+        "right": 4126,
+        "bottom": 2305
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n343/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "6fd2ca85b9b6e51687376441f2a58ac4e25ac950a1ee383f5cf2a57fe33014c3",
+      "normalizedPassageChecksum": "439e55646f165753bd7aab8a36359ee81c65b610c96dfc90b50fe1fd70dd31a9",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_2ba8eb4463c236c3a98c7050",
+      "predicate": "Owned",
+      "subjectTitle": "Reuven Lyor",
+      "objectTitle": "Private road between Bedzin and Sosnowiec",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The road is attributed to the count, not to Reuven Lyor.",
+      "qualifiers": {
+        "owner": "German count Schein"
+      },
+      "evidence": {
+        "passageId": "passage_1b87a5d853a7c8d1a01e36c6",
+        "pageId": "page_nybc313684_0344",
+        "scanIndex": 344,
+        "leafNumber": 343,
+        "printedPage": "340",
+        "passageCharStart": 121,
+        "passageCharEnd": 146,
+        "normalizedPassageCharStart": 121,
+        "normalizedPassageCharEnd": 146,
+        "pageCharStart": 1125,
+        "pageCharEnd": 1150,
+        "quote": "שייכת לרוז ן הגרמנ י שיין",
+        "normalizedQuote": "שייכת לרוז ן הגרמנ י שיין",
+        "modelQuote": "שייכת לרוזן הגרמני שיין",
+        "bbox": {
+          "left": 3816,
+          "top": 2435,
+          "right": 4554,
+          "bottom": 2517
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n343/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "6fd2ca85b9b6e51687376441f2a58ac4e25ac950a1ee383f5cf2a57fe33014c3",
+        "normalizedPassageChecksum": "439e55646f165753bd7aab8a36359ee81c65b610c96dfc90b50fe1fd70dd31a9",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_c1a127a14d5d02f31a94e4c1",
+      "type": "Person",
+      "title": "Reuven Lyor",
+      "relation": "Owned"
+    },
+    {
+      "id": "mention_3ec00c45d1333451b60ed56c",
+      "type": "Place",
+      "title": "Sosnowiec",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

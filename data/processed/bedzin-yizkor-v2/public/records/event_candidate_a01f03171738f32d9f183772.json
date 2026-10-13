@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_a01f03171738f32d9f183772",
+  "type": "Event",
+  "title": "Near-drowning and rescue",
+  "summary": "The narrator fell into the river, was pulled out, and revived.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 132,
+  "printedPage": "128",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "uncertaintyNote": "The narrator survived; the allowed event types have no near-drowning category.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f92504b18db2703747c22237",
+      "pageId": "page_nybc313684_0132",
+      "scanIndex": 132,
+      "leafNumber": 131,
+      "printedPage": "128",
+      "passageCharStart": 318,
+      "passageCharEnd": 349,
+      "normalizedPassageCharStart": 318,
+      "normalizedPassageCharEnd": 349,
+      "pageCharStart": 5063,
+      "pageCharEnd": 5094,
+      "quote": "כ׳בי ן אריינגעפאל ן אי ן\nוואסער",
+      "normalizedQuote": "כ׳בי ן אריינגעפאל ן אי ן\nוואסער",
+      "modelQuote": "כ׳בין אריינגעפאלן אין וואסער",
+      "bbox": {
+        "left": 259,
+        "top": 2930,
+        "right": 2205,
+        "bottom": 3110
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n131/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "8958caac8db893963b56ac09fae6e8c9c03fc359d4649d59235cb8409210e341",
+      "normalizedPassageChecksum": "f15bb829395149c8cbef651080baacc16c5ad401065c1ba01ca8158726e0935c",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6562ae879eca62d9f0fa691a",
+      "type": "Place",
+      "title": "River near the grandfather’s mill",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4be3d8c5631ba7d6f270ab33",
+      "type": "Person",
+      "title": "Unnamed narrator",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_1e31a29f871d6ff068c2b936",
+      "type": "Person",
+      "title": "Unnamed rescuer",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

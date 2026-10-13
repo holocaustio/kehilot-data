@@ -1,0 +1,125 @@
+{
+  "id": "mention_07cc0ea09aa45ec5604596b6",
+  "type": "Business",
+  "title": "Spiegelman's newspaper agency",
+  "summary": "A newspaper agency founded by Spiegelman.",
+  "originalName": "צייטונג־אגענטור",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 111,
+  "printedPage": "107",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "newspaper agency",
+  "uncertaintyNote": "The OCR joins the surname and following word.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_3db9ee1c46596a4f87a5b259",
+      "pageId": "page_nybc313684_0111",
+      "scanIndex": 111,
+      "leafNumber": 110,
+      "printedPage": "107",
+      "passageCharStart": 267,
+      "passageCharEnd": 304,
+      "normalizedPassageCharStart": 267,
+      "normalizedPassageCharEnd": 304,
+      "pageCharStart": 3917,
+      "pageCharEnd": 3954,
+      "quote": "גרינדע ט שפיגעלמא ן א צייטונג־אגענטור",
+      "normalizedQuote": "גרינדע ט שפיגעלמא ן א צייטונג־אגענטור",
+      "modelQuote": "גרינדעט שפיגעלמאןא צייטונג־אגענטור",
+      "bbox": {
+        "left": 828,
+        "top": 3914,
+        "right": 2180,
+        "bottom": 3996
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n110/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "19680f1dab4720e97af0b0a682e0df2f4b6ecac50b9098318f8aaa087ed0c84f",
+      "normalizedPassageChecksum": "12d92cdb6c2be1908abc937c2ab8d03b9c2206169d69f9631a192655e92a4005",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_51d590133a56d1b84f5b402e",
+      "predicate": "Founded By",
+      "subjectTitle": "Spiegelman's newspaper agency",
+      "objectTitle": "Leibish Spiegelman",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR does not clearly separate Spiegelman's name from the next word.",
+      "evidence": {
+        "passageId": "passage_3db9ee1c46596a4f87a5b259",
+        "pageId": "page_nybc313684_0111",
+        "scanIndex": 111,
+        "leafNumber": 110,
+        "printedPage": "107",
+        "passageCharStart": 267,
+        "passageCharEnd": 304,
+        "normalizedPassageCharStart": 267,
+        "normalizedPassageCharEnd": 304,
+        "pageCharStart": 3917,
+        "pageCharEnd": 3954,
+        "quote": "גרינדע ט שפיגעלמא ן א צייטונג־אגענטור",
+        "normalizedQuote": "גרינדע ט שפיגעלמא ן א צייטונג־אגענטור",
+        "modelQuote": "גרינדעט שפיגעלמאןא צייטונג־אגענטור",
+        "bbox": {
+          "left": 828,
+          "top": 3914,
+          "right": 2180,
+          "bottom": 3996
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n110/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "19680f1dab4720e97af0b0a682e0df2f4b6ecac50b9098318f8aaa087ed0c84f",
+        "normalizedPassageChecksum": "12d92cdb6c2be1908abc937c2ab8d03b9c2206169d69f9631a192655e92a4005",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_6b5787fd28a55b28fcb32ed6",
+      "type": "Person",
+      "title": "Leibish Spiegelman",
+      "relation": "Founded By"
+    },
+    {
+      "id": "mention_7046f589555e24bc960b077e",
+      "type": "Person",
+      "title": "S. Rutenberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_789e697d9f852e303a6ca359",
+      "type": "Person",
+      "title": "M. Y. Berg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_a1e260dafce8f42158959f29",
+      "type": "Person",
+      "title": "Dr. Meir Balaban",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_bbe0ba7a24ac625dabf013d8",
+      "type": "Publication",
+      "title": "Zaglebier Almanac",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_61c3ef7b88cf333ddac1b85f",
+      "type": "Place",
+      "title": "Zagłębie",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

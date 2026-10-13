@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_e6b555b99fe97d678a01f6d8",
+  "type": "Event",
+  "title": "Deaths during the epidemic",
+  "summary": "More than one hundred people reportedly died during an epidemic in Będzin within two weeks.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 42,
+  "printedPage": "38",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The text reports epidemic deaths, not murders; no matching event type is available.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_380f10bbaed7727441d66f9b",
+      "pageId": "page_nybc313684_0042",
+      "scanIndex": 42,
+      "leafNumber": 41,
+      "printedPage": "38",
+      "passageCharStart": 586,
+      "passageCharEnd": 655,
+      "normalizedPassageCharStart": 586,
+      "normalizedPassageCharEnd": 655,
+      "pageCharStart": 586,
+      "pageCharEnd": 655,
+      "quote": "ויהי ו המתי ם\nבמגפה אצ ל יהודי ם תו ך שת י שבועו ת יות ר ממא ה נפשו ת",
+      "normalizedQuote": "ויהי ו המתי ם\nבמגפה אצ ל יהודי ם תו ך שת י שבועו ת יות ר ממא ה נפשו ת",
+      "modelQuote": "ויהיו המתים במגפה אצל יהודים תוך שתי שבועות יותר ממאה נפשות",
+      "bbox": {
+        "left": 2614,
+        "top": 1215,
+        "right": 4368,
+        "bottom": 1387
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n41/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "c68913929798daf58d36eb0d58dbd478c0e4d753f0707f815bce0112fd6f9a03",
+      "normalizedPassageChecksum": "246d5d1c35639a2ad7c9861439e99d2c7179db84c918179a8d823bdc3da1ffe1",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

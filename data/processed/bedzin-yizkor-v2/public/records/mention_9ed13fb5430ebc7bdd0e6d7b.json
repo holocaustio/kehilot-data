@@ -1,0 +1,100 @@
+{
+  "id": "mention_9ed13fb5430ebc7bdd0e6d7b",
+  "type": "Place",
+  "title": "Mountain",
+  "summary": "A mountain is described as near the old market.",
+  "originalName": "בארג",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 206,
+  "printedPage": "202",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "geographic_site",
+  "uncertaintyNote": "No specific mountain is named.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_92ff1a0203e5f714f3ba8013",
+      "pageId": "page_nybc313684_0206",
+      "scanIndex": 206,
+      "leafNumber": 205,
+      "printedPage": "202",
+      "passageCharStart": 0,
+      "passageCharEnd": 19,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 19,
+      "pageCharStart": 959,
+      "pageCharEnd": 978,
+      "quote": "אויף א הויכ ן באר ג",
+      "normalizedQuote": "אויף א הויכ ן באר ג",
+      "modelQuote": "אויףא הויכן בארג",
+      "bbox": {
+        "left": 3857,
+        "top": 4055,
+        "right": 4351,
+        "bottom": 4115
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n205/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "1ee1aa86a642fd6385ae2d152246f8c21e7707976155635807b8736772109461",
+      "normalizedPassageChecksum": "e23326a3ea3be3abcdbdd72db505eb6cc1ddaef450cddb4953fe37bee086dea3",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_35186e6c00526ef6c22c6334",
+      "predicate": "Near",
+      "subjectTitle": "Mountain",
+      "objectTitle": "Old market",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_92ff1a0203e5f714f3ba8013",
+        "pageId": "page_nybc313684_0206",
+        "scanIndex": 206,
+        "leafNumber": 205,
+        "printedPage": "202",
+        "passageCharStart": 0,
+        "passageCharEnd": 50,
+        "normalizedPassageCharStart": 0,
+        "normalizedPassageCharEnd": 50,
+        "pageCharStart": 959,
+        "pageCharEnd": 1009,
+        "quote": "אויף א הויכ ן באר ג —\nנישט וויי ט פו ן אלט ן מאר ק",
+        "normalizedQuote": "אויף א הויכ ן באר ג —\nנישט וויי ט פו ן אלט ן מאר ק",
+        "modelQuote": "אויףא הויכן בארג— נישט ווייט פון אלטן מארק",
+        "bbox": {
+          "left": 3559,
+          "top": 4055,
+          "right": 4351,
+          "bottom": 4221
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n205/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "1ee1aa86a642fd6385ae2d152246f8c21e7707976155635807b8736772109461",
+        "normalizedPassageChecksum": "e23326a3ea3be3abcdbdd72db505eb6cc1ddaef450cddb4953fe37bee086dea3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_9b0566eda939273c3c5839c5",
+      "type": "Place",
+      "title": "Old Market of Będzin",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_9b0566eda939273c3c5839c5",
+      "type": "Place",
+      "title": "Old Market of Będzin",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

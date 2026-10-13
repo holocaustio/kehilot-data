@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_24481295a132c8bd79791c37",
+  "type": "Event",
+  "title": "Murder of Będzin and Zagłębie Jews",
+  "summary": "The passage says Jews of Będzin and Zagłębie were killed in gas chambers at Auschwitz.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 229,
+  "printedPage": "225",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_645c82840b2ffd407ff1c52e",
+      "pageId": "page_nybc313684_0229",
+      "scanIndex": 229,
+      "leafNumber": 228,
+      "printedPage": "225",
+      "passageCharStart": 39,
+      "passageCharEnd": 88,
+      "normalizedPassageCharStart": 39,
+      "normalizedPassageCharEnd": 88,
+      "pageCharStart": 2451,
+      "pageCharEnd": 2500,
+      "quote": "מקו ם כליונ ם ש ל\nיהודי בנדי ן וזגלמבי ה בתאיהגאז",
+      "normalizedQuote": "מקו ם כליונ ם ש ל\nיהודי בנדי ן וזגלמבי ה בתאיהגאז",
+      "modelQuote": "מקום כליונם של יהודי בנדין וזגלמביה בתאיהגאז",
+      "bbox": {
+        "left": 254,
+        "top": 1919,
+        "right": 2244,
+        "bottom": 2115
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n228/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "50cc3dfa254fd949dc801d4627898aadb69fe115443013279f8a04272f8613f2",
+      "normalizedPassageChecksum": "3bf22f342942039db2bd8cc5d1fc5a027479e7cb093b965f710499a9a64e0c57",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9dc745fe1155d6effdf2f189",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_10e6af1ddbd32be27bfe6711",
+      "type": "Community",
+      "title": "Będzin Jewish community",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

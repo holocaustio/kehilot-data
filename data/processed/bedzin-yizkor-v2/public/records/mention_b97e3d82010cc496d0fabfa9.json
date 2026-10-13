@@ -1,0 +1,118 @@
+{
+  "id": "mention_b97e3d82010cc496d0fabfa9",
+  "type": "Place",
+  "title": "Forest",
+  "summary": "The events in Rabbi Bunam’s story take place in a forest.",
+  "originalName": "וואלד",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 156,
+  "printedPage": "152",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "forest",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_93e29c56c4ef60da31120eb8",
+      "pageId": "page_nybc313684_0156",
+      "scanIndex": 156,
+      "leafNumber": 155,
+      "printedPage": "152",
+      "passageCharStart": 866,
+      "passageCharEnd": 884,
+      "normalizedPassageCharStart": 866,
+      "normalizedPassageCharEnd": 884,
+      "pageCharStart": 5738,
+      "pageCharEnd": 5756,
+      "quote": "פארלאפ ן\nאין וואלד",
+      "normalizedQuote": "פארלאפ ן\nאין וואלד",
+      "modelQuote": "פארלאפן אין וואלד",
+      "bbox": {
+        "left": 234,
+        "top": 5077,
+        "right": 2284,
+        "bottom": 5271
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n155/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "6d1be06ace43c8e389788a07f1547bf52762b45ffaae0e840e6238214768487e",
+      "normalizedPassageChecksum": "b7434b141b9261a5f024b7378d107d37f2092d1f1ab6be750a1f2a8fb3e6f2c7",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_339cf088ddff8f42511cc7ef",
+      "type": "Aktion Or Raid",
+      "title": "Plague among the animals",
+      "summary": "A plague breaks out among the animals, prompting the lion to convene them.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "This is a fable about animals, not a historical epidemic.",
+      "evidence": {
+        "passageId": "passage_93e29c56c4ef60da31120eb8",
+        "pageId": "page_nybc313684_0156",
+        "scanIndex": 156,
+        "leafNumber": 155,
+        "printedPage": "152",
+        "passageCharStart": 888,
+        "passageCharEnd": 936,
+        "normalizedPassageCharStart": 888,
+        "normalizedPassageCharEnd": 936,
+        "pageCharStart": 5760,
+        "pageCharEnd": 5808,
+        "quote": "אמאל אי ז אויסגעבראכ ן א מגיפ ה צוויש ן ד י חיות",
+        "normalizedQuote": "אמאל אי ז אויסגעבראכ ן א מגיפ ה צוויש ן ד י חיות",
+        "modelQuote": "אמאל איז אויסגעבראכןא מגיפה צווישן די חיות",
+        "bbox": {
+          "left": 700,
+          "top": 5345,
+          "right": 2082,
+          "bottom": 5425
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n155/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "6d1be06ace43c8e389788a07f1547bf52762b45ffaae0e840e6238214768487e",
+        "normalizedPassageChecksum": "b7434b141b9261a5f024b7378d107d37f2092d1f1ab6be750a1f2a8fb3e6f2c7",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_339cf088ddff8f42511cc7ef",
+      "type": "Event",
+      "title": "Plague among the animals",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4a044f87a51a53ca7ccc29a4",
+      "type": "Person",
+      "title": "Rabbi Bunam",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_60629090eab2d0db2b0f8f34",
+      "type": "Institution",
+      "title": "House of Study",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f995355f4af521deaeaf1c7a",
+      "type": "Person",
+      "title": "Lion",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d04100ed6a1e9a55a9fd477a",
+      "type": "Person",
+      "title": "Tiger",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

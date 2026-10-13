@@ -1,0 +1,107 @@
+{
+  "id": "mention_2abdae82470e933c3c8f120f",
+  "type": "Institution",
+  "title": "Jewish public school",
+  "summary": "School described as founded by Moses near the Talmud Torah.",
+  "originalName": "יילישע פאלקס״שולע",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 180,
+  "printedPage": "176",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "public school",
+  "uncertaintyNote": "The school wording is OCR-corrupted.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_59eee394cd0fe1e090566b78",
+      "pageId": "page_nybc313684_0180",
+      "scanIndex": 180,
+      "leafNumber": 179,
+      "printedPage": "176",
+      "passageCharStart": 467,
+      "passageCharEnd": 486,
+      "normalizedPassageCharStart": 467,
+      "normalizedPassageCharEnd": 486,
+      "pageCharStart": 467,
+      "pageCharEnd": 486,
+      "quote": "ייליש ע פאלקס״שול ע",
+      "normalizedQuote": "ייליש ע פאלקס״שול ע",
+      "modelQuote": "יילישע פאלקס״שולע",
+      "bbox": {
+        "left": 2783,
+        "top": 868,
+        "right": 3563,
+        "bottom": 934
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n179/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "a1a11b92aba9f9dc0733dc146dd810bff088586e3631464ee22a7df774fb9cf0",
+      "normalizedPassageChecksum": "db10daddfdc0f366d53da80d2ad3f1d688768745159015b72ed0312f5fc7bb9e",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_6e8e1ac9ddb642aeaee7b152",
+      "predicate": "Near",
+      "subjectTitle": "Jewish public school",
+      "objectTitle": "Talmud Torah",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The relationship wording is OCR-corrupted.",
+      "evidence": {
+        "passageId": "passage_59eee394cd0fe1e090566b78",
+        "pageId": "page_nybc313684_0180",
+        "scanIndex": 180,
+        "leafNumber": 179,
+        "printedPage": "176",
+        "passageCharStart": 475,
+        "passageCharEnd": 507,
+        "normalizedPassageCharStart": 475,
+        "normalizedPassageCharEnd": 507,
+        "pageCharStart": 475,
+        "pageCharEnd": 507,
+        "quote": "פאלקס״שול ע בי י לע ל\nתלמול״תורה",
+        "normalizedQuote": "פאלקס״שול ע בי י לע ל\nתלמול״תורה",
+        "modelQuote": "פאלקס״שולע ביי לעל תלמול״תורה",
+        "bbox": {
+          "left": 2597,
+          "top": 868,
+          "right": 4422,
+          "bottom": 1029
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n179/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "a1a11b92aba9f9dc0733dc146dd810bff088586e3631464ee22a7df774fb9cf0",
+        "normalizedPassageChecksum": "db10daddfdc0f366d53da80d2ad3f1d688768745159015b72ed0312f5fc7bb9e",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_2434d8d83b9761469b5bdbf7",
+      "type": "Institution",
+      "title": "Talmud Torah",
+      "relation": "Near"
+    },
+    {
+      "id": "mention_175723c307d8196d000acf4a",
+      "type": "Organization",
+      "title": "Ezlah",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2434d8d83b9761469b5bdbf7",
+      "type": "Institution",
+      "title": "Talmud Torah",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

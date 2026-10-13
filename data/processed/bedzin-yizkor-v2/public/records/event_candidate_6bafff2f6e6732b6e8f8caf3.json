@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_6bafff2f6e6732b6e8f8caf3",
+  "type": "Event",
+  "title": "Death of David Shapira",
+  "summary": "David Shapira perished at Treblinka.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 343,
+  "printedPage": "339",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Death",
+  "dateStart": "1942",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0f2cfdb93db5d5ec199f2cc8",
+      "pageId": "page_nybc313684_0343",
+      "scanIndex": 343,
+      "leafNumber": 342,
+      "printedPage": "339",
+      "passageCharStart": 62,
+      "passageCharEnd": 85,
+      "normalizedPassageCharStart": 62,
+      "normalizedPassageCharEnd": 85,
+      "pageCharStart": 62,
+      "pageCharEnd": 85,
+      "quote": "ניספ ה בתש״ ב בטרבלינקה",
+      "normalizedQuote": "ניספ ה בתש״ ב בטרבלינקה",
+      "modelQuote": "ניספה בתש״ב בטרבלינקה",
+      "bbox": {
+        "left": 2599,
+        "top": 445,
+        "right": 3515,
+        "bottom": 529
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n342/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "2457777853968819441941ff5ad4d9507aba43a852f68e676ac4297919af69fb",
+      "normalizedPassageChecksum": "50b5cf3295b9e83eae3f5125af1d9a56d366c447cd8a850783bef04b48ce5049",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c7a1d12c1c580c58d25858fc",
+      "type": "Place",
+      "title": "Treblinka",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_855e772bbf1b6c92d6543947",
+      "type": "Person",
+      "title": "David Shapira (Yehuda Yafet)",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

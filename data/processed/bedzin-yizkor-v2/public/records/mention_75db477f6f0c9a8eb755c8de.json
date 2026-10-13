@@ -1,0 +1,134 @@
+{
+  "id": "mention_75db477f6f0c9a8eb755c8de",
+  "type": "Place",
+  "title": "Zmigrod House",
+  "summary": "House with an attic room where Hashomer activity was conducted.",
+  "originalName": "זמיגראדם הויז",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 30,
+  "printedPage": "26",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "house",
+  "uncertaintyNote": "The name's OCR spelling is uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_8ce72b83aa56dd79e3b7f37e",
+      "pageId": "page_nybc313684_0030",
+      "scanIndex": 30,
+      "leafNumber": 29,
+      "printedPage": "26",
+      "passageCharStart": 792,
+      "passageCharEnd": 807,
+      "normalizedPassageCharStart": 792,
+      "normalizedPassageCharEnd": 807,
+      "pageCharStart": 5690,
+      "pageCharEnd": 5705,
+      "quote": "זמיגראד ם הוי ז",
+      "normalizedQuote": "זמיגראד ם הוי ז",
+      "modelQuote": "זמיגראדם הויז",
+      "bbox": {
+        "left": 688,
+        "top": 5767,
+        "right": 1328,
+        "bottom": 5835
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n29/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "81e81edbcbed409c03bf9f15857c8927dbbf39407a6e078a1bf09919916bdbf2",
+      "normalizedPassageChecksum": "c9b9e74cbadd54c339e935e3dda072146c9a80427ef887f7e8848d52deaa72b4",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_e21769feeb2347c0a17fb3be",
+      "predicate": "Participated In",
+      "subjectTitle": "Hashomer",
+      "objectTitle": "Zmigrod House",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "OCR is unclear in the description of the activity.",
+      "qualifiers": {
+        "activity": "illegal activity conducted in an attic room"
+      },
+      "evidence": {
+        "passageId": "passage_8ce72b83aa56dd79e3b7f37e",
+        "pageId": "page_nybc313684_0030",
+        "scanIndex": 30,
+        "leafNumber": 29,
+        "printedPage": "26",
+        "passageCharStart": 752,
+        "passageCharEnd": 807,
+        "normalizedPassageCharStart": 752,
+        "normalizedPassageCharEnd": 807,
+        "pageCharStart": 5650,
+        "pageCharEnd": 5705,
+        "quote": "געפיר ט\nגעיואח א ץ א בוידעם־שטיב ל אי ן זמיגראד ם הוי ז",
+        "normalizedQuote": "געפיר ט\nגעיואח א ץ א בוידעם־שטיב ל אי ן זמיגראד ם הוי ז",
+        "modelQuote": "געפירט געיואח אץא בוידעם־שטיבל אין זמיגראדם הויז",
+        "bbox": {
+          "left": 244,
+          "top": 5659,
+          "right": 2200,
+          "bottom": 5835
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n29/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "81e81edbcbed409c03bf9f15857c8927dbbf39407a6e078a1bf09919916bdbf2",
+        "normalizedPassageChecksum": "c9b9e74cbadd54c339e935e3dda072146c9a80427ef887f7e8848d52deaa72b4",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_e3f4299290d59c83c48236f8",
+      "type": "Organization",
+      "title": "Hashomer",
+      "relation": "Participated In"
+    },
+    {
+      "id": "mention_72ab7524dc459bfd9a8a281c",
+      "type": "Person",
+      "title": "Moshe Kaminer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e3f4299290d59c83c48236f8",
+      "type": "Organization",
+      "title": "Hashomer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8f40f30eca01487243278fdf",
+      "type": "Organization",
+      "title": "General Scouts Organization",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1a6c3bf384107ef20ff063df",
+      "type": "Place",
+      "title": "Bendin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b4adc648fb609e92356e9fc",
+      "type": "Organization",
+      "title": "Hashomer Hatzair",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_8d8e3109ffde8c3cd0c8b2e1",
+      "type": "Place",
+      "title": "Galicia",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

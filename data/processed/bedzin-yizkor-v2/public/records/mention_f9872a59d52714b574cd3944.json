@@ -1,0 +1,122 @@
+{
+  "id": "mention_f9872a59d52714b574cd3944",
+  "type": "Person",
+  "title": "Shimele Ratenberg",
+  "summary": "Named as present at a July 1943 meeting in the Bedzin ghetto.",
+  "originalName": "שימעלע ראטעבבערג",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 13,
+  "printedPage": "9",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "individual",
+  "uncertaintyNote": "The OCR gives variant spellings of Ratenberg's surname.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9ffdbe02b8f01d15c411a7da",
+      "pageId": "page_nybc313684_0013",
+      "scanIndex": 13,
+      "leafNumber": 12,
+      "printedPage": "9",
+      "passageCharStart": 45,
+      "passageCharEnd": 63,
+      "normalizedPassageCharStart": 45,
+      "normalizedPassageCharEnd": 63,
+      "pageCharStart": 3352,
+      "pageCharEnd": 3370,
+      "quote": "שימעל ע ראטעבבער ג",
+      "normalizedQuote": "שימעל ע ראטעבבער ג",
+      "modelQuote": "שימעלע ראטעבבערג",
+      "bbox": {
+        "left": 2354,
+        "top": 3795,
+        "right": 3113,
+        "bottom": 3856
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n12/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "57c6c914a6c22bacfd5b9e98aec4eae6aa6c67517093d49a3dd6b79261845530",
+      "normalizedPassageChecksum": "99f863b02ccd5edbe61fb4f2a14eb86a6ab555285e736d1fa3f1288055aa65e3",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_fa4fcdc66676dedc09e5186c",
+      "type": "Migration",
+      "title": "Meeting in the ghetto",
+      "summary": "Shimele Ratenberg, Israel Gertler, and the narrator met to discuss preserving the work.",
+      "dateStart": "1943-07-30",
+      "dateEnd": "1943-07-30",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The event type enum has no meeting type; MIGRATION is not a direct fit.",
+      "evidence": {
+        "passageId": "passage_9ffdbe02b8f01d15c411a7da",
+        "pageId": "page_nybc313684_0013",
+        "scanIndex": 13,
+        "leafNumber": 12,
+        "printedPage": "9",
+        "passageCharStart": 45,
+        "passageCharEnd": 86,
+        "normalizedPassageCharStart": 45,
+        "normalizedPassageCharEnd": 86,
+        "pageCharStart": 3352,
+        "pageCharEnd": 3393,
+        "quote": "שימעל ע ראטעבבער ג דע ם 30״ט ן יול י 1943",
+        "normalizedQuote": "שימעל ע ראטעבבער ג דע ם 30״ט ן יול י 1943",
+        "modelQuote": "שימעלע ראטעבבערג דעם 30״טן יולי 1943",
+        "bbox": {
+          "left": 1826,
+          "top": 3795,
+          "right": 3113,
+          "bottom": 3866
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n12/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "57c6c914a6c22bacfd5b9e98aec4eae6aa6c67517093d49a3dd6b79261845530",
+        "normalizedPassageChecksum": "99f863b02ccd5edbe61fb4f2a14eb86a6ab555285e736d1fa3f1288055aa65e3",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_fa4fcdc66676dedc09e5186c",
+      "type": "Event",
+      "title": "Meeting in the ghetto",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_7046f589555e24bc960b077e",
+      "type": "Person",
+      "title": "Sh. Ratenberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_132eb8e5bd7ebedbc9f145c2",
+      "type": "Work",
+      "title": "Almanac",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_15fda9e0cbaab97ecc144dcd",
+      "type": "Place",
+      "title": "Będzin Ghetto",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fcaa874c225d3bd75498d1de",
+      "type": "Institution",
+      "title": "Judenrat",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

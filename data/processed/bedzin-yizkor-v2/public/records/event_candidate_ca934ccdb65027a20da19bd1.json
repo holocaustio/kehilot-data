@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_ca934ccdb65027a20da19bd1",
+  "type": "Event",
+  "title": "Deportation of Będzin Jews to Auschwitz",
+  "summary": "A group of Jews from Będzin was led for deportation to Auschwitz.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 368,
+  "printedPage": "364",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_0849cd3eaf6f6f4b3b715afa",
+      "pageId": "page_nybc313684_0368",
+      "scanIndex": 368,
+      "leafNumber": 367,
+      "printedPage": "364",
+      "passageCharStart": 0,
+      "passageCharEnd": 30,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 30,
+      "pageCharStart": 2703,
+      "pageCharEnd": 2733,
+      "quote": "יהודים מבנדי ן לשלח ם לאושוויץ",
+      "normalizedQuote": "יהודים מבנדי ן לשלח ם לאושוויץ",
+      "modelQuote": "יהודים מבנדין לשלחם לאושוויץ",
+      "bbox": {
+        "left": 1317,
+        "top": 698,
+        "right": 2209,
+        "bottom": 782
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n367/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "37de5c78e959bc99332e036de030295981e14ecf6f7359ffb5a635bb9b06dccd",
+      "normalizedPassageChecksum": "1c0843a47643e466107c88cf339eeefa790041cee78f2714b89e2dce2f628262",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9dc745fe1155d6effdf2f189",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_bfd6987149eee072317c42ea",
+      "type": "Person",
+      "title": "Hershel Springer",
+      "relation": "Participant",
+      "role": "Witness"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

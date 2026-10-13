@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_b50c3e78cc34dfd60f88d51c",
+  "type": "Event",
+  "title": "Deportation to Auschwitz",
+  "summary": "The writer was deported to Auschwitz.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 377,
+  "printedPage": "373",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d3614c40fe988c7ccd9369b2",
+      "pageId": "page_nybc313684_0377",
+      "scanIndex": 377,
+      "leafNumber": 376,
+      "printedPage": "373",
+      "passageCharStart": 315,
+      "passageCharEnd": 329,
+      "normalizedPassageCharStart": 315,
+      "normalizedPassageCharEnd": 329,
+      "pageCharStart": 1402,
+      "pageCharEnd": 1416,
+      "quote": "גור ש לאושוויץ",
+      "normalizedQuote": "גור ש לאושוויץ",
+      "modelQuote": "גורש לאושוויץ",
+      "bbox": {
+        "left": 3110,
+        "top": 3061,
+        "right": 3588,
+        "bottom": 3129
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n376/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "56b1a98ef04b6bd540cf25fc3418c5e47859e2dbfa1b97d8afde25823fd3e1a9",
+      "normalizedPassageChecksum": "62f6675b4fc7370f4e382b4d6409b79f7d07c790ce0a1fa613837a51c9735182",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9dc745fe1155d6effdf2f189",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5da2a1ae16633cae016203b0",
+      "type": "Person",
+      "title": "Unnamed Polish-Jewish writer and poet",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

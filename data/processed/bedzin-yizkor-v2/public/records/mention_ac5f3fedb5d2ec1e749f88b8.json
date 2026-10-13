@@ -1,0 +1,145 @@
+{
+  "id": "mention_ac5f3fedb5d2ec1e749f88b8",
+  "type": "Person",
+  "title": "Sarah",
+  "summary": "A mentally ill woman known for wandering the streets of Będzin and begging.",
+  "originalName": "שרה",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 154,
+  "printedPage": "150",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "woman",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_4901d2df34c60a97529677a4",
+      "pageId": "page_nybc313684_0154",
+      "scanIndex": 154,
+      "leafNumber": 153,
+      "printedPage": "150",
+      "passageCharStart": 535,
+      "passageCharEnd": 547,
+      "normalizedPassageCharStart": 535,
+      "normalizedPassageCharEnd": 547,
+      "pageCharStart": 4706,
+      "pageCharEnd": 4718,
+      "quote": "משוגענ ע שרה",
+      "normalizedQuote": "משוגענ ע שרה",
+      "modelQuote": "משוגענע שרה",
+      "bbox": {
+        "left": 1812,
+        "top": 4284,
+        "right": 2334,
+        "bottom": 4338
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n153/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "d32b89c5567c7329a9de2bc46478f3ffc78121a1a81854f41875546a748def5d",
+      "normalizedPassageChecksum": "76674f34d841fd7a373bc2aa608b077da97cc82339fc430ad2ada151fa16fca5",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_c619d7b7d8558172daacf171",
+      "predicate": "Child Of",
+      "subjectTitle": "Sarah’s daughter",
+      "objectTitle": "Sarah",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_4901d2df34c60a97529677a4",
+        "pageId": "page_nybc313684_0154",
+        "scanIndex": 154,
+        "leafNumber": 153,
+        "printedPage": "150",
+        "passageCharStart": 1106,
+        "passageCharEnd": 1130,
+        "normalizedPassageCharStart": 1106,
+        "normalizedPassageCharEnd": 1130,
+        "pageCharStart": 5277,
+        "pageCharEnd": 5301,
+        "quote": "ז י הא ט געהא ט א טאכטער",
+        "normalizedQuote": "ז י הא ט געהא ט א טאכטער",
+        "modelQuote": "זי האט געהאטא טאכטער",
+        "bbox": {
+          "left": 578,
+          "top": 5130,
+          "right": 1492,
+          "bottom": 5184
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n153/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "d32b89c5567c7329a9de2bc46478f3ffc78121a1a81854f41875546a748def5d",
+        "normalizedPassageChecksum": "76674f34d841fd7a373bc2aa608b077da97cc82339fc430ad2ada151fa16fca5",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "event_candidate_c9e9cc2b073b14f1dec587d4",
+      "type": "Death",
+      "title": "Sarah found dead from freezing",
+      "summary": "Sarah was found dead and frozen in 1928 during severe frost in Poland.",
+      "dateStart": "1928",
+      "dateEnd": "1928",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_1945ba1f22248a83b0e51a34",
+        "pageId": "page_nybc313684_0155",
+        "scanIndex": 155,
+        "leafNumber": 154,
+        "printedPage": "151",
+        "passageCharStart": 1232,
+        "passageCharEnd": 1245,
+        "normalizedPassageCharStart": 1232,
+        "normalizedPassageCharEnd": 1245,
+        "pageCharStart": 1232,
+        "pageCharEnd": 1245,
+        "quote": "אין יא ר 1928",
+        "normalizedQuote": "אין יא ר 1928",
+        "modelQuote": "אין יאר 1928",
+        "bbox": {
+          "left": 1832,
+          "top": 890,
+          "right": 2152,
+          "bottom": 954
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n154/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "d03e9a024387a581278114f2ef9c518edebdacf29a305ece11b797d3bf61c0ad",
+        "normalizedPassageChecksum": "fbce98300cb74f1377fae46b766aa7853f3bb317efa020a9b2901cfb85da34af",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_e806e58f6770680c0e9f184a",
+      "type": "Person",
+      "title": "Sarah’s daughter",
+      "relation": "Child Of"
+    },
+    {
+      "id": "event_candidate_c9e9cc2b073b14f1dec587d4",
+      "type": "Event",
+      "title": "Sarah found dead from freezing",
+      "relation": "Participated In",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_e806e58f6770680c0e9f184a",
+      "type": "Person",
+      "title": "Sarah’s daughter",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

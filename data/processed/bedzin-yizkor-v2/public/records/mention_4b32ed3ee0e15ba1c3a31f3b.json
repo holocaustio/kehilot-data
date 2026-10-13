@@ -1,0 +1,102 @@
+{
+  "id": "mention_4b32ed3ee0e15ba1c3a31f3b",
+  "type": "Business",
+  "title": "Unnamed bakery",
+  "summary": "A bakery specializing in water bagels operated below the Alexander Kloiz.",
+  "originalName": "מאפייה",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 242,
+  "printedPage": "238",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Bakery",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6c3a8f6bd079f2df2eeaf6d1",
+      "pageId": "page_nybc313684_0242",
+      "scanIndex": 242,
+      "leafNumber": 241,
+      "printedPage": "238",
+      "passageCharStart": 32,
+      "passageCharEnd": 55,
+      "normalizedPassageCharStart": 32,
+      "normalizedPassageCharEnd": 55,
+      "pageCharStart": 6297,
+      "pageCharEnd": 6320,
+      "quote": "נמצא ה מאפיי ה שהתמחת ה",
+      "normalizedQuote": "נמצא ה מאפיי ה שהתמחת ה",
+      "modelQuote": "נמצאה מאפייה שהתמחתה",
+      "bbox": {
+        "left": 250,
+        "top": 5851,
+        "right": 1178,
+        "bottom": 5911
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n241/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "144ff97dd14d2b637208aaddf71776a453403af83d6c8b967886090977a83ff2",
+      "normalizedPassageChecksum": "9dfc3d4d68d6e0b5cd109329a2914fc4267d765a8ae9d553ff8466994e4e9585",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_371e4db22e64511fae478955",
+      "predicate": "Located In",
+      "subjectTitle": "Alexander Kloiz",
+      "objectTitle": "Unnamed bakery",
+      "confidence": "HIGH",
+      "qualifiers": {
+        "spatialRelation": "bakery downstairs"
+      },
+      "evidence": {
+        "passageId": "passage_6c3a8f6bd079f2df2eeaf6d1",
+        "pageId": "page_nybc313684_0242",
+        "scanIndex": 242,
+        "leafNumber": 241,
+        "printedPage": "238",
+        "passageCharStart": 6,
+        "passageCharEnd": 29,
+        "normalizedPassageCharStart": 6,
+        "normalizedPassageCharEnd": 29,
+        "pageCharStart": 6271,
+        "pageCharEnd": 6294,
+        "quote": "בבי ת הקלוי ז האלכסנדרי",
+        "normalizedQuote": "בבי ת הקלוי ז האלכסנדרי",
+        "modelQuote": "בבית הקלויז האלכסנדרי",
+        "bbox": {
+          "left": 1180,
+          "top": 5829,
+          "right": 2066,
+          "bottom": 5909
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n241/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "144ff97dd14d2b637208aaddf71776a453403af83d6c8b967886090977a83ff2",
+        "normalizedPassageChecksum": "9dfc3d4d68d6e0b5cd109329a2914fc4267d765a8ae9d553ff8466994e4e9585",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_579b3a4acc396a3e374d3996",
+      "type": "Institution",
+      "title": "Alexander Kloiz",
+      "relation": "Located In"
+    },
+    {
+      "id": "mention_579b3a4acc396a3e374d3996",
+      "type": "Institution",
+      "title": "Alexander Kloiz",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_41b3ef0c4ab7c2e44e6b7331",
+  "type": "Event",
+  "title": "Russian military withdrawal",
+  "summary": "The Russian military withdrew from the town; the passage does not specify when.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 134,
+  "printedPage": "130",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Military Service",
+  "uncertaintyNote": "The 1914 date begins the passage; the withdrawal is described afterward without a precise date.",
+  "dateStart": "1914",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_cb701fa2027b25f9bccd44b4",
+      "pageId": "page_nybc313684_0134",
+      "scanIndex": 134,
+      "leafNumber": 133,
+      "printedPage": "130",
+      "passageCharStart": 0,
+      "passageCharEnd": 46,
+      "normalizedPassageCharStart": 0,
+      "normalizedPassageCharEnd": 46,
+      "pageCharStart": 2388,
+      "pageCharEnd": 2434,
+      "quote": "1914. ד י ערשט ע וועלט־מלחמ ה אי ז אויסגעבראכן",
+      "normalizedQuote": "1914. ד י ערשט ע וועלט־מלחמ ה אי ז אויסגעבראכן",
+      "modelQuote": "1914. די ערשטע וועלט־מלחמה איז אויסגעבראכן",
+      "bbox": {
+        "left": 574,
+        "top": 1463,
+        "right": 2078,
+        "bottom": 1539
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n133/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "5b8566dfa0babc1fc4c4ba13e018555c4f1327aa95440fd6376305315a4ce08a",
+      "normalizedPassageChecksum": "0d065c0204acb7474d37ab441abea88a6dcd96cd48aabf4896c9fed54e0c1ff2",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_696891a4dd753b83cdc6551f",
+      "type": "Organization",
+      "title": "Russian military",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

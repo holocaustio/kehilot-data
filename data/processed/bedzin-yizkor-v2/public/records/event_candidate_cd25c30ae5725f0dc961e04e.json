@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_cd25c30ae5725f0dc961e04e",
+  "type": "Event",
+  "title": "Flight to France",
+  "summary": "Goldkorn fled to France in 1940.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 185,
+  "printedPage": "181",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "dateStart": "1940",
+  "dateEnd": "1940",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_00c68ac998c60ef2d176c94b",
+      "pageId": "page_nybc313684_0185",
+      "scanIndex": 185,
+      "leafNumber": 184,
+      "printedPage": "181",
+      "passageCharStart": 420,
+      "passageCharEnd": 458,
+      "normalizedPassageCharStart": 420,
+      "normalizedPassageCharEnd": 458,
+      "pageCharStart": 3242,
+      "pageCharEnd": 3280,
+      "quote": "אין 1940 אגטלויפ ט ע ר קיי ן פראנקרייך",
+      "normalizedQuote": "אין 1940 אגטלויפ ט ע ר קיי ן פראנקרייך",
+      "modelQuote": "אין1940 אגטלויפט ער קיין פראנקרייך",
+      "bbox": {
+        "left": 1203,
+        "top": 3834,
+        "right": 2204,
+        "bottom": 3903
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n184/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "64ac163f892db6709b48c99bd3181c547227582809c9a8094ddfe5cbe5abd700",
+      "normalizedPassageChecksum": "dc6201508eeea33a8c7913b7bf24c302206800d6b42b53adb5d88e5fbefbd632",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_097c601fee9fcfc759b03880",
+      "type": "Place",
+      "title": "France",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_69d8fb758b0f1e6d50f79192",
+      "type": "Person",
+      "title": "Goldkorn",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

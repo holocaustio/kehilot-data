@@ -1,0 +1,112 @@
+{
+  "id": "mention_30ae575b4009cb44a192ce88",
+  "type": "Person",
+  "title": "Shimele",
+  "summary": "Helped his brother in the printing shop and worked on the book’s pages.",
+  "originalName": "שימעלע",
+  "confidence": "HIGH",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 13,
+  "printedPage": "9",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "nickname",
+  "uncertaintyNote": "The text gives a familiar name, not a full identity.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_515a34c78093695561deac5e",
+      "pageId": "page_nybc313684_0013",
+      "scanIndex": 13,
+      "leafNumber": 12,
+      "printedPage": "9",
+      "passageCharStart": 437,
+      "passageCharEnd": 443,
+      "normalizedPassageCharStart": 437,
+      "normalizedPassageCharEnd": 443,
+      "pageCharStart": 1787,
+      "pageCharEnd": 1793,
+      "quote": "שימעלע",
+      "normalizedQuote": "שימעלע",
+      "modelQuote": "שימעלע",
+      "bbox": {
+        "left": 4201,
+        "top": 2501,
+        "right": 4378,
+        "bottom": 2561
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n12/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "ca1ab907a382ae34ac57cbf896bed6f6428260e8bd7244a7763b96f34c5cdc07",
+      "normalizedPassageChecksum": "33c95874cc59d066aee5208d11ae4d31e8a2d1761b4b6f50725b20d25c876dec",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_a8de1e1f914ec822a4933450",
+      "predicate": "Worked At",
+      "subjectTitle": "Shimele",
+      "objectTitle": "Malachowski 56",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_515a34c78093695561deac5e",
+        "pageId": "page_nybc313684_0013",
+        "scanIndex": 13,
+        "leafNumber": 12,
+        "printedPage": "9",
+        "passageCharStart": 482,
+        "passageCharEnd": 545,
+        "normalizedPassageCharStart": 482,
+        "normalizedPassageCharEnd": 545,
+        "pageCharStart": 1832,
+        "pageCharEnd": 1895,
+        "quote": "קומע ן יעד ן טא ג אי ן דע ר דרוקערי י או ן העלפ ן זיי ן ברודע ר",
+        "normalizedQuote": "קומע ן יעד ן טא ג אי ן דע ר דרוקערי י או ן העלפ ן זיי ן ברודע ר",
+        "modelQuote": "קומען יעדן טאג אין דער דרוקעריי און העלפן זיין ברודער",
+        "bbox": {
+          "left": 1462,
+          "top": 2493,
+          "right": 3358,
+          "bottom": 2560
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n12/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "ca1ab907a382ae34ac57cbf896bed6f6428260e8bd7244a7763b96f34c5cdc07",
+        "normalizedPassageChecksum": "33c95874cc59d066aee5208d11ae4d31e8a2d1761b4b6f50725b20d25c876dec",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_ece442ce7ebb1db4fac6473e",
+      "type": "Place",
+      "title": "Malachowski 56",
+      "relation": "Worked At"
+    },
+    {
+      "id": "mention_40aaa4d4a4eeb38d8623524f",
+      "type": "Work",
+      "title": "Zaglembier Almanac",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ece442ce7ebb1db4fac6473e",
+      "type": "Place",
+      "title": "Malachowski 56",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_71a32fc170bfe37dc4500c8f",
+      "type": "Person",
+      "title": "Hersh Leib",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

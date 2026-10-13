@@ -1,0 +1,126 @@
+{
+  "id": "mention_a27f661a6b134f988b020f49",
+  "type": "Place",
+  "title": "Gobushchi Theater",
+  "summary": "Theater where the movement's flag-dedication celebration took place.",
+  "originalName": "גובושצ׳י",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 297,
+  "printedPage": "293",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "theater",
+  "uncertaintyNote": "The OCR spelling of the theater name may be uncertain.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_83677166c80902427f39a35d",
+      "pageId": "page_nybc313684_0297",
+      "scanIndex": 297,
+      "leafNumber": 296,
+      "printedPage": "293",
+      "passageCharStart": 722,
+      "passageCharEnd": 743,
+      "normalizedPassageCharStart": 722,
+      "normalizedPassageCharEnd": 743,
+      "pageCharStart": 722,
+      "pageCharEnd": 743,
+      "quote": "בתיאטרו ן \"גובושצ׳י \"",
+      "normalizedQuote": "בתיאטרו ן \"גובושצ׳י \"",
+      "modelQuote": "בתיאטרון \"גובושצ׳י\"",
+      "bbox": {
+        "left": 3081,
+        "top": 1809,
+        "right": 3977,
+        "bottom": 1889
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n296/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "337429f21feb0d1d737020f1a6c28b395ab4d5b6496dadc6efb18bb2bf3ca0f4",
+      "normalizedPassageChecksum": "d13c10e64f7c8fe7e6022d123a50bb6afc59ebdbcdd7b62247959f15ece8df43",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_cf43f0b2ae950464d82e35fd",
+      "type": "Organization Founding",
+      "title": "Zionist Youth flag dedication celebration",
+      "summary": "A formal celebration marked the dedication of the movement's flag in December 1935.",
+      "dateStart": "1935-12",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The celebration is not an organization founding; its specific event type is not available in the schema.",
+      "evidence": {
+        "passageId": "passage_83677166c80902427f39a35d",
+        "pageId": "page_nybc313684_0297",
+        "scanIndex": 297,
+        "leafNumber": 296,
+        "printedPage": "293",
+        "passageCharStart": 707,
+        "passageCharEnd": 719,
+        "normalizedPassageCharStart": 707,
+        "normalizedPassageCharEnd": 719,
+        "pageCharStart": 707,
+        "pageCharEnd": 719,
+        "quote": "בדצמב ר 1935",
+        "normalizedQuote": "בדצמב ר 1935",
+        "modelQuote": "בדצמבר 1935",
+        "bbox": {
+          "left": 3983,
+          "top": 1823,
+          "right": 4511,
+          "bottom": 1879
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n296/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "337429f21feb0d1d737020f1a6c28b395ab4d5b6496dadc6efb18bb2bf3ca0f4",
+        "normalizedPassageChecksum": "d13c10e64f7c8fe7e6022d123a50bb6afc59ebdbcdd7b62247959f15ece8df43",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_cf43f0b2ae950464d82e35fd",
+      "type": "Event",
+      "title": "Zionist Youth flag dedication celebration",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4f299d1cd6ce4b6799cb5c66",
+      "type": "Place",
+      "title": "Kielce District",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4213f7d7b43917012023c3ed",
+      "type": "Person",
+      "title": "Dr. Yitzhak Shvartsbart",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ff947244672a21129e6963a5",
+      "type": "Organization",
+      "title": "World Union of General Zionists",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f7a8be8fc0b89d2bd4eed8bf",
+      "type": "Organization",
+      "title": "General Zionist HeHalutz",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_27798329921e9ffbb46efde6",
+      "type": "Organization",
+      "title": "HeHalutz",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

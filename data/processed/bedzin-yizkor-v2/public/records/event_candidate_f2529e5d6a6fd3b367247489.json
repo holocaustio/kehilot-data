@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_f2529e5d6a6fd3b367247489",
+  "type": "Event",
+  "title": "Deportation of Będzin Jews to Auschwitz",
+  "summary": "Thousands of Będzin Jews were taken to the gas chambers of Auschwitz.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 200,
+  "printedPage": "196",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ccf0fb04df858e1a245d86e6",
+      "pageId": "page_nybc313684_0200",
+      "scanIndex": 200,
+      "leafNumber": 199,
+      "printedPage": "196",
+      "passageCharStart": 522,
+      "passageCharEnd": 620,
+      "normalizedPassageCharStart": 522,
+      "normalizedPassageCharEnd": 620,
+      "pageCharStart": 4466,
+      "pageCharEnd": 4564,
+      "quote": "מי ט נא ך\nטויזנטער בענדינע ר יידן , זענע ן מע ר נישטא , פארשלעפ ט אי ן ד י\nגאז־קאמערן פ ץ אוישוויץ",
+      "normalizedQuote": "מי ט נא ך\nטויזנטער בענדינע ר יידן , זענע ן מע ר נישטא , פארשלעפ ט אי ן ד י\nגאז־קאמערן פ ץ אוישוויץ",
+      "modelQuote": "מיט נאך טויזנטער בענדינער יידן, זענען מער נישטא, פארשלעפט אין די גאז־קאמערן פץ אוישוויץ",
+      "bbox": {
+        "left": 255,
+        "top": 2711,
+        "right": 2135,
+        "bottom": 2999
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n199/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "5762f81b19c2580664677b4d01386b1f24fdd0030869e477212e4e7fa38b8c55",
+      "normalizedPassageChecksum": "f5128b4eb89c1392ab0501dc4b23c48e6b61e2cf236ff78ae109a2adb8182a61",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9dc745fe1155d6effdf2f189",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Participant",
+      "role": "Subject"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

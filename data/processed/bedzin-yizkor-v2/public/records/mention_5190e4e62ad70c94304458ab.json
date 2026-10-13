@@ -1,0 +1,139 @@
+{
+  "id": "mention_5190e4e62ad70c94304458ab",
+  "type": "Place",
+  "title": "Wooden Castle",
+  "summary": "A wooden castle built on the fortress ruins during Bolesław the Shy’s rule.",
+  "originalName": "הילצערנער שלאם",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 14,
+  "printedPage": "10",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "castle",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_f8823eaf9fb3926df9ca21ec",
+      "pageId": "page_nybc313684_0014",
+      "scanIndex": 14,
+      "leafNumber": 13,
+      "printedPage": "10",
+      "passageCharStart": 942,
+      "passageCharEnd": 959,
+      "normalizedPassageCharStart": 942,
+      "normalizedPassageCharEnd": 959,
+      "pageCharStart": 2070,
+      "pageCharEnd": 2087,
+      "quote": "א הילצערנע ר\nשלאם",
+      "normalizedQuote": "א הילצערנע ר\nשלאם",
+      "modelQuote": "א הילצערנער שלאם",
+      "bbox": {
+        "left": 2573,
+        "top": 5693,
+        "right": 4565,
+        "bottom": 5877
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n13/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "d45d568c1137597f640f5874aa4a66799f97985aeac0819ac227a78a52823dea",
+      "normalizedPassageChecksum": "af336b961437d9e9414e9bcd638b35153d7cbeca51e6af117ee9dcbb7b659f49",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_376f5e7e0f3f4964bec25ca7",
+      "predicate": "Built On",
+      "subjectTitle": "Wooden Castle",
+      "objectTitle": "Old Castle",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR says fortress ruins; the relation to the separately named Old Castle is not certain.",
+      "qualifiers": {
+        "site": "fortress ruins"
+      },
+      "evidence": {
+        "passageId": "passage_f8823eaf9fb3926df9ca21ec",
+        "pageId": "page_nybc313684_0014",
+        "scanIndex": 14,
+        "leafNumber": 13,
+        "printedPage": "10",
+        "passageCharStart": 885,
+        "passageCharEnd": 959,
+        "normalizedPassageCharStart": 885,
+        "normalizedPassageCharEnd": 959,
+        "pageCharStart": 2013,
+        "pageCharEnd": 2087,
+        "quote": "אויף ד י חורבו ת פו ן דע ר פעסטונ ג אויפגעבוי ט געוואר ן א הילצערנע ר\nשלאם",
+        "normalizedQuote": "אויף ד י חורבו ת פו ן דע ר פעסטונ ג אויפגעבוי ט געוואר ן א הילצערנע ר\nשלאם",
+        "modelQuote": "אויף די חורבות פון דער פעסטונג אויפגעבויט געווארןא הילצערנער שלאם",
+        "bbox": {
+          "left": 2573,
+          "top": 5693,
+          "right": 4609,
+          "bottom": 5877
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n13/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "d45d568c1137597f640f5874aa4a66799f97985aeac0819ac227a78a52823dea",
+        "normalizedPassageChecksum": "af336b961437d9e9414e9bcd638b35153d7cbeca51e6af117ee9dcbb7b659f49",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b6d21c2452e9e7fe465b000e",
+      "type": "Place",
+      "title": "Old Castle",
+      "relation": "Built On"
+    },
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_237018956513dacea38c25e0",
+      "type": "Place",
+      "title": "Kielce Voivodeship",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c6b04f7c6faccbbb6d2d7833",
+      "type": "Place",
+      "title": "Black Przemsza",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b6d21c2452e9e7fe465b000e",
+      "type": "Place",
+      "title": "Old Castle",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b58cab0567fe74a942d4056e",
+      "type": "Place",
+      "title": "Fortress",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_09a6498bdec93d1ae79e7b7c",
+      "type": "Person",
+      "title": "Bolesław the Shy",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_15b5964269dab89307dcdf56",
+      "type": "Place",
+      "title": "Będzin (historical names)",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

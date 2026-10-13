@@ -1,0 +1,62 @@
+{
+  "id": "event_candidate_cb10545794e70c192c586e7b",
+  "type": "Event",
+  "title": "Memorial construction",
+  "summary": "The association says it is building a monument in memory of the deceased.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 402,
+  "printedPage": "398",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dce0f45638e4a4deea9d2269",
+      "pageId": "page_nybc313684_0402",
+      "scanIndex": 402,
+      "leafNumber": 401,
+      "printedPage": "398",
+      "passageCharStart": 617,
+      "passageCharEnd": 657,
+      "normalizedPassageCharStart": 617,
+      "normalizedPassageCharEnd": 657,
+      "pageCharStart": 2962,
+      "pageCharEnd": 3002,
+      "quote": "באשעפטיק ט מיט ן בויע ן פו ן א מאנומענ ט",
+      "normalizedQuote": "באשעפטיק ט מיט ן בויע ן פו ן א מאנומענ ט",
+      "modelQuote": "באשעפטיקט מיטן בויען פוןא מאנומענט",
+      "bbox": {
+        "left": 239,
+        "top": 2604,
+        "right": 1655,
+        "bottom": 2668
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n401/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "6fc8c1981fd4c521ef1c21b74eb969e4fedfe907bd4feb567790c91b6846759f",
+      "normalizedPassageChecksum": "cd53323a00c2887e784ffac047d222355d9ec5e30f477b6228cdf38ebfa79698",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c7a6f736a9ee713c7f9f9780",
+      "type": "Place",
+      "title": "Memorial monument",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_5f9bdb34b1a034a3671ddd21",
+      "type": "Organization",
+      "title": "Friends' Association",
+      "relation": "Participant",
+      "role": "Organizer"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

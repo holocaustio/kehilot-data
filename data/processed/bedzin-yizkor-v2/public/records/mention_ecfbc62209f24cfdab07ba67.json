@@ -1,0 +1,131 @@
+{
+  "id": "mention_ecfbc62209f24cfdab07ba67",
+  "type": "Institution",
+  "title": "Old study house",
+  "summary": "Old study house burned along with the synagogue.",
+  "originalName": "בית־המדרש הישן",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 355,
+  "printedPage": "351",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "Study house",
+  "uncertaintyNote": "The institution is not individually named.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_702ff78dec75296341fa45d4",
+      "pageId": "page_nybc313684_0355",
+      "scanIndex": 355,
+      "leafNumber": 354,
+      "printedPage": "351",
+      "passageCharStart": 616,
+      "passageCharEnd": 632,
+      "normalizedPassageCharStart": 616,
+      "normalizedPassageCharEnd": 632,
+      "pageCharStart": 4110,
+      "pageCharEnd": 4126,
+      "quote": "בית־המדר ש היש ן",
+      "normalizedQuote": "בית־המדר ש היש ן",
+      "modelQuote": "בית־המדרש הישן",
+      "bbox": {
+        "left": 243,
+        "top": 5480,
+        "right": 945,
+        "bottom": 5544
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n354/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "0c423826025d2696bc355769e87307787a6f6203768daacc837895bacad9bf0a",
+      "normalizedPassageChecksum": "6940216a8d11aed86891645ce21286e496882c227b38521af14f0a0a4affa7aa",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_486a3a7420ecdb593631df5c",
+      "type": "Fire",
+      "title": "Burning of the synagogue and old study house",
+      "summary": "The synagogue and old study house burned during the destruction of a district of Będzin.",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_702ff78dec75296341fa45d4",
+        "pageId": "page_nybc313684_0355",
+        "scanIndex": 355,
+        "leafNumber": 354,
+        "printedPage": "351",
+        "passageCharStart": 596,
+        "passageCharEnd": 632,
+        "normalizedPassageCharStart": 596,
+        "normalizedPassageCharEnd": 632,
+        "pageCharStart": 4090,
+        "pageCharEnd": 4126,
+        "quote": "שריפ ת בי ת הכנס ת ובית־המדר ש היש ן",
+        "normalizedQuote": "שריפ ת בי ת הכנס ת ובית־המדר ש היש ן",
+        "modelQuote": "שריפת בית הכנסת ובית־המדרש הישן",
+        "bbox": {
+          "left": 243,
+          "top": 5480,
+          "right": 1619,
+          "bottom": 5546
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n354/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "0c423826025d2696bc355769e87307787a6f6203768daacc837895bacad9bf0a",
+        "normalizedPassageChecksum": "6940216a8d11aed86891645ce21286e496882c227b38521af14f0a0a4affa7aa",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_486a3a7420ecdb593631df5c",
+      "type": "Event",
+      "title": "Burning of the synagogue and old study house",
+      "relation": "Participated In",
+      "role": "Participant"
+    },
+    {
+      "id": "mention_10e6af1ddbd32be27bfe6711",
+      "type": "Community",
+      "title": "Będzin Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_00681770a16bfe1d498d1832",
+      "type": "Person",
+      "title": "Springer",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6f1b6c5c3d160c868468458e",
+      "type": "Person",
+      "title": "Gaftek",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c38f9f93c8fac0387cb80383",
+      "type": "Person",
+      "title": "Shitenberg",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_1663b86892219e448b796a11",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_e17b35e7db52494712609645",
+      "type": "Institution",
+      "title": "Synagogue",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

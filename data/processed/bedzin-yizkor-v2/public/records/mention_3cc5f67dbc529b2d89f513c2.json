@@ -1,0 +1,130 @@
+{
+  "id": "mention_3cc5f67dbc529b2d89f513c2",
+  "type": "Place",
+  "title": "Beersheba",
+  "summary": "City where the travelers were arrested by British police.",
+  "originalName": "באר־שבע",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 129,
+  "printedPage": "125",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "City",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_dc5a7fedf684405f2911da45",
+      "pageId": "page_nybc313684_0129",
+      "scanIndex": 129,
+      "leafNumber": 128,
+      "printedPage": "125",
+      "passageCharStart": 308,
+      "passageCharEnd": 320,
+      "normalizedPassageCharStart": 308,
+      "normalizedPassageCharEnd": 320,
+      "pageCharStart": 3494,
+      "pageCharEnd": 3506,
+      "quote": "בי ז באר־שבע",
+      "normalizedQuote": "בי ז באר־שבע",
+      "modelQuote": "ביז באר־שבע",
+      "bbox": {
+        "left": 670,
+        "top": 2545,
+        "right": 1190,
+        "bottom": 2599
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n128/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "fb39a033e1749c79751f86f140ab1b48486ecf27820f39f7436cbd8848f55415",
+      "normalizedPassageChecksum": "5c448ed7b910e09751f5a84b367d4a6483c5df403fedda1ba4ae201da0367612",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_9ba6539bc095e0071ed9cbbe",
+      "type": "Arrest",
+      "title": "Arrest in Beersheba",
+      "summary": "British police arrested the travelers after finding revolver bullets in their car.",
+      "confidence": "HIGH",
+      "uncertaintyNote": "The travelers are not individually identified here.",
+      "evidence": {
+        "passageId": "passage_dc5a7fedf684405f2911da45",
+        "pageId": "page_nybc313684_0129",
+        "scanIndex": 129,
+        "leafNumber": 128,
+        "printedPage": "125",
+        "passageCharStart": 323,
+        "passageCharEnd": 376,
+        "normalizedPassageCharStart": 323,
+        "normalizedPassageCharEnd": 376,
+        "pageCharStart": 3509,
+        "pageCharEnd": 3562,
+        "quote": "ד א ווער ן\nזיי ארעסטיר ט דור ך דע ר ענגלישע ר פאליציי",
+        "normalizedQuote": "ד א ווער ן\nזיי ארעסטיר ט דור ך דע ר ענגלישע ר פאליציי",
+        "modelQuote": "דא ווערן זיי ארעסטירט דורך דער ענגלישער פאליציי",
+        "bbox": {
+          "left": 318,
+          "top": 2549,
+          "right": 2388,
+          "bottom": 2711
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n128/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "fb39a033e1749c79751f86f140ab1b48486ecf27820f39f7436cbd8848f55415",
+        "normalizedPassageChecksum": "5c448ed7b910e09751f5a84b367d4a6483c5df403fedda1ba4ae201da0367612",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_9ba6539bc095e0071ed9cbbe",
+      "type": "Event",
+      "title": "Arrest in Beersheba",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_1a8a45ba27a932dea7989448",
+      "type": "Organization",
+      "title": "Maccabi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_4b265c78b6b36ff9fc212738",
+      "type": "Place",
+      "title": "Land of Israel",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6b5842e3ca6bf3a2deb65004",
+      "type": "Place",
+      "title": "Jerusalem",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_cf3f98b362d37b3fa8169bb7",
+      "type": "Organization",
+      "title": "Jewish Agency",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_ebf154c33e37f4f66efe3fa9",
+      "type": "Place",
+      "title": "Tel Aviv",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_fca940bfb2a2ee2dfff8ebbb",
+      "type": "Person",
+      "title": "Moshe Shoham",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

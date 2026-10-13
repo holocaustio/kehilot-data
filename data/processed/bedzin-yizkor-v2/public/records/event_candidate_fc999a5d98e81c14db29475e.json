@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_fc999a5d98e81c14db29475e",
+  "type": "Event",
+  "title": "German army enters Będzin",
+  "summary": "A force from the regular German army marched into Będzin in the afternoon.",
+  "confidence": "MEDIUM",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 60,
+  "printedPage": "56",
+  "reviewStatus": "MACHINE_ADJUDICATED",
+  "kind": "event",
+  "subtype": "Military Entry",
+  "uncertaintyNote": "The text gives no calendar date; the event type is only an approximate fit.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_636a8de859ac495103777bd1",
+      "pageId": "page_nybc313684_0060",
+      "scanIndex": 60,
+      "leafNumber": 59,
+      "printedPage": "56",
+      "passageCharStart": 154,
+      "passageCharEnd": 242,
+      "normalizedPassageCharStart": 154,
+      "normalizedPassageCharEnd": 242,
+      "pageCharStart": 154,
+      "pageCharEnd": 242,
+      "quote": "נאכמיטא ג הא ט שוי ן אריינמארשיר ט א פוסגייער ־\nפולק פו ן דע ר רעגולערע ר דייטשע ר ארמיי",
+      "normalizedQuote": "נאכמיטא ג הא ט שוי ן אריינמארשיר ט א פוסגייער ־\nפולק פו ן דע ר רעגולערע ר דייטשע ר ארמיי",
+      "modelQuote": "נאכמיטאג האט שוין אריינמארשירטא פוסגייער־ פולק פון דער רעגולערער דייטשער ארמיי",
+      "bbox": {
+        "left": 2564,
+        "top": 462,
+        "right": 4586,
+        "bottom": 640
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n59/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "382c96bde2b28d03d42be7f9ecd6f0c1b55e9df825f634d596169915cdaf9e28",
+      "normalizedPassageChecksum": "51e989cc0b272ae981094f1b8d71efcd0787213e4d80d1a66e58e851376a0400",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_47ff411e23acee4d06dfc7f7",
+      "type": "Organization",
+      "title": "German Army",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

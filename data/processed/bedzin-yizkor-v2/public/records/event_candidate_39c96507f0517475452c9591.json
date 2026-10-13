@@ -1,0 +1,64 @@
+{
+  "id": "event_candidate_39c96507f0517475452c9591",
+  "type": "Event",
+  "title": "Murder of unnamed man and wife at Auschwitz",
+  "summary": "The man and his wife died in the gas chambers on the day of their deportation.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 338,
+  "printedPage": "334",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "dateStart": "1943-08-01",
+  "dateEnd": "1943-08-01",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_285f3cabfb17954992ea4caf",
+      "pageId": "page_nybc313684_0338",
+      "scanIndex": 338,
+      "leafNumber": 337,
+      "printedPage": "334",
+      "passageCharStart": 213,
+      "passageCharEnd": 258,
+      "normalizedPassageCharStart": 213,
+      "normalizedPassageCharEnd": 258,
+      "pageCharStart": 2744,
+      "pageCharEnd": 2789,
+      "quote": "ב ו ביו ם מצ א מות ו ע ם רעיית ו בתא י הגאזים",
+      "normalizedQuote": "ב ו ביו ם מצ א מות ו ע ם רעיית ו בתא י הגאזים",
+      "modelQuote": "בו ביום מצא מותו עם רעייתו בתאי הגאזים",
+      "bbox": {
+        "left": 271,
+        "top": 2496,
+        "right": 1711,
+        "bottom": 2550
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n337/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "bf55a65104f54e774b17443512af5a5db694a499ba5515c9c76c9fdf2be283da",
+      "normalizedPassageChecksum": "1b8bbb22c709f9fa388223860414239596e861d69ae74fa51dd0cec9dca1fb96",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_9dc745fe1155d6effdf2f189",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_c8ef719b9a74a4f308023d99",
+      "type": "Person",
+      "title": "Unnamed man",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,136 @@
+{
+  "id": "mention_4d83b09d107f3c4cf4b931d9",
+  "type": "Place",
+  "title": "Party headquarters",
+  "summary": "New party premises inaugurated at a celebration attended by members and guests.",
+  "originalName": "בית המפלגה",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 274,
+  "printedPage": "270",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "building",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_78fe1052d02be768c359daed",
+      "pageId": "page_nybc313684_0274",
+      "scanIndex": 274,
+      "leafNumber": 273,
+      "printedPage": "270",
+      "passageCharStart": 909,
+      "passageCharEnd": 921,
+      "normalizedPassageCharStart": 909,
+      "normalizedPassageCharEnd": 921,
+      "pageCharStart": 3603,
+      "pageCharEnd": 3615,
+      "quote": "בי ת המפלג ה",
+      "normalizedQuote": "בי ת המפלג ה",
+      "modelQuote": "בית המפלגה",
+      "bbox": {
+        "left": 1479,
+        "top": 5610,
+        "right": 2229,
+        "bottom": 5682
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n273/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "1e216ab0c3078b980a603740865ee40909e32fb745818c31a0e931c2a848302e",
+      "normalizedPassageChecksum": "2509270c6c3381cc828d3bc9684e5eb6a075fbc58de268a4cd656aeb27f65bab",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_936c4dc93bb4e652ea6ee3c5",
+      "type": "Headquarters Inauguration Celebration",
+      "title": "Party headquarters celebration",
+      "summary": "The party celebrated the inauguration of its new premises with members, guests, and representatives.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The text describes an inauguration celebration, not a business opening.",
+      "evidence": {
+        "passageId": "passage_78fe1052d02be768c359daed",
+        "pageId": "page_nybc313684_0274",
+        "scanIndex": 274,
+        "leafNumber": 273,
+        "printedPage": "270",
+        "passageCharStart": 566,
+        "passageCharEnd": 601,
+        "normalizedPassageCharStart": 566,
+        "normalizedPassageCharEnd": 601,
+        "pageCharStart": 3260,
+        "pageCharEnd": 3295,
+        "quote": "חנוכ ת הבי ת ש ל מעמנ ו\nהחדש נערכ ה",
+        "normalizedQuote": "חנוכ ת הבי ת ש ל מעמנ ו\nהחדש נערכ ה",
+        "modelQuote": "חנוכת הבית של מעמנו החדש נערכה",
+        "bbox": {
+          "left": 233,
+          "top": 4966,
+          "right": 2241,
+          "bottom": 5146
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n273/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "1e216ab0c3078b980a603740865ee40909e32fb745818c31a0e931c2a848302e",
+        "normalizedPassageChecksum": "2509270c6c3381cc828d3bc9684e5eb6a075fbc58de268a4cd656aeb27f65bab",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_936c4dc93bb4e652ea6ee3c5",
+      "type": "Event",
+      "title": "Party headquarters celebration",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_d1ab8322d305e511c01b5b12",
+      "type": "Person",
+      "title": "Aryeh Lior",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6f3ec03fd8277e71ca257228",
+      "type": "Place",
+      "title": "Danzig",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_90e09b49b1b5f17ed3c75164",
+      "type": "Community",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_2099c0c0c35fda5126cebe14",
+      "type": "Organization",
+      "title": "Association",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7798707702de3da28485c42a",
+      "type": "Person",
+      "title": "Dr. Rechtman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_57dc4ebe4dbfa16fe0ec2991",
+      "type": "Person",
+      "title": "Yosef Levi",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_f7bc9d3bc7b917a2726112b1",
+      "type": "Organization",
+      "title": "Gordonia",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

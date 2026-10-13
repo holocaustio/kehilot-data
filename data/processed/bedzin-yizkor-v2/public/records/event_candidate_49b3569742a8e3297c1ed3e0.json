@@ -1,0 +1,71 @@
+{
+  "id": "event_candidate_49b3569742a8e3297c1ed3e0",
+  "type": "Event",
+  "title": "First legal issue of the newspaper published",
+  "summary": "The first fully legal issue of the newspaper appeared on November 14, 1913.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 69,
+  "printedPage": "65",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Business Opening",
+  "dateStart": "1913-11-14",
+  "dateEnd": "1913-11-14",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_ed65e00a615db2e4069b71cb",
+      "pageId": "page_nybc313684_0069",
+      "scanIndex": 69,
+      "leafNumber": 68,
+      "printedPage": "65",
+      "passageCharStart": 887,
+      "passageCharEnd": 948,
+      "normalizedPassageCharStart": 887,
+      "normalizedPassageCharEnd": 948,
+      "pageCharStart": 3387,
+      "pageCharEnd": 3448,
+      "quote": "דע ם 14־ט ן נאוועמבע ר 1913 אי ז דערשינע ן דע ר\nערשטער נומע ר",
+      "normalizedQuote": "דע ם 14־ט ן נאוועמבע ר 1913 אי ז דערשינע ן דע ר\nערשטער נומע ר",
+      "modelQuote": "דעם 14־טן נאוועמבער1913 איז דערשינען דער ערשטער נומער",
+      "bbox": {
+        "left": 218,
+        "top": 931,
+        "right": 2124,
+        "bottom": 1099
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n68/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "9a6b7680c56f577bc3a0539f8340c23d23cb509a60f343ea57a4b803f189cc41",
+      "normalizedPassageChecksum": "45096e754f0851a3a42ac45aed640fee6b845add72f27dac3127b34d3497967a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ccebd4017186f33ab36ea41d",
+      "type": "Publication",
+      "title": "Our Telephone",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_2c2a31c272e7d1c0e6be45bd",
+      "type": "Person",
+      "title": "Ephraim Zeidner",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

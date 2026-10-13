@@ -1,0 +1,63 @@
+{
+  "id": "event_candidate_d0b536e5b4efc82a1451826c",
+  "type": "Event",
+  "title": "Murder of Hershl Vandersman",
+  "summary": "The passage says Germans murdered Hershl Vandersman in Budapest.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 348,
+  "printedPage": "344",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Murder",
+  "uncertaintyNote": "The OCR date wording is unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_9b89fece37071ebf37114b95",
+      "pageId": "page_nybc313684_0348",
+      "scanIndex": 348,
+      "leafNumber": 347,
+      "printedPage": "344",
+      "passageCharStart": 1264,
+      "passageCharEnd": 1306,
+      "normalizedPassageCharStart": 1264,
+      "normalizedPassageCharEnd": 1306,
+      "pageCharStart": 4187,
+      "pageCharEnd": 4229,
+      "quote": "שנרצ ח אח ר כ ד ע ל יד י הגרמני ם בבודפש ט",
+      "normalizedQuote": "שנרצ ח אח ר כ ד ע ל יד י הגרמני ם בבודפש ט",
+      "modelQuote": "שנרצח אחר כד על ידי הגרמנים בבודפשט",
+      "bbox": {
+        "left": 284,
+        "top": 2072,
+        "right": 2050,
+        "bottom": 2154
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n347/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "df63517e38a3876dbadb94fc917a82bfeca9a4c92b773ba8f7751d0e49bb63d4",
+      "normalizedPassageChecksum": "3b5d8c0626a0743593c0673651bf9c8d333c902d83f1494ff3f2f8b06cab1467",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_5e9c66181f38cc5987082d7e",
+      "type": "Place",
+      "title": "Budapest",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_4eb344402e17e4d5aa665846",
+      "type": "Person",
+      "title": "Hershl Vandersman",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

@@ -1,0 +1,136 @@
+{
+  "id": "mention_efddc48a8966bc7406db4232",
+  "type": "Business",
+  "title": "Beer brewery",
+  "summary": "The business owned by the bank's president, identified in the text as Serzazh.",
+  "originalName": "ביר־ברויעריי",
+  "confidence": "MEDIUM",
+  "validation": "EXACT_RAW_OCR",
+  "scanIndex": 120,
+  "printedPage": "116",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "business",
+  "uncertaintyNote": "The president's name is OCR-unclear.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6ea862c9d4d2f2a02fda69ea",
+      "pageId": "page_nybc313684_0120",
+      "scanIndex": 120,
+      "leafNumber": 119,
+      "printedPage": "116",
+      "passageCharStart": 368,
+      "passageCharEnd": 380,
+      "normalizedPassageCharStart": 368,
+      "normalizedPassageCharEnd": 380,
+      "pageCharStart": 2674,
+      "pageCharEnd": 2686,
+      "quote": "ביר־ברויעריי",
+      "normalizedQuote": "ביר־ברויעריי",
+      "modelQuote": "ביר־ברויעריי",
+      "bbox": {
+        "left": 3730,
+        "top": 5039,
+        "right": 4210,
+        "bottom": 5093
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n119/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "072d124eb7201b8e451b25f956bec93e55ff49a668379fd6d29081b62a6d8705",
+      "normalizedPassageChecksum": "88a33086536413585ebc41880a379e43e66301255280d7be658448206005d334",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "EXACT_RAW_OCR",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_a9dfa67a828364e24c72c95e",
+      "predicate": "Owned",
+      "subjectTitle": "Jewish Loan and Savings Bank",
+      "objectTitle": "Beer brewery",
+      "confidence": "HIGH",
+      "evidence": {
+        "passageId": "passage_6ea862c9d4d2f2a02fda69ea",
+        "pageId": "page_nybc313684_0120",
+        "scanIndex": 120,
+        "leafNumber": 119,
+        "printedPage": "116",
+        "passageCharStart": 344,
+        "passageCharEnd": 380,
+        "normalizedPassageCharStart": 344,
+        "normalizedPassageCharEnd": 380,
+        "pageCharStart": 2650,
+        "pageCharEnd": 2686,
+        "quote": "אייגנ ־\nטימער פו ן דע ר ביר־ברויעריי",
+        "normalizedQuote": "אייגנ ־\nטימער פו ן דע ר ביר־ברויעריי",
+        "modelQuote": "אייגנ־ טימער פון דער ביר־ברויעריי",
+        "bbox": {
+          "left": 2538,
+          "top": 4917,
+          "right": 4502,
+          "bottom": 5105
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n119/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "072d124eb7201b8e451b25f956bec93e55ff49a668379fd6d29081b62a6d8705",
+        "normalizedPassageChecksum": "88a33086536413585ebc41880a379e43e66301255280d7be658448206005d334",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_91c8c1d0e95d4569d78ff909",
+      "type": "Business",
+      "title": "Jewish Loan and Savings Bank",
+      "relation": "Owned"
+    },
+    {
+      "id": "mention_91c8c1d0e95d4569d78ff909",
+      "type": "Business",
+      "title": "Jewish Loan and Savings Bank",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_860dfd0e00bf66faf0940d84",
+      "type": "Business",
+      "title": "Meytlis-Patok",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_7d64372163d2f7e0f0e2e809",
+      "type": "Person",
+      "title": "Bergman",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_6d6483c07c2c4b0e83a11898",
+      "type": "Person",
+      "title": "Meshulam Liver",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_14925cd1d4df5d3e08616d7f",
+      "type": "Person",
+      "title": "Fraver",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_10233ba5feda3c46a5456d37",
+      "type": "Person",
+      "title": "Wiener",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_d356e5a3222f641a17b7dcc8",
+      "type": "Business",
+      "title": "Mutual Credit Society for Trade and Industry",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,109 @@
+{
+  "id": "mention_f21d0ae978b0af3ed2fd371d",
+  "type": "Place",
+  "title": "Slawkow Street",
+  "summary": "Street where the deputy was in his own residence.",
+  "originalName": "סלאווקאווער־גאס",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 18,
+  "printedPage": "14",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "street",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_6df6d4b1be6652545e3f36bd",
+      "pageId": "page_nybc313684_0018",
+      "scanIndex": 18,
+      "leafNumber": 17,
+      "printedPage": "14",
+      "passageCharStart": 322,
+      "passageCharEnd": 338,
+      "normalizedPassageCharStart": 322,
+      "normalizedPassageCharEnd": 338,
+      "pageCharStart": 6731,
+      "pageCharEnd": 6747,
+      "quote": "סלאווקאווער־גא ס",
+      "normalizedQuote": "סלאווקאווער־גא ס",
+      "modelQuote": "סלאווקאווער־גאס",
+      "bbox": {
+        "left": 298,
+        "top": 5685,
+        "right": 1084,
+        "bottom": 5767
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n17/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "e5155c92e87e38184cf7ba5147baf68d0ce17397a4ebedd2e28a280eb5164c75",
+      "normalizedPassageChecksum": "ab0a5582f24a9539e27cf9314e404f7ba3b0f2eed25d683b784cea5683c9aaac",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_candidate_16dea75d3c05f38d1a11b7ee",
+      "predicate": "Formerly Named",
+      "subjectTitle": "Slawkow Street",
+      "objectTitle": "Kolagataia",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The OCR transliteration of the present-day name is uncertain.",
+      "qualifiers": {
+        "temporal": "present-day name stated in source"
+      },
+      "evidence": {
+        "passageId": "passage_6df6d4b1be6652545e3f36bd",
+        "pageId": "page_nybc313684_0018",
+        "scanIndex": 18,
+        "leafNumber": 17,
+        "printedPage": "14",
+        "passageCharStart": 340,
+        "passageCharEnd": 356,
+        "normalizedPassageCharStart": 340,
+        "normalizedPassageCharEnd": 356,
+        "pageCharStart": 6749,
+        "pageCharEnd": 6765,
+        "quote": "היינ ט\nקאלאגטאיא",
+        "normalizedQuote": "היינ ט\nקאלאגטאיא",
+        "modelQuote": "היינט קאלאגטאיא",
+        "bbox": {
+          "left": 254,
+          "top": 5695,
+          "right": 1988,
+          "bottom": 5863
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n17/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "e5155c92e87e38184cf7ba5147baf68d0ce17397a4ebedd2e28a280eb5164c75",
+        "normalizedPassageChecksum": "ab0a5582f24a9539e27cf9314e404f7ba3b0f2eed25d683b784cea5683c9aaac",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "events": [],
+  "connections": [
+    {
+      "id": "mention_b4887e65e059e383427e5e36",
+      "type": "Place",
+      "title": "Kolagataia",
+      "relation": "Formerly Named"
+    },
+    {
+      "id": "mention_9efb3bc52c5ccb1275e98a78",
+      "type": "Community",
+      "title": "Będzin Jewish community",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_b4887e65e059e383427e5e36",
+      "type": "Place",
+      "title": "Kolagataia",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

@@ -1,0 +1,113 @@
+{
+  "id": "mention_fc96a8d0964c49680dd5934a",
+  "type": "Organization",
+  "title": "United Committee",
+  "summary": "Committee organized a protest demonstration against persecutions of Jews in Germany.",
+  "originalName": "פארייניקטער קאמיטעט",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 66,
+  "printedPage": "62",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "mention",
+  "subtype": "committee",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_05e3cf5824e8b3f8e96a5fd6",
+      "pageId": "page_nybc313684_0066",
+      "scanIndex": 66,
+      "leafNumber": 65,
+      "printedPage": "62",
+      "passageCharStart": 151,
+      "passageCharEnd": 199,
+      "normalizedPassageCharStart": 151,
+      "normalizedPassageCharEnd": 199,
+      "pageCharStart": 1380,
+      "pageCharEnd": 1428,
+      "quote": "ע ס אי ז געשאפ ן געוואר ן א פארייניקטע ר קאמיטעט",
+      "normalizedQuote": "ע ס אי ז געשאפ ן געוואר ן א פארייניקטע ר קאמיטעט",
+      "modelQuote": "עס איז געשאפן געווארןא פארייניקטער קאמיטעט",
+      "bbox": {
+        "left": 2583,
+        "top": 4030,
+        "right": 4253,
+        "bottom": 4098
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n65/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "77ec991b6b81c0fbd98b91d0f4420574c742bf5c3af7c6788e25a0a6364cfbb3",
+      "normalizedPassageChecksum": "b62537c6defbf2312e599eb9e067c0e0cfb06b04c0ca8d203714799a622b8270",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "claims": [],
+  "events": [
+    {
+      "id": "event_candidate_289964672a9a2ae7692fbc45",
+      "type": "Protest",
+      "title": "Protest against anti-Jewish persecution",
+      "summary": "A protest meeting and street demonstration opposed persecutions of Jews in Germany.",
+      "confidence": "MEDIUM",
+      "uncertaintyNote": "The enum does not provide a protest event type.",
+      "evidence": {
+        "passageId": "passage_05e3cf5824e8b3f8e96a5fd6",
+        "pageId": "page_nybc313684_0066",
+        "scanIndex": 66,
+        "leafNumber": 65,
+        "printedPage": "62",
+        "passageCharStart": 215,
+        "passageCharEnd": 268,
+        "normalizedPassageCharStart": 215,
+        "normalizedPassageCharEnd": 268,
+        "pageCharStart": 1444,
+        "pageCharEnd": 1497,
+        "quote": "ארגאניזיר ט א פראטעס ט מאניפעסטאצי ע קעג ן ד י\nרדיפות",
+        "normalizedQuote": "ארגאניזיר ט א פראטעס ט מאניפעסטאצי ע קעג ן ד י\nרדיפות",
+        "modelQuote": "ארגאניזירטא פראטעסט מאניפעסטאציע קעגן די רדיפות",
+        "bbox": {
+          "left": 2565,
+          "top": 4142,
+          "right": 4477,
+          "bottom": 4312
+        },
+        "scanUrl": "https://archive.org/details/nybc313684/page/n65/mode/1up",
+        "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+        "passageChecksum": "77ec991b6b81c0fbd98b91d0f4420574c742bf5c3af7c6788e25a0a6364cfbb3",
+        "normalizedPassageChecksum": "b62537c6defbf2312e599eb9e067c0e0cfb06b04c0ca8d203714799a622b8270",
+        "normalizationVersion": "ocr-layout-normalizer-v1",
+        "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+        "alignmentScore": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "event_candidate_289964672a9a2ae7692fbc45",
+      "type": "Event",
+      "title": "Protest against anti-Jewish persecution",
+      "relation": "Participated In",
+      "role": "Organizer"
+    },
+    {
+      "id": "mention_ada82c2c2519481c0908aceb",
+      "type": "Place",
+      "title": "Hakoach Square",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_61c3ef7b88cf333ddac1b85f",
+      "type": "Place",
+      "title": "Zagłębie",
+      "relation": "Appears in same passage"
+    },
+    {
+      "id": "mention_c5c5dd04c3aa93756f513b06",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Appears in same passage"
+    }
+  ],
+  "publicationEligible": false
+}

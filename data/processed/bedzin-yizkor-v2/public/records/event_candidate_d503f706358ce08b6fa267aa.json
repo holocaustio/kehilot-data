@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_d503f706358ce08b6fa267aa",
+  "type": "Event",
+  "title": "Bodies transported to Auschwitz",
+  "summary": "Gestapo agents removed the dead from their graves and transported them to Auschwitz to burn them.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 369,
+  "printedPage": "365",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Deportation",
+  "uncertaintyNote": "The plural refers to the dead; the number and identities are not specified.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_d6525319008b802ef8faae3b",
+      "pageId": "page_nybc313684_0369",
+      "scanIndex": 369,
+      "leafNumber": 368,
+      "printedPage": "365",
+      "passageCharStart": 602,
+      "passageCharEnd": 628,
+      "normalizedPassageCharStart": 602,
+      "normalizedPassageCharEnd": 628,
+      "pageCharStart": 5456,
+      "pageCharEnd": 5482,
+      "quote": "והובילו ם לאושוויץ , לשרפם",
+      "normalizedQuote": "והובילו ם לאושוויץ , לשרפם",
+      "modelQuote": "והובילום לאושוויץ, לשרפם",
+      "bbox": {
+        "left": 957,
+        "top": 5102,
+        "right": 1887,
+        "bottom": 5184
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n368/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "0ed5d87b84afe250e6c5a82519d9fa2361ea78229b9b6e6a329f1a76eefaf7f7",
+      "normalizedPassageChecksum": "aca70f48bf81faebc3038d527a132085ac6338736af349f2008e9026f258405a",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_6e15a902a4afd48e693cae29",
+      "type": "Place",
+      "title": "Auschwitz",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_711bfe7c7895f6d667d217f7",
+      "type": "Organization",
+      "title": "Gestapo",
+      "relation": "Participant",
+      "role": "Perpetrator"
+    },
+    {
+      "id": "mention_f88b20253e5aedee4c5fb223",
+      "type": "Person",
+      "title": "Zvi",
+      "relation": "Participant",
+      "role": "Victim"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}

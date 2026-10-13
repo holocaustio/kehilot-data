@@ -1,0 +1,70 @@
+{
+  "id": "event_candidate_621755f6032f74d2ee1f697d",
+  "type": "Event",
+  "title": "Rabbi Shlomo's visit to Będzin",
+  "summary": "Rabbi Shlomo visited Będzin while Kalman and other Hasidim traveled to meet him.",
+  "confidence": "HIGH",
+  "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+  "scanIndex": 256,
+  "printedPage": "252",
+  "reviewStatus": "SOURCE_LINKED_EXTRACTION",
+  "kind": "event",
+  "subtype": "Migration",
+  "uncertaintyNote": "The visit does not establish migration; event type is outside the supplied event enums.",
+  "evidenceRefs": [
+    {
+      "passageId": "passage_5863ad49ac5362def9cd6168",
+      "pageId": "page_nybc313684_0256",
+      "scanIndex": 256,
+      "leafNumber": 255,
+      "printedPage": "252",
+      "passageCharStart": 52,
+      "passageCharEnd": 86,
+      "normalizedPassageCharStart": 52,
+      "normalizedPassageCharEnd": 86,
+      "pageCharStart": 3600,
+      "pageCharEnd": 3634,
+      "quote": "פע ם\nביקר הצדי ק רב י שלמ ה בבנדין",
+      "normalizedQuote": "פע ם\nביקר הצדי ק רב י שלמ ה בבנדין",
+      "modelQuote": "פעם ביקר הצדיק רבי שלמה בבנדין",
+      "bbox": {
+        "left": 228,
+        "top": 1183,
+        "right": 2240,
+        "bottom": 1339
+      },
+      "scanUrl": "https://archive.org/details/nybc313684/page/n255/mode/1up",
+      "pdfUrl": "https://archive.org/download/nybc313684/nybc313684.pdf",
+      "passageChecksum": "c89a21de4a39d8f4ab5b8417b3a72a6ba6d7593e2f29c6160150a5c79aaa2498",
+      "normalizedPassageChecksum": "c27438314f4b398138488b3b6240c5fc823b5d285754aad59c6a4493b46f68ba",
+      "normalizationVersion": "ocr-layout-normalizer-v1",
+      "validation": "UNIQUE_OCR_WHITESPACE_ALIGNMENT",
+      "alignmentScore": 1
+    }
+  ],
+  "connections": [
+    {
+      "id": "mention_1663b86892219e448b796a11",
+      "type": "Place",
+      "title": "Będzin",
+      "relation": "Occurred At"
+    },
+    {
+      "id": "mention_ba5bcfc4a269fcbcffa20b77",
+      "type": "Person",
+      "title": "Rabbi Shlomo of Radomsk",
+      "relation": "Participant",
+      "role": "Subject"
+    },
+    {
+      "id": "mention_cfa438c7571c37eae802aea2",
+      "type": "Person",
+      "title": "Kalman",
+      "relation": "Participant",
+      "role": "Participant"
+    }
+  ],
+  "claims": [],
+  "events": [],
+  "publicationEligible": false
+}
